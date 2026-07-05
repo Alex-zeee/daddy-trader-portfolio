@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M. Ali Alvi — Forex Trader · Developer · Educator</title>
+<meta name="description" content="M. Ali Alvi — Forex trader, MQL5/Python developer, and trading educator at Daddy Trader Academy." />
+<style>
+  :root{
+    --bg: #f6f6f3;
+    --panel: #ffffff;
+    --ink: #14171c;
+    --ink-soft: #4b5158;
+    --line: #e2e1db;
+    --gold: #b4903f;
+    --green: #2e5c4e;
+    --red: #a24438;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Body', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, .mono, .eyebrow, .ticker, .stat-num, nav .brand{
+    font-family: 'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+  }
+
+  a{ color: inherit; }
+
+  .wrap{
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- Nav ---------- */
+  nav{
+    position: sticky; top:0; z-index: 50;
+    background: rgba(246,246,243,0.9);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    height: 60px;
+  }
+  nav .brand{ font-size: 14px; letter-spacing: 0.02em; }
+  nav .brand span{ color: var(--gold); }
+  nav ul{ list-style:none; display:flex; gap:22px; margin:0; padding:0; }
+  nav a{ text-decoration:none; font-size: 13px; color: var(--ink-soft); }
+  nav a:hover, nav a:focus-visible{ color: var(--ink); }
+
+  /* ---------- Ticker tape ---------- */
+  .ticker-tape{
+    border-bottom: 1px solid var(--line);
+    background: var(--ink);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 8px 0;
+  }
+  .ticker-track{
+    display:inline-block;
+    padding-left: 100%;
+    animation: scroll-left 32s linear infinite;
+  }
+  .ticker-tape:hover .ticker-track{ animation-play-state: paused; }
+  .ticker-item{
+    display:inline-flex; align-items:center; gap:8px;
+    color: #d8d6cd; font-size: 12.5px; margin-right: 40px;
+  }
+  .ticker-item b{ color:#fff; font-weight: 500; }
+  .up{ color: #7fbfa2; }
+  .down{ color: #d38b7c; }
+  @keyframes scroll-left{
+    0%{ transform: translateX(0); }
+    100%{ transform: translateX(-100%); }
+  }
+
+  /* ---------- Hero ---------- */
+  header.hero{ padding: 72px 0 56px; border-bottom: 1px solid var(--line); }
+  .eyebrow{
+    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--gold); margin: 0 0 18px;
+  }
+  h1{
+    font-size: clamp(32px, 6vw, 52px);
+    line-height: 1.05;
+    margin: 0 0 18px;
+    letter-spacing: -0.01em;
+  }
+  .tagline{
+    font-size: 17px; line-height: 1.6; color: var(--ink-soft);
+    max-width: 56ch; margin: 0 0 30px;
+  }
+  .hero-actions{ display:flex; gap:12px; flex-wrap:wrap; }
+  .btn{
+    display:inline-block; padding: 11px 20px; border-radius: 2px;
+    font-size: 13px; text-decoration:none; border: 1px solid var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .btn.primary{ background: var(--ink); color: var(--bg); }
+  .btn.primary:hover{ background: #2a2f37; }
+  .btn.ghost{ color: var(--ink); }
+  .btn.ghost:hover{ background: rgba(0,0,0,0.04); }
+
+  /* sparkline */
+  .spark{ margin-top: 40px; }
+  .spark svg{ width: 100%; height: 64px; display:block; }
+
+  /* ---------- Sections ---------- */
+  section{ padding: 64px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type{ border-bottom: none; }
+  .section-label{
+    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-soft); margin: 0 0 8px;
+  }
+  h2{ font-size: 24px; margin: 0 0 28px; }
+
+  /* About */
+  .about-grid{
+    display:grid; grid-template-columns: 120px 1fr; gap: 32px; align-items:start;
+  }
+  .avatar{
+    width: 96px; height: 96px; border-radius: 3px;
+    background: var(--panel); border: 1px solid var(--line);
+    display:flex; align-items:center; justify-content:center;
+    font-family: 'IBM Plex Mono', monospace; font-size: 26px; color: var(--gold);
+  }
+  .about-text p{ font-size: 15.5px; line-height: 1.75; color: var(--ink-soft); margin: 0 0 14px; }
+  .location-tag{
+    display:inline-flex; align-items:center; gap:6px; margin-top:6px;
+    font-size: 12.5px; color: var(--ink-soft);
+  }
+
+  /* Skills */
+  .skills-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .skill-card{
+    background: var(--panel); border: 1px solid var(--line); border-radius: 3px;
+    padding: 22px;
+  }
+  .skill-card h3{
+    font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em;
+    margin: 0 0 16px; color: var(--ink-soft); font-weight: 600;
+  }
+  .tag-list{ display:flex; flex-wrap:wrap; gap: 8px; }
+  .tag{
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+    padding: 5px 9px; border: 1px solid var(--line); border-radius: 2px;
+    color: var(--ink);
+  }
+  .tag::before{ content: "["; color: var(--gold); }
+  .tag::after{ content: "]"; color: var(--gold); }
+
+  /* Projects */
+  .project-card{
+    background: var(--panel); border: 1px solid var(--line); border-radius: 3px;
+    padding: 30px; display:grid; grid-template-columns: 1fr auto; gap: 24px; align-items:center;
+  }
+  .project-card h3{ font-size: 19px; margin: 0 0 10px; }
+  .project-card p{ font-size: 14.5px; line-height: 1.7; color: var(--ink-soft); margin:0; max-width: 46ch; }
+  .stat{ text-align:center; padding-left: 24px; border-left: 1px solid var(--line); }
+  .stat-num{ font-size: 34px; color: var(--gold); line-height:1; }
+  .stat-label{ font-size: 11px; color: var(--ink-soft); text-transform:uppercase; letter-spacing: 0.08em; margin-top:6px; }
+
+  /* Contact */
+  .contact-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .contact-list{ list-style:none; margin:0; padding:0; }
+  .contact-list li{ margin-bottom: 14px; }
+  .contact-list a{
+    text-decoration:none; font-size: 15px; border-bottom: 1px solid var(--line);
+    padding-bottom: 2px; transition: border-color .15s;
+  }
+  .contact-list a:hover{ border-color: var(--gold); }
+  .contact-label{ display:block; font-size: 11px; color: var(--ink-soft); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:4px; }
+
+  footer{ padding: 32px 0 60px; text-align:center; }
+  footer p{ font-size: 12px; color: var(--ink-soft); font-family:'IBM Plex Mono', monospace; }
+
+  /* Reveal animation */
+  .reveal{ opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.in{ opacity: 1; transform: translateY(0); }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+    .ticker-track{ animation: none; }
+    .reveal{ opacity:1; transform:none; transition:none; }
+  }
+
+  @media (max-width: 680px){
+    .about-grid{ grid-template-columns: 1fr; }
+    .avatar{ width: 72px; height: 72px; font-size: 20px; }
+    .skills-grid{ grid-template-columns: 1fr; }
+    .project-card{ grid-template-columns: 1fr; }
+    .stat{ border-left:none; border-top: 1px solid var(--line); padding-left:0; padding-top:16px; }
+    .contact-grid{ grid-template-columns: 1fr; }
+    nav ul{ gap: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">M<span>.</span>ALI ALVI</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="ticker-tape" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">XAUUSD <b class="up">Gold Analysis</b></span>
+    <span class="ticker-item">XAGUSD <b class="up">Silver Analysis</b></span>
+    <span class="ticker-item">SMC <b>Smart Money Concepts</b></span>
+    <span class="ticker-item">ENGULFING <b>Price Action</b></span>
+    <span class="ticker-item">MQL5 <b class="up">EA Development</b></span>
+    <span class="ticker-item">PYTHON <b class="up">Automation</b></span>
+    <span class="ticker-item">PINE SCRIPT <b>TradingView Indicators</b></span>
+    <span class="ticker-item">DADDY TRADER ACADEMY <b class="up">25+ Batches Trained</b></span>
+    <!-- duplicate for seamless loop -->
+    <span class="ticker-item">XAUUSD <b class="up">Gold Analysis</b></span>
+    <span class="ticker-item">XAGUSD <b class="up">Silver Analysis</b></span>
+    <span class="ticker-item">SMC <b>Smart Money Concepts</b></span>
+    <span class="ticker-item">ENGULFING <b>Price Action</b></span>
+    <span class="ticker-item">MQL5 <b class="up">EA Development</b></span>
+    <span class="ticker-item">PYTHON <b class="up">Automation</b></span>
+    <span class="ticker-item">PINE SCRIPT <b>TradingView Indicators</b></span>
+    <span class="ticker-item">DADDY TRADER ACADEMY <b class="up">25+ Batches Trained</b></span>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Forex Trader · Software Developer · Educator</p>
+    <h1>M. Ali Alvi</h1>
+    <p class="tagline">
+      I trade financial markets, build automated trading tools, and train people
+      to read price action with confidence. Based in Dera Ismail Khan, Pakistan.
+    </p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn ghost" href="#work">See my work</a>
+    </div>
+
+    <div class="spark reveal" aria-hidden="true">
+      <svg viewBox="0 0 400 64" preserveAspectRatio="none">
+        <polyline fill="none" stroke="#2e5c4e" stroke-width="2"
+          points="0,44 20,40 40,46 60,30 80,34 100,20 120,26 140,14 160,22 180,10 200,18
+                  220,26 240,16 260,24 280,12 300,20 320,8 340,16 360,6 380,14 400,4" />
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap reveal">
+    <p class="section-label">01 — About</p>
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="avatar">MA</div>
+      <div class="about-text">
+        <p>
+          I'm a professional Forex trader, software developer, and educator.
+          I design automated trading tools — commonly called bots — and I
+          teach people how financial markets actually move, using structured,
+          repeatable methods rather than guesswork.
+        </p>
+        <p>
+          My work sits at the intersection of markets and code: I analyze
+          Gold and Silver using Smart Money Concepts and Engulfing price
+          action, then turn that analysis into automated strategies on
+          MetaTrader 5 and TradingView.
+        </p>
+        <span class="location-tag">📍 Dera Ismail Khan, Pakistan</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap reveal">
+    <p class="section-label">02 — Skills</p>
+    <h2>What I Work With</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Financial Trading</h3>
+        <div class="tag-list">
+          <span class="tag">Gold XAUUSD</span>
+          <span class="tag">Silver XAGUSD</span>
+          <span class="tag">Market Analysis</span>
+          <span class="tag">Engulfing</span>
+          <span class="tag">Smart Money Concepts</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Programming &amp; Coding</h3>
+        <div class="tag-list">
+          <span class="tag">Python</span>
+          <span class="tag">MQL5</span>
+          <span class="tag">MT5 Expert Advisors</span>
+          <span class="tag">Pine Script</span>
+          <span class="tag">TradingView Indicators</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap reveal">
+    <p class="section-label">03 — Work</p>
+    <h2>Projects</h2>
+    <div class="project-card">
+      <div>
+        <h3>Daddy Trader Academy</h3>
+        <p>
+          A premier trading academy where I've delivered practical, hands-on
+          training in Smart Money Concepts and Engulfing price action to
+          students across multiple structured batches.
+        </p>
+      </div>
+      <div class="stat">
+        <div class="stat-num">25+</div>
+        <div class="stat-label">Batches Trained</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap reveal">
+    <p class="section-label">04 — Contact</p>
+    <h2>Get In Touch</h2>
+    <div class="contact-grid">
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:blankeeb1@gmail.com">blankeeb1@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">Location</span>
+          Dera Ismail Khan, Pakistan
+        </li>
+      </ul>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">YouTube</span>
+          <a href="https://www.youtube.com/@DaddyTrader-ali" target="_blank" rel="noopener">@DaddyTrader-ali</a>
+        </li>
+        <li>
+          <span class="contact-label">TikTok</span>
+          <a href="https://www.tiktok.com/@daddytrader_0" target="_blank" rel="noopener">@daddytrader_0</a>
+        </li>
+        <li>
+          <span class="contact-label">Binance Square</span>
+          <a href="https://www.binance.com/en/square/profile/daddytrader" target="_blank" rel="noopener">@daddytrader</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> M. Ali Alvi — Built with care.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
