@@ -3,8 +3,60 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>M. Ali Alvi — Forex Trader · Developer · Educator</title>
-<meta name="description" content="M. Ali Alvi — Forex trader, MQL5/Python developer, and trading educator at Daddy Trader Academy." />
+<title>M. Ali Alvi — Forex Trader, MQL5 Developer &amp; Trading Educator | Daddy Trader Academy</title>
+<meta name="description" content="M. Ali Alvi — professional Forex trader, MQL5/Python developer & trading educator. Gold (XAUUSD) analysis, Smart Money Concepts, Engulfing price action, MT5 Expert Advisors. Daddy Trader Academy — 25+ batches trained." />
+<meta name="keywords" content="M. Ali Alvi, Daddy Trader, Daddy Trader Academy, Forex trader Pakistan, Gold trading, XAUUSD analysis, Silver XAGUSD, Smart Money Concepts, SMC, Engulfing strategy, price action, MQL5 developer, MT5 Expert Advisor, MetaTrader 5, Pine Script, TradingView indicators, Python trading bot, Forex course Pakistan, trading academy Dera Ismail Khan, forex mentor, lot size calculator" />
+<meta name="author" content="M. Ali Alvi" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://alex-zeee.github.io/daddy-trader-portfolio/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="M. Ali Alvi — Forex Trader, MQL5 Developer & Trading Educator" />
+<meta property="og:description" content="Gold & Silver analysis with Smart Money Concepts, automated trading tools, and hands-on trading education. Daddy Trader Academy — 25+ batches trained." />
+<meta property="og:url" content="https://alex-zeee.github.io/daddy-trader-portfolio/" />
+<meta property="og:site_name" content="M. Ali Alvi — Daddy Trader" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="M. Ali Alvi — Forex Trader, MQL5 Developer & Trading Educator" />
+<meta name="twitter:description" content="Gold & Silver analysis with SMC, automated trading tools, and trading education at Daddy Trader Academy." />
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "M. Ali Alvi",
+  "alternateName": "Daddy Trader",
+  "jobTitle": "Forex Trader, Software Developer & Trading Educator",
+  "url": "https://alex-zeee.github.io/daddy-trader-portfolio/",
+  "email": "mailto:blankweb1@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Dera Ismail Khan", "addressCountry": "PK" },
+  "sameAs": [
+    "https://www.youtube.com/@DaddyTrader-ali",
+    "https://www.tiktok.com/@daddytrader_0",
+    "https://www.binance.com/en/square/profile/daddytrader"
+  ],
+  "knowsAbout": ["Forex Trading","Gold XAUUSD","Smart Money Concepts","Engulfing Price Action","MQL5","MetaTrader 5","Pine Script","Python","TradingView"],
+  "worksFor": { "@type": "Organization", "name": "Daddy Trader Academy" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is Daddy Trader Academy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Daddy Trader Academy is a trading education program by M. Ali Alvi teaching Smart Money Concepts and Engulfing price action, with 25+ structured batches trained." } },
+    { "@type": "Question", "name": "Which markets do you trade?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Primarily Gold (XAUUSD) and Silver (XAGUSD), using Smart Money Concepts combined with Engulfing price action." } },
+    { "@type": "Question", "name": "Do you build custom trading bots?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — custom MT5 Expert Advisors in MQL5, TradingView indicators in Pine Script, and Python automation tools." } }
+  ]
+}
+</script>
+
 <style>
   :root{
     --bg: #f6f6f3;
@@ -16,144 +68,92 @@
     --green: #2e5c4e;
     --red: #a24438;
   }
-
   *{ box-sizing: border-box; }
   html{ scroll-behavior: smooth; }
-
   body{
-    margin:0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: 'Body', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin:0; background: var(--bg); color: var(--ink);
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-
-  h1, h2, .mono, .eyebrow, .ticker, .stat-num, nav .brand{
+  h1, h2, .mono, .eyebrow, .ticker, .stat-num, nav .brand, .price-num, .calc-result b{
     font-family: 'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
   }
-
   a{ color: inherit; }
-
-  .wrap{
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
+  .wrap{ max-width: 920px; margin: 0 auto; padding: 0 24px; }
 
   /* ---------- Nav ---------- */
   nav{
     position: sticky; top:0; z-index: 50;
-    background: rgba(246,246,243,0.9);
+    background: rgba(246,246,243,0.92);
     backdrop-filter: blur(6px);
     border-bottom: 1px solid var(--line);
   }
-  nav .wrap{
-    display:flex; align-items:center; justify-content:space-between;
-    height: 60px;
-  }
+  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height: 60px; }
   nav .brand{ font-size: 14px; letter-spacing: 0.02em; }
   nav .brand span{ color: var(--gold); }
-  nav ul{ list-style:none; display:flex; gap:22px; margin:0; padding:0; }
+  nav ul{ list-style:none; display:flex; gap:18px; margin:0; padding:0; flex-wrap:wrap; }
   nav a{ text-decoration:none; font-size: 13px; color: var(--ink-soft); }
   nav a:hover, nav a:focus-visible{ color: var(--ink); }
 
-  /* ---------- Ticker tape ---------- */
+  /* ---------- Ticker ---------- */
   .ticker-tape{
-    border-bottom: 1px solid var(--line);
-    background: var(--ink);
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 8px 0;
+    border-bottom: 1px solid var(--line); background: var(--ink);
+    overflow: hidden; white-space: nowrap; padding: 8px 0;
   }
-  .ticker-track{
-    display:inline-block;
-    padding-left: 100%;
-    animation: scroll-left 32s linear infinite;
-  }
+  .ticker-track{ display:inline-block; padding-left: 100%; animation: scroll-left 32s linear infinite; }
   .ticker-tape:hover .ticker-track{ animation-play-state: paused; }
-  .ticker-item{
-    display:inline-flex; align-items:center; gap:8px;
-    color: #d8d6cd; font-size: 12.5px; margin-right: 40px;
-  }
+  .ticker-item{ display:inline-flex; align-items:center; gap:8px; color: #d8d6cd; font-size: 12.5px; margin-right: 40px; }
   .ticker-item b{ color:#fff; font-weight: 500; }
-  .up{ color: #7fbfa2; }
-  .down{ color: #d38b7c; }
-  @keyframes scroll-left{
-    0%{ transform: translateX(0); }
-    100%{ transform: translateX(-100%); }
-  }
+  .up{ color: #7fbfa2; } .down{ color: #d38b7c; }
+  @keyframes scroll-left{ 0%{ transform: translateX(0);} 100%{ transform: translateX(-100%);} }
 
   /* ---------- Hero ---------- */
   header.hero{ padding: 72px 0 56px; border-bottom: 1px solid var(--line); }
-  .eyebrow{
-    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
-    color: var(--gold); margin: 0 0 18px;
-  }
-  h1{
-    font-size: clamp(32px, 6vw, 52px);
-    line-height: 1.05;
-    margin: 0 0 18px;
-    letter-spacing: -0.01em;
-  }
-  .tagline{
-    font-size: 17px; line-height: 1.6; color: var(--ink-soft);
-    max-width: 56ch; margin: 0 0 30px;
-  }
+  .eyebrow{ font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin: 0 0 18px; }
+  h1{ font-size: clamp(32px, 6vw, 52px); line-height: 1.05; margin: 0 0 18px; letter-spacing: -0.01em; }
+  .tagline{ font-size: 17px; line-height: 1.6; color: var(--ink-soft); max-width: 56ch; margin: 0 0 30px; }
   .hero-actions{ display:flex; gap:12px; flex-wrap:wrap; }
   .btn{
-    display:inline-block; padding: 11px 20px; border-radius: 2px;
-    font-size: 13px; text-decoration:none; border: 1px solid var(--ink);
-    font-family: 'IBM Plex Mono', monospace;
+    display:inline-block; padding: 11px 20px; border-radius: 2px; font-size: 13px;
+    text-decoration:none; border: 1px solid var(--ink); cursor:pointer;
+    font-family: 'IBM Plex Mono', monospace; background:transparent;
   }
   .btn.primary{ background: var(--ink); color: var(--bg); }
   .btn.primary:hover{ background: #2a2f37; }
   .btn.ghost{ color: var(--ink); }
   .btn.ghost:hover{ background: rgba(0,0,0,0.04); }
-
-  /* sparkline */
+  .btn.gold{ background: var(--gold); border-color: var(--gold); color:#fff; }
+  .btn.gold:hover{ background:#9c7c34; }
   .spark{ margin-top: 40px; }
-  .spark svg{ width: 100%; height: 64px; display:block; }
+  .spark svg{ width: 100%; height: 90px; display:block; }
 
   /* ---------- Sections ---------- */
   section{ padding: 64px 0; border-bottom: 1px solid var(--line); }
   section:last-of-type{ border-bottom: none; }
-  .section-label{
-    font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
-    color: var(--ink-soft); margin: 0 0 8px;
-  }
+  .section-label{ font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 8px; }
   h2{ font-size: 24px; margin: 0 0 28px; }
+  h3{ font-size: 17px; }
 
   /* About */
-  .about-grid{
-    display:grid; grid-template-columns: 120px 1fr; gap: 32px; align-items:start;
-  }
+  .about-grid{ display:grid; grid-template-columns: 120px 1fr; gap: 32px; align-items:start; }
   .avatar{
-    width: 96px; height: 96px; border-radius: 3px;
-    background: var(--panel); border: 1px solid var(--line);
-    display:flex; align-items:center; justify-content:center;
+    width: 96px; height: 96px; border-radius: 3px; background: var(--panel);
+    border: 1px solid var(--line); display:flex; align-items:center; justify-content:center;
     font-family: 'IBM Plex Mono', monospace; font-size: 26px; color: var(--gold);
   }
   .about-text p{ font-size: 15.5px; line-height: 1.75; color: var(--ink-soft); margin: 0 0 14px; }
-  .location-tag{
-    display:inline-flex; align-items:center; gap:6px; margin-top:6px;
-    font-size: 12.5px; color: var(--ink-soft);
-  }
+  .location-tag{ display:inline-flex; align-items:center; gap:6px; margin-top:6px; font-size: 12.5px; color: var(--ink-soft); }
 
   /* Skills */
   .skills-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-  .skill-card{
-    background: var(--panel); border: 1px solid var(--line); border-radius: 3px;
-    padding: 22px;
+  .skill-card, .card{
+    background: var(--panel); border: 1px solid var(--line); border-radius: 3px; padding: 22px;
   }
-  .skill-card h3{
-    font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em;
-    margin: 0 0 16px; color: var(--ink-soft); font-weight: 600;
-  }
+  .skill-card h3{ font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 16px; color: var(--ink-soft); font-weight: 600; }
   .tag-list{ display:flex; flex-wrap:wrap; gap: 8px; }
   .tag{
-    font-family: 'IBM Plex Mono', monospace; font-size: 12px;
-    padding: 5px 9px; border: 1px solid var(--line); border-radius: 2px;
-    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 5px 9px;
+    border: 1px solid var(--line); border-radius: 2px; color: var(--ink);
   }
   .tag::before{ content: "["; color: var(--gold); }
   .tag::after{ content: "]"; color: var(--gold); }
@@ -161,7 +161,7 @@
   /* Projects */
   .project-card{
     background: var(--panel); border: 1px solid var(--line); border-radius: 3px;
-    padding: 30px; display:grid; grid-template-columns: 1fr auto; gap: 24px; align-items:center;
+    padding: 30px; display:grid; grid-template-columns: 1fr auto; gap: 24px; align-items:center; margin-bottom:20px;
   }
   .project-card h3{ font-size: 19px; margin: 0 0 10px; }
   .project-card p{ font-size: 14.5px; line-height: 1.7; color: var(--ink-soft); margin:0; max-width: 46ch; }
@@ -169,38 +169,142 @@
   .stat-num{ font-size: 34px; color: var(--gold); line-height:1; }
   .stat-label{ font-size: 11px; color: var(--ink-soft); text-transform:uppercase; letter-spacing: 0.08em; margin-top:6px; }
 
-  /* Contact */
+  /* Videos */
+  .video-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .video-card{
+    background: var(--panel); border:1px solid var(--line); border-radius:3px;
+    padding: 20px; text-decoration:none; display:block; transition: border-color .15s;
+  }
+  .video-card:hover{ border-color: var(--gold); }
+  .video-card .vc-icon{ font-size: 22px; margin-bottom: 10px; }
+  .video-card h3{ font-size: 14px; margin: 0 0 6px; }
+  .video-card p{ font-size: 12.5px; color: var(--ink-soft); margin: 0; line-height:1.5; }
+
+  /* Testimonials */
+  .testi-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .testi{ background: var(--panel); border:1px solid var(--line); border-radius:3px; padding: 22px; }
+  .testi p{ font-size: 14px; line-height: 1.7; color: var(--ink-soft); margin: 0 0 14px; }
+  .testi p::before{ content: "“"; color: var(--gold); font-size: 20px; }
+  .testi p::after{ content: "”"; color: var(--gold); font-size: 20px; }
+  .testi .who{ font-family:'IBM Plex Mono', monospace; font-size: 12px; color: var(--ink); }
+  .testi .who span{ color: var(--ink-soft); display:block; font-size: 11px; margin-top:2px; }
+  .stars{ color: var(--gold); font-size: 13px; letter-spacing: 2px; margin-bottom: 8px; }
+
+  /* Pricing */
+  .price-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items:stretch; }
+  .price-card{
+    background: var(--panel); border:1px solid var(--line); border-radius:3px;
+    padding: 26px 22px; display:flex; flex-direction:column;
+  }
+  .price-card.featured{ border-color: var(--gold); position: relative; }
+  .price-card.featured::before{
+    content: "MOST POPULAR"; position:absolute; top:-10px; left:50%; transform:translateX(-50%);
+    background: var(--gold); color:#fff; font-family:'IBM Plex Mono',monospace;
+    font-size: 10px; letter-spacing: 0.1em; padding: 3px 10px; border-radius: 2px;
+  }
+  .price-card h3{ margin: 0 0 6px; font-size: 15px; text-transform:uppercase; letter-spacing:0.06em; }
+  .price-num{ font-size: 28px; color: var(--gold); margin: 8px 0 2px; }
+  .price-per{ font-size: 11.5px; color: var(--ink-soft); margin-bottom: 16px; }
+  .price-card ul{ list-style:none; margin:0 0 20px; padding:0; flex:1; }
+  .price-card li{ font-size: 13px; color: var(--ink-soft); padding: 6px 0; border-bottom: 1px dashed var(--line); }
+  .price-card li::before{ content: "✓ "; color: var(--green); }
+  .price-card .btn{ text-align:center; }
+
+  /* Calculator */
+  .calc-tabs{ display:flex; gap:8px; margin-bottom: 20px; flex-wrap:wrap; }
+  .calc-tab{
+    font-family:'IBM Plex Mono',monospace; font-size:12px; padding: 8px 14px;
+    border:1px solid var(--line); background:var(--panel); border-radius:2px; cursor:pointer;
+  }
+  .calc-tab.active{ background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .calc-panel{ display:none; background:var(--panel); border:1px solid var(--line); border-radius:3px; padding: 26px; }
+  .calc-panel.active{ display:block; }
+  .calc-row{ display:grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  .calc-field label{ display:block; font-size: 11px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-soft); margin-bottom:6px; }
+  .calc-field input, .calc-field select{
+    width:100%; padding: 10px 12px; border:1px solid var(--line); border-radius:2px;
+    font-family:'IBM Plex Mono',monospace; font-size: 14px; background: var(--bg); color: var(--ink);
+  }
+  .calc-field input:focus, .calc-field select:focus{ outline: 1px solid var(--gold); border-color: var(--gold); }
+  .calc-result{
+    margin-top: 18px; padding: 16px; background: var(--bg); border:1px dashed var(--gold);
+    border-radius: 2px; font-size: 14px; color: var(--ink-soft);
+  }
+  .calc-result b{ color: var(--gold); font-size: 18px; }
+  .calc-note{ font-size: 11.5px; color: var(--ink-soft); margin-top: 12px; }
+
+  /* Blog */
+  .post{ background:var(--panel); border:1px solid var(--line); border-radius:3px; margin-bottom: 16px; }
+  .post summary{
+    cursor:pointer; padding: 20px 24px; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:12px;
+  }
+  .post summary::-webkit-details-marker{ display:none; }
+  .post summary h3{ margin:0; font-size: 16px; }
+  .post .post-meta{ font-family:'IBM Plex Mono',monospace; font-size: 11px; color: var(--ink-soft); white-space:nowrap; }
+  .post .post-body{ padding: 0 24px 24px; border-top: 1px solid var(--line); }
+  .post .post-body p{ font-size: 14.5px; line-height: 1.75; color: var(--ink-soft); }
+  .post .post-body strong{ color: var(--ink); }
+
+  /* FAQ */
+  .faq{ background:var(--panel); border:1px solid var(--line); border-radius:3px; margin-bottom: 10px; }
+  .faq summary{ cursor:pointer; padding: 16px 20px; font-size: 14.5px; font-weight: 600; list-style:none; }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq summary::before{ content: "+ "; color: var(--gold); font-family:'IBM Plex Mono',monospace; }
+  .faq[open] summary::before{ content: "− "; }
+  .faq div{ padding: 0 20px 16px; font-size: 14px; line-height: 1.7; color: var(--ink-soft); }
+
+  /* Contact & forms */
   .contact-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 32px; }
   .contact-list{ list-style:none; margin:0; padding:0; }
   .contact-list li{ margin-bottom: 14px; }
-  .contact-list a{
-    text-decoration:none; font-size: 15px; border-bottom: 1px solid var(--line);
-    padding-bottom: 2px; transition: border-color .15s;
-  }
+  .contact-list a{ text-decoration:none; font-size: 15px; border-bottom: 1px solid var(--line); padding-bottom: 2px; transition: border-color .15s; }
   .contact-list a:hover{ border-color: var(--gold); }
   .contact-label{ display:block; font-size: 11px; color: var(--ink-soft); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:4px; }
+  form .calc-field{ margin-bottom: 14px; }
+  form textarea{
+    width:100%; padding: 10px 12px; border:1px solid var(--line); border-radius:2px;
+    font-family:'IBM Plex Sans',sans-serif; font-size: 14px; background: var(--bg);
+    color: var(--ink); min-height: 110px; resize: vertical;
+  }
+  form textarea:focus{ outline: 1px solid var(--gold); border-color: var(--gold); }
+
+  /* Newsletter */
+  .newsletter{
+    background: var(--ink); color: #d8d6cd; border-radius: 3px; padding: 36px;
+    display:grid; grid-template-columns: 1fr auto; gap: 24px; align-items:center;
+  }
+  .newsletter h2{ color:#fff; margin: 0 0 8px; font-size: 20px; }
+  .newsletter p{ margin:0; font-size: 13.5px; line-height:1.6; }
+  .newsletter form{ display:flex; gap:10px; }
+  .newsletter input{
+    padding: 11px 14px; border:1px solid #3a3f47; background:#1d2127; color:#fff;
+    border-radius: 2px; font-family:'IBM Plex Mono',monospace; font-size: 13px; min-width: 220px;
+  }
+  .newsletter input:focus{ outline:1px solid var(--gold); }
 
   footer{ padding: 32px 0 60px; text-align:center; }
   footer p{ font-size: 12px; color: var(--ink-soft); font-family:'IBM Plex Mono', monospace; }
 
-  /* Reveal animation */
   .reveal{ opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
   .reveal.in{ opacity: 1; transform: translateY(0); }
 
   @media (prefers-reduced-motion: reduce){
-    html{ scroll-behavior: auto; }
-    .ticker-track{ animation: none; }
+    html{ scroll-behavior:auto; }
+    .ticker-track{ animation:none; }
     .reveal{ opacity:1; transform:none; transition:none; }
   }
-
-  @media (max-width: 680px){
+  @media (max-width: 760px){
     .about-grid{ grid-template-columns: 1fr; }
     .avatar{ width: 72px; height: 72px; font-size: 20px; }
-    .skills-grid{ grid-template-columns: 1fr; }
+    .skills-grid, .testi-grid, .contact-grid{ grid-template-columns: 1fr; }
+    .video-grid, .price-grid{ grid-template-columns: 1fr; }
     .project-card{ grid-template-columns: 1fr; }
     .stat{ border-left:none; border-top: 1px solid var(--line); padding-left:0; padding-top:16px; }
-    .contact-grid{ grid-template-columns: 1fr; }
-    nav ul{ gap: 14px; }
+    .calc-row{ grid-template-columns: 1fr; }
+    .newsletter{ grid-template-columns: 1fr; }
+    .newsletter form{ flex-direction: column; }
+    nav ul{ gap: 10px; }
+    nav .wrap{ height:auto; padding-top:10px; padding-bottom:10px; flex-direction:column; gap:8px; }
   }
 </style>
 </head>
@@ -213,6 +317,12 @@
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#pricing">Courses</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#faq">FAQ</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -228,7 +338,6 @@
     <span class="ticker-item">PYTHON <b class="up">Automation</b></span>
     <span class="ticker-item">PINE SCRIPT <b>TradingView Indicators</b></span>
     <span class="ticker-item">DADDY TRADER ACADEMY <b class="up">25+ Batches Trained</b></span>
-    <!-- duplicate for seamless loop -->
     <span class="ticker-item">XAUUSD <b class="up">Gold Analysis</b></span>
     <span class="ticker-item">XAGUSD <b class="up">Silver Analysis</b></span>
     <span class="ticker-item">SMC <b>Smart Money Concepts</b></span>
@@ -249,16 +358,12 @@
       to read price action with confidence. Based in Dera Ismail Khan, Pakistan.
     </p>
     <div class="hero-actions">
-      <a class="btn primary" href="#contact">Get in touch</a>
-      <a class="btn ghost" href="#work">See my work</a>
+      <a class="btn primary" href="#pricing">Join the Academy</a>
+      <a class="btn ghost" href="#tools">Free Trading Tools</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
     </div>
-
     <div class="spark reveal" aria-hidden="true">
-      <svg viewBox="0 0 400 64" preserveAspectRatio="none">
-        <polyline fill="none" stroke="#2e5c4e" stroke-width="2"
-          points="0,44 20,40 40,46 60,30 80,34 100,20 120,26 140,14 160,22 180,10 200,18
-                  220,26 240,16 260,24 280,12 300,20 320,8 340,16 360,6 380,14 400,4" />
-      </svg>
+      <svg id="candle-chart" viewBox="0 0 400 90" preserveAspectRatio="none"></svg>
     </div>
   </div>
 </header>
@@ -271,16 +376,15 @@
       <div class="avatar">MA</div>
       <div class="about-text">
         <p>
-          I'm a professional Forex trader, software developer, and educator.
-          I design automated trading tools — commonly called bots — and I
-          teach people how financial markets actually move, using structured,
-          repeatable methods rather than guesswork.
+          I'm a professional <strong>Forex trader</strong>, software developer, and educator.
+          I design automated trading tools — commonly called bots — and I teach people how
+          financial markets actually move, using structured, repeatable methods rather than guesswork.
         </p>
         <p>
           My work sits at the intersection of markets and code: I analyze
-          Gold and Silver using Smart Money Concepts and Engulfing price
-          action, then turn that analysis into automated strategies on
-          MetaTrader 5 and TradingView.
+          <strong>Gold (XAUUSD)</strong> and <strong>Silver (XAGUSD)</strong> using
+          <strong>Smart Money Concepts</strong> and <strong>Engulfing price action</strong>,
+          then turn that analysis into automated strategies on MetaTrader 5 and TradingView.
         </p>
         <span class="location-tag">📍 Dera Ismail Khan, Pakistan</span>
       </div>
@@ -301,6 +405,7 @@
           <span class="tag">Market Analysis</span>
           <span class="tag">Engulfing</span>
           <span class="tag">Smart Money Concepts</span>
+          <span class="tag">Risk Management</span>
         </div>
       </div>
       <div class="skill-card">
@@ -320,7 +425,7 @@
 <section id="work">
   <div class="wrap reveal">
     <p class="section-label">03 — Work</p>
-    <h2>Projects</h2>
+    <h2>Projects &amp; Case Studies</h2>
     <div class="project-card">
       <div>
         <h3>Daddy Trader Academy</h3>
@@ -335,49 +440,420 @@
         <div class="stat-label">Batches Trained</div>
       </div>
     </div>
+    <div class="project-card">
+      <div>
+        <h3>Gold Engulfing EA — MT5</h3>
+        <p>
+          Custom Expert Advisor in MQL5 that detects high-probability Engulfing
+          setups on XAUUSD, with built-in lot sizing, session filters, and
+          automated risk management.
+        </p>
+      </div>
+      <div class="stat">
+        <div class="stat-num">MQL5</div>
+        <div class="stat-label">Expert Advisor</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div>
+        <h3>SMC Toolkit — TradingView</h3>
+        <p>
+          Pine Script indicator suite that automatically marks order blocks,
+          liquidity sweeps, and market structure shifts — the same concepts
+          taught in the Academy, drawn live on the chart.
+        </p>
+      </div>
+      <div class="stat">
+        <div class="stat-num">PINE</div>
+        <div class="stat-label">Indicator Suite</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap reveal">
+    <p class="section-label">04 — Videos</p>
+    <h2>Learn On YouTube &amp; TikTok</h2>
+    <div class="video-grid">
+      <a class="video-card" href="https://www.youtube.com/@DaddyTrader-ali" target="_blank" rel="noopener">
+        <div class="vc-icon">▶</div>
+        <h3>Gold Analysis Series</h3>
+        <p>Daily XAUUSD breakdowns using Smart Money Concepts — live chart walkthroughs.</p>
+      </a>
+      <a class="video-card" href="https://www.youtube.com/@DaddyTrader-ali" target="_blank" rel="noopener">
+        <div class="vc-icon">▶</div>
+        <h3>Engulfing Strategy Lessons</h3>
+        <p>How to spot and trade high-probability Engulfing setups, step by step.</p>
+      </a>
+      <a class="video-card" href="https://www.tiktok.com/@daddytrader_0" target="_blank" rel="noopener">
+        <div class="vc-icon">▶</div>
+        <h3>Quick Tips on TikTok</h3>
+        <p>Short-form trading psychology and price action tips — @daddytrader_0.</p>
+      </a>
+    </div>
+    <p style="margin-top:20px;">
+      <a class="btn gold" href="https://www.youtube.com/@DaddyTrader-ali" target="_blank" rel="noopener">Subscribe on YouTube →</a>
+    </p>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap reveal">
+    <p class="section-label">05 — Reviews</p>
+    <h2>What Students Say</h2>
+    <div class="testi-grid">
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>Before joining, I was blowing accounts every month. Ali sir's SMC method finally made the charts make sense. Now I trade Gold with a proper plan and fixed risk.</p>
+        <div class="who">Ahmed R. <span>Batch 21 — Lahore</span></div>
+      </div>
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>The Engulfing strategy is simple but powerful. What I liked most is the live sessions — we analyze the market together, not just theory from slides.</p>
+        <div class="who">Usman K. <span>Batch 23 — Karachi</span></div>
+      </div>
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>I'm from a non-technical background and still understood everything. The Urdu explanations and daily practice tasks made learning easy.</p>
+        <div class="who">Fatima S. <span>Batch 24 — Islamabad</span></div>
+      </div>
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>Ali also built a custom EA for my strategy. Clean code, proper risk management, and he explained every input. Highly recommended developer and mentor.</p>
+        <div class="who">Bilal M. <span>EA Client — Dubai</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap reveal">
+    <p class="section-label">06 — Courses</p>
+    <h2>Academy Plans</h2>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Basic</h3>
+        <div class="price-num">PKR 10,000</div>
+        <div class="price-per">one-time · 4 weeks</div>
+        <ul>
+          <li>Forex fundamentals &amp; MT5 setup</li>
+          <li>Candlestick &amp; Engulfing basics</li>
+          <li>Risk management rules</li>
+          <li>Recorded lessons access</li>
+          <li>Group Q&amp;A support</li>
+        </ul>
+        <a class="btn ghost" href="#contact">Enroll Now</a>
+      </div>
+      <div class="price-card featured">
+        <h3>Pro</h3>
+        <div class="price-num">PKR 25,000</div>
+        <div class="price-per">one-time · 8 weeks</div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Full Smart Money Concepts course</li>
+          <li>Live Gold analysis sessions</li>
+          <li>Trade review &amp; feedback</li>
+          <li>Private community access</li>
+          <li>Certificate of completion</li>
+        </ul>
+        <a class="btn gold" href="#contact">Enroll Now</a>
+      </div>
+      <div class="price-card">
+        <h3>VIP Mentorship</h3>
+        <div class="price-num">PKR 60,000</div>
+        <div class="price-per">one-time · 12 weeks</div>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>1-on-1 mentorship calls</li>
+          <li>Personal trading plan</li>
+          <li>Custom indicator/EA guidance</li>
+          <li>Lifetime community access</li>
+        </ul>
+        <a class="btn ghost" href="#contact">Apply Now</a>
+      </div>
+    </div>
+    <p class="calc-note">* Prices are indicative — contact for current batch fee, start dates, and payment options.</p>
+  </div>
+</section>
+
+<section id="tools">
+  <div class="wrap reveal">
+    <p class="section-label">07 — Free Tools</p>
+    <h2>Trading Calculators</h2>
+    <div class="calc-tabs">
+      <button class="calc-tab active" data-tab="lot">Lot Size</button>
+      <button class="calc-tab" data-tab="pip">Pip Value</button>
+      <button class="calc-tab" data-tab="rr">Risk : Reward</button>
+    </div>
+
+    <div class="calc-panel active" id="tab-lot">
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="lot-balance">Account Balance (USD)</label>
+          <input type="number" id="lot-balance" value="1000" min="0" step="any" />
+        </div>
+        <div class="calc-field">
+          <label for="lot-risk">Risk per Trade (%)</label>
+          <input type="number" id="lot-risk" value="1" min="0" max="100" step="any" />
+        </div>
+      </div>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="lot-sl">Stop Loss (pips)</label>
+          <input type="number" id="lot-sl" value="30" min="0" step="any" />
+        </div>
+        <div class="calc-field">
+          <label for="lot-pair">Instrument</label>
+          <select id="lot-pair">
+            <option value="10" selected>Gold XAUUSD ($10/pip per lot)</option>
+            <option value="50">Silver XAGUSD ($50/pip per lot)</option>
+            <option value="10">Major FX pairs ($10/pip per lot)</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-result" id="lot-result">Enter values to calculate lot size.</div>
+      <p class="calc-note">Gold: 1 pip = $0.10 move = $10 per 1.0 lot. Always confirm contract specs with your broker.</p>
+    </div>
+
+    <div class="calc-panel" id="tab-pip">
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="pip-lots">Lot Size</label>
+          <input type="number" id="pip-lots" value="0.10" min="0" step="any" />
+        </div>
+        <div class="calc-field">
+          <label for="pip-pair">Instrument</label>
+          <select id="pip-pair">
+            <option value="10" selected>Gold XAUUSD</option>
+            <option value="50">Silver XAGUSD</option>
+            <option value="10">Major FX pairs</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="pip-count">Number of Pips</label>
+          <input type="number" id="pip-count" value="50" min="0" step="any" />
+        </div>
+      </div>
+      <div class="calc-result" id="pip-result">Enter values to calculate pip value.</div>
+    </div>
+
+    <div class="calc-panel" id="tab-rr">
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="rr-entry">Entry Price</label>
+          <input type="number" id="rr-entry" value="2650.00" step="any" />
+        </div>
+        <div class="calc-field">
+          <label for="rr-sl">Stop Loss Price</label>
+          <input type="number" id="rr-sl" value="2645.00" step="any" />
+        </div>
+      </div>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="rr-tp">Take Profit Price</label>
+          <input type="number" id="rr-tp" value="2665.00" step="any" />
+        </div>
+      </div>
+      <div class="calc-result" id="rr-result">Enter values to calculate risk : reward.</div>
+      <p class="calc-note">Aim for setups with at least 1 : 2 risk-to-reward — a core rule taught in the Academy.</p>
+    </div>
+  </div>
+</section>
+
+<section id="blog">
+  <div class="wrap reveal">
+    <p class="section-label">08 — Blog</p>
+    <h2>Trading Insights</h2>
+
+    <details class="post">
+      <summary>
+        <h3>Smart Money Concepts: How Institutions Really Move Gold</h3>
+        <span class="post-meta">SMC · 6 min read</span>
+      </summary>
+      <div class="post-body">
+        <p>
+          Retail traders lose because they trade <strong>where liquidity is engineered</strong>, not where
+          it's consumed. Smart Money Concepts (SMC) flips the map: instead of chasing breakouts, you learn
+          to identify <strong>order blocks</strong> — the footprints institutions leave when they accumulate positions.
+        </p>
+        <p>
+          On Gold, the pattern repeats daily: price sweeps a session high or low (a <strong>liquidity grab</strong>),
+          then reverses sharply from an order block. If you mark the previous day's high/low and the Asian
+          session range, you'll see how often London and New York hunt those levels before the real move begins.
+        </p>
+        <p>
+          The three pillars I teach at Daddy Trader Academy: <strong>market structure</strong> (higher highs/lows
+          and when they shift), <strong>liquidity</strong> (where stop losses cluster), and <strong>order blocks</strong>
+          (the last opposing candle before an impulsive move). Master these three and the chart stops looking random.
+        </p>
+      </div>
+    </details>
+
+    <details class="post">
+      <summary>
+        <h3>The Engulfing Setup: My Highest-Probability Gold Entry</h3>
+        <span class="post-meta">Price Action · 5 min read</span>
+      </summary>
+      <div class="post-body">
+        <p>
+          An Engulfing candle alone means nothing. An Engulfing candle <strong>at the right location</strong>
+          is one of the most reliable entries in Gold trading. The difference is context.
+        </p>
+        <p>
+          My checklist: (1) price is at a <strong>key level</strong> — an order block, previous day high/low,
+          or a fresh supply/demand zone; (2) a <strong>liquidity sweep</strong> just happened — a wick beyond the
+          level that trapped traders; (3) the Engulfing candle closes with <strong>full-body conviction</strong>,
+          engulfing the previous candle's range entirely.
+        </p>
+        <p>
+          Entry on the close or the 50% retrace of the Engulfing candle, stop loss beyond the sweep wick,
+          target minimum <strong>1:2 risk-to-reward</strong>. No level, no sweep, no trade — discipline is the strategy.
+        </p>
+      </div>
+    </details>
+
+    <details class="post">
+      <summary>
+        <h3>MQL5 Basics: Turning Your Strategy Into an Expert Advisor</h3>
+        <span class="post-meta">Development · 7 min read</span>
+      </summary>
+      <div class="post-body">
+        <p>
+          If your strategy has fixed rules, it can be automated. <strong>MQL5</strong> is the language of
+          MetaTrader 5, and an <strong>Expert Advisor (EA)</strong> is simply your rules written as code that
+          runs on every tick.
+        </p>
+        <p>
+          Every EA has three core events: <strong>OnInit()</strong> runs once when the EA loads,
+          <strong>OnTick()</strong> runs on every price update — this is where your entry logic lives —
+          and <strong>OnDeinit()</strong> cleans up. Detecting an Engulfing candle is a few lines: compare
+          the current closed candle's body against the previous candle's range using
+          <strong>iOpen/iClose</strong> functions.
+        </p>
+        <p>
+          The part most people skip — and the reason most EAs fail — is <strong>risk management code</strong>:
+          calculating lot size from account balance and stop distance before every order. Automation without
+          risk control is just a faster way to lose. Backtest on quality tick data, forward-test on demo,
+          and only then go live.
+        </p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap reveal">
+    <p class="section-label">09 — FAQ</p>
+    <h2>Frequently Asked Questions</h2>
+
+    <details class="faq">
+      <summary>I'm a complete beginner. Can I join the Academy?</summary>
+      <div>Yes — the Basic and Pro plans start from zero: what Forex is, how to set up MetaTrader 5, and how to read candles, before moving to advanced concepts. No prior experience needed.</div>
+    </details>
+    <details class="faq">
+      <summary>Which markets do you focus on?</summary>
+      <div>Primarily Gold (XAUUSD) and Silver (XAGUSD). The concepts — Smart Money Concepts and Engulfing price action — apply to any market, but all live analysis focuses on metals.</div>
+    </details>
+    <details class="faq">
+      <summary>Are classes in Urdu or English?</summary>
+      <div>Classes are taught in Urdu with English trading terminology, so concepts are easy to understand while you learn the standard vocabulary used worldwide.</div>
+    </details>
+    <details class="faq">
+      <summary>Do you build custom trading bots or indicators?</summary>
+      <div>Yes — custom MT5 Expert Advisors (MQL5), TradingView indicators (Pine Script), and Python automation. Contact me with your strategy rules for a quote and timeline.</div>
+    </details>
+    <details class="faq">
+      <summary>How much money do I need to start trading?</summary>
+      <div>You can start learning with a free demo account — and you should. For live trading, start small with money you can afford to lose, and never risk more than 1–2% per trade. Trading involves real risk of loss.</div>
+    </details>
+    <details class="faq">
+      <summary>Do you guarantee profits?</summary>
+      <div>No — and be careful of anyone who does. I teach a structured, disciplined approach to trading; results depend on your practice, psychology, and risk management. Trading is high-risk and past performance never guarantees future results.</div>
+    </details>
   </div>
 </section>
 
 <section id="contact">
   <div class="wrap reveal">
-    <p class="section-label">04 — Contact</p>
+    <p class="section-label">10 — Contact</p>
     <h2>Get In Touch</h2>
     <div class="contact-grid">
-      <ul class="contact-list">
-        <li>
-          <span class="contact-label">Email</span>
-          <a href="mailto:blankeeb1@gmail.com">blankeeb1@gmail.com</a>
-        </li>
-        <li>
-          <span class="contact-label">Location</span>
-          Dera Ismail Khan, Pakistan
-        </li>
-      </ul>
-      <ul class="contact-list">
-        <li>
-          <span class="contact-label">YouTube</span>
-          <a href="https://www.youtube.com/@DaddyTrader-ali" target="_blank" rel="noopener">@DaddyTrader-ali</a>
-        </li>
-        <li>
-          <span class="contact-label">TikTok</span>
-          <a href="https://www.tiktok.com/@daddytrader_0" target="_blank" rel="noopener">@daddytrader_0</a>
-        </li>
-        <li>
-          <span class="contact-label">Binance Square</span>
-          <a href="https://www.binance.com/en/square/profile/daddytrader" target="_blank" rel="noopener">@daddytrader</a>
-        </li>
-      </ul>
+      <div>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:blankweb1@gmail.com">blankweb1@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Location</span>
+            Dera Ismail Khan, Pakistan
+          </li>
+          <li>
+            <span class="contact-label">YouTube</span>
+            <a href="https://www.youtube.com/@DaddyTrader-ali" target="_blank" rel="noopener">@DaddyTrader-ali</a>
+          </li>
+          <li>
+            <span class="contact-label">TikTok</span>
+            <a href="https://www.tiktok.com/@daddytrader_0" target="_blank" rel="noopener">@daddytrader_0</a>
+          </li>
+          <li>
+            <span class="contact-label">Binance Square</span>
+            <a href="https://www.binance.com/en/square/profile/daddytrader" target="_blank" rel="noopener">@daddytrader</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <form action="https://formsubmit.co/blankweb1@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from portfolio website" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <div class="calc-field">
+            <label for="cf-name">Your Name</label>
+            <input type="text" id="cf-name" name="name" required />
+          </div>
+          <div class="calc-field">
+            <label for="cf-email">Your Email</label>
+            <input type="email" id="cf-email" name="email" required />
+          </div>
+          <div class="calc-field">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" name="message" required placeholder="Course enrollment, custom EA, or any question..."></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="newsletter-sec">
+  <div class="wrap reveal">
+    <div class="newsletter">
+      <div>
+        <h2>Weekly Gold Outlook</h2>
+        <p>Get my weekly XAUUSD analysis, key levels, and one trading lesson — free, every Sunday.</p>
+      </div>
+      <form action="https://formsubmit.co/blankweb1@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Newsletter signup" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="email" name="email" placeholder="your@email.com" required />
+        <button class="btn gold" type="submit">Subscribe</button>
+      </form>
     </div>
   </div>
 </section>
 
 <footer>
-  <p>© <span id="year"></span> M. Ali Alvi — Built with care.</p>
+  <p>© <span id="year"></span> M. Ali Alvi — Daddy Trader Academy. Trading involves risk; nothing here is financial advice.</p>
 </footer>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 
+  // Reveal animation
   const revealEls = document.querySelectorAll('.reveal');
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => {
@@ -385,6 +861,151 @@
     });
   }, { threshold: 0.15 });
   revealEls.forEach(el => io.observe(el));
+
+  // ---- Live candlestick chart (hero) ----
+  (function(){
+    const svg = document.getElementById('candle-chart');
+    if (!svg) return;
+    const NS = 'http://www.w3.org/2000/svg';
+    const W = 400, H = 90, PAD = 6;
+    const N = 26;                 // candles on screen
+    const CW = W / N;             // slot width
+    const BODY = CW * 0.55;       // body width
+
+    // random-walk seed data
+    let price = 100;
+    const candles = [];
+    function newCandle(open){
+      return { o: open, c: open, h: open, l: open };
+    }
+    function step(c, vol){
+      const move = (Math.random() - 0.48) * vol;
+      c.c += move;
+      if (c.c > c.h) c.h = c.c;
+      if (c.c < c.l) c.l = c.c;
+    }
+    for (let i = 0; i < N; i++){
+      const c = newCandle(price);
+      for (let t = 0; t < 8; t++) step(c, 1.4);
+      price = c.c;
+      candles.push(c);
+    }
+
+    function draw(){
+      let hi = -Infinity, lo = Infinity;
+      candles.forEach(c => { hi = Math.max(hi, c.h); lo = Math.min(lo, c.l); });
+      const range = (hi - lo) || 1;
+      const y = v => PAD + (hi - v) / range * (H - PAD * 2);
+
+      svg.innerHTML = '';
+      candles.forEach((c, i) => {
+        const x = i * CW + CW / 2;
+        const up = c.c >= c.o;
+        const col = up ? '#2e5c4e' : '#a24438';
+
+        const wick = document.createElementNS(NS, 'line');
+        wick.setAttribute('x1', x); wick.setAttribute('x2', x);
+        wick.setAttribute('y1', y(c.h)); wick.setAttribute('y2', y(c.l));
+        wick.setAttribute('stroke', col); wick.setAttribute('stroke-width', '1');
+        svg.appendChild(wick);
+
+        const body = document.createElementNS(NS, 'rect');
+        const top = y(Math.max(c.o, c.c));
+        const hgt = Math.max(Math.abs(y(c.o) - y(c.c)), 1.5);
+        body.setAttribute('x', x - BODY / 2);
+        body.setAttribute('y', top);
+        body.setAttribute('width', BODY);
+        body.setAttribute('height', hgt);
+        body.setAttribute('fill', up ? col : col);
+        body.setAttribute('rx', '0.5');
+        svg.appendChild(body);
+      });
+    }
+
+    draw();
+
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      let ticks = 0;
+      setInterval(() => {
+        const last = candles[candles.length - 1];
+        step(last, 1.1);            // live tick on current candle
+        ticks++;
+        if (ticks >= 12){           // close candle, open a new one
+          ticks = 0;
+          candles.shift();
+          candles.push(newCandle(last.c));
+        }
+        draw();
+      }, 140);
+    }
+  })();
+
+  // Calculator tabs
+  document.querySelectorAll('.calc-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.calc-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.calc-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Lot size calculator
+  function calcLot(){
+    const bal = parseFloat(document.getElementById('lot-balance').value);
+    const risk = parseFloat(document.getElementById('lot-risk').value);
+    const sl = parseFloat(document.getElementById('lot-sl').value);
+    const pipVal = parseFloat(document.getElementById('lot-pair').value);
+    const out = document.getElementById('lot-result');
+    if (!(bal > 0) || !(risk > 0) || !(sl > 0)){
+      out.textContent = 'Enter values to calculate lot size.'; return;
+    }
+    const riskAmt = bal * risk / 100;
+    const lots = riskAmt / (sl * pipVal);
+    out.innerHTML = 'Risk amount: $' + riskAmt.toFixed(2) +
+      ' &nbsp;→&nbsp; Recommended lot size: <b>' + lots.toFixed(2) + ' lots</b>';
+  }
+  ['lot-balance','lot-risk','lot-sl','lot-pair'].forEach(id =>
+    document.getElementById(id).addEventListener('input', calcLot));
+  calcLot();
+
+  // Pip value calculator
+  function calcPip(){
+    const lots = parseFloat(document.getElementById('pip-lots').value);
+    const pipVal = parseFloat(document.getElementById('pip-pair').value);
+    const pips = parseFloat(document.getElementById('pip-count').value);
+    const out = document.getElementById('pip-result');
+    if (!(lots > 0) || !(pips >= 0)){
+      out.textContent = 'Enter values to calculate pip value.'; return;
+    }
+    const perPip = lots * pipVal;
+    out.innerHTML = 'Value per pip: <b>$' + perPip.toFixed(2) + '</b>' +
+      ' &nbsp;·&nbsp; ' + pips + ' pips = <b>$' + (perPip * pips).toFixed(2) + '</b>';
+  }
+  ['pip-lots','pip-pair','pip-count'].forEach(id =>
+    document.getElementById(id).addEventListener('input', calcPip));
+  calcPip();
+
+  // Risk:Reward calculator
+  function calcRR(){
+    const entry = parseFloat(document.getElementById('rr-entry').value);
+    const sl = parseFloat(document.getElementById('rr-sl').value);
+    const tp = parseFloat(document.getElementById('rr-tp').value);
+    const out = document.getElementById('rr-result');
+    const risk = Math.abs(entry - sl);
+    const reward = Math.abs(tp - entry);
+    if (!(risk > 0) || !(reward >= 0) || isNaN(entry) || isNaN(sl) || isNaN(tp)){
+      out.textContent = 'Enter values to calculate risk : reward.'; return;
+    }
+    const ratio = reward / risk;
+    const verdict = ratio >= 2 ? '✓ Good setup (1:2 or better)' :
+                    ratio >= 1 ? '△ Acceptable, but below 1:2' : '✗ Poor — reward is less than risk';
+    out.innerHTML = 'Risk: ' + risk.toFixed(2) + ' &nbsp;·&nbsp; Reward: ' + reward.toFixed(2) +
+      ' &nbsp;→&nbsp; Ratio: <b>1 : ' + ratio.toFixed(2) + '</b><br><span style="font-size:12.5px">' + verdict + '</span>';
+  }
+  ['rr-entry','rr-sl','rr-tp'].forEach(id =>
+    document.getElementById(id).addEventListener('input', calcRR));
+  calcRR();
 </script>
 
 </body>
