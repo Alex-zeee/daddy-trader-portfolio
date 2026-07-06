@@ -322,6 +322,114 @@
     nav .wrap{ height:auto; padding-top:10px; padding-bottom:10px; flex-direction:column; gap:8px; }
   }
 </style>
+
+<!-- ===== THEME V2 : Agency style (rounded cards, pill buttons, dark hero) ===== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style id="theme-v2">
+  :root{
+    --bg: #eef5f1;
+    --ink: #132720;
+    --ink-soft: #5a6d64;
+    --line: #e2ece7;
+    --gold: #e09f3e;
+    --accent: #17805e;
+    --accent-dark: #0e3b2e;
+  }
+  body{ background: var(--bg); color: var(--ink); }
+  h1, h2, h3{ font-family: 'Poppins', 'Segoe UI', sans-serif; }
+  h2{ font-size: 28px; font-weight: 700; }
+  .eyebrow, .section-label{ font-family: 'Poppins', sans-serif; font-weight: 600; }
+  .section-label{ color: var(--accent); }
+  nav{ background: rgba(238,245,241,0.94); border-bottom: none; }
+  nav .brand{ font-family: 'Poppins', sans-serif; font-weight: 800; }
+  nav a{ font-family: 'Poppins', sans-serif; font-weight: 500; }
+
+  /* Hero: bara dark emerald rounded banner */
+  header.hero{ border-bottom: none; padding: 28px 16px 64px; }
+  header.hero .wrap{
+    background: linear-gradient(135deg, var(--accent-dark) 0%, #124d3b 100%);
+    border-radius: 28px; padding: 56px 48px 48px; color: #fff;
+    box-shadow: 0 24px 60px rgba(14,59,46,0.28);
+  }
+  header.hero h1{ color: #fff; font-weight: 800; }
+  header.hero .tagline{ color: #bcd8cd; }
+  header.hero .eyebrow{ color: var(--gold); }
+  .hero-avatar-slot .avatar{ box-shadow: 0 14px 34px rgba(0,0,0,0.35); }
+
+  /* Candle chart dark bg pe roshan rang */
+  #candle-chart rect[fill="#2e5c4e"], #candle-chart line[stroke="#2e5c4e"]{ fill: #43c390; stroke: #43c390; }
+  #candle-chart line[stroke="#2e5c4e"]{ fill: none; }
+  #candle-chart rect[fill="#a24438"], #candle-chart line[stroke="#a24438"]{ fill: #e0785f; stroke: #e0785f; }
+  #candle-chart line[stroke="#a24438"]{ fill: none; }
+
+  /* Pill buttons */
+  .btn{
+    border-radius: 999px; padding: 13px 28px; border: none;
+    font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13.5px;
+    transition: transform .15s, background .15s;
+  }
+  .btn:hover{ transform: translateY(-1px); }
+  .btn.primary, .btn.gold{
+    background: var(--gold); color: #132720;
+    box-shadow: 0 10px 24px rgba(224,159,62,0.35);
+  }
+  .btn.primary:hover, .btn.gold:hover{ background: #c98d2f; }
+  .btn.ghost{ border: 1.5px solid var(--ink); background: transparent; color: var(--ink); }
+  header.hero .btn.ghost{ border-color: rgba(255,255,255,0.6); color: #fff; }
+
+  /* Sections & rounded cards */
+  section{ border-bottom: none; padding: 56px 0; }
+  .skill-card, .project-card, .testi, .price-card, .post, .faq, .calc-panel, .video-card{
+    border: none; border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(19,39,32,0.07);
+  }
+  .video-card{ transition: transform .2s, box-shadow .2s; }
+  .video-card:hover{ transform: translateY(-4px); box-shadow: 0 16px 38px rgba(19,39,32,0.12); }
+
+  .tag{
+    border: none; background: #e5f2ec; border-radius: 999px; padding: 7px 14px;
+    font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500; color: var(--accent-dark);
+  }
+  .tag::before, .tag::after{ content: none; }
+
+  .stat-num, .price-num{ font-family: 'Poppins', sans-serif; font-weight: 800; }
+  .price-card.featured{ border: 2px solid var(--accent); }
+  .price-card.featured::before{ border-radius: 999px; padding: 4px 14px; }
+
+  /* Calculator */
+  .calc-tab{
+    border: none; border-radius: 999px; padding: 10px 20px;
+    font-family: 'Poppins', sans-serif; font-weight: 600;
+    background: #e5f2ec; color: var(--accent-dark);
+  }
+  .calc-tab.active{ background: var(--accent); color: #fff; }
+  .calc-field input, .calc-field select, form textarea{
+    border-radius: 12px; border: 1.5px solid var(--line); background: #f7fbf9;
+  }
+  .calc-result{ border-radius: 14px; border: 1.5px dashed var(--accent); background: #f2faf6; }
+
+  .post summary h3{ font-family: 'Poppins', sans-serif; }
+  .faq{ border-radius: 16px; }
+  .faq summary{ font-family: 'Poppins', sans-serif; }
+
+  /* Newsletter dark rounded banner */
+  .newsletter{
+    background: linear-gradient(135deg, var(--accent-dark) 0%, #124d3b 100%);
+    border-radius: 24px; box-shadow: 0 20px 50px rgba(14,59,46,0.25);
+  }
+  .newsletter h2{ font-weight: 700; }
+  .newsletter input{ border-radius: 999px; border: none; background: #1b4a3b; padding: 13px 18px; }
+
+  footer p{ font-family: 'Poppins', sans-serif; }
+
+  @media (max-width: 760px){
+    header.hero{ padding: 16px 10px 48px; }
+    header.hero .wrap{ padding: 34px 22px; border-radius: 22px; }
+    h2{ font-size: 24px; }
+  }
+</style>
 </head>
 <body>
 
@@ -885,17 +993,17 @@
     picShape: 'square',
     picBorder: '#b4903f',
     picPosition: 'hero',
-    fontStyle: 'mono',
+    fontStyle: 'sans',
     fontSize: 16
   };
 
   function applyConfig(cfg){
     const r = document.documentElement.style;
     r.setProperty('--avatar-size', cfg.picSize + 'px');
-    r.setProperty('--avatar-radius', cfg.picShape === 'circle' ? '50%' : '6px');
+    r.setProperty('--avatar-radius', cfg.picShape === 'circle' ? '50%' : '18px');
     r.setProperty('--avatar-border', cfg.picBorder);
     const fonts = {
-      sans:  "'IBM Plex Sans', -apple-system, 'Segoe UI', sans-serif",
+      sans:  "'Poppins', -apple-system, 'Segoe UI', sans-serif",
       mono:  "'IBM Plex Mono', Menlo, Consolas, monospace",
       serif: "Georgia, 'Times New Roman', serif"
     };
