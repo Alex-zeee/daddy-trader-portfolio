@@ -146,11 +146,14 @@
   /* About */
   .about-grid{ display:grid; grid-template-columns: 120px 1fr; gap: 32px; align-items:start; }
   .avatar{
-    width: 110px; height: 110px; border-radius: 50%; background: #000;
-    border: 2px solid var(--gold); display:flex; align-items:center; justify-content:center;
+    width: var(--avatar-size, 110px); height: var(--avatar-size, 110px);
+    border-radius: var(--avatar-radius, 50%); background: #000;
+    border: 2px solid var(--avatar-border, var(--gold));
+    display:flex; align-items:center; justify-content:center;
     font-family: 'IBM Plex Mono', monospace; font-size: 26px; color: var(--gold);
     object-fit: cover;
   }
+  .hero-avatar-slot .avatar{ margin-bottom: 24px; }
   .about-text p{ font-size: 15.5px; line-height: 1.75; color: var(--ink-soft); margin: 0 0 14px; }
   .location-tag{ display:inline-flex; align-items:center; gap:6px; margin-top:6px; font-size: 12.5px; color: var(--ink-soft); }
 
@@ -861,6 +864,125 @@
 </footer>
 
 <script>
+  /* ============================================================
+     APNI SETTINGS YAHAN BADLO (Urdu guide):
+     - picSize     : photo ka size pixels mein (e.g. 90, 110, 150)
+     - picShape    : 'circle' (gol) ya 'square' (chakor)
+     - picBorder   : border ka rang (e.g. '#b4903f' gold, '#000' black)
+     - picPosition : 'about' (About section) ya 'hero' (sab se upar
+                     naam ke sath) ya 'both' (dono jagah)
+     - fontStyle   : 'sans' (saaf modern) / 'mono' (typewriter style)
+                     / 'serif' (akhbari style)
+     - fontSize    : poori site ke text ka size (e.g. 15, 16, 17)
+     Badalne ke baad file GitHub pe dobara upload kar do — bas!
+     TIP: browser mein site ke aakhir mein ?customize=1 laga kar
+     kholo to live sliders se try kar ke settings copy kar sakte ho.
+     ============================================================ */
+  const SITE_CONFIG = {
+    picSize: 110,
+    picShape: 'circle',
+    picBorder: '#b4903f',
+    picPosition: 'about',
+    fontStyle: 'sans',
+    fontSize: 16
+  };
+
+  function applyConfig(cfg){
+    const r = document.documentElement.style;
+    r.setProperty('--avatar-size', cfg.picSize + 'px');
+    r.setProperty('--avatar-radius', cfg.picShape === 'circle' ? '50%' : '6px');
+    r.setProperty('--avatar-border', cfg.picBorder);
+    const fonts = {
+      sans:  "'IBM Plex Sans', -apple-system, 'Segoe UI', sans-serif",
+      mono:  "'IBM Plex Mono', Menlo, Consolas, monospace",
+      serif: "Georgia, 'Times New Roman', serif"
+    };
+    document.body.style.fontFamily = fonts[cfg.fontStyle] || fonts.sans;
+    document.body.style.fontSize = cfg.fontSize + 'px';
+
+    // photo ki jagah
+    const img = document.querySelector('img.avatar');
+    if (img){
+      document.querySelectorAll('.hero-avatar-slot').forEach(s => s.remove());
+      const aboutCell = document.querySelector('.about-grid');
+      if (cfg.picPosition === 'hero' || cfg.picPosition === 'both'){
+        const slot = document.createElement('div');
+        slot.className = 'hero-avatar-slot';
+        const heroWrap = document.querySelector('header.hero .wrap');
+        heroWrap.insertBefore(slot, heroWrap.firstElementChild);
+        slot.appendChild(cfg.picPosition === 'both' ? img.cloneNode(true) : img);
+      }
+      if (cfg.picPosition === 'about' && !aboutCell.querySelector('img.avatar')){
+        aboutCell.insertBefore(img, aboutCell.firstElementChild);
+      }
+      aboutCell.style.gridTemplateColumns =
+        aboutCell.querySelector('img.avatar') ? '' : '1fr';
+    }
+  }
+  applyConfig(SITE_CONFIG);
+
+  // ---- Live customizer panel (?customize=1) ----
+  if (location.search.includes('customize=1')){
+    const P = document.createElement('div');
+    P.style.cssText = 'position:fixed;bottom:16px;right:16px;z-index:9999;background:#14171c;color:#eee;padding:18px;border-radius:8px;width:250px;font-family:sans-serif;font-size:13px;box-shadow:0 8px 30px rgba(0,0,0,.4)';
+    P.innerHTML = `
+      <b style="color:#e2c072">⚙ Customizer</b><br><br>
+      Pic size: <span id="cz-sv">${SITE_CONFIG.picSize}</span>px<br>
+      <input id="cz-size" type="range" min="60" max="220" value="${SITE_CONFIG.picSize}" style="width:100%"><br>
+      Shape:
+      <select id="cz-shape" style="width:100%">
+        <option value="circle">Circle (gol)</option>
+        <option value="square">Square (chakor)</option>
+      </select><br><br>
+      Pic ki jagah:
+      <select id="cz-pos" style="width:100%">
+        <option value="about">About section</option>
+        <option value="hero">Upar (naam ke sath)</option>
+        <option value="both">Dono jagah</option>
+      </select><br><br>
+      Font:
+      <select id="cz-font" style="width:100%">
+        <option value="sans">Sans (modern)</option>
+        <option value="mono">Mono (typewriter)</option>
+        <option value="serif">Serif (akhbari)</option>
+      </select><br><br>
+      Font size: <span id="cz-fv">${SITE_CONFIG.fontSize}</span>px<br>
+      <input id="cz-fs" type="range" min="13" max="20" value="${SITE_CONFIG.fontSize}" style="width:100%"><br><br>
+      <button id="cz-copy" style="width:100%;padding:8px;background:#b4903f;color:#fff;border:none;border-radius:4px;cursor:pointer">Settings copy karo</button>
+      <div id="cz-msg" style="color:#7fbfa2;margin-top:6px;font-size:11px"></div>`;
+    document.body.appendChild(P);
+    const cfg = {...SITE_CONFIG};
+    const upd = () => {
+      cfg.picSize = +document.getElementById('cz-size').value;
+      cfg.picShape = document.getElementById('cz-shape').value;
+      cfg.picPosition = document.getElementById('cz-pos').value;
+      cfg.fontStyle = document.getElementById('cz-font').value;
+      cfg.fontSize = +document.getElementById('cz-fs').value;
+      document.getElementById('cz-sv').textContent = cfg.picSize;
+      document.getElementById('cz-fv').textContent = cfg.fontSize;
+      applyConfig(cfg);
+    };
+    ['cz-size','cz-shape','cz-pos','cz-font','cz-fs'].forEach(id =>
+      document.getElementById(id).addEventListener('input', upd));
+    document.getElementById('cz-shape').value = SITE_CONFIG.picShape;
+    document.getElementById('cz-pos').value = SITE_CONFIG.picPosition;
+    document.getElementById('cz-font').value = SITE_CONFIG.fontStyle;
+    document.getElementById('cz-copy').addEventListener('click', () => {
+      const txt = `  const SITE_CONFIG = {
+    picSize: ${cfg.picSize},
+    picShape: '${cfg.picShape}',
+    picBorder: '${cfg.picBorder}',
+    picPosition: '${cfg.picPosition}',
+    fontStyle: '${cfg.fontStyle}',
+    fontSize: ${cfg.fontSize}
+  };`;
+      navigator.clipboard.writeText(txt).then(() => {
+        document.getElementById('cz-msg').textContent =
+          'Copy ho gaya! index.html mein purana SITE_CONFIG isse replace karo.';
+      });
+    });
+  }
+
   document.getElementById('year').textContent = new Date().getFullYear();
 
   // Reveal animation
