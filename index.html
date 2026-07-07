@@ -599,21 +599,42 @@
     <h2>Client Risk Dashboard</h2>
 
     <div id="client-login" class="client-login">
-      <p style="color:var(--ink-soft);margin-top:0">Apna naam chunein aur PIN dalein — sirf apka apna account data nazar aayega.</p>
+      <p style="color:var(--ink-soft);margin-top:0">Apni details bharein — foran apna personal risk plan aur chart hasil karein. Data kahin save nahin hota.</p>
       <div class="calc-row">
         <div class="calc-field">
-          <label for="cl-name">Naam</label>
-          <select id="cl-name">
-            <option value="">— Select —</option>
+          <label for="rm-name">Apka Naam</label>
+          <input type="text" id="rm-name" placeholder="e.g. Sami" />
+        </div>
+        <div class="calc-field">
+          <label for="rm-balance">Account Balance (USD)</label>
+          <input type="number" id="rm-balance" value="1000" min="10" step="any" />
+        </div>
+      </div>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="rm-risk">Risk per Trade (%)</label>
+          <input type="number" id="rm-risk" value="1" min="0.1" max="10" step="0.1" />
+        </div>
+        <div class="calc-field">
+          <label for="rm-sl">Average SL (pips)</label>
+          <input type="number" id="rm-sl" value="30" min="1" step="any" />
+        </div>
+      </div>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="rm-rr">Risk : Reward</label>
+          <select id="rm-rr">
+            <option value="1.5">1 : 1.5</option>
+            <option value="2" selected>1 : 2</option>
+            <option value="3">1 : 3</option>
           </select>
         </div>
         <div class="calc-field">
-          <label for="cl-pin">PIN</label>
-          <input type="password" id="cl-pin" placeholder="4-digit PIN" maxlength="6" />
+          <label for="rm-wr">Win Rate andaza (%)</label>
+          <input type="number" id="rm-wr" value="50" min="10" max="90" step="1" />
         </div>
       </div>
-      <button class="btn primary" id="cl-btn" type="button">Dashboard Kholein</button>
-      <p id="cl-err" style="color:#a02c1c;font-size:13px;margin:10px 0 0"></p>
+      <button class="btn primary" id="rm-btn" type="button">Mera Risk Plan Banao</button>
     </div>
 
     <div id="client-dash" style="display:none"></div>
@@ -1273,57 +1294,81 @@
   loadSignals();
   setInterval(loadSignals, 60000);
 
-  // ---- Client risk dashboard (clients.json) ----
-  let CLIENTS_DATA = null;
-  async function loadClients(){
-    try{
-      const res = await fetch('clients.json?t=' + Date.now());
-      CLIENTS_DATA = await res.json();
-      const sel = document.getElementById('cl-name');
-      if (sel && sel.options.length <= 1){
-        (CLIENTS_DATA.clients || []).forEach(c => {
-          const o = document.createElement('option');
-          o.value = c.id; o.textContent = c.name;
-          sel.appendChild(o);
-        });
-      }
-    }catch(e){ /* file abhi nahin */ }
-  }
-  function showClientDash(c){
-    const fl = Math.round((c.equity - c.balance) * 100) / 100;
-    const dash = document.getElementById('client-dash');
-    dash.innerHTML =
-      '<div class="client-hero"><div><h3>' + c.name + ' — Account Overview</h3>' +
-      '<span>Aakhri update: ' + (CLIENTS_DATA.updated || '—') + '</span></div>' +
-      '<button class="btn ghost" style="border-color:rgba(255,255,255,.6);color:#fff" onclick="clientLogout()">Logout</button></div>' +
-      '<div class="client-stats">' +
-      '<div class="cstat"><b>$' + c.balance.toLocaleString() + '</b><span>Balance</span></div>' +
-      '<div class="cstat"><b>$' + c.equity.toLocaleString() + '</b><span>Equity</span></div>' +
-      '<div class="cstat ' + (fl >= 0 ? 'pos' : 'neg') + '"><b>' + (fl >= 0 ? '+' : '') + fl.toLocaleString() + '</b><span>Floating P/L</span></div>' +
-      '<div class="cstat"><b>' + c.open_trades + '</b><span>Open Trades</span></div>' +
-      '<div class="cstat"><b>' + c.sl_set + '</b><span>SL Lage Hue</span></div>' +
-      '<div class="cstat"><b>' + c.tp_set + '</b><span>TP Lage Hue</span></div>' +
-      '</div>';
-    document.getElementById('client-login').style.display = 'none';
-    dash.style.display = 'block';
-  }
-  window.clientLogout = function(){
+  // ---- Personal risk management planner ----
+  window.rmBack = function(){
     document.getElementById('client-dash').style.display = 'none';
     document.getElementById('client-login').style.display = 'block';
-    document.getElementById('cl-pin').value = '';
   };
-  const clBtn = document.getElementById('cl-btn');
-  if (clBtn) clBtn.addEventListener('click', async () => {
-    if (!CLIENTS_DATA) await loadClients();
-    const id = document.getElementById('cl-name').value;
-    const pin = document.getElementById('cl-pin').value.trim();
-    const err = document.getElementById('cl-err');
-    const c = (CLIENTS_DATA && CLIENTS_DATA.clients || []).find(x => x.id === id && String(x.pin) === pin);
-    if (!c){ err.textContent = 'Ghalat naam ya PIN — dobara koshish karein.'; return; }
-    err.textContent = '';
-    showClientDash(c);
+  function drawRiskChart(canvas, balance, riskPct, rr, wr){
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height, P = 42;
+    ctx.clearRect(0, 0, W, H);
+    const N = 30;
+    const riskAmt = balance * riskPct / 100;
+    // expected curve
+    const exp = [balance];
+    for (let i = 1; i <= N; i++)
+      exp.push(exp[i-1] + riskAmt * (wr * rr - (1 - wr)));
+    // worst case: 10 losses in a row
+    const worst = [balance];
+    for (let i = 1; i <= 10; i++) worst.push(worst[i-1] - riskAmt);
+    const all = exp.concat(worst);
+    const mn = Math.min(...all) * 0.98, mx = Math.max(...all) * 1.02;
+    const X = i => P + (W - P - 14) * i / N;
+    const Y = v => H - P + (P - 14 - H + P) * (v - mn) / (mx - mn);
+    // axes
+    ctx.strokeStyle = '#d5e3dc'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(P, 12); ctx.lineTo(P, H - P); ctx.lineTo(W - 10, H - P); ctx.stroke();
+    // balance base line
+    ctx.strokeStyle = '#b9cdc4'; ctx.setLineDash([4,4]);
+    ctx.beginPath(); ctx.moveTo(P, Y(balance)); ctx.lineTo(W - 10, Y(balance)); ctx.stroke();
+    ctx.setLineDash([]);
+    // worst case (red)
+    ctx.strokeStyle = '#c0392b'; ctx.lineWidth = 2;
+    ctx.beginPath(); worst.forEach((v, i) => i ? ctx.lineTo(X(i), Y(v)) : ctx.moveTo(X(0), Y(v))); ctx.stroke();
+    // expected (green)
+    ctx.strokeStyle = '#17805e'; ctx.lineWidth = 2.5;
+    ctx.beginPath(); exp.forEach((v, i) => i ? ctx.lineTo(X(i), Y(v)) : ctx.moveTo(X(0), Y(v))); ctx.stroke();
+    // labels
+    ctx.fillStyle = '#5a6d64'; ctx.font = '11px Poppins, sans-serif';
+    ctx.fillText('$' + Math.round(mx).toLocaleString(), 2, 18);
+    ctx.fillText('$' + Math.round(mn).toLocaleString(), 2, H - P + 4);
+    ctx.fillText('Trades →', W - 70, H - 12);
+    ctx.fillStyle = '#17805e'; ctx.fillText('● Expected (' + N + ' trades)', P + 6, 18);
+    ctx.fillStyle = '#c0392b'; ctx.fillText('● Worst case (10 losses)', P + 150, 18);
+  }
+  const rmBtn = document.getElementById('rm-btn');
+  if (rmBtn) rmBtn.addEventListener('click', () => {
+    const name = (document.getElementById('rm-name').value.trim() || 'Trader');
+    const bal = parseFloat(document.getElementById('rm-balance').value) || 1000;
+    const risk = parseFloat(document.getElementById('rm-risk').value) || 1;
+    const sl = parseFloat(document.getElementById('rm-sl').value) || 30;
+    const rr = parseFloat(document.getElementById('rm-rr').value) || 2;
+    const wr = (parseFloat(document.getElementById('rm-wr').value) || 50) / 100;
+    const riskAmt = bal * risk / 100;
+    const lot = riskAmt / (sl * 10);           // gold: $10/pip per lot
+    const daily = riskAmt * 3;                  // 3-loss daily stop rule
+    const streak10 = bal - riskAmt * 10;
+    const expTrade = riskAmt * (wr * rr - (1 - wr));
+    const dash = document.getElementById('client-dash');
+    dash.innerHTML =
+      '<div class="client-hero"><div><h3>' + name + ' — Personal Risk Plan</h3>' +
+      '<span>Balance $' + bal.toLocaleString() + ' · Risk ' + risk + '% · RR 1:' + rr + ' · Win rate ' + Math.round(wr*100) + '%</span></div>' +
+      '<button class="btn ghost" style="border-color:rgba(255,255,255,.6);color:#fff" onclick="rmBack()">← Wapis</button></div>' +
+      '<div class="client-stats">' +
+      '<div class="cstat"><b>$' + riskAmt.toFixed(2) + '</b><span>Risk per Trade</span></div>' +
+      '<div class="cstat"><b>' + Math.max(0.01, Math.floor(lot*100)/100).toFixed(2) + '</b><span>Lot Size (Gold)</span></div>' +
+      '<div class="cstat neg"><b>-$' + daily.toFixed(0) + '</b><span>Max Daily Loss (3 SL rule)</span></div>' +
+      '<div class="cstat"><b>$' + streak10.toLocaleString() + '</b><span>Balance after 10 SL streak</span></div>' +
+      '<div class="cstat ' + (expTrade >= 0 ? 'pos' : 'neg') + '"><b>' + (expTrade>=0?'+':'') + '$' + expTrade.toFixed(2) + '</b><span>Expected / Trade</span></div>' +
+      '</div>' +
+      '<div style="background:var(--panel);border-radius:16px;padding:18px;margin-top:14px;box-shadow:0 10px 30px rgba(19,39,32,0.07)">' +
+      '<canvas id="rm-chart" width="820" height="300" style="width:100%;height:auto"></canvas></div>' +
+      '<p class="calc-note">Rule yaad rakhein: din mein 3 SL lagein to trading band. Yeh plan taleemi hisaab hai — market guarantee nahin.</p>';
+    document.getElementById('client-login').style.display = 'none';
+    dash.style.display = 'block';
+    drawRiskChart(document.getElementById('rm-chart'), bal, risk, rr, wr);
   });
-  loadClients();
 
   // Reveal animation
   const revealEls = document.querySelectorAll('.reveal');
