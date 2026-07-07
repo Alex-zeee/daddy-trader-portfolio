@@ -524,7 +524,6 @@
     </div>
     <ul>
       <li><a href="#signals">Signals</a></li>
-      <li><a href="#clients">Dashboard</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
@@ -590,54 +589,6 @@
     <h2>Live Trading Signals</h2>
     <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
     <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
-  </div>
-</section>
-
-<section id="clients">
-  <div class="wrap reveal">
-    <p class="section-label">Members — Risk Dashboard</p>
-    <h2>Client Risk Dashboard</h2>
-
-    <div id="client-login" class="client-login">
-      <p style="color:var(--ink-soft);margin-top:0">Apni details bharein — foran apna personal risk plan aur chart hasil karein. Data kahin save nahin hota.</p>
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="rm-name">Apka Naam</label>
-          <input type="text" id="rm-name" placeholder="e.g. Sami" />
-        </div>
-        <div class="calc-field">
-          <label for="rm-balance">Account Balance (USD)</label>
-          <input type="number" id="rm-balance" value="1000" min="10" step="any" />
-        </div>
-      </div>
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="rm-risk">Risk per Trade (%)</label>
-          <input type="number" id="rm-risk" value="1" min="0.1" max="10" step="0.1" />
-        </div>
-        <div class="calc-field">
-          <label for="rm-sl">Average SL (pips)</label>
-          <input type="number" id="rm-sl" value="30" min="1" step="any" />
-        </div>
-      </div>
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="rm-rr">Risk : Reward</label>
-          <select id="rm-rr">
-            <option value="1.5">1 : 1.5</option>
-            <option value="2" selected>1 : 2</option>
-            <option value="3">1 : 3</option>
-          </select>
-        </div>
-        <div class="calc-field">
-          <label for="rm-wr">Win Rate andaza (%)</label>
-          <input type="number" id="rm-wr" value="50" min="10" max="90" step="1" />
-        </div>
-      </div>
-      <button class="btn primary" id="rm-btn" type="button">Mera Risk Plan Banao</button>
-    </div>
-
-    <div id="client-dash" style="display:none"></div>
   </div>
 </section>
 
@@ -1294,10 +1245,11 @@
   loadSignals();
   setInterval(loadSignals, 60000);
 
-  // ---- Personal risk management planner ----
+  // ---- Personal risk management planner (section removed) ----
   window.rmBack = function(){
-    document.getElementById('client-dash').style.display = 'none';
-    document.getElementById('client-login').style.display = 'block';
+    var d = document.getElementById('client-dash'), l = document.getElementById('client-login');
+    if (d) d.style.display = 'none';
+    if (l) l.style.display = 'block';
   };
   function drawRiskChart(canvas, balance, riskPct, rr, wr){
     const ctx = canvas.getContext('2d');
