@@ -373,6 +373,35 @@
   .hero-stats b{ font-family:'Poppins',sans-serif; font-size:26px; font-weight:800; color:var(--gold); }
   .hero-stats span{ font-size:12px; color:#bcd8cd; letter-spacing:.06em; text-transform:uppercase; }
 
+  /* Live signals board */
+  .signal-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
+  .sig-card{
+    background:var(--panel); border-radius:18px; padding:22px;
+    box-shadow:0 10px 30px rgba(19,39,32,0.07);
+  }
+  .sig-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+  .sig-pair{ font-family:'Poppins',sans-serif; font-weight:700; font-size:17px; }
+  .sig-type{
+    font-family:'Poppins',sans-serif; font-weight:700; font-size:12px;
+    padding:5px 14px; border-radius:999px; color:#fff;
+  }
+  .sig-type.buy{ background:var(--accent); }
+  .sig-type.sell{ background:#c0392b; }
+  .sig-nums{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; margin-bottom:12px; }
+  .sig-nums div{ background:#f2f8f5; border-radius:10px; padding:8px 10px; text-align:center; }
+  .sig-nums b{ display:block; font-family:'Poppins',sans-serif; font-size:14px; }
+  .sig-nums span{ font-size:10.5px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.06em; }
+  .sig-status{
+    display:inline-block; font-size:11px; font-weight:600; font-family:'Poppins',sans-serif;
+    padding:4px 12px; border-radius:999px; margin-bottom:8px;
+  }
+  .sig-status.active{ background:#e5f2ec; color:var(--accent-dark); }
+  .sig-status.tp{ background:#faf0dc; color:#8a6519; }
+  .sig-status.sl{ background:#fbe9e5; color:#a02c1c; }
+  .sig-status.closed{ background:#ececec; color:#555; }
+  .sig-note{ font-size:13px; color:var(--ink-soft); margin:0; }
+  .sig-date{ font-size:11.5px; color:var(--ink-soft); }
+
   /* WhatsApp floating button */
   .wa-float{
     position:fixed; bottom:22px; right:22px; z-index:999;
@@ -475,6 +504,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
+      <li><a href="#signals">Signals</a></li>
       <li><a href="#videos">Videos</a></li>
       <li><a href="#testimonials">Reviews</a></li>
       <li><a href="#pricing">Courses</a></li>
@@ -631,6 +661,15 @@
         <div class="stat-label">Indicator Suite</div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="signals">
+  <div class="wrap reveal">
+    <p class="section-label">Live — Signals</p>
+    <h2>Live Trading Signals</h2>
+    <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
+    <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
   </div>
 </section>
 
@@ -1143,6 +1182,46 @@
   }
 
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ---- Live signals from Google Sheet ----
+  const SIGNALS_SHEET_ID = '1FgVzH8bU7xA55ObmSkzWmD5m2nJURWj-8vGX6sXl4BI';
+  async function loadSignals(){
+    const board = document.getElementById('signal-board');
+    if (!board) return;
+    try{
+      const url = 'https://docs.google.com/spreadsheets/d/' + SIGNALS_SHEET_ID + '/gviz/tq?tqx=out:json&t=' + Date.now();
+      const txt = await (await fetch(url)).text();
+      const json = JSON.parse(txt.substring(txt.indexOf('(') + 1, txt.lastIndexOf(')')));
+      const rows = (json.table.rows || []).map(r =>
+        (r.c || []).map(c => (c && (c.f !== undefined && c.f !== null ? c.f : c.v)) ?? '')
+      ).filter(r => r[1]);
+      if (!rows.length){
+        board.innerHTML = '<p style="color:var(--ink-soft)">Is waqt koi active signal nahin — jaldi check karein ya WhatsApp channel join karein.</p>';
+        return;
+      }
+      board.innerHTML = rows.reverse().map(r => {
+        const [date, pair, type, entry, sl, tp, status, note] = r;
+        const t = String(type).trim().toUpperCase() === 'SELL' ? 'sell' : 'buy';
+        const s = String(status).toLowerCase();
+        const sc = s.includes('tp') ? 'tp' : s.includes('sl') ? 'sl' : s.includes('close') ? 'closed' : 'active';
+        return '<div class="sig-card">' +
+          '<div class="sig-top"><span class="sig-pair">' + pair + '</span>' +
+          '<span class="sig-type ' + t + '">' + String(type).toUpperCase() + '</span></div>' +
+          '<div class="sig-nums">' +
+          '<div><b>' + entry + '</b><span>Entry</span></div>' +
+          '<div><b>' + sl + '</b><span>SL</span></div>' +
+          '<div><b>' + tp + '</b><span>TP</span></div></div>' +
+          '<span class="sig-status ' + sc + '">' + (status || 'Active') + '</span>' +
+          (note ? '<p class="sig-note">' + note + '</p>' : '') +
+          '<span class="sig-date">' + (date || '') + '</span>' +
+          '</div>';
+      }).join('');
+    }catch(e){
+      board.innerHTML = '<p style="color:var(--ink-soft)">Signals load nahin ho sake. Thori dair mein dobara koshish karein.</p>';
+    }
+  }
+  loadSignals();
+  setInterval(loadSignals, 60000);
 
   // Reveal animation
   const revealEls = document.querySelectorAll('.reveal');
