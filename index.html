@@ -1183,39 +1183,39 @@
 
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  // ---- Live signals from Google Sheet ----
-  const SIGNALS_SHEET_ID = '1FgVzH8bU7xA55ObmSkzWmD5m2nJURWj-8vGX6sXl4BI';
+  // ---- Live signals (auto robot — signals.json, GitHub Actions se update hota hai) ----
   async function loadSignals(){
     const board = document.getElementById('signal-board');
     if (!board) return;
     try{
-      const url = 'https://docs.google.com/spreadsheets/d/' + SIGNALS_SHEET_ID + '/gviz/tq?tqx=out:json&t=' + Date.now();
-      const txt = await (await fetch(url)).text();
-      const json = JSON.parse(txt.substring(txt.indexOf('(') + 1, txt.lastIndexOf(')')));
-      const rows = (json.table.rows || []).map(r =>
-        (r.c || []).map(c => (c && (c.f !== undefined && c.f !== null ? c.f : c.v)) ?? '')
-      ).filter(r => r[1]);
-      if (!rows.length){
-        board.innerHTML = '<p style="color:var(--ink-soft)">Is waqt koi active signal nahin — jaldi check karein ya WhatsApp channel join karein.</p>';
-        return;
+      const res = await fetch('signals.json?t=' + Date.now());
+      const data = await res.json();
+      const sigs = (data.signals || []).slice().reverse();
+      let html = '';
+      if (!sigs.length){
+        html = '<p style="color:var(--ink-soft)">🤖 Robot market scan kar raha hai — is waqt koi fresh Engulfing signal nahin. Har 30 minute mein naya scan hota hai.</p>';
+      } else {
+        html = sigs.map(s => {
+          const t = s.type === 'SELL' ? 'sell' : 'buy';
+          const st = String(s.status || '').toLowerCase();
+          const sc = st.includes('tp') ? 'tp' : st.includes('sl') ? 'sl' : st.includes('close') ? 'closed' : 'active';
+          return '<div class="sig-card">' +
+            '<div class="sig-top"><span class="sig-pair">' + s.pair + '</span>' +
+            '<span class="sig-type ' + t + '">' + s.type + '</span></div>' +
+            '<div class="sig-nums">' +
+            '<div><b>' + s.entry + '</b><span>Entry</span></div>' +
+            '<div><b>' + s.sl + '</b><span>SL</span></div>' +
+            '<div><b>' + s.tp + '</b><span>TP</span></div></div>' +
+            '<span class="sig-status ' + sc + '">' + (s.status || 'Active') + '</span>' +
+            (s.note ? '<p class="sig-note">' + s.note + '</p>' : '') +
+            '<span class="sig-date">' + (s.date || '') + '</span>' +
+            '</div>';
+        }).join('');
       }
-      board.innerHTML = rows.reverse().map(r => {
-        const [date, pair, type, entry, sl, tp, status, note] = r;
-        const t = String(type).trim().toUpperCase() === 'SELL' ? 'sell' : 'buy';
-        const s = String(status).toLowerCase();
-        const sc = s.includes('tp') ? 'tp' : s.includes('sl') ? 'sl' : s.includes('close') ? 'closed' : 'active';
-        return '<div class="sig-card">' +
-          '<div class="sig-top"><span class="sig-pair">' + pair + '</span>' +
-          '<span class="sig-type ' + t + '">' + String(type).toUpperCase() + '</span></div>' +
-          '<div class="sig-nums">' +
-          '<div><b>' + entry + '</b><span>Entry</span></div>' +
-          '<div><b>' + sl + '</b><span>SL</span></div>' +
-          '<div><b>' + tp + '</b><span>TP</span></div></div>' +
-          '<span class="sig-status ' + sc + '">' + (status || 'Active') + '</span>' +
-          (note ? '<p class="sig-note">' + note + '</p>' : '') +
-          '<span class="sig-date">' + (date || '') + '</span>' +
-          '</div>';
-      }).join('');
+      if (data.updated){
+        html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Aakhri robot scan: ' + data.updated + '</p>';
+      }
+      board.innerHTML = html;
     }catch(e){
       board.innerHTML = '<p style="color:var(--ink-soft)">Signals load nahin ho sake. Thori dair mein dobara koshish karein.</p>';
     }
