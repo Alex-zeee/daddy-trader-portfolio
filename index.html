@@ -524,6 +524,7 @@
     </div>
     <ul>
       <li><a href="#signals">Signals</a></li>
+      <li><a href="#account">My Account</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
@@ -589,6 +590,35 @@
     <h2>Live Trading Signals</h2>
     <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
     <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
+  </div>
+</section>
+
+<section id="account">
+  <div class="wrap reveal">
+    <p class="section-label">Members — Live Account Tracking</p>
+    <h2>Apna Exness Account Connect Karein</h2>
+
+    <div class="client-login" style="max-width:100%">
+      <p style="color:var(--ink-soft);margin-top:0">
+        <strong>Sirf 3 asaan steps (bilkul free):</strong><br>
+        1️⃣ <a href="https://www.myfxbook.com" target="_blank" rel="noopener">Myfxbook.com</a> pe free account banao<br>
+        2️⃣ Wahan apna Exness account connect karo — sirf account number aur <strong>investor (read-only) password</strong> lagta hai, aapka paisa bilkul mehfooz rehta hai<br>
+        3️⃣ Myfxbook settings mein account ko <strong>Public</strong> karo aur <strong>Widgets enable</strong> karo — phir apna account ID neeche dalo
+      </p>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="fx-id">Myfxbook Account Link ya ID</label>
+          <input type="text" id="fx-id" placeholder="e.g. myfxbook.com/members/ali/myaccount/1234567 ya sirf 1234567" />
+        </div>
+        <div class="calc-field" style="display:flex;align-items:flex-end">
+          <button class="btn primary" id="fx-btn" type="button" style="width:100%">Mera Live Chart Dikhao</button>
+        </div>
+      </div>
+      <p id="fx-err" style="color:#a02c1c;font-size:13px;margin:10px 0 0"></p>
+    </div>
+
+    <div id="fx-result" style="display:none;margin-top:16px"></div>
+    <p class="calc-note">Yeh data myfxbook ke zariye aata hai — website kabhi bhi aapka password nahin mangti. Kabhi bhi kisi ko apna asli (trading) password na dein; sirf investor password istemal karein.</p>
   </div>
 </section>
 
@@ -1244,6 +1274,45 @@
   }
   loadSignals();
   setInterval(loadSignals, 60000);
+
+  // ---- Exness account live tracking (via myfxbook) ----
+  function fxShow(oid){
+    const box = document.getElementById('fx-result');
+    const wUrl = 'https://widgets.myfxbook.com/api/get-widget.png?accountOid=' + oid +
+      '&type=0&width=800&height=350&bgColor=ffffff&chartbgc=ffffff&gridColor=BDBDBD' +
+      '&lineColor=17805e&barColor=e09f3e&fontColor=333333&title=&titles=20&chartt=1&txtsz=11';
+    const pageUrl = 'https://www.myfxbook.com/portfolio/x/' + oid;
+    box.innerHTML =
+      '<div class="client-hero"><div><h3>Aapka Live Account Chart</h3>' +
+      '<span>Myfxbook ID: ' + oid + ' · Data live update hota hai</span></div>' +
+      '<a class="btn gold" href="' + pageUrl + '" target="_blank" rel="noopener">Full Live Report ↗</a></div>' +
+      '<div style="background:#fff;border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(19,39,32,0.07)">' +
+      '<img id="fx-img" src="' + wUrl + '" alt="Live account chart" style="width:100%;height:auto;border-radius:8px" />' +
+      '</div>';
+    box.style.display = 'block';
+    const img = document.getElementById('fx-img');
+    img.onerror = function(){
+      img.parentElement.innerHTML =
+        '<p style="color:var(--ink-soft);margin:6px">Chart widget load nahin hua — myfxbook mein apna account <strong>Public</strong> karein aur <strong>Widgets enable</strong> karein (Settings → Privacy). Tab tak upar wale "Full Live Report" button se apna pura live data dekh sakte hain.</p>';
+    };
+    try{ localStorage.setItem('fx_oid', oid); }catch(e){}
+  }
+  const fxBtn = document.getElementById('fx-btn');
+  if (fxBtn) fxBtn.addEventListener('click', () => {
+    const raw = document.getElementById('fx-id').value.trim();
+    const m = raw.match(/(\d{5,})/);
+    const err = document.getElementById('fx-err');
+    if (!m){ err.textContent = 'Sahi ID dalein — apne myfxbook account page ke link ka aakhri number.'; return; }
+    err.textContent = '';
+    fxShow(m[1]);
+  });
+  try{
+    const saved = localStorage.getItem('fx_oid');
+    if (saved && document.getElementById('fx-id')){
+      document.getElementById('fx-id').value = saved;
+      fxShow(saved);
+    }
+  }catch(e){}
 
   // ---- Personal risk management planner (section removed) ----
   window.rmBack = function(){
