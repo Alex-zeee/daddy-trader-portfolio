@@ -402,6 +402,28 @@
   .sig-note{ font-size:13px; color:var(--ink-soft); margin:0; }
   .sig-date{ font-size:11.5px; color:var(--ink-soft); }
 
+  /* Client risk dashboard */
+  .client-login{
+    background:var(--panel); border-radius:20px; padding:26px; max-width:540px;
+    box-shadow:0 10px 30px rgba(19,39,32,0.07);
+  }
+  .client-hero{
+    background:linear-gradient(135deg, var(--accent-dark) 0%, #124d3b 100%);
+    color:#fff; border-radius:20px; padding:24px 26px; margin-bottom:16px;
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;
+  }
+  .client-hero h3{ margin:0; font-family:'Poppins',sans-serif; font-size:20px; }
+  .client-hero span{ color:#bcd8cd; font-size:12.5px; }
+  .client-stats{ display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px; }
+  .cstat{
+    background:var(--panel); border-radius:16px; padding:18px;
+    box-shadow:0 10px 30px rgba(19,39,32,0.07); text-align:center;
+  }
+  .cstat b{ display:block; font-family:'Poppins',sans-serif; font-size:22px; font-weight:800; }
+  .cstat span{ font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.06em; }
+  .cstat.pos b{ color:var(--accent); }
+  .cstat.neg b{ color:#c0392b; }
+
   /* WhatsApp floating button */
   .wa-float{
     position:fixed; bottom:22px; right:22px; z-index:999;
@@ -501,10 +523,11 @@
       M<span>.</span>ALI ALVI
     </div>
     <ul>
+      <li><a href="#signals">Signals</a></li>
+      <li><a href="#clients">Dashboard</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
-      <li><a href="#signals">Signals</a></li>
       <li><a href="#videos">Videos</a></li>
       <li><a href="#testimonials">Reviews</a></li>
       <li><a href="#pricing">Courses</a></li>
@@ -560,6 +583,42 @@
     </div>
   </div>
 </header>
+
+<section id="signals">
+  <div class="wrap reveal">
+    <p class="section-label">Live — Signals</p>
+    <h2>Live Trading Signals</h2>
+    <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
+    <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
+  </div>
+</section>
+
+<section id="clients">
+  <div class="wrap reveal">
+    <p class="section-label">Members — Risk Dashboard</p>
+    <h2>Client Risk Dashboard</h2>
+
+    <div id="client-login" class="client-login">
+      <p style="color:var(--ink-soft);margin-top:0">Apna naam chunein aur PIN dalein — sirf apka apna account data nazar aayega.</p>
+      <div class="calc-row">
+        <div class="calc-field">
+          <label for="cl-name">Naam</label>
+          <select id="cl-name">
+            <option value="">— Select —</option>
+          </select>
+        </div>
+        <div class="calc-field">
+          <label for="cl-pin">PIN</label>
+          <input type="password" id="cl-pin" placeholder="4-digit PIN" maxlength="6" />
+        </div>
+      </div>
+      <button class="btn primary" id="cl-btn" type="button">Dashboard Kholein</button>
+      <p id="cl-err" style="color:#a02c1c;font-size:13px;margin:10px 0 0"></p>
+    </div>
+
+    <div id="client-dash" style="display:none"></div>
+  </div>
+</section>
 
 <section id="about">
   <div class="wrap reveal">
@@ -661,15 +720,6 @@
         <div class="stat-label">Indicator Suite</div>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="signals">
-  <div class="wrap reveal">
-    <p class="section-label">Live — Signals</p>
-    <h2>Live Trading Signals</h2>
-    <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
-    <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
   </div>
 </section>
 
@@ -1222,6 +1272,58 @@
   }
   loadSignals();
   setInterval(loadSignals, 60000);
+
+  // ---- Client risk dashboard (clients.json) ----
+  let CLIENTS_DATA = null;
+  async function loadClients(){
+    try{
+      const res = await fetch('clients.json?t=' + Date.now());
+      CLIENTS_DATA = await res.json();
+      const sel = document.getElementById('cl-name');
+      if (sel && sel.options.length <= 1){
+        (CLIENTS_DATA.clients || []).forEach(c => {
+          const o = document.createElement('option');
+          o.value = c.id; o.textContent = c.name;
+          sel.appendChild(o);
+        });
+      }
+    }catch(e){ /* file abhi nahin */ }
+  }
+  function showClientDash(c){
+    const fl = Math.round((c.equity - c.balance) * 100) / 100;
+    const dash = document.getElementById('client-dash');
+    dash.innerHTML =
+      '<div class="client-hero"><div><h3>' + c.name + ' — Account Overview</h3>' +
+      '<span>Aakhri update: ' + (CLIENTS_DATA.updated || '—') + '</span></div>' +
+      '<button class="btn ghost" style="border-color:rgba(255,255,255,.6);color:#fff" onclick="clientLogout()">Logout</button></div>' +
+      '<div class="client-stats">' +
+      '<div class="cstat"><b>$' + c.balance.toLocaleString() + '</b><span>Balance</span></div>' +
+      '<div class="cstat"><b>$' + c.equity.toLocaleString() + '</b><span>Equity</span></div>' +
+      '<div class="cstat ' + (fl >= 0 ? 'pos' : 'neg') + '"><b>' + (fl >= 0 ? '+' : '') + fl.toLocaleString() + '</b><span>Floating P/L</span></div>' +
+      '<div class="cstat"><b>' + c.open_trades + '</b><span>Open Trades</span></div>' +
+      '<div class="cstat"><b>' + c.sl_set + '</b><span>SL Lage Hue</span></div>' +
+      '<div class="cstat"><b>' + c.tp_set + '</b><span>TP Lage Hue</span></div>' +
+      '</div>';
+    document.getElementById('client-login').style.display = 'none';
+    dash.style.display = 'block';
+  }
+  window.clientLogout = function(){
+    document.getElementById('client-dash').style.display = 'none';
+    document.getElementById('client-login').style.display = 'block';
+    document.getElementById('cl-pin').value = '';
+  };
+  const clBtn = document.getElementById('cl-btn');
+  if (clBtn) clBtn.addEventListener('click', async () => {
+    if (!CLIENTS_DATA) await loadClients();
+    const id = document.getElementById('cl-name').value;
+    const pin = document.getElementById('cl-pin').value.trim();
+    const err = document.getElementById('cl-err');
+    const c = (CLIENTS_DATA && CLIENTS_DATA.clients || []).find(x => x.id === id && String(x.pin) === pin);
+    if (!c){ err.textContent = 'Ghalat naam ya PIN — dobara koshish karein.'; return; }
+    err.textContent = '';
+    showClientDash(c);
+  });
+  loadClients();
 
   // Reveal animation
   const revealEls = document.querySelectorAll('.reveal');
