@@ -19,7 +19,13 @@
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://alex-zeee.github.io/daddy-trader-portfolio/" />
 <link rel="icon" type="image/png" href="favicon.png" />
-<link rel="apple-touch-icon" href="favicon.png" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0e3b2e" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Daddy Trader" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
@@ -1234,6 +1240,35 @@
   }
 
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ---- PWA: service worker + install button ----
+  if ('serviceWorker' in navigator){
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (document.getElementById('pwa-install')) return;
+    const b = document.createElement('button');
+    b.id = 'pwa-install';
+    b.textContent = '📲 Install App';
+    b.style.cssText = 'position:fixed;bottom:24px;left:20px;z-index:998;padding:12px 20px;' +
+      'border:none;border-radius:999px;background:#0e3b2e;color:#fff;font-family:Poppins,sans-serif;' +
+      'font-weight:600;font-size:13px;box-shadow:0 10px 26px rgba(14,59,46,.4);cursor:pointer';
+    b.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      b.remove();
+    });
+    document.body.appendChild(b);
+  });
+  window.addEventListener('appinstalled', () => {
+    const b = document.getElementById('pwa-install');
+    if (b) b.remove();
+  });
 
   // ---- Live signals (auto robot — signals.json, GitHub Actions se update hota hai) ----
   async function loadSignals(){
