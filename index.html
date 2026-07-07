@@ -595,6 +595,7 @@
     <p class="section-label">Live — Signals</p>
     <h2>Live Trading Signals</h2>
     <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
+    <p class="calc-note">📱 <strong>Phone push notification chahiye?</strong> Free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> install karo aur topic <strong>daddytrader-ali-signals</strong> subscribe karo — har naye signal ki notification foran milegi, app band ho tab bhi.</p>
     <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
   </div>
 </section>
@@ -1293,7 +1294,7 @@
         html += sigs.map(s => {
           const t = s.type === 'SELL' ? 'sell' : 'buy';
           const st = String(s.status || '').toLowerCase();
-          const sc = st.includes('tp') ? 'tp' : st.includes('sl') ? 'sl' : st.includes('close') ? 'closed' : 'active';
+          const sc = st.includes('tp') ? 'tp' : st.includes('sl') ? 'sl' : (st.includes('close') || st.includes('expir')) ? 'closed' : 'active';
           return '<div class="sig-card">' +
             '<div class="sig-top"><span class="sig-pair">' + s.pair + '</span>' +
             '<span class="sig-type ' + t + '">' + s.type + '</span></div>' +
@@ -1311,12 +1312,44 @@
         html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Aakhri robot scan: ' + data.updated + '</p>';
       }
       board.innerHTML = html;
+
+      // browser notification jab naya signal aaye (tab/app khula ho)
+      try{
+        const newest = sigs.find(s => s.ts);
+        if (newest && 'Notification' in window){
+          const last = localStorage.getItem('last_sig_ts');
+          if (newest.ts !== last){
+            if (last && Notification.permission === 'granted'){
+              new Notification('📈 Naya Signal — ' + newest.pair, {
+                body: newest.type + ' @ ' + newest.entry + ' | SL ' + newest.sl + ' | TP ' + newest.tp,
+                icon: 'icon-192.png'
+              });
+            }
+            localStorage.setItem('last_sig_ts', newest.ts);
+          }
+        }
+      }catch(e){}
     }catch(e){
       board.innerHTML = '<p style="color:var(--ink-soft)">Signals load nahin ho sake. Thori dair mein dobara koshish karein.</p>';
     }
   }
   loadSignals();
   setInterval(loadSignals, 60000);
+
+  // notification permission button
+  if ('Notification' in window && Notification.permission === 'default'){
+    const sigSection = document.querySelector('#signals .wrap h2');
+    if (sigSection){
+      const nb = document.createElement('button');
+      nb.className = 'btn ghost';
+      nb.textContent = '🔔 Signal Notifications On Karein';
+      nb.style.marginBottom = '18px';
+      nb.addEventListener('click', () => {
+        Notification.requestPermission().then(p => { if (p !== 'default') nb.remove(); });
+      });
+      sigSection.after(nb);
+    }
+  }
 
   // ---- Exness account live tracking (via myfxbook) ----
   function fxShow(oid){

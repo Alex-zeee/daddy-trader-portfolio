@@ -1,7 +1,8 @@
-"""Daddy Trader auto-signal bot v2 — with accuracy filters.
-Har 30 min: Market Bias update (EMA trend + RSI).
-Signal sirf tab jab candlestick pattern (Engulfing / Pin Bar)
-trend ke saath align ho. SL/TP ATR ke hisaab se.
+"""Daddy Trader auto-signal bot v3.
+- M15 candles par pattern scan (har 15 min run)
+- Market Bias har run par update
+- Purane Active signals 12 ghante baad Expired
+- Naye signal par .new_signal file banti hai (ntfy push ke liye)
 """
 import json
 from datetime import datetime, timezone, timedelta
@@ -10,13 +11,14 @@ import yfinance as yf
 
 PKT = timezone(timedelta(hours=5))
 RR = 2.0
-MAX_SIGNALS = 12
+MAX_SIGNALS = 8
+EXPIRE_HOURS = 12
 
 
 def fetch_gold():
     for sym in ("XAUUSD=X", "GC=F"):
         try:
-            df = yf.Ticker(sym).history(period="10d", interval="1h")
+            df = yf.Ticker(sym).history(period="5d", interval="15m")
             if df is not None and len(df) > 60:
                 df = df.dropna(subset=["Open", "High", "Low", "Close"])
                 if df.index.tz is None:
@@ -60,6 +62,7 @@ def market_bias(df):
         "strength": int(abs(score) / 3 * 100),
         "price": round(float(b["Close"]), 2),
         "rsi": int(b["rsi"]),
+        "tf": "M15",
     }
 
 
@@ -72,6 +75,7 @@ def load_existing():
 
 
 def update_statuses(sigs, df):
+    now = datetime.now(timezone.utc)
     for s in sigs:
         if s.get("status") != "Active":
             continue
@@ -91,6 +95,8 @@ def update_statuses(sigs, df):
                     s["status"] = "SL Hit"; break
                 if row["Low"] <= s["tp"]:
                     s["status"] = "TP Hit"; break
+        if s["status"] == "Active" and (now - t0) > timedelta(hours=EXPIRE_HOURS):
+            s["status"] = "Expired"
 
 
 def detect_new(sigs, df):
@@ -121,7 +127,7 @@ def detect_new(sigs, df):
         pattern = "Bearish Engulfing" if bear_eng else "Shooting Star"
         typ = "SELL"
     if not pattern:
-        return
+        return None
 
     entry = round(float(b["Close"]), 2)
     pad = 0.25 * atr
@@ -134,11 +140,11 @@ def detect_new(sigs, df):
         risk = sl - entry
         tp = round(entry - RR * risk, 2)
     if risk <= 0:
-        return
+        return None
     key = ts.isoformat()
     if any(s.get("ts") == key for s in sigs):
-        return
-    sigs.append({
+        return None
+    sig = {
         "ts": key,
         "date": ts.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
         "pair": "XAUUSD",
@@ -147,18 +153,21 @@ def detect_new(sigs, df):
         "sl": sl,
         "tp": tp,
         "status": "Active",
-        "note": "Auto: " + pattern + " + trend filter (EMA/RSI)",
-    })
+        "note": "Auto: M15 " + pattern + " + trend filter",
+    }
+    sigs.append(sig)
+    return sig
 
 
 def main():
     sigs = load_existing()
     bias = None
+    new_sig = None
     df = fetch_gold()
     if df is not None:
         df = add_indicators(df)
         update_statuses(sigs, df)
-        detect_new(sigs, df)
+        new_sig = detect_new(sigs, df)
         bias = market_bias(df)
     sigs = sigs[-MAX_SIGNALS:]
     out = {
@@ -168,7 +177,13 @@ def main():
     }
     with open("signals.json", "w") as f:
         json.dump(out, f, indent=1)
-    print("signals:", len(sigs), "| bias:", bias)
+    if new_sig:
+        msg = ("{} {} @ {} | SL {} | TP {} | {}".format(
+            new_sig["type"], new_sig["pair"], new_sig["entry"],
+            new_sig["sl"], new_sig["tp"], new_sig["note"]))
+        with open(".new_signal", "w") as f:
+            f.write(msg)
+    print("signals:", len(sigs), "| new:", bool(new_sig), "| bias:", bias)
 
 
 if __name__ == "__main__":
