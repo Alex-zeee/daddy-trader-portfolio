@@ -1244,10 +1244,18 @@
       const data = await res.json();
       const sigs = (data.signals || []).slice().reverse();
       let html = '';
+      if (data.bias){
+        const bd = data.bias.dir;
+        const bc = bd === 'BUY' ? 'var(--accent)' : bd === 'SELL' ? '#c0392b' : '#8a8f8c';
+        html += '<div class="sig-card" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">' +
+          '<div><b style="font-family:Poppins,sans-serif;font-size:15px">📊 Market Bias — har 30 min update</b><br>' +
+          '<span style="font-size:12.5px;color:var(--ink-soft)">Gold $' + data.bias.price + ' · RSI ' + data.bias.rsi + '</span></div>' +
+          '<span class="sig-type" style="background:' + bc + '">' + bd + (bd !== 'NEUTRAL' ? ' · ' + data.bias.strength + '%' : '') + '</span></div>';
+      }
       if (!sigs.length){
-        html = '<p style="color:var(--ink-soft)">🤖 Robot market scan kar raha hai — is waqt koi fresh Engulfing signal nahin. Har 30 minute mein naya scan hota hai.</p>';
+        html += '<p style="color:var(--ink-soft)">🤖 Robot market scan kar raha hai — is waqt koi fresh pattern signal nahin. Pattern bante hi signal yahan aa jayega.</p>';
       } else {
-        html = sigs.map(s => {
+        html += sigs.map(s => {
           const t = s.type === 'SELL' ? 'sell' : 'buy';
           const st = String(s.status || '').toLowerCase();
           const sc = st.includes('tp') ? 'tp' : st.includes('sl') ? 'sl' : st.includes('close') ? 'closed' : 'active';

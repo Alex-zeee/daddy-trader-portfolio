@@ -1,7 +1,7 @@
-"""Daddy Trader auto-signal bot.
-Har run par: XAUUSD H1 data utha kar Engulfing pattern check karta hai,
-naya signal signals.json mein likhta hai, aur purane Active signals
-ka TP/SL status update karta hai. GitHub Actions se har 30 min chalta hai.
+"""Daddy Trader auto-signal bot v2 — with accuracy filters.
+Har 30 min: Market Bias update (EMA trend + RSI).
+Signal sirf tab jab candlestick pattern (Engulfing / Pin Bar)
+trend ke saath align ho. SL/TP ATR ke hisaab se.
 """
 import json
 from datetime import datetime, timezone, timedelta
@@ -9,15 +9,15 @@ from datetime import datetime, timezone, timedelta
 import yfinance as yf
 
 PKT = timezone(timedelta(hours=5))
-RR = 2.0          # risk : reward = 1 : 2
-MAX_SIGNALS = 12  # itne aakhri signals website par rehte hain
+RR = 2.0
+MAX_SIGNALS = 12
 
 
 def fetch_gold():
     for sym in ("XAUUSD=X", "GC=F"):
         try:
-            df = yf.Ticker(sym).history(period="5d", interval="1h")
-            if df is not None and len(df) > 10:
+            df = yf.Ticker(sym).history(period="10d", interval="1h")
+            if df is not None and len(df) > 60:
                 df = df.dropna(subset=["Open", "High", "Low", "Close"])
                 if df.index.tz is None:
                     df.index = df.index.tz_localize("UTC")
@@ -27,6 +27,40 @@ def fetch_gold():
         except Exception as e:
             print("fetch fail", sym, e)
     return None
+
+
+def add_indicators(df):
+    c = df["Close"]
+    df["ema20"] = c.ewm(span=20, adjust=False).mean()
+    df["ema50"] = c.ewm(span=50, adjust=False).mean()
+    delta = c.diff()
+    gain = delta.clip(lower=0).rolling(14).mean()
+    loss = (-delta.clip(upper=0)).rolling(14).mean()
+    rs = gain / loss.replace(0, 1e-9)
+    df["rsi"] = 100 - 100 / (1 + rs)
+    tr = (df["High"] - df["Low"]).combine(
+        (df["High"] - c.shift()).abs(), max).combine(
+        (df["Low"] - c.shift()).abs(), max)
+    df["atr"] = tr.rolling(14).mean()
+    return df
+
+
+def market_bias(df):
+    b = df.iloc[-2]
+    score = 0
+    score += 1 if b["ema20"] > b["ema50"] else -1
+    score += 1 if b["Close"] > b["ema20"] else -1
+    if b["rsi"] > 55:
+        score += 1
+    elif b["rsi"] < 45:
+        score -= 1
+    direction = "BUY" if score >= 2 else "SELL" if score <= -2 else "NEUTRAL"
+    return {
+        "dir": direction,
+        "strength": int(abs(score) / 3 * 100),
+        "price": round(float(b["Close"]), 2),
+        "rsi": int(b["rsi"]),
+    }
 
 
 def load_existing():
@@ -60,32 +94,50 @@ def update_statuses(sigs, df):
 
 
 def detect_new(sigs, df):
-    if len(df) < 3:
-        return
-    a, b = df.iloc[-3], df.iloc[-2]      # b = aakhri closed candle
+    a, b = df.iloc[-3], df.iloc[-2]
     ts = df.index[-2]
-    bull = (b["Close"] > b["Open"] and a["Close"] < a["Open"]
-            and b["Close"] >= a["Open"] and b["Open"] <= a["Close"])
-    bear = (b["Close"] < b["Open"] and a["Close"] > a["Open"]
-            and b["Close"] <= a["Open"] and b["Open"] >= a["Close"])
-    if not (bull or bear):
+    atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
+    rng = float(b["High"] - b["Low"]) or 1e-9
+    body = abs(float(b["Close"] - b["Open"]))
+    up_wick = float(b["High"] - max(b["Close"], b["Open"]))
+    dn_wick = float(min(b["Close"], b["Open"]) - b["Low"])
+
+    bull_eng = (b["Close"] > b["Open"] and a["Close"] < a["Open"]
+                and b["Close"] >= a["Open"] and b["Open"] <= a["Close"])
+    bear_eng = (b["Close"] < b["Open"] and a["Close"] > a["Open"]
+                and b["Close"] <= a["Open"] and b["Open"] >= a["Close"])
+    hammer = dn_wick >= 2 * body and (b["High"] - b["Close"]) / rng <= 0.35
+    star = up_wick >= 2 * body and (b["Close"] - b["Low"]) / rng <= 0.35
+
+    trend_up = b["ema20"] > b["ema50"] and b["rsi"] > 45
+    trend_dn = b["ema20"] < b["ema50"] and b["rsi"] < 55
+
+    pattern = None
+    typ = None
+    if (bull_eng or hammer) and trend_up:
+        pattern = "Bullish Engulfing" if bull_eng else "Hammer Pin Bar"
+        typ = "BUY"
+    elif (bear_eng or star) and trend_dn:
+        pattern = "Bearish Engulfing" if bear_eng else "Shooting Star"
+        typ = "SELL"
+    if not pattern:
         return
+
     entry = round(float(b["Close"]), 2)
-    if bull:
-        sl = round(float(min(a["Low"], b["Low"])), 2)
+    pad = 0.25 * atr
+    if typ == "BUY":
+        sl = round(float(min(a["Low"], b["Low"])) - pad, 2)
         risk = entry - sl
         tp = round(entry + RR * risk, 2)
-        typ = "BUY"
     else:
-        sl = round(float(max(a["High"], b["High"])), 2)
+        sl = round(float(max(a["High"], b["High"])) + pad, 2)
         risk = sl - entry
         tp = round(entry - RR * risk, 2)
-        typ = "SELL"
     if risk <= 0:
         return
     key = ts.isoformat()
     if any(s.get("ts") == key for s in sigs):
-        return  # yeh signal pehle se mojood hai
+        return
     sigs.append({
         "ts": key,
         "date": ts.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
@@ -95,24 +147,28 @@ def detect_new(sigs, df):
         "sl": sl,
         "tp": tp,
         "status": "Active",
-        "note": "Auto: H1 Engulfing detected",
+        "note": "Auto: " + pattern + " + trend filter (EMA/RSI)",
     })
 
 
 def main():
     sigs = load_existing()
+    bias = None
     df = fetch_gold()
     if df is not None:
+        df = add_indicators(df)
         update_statuses(sigs, df)
         detect_new(sigs, df)
+        bias = market_bias(df)
     sigs = sigs[-MAX_SIGNALS:]
     out = {
         "updated": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+        "bias": bias,
         "signals": sigs,
     }
     with open("signals.json", "w") as f:
         json.dump(out, f, indent=1)
-    print("total signals:", len(sigs))
+    print("signals:", len(sigs), "| bias:", bias)
 
 
 if __name__ == "__main__":
