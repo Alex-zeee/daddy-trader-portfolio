@@ -1,12 +1,24 @@
 {
- "updated": "08-07-2026 23:11 PKT",
+ "updated": "09-07-2026 00:53 PKT",
  "bias": {
   "dir": "NEUTRAL",
-  "strength": 0,
-  "price": 4076.4,
-  "rsi": 52,
+  "strength": 33,
+  "price": 4098.5,
+  "rsi": 84,
   "tf": "M15"
  },
  "idea": null,
- "signals": []
+ "signals": [
+  {
+   "ts": "2026-07-08T19:15:00+00:00",
+   "date": "09-07-2026 00:15 PKT",
+   "pair": "XAUUSD",
+   "type": "BUY",
+   "entry": 4098.5,
+   "sl": 4092.18,
+   "tp": 4111.14,
+   "status": "Active",
+   "note": "Auto: M15 Hammer Pin Bar \u2014 pure price action"
+  }
+ ]
 }
