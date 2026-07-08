@@ -169,6 +169,14 @@ def main():
         update_statuses(sigs, df)
         new_sig = detect_new(sigs, df)
         bias = market_bias(df)
+    # 24 ghante se purane signals hata do (board hamesha fresh rahe)
+    now = datetime.now(timezone.utc)
+    def fresh(s):
+        try:
+            return (now - datetime.fromisoformat(s["ts"])) < timedelta(hours=24)
+        except Exception:
+            return False
+    sigs = [s for s in sigs if fresh(s)]
     sigs = sigs[-MAX_SIGNALS:]
     out = {
         "updated": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),

@@ -1,5 +1,5 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v1';
+const CACHE = 'daddytrader-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -26,8 +26,11 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = e.request.url;
   if (e.request.method !== 'GET') return;
-  // signals/clients data: hamesha fresh, fallback cache
-  if (url.includes('signals.json') || url.includes('clients.json')) {
+  // HTML pages + data: ALWAYS network first (fresh), fallback cache for offline
+  const isData = url.includes('signals.json') || url.includes('clients.json');
+  const isPage = e.request.mode === 'navigate' ||
+    e.request.destination === 'document' || url.endsWith('.html');
+  if (isData || isPage) {
     e.respondWith(
       fetch(e.request).then(res => {
         const copy = res.clone();
@@ -37,7 +40,7 @@ self.addEventListener('fetch', (e) => {
     );
     return;
   }
-  // baqi sab: cache first, phir network
+  // images/static: cache first, phir network
   e.respondWith(
     caches.match(e.request).then(hit => hit ||
       fetch(e.request).then(res => {
