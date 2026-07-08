@@ -519,6 +519,130 @@
     h2{ font-size: 24px; }
   }
 </style>
+
+<!-- ===== THEME V3 : Dark neon (crypto/trading terminal style) ===== -->
+<style id="theme-v3">
+  :root{
+    --bg: #0a0c16;
+    --panel: #131731;
+    --ink: #eef0ff;
+    --ink-soft: #8b91b5;
+    --line: #232746;
+    --accent: #00e8c6;        /* neon teal */
+    --accent-dark: #0d1230;
+    --gold: #a78bfa;          /* soft purple accent */
+    --neon-glow: 0 0 22px rgba(0,232,198,0.35);
+  }
+  body{ background: var(--bg); color: var(--ink); }
+  h1, h2, h3{ color: var(--ink); }
+  .section-label{ color: var(--accent); letter-spacing: .18em; }
+
+  nav{ background: rgba(10,12,22,0.85); border-bottom: 1px solid var(--line); }
+  nav .brand{ color: var(--ink); }
+  nav a{ color: var(--ink-soft); }
+  nav a:hover{ color: var(--accent); }
+
+  .ticker-tape{ background: #0d1024; border-bottom: 1px solid var(--line); }
+
+  /* Hero: deep space gradient + neon glow */
+  header.hero .wrap{
+    background:
+      radial-gradient(ellipse at 85% 20%, rgba(139,92,246,0.25) 0%, transparent 55%),
+      radial-gradient(ellipse at 70% 80%, rgba(0,232,198,0.12) 0%, transparent 50%),
+      linear-gradient(135deg, #0e1128 0%, #141033 60%, #0d1230 100%);
+    border: 1px solid #262b52;
+    box-shadow: 0 24px 80px rgba(80,40,200,0.25);
+  }
+  header.hero .eyebrow{ color: var(--accent); }
+  header.hero .tagline{ color: #a6abce; }
+  .hero-stats b{ color: var(--accent); }
+  .hero-stats span{ color: #8b91b5; }
+
+  .btn.primary, .btn.gold{
+    background: var(--accent); color: #05231d;
+    box-shadow: var(--neon-glow);
+  }
+  .btn.primary:hover, .btn.gold:hover{ background: #35f0d6; }
+  .btn.ghost{ border-color: #3a4070; color: var(--ink); }
+  header.hero .btn.ghost{ border-color: rgba(0,232,198,0.5); color: var(--accent); }
+
+  /* Cards: dark panels with subtle border glow */
+  .skill-card, .project-card, .testi, .price-card, .post, .faq,
+  .calc-panel, .video-card, .sig-card, .client-login, .cstat{
+    background: var(--panel);
+    box-shadow: 0 0 0 1px var(--line), 0 14px 40px rgba(0,0,0,0.45);
+    color: var(--ink);
+  }
+  .video-card:hover{ box-shadow: 0 0 0 1px rgba(0,232,198,0.5), 0 16px 44px rgba(0,0,0,0.5); }
+  .project-card p, .testi p, .about-text p, .post .post-body p,
+  .faq div, .video-card p, .sig-note{ color: var(--ink-soft); }
+  .stat{ border-color: var(--line); }
+  .stat-num{ color: var(--accent); }
+  .stat-label{ color: var(--ink-soft); }
+
+  .tag{ background: #1b2044; color: #9fe8db; }
+  .price-num{ color: var(--accent); }
+  .price-card li{ color: var(--ink-soft); border-bottom-color: #20254a; }
+  .price-card li::before{ color: var(--accent); }
+  .price-card.featured{ border: 1px solid var(--accent); box-shadow: 0 0 0 1px var(--accent), var(--neon-glow); }
+  .price-card.featured::before{ background: var(--accent); color: #05231d; }
+
+  .calc-tab{ background: #1b2044; color: #9fe8db; }
+  .calc-tab.active{ background: var(--accent); color: #05231d; }
+  .calc-field label{ color: var(--ink-soft); }
+  .calc-field input, .calc-field select, form textarea{
+    background: #0e1128; border-color: #2a2f55; color: var(--ink);
+  }
+  .calc-field input:focus, .calc-field select:focus, form textarea:focus{
+    outline: 1px solid var(--accent); border-color: var(--accent);
+  }
+  .calc-result{ background: #0e1128; border-color: var(--accent); color: var(--ink-soft); }
+  .calc-result b{ color: var(--accent); }
+  .calc-note{ color: var(--ink-soft); }
+  .calc-note a{ color: var(--accent); }
+
+  .post summary h3{ color: var(--ink); }
+  .post .post-body{ border-top-color: var(--line); }
+  .post .post-body strong, .faq summary{ color: var(--ink); }
+  .faq summary::before{ color: var(--accent); }
+  .testi .who{ color: var(--ink); }
+  .testi .who span{ color: var(--ink-soft); }
+  .testi p::before, .testi p::after{ color: var(--accent); }
+  .stars{ color: var(--gold); }
+
+  .sig-pair{ color: var(--ink); }
+  .sig-type.buy{ background: #00b894; }
+  .sig-type.sell{ background: #e5484d; }
+  .sig-nums div{ background: #0e1128; }
+  .sig-nums b{ color: var(--ink); }
+  .sig-nums span{ color: var(--ink-soft); }
+  .sig-status.active{ background: rgba(0,232,198,0.12); color: var(--accent); }
+  .sig-status.tp{ background: rgba(167,139,250,0.15); color: var(--gold); }
+  .sig-status.sl{ background: rgba(229,72,77,0.15); color: #ff8a8e; }
+  .sig-status.closed{ background: #1b2044; color: var(--ink-soft); }
+  .sig-note, .sig-date{ color: var(--ink-soft); }
+
+  .cstat b{ color: var(--ink); }
+  .cstat span{ color: var(--ink-soft); }
+  .client-hero{ background: linear-gradient(135deg, #141033 0%, #0e1128 100%); border: 1px solid #262b52; }
+
+  .contact-list a{ border-bottom-color: var(--line); }
+  .contact-list a:hover{ border-color: var(--accent); }
+  .contact-label{ color: var(--ink-soft); }
+
+  .newsletter{
+    background:
+      radial-gradient(ellipse at 80% 30%, rgba(139,92,246,0.3) 0%, transparent 55%),
+      linear-gradient(135deg, #141033 0%, #0d1230 100%);
+    border: 1px solid #262b52; box-shadow: 0 20px 60px rgba(80,40,200,0.25);
+  }
+  .newsletter input{ background: #0e1128; border: 1px solid #2a2f55; }
+
+  footer p{ color: var(--ink-soft); }
+
+  #candle-chart rect[fill="#2e5c4e"], #candle-chart line[stroke="#2e5c4e"]{ fill: #00e8c6; stroke: #00e8c6; }
+  #candle-chart rect[fill="#a24438"], #candle-chart line[stroke="#a24438"]{ fill: #e5484d; stroke: #e5484d; }
+</style>
 </head>
 <body>
 
@@ -594,38 +718,38 @@
   <div class="wrap reveal">
     <p class="section-label">Live — Signals</p>
     <h2>Live Trading Signals</h2>
-    <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Signals load ho rahe hain…</p></div>
-    <p class="calc-note">📱 <strong>Phone push notification chahiye?</strong> Free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> install karo aur topic <strong>daddytrader-ali-signals</strong> subscribe karo — har naye signal ki notification foran milegi, app band ho tab bhi.</p>
-    <p class="calc-note">⚠ Signals sirf taleemi maqsad ke liye hain — financial advice nahin. Trading mein nuqsan ka khatra hota hai. Apni research khud karein.</p>
+    <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Loading signals…</p></div>
+    <p class="calc-note">📱 <strong>Want push notifications on your phone?</strong> Install the free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> and subscribe to the topic <strong>daddytrader-ali-signals</strong> — you'll get an instant alert for every new signal, even when the app is closed.</p>
+    <p class="calc-note">⚠ Signals are for educational purposes only — not financial advice. Trading involves risk of loss. Always do your own research.</p>
   </div>
 </section>
 
 <section id="account">
   <div class="wrap reveal">
     <p class="section-label">Members — Live Account Tracking</p>
-    <h2>Apna Exness Account Connect Karein</h2>
+    <h2>Connect Your Exness Account</h2>
 
     <div class="client-login" style="max-width:100%">
       <p style="color:var(--ink-soft);margin-top:0">
-        <strong>Sirf 3 asaan steps (bilkul free):</strong><br>
-        1️⃣ <a href="https://www.myfxbook.com" target="_blank" rel="noopener">Myfxbook.com</a> pe free account banao<br>
-        2️⃣ Wahan apna Exness account connect karo — sirf account number aur <strong>investor (read-only) password</strong> lagta hai, aapka paisa bilkul mehfooz rehta hai<br>
-        3️⃣ Myfxbook settings mein account ko <strong>Public</strong> karo aur <strong>Widgets enable</strong> karo — phir apna account ID neeche dalo
+        <strong>Just 3 easy steps (completely free):</strong><br>
+        1️⃣ Create a free account at <a href="https://www.myfxbook.com" target="_blank" rel="noopener">Myfxbook.com</a><br>
+        2️⃣ Connect your Exness account there — only your account number and <strong>investor (read-only) password</strong> are needed; your funds stay completely safe<br>
+        3️⃣ In Myfxbook settings, make your account <strong>Public</strong> and <strong>enable Widgets</strong> — then enter your account ID below
       </p>
       <div class="calc-row">
         <div class="calc-field">
-          <label for="fx-id">Myfxbook Account Link ya ID</label>
-          <input type="text" id="fx-id" placeholder="e.g. myfxbook.com/members/ali/myaccount/1234567 ya sirf 1234567" />
+          <label for="fx-id">Myfxbook Account Link or ID</label>
+          <input type="text" id="fx-id" placeholder="e.g. myfxbook.com/members/ali/myaccount/1234567 or just 1234567" />
         </div>
         <div class="calc-field" style="display:flex;align-items:flex-end">
-          <button class="btn primary" id="fx-btn" type="button" style="width:100%">Mera Live Chart Dikhao</button>
+          <button class="btn primary" id="fx-btn" type="button" style="width:100%">Show My Live Chart</button>
         </div>
       </div>
-      <p id="fx-err" style="color:#a02c1c;font-size:13px;margin:10px 0 0"></p>
+      <p id="fx-err" style="color:#ff8a8e;font-size:13px;margin:10px 0 0"></p>
     </div>
 
     <div id="fx-result" style="display:none;margin-top:16px"></div>
-    <p class="calc-note">Yeh data myfxbook ke zariye aata hai — website kabhi bhi aapka password nahin mangti. Kabhi bhi kisi ko apna asli (trading) password na dein; sirf investor password istemal karein.</p>
+    <p class="calc-note">This data comes via Myfxbook — this website never asks for your password. Never share your real (trading) password with anyone; only use the investor password.</p>
   </div>
 </section>
 
@@ -804,7 +928,7 @@
           <li>Recorded lessons access</li>
           <li>Group Q&amp;A support</li>
         </ul>
-        <a class="btn ghost" href="https://wa.me/923470713257?text=Assalam%20o%20Alaikum!%20Mujhe%20Basic%20course%20(1%20week)%20mein%20enroll%20hona%20hai." target="_blank" rel="noopener">Enroll on WhatsApp</a>
+        <a class="btn ghost" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20enroll%20in%20the%20Basic%20course%20(1%20week)." target="_blank" rel="noopener">Enroll on WhatsApp</a>
       </div>
       <div class="price-card featured">
         <h3>Advanced</h3>
@@ -817,7 +941,7 @@
           <li>Trade review &amp; feedback</li>
           <li>Certificate of completion</li>
         </ul>
-        <a class="btn gold" href="https://wa.me/923470713257?text=Assalam%20o%20Alaikum!%20Mujhe%20Advanced%20course%20(2%20weeks)%20mein%20enroll%20hona%20hai." target="_blank" rel="noopener">Enroll on WhatsApp</a>
+        <a class="btn gold" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20enroll%20in%20the%20Advanced%20course%20(2%20weeks)." target="_blank" rel="noopener">Enroll on WhatsApp</a>
       </div>
       <div class="price-card">
         <h3>Premium</h3>
@@ -830,10 +954,10 @@
           <li>1-on-1 mentorship</li>
           <li>Lifetime community access</li>
         </ul>
-        <a class="btn ghost" href="https://wa.me/923470713257?text=Assalam%20o%20Alaikum!%20Mujhe%20Premium%20course%20(1%20month)%20mein%20enroll%20hona%20hai." target="_blank" rel="noopener">Enroll on WhatsApp</a>
+        <a class="btn ghost" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20enroll%20in%20the%20Premium%20course%20(1%20month)." target="_blank" rel="noopener">Enroll on WhatsApp</a>
       </div>
     </div>
-    <p class="calc-note">* Payment via <strong>Easypaisa</strong> — enroll karne ke liye WhatsApp karein: <a href="https://wa.me/923470713257">0347 0713257</a></p>
+    <p class="calc-note">* Payment via <strong>Easypaisa</strong> — message us on WhatsApp to enroll: <a href="https://wa.me/923470713257">0347 0713257</a></p>
   </div>
 </section>
 
@@ -1110,7 +1234,7 @@
   </div>
 </section>
 
-<a class="wa-float" href="https://wa.me/923470713257?text=Assalam%20o%20Alaikum!%20Course%20ke%20baray%20mein%20maloomat%20chahiye." target="_blank" rel="noopener" aria-label="WhatsApp par rabta karein">
+<a class="wa-float" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
   <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.04 2.98c-7.2 0-13.04 5.84-13.04 13.04 0 2.3.6 4.55 1.75 6.53L2.98 29.6l7.22-1.72a13 13 0 0 0 5.84 1.4h.01c7.19 0 13.03-5.84 13.03-13.04 0-3.48-1.36-6.76-3.82-9.22a12.94 12.94 0 0 0-9.22-3.83zm0 23.9h-.01a10.8 10.8 0 0 1-5.5-1.5l-.4-.24-4.09.97 1-3.98-.26-.41a10.8 10.8 0 0 1-1.66-5.75c0-5.97 4.86-10.83 10.84-10.83 2.9 0 5.61 1.13 7.66 3.17a10.77 10.77 0 0 1 3.17 7.67c0 5.97-4.86 10.83-10.83 10.83zm5.94-8.11c-.33-.16-1.93-.95-2.23-1.06-.3-.11-.52-.16-.73.16-.22.33-.84 1.06-1.03 1.28-.19.22-.38.24-.7.08-.33-.16-1.38-.51-2.62-1.62-.97-.86-1.62-1.93-1.81-2.25-.19-.33-.02-.5.14-.66.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.16-.73-1.77-1-2.42-.26-.64-.53-.55-.73-.56l-.62-.01c-.22 0-.57.08-.87.41-.3.33-1.14 1.11-1.14 2.72 0 1.6 1.17 3.15 1.33 3.37.16.22 2.3 3.5 5.57 4.91.78.34 1.39.54 1.86.69.78.25 1.5.21 2.06.13.63-.09 1.93-.79 2.2-1.55.27-.76.27-1.41.19-1.55-.08-.14-.3-.22-.62-.38z"/></svg>
 </a>
 
@@ -1136,7 +1260,7 @@
   const SITE_CONFIG = {
     picSize: 140,
     picShape: 'square',
-    picBorder: '#b4903f',
+    picBorder: '#00e8c6',
     picPosition: 'hero',
     fontStyle: 'sans',
     fontSize: 16
@@ -1284,12 +1408,12 @@
         const bd = data.bias.dir;
         const bc = bd === 'BUY' ? 'var(--accent)' : bd === 'SELL' ? '#c0392b' : '#8a8f8c';
         html += '<div class="sig-card" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">' +
-          '<div><b style="font-family:Poppins,sans-serif;font-size:15px">📊 Market Bias — har 30 min update</b><br>' +
+          '<div><b style="font-family:Poppins,sans-serif;font-size:15px">📊 Market Bias — updates every 15 min</b><br>' +
           '<span style="font-size:12.5px;color:var(--ink-soft)">Gold $' + data.bias.price + ' · RSI ' + data.bias.rsi + '</span></div>' +
           '<span class="sig-type" style="background:' + bc + '">' + bd + (bd !== 'NEUTRAL' ? ' · ' + data.bias.strength + '%' : '') + '</span></div>';
       }
       if (!sigs.length){
-        html += '<p style="color:var(--ink-soft)">🤖 Robot market scan kar raha hai — is waqt koi fresh pattern signal nahin. Pattern bante hi signal yahan aa jayega.</p>';
+        html += '<p style="color:var(--ink-soft)">🤖 The robot is scanning the market — no fresh pattern signal right now. As soon as a pattern forms, the signal will appear here.</p>';
       } else {
         html += sigs.map(s => {
           const t = s.type === 'SELL' ? 'sell' : 'buy';
@@ -1309,7 +1433,7 @@
         }).join('');
       }
       if (data.updated){
-        html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Aakhri robot scan: ' + data.updated + '</p>';
+        html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Last robot scan: ' + data.updated + '</p>';
       }
       board.innerHTML = html;
 
@@ -1320,7 +1444,7 @@
           const last = localStorage.getItem('last_sig_ts');
           if (newest.ts !== last){
             if (last && Notification.permission === 'granted'){
-              new Notification('📈 Naya Signal — ' + newest.pair, {
+              new Notification('📈 New Signal — ' + newest.pair, {
                 body: newest.type + ' @ ' + newest.entry + ' | SL ' + newest.sl + ' | TP ' + newest.tp,
                 icon: 'icon-192.png'
               });
@@ -1330,7 +1454,7 @@
         }
       }catch(e){}
     }catch(e){
-      board.innerHTML = '<p style="color:var(--ink-soft)">Signals load nahin ho sake. Thori dair mein dobara koshish karein.</p>';
+      board.innerHTML = '<p style="color:var(--ink-soft)">Could not load signals. Please try again in a moment.</p>';
     }
   }
   loadSignals();
@@ -1342,7 +1466,7 @@
     if (sigSection){
       const nb = document.createElement('button');
       nb.className = 'btn ghost';
-      nb.textContent = '🔔 Signal Notifications On Karein';
+      nb.textContent = '🔔 Enable Signal Notifications';
       nb.style.marginBottom = '18px';
       nb.addEventListener('click', () => {
         Notification.requestPermission().then(p => { if (p !== 'default') nb.remove(); });
@@ -1359,8 +1483,8 @@
       '&lineColor=17805e&barColor=e09f3e&fontColor=333333&title=&titles=20&chartt=1&txtsz=11';
     const pageUrl = 'https://www.myfxbook.com/portfolio/x/' + oid;
     box.innerHTML =
-      '<div class="client-hero"><div><h3>Aapka Live Account Chart</h3>' +
-      '<span>Myfxbook ID: ' + oid + ' · Data live update hota hai</span></div>' +
+      '<div class="client-hero"><div><h3>Your Live Account Chart</h3>' +
+      '<span>Myfxbook ID: ' + oid + ' · Data updates live</span></div>' +
       '<a class="btn gold" href="' + pageUrl + '" target="_blank" rel="noopener">Full Live Report ↗</a></div>' +
       '<div style="background:#fff;border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(19,39,32,0.07)">' +
       '<img id="fx-img" src="' + wUrl + '" alt="Live account chart" style="width:100%;height:auto;border-radius:8px" />' +
@@ -1369,7 +1493,7 @@
     const img = document.getElementById('fx-img');
     img.onerror = function(){
       img.parentElement.innerHTML =
-        '<p style="color:var(--ink-soft);margin:6px">Chart widget load nahin hua — myfxbook mein apna account <strong>Public</strong> karein aur <strong>Widgets enable</strong> karein (Settings → Privacy). Tab tak upar wale "Full Live Report" button se apna pura live data dekh sakte hain.</p>';
+        '<p style="color:var(--ink-soft);margin:6px">Chart widget could not load — make your Myfxbook account <strong>Public</strong> and <strong>enable Widgets</strong> (Settings → Privacy). Meanwhile, use the "Full Live Report" button above to see all your live data.</p>';
     };
     try{ localStorage.setItem('fx_oid', oid); }catch(e){}
   }
@@ -1378,7 +1502,7 @@
     const raw = document.getElementById('fx-id').value.trim();
     const m = raw.match(/(\d{5,})/);
     const err = document.getElementById('fx-err');
-    if (!m){ err.textContent = 'Sahi ID dalein — apne myfxbook account page ke link ka aakhri number.'; return; }
+    if (!m){ err.textContent = 'Please enter a valid ID — the last number in your Myfxbook account page link.'; return; }
     err.textContent = '';
     fxShow(m[1]);
   });
