@@ -430,6 +430,35 @@
   .cstat.pos b{ color:var(--accent); }
   .cstat.neg b{ color:#c0392b; }
 
+  /* Scanning empty-state */
+  .scan-card{ text-align:center; padding:38px 22px !important; }
+  .scan-wrap{ position:relative; width:70px; height:70px; margin:0 auto 16px; }
+  .scan-core{
+    position:absolute; inset:22px; border-radius:50%;
+    background:var(--accent); box-shadow:0 0 18px rgba(0,232,198,.55);
+  }
+  .scan-ring{
+    position:absolute; inset:0; border:2px solid var(--accent);
+    border-radius:50%; opacity:0; animation:scanring 2.4s ease-out infinite;
+  }
+  .scan-ring.r2{ animation-delay:1.2s; }
+  @keyframes scanring{
+    0%{ transform:scale(.35); opacity:.9; }
+    100%{ transform:scale(1.25); opacity:0; }
+  }
+  .scan-title{ font-family:'Poppins',sans-serif; font-weight:600; font-size:16px; margin:0 0 6px; }
+  .scan-sub{ font-size:13px; color:var(--ink-soft); max-width:44ch; margin:0 auto; line-height:1.6; }
+  .scan-live{
+    display:inline-flex; align-items:center; gap:6px; margin-top:14px;
+    font-family:'Poppins',sans-serif; font-size:11px; font-weight:600; letter-spacing:.1em;
+    color:var(--accent);
+  }
+  .scan-live i{
+    width:7px; height:7px; border-radius:50%; background:var(--accent);
+    animation:blinkdot 1.2s ease-in-out infinite;
+  }
+  @keyframes blinkdot{ 0%,100%{ opacity:1; } 50%{ opacity:.2; } }
+
   /* WhatsApp floating button */
   .wa-float{
     position:fixed; bottom:22px; right:22px; z-index:999;
@@ -1400,7 +1429,12 @@
           '</div>';
       }
       if (!sigs.length && !data.idea){
-        html += '<p style="color:var(--ink-soft)">🤖 The robot is scanning the market — no fresh pattern signal right now. As soon as a pattern forms, the signal will appear here.</p>';
+        html += '<div class="sig-card scan-card" style="grid-column:1/-1">' +
+          '<div class="scan-wrap"><span class="scan-ring"></span><span class="scan-ring r2"></span><span class="scan-core"></span></div>' +
+          '<p class="scan-title">Scanning the market…</p>' +
+          '<p class="scan-sub">No fresh pattern right now. The robot checks Gold every 15 minutes — the moment a valid setup forms, your signal appears here automatically.</p>' +
+          '<span class="scan-live"><i></i>LIVE · AUTO-SCAN ON</span>' +
+          '</div>';
       }
       if (sigs.length){
         html += sigs.map(s => {
