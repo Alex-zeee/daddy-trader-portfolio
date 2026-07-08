@@ -159,16 +159,52 @@ def detect_new(sigs, df):
     return sig
 
 
+def make_idea(df, bias, sigs):
+    """Bias 100% + koi active pattern signal nahin -> pullback trade idea."""
+    if not bias or bias["dir"] == "NEUTRAL" or bias["strength"] < 100:
+        return None
+    if any(s.get("status") == "Active" for s in sigs):
+        return None
+    b = df.iloc[-2]
+    atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
+    pad = 0.25 * atr
+    entry = round(float(b["ema20"]), 2)
+    recent = df.iloc[-11:-1]
+    if bias["dir"] == "SELL":
+        sl = round(float(recent["High"].max()) + pad, 2)
+        risk = sl - entry
+        tp = round(entry - RR * risk, 2)
+    else:
+        sl = round(float(recent["Low"].min()) - pad, 2)
+        risk = entry - sl
+        tp = round(entry + RR * risk, 2)
+    if risk <= 0:
+        return None
+    return {
+        "pair": "XAUUSD",
+        "type": bias["dir"],
+        "entry": entry,
+        "sl": sl,
+        "tp": tp,
+        "date": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+        "note": ("Bias 100% " + bias["dir"] +
+                 " — trade at pullback to EMA20. Use HALF risk. "
+                 "Auto-cancels if bias weakens."),
+    }
+
+
 def main():
     sigs = load_existing()
     bias = None
     new_sig = None
+    idea = None
     df = fetch_gold()
     if df is not None:
         df = add_indicators(df)
         update_statuses(sigs, df)
         new_sig = detect_new(sigs, df)
         bias = market_bias(df)
+        idea = make_idea(df, bias, sigs)
     # 24 ghante se purane signals hata do (board hamesha fresh rahe)
     now = datetime.now(timezone.utc)
     def fresh(s):
@@ -181,6 +217,7 @@ def main():
     out = {
         "updated": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
         "bias": bias,
+        "idea": idea,
         "signals": sigs,
     }
     with open("signals.json", "w") as f:

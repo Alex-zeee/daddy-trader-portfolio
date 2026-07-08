@@ -1382,9 +1382,27 @@
           '<span style="font-size:12.5px;color:var(--ink-soft)">Gold $' + data.bias.price + ' · RSI ' + data.bias.rsi + '</span></div>' +
           '<span class="sig-type" style="background:' + bc + '">' + bd + (bd !== 'NEUTRAL' ? ' · ' + data.bias.strength + '%' : '') + '</span></div>';
       }
-      if (!sigs.length){
+      if (data.idea){
+        const i = data.idea;
+        const it = i.type === 'SELL' ? '#e5484d' : '#00b894';
+        html += '<div class="sig-card" style="border:1px dashed #a78bfa;position:relative">' +
+          '<span style="position:absolute;top:-9px;left:16px;background:#a78bfa;color:#26215c;font-size:10px;font-weight:600;padding:2px 10px;border-radius:999px;letter-spacing:.08em;font-family:Poppins,sans-serif">IDEA · LOWER CONFIDENCE</span>' +
+          '<div class="sig-top" style="margin-top:4px"><span class="sig-pair">' + i.pair + '</span>' +
+          '<span class="sig-type" style="background:' + it + '">' + i.type + '</span></div>' +
+          '<p style="margin:0 0 10px;font-size:11px;color:#a78bfa;letter-spacing:.08em;text-transform:uppercase;font-family:Poppins,sans-serif">Bias idea · no pattern yet</p>' +
+          '<div class="sig-nums">' +
+          '<div><b>' + i.entry + '</b><span>Entry (pullback)</span></div>' +
+          '<div><b>' + i.sl + '</b><span>SL</span></div>' +
+          '<div><b>' + i.tp + '</b><span>TP</span></div></div>' +
+          '<span class="sig-status" style="background:#2a2350;color:#cecbf6">Wait for pullback</span>' +
+          '<p class="sig-note">' + i.note + '</p>' +
+          '<span class="sig-date">' + (i.date || '') + '</span>' +
+          '</div>';
+      }
+      if (!sigs.length && !data.idea){
         html += '<p style="color:var(--ink-soft)">🤖 The robot is scanning the market — no fresh pattern signal right now. As soon as a pattern forms, the signal will appear here.</p>';
-      } else {
+      }
+      if (sigs.length){
         html += sigs.map(s => {
           const t = s.type === 'SELL' ? 'sell' : 'buy';
           const st = String(s.status || '').toLowerCase();
