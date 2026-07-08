@@ -108,24 +108,25 @@ def detect_new(sigs, df):
     up_wick = float(b["High"] - max(b["Close"], b["Open"]))
     dn_wick = float(min(b["Close"], b["Open"]) - b["Low"])
 
+    # Ali ka rule: Engulfing = poori candle nigle, WICKS SAMET (range engulf)
     bull_eng = (b["Close"] > b["Open"] and a["Close"] < a["Open"]
-                and b["Close"] >= a["Open"] and b["Open"] <= a["Close"])
+                and b["High"] >= a["High"] and b["Low"] <= a["Low"])
     bear_eng = (b["Close"] < b["Open"] and a["Close"] > a["Open"]
-                and b["Close"] <= a["Open"] and b["Open"] >= a["Close"])
+                and b["High"] >= a["High"] and b["Low"] <= a["Low"])
     hammer = dn_wick >= 2 * body and (b["High"] - b["Close"]) / rng <= 0.35
     star = up_wick >= 2 * body and (b["Close"] - b["Low"]) / rng <= 0.35
 
-    trend_up = b["ema20"] > b["ema50"] and b["rsi"] > 45
-    trend_dn = b["ema20"] < b["ema50"] and b["rsi"] < 55
-
+    # Pure price action — koi indicator filter nahin
     pattern = None
     typ = None
-    if (bull_eng or hammer) and trend_up:
-        pattern = "Bullish Engulfing" if bull_eng else "Hammer Pin Bar"
-        typ = "BUY"
-    elif (bear_eng or star) and trend_dn:
-        pattern = "Bearish Engulfing" if bear_eng else "Shooting Star"
-        typ = "SELL"
+    if bull_eng:
+        pattern, typ = "Bullish Engulfing (full range)", "BUY"
+    elif bear_eng:
+        pattern, typ = "Bearish Engulfing (full range)", "SELL"
+    elif hammer:
+        pattern, typ = "Hammer Pin Bar", "BUY"
+    elif star:
+        pattern, typ = "Shooting Star", "SELL"
     if not pattern:
         return None
 
@@ -153,7 +154,7 @@ def detect_new(sigs, df):
         "sl": sl,
         "tp": tp,
         "status": "Active",
-        "note": "Auto: M15 " + pattern + " + trend filter",
+        "note": "Auto: M15 " + pattern + " — pure price action",
     }
     sigs.append(sig)
     return sig
