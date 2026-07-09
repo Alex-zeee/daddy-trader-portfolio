@@ -1,8 +1,11 @@
-"""Daddy Trader auto-signal bot v3.
-- M15 candles par pattern scan (har 15 min run)
-- Market Bias har run par update
-- Purane Active signals 12 ghante baad Expired
-- Naye signal par .new_signal file banti hai (ntfy push ke liye)
+"""Daddy Trader auto-signal bot v6 — Liquidity to Liquidity.
+Rule (Ali ka system, pure price action):
+  BUY : price neeche wali liquidity (swing low) SWEEP kare aur wohi candle
+        pichli red candle ke OPEN se UPAR close ho (engulf close-back).
+        SL sweep wick ke neeche. TP = agla UPAR wala liquidity pool,
+        magar sirf tab jab kam az kam 1:2 milta ho.
+  SELL: bilkul ulta.
+Har 15 min scan. Koi indicator filter nahin.
 """
 import json
 from datetime import datetime, timezone, timedelta
@@ -10,9 +13,10 @@ from datetime import datetime, timezone, timedelta
 import yfinance as yf
 
 PKT = timezone(timedelta(hours=5))
-RR = 2.0
+MIN_RR = 2.0
 MAX_SIGNALS = 8
 EXPIRE_HOURS = 12
+LOOKBACK = 120
 
 
 def fetch_gold():
@@ -66,6 +70,101 @@ def market_bias(df):
     }
 
 
+def find_swings(c):
+    """Fractal swings: 2-2 neighbours. Returns (highs, lows) as [(idx, price)]."""
+    highs, lows = [], []
+    H, L = c["High"].values, c["Low"].values
+    for i in range(2, len(c) - 2):
+        if H[i] >= H[i-1] and H[i] >= H[i-2] and H[i] > H[i+1] and H[i] > H[i+2]:
+            highs.append((i, float(H[i])))
+        if L[i] <= L[i-1] and L[i] <= L[i-2] and L[i] < L[i+1] and L[i] < L[i+2]:
+            lows.append((i, float(L[i])))
+    return highs, lows
+
+
+def liquidity_map(c, price):
+    highs, lows = find_swings(c)
+    H, L = c["High"].values, c["Low"].values
+    above, below = [], []
+    for i, p in highs:
+        if p > price and max(H[i+3:], default=0) < p:      # abhi tak intact
+            above.append(round(p, 2))
+    for i, p in lows:
+        if p < price and min(L[i+3:], default=1e12) > p:   # abhi tak intact
+            below.append(round(p, 2))
+    above = sorted(set(above))[:3]
+    below = sorted(set(below), reverse=True)[:3]
+    return {"above": above, "below": below}
+
+
+def detect_signal(df):
+    c = df.iloc[:-1]                      # sirf closed candles
+    if len(c) < 30:
+        return None
+    b = c.iloc[-1]                        # aakhri closed candle
+    a = c.iloc[-2]
+    ts = c.index[-1]
+    atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
+    pad = 0.25 * atr
+    highs, lows = find_swings(c.iloc[:-1])   # b se pehle ke swings
+    H, L = c["High"].values, c["Low"].values
+    n = len(c)
+
+    # BUY: sell-side liquidity sweep + engulf close-back upar
+    if b["Close"] > b["Open"] and a["Close"] < a["Open"] and float(b["Close"]) > float(a["Open"]):
+        swept = None
+        for i, p in lows:
+            if i <= n - 5 and float(b["Low"]) < p:
+                mids = L[i+3:n-1]
+                if len(mids) == 0 or mids.min() > p:      # b se pehle intact tha
+                    if swept is None or p > swept:
+                        swept = p
+        if swept is not None:
+            entry = round(float(b["Close"]), 2)
+            sl = round(float(b["Low"]) - pad, 2)
+            risk = entry - sl
+            if risk > 0:
+                pools = [p for _, p in highs if p > entry + MIN_RR * risk]
+                if pools:
+                    tp = round(min(pools), 2)             # nazdeeki pool jo 1:2 de
+                    return _sig(ts, "BUY", entry, sl, tp, swept)
+
+    # SELL: buy-side liquidity sweep + engulf close-back neeche
+    if b["Close"] < b["Open"] and a["Close"] > a["Open"] and float(b["Close"]) < float(a["Open"]):
+        swept = None
+        for i, p in highs:
+            if i <= n - 5 and float(b["High"]) > p:
+                mids = H[i+3:n-1]
+                if len(mids) == 0 or mids.max() < p:
+                    if swept is None or p < swept:
+                        swept = p
+        if swept is not None:
+            entry = round(float(b["Close"]), 2)
+            sl = round(float(b["High"]) + pad, 2)
+            risk = sl - entry
+            if risk > 0:
+                pools = [p for _, p in lows if p < entry - MIN_RR * risk]
+                if pools:
+                    tp = round(max(pools), 2)
+                    return _sig(ts, "SELL", entry, sl, tp, swept)
+    return None
+
+
+def _sig(ts, typ, entry, sl, tp, swept):
+    return {
+        "ts": ts.isoformat(),
+        "date": ts.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+        "pair": "XAUUSD",
+        "type": typ,
+        "entry": entry,
+        "sl": sl,
+        "tp": tp,
+        "status": "Active",
+        "note": ("Auto: liquidity sweep @ " + str(round(swept, 2)) +
+                 " + engulf close-back — target next liquidity (min 1:2)"),
+    }
+
+
 def load_existing():
     try:
         with open("signals.json") as f:
@@ -99,115 +198,25 @@ def update_statuses(sigs, df):
             s["status"] = "Expired"
 
 
-def detect_new(sigs, df):
-    a, b = df.iloc[-3], df.iloc[-2]
-    ts = df.index[-2]
-    atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
-    rng = float(b["High"] - b["Low"]) or 1e-9
-    body = abs(float(b["Close"] - b["Open"]))
-    up_wick = float(b["High"] - max(b["Close"], b["Open"]))
-    dn_wick = float(min(b["Close"], b["Open"]) - b["Low"])
-
-    # Ali ka rule: Engulfing = poori candle nigle, WICKS SAMET (range engulf)
-    bull_eng = (b["Close"] > b["Open"] and a["Close"] < a["Open"]
-                and b["High"] >= a["High"] and b["Low"] <= a["Low"])
-    bear_eng = (b["Close"] < b["Open"] and a["Close"] > a["Open"]
-                and b["High"] >= a["High"] and b["Low"] <= a["Low"])
-    hammer = dn_wick >= 2 * body and (b["High"] - b["Close"]) / rng <= 0.35
-    star = up_wick >= 2 * body and (b["Close"] - b["Low"]) / rng <= 0.35
-
-    # Pure price action — koi indicator filter nahin
-    pattern = None
-    typ = None
-    if bull_eng:
-        pattern, typ = "Bullish Engulfing (full range)", "BUY"
-    elif bear_eng:
-        pattern, typ = "Bearish Engulfing (full range)", "SELL"
-    elif hammer:
-        pattern, typ = "Hammer Pin Bar", "BUY"
-    elif star:
-        pattern, typ = "Shooting Star", "SELL"
-    if not pattern:
-        return None
-
-    entry = round(float(b["Close"]), 2)
-    pad = 0.25 * atr
-    if typ == "BUY":
-        sl = round(float(min(a["Low"], b["Low"])) - pad, 2)
-        risk = entry - sl
-        tp = round(entry + RR * risk, 2)
-    else:
-        sl = round(float(max(a["High"], b["High"])) + pad, 2)
-        risk = sl - entry
-        tp = round(entry - RR * risk, 2)
-    if risk <= 0:
-        return None
-    key = ts.isoformat()
-    if any(s.get("ts") == key for s in sigs):
-        return None
-    sig = {
-        "ts": key,
-        "date": ts.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
-        "pair": "XAUUSD",
-        "type": typ,
-        "entry": entry,
-        "sl": sl,
-        "tp": tp,
-        "status": "Active",
-        "note": "Auto: M15 " + pattern + " — pure price action",
-    }
-    sigs.append(sig)
-    return sig
-
-
-def make_idea(df, bias, sigs):
-    """Bias 100% + koi active pattern signal nahin -> pullback trade idea."""
-    if not bias or bias["dir"] == "NEUTRAL" or bias["strength"] < 100:
-        return None
-    if any(s.get("status") == "Active" for s in sigs):
-        return None
-    b = df.iloc[-2]
-    atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
-    pad = 0.25 * atr
-    entry = round(float(b["ema20"]), 2)
-    recent = df.iloc[-11:-1]
-    if bias["dir"] == "SELL":
-        sl = round(float(recent["High"].max()) + pad, 2)
-        risk = sl - entry
-        tp = round(entry - RR * risk, 2)
-    else:
-        sl = round(float(recent["Low"].min()) - pad, 2)
-        risk = entry - sl
-        tp = round(entry + RR * risk, 2)
-    if risk <= 0:
-        return None
-    return {
-        "pair": "XAUUSD",
-        "type": bias["dir"],
-        "entry": entry,
-        "sl": sl,
-        "tp": tp,
-        "date": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
-        "note": ("Bias 100% " + bias["dir"] +
-                 " — trade at pullback to EMA20. Use HALF risk. "
-                 "Auto-cancels if bias weakens."),
-    }
-
-
 def main():
     sigs = load_existing()
     bias = None
+    liq = None
     new_sig = None
-    idea = None
     df = fetch_gold()
     if df is not None:
         df = add_indicators(df)
+        df = df.iloc[-LOOKBACK:]
         update_statuses(sigs, df)
-        new_sig = detect_new(sigs, df)
+        new_sig = detect_signal(df)
+        if new_sig and not any(s.get("ts") == new_sig["ts"] for s in sigs):
+            sigs.append(new_sig)
+        else:
+            new_sig = None
         bias = market_bias(df)
-        idea = make_idea(df, bias, sigs)
-    # 24 ghante se purane signals hata do (board hamesha fresh rahe)
+        liq = liquidity_map(df.iloc[:-1], float(df.iloc[-2]["Close"]))
     now = datetime.now(timezone.utc)
+
     def fresh(s):
         try:
             return (now - datetime.fromisoformat(s["ts"])) < timedelta(hours=24)
@@ -216,9 +225,10 @@ def main():
     sigs = [s for s in sigs if fresh(s)]
     sigs = sigs[-MAX_SIGNALS:]
     out = {
-        "updated": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+        "updated": now.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
         "bias": bias,
-        "idea": idea,
+        "liq": liq,
+        "idea": None,
         "signals": sigs,
     }
     with open("signals.json", "w") as f:
@@ -229,7 +239,7 @@ def main():
             new_sig["sl"], new_sig["tp"], new_sig["note"]))
         with open(".new_signal", "w") as f:
             f.write(msg)
-    print("signals:", len(sigs), "| new:", bool(new_sig), "| bias:", bias)
+    print("signals:", len(sigs), "| new:", bool(new_sig), "| liq:", liq)
 
 
 if __name__ == "__main__":

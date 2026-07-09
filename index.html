@@ -1411,6 +1411,14 @@
           '<span style="font-size:12.5px;color:var(--ink-soft)">Gold $' + data.bias.price + ' · RSI ' + data.bias.rsi + '</span></div>' +
           '<span class="sig-type" style="background:' + bc + '">' + bd + (bd !== 'NEUTRAL' ? ' · Strength ' + Math.min(3, Math.max(1, Math.round(data.bias.strength / 33.4))) + '/3' : '') + '</span></div>';
       }
+      if (data.liq && ((data.liq.above || []).length || (data.liq.below || []).length)){
+        html += '<div class="sig-card" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">' +
+          '<b style="font-family:Poppins,sans-serif;font-size:14px">🧲 Liquidity Map</b>' +
+          '<span style="font-size:12.5px;color:var(--ink-soft)">' +
+          'Above: <b style="color:#e5484d">' + ((data.liq.above || []).join(' · ') || '—') + '</b>' +
+          ' &nbsp;|&nbsp; Below: <b style="color:#00e8c6">' + ((data.liq.below || []).join(' · ') || '—') + '</b>' +
+          '</span></div>';
+      }
       if (data.idea){
         const i = data.idea;
         const it = i.type === 'SELL' ? '#e5484d' : '#00b894';
