@@ -20,7 +20,9 @@ LOOKBACK = 120
 
 
 def fetch_gold():
-    for sym in ("XAUUSD=X", "GC=F"):
+    # SIRF spot XAUUSD — futures (GC=F) ka rate Exness se door hota hai,
+    # ghalat signal se behtar hai us scan ko chhor dena.
+    for sym in ("XAUUSD=X",):
         try:
             df = yf.Ticker(sym).history(period="5d", interval="15m")
             if df is not None and len(df) > 60:
