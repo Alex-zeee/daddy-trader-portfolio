@@ -1,13 +1,25 @@
 {
- "updated": "11-07-2026 01:50 PKT",
- "src": null,
- "err": [
-  "SPOT-yahoo: HTTP Error 404: Not Found",
-  "SPOT-yf: empty/short data",
-  "PAXG~spot: HTTP Error 451: "
- ],
- "bias": null,
- "liq": null,
+ "updated": "11-07-2026 01:56 PKT",
+ "src": "PAXG-kraken",
+ "err": null,
+ "bias": {
+  "dir": "NEUTRAL",
+  "strength": 33,
+  "price": 4104.79,
+  "rsi": 63,
+  "tf": "M15"
+ },
+ "liq": {
+  "above": [
+   4106.0,
+   4106.8,
+   4110.49
+  ],
+  "below": [
+   4092.56,
+   4071.32
+  ]
+ },
  "idea": null,
  "signals": []
 }
