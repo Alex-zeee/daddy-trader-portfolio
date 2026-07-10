@@ -8,9 +8,14 @@ Rule (Ali ka system, pure price action):
 Har 15 min scan. Koi indicator filter nahin.
 """
 import json
+import urllib.request
 from datetime import datetime, timezone, timedelta
 
+import pandas as pd
 import yfinance as yf
+
+UA = {"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                     "AppleWebKit/537.36 Chrome/126 Safari/537.36")}
 
 PKT = timezone(timedelta(hours=5))
 MIN_RR = 2.0
@@ -19,22 +24,65 @@ EXPIRE_HOURS = 12
 LOOKBACK = 120
 
 
+def _clean(df):
+    df = df.dropna(subset=["Open", "High", "Low", "Close"])
+    if len(df) <= 60:
+        return None
+    if df.index.tz is None:
+        df.index = df.index.tz_localize("UTC")
+    else:
+        df.index = df.index.tz_convert("UTC")
+    return df
+
+
+def _yahoo_direct():
+    url = ("https://query1.finance.yahoo.com/v8/finance/chart/XAUUSD%3DX"
+           "?interval=15m&range=5d")
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=20) as r:
+        data = json.load(r)
+    res = data["chart"]["result"][0]
+    q = res["indicators"]["quote"][0]
+    df = pd.DataFrame(
+        {"Open": q["open"], "High": q["high"],
+         "Low": q["low"], "Close": q["close"]},
+        index=pd.to_datetime(res["timestamp"], unit="s", utc=True))
+    return _clean(df)
+
+
+def _yfinance_spot():
+    df = yf.Ticker("XAUUSD=X").history(period="5d", interval="15m")
+    return _clean(df) if df is not None and len(df) else None
+
+
+def _paxg():
+    # Binance ka gold token — spot ke qareeb (backup only)
+    url = ("https://api.binance.com/api/v3/klines"
+           "?symbol=PAXGUSDT&interval=15m&limit=480")
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=20) as r:
+        rows = json.load(r)
+    df = pd.DataFrame(
+        {"Open": [float(x[1]) for x in rows],
+         "High": [float(x[2]) for x in rows],
+         "Low": [float(x[3]) for x in rows],
+         "Close": [float(x[4]) for x in rows]},
+        index=pd.to_datetime([x[0] for x in rows], unit="ms", utc=True))
+    return _clean(df)
+
+
 def fetch_gold():
-    # SIRF spot XAUUSD — futures (GC=F) ka rate Exness se door hota hai,
-    # ghalat signal se behtar hai us scan ko chhor dena.
-    for sym in ("XAUUSD=X",):
+    """Returns (df, source_name). Spot pehle, PAXG sirf backup."""
+    for name, fn in (("SPOT", _yahoo_direct),
+                     ("SPOT", _yfinance_spot),
+                     ("PAXG~spot", _paxg)):
         try:
-            df = yf.Ticker(sym).history(period="5d", interval="15m")
-            if df is not None and len(df) > 60:
-                df = df.dropna(subset=["Open", "High", "Low", "Close"])
-                if df.index.tz is None:
-                    df.index = df.index.tz_localize("UTC")
-                else:
-                    df.index = df.index.tz_convert("UTC")
-                return df
+            df = fn()
+            if df is not None:
+                return df, name
         except Exception as e:
-            print("fetch fail", sym, e)
-    return None
+            print("fetch fail", name, str(e)[:120])
+    return None, None
 
 
 def add_indicators(df):
@@ -205,7 +253,7 @@ def main():
     bias = None
     liq = None
     new_sig = None
-    df = fetch_gold()
+    df, src = fetch_gold()
     if df is not None:
         df = add_indicators(df)
         df = df.iloc[-LOOKBACK:]
@@ -228,6 +276,7 @@ def main():
     sigs = sigs[-MAX_SIGNALS:]
     out = {
         "updated": now.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+        "src": src,
         "bias": bias,
         "liq": liq,
         "idea": None,

@@ -1463,7 +1463,7 @@
         }).join('');
       }
       if (data.updated){
-        html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Last robot scan: ' + data.updated + '</p>';
+        html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Last robot scan: ' + data.updated + (data.src ? ' · Feed: ' + data.src : '') + '</p>';
       }
       board.innerHTML = html;
 
