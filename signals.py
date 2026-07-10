@@ -35,33 +35,51 @@ def _clean(df):
     return df
 
 
-def _yahoo_direct():
-    url = ("https://query1.finance.yahoo.com/v8/finance/chart/XAUUSD%3DX"
-           "?interval=15m&range=5d")
-    req = urllib.request.Request(url, headers=UA)
+def _get(url, extra=None):
+    h = dict(UA)
+    if extra:
+        h.update(extra)
+    req = urllib.request.Request(url, headers=h)
     with urllib.request.urlopen(req, timeout=20) as r:
-        data = json.load(r)
-    res = data["chart"]["result"][0]
-    q = res["indicators"]["quote"][0]
+        return r.read().decode("utf-8", "ignore")
+
+
+def _dukascopy():
+    # Asli spot XAU/USD (Swiss feed)
+    url = ("https://freeserv.dukascopy.com/2.0/index.php?path=chart%2Fjson3"
+           "&instrument=XAU%2FUSD&offer_side=B&interval=15MIN"
+           "&limit=480&time_direction=N&jsonp=")
+    txt = _get(url, {"Referer": "https://freeserv.dukascopy.com/2.0/"})
+    txt = txt[txt.find("["): txt.rfind("]") + 1]
+    rows = json.loads(txt)
     df = pd.DataFrame(
-        {"Open": q["open"], "High": q["high"],
-         "Low": q["low"], "Close": q["close"]},
-        index=pd.to_datetime(res["timestamp"], unit="s", utc=True))
+        {"Open": [float(x[1]) for x in rows],
+         "High": [float(x[2]) for x in rows],
+         "Low": [float(x[3]) for x in rows],
+         "Close": [float(x[4]) for x in rows]},
+        index=pd.to_datetime([x[0] for x in rows], unit="ms", utc=True))
     return _clean(df)
 
 
-def _yfinance_spot():
-    df = yf.Ticker("XAUUSD=X").history(period="5d", interval="15m")
-    return _clean(df) if df is not None and len(df) else None
+def _kraken():
+    # PAXG/USD — gold token, spot ke bohat qareeb
+    txt = _get("https://api.kraken.com/0/public/OHLC?pair=PAXGUSD&interval=15")
+    data = json.loads(txt)
+    res = data.get("result", {})
+    key = next((k for k in res if k != "last"), None)
+    rows = res.get(key, [])
+    df = pd.DataFrame(
+        {"Open": [float(x[1]) for x in rows],
+         "High": [float(x[2]) for x in rows],
+         "Low": [float(x[3]) for x in rows],
+         "Close": [float(x[4]) for x in rows]},
+        index=pd.to_datetime([x[0] for x in rows], unit="s", utc=True))
+    return _clean(df)
 
 
-def _paxg():
-    # Binance ka gold token — spot ke qareeb (backup only)
-    url = ("https://api.binance.com/api/v3/klines"
-           "?symbol=PAXGUSDT&interval=15m&limit=480")
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=20) as r:
-        rows = json.load(r)
+def _binance(base):
+    url = (base + "/api/v3/klines?symbol=PAXGUSDT&interval=15m&limit=480")
+    rows = json.loads(_get(url))
     df = pd.DataFrame(
         {"Open": [float(x[1]) for x in rows],
          "High": [float(x[2]) for x in rows],
@@ -75,10 +93,14 @@ FETCH_ERRORS = []
 
 
 def fetch_gold():
-    """Returns (df, source_name). Spot pehle, PAXG sirf backup."""
-    for name, fn in (("SPOT-yahoo", _yahoo_direct),
-                     ("SPOT-yf", _yfinance_spot),
-                     ("PAXG~spot", _paxg)):
+    """Returns (df, source_name)."""
+    sources = (
+        ("SPOT-duka", _dukascopy),
+        ("PAXG-kraken", _kraken),
+        ("PAXG-bnus", lambda: _binance("https://api.binance.us")),
+        ("PAXG-bn", lambda: _binance("https://api.binance.com")),
+    )
+    for name, fn in sources:
         try:
             df = fn()
             if df is not None:
