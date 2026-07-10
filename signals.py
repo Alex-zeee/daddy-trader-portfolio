@@ -71,17 +71,22 @@ def _paxg():
     return _clean(df)
 
 
+FETCH_ERRORS = []
+
+
 def fetch_gold():
     """Returns (df, source_name). Spot pehle, PAXG sirf backup."""
-    for name, fn in (("SPOT", _yahoo_direct),
-                     ("SPOT", _yfinance_spot),
+    for name, fn in (("SPOT-yahoo", _yahoo_direct),
+                     ("SPOT-yf", _yfinance_spot),
                      ("PAXG~spot", _paxg)):
         try:
             df = fn()
             if df is not None:
                 return df, name
+            FETCH_ERRORS.append(name + ": empty/short data")
         except Exception as e:
-            print("fetch fail", name, str(e)[:120])
+            FETCH_ERRORS.append(name + ": " + str(e)[:140])
+            print("fetch fail", name, str(e)[:140])
     return None, None
 
 
@@ -277,6 +282,7 @@ def main():
     out = {
         "updated": now.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
         "src": src,
+        "err": FETCH_ERRORS if src is None else None,
         "bias": bias,
         "liq": liq,
         "idea": None,
