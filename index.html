@@ -562,7 +562,38 @@
 .sess-open{color:#00e8c6;font-weight:700;font-size:.78rem;letter-spacing:.06em}
 .sess-closed{color:#8b93b7;font-weight:600;font-size:.78rem;letter-spacing:.06em}
 .sess-note{margin-top:10px;font-size:.75rem;color:#8b93b7;line-height:1.5}
-@media(max-width:820px){.mon-grid{grid-template-columns:1fr}}
+.mon-updated{font-size:.78rem;color:#8b93b7;margin:8px 0 0;letter-spacing:.03em}
+.mon-tag{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:6px;font-size:.62rem;font-weight:700;letter-spacing:.08em;background:rgba(0,232,198,.12);color:#00e8c6;vertical-align:middle}
+.mon-tag-red{background:rgba(255,84,112,.14);color:#ff5470}
+.mon-empty{color:#8b93b7;font-size:.85rem}
+.chg-up{color:#00e8c6}.chg-dn{color:#ff5470}
+.g-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:6px 0 14px}
+.g-price{font-size:2.4rem;font-weight:700;color:#eef0ff;font-variant-numeric:tabular-nums}
+.g-chg{font-size:1.05rem;font-weight:700}
+.g-chip{padding:5px 12px;border-radius:999px;border:1px solid rgba(167,139,250,.4);color:#a78bfa;font-size:.75rem;font-weight:600}
+.g-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.g-stats div{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:10px 12px}
+.g-stats span{display:block;font-size:.62rem;letter-spacing:.1em;color:#8b93b7;margin-bottom:3px}
+.g-stats b{font-size:1rem;color:#eef0ff;font-variant-numeric:tabular-nums}
+.mkt-row{display:flex;justify-content:space-between;align-items:center;padding:10px 4px;border-bottom:1px solid rgba(255,255,255,.06);font-size:.9rem}
+.mkt-row:last-child{border-bottom:0}
+.mkt-name{color:#e8ecff}
+.mkt-val{color:#eef0ff;font-variant-numeric:tabular-nums;font-weight:600}
+.mkt-val em{font-style:normal;font-size:.78rem;margin-left:8px;font-weight:700}
+.cal-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid rgba(255,255,255,.06)}
+.cal-row:last-child{border-bottom:0}
+.cal-title{color:#e8ecff;font-size:.86rem;font-weight:500}
+.cal-time{color:#8b93b7;font-size:.72rem;margin-top:2px}
+.imp{flex:none;padding:3px 8px;border-radius:6px;font-size:.6rem;font-weight:800;letter-spacing:.08em}
+.imp-high{background:rgba(255,84,112,.16);color:#ff5470}
+.imp-med{background:rgba(247,185,85,.14);color:#f7b955}
+.news-row{display:block;padding:10px 4px;border-bottom:1px solid rgba(255,255,255,.06);text-decoration:none}
+.news-row:last-child{border-bottom:0}
+.news-title{display:block;color:#e8ecff;font-size:.85rem;line-height:1.45}
+.news-row:hover .news-title{color:#00e8c6}
+.news-meta{display:block;color:#8b93b7;font-size:.7rem;margin-top:3px}
+.news-meta em{font-style:normal;color:#a78bfa;font-weight:600}
+@media(max-width:820px){.mon-grid{grid-template-columns:1fr}.g-stats{grid-template-columns:repeat(2,1fr)}.g-price{font-size:1.9rem}}
 </style>
 
 <!-- ===== THEME V3 : Dark neon (crypto/trading terminal style) ===== -->
@@ -774,46 +805,29 @@
     <p class="section-label">Live — Gold Market Monitor</p>
     <h2>Gold Market Monitor</h2>
 
+    <p class="mon-updated" id="mon-updated">Loading live market data…</p>
+
     <div class="mon-grid">
 
-      <div class="mon-card mon-wide">
-        <p class="mon-title">📈 XAUUSD Live Chart (M15)</p>
-        <div class="tradingview-widget-container">
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-          {"symbol":"OANDA:XAUUSD","interval":"15","theme":"dark","style":"1","timezone":"Asia/Karachi","width":"100%","height":430,"hide_side_toolbar":true,"allow_symbol_change":false,"save_image":false,"locale":"en"}
-          </script>
-        </div>
+      <div class="mon-card mon-wide" id="gold-card"></div>
+
+      <div class="mon-card">
+        <p class="mon-title">🌍 MARKETS <span class="mon-tag">LIVE</span></p>
+        <div id="mkt-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
       <div class="mon-card">
-        <p class="mon-title">🌍 Gold-Linked Markets</p>
-        <div class="tradingview-widget-container">
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-          {"colorTheme":"dark","dateRange":"1D","showChart":true,"width":"100%","height":430,"locale":"en","showSymbolLogo":true,"tabs":[{"title":"Gold Watch","symbols":[{"s":"OANDA:XAUUSD","d":"Gold"},{"s":"OANDA:XAGUSD","d":"Silver"},{"s":"TVC:DXY","d":"Dollar Index"},{"s":"TVC:USOIL","d":"Oil WTI"},{"s":"TVC:US10Y","d":"US 10Y Yield"},{"s":"BITSTAMP:BTCUSD","d":"Bitcoin"}]}]}
-          </script>
-        </div>
+        <p class="mon-title">🗓 ECONOMIC CALENDAR — USD <span class="mon-tag mon-tag-red">HIGH IMPACT</span></p>
+        <div id="cal-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
       <div class="mon-card">
-        <p class="mon-title">🗓 Economic Calendar (USD)</p>
-        <div class="tradingview-widget-container">
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
-          {"colorTheme":"dark","isTransparent":false,"width":"100%","height":430,"locale":"en","importanceFilter":"0,1","currencyFilter":"USD"}
-          </script>
-        </div>
+        <p class="mon-title">📰 GOLD NEWS <span class="mon-tag">AUTO-FEED</span></p>
+        <div id="news-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
       <div class="mon-card">
-        <p class="mon-title">📰 Gold News</p>
-        <div class="tradingview-widget-container">
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
-          {"feedMode":"symbol","symbol":"OANDA:XAUUSD","colorTheme":"dark","isTransparent":false,"displayMode":"regular","width":"100%","height":430,"locale":"en"}
-          </script>
-        </div>
-      </div>
-
-      <div class="mon-card">
-        <p class="mon-title">🕐 Trading Sessions (PKT)</p>
+        <p class="mon-title">🕐 TRADING SESSIONS <span class="mon-tag">PKT</span></p>
         <div id="sessions-box"></div>
       </div>
 
@@ -1599,6 +1613,79 @@
   }
   renderSessions();
   setInterval(renderSessions, 60000);
+
+  // Gold Market Monitor — deep data from monitor.json (bot updates every 15 min)
+  function esc(s){ return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  function fmt(n, d){ return Number(n).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d}); }
+  async function loadMonitor(){
+    try{
+      const r = await fetch('monitor.json?ts=' + Date.now(), {cache: 'no-store'});
+      if (!r.ok) return;
+      const d = await r.json();
+      const up = document.getElementById('mon-updated');
+      if (up) up.textContent = d.updated ? ('Auto-updates every 15 minutes · Last update: ' + d.updated) : '';
+
+      // gold hero card
+      const g = d.gold, gc = document.getElementById('gold-card');
+      if (gc){
+        if (g){
+          const pos = g.chg >= 0;
+          gc.innerHTML = '<p class="mon-title">🥇 GOLD — ' + esc(g.src) + ' <span class="mon-tag">15-MIN REFRESH</span></p>' +
+            '<div class="g-top"><span class="g-price">$' + fmt(g.price, 2) + '</span>' +
+            '<span class="g-chg ' + (pos ? 'chg-up' : 'chg-dn') + '">' + (pos ? '▲ +' : '▼ ') + g.chg + '%</span>' +
+            (d.sentiment ? '<span class="g-chip">Risk Sentiment ' + d.sentiment.value + '/100 · ' + esc(d.sentiment.label) + '</span>' : '') +
+            '</div>' +
+            '<div class="g-stats">' +
+            '<div><span>OPEN</span><b>' + fmt(g.open, 2) + '</b></div>' +
+            '<div><span>HIGH</span><b>' + fmt(g.high, 2) + '</b></div>' +
+            '<div><span>LOW</span><b>' + fmt(g.low, 2) + '</b></div>' +
+            '<div><span>RANGE</span><b>' + fmt(g.high - g.low, 2) + '</b></div>' +
+            '</div>';
+        } else {
+          gc.innerHTML = '<p class="mon-title">🥇 GOLD</p><p class="mon-empty">Price feed updating — check back in a few minutes.</p>';
+        }
+      }
+
+      // markets card
+      const mb = document.getElementById('mkt-box');
+      if (mb && d.markets && d.markets.length){
+        mb.innerHTML = d.markets.map(m => {
+          const pos = m.chg >= 0;
+          const dec = m.price < 10 ? 4 : 2;
+          return '<div class="mkt-row"><span class="mkt-name">' + esc(m.name) + '</span>' +
+            '<span class="mkt-val">' + fmt(m.price, dec) +
+            '<em class="' + (pos ? 'chg-up' : 'chg-dn') + '">' + (pos ? '+' : '') + m.chg + '%</em></span></div>';
+        }).join('');
+      }
+
+      // calendar card
+      const cb = document.getElementById('cal-box');
+      if (cb){
+        cb.innerHTML = (d.calendar && d.calendar.length)
+          ? d.calendar.map(ev =>
+              '<div class="cal-row"><div><div class="cal-title">' + esc(ev.title) + '</div>' +
+              '<div class="cal-time">' + esc(ev.t) + ' PKT' +
+              (ev.forecast ? ' · Forecast: ' + esc(ev.forecast) : '') +
+              (ev.previous ? ' · Prev: ' + esc(ev.previous) : '') + '</div></div>' +
+              '<span class="imp ' + (ev.impact === 'High' ? 'imp-high' : 'imp-med') + '">' +
+              esc(ev.impact).toUpperCase() + '</span></div>').join('')
+          : '<p class="mon-empty">No upcoming USD events right now.</p>';
+      }
+
+      // news card
+      const nb = document.getElementById('news-box');
+      if (nb){
+        nb.innerHTML = (d.news && d.news.length)
+          ? d.news.map(n =>
+              '<a class="news-row" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
+              '<span class="news-title">' + esc(n.title) + '</span>' +
+              '<span class="news-meta"><em>' + esc(n.src) + '</em> · ' + esc(n.t) + ' PKT</span></a>').join('')
+          : '<p class="mon-empty">No fresh gold headlines right now.</p>';
+      }
+    } catch(e){}
+  }
+  loadMonitor();
+  setInterval(loadMonitor, 60000);
 
   // notification permission button
   if ('Notification' in window && Notification.permission === 'default'){

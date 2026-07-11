@@ -1,0 +1,143 @@
+# Daddy Trader — Gold Market Monitor data collector
+# Runs every 15 min via GitHub Actions. Writes monitor.json (deep market data, no API keys).
+import json, re, urllib.request, datetime, email.utils
+import xml.etree.ElementTree as ET
+
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "Accept": "*/*"}
+
+def get(url, t=20):
+    req = urllib.request.Request(url, headers=UA)
+    return urllib.request.urlopen(req, timeout=t).read()
+
+PKT = datetime.timezone(datetime.timedelta(hours=5))
+NOW = datetime.datetime.now(datetime.timezone.utc)
+errs = []
+out = {"updated": NOW.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT")}
+
+# ---------- 1. Markets — Stooq free CSV (spot XAUUSD + majors) ----------
+NAMES = {"XAUUSD": "Gold Spot", "XAGUSD": "Silver Spot", "EURUSD": "EUR/USD",
+         "GBPUSD": "GBP/USD", "USDJPY": "USD/JPY", "CL.F": "Oil WTI",
+         "DX.F": "Dollar Index", "10USY.B": "US 10Y Yield"}
+markets, gold = [], None
+try:
+    csv = get("https://stooq.com/q/l/?s=xauusd+xagusd+eurusd+gbpusd+usdjpy+cl.f+dx.f+10usy.b&f=sd2t2ohlcv&h&e=csv").decode("utf-8", "replace")
+    for line in csv.strip().splitlines()[1:]:
+        p = line.split(",")
+        if len(p) < 7:
+            continue
+        sym = p[0].upper()
+        try:
+            o, h, l, c = float(p[3]), float(p[4]), float(p[5]), float(p[6])
+        except ValueError:
+            continue
+        chg = round((c - o) / o * 100, 2) if o else 0.0
+        if sym == "XAUUSD":
+            gold = {"price": c, "open": o, "high": h, "low": l, "chg": chg,
+                    "src": "XAUUSD Spot"}
+        elif sym in NAMES:
+            markets.append({"name": NAMES[sym], "price": c, "chg": chg})
+except Exception as e:
+    errs.append("stooq: %s" % e)
+
+# ---------- 2. Crypto (Kraken) + PAXG gold fallback ----------
+try:
+    k = json.loads(get("https://api.kraken.com/0/public/Ticker?pair=XBTUSD,ETHUSD,PAXGUSD"))
+    for key, v in (k.get("result") or {}).items():
+        if key == "last":
+            continue
+        c, o = float(v["c"][0]), float(v["o"])
+        chg = round((c - o) / o * 100, 2) if o else 0.0
+        if "PAXG" in key:
+            if gold is None:
+                gold = {"price": c, "open": o, "high": float(v["h"][1]),
+                        "low": float(v["l"][1]), "chg": chg, "src": "PAXG (Kraken)"}
+        elif "XBT" in key:
+            markets.append({"name": "Bitcoin", "price": c, "chg": chg})
+        elif "ETH" in key:
+            markets.append({"name": "Ethereum", "price": c, "chg": chg})
+except Exception as e:
+    errs.append("kraken: %s" % e)
+
+out["gold"] = gold
+out["markets"] = markets
+
+# ---------- 3. USD Economic Calendar (ForexFactory public JSON) ----------
+cal = []
+for wk in ("thisweek", "nextweek"):
+    try:
+        data = json.loads(get("https://nfs.faireconomy.media/ff_calendar_%s.json?version=1" % wk))
+        for ev in data:
+            if ev.get("country") != "USD" or ev.get("impact") not in ("High", "Medium"):
+                continue
+            try:
+                ts = datetime.datetime.fromisoformat(ev["date"])
+            except Exception:
+                continue
+            if ts < NOW - datetime.timedelta(hours=3):
+                continue
+            cal.append({"ts": ts.timestamp(),
+                        "t": ts.astimezone(PKT).strftime("%a %d %b · %I:%M %p"),
+                        "title": str(ev.get("title", ""))[:80],
+                        "impact": ev.get("impact"),
+                        "forecast": str(ev.get("forecast") or ""),
+                        "previous": str(ev.get("previous") or "")})
+    except Exception as e:
+        errs.append("cal-%s: %s" % (wk, e))
+cal.sort(key=lambda x: x["ts"])
+out["calendar"] = cal[:10]
+
+# ---------- 4. Gold-related news (free RSS feeds, keyword filtered) ----------
+KEY = re.compile(r"gold|xau|silver|precious|bullion|fed|fomc|powell|dollar|dxy|"
+                 r"inflation|cpi|ppi|nfp|payroll|jobs report|rate cut|rate hike|"
+                 r"yield|treasury|safe.haven", re.I)
+FEEDS = [("FXStreet", "https://www.fxstreet.com/rss/news"),
+         ("Investing.com", "https://www.investing.com/rss/news_11.rss"),
+         ("CNBC", "https://www.cnbc.com/id/20910258/device/rss/rss.html")]
+news = []
+for src, url in FEEDS:
+    try:
+        root = ET.fromstring(get(url))
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            pub = item.findtext("pubDate") or ""
+            try:
+                ts = email.utils.parsedate_to_datetime(pub)
+                if ts.tzinfo is None:
+                    ts = ts.replace(tzinfo=datetime.timezone.utc)
+            except Exception:
+                ts = NOW
+            if not title or not KEY.search(title):
+                continue
+            if (NOW - ts).total_seconds() > 96 * 3600:
+                continue
+            news.append({"ts": ts.timestamp(), "title": title[:170], "src": src,
+                         "link": link,
+                         "t": ts.astimezone(PKT).strftime("%d %b · %I:%M %p")})
+    except Exception as e:
+        errs.append("%s: %s" % (src, e))
+news.sort(key=lambda x: -x["ts"])
+seen, ded = set(), []
+for n in news:
+    kk = n["title"].lower()[:60]
+    if kk in seen:
+        continue
+    seen.add(kk)
+    ded.append(n)
+out["news"] = ded[:10]
+
+# ---------- 5. Risk sentiment (Fear & Greed) ----------
+try:
+    f = json.loads(get("https://api.alternative.me/fng/?limit=1"))
+    d = f["data"][0]
+    out["sentiment"] = {"value": int(d["value"]), "label": d["value_classification"]}
+except Exception as e:
+    errs.append("fng: %s" % e)
+    out["sentiment"] = None
+
+out["err"] = errs or None
+with open("monitor.json", "w") as fh:
+    json.dump(out, fh, indent=1)
+print("monitor.json written | markets:%d cal:%d news:%d | errs:%s"
+      % (len(markets), len(cal), len(ded), errs))
