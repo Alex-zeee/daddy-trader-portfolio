@@ -1661,8 +1661,10 @@
       // calendar card
       const cb = document.getElementById('cal-box');
       if (cb){
+        const calNote = (d.cal_mode === 'past')
+          ? '<p class="mon-empty" style="margin:0 0 6px">This week\'s completed events — new week\'s calendar loads Monday:</p>' : '';
         cb.innerHTML = (d.calendar && d.calendar.length)
-          ? d.calendar.map(ev =>
+          ? calNote + d.calendar.map(ev =>
               '<div class="cal-row"><div><div class="cal-title">' + esc(ev.title) + '</div>' +
               '<div class="cal-time">' + esc(ev.t) + ' PKT' +
               (ev.forecast ? ' · Forecast: ' + esc(ev.forecast) : '') +

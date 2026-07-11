@@ -31,7 +31,7 @@ try:
                 continue
             c = float(closes.iloc[-1])
             prev = float(closes.iloc[-2]) if len(closes) > 1 else c
-            if sym == "^TNX":
+            if sym == "^TNX" and c > 20:  # kabhi 45.7 (x10) format aata hai
                 c, prev = c / 10.0, prev / 10.0
             chg = round((c - prev) / prev * 100, 2) if prev else 0.0
             markets.append({"name": name, "price": round(c, 4), "chg": chg})
@@ -63,7 +63,7 @@ out["gold"] = gold
 out["markets"] = markets
 
 # ---------- 3. USD Economic Calendar (ForexFactory public JSON) ----------
-cal = []
+allev, upcoming = [], []
 for wk in ("thisweek", "nextweek"):
     try:
         data = json.loads(get("https://nfs.faireconomy.media/ff_calendar_%s.json?version=1" % wk))
@@ -74,18 +74,23 @@ for wk in ("thisweek", "nextweek"):
                 ts = datetime.datetime.fromisoformat(ev["date"])
             except Exception:
                 continue
-            if ts < NOW - datetime.timedelta(hours=30):
-                continue  # keep last ~day + upcoming (weekend pe card khali na rahe)
-            cal.append({"ts": ts.timestamp(),
-                        "t": ts.astimezone(PKT).strftime("%a %d %b · %I:%M %p"),
-                        "title": str(ev.get("title", ""))[:80],
-                        "impact": ev.get("impact"),
-                        "forecast": str(ev.get("forecast") or ""),
-                        "previous": str(ev.get("previous") or "")})
+            row = {"ts": ts.timestamp(),
+                   "t": ts.astimezone(PKT).strftime("%a %d %b · %I:%M %p"),
+                   "title": str(ev.get("title", ""))[:80],
+                   "impact": ev.get("impact"),
+                   "forecast": str(ev.get("forecast") or ""),
+                   "previous": str(ev.get("previous") or "")}
+            allev.append(row)
+            if ts > NOW - datetime.timedelta(hours=3):
+                upcoming.append(row)
     except Exception as e:
-        errs.append("cal-%s: %s" % (wk, e))
-cal.sort(key=lambda x: x["ts"])
-out["calendar"] = cal[:10]
+        if wk == "thisweek":
+            errs.append("cal-%s: %s" % (wk, e))
+allev.sort(key=lambda x: x["ts"])
+upcoming.sort(key=lambda x: x["ts"])
+# weekend pe upcoming khali ho tou hafte ke aakhri events dikhao
+out["calendar"] = upcoming[:10] if upcoming else allev[-6:]
+out["cal_mode"] = "upcoming" if upcoming else "past"
 
 # ---------- 4. Gold-related news (free RSS feeds, keyword filtered) ----------
 KEY = re.compile(r"gold|xau|silver|precious|bullion|fed|fomc|powell|dollar|dxy|"
