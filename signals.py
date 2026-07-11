@@ -275,11 +275,44 @@ def update_statuses(sigs, df):
             s["status"] = "Expired"
 
 
+def market_closed(now_utc):
+    """Gold market: Friday 21:00 UTC band -> Sunday 22:00 UTC khulti hai."""
+    wd = now_utc.weekday()  # Mon=0 ... Sun=6
+    if wd == 4 and now_utc.hour >= 21:
+        return True
+    if wd == 5:
+        return True
+    if wd == 6 and now_utc.hour < 22:
+        return True
+    return False
+
+
 def main():
     sigs = load_existing()
     bias = None
     liq = None
     new_sig = None
+    now0 = datetime.now(timezone.utc)
+
+    if market_closed(now0):
+        def fresh(s):
+            try:
+                return (now0 - datetime.fromisoformat(s["ts"])) < timedelta(hours=24)
+            except Exception:
+                return False
+        sigs = [s for s in sigs if fresh(s)][-MAX_SIGNALS:]
+        out = {
+            "updated": now0.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+            "market": "closed",
+            "src": None, "err": None,
+            "bias": None, "liq": None, "idea": None,
+            "signals": sigs,
+        }
+        with open("signals.json", "w") as f:
+            json.dump(out, f, indent=1)
+        print("market closed — weekend, scan skipped")
+        return
+
     df, src = fetch_gold()
     if df is not None:
         df = add_indicators(df)
@@ -303,6 +336,7 @@ def main():
     sigs = sigs[-MAX_SIGNALS:]
     out = {
         "updated": now.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+        "market": "open",
         "src": src,
         "err": FETCH_ERRORS if src is None else None,
         "bias": bias,

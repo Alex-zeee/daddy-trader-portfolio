@@ -1403,7 +1403,16 @@
       const data = await res.json();
       const sigs = (data.signals || []).slice().reverse();
       let html = '';
-      if (data.bias){
+      const closed = data.market === 'closed';
+      if (closed){
+        html += '<div class="sig-card scan-card" style="grid-column:1/-1">' +
+          '<div style="font-size:40px;margin-bottom:10px">🌙</div>' +
+          '<p class="scan-title">Market Closed — Weekend Holiday</p>' +
+          '<p class="scan-sub">Gold market is closed on Saturday &amp; Sunday. Trading resumes Monday (early hours PKT) — the robot will start scanning again automatically.</p>' +
+          '<span class="scan-live" style="color:#a78bfa"><i style="background:#a78bfa;animation:none"></i>AUTO-RESUME ON MONDAY</span>' +
+          '</div>';
+      }
+      if (!closed && data.bias){
         const bd = data.bias.dir;
         const bc = bd === 'BUY' ? 'var(--accent)' : bd === 'SELL' ? '#c0392b' : '#8a8f8c';
         html += '<div class="sig-card" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">' +
@@ -1411,7 +1420,7 @@
           '<span style="font-size:12.5px;color:var(--ink-soft)">Gold $' + data.bias.price + ' · RSI ' + data.bias.rsi + '</span></div>' +
           '<span class="sig-type" style="background:' + bc + '">' + bd + (bd !== 'NEUTRAL' ? ' · Strength ' + Math.min(3, Math.max(1, Math.round(data.bias.strength / 33.4))) + '/3' : '') + '</span></div>';
       }
-      if (data.liq && ((data.liq.above || []).length || (data.liq.below || []).length)){
+      if (!closed && data.liq && ((data.liq.above || []).length || (data.liq.below || []).length)){
         html += '<div class="sig-card" style="grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">' +
           '<b style="font-family:Poppins,sans-serif;font-size:14px">🧲 Liquidity Map</b>' +
           '<span style="font-size:12.5px;color:var(--ink-soft)">' +
@@ -1436,7 +1445,7 @@
           '<span class="sig-date">' + (i.date || '') + '</span>' +
           '</div>';
       }
-      if (!sigs.length && !data.idea){
+      if (!closed && !sigs.length && !data.idea){
         html += '<div class="sig-card scan-card" style="grid-column:1/-1">' +
           '<div class="scan-wrap"><span class="scan-ring"></span><span class="scan-ring r2"></span><span class="scan-core"></span></div>' +
           '<p class="scan-title">Scanning the market…</p>' +
