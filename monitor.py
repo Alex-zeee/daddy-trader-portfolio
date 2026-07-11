@@ -15,30 +15,30 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 errs = []
 out = {"updated": NOW.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT")}
 
-# ---------- 1. Markets — Stooq free CSV (spot XAUUSD + majors) ----------
-NAMES = {"XAUUSD": "Gold Spot", "XAGUSD": "Silver Spot", "EURUSD": "EUR/USD",
-         "GBPUSD": "GBP/USD", "USDJPY": "USD/JPY", "CL.F": "Oil WTI",
-         "DX.F": "Dollar Index", "10USY.B": "US 10Y Yield"}
+# ---------- 1. Markets — Yahoo Finance (silver, DXY, oil, yields, FX) ----------
 markets, gold = [], None
+TICKS = [("SI=F", "Silver (fut)"), ("DX-Y.NYB", "Dollar Index"),
+         ("CL=F", "Oil WTI"), ("^TNX", "US 10Y Yield"),
+         ("EURUSD=X", "EUR/USD"), ("GBPUSD=X", "GBP/USD"), ("JPY=X", "USD/JPY")]
 try:
-    csv = get("https://stooq.com/q/l/?s=xauusd+xagusd+eurusd+gbpusd+usdjpy+cl.f+dx.f+10usy.b&f=sd2t2ohlcv&h&e=csv").decode("utf-8", "replace")
-    for line in csv.strip().splitlines()[1:]:
-        p = line.split(",")
-        if len(p) < 7:
-            continue
-        sym = p[0].upper()
+    import yfinance as yf
+    df = yf.download([s for s, _ in TICKS], period="5d", interval="1d",
+                     progress=False, group_by="ticker", threads=True)
+    for sym, name in TICKS:
         try:
-            o, h, l, c = float(p[3]), float(p[4]), float(p[5]), float(p[6])
-        except ValueError:
+            closes = df[sym]["Close"].dropna()
+            if len(closes) == 0:
+                continue
+            c = float(closes.iloc[-1])
+            prev = float(closes.iloc[-2]) if len(closes) > 1 else c
+            if sym == "^TNX":
+                c, prev = c / 10.0, prev / 10.0
+            chg = round((c - prev) / prev * 100, 2) if prev else 0.0
+            markets.append({"name": name, "price": round(c, 4), "chg": chg})
+        except Exception:
             continue
-        chg = round((c - o) / o * 100, 2) if o else 0.0
-        if sym == "XAUUSD":
-            gold = {"price": c, "open": o, "high": h, "low": l, "chg": chg,
-                    "src": "XAUUSD Spot"}
-        elif sym in NAMES:
-            markets.append({"name": NAMES[sym], "price": c, "chg": chg})
 except Exception as e:
-    errs.append("stooq: %s" % e)
+    errs.append("yf: %s" % e)
 
 # ---------- 2. Crypto (Kraken) + PAXG gold fallback ----------
 try:
@@ -74,8 +74,8 @@ for wk in ("thisweek", "nextweek"):
                 ts = datetime.datetime.fromisoformat(ev["date"])
             except Exception:
                 continue
-            if ts < NOW - datetime.timedelta(hours=3):
-                continue
+            if ts < NOW - datetime.timedelta(hours=30):
+                continue  # keep last ~day + upcoming (weekend pe card khali na rahe)
             cal.append({"ts": ts.timestamp(),
                         "t": ts.astimezone(PKT).strftime("%a %d %b · %I:%M %p"),
                         "title": str(ev.get("title", ""))[:80],
