@@ -549,6 +549,22 @@
   }
 </style>
 
+<!-- ===== Gold Market Monitor styles ===== -->
+<style id="monitor-css">
+.mon-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}
+.mon-card{background:#131731;border:1px solid rgba(255,255,255,.07);border-radius:18px;padding:14px;overflow:hidden}
+.mon-wide{grid-column:1 / -1}
+.mon-title{font-weight:600;font-size:.95rem;color:#e8ecff;margin:0 0 10px;letter-spacing:.02em}
+.sess-row{display:flex;justify-content:space-between;align-items:center;padding:11px 4px;border-bottom:1px solid rgba(255,255,255,.06);font-size:.9rem}
+.sess-row:last-child{border-bottom:0}
+.sess-name{color:#e8ecff;font-weight:500}
+.sess-time{color:#8b93b7;font-size:.78rem}
+.sess-open{color:#00e8c6;font-weight:700;font-size:.78rem;letter-spacing:.06em}
+.sess-closed{color:#8b93b7;font-weight:600;font-size:.78rem;letter-spacing:.06em}
+.sess-note{margin-top:10px;font-size:.75rem;color:#8b93b7;line-height:1.5}
+@media(max-width:820px){.mon-grid{grid-template-columns:1fr}}
+</style>
+
 <!-- ===== THEME V3 : Dark neon (crypto/trading terminal style) ===== -->
 <style id="theme-v3">
   :root{
@@ -683,6 +699,7 @@
     </div>
     <ul>
       <li><a href="#signals">Signals</a></li>
+      <li><a href="#monitor">Monitor</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
@@ -749,6 +766,58 @@
     <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Loading signals…</p></div>
     <p class="calc-note">📱 <strong>Want push notifications on your phone?</strong> Install the free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> and subscribe to the topic <strong>daddytrader-ali-signals</strong> — you'll get an instant alert for every new signal, even when the app is closed.</p>
     <p class="calc-note">⚠ Signals are for educational purposes only — not financial advice. Trading involves risk of loss. Always do your own research.</p>
+  </div>
+</section>
+
+<section id="monitor">
+  <div class="wrap reveal">
+    <p class="section-label">Live — Gold Market Monitor</p>
+    <h2>Gold Market Monitor</h2>
+
+    <div class="mon-grid">
+
+      <div class="mon-card mon-wide">
+        <p class="mon-title">📈 XAUUSD Live Chart (M15)</p>
+        <div class="tradingview-widget-container">
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+          {"symbol":"OANDA:XAUUSD","interval":"15","theme":"dark","style":"1","timezone":"Asia/Karachi","width":"100%","height":430,"hide_side_toolbar":true,"allow_symbol_change":false,"save_image":false,"locale":"en"}
+          </script>
+        </div>
+      </div>
+
+      <div class="mon-card">
+        <p class="mon-title">🌍 Gold-Linked Markets</p>
+        <div class="tradingview-widget-container">
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+          {"colorTheme":"dark","dateRange":"1D","showChart":true,"width":"100%","height":430,"locale":"en","showSymbolLogo":true,"tabs":[{"title":"Gold Watch","symbols":[{"s":"OANDA:XAUUSD","d":"Gold"},{"s":"OANDA:XAGUSD","d":"Silver"},{"s":"TVC:DXY","d":"Dollar Index"},{"s":"TVC:USOIL","d":"Oil WTI"},{"s":"TVC:US10Y","d":"US 10Y Yield"},{"s":"BITSTAMP:BTCUSD","d":"Bitcoin"}]}]}
+          </script>
+        </div>
+      </div>
+
+      <div class="mon-card">
+        <p class="mon-title">🗓 Economic Calendar (USD)</p>
+        <div class="tradingview-widget-container">
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+          {"colorTheme":"dark","isTransparent":false,"width":"100%","height":430,"locale":"en","importanceFilter":"0,1","currencyFilter":"USD"}
+          </script>
+        </div>
+      </div>
+
+      <div class="mon-card">
+        <p class="mon-title">📰 Gold News</p>
+        <div class="tradingview-widget-container">
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+          {"feedMode":"symbol","symbol":"OANDA:XAUUSD","colorTheme":"dark","isTransparent":false,"displayMode":"regular","width":"100%","height":430,"locale":"en"}
+          </script>
+        </div>
+      </div>
+
+      <div class="mon-card">
+        <p class="mon-title">🕐 Trading Sessions (PKT)</p>
+        <div id="sessions-box"></div>
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -1498,6 +1567,38 @@
   }
   loadSignals();
   setInterval(loadSignals, 60000);
+
+  // Trading sessions clock (PKT = UTC+5)
+  function renderSessions(){
+    const box = document.getElementById('sessions-box');
+    if (!box) return;
+    const now = new Date();
+    const day = now.getUTCDay(); // 0 Sun ... 6 Sat
+    const h = now.getUTCHours() + now.getUTCMinutes()/60;
+    const wkndClosed = (day === 6) || (day === 0 && h < 22) || (day === 5 && h >= 21);
+    // [name, openUTC, closeUTC, PKT label]
+    const sessions = [
+      ['Sydney',   21, 6,  '2:00 AM – 11:00 AM'],
+      ['Tokyo',     0, 9,  '5:00 AM – 2:00 PM'],
+      ['London',    7, 16, '12:00 PM – 9:00 PM'],
+      ['New York', 12, 21, '5:00 PM – 2:00 AM']
+    ];
+    let html = '';
+    sessions.forEach(s => {
+      const [name, o, c, pkt] = s;
+      let open = (o < c) ? (h >= o && h < c) : (h >= o || h < c);
+      if (wkndClosed) open = false;
+      html += '<div class="sess-row"><div><div class="sess-name">' + name + '</div>' +
+        '<div class="sess-time">' + pkt + ' PKT</div></div>' +
+        '<span class="' + (open ? 'sess-open">● OPEN' : 'sess-closed">○ CLOSED') + '</span></div>';
+    });
+    html += '<p class="sess-note">' + (wkndClosed
+      ? '🌙 Gold market closed — weekend. Reopens Monday early hours PKT.'
+      : '🔥 Best volatility for Gold: London + New York overlap (5:00 PM – 9:00 PM PKT).') + '</p>';
+    box.innerHTML = html;
+  }
+  renderSessions();
+  setInterval(renderSessions, 60000);
 
   // notification permission button
   if ('Notification' in window && Notification.permission === 'default'){
