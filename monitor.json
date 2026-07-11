@@ -1,5 +1,5 @@
 {
- "updated": "11-07-2026 11:11 PKT",
+ "updated": "11-07-2026 11:16 PKT",
  "gold": {
   "price": 4109.34,
   "open": 4109.23,
@@ -26,7 +26,7 @@
   },
   {
    "name": "US 10Y Yield",
-   "price": 0.4569,
+   "price": 4.569,
    "chg": 0.66
   },
   {
@@ -46,44 +46,70 @@
   },
   {
    "name": "Ethereum",
-   "price": 1796.47,
-   "chg": 0.05
+   "price": 1797.08,
+   "chg": 0.08
   },
   {
    "name": "Bitcoin",
-   "price": 64148.7,
-   "chg": 0.03
+   "price": 64138.7,
+   "chg": 0.02
   }
  ],
- "calendar": [],
+ "calendar": [
+  {
+   "ts": 1783346400.0,
+   "t": "Mon 06 Jul \u00b7 07:00 PM",
+   "title": "ISM Services PMI",
+   "impact": "High",
+   "forecast": "54.2",
+   "previous": "54.5"
+  },
+  {
+   "ts": 1783533600.0,
+   "t": "Wed 08 Jul \u00b7 11:00 PM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1783600200.0,
+   "t": "Thu 09 Jul \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "218K",
+   "previous": "215K"
+  }
+ ],
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1783750264.843735,
+   "ts": 1783750579.422752,
    "title": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-insists-iran-commit-to-stopping-attacks-in-hormuz-strait-say-us-officials-4786978",
-   "t": "11 Jul \u00b7 11:11 AM"
+   "t": "11 Jul \u00b7 11:16 AM"
   },
   {
-   "ts": 1783750264.843735,
+   "ts": 1783750579.422752,
    "title": "Gold heads for weekly loss as higher oil prices fuel rate concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-muted-head-for-weekly-losses-on-iran-rate-jitters-4785278",
-   "t": "11 Jul \u00b7 11:11 AM"
+   "t": "11 Jul \u00b7 11:16 AM"
   },
   {
-   "ts": 1783750264.843735,
+   "ts": 1783750579.422752,
    "title": "Silver stalls below $61.85 resistance in bearish setup: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-at-6213-fibonacci-resistance-live-levels-93CH-4775639",
-   "t": "11 Jul \u00b7 11:11 AM"
+   "t": "11 Jul \u00b7 11:16 AM"
   },
   {
-   "ts": 1783750264.843735,
+   "ts": 1783750579.422752,
    "title": "Gold coils below $4,150 resistance in bearish pennant: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-50-fib-resistance-at-4180-live-levels-93CH-4775637",
-   "t": "11 Jul \u00b7 11:11 AM"
+   "t": "11 Jul \u00b7 11:16 AM"
   },
   {
    "ts": 1783716937.0,
@@ -132,7 +158,5 @@
   "value": 26,
   "label": "Fear"
  },
- "err": [
-  "cal-nextweek: HTTP Error 404: Not Found"
- ]
+ "err": null
 }
