@@ -1,11 +1,11 @@
 {
- "updated": "12-07-2026 13:35 PKT",
+ "updated": "12-07-2026 15:12 PKT",
  "gold": {
-  "price": 4096.65,
+  "price": 4096.34,
   "open": 4100.0,
   "high": 4112.69,
   "low": 4095.33,
-  "chg": -0.08,
+  "chg": -0.09,
   "src": "PAXG (Kraken)"
  },
  "markets": [
@@ -35,24 +35,19 @@
    "chg": -0.02
   },
   {
-   "name": "GBP/USD",
-   "price": 1.3401,
-   "chg": -0.11
-  },
-  {
    "name": "USD/JPY",
    "price": 161.672,
    "chg": -0.53
   },
   {
    "name": "Ethereum",
-   "price": 1804.06,
-   "chg": 0.97
+   "price": 1799.59,
+   "chg": 0.72
   },
   {
    "name": "Bitcoin",
-   "price": 63960.8,
-   "chg": 0.28
+   "price": 63864.1,
+   "chg": 0.13
   }
  ],
  "calendar": [
@@ -214,5 +209,7 @@
   "value": 26,
   "label": "Fear"
  },
- "err": null
+ "err": [
+  "Investing.com: The read operation timed out"
+ ]
 }
