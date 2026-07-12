@@ -634,6 +634,15 @@
 .news-title{font-size:.78rem;color:#d7dcf0;line-height:1.5}
 .news-meta{font-size:.64rem;letter-spacing:.04em}
 .news-en{display:block;color:#6d7492;font-size:.66rem;line-height:1.45;margin-top:3px;font-style:italic}
+/* Latest update ticker card (signals ke upar) */
+.ticker-card{display:block;background:linear-gradient(90deg,rgba(0,232,198,.09),rgba(167,139,250,.09));border:1px solid rgba(0,232,198,.35);border-radius:14px;padding:16px 20px;margin:0 0 26px;text-decoration:none;font-family:ui-monospace,'Cascadia Mono','Roboto Mono',Consolas,Menlo,monospace;transition:border-color .2s}
+.ticker-card:hover{border-color:#00e8c6}
+.tk-tag{display:block;color:#00e8c6;font-size:.62rem;font-weight:800;letter-spacing:.16em;margin-bottom:7px}
+.tk-title{display:block;color:#fff;font-size:.95rem;font-weight:600;line-height:1.55}
+.tk-en{display:block;color:#8b93b7;font-size:.72rem;font-style:italic;margin-top:4px;line-height:1.45}
+.tk-meta{display:block;color:#6d7492;font-size:.66rem;margin-top:6px;letter-spacing:.06em}
+.tk-anim{animation:tkin .7s ease}
+@keyframes tkin{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
 .sess-row{padding:8px 0;border-bottom:1px solid #1a1e2e;font-size:.8rem}
 .sess-name{color:#d7dcf0;font-weight:600}
 .sess-time{font-size:.66rem}
@@ -848,6 +857,7 @@
 
 <section id="signals">
   <div class="wrap reveal">
+    <div id="latest-news"></div>
     <p class="section-label">Live — Signals</p>
     <h2>Live Trading Signals</h2>
     <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Loading signals…</p></div>
@@ -1756,6 +1766,19 @@
               '<span class="imp ' + (ev.impact === 'High' ? 'imp-high' : 'imp-med') + '">' +
               esc(ev.impact).toUpperCase() + '</span></div>').join('')
           : '<p class="mon-empty">No upcoming USD events right now.</p>';
+      }
+
+      // latest update ticker (signals section ke upar) — sirf sab se nayi news
+      const ln = document.getElementById('latest-news');
+      if (ln && d.news && d.news.length){
+        const n0 = d.news[0];
+        const changed = ln.dataset.link !== n0.link;
+        ln.dataset.link = n0.link;
+        ln.innerHTML = '<a class="ticker-card' + (changed ? ' tk-anim' : '') + '" href="' + esc(n0.link) + '" target="_blank" rel="noopener">' +
+          '<span class="tk-tag"><span class="mon-dot">●</span> LATEST UPDATE — GOLD NEWS</span>' +
+          '<span class="tk-title">' + esc(n0.ur || n0.title) + '</span>' +
+          (n0.ur ? '<span class="tk-en">' + esc(n0.title) + '</span>' : '') +
+          '<span class="tk-meta">' + esc(n0.src) + ' · ' + (n0.ts ? ago(n0.ts) : '') + '</span></a>';
       }
 
       // news card

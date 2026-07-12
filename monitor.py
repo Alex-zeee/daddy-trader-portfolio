@@ -175,11 +175,51 @@ def roman_ur(text):
     except Exception:
         return ""
 
+# pehle English idioms ko saada English banao (warna tarjuma ajeeb hota hai)
+EN_SIMPLIFY = [
+    (r"[Ll]ive levels", ""), (r"bear'?s eye", "bears ka target hai"),
+    (r"bull'?s eye", "bulls ka target hai"), (r"\bcoils\b", "trade kar raha hai"),
+    (r"\bstalls\b", "ruk gaya hai"), (r"\bpennant\b", "pattern"),
+    (r"\bwipeout\b", "loss"), (r"\btestimony\b", "bayan"),
+]
+
+# phir Google ke Roman output ke mushkil/ghalat alfaz asan banao,
+# trading terms wapas English mein (jaise log asal mein baat karte hain)
+RO_FIX = {
+    "min": "mein", "or": "aur", "se": "se", "ki": "ki",
+    "qeemt": "qeemat", "qimt": "qeemat", "keemt": "qeemat", "qimat": "qeemat",
+    "pition goi": "forecast", "pishin goi": "forecast", "peshin goi": "forecast",
+    "paishin goi": "forecast", "pesh goi": "forecast", "pishn goi": "forecast",
+    "richh": "bears", "bhalo": "bears", "bil": "bulls",
+    "afrat zar": "inflation (mehngai)", "afraat zar": "inflation (mehngai)",
+    "shrah sod": "interest rate", "sod ki shrah": "interest rate",
+    "shrah": "rate", "sod": "interest",
+    "daler": "Dollar", "dalr": "Dollar", "dallar": "Dollar",
+    "amriki": "US", "amrici": "US", "amrika": "America",
+    "si pi i": "CPI", "si pi ai": "CPI", "pi pi i": "PPI",
+    "nchala": "neechla", "nchale": "neechle", "dhanchah": "dhancha",
+    "hamayat": "support", "muzahemat": "resistance", "muzahmat": "resistance",
+    "bahali": "recovery", "indah": "aainda", "aindah": "aainda",
+    "taayewan": "Taiwan", "sone": "Gold (sone)", "sona": "Gold (sona)",
+    "chandi": "Silver (chandi)", "khazane": "treasury", "zar mubadlah": "currency",
+    "janchane": "test karne", "mtahan": "test",
+}
+RO_RX = [(re.compile(r"\b" + re.escape(k) + r"\b", re.I), v) for k, v in RO_FIX.items()]
+
+def polish(r):
+    for rx, v in RO_RX:
+        r = rx.sub(v, r)
+    r = re.sub(r"\s+", " ", r).strip()
+    return (r[:1].upper() + r[1:]) if r else r
+
 tr_fail = 0
 for n in out["news"]:
-    r = roman_ur(n["title"])
+    en = n["title"]
+    for pat, rep in EN_SIMPLIFY:
+        en = re.sub(pat, rep, en)
+    r = roman_ur(en.strip(" -:"))
     if r:
-        n["ur"] = r[:220]
+        n["ur"] = polish(r)[:220]
     else:
         tr_fail += 1
 if tr_fail:
