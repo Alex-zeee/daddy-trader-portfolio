@@ -1,10 +1,23 @@
 {
- "updated": "13-07-2026 02:29 PKT",
- "market": "closed",
- "src": null,
+ "updated": "13-07-2026 03:23 PKT",
+ "market": "open",
+ "src": "PAXG-kraken",
  "err": null,
- "bias": null,
- "liq": null,
+ "bias": {
+  "dir": "SELL",
+  "strength": 100,
+  "price": 4077.7,
+  "rsi": 17,
+  "tf": "M15"
+ },
+ "liq": {
+  "above": [
+   4097.3,
+   4100.02,
+   4100.6
+  ],
+  "below": []
+ },
  "idea": null,
  "signals": []
 }
