@@ -639,6 +639,15 @@
 .sess-open,.sess-closed{font-size:.66rem;letter-spacing:.1em}
 .sess-note{font-size:.66rem;line-height:1.6}
 @media(max-width:980px){.mon-grid{grid-template-columns:1fr}.mon-tall{grid-row:auto}}
+/* Daily Analysis */
+#analysis .ana-grid, #analysis .mon-updated{font-family:ui-monospace,'Cascadia Mono','Roboto Mono',Consolas,Menlo,monospace}
+.ana-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.ana-card{position:relative;display:block;background:#0b0d15;border:1px solid #222738;border-radius:8px;overflow:hidden;text-decoration:none;transition:border-color .2s}
+.ana-card:hover{border-color:#00e8c6}
+.ana-card img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+.ana-cap{display:block;padding:9px 12px;color:#d7dcf0;font-size:.72rem;font-weight:600;letter-spacing:.05em;border-top:1px solid #1a1e2e}
+.ana-new{position:absolute;top:8px;left:8px;z-index:2;padding:2px 8px;border-radius:4px;font-size:.58rem;font-weight:800;letter-spacing:.1em;background:#00e8c6;color:#06251f}
+@media(max-width:980px){.ana-grid{grid-template-columns:1fr}}
 </style>
 
 <!-- ===== THEME V3 : Dark neon (crypto/trading terminal style) ===== -->
@@ -776,6 +785,7 @@
     <ul>
       <li><a href="#signals">Signals</a></li>
       <li><a href="#monitor">Monitor</a></li>
+      <li><a href="#analysis">Analysis</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#work">Work</a></li>
@@ -877,6 +887,15 @@
       </div>
 
     </div>
+  </div>
+</section>
+
+<section id="analysis">
+  <div class="wrap reveal">
+    <p class="section-label">Daily — Chart Breakdowns</p>
+    <h2>Daily Analysis</h2>
+    <p class="mon-updated">Hand-marked charts by M. Ali Alvi — liquidity zones, setups &amp; trade plans. Tap any chart to open full size.</p>
+    <div class="ana-grid" id="ana-box"><p class="mon-empty">Loading…</p></div>
   </div>
 </section>
 
@@ -1752,6 +1771,27 @@
   }
   loadMonitor();
   setInterval(loadMonitor, 60000);
+
+  // Daily Analysis — GitHub 'analysis' folder se images khud load hoti hain
+  async function loadAnalysis(){
+    try{
+      const r = await fetch('https://api.github.com/repos/Alex-zeee/daddy-trader-portfolio/contents/analysis?t=' + Math.floor(Date.now() / 300000));
+      const box = document.getElementById('ana-box');
+      if (!box) return;
+      if (!r.ok){ box.innerHTML = '<p class="mon-empty">No analysis posted yet — first chart coming soon.</p>'; return; }
+      const files = (await r.json()).filter(f => /\.(png|jpe?g|webp|gif)$/i.test(f.name));
+      files.sort((a, b) => b.name.localeCompare(a.name));
+      box.innerHTML = files.length
+        ? files.slice(0, 12).map((f, i) =>
+            '<a class="ana-card" href="' + esc(f.download_url) + '" target="_blank" rel="noopener">' +
+            (i === 0 ? '<span class="ana-new">LATEST</span>' : '') +
+            '<img loading="lazy" src="' + esc(f.download_url) + '" alt="' + esc(f.name) + '">' +
+            '<span class="ana-cap">' + esc(f.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ')) + '</span></a>').join('')
+        : '<p class="mon-empty">No analysis posted yet — first chart coming soon.</p>';
+    } catch(e){}
+  }
+  loadAnalysis();
+  setInterval(loadAnalysis, 300000);
 
   // notification permission button
   if ('Notification' in window && Notification.permission === 'default'){
