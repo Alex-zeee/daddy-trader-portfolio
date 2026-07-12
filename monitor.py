@@ -203,6 +203,15 @@ RO_FIX = {
     "taayewan": "Taiwan", "sone": "Gold (sone)", "sona": "Gold (sona)",
     "chandi": "Silver (chandi)", "khazane": "treasury", "zar mubadlah": "currency",
     "janchane": "test karne", "mtahan": "test",
+    "hay": "hai", "hidaf": "target", "ahdaf": "targets",
+    "balo": "bears", "belo": "bears", "bl": "bull",
+    "ue es": "US", "yo es": "US", "bink": "Bank",
+    "biyan": "bayan", "sharah": "rate", "izafe": "izafay",
+    "kam unchi sakht": "lower high structure", "sakht": "structure",
+    "woon": "Won", "koryai": "Korea ki", "janobi": "South",
+    "baraamadat": "exports", "daramdat": "imports",
+    "kamers bink": "Commerzbank", "mzbut": "mazboot", "kmzor": "kamzor",
+    "sti": "steady", "mustehkam": "stable",
 }
 RO_RX = [(re.compile(r"\b" + re.escape(k) + r"\b", re.I), v) for k, v in RO_FIX.items()]
 
