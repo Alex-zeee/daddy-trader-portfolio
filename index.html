@@ -633,6 +633,7 @@
 .news-row:hover{border-left-color:#00e8c6}
 .news-title{font-size:.78rem;color:#d7dcf0;line-height:1.5}
 .news-meta{font-size:.64rem;letter-spacing:.04em}
+.news-en{display:block;color:#6d7492;font-size:.66rem;line-height:1.45;margin-top:3px;font-style:italic}
 .sess-row{padding:8px 0;border-bottom:1px solid #1a1e2e;font-size:.8rem}
 .sess-name{color:#d7dcf0;font-weight:600}
 .sess-time{font-size:.66rem}
@@ -872,7 +873,7 @@
       </div>
 
       <div class="mon-card mon-tall">
-        <p class="mon-title"><span class="mon-dot">●</span>GOLD NEWS <span class="mon-tag">AUTO-FEED</span></p>
+        <p class="mon-title"><span class="mon-dot">●</span>GOLD NEWS <span class="mon-tag">AUTO-FEED</span><span class="mon-tag">ROMAN URDU</span></p>
         <div id="news-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
@@ -1763,7 +1764,8 @@
         nb.innerHTML = (d.news && d.news.length)
           ? d.news.map(n =>
               '<a class="news-row" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
-              '<span class="news-title">' + esc(n.title) + '</span>' +
+              '<span class="news-title">' + esc(n.ur || n.title) + '</span>' +
+              (n.ur ? '<span class="news-en">' + esc(n.title) + '</span>' : '') +
               '<span class="news-meta"><em>' + esc(n.src) + '</em> · ' + (n.ts ? ago(n.ts) : esc(n.t) + ' PKT') + '</span></a>').join('')
           : '<p class="mon-empty">No fresh gold headlines right now.</p>';
       }

@@ -152,6 +152,39 @@ for n in news:
     ded.append(n)
 out["news"] = ded[:10]
 
+# ---------- 4b. Roman Urdu translation (Google gtx, free) ----------
+import urllib.parse
+
+def roman_ur(text):
+    try:
+        u = ("https://translate.googleapis.com/translate_a/single"
+             "?client=gtx&sl=en&tl=ur&dt=t&dt=rm&q=" + urllib.parse.quote(text))
+        data = json.loads(get(u, t=12))
+        roman, urdu = "", ""
+        for s in (data[0] or []):
+            if not isinstance(s, list):
+                continue
+            if s and isinstance(s[0], str):
+                urdu += s[0]
+            # romanization entries: first element None, roman text at idx 2 ya 3
+            for idx in (2, 3):
+                if len(s) > idx and s[0] is None and isinstance(s[idx], str):
+                    roman += s[idx] + " "
+                    break
+        return roman.strip()
+    except Exception:
+        return ""
+
+tr_fail = 0
+for n in out["news"]:
+    r = roman_ur(n["title"])
+    if r:
+        n["ur"] = r[:220]
+    else:
+        tr_fail += 1
+if tr_fail:
+    errs.append("translate: %d/%d failed" % (tr_fail, len(out["news"])))
+
 # ---------- 5. Risk sentiment (Fear & Greed) ----------
 try:
     f = json.loads(get("https://api.alternative.me/fng/?limit=1"))
