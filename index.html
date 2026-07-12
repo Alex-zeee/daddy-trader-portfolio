@@ -596,6 +596,51 @@
 @media(max-width:820px){.mon-grid{grid-template-columns:1fr}.g-stats{grid-template-columns:repeat(2,1fr)}.g-price{font-size:1.9rem}}
 </style>
 
+<!-- ===== Monitor terminal look (World Monitor style) ===== -->
+<style id="monitor-terminal-css">
+#monitor .mon-grid, #monitor .mon-card, #monitor .mon-updated{font-family:ui-monospace,'Cascadia Mono','Roboto Mono',Consolas,Menlo,monospace}
+.mon-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.mon-card{background:#0b0d15;border:1px solid #222738;border-radius:8px;padding:12px 14px;overflow:hidden}
+.mon-wide{grid-column:1/-1}
+.mon-tall{grid-row:span 2}
+.mon-title{font-weight:700;font-size:.7rem;color:#d7dcf0;margin:0 0 10px;letter-spacing:.14em}
+.mon-dot{color:#00e8c6;font-size:.6rem;vertical-align:middle;margin-right:7px;animation:monblink 2s infinite}
+@keyframes monblink{0%,100%{opacity:1}50%{opacity:.3}}
+.mon-tag{display:inline-block;margin-left:8px;padding:2px 7px;border-radius:4px;font-size:.58rem;font-weight:700;letter-spacing:.1em;background:rgba(0,232,198,.1);color:#00e8c6;vertical-align:middle}
+.mon-tag-red{background:rgba(255,84,112,.12);color:#ff5470}
+.mon-updated{font-size:.72rem;color:#6d7492;letter-spacing:.05em}
+.mon-empty{color:#6d7492;font-size:.78rem}
+.spk{width:74px;height:22px;flex:none;opacity:.9}
+.g-top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:4px 0 12px}
+.g-price{font-size:2.1rem;font-weight:700;color:#fff;letter-spacing:-.02em}
+.g-chg{font-size:1rem;font-weight:700}
+.g-spark{flex-basis:100%;margin-top:2px}
+.g-spark svg{width:min(320px,100%);height:46px;opacity:.95}
+.g-chip{padding:4px 10px;border-radius:4px;border:1px solid #3a3355;background:transparent;color:#a78bfa;font-size:.68rem;font-weight:700;letter-spacing:.06em}
+.g-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.g-stats div{background:#10131f;border:1px solid #222738;border-radius:6px;padding:8px 10px}
+.g-stats span{font-size:.58rem;letter-spacing:.12em;color:#6d7492;margin-bottom:2px}
+.g-stats b{font-size:.95rem;color:#fff}
+.mkt-row{gap:8px;padding:7px 0;border-bottom:1px solid #1a1e2e;font-size:.8rem}
+.mkt-name{color:#d7dcf0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mkt-val{color:#fff;font-weight:700;white-space:nowrap}
+.mkt-val em{font-size:.7rem;margin-left:7px}
+.cal-row{align-items:flex-start;padding:8px 0;border-bottom:1px solid #1a1e2e}
+.cal-title{font-size:.78rem;font-weight:600;color:#d7dcf0}
+.cal-time{font-size:.66rem}
+.imp{padding:2px 6px;border-radius:4px;font-size:.56rem;margin-top:2px}
+.news-row{padding:8px 0 8px 10px;border-bottom:1px solid #1a1e2e;border-left:2px solid #2a3049;margin-bottom:2px}
+.news-row:hover{border-left-color:#00e8c6}
+.news-title{font-size:.78rem;color:#d7dcf0;line-height:1.5}
+.news-meta{font-size:.64rem;letter-spacing:.04em}
+.sess-row{padding:8px 0;border-bottom:1px solid #1a1e2e;font-size:.8rem}
+.sess-name{color:#d7dcf0;font-weight:600}
+.sess-time{font-size:.66rem}
+.sess-open,.sess-closed{font-size:.66rem;letter-spacing:.1em}
+.sess-note{font-size:.66rem;line-height:1.6}
+@media(max-width:980px){.mon-grid{grid-template-columns:1fr}.mon-tall{grid-row:auto}}
+</style>
+
 <!-- ===== THEME V3 : Dark neon (crypto/trading terminal style) ===== -->
 <style id="theme-v3">
   :root{
@@ -811,23 +856,23 @@
 
       <div class="mon-card mon-wide" id="gold-card"></div>
 
-      <div class="mon-card">
-        <p class="mon-title">🌍 MARKETS <span class="mon-tag">LIVE</span></p>
+      <div class="mon-card mon-tall">
+        <p class="mon-title"><span class="mon-dot">●</span>MARKETS <span class="mon-tag">LIVE</span></p>
         <div id="mkt-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
-      <div class="mon-card">
-        <p class="mon-title">🗓 ECONOMIC CALENDAR — USD <span class="mon-tag mon-tag-red">HIGH IMPACT</span></p>
-        <div id="cal-box"><p class="mon-empty">Loading…</p></div>
-      </div>
-
-      <div class="mon-card">
-        <p class="mon-title">📰 GOLD NEWS <span class="mon-tag">AUTO-FEED</span></p>
+      <div class="mon-card mon-tall">
+        <p class="mon-title"><span class="mon-dot">●</span>GOLD NEWS <span class="mon-tag">AUTO-FEED</span></p>
         <div id="news-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
       <div class="mon-card">
-        <p class="mon-title">🕐 TRADING SESSIONS <span class="mon-tag">PKT</span></p>
+        <p class="mon-title"><span class="mon-dot">●</span>ECONOMIC CALENDAR — USD <span class="mon-tag mon-tag-red">HIGH IMPACT</span></p>
+        <div id="cal-box"><p class="mon-empty">Loading…</p></div>
+      </div>
+
+      <div class="mon-card">
+        <p class="mon-title"><span class="mon-dot">●</span>TRADING SESSIONS <span class="mon-tag">PKT</span></p>
         <div id="sessions-box"></div>
       </div>
 
@@ -1617,6 +1662,23 @@
   // Gold Market Monitor — deep data from monitor.json (bot updates every 15 min)
   function esc(s){ return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
   function fmt(n, d){ return Number(n).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d}); }
+  function spark(arr, w, h){
+    if (!arr || arr.length < 2) return '';
+    w = w || 74; h = h || 22;
+    const mn = Math.min.apply(null, arr), mx = Math.max.apply(null, arr), rng = (mx - mn) || 1;
+    const pts = arr.map((v, i) =>
+      (i / (arr.length - 1) * w).toFixed(1) + ',' + ((1 - (v - mn) / rng) * (h - 3) + 1.5).toFixed(1)).join(' ');
+    const up = arr[arr.length - 1] >= arr[0];
+    return '<svg class="spk" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
+      '<polyline points="' + pts + '" fill="none" stroke="' + (up ? '#00e8c6' : '#ff5470') + '" stroke-width="1.5"/></svg>';
+  }
+  function ago(ts){
+    if (!ts) return '';
+    const s = Date.now() / 1000 - ts;
+    if (s < 3600) return Math.max(1, Math.round(s / 60)) + 'm ago';
+    if (s < 86400) return Math.round(s / 3600) + 'h ago';
+    return Math.round(s / 86400) + 'd ago';
+  }
   async function loadMonitor(){
     try{
       const r = await fetch('monitor.json?ts=' + Date.now(), {cache: 'no-store'});
@@ -1630,10 +1692,11 @@
       if (gc){
         if (g){
           const pos = g.chg >= 0;
-          gc.innerHTML = '<p class="mon-title">🥇 GOLD — ' + esc(g.src) + ' <span class="mon-tag">15-MIN REFRESH</span></p>' +
+          gc.innerHTML = '<p class="mon-title"><span class="mon-dot">●</span>GOLD — ' + esc(g.src) + ' <span class="mon-tag">15-MIN REFRESH</span></p>' +
             '<div class="g-top"><span class="g-price">$' + fmt(g.price, 2) + '</span>' +
             '<span class="g-chg ' + (pos ? 'chg-up' : 'chg-dn') + '">' + (pos ? '▲ +' : '▼ ') + g.chg + '%</span>' +
-            (d.sentiment ? '<span class="g-chip">Risk Sentiment ' + d.sentiment.value + '/100 · ' + esc(d.sentiment.label) + '</span>' : '') +
+            (d.sentiment ? '<span class="g-chip">RISK SENTIMENT ' + d.sentiment.value + '/100 · ' + esc(d.sentiment.label).toUpperCase() + '</span>' : '') +
+            (g.spark ? '<div class="g-spark">' + spark(g.spark, 320, 46) + '</div>' : '') +
             '</div>' +
             '<div class="g-stats">' +
             '<div><span>OPEN</span><b>' + fmt(g.open, 2) + '</b></div>' +
@@ -1653,6 +1716,7 @@
           const pos = m.chg >= 0;
           const dec = m.price < 10 ? 4 : 2;
           return '<div class="mkt-row"><span class="mkt-name">' + esc(m.name) + '</span>' +
+            (m.spark ? spark(m.spark) : '') +
             '<span class="mkt-val">' + fmt(m.price, dec) +
             '<em class="' + (pos ? 'chg-up' : 'chg-dn') + '">' + (pos ? '+' : '') + m.chg + '%</em></span></div>';
         }).join('');
@@ -1681,7 +1745,7 @@
           ? d.news.map(n =>
               '<a class="news-row" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
               '<span class="news-title">' + esc(n.title) + '</span>' +
-              '<span class="news-meta"><em>' + esc(n.src) + '</em> · ' + esc(n.t) + ' PKT</span></a>').join('')
+              '<span class="news-meta"><em>' + esc(n.src) + '</em> · ' + (n.ts ? ago(n.ts) : esc(n.t) + ' PKT') + '</span></a>').join('')
           : '<p class="mon-empty">No fresh gold headlines right now.</p>';
       }
     } catch(e){}

@@ -22,19 +22,21 @@ TICKS = [("SI=F", "Silver (fut)"), ("DX-Y.NYB", "Dollar Index"),
          ("EURUSD=X", "EUR/USD"), ("GBPUSD=X", "GBP/USD"), ("JPY=X", "USD/JPY")]
 try:
     import yfinance as yf
-    df = yf.download([s for s, _ in TICKS], period="5d", interval="1d",
+    df = yf.download([s for s, _ in TICKS], period="1mo", interval="1d",
                      progress=False, group_by="ticker", threads=True)
     for sym, name in TICKS:
         try:
             closes = df[sym]["Close"].dropna()
             if len(closes) == 0:
                 continue
-            c = float(closes.iloc[-1])
-            prev = float(closes.iloc[-2]) if len(closes) > 1 else c
-            if sym == "^TNX" and c > 20:  # kabhi 45.7 (x10) format aata hai
-                c, prev = c / 10.0, prev / 10.0
+            vals = [float(x) for x in closes.tolist()][-22:]
+            if sym == "^TNX" and vals[-1] > 20:  # kabhi 45.7 (x10) format aata hai
+                vals = [v / 10.0 for v in vals]
+            c = vals[-1]
+            prev = vals[-2] if len(vals) > 1 else c
             chg = round((c - prev) / prev * 100, 2) if prev else 0.0
-            markets.append({"name": name, "price": round(c, 4), "chg": chg})
+            markets.append({"name": name, "price": round(c, 4), "chg": chg,
+                            "spark": [round(v, 4) for v in vals]})
         except Exception:
             continue
 except Exception as e:
@@ -58,6 +60,24 @@ try:
             markets.append({"name": "Ethereum", "price": c, "chg": chg})
 except Exception as e:
     errs.append("kraken: %s" % e)
+
+# sparklines for gold/crypto (Kraken hourly closes, last 48h)
+def _kspark(pair):
+    try:
+        o = json.loads(get("https://api.kraken.com/0/public/OHLC?pair=%s&interval=60" % pair))
+        res = o.get("result") or {}
+        key = next((k for k in res if k != "last"), None)
+        return [round(float(r[4]), 2) for r in res[key][-48:]] if key else []
+    except Exception:
+        return []
+
+if gold is not None:
+    gold["spark"] = _kspark("PAXGUSD")
+for m in markets:
+    if m["name"] == "Bitcoin":
+        m["spark"] = _kspark("XBTUSD")
+    elif m["name"] == "Ethereum":
+        m["spark"] = _kspark("ETHUSD")
 
 out["gold"] = gold
 out["markets"] = markets
@@ -145,4 +165,4 @@ out["err"] = errs or None
 with open("monitor.json", "w") as fh:
     json.dump(out, fh, indent=1)
 print("monitor.json written | markets:%d cal:%d news:%d | errs:%s"
-      % (len(markets), len(cal), len(ded), errs))
+      % (len(markets), len(out["calendar"]), len(ded), errs))
