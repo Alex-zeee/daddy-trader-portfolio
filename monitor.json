@@ -1,16 +1,13 @@
 {
- "updated": "13-07-2026 05:10 PKT",
+ "updated": "13-07-2026 08:55 PKT",
  "gold": {
-  "price": 4079.23,
+  "price": 4052.92,
   "open": 4077.32,
   "high": 4100.02,
-  "low": 4064.06,
-  "chg": 0.05,
+  "low": 4048.5,
+  "chg": -0.6,
   "src": "PAXG (Kraken)",
   "spark": [
-   4110.0,
-   4109.12,
-   4108.38,
    4109.41,
    4110.63,
    4109.43,
@@ -55,14 +52,17 @@
    4094.32,
    4069.31,
    4076.63,
-   4079.23
+   4069.05,
+   4066.37,
+   4064.78,
+   4052.92
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.39,
-   "chg": -0.7,
+   "price": 58.47,
+   "chg": -2.24,
    "spark": [
     67.859,
     70.066,
@@ -83,13 +83,13 @@
     58.164,
     60.378,
     59.809,
-    59.39
+    58.47
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.063,
-   "chg": 0.09,
+   "price": 101.139,
+   "chg": 0.17,
    "spark": [
     99.75,
     99.63,
@@ -110,13 +110,13 @@
     101.05,
     100.94,
     100.97,
-    101.063
+    101.139
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 73.76,
-   "chg": 3.29,
+   "price": 74.33,
+   "chg": 4.09,
    "spark": [
     84.88,
     80.75,
@@ -137,7 +137,7 @@
     73.52,
     72.08,
     71.41,
-    73.76
+    74.33
    ]
   },
   {
@@ -170,8 +170,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1406,
-   "chg": -0.24,
+   "price": 1.14,
+   "chg": -0.29,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1404,
     1.1422,
     1.1433,
-    1.1406
+    1.14
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3385,
-   "chg": -0.22,
+   "price": 1.3378,
+   "chg": -0.28,
    "spark": [
     1.345,
     1.3416,
@@ -221,13 +221,13 @@
     1.3349,
     1.3396,
     1.3416,
-    1.3385
+    1.3378
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 161.905,
-   "chg": -0.28,
+   "price": 162.082,
+   "chg": -0.17,
    "spark": [
     159.955,
     160.229,
@@ -249,17 +249,14 @@
     162.363,
     162.539,
     162.363,
-    161.905
+    162.082
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1820.57,
-   "chg": 0.83,
+   "price": 1779.78,
+   "chg": -1.43,
    "spark": [
-    1788.19,
-    1794.22,
-    1795.68,
     1794.88,
     1798.25,
     1798.28,
@@ -304,17 +301,17 @@
     1811.1,
     1803.82,
     1805.53,
-    1820.57
+    1825.59,
+    1805.87,
+    1805.8,
+    1779.78
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64003.7,
-   "chg": 0.42,
+   "price": 62755.6,
+   "chg": -1.54,
    "spark": [
-    63979.8,
-    64113.3,
-    64130.8,
     64101.9,
     64122.9,
     64181.3,
@@ -359,7 +356,10 @@
     63881.1,
     63851.5,
     63737.4,
-    64003.7
+    64040.1,
+    63383.7,
+    63325.7,
+    62755.6
    ]
   }
  ],
@@ -448,6 +448,54 @@
  "cal_mode": "upcoming",
  "news": [
   {
+   "ts": 1783909132.0,
+   "title": "United States Dollar Index holds above 101.00 on Middle East tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-above-10100-on-middle-east-tensions-202607130218",
+   "t": "13 Jul \u00b7 07:18 AM",
+   "ur": "Masharq wasta ke tanao par US Dollar andex 101.00 se oper hai."
+  },
+  {
+   "ts": 1783908442.0,
+   "title": "Canadian Dollar edges lower as US launches new wave of strikes against Iran",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-edges-lower-as-us-launches-new-wave-of-strikes-against-iran-202607130207",
+   "t": "13 Jul \u00b7 07:07 AM",
+   "ur": "Amrikah ki janb se eran ke khalaf hamlon ki nayi lahr sharo hone par caniden Dollar ki qeemat mein kami"
+  },
+  {
+   "ts": 1783907305.0,
+   "title": "Silver Price Forecast: XAG/USD falls to near $59.00 amid rising US-Iran strikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-5900-amid-rising-us-iran-strikes-202607130148",
+   "t": "13 Jul \u00b7 06:48 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: amrikah-eran ke badhte huvay hamlon ke darmiyan XAG/USD $59.00 ke qarib gar gaya"
+  },
+  {
+   "ts": 1783905467.0,
+   "title": "New Zealand Dollar declines as safe-haven demand lifts US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-declines-as-safe-haven-demand-lifts-us-dollar-202607130117",
+   "t": "13 Jul \u00b7 06:17 AM",
+   "ur": "Mahfooz panah gahon ki talab mein US Dollar ki balandi ke baas niyozi lind Dollar mein kami"
+  },
+  {
+   "ts": 1783904718.0,
+   "title": "Gold falls below $4,100 as fresh US-Iran strikes stoke inflation fears",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-declines-below-4-100-as-fresh-us-iran-strikes-stoke-inflation-fears-202607130105",
+   "t": "13 Jul \u00b7 06:05 AM",
+   "ur": "Gold (sona) 4,100 Dollar se niche gar gaya cunkah amrikah aur eran ke taazah hamlon ne mahungai ke khadshat ko janum diya."
+  },
+  {
+   "ts": 1783901988.0,
+   "title": "Euro weakens to near 1.1400 as US-Iran escalation boosts US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-weakens-to-near-11400-as-us-iran-escalation-boosts-us-dollar-202607130019",
+   "t": "13 Jul \u00b7 05:19 AM",
+   "ur": "Uro kamazor ho kar 1.1400 ke qarib pohch gaya cunkah amrikah eran kasheedgi ne US Dollar ko badhaya"
+  },
+  {
    "ts": 1783898341.0,
    "title": "Australian Dollar declines below 0.6950 as US, Iran launch new round of strikes",
    "src": "FXStreet",
@@ -478,54 +526,6 @@
    "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-cpi-and-warsh-testimony-to-test-the-dollars-recovery-202607102046",
    "t": "11 Jul \u00b7 01:46 AM",
    "ur": "Aane wale hafte ki forecast: US CPI aur warsh bayan Dollar ki recovery ko test karne ke liye"
-  },
-  {
-   "ts": 1783714020.0,
-   "title": "South Korean Won: Rate hike support from exports and inflation \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-rate-hike-support-from-exports-and-inflation-dbs-202607102007",
-   "t": "11 Jul \u00b7 01:07 AM",
-   "ur": "South Korea ki Won: exports aur inflation (mehngai) se rate mein azafe ki support \u2013 DBS"
-  },
-  {
-   "ts": 1783712192.0,
-   "title": "Gold price slips as Trump says Iran ceasefire is over",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-slips-as-trump-says-iran-ceasefire-is-over-202607101936",
-   "t": "11 Jul \u00b7 12:36 AM",
-   "ur": "Gold (sone) ki qeemat gar gayi cunkah trmp ne kaha kah eran jang bandi khtam ho gayi hai."
-  },
-  {
-   "ts": 1783711339.0,
-   "title": "Malaysian Ringgit: Range-bound outlook holds against US Dollar \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/malaysian-ringgit-range-bound-outlook-holds-against-us-dollar-mufg-202607101922",
-   "t": "11 Jul \u00b7 12:22 AM",
-   "ur": "Malishin rangt: US Dollar - MUFG ke maqable mein had se manslk oat lak holds"
-  },
-  {
-   "ts": 1783709303.0,
-   "title": "Chinese Yuan: Reflation gap weighs against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-reflation-gap-weighs-against-us-dollar-commerzbank-202607101848",
-   "t": "10 Jul \u00b7 11:48 PM",
-   "ur": "Chini uan: inflation (mehngai) ka farq US Dollar ke maqable mein hai - kamers Bank"
-  },
-  {
-   "ts": 1783708165.0,
-   "title": "United States Dollar Index steady as traders weigh geopolitics, Fed outlook",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-little-changed-as-traders-weigh-geopolitics-and-fed-outlook-202607101829",
-   "t": "10 Jul \u00b7 11:29 PM",
-   "ur": "Ryastahaye matehdah ka Dollar andex mastahkam hai cunkah taajr geograpi siyast, fed oat lak ka wazin karte hen."
-  },
-  {
-   "ts": 1783704006.0,
-   "title": "Euro trades flat despite soft European inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-trades-flat-despite-soft-european-inflation-202607101720",
-   "t": "10 Jul \u00b7 10:20 PM",
-   "ur": "Narm uripi inflation (mehngai) ke bawajud uro filet tajart karta hai."
   }
  ],
  "sentiment": {
