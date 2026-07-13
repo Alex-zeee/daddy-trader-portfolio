@@ -1,14 +1,13 @@
 {
- "updated": "14-07-2026 01:05 PKT",
+ "updated": "14-07-2026 02:10 PKT",
  "gold": {
-  "price": 3998.99,
+  "price": 3995.61,
   "open": 4077.32,
-  "high": 4097.3,
-  "low": 3983.79,
-  "chg": -1.92,
+  "high": 4096.63,
+  "low": 3982.16,
+  "chg": -2.0,
   "src": "PAXG (Kraken)",
   "spark": [
-   4100.48,
    4100.59,
    4100.01,
    4096.89,
@@ -55,14 +54,15 @@
    3991.0,
    3995.76,
    3997.87,
-   3998.99
+   3997.81,
+   3995.61
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.95,
-   "chg": -3.11,
+   "price": 57.98,
+   "chg": -3.06,
    "spark": [
     70.066,
     69.899,
@@ -82,13 +82,13 @@
     58.164,
     60.378,
     59.809,
-    57.95
+    57.98
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.283,
-   "chg": 0.31,
+   "price": 101.294,
+   "chg": 0.32,
    "spark": [
     99.63,
     99.54,
@@ -108,13 +108,13 @@
     101.05,
     100.94,
     100.97,
-    101.283
+    101.294
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 77.71,
-   "chg": 8.82,
+   "price": 78.0,
+   "chg": 9.23,
    "spark": [
     80.75,
     76.05,
@@ -134,7 +134,7 @@
     73.52,
     72.08,
     71.41,
-    77.71
+    78.0
    ]
   },
   {
@@ -165,8 +165,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1387,
-   "chg": -0.41,
+   "price": 1.1386,
+   "chg": -0.42,
    "spark": [
     1.1603,
     1.1594,
@@ -188,13 +188,13 @@
     1.1404,
     1.1422,
     1.1433,
-    1.1387
+    1.1386
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3355,
-   "chg": -0.45,
+   "price": 1.3351,
+   "chg": -0.48,
    "spark": [
     1.345,
     1.3416,
@@ -216,13 +216,13 @@
     1.3349,
     1.3396,
     1.3416,
-    1.3355
+    1.3351
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.428,
-   "chg": 0.04,
+   "price": 162.398,
+   "chg": 0.02,
    "spark": [
     159.955,
     160.229,
@@ -244,15 +244,14 @@
     162.363,
     162.539,
     162.363,
-    162.428
+    162.398
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1774.57,
-   "chg": -1.72,
+   "price": 1760.8,
+   "chg": -2.48,
    "spark": [
-    1823.07,
     1812.58,
     1786.52,
     1787.64,
@@ -299,15 +298,15 @@
     1751.92,
     1762.65,
     1773.06,
-    1774.57
+    1765.51,
+    1760.8
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62255.2,
-   "chg": -2.33,
+   "price": 62071.8,
+   "chg": -2.61,
    "spark": [
-    64311.2,
     64159.9,
     63779.5,
     63792.1,
@@ -354,7 +353,8 @@
     61836.8,
     61962.2,
     62219.8,
-    62255.2
+    62149.2,
+    62071.8
    ]
   }
  ],
@@ -443,28 +443,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1783973115.141133,
+   "ts": 1783977051.195532,
+   "title": "Gold sinks nearly 3% as oil spikes on U.S.-Iran escalation, stoking rate hike bets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-slips-as-iran-strikes-stoke-inflation-fears-cpi-warsh-in-focus-4787400",
+   "t": "14 Jul \u00b7 02:10 AM",
+   "ur": "Gold (sona) taqriban 3 fisad dob gaya cunkah til ki badhti hoi qeemton mein amrikah-eran mein azafah, rate mein azafe ki shartin"
+  },
+  {
+   "ts": 1783977051.195532,
    "title": "Silver tests $57.60 support with RSI near oversold: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "14 Jul \u00b7 01:05 AM",
+   "t": "14 Jul \u00b7 02:10 AM",
    "ur": "Ziyadah farokht hone ke qarib RSI ke sath salor $57.60 sport ki janch karta hai."
   },
   {
-   "ts": 1783973115.141133,
+   "ts": 1783977051.195532,
    "title": "Gold plunges to $4,005 in high-volume breakdown: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "14 Jul \u00b7 01:05 AM",
+   "t": "14 Jul \u00b7 02:10 AM",
    "ur": "Gold (sona) hi waliyom barik doun mein $4,005 tak gar gaya."
   },
   {
-   "ts": 1783973115.141133,
-   "title": "Gold sinks nearly 3% on renewed Middle East strikes stoking higher-rate worries",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-as-iran-strikes-stoke-inflation-fears-cpi-warsh-in-focus-4787400",
-   "t": "14 Jul \u00b7 01:05 AM",
-   "ur": "Masharq wasta ki nayi hadtalon par Gold (sona) taqriban 3 fisad dob gaya, aala rate ke khadshat"
+   "ts": 1783975080.0,
+   "title": "Singapore Dollar: Upside risks with CPI and Warsh in view \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risks-with-cpi-and-warsh-in-view-ocbc-202607132038",
+   "t": "14 Jul \u00b7 01:38 AM",
+   "ur": "Sangapor Dollar: CPI aur warsh ke sath alta khatrat - au si bi si"
+  },
+  {
+   "ts": 1783973017.0,
+   "title": "Forex Today: US Dollar surges as Hormuz tensions send Oil to one-month high",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-surges-as-hormuz-tensions-send-oil-to-one-month-high-202607132003",
+   "t": "14 Jul \u00b7 01:03 AM",
+   "ur": "Farex today: US Dollar ki qeemat badh gayi cunkah harmaz tanao ne til ko ek mah ki baland tarin sath par bhej diya."
   },
   {
    "ts": 1783967987.0,
@@ -505,22 +521,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-tensions-weigh-on-risk-sentiment-202607131621",
    "t": "13 Jul \u00b7 09:21 PM",
    "ur": "Aasterilvi Dollar garta hai cunkah amrikah eran kasheedgi khatre ke jazbat par wazin karti hai."
-  },
-  {
-   "ts": 1783959647.0,
-   "title": "Swiss Franc drops to a more than two-week low against the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-drops-to-a-more-than-two-week-low-against-the-us-dollar-202607131620",
-   "t": "13 Jul \u00b7 09:20 PM",
-   "ur": "Sois farank US Dollar ke maqable mein do hafte ki kam tarin sath par aa gaya."
-  },
-  {
-   "ts": 1783957679.0,
-   "title": "British Pound falls as Oil shock boosts the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-falls-as-oil-shock-boosts-the-us-dollar-202607131547",
-   "t": "13 Jul \u00b7 08:47 PM",
-   "ur": "Bartanvi pound garta hai cunkah til ka jhataka US Dollar ko badhata hai."
   }
  ],
  "sentiment": {
