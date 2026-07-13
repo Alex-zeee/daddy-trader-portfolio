@@ -1,14 +1,13 @@
 {
- "updated": "13-07-2026 04:13 PKT",
+ "updated": "13-07-2026 05:10 PKT",
  "gold": {
-  "price": 4064.13,
-  "open": 4100.0,
+  "price": 4079.23,
+  "open": 4077.32,
   "high": 4100.02,
-  "low": 4064.13,
-  "chg": -0.87,
+  "low": 4064.06,
+  "chg": 0.05,
   "src": "PAXG (Kraken)",
   "spark": [
-   4110.68,
    4110.0,
    4109.12,
    4108.38,
@@ -55,14 +54,15 @@
    4097.14,
    4094.32,
    4069.31,
-   4064.13
+   4076.63,
+   4079.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.08,
-   "chg": -1.22,
+   "price": 59.39,
+   "chg": -0.7,
    "spark": [
     67.859,
     70.066,
@@ -83,13 +83,13 @@
     58.164,
     60.378,
     59.809,
-    59.08
+    59.39
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.15,
-   "chg": 0.18,
+   "price": 101.063,
+   "chg": 0.09,
    "spark": [
     99.75,
     99.63,
@@ -110,13 +110,13 @@
     101.05,
     100.94,
     100.97,
-    101.15
+    101.063
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 73.68,
-   "chg": 3.18,
+   "price": 73.76,
+   "chg": 3.29,
    "spark": [
     84.88,
     80.75,
@@ -137,7 +137,7 @@
     73.52,
     72.08,
     71.41,
-    73.68
+    73.76
    ]
   },
   {
@@ -170,8 +170,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1397,
-   "chg": -0.32,
+   "price": 1.1406,
+   "chg": -0.24,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1404,
     1.1422,
     1.1433,
-    1.1397
+    1.1406
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3373,
-   "chg": -0.32,
+   "price": 1.3385,
+   "chg": -0.22,
    "spark": [
     1.345,
     1.3416,
@@ -221,13 +221,13 @@
     1.3349,
     1.3396,
     1.3416,
-    1.3373
+    1.3385
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.034,
-   "chg": -0.2,
+   "price": 161.905,
+   "chg": -0.28,
    "spark": [
     159.955,
     160.229,
@@ -249,15 +249,14 @@
     162.363,
     162.539,
     162.363,
-    162.034
+    161.905
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1801.3,
-   "chg": 0.82,
+   "price": 1820.57,
+   "chg": 0.83,
    "spark": [
-    1791.99,
     1788.19,
     1794.22,
     1795.68,
@@ -304,15 +303,15 @@
     1819.74,
     1811.1,
     1803.82,
-    1801.3
+    1805.53,
+    1820.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63730.8,
-   "chg": -0.08,
+   "price": 64003.7,
+   "chg": 0.42,
    "spark": [
-    64099.3,
     63979.8,
     64113.3,
     64130.8,
@@ -359,7 +358,8 @@
     64145.7,
     63881.1,
     63851.5,
-    63730.8
+    63737.4,
+    64003.7
    ]
   }
  ],
@@ -448,6 +448,14 @@
  "cal_mode": "upcoming",
  "news": [
   {
+   "ts": 1783898341.0,
+   "title": "Australian Dollar declines below 0.6950 as US, Iran launch new round of strikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-declines-below-06950-as-us-iran-launch-new-round-of-strikes-202607122319",
+   "t": "13 Jul \u00b7 04:19 AM",
+   "ur": "Aasterilvi Dollar 0.6950 se niche garta hai cunkah amrikah, eran ne hamlon ke naye dur ka aaghaz kiya hai."
+  },
+  {
    "ts": 1783716937.0,
    "title": "Silver Price Forecast: Lower high structure holds, bear's eye $55.00",
    "src": "FXStreet",
@@ -518,18 +526,10 @@
    "link": "https://www.fxstreet.com/news/euro-trades-flat-despite-soft-european-inflation-202607101720",
    "t": "10 Jul \u00b7 10:20 PM",
    "ur": "Narm uripi inflation (mehngai) ke bawajud uro filet tajart karta hai."
-  },
-  {
-   "ts": 1783700589.0,
-   "title": "Federal Reserve: Monetary policy report cites \u201chigh inflation\u201d due to tariffs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-monetary-policy-report-cites-high-inflation-due-to-tariffs-202607101623",
-   "t": "10 Jul \u00b7 09:23 PM",
-   "ur": "Faderl resero: manateri palisi rport terf ki wajah se \"aali inflation (mehngai)\" ka hawalah diti hai"
   }
  ],
  "sentiment": {
-  "value": 26,
+  "value": 28,
   "label": "Fear"
  },
  "err": null
