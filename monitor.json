@@ -1,15 +1,13 @@
 {
- "updated": "13-07-2026 23:53 PKT",
+ "updated": "14-07-2026 01:05 PKT",
  "gold": {
-  "price": 3996.07,
+  "price": 3998.99,
   "open": 4077.32,
   "high": 4097.3,
   "low": 3983.79,
-  "chg": -1.99,
+  "chg": -1.92,
   "src": "PAXG (Kraken)",
   "spark": [
-   4103.72,
-   4103.97,
    4100.48,
    4100.59,
    4100.01,
@@ -55,14 +53,16 @@
    4007.49,
    3985.49,
    3991.0,
-   3996.07
+   3995.76,
+   3997.87,
+   3998.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.915,
-   "chg": -3.17,
+   "price": 57.95,
+   "chg": -3.11,
    "spark": [
     70.066,
     69.899,
@@ -82,13 +82,13 @@
     58.164,
     60.378,
     59.809,
-    57.915
+    57.95
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.236,
-   "chg": 0.26,
+   "price": 101.283,
+   "chg": 0.31,
    "spark": [
     99.63,
     99.54,
@@ -108,13 +108,13 @@
     101.05,
     100.94,
     100.97,
-    101.236
+    101.283
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 77.62,
-   "chg": 8.7,
+   "price": 77.71,
+   "chg": 8.82,
    "spark": [
     80.75,
     76.05,
@@ -134,13 +134,13 @@
     73.52,
     72.08,
     71.41,
-    77.62
+    77.71
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.614,
-   "chg": 0.98,
+   "price": 4.609,
+   "chg": 0.88,
    "spark": [
     4.469,
     4.428,
@@ -160,13 +160,13 @@
     4.569,
     4.539,
     4.569,
-    4.614
+    4.609
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1391,
-   "chg": -0.37,
+   "price": 1.1387,
+   "chg": -0.41,
    "spark": [
     1.1603,
     1.1594,
@@ -188,13 +188,13 @@
     1.1404,
     1.1422,
     1.1433,
-    1.1391
+    1.1387
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.336,
-   "chg": -0.41,
+   "price": 1.3355,
+   "chg": -0.45,
    "spark": [
     1.345,
     1.3416,
@@ -216,13 +216,13 @@
     1.3349,
     1.3396,
     1.3416,
-    1.336
+    1.3355
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.383,
-   "chg": 0.01,
+   "price": 162.428,
+   "chg": 0.04,
    "spark": [
     159.955,
     160.229,
@@ -244,16 +244,14 @@
     162.363,
     162.539,
     162.363,
-    162.383
+    162.428
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1764.39,
-   "chg": -2.28,
+   "price": 1774.57,
+   "chg": -1.72,
    "spark": [
-    1822.86,
-    1825.07,
     1823.07,
     1812.58,
     1786.52,
@@ -299,16 +297,16 @@
     1775.7,
     1770.41,
     1751.92,
-    1764.39
+    1762.65,
+    1773.06,
+    1774.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62011.8,
-   "chg": -2.71,
+   "price": 62255.2,
+   "chg": -2.33,
    "spark": [
-    64239.8,
-    64338.6,
     64311.2,
     64159.9,
     63779.5,
@@ -354,7 +352,9 @@
     62567.4,
     62206.7,
     61836.8,
-    62011.8
+    61962.2,
+    62219.8,
+    62255.2
    ]
   }
  ],
@@ -443,20 +443,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1783968839.304356,
+   "ts": 1783973115.141133,
+   "title": "Silver tests $57.60 support with RSI near oversold: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
+   "t": "14 Jul \u00b7 01:05 AM",
+   "ur": "Ziyadah farokht hone ke qarib RSI ke sath salor $57.60 sport ki janch karta hai."
+  },
+  {
+   "ts": 1783973115.141133,
+   "title": "Gold plunges to $4,005 in high-volume breakdown: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
+   "t": "14 Jul \u00b7 01:05 AM",
+   "ur": "Gold (sona) hi waliyom barik doun mein $4,005 tak gar gaya."
+  },
+  {
+   "ts": 1783973115.141133,
    "title": "Gold sinks nearly 3% on renewed Middle East strikes stoking higher-rate worries",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-iran-strikes-stoke-inflation-fears-cpi-warsh-in-focus-4787400",
-   "t": "13 Jul \u00b7 11:53 PM",
+   "t": "14 Jul \u00b7 01:05 AM",
    "ur": "Masharq wasta ki nayi hadtalon par Gold (sona) taqriban 3 fisad dob gaya, aala rate ke khadshat"
   },
   {
-   "ts": 1783968839.304356,
-   "title": "Copper holds steady as dollar weakens, inventories decline",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/copper-holds-steady-as-dollar-weakens-inventories-decline-93CH-4788667",
-   "t": "13 Jul \u00b7 11:53 PM",
-   "ur": "Dollar ke kamazor hone, anvintriyon mein kami ke sath coper mastahkam hai."
+   "ts": 1783967987.0,
+   "title": "Silver Price Forecast: XAG downtrend accelerates, eyes on $55.00",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-downtrend-accelerates-eyes-on-5500-202607131839",
+   "t": "13 Jul \u00b7 11:39 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG niche ka rjahan ties, nazarin $55.00 par"
   },
   {
    "ts": 1783966958.0,
@@ -505,22 +521,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-falls-as-oil-shock-boosts-the-us-dollar-202607131547",
    "t": "13 Jul \u00b7 08:47 PM",
    "ur": "Bartanvi pound garta hai cunkah til ka jhataka US Dollar ko badhata hai."
-  },
-  {
-   "ts": 1783955335.0,
-   "title": "Gold eyes $4,000 as renewed US-Iran hostilities boost Oil prices, Fed rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-declines-as-renewed-us-iran-hostilities-boost-oil-prices-fed-rate-hike-bets-202607131112",
-   "t": "13 Jul \u00b7 08:08 PM",
-   "ur": "Amrikah eran dashmani ki tajadid se til ki qeemton mein azafah, fed rate mein azafe ki shart ke tur par Gold (sone) ki ngahen $4,000"
-  },
-  {
-   "ts": 1783954727.0,
-   "title": "Canadian Dollar gains as Oil prices surge on Middle East supply risks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-as-oil-prices-surge-on-middle-east-supply-risks-202607131458",
-   "t": "13 Jul \u00b7 07:58 PM",
-   "ur": "Masharq wasta ki sppli ke khatrat par til ki qeemton mein azafe ke baas caniden Dollar mein azafah hawa."
   }
  ],
  "sentiment": {
