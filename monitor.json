@@ -1,14 +1,13 @@
 {
- "updated": "15-07-2026 00:17 PKT",
+ "updated": "15-07-2026 01:34 PKT",
  "gold": {
-  "price": 4045.9,
+  "price": 4045.24,
   "open": 3994.4,
   "high": 4092.86,
   "low": 3979.71,
-  "chg": 1.29,
+  "chg": 1.27,
   "src": "PAXG (Kraken)",
   "spark": [
-   4097.14,
    4094.32,
    4069.31,
    4076.63,
@@ -55,14 +54,15 @@
    4052.34,
    4053.86,
    4043.01,
-   4045.9
+   4047.37,
+   4045.24
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.96,
-   "chg": 2.3,
+   "price": 59.065,
+   "chg": 2.48,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    58.96
+    59.065
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.914,
-   "chg": -0.36,
+   "price": 100.942,
+   "chg": -0.33,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.914
+    100.942
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.68,
-   "chg": 1.97,
+   "price": 79.95,
+   "chg": 2.32,
    "spark": [
     80.75,
     76.05,
@@ -137,7 +137,7 @@
     72.08,
     71.41,
     78.14,
-    79.68
+    79.95
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1429,
-   "chg": 0.21,
+   "price": 1.1422,
+   "chg": 0.15,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1429
+    1.1422
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3385,
-   "chg": -0.02,
+   "price": 1.3388,
+   "chg": 0.01,
    "spark": [
     1.345,
     1.3416,
@@ -222,13 +222,13 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3385
+    1.3388
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.147,
-   "chg": 0.17,
+   "price": 162.241,
+   "chg": 0.22,
    "spark": [
     159.955,
     160.229,
@@ -251,15 +251,14 @@
     162.539,
     162.363,
     161.878,
-    162.147
+    162.241
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1875.5,
-   "chg": 5.69,
+   "price": 1875.89,
+   "chg": 5.71,
    "spark": [
-    1819.74,
     1811.1,
     1803.82,
     1805.53,
@@ -306,15 +305,15 @@
     1872.34,
     1870.24,
     1873.62,
-    1875.5
+    1875.71,
+    1875.89
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64552.9,
-   "chg": 3.69,
+   "price": 64405.1,
+   "chg": 3.46,
    "spark": [
-    64145.7,
     63881.1,
     63851.5,
     63737.4,
@@ -361,7 +360,8 @@
     64687.6,
     64581.1,
     64529.4,
-    64552.9
+    64515.7,
+    64405.1
    ]
   }
  ],
@@ -450,12 +450,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784056639.137532,
+   "ts": 1784061260.380313,
+   "title": "Gold rejected at $4,110 resistance, bias bearish: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
+   "t": "15 Jul \u00b7 01:34 AM",
+   "ur": "Gold (sona) $4,110 mazahmat par mastard, taasab mandi"
+  },
+  {
+   "ts": 1784061260.380313,
    "title": "Gold jumps 2% as soft U.S. CPI boosts Fed cut hopes; Warsh backs dual mandate",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "15 Jul \u00b7 12:17 AM",
+   "t": "15 Jul \u00b7 01:34 AM",
    "ur": "Gold (sona) 2 fisad badh gaya cunkah narm US CPI ne fed kat ki amidon ko badhaya. warsh ne dohari mindet ki support ki."
+  },
+  {
+   "ts": 1784058660.0,
+   "title": "Chinese Yuan: Trade surplus cushions yuan against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-trade-surplus-cushions-yuan-against-us-dollar-commerzbank-202607141951",
+   "t": "15 Jul \u00b7 12:51 AM",
+   "ur": "Chini uan: tajarti sarpples ction uan US Dollar ke maqable mein - kamrzabink"
+  },
+  {
+   "ts": 1784056020.0,
+   "title": "Indonesian Rupiah: Supported by ratings yet constrained against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-supported-by-ratings-yet-constrained-against-us-dollar-ocbc-202607141907",
+   "t": "15 Jul \u00b7 12:07 AM",
+   "ur": "Andonishin ropiya: ratongs ke zariye taaaun yaaftah abhi tak US Dollar ke maqable mein muhadud hai - OCBC"
+  },
+  {
+   "ts": 1784055474.0,
+   "title": "Gold price jumps as US inflation knocks the US Dollar off its pedestal",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-jumps-as-us-inflation-knocks-the-us-dollar-off-its-pedestal-202607141857",
+   "t": "14 Jul \u00b7 11:57 PM",
+   "ur": "Gold (sone) ki qeemat mein is waqat azafah hawa jab US inflation (mehngai) ne US Dollar ko apane pedistal se dastak di."
   },
   {
    "ts": 1784052608.0,
@@ -496,38 +528,6 @@
    "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-sits-out-the-disinflation-party-202607141600",
    "t": "14 Jul \u00b7 09:00 PM",
    "ur": "Dou joons andistril everage dis anfalation parti se bahar hai."
-  },
-  {
-   "ts": 1784043989.0,
-   "title": "US President Trump: Strait of Hormuz open to all shipping except Iran",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-president-trump-strait-of-hormuz-open-to-all-shipping-except-iran-202607141546",
-   "t": "14 Jul \u00b7 08:46 PM",
-   "ur": "US sadar trmp: aabanaye harmaz eran ke alawah tamam jahaz raani ke liye khala hai."
-  },
-  {
-   "ts": 1784043136.0,
-   "title": "Fed Chair Warsh reaffirms they will deliver price stability",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/fed-chair-warsh-to-note-they-have-no-tolerance-for-persistently-elevated-inflation-202607141245",
-   "t": "14 Jul \u00b7 08:32 PM",
-   "ur": "Fed chair warsh ne tasadiq ki kah wah qeemton mein istehkam faraham karin ge."
-  },
-  {
-   "ts": 1784042974.0,
-   "title": "Australian Dollar surges amid soft US inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-surges-amid-soft-us-inflation-202607141529",
-   "t": "14 Jul \u00b7 08:29 PM",
-   "ur": "Narm US inflation (mehngai) ke darmiyan aasterilvi Dollar mein azafah"
-  },
-  {
-   "ts": 1784042537.0,
-   "title": "Canadian Dollar climbs to four-week high on soft US CPI, rising Oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-four-week-high-on-soft-us-cpi-rising-oil-prices-202607141522",
-   "t": "14 Jul \u00b7 08:22 PM",
-   "ur": "Til ki qeemton mein azafah, narm US CPI par caniden Dollar char hafte ki baland tarin sath par pohch gaya"
   }
  ],
  "sentiment": {
