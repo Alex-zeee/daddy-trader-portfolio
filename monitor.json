@@ -1,14 +1,13 @@
 {
- "updated": "14-07-2026 20:53 PKT",
+ "updated": "14-07-2026 21:58 PKT",
  "gold": {
-  "price": 4059.71,
+  "price": 4052.34,
   "open": 3994.4,
   "high": 4092.86,
   "low": 3979.71,
-  "chg": 1.64,
+  "chg": 1.45,
   "src": "PAXG (Kraken)",
   "spark": [
-   4097.5,
    4093.94,
    4094.72,
    4094.22,
@@ -55,14 +54,15 @@
    4065.06,
    4065.42,
    4074.54,
-   4059.71
+   4058.18,
+   4052.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.18,
-   "chg": 2.68,
+   "price": 59.01,
+   "chg": 2.39,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    59.18
+    59.01
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.848,
-   "chg": -0.43,
+   "price": 100.873,
+   "chg": -0.4,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.848
+    100.873
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.63,
-   "chg": 1.91,
+   "price": 79.31,
+   "chg": 1.5,
    "spark": [
     80.75,
     76.05,
@@ -137,13 +137,13 @@
     72.08,
     71.41,
     78.14,
-    79.63
+    79.31
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.571,
-   "chg": -0.82,
+   "price": 4.581,
+   "chg": -0.61,
    "spark": [
     4.469,
     4.428,
@@ -164,13 +164,13 @@
     4.539,
     4.569,
     4.609,
-    4.571
+    4.581
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1432,
-   "chg": 0.25,
+   "price": 1.1435,
+   "chg": 0.27,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1432
+    1.1435
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3383,
-   "chg": -0.03,
+   "price": 1.3391,
+   "chg": 0.03,
    "spark": [
     1.345,
     1.3416,
@@ -222,13 +222,13 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3383
+    1.3391
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.139,
-   "chg": 0.16,
+   "price": 162.11,
+   "chg": 0.14,
    "spark": [
     159.955,
     160.229,
@@ -251,15 +251,14 @@
     162.539,
     162.363,
     161.878,
-    162.139
+    162.11
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1875.05,
-   "chg": 5.67,
+   "price": 1873.02,
+   "chg": 5.55,
    "spark": [
-    1820.64,
     1817.22,
     1820.3,
     1820.43,
@@ -306,15 +305,15 @@
     1859.17,
     1869.17,
     1879.44,
-    1875.05
+    1873.13,
+    1873.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64581.2,
-   "chg": 3.74,
+   "price": 64691.0,
+   "chg": 3.92,
    "spark": [
-    64135.0,
     64041.3,
     64107.3,
     64188.5,
@@ -361,7 +360,8 @@
     63879.6,
     63785.7,
     64244.0,
-    64581.2
+    64668.5,
+    64691.0
    ]
   }
  ],
@@ -431,39 +431,87 @@
    "previous": "215K"
   },
   {
+   "ts": 1784250000.0,
+   "t": "Fri 17 Jul \u00b7 06:00 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
    "ts": 1784296800.0,
    "t": "Fri 17 Jul \u00b7 07:00 PM",
    "title": "Prelim UoM Consumer Sentiment",
    "impact": "Medium",
    "forecast": "51.0",
    "previous": "48.9"
-  },
-  {
-   "ts": 1784296800.0,
-   "t": "Fri 17 Jul \u00b7 07:00 PM",
-   "title": "Prelim UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.6%"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784044396.748694,
+   "ts": 1784048330.323644,
    "title": "Gold rebounds sharply by 2% as softer inflation lifts Fed cut expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "14 Jul \u00b7 08:53 PM",
+   "t": "14 Jul \u00b7 09:58 PM",
    "ur": "Gold (sona) 2% ki tizi se ribound hawa cunkah narm inflation (mehngai) ne fed ki toqaat mein kami ki"
   },
   {
-   "ts": 1784040428.0,
+   "ts": 1784047016.0,
+   "title": "Japanese Yen rises as cool US CPI slashes Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-rises-as-cool-us-cpi-slashes-fed-hike-bets-202607141636",
+   "t": "14 Jul \u00b7 09:36 PM",
+   "ur": "Japani yan mein azafah hawa cunkah thanda US CPI ne Fed mein azafe ki shart ko kam kar diya hai."
+  },
+  {
+   "ts": 1784046736.0,
+   "title": "Silver Price Forecast: Soft US inflation lifts XAG/USD, but downside bias remains",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-soft-us-inflation-lifts-xag-usd-but-downside-bias-remains-202607141632",
+   "t": "14 Jul \u00b7 09:32 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: narm US inflation (mehngai) ne XAG/USD ko athaya, lican manfi pehlo barqarar hai"
+  },
+  {
+   "ts": 1784044804.0,
+   "title": "Dow Jones Industrial Average sits out the disinflation party",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-sits-out-the-disinflation-party-202607141600",
+   "t": "14 Jul \u00b7 09:00 PM",
+   "ur": "Dou joons andistril everage dis anfalation parti se bahar hai."
+  },
+  {
+   "ts": 1784043989.0,
+   "title": "US President Trump: Strait of Hormuz open to all shipping except Iran",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-president-trump-strait-of-hormuz-open-to-all-shipping-except-iran-202607141546",
+   "t": "14 Jul \u00b7 08:46 PM",
+   "ur": "US sadar trmp: aabanaye harmaz eran ke alawah tamam jahaz raani ke liye khala hai."
+  },
+  {
+   "ts": 1784043136.0,
    "title": "Fed Chair Warsh reaffirms they will deliver price stability",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/fed-chair-warsh-to-note-they-have-no-tolerance-for-persistently-elevated-inflation-202607141245",
-   "t": "14 Jul \u00b7 07:47 PM",
+   "t": "14 Jul \u00b7 08:32 PM",
    "ur": "Fed chair warsh ne dubarah tasadiq ki kah wah qeemton mein istehkam faraham karin ge."
+  },
+  {
+   "ts": 1784042974.0,
+   "title": "Australian Dollar surges amid soft US inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-surges-amid-soft-us-inflation-202607141529",
+   "t": "14 Jul \u00b7 08:29 PM",
+   "ur": "Narm US inflation (mehngai) ke darmiyan aasterilvi Dollar mein azafah"
+  },
+  {
+   "ts": 1784042537.0,
+   "title": "Canadian Dollar climbs to four-week high on soft US CPI, rising Oil prices",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-four-week-high-on-soft-us-cpi-rising-oil-prices-202607141522",
+   "t": "14 Jul \u00b7 08:22 PM",
+   "ur": "Til ki qeemton mein azafah, narm US CPI par caniden Dollar char hafte ki baland tarin sath par pohch gaya"
   },
   {
    "ts": 1784040364.0,
@@ -480,54 +528,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-soars-to-one-month-high-as-us-cpi-undershoots-202607141433",
    "t": "14 Jul \u00b7 07:33 PM",
    "ur": "US CPI andr shots ke sath niyozi lind Dollar ek mah ki baland tarin sath par pohch gaya."
-  },
-  {
-   "ts": 1784037819.0,
-   "title": "British Pound strengthens after US CPI surprises to the downside",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-strengthens-after-us-cpi-surprises-to-the-downside-202607141403",
-   "t": "14 Jul \u00b7 07:03 PM",
-   "ur": "US CPI ki kami ko heeran karne ke bad bartanvi pound mazboot hawa."
-  },
-  {
-   "ts": 1784035705.0,
-   "title": "Euro jumps as softer-than-expected US CPI cools bets on rate hikes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-jumps-as-softer-than-expected-us-cpi-cools-fed-rate-hike-bets-202607141328",
-   "t": "14 Jul \u00b7 06:28 PM",
-   "ur": "Uro chhalang lagata hai cunkah toqa se ziyadah narm US CPI ne sharahon mein azafe par shart ko thanda kiya hai."
-  },
-  {
-   "ts": 1784033319.0,
-   "title": "New Zealand Dollar: RBNZ hawkish repricing supports Kiwi \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rbnz-hawkish-repricing-supports-kiwi-mufg-202607141248",
-   "t": "14 Jul \u00b7 05:48 PM",
-   "ur": "Niyozi lind Dollar: RBNZ hakish ri pariceng kevi \u2013 MUFG ko sport karti hai"
-  },
-  {
-   "ts": 1784032501.0,
-   "title": "Breaking: US CPI inflation softens to 3.5% in June vs. 3.8% expected",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-cpi-data-set-to-show-inflation-cooled-in-june-due-to-tumbling-fuel-prices-202607140830",
-   "t": "14 Jul \u00b7 05:35 PM",
-   "ur": "Baricang: US CPI inflation (mehngai) jon mein 3.5 fisad tak narm ho gaya bamaqablah 3.8 fisad matoqa"
-  },
-  {
-   "ts": 1784032050.0,
-   "title": "Euro: Rate support at risk against US Dollar with energy shock \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-rate-support-at-risk-against-us-dollar-with-energy-shock-ing-202607141227",
-   "t": "14 Jul \u00b7 05:27 PM",
-   "ur": "Uro: tawanai ke jhatake ke sath US Dollar ke maqable mein ret sport khatre mein - ING"
-  },
-  {
-   "ts": 1784030743.0,
-   "title": "New Zealand Dollar hits fresh three-month highs as central banks divergence hurts the Aussie",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-hits-fresh-three-month-highs-as-central-banks-divergence-hurts-the-aussie-202607141205",
-   "t": "14 Jul \u00b7 05:05 PM",
-   "ur": "Niyozi lind ka Dollar tin mah ki baland tarin sath par pohch gaya cunkah markazi binkon ke anharaf ne aasteriliya ko naqsan pohchaya"
   }
  ],
  "sentiment": {
