@@ -1,15 +1,13 @@
 {
- "updated": "14-07-2026 22:59 PKT",
+ "updated": "15-07-2026 00:17 PKT",
  "gold": {
-  "price": 4053.86,
+  "price": 4045.9,
   "open": 3994.4,
   "high": 4092.86,
   "low": 3979.71,
-  "chg": 1.49,
+  "chg": 1.29,
   "src": "PAXG (Kraken)",
   "spark": [
-   4094.72,
-   4094.22,
    4097.14,
    4094.32,
    4069.31,
@@ -55,14 +53,16 @@
    4074.54,
    4058.18,
    4052.34,
-   4053.86
+   4053.86,
+   4043.01,
+   4045.9
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.1,
-   "chg": 2.54,
+   "price": 58.96,
+   "chg": 2.3,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    59.1
+    58.96
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.895,
-   "chg": -0.38,
+   "price": 100.914,
+   "chg": -0.36,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.895
+    100.914
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.66,
-   "chg": 0.67,
+   "price": 79.68,
+   "chg": 1.97,
    "spark": [
     80.75,
     76.05,
@@ -137,13 +137,13 @@
     72.08,
     71.41,
     78.14,
-    78.66
+    79.68
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.583,
-   "chg": -0.56,
+   "price": 4.585,
+   "chg": -0.52,
    "spark": [
     4.469,
     4.428,
@@ -164,13 +164,13 @@
     4.539,
     4.569,
     4.609,
-    4.583
+    4.585
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1426,
-   "chg": 0.19,
+   "price": 1.1429,
+   "chg": 0.21,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1426
+    1.1429
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3377,
-   "chg": -0.07,
+   "price": 1.3385,
+   "chg": -0.02,
    "spark": [
     1.345,
     1.3416,
@@ -222,13 +222,13 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3377
+    1.3385
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.18,
-   "chg": 0.19,
+   "price": 162.147,
+   "chg": 0.17,
    "spark": [
     159.955,
     160.229,
@@ -251,16 +251,14 @@
     162.539,
     162.363,
     161.878,
-    162.18
+    162.147
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1869.88,
-   "chg": 5.38,
+   "price": 1875.5,
+   "chg": 5.69,
    "spark": [
-    1820.3,
-    1820.43,
     1819.74,
     1811.1,
     1803.82,
@@ -306,16 +304,16 @@
     1879.44,
     1873.13,
     1872.34,
-    1869.88
+    1870.24,
+    1873.62,
+    1875.5
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64578.8,
-   "chg": 3.74,
+   "price": 64552.9,
+   "chg": 3.69,
    "spark": [
-    64107.3,
-    64188.5,
     64145.7,
     63881.1,
     63851.5,
@@ -361,7 +359,9 @@
     64244.0,
     64668.5,
     64687.6,
-    64578.8
+    64581.1,
+    64529.4,
+    64552.9
    ]
   }
  ],
@@ -450,20 +450,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784051964.265971,
+   "ts": 1784056639.137532,
    "title": "Gold jumps 2% as soft U.S. CPI boosts Fed cut hopes; Warsh backs dual mandate",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "14 Jul \u00b7 10:59 PM",
+   "t": "15 Jul \u00b7 12:17 AM",
    "ur": "Gold (sona) 2 fisad badh gaya cunkah narm US CPI ne fed kat ki amidon ko badhaya. warsh ne dohari mindet ki support ki."
   },
   {
+   "ts": 1784052608.0,
+   "title": "Fed\u2019s Goolsbee: June CPI inflation data was \u201csurprisingly benign\u201d",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-goolsbee-june-cpi-inflation-data-was-surprisingly-benign-202607141810",
+   "t": "14 Jul \u00b7 11:10 PM",
+   "ur": "Fed's Goolsbee: jon CPI inflation (mehngai) ka deta \"heert angies tur par somi\" tha"
+  },
+  {
+   "ts": 1784052376.0,
+   "title": "United States Dollar Index slips as soft US CPI dents Fed rate-hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-slips-as-soft-us-cpi-dents-fed-rate-hike-bets-202607141806",
+   "t": "14 Jul \u00b7 11:06 PM",
+   "ur": "Ryastahaye matehdah ka Dollar andex phisal gaya cunkah narm US CPI ne fed ki rate mein azafe ki shart ko khtam kardiya"
+  },
+  {
    "ts": 1784047016.0,
-   "title": "Japanese Yen rises as cool US CPI slashes Fed hike bets",
+   "title": "Japanese Yen rises as cool US CPI slashes bets on Fed rate hikes",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-rises-as-cool-us-cpi-slashes-fed-hike-bets-202607141636",
    "t": "14 Jul \u00b7 09:36 PM",
-   "ur": "Japani yan ki qeemat mein azafah hawa cunkah thanda US CPI ne Fed mein azafe ki shart ko kam kar diya hai."
+   "ur": "Japani yan mein azafah hawa cunkah thanda US CPI ne Fed ki rate mein azafe par shartin kam kardi hen."
   },
   {
    "ts": 1784046736.0,
@@ -512,22 +528,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-four-week-high-on-soft-us-cpi-rising-oil-prices-202607141522",
    "t": "14 Jul \u00b7 08:22 PM",
    "ur": "Til ki qeemton mein azafah, narm US CPI par caniden Dollar char hafte ki baland tarin sath par pohch gaya"
-  },
-  {
-   "ts": 1784040364.0,
-   "title": "Gold rises 2% as soft US CPI cools Fed rate-hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-clings-to-4-000-as-traders-brace-for-us-cpi-202607141113",
-   "t": "14 Jul \u00b7 07:46 PM",
-   "ur": "Gold (sona) 2% badh gaya cunkah narm US CPI ne Fed ki rate mein azafe ki shart ko thanda kar diya hai."
-  },
-  {
-   "ts": 1784039600.0,
-   "title": "New Zealand Dollar soars to one-month high as US CPI undershoots",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-soars-to-one-month-high-as-us-cpi-undershoots-202607141433",
-   "t": "14 Jul \u00b7 07:33 PM",
-   "ur": "US CPI andr shots ke sath niyozi lind Dollar ek mah ki baland tarin sath par pohch gaya."
   }
  ],
  "sentiment": {
