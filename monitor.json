@@ -1,14 +1,13 @@
 {
- "updated": "14-07-2026 19:20 PKT",
+ "updated": "14-07-2026 20:53 PKT",
  "gold": {
-  "price": 4062.61,
+  "price": 4059.71,
   "open": 3994.4,
   "high": 4092.86,
   "low": 3979.71,
-  "chg": 1.71,
+  "chg": 1.64,
   "src": "PAXG (Kraken)",
   "spark": [
-   4100.01,
    4097.5,
    4093.94,
    4094.72,
@@ -55,14 +54,15 @@
    4023.74,
    4065.06,
    4065.42,
-   4062.61
+   4074.54,
+   4059.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.46,
-   "chg": 3.17,
+   "price": 59.18,
+   "chg": 2.68,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    59.46
+    59.18
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.659,
-   "chg": -0.61,
+   "price": 100.848,
+   "chg": -0.43,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.659
+    100.848
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.51,
-   "chg": 1.75,
+   "price": 79.63,
+   "chg": 1.91,
    "spark": [
     80.75,
     76.05,
@@ -137,13 +137,13 @@
     72.08,
     71.41,
     78.14,
-    79.51
+    79.63
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.569,
-   "chg": -0.87,
+   "price": 4.571,
+   "chg": -0.82,
    "spark": [
     4.469,
     4.428,
@@ -164,13 +164,13 @@
     4.539,
     4.569,
     4.609,
-    4.569
+    4.571
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1457,
-   "chg": 0.46,
+   "price": 1.1432,
+   "chg": 0.25,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1457
+    1.1432
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3415,
-   "chg": 0.21,
+   "price": 1.3383,
+   "chg": -0.03,
    "spark": [
     1.345,
     1.3416,
@@ -222,15 +222,43 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3415
+    1.3383
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 162.139,
+   "chg": 0.16,
+   "spark": [
+    159.955,
+    160.229,
+    160.419,
+    160.6,
+    161.289,
+    161.433,
+    161.57,
+    161.599,
+    161.763,
+    161.805,
+    161.787,
+    161.923,
+    162.628,
+    162.539,
+    161.449,
+    161.452,
+    162.088,
+    162.363,
+    162.539,
+    162.363,
+    161.878,
+    162.139
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1863.35,
-   "chg": 5.01,
+   "price": 1875.05,
+   "chg": 5.67,
    "spark": [
-    1819.69,
     1820.64,
     1817.22,
     1820.3,
@@ -277,15 +305,15 @@
     1796.03,
     1859.17,
     1869.17,
-    1863.35
+    1879.44,
+    1875.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63807.1,
-   "chg": 2.5,
+   "price": 64581.2,
+   "chg": 3.74,
    "spark": [
-    64123.3,
     64135.0,
     64041.3,
     64107.3,
@@ -332,43 +360,12 @@
     62774.8,
     63879.6,
     63785.7,
-    63807.1
+    64244.0,
+    64581.2
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1784032200.0,
-   "t": "Tue 14 Jul \u00b7 05:30 PM",
-   "title": "Core CPI m/m",
-   "impact": "High",
-   "forecast": "0.2%",
-   "previous": "0.2%"
-  },
-  {
-   "ts": 1784032200.0,
-   "t": "Tue 14 Jul \u00b7 05:30 PM",
-   "title": "Core CPI y/y",
-   "impact": "High",
-   "forecast": "2.8%",
-   "previous": "2.9%"
-  },
-  {
-   "ts": 1784032200.0,
-   "t": "Tue 14 Jul \u00b7 05:30 PM",
-   "title": "CPI m/m",
-   "impact": "High",
-   "forecast": "-0.1%",
-   "previous": "0.5%"
-  },
-  {
-   "ts": 1784032200.0,
-   "t": "Tue 14 Jul \u00b7 05:30 PM",
-   "title": "CPI y/y",
-   "impact": "High",
-   "forecast": "3.8%",
-   "previous": "4.2%"
-  },
   {
    "ts": 1784037600.0,
    "t": "Tue 14 Jul \u00b7 07:00 PM",
@@ -416,25 +413,81 @@
    "impact": "Medium",
    "forecast": "12.7",
    "previous": "10.3"
+  },
+  {
+   "ts": 1784205000.0,
+   "t": "Thu 16 Jul \u00b7 05:30 PM",
+   "title": "Retail Sales m/m",
+   "impact": "Medium",
+   "forecast": "0.2%",
+   "previous": "0.9%"
+  },
+  {
+   "ts": 1784205000.0,
+   "t": "Thu 16 Jul \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "216K",
+   "previous": "215K"
+  },
+  {
+   "ts": 1784296800.0,
+   "t": "Fri 17 Jul \u00b7 07:00 PM",
+   "title": "Prelim UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "51.0",
+   "previous": "48.9"
+  },
+  {
+   "ts": 1784296800.0,
+   "t": "Fri 17 Jul \u00b7 07:00 PM",
+   "title": "Prelim UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.6%"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784038810.262765,
+   "ts": 1784044396.748694,
    "title": "Gold rebounds sharply by 2% as softer inflation lifts Fed cut expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "14 Jul \u00b7 07:20 PM",
+   "t": "14 Jul \u00b7 08:53 PM",
    "ur": "Gold (sona) 2% ki tizi se ribound hawa cunkah narm inflation (mehngai) ne fed ki toqaat mein kami ki"
   },
   {
-   "ts": 1784037121.0,
-   "title": "Fed Chair Warsh to note they have no tolerance for persistently elevated inflation",
+   "ts": 1784040428.0,
+   "title": "Fed Chair Warsh reaffirms they will deliver price stability",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/fed-chair-warsh-to-note-they-have-no-tolerance-for-persistently-elevated-inflation-202607141245",
-   "t": "14 Jul \u00b7 06:52 PM",
-   "ur": "Fed chair warsh ne not kiya kah an ke pas maslsal baland inflation (mehngai) ke liye koi rawadari nihen hai."
+   "t": "14 Jul \u00b7 07:47 PM",
+   "ur": "Fed chair warsh ne dubarah tasadiq ki kah wah qeemton mein istehkam faraham karin ge."
+  },
+  {
+   "ts": 1784040364.0,
+   "title": "Gold rises 2% as soft US CPI cools Fed rate-hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-clings-to-4-000-as-traders-brace-for-us-cpi-202607141113",
+   "t": "14 Jul \u00b7 07:46 PM",
+   "ur": "Gold (sona) 2% badh gaya cunkah narm US CPI ne Fed ki rate mein azafe ki shart ko thanda kar diya hai."
+  },
+  {
+   "ts": 1784039600.0,
+   "title": "New Zealand Dollar soars to one-month high as US CPI undershoots",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-soars-to-one-month-high-as-us-cpi-undershoots-202607141433",
+   "t": "14 Jul \u00b7 07:33 PM",
+   "ur": "US CPI andr shots ke sath niyozi lind Dollar ek mah ki baland tarin sath par pohch gaya."
+  },
+  {
+   "ts": 1784037819.0,
+   "title": "British Pound strengthens after US CPI surprises to the downside",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-strengthens-after-us-cpi-surprises-to-the-downside-202607141403",
+   "t": "14 Jul \u00b7 07:03 PM",
+   "ur": "US CPI ki kami ko heeran karne ke bad bartanvi pound mazboot hawa."
   },
   {
    "ts": 1784035705.0,
@@ -443,14 +496,6 @@
    "link": "https://www.fxstreet.com/news/euro-jumps-as-softer-than-expected-us-cpi-cools-fed-rate-hike-bets-202607141328",
    "t": "14 Jul \u00b7 06:28 PM",
    "ur": "Uro chhalang lagata hai cunkah toqa se ziyadah narm US CPI ne sharahon mein azafe par shart ko thanda kiya hai."
-  },
-  {
-   "ts": 1784034275.0,
-   "title": "Gold rises 2% as soft US CPI cools Fed rate-hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-clings-to-4-000-as-traders-brace-for-us-cpi-202607141113",
-   "t": "14 Jul \u00b7 06:04 PM",
-   "ur": "Gold (sona) 2% badh gaya cunkah narm US CPI ne Fed ki rate mein azafe ki shart ko thanda kar diya hai."
   },
   {
    "ts": 1784033319.0,
@@ -483,22 +528,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-hits-fresh-three-month-highs-as-central-banks-divergence-hurts-the-aussie-202607141205",
    "t": "14 Jul \u00b7 05:05 PM",
    "ur": "Niyozi lind ka Dollar tin mah ki baland tarin sath par pohch gaya cunkah markazi binkon ke anharaf ne aasteriliya ko naqsan pohchaya"
-  },
-  {
-   "ts": 1784030349.0,
-   "title": "US Dollar: Inflation risks skewed to downside \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-inflation-risks-skewed-to-downside-commerzbank-202607141159",
-   "t": "14 Jul \u00b7 04:59 PM",
-   "ur": "US Dollar: inflation (mehngai) ke khatrat niche ki taraf matojah - kamrzabink"
-  },
-  {
-   "ts": 1784030213.0,
-   "title": "United States Dollar Index holds correction near 101.10, eyes on inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-correction-near-10110-eyes-on-inflation-data-202607141156",
-   "t": "14 Jul \u00b7 04:56 PM",
-   "ur": "Ryastahaye matehdah ka Dollar andex 101.10 ke qarib daristi rakta hai, inflation (mehngai) ke aed w shmar par nazar rakta hai."
   }
  ],
  "sentiment": {
