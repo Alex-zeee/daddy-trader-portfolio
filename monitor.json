@@ -1,14 +1,13 @@
 {
- "updated": "15-07-2026 03:36 PKT",
+ "updated": "15-07-2026 04:30 PKT",
  "gold": {
-  "price": 4044.57,
+  "price": 4042.0,
   "open": 3994.4,
   "high": 4092.86,
   "low": 3979.71,
-  "chg": 1.26,
+  "chg": 1.19,
   "src": "PAXG (Kraken)",
   "spark": [
-   4076.63,
    4069.05,
    4066.37,
    4064.78,
@@ -55,14 +54,15 @@
    4047.37,
    4044.17,
    4050.9,
-   4044.57
+   4042.71,
+   4042.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.065,
-   "chg": 2.48,
+   "price": 58.995,
+   "chg": 2.36,
    "spark": [
     70.066,
     69.899,
@@ -83,7 +83,7 @@
     60.378,
     59.809,
     57.634,
-    59.065
+    58.995
    ]
   },
   {
@@ -115,8 +115,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 79.98,
-   "chg": 2.35,
+   "price": 79.95,
+   "chg": 2.32,
    "spark": [
     80.75,
     76.05,
@@ -137,7 +137,7 @@
     72.08,
     71.41,
     78.14,
-    79.98
+    79.95
    ]
   },
   {
@@ -169,10 +169,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1423,
-   "chg": 0.17,
+   "price": 1.1426,
+   "chg": 0.37,
    "spark": [
-    1.1603,
     1.1594,
     1.161,
     1.1507,
@@ -193,15 +192,15 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1423
+    1.1384,
+    1.1426
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3393,
-   "chg": 0.05,
+   "price": 1.3394,
+   "chg": 0.35,
    "spark": [
-    1.345,
     1.3416,
     1.3426,
     1.3301,
@@ -222,15 +221,15 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3393
+    1.3348,
+    1.3394
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.215,
-   "chg": 0.21,
+   "price": 162.187,
+   "chg": -0.15,
    "spark": [
-    159.955,
     160.229,
     160.419,
     160.6,
@@ -251,15 +250,15 @@
     162.539,
     162.363,
     161.878,
-    162.215
+    162.429,
+    162.187
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1887.45,
-   "chg": 6.37,
+   "price": 1884.4,
+   "chg": 6.19,
    "spark": [
-    1805.53,
     1825.59,
     1805.87,
     1805.8,
@@ -306,15 +305,15 @@
     1875.71,
     1874.69,
     1875.21,
-    1887.45
+    1881.35,
+    1884.4
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64897.0,
-   "chg": 4.25,
+   "price": 64875.1,
+   "chg": 4.21,
    "spark": [
-    63737.4,
     64040.1,
     63383.7,
     63325.7,
@@ -361,7 +360,8 @@
     64515.7,
     64530.3,
     64620.0,
-    64897.0
+    64818.7,
+    64875.1
    ]
   }
  ],
@@ -450,20 +450,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784068602.45677,
+   "ts": 1784071831.71308,
    "title": "Gold rises more than 1% as soft U.S. CPI data prompts easing in rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "15 Jul \u00b7 03:36 AM",
+   "t": "15 Jul \u00b7 04:30 AM",
    "ur": "Gold (sona) 1% se ziyadah badh gaya cunkah narm US CPI deta rate mein azafe ki mashaklat mein narmi ka asharah karta hai"
   },
   {
-   "ts": 1784068602.45677,
+   "ts": 1784071831.71308,
    "title": "Gold rejected at $4,110 resistance, bias bearish: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "15 Jul \u00b7 03:36 AM",
+   "t": "15 Jul \u00b7 04:30 AM",
    "ur": "Gold (sona) $4,110 mazahmat par mastard, taasab mandi"
+  },
+  {
+   "ts": 1784067020.0,
+   "title": "The softest US inflation print in six years buys British Pound Sterling about four hours",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-softest-us-inflation-print-in-six-years-buys-british-pound-sterling-about-four-hours-202607142210",
+   "t": "15 Jul \u00b7 03:10 AM",
+   "ur": "Chh salon mein sab se narm US inflation (mehngai) parnt bartanvi pound sterling taqriban char ghantay kharidata hai."
   },
   {
    "ts": 1784063520.0,
@@ -520,14 +528,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-jumps-as-us-inflation-knocks-the-us-dollar-off-its-pedestal-202607141857",
    "t": "14 Jul \u00b7 11:57 PM",
    "ur": "Gold (sone) ki qeemat mein is waqat azafah hawa jab US inflation (mehngai) ne US Dollar ko apane pedistal se dastak di."
-  },
-  {
-   "ts": 1784052608.0,
-   "title": "Fed\u2019s Goolsbee: June CPI inflation data was \u201csurprisingly benign\u201d",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-goolsbee-june-cpi-inflation-data-was-surprisingly-benign-202607141810",
-   "t": "14 Jul \u00b7 11:10 PM",
-   "ur": "Fed's Goolsbee: jon CPI inflation (mehngai) ka deta \"heert angies tur par somi\" tha"
   }
  ],
  "sentiment": {
