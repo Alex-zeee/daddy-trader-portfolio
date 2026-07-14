@@ -1,14 +1,13 @@
 {
- "updated": "15-07-2026 02:35 PKT",
+ "updated": "15-07-2026 03:36 PKT",
  "gold": {
-  "price": 4048.01,
+  "price": 4044.57,
   "open": 3994.4,
   "high": 4092.86,
   "low": 3979.71,
-  "chg": 1.34,
+  "chg": 1.26,
   "src": "PAXG (Kraken)",
   "spark": [
-   4069.31,
    4076.63,
    4069.05,
    4066.37,
@@ -55,14 +54,15 @@
    4043.01,
    4047.37,
    4044.17,
-   4048.01
+   4050.9,
+   4044.57
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.04,
-   "chg": 2.44,
+   "price": 59.065,
+   "chg": 2.48,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    59.04
+    59.065
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.922,
-   "chg": -0.35,
+   "price": 100.941,
+   "chg": -0.33,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.922
+    100.941
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.83,
-   "chg": 2.16,
+   "price": 79.98,
+   "chg": 2.35,
    "spark": [
     80.75,
     76.05,
@@ -137,7 +137,7 @@
     72.08,
     71.41,
     78.14,
-    79.83
+    79.98
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1427,
-   "chg": 0.2,
+   "price": 1.1423,
+   "chg": 0.17,
    "spark": [
     1.1603,
     1.1594,
@@ -193,13 +193,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1427
+    1.1423
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3385,
-   "chg": -0.02,
+   "price": 1.3393,
+   "chg": 0.05,
    "spark": [
     1.345,
     1.3416,
@@ -222,13 +222,13 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3385
+    1.3393
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.17,
-   "chg": 0.18,
+   "price": 162.215,
+   "chg": 0.21,
    "spark": [
     159.955,
     160.229,
@@ -251,15 +251,14 @@
     162.539,
     162.363,
     161.878,
-    162.17
+    162.215
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1876.21,
-   "chg": 5.73,
+   "price": 1887.45,
+   "chg": 6.37,
    "spark": [
-    1803.82,
     1805.53,
     1825.59,
     1805.87,
@@ -306,15 +305,15 @@
     1873.62,
     1875.71,
     1874.69,
-    1876.21
+    1875.21,
+    1887.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64640.9,
-   "chg": 3.84,
+   "price": 64897.0,
+   "chg": 4.25,
    "spark": [
-    63851.5,
     63737.4,
     64040.1,
     63383.7,
@@ -361,7 +360,8 @@
     64529.4,
     64515.7,
     64530.3,
-    64640.8
+    64620.0,
+    64897.0
    ]
   }
  ],
@@ -450,20 +450,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784064907.368453,
+   "ts": 1784068602.45677,
    "title": "Gold rises more than 1% as soft U.S. CPI data prompts easing in rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "15 Jul \u00b7 02:35 AM",
+   "t": "15 Jul \u00b7 03:36 AM",
    "ur": "Gold (sona) 1% se ziyadah badh gaya cunkah narm US CPI deta rate mein azafe ki mashaklat mein narmi ka asharah karta hai"
   },
   {
-   "ts": 1784064907.368453,
+   "ts": 1784068602.45677,
    "title": "Gold rejected at $4,110 resistance, bias bearish: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "15 Jul \u00b7 02:35 AM",
+   "t": "15 Jul \u00b7 03:36 AM",
    "ur": "Gold (sona) $4,110 mazahmat par mastard, taasab mandi"
+  },
+  {
+   "ts": 1784063520.0,
+   "title": "Chinese Yuan: Range consolidation holds against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-range-consolidation-holds-against-us-dollar-uob-202607142112",
+   "t": "15 Jul \u00b7 02:12 AM",
+   "ur": "Chini uan: rinj kansolidation US Dollar - UOB ke maqable mein hai."
   },
   {
    "ts": 1784060940.0,
@@ -520,14 +528,6 @@
    "link": "https://www.fxstreet.com/news/feds-goolsbee-june-cpi-inflation-data-was-surprisingly-benign-202607141810",
    "t": "14 Jul \u00b7 11:10 PM",
    "ur": "Fed's Goolsbee: jon CPI inflation (mehngai) ka deta \"heert angies tur par somi\" tha"
-  },
-  {
-   "ts": 1784052376.0,
-   "title": "United States Dollar Index slips as soft US CPI dents Fed rate-hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-slips-as-soft-us-cpi-dents-fed-rate-hike-bets-202607141806",
-   "t": "14 Jul \u00b7 11:06 PM",
-   "ur": "Ryastahaye matehdah ka Dollar andex phisal gaya cunkah narm US CPI ne fed ki rate mein azafe ki shart ko khtam kardiya"
   }
  ],
  "sentiment": {
