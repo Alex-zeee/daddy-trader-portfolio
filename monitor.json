@@ -1,15 +1,13 @@
 {
- "updated": "14-07-2026 08:29 PKT",
+ "updated": "14-07-2026 10:51 PKT",
  "gold": {
-  "price": 4008.86,
+  "price": 4023.33,
   "open": 3994.4,
   "high": 4092.7,
   "low": 3979.71,
-  "chg": 0.36,
+  "chg": 0.72,
   "src": "PAXG (Kraken)",
   "spark": [
-   4098.0,
-   4097.52,
    4095.93,
    4096.47,
    4096.47,
@@ -55,14 +53,16 @@
    3999.0,
    4000.1,
    4004.36,
-   4008.86
+   4008.77,
+   4012.04,
+   4023.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.675,
-   "chg": -3.57,
+   "price": 58.55,
+   "chg": 1.59,
    "spark": [
     70.066,
     69.899,
@@ -82,13 +82,14 @@
     58.164,
     60.378,
     59.809,
-    57.675
+    57.634,
+    58.55
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.212,
-   "chg": 0.24,
+   "price": 101.171,
+   "chg": -0.11,
    "spark": [
     99.63,
     99.54,
@@ -108,13 +109,14 @@
     101.05,
     100.94,
     100.97,
-    101.212
+    101.28,
+    101.171
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.04,
-   "chg": 12.09,
+   "price": 79.04,
+   "chg": 1.15,
    "spark": [
     80.75,
     76.05,
@@ -134,7 +136,8 @@
     73.52,
     72.08,
     71.41,
-    80.04
+    78.14,
+    79.04
    ]
   },
   {
@@ -165,8 +168,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1396,
-   "chg": -0.07,
+   "price": 1.1397,
+   "chg": -0.06,
    "spark": [
     1.1603,
     1.1594,
@@ -189,13 +192,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1396
+    1.1397
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3359,
-   "chg": -0.21,
+   "price": 1.3368,
+   "chg": -0.14,
    "spark": [
     1.345,
     1.3416,
@@ -218,13 +221,13 @@
     1.3396,
     1.3416,
     1.3387,
-    1.3359
+    1.3368
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.328,
-   "chg": 0.28,
+   "price": 162.267,
+   "chg": 0.24,
    "spark": [
     159.955,
     160.229,
@@ -247,16 +250,14 @@
     162.539,
     162.363,
     161.878,
-    162.328
+    162.267
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1777.83,
-   "chg": 0.19,
+   "price": 1785.39,
+   "chg": 0.61,
    "spark": [
-    1804.42,
-    1802.54,
     1793.89,
     1797.48,
     1804.33,
@@ -302,16 +303,16 @@
     1783.62,
     1782.75,
     1780.51,
-    1777.83
+    1781.56,
+    1783.86,
+    1785.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62384.4,
-   "chg": 0.21,
+   "price": 62656.7,
+   "chg": 0.65,
    "spark": [
-    63945.6,
-    63943.7,
     63725.0,
     63854.6,
     63937.9,
@@ -357,7 +358,9 @@
     62480.3,
     62462.1,
     62475.3,
-    62384.4
+    62504.5,
+    62680.1,
+    62633.8
    ]
   }
  ],
@@ -446,28 +449,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1783999745.109325,
-   "title": "Gold pinned below $4k as Iran, rate jitters weigh; US CPI in focus",
+   "ts": 1784008287.662905,
+   "title": "Gold rebounds from two-week low as traders await US CPI, Warsh testimony",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "14 Jul \u00b7 08:29 AM",
-   "ur": "Eran ke tur par Gold (sona) $4k se niche pohch gaya, qeemton mein azafah US CPI fox mein hai."
+   "t": "14 Jul \u00b7 10:51 AM",
+   "ur": "Gold (sona) do hafte ki kam tarin sath se waps aagaya cunkah taajr US CPI, warsh bayan ke mantezar hen."
   },
   {
-   "ts": 1783999745.109325,
+   "ts": 1784008287.662905,
    "title": "Oil prices extend surge after Trump reinstates Iran shipping blockade",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-extend-surge-after-trump-reinstates-iran-shipping-blockade-4789645",
-   "t": "14 Jul \u00b7 08:29 AM",
+   "t": "14 Jul \u00b7 10:51 AM",
    "ur": "Trmp ki janb se erani jahaz raani ki bandash bahal karne ke bad til ki qeemton mein azafah hawa hai."
   },
   {
-   "ts": 1783999745.109325,
+   "ts": 1784008287.662905,
    "title": "Gold sinks nearly 3% as oil spikes on U.S.-Iran escalation, stoking rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-iran-strikes-stoke-inflation-fears-cpi-warsh-in-focus-4787400",
-   "t": "14 Jul \u00b7 08:29 AM",
+   "t": "14 Jul \u00b7 10:51 AM",
    "ur": "Gold (sona) taqriban 3 fisad dob gaya cunkah til ki badhti hoi qeemton mein amrikah-eran mein azafah, rate mein azafe ki shartin"
+  },
+  {
+   "ts": 1784004446.0,
+   "title": "Swiss Franc advances as US Dollar slips despite Fed rate hike odds",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-advances-as-us-dollar-slips-despite-fed-rate-hike-odds-202607140447",
+   "t": "14 Jul \u00b7 09:47 AM",
+   "ur": "Fed ki rate mein azafe ki mashaklat ke bawajud US Dollar ke phisalte huvay sois farank tarqi kar raha hai."
+  },
+  {
+   "ts": 1784003710.0,
+   "title": "India Gold price today: Gold rises, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202607140435",
+   "t": "14 Jul \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
+  },
+  {
+   "ts": 1784001046.0,
+   "title": "Gold bounces off two-week low as USD bulls turn cautious ahead of US CPI, Fed's Warsh",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-bounces-off-two-week-low-as-usd-bulls-turn-cautious-ahead-of-us-cpi-feds-warsh-202607140350",
+   "t": "14 Jul \u00b7 08:50 AM",
+   "ur": "US CPI, Fed's Warsh se pehle USD bel muhatat hone se Gold (sona) do hafte ki kam tarin sath par achal raha hai"
+  },
+  {
+   "ts": 1783998166.0,
+   "title": "United States Dollar Index declines despite rising safe-haven demand, Fed rate hike odds",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-declines-despite-rising-safe-haven-demand-fed-rate-hike-odds-202607140302",
+   "t": "14 Jul \u00b7 08:02 AM",
+   "ur": "Mahfooz panah gahon ki talab mein azafe, fed ki rate mein azafe ki mashaklat ke bawajud ryastahaye matehdah ke Dollar andex mein kami"
   },
   {
    "ts": 1783997228.0,
@@ -492,38 +527,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-consolidates-as-usd-bulls-look-to-us-cpi-and-feds-warsh-202607140158",
    "t": "14 Jul \u00b7 06:58 AM",
    "ur": "Japani yan mastahkam ho raha hai cunkah USD bel US CPI aur Fed's Warsh ki taraf dekhte hen."
-  },
-  {
-   "ts": 1783992585.0,
-   "title": "Euro posts modest gains above 1.1350 as traders await US CPI inflation release",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-posts-modest-gains-above-11350-as-traders-await-us-cpi-inflation-release-202607140129",
-   "t": "14 Jul \u00b7 06:29 AM",
-   "ur": "Uro ne 1.1350 se oper mamoli faidah athaya cunkah taajr US CPI inflation (mehngai) ki rilies ke mantezar hen"
-  },
-  {
-   "ts": 1783992404.0,
-   "title": "Canadian Dollar gains on higher oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-on-higher-oil-prices-202607140126",
-   "t": "14 Jul \u00b7 06:26 AM",
-   "ur": "Til ki unchi qeemton par caniden Dollar mein azafah"
-  },
-  {
-   "ts": 1783991981.0,
-   "title": "New Zealand Dollar rallies as RBNZ's Conway fuels rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rallies-as-rbnzs-conway-fuels-rate-hike-bets-202607140119",
-   "t": "14 Jul \u00b7 06:19 AM",
-   "ur": "RBNZ ke kanway andhan ki rate mein azafe ki shart ke tur par niyozi lind Dollar ki riliyan"
-  },
-  {
-   "ts": 1783988933.0,
-   "title": "Australian Dollar weakens to near 0.6900 as US launches more strikes against Iran",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-to-near-06900-as-us-launches-more-strikes-against-iran-202607140028",
-   "t": "14 Jul \u00b7 05:28 AM",
-   "ur": "Aasterilvi Dollar 0.6900 ke qarib kamazor ho gaya hai cunkah amrikah ne eran ke khalaf mazid hamle sharo kiye hen."
   }
  ],
  "sentiment": {
