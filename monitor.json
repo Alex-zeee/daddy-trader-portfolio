@@ -1,15 +1,13 @@
 {
- "updated": "14-07-2026 14:29 PKT",
+ "updated": "14-07-2026 16:06 PKT",
  "gold": {
-  "price": 4010.05,
+  "price": 4013.62,
   "open": 3994.4,
   "high": 4092.7,
   "low": 3979.71,
-  "chg": 0.39,
+  "chg": 0.48,
   "src": "PAXG (Kraken)",
   "spark": [
-   4097.65,
-   4096.62,
    4095.64,
    4094.31,
    4093.3,
@@ -55,14 +53,16 @@
    4016.32,
    4012.41,
    4008.59,
-   4010.05
+   4014.41,
+   4014.5,
+   4013.62
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.395,
-   "chg": 1.32,
+   "price": 58.22,
+   "chg": 1.02,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    58.395
+    58.22
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.089,
-   "chg": -0.19,
+   "price": 101.137,
+   "chg": -0.14,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    101.089
+    101.137
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.3,
-   "chg": 2.76,
+   "price": 81.09,
+   "chg": 3.78,
    "spark": [
     80.75,
     76.05,
@@ -137,7 +137,7 @@
     72.08,
     71.41,
     78.14,
-    80.3
+    81.09
    ]
   },
   {
@@ -168,8 +168,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1403,
-   "chg": -0.02,
+   "price": 1.1395,
+   "chg": -0.09,
    "spark": [
     1.1603,
     1.1594,
@@ -192,13 +192,13 @@
     1.1422,
     1.1433,
     1.1404,
-    1.1403
+    1.1395
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.338,
-   "chg": -0.05,
+   "price": 1.3368,
+   "chg": -0.14,
    "spark": [
     1.345,
     1.3416,
@@ -221,13 +221,13 @@
     1.3396,
     1.3416,
     1.3387,
-    1.338
+    1.3368
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.207,
-   "chg": 0.2,
+   "price": 162.24,
+   "chg": 0.22,
    "spark": [
     159.955,
     160.229,
@@ -250,16 +250,14 @@
     162.539,
     162.363,
     161.878,
-    162.207
+    162.24
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1785.67,
-   "chg": 0.63,
+   "price": 1794.08,
+   "chg": 1.1,
    "spark": [
-    1798.21,
-    1803.34,
     1805.95,
     1804.93,
     1818.35,
@@ -305,16 +303,16 @@
     1780.94,
     1778.67,
     1783.81,
-    1785.67
+    1784.09,
+    1796.95,
+    1794.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62605.4,
-   "chg": 0.57,
+   "price": 62672.9,
+   "chg": 0.67,
    "spark": [
-    63828.3,
-    63966.1,
     63990.4,
     63988.2,
     64159.1,
@@ -360,7 +358,9 @@
     62542.0,
     62471.4,
     62625.9,
-    62605.4
+    62549.0,
+    62733.2,
+    62672.9
    ]
   }
  ],
@@ -449,20 +449,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784021347.135013,
+   "ts": 1784027187.889971,
+   "title": "Gold bounces back from two-week low as traders await US CPI, Warsh testimony",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
+   "t": "14 Jul \u00b7 04:06 PM",
+   "ur": "Gold (sona) do hafte ki kam tarin sath se waps aa gaya hai cunkah taajr US CPI, warsh bayan ke mantezar hen."
+  },
+  {
+   "ts": 1784027187.889971,
    "title": "Gold tests double bottom at $3,991.9 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "14 Jul \u00b7 02:29 PM",
+   "t": "14 Jul \u00b7 04:06 PM",
    "ur": "Gold (sone) ka test $3,991.9 sport par dabl niche hai."
   },
   {
-   "ts": 1784021347.135013,
-   "title": "Gold rebounds from two-week low as traders await US CPI, Warsh testimony",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "14 Jul \u00b7 02:29 PM",
-   "ur": "Gold (sona) do hafte ki kam tarin sath se waps aagaya cunkah taajr US CPI, warsh bayan ke mantezar hen."
+   "ts": 1784025007.0,
+   "title": "Gold Price Forecast: XAU/USD rebounds above $4,000 with US CPI in focus",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-rebounds-above-4-000-with-us-cpi-in-focus-202607141030",
+   "t": "14 Jul \u00b7 03:30 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,000 se oper ki wapsi par tojah markoz mein US CPI ke sath"
+  },
+  {
+   "ts": 1784023623.0,
+   "title": "Indian Rupee slumps as oil prices surge, US CPI data awaited",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-drifts-sharply-lower-as-us-claims-right-of-hormuz-toll-fee-202607140537",
+   "t": "14 Jul \u00b7 03:07 PM",
+   "ur": "Til ki qeemton mein azafe ke sath hi handostani ropiya gar gaya, US CPI deta ka antezar hai."
+  },
+  {
+   "ts": 1784023023.0,
+   "title": "GBP/USD Price Forecast: Pound holds above 1.3350 with the 200-day SMA capping gains",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gbp-usd-price-forecast-pound-holds-above-13350-with-the-200-day-sma-capping-gains-202607140957",
+   "t": "14 Jul \u00b7 02:57 PM",
+   "ur": "GBP/USD qeemat ki forecast: pound 1.3350 ke oper 200 dan ke SMA caping ke fawaid ke sath barqarar hai"
+  },
+  {
+   "ts": 1784022831.0,
+   "title": "US Dollar: Tailwinds build as oil and Fed reprice \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-tailwinds-build-as-oil-and-fed-reprice-ocbc-202607140953",
+   "t": "14 Jul \u00b7 02:53 PM",
+   "ur": "US Dollar: tel vinds til aur fed ki qeemat ke tur par banti hen \u2013 OCBC"
+  },
+  {
+   "ts": 1784022304.0,
+   "title": "New Zealand Dollar: Gulf re-escalation favours Kiwi outperformance \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-gulf-re-escalation-favours-kiwi-outperformance-ing-202607140945",
+   "t": "14 Jul \u00b7 02:45 PM",
+   "ur": "Niyozi lind Dollar: khullige mein dubarah azafah kevi ki behtar karkardgi ke haq mein hai \u2013 ING"
+  },
+  {
+   "ts": 1784021625.0,
+   "title": "Fed: Guidance, reaction function and rates \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/fed-guidance-reaction-function-and-rates-bny-202607140933",
+   "t": "14 Jul \u00b7 02:33 PM",
+   "ur": "Fed: gaidens, ri action funnection aur rates \u2013 BNY"
+  },
+  {
+   "ts": 1784021447.0,
+   "title": "Silver price today: Silver rises, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202607140930",
+   "t": "14 Jul \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
   },
   {
    "ts": 1784020861.0,
@@ -471,62 +527,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-above-5800-despite-ongoing-bearish-bias-202607140921",
    "t": "14 Jul \u00b7 02:21 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD jari mandi ke taasab ke bawajud $58.00 se oper rakta hai"
-  },
-  {
-   "ts": 1784020406.0,
-   "title": "Indian Rupee: Oil rebound clouds INR gains against US Dollar \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-oil-rebound-clouds-inr-gains-against-us-dollar-dbs-202607140913",
-   "t": "14 Jul \u00b7 02:13 PM",
-   "ur": "Handostani ropiya: til ki wapsi ne US Dollar ke maqable mein INR ke azafe ke badil chhaye huvay hen - DBS"
-  },
-  {
-   "ts": 1784019450.0,
-   "title": "USD/JPY Price Forecast: Slides to 162.00 as constructive setup favors bulls before US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/usd-jpy-price-forecast-slides-to-16200-as-constructive-setup-favors-bulls-before-us-cpi-202607140857",
-   "t": "14 Jul \u00b7 01:57 PM",
-   "ur": "USD/JPY qeemat ki forecast: 162.00 ki taraf salaids cunkah taumeri set ap US CPI se pehle belon ke haq mein hai"
-  },
-  {
-   "ts": 1784019072.0,
-   "title": "US Dollar Index: DXY could reach 102 as Gulf tensions persist - ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-dxy-could-reach-102-as-gulf-tensions-persist-ing-202607140851",
-   "t": "14 Jul \u00b7 01:51 PM",
-   "ur": "US Dollar andex: khaliji kasheedgi barqarar rahne par DXY 102 tak pohch sakta hai - ING"
-  },
-  {
-   "ts": 1784018999.0,
-   "title": "New Zealand Dollar holds gains near 0.5800, unfazed by risk aversion",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-gains-near-05800-unfazed-by-risk-aversion-202607140849",
-   "t": "14 Jul \u00b7 01:49 PM",
-   "ur": "Niyozi lind Dollar ne 0.5800 ke qarib faidah athaya, khatre se bachane se be niyaz"
-  },
-  {
-   "ts": 1784018978.0,
-   "title": "Euro declines against Canadian Dollar as oil prices rise",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-declines-against-canadian-dollar-as-oil-prices-rise-202607140849",
-   "t": "14 Jul \u00b7 01:49 PM",
-   "ur": "Til ki qeemton mein azafe ke sath uro caniden Dollar ke maqable mein kami"
-  },
-  {
-   "ts": 1784018605.0,
-   "title": "Indian Rupee slumps amid dual pressure from higher oil prices, Treasury yields",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-drifts-sharply-lower-as-us-claims-right-of-hormuz-toll-fee-202607140537",
-   "t": "14 Jul \u00b7 01:43 PM",
-   "ur": "Til ki unchi qeemton, treasurei ki pedawar ke dohare dabao ke darmiyan handostani ropiya gar gaya."
-  },
-  {
-   "ts": 1784018301.0,
-   "title": "Japanese Yen: Stays weak within broad band against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-stays-weak-within-broad-band-against-us-dollar-uob-202607140838",
-   "t": "14 Jul \u00b7 01:38 PM",
-   "ur": "Japani yan: US Dollar - UOB ke maqable mein barad bind mein kamazor rahta hai."
   }
  ],
  "sentiment": {
