@@ -1,14 +1,13 @@
 {
- "updated": "15-07-2026 23:50 PKT",
+ "updated": "16-07-2026 00:59 PKT",
  "gold": {
-  "price": 4055.37,
+  "price": 4046.15,
   "open": 4044.88,
   "high": 4069.54,
   "low": 4012.2,
-  "chg": 0.26,
+  "chg": 0.03,
   "src": "PAXG (Kraken)",
   "spark": [
-   3997.87,
    3997.81,
    3999.09,
    3996.58,
@@ -55,14 +54,15 @@
    4038.89,
    4024.98,
    4052.17,
-   4055.37
+   4050.24,
+   4046.15
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.435,
-   "chg": -0.57,
+   "price": 57.995,
+   "chg": -1.32,
    "spark": [
     70.066,
     69.899,
@@ -84,13 +84,13 @@
     59.809,
     57.634,
     58.772,
-    58.435
+    57.995
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.378,
-   "chg": -0.56,
+   "price": 100.535,
+   "chg": -0.4,
    "spark": [
     99.63,
     99.54,
@@ -112,13 +112,13 @@
     100.97,
     101.28,
     100.94,
-    100.378
+    100.535
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.84,
-   "chg": 0.63,
+   "price": 80.36,
+   "chg": 1.29,
    "spark": [
     80.75,
     76.05,
@@ -140,7 +140,7 @@
     71.41,
     78.14,
     79.34,
-    79.84
+    80.36
    ]
   },
   {
@@ -172,9 +172,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1468,
+   "chg": 0.73,
+   "spark": [
+    1.1594,
+    1.161,
+    1.1507,
+    1.1459,
+    1.1463,
+    1.1427,
+    1.138,
+    1.1354,
+    1.1362,
+    1.1386,
+    1.1422,
+    1.1413,
+    1.1378,
+    1.1423,
+    1.1438,
+    1.1442,
+    1.1404,
+    1.1422,
+    1.1433,
+    1.1404,
+    1.1384,
+    1.1468
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3543,
-   "chg": 1.46,
+   "price": 1.3535,
+   "chg": 1.4,
    "spark": [
     1.3416,
     1.3426,
@@ -197,13 +226,13 @@
     1.3416,
     1.3387,
     1.3348,
-    1.3543
+    1.3535
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 161.99,
-   "chg": -0.27,
+   "price": 162.22,
+   "chg": -0.13,
    "spark": [
     160.229,
     160.419,
@@ -226,15 +255,14 @@
     162.363,
     161.878,
     162.429,
-    161.99
+    162.22
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1926.99,
-   "chg": 1.93,
+   "price": 1923.01,
+   "chg": 1.72,
    "spark": [
-    1773.06,
     1765.51,
     1759.61,
     1755.89,
@@ -281,15 +309,15 @@
     1930.0,
     1917.72,
     1926.11,
-    1926.99
+    1922.61,
+    1923.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64952.7,
-   "chg": -0.05,
+   "price": 64926.1,
+   "chg": -0.09,
    "spark": [
-    62219.8,
     62149.2,
     62011.2,
     61856.1,
@@ -336,7 +364,8 @@
     65369.4,
     65055.0,
     65009.2,
-    64952.7
+    64805.0,
+    64926.1
    ]
   }
  ],
@@ -401,20 +430,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784141420.241891,
+   "ts": 1784145562.774597,
+   "title": "Silver holds $57 support in bearish rectangle: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
+   "t": "16 Jul \u00b7 12:59 AM",
+   "ur": "Silver (chandi) ko baresh mastatil mein $57 ki support haasil hai."
+  },
+  {
+   "ts": 1784145562.774597,
+   "title": "Gold stuck below $4,110 resistance cluster: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
+   "t": "16 Jul \u00b7 12:59 AM",
+   "ur": "Gold (sona) $4,110 mazahmati kalster se niche phans gaya."
+  },
+  {
+   "ts": 1784145562.774597,
    "title": "European wheat prices surge 6% on Black Sea shipping concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-wheat-prices-surge-6-on-black-sea-shipping-concerns-93CH-4793996",
-   "t": "15 Jul \u00b7 11:50 PM",
+   "t": "16 Jul \u00b7 12:59 AM",
    "ur": "Baheerah isud ki tarsel ke khadshat par uripi gandam ki qeemton mein 6 fisad azafah"
   },
   {
-   "ts": 1784141420.241891,
-   "title": "Goldman Sachs flags fresh upside risks for oil as Gulf flows falter",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-sachs-flags-fresh-upside-risks-for-oil-as-gulf-flows-falter-4792891",
-   "t": "15 Jul \u00b7 11:50 PM",
-   "ur": "Golldomin sex ne khullige ke bahao mein kami ke sath til ke liye naye alta khatrat ko jhanda diya."
+   "ts": 1784142162.0,
+   "title": "Forex Today: US Dollar extends decline as softer PPI lifts major currencies and Gold",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-extends-decline-as-softer-ppi-lifts-major-currencies-and-gold-202607151902",
+   "t": "16 Jul \u00b7 12:02 AM",
+   "ur": "Farex today: US Dollar ne garaut ko badhaya cunkah narm PPI ne badi karnsiyon aur Gold (sone) ko athaya"
+  },
+  {
+   "ts": 1784138611.0,
+   "title": "$4,000 under siege: Buyers losing the battle on Gold",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/4-000-under-siege-buyers-losing-the-battle-on-gold-202607151803",
+   "t": "15 Jul \u00b7 11:03 PM",
+   "ur": "$4,000 mahasire mein: khareedar Gold (sone) par jang har rahe hen."
+  },
+  {
+   "ts": 1784138399.0,
+   "title": "Gold price slips as Iran escalation overshadows soft US PPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-slips-as-iran-escalation-overshadows-soft-us-ppi-202607151759",
+   "t": "15 Jul \u00b7 10:59 PM",
+   "ur": "Gold (sone) ki qeemat gar gayi cunkah eran mein azafah narm US PPI par cya karta hai."
   },
   {
    "ts": 1784137653.0,
@@ -447,38 +508,6 @@
    "link": "https://www.fxstreet.com/news/fed-chair-warsh-inflation-will-not-be-permanent-202607151539",
    "t": "15 Jul \u00b7 08:39 PM",
    "ur": "Fed chair warsh: inflation (mehngai) mastaql nihen hoga."
-  },
-  {
-   "ts": 1784129974.0,
-   "title": "British Pound rallies as soft US PPI hits US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-rallies-as-soft-us-ppi-hits-us-dollar-202607151539",
-   "t": "15 Jul \u00b7 08:39 PM",
-   "ur": "Narm US PPI US Dollar se takarane par bartanvi pound mein tizi"
-  },
-  {
-   "ts": 1784129361.0,
-   "title": "BoC's Macklem: Canadian Dollar weakness not a factor in rate decisions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/boc-set-to-keep-interest-rates-steady-for-sixth-consecutive-meeting-202607150945",
-   "t": "15 Jul \u00b7 08:29 PM",
-   "ur": "BoC ka meclim: caniden Dollar ki kamazori rate ke fisalon ka ek anasr nihen hai."
-  },
-  {
-   "ts": 1784128166.0,
-   "title": "Gold steadies as traders balance soft US inflation data against rising Oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-eases-as-soft-us-cpi-fails-to-dent-the-feds-hawkish-outlook-202607151203",
-   "t": "15 Jul \u00b7 08:09 PM",
-   "ur": "Gold (sona) mastahkam hai cunkah taajr til ki badhti hoi qeemton ke maqable mein narm US inflation (mehngai) ke aed w shmar mein tawazin ruktey hen."
-  },
-  {
-   "ts": 1784127322.0,
-   "title": "Fed Chair Warsh: One-time change in prices isn't necessarily inflationary",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/fed-chair-warsh-one-time-change-in-prices-isnt-necessarily-inflationary-202607151455",
-   "t": "15 Jul \u00b7 07:55 PM",
-   "ur": "Fed chair warsh: qeemton mein ek bar ki tabadili zarori nihen kah inflation (mehngai) ho."
   }
  ],
  "sentiment": {
