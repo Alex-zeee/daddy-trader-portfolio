@@ -1,14 +1,13 @@
 {
- "updated": "15-07-2026 04:30 PKT",
+ "updated": "15-07-2026 05:57 PKT",
  "gold": {
-  "price": 4042.0,
-  "open": 3994.4,
+  "price": 4048.89,
+  "open": 4044.88,
   "high": 4092.86,
-  "low": 3979.71,
-  "chg": 1.19,
+  "low": 3987.22,
+  "chg": 0.1,
   "src": "PAXG (Kraken)",
   "spark": [
-   4069.05,
    4066.37,
    4064.78,
    4053.01,
@@ -55,14 +54,15 @@
    4044.17,
    4050.9,
    4042.71,
-   4042.0
+   4044.56,
+   4048.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.995,
-   "chg": 2.36,
+   "price": 59.215,
+   "chg": 2.74,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    58.995
+    59.215
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.941,
-   "chg": -0.33,
+   "price": 100.866,
+   "chg": -0.41,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.941
+    100.866
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.95,
-   "chg": 2.32,
+   "price": 80.56,
+   "chg": 3.1,
    "spark": [
     80.75,
     76.05,
@@ -137,7 +137,7 @@
     72.08,
     71.41,
     78.14,
-    79.95
+    80.56
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1426,
-   "chg": 0.37,
+   "price": 1.1436,
+   "chg": 0.46,
    "spark": [
     1.1594,
     1.161,
@@ -193,13 +193,13 @@
     1.1433,
     1.1404,
     1.1384,
-    1.1426
+    1.1436
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3394,
-   "chg": 0.35,
+   "price": 1.3403,
+   "chg": 0.41,
    "spark": [
     1.3416,
     1.3426,
@@ -222,13 +222,13 @@
     1.3416,
     1.3387,
     1.3348,
-    1.3394
+    1.3403
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.187,
-   "chg": -0.15,
+   "price": 162.101,
+   "chg": -0.2,
    "spark": [
     160.229,
     160.419,
@@ -251,15 +251,14 @@
     162.363,
     161.878,
     162.429,
-    162.187
+    162.101
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1884.4,
-   "chg": 6.19,
+   "price": 1880.22,
+   "chg": -0.54,
    "spark": [
-    1825.59,
     1805.87,
     1805.8,
     1779.22,
@@ -306,15 +305,15 @@
     1874.69,
     1875.21,
     1881.35,
-    1884.4
+    1890.06,
+    1880.22
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64875.1,
-   "chg": 4.21,
+   "price": 64785.8,
+   "chg": -0.3,
    "spark": [
-    64040.1,
     63383.7,
     63325.7,
     62766.2,
@@ -361,7 +360,8 @@
     64530.3,
     64620.0,
     64818.7,
-    64875.1
+    64977.2,
+    64785.8
    ]
   }
  ],
@@ -450,20 +450,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784071831.71308,
+   "ts": 1784077071.698193,
    "title": "Gold rises more than 1% as soft U.S. CPI data prompts easing in rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "15 Jul \u00b7 04:30 AM",
+   "t": "15 Jul \u00b7 05:57 AM",
    "ur": "Gold (sona) 1% se ziyadah badh gaya cunkah narm US CPI deta rate mein azafe ki mashaklat mein narmi ka asharah karta hai"
   },
   {
-   "ts": 1784071831.71308,
+   "ts": 1784077071.698193,
    "title": "Gold rejected at $4,110 resistance, bias bearish: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "15 Jul \u00b7 04:30 AM",
+   "t": "15 Jul \u00b7 05:57 AM",
    "ur": "Gold (sona) $4,110 mazahmat par mastard, taasab mandi"
+  },
+  {
+   "ts": 1784071014.0,
+   "title": "Gold climbs to near $4,050 on softer US CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-climbs-to-near-4-050-on-softer-us-cpi-202607142316",
+   "t": "15 Jul \u00b7 04:16 AM",
+   "ur": "Narm US CPI par Gold (sona) $4,050 ke qarib pohch gaya."
   },
   {
    "ts": 1784067020.0,
@@ -520,18 +528,10 @@
    "link": "https://www.fxstreet.com/news/indonesian-rupiah-supported-by-ratings-yet-constrained-against-us-dollar-ocbc-202607141907",
    "t": "15 Jul \u00b7 12:07 AM",
    "ur": "Andonishin ropiya: ratongs ke zariye taaaun yaaftah abhi tak US Dollar ke maqable mein muhadud hai - OCBC"
-  },
-  {
-   "ts": 1784055474.0,
-   "title": "Gold price jumps as US inflation knocks the US Dollar off its pedestal",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-jumps-as-us-inflation-knocks-the-us-dollar-off-its-pedestal-202607141857",
-   "t": "14 Jul \u00b7 11:57 PM",
-   "ur": "Gold (sone) ki qeemat mein is waqat azafah hawa jab US inflation (mehngai) ne US Dollar ko apane pedistal se dastak di."
   }
  ],
  "sentiment": {
-  "value": 22,
+  "value": 25,
   "label": "Extreme Fear"
  },
  "err": null
