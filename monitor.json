@@ -1,15 +1,13 @@
 {
- "updated": "15-07-2026 11:04 PKT",
+ "updated": "15-07-2026 13:33 PKT",
  "gold": {
-  "price": 4025.13,
+  "price": 4019.28,
   "open": 4044.88,
   "high": 4092.86,
   "low": 4007.03,
-  "chg": -0.49,
+  "chg": -0.63,
   "src": "PAXG (Kraken)",
   "spark": [
-   4055.4,
-   4068.35,
    4062.22,
    4053.72,
    4049.94,
@@ -55,14 +53,16 @@
    4024.01,
    4025.76,
    4025.71,
-   4025.13
+   4025.42,
+   4015.03,
+   4019.28
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.72,
-   "chg": -0.09,
+   "price": 58.465,
+   "chg": -0.52,
    "spark": [
     70.066,
     69.899,
@@ -84,13 +84,13 @@
     59.809,
     57.634,
     58.772,
-    58.72
+    58.465
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.771,
-   "chg": -0.5,
+   "price": 100.915,
+   "chg": -0.36,
    "spark": [
     99.63,
     99.54,
@@ -111,13 +111,13 @@
     100.94,
     100.97,
     101.28,
-    100.771
+    100.915
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.69,
-   "chg": 0.44,
+   "price": 80.46,
+   "chg": 1.41,
    "spark": [
     80.75,
     76.05,
@@ -139,7 +139,7 @@
     71.41,
     78.14,
     79.34,
-    79.69
+    80.46
    ]
   },
   {
@@ -170,8 +170,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1446,
-   "chg": 0.54,
+   "price": 1.1429,
+   "chg": 0.39,
    "spark": [
     1.1594,
     1.161,
@@ -194,13 +194,13 @@
     1.1433,
     1.1404,
     1.1384,
-    1.1446
+    1.1429
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3414,
-   "chg": 0.5,
+   "price": 1.34,
+   "chg": 0.39,
    "spark": [
     1.3416,
     1.3426,
@@ -223,13 +223,13 @@
     1.3416,
     1.3387,
     1.3348,
-    1.3414
+    1.34
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.186,
-   "chg": -0.15,
+   "price": 162.283,
+   "chg": -0.09,
    "spark": [
     160.229,
     160.419,
@@ -252,16 +252,14 @@
     162.363,
     161.878,
     162.429,
-    162.186
+    162.283
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1881.11,
-   "chg": -0.5,
+   "price": 1873.1,
+   "chg": -0.92,
    "spark": [
-    1786.08,
-    1788.14,
     1784.0,
     1777.57,
     1779.12,
@@ -307,16 +305,16 @@
     1875.36,
     1874.45,
     1881.16,
-    1881.11
+    1874.57,
+    1868.75,
+    1873.1
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64833.6,
-   "chg": -0.23,
+   "price": 64595.9,
+   "chg": -0.6,
    "spark": [
-    62937.4,
-    63141.7,
     63039.4,
     62802.9,
     62844.1,
@@ -362,7 +360,9 @@
     64741.2,
     64690.9,
     64883.4,
-    64833.6
+    64791.0,
+    64506.9,
+    64595.9
    ]
   }
  ],
@@ -451,84 +451,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784095469.603119,
-   "title": "Gold rises more than 1% as soft U.S. CPI data prompts easing in rate hike odds",
+   "ts": 1784104389.638464,
+   "title": "Silver stuck in $57-$60 range amid bull-bear standoff: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "15 Jul \u00b7 11:04 AM",
-   "ur": "Gold (sona) 1% se ziyadah badh gaya cunkah narm US CPI deta rate mein azafe ki mashaklat mein narmi ka asharah karta hai"
+   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
+   "t": "15 Jul \u00b7 01:33 PM",
+   "ur": "Bel bears ke taatal ke darmiyan Silver (chandi) $57-$60 ki had mein phans gayi."
   },
   {
-   "ts": 1784094619.0,
-   "title": "Indian Rupee attracts bids as traders trim Fed interest rate hike bets",
+   "ts": 1784104389.638464,
+   "title": "Gold tests $3,990 support in bear flag setup: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
+   "t": "15 Jul \u00b7 01:33 PM",
+   "ur": "Gold bare fileg set ap mein $3,990 sport ki janch karta hai."
+  },
+  {
+   "ts": 1784101755.0,
+   "title": "Australian Dollar: Upside momentum building toward 0.7015 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-upside-momentum-building-toward-07015-against-us-dollar-uob-202607150749",
+   "t": "15 Jul \u00b7 12:49 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein 0.7015 ki taraf oper ki raftar badh rahi hai - UOB"
+  },
+  {
+   "ts": 1784101110.0,
+   "title": "Federal Reserve: Inflation scenarios guide rate path \u2013 ABN AMRO",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/federal-reserve-inflation-scenarios-guide-rate-path-abn-amro-202607150738",
+   "t": "15 Jul \u00b7 12:38 PM",
+   "ur": "Faderl resero: inflation (mehngai) ke manazrname gaid ret path \u2013 ABN AMRO"
+  },
+  {
+   "ts": 1784100584.0,
+   "title": "Forex Today: US Dollar retreats after soft inflation data, focus shifts to BoC rate decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-retreats-after-soft-inflation-data-focus-shifts-to-boc-rate-decision-202607150729",
+   "t": "15 Jul \u00b7 12:29 PM",
+   "ur": "Farex today: narm inflation (mehngai) ke aed w shmar ke bad US Dollar patchhe hat gaya, tojah BoC rate ke fisale par mantaql ho gayi"
+  },
+  {
+   "ts": 1784100302.0,
+   "title": "US Dollar: Support pillar weakens after CPI \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-support-pillar-weakens-after-cpi-mufg-202607150725",
+   "t": "15 Jul \u00b7 12:25 PM",
+   "ur": "US Dollar: CPI \u2013 MUFG ke bad sport ka ston kamazor pad gaya."
+  },
+  {
+   "ts": 1784099920.0,
+   "title": "Euro picks up favoured by a weaker US Dollar but remains within previous ranges",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-picks-up-favoured-by-a-weaker-us-dollar-but-remains-within-previous-ranges-202607150718",
+   "t": "15 Jul \u00b7 12:18 PM",
+   "ur": "Uro ek kamazor US Dollar ki taraf se pasand karta hai lican sabaqah \u200b\u200bhadud mein rahta hai."
+  },
+  {
+   "ts": 1784099661.0,
+   "title": "New Zealand Dollar: RBNZ hawkish tone supports gains \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rbnz-hawkish-tone-supports-gains-ocbc-202607150714",
+   "t": "15 Jul \u00b7 12:14 PM",
+   "ur": "Niyozi lind Dollar: RBNZ hakish ton fawaid ki support karta hai - OCBC"
+  },
+  {
+   "ts": 1784099439.0,
+   "title": "Indian Rupee gains support as traders dial down hawkish Fed bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/indian-rupee-attracts-bids-as-traders-trim-fed-interest-rate-hike-bets-202607150550",
-   "t": "15 Jul \u00b7 10:50 AM",
-   "ur": "Handostani ropiya boliyon ko apani taraf matojah karta hai cunkah taajron ne fed ki rate sud mein azafe ki shart ko tarasha."
+   "t": "15 Jul \u00b7 12:10 PM",
+   "ur": "Handostani ropiya ko support haasil hoi cunkah taajron ki janb se hakish fed bates ko dile kiya gaya."
   },
   {
-   "ts": 1784092280.0,
-   "title": "Gold remains depressed as bears shrug off weaker USD amid Fed hike bets",
+   "ts": 1784099056.0,
+   "title": "US Dollar Index Price Forecast: Remains below 101.00 near ascending channel bottom",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-edges-lower-as-elevated-oil-prices-bolster-fed-hike-prospects-and-offset-soft-usd-202607150350",
-   "t": "15 Jul \u00b7 10:11 AM",
-   "ur": "Gold (sona) badastor afsardah hai cunkah richhon ne fed mein azafe ki sharton ke darmiyan kamazor USD ko rok liya."
-  },
-  {
-   "ts": 1784090926.0,
-   "title": "British Pound advances as US Dollar remains subdued following inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-advances-as-us-dollar-remains-subdued-following-inflation-data-202607150448",
-   "t": "15 Jul \u00b7 09:48 AM",
-   "ur": "Inflation (mehngai) ke aed w shmar ke bad US Dollar ki qadar mein kami ke sath bartanvi pound ki tarqi"
-  },
-  {
-   "ts": 1784090109.0,
-   "title": "India Gold price today: Gold falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202607150435",
-   "t": "15 Jul \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
-  },
-  {
-   "ts": 1784086149.0,
-   "title": "United States Dollar Index stays below 101 as traders trim hawkish Fed bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-stays-below-101-as-traders-trim-hawkish-fed-bets-202607150329",
-   "t": "15 Jul \u00b7 08:29 AM",
-   "ur": "Unaited states Dollar andex 101 se niche rahta hai cunkah taajron ki janb se fed ki janb se ki jane wali sharton ko trm kiya jata hai."
-  },
-  {
-   "ts": 1784086039.0,
-   "title": "Swiss Franc steadies as US Dollar declines following softer inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-steadies-as-us-dollar-declines-following-softer-inflation-data-202607150327",
-   "t": "15 Jul \u00b7 08:27 AM",
-   "ur": "Mahungai ke narm aed w shmar ke bad US Dollar ki garaut ke sath sois farank mastahkam hai."
-  },
-  {
-   "ts": 1784082494.0,
-   "title": "New Zealand Dollar remains firm above 0.5800 despite weak China GDP data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-firm-above-05800-despite-weak-china-gdp-data-202607150228",
-   "t": "15 Jul \u00b7 07:28 AM",
-   "ur": "Kamazor chin ji di pi deta ke bawajud niyozi lind Dollar 0.5800 se oper mastahkam hai."
-  },
-  {
-   "ts": 1784081685.0,
-   "title": "Australian Dollar remains stronger following China\u2019s economic data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-remains-stronger-following-chinas-economic-data-202607150214",
-   "t": "15 Jul \u00b7 07:14 AM",
-   "ur": "Chin ke aqtasadi aed w shmar ke bad aasterilvi Dollar mazboot hai."
-  },
-  {
-   "ts": 1784080677.0,
-   "title": "Canadian Dollar climbs to four-week top vs USD amid rising Oil prices; focus shifts to BoC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-four-week-top-vs-usd-amid-rising-oil-prices-focus-shifts-to-boc-202607150157",
-   "t": "15 Jul \u00b7 06:57 AM",
-   "ur": "Til ki badhti hoi qeemton ke darmiyan caniden Dollar US Dollar ke maqable mein char hafte ki baland tarin sath par chadh gaya. tojah BoC par mantaql ho jati hai."
+   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-remains-below-10100-near-ascending-channel-bottom-202607150704",
+   "t": "15 Jul \u00b7 12:04 PM",
+   "ur": "US Dollar andex qeemat ki forecast: operi chinl niche ke qarib 101.00 se niche rahta hai"
   }
  ],
  "sentiment": {
