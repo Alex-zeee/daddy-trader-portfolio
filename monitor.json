@@ -1,16 +1,13 @@
 {
- "updated": "15-07-2026 05:57 PKT",
+ "updated": "15-07-2026 08:54 PKT",
  "gold": {
-  "price": 4048.89,
+  "price": 4024.12,
   "open": 4044.88,
   "high": 4092.86,
-  "low": 3987.22,
-  "chg": 0.1,
+  "low": 4007.03,
+  "chg": -0.51,
   "src": "PAXG (Kraken)",
   "spark": [
-   4066.37,
-   4064.78,
-   4053.01,
    4051.52,
    4050.9,
    4047.0,
@@ -55,14 +52,17 @@
    4050.9,
    4042.71,
    4044.56,
-   4048.89
+   4052.42,
+   4029.9,
+   4033.1,
+   4024.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.215,
-   "chg": 2.74,
+   "price": 58.675,
+   "chg": 1.81,
    "spark": [
     70.066,
     69.899,
@@ -83,13 +83,13 @@
     60.378,
     59.809,
     57.634,
-    59.215
+    58.675
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.866,
-   "chg": -0.41,
+   "price": 100.828,
+   "chg": -0.45,
    "spark": [
     99.63,
     99.54,
@@ -110,13 +110,13 @@
     100.94,
     100.97,
     101.28,
-    100.866
+    100.828
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.56,
-   "chg": 3.1,
+   "price": 80.15,
+   "chg": 2.57,
    "spark": [
     80.75,
     76.05,
@@ -137,7 +137,7 @@
     72.08,
     71.41,
     78.14,
-    80.56
+    80.15
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1436,
-   "chg": 0.46,
+   "price": 1.144,
+   "chg": 0.49,
    "spark": [
     1.1594,
     1.161,
@@ -193,13 +193,13 @@
     1.1433,
     1.1404,
     1.1384,
-    1.1436
+    1.144
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3403,
-   "chg": 0.41,
+   "price": 1.3404,
+   "chg": 0.42,
    "spark": [
     1.3416,
     1.3426,
@@ -222,13 +222,13 @@
     1.3416,
     1.3387,
     1.3348,
-    1.3403
+    1.3404
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.101,
-   "chg": -0.2,
+   "price": 162.152,
+   "chg": -0.17,
    "spark": [
     160.229,
     160.419,
@@ -251,17 +251,14 @@
     162.363,
     161.878,
     162.429,
-    162.101
+    162.152
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1880.22,
-   "chg": -0.54,
+   "price": 1875.19,
+   "chg": -0.81,
    "spark": [
-    1805.87,
-    1805.8,
-    1779.22,
     1778.1,
     1780.0,
     1776.31,
@@ -306,17 +303,17 @@
     1875.21,
     1881.35,
     1890.06,
-    1880.22
+    1880.77,
+    1868.96,
+    1863.33,
+    1875.19
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64785.8,
-   "chg": -0.3,
+   "price": 64728.9,
+   "chg": -0.39,
    "spark": [
-    63383.7,
-    63325.7,
-    62766.2,
     62626.0,
     62745.8,
     62744.0,
@@ -361,7 +358,10 @@
     64620.0,
     64818.7,
     64977.2,
-    64785.8
+    64790.1,
+    64624.2,
+    64453.6,
+    64728.9
    ]
   }
  ],
@@ -450,20 +450,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784077071.698193,
+   "ts": 1784087673.192134,
    "title": "Gold rises more than 1% as soft U.S. CPI data prompts easing in rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trades-subdued-as-waller-remarks-offset-safehaven-appeal-before-us-cpi-4789657",
-   "t": "15 Jul \u00b7 05:57 AM",
+   "t": "15 Jul \u00b7 08:54 AM",
    "ur": "Gold (sona) 1% se ziyadah badh gaya cunkah narm US CPI deta rate mein azafe ki mashaklat mein narmi ka asharah karta hai"
   },
   {
-   "ts": 1784077071.698193,
-   "title": "Gold rejected at $4,110 resistance, bias bearish: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "15 Jul \u00b7 05:57 AM",
-   "ur": "Gold (sona) $4,110 mazahmat par mastard, taasab mandi"
+   "ts": 1784082494.0,
+   "title": "New Zealand Dollar remains firm above 0.5800 despite weak China GDP data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-firm-above-05800-despite-weak-china-gdp-data-202607150228",
+   "t": "15 Jul \u00b7 07:28 AM",
+   "ur": "Kamazor chin ji di pi deta ke bawajud niyozi lind Dollar 0.5800 se oper mastahkam hai."
+  },
+  {
+   "ts": 1784081685.0,
+   "title": "Australian Dollar remains stronger following China\u2019s economic data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-stronger-following-chinas-economic-data-202607150214",
+   "t": "15 Jul \u00b7 07:14 AM",
+   "ur": "Chin ke aqtasadi aed w shmar ke bad aasterilvi Dollar mazboot hai."
+  },
+  {
+   "ts": 1784080677.0,
+   "title": "Canadian Dollar climbs to four-week top vs USD amid rising Oil prices; focus shifts to BoC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-four-week-top-vs-usd-amid-rising-oil-prices-focus-shifts-to-boc-202607150157",
+   "t": "15 Jul \u00b7 06:57 AM",
+   "ur": "Til ki badhti hoi qeemton ke darmiyan caniden Dollar US Dollar ke maqable mein char hafte ki baland tarin sath par chadh gaya. tojah BoC par mantaql ho jati hai."
+  },
+  {
+   "ts": 1784079825.0,
+   "title": "Silver Price Forecast: XAG/USD hovers near $58.50 amid market caution",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-hovers-near-5850-amid-market-caution-202607150143",
+   "t": "15 Jul \u00b7 06:43 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: market ki ahtyat ke darmiyan XAG/USD $58.50 ke qarib mandalata hai"
+  },
+  {
+   "ts": 1784078327.0,
+   "title": "British Pound gains traction above 1.3400 as softer US CPI dampens Fed rate hike expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-gains-traction-above-13400-as-softer-us-cpi-dampens-fed-rate-hike-expectations-202607150118",
+   "t": "15 Jul \u00b7 06:18 AM",
+   "ur": "Bartanvi pound ne 1.3400 se oper karshan haasil kiya cunkah narm US CPI ne Fed ki rate mein azafe ki toqaat ko kam kar diya"
+  },
+  {
+   "ts": 1784075280.0,
+   "title": "Euro gathers strength above 1.1400 after soft US inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-gathers-strength-above-11400-after-soft-us-inflation-data-202607150028",
+   "t": "15 Jul \u00b7 05:28 AM",
+   "ur": "Uro narm US inflation (mehngai) ke aed w shmar ke bad 1.1400 se oper tqt jama karta hai."
   },
   {
    "ts": 1784071014.0,
@@ -488,46 +528,6 @@
    "link": "https://www.fxstreet.com/news/chinese-yuan-range-consolidation-holds-against-us-dollar-uob-202607142112",
    "t": "15 Jul \u00b7 02:12 AM",
    "ur": "Chini uan: rinj kansolidation US Dollar - UOB ke maqable mein hai."
-  },
-  {
-   "ts": 1784060940.0,
-   "title": "Singapore Dollar: Downward bias holds within tight range against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-downward-bias-holds-within-tight-range-against-us-dollar-uob-202607142029",
-   "t": "15 Jul \u00b7 01:29 AM",
-   "ur": "Sangapor Dollar: niche ki taraf taasab US Dollar ke khalaf saqt had mein hai - UOB"
-  },
-  {
-   "ts": 1784060436.0,
-   "title": "Forex Today: US Dollar falls after soft CPI, Oil and Gold rally",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-falls-after-soft-cpi-oil-and-gold-rally-202607142020",
-   "t": "15 Jul \u00b7 01:20 AM",
-   "ur": "Farex today: narm CPI, til aur Gold (sone) ki rili ke bad US Dollar gar gaya."
-  },
-  {
-   "ts": 1784059774.0,
-   "title": "Euro gains as softer US inflation weighs on US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-gains-as-softer-us-inflation-weighs-on-us-dollar-202607142009",
-   "t": "15 Jul \u00b7 01:09 AM",
-   "ur": "Uro mein azafah hawa cunkah narm US inflation (mehngai) ka wazin US Dollar par hai."
-  },
-  {
-   "ts": 1784058660.0,
-   "title": "Chinese Yuan: Trade surplus cushions yuan against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-trade-surplus-cushions-yuan-against-us-dollar-commerzbank-202607141951",
-   "t": "15 Jul \u00b7 12:51 AM",
-   "ur": "Chini uan: tajarti sarpples ction uan US Dollar ke maqable mein - kamrzabink"
-  },
-  {
-   "ts": 1784056020.0,
-   "title": "Indonesian Rupiah: Supported by ratings yet constrained against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indonesian-rupiah-supported-by-ratings-yet-constrained-against-us-dollar-ocbc-202607141907",
-   "t": "15 Jul \u00b7 12:07 AM",
-   "ur": "Andonishin ropiya: ratongs ke zariye taaaun yaaftah abhi tak US Dollar ke maqable mein muhadud hai - OCBC"
   }
  ],
  "sentiment": {
