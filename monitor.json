@@ -1,14 +1,13 @@
 {
- "updated": "15-07-2026 15:26 PKT",
+ "updated": "15-07-2026 16:55 PKT",
  "gold": {
-  "price": 4023.38,
+  "price": 4029.57,
   "open": 4044.88,
   "high": 4092.86,
-  "low": 4008.99,
-  "chg": -0.53,
+  "low": 4012.2,
+  "chg": -0.38,
   "src": "PAXG (Kraken)",
   "spark": [
-   4049.94,
    4057.06,
    4035.91,
    4009.28,
@@ -55,14 +54,15 @@
    4015.03,
    4025.17,
    4021.0,
-   4023.38
+   4020.54,
+   4029.57
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.55,
-   "chg": -0.38,
+   "price": 58.48,
+   "chg": -0.5,
    "spark": [
     70.066,
     69.899,
@@ -84,13 +84,13 @@
     59.809,
     57.634,
     58.772,
-    58.55
+    58.48
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.991,
-   "chg": -0.29,
+   "price": 100.978,
+   "chg": -0.3,
    "spark": [
     99.63,
     99.54,
@@ -111,13 +111,13 @@
     100.94,
     100.97,
     101.28,
-    100.991
+    100.978
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.13,
-   "chg": 1.0,
+   "price": 79.72,
+   "chg": 0.48,
    "spark": [
     80.75,
     76.05,
@@ -139,7 +139,7 @@
     71.41,
     78.14,
     79.34,
-    80.13
+    79.72
    ]
   },
   {
@@ -170,8 +170,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1416,
-   "chg": 0.27,
+   "price": 1.1414,
+   "chg": 0.26,
    "spark": [
     1.1594,
     1.161,
@@ -194,13 +194,13 @@
     1.1433,
     1.1404,
     1.1384,
-    1.1416
+    1.1414
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3382,
-   "chg": 0.26,
+   "price": 1.341,
+   "chg": 0.46,
    "spark": [
     1.3416,
     1.3426,
@@ -223,13 +223,13 @@
     1.3416,
     1.3387,
     1.3348,
-    1.3382
+    1.341
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.404,
-   "chg": -0.02,
+   "price": 162.348,
+   "chg": -0.05,
    "spark": [
     160.229,
     160.419,
@@ -252,15 +252,14 @@
     162.363,
     161.878,
     162.429,
-    162.404
+    162.348
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.95,
-   "chg": -0.66,
+   "price": 1881.22,
+   "chg": -0.49,
    "spark": [
-    1779.12,
     1770.45,
     1769.79,
     1780.12,
@@ -307,15 +306,15 @@
     1868.75,
     1877.89,
     1878.26,
-    1877.95
+    1876.72,
+    1881.22
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64626.4,
-   "chg": -0.55,
+   "price": 64668.6,
+   "chg": -0.48,
    "spark": [
-    62844.1,
     62562.1,
     62265.5,
     62718.4,
@@ -362,7 +361,8 @@
     64506.9,
     64719.6,
     64603.6,
-    64626.4
+    64611.6,
+    64668.6
    ]
   }
  ],
@@ -451,20 +451,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784111206.522085,
+   "ts": 1784116551.09071,
+   "title": "Goldman Sachs flags fresh upside risks for oil as Gulf flows falter",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-sachs-flags-fresh-upside-risks-for-oil-as-gulf-flows-falter-4792891",
+   "t": "15 Jul \u00b7 04:55 PM",
+   "ur": "Golldomin sex ne khullige ke bahao mein kami ke sath til ke liye naye alta khatrat ko jhanda diya."
+  },
+  {
+   "ts": 1784116551.09071,
    "title": "Silver stuck in $57-$60 range amid bull-bear standoff: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "15 Jul \u00b7 03:26 PM",
+   "t": "15 Jul \u00b7 04:55 PM",
    "ur": "Bel bears ke taatal ke darmiyan Silver (chandi) $57-$60 ki had mein phans gayi."
   },
   {
-   "ts": 1784111206.522085,
+   "ts": 1784116551.09071,
    "title": "Gold tests $3,990 support in bear flag setup: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "15 Jul \u00b7 03:26 PM",
+   "t": "15 Jul \u00b7 04:55 PM",
    "ur": "Gold bare fileg set ap mein $3,990 sport ki janch karta hai."
+  },
+  {
+   "ts": 1784115446.0,
+   "title": "British Pound dips below 1.3400, turns negative on the day as US Dollar picks up",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-dips-below-13400-turns-negative-on-the-day-as-us-dollar-picks-up-202607151137",
+   "t": "15 Jul \u00b7 04:37 PM",
+   "ur": "Bartanvi pound 1.3400 se niche garta hai, US Dollar ke badhte hi dan manfi ho jata hai"
+  },
+  {
+   "ts": 1784113587.0,
+   "title": "Indian Rupee holds early ground as traders dial down hawkish Fed bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-attracts-bids-as-traders-trim-fed-interest-rate-hike-bets-202607150550",
+   "t": "15 Jul \u00b7 04:06 PM",
+   "ur": "Handostani ropiya abtadai baniyad rakta hai cunkah taajron ne hakish fed shartin dile kin."
+  },
+  {
+   "ts": 1784111303.0,
+   "title": "Canadian Dollar holds close to one-month high ahead of BoC decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-close-to-one-month-high-ahead-of-boc-decision-202607151028",
+   "t": "15 Jul \u00b7 03:28 PM",
+   "ur": "Caniden Dollar BoC ke fisale se pehle ek mah ki baland tarin sath par hai."
+  },
+  {
+   "ts": 1784110921.0,
+   "title": "Gold Price Forecast: XAU/USD hovers above $4,000, weighed by risk-off markets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-hovers-above-4-000-weighed-by-risk-off-markets-202607151022",
+   "t": "15 Jul \u00b7 03:22 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,000 se oper mandalata hai, khatre se dochar marketon ke hasab se wazin"
+  },
+  {
+   "ts": 1784109558.0,
+   "title": "Canadian Dollar: BoC caution limits CAD losses against US Dollar \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-boc-caution-limits-cad-losses-against-us-dollar-mufg-202607150959",
+   "t": "15 Jul \u00b7 02:59 PM",
+   "ur": "Caniden Dollar: BoC ahtyat US Dollar - MUFG ke khalaf CAD naqsanat ko muhadud karti hai"
   },
   {
    "ts": 1784107947.0,
@@ -481,54 +529,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202607150930",
    "t": "15 Jul \u00b7 02:30 PM",
    "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
-  },
-  {
-   "ts": 1784107575.0,
-   "title": "Indian Rupee holds early support as traders trim hawkish Fed bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-attracts-bids-as-traders-trim-fed-interest-rate-hike-bets-202607150550",
-   "t": "15 Jul \u00b7 02:26 PM",
-   "ur": "Handostani ropiya ko abtadai support haasil hai cunkah taajron ki taraf se hakish fed sharton ko trm kiya jata hai."
-  },
-  {
-   "ts": 1784107390.0,
-   "title": "Silver Price Forecast: XAG/USD drops to near $58 even as traders scale back hawkish Fed bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-drops-to-near-58-even-as-traders-scale-back-hawkish-fed-bets-202607150923",
-   "t": "15 Jul \u00b7 02:23 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD gar kar $58 ke qarib pohch gaya yahan tak kah taajron ne fed ki qeemton mein kami ki"
-  },
-  {
-   "ts": 1784106738.0,
-   "title": "CEE FX: US inflation relief supports koruna and forint \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/cee-fx-us-inflation-relief-supports-koruna-and-forint-ing-202607150912",
-   "t": "15 Jul \u00b7 02:12 PM",
-   "ur": "CEE FX: US mahungai rilif korona aur forint ko sport karta hai - ING"
-  },
-  {
-   "ts": 1784106175.0,
-   "title": "ECB\u2019s Panetta: Inflation to hover around 3% and remain above that level until early 2027",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-panetta-inflation-to-hover-around-3-and-remain-above-that-level-until-early-2027-202607150902",
-   "t": "15 Jul \u00b7 02:02 PM",
-   "ur": "Ai si bi ka panita: inflation (mehngai) 3 fisad ke aas pas rahe ga aur 2027 ke avile tak is sath se oper rahe ga"
-  },
-  {
-   "ts": 1784105893.0,
-   "title": "Canadian Dollar: Loonie benefits from technical break \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-loonie-benefits-from-technical-break-societe-generale-202607150858",
-   "t": "15 Jul \u00b7 01:58 PM",
-   "ur": "Caniden Dollar: loni ko takniki waqafe se faidah hota hai - sociti janerl"
-  },
-  {
-   "ts": 1784105157.0,
-   "title": "Japanese Yen: Mixed outlook within 160.60\u2013163.00 band against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-mixed-outlook-within-16060-16300-band-against-us-dollar-uob-202607150845",
-   "t": "15 Jul \u00b7 01:45 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein 160.60\u2013163.00 bind ke andar mukhaloot oat lak - UOB"
   }
  ],
  "sentiment": {
