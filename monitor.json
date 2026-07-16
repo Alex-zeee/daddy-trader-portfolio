@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 03:38 PKT",
+ "updated": "17-07-2026 04:34 PKT",
  "gold": {
-  "price": 3972.0,
+  "price": 3974.35,
   "open": 4048.05,
-  "high": 4052.08,
+  "high": 4050.63,
   "low": 3967.7,
-  "chg": -1.88,
+  "chg": -1.82,
   "src": "PAXG (Kraken)",
   "spark": [
-   4044.56,
    4052.42,
    4029.9,
    4033.1,
@@ -55,14 +54,15 @@
    3974.97,
    3972.32,
    3978.15,
-   3972.0
+   3972.36,
+   3974.35
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.78,
-   "chg": -2.33,
+   "price": 55.76,
+   "chg": -2.36,
    "spark": [
     69.899,
     70.696,
@@ -84,7 +84,7 @@
     57.634,
     58.772,
     57.11,
-    55.78
+    55.76
    ]
   },
   {
@@ -117,8 +117,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 78.94,
-   "chg": -0.83,
+   "price": 78.98,
+   "chg": -0.78,
    "spark": [
     76.05,
     76.79,
@@ -140,7 +140,7 @@
     78.14,
     79.34,
     79.6,
-    78.94
+    78.98
    ]
   },
   {
@@ -173,10 +173,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1447,
-   "chg": 0.19,
+   "price": 1.1448,
+   "chg": -0.19,
    "spark": [
-    1.161,
     1.1507,
     1.1459,
     1.1463,
@@ -197,15 +196,15 @@
     1.1404,
     1.1384,
     1.1425,
-    1.1447
+    1.147,
+    1.1448
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3476,
-   "chg": 0.59,
+   "price": 1.3477,
+   "chg": -0.48,
    "spark": [
-    1.3426,
     1.3301,
     1.3202,
     1.3208,
@@ -226,15 +225,15 @@
     1.3387,
     1.3348,
     1.3397,
-    1.3476
+    1.3541,
+    1.3477
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.355,
-   "chg": 0.1,
+   "price": 162.333,
+   "chg": 0.16,
    "spark": [
-    160.419,
     160.6,
     161.289,
     161.433,
@@ -255,15 +254,15 @@
     161.878,
     162.429,
     162.187,
-    162.355
+    162.072,
+    162.333
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.74,
-   "chg": -2.19,
+   "price": 1860.66,
+   "chg": -2.92,
    "spark": [
-    1890.06,
     1880.77,
     1868.96,
     1863.33,
@@ -310,15 +309,15 @@
     1874.37,
     1871.05,
     1876.75,
-    1874.74
+    1867.33,
+    1860.66
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64081.9,
-   "chg": -0.97,
+   "price": 63763.3,
+   "chg": -1.46,
    "spark": [
-    64977.2,
     64790.1,
     64624.2,
     64453.6,
@@ -365,7 +364,8 @@
     64215.9,
     64096.1,
     64097.6,
-    64081.9
+    63915.1,
+    63763.3
    ]
   }
  ],
@@ -398,28 +398,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784241482.794408,
+   "ts": 1784244877.719227,
    "title": "Gold below $4k on oil-driven inflation fears, Dallas Fed\u2019s call for higher rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "17 Jul \u00b7 03:38 AM",
+   "t": "17 Jul \u00b7 04:34 AM",
    "ur": "Til se chalne wali mahungai ke khadshat par Gold (sona) $4k se niche, dalas fed ka baland sharahon ka matalbah"
   },
   {
-   "ts": 1784241482.794408,
+   "ts": 1784244877.719227,
    "title": "Silver tests key support in downtrend: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 03:38 AM",
+   "t": "17 Jul \u00b7 04:34 AM",
    "ur": "Salor doun trind mein kalidi maaunt ki janch karta hai: fi ghanta ki sath"
   },
   {
-   "ts": 1784241482.794408,
+   "ts": 1784244877.719227,
    "title": "Gold tests $3,978 support with RSI at 32: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "17 Jul \u00b7 03:38 AM",
+   "t": "17 Jul \u00b7 04:34 AM",
    "ur": "Gold 32 par RSI ke sath $3,978 sport ka test karta hai."
+  },
+  {
+   "ts": 1784243440.0,
+   "title": "Fed\u2019s Jefferson: Current policy is well positioned to respond, based on incoming data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-jefferson-current-policy-is-well-positioned-to-respond-based-on-incoming-data-202607162310",
+   "t": "17 Jul \u00b7 04:10 AM",
+   "ur": "Fed's Jefferson: mojudah palisi aane wale deta ki baniyad par jawab dine ke liye achi tarah se pozition mein hai."
+  },
+  {
+   "ts": 1784240593.0,
+   "title": "The Australian Dollar stalls exactly where everybody said it would",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-stalls-exactly-where-everybody-said-it-would-202607162223",
+   "t": "17 Jul \u00b7 03:23 AM",
+   "ur": "Aasterilvi Dollar rak gaya hai balkal wahin jahan har ek ne kaha kah esa hoga."
   },
   {
    "ts": 1784238840.0,
@@ -460,22 +476,6 @@
    "link": "https://www.fxstreet.com/news/mexican-peso-drops-as-risk-aversion-underpins-the-us-dollar-202607161920",
    "t": "17 Jul \u00b7 12:20 AM",
    "ur": "Mexican peso mein kami waqa hoi hai cunkah khatre se bachana US Dollar ko kam karta hai."
-  },
-  {
-   "ts": 1784229360.0,
-   "title": "Chinese Yuan: Gradual gains with capped upside against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-gains-with-capped-upside-against-us-dollar-ocbc-202607161916",
-   "t": "17 Jul \u00b7 12:16 AM",
-   "ur": "Chini uan: US Dollar ke maqable mein btadarage azafah - OCBC"
-  },
-  {
-   "ts": 1784227656.0,
-   "title": "Euro falls as strong US jobless claims support US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-falls-as-strong-us-jobless-claims-support-us-dollar-202607161847",
-   "t": "16 Jul \u00b7 11:47 PM",
-   "ur": "Uro garta hai cunkah US be rozgari ke mazboot daway US Dollar ki support karte hen."
   }
  ],
  "sentiment": {
