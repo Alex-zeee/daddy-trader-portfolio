@@ -1,15 +1,13 @@
 {
- "updated": "16-07-2026 17:47 PKT",
+ "updated": "16-07-2026 19:51 PKT",
  "gold": {
-  "price": 3999.5,
+  "price": 3993.15,
   "open": 4048.05,
   "high": 4069.54,
-  "low": 3993.39,
-  "chg": -1.2,
+  "low": 3969.0,
+  "chg": -1.36,
   "src": "PAXG (Kraken)",
   "spark": [
-   4065.42,
-   4074.54,
    4058.18,
    4052.34,
    4053.86,
@@ -55,14 +53,16 @@
    4023.99,
    4020.63,
    4029.53,
-   3999.5
+   3984.96,
+   3985.44,
+   3993.15
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.68,
-   "chg": -0.75,
+   "price": 56.37,
+   "chg": -1.3,
    "spark": [
     69.899,
     70.696,
@@ -84,13 +84,13 @@
     57.634,
     58.772,
     57.11,
-    56.68
+    56.37
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.594,
-   "chg": 0.09,
+   "price": 100.687,
+   "chg": 0.19,
    "spark": [
     99.54,
     100.09,
@@ -112,13 +112,13 @@
     101.28,
     100.94,
     100.5,
-    100.594
+    100.687
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.55,
-   "chg": 1.19,
+   "price": 79.83,
+   "chg": 0.29,
    "spark": [
     76.05,
     76.79,
@@ -140,13 +140,13 @@
     78.14,
     79.34,
     79.6,
-    80.55
+    79.83
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.582,
-   "chg": 0.81,
+   "price": 4.586,
+   "chg": 0.9,
    "spark": [
     4.428,
     4.463,
@@ -168,13 +168,13 @@
     4.609,
     4.585,
     4.545,
-    4.582
+    4.586
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1456,
-   "chg": 0.27,
+   "price": 1.1446,
+   "chg": 0.18,
    "spark": [
     1.161,
     1.1507,
@@ -197,13 +197,13 @@
     1.1404,
     1.1384,
     1.1425,
-    1.1456
+    1.1446
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3503,
-   "chg": 0.79,
+   "price": 1.3496,
+   "chg": 0.74,
    "spark": [
     1.3426,
     1.3301,
@@ -226,13 +226,13 @@
     1.3387,
     1.3348,
     1.3397,
-    1.3503
+    1.3496
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.269,
-   "chg": 0.05,
+   "price": 162.419,
+   "chg": 0.14,
    "spark": [
     160.419,
     160.6,
@@ -255,16 +255,14 @@
     161.878,
     162.429,
     162.187,
-    162.269
+    162.419
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1870.49,
-   "chg": -2.41,
+   "price": 1884.55,
+   "chg": -1.67,
    "spark": [
-    1869.17,
-    1879.44,
     1873.13,
     1872.34,
     1870.24,
@@ -310,16 +308,16 @@
     1882.63,
     1887.02,
     1884.03,
-    1870.49
+    1870.98,
+    1880.77,
+    1884.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63899.2,
-   "chg": -1.25,
+   "price": 64615.5,
+   "chg": -0.15,
    "spark": [
-    63785.7,
-    64244.0,
     64668.5,
     64687.6,
     64581.1,
@@ -365,7 +363,9 @@
     64032.1,
     64167.9,
     64204.9,
-    63899.3
+    63910.0,
+    64314.3,
+    64615.5
    ]
   }
  ],
@@ -430,36 +430,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784206023.243573,
-   "title": "Gold remains in the red as oil-driven inflation fears keep Fed outlook cautious",
+   "ts": 1784213475.622044,
+   "title": "Gold dives below $4,000 as oil-driven inflation fears keep Fed outlook cautious",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "16 Jul \u00b7 05:47 PM",
-   "ur": "Gold (sona) sarkh rang mein rahta hai cunkah til se chalne wali inflation (mehngai) ke khadshat fed oat lak ko muhatat ruktey hen."
+   "t": "16 Jul \u00b7 07:51 PM",
+   "ur": "Gold (sona) $4,000 se niche dob gaya cunkah til se chalne wali mahungai ke khadshat fed oat lak ko muhatat ruktey hen"
   },
   {
-   "ts": 1784206023.243573,
-   "title": "Silver bear flag tightens above $56.92 support: Live levels",
+   "ts": 1784213475.622044,
+   "title": "Wheat prices hold steady amid Black Sea shipping disruptions",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "16 Jul \u00b7 05:47 PM",
-   "ur": "Salor bare ka jhanda $56.92 sport se oper hai."
+   "link": "https://www.investing.com/news/commodities-news/wheat-prices-hold-steady-amid-black-sea-shipping-disruptions-93CH-4795974",
+   "t": "16 Jul \u00b7 07:51 PM",
+   "ur": "Baheerah isud ki tarsel mein rakaut ke darmiyan gandam ki qeemtin mastahkam hen."
   },
   {
-   "ts": 1784206023.243573,
-   "title": "Gold trapped in bear flag below $4,112: Hourly levels",
+   "ts": 1784213475.622044,
+   "title": "BofA warns gold prices could fall further as 1980, 2011 peak patterns resurface",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "16 Jul \u00b7 05:47 PM",
-   "ur": "$4,112 se niche bears ke jhanday mein phansa Gold (sona): ghanta ki sath"
+   "link": "https://www.investing.com/news/commodities-news/bofa-warns-gold-prices-could-fall-further-as-1980-2011-peak-patterns-resurface-4795885",
+   "t": "16 Jul \u00b7 07:51 PM",
+   "ur": "BofA ne khabrdar kiya hai kah Gold (sone) ki qeemtin 1980, 2011 ke choti ke patern ki recovery ke tur par mazid gar sakti hen"
   },
   {
-   "ts": 1784202405.0,
-   "title": "Gold slips as energy-driven inflation fears keep Fed rate hike bets in play",
+   "ts": 1784210030.0,
+   "title": "Euro pauses a two-day winning streak as the US Dollar steadies",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-pauses-a-two-day-winning-streak-as-the-us-dollar-steadies-202607161353",
+   "t": "16 Jul \u00b7 06:53 PM",
+   "ur": "Uro US Dollar ke mastahkam hone par do dan ki jit ke salsale ko rokta hai."
+  },
+  {
+   "ts": 1784209598.0,
+   "title": "Canadian Dollar extends gains over US Dollar, BoC stance limits further upside",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-extends-gains-over-us-dollar-boc-stance-limits-further-upside-202607161346",
+   "t": "16 Jul \u00b7 06:46 PM",
+   "ur": "Caniden Dollar ne US Dollar ke maqable mein faidah badhaya, BoC moqf ko mazid alta kar diya."
+  },
+  {
+   "ts": 1784207371.0,
+   "title": "Gold slips below $4,000 as energy-driven inflation fears keep Fed rate hike bets in play",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-slips-as-energy-driven-inflation-fears-keep-fed-rate-hike-bets-in-play-202607161146",
-   "t": "16 Jul \u00b7 04:46 PM",
-   "ur": "Gold (sona) phisal gaya cunkah tawanai se chalne wali inflation (mehngai) ke khuf ne fed ki rate mein azafe ki shart ko khel mein rakha hawa hai."
+   "t": "16 Jul \u00b7 06:09 PM",
+   "ur": "Gold (sona) $4,000 se niche gar gaya cunkah tawanai se chalne wali mahungai ke khadshat ne fed ki rate mein azafe ki shart ko khel mein rakha hawa hai"
+  },
+  {
+   "ts": 1784205001.0,
+   "title": "US Dollar Index: Decline seen overdone \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-decline-seen-overdone-bbh-202607161230",
+   "t": "16 Jul \u00b7 05:30 PM",
+   "ur": "US Dollar andex: garaut had se ziyadah dekhi gayi - BBH"
+  },
+  {
+   "ts": 1784204651.0,
+   "title": "Canadian Dollar: BoC hold and guidance shift \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-boc-hold-and-guidance-shift-td-securities-202607161224",
+   "t": "16 Jul \u00b7 05:24 PM",
+   "ur": "Caniden Dollar: BoC hold aur gaidens shift - TD securitez"
+  },
+  {
+   "ts": 1784203205.0,
+   "title": "Silver tumbles as energy-driven inflation fears keep rate outlook elevated",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-tumbles-as-energy-driven-inflation-fears-keep-rate-outlook-elevated-202607161200",
+   "t": "16 Jul \u00b7 05:00 PM",
+   "ur": "Silver (chandi) garti hai cunkah tawanai se chalne wali inflation (mehngai) ke khuf se rate oat lak ko baland rakha jata hai."
   },
   {
    "ts": 1784202279.0,
@@ -468,46 +508,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-boc-on-hold-and-hikes-priced-out-bbh-202607161144",
    "t": "16 Jul \u00b7 04:44 PM",
    "ur": "Caniden Dollar: BoC hold par hai aur qeemton mein azafah - BBH"
-  },
-  {
-   "ts": 1784201800.0,
-   "title": "Euro turns upside down as US Dollar bounces back",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-turns-upside-down-as-us-dollar-bounces-back-202607161136",
-   "t": "16 Jul \u00b7 04:36 PM",
-   "ur": "Uro alta ho jata hai jisa kah US Dollar waps achalta hai."
-  },
-  {
-   "ts": 1784201338.0,
-   "title": "Japanese Yen: Mixed range trade outlook against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-mixed-range-trade-outlook-against-us-dollar-uob-202607161128",
-   "t": "16 Jul \u00b7 04:28 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein mukhaloot rinj tajarti naqatah nazar - UOB"
-  },
-  {
-   "ts": 1784200683.0,
-   "title": "US Dollar: Retail sales slowdown view \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-retail-sales-slowdown-view-td-securities-202607161118",
-   "t": "16 Jul \u00b7 04:18 PM",
-   "ur": "US Dollar: khurdah farokht mein sast ravi ka manazr - TD securitez"
-  },
-  {
-   "ts": 1784199497.0,
-   "title": "Gold Price Forecast: XAU/USD stays below 20-day EMA, sees further downside below $3,940",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-stays-below-20-day-ema-sees-further-downside-below-3-940-202607161058",
-   "t": "16 Jul \u00b7 03:58 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD 20-day EMA se niche rahta hai, $3,940 se niche mazid kami dekhta hai"
-  },
-  {
-   "ts": 1784195629.0,
-   "title": "Australian Dollar consolidates gains as dwindling Fed hiking hopes hurt the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-consolidates-gains-as-dwindling-fed-hiking-hopes-hurt-the-us-dollar-202607160953",
-   "t": "16 Jul \u00b7 02:53 PM",
-   "ur": "Aasterilvi Dollar ne manafa ko mastahkam kiya cunkah fed hicang ki kam hoti amidon ne US Dollar ko naqsan pohchaya"
   }
  ],
  "sentiment": {
