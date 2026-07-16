@@ -1,14 +1,13 @@
 {
- "updated": "16-07-2026 23:45 PKT",
+ "updated": "17-07-2026 00:46 PKT",
  "gold": {
-  "price": 3974.7,
+  "price": 3970.06,
   "open": 4048.05,
-  "high": 4059.67,
-  "low": 3969.0,
-  "chg": -1.81,
+  "high": 4058.24,
+  "low": 3967.7,
+  "chg": -1.93,
   "src": "PAXG (Kraken)",
   "spark": [
-   4047.37,
    4044.17,
    4050.9,
    4042.71,
@@ -55,14 +54,15 @@
    4001.51,
    3988.81,
    3978.76,
-   3974.7
+   3976.36,
+   3970.06
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.705,
-   "chg": -2.46,
+   "price": 55.665,
+   "chg": -2.53,
    "spark": [
     69.899,
     70.696,
@@ -84,12 +84,12 @@
     57.634,
     58.772,
     57.11,
-    55.705
+    55.665
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.784,
+   "price": 100.781,
    "chg": 0.28,
    "spark": [
     99.54,
@@ -112,13 +112,13 @@
     101.28,
     100.94,
     100.5,
-    100.784
+    100.781
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.2,
-   "chg": -1.76,
+   "price": 78.4,
+   "chg": -1.51,
    "spark": [
     76.05,
     76.79,
@@ -140,13 +140,13 @@
     78.14,
     79.34,
     79.6,
-    78.2
+    78.4
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.565,
-   "chg": 0.44,
+   "price": 4.569,
+   "chg": 0.53,
    "spark": [
     4.428,
     4.463,
@@ -168,7 +168,7 @@
     4.609,
     4.585,
     4.545,
-    4.565
+    4.569
    ]
   },
   {
@@ -202,8 +202,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3469,
-   "chg": 0.54,
+   "price": 1.3472,
+   "chg": 0.56,
    "spark": [
     1.3426,
     1.3301,
@@ -226,13 +226,13 @@
     1.3387,
     1.3348,
     1.3397,
-    1.3469
+    1.3472
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.385,
-   "chg": 0.12,
+   "price": 162.405,
+   "chg": 0.13,
    "spark": [
     160.419,
     160.6,
@@ -255,15 +255,14 @@
     161.878,
     162.429,
     162.187,
-    162.385
+    162.405
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1872.03,
+   "price": 1871.88,
    "chg": -2.33,
    "spark": [
-    1875.71,
     1874.69,
     1875.21,
     1881.35,
@@ -310,15 +309,15 @@
     1880.64,
     1878.48,
     1867.37,
-    1872.03
+    1875.01,
+    1871.88
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64105.4,
-   "chg": -0.93,
+   "price": 64153.5,
+   "chg": -0.86,
    "spark": [
-    64515.7,
     64530.3,
     64620.0,
     64818.7,
@@ -365,7 +364,8 @@
     64656.4,
     64438.5,
     64030.7,
-    64105.4
+    64223.5,
+    64153.5
    ]
   }
  ],
@@ -398,28 +398,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784227525.56754,
+   "ts": 1784231192.724872,
+   "title": "Silver tests key support in downtrend: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
+   "t": "17 Jul \u00b7 12:46 AM",
+   "ur": "Salor doun trind mein kalidi maaunt ki janch karta hai: fi ghanta ki sath"
+  },
+  {
+   "ts": 1784231192.724872,
+   "title": "Gold tests $3,978 support with RSI at 32: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
+   "t": "17 Jul \u00b7 12:46 AM",
+   "ur": "Gold 32 par RSI ke sath $3,978 sport ka test karta hai."
+  },
+  {
+   "ts": 1784231192.724872,
    "title": "Gold dives below $4,000 as oil-driven inflation fears keep Fed outlook cautious",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "16 Jul \u00b7 11:45 PM",
+   "t": "17 Jul \u00b7 12:46 AM",
    "ur": "Gold (sona) $4,000 se niche dob gaya cunkah til se chalne wali mahungai ke khadshat fed oat lak ko muhatat ruktey hen"
   },
   {
-   "ts": 1784227525.56754,
+   "ts": 1784231192.724872,
    "title": "Wheat prices hold steady amid Black Sea shipping disruptions",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/wheat-prices-hold-steady-amid-black-sea-shipping-disruptions-93CH-4795974",
-   "t": "16 Jul \u00b7 11:45 PM",
+   "t": "17 Jul \u00b7 12:46 AM",
    "ur": "Baheerah isud ki tarsel mein rakaut ke darmiyan gandam ki qeemtin mastahkam hen."
   },
   {
-   "ts": 1784227525.56754,
+   "ts": 1784231192.724872,
    "title": "BofA warns gold prices could fall further as 1980, 2011 peak patterns resurface",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/bofa-warns-gold-prices-could-fall-further-as-1980-2011-peak-patterns-resurface-4795885",
-   "t": "16 Jul \u00b7 11:45 PM",
+   "t": "17 Jul \u00b7 12:46 AM",
    "ur": "BofA ne khabrdar kiya hai kah Gold (sone) ki qeemtin 1980, 2011 ke choti ke patern ki recovery ke tur par mazid gar sakti hen"
+  },
+  {
+   "ts": 1784229603.0,
+   "title": "Mexican Peso drops as risk aversion underpins the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-drops-as-risk-aversion-underpins-the-us-dollar-202607161920",
+   "t": "17 Jul \u00b7 12:20 AM",
+   "ur": "Mexican peso mein kami waqa hoi hai cunkah khatre se bachana US Dollar ko kam karta hai."
+  },
+  {
+   "ts": 1784229360.0,
+   "title": "Chinese Yuan: Gradual gains with capped upside against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-gains-with-capped-upside-against-us-dollar-ocbc-202607161916",
+   "t": "17 Jul \u00b7 12:16 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein btadarage azafah - OCBC"
+  },
+  {
+   "ts": 1784227656.0,
+   "title": "Euro falls as strong US jobless claims support US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-falls-as-strong-us-jobless-claims-support-us-dollar-202607161847",
+   "t": "16 Jul \u00b7 11:47 PM",
+   "ur": "Uro garta hai cunkah US be rozgari ke mazboot daway US Dollar ki support karte hen."
   },
   {
    "ts": 1784225694.0,
@@ -436,46 +476,6 @@
    "link": "https://www.fxstreet.com/news/gold-loses-track-of-4-000-drops-as-oil-shock-revives-fed-bets-202607161803",
    "t": "16 Jul \u00b7 11:03 PM",
    "ur": "Gold (sona) $4,000 ka trik kho dita hai, til ke jhatake ne Fed ki sharton ko bahal kiya hai."
-  },
-  {
-   "ts": 1784224801.0,
-   "title": "British Pound: Dips against US Dollar seen as buying opportunity \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-dips-against-us-dollar-seen-as-buying-opportunity-scotiabank-202607161800",
-   "t": "16 Jul \u00b7 11:00 PM",
-   "ur": "Bartanvi pound: US Dollar ke maqable mein kami ko khareedari ke moqa ke tur par dekha jata hai - Scotiabank"
-  },
-  {
-   "ts": 1784222109.0,
-   "title": "Euro edges lower against the Japanese Yen despite ECB rate hike expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-edges-lower-against-the-japanese-yen-despite-ecb-rate-hike-expectations-202607161715",
-   "t": "16 Jul \u00b7 10:15 PM",
-   "ur": "ECB rate mein azafe ki toqaat ke bawajud japani yan ke maqable mein uro ki qeemat kam hai."
-  },
-  {
-   "ts": 1784216054.0,
-   "title": "Gold tests $4,000 as energy-driven inflation fears keep Fed rate hike bets in play",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-slips-as-energy-driven-inflation-fears-keep-fed-rate-hike-bets-in-play-202607161146",
-   "t": "16 Jul \u00b7 08:34 PM",
-   "ur": "Gold (sona) $4,000 ka tajrabah karta hai cunkah tawanai se chalne wali inflation (mehngai) ke khuf se fed ki rate mein azafe ki shartin khel mein rahti hen"
-  },
-  {
-   "ts": 1784215589.0,
-   "title": "Swiss Franc falls as Middle East tensions keep Fed rate hike expectations alive",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-falls-as-middle-east-tensions-keep-fed-rate-hike-expectations-alive-202607161526",
-   "t": "16 Jul \u00b7 08:26 PM",
-   "ur": "Sois farank garta hai cunkah masharq wasti ke tanao ne fed ki rate mein azafe ki toqaat ko zandah rakha hai."
-  },
-  {
-   "ts": 1784214900.0,
-   "title": "Australian Dollar holds above 0.7000 as US Retail Sales lose momentum",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-above-07000-as-us-retail-sales-lose-momentum-202607161515",
-   "t": "16 Jul \u00b7 08:15 PM",
-   "ur": "Aasterilvi Dollar 0.7000 se oper hai cunkah US retel sells ki raftar khtam ho jati hai."
   }
  ],
  "sentiment": {
