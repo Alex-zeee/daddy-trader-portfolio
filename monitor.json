@@ -1,16 +1,13 @@
 {
- "updated": "16-07-2026 06:17 PKT",
+ "updated": "16-07-2026 09:30 PKT",
  "gold": {
-  "price": 4035.01,
+  "price": 4024.13,
   "open": 4048.05,
   "high": 4069.54,
   "low": 4012.2,
-  "chg": -0.32,
+  "chg": -0.59,
   "src": "PAXG (Kraken)",
   "spark": [
-   4004.36,
-   4008.77,
-   4012.04,
    4024.01,
    4016.32,
    4012.41,
@@ -55,16 +52,18 @@
    4050.69,
    4048.9,
    4036.73,
-   4035.01
+   4031.35,
+   4023.25,
+   4026.61,
+   4024.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.67,
-   "chg": -1.88,
+   "price": 57.42,
+   "chg": 0.54,
    "spark": [
-    70.066,
     69.899,
     70.696,
     66.255,
@@ -84,15 +83,15 @@
     59.809,
     57.634,
     58.772,
-    57.67
+    57.11,
+    57.42
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.47,
-   "chg": -0.47,
+   "price": 100.522,
+   "chg": 0.02,
    "spark": [
-    99.63,
     99.54,
     100.09,
     100.85,
@@ -112,15 +111,15 @@
     100.97,
     101.28,
     100.94,
-    100.47
+    100.5,
+    100.522
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.24,
-   "chg": 1.13,
+   "price": 79.49,
+   "chg": -0.14,
    "spark": [
-    80.75,
     76.05,
     76.79,
     76.6,
@@ -140,7 +139,8 @@
     71.41,
     78.14,
     79.34,
-    80.24
+    79.6,
+    79.49
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1474,
-   "chg": 0.44,
+   "price": 1.1467,
+   "chg": 0.37,
    "spark": [
     1.161,
     1.1507,
@@ -197,7 +197,7 @@
     1.1404,
     1.1384,
     1.1425,
-    1.1474
+    1.1467
    ]
   },
   {
@@ -231,8 +231,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 162.08,
-   "chg": -0.07,
+   "price": 162.137,
+   "chg": -0.03,
    "spark": [
     160.419,
     160.6,
@@ -255,17 +255,14 @@
     161.878,
     162.429,
     162.187,
-    162.08
+    162.137
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1913.14,
-   "chg": -0.18,
+   "price": 1917.39,
+   "chg": 0.04,
    "spark": [
-    1780.51,
-    1781.56,
-    1783.86,
     1784.33,
     1780.94,
     1778.67,
@@ -310,17 +307,17 @@
     1922.13,
     1916.61,
     1913.79,
-    1913.14
+    1921.37,
+    1923.72,
+    1916.94,
+    1917.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64527.7,
-   "chg": -0.28,
+   "price": 64593.5,
+   "chg": -0.18,
    "spark": [
-    62475.3,
-    62504.5,
-    62680.1,
     62639.9,
     62542.0,
     62471.4,
@@ -365,7 +362,10 @@
     64826.0,
     64709.4,
     64545.2,
-    64525.7
+    64688.5,
+    64597.2,
+    64563.5,
+    64593.5
    ]
   }
  ],
@@ -430,84 +430,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784164644.637971,
-   "title": "Silver holds $57 support in bearish rectangle: Live levels",
+   "ts": 1784176208.477538,
+   "title": "Gold slips as oil-driven inflation fears keep Fed outlook in focus",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
+   "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
+   "t": "16 Jul \u00b7 09:30 AM",
+   "ur": "Til ki wajah se mahungai ke khadshat fed oat lak ko fox mein ruktey huvay Gold (sona) phisal gaya."
+  },
+  {
+   "ts": 1784172653.0,
+   "title": "Senior BOJ official: Delay in adjustment amid high inflation risk could trigger economic downturn",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/senior-boj-official-delay-in-adjustment-amid-high-inflation-risk-could-trigger-economic-downturn-202607160330",
+   "t": "16 Jul \u00b7 08:30 AM",
+   "ur": "BOJ ke sinior ahilkar: inflation (mehngai) ke baland khatre ke darmiyan adjustment mein taakhair mashi badahali ka baas ban sakti hai."
+  },
+  {
+   "ts": 1784171849.0,
+   "title": "Swiss Franc holds losses as US Dollar recovers on Middle East tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-holds-losses-as-us-dollar-recovers-on-middle-east-tensions-202607160317",
+   "t": "16 Jul \u00b7 08:17 AM",
+   "ur": "Masharq wasta ke tanao par US Dollar ki recovery ke bad sois farank ko naqsan hawa hai."
+  },
+  {
+   "ts": 1784171756.0,
+   "title": "South Korean Won edges up against US Dollar as BoK hikes interest rates",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-edges-up-against-us-dollar-as-bok-hikes-interest-rates-202607160315",
+   "t": "16 Jul \u00b7 08:15 AM",
+   "ur": "BoK ki janb se rate sud mein azafah ke baas South Korea ki Won US Dollar ke maqable mein badh gaya."
+  },
+  {
+   "ts": 1784168597.0,
+   "title": "United States Dollar Index struggles near 100.50, multi-week low amid fading Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-struggles-near-10050-multi-week-low-amid-fading-fed-hike-bets-202607160223",
+   "t": "16 Jul \u00b7 07:23 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex 100.50 ke qarib jadojehad kar raha hai, fed mein azafe ke dhandale hone ke darmiyan kai hafte ki kam tarin sath"
+  },
+  {
+   "ts": 1784168526.0,
+   "title": "Japanese Yen strengthens on intervention warning, cooling US inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-strengthens-on-intervention-warning-cooling-us-inflation-202607160222",
+   "t": "16 Jul \u00b7 07:22 AM",
+   "ur": "Japani yan madakhalt ke antabah par mazboot, US inflation (mehngai) ko thanda kar raha hai."
+  },
+  {
+   "ts": 1784167405.0,
+   "title": "Silver Price Forecast: XAG/USD falls to near $57.00 amid Middle East tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-5700-amid-middle-east-tensions-202607160203",
+   "t": "16 Jul \u00b7 07:03 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: masharq wasti mein kasheedgi ke darmiyan XAG/USD gar kar $57.00 ke qarib"
+  },
+  {
+   "ts": 1784164644.0,
+   "title": "Canadian Dollar consolidates near four-week top vs USD; elevated oil prices favor bulls",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-consolidates-near-four-week-top-vs-usd-elevated-oil-prices-favor-bulls-202607160117",
    "t": "16 Jul \u00b7 06:17 AM",
-   "ur": "Silver (chandi) ko baresh mastatil mein $57 ki support haasil hai."
+   "ur": "Caniden Dollar char hafte ki tap bamaqablah USD ke qarib mastahkam til ki baland qeemtin belon ke haq mein hen."
   },
   {
-   "ts": 1784164644.637971,
-   "title": "Gold stuck below $4,110 resistance cluster: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "16 Jul \u00b7 06:17 AM",
-   "ur": "Gold (sona) $4,110 mazahmati kalster se niche phans gaya."
-  },
-  {
-   "ts": 1784159940.0,
-   "title": "Chinese Yuan: Upside bias against US Dollar \u2013 UOB",
+   "ts": 1784164396.0,
+   "title": "Australian Dollar remains subdued as Consumer Inflation Expectations fall in July",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-upside-bias-against-us-dollar-uob-202607152359",
-   "t": "16 Jul \u00b7 04:59 AM",
-   "ur": "Chini uan: US Dollar ke khalaf alta taasab - UOB"
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-subdued-as-consumer-inflation-expectations-fall-in-july-202607160113",
+   "t": "16 Jul \u00b7 06:13 AM",
+   "ur": "Joli mein sarfin ki inflation (mehngai) ki toqaat mein kami ke baas aasteriliyai Dollar badastor zir asar hai."
   },
   {
-   "ts": 1784158680.0,
-   "title": "Singapore Dollar: Range trading persists with strong performance against US Dollar \u2013 Commerzbank",
+   "ts": 1784163416.0,
+   "title": "New Zealand Dollar drops as Middle East conflict escalates",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-range-trading-persists-with-strong-performance-against-us-dollar-commerzbank-202607152338",
-   "t": "16 Jul \u00b7 04:38 AM",
-   "ur": "Sangapor Dollar: rinj treading US Dollar ke maqable mein mazboot karkardgi ke sath barqarar hai - kamers Bank"
-  },
-  {
-   "ts": 1784157269.0,
-   "title": "Gold drifts higher above $4,050 as US PPI unexpectedly fell in June",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-050-as-us-ppi-unexpectedly-fell-in-june-202607152314",
-   "t": "16 Jul \u00b7 04:14 AM",
-   "ur": "Jon mein US PPI ghair matoqa tur par garne ke baas Gold (sona) $4,050 se oper chala gaya."
-  },
-  {
-   "ts": 1784156580.0,
-   "title": "The Japanese Yen gets a gift from American inflation and hands it straight back",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-japanese-yen-gets-a-gift-from-american-inflation-and-hands-it-straight-back-202607152303",
-   "t": "16 Jul \u00b7 04:03 AM",
-   "ur": "Japani yan ko US inflation (mehngai) ka tahfah malta hai aur ise sidha waps de dita hai."
-  },
-  {
-   "ts": 1784156526.0,
-   "title": "The Australian Dollar reclaims a big figure and immediately loses its nerve",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-australian-dollar-reclaims-a-big-figure-and-immediately-loses-its-nerve-202607152302",
-   "t": "16 Jul \u00b7 04:02 AM",
-   "ur": "Aasterilvi Dollar ek badi shaqsiyat par dubarah dawa karta hai aur fori tur par apana esab kho dita hai."
-  },
-  {
-   "ts": 1784152390.0,
-   "title": "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/07/15/world-cup-economy-spending-alcohol-hotels-fed.html",
-   "t": "16 Jul \u00b7 02:53 AM",
-   "ur": "Fed ka kahana hai kah warld kap ne bars aur ristoran ko ek zarori farog diya cunkah sarfin antabahi nashaniyan filish karte hen."
-  },
-  {
-   "ts": 1784151768.0,
-   "title": "Mexican Peso surges as inflation data weighs on the USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-surges-as-inflation-data-weighs-on-the-usd-202607152142",
-   "t": "16 Jul \u00b7 02:42 AM",
-   "ur": "Mexican peso mein azafah hawa cunkah inflation (mehngai) ke aed w shmar ka wazin USD par hai."
-  },
-  {
-   "ts": 1784145480.0,
-   "title": "Singapore Dollar: Consolidation bias holds within tight band against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-consolidation-bias-holds-within-tight-band-against-us-dollar-uob-202607151958",
-   "t": "16 Jul \u00b7 12:58 AM",
-   "ur": "Sangapor Dollar: US Dollar ke maqable mein istehkam ka taasab saqt bind mein hai - UOB"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-drops-as-middle-east-conflict-escalates-202607160056",
+   "t": "16 Jul \u00b7 05:56 AM",
+   "ur": "Masharq wasta mein tanaza badhane se niyozi lind Dollar ki qeemat mein kami"
   }
  ],
  "sentiment": {
