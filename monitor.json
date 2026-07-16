@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 00:46 PKT",
+ "updated": "17-07-2026 01:42 PKT",
  "gold": {
-  "price": 3970.06,
+  "price": 3971.3,
   "open": 4048.05,
   "high": 4058.24,
   "low": 3967.7,
-  "chg": -1.93,
+  "chg": -1.9,
   "src": "PAXG (Kraken)",
   "spark": [
-   4044.17,
    4050.9,
    4042.71,
    4044.56,
@@ -55,14 +54,15 @@
    3988.81,
    3978.76,
    3976.36,
-   3970.06
+   3974.97,
+   3971.3
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.665,
-   "chg": -2.53,
+   "price": 55.74,
+   "chg": -2.4,
    "spark": [
     69.899,
     70.696,
@@ -84,13 +84,13 @@
     57.634,
     58.772,
     57.11,
-    55.665
+    55.74
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.781,
-   "chg": 0.28,
+   "price": 100.725,
+   "chg": 0.22,
    "spark": [
     99.54,
     100.09,
@@ -112,13 +112,13 @@
     101.28,
     100.94,
     100.5,
-    100.781
+    100.725
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.4,
-   "chg": -1.51,
+   "price": 78.59,
+   "chg": -1.27,
    "spark": [
     76.05,
     76.79,
@@ -140,7 +140,7 @@
     78.14,
     79.34,
     79.6,
-    78.4
+    78.59
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.144,
-   "chg": 0.14,
+   "price": 1.1447,
+   "chg": 0.19,
    "spark": [
     1.161,
     1.1507,
@@ -197,13 +197,13 @@
     1.1404,
     1.1384,
     1.1425,
-    1.144
+    1.1447
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3472,
-   "chg": 0.56,
+   "price": 1.3478,
+   "chg": 0.6,
    "spark": [
     1.3426,
     1.3301,
@@ -226,13 +226,13 @@
     1.3387,
     1.3348,
     1.3397,
-    1.3472
+    1.3478
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.405,
-   "chg": 0.13,
+   "price": 162.365,
+   "chg": 0.11,
    "spark": [
     160.419,
     160.6,
@@ -255,15 +255,14 @@
     161.878,
     162.429,
     162.187,
-    162.405
+    162.365
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1871.88,
-   "chg": -2.33,
+   "price": 1870.47,
+   "chg": -2.41,
    "spark": [
-    1874.69,
     1875.21,
     1881.35,
     1890.06,
@@ -310,15 +309,15 @@
     1878.48,
     1867.37,
     1875.01,
-    1871.88
+    1874.37,
+    1870.47
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64153.5,
-   "chg": -0.86,
+   "price": 64100.0,
+   "chg": -0.94,
    "spark": [
-    64530.3,
     64620.0,
     64818.7,
     64977.2,
@@ -365,7 +364,8 @@
     64438.5,
     64030.7,
     64223.5,
-    64153.5
+    64215.9,
+    64100.1
    ]
   }
  ],
@@ -398,44 +398,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784231192.724872,
+   "ts": 1784234525.236185,
    "title": "Silver tests key support in downtrend: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 12:46 AM",
+   "t": "17 Jul \u00b7 01:42 AM",
    "ur": "Salor doun trind mein kalidi maaunt ki janch karta hai: fi ghanta ki sath"
   },
   {
-   "ts": 1784231192.724872,
+   "ts": 1784234525.236185,
    "title": "Gold tests $3,978 support with RSI at 32: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "17 Jul \u00b7 12:46 AM",
+   "t": "17 Jul \u00b7 01:42 AM",
    "ur": "Gold 32 par RSI ke sath $3,978 sport ka test karta hai."
   },
   {
-   "ts": 1784231192.724872,
+   "ts": 1784234525.236185,
    "title": "Gold dives below $4,000 as oil-driven inflation fears keep Fed outlook cautious",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "17 Jul \u00b7 12:46 AM",
+   "t": "17 Jul \u00b7 01:42 AM",
    "ur": "Gold (sona) $4,000 se niche dob gaya cunkah til se chalne wali mahungai ke khadshat fed oat lak ko muhatat ruktey hen"
   },
   {
-   "ts": 1784231192.724872,
-   "title": "Wheat prices hold steady amid Black Sea shipping disruptions",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/wheat-prices-hold-steady-amid-black-sea-shipping-disruptions-93CH-4795974",
-   "t": "17 Jul \u00b7 12:46 AM",
-   "ur": "Baheerah isud ki tarsel mein rakaut ke darmiyan gandam ki qeemtin mastahkam hen."
-  },
-  {
-   "ts": 1784231192.724872,
-   "title": "BofA warns gold prices could fall further as 1980, 2011 peak patterns resurface",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/bofa-warns-gold-prices-could-fall-further-as-1980-2011-peak-patterns-resurface-4795885",
-   "t": "17 Jul \u00b7 12:46 AM",
-   "ur": "BofA ne khabrdar kiya hai kah Gold (sone) ki qeemtin 1980, 2011 ke choti ke patern ki recovery ke tur par mazid gar sakti hen"
+   "ts": 1784231820.0,
+   "title": "Singapore Dollar: Further upside risk builds against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-further-upside-risk-builds-against-us-dollar-uob-202607161957",
+   "t": "17 Jul \u00b7 12:57 AM",
+   "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf mazid alta khatrah badhta hai."
   },
   {
    "ts": 1784229603.0,
@@ -476,6 +468,14 @@
    "link": "https://www.fxstreet.com/news/gold-loses-track-of-4-000-drops-as-oil-shock-revives-fed-bets-202607161803",
    "t": "16 Jul \u00b7 11:03 PM",
    "ur": "Gold (sona) $4,000 ka trik kho dita hai, til ke jhatake ne Fed ki sharton ko bahal kiya hai."
+  },
+  {
+   "ts": 1784224801.0,
+   "title": "British Pound: Dips against US Dollar seen as buying opportunity \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-dips-against-us-dollar-seen-as-buying-opportunity-scotiabank-202607161800",
+   "t": "16 Jul \u00b7 11:00 PM",
+   "ur": "Bartanvi pound: US Dollar ke maqable mein kami ko khareedari ke moqa ke tur par dekha jata hai - Scotiabank"
   }
  ],
  "sentiment": {
