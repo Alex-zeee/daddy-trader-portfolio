@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 02:43 PKT",
+ "updated": "17-07-2026 03:38 PKT",
  "gold": {
-  "price": 3977.93,
+  "price": 3972.0,
   "open": 4048.05,
-  "high": 4058.24,
+  "high": 4052.08,
   "low": 3967.7,
-  "chg": -1.73,
+  "chg": -1.88,
   "src": "PAXG (Kraken)",
   "spark": [
-   4042.71,
    4044.56,
    4052.42,
    4029.9,
@@ -55,14 +54,15 @@
    3976.36,
    3974.97,
    3972.32,
-   3977.93
+   3978.15,
+   3972.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.765,
-   "chg": -2.36,
+   "price": 55.78,
+   "chg": -2.33,
    "spark": [
     69.899,
     70.696,
@@ -84,13 +84,13 @@
     57.634,
     58.772,
     57.11,
-    55.765
+    55.78
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.726,
-   "chg": 0.22,
+   "price": 100.708,
+   "chg": 0.21,
    "spark": [
     99.54,
     100.09,
@@ -112,13 +112,13 @@
     101.28,
     100.94,
     100.5,
-    100.726
+    100.708
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.89,
-   "chg": -0.89,
+   "price": 78.94,
+   "chg": -0.83,
    "spark": [
     76.05,
     76.79,
@@ -140,7 +140,7 @@
     78.14,
     79.34,
     79.6,
-    78.89
+    78.94
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1444,
-   "chg": 0.17,
+   "price": 1.1447,
+   "chg": 0.19,
    "spark": [
     1.161,
     1.1507,
@@ -197,13 +197,13 @@
     1.1404,
     1.1384,
     1.1425,
-    1.1444
+    1.1447
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3479,
-   "chg": 0.61,
+   "price": 1.3476,
+   "chg": 0.59,
    "spark": [
     1.3426,
     1.3301,
@@ -226,12 +226,12 @@
     1.3387,
     1.3348,
     1.3397,
-    1.3479
+    1.3476
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.352,
+   "price": 162.355,
    "chg": 0.1,
    "spark": [
     160.419,
@@ -255,15 +255,14 @@
     161.878,
     162.429,
     162.187,
-    162.352
+    162.355
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.15,
-   "chg": -2.06,
+   "price": 1874.74,
+   "chg": -2.19,
    "spark": [
-    1881.35,
     1890.06,
     1880.77,
     1868.96,
@@ -310,15 +309,15 @@
     1875.01,
     1874.37,
     1871.05,
-    1877.15
+    1876.75,
+    1874.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64150.0,
-   "chg": -0.86,
+   "price": 64081.9,
+   "chg": -0.97,
    "spark": [
-    64818.7,
     64977.2,
     64790.1,
     64624.2,
@@ -365,7 +364,8 @@
     64223.5,
     64215.9,
     64096.1,
-    64150.0
+    64097.6,
+    64081.9
    ]
   }
  ],
@@ -398,28 +398,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784238215.745948,
+   "ts": 1784241482.794408,
    "title": "Gold below $4k on oil-driven inflation fears, Dallas Fed\u2019s call for higher rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "17 Jul \u00b7 02:43 AM",
+   "t": "17 Jul \u00b7 03:38 AM",
    "ur": "Til se chalne wali mahungai ke khadshat par Gold (sona) $4k se niche, dalas fed ka baland sharahon ka matalbah"
   },
   {
-   "ts": 1784238215.745948,
+   "ts": 1784241482.794408,
    "title": "Silver tests key support in downtrend: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 02:43 AM",
+   "t": "17 Jul \u00b7 03:38 AM",
    "ur": "Salor doun trind mein kalidi maaunt ki janch karta hai: fi ghanta ki sath"
   },
   {
-   "ts": 1784238215.745948,
+   "ts": 1784241482.794408,
    "title": "Gold tests $3,978 support with RSI at 32: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "17 Jul \u00b7 02:43 AM",
+   "t": "17 Jul \u00b7 03:38 AM",
    "ur": "Gold 32 par RSI ke sath $3,978 sport ka test karta hai."
+  },
+  {
+   "ts": 1784238840.0,
+   "title": "Chinese Yuan: Upside bias toward 6.7600 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-upside-bias-toward-67600-against-us-dollar-uob-202607162154",
+   "t": "17 Jul \u00b7 02:54 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein 6.7600 ki taraf alta taasab - UOB"
   },
   {
    "ts": 1784234460.0,
@@ -468,14 +476,6 @@
    "link": "https://www.fxstreet.com/news/euro-falls-as-strong-us-jobless-claims-support-us-dollar-202607161847",
    "t": "16 Jul \u00b7 11:47 PM",
    "ur": "Uro garta hai cunkah US be rozgari ke mazboot daway US Dollar ki support karte hen."
-  },
-  {
-   "ts": 1784225694.0,
-   "title": "Silver Price Forecast: XAG/USD tests the $55 floor as sellers retain control",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-tests-the-55-floor-as-sellers-retain-control-202607161814",
-   "t": "16 Jul \u00b7 11:14 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $55 ki mazil ki janch karta hai cunkah bechane wale kantrol barqarar ruktey hen."
   }
  ],
  "sentiment": {
