@@ -1,15 +1,13 @@
 {
- "updated": "16-07-2026 09:30 PKT",
+ "updated": "16-07-2026 11:43 PKT",
  "gold": {
-  "price": 4024.13,
+  "price": 4016.38,
   "open": 4048.05,
   "high": 4069.54,
   "low": 4012.2,
-  "chg": -0.59,
+  "chg": -0.78,
   "src": "PAXG (Kraken)",
   "spark": [
-   4024.01,
-   4016.32,
    4012.41,
    4008.59,
    4014.41,
@@ -55,14 +53,16 @@
    4031.35,
    4023.25,
    4026.61,
-   4024.13
+   4025.51,
+   4018.83,
+   4016.38
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.42,
-   "chg": 0.54,
+   "price": 57.455,
+   "chg": 0.6,
    "spark": [
     69.899,
     70.696,
@@ -84,13 +84,13 @@
     57.634,
     58.772,
     57.11,
-    57.42
+    57.455
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.522,
-   "chg": 0.02,
+   "price": 100.503,
+   "chg": 0.0,
    "spark": [
     99.54,
     100.09,
@@ -112,13 +112,13 @@
     101.28,
     100.94,
     100.5,
-    100.522
+    100.503
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.49,
-   "chg": -0.14,
+   "price": 79.62,
+   "chg": 0.03,
    "spark": [
     76.05,
     76.79,
@@ -140,7 +140,7 @@
     78.14,
     79.34,
     79.6,
-    79.49
+    79.62
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1467,
-   "chg": 0.37,
+   "price": 1.1469,
+   "chg": 0.39,
    "spark": [
     1.161,
     1.1507,
@@ -197,13 +197,13 @@
     1.1404,
     1.1384,
     1.1425,
-    1.1467
+    1.1469
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3531,
-   "chg": 1.0,
+   "price": 1.3535,
+   "chg": 1.03,
    "spark": [
     1.3426,
     1.3301,
@@ -226,13 +226,13 @@
     1.3387,
     1.3348,
     1.3397,
-    1.3531
+    1.3535
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.137,
-   "chg": -0.03,
+   "price": 162.153,
+   "chg": -0.02,
    "spark": [
     160.419,
     160.6,
@@ -255,16 +255,14 @@
     161.878,
     162.429,
     162.187,
-    162.137
+    162.153
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.39,
-   "chg": 0.04,
+   "price": 1918.03,
+   "chg": 0.07,
    "spark": [
-    1784.33,
-    1780.94,
     1778.67,
     1783.81,
     1784.09,
@@ -310,16 +308,16 @@
     1921.37,
     1923.72,
     1916.94,
-    1917.39
+    1916.51,
+    1923.96,
+    1918.03
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64593.5,
-   "chg": -0.18,
+   "price": 64665.0,
+   "chg": -0.07,
    "spark": [
-    62639.9,
-    62542.0,
     62471.4,
     62625.9,
     62549.0,
@@ -365,7 +363,9 @@
     64688.5,
     64597.2,
     64563.5,
-    64593.5
+    64569.2,
+    64869.8,
+    64665.0
    ]
   }
  ],
@@ -430,20 +430,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784176208.477538,
-   "title": "Gold slips as oil-driven inflation fears keep Fed outlook in focus",
+   "ts": 1784184191.942233,
+   "title": "Gold extends losses as oil-driven inflation fears keep Fed outlook in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "16 Jul \u00b7 09:30 AM",
-   "ur": "Til ki wajah se mahungai ke khadshat fed oat lak ko fox mein ruktey huvay Gold (sona) phisal gaya."
+   "t": "16 Jul \u00b7 11:43 AM",
+   "ur": "Gold (sona) naqsanat ko badhata hai cunkah til se chalne wali inflation (mehngai) ke khadshat fed oat lak ko fox mein ruktey hen."
+  },
+  {
+   "ts": 1784179595.0,
+   "title": "Gold sticks to modest losses as energy-driven inflation fears revive hawkish Fed bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-declines-as-iran-tensions-fuel-inflation-risks-revive-fed-hike-bets-and-support-usd-202607160358",
+   "t": "16 Jul \u00b7 10:26 AM",
+   "ur": "Gold (sona) mamoli naqsanat par qaaim hai cunkah tawanai se chalne wali mahungai ke khuf se fed bates ki recovery ka khadshah hai"
+  },
+  {
+   "ts": 1784176510.0,
+   "title": "India Gold price today: Gold falls, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202607160435",
+   "t": "16 Jul \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
+  },
+  {
+   "ts": 1784176474.0,
+   "title": "Euro consolidates near four-week top, above mid-1.1400s amid mixed Fed cues, geopolitics",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-consolidates-near-four-week-top-above-mid-11400s-amid-mixed-fed-cues-geopolitics-202607160434",
+   "t": "16 Jul \u00b7 09:34 AM",
+   "ur": "Mukhaloot fed ashare, geograpi siyast ke darmiyan 1.1400s ke wast se oper, uro char hafte ki choti ke qarib mastahkam"
   },
   {
    "ts": 1784172653.0,
-   "title": "Senior BOJ official: Delay in adjustment amid high inflation risk could trigger economic downturn",
+   "title": "Senior BoJ official: Delay in adjustment amid high inflation risk could trigger economic downturn",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/senior-boj-official-delay-in-adjustment-amid-high-inflation-risk-could-trigger-economic-downturn-202607160330",
    "t": "16 Jul \u00b7 08:30 AM",
-   "ur": "BOJ ke sinior ahilkar: inflation (mehngai) ke baland khatre ke darmiyan adjustment mein taakhair mashi badahali ka baas ban sakti hai."
+   "ur": "BoJ ke sinior ahilkar: inflation (mehngai) ke baland khatre ke darmiyan adjustment mein taakhair mashi badahali ka baas ban sakti hai."
   },
   {
    "ts": 1784171849.0,
@@ -484,30 +508,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-5700-amid-middle-east-tensions-202607160203",
    "t": "16 Jul \u00b7 07:03 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: masharq wasti mein kasheedgi ke darmiyan XAG/USD gar kar $57.00 ke qarib"
-  },
-  {
-   "ts": 1784164644.0,
-   "title": "Canadian Dollar consolidates near four-week top vs USD; elevated oil prices favor bulls",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-consolidates-near-four-week-top-vs-usd-elevated-oil-prices-favor-bulls-202607160117",
-   "t": "16 Jul \u00b7 06:17 AM",
-   "ur": "Caniden Dollar char hafte ki tap bamaqablah USD ke qarib mastahkam til ki baland qeemtin belon ke haq mein hen."
-  },
-  {
-   "ts": 1784164396.0,
-   "title": "Australian Dollar remains subdued as Consumer Inflation Expectations fall in July",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-remains-subdued-as-consumer-inflation-expectations-fall-in-july-202607160113",
-   "t": "16 Jul \u00b7 06:13 AM",
-   "ur": "Joli mein sarfin ki inflation (mehngai) ki toqaat mein kami ke baas aasteriliyai Dollar badastor zir asar hai."
-  },
-  {
-   "ts": 1784163416.0,
-   "title": "New Zealand Dollar drops as Middle East conflict escalates",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-drops-as-middle-east-conflict-escalates-202607160056",
-   "t": "16 Jul \u00b7 05:56 AM",
-   "ur": "Masharq wasta mein tanaza badhane se niyozi lind Dollar ki qeemat mein kami"
   }
  ],
  "sentiment": {
