@@ -861,7 +861,10 @@
     <p class="section-label">Live — Signals</p>
     <h2>Live Trading Signals</h2>
     <div id="signal-board" class="signal-grid"><p style="color:var(--ink-soft)">Loading signals…</p></div>
-    <p class="calc-note">📱 <strong>Want push notifications on your phone?</strong> Install the free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> and subscribe to the topic <strong>daddytrader-ali-signals</strong> — you'll get an instant alert for every new signal, even when the app is closed.</p>
+    <p class="calc-note">📱 <strong>Want alerts even when this app is CLOSED?</strong> Two easy ways:<br>
+    1️⃣ <strong>No install needed:</strong> open <a href="https://ntfy.sh/daddytrader-ali-signals" target="_blank" rel="noopener">ntfy.sh/daddytrader-ali-signals</a> (signals) and <a href="https://ntfy.sh/daddytrader-ali-news" target="_blank" rel="noopener">ntfy.sh/daddytrader-ali-news</a> (gold news) in Chrome → tap <strong>Subscribe</strong> → allow notifications.<br>
+    2️⃣ <strong>Best for mobile:</strong> install the free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> and subscribe to topics <strong>daddytrader-ali-signals</strong> and <strong>daddytrader-ali-news</strong>.<br>
+    The 🔔 button above works while the app is open — for closed-app alerts, use ntfy.</p>
     <p class="calc-note">⚠ Signals are for educational purposes only — not financial advice. Trading involves risk of loss. Always do your own research.</p>
   </div>
 </section>
@@ -1640,11 +1643,9 @@
         if (newest && 'Notification' in window){
           const last = localStorage.getItem('last_sig_ts');
           if (newest.ts !== last){
-            if (last && Notification.permission === 'granted'){
-              new Notification('📈 New Signal — ' + newest.pair, {
-                body: newest.type + ' @ ' + newest.entry + ' | SL ' + newest.sl + ' | TP ' + newest.tp,
-                icon: 'icon-192.png'
-              });
+            if (last){
+              notify('📈 New Signal — ' + newest.pair,
+                newest.type + ' @ ' + newest.entry + ' | SL ' + newest.sl + ' | TP ' + newest.tp);
             }
             localStorage.setItem('last_sig_ts', newest.ts);
           }
@@ -1690,6 +1691,18 @@
   setInterval(renderSessions, 60000);
 
   // Gold Market Monitor — deep data from monitor.json (bot updates every 15 min)
+  // Android/mobile pe new Notification() nahi chalta — service worker se dena zaroori hai
+  function notify(title, body){
+    try{
+      if (!('Notification' in window) || Notification.permission !== 'granted') return;
+      const opts = { body: body, icon: 'icon-192.png', badge: 'icon-192.png', tag: 'dt-' + Date.now() };
+      if (navigator.serviceWorker){
+        navigator.serviceWorker.ready
+          .then(reg => reg.showNotification(title, opts))
+          .catch(() => { try{ new Notification(title, opts); }catch(e){} });
+      } else { try{ new Notification(title, opts); }catch(e){} }
+    }catch(e){}
+  }
   function esc(s){ return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
   function fmt(n, d){ return Number(n).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d}); }
   function spark(arr, w, h){
@@ -1774,6 +1787,11 @@
         const n0 = d.news[0];
         const changed = ln.dataset.link !== n0.link;
         ln.dataset.link = n0.link;
+        const lastNews = localStorage.getItem('last_news_link');
+        if (n0.link !== lastNews){
+          if (lastNews) notify('📰 Gold News Update', n0.ur || n0.title);
+          localStorage.setItem('last_news_link', n0.link);
+        }
         ln.innerHTML = '<a class="ticker-card' + (changed ? ' tk-anim' : '') + '" href="' + esc(n0.link) + '" target="_blank" rel="noopener">' +
           '<span class="tk-tag"><span class="mon-dot">●</span> LATEST UPDATE — GOLD NEWS</span>' +
           '<span class="tk-title">' + esc(n0.ur || n0.title) + '</span>' +
@@ -1824,7 +1842,7 @@
     if (sigSection){
       const nb = document.createElement('button');
       nb.className = 'btn ghost';
-      nb.textContent = '🔔 Enable Signal Notifications';
+      nb.textContent = '🔔 Enable Notifications (Signals + News)';
       nb.style.marginBottom = '18px';
       nb.addEventListener('click', () => {
         Notification.requestPermission().then(p => { if (p !== 'default') nb.remove(); });

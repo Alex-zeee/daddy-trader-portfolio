@@ -244,6 +244,18 @@ except Exception as e:
     out["sentiment"] = None
 
 out["err"] = errs or None
+
+# nayi top news aayi ho tou .new_news likho (workflow ntfy push bhejta hai)
+try:
+    with open("monitor.json") as fh:
+        old_link = ((json.load(fh).get("news") or [{}])[0]).get("link")
+except Exception:
+    old_link = None
+top = (out["news"] or [{}])[0]
+if top.get("link") and old_link and top["link"] != old_link:
+    with open(".new_news", "w") as fh:
+        fh.write((top.get("ur") or top.get("title") or "")[:200])
+
 with open("monitor.json", "w") as fh:
     json.dump(out, fh, indent=1)
 print("monitor.json written | markets:%d cal:%d news:%d | errs:%s"

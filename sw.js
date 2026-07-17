@@ -1,5 +1,5 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v2';
+const CACHE = 'daddytrader-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -20,6 +20,17 @@ self.addEventListener('activate', (e) => {
     caches.keys().then(keys =>
       Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
     ).then(() => self.clients.claim())
+  );
+});
+
+// notification pe tap → app kholo / focus karo
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close();
+  e.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
+      for (const c of list){ if ('focus' in c) return c.focus(); }
+      return clients.openWindow('./');
+    })
   );
 });
 
