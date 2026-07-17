@@ -1,15 +1,13 @@
 {
- "updated": "17-07-2026 04:34 PKT",
+ "updated": "17-07-2026 06:09 PKT",
  "gold": {
-  "price": 3974.35,
-  "open": 4048.05,
-  "high": 4050.63,
+  "price": 3986.32,
+  "open": 3981.8,
+  "high": 4039.09,
   "low": 3967.7,
-  "chg": -1.82,
+  "chg": 0.11,
   "src": "PAXG (Kraken)",
   "spark": [
-   4052.42,
-   4029.9,
    4033.1,
    4024.01,
    4025.76,
@@ -55,14 +53,16 @@
    3972.32,
    3978.15,
    3972.36,
-   3974.35
+   3979.81,
+   3986.15,
+   3986.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.76,
-   "chg": -2.36,
+   "price": 56.015,
+   "chg": -1.92,
    "spark": [
     69.899,
     70.696,
@@ -84,12 +84,12 @@
     57.634,
     58.772,
     57.11,
-    55.76
+    56.015
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.708,
+   "price": 100.71,
    "chg": 0.21,
    "spark": [
     99.54,
@@ -112,13 +112,13 @@
     101.28,
     100.94,
     100.5,
-    100.708
+    100.71
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.98,
-   "chg": -0.78,
+   "price": 79.13,
+   "chg": -0.59,
    "spark": [
     76.05,
     76.79,
@@ -140,7 +140,7 @@
     78.14,
     79.34,
     79.6,
-    78.98
+    79.13
    ]
   },
   {
@@ -203,7 +203,7 @@
   {
    "name": "GBP/USD",
    "price": 1.3477,
-   "chg": -0.48,
+   "chg": -0.47,
    "spark": [
     1.3301,
     1.3202,
@@ -231,8 +231,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 162.333,
-   "chg": 0.16,
+   "price": 162.442,
+   "chg": 0.23,
    "spark": [
     160.6,
     161.289,
@@ -255,16 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.333
+    162.442
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1860.66,
-   "chg": -2.92,
+   "price": 1868.45,
+   "chg": 0.28,
    "spark": [
-    1880.77,
-    1868.96,
     1863.33,
     1875.36,
     1874.45,
@@ -310,16 +308,16 @@
     1871.05,
     1876.75,
     1867.33,
-    1860.66
+    1863.33,
+    1864.09,
+    1868.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63763.3,
-   "chg": -1.46,
+   "price": 63974.0,
+   "chg": 0.29,
    "spark": [
-    64790.1,
-    64624.2,
     64453.6,
     64741.2,
     64690.9,
@@ -365,7 +363,9 @@
     64096.1,
     64097.6,
     63915.1,
-    63763.3
+    63789.5,
+    63835.2,
+    63974.0
    ]
   }
  ],
@@ -398,28 +398,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784244877.719227,
+   "ts": 1784250555.787081,
    "title": "Gold below $4k on oil-driven inflation fears, Dallas Fed\u2019s call for higher rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "17 Jul \u00b7 04:34 AM",
+   "t": "17 Jul \u00b7 06:09 AM",
    "ur": "Til se chalne wali mahungai ke khadshat par Gold (sona) $4k se niche, dalas fed ka baland sharahon ka matalbah"
   },
   {
-   "ts": 1784244877.719227,
+   "ts": 1784250555.787081,
    "title": "Silver tests key support in downtrend: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 04:34 AM",
+   "t": "17 Jul \u00b7 06:09 AM",
    "ur": "Salor doun trind mein kalidi maaunt ki janch karta hai: fi ghanta ki sath"
   },
   {
-   "ts": 1784244877.719227,
+   "ts": 1784250555.787081,
    "title": "Gold tests $3,978 support with RSI at 32: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "17 Jul \u00b7 04:34 AM",
+   "t": "17 Jul \u00b7 06:09 AM",
    "ur": "Gold 32 par RSI ke sath $3,978 sport ka test karta hai."
+  },
+  {
+   "ts": 1784244287.0,
+   "title": "Gold tumbles to eight-month low below $4,000 as Middle East tensions reinforce US rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-tumbles-to-eight-month-low-below-4-000-as-middle-east-tensions-reinforce-us-rate-hike-bets-202607162324",
+   "t": "17 Jul \u00b7 04:24 AM",
+   "ur": "Gold (sona) auth mah ki kam tarin sath par $4,000 se niche gar gaya cunkah masharq wasti ke tanao ne US rate mein azafe ki shart ko taqwet di"
   },
   {
    "ts": 1784243440.0,
@@ -468,19 +476,11 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-further-upside-risk-builds-against-us-dollar-uob-202607161957",
    "t": "17 Jul \u00b7 12:57 AM",
    "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf mazid alta khatrah badhta hai."
-  },
-  {
-   "ts": 1784229603.0,
-   "title": "Mexican Peso drops as risk aversion underpins the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-drops-as-risk-aversion-underpins-the-us-dollar-202607161920",
-   "t": "17 Jul \u00b7 12:20 AM",
-   "ur": "Mexican peso mein kami waqa hoi hai cunkah khatre se bachana US Dollar ko kam karta hai."
   }
  ],
  "sentiment": {
-  "value": 25,
-  "label": "Extreme Fear"
+  "value": 27,
+  "label": "Fear"
  },
  "err": null
 }
