@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 23:55 PKT",
+ "updated": "18-07-2026 00:23 PKT",
  "gold": {
-  "price": 4001.4,
+  "price": 3996.42,
   "open": 3981.8,
   "high": 4014.9,
   "low": 3956.89,
-  "chg": 0.49,
+  "chg": 0.37,
   "src": "PAXG (Kraken)",
   "spark": [
-   4046.15,
    4053.38,
    4054.81,
    4050.69,
@@ -55,14 +54,15 @@
    4009.83,
    4007.3,
    4000.88,
-   4001.4
+   4002.4,
+   3996.42
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.195,
-   "chg": 0.53,
+   "price": 56.21,
+   "chg": 0.56,
    "spark": [
     70.696,
     66.255,
@@ -84,7 +84,7 @@
     58.772,
     57.11,
     55.898,
-    56.195
+    56.21
    ]
   },
   {
@@ -117,8 +117,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 81.41,
-   "chg": 3.12,
+   "price": 81.34,
+   "chg": 3.03,
    "spark": [
     76.79,
     76.6,
@@ -140,13 +140,13 @@
     79.34,
     79.6,
     78.95,
-    81.41
+    81.34
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.537,
-   "chg": -0.7,
+   "price": 4.541,
+   "chg": -0.61,
    "spark": [
     4.463,
     4.451,
@@ -168,13 +168,13 @@
     4.585,
     4.545,
     4.569,
-    4.537
+    4.541
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1439,
-   "chg": -0.27,
+   "price": 1.144,
+   "chg": -0.26,
    "spark": [
     1.1507,
     1.1459,
@@ -197,7 +197,7 @@
     1.1384,
     1.1425,
     1.147,
-    1.1439
+    1.144
    ]
   },
   {
@@ -231,8 +231,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 162.421,
-   "chg": 0.22,
+   "price": 162.451,
+   "chg": 0.23,
    "spark": [
     160.6,
     161.289,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.421
+    162.451
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1847.54,
-   "chg": -0.84,
+   "price": 1835.82,
+   "chg": -1.47,
    "spark": [
-    1922.72,
     1922.54,
     1920.69,
     1922.13,
@@ -310,15 +309,15 @@
     1829.35,
     1834.89,
     1842.43,
-    1847.54
+    1846.12,
+    1835.82
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64259.1,
-   "chg": 0.74,
+   "price": 63975.8,
+   "chg": 0.29,
    "spark": [
-    64926.0,
     64937.0,
     64787.8,
     64826.0,
@@ -365,7 +364,8 @@
     63400.0,
     63552.8,
     64007.7,
-    64261.7
+    64217.4,
+    63975.8
    ]
   }
  ],
@@ -422,28 +422,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784314543.880135,
+   "ts": 1784316192.326254,
+   "title": "Silver in persistent downtrend at $56.30: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
+   "t": "18 Jul \u00b7 12:23 AM",
+   "ur": "Silver (chandi) ki qeemat maslsal garaut mein $56.30 par hai."
+  },
+  {
+   "ts": 1784316192.326254,
+   "title": "Gold stuck below resistance after bullish engulfing: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
+   "t": "18 Jul \u00b7 12:23 AM",
+   "ur": "Gold (sona) tizi ki lapet mein aane ke bad mazahmat se niche phans gaya."
+  },
+  {
+   "ts": 1784316192.326254,
    "title": "Gold Tests 8-Month Lows: Strong Support Level or Deeper Correction?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-8month-lows-strong-support-level-or-deeper-correction-93CH-4798883",
-   "t": "17 Jul \u00b7 11:55 PM",
+   "t": "18 Jul \u00b7 12:23 AM",
    "ur": "Gold test 8 mah ki kam tarin sath: mazboot sport liyol yaa gehri asilah?"
   },
   {
-   "ts": 1784314543.880135,
+   "ts": 1784316192.326254,
    "title": "Gold up but on track for weekly drop as Mideast strikes fuel inflation concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "17 Jul \u00b7 11:55 PM",
+   "t": "18 Jul \u00b7 12:23 AM",
    "ur": "Gold (sona) badh raha hai lican haftah war garaut ke raaste par hai cunkah masharq wasti mein andhan ki mahungai ke khadshat hen."
   },
   {
-   "ts": 1784314543.880135,
-   "title": "Goldman sees central bank demand providing a floor for gold prices",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-sees-central-bank-demand-providing-a-floor-for-gold-prices-4798118",
-   "t": "17 Jul \u00b7 11:55 PM",
-   "ur": "Golldomin santrl Bank ki talab ko Gold (sone) ki qeemton ke liye mazil faraham karne ko dekhta hai."
+   "ts": 1784313325.0,
+   "title": "Forecasting the coming week: ECB decision, UK inflation, and global PMIs to drive markets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forecasting-the-coming-week-ecb-decision-uk-inflation-and-global-pmis-to-drive-markets-202607171835",
+   "t": "17 Jul \u00b7 11:35 PM",
+   "ur": "Aane wale hafte ki forecast: ECB ka fisalah, UK inflation (mehngai), aur alimi PMIs marketon ko chalane ke liye"
   },
   {
    "ts": 1784312377.0,
@@ -484,22 +500,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-recovers-as-mixed-us-data-weakens-the-us-dollar-202607171556",
    "t": "17 Jul \u00b7 08:56 PM",
    "ur": "Aasterilvi Dollar ki wasuli ki wajah se mukhaloot US deta US Dollar ko kamazor karta hai."
-  },
-  {
-   "ts": 1784303520.0,
-   "title": "British Pound: Burnham policy hopes underpin Sterling against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-burnham-policy-hopes-underpin-sterling-against-us-dollar-scotiabank-202607171552",
-   "t": "17 Jul \u00b7 08:52 PM",
-   "ur": "Bartanvi pound: barnham palisi amid karti hai kah US Dollar ke maqable mein sterling ko zir kiya jaye - Scotiabank"
-  },
-  {
-   "ts": 1784302080.0,
-   "title": "Canada: Inflation divergence shapes BoC outlook \u2013 RBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canada-inflation-divergence-shapes-boc-outlook-rbc-202607171528",
-   "t": "17 Jul \u00b7 08:28 PM",
-   "ur": "Canida: inflation (mehngai) ka farq BoC oat lak ko shakl dita hai - RBC"
   }
  ],
  "sentiment": {
