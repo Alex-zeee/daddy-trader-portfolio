@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 15:28 PKT",
+ "updated": "17-07-2026 16:50 PKT",
  "gold": {
-  "price": 3990.54,
+  "price": 3987.87,
   "open": 3981.8,
-  "high": 4031.81,
+  "high": 4030.4,
   "low": 3967.68,
-  "chg": 0.22,
+  "chg": 0.15,
   "src": "PAXG (Kraken)",
   "spark": [
-   4030.82,
    4061.35,
    4053.43,
    4046.66,
@@ -55,14 +54,15 @@
    3989.76,
    3988.99,
    3989.46,
-   3990.54
+   3985.92,
+   3987.87
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.685,
-   "chg": -0.38,
+   "price": 55.635,
+   "chg": -0.47,
    "spark": [
     70.696,
     66.255,
@@ -84,13 +84,13 @@
     58.772,
     57.11,
     55.898,
-    55.685
+    55.635
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.781,
-   "chg": 0.05,
+   "price": 100.772,
+   "chg": 0.04,
    "spark": [
     100.09,
     100.85,
@@ -112,13 +112,13 @@
     100.94,
     100.5,
     100.73,
-    100.781
+    100.772
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.07,
-   "chg": 1.42,
+   "price": 80.02,
+   "chg": 1.36,
    "spark": [
     76.79,
     76.6,
@@ -140,7 +140,7 @@
     79.34,
     79.6,
     78.95,
-    80.07
+    80.02
    ]
   },
   {
@@ -202,8 +202,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3436,
-   "chg": -0.78,
+   "price": 1.3439,
+   "chg": -0.76,
    "spark": [
     1.3301,
     1.3202,
@@ -226,13 +226,13 @@
     1.3348,
     1.3397,
     1.3541,
-    1.3436
+    1.3439
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.414,
-   "chg": 0.21,
+   "price": 162.327,
+   "chg": 0.16,
    "spark": [
     160.6,
     161.289,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.414
+    162.327
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1836.63,
-   "chg": -1.43,
+   "price": 1838.3,
+   "chg": -1.34,
    "spark": [
-    1883.51,
     1925.52,
     1923.84,
     1930.98,
@@ -310,15 +309,15 @@
     1826.5,
     1828.45,
     1833.1,
-    1836.63
+    1835.59,
+    1838.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63035.0,
-   "chg": -1.18,
+   "price": 63204.9,
+   "chg": -0.92,
    "spark": [
-    64690.8,
     65109.8,
     65040.7,
     65335.2,
@@ -365,7 +364,8 @@
     62777.9,
     62844.1,
     62931.3,
-    63035.0
+    63125.5,
+    63204.9
    ]
   }
  ],
@@ -390,36 +390,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784284090.382936,
-   "title": "Gold trims weekly losses as bargain hunting offsets Middle East inflation fears",
+   "ts": 1784289051.885245,
+   "title": "Goldman sees central bank demand providing a floor for gold prices",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "17 Jul \u00b7 03:28 PM",
-   "ur": "Gold (sona) haftah war naqsanat ko kam karta hai cunkah sude bazi ke shkar masharq wasta mein inflation (mehngai) ke khadshat ko dur karta hai."
+   "link": "https://www.investing.com/news/commodities-news/goldman-sees-central-bank-demand-providing-a-floor-for-gold-prices-4798118",
+   "t": "17 Jul \u00b7 04:50 PM",
+   "ur": "Golldomin santrl Bank ki talab ko Gold (sone) ki qeemton ke liye mazil faraham karne ko dekhta hai."
   },
   {
-   "ts": 1784284090.382936,
+   "ts": 1784289051.885245,
+   "title": "Gold on track for weekly drop as Mideast strikes fuel inflation concerns",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
+   "t": "17 Jul \u00b7 04:50 PM",
+   "ur": "Gold (sona) haftah war garaut ke liye raaste par hai cunkah masharq wasta mein andhan ki inflation (mehngai) ke khadshat hen."
+  },
+  {
+   "ts": 1784289051.885245,
    "title": "Silver in steep downtrend, RSI at 27: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 03:28 PM",
+   "t": "17 Jul \u00b7 04:50 PM",
    "ur": "Tizi se niche ke rjahan mein Silver (chandi), 27 par RSI: ghanta ki sath"
   },
   {
-   "ts": 1784284090.382936,
+   "ts": 1784289051.885245,
    "title": "Gold bear flag below $4,087 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "17 Jul \u00b7 03:28 PM",
+   "t": "17 Jul \u00b7 04:50 PM",
    "ur": "$4,087 mazahmat se niche Gold (sone) ke bears ka parcham"
   },
   {
-   "ts": 1784284090.382936,
-   "title": "Gold below $4k on oil-driven inflation fears, Dallas Fed\u2019s call for higher rates",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
+   "ts": 1784287485.0,
+   "title": "US Dollar: Steadies on risk-off flows \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-steadies-on-risk-off-flows-bbh-202607171124",
+   "t": "17 Jul \u00b7 04:24 PM",
+   "ur": "US Dollar: rask af filo par mastahkam - BBH"
+  },
+  {
+   "ts": 1784286415.0,
+   "title": "Australian Dollar declines as Middle East tensions boost the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-declines-as-middle-east-tensions-boost-the-us-dollar-202607171106",
+   "t": "17 Jul \u00b7 04:06 PM",
+   "ur": "Aasterilvi Dollar mein kami hoi cunkah masharq wasta mein kasheedgi ne US Dollar ko farog diya."
+  },
+  {
+   "ts": 1784285994.0,
+   "title": "Gold Price Forecast: XAU/USD hovers below $4,000 with the YTD low at hand",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-hovers-below-4-000-with-the-ytd-low-at-hand-202607171059",
+   "t": "17 Jul \u00b7 03:59 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,000 se niche hai aur YTD kam hai"
+  },
+  {
+   "ts": 1784284082.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202607171028",
    "t": "17 Jul \u00b7 03:28 PM",
-   "ur": "Til se chalne wali mahungai ke khadshat par Gold (sona) $4k se niche, dalas fed ka baland sharahon ka matalbah"
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
+  },
+  {
+   "ts": 1784283155.0,
+   "title": "Japanese Yen drifts lower against the US Dollar and draws closer to 40-year lows",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-against-the-us-dollar-and-draws-closer-to-40-year-lows-202607171012",
+   "t": "17 Jul \u00b7 03:12 PM",
+   "ur": "Japani yan US Dollar ke maqable mein kam ho kar 40 sal ki kam tarin sath ke qarib pohch gaya"
   },
   {
    "ts": 1784280365.0,
@@ -428,46 +468,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-on-track-for-weekly-decline-as-middle-east-tensions-fuel-rate-hike-worries-202607170926",
    "t": "17 Jul \u00b7 02:26 PM",
    "ur": "Silver (chandi) ki qeemat haftah war garaut ke raaste par hai cunkah masharq wasti mein kasheedgi andhan ki rate mein azafe ki tyush hai."
-  },
-  {
-   "ts": 1784279827.0,
-   "title": "US Dollar: Smile narrative supports gradual gains \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-smile-narrative-supports-gradual-gains-ocbc-202607170917",
-   "t": "17 Jul \u00b7 02:17 PM",
-   "ur": "US Dollar: maskarahat ki dastan btadarage fawaid ki support karti hai - OCBC"
-  },
-  {
-   "ts": 1784277869.0,
-   "title": "Japanese Yen: Slight downside bias within tight band against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-slight-downside-bias-within-tight-band-against-us-dollar-uob-202607170844",
-   "t": "17 Jul \u00b7 01:44 PM",
-   "ur": "Japani yan: US Dollar - UOB ke khalaf saqt bind ke andar thoda sa manfi taasab"
-  },
-  {
-   "ts": 1784277276.0,
-   "title": "USD/CHF Price Forecast: Rejection at 0.8100 keeps the US Dollar on the back foot",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-rejection-at-08100-keeps-the-us-dollar-on-the-back-foot-202607170834",
-   "t": "17 Jul \u00b7 01:34 PM",
-   "ur": "USD/CHF qeemat ki forecast: 0.8100 par mastard hona US Dollar ko bek ft par rakta hai"
-  },
-  {
-   "ts": 1784276774.0,
-   "title": "US Dollar: Fed path and inflation risks \u2013 Wells Fargo",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fed-path-and-inflation-risks-wells-fargo-202607170826",
-   "t": "17 Jul \u00b7 01:26 PM",
-   "ur": "US Dollar: fed path aur inflation (mehngai) ke khatrat - wells fargo"
-  },
-  {
-   "ts": 1784276574.0,
-   "title": "Gold bulls seem hesitant as US-Iran tensions and Fed hike bets underpin USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-recovers-from-monthly-low-hawkish-fed-outlook-and-firm-usd-to-limit-gains-202607170415",
-   "t": "17 Jul \u00b7 01:22 PM",
-   "ur": "US-eran kasheedgi aur fed mein azafe ki shartin USD ko kam karne ke baas Gold (sone) ke bel hichakchate nazar aate hen."
   }
  ],
  "sentiment": {
