@@ -661,40 +661,6 @@
 @media(max-width:980px){.ana-grid{grid-template-columns:1fr}}
 </style>
 
-<!-- ===== THEME V4 : Bloomberg terminal (navy + cyan + amber) ===== -->
-<style id="theme-v4-bloomberg">
-:root{
-  --bg:#05080f; --panel:#0b111f; --ink:#e6edf9; --ink-soft:#8091b4;
-  --line:#1a2440; --accent:#29c5ff; --accent-dark:#0a1526;
-}
-body{background:
-  radial-gradient(1000px 500px at 85% -10%, rgba(41,197,255,.06), transparent 60%),
-  radial-gradient(800px 420px at -10% 30%, rgba(255,176,46,.05), transparent 60%),
-  var(--bg);}
-.section-label, .eyebrow{color:#ffb02e}
-.mon-card, .ana-card{background:#080d19;border-color:#1a2440}
-.mon-title{color:#cfd9ee}
-.mon-dot{color:#00d26a}
-.mon-tag{background:rgba(255,176,46,.12);color:#ffb02e}
-.mon-tag-red{background:rgba(255,77,94,.13);color:#ff4d5e}
-.chg-up{color:#00d26a}
-.chg-dn{color:#ff4d5e}
-.sess-open{color:#00d26a}
-.imp-med{background:rgba(255,176,46,.13);color:#ffb02e}
-.imp-high{background:rgba(255,77,94,.15);color:#ff4d5e}
-.g-chip{border-color:rgba(41,197,255,.4);color:#29c5ff}
-.g-stats div{background:#0a101f;border-color:#1a2440}
-.mkt-row,.cal-row,.sess-row,.news-row{border-bottom-color:#141d33}
-.ticker-card{background:linear-gradient(90deg,rgba(255,176,46,.09),rgba(41,197,255,.07));border-color:rgba(255,176,46,.45)}
-.ticker-card:hover{border-color:#ffb02e}
-.tk-tag{color:#ffb02e}
-.news-row{border-left-color:#243252}
-.news-row:hover{border-left-color:#ffb02e}
-.news-row:hover .news-title{color:#ffb02e}
-.news-meta em{color:#29c5ff}
-.ana-card:hover{border-color:#29c5ff}
-.ana-new{background:#ffb02e;color:#241800}
-</style>
 
 <!-- ===== THEME V3 : Dark neon (crypto/trading terminal style) ===== -->
 <style id="theme-v3">
@@ -818,6 +784,41 @@ body{background:
 
   #candle-chart rect[fill="#2e5c4e"], #candle-chart line[stroke="#2e5c4e"]{ fill: #00e8c6; stroke: #00e8c6; }
   #candle-chart rect[fill="#a24438"], #candle-chart line[stroke="#a24438"]{ fill: #e5484d; stroke: #e5484d; }
+</style>
+
+<!-- ===== THEME V4 : Bloomberg terminal (navy + cyan + amber) ===== -->
+<style id="theme-v4-bloomberg">
+:root{
+  --bg:#05080f; --panel:#0b111f; --ink:#e6edf9; --ink-soft:#8091b4;
+  --line:#1a2440; --accent:#29c5ff; --accent-dark:#0a1526;
+}
+body{background:
+  radial-gradient(1000px 500px at 85% -10%, rgba(41,197,255,.06), transparent 60%),
+  radial-gradient(800px 420px at -10% 30%, rgba(255,176,46,.05), transparent 60%),
+  var(--bg);}
+.section-label, .eyebrow{color:#ffb02e}
+.mon-card, .ana-card{background:#080d19;border-color:#1a2440}
+.mon-title{color:#cfd9ee}
+.mon-dot{color:#00d26a}
+.mon-tag{background:rgba(255,176,46,.12);color:#ffb02e}
+.mon-tag-red{background:rgba(255,77,94,.13);color:#ff4d5e}
+.chg-up{color:#00d26a}
+.chg-dn{color:#ff4d5e}
+.sess-open{color:#00d26a}
+.imp-med{background:rgba(255,176,46,.13);color:#ffb02e}
+.imp-high{background:rgba(255,77,94,.15);color:#ff4d5e}
+.g-chip{border-color:rgba(41,197,255,.4);color:#29c5ff}
+.g-stats div{background:#0a101f;border-color:#1a2440}
+.mkt-row,.cal-row,.sess-row,.news-row{border-bottom-color:#141d33}
+.ticker-card{background:linear-gradient(90deg,rgba(255,176,46,.09),rgba(41,197,255,.07));border-color:rgba(255,176,46,.45)}
+.ticker-card:hover{border-color:#ffb02e}
+.tk-tag{color:#ffb02e}
+.news-row{border-left-color:#243252}
+.news-row:hover{border-left-color:#ffb02e}
+.news-row:hover .news-title{color:#ffb02e}
+.news-meta em{color:#29c5ff}
+.ana-card:hover{border-color:#29c5ff}
+.ana-new{background:#ffb02e;color:#241800}
 </style>
 </head>
 <body>
