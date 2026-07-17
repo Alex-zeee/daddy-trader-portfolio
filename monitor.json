@@ -1,5 +1,5 @@
 {
- "updated": "17-07-2026 22:57 PKT",
+ "updated": "17-07-2026 23:00 PKT",
  "gold": {
   "price": 4000.88,
   "open": 3981.8,
@@ -8,7 +8,6 @@
   "chg": 0.48,
   "src": "PAXG (Kraken)",
   "spark": [
-   4050.24,
    4046.15,
    4053.38,
    4054.81,
@@ -55,14 +54,15 @@
    3992.29,
    4009.83,
    4007.3,
+   4000.88,
    4000.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.185,
-   "chg": 0.51,
+   "price": 56.22,
+   "chg": 0.58,
    "spark": [
     70.696,
     66.255,
@@ -84,12 +84,12 @@
     58.772,
     57.11,
     55.898,
-    56.185
+    56.22
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.782,
+   "price": 100.781,
    "chg": 0.05,
    "spark": [
     100.09,
@@ -112,13 +112,13 @@
     100.94,
     100.5,
     100.73,
-    100.782
+    100.781
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.76,
-   "chg": 3.56,
+   "price": 81.82,
+   "chg": 3.64,
    "spark": [
     76.79,
     76.6,
@@ -140,13 +140,13 @@
     79.34,
     79.6,
     78.95,
-    81.76
+    81.82
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.547,
-   "chg": -0.48,
+   "price": 4.545,
+   "chg": -0.53,
    "spark": [
     4.463,
     4.451,
@@ -168,7 +168,7 @@
     4.585,
     4.545,
     4.569,
-    4.547
+    4.545
    ]
   },
   {
@@ -231,8 +231,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 162.454,
-   "chg": 0.24,
+   "price": 162.447,
+   "chg": 0.23,
    "spark": [
     160.6,
     161.289,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.454
+    162.447
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1841.88,
-   "chg": -1.14,
+   "price": 1841.64,
+   "chg": -1.16,
    "spark": [
-    1922.61,
     1922.72,
     1922.54,
     1920.69,
@@ -310,15 +309,15 @@
     1820.46,
     1829.35,
     1834.89,
-    1841.88
+    1842.43,
+    1841.64
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63985.8,
+   "price": 63984.7,
    "chg": 0.31,
    "spark": [
-    64805.0,
     64926.0,
     64937.0,
     64787.8,
@@ -365,7 +364,8 @@
     63130.6,
     63400.0,
     63552.8,
-    63985.8
+    64007.7,
+    63984.7
    ]
   }
  ],
@@ -422,20 +422,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784311024.117372,
+   "ts": 1784311249.566107,
    "title": "Gold up but on track for weekly drop as Mideast strikes fuel inflation concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "17 Jul \u00b7 10:57 PM",
+   "t": "17 Jul \u00b7 11:00 PM",
    "ur": "Gold (sona) badh raha hai lican haftah war garaut ke raaste par hai cunkah masharq wasti mein andhan ki mahungai ke khadshat hen."
   },
   {
-   "ts": 1784311024.117372,
+   "ts": 1784311249.566107,
    "title": "Goldman sees central bank demand providing a floor for gold prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sees-central-bank-demand-providing-a-floor-for-gold-prices-4798118",
-   "t": "17 Jul \u00b7 10:57 PM",
+   "t": "17 Jul \u00b7 11:00 PM",
    "ur": "Golldomin santrl Bank ki talab ko Gold (sone) ki qeemton ke liye mazil faraham karne ko dekhta hai."
+  },
+  {
+   "ts": 1784308021.0,
+   "title": "US Dollar Index holds as mixed US data limits upside",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-holds-as-mixed-us-data-limits-upside-202607171707",
+   "t": "17 Jul \u00b7 10:07 PM",
+   "ur": "US Dollar andex mein mukhaloot US deta ki hadin alta hai."
   },
   {
    "ts": 1784306774.0,
@@ -492,14 +500,6 @@
    "link": "https://www.fxstreet.com/news/swiss-franc-holds-gains-against-us-dollar-as-middle-east-tensions-outweigh-upbeat-us-data-202607171458",
    "t": "17 Jul \u00b7 07:58 PM",
    "ur": "Sois farank ne US Dollar ke maqable mein faidah athaya cunkah masharq wasta mein kasheedgi US aed w shmar se ziyadah hai."
-  },
-  {
-   "ts": 1784299535.0,
-   "title": "Fed\u2019s Hammack: Persistently high inflation is the bigger concern",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-hammack-persistently-high-inflation-is-the-bigger-concern-202607171445",
-   "t": "17 Jul \u00b7 07:45 PM",
-   "ur": "Fed's Hammack: maslsal baland inflation (mehngai) sab se badi tyush hai."
   }
  ],
  "sentiment": {
