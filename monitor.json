@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 20:51 PKT",
+ "updated": "17-07-2026 21:56 PKT",
  "gold": {
-  "price": 4009.99,
+  "price": 4007.41,
   "open": 3981.8,
-  "high": 4009.99,
+  "high": 4014.9,
   "low": 3956.89,
-  "chg": 0.71,
+  "chg": 0.64,
   "src": "PAXG (Kraken)",
   "spark": [
-   4024.98,
    4052.17,
    4050.24,
    4046.15,
@@ -55,14 +54,15 @@
    3966.57,
    3988.0,
    3992.29,
-   4009.99
+   4009.83,
+   4007.41
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.285,
-   "chg": 0.69,
+   "price": 56.25,
+   "chg": 0.63,
    "spark": [
     70.696,
     66.255,
@@ -84,13 +84,13 @@
     58.772,
     57.11,
     55.898,
-    56.285
+    56.25
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.745,
-   "chg": 0.01,
+   "price": 100.752,
+   "chg": 0.02,
    "spark": [
     100.09,
     100.85,
@@ -112,13 +112,13 @@
     100.94,
     100.5,
     100.73,
-    100.745
+    100.752
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.74,
-   "chg": 2.27,
+   "price": 81.34,
+   "chg": 3.03,
    "spark": [
     76.79,
     76.6,
@@ -140,13 +140,13 @@
     79.34,
     79.6,
     78.95,
-    80.74
+    81.34
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.533,
-   "chg": -0.79,
+   "price": 4.545,
+   "chg": -0.53,
    "spark": [
     4.463,
     4.451,
@@ -168,13 +168,13 @@
     4.585,
     4.545,
     4.569,
-    4.533
+    4.545
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1443,
-   "chg": -0.24,
+   "price": 1.1442,
+   "chg": -0.25,
    "spark": [
     1.1507,
     1.1459,
@@ -197,13 +197,13 @@
     1.1384,
     1.1425,
     1.147,
-    1.1443
+    1.1442
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3447,
-   "chg": -0.7,
+   "price": 1.3455,
+   "chg": -0.64,
    "spark": [
     1.3301,
     1.3202,
@@ -226,13 +226,13 @@
     1.3348,
     1.3397,
     1.3541,
-    1.3447
+    1.3455
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.412,
-   "chg": 0.21,
+   "price": 162.474,
+   "chg": 0.25,
    "spark": [
     160.6,
     161.289,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.412
+    162.474
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1823.46,
-   "chg": -2.13,
+   "price": 1835.99,
+   "chg": -1.46,
    "spark": [
-    1917.72,
     1926.11,
     1922.61,
     1922.72,
@@ -310,15 +309,15 @@
     1826.7,
     1822.56,
     1820.46,
-    1823.46
+    1829.35,
+    1835.99
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63143.4,
-   "chg": -1.01,
+   "price": 63565.5,
+   "chg": -0.35,
    "spark": [
-    65055.0,
     65009.2,
     64805.0,
     64926.0,
@@ -365,7 +364,8 @@
     63035.7,
     63071.8,
     63130.6,
-    63143.4
+    63400.0,
+    63565.5
    ]
   }
  ],
@@ -390,28 +390,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784303476.897535,
+   "ts": 1784307375.221301,
    "title": "Gold up but on track for weekly drop as Mideast strikes fuel inflation concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "17 Jul \u00b7 08:51 PM",
+   "t": "17 Jul \u00b7 09:56 PM",
    "ur": "Gold (sona) badh raha hai lican haftah war garaut ke raaste par hai cunkah masharq wasti mein andhan ki mahungai ke khadshat hen."
   },
   {
-   "ts": 1784303476.897535,
+   "ts": 1784307375.221301,
    "title": "Goldman sees central bank demand providing a floor for gold prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sees-central-bank-demand-providing-a-floor-for-gold-prices-4798118",
-   "t": "17 Jul \u00b7 08:51 PM",
+   "t": "17 Jul \u00b7 09:56 PM",
    "ur": "Golldomin santrl Bank ki talab ko Gold (sone) ki qeemton ke liye mazil faraham karne ko dekhta hai."
   },
   {
-   "ts": 1784303476.897535,
-   "title": "Silver in steep downtrend, RSI at 27: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 08:51 PM",
-   "ur": "Tizi se niche ke rjahan mein Silver (chandi), 27 par RSI: ghanta ki sath"
+   "ts": 1784303817.0,
+   "title": "Australian Dollar recovers as mixed US data weakens the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-recovers-as-mixed-us-data-weakens-the-us-dollar-202607171556",
+   "t": "17 Jul \u00b7 08:56 PM",
+   "ur": "Aasterilvi Dollar ki wasuli ki wajah se mukhaloot US deta US Dollar ko kamazor karta hai."
+  },
+  {
+   "ts": 1784303520.0,
+   "title": "British Pound: Burnham policy hopes underpin Sterling against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-burnham-policy-hopes-underpin-sterling-against-us-dollar-scotiabank-202607171552",
+   "t": "17 Jul \u00b7 08:52 PM",
+   "ur": "Bartanvi pound: barnham palisi amid karti hai kah US Dollar ke maqable mein sterling ko zir kiya jaye - Scotiabank"
+  },
+  {
+   "ts": 1784302080.0,
+   "title": "Canada: Inflation divergence shapes BoC outlook \u2013 RBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canada-inflation-divergence-shapes-boc-outlook-rbc-202607171528",
+   "t": "17 Jul \u00b7 08:28 PM",
+   "ur": "Canida: inflation (mehngai) ka farq BoC oat lak ko shakl dita hai - RBC"
+  },
+  {
+   "ts": 1784300837.0,
+   "title": "US Dollar: Risk-off support and DXY downside risks \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-risk-off-support-and-dxy-downside-risks-scotiabank-202607171507",
+   "t": "17 Jul \u00b7 08:07 PM",
+   "ur": "US Dollar: rask af sport aur DXY ke manfi khatrat - Scotiabank"
   },
   {
    "ts": 1784300320.0,
@@ -444,30 +468,6 @@
    "link": "https://www.fxstreet.com/news/gold-steadies-below-4-000-as-hawkish-fed-outlook-caps-recovery-202607171151",
    "t": "17 Jul \u00b7 07:37 PM",
    "ur": "Gold (sona) $4,000 se niche tajart karta hai jisa kah US Dollar mazboot, hakish fed oat lak wazin"
-  },
-  {
-   "ts": 1784298775.0,
-   "title": "Canada: Energy-led CPI pullback supports BoC \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canada-energy-led-cpi-pullback-supports-boc-td-securities-202607171432",
-   "t": "17 Jul \u00b7 07:32 PM",
-   "ur": "Canida: tawanai ki qayadat mein CPI pl bek BoC \u2013 TD securitez ko sport karta hai."
-  },
-  {
-   "ts": 1784298170.0,
-   "title": "Gold: Rally stalls as Fed outlook stays hawkish \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rally-stalls-as-fed-outlook-stays-hawkish-commerzbank-202607171422",
-   "t": "17 Jul \u00b7 07:22 PM",
-   "ur": "Gold: rili rok gaya hai jisa kah fed oat lak ajeeb rahta hai - kamers Bank"
-  },
-  {
-   "ts": 1784297486.0,
-   "title": "Canadian Dollar: Bullish bias with 1.3981 in focus against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-bias-with-13981-in-focus-against-us-dollar-scotiabank-202607171411",
-   "t": "17 Jul \u00b7 07:11 PM",
-   "ur": "Caniden Dollar: US Dollar ke maqable mein 1.3981 ke sath tizi ka taasab - Scotiabank"
   }
  ],
  "sentiment": {
