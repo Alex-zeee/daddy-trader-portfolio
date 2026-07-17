@@ -820,8 +820,37 @@ body{background:
 .ana-card:hover{border-color:#29c5ff}
 .ana-new{background:#ffb02e;color:#241800}
 </style>
+
+<!-- ===== THEME V5 : WOW layer (ticker tape, glow, animations) ===== -->
+<style id="theme-v5-wow">
+/* scrolling price ticker tape (sab se upar) */
+#tape{background:#04070d;border-bottom:1px solid #1a2440;overflow:hidden;white-space:nowrap;padding:8px 0;font-family:ui-monospace,'Cascadia Mono','Roboto Mono',Consolas,Menlo,monospace;font-size:.74rem;position:relative;z-index:90}
+.tape-track{display:inline-block;animation:tapemove 45s linear infinite;will-change:transform}
+#tape:hover .tape-track{animation-play-state:paused}
+@keyframes tapemove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tape-item{display:inline-block;margin:0 24px;color:#8091b4;letter-spacing:.04em}
+.tape-item b{color:#e6edf9;font-variant-numeric:tabular-nums;margin:0 4px}
+.tape-item em{font-style:normal;font-weight:700}
+.tape-live{color:#00d26a;font-weight:800;letter-spacing:.14em;margin:0 24px}
+/* hero: gradient glowing headline + photo glow */
+header.hero h1{background:linear-gradient(92deg,#ffffff 25%,#29c5ff 65%,#ffb02e 105%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 26px rgba(41,197,255,.28))}
+header.hero img.avatar{box-shadow:0 0 0 1px rgba(0,232,198,.35),0 0 70px rgba(0,232,198,.30),0 24px 60px rgba(0,0,0,.55);transition:transform .4s ease, box-shadow .4s ease}
+header.hero img.avatar:hover{transform:scale(1.02);box-shadow:0 0 0 1px rgba(41,197,255,.55),0 0 90px rgba(41,197,255,.4),0 24px 60px rgba(0,0,0,.55)}
+header.hero .btn.primary{box-shadow:0 0 24px rgba(41,197,255,.35);animation:btnpulse 2.6s ease-in-out infinite}
+@keyframes btnpulse{0%,100%{box-shadow:0 0 18px rgba(41,197,255,.25)}50%{box-shadow:0 0 34px rgba(41,197,255,.5)}}
+/* section headings: gradient underline bar + // label */
+.section-label::before{content:'// ';color:#29c5ff}
+section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px;border-radius:2px;background:linear-gradient(90deg,#29c5ff,#ffb02e)}
+/* card hover lift + glow (poori site) */
+.mon-card,.ana-card,.price-card,.video-card,.testi,.skill-card,.work-card,.calc-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.mon-card:hover,.ana-card:hover,.price-card:hover,.video-card:hover,.testi:hover,.skill-card:hover,.work-card:hover{transform:translateY(-4px);border-color:#2b3f6d;box-shadow:0 16px 44px rgba(0,0,0,.5)}
+.ticker-card{box-shadow:0 0 30px rgba(255,176,46,.08)}
+@media (prefers-reduced-motion: reduce){.tape-track,header.hero .btn.primary{animation:none}}
+</style>
 </head>
 <body>
+
+<div id="tape"><div class="tape-track" id="tape-track"><span class="tape-live">● LIVE MARKET</span><span class="tape-item">Loading live prices…</span></div></div>
 
 <nav>
   <div class="wrap">
@@ -1818,6 +1847,20 @@ body{background:
           : '<p class="mon-empty">No upcoming USD events right now.</p>';
       }
 
+      // top ticker tape — live prices scroll karti hui
+      const tape = document.getElementById('tape-track');
+      if (tape && d.markets && d.markets.length){
+        const items = [];
+        if (d.gold) items.push(['GOLD', d.gold.price, d.gold.chg]);
+        d.markets.forEach(m => items.push([m.name.toUpperCase(), m.price, m.chg]));
+        const seg = '<span class="tape-live">● LIVE MARKET</span>' + items.map(it => {
+          const up = it[2] >= 0;
+          return '<span class="tape-item">' + esc(it[0]) + '<b>' + fmt(it[1], it[1] < 10 ? 4 : 2) + '</b>' +
+            '<em class="' + (up ? 'chg-up' : 'chg-dn') + '">' + (up ? '▲' : '▼') + Math.abs(it[2]) + '%</em></span>';
+        }).join('');
+        tape.innerHTML = seg + seg;  // seamless loop ke liye do copies
+      }
+
       // latest update ticker (signals section ke upar) — sirf sab se nayi news
       const ln = document.getElementById('latest-news');
       if (ln && d.news && d.news.length){
@@ -1872,6 +1915,21 @@ body{background:
   }
   loadAnalysis();
   setInterval(loadAnalysis, 300000);
+
+  // hero stats count-up animation (0 → 108+ waghera)
+  document.querySelectorAll('.hero-stats b').forEach(el => {
+    const m = (el.textContent || '').trim().match(/^(\d+)(.*)$/);
+    if (!m) return;
+    const N = +m[1], suf = m[2];
+    let t0 = null;
+    function step(t){
+      if (!t0) t0 = t;
+      const p = Math.min(1, (t - t0) / 1400);
+      el.textContent = Math.round(N * (p * (2 - p))) + suf;
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
 
   // notification permission button
   if ('Notification' in window && Notification.permission === 'default'){
