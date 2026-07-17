@@ -1,14 +1,13 @@
 {
- "updated": "18-07-2026 01:44 PKT",
+ "updated": "18-07-2026 02:33 PKT",
  "gold": {
-  "price": 4001.6,
+  "price": 4004.46,
   "open": 3981.8,
   "high": 4014.9,
   "low": 3956.89,
-  "chg": 0.5,
+  "chg": 0.57,
   "src": "PAXG (Kraken)",
   "spark": [
-   4054.81,
    4050.69,
    4048.9,
    4036.73,
@@ -55,14 +54,15 @@
    4000.88,
    4002.4,
    4007.33,
-   4001.6
+   4006.7,
+   4004.46
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.145,
-   "chg": 0.44,
+   "price": 56.22,
+   "chg": 0.58,
    "spark": [
     70.696,
     66.255,
@@ -84,13 +84,13 @@
     58.772,
     57.11,
     55.898,
-    56.145
+    56.22
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.761,
-   "chg": 0.03,
+   "price": 100.755,
+   "chg": 0.02,
    "spark": [
     100.09,
     100.85,
@@ -112,13 +112,13 @@
     100.94,
     100.5,
     100.73,
-    100.761
+    100.755
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.68,
-   "chg": 3.46,
+   "price": 81.77,
+   "chg": 3.57,
    "spark": [
     76.79,
     76.6,
@@ -140,7 +140,7 @@
     79.34,
     79.6,
     78.95,
-    81.68
+    81.77
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.144,
-   "chg": -0.26,
+   "price": 1.1446,
+   "chg": -0.22,
    "spark": [
     1.1507,
     1.1459,
@@ -197,13 +197,13 @@
     1.1384,
     1.1425,
     1.147,
-    1.144
+    1.1446
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3454,
-   "chg": -0.64,
+   "price": 1.3452,
+   "chg": -0.66,
    "spark": [
     1.3301,
     1.3202,
@@ -226,13 +226,13 @@
     1.3348,
     1.3397,
     1.3541,
-    1.3454
+    1.3452
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.417,
-   "chg": 0.21,
+   "price": 162.353,
+   "chg": 0.17,
    "spark": [
     160.6,
     161.289,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.417
+    162.353
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1839.33,
-   "chg": -1.28,
+   "price": 1840.89,
+   "chg": -1.2,
    "spark": [
-    1920.69,
     1922.13,
     1916.61,
     1913.79,
@@ -310,15 +309,15 @@
     1842.43,
     1846.12,
     1842.2,
-    1839.33
+    1841.62,
+    1840.89
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63999.9,
-   "chg": 0.33,
+   "price": 64062.5,
+   "chg": 0.43,
    "spark": [
-    64787.8,
     64826.0,
     64709.4,
     64545.2,
@@ -365,7 +364,8 @@
     64007.7,
     64217.4,
     64102.0,
-    63999.9
+    64073.0,
+    64062.5
    ]
   }
  ],
@@ -422,36 +422,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784321077.980269,
+   "ts": 1784324016.820829,
+   "title": "Gold falls for the week as oil-driven inflation fears offset cooling economic data",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
+   "t": "18 Jul \u00b7 02:33 AM",
+   "ur": "Hafte ke liye Gold (sona) garta hai cunkah til se chalne wali inflation (mehngai) ke khadshat thanday mashi deta ko pora karte hen."
+  },
+  {
+   "ts": 1784324016.820829,
    "title": "Silver in persistent downtrend at $56.30: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "18 Jul \u00b7 01:44 AM",
+   "t": "18 Jul \u00b7 02:33 AM",
    "ur": "Silver (chandi) ki qeemat maslsal garaut mein $56.30 par hai."
   },
   {
-   "ts": 1784321077.980269,
+   "ts": 1784324016.820829,
    "title": "Gold stuck below resistance after bullish engulfing: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "18 Jul \u00b7 01:44 AM",
+   "t": "18 Jul \u00b7 02:33 AM",
    "ur": "Gold (sona) tizi ki lapet mein aane ke bad mazahmat se niche phans gaya."
   },
   {
-   "ts": 1784321077.980269,
+   "ts": 1784324016.820829,
    "title": "Gold Tests 8-Month Lows: Strong Support Level or Deeper Correction?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-8month-lows-strong-support-level-or-deeper-correction-93CH-4798883",
-   "t": "18 Jul \u00b7 01:44 AM",
+   "t": "18 Jul \u00b7 02:33 AM",
    "ur": "Gold test 8 mah ki kam tarin sath: mazboot sport liyol yaa gehri asilah?"
   },
   {
-   "ts": 1784321077.980269,
-   "title": "Gold up but on track for weekly drop as Mideast strikes fuel inflation concerns",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "18 Jul \u00b7 01:44 AM",
-   "ur": "Gold (sona) badh raha hai lican haftah war garaut ke raaste par hai cunkah masharq wasti mein andhan ki mahungai ke khadshat hen."
+   "ts": 1784319780.0,
+   "title": "Japanese Yen: Verbal intervention fails to move JPY against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-verbal-intervention-fails-to-move-jpy-against-us-dollar-scotiabank-202607172023",
+   "t": "18 Jul \u00b7 01:23 AM",
+   "ur": "Japani yan: zabani madakhalt JPY ko US Dollar ke khalaf mantaql karne mein naakam hai - Scotiabank"
   },
   {
    "ts": 1784317244.0,
@@ -492,14 +500,6 @@
    "link": "https://www.fxstreet.com/news/euro-steadies-as-markets-weigh-ecb-and-fed-interest-rate-expectations-202607171646",
    "t": "17 Jul \u00b7 09:46 PM",
    "ur": "Uro mastahkam hai cunkah marketon mein ECB aur fed ki rate sud ki toqaat ka wazin hai."
-  },
-  {
-   "ts": 1784305380.0,
-   "title": "British Pound slips for second straight day as Oil spike revives inflation fears",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-slips-as-oil-spike-revives-inflation-fears-202607171623",
-   "t": "17 Jul \u00b7 09:23 PM",
-   "ur": "Bartanvi pound maslsal dosare dan bhi gara cunkah til ki badhti hoi tizi se mahungai ke khadshat bahal huvay."
   }
  ],
  "sentiment": {
