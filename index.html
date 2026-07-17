@@ -336,6 +336,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="hero-photo.webp">
 <style id="theme-v2">
   :root{
     --bg: #eef5f1;
@@ -789,7 +790,7 @@
 <nav>
   <div class="wrap">
     <div class="brand" style="display:flex;align-items:center;gap:10px;">
-      <img src="logo.png" alt="Daddy Trader Academy logo" style="height:44px;width:auto;" />
+      <img src="logo.webp" alt="Daddy Trader Academy logo" style="height:44px;width:auto;" />
       M<span>.</span>ALI ALVI
     </div>
     <ul>
@@ -918,7 +919,7 @@
     <p class="section-label">01 — About</p>
     <h2>About Me</h2>
     <div class="about-grid">
-      <img class="avatar" src="profile.png" alt="M. Ali Alvi — Forex Trader &amp; Educator" />
+      <img class="avatar" src="profile.webp" alt="M. Ali Alvi — Forex Trader &amp; Educator" />
       <div class="about-text">
         <p>
           I'm a professional <strong>Forex trader</strong>, software developer, and educator.
@@ -1450,10 +1451,10 @@
         const heroWrap = document.querySelector('header.hero .wrap');
         heroWrap.insertBefore(slot, heroWrap.firstElementChild);
         slot.appendChild(cfg.picPosition === 'both' ? img.cloneNode(true) : img);
-        slot.querySelector('img.avatar').src = 'hero-photo.png';
+        slot.querySelector('img.avatar').src = 'hero-photo.webp';
       }
       if (cfg.picPosition === 'about' && !aboutCell.querySelector('img.avatar')){
-        img.src = 'profile.png';
+        img.src = 'profile.webp';
         aboutCell.insertBefore(img, aboutCell.firstElementChild);
       }
       aboutCell.style.gridTemplateColumns =

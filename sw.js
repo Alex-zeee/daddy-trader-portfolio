@@ -1,12 +1,12 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v3';
+const CACHE = 'daddytrader-v4';
 const ASSETS = [
   './',
   './index.html',
-  './logo.png',
+  './logo.webp',
   './favicon.png',
-  './profile.png',
-  './hero-photo.png',
+  './profile.webp',
+  './hero-photo.webp',
   './icon-192.png',
   './icon-512.png'
 ];
@@ -38,16 +38,34 @@ self.addEventListener('fetch', (e) => {
   const url = e.request.url;
   if (e.request.method !== 'GET') return;
   // HTML pages + data: ALWAYS network first (fresh), fallback cache for offline
-  const isData = url.includes('signals.json') || url.includes('clients.json');
+  const isData = url.includes('signals.json') || url.includes('monitor.json') || url.includes('clients.json');
   const isPage = e.request.mode === 'navigate' ||
     e.request.destination === 'document' || url.endsWith('.html');
-  if (isData || isPage) {
+  // data JSON: hamesha network-first (signal prices fresh hone chahiye)
+  if (isData) {
     e.respondWith(
       fetch(e.request).then(res => {
         const copy = res.clone();
         caches.open(CACHE).then(c => c.put(e.request, copy));
         return res;
       }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
+  // HTML pages: stale-while-revalidate — cache se FORAN dikhao,
+  // background mein naya version le kar cache update karo (agli dafa naya milta hai)
+  if (isPage) {
+    e.respondWith(
+      caches.match(e.request).then(hit => {
+        const netFetch = fetch(e.request).then(res => {
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(CACHE).then(c => c.put(e.request, copy));
+          }
+          return res;
+        }).catch(() => hit);
+        return hit || netFetch;
+      })
     );
     return;
   }
