@@ -868,7 +868,7 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
       <li><a href="#videos">Videos</a></li>
       <li><a href="#testimonials">Reviews</a></li>
       <li><a href="#pricing">Courses</a></li>
-      <li><a href="#tools">Tools</a></li>
+      
       <li><a href="#blog">Blog</a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -907,7 +907,7 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
     </p>
     <div class="hero-actions">
       <a class="btn primary" href="#pricing">Join the Academy</a>
-      <a class="btn ghost" href="#tools">Free Trading Tools</a>
+      <a class="btn ghost" href="#monitor">Live Market Monitor</a>
       <a class="btn ghost" href="#contact">Get in touch</a>
     </div>
     <div class="hero-stats">
@@ -1184,92 +1184,6 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
       </div>
     </div>
     <p class="calc-note">* Payment via <strong>Easypaisa</strong> — message us on WhatsApp to enroll: <a href="https://wa.me/923470713257">0347 0713257</a></p>
-  </div>
-</section>
-
-<section id="tools">
-  <div class="wrap reveal">
-    <p class="section-label">07 — Free Tools</p>
-    <h2>Trading Calculators</h2>
-    <div class="calc-tabs">
-      <button class="calc-tab active" data-tab="lot">Lot Size</button>
-      <button class="calc-tab" data-tab="pip">Pip Value</button>
-      <button class="calc-tab" data-tab="rr">Risk : Reward</button>
-    </div>
-
-    <div class="calc-panel active" id="tab-lot">
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="lot-balance">Account Balance (USD)</label>
-          <input type="number" id="lot-balance" value="1000" min="0" step="any" />
-        </div>
-        <div class="calc-field">
-          <label for="lot-risk">Risk per Trade (%)</label>
-          <input type="number" id="lot-risk" value="1" min="0" max="100" step="any" />
-        </div>
-      </div>
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="lot-sl">Stop Loss (pips)</label>
-          <input type="number" id="lot-sl" value="30" min="0" step="any" />
-        </div>
-        <div class="calc-field">
-          <label for="lot-pair">Instrument</label>
-          <select id="lot-pair">
-            <option value="10" selected>Gold XAUUSD ($10/pip per lot)</option>
-            <option value="50">Silver XAGUSD ($50/pip per lot)</option>
-            <option value="10">Major FX pairs ($10/pip per lot)</option>
-          </select>
-        </div>
-      </div>
-      <div class="calc-result" id="lot-result">Enter values to calculate lot size.</div>
-      <p class="calc-note">Gold: 1 pip = $0.10 move = $10 per 1.0 lot. Always confirm contract specs with your broker.</p>
-    </div>
-
-    <div class="calc-panel" id="tab-pip">
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="pip-lots">Lot Size</label>
-          <input type="number" id="pip-lots" value="0.10" min="0" step="any" />
-        </div>
-        <div class="calc-field">
-          <label for="pip-pair">Instrument</label>
-          <select id="pip-pair">
-            <option value="10" selected>Gold XAUUSD</option>
-            <option value="50">Silver XAGUSD</option>
-            <option value="10">Major FX pairs</option>
-          </select>
-        </div>
-      </div>
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="pip-count">Number of Pips</label>
-          <input type="number" id="pip-count" value="50" min="0" step="any" />
-        </div>
-      </div>
-      <div class="calc-result" id="pip-result">Enter values to calculate pip value.</div>
-    </div>
-
-    <div class="calc-panel" id="tab-rr">
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="rr-entry">Entry Price</label>
-          <input type="number" id="rr-entry" value="2650.00" step="any" />
-        </div>
-        <div class="calc-field">
-          <label for="rr-sl">Stop Loss Price</label>
-          <input type="number" id="rr-sl" value="2645.00" step="any" />
-        </div>
-      </div>
-      <div class="calc-row">
-        <div class="calc-field">
-          <label for="rr-tp">Take Profit Price</label>
-          <input type="number" id="rr-tp" value="2665.00" step="any" />
-        </div>
-      </div>
-      <div class="calc-result" id="rr-result">Enter values to calculate risk : reward.</div>
-      <p class="calc-note">Aim for setups with at least 1 : 2 risk-to-reward — a core rule taught in the Academy.</p>
-    </div>
   </div>
 </section>
 
@@ -2149,72 +2063,6 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
     }
   })();
 
-  // Calculator tabs
-  document.querySelectorAll('.calc-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.calc-tab').forEach(t => t.classList.remove('active'));
-      document.querySelectorAll('.calc-panel').forEach(p => p.classList.remove('active'));
-      tab.classList.add('active');
-      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
-    });
-  });
-
-  // Lot size calculator
-  function calcLot(){
-    const bal = parseFloat(document.getElementById('lot-balance').value);
-    const risk = parseFloat(document.getElementById('lot-risk').value);
-    const sl = parseFloat(document.getElementById('lot-sl').value);
-    const pipVal = parseFloat(document.getElementById('lot-pair').value);
-    const out = document.getElementById('lot-result');
-    if (!(bal > 0) || !(risk > 0) || !(sl > 0)){
-      out.textContent = 'Enter values to calculate lot size.'; return;
-    }
-    const riskAmt = bal * risk / 100;
-    const lots = riskAmt / (sl * pipVal);
-    out.innerHTML = 'Risk amount: $' + riskAmt.toFixed(2) +
-      ' &nbsp;→&nbsp; Recommended lot size: <b>' + lots.toFixed(2) + ' lots</b>';
-  }
-  ['lot-balance','lot-risk','lot-sl','lot-pair'].forEach(id =>
-    document.getElementById(id).addEventListener('input', calcLot));
-  calcLot();
-
-  // Pip value calculator
-  function calcPip(){
-    const lots = parseFloat(document.getElementById('pip-lots').value);
-    const pipVal = parseFloat(document.getElementById('pip-pair').value);
-    const pips = parseFloat(document.getElementById('pip-count').value);
-    const out = document.getElementById('pip-result');
-    if (!(lots > 0) || !(pips >= 0)){
-      out.textContent = 'Enter values to calculate pip value.'; return;
-    }
-    const perPip = lots * pipVal;
-    out.innerHTML = 'Value per pip: <b>$' + perPip.toFixed(2) + '</b>' +
-      ' &nbsp;·&nbsp; ' + pips + ' pips = <b>$' + (perPip * pips).toFixed(2) + '</b>';
-  }
-  ['pip-lots','pip-pair','pip-count'].forEach(id =>
-    document.getElementById(id).addEventListener('input', calcPip));
-  calcPip();
-
-  // Risk:Reward calculator
-  function calcRR(){
-    const entry = parseFloat(document.getElementById('rr-entry').value);
-    const sl = parseFloat(document.getElementById('rr-sl').value);
-    const tp = parseFloat(document.getElementById('rr-tp').value);
-    const out = document.getElementById('rr-result');
-    const risk = Math.abs(entry - sl);
-    const reward = Math.abs(tp - entry);
-    if (!(risk > 0) || !(reward >= 0) || isNaN(entry) || isNaN(sl) || isNaN(tp)){
-      out.textContent = 'Enter values to calculate risk : reward.'; return;
-    }
-    const ratio = reward / risk;
-    const verdict = ratio >= 2 ? '✓ Good setup (1:2 or better)' :
-                    ratio >= 1 ? '△ Acceptable, but below 1:2' : '✗ Poor — reward is less than risk';
-    out.innerHTML = 'Risk: ' + risk.toFixed(2) + ' &nbsp;·&nbsp; Reward: ' + reward.toFixed(2) +
-      ' &nbsp;→&nbsp; Ratio: <b>1 : ' + ratio.toFixed(2) + '</b><br><span style="font-size:12.5px">' + verdict + '</span>';
-  }
-  ['rr-entry','rr-sl','rr-tp'].forEach(id =>
-    document.getElementById(id).addEventListener('input', calcRR));
-  calcRR();
 </script>
 
 </body>
