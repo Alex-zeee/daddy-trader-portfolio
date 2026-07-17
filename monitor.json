@@ -1,14 +1,13 @@
 {
- "updated": "17-07-2026 21:56 PKT",
+ "updated": "17-07-2026 22:57 PKT",
  "gold": {
-  "price": 4007.41,
+  "price": 4000.88,
   "open": 3981.8,
   "high": 4014.9,
   "low": 3956.89,
-  "chg": 0.64,
+  "chg": 0.48,
   "src": "PAXG (Kraken)",
   "spark": [
-   4052.17,
    4050.24,
    4046.15,
    4053.38,
@@ -55,14 +54,15 @@
    3988.0,
    3992.29,
    4009.83,
-   4007.41
+   4007.3,
+   4000.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.25,
-   "chg": 0.63,
+   "price": 56.185,
+   "chg": 0.51,
    "spark": [
     70.696,
     66.255,
@@ -84,13 +84,13 @@
     58.772,
     57.11,
     55.898,
-    56.25
+    56.185
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.752,
-   "chg": 0.02,
+   "price": 100.782,
+   "chg": 0.05,
    "spark": [
     100.09,
     100.85,
@@ -112,13 +112,13 @@
     100.94,
     100.5,
     100.73,
-    100.752
+    100.782
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.34,
-   "chg": 3.03,
+   "price": 81.76,
+   "chg": 3.56,
    "spark": [
     76.79,
     76.6,
@@ -140,13 +140,13 @@
     79.34,
     79.6,
     78.95,
-    81.34
+    81.76
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.545,
-   "chg": -0.53,
+   "price": 4.547,
+   "chg": -0.48,
    "spark": [
     4.463,
     4.451,
@@ -168,13 +168,13 @@
     4.585,
     4.545,
     4.569,
-    4.545
+    4.547
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1442,
-   "chg": -0.25,
+   "price": 1.1438,
+   "chg": -0.28,
    "spark": [
     1.1507,
     1.1459,
@@ -197,13 +197,13 @@
     1.1384,
     1.1425,
     1.147,
-    1.1442
+    1.1438
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3455,
-   "chg": -0.64,
+   "price": 1.3454,
+   "chg": -0.65,
    "spark": [
     1.3301,
     1.3202,
@@ -226,13 +226,13 @@
     1.3348,
     1.3397,
     1.3541,
-    1.3455
+    1.3454
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.474,
-   "chg": 0.25,
+   "price": 162.454,
+   "chg": 0.24,
    "spark": [
     160.6,
     161.289,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.474
+    162.454
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1835.99,
-   "chg": -1.46,
+   "price": 1841.88,
+   "chg": -1.14,
    "spark": [
-    1926.11,
     1922.61,
     1922.72,
     1922.54,
@@ -310,15 +309,15 @@
     1822.56,
     1820.46,
     1829.35,
-    1835.99
+    1834.89,
+    1841.88
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63565.5,
-   "chg": -0.35,
+   "price": 63985.8,
+   "chg": 0.31,
    "spark": [
-    65009.2,
     64805.0,
     64926.0,
     64937.0,
@@ -365,11 +364,44 @@
     63071.8,
     63130.6,
     63400.0,
-    63565.5
+    63552.8,
+    63985.8
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1784205000.0,
+   "t": "Thu 16 Jul \u00b7 05:30 PM",
+   "title": "Philly Fed Manufacturing Index",
+   "impact": "Medium",
+   "forecast": "12.7",
+   "previous": "10.3"
+  },
+  {
+   "ts": 1784205000.0,
+   "t": "Thu 16 Jul \u00b7 05:30 PM",
+   "title": "Retail Sales m/m",
+   "impact": "Medium",
+   "forecast": "0.2%",
+   "previous": "0.9%"
+  },
+  {
+   "ts": 1784205000.0,
+   "t": "Thu 16 Jul \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "216K",
+   "previous": "215K"
+  },
+  {
+   "ts": 1784250000.0,
+   "t": "Fri 17 Jul \u00b7 06:00 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
   {
    "ts": 1784296800.0,
    "t": "Fri 17 Jul \u00b7 07:00 PM",
@@ -387,23 +419,39 @@
    "previous": "4.6%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1784307375.221301,
+   "ts": 1784311024.117372,
    "title": "Gold up but on track for weekly drop as Mideast strikes fuel inflation concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "17 Jul \u00b7 09:56 PM",
+   "t": "17 Jul \u00b7 10:57 PM",
    "ur": "Gold (sona) badh raha hai lican haftah war garaut ke raaste par hai cunkah masharq wasti mein andhan ki mahungai ke khadshat hen."
   },
   {
-   "ts": 1784307375.221301,
+   "ts": 1784311024.117372,
    "title": "Goldman sees central bank demand providing a floor for gold prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sees-central-bank-demand-providing-a-floor-for-gold-prices-4798118",
-   "t": "17 Jul \u00b7 09:56 PM",
+   "t": "17 Jul \u00b7 10:57 PM",
    "ur": "Golldomin santrl Bank ki talab ko Gold (sone) ki qeemton ke liye mazil faraham karne ko dekhta hai."
+  },
+  {
+   "ts": 1784306774.0,
+   "title": "Euro steadies as markets weigh ECB and Fed interest rate expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-steadies-as-markets-weigh-ecb-and-fed-interest-rate-expectations-202607171646",
+   "t": "17 Jul \u00b7 09:46 PM",
+   "ur": "Uro mastahkam hai cunkah marketon mein ECB aur fed ki rate sud ki toqaat ka wazin hai."
+  },
+  {
+   "ts": 1784305380.0,
+   "title": "British Pound slips for second straight day as Oil spike revives inflation fears",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-slips-as-oil-spike-revives-inflation-fears-202607171623",
+   "t": "17 Jul \u00b7 09:23 PM",
+   "ur": "Bartanvi pound maslsal dosare dan bhi gara cunkah til ki badhti hoi tizi se mahungai ke khadshat bahal huvay."
   },
   {
    "ts": 1784303817.0,
@@ -452,22 +500,6 @@
    "link": "https://www.fxstreet.com/news/feds-hammack-persistently-high-inflation-is-the-bigger-concern-202607171445",
    "t": "17 Jul \u00b7 07:45 PM",
    "ur": "Fed's Hammack: maslsal baland inflation (mehngai) sab se badi tyush hai."
-  },
-  {
-   "ts": 1784299262.0,
-   "title": "Euro: Modest pullback before ECB decision against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-modest-pullback-before-ecb-decision-against-us-dollar-scotiabank-202607171441",
-   "t": "17 Jul \u00b7 07:41 PM",
-   "ur": "Uro: US Dollar ke khalaf ECB ke fisale se pehle mamoli wapsi - Scotiabank"
-  },
-  {
-   "ts": 1784299042.0,
-   "title": "Gold trades below $4,000 as stronger US Dollar, hawkish Fed outlook weigh",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-steadies-below-4-000-as-hawkish-fed-outlook-caps-recovery-202607171151",
-   "t": "17 Jul \u00b7 07:37 PM",
-   "ur": "Gold (sona) $4,000 se niche tajart karta hai jisa kah US Dollar mazboot, hakish fed oat lak wazin"
   }
  ],
  "sentiment": {
