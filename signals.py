@@ -174,52 +174,62 @@ def liquidity_map(c, price):
     return {"above": above, "below": below}
 
 
+SWEEP_W = 3      # sweep window: aakhri 3 candles mein se koi bhi sweep kar sakti hai
+
+
 def detect_signal(df):
     c = df.iloc[:-1]                      # sirf closed candles
-    if len(c) < 30:
+    if len(c) < 40:
         return None
-    b = c.iloc[-1]                        # aakhri closed candle
+    b = c.iloc[-1]                        # aakhri closed candle (engulf/close-back)
     a = c.iloc[-2]
     ts = c.index[-1]
     atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
     pad = 0.25 * atr
-    highs, lows = find_swings(c.iloc[:-1])   # b se pehle ke swings
-    H, L = c["High"].values, c["Low"].values
+    min_risk = max(2.0, 0.25 * atr)       # $1 wale spread-khaane wale SL reject
     n = len(c)
+    w0 = n - SWEEP_W                      # window start index
+    # swings sirf window se PEHLE ke (warna sweep khud ko hi level bana leta)
+    highs, lows = find_swings(c.iloc[:w0])
+    H, L = c["High"].values, c["Low"].values
+    win_low = float(L[w0:].min())
+    win_high = float(H[w0:].max())
 
-    # BUY: sell-side liquidity sweep + engulf close-back upar
+    # BUY: pichhli 1-3 candles mein sell-side liquidity sweep hui,
+    #      aur b (green) engulf kar ke level ke UPAR close-back de
     if b["Close"] > b["Open"] and a["Close"] < a["Open"] and float(b["Close"]) > float(a["Open"]):
         swept = None
         for i, p in lows:
-            if i <= n - 5 and float(b["Low"]) < p:
-                mids = L[i+3:n-1]
-                if len(mids) == 0 or mids.min() > p:      # b se pehle intact tha
+            if i <= w0 - 2 and win_low < p and float(b["Close"]) > p:
+                mids = L[i+3:w0]
+                if len(mids) == 0 or mids.min() > p:      # window se pehle intact tha
                     if swept is None or p > swept:
                         swept = p
         if swept is not None:
             entry = round(float(b["Close"]), 2)
-            sl = round(float(b["Low"]) - pad, 2)
+            sl = round(win_low - pad, 2)
             risk = entry - sl
-            if risk > 0:
+            if risk >= min_risk:
                 pools = [p for _, p in highs if p > entry + MIN_RR * risk]
                 if pools:
                     tp = round(min(pools), 2)             # nazdeeki pool jo 1:2 de
                     return _sig(ts, "BUY", entry, sl, tp, swept)
 
-    # SELL: buy-side liquidity sweep + engulf close-back neeche
+    # SELL: pichhli 1-3 candles mein buy-side liquidity sweep hui,
+    #       aur b (red) engulf kar ke level ke NEECHE close-back de
     if b["Close"] < b["Open"] and a["Close"] > a["Open"] and float(b["Close"]) < float(a["Open"]):
         swept = None
         for i, p in highs:
-            if i <= n - 5 and float(b["High"]) > p:
-                mids = H[i+3:n-1]
+            if i <= w0 - 2 and win_high > p and float(b["Close"]) < p:
+                mids = H[i+3:w0]
                 if len(mids) == 0 or mids.max() < p:
                     if swept is None or p < swept:
                         swept = p
         if swept is not None:
             entry = round(float(b["Close"]), 2)
-            sl = round(float(b["High"]) + pad, 2)
+            sl = round(win_high + pad, 2)
             risk = sl - entry
-            if risk > 0:
+            if risk >= min_risk:
                 pools = [p for _, p in lows if p < entry - MIN_RR * risk]
                 if pools:
                     tp = round(max(pools), 2)
