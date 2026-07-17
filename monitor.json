@@ -1,16 +1,13 @@
 {
- "updated": "17-07-2026 06:09 PKT",
+ "updated": "17-07-2026 09:20 PKT",
  "gold": {
-  "price": 3986.32,
+  "price": 3982.34,
   "open": 3981.8,
-  "high": 4039.09,
-  "low": 3967.7,
-  "chg": 0.11,
+  "high": 4031.81,
+  "low": 3967.68,
+  "chg": 0.01,
   "src": "PAXG (Kraken)",
   "spark": [
-   4033.1,
-   4024.01,
-   4025.76,
    4025.71,
    4025.42,
    4015.03,
@@ -55,16 +52,18 @@
    3972.36,
    3979.81,
    3986.15,
-   3986.32
+   3976.95,
+   3968.68,
+   3987.09,
+   3982.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.015,
-   "chg": -1.92,
+   "price": 55.6,
+   "chg": -0.53,
    "spark": [
-    69.899,
     70.696,
     66.255,
     65.527,
@@ -84,15 +83,15 @@
     57.634,
     58.772,
     57.11,
-    56.015
+    55.898,
+    55.6
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.71,
-   "chg": 0.21,
+   "price": 100.771,
+   "chg": 0.04,
    "spark": [
-    99.54,
     100.09,
     100.85,
     101.02,
@@ -112,15 +111,15 @@
     101.28,
     100.94,
     100.5,
-    100.71
+    100.73,
+    100.771
    ]
   },
   {
    "name": "Oil WTI",
    "price": 79.13,
-   "chg": -0.59,
+   "chg": 0.23,
    "spark": [
-    76.05,
     76.79,
     76.6,
     74.82,
@@ -140,6 +139,7 @@
     78.14,
     79.34,
     79.6,
+    78.95,
     79.13
    ]
   },
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1448,
-   "chg": -0.19,
+   "price": 1.1442,
+   "chg": -0.25,
    "spark": [
     1.1507,
     1.1459,
@@ -197,13 +197,13 @@
     1.1384,
     1.1425,
     1.147,
-    1.1448
+    1.1442
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3477,
-   "chg": -0.47,
+   "price": 1.3464,
+   "chg": -0.57,
    "spark": [
     1.3301,
     1.3202,
@@ -226,13 +226,13 @@
     1.3348,
     1.3397,
     1.3541,
-    1.3477
+    1.3464
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.442,
-   "chg": 0.23,
+   "price": 162.415,
+   "chg": 0.21,
    "spark": [
     160.6,
     161.289,
@@ -255,17 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.442
+    162.415
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1868.45,
-   "chg": 0.28,
+   "price": 1843.6,
+   "chg": -1.05,
    "spark": [
-    1863.33,
-    1875.36,
-    1874.45,
     1881.16,
     1874.57,
     1868.75,
@@ -310,17 +307,17 @@
     1867.33,
     1863.33,
     1864.09,
-    1868.45
+    1849.51,
+    1846.63,
+    1850.96,
+    1843.6
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63974.0,
-   "chg": 0.29,
+   "price": 63276.0,
+   "chg": -0.81,
    "spark": [
-    64453.6,
-    64741.2,
-    64690.9,
     64883.4,
     64791.0,
     64506.9,
@@ -365,19 +362,14 @@
     63915.1,
     63789.5,
     63835.2,
-    63974.0
+    63495.0,
+    63425.0,
+    63511.4,
+    63276.0
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1784250000.0,
-   "t": "Fri 17 Jul \u00b7 06:00 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1784296800.0,
    "t": "Fri 17 Jul \u00b7 07:00 PM",
@@ -398,28 +390,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784250555.787081,
+   "ts": 1784262047.737857,
+   "title": "Gold heads for weekly loss amid Iran strikes, Fed rate concerns",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
+   "t": "17 Jul \u00b7 09:20 AM",
+   "ur": "Eran ke hamlon, fed ret ke khadshat ke darmiyan Gold (sona) haftah war naqsan ki taraf badh raha hai."
+  },
+  {
+   "ts": 1784262047.737857,
    "title": "Gold below $4k on oil-driven inflation fears, Dallas Fed\u2019s call for higher rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-oildriven-inflation-fears-keep-fed-outlook-in-focus-4794599",
-   "t": "17 Jul \u00b7 06:09 AM",
+   "t": "17 Jul \u00b7 09:20 AM",
    "ur": "Til se chalne wali mahungai ke khadshat par Gold (sona) $4k se niche, dalas fed ka baland sharahon ka matalbah"
   },
   {
-   "ts": 1784250555.787081,
+   "ts": 1784262047.737857,
    "title": "Silver tests key support in downtrend: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "17 Jul \u00b7 06:09 AM",
+   "t": "17 Jul \u00b7 09:20 AM",
    "ur": "Salor doun trind mein kalidi maaunt ki janch karta hai: fi ghanta ki sath"
   },
   {
-   "ts": 1784250555.787081,
+   "ts": 1784262047.737857,
    "title": "Gold tests $3,978 support with RSI at 32: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "17 Jul \u00b7 06:09 AM",
+   "t": "17 Jul \u00b7 09:20 AM",
    "ur": "Gold 32 par RSI ke sath $3,978 sport ka test karta hai."
+  },
+  {
+   "ts": 1784255961.0,
+   "title": "Chinese Yuan loses as safe-haven demand lifts US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-loses-as-safe-haven-demand-lifts-us-dollar-202607170239",
+   "t": "17 Jul \u00b7 07:39 AM",
+   "ur": "Mahfooz panah gahon ki mang mein US Dollar ke azafe se chini uan kho gaya."
+  },
+  {
+   "ts": 1784255085.0,
+   "title": "Australian Dollar moves away from three-week top as geopolitics and Fed hike bets lift USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-moves-away-from-three-week-top-as-geopolitics-and-fed-hike-bets-lift-usd-202607170224",
+   "t": "17 Jul \u00b7 07:24 AM",
+   "ur": "Aasterilvi Dollar tin hafte ki choti se dur ho gaya cunkah jio poletex aur fed mein azafe ke sharton ne USD ko athaya"
+  },
+  {
+   "ts": 1784252205.0,
+   "title": "Silver Price Forecast: XAG/USD falls to near $55.50 amid interest rate concerns",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-5550-amid-interest-rate-concerns-202607170136",
+   "t": "17 Jul \u00b7 06:36 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: rate sud ke khadshat ke darmiyan XAG/USD $55.50 ke qarib gar gaya"
+  },
+  {
+   "ts": 1784250482.0,
+   "title": "New Zealand Dollar rises amid sticky inflation fears, escalating Middle East tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rises-amid-sticky-inflation-fears-escalating-middle-east-tensions-202607170108",
+   "t": "17 Jul \u00b7 06:08 AM",
+   "ur": "Chaspan inflation (mehngai) ke khadshat ke darmiyan niyozi lind Dollar mein azafah, masharq wasta mein kasheedgi mein azafah"
+  },
+  {
+   "ts": 1784250346.0,
+   "title": "United States Dollar Index consolidates above 100.50 as traders look to Trump's speech",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-consolidates-above-10050-as-traders-look-to-trumps-speech-202607170105",
+   "t": "17 Jul \u00b7 06:05 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex 100.50 se oper mastahkam hawa cunkah taajr trmp ki taqrir ko dekhte hen"
   },
   {
    "ts": 1784244287.0,
@@ -428,54 +468,6 @@
    "link": "https://www.fxstreet.com/news/gold-tumbles-to-eight-month-low-below-4-000-as-middle-east-tensions-reinforce-us-rate-hike-bets-202607162324",
    "t": "17 Jul \u00b7 04:24 AM",
    "ur": "Gold (sona) auth mah ki kam tarin sath par $4,000 se niche gar gaya cunkah masharq wasti ke tanao ne US rate mein azafe ki shart ko taqwet di"
-  },
-  {
-   "ts": 1784243440.0,
-   "title": "Fed\u2019s Jefferson: Current policy is well positioned to respond, based on incoming data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-jefferson-current-policy-is-well-positioned-to-respond-based-on-incoming-data-202607162310",
-   "t": "17 Jul \u00b7 04:10 AM",
-   "ur": "Fed's Jefferson: mojudah palisi aane wale deta ki baniyad par jawab dine ke liye achi tarah se pozition mein hai."
-  },
-  {
-   "ts": 1784240593.0,
-   "title": "The Australian Dollar stalls exactly where everybody said it would",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-australian-dollar-stalls-exactly-where-everybody-said-it-would-202607162223",
-   "t": "17 Jul \u00b7 03:23 AM",
-   "ur": "Aasterilvi Dollar rak gaya hai balkal wahin jahan har ek ne kaha kah esa hoga."
-  },
-  {
-   "ts": 1784238840.0,
-   "title": "Chinese Yuan: Upside bias toward 6.7600 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-upside-bias-toward-67600-against-us-dollar-uob-202607162154",
-   "t": "17 Jul \u00b7 02:54 AM",
-   "ur": "Chini uan: US Dollar ke maqable mein 6.7600 ki taraf alta taasab - UOB"
-  },
-  {
-   "ts": 1784234460.0,
-   "title": "Thai Baht: Overvaluation points to weakness against US Dollar - MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/thai-baht-overvaluation-points-to-weakness-against-us-dollar-mufg-202607162041",
-   "t": "17 Jul \u00b7 01:41 AM",
-   "ur": "Thai bhat: ziyadah qadar US Dollar ke maqable mein kamazori ki taraf asharah karti hai - MUFG"
-  },
-  {
-   "ts": 1784233391.0,
-   "title": "Forex Today: US Dollar rises on resilient labor data, while Oil and Gold fall",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-rises-on-resilient-labor-data-while-oil-and-gold-fall-202607162023",
-   "t": "17 Jul \u00b7 01:23 AM",
-   "ur": "Farex today: lachakdar libr deta par US Dollar badhta hai, jabakah til aur Gold (sona) garta hai."
-  },
-  {
-   "ts": 1784231820.0,
-   "title": "Singapore Dollar: Further upside risk builds against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-further-upside-risk-builds-against-us-dollar-uob-202607161957",
-   "t": "17 Jul \u00b7 12:57 AM",
-   "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf mazid alta khatrah badhta hai."
   }
  ],
  "sentiment": {
