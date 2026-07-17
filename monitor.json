@@ -1,14 +1,13 @@
 {
- "updated": "18-07-2026 00:57 PKT",
+ "updated": "18-07-2026 01:44 PKT",
  "gold": {
-  "price": 4003.99,
+  "price": 4001.6,
   "open": 3981.8,
   "high": 4014.9,
   "low": 3956.89,
-  "chg": 0.56,
+  "chg": 0.5,
   "src": "PAXG (Kraken)",
   "spark": [
-   4053.38,
    4054.81,
    4050.69,
    4048.9,
@@ -55,14 +54,15 @@
    4007.3,
    4000.88,
    4002.4,
-   4003.99
+   4007.33,
+   4001.6
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.385,
-   "chg": 0.87,
+   "price": 56.145,
+   "chg": 0.44,
    "spark": [
     70.696,
     66.255,
@@ -84,13 +84,13 @@
     58.772,
     57.11,
     55.898,
-    56.385
+    56.145
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.752,
-   "chg": 0.02,
+   "price": 100.761,
+   "chg": 0.03,
    "spark": [
     100.09,
     100.85,
@@ -112,13 +112,13 @@
     100.94,
     100.5,
     100.73,
-    100.752
+    100.761
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.15,
-   "chg": 2.79,
+   "price": 81.68,
+   "chg": 3.46,
    "spark": [
     76.79,
     76.6,
@@ -140,7 +140,7 @@
     79.34,
     79.6,
     78.95,
-    81.15
+    81.68
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1443,
-   "chg": -0.24,
+   "price": 1.144,
+   "chg": -0.26,
    "spark": [
     1.1507,
     1.1459,
@@ -197,13 +197,13 @@
     1.1384,
     1.1425,
     1.147,
-    1.1443
+    1.144
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3459,
-   "chg": -0.61,
+   "price": 1.3454,
+   "chg": -0.64,
    "spark": [
     1.3301,
     1.3202,
@@ -226,12 +226,12 @@
     1.3348,
     1.3397,
     1.3541,
-    1.3459
+    1.3454
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.416,
+   "price": 162.417,
    "chg": 0.21,
    "spark": [
     160.6,
@@ -255,15 +255,14 @@
     162.429,
     162.187,
     162.072,
-    162.416
+    162.417
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1842.86,
-   "chg": -1.09,
+   "price": 1839.33,
+   "chg": -1.28,
    "spark": [
-    1922.54,
     1920.69,
     1922.13,
     1916.61,
@@ -310,15 +309,15 @@
     1834.89,
     1842.43,
     1846.12,
-    1842.86
+    1842.2,
+    1839.33
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64130.9,
-   "chg": 0.54,
+   "price": 63999.9,
+   "chg": 0.33,
    "spark": [
-    64937.0,
     64787.8,
     64826.0,
     64709.4,
@@ -365,7 +364,8 @@
     63552.8,
     64007.7,
     64217.4,
-    64130.9
+    64102.0,
+    63999.9
    ]
   }
  ],
@@ -422,36 +422,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784318241.358287,
+   "ts": 1784321077.980269,
    "title": "Silver in persistent downtrend at $56.30: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "18 Jul \u00b7 12:57 AM",
+   "t": "18 Jul \u00b7 01:44 AM",
    "ur": "Silver (chandi) ki qeemat maslsal garaut mein $56.30 par hai."
   },
   {
-   "ts": 1784318241.358287,
+   "ts": 1784321077.980269,
    "title": "Gold stuck below resistance after bullish engulfing: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "18 Jul \u00b7 12:57 AM",
+   "t": "18 Jul \u00b7 01:44 AM",
    "ur": "Gold (sona) tizi ki lapet mein aane ke bad mazahmat se niche phans gaya."
   },
   {
-   "ts": 1784318241.358287,
+   "ts": 1784321077.980269,
    "title": "Gold Tests 8-Month Lows: Strong Support Level or Deeper Correction?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-8month-lows-strong-support-level-or-deeper-correction-93CH-4798883",
-   "t": "18 Jul \u00b7 12:57 AM",
+   "t": "18 Jul \u00b7 01:44 AM",
    "ur": "Gold test 8 mah ki kam tarin sath: mazboot sport liyol yaa gehri asilah?"
   },
   {
-   "ts": 1784318241.358287,
+   "ts": 1784321077.980269,
    "title": "Gold up but on track for weekly drop as Mideast strikes fuel inflation concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "18 Jul \u00b7 12:57 AM",
+   "t": "18 Jul \u00b7 01:44 AM",
    "ur": "Gold (sona) badh raha hai lican haftah war garaut ke raaste par hai cunkah masharq wasti mein andhan ki mahungai ke khadshat hen."
+  },
+  {
+   "ts": 1784317244.0,
+   "title": "Singapore Dollar: Range trade holds near recent lows against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-range-trade-holds-near-recent-lows-against-us-dollar-uob-202607171940",
+   "t": "18 Jul \u00b7 12:40 AM",
+   "ur": "Sangapor Dollar: rinj tred US Dollar - UOB ke khalaf haaliya kam tarin sath ke qarib hai."
   },
   {
    "ts": 1784313325.0,
@@ -492,14 +500,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-slips-as-oil-spike-revives-inflation-fears-202607171623",
    "t": "17 Jul \u00b7 09:23 PM",
    "ur": "Bartanvi pound maslsal dosare dan bhi gara cunkah til ki badhti hoi tizi se mahungai ke khadshat bahal huvay."
-  },
-  {
-   "ts": 1784303817.0,
-   "title": "Australian Dollar recovers as mixed US data weakens the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-recovers-as-mixed-us-data-weakens-the-us-dollar-202607171556",
-   "t": "17 Jul \u00b7 08:56 PM",
-   "ur": "Aasterilvi Dollar ki wasuli ki wajah se mukhaloot US deta US Dollar ko kamazor karta hai."
   }
  ],
  "sentiment": {
