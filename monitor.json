@@ -1,16 +1,13 @@
 {
- "updated": "19-07-2026 08:48 PKT",
+ "updated": "19-07-2026 11:20 PKT",
  "gold": {
-  "price": 4008.55,
+  "price": 4007.15,
   "open": 4008.52,
   "high": 4011.0,
   "low": 4001.78,
-  "chg": 0.0,
+  "chg": -0.03,
   "src": "PAXG (Kraken)",
   "spark": [
-   3977.47,
-   3983.33,
-   3992.42,
    3989.76,
    3988.99,
    3989.46,
@@ -55,16 +52,18 @@
    4009.61,
    4009.17,
    4009.45,
-   4008.55
+   4008.95,
+   4007.46,
+   4008.54,
+   4007.15
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.038,
-   "chg": 0.25,
+   "price": 56.326,
+   "chg": 0.77,
    "spark": [
-    66.255,
     65.527,
     62.02,
     58.052,
@@ -83,7 +82,7 @@
     58.772,
     57.11,
     55.898,
-    56.038
+    56.326
    ]
   },
   {
@@ -91,7 +90,6 @@
    "price": 100.75,
    "chg": 0.02,
    "spark": [
-    100.85,
     101.02,
     101.41,
     101.61,
@@ -115,10 +113,9 @@
   },
   {
    "name": "Oil WTI",
-   "price": 82.49,
-   "chg": 4.48,
+   "price": 81.78,
+   "chg": 3.58,
    "spark": [
-    76.6,
     74.82,
     73.21,
     70.34,
@@ -137,7 +134,7 @@
     79.34,
     79.6,
     78.95,
-    82.49
+    81.78
    ]
   },
   {
@@ -257,12 +254,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1864.3,
-   "chg": 0.14,
+   "price": 1867.62,
+   "chg": 0.32,
    "spark": [
-    1848.62,
-    1822.2,
-    1830.0,
     1826.5,
     1828.45,
     1833.1,
@@ -307,17 +301,17 @@
     1859.53,
     1857.65,
     1870.54,
-    1864.3
+    1865.79,
+    1865.91,
+    1867.19,
+    1867.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64615.0,
-   "chg": -0.28,
+   "price": 64681.3,
+   "chg": -0.18,
    "spark": [
-    63416.0,
-    62794.3,
-    62884.8,
     62777.9,
     62844.1,
     62931.3,
@@ -362,92 +356,55 @@
     64729.2,
     64730.9,
     64783.7,
-    64615.0
+    64657.5,
+    64676.0,
+    64693.2,
+    64681.3
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1784205000.0,
-   "t": "Thu 16 Jul \u00b7 05:30 PM",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "Medium",
-   "forecast": "12.7",
-   "previous": "10.3"
-  },
-  {
-   "ts": 1784205000.0,
-   "t": "Thu 16 Jul \u00b7 05:30 PM",
-   "title": "Retail Sales m/m",
-   "impact": "Medium",
-   "forecast": "0.2%",
-   "previous": "0.9%"
-  },
-  {
-   "ts": 1784205000.0,
-   "t": "Thu 16 Jul \u00b7 05:30 PM",
+   "ts": 1784809800.0,
+   "t": "Thu 23 Jul \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "216K",
-   "previous": "215K"
-  },
-  {
-   "ts": 1784250000.0,
-   "t": "Fri 17 Jul \u00b7 06:00 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1784296800.0,
-   "t": "Fri 17 Jul \u00b7 07:00 PM",
-   "title": "Prelim UoM Consumer Sentiment",
-   "impact": "Medium",
-   "forecast": "51.0",
-   "previous": "48.9"
-  },
-  {
-   "ts": 1784296800.0,
-   "t": "Fri 17 Jul \u00b7 07:00 PM",
-   "title": "Prelim UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.6%"
+   "forecast": "211K",
+   "previous": "208K"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784432893.40585,
+   "ts": 1784442000.257243,
    "title": "Gold falls for the week as oil-driven inflation fears offset cooling economic data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "19 Jul \u00b7 08:48 AM",
+   "t": "19 Jul \u00b7 11:20 AM",
    "ur": "Hafte ke liye Gold (sona) garta hai cunkah til se chalne wali inflation (mehngai) ke khadshat thanday mashi deta ko pora karte hen."
   },
   {
-   "ts": 1784432893.40585,
+   "ts": 1784442000.257243,
    "title": "Silver in persistent downtrend at $56.30: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "19 Jul \u00b7 08:48 AM",
+   "t": "19 Jul \u00b7 11:20 AM",
    "ur": "Silver (chandi) ki qeemat maslsal garaut mein $56.30 par hai."
   },
   {
-   "ts": 1784432893.40585,
+   "ts": 1784442000.257243,
    "title": "Gold stuck below resistance after bullish engulfing: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "19 Jul \u00b7 08:48 AM",
+   "t": "19 Jul \u00b7 11:20 AM",
    "ur": "Gold (sona) tizi ki lapet mein aane ke bad mazahmat se niche phans gaya."
   },
   {
-   "ts": 1784432893.40585,
+   "ts": 1784442000.257243,
    "title": "Gold Tests 8-Month Lows: Strong Support Level or Deeper Correction?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-8month-lows-strong-support-level-or-deeper-correction-93CH-4798883",
-   "t": "19 Jul \u00b7 08:48 AM",
+   "t": "19 Jul \u00b7 11:20 AM",
    "ur": "Gold test 8 mah ki kam tarin sath: mazboot sport liyol yaa gehri asilah?"
   },
   {
