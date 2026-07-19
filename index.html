@@ -846,6 +846,17 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
 .mon-card:hover,.ana-card:hover,.price-card:hover,.video-card:hover,.testi:hover,.skill-card:hover,.work-card:hover{transform:translateY(-4px);border-color:#2b3f6d;box-shadow:0 16px 44px rgba(0,0,0,.5)}
 .ticker-card{box-shadow:0 0 30px rgba(255,176,46,.08)}
 @media (prefers-reduced-motion: reduce){.tape-track,header.hero .btn.primary{animation:none}}
+/* compact news cards (number + arrow + corner tint) */
+.newsx-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px;font-family:ui-monospace,'Cascadia Mono','Roboto Mono',Consolas,Menlo,monospace}
+.newsx-card{position:relative;display:block;padding:58px 18px 16px;border:1px solid #222738;border-radius:18px;text-decoration:none;background:radial-gradient(260px 190px at 100% 0%, var(--tint), transparent 65%),#0b0d15;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.newsx-card:hover{transform:translateY(-4px);border-color:#2b3f6d;box-shadow:0 14px 38px rgba(0,0,0,.45)}
+.nx-num{position:absolute;top:16px;left:18px;color:#8091b4;font-size:.72rem;letter-spacing:.12em}
+.nx-arrow{position:absolute;top:12px;right:14px;width:36px;height:36px;border:1px solid #2b3f6d;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#e6edf9;font-size:.95rem;transition:all .25s ease}
+.newsx-card:hover .nx-arrow{background:#29c5ff;color:#04202e;border-color:#29c5ff;transform:rotate(45deg)}
+.nx-title{display:block;color:#e6edf9;font-size:.85rem;font-weight:700;line-height:1.55;margin-bottom:8px}
+.nx-sub{display:block;color:#8091b4;font-size:.66rem;font-style:italic;line-height:1.45;margin-bottom:12px}
+.nx-meta{display:block;color:#ffb02e;font-size:.6rem;letter-spacing:.08em;font-weight:700}
+@media(max-width:980px){.newsx-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -946,14 +957,9 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
 
       <div class="mon-card mon-wide" id="gold-card"></div>
 
-      <div class="mon-card mon-tall">
+      <div class="mon-card">
         <p class="mon-title"><span class="mon-dot">●</span>MARKETS <span class="mon-tag">LIVE</span></p>
         <div id="mkt-box"><p class="mon-empty">Loading…</p></div>
-      </div>
-
-      <div class="mon-card mon-tall">
-        <p class="mon-title"><span class="mon-dot">●</span>GOLD NEWS <span class="mon-tag">AUTO-FEED</span><span class="mon-tag">ROMAN URDU</span></p>
-        <div id="news-box"><p class="mon-empty">Loading…</p></div>
       </div>
 
       <div class="mon-card">
@@ -967,6 +973,8 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
       </div>
 
     </div>
+    <p class="mon-title" style="margin-top:30px"><span class="mon-dot">●</span>GOLD NEWS <span class="mon-tag">AUTO-FEED</span><span class="mon-tag">ROMAN URDU</span></p>
+    <div class="newsx-grid" id="newsx-box"><p class="mon-empty">Loading…</p></div>
   </div>
 </section>
 
@@ -1793,15 +1801,18 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
           '<span class="tk-meta">' + esc(n0.src) + ' · ' + (n0.ts ? ago(n0.ts) : '') + '</span></a>';
       }
 
-      // news card
-      const nb = document.getElementById('news-box');
+      // news — chhote designed cards (number + arrow + tint)
+      const nb = document.getElementById('newsx-box');
       if (nb){
+        const tints = ['rgba(41,197,255,.18)','rgba(255,176,46,.18)','rgba(0,210,106,.15)','rgba(167,139,250,.18)'];
         nb.innerHTML = (d.news && d.news.length)
-          ? d.news.map(n =>
-              '<a class="news-row" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
-              '<span class="news-title">' + esc(n.ur || n.title) + '</span>' +
-              (n.ur ? '<span class="news-en">' + esc(n.title) + '</span>' : '') +
-              '<span class="news-meta"><em>' + esc(n.src) + '</em> · ' + (n.ts ? ago(n.ts) : esc(n.t) + ' PKT') + '</span></a>').join('')
+          ? d.news.slice(0, 6).map((n, i) =>
+              '<a class="newsx-card" style="--tint:' + tints[i % 4] + '" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
+              '<span class="nx-num">' + String(i + 1).padStart(2, '0') + '</span>' +
+              '<span class="nx-arrow">↗</span>' +
+              '<span class="nx-title">' + esc(n.ur || n.title) + '</span>' +
+              '<span class="nx-sub">' + esc(n.title) + '</span>' +
+              '<span class="nx-meta">' + esc(n.src) + (n.ts ? ' · ' + ago(n.ts) : '') + '</span></a>').join('')
           : '<p class="mon-empty">No fresh gold headlines right now.</p>';
       }
     } catch(e){}
