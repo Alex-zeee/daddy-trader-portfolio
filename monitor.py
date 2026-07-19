@@ -15,8 +15,30 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 errs = []
 out = {"updated": NOW.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT")}
 
-# ---------- 1. Markets — Yahoo Finance (silver, DXY, oil, yields, FX) ----------
+# ---------- 0. Gold — ASLI XAUUSD spot (Twelve Data) ----------
 markets, gold = [], None
+import os
+TD_KEY = os.environ.get("TD_KEY", "").strip()
+if TD_KEY:
+    try:
+        td = json.loads(get("https://api.twelvedata.com/time_series?symbol=XAU/USD"
+                            "&interval=15min&outputsize=96&timezone=UTC&apikey=" + TD_KEY))
+        vals = (td.get("values") or [])[::-1]
+        if vals:
+            closes = [float(v["close"]) for v in vals]
+            highs = [float(v["high"]) for v in vals]
+            lows = [float(v["low"]) for v in vals]
+            c = closes[-1]
+            o = float(vals[0]["open"])
+            chg = round((c - o) / o * 100, 2) if o else 0.0
+            gold = {"price": round(c, 2), "open": round(o, 2),
+                    "high": round(max(highs), 2), "low": round(min(lows), 2),
+                    "chg": chg, "src": "XAUUSD Spot",
+                    "spark": [round(x, 2) for x in closes[-48:]]}
+    except Exception as e:
+        errs.append("td: %s" % e)
+
+# ---------- 1. Markets — Yahoo Finance (silver, DXY, oil, yields, FX) ----------
 TICKS = [("SI=F", "Silver (fut)"), ("DX-Y.NYB", "Dollar Index"),
          ("CL=F", "Oil WTI"), ("^TNX", "US 10Y Yield"),
          ("EURUSD=X", "EUR/USD"), ("GBPUSD=X", "GBP/USD"), ("JPY=X", "USD/JPY")]
@@ -71,7 +93,7 @@ def _kspark(pair):
     except Exception:
         return []
 
-if gold is not None:
+if gold is not None and not gold.get("spark"):
     gold["spark"] = _kspark("PAXGUSD")
 for m in markets:
     if m["name"] == "Bitcoin":

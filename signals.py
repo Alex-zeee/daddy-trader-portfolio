@@ -44,6 +44,28 @@ def _get(url, extra=None):
         return r.read().decode("utf-8", "ignore")
 
 
+def _twelvedata():
+    # ASLI XAUUSD spot (Twelve Data) — Exness jaisi candles
+    import os
+    key = os.environ.get("TD_KEY", "").strip()
+    if not key:
+        raise RuntimeError("TD_KEY missing")
+    url = ("https://api.twelvedata.com/time_series?symbol=XAU/USD"
+           "&interval=15min&outputsize=300&timezone=UTC&apikey=" + key)
+    data = json.loads(_get(url))
+    vals = data.get("values")
+    if not vals:
+        raise RuntimeError("TD: " + str(data.get("message", "no values"))[:120])
+    vals = vals[::-1]  # oldest first
+    df = pd.DataFrame(
+        {"Open": [float(x["open"]) for x in vals],
+         "High": [float(x["high"]) for x in vals],
+         "Low": [float(x["low"]) for x in vals],
+         "Close": [float(x["close"]) for x in vals]},
+        index=pd.to_datetime([x["datetime"] for x in vals], utc=True))
+    return _clean(df)
+
+
 def _dukascopy():
     # Asli spot XAU/USD (Swiss feed)
     url = ("https://freeserv.dukascopy.com/2.0/index.php?path=chart%2Fjson3"
@@ -95,6 +117,7 @@ FETCH_ERRORS = []
 def fetch_gold():
     """Returns (df, source_name)."""
     sources = (
+        ("XAUUSD-spot", _twelvedata),
         ("SPOT-duka", _dukascopy),
         ("PAXG-kraken", _kraken),
         ("PAXG-bnus", lambda: _binance("https://api.binance.us")),
