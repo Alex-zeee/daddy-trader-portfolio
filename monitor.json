@@ -1,17 +1,13 @@
 {
- "updated": "21-07-2026 02:20 PKT",
+ "updated": "21-07-2026 03:27 PKT",
  "gold": {
-  "price": 4008.38,
-  "open": 4010.5,
+  "price": 4009.54,
+  "open": 3996.0,
   "high": 4039.42,
   "low": 3983.43,
-  "chg": -0.05,
+  "chg": 0.34,
   "src": "XAUUSD Spot",
   "spark": [
-   4020.72,
-   4020.33,
-   4021.11,
-   4022.92,
    4022.5,
    4024.02,
    4021.39,
@@ -55,14 +51,18 @@
    4008.86,
    4008.3,
    4008.25,
-   4008.38
+   4008.33,
+   4006.62,
+   4006.49,
+   4006.28,
+   4009.54
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.665,
-   "chg": 1.12,
+   "price": 56.6,
+   "chg": 1.0,
    "spark": [
     65.527,
     62.02,
@@ -83,13 +83,13 @@
     57.11,
     55.898,
     56.038,
-    56.665
+    56.6
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.968,
-   "chg": 0.22,
+   "price": 100.999,
+   "chg": 0.25,
    "spark": [
     101.02,
     101.41,
@@ -110,13 +110,13 @@
     100.5,
     100.73,
     100.75,
-    100.968
+    100.999
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.42,
-   "chg": -0.08,
+   "price": 82.57,
+   "chg": 0.1,
    "spark": [
     74.82,
     73.21,
@@ -137,7 +137,7 @@
     79.6,
     78.95,
     82.49,
-    82.42
+    82.57
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1417,
-   "chg": -0.24,
+   "price": 1.1416,
+   "chg": -0.25,
    "spark": [
     1.1463,
     1.1427,
@@ -192,13 +192,13 @@
     1.1425,
     1.147,
     1.1445,
-    1.1417
+    1.1416
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3435,
-   "chg": -0.33,
+   "price": 1.3425,
+   "chg": -0.4,
    "spark": [
     1.3208,
     1.3247,
@@ -220,13 +220,13 @@
     1.3397,
     1.3541,
     1.3479,
-    1.3435
+    1.3425
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.464,
-   "chg": 0.05,
+   "price": 162.488,
+   "chg": 0.07,
    "spark": [
     161.433,
     161.57,
@@ -248,15 +248,14 @@
     162.187,
     162.072,
     162.376,
-    162.464
+    162.488
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1905.27,
-   "chg": 1.81,
+   "price": 1896.78,
+   "chg": 1.36,
    "spark": [
-    1862.52,
     1861.54,
     1859.53,
     1857.65,
@@ -303,15 +302,15 @@
     1898.06,
     1896.69,
     1903.3,
-    1905.27
+    1900.81,
+    1896.78
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65284.8,
-   "chg": 0.94,
+   "price": 65198.7,
+   "chg": 0.8,
    "spark": [
-    64778.9,
     64796.7,
     64729.2,
     64730.9,
@@ -358,7 +357,8 @@
     65191.7,
     65090.7,
     65325.1,
-    65284.8
+    65246.8,
+    65198.7
    ]
   }
  ],
@@ -375,28 +375,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784582449.690451,
+   "ts": 1784586462.163075,
    "title": "Gold marginally lower amid firmer dollar as U.S.-Iran tensions escalate further",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4000-as-iran-conflict-keeps-fed-inflation-fears-in-focus-4799771",
-   "t": "21 Jul \u00b7 02:20 AM",
+   "t": "21 Jul \u00b7 03:27 AM",
    "ur": "US eran kasheedgi mein mazid azafe ke baas Dollar ki mazbooti ke darmiyan Gold (sona) mamoli tur par gar gaya."
   },
   {
-   "ts": 1784582449.690451,
+   "ts": 1784586462.163075,
    "title": "Gold tests $3,955 support with bearish trend intact: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "21 Jul \u00b7 02:20 AM",
+   "t": "21 Jul \u00b7 03:27 AM",
    "ur": "Gold (sona) 3,955 Dollar ki support ka tajrabah karta hai jas mein mandi ka rjahan barqarar hai."
   },
   {
-   "ts": 1784582449.690451,
+   "ts": 1784586462.163075,
    "title": "Silver stalls below $58.30 resistance: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "21 Jul \u00b7 02:20 AM",
+   "t": "21 Jul \u00b7 03:27 AM",
    "ur": "Salor rak gaya hai $58.30 mazahmat se niche: laaio fi ghanta ki sath"
+  },
+  {
+   "ts": 1784583420.0,
+   "title": "Malaysian Ringgit: Growth supports range against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/malaysian-ringgit-growth-supports-range-against-us-dollar-commerzbank-202607202137",
+   "t": "21 Jul \u00b7 02:37 AM",
+   "ur": "Malishin rangt: tarqi US Dollar - kamers Bank ke khalaf had ki support karti hai."
   },
   {
    "ts": 1784580960.0,
@@ -445,14 +453,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-attempts-to-stabilize-above-5500-202607201732",
    "t": "20 Jul \u00b7 10:32 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $55.00 se oper ko mastahkam karne ki koshash karta hai."
-  },
-  {
-   "ts": 1784563308.0,
-   "title": "Australian Dollar holds as PBOC stands firm",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-as-pboc-stands-firm-202607201601",
-   "t": "20 Jul \u00b7 09:01 PM",
-   "ur": "Aasterilvi Dollar pi bi au si ki mazbooti ke sath barqarar hai."
   }
  ],
  "sentiment": {
