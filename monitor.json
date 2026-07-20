@@ -1,19 +1,13 @@
 {
- "updated": "20-07-2026 04:37 PKT",
+ "updated": "20-07-2026 06:10 PKT",
  "gold": {
-  "price": 3993.19,
+  "price": 4010.64,
   "open": 4010.54,
-  "high": 4010.77,
-  "low": 3989.3,
-  "chg": -0.43,
+  "high": 4016.71,
+  "low": 3983.43,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4010.57,
-   4010.51,
-   4010.61,
-   4010.63,
-   4010.58,
-   4010.51,
    4010.62,
    4010.62,
    4010.59,
@@ -55,14 +49,20 @@
    3995.76,
    3991.53,
    3992.19,
-   3993.19
+   3992.49,
+   3995.18,
+   3996.72,
+   4004.67,
+   4001.29,
+   4001.47,
+   4010.64
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.96,
-   "chg": -0.14,
+   "price": 56.75,
+   "chg": 1.27,
    "spark": [
     65.527,
     62.02,
@@ -83,13 +83,13 @@
     57.11,
     55.898,
     56.038,
-    55.96
+    56.75
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.86,
-   "chg": 0.11,
+   "price": 100.763,
+   "chg": 0.01,
    "spark": [
     101.02,
     101.41,
@@ -110,13 +110,13 @@
     100.5,
     100.73,
     100.75,
-    100.86
+    100.763
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.93,
-   "chg": 1.75,
+   "price": 83.58,
+   "chg": 1.32,
    "spark": [
     74.82,
     73.21,
@@ -137,7 +137,7 @@
     79.6,
     78.95,
     82.49,
-    83.93
+    83.58
    ]
   },
   {
@@ -170,8 +170,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1429,
-   "chg": -0.14,
+   "price": 1.1438,
+   "chg": -0.06,
    "spark": [
     1.1463,
     1.1427,
@@ -193,13 +193,13 @@
     1.1425,
     1.147,
     1.1445,
-    1.1429
+    1.1438
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3443,
-   "chg": -0.27,
+   "price": 1.3453,
+   "chg": -0.19,
    "spark": [
     1.3208,
     1.3247,
@@ -221,13 +221,13 @@
     1.3397,
     1.3541,
     1.3479,
-    1.3443
+    1.3453
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.524,
-   "chg": 0.09,
+   "price": 162.33,
+   "chg": -0.03,
    "spark": [
     161.433,
     161.57,
@@ -249,16 +249,14 @@
     162.187,
     162.072,
     162.376,
-    162.524
+    162.33
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1869.41,
-   "chg": 0.41,
+   "price": 1883.09,
+   "chg": 0.63,
    "spark": [
-    1839.63,
-    1841.13,
     1840.71,
     1844.43,
     1843.31,
@@ -304,16 +302,16 @@
     1865.62,
     1860.63,
     1868.84,
-    1869.41
+    1871.33,
+    1870.9,
+    1883.09
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64632.9,
-   "chg": -0.25,
+   "price": 64877.6,
+   "chg": 0.31,
    "spark": [
-    63856.9,
-    63917.7,
     63914.1,
     63972.6,
     63923.0,
@@ -359,7 +357,9 @@
     64486.6,
     64359.8,
     64621.0,
-    64632.9
+    64678.1,
+    64510.9,
+    64877.6
    ]
   }
  ],
@@ -376,36 +376,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784504225.280354,
+   "ts": 1784509858.961108,
    "title": "Gold falls for the week as oil-driven inflation fears offset cooling economic data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-weekly-loss-as-iran-strikes-fuel-fed-rate-concerns-4797354",
-   "t": "20 Jul \u00b7 04:37 AM",
+   "t": "20 Jul \u00b7 06:10 AM",
    "ur": "Hafte ke liye Gold (sona) garta hai cunkah til se chalne wali inflation (mehngai) ke khadshat thanday mashi deta ko pora karte hen."
   },
   {
-   "ts": 1784504225.280354,
+   "ts": 1784509858.961108,
    "title": "Silver in persistent downtrend at $56.30: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-plunges-15-toward-key-support-live-levels-93CH-4787512",
-   "t": "20 Jul \u00b7 04:37 AM",
+   "t": "20 Jul \u00b7 06:10 AM",
    "ur": "Silver (chandi) ki qeemat maslsal garaut mein $56.30 par hai."
   },
   {
-   "ts": 1784504225.280354,
+   "ts": 1784509858.961108,
    "title": "Gold stuck below resistance after bullish engulfing: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-below-4160-resistance-hourly-levels-93CH-4787504",
-   "t": "20 Jul \u00b7 04:37 AM",
+   "t": "20 Jul \u00b7 06:10 AM",
    "ur": "Gold (sona) tizi ki lapet mein aane ke bad mazahmat se niche phans gaya."
   },
   {
-   "ts": 1784504225.280354,
+   "ts": 1784509858.961108,
    "title": "Gold Tests 8-Month Lows: Strong Support Level or Deeper Correction?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-8month-lows-strong-support-level-or-deeper-correction-93CH-4798883",
-   "t": "20 Jul \u00b7 04:37 AM",
+   "t": "20 Jul \u00b7 06:10 AM",
    "ur": "Gold test 8 mah ki kam tarin sath: mazboot sport liyol yaa gehri asilah?"
+  },
+  {
+   "ts": 1784507431.0,
+   "title": "Gold falls toward $4,000 as US-Iran hostilities boosts Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-falls-toward-4-000-as-us-iran-hostilities-boosts-fed-rate-hike-bets-202607200030",
+   "t": "20 Jul \u00b7 05:30 AM",
+   "ur": "Gold (sona) $4,000 ki taraf gar gaya cunkah amrikah eran dashmani ne fed ki rate mein azafe ki shart ko badhaya"
+  },
+  {
+   "ts": 1784503490.0,
+   "title": "Australian Dollar softens below 0.7000 as US\u2013Iran conflicts escalate",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-softens-below-07000-as-us-iran-conflicts-escalate-202607192324",
+   "t": "20 Jul \u00b7 04:24 AM",
+   "ur": "Aasterilvi Dollar 0.7000 se niche narm ho gaya hai cunkah amrikah-eran tanazaat badh rahe hen."
   },
   {
    "ts": 1784326920.0,
@@ -438,26 +454,10 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-range-trade-holds-near-recent-lows-against-us-dollar-uob-202607171940",
    "t": "18 Jul \u00b7 12:40 AM",
    "ur": "Sangapor Dollar: rinj tred US Dollar - UOB ke khalaf haaliya kam tarin sath ke qarib hai."
-  },
-  {
-   "ts": 1784313325.0,
-   "title": "Forecasting the coming week: ECB decision, UK inflation, and global PMIs to drive markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forecasting-the-coming-week-ecb-decision-uk-inflation-and-global-pmis-to-drive-markets-202607171835",
-   "t": "17 Jul \u00b7 11:35 PM",
-   "ur": "Aane wale hafte ki forecast: ECB ka fisalah, UK inflation (mehngai), aur alimi PMIs marketon ko chalane ke liye"
-  },
-  {
-   "ts": 1784312377.0,
-   "title": "Gold climbs as Iran war premium revives Fed hike risk",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-climbs-as-iran-war-premium-revives-fed-hike-risk-202607171819",
-   "t": "17 Jul \u00b7 11:19 PM",
-   "ur": "Erani jang ke parimim ne fed mein azafe ke khatre ko bahal karte huvay Gold (sona) chadh gaya."
   }
  ],
  "sentiment": {
-  "value": 28,
+  "value": 29,
   "label": "Fear"
  },
  "err": null
