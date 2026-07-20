@@ -1,21 +1,13 @@
 {
- "updated": "20-07-2026 21:18 PKT",
+ "updated": "20-07-2026 23:25 PKT",
  "gold": {
-  "price": 4012.72,
-  "open": 4010.54,
+  "price": 4004.58,
+  "open": 4010.55,
   "high": 4039.42,
   "low": 3983.43,
-  "chg": 0.05,
+  "chg": -0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   4023.03,
-   4019.04,
-   4012.24,
-   4011.82,
-   4010.3,
-   4009.18,
-   4008.06,
-   4005.07,
    4004.38,
    4003.87,
    4003.9,
@@ -55,14 +47,22 @@
    4011.62,
    4013.23,
    4013.94,
-   4012.72
+   4012.26,
+   4009.33,
+   4010.01,
+   4010.6,
+   4011.66,
+   4009.2,
+   4004.78,
+   4009.44,
+   4004.58
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.35,
-   "chg": 2.34,
+   "price": 57.1,
+   "chg": 1.9,
    "spark": [
     65.527,
     62.02,
@@ -83,13 +83,13 @@
     57.11,
     55.898,
     56.038,
-    57.35
+    57.1
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.965,
-   "chg": 0.21,
+   "price": 100.927,
+   "chg": 0.18,
    "spark": [
     101.02,
     101.41,
@@ -110,13 +110,13 @@
     100.5,
     100.73,
     100.75,
-    100.965
+    100.927
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.33,
-   "chg": -1.41,
+   "price": 81.99,
+   "chg": -0.61,
    "spark": [
     74.82,
     73.21,
@@ -137,13 +137,13 @@
     79.6,
     78.95,
     82.49,
-    81.33
+    81.99
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.592,
-   "chg": 1.12,
+   "price": 4.598,
+   "chg": 1.26,
    "spark": [
     4.509,
     4.493,
@@ -164,13 +164,13 @@
     4.545,
     4.569,
     4.541,
-    4.592
+    4.598
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1419,
-   "chg": -0.22,
+   "price": 1.1421,
+   "chg": -0.21,
    "spark": [
     1.1463,
     1.1427,
@@ -192,13 +192,13 @@
     1.1425,
     1.147,
     1.1445,
-    1.1419
+    1.1421
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3423,
-   "chg": -0.42,
+   "price": 1.3438,
+   "chg": -0.31,
    "spark": [
     1.3208,
     1.3247,
@@ -220,13 +220,13 @@
     1.3397,
     1.3541,
     1.3479,
-    1.3423
+    1.3438
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.549,
-   "chg": 0.11,
+   "price": 162.459,
+   "chg": 0.05,
    "spark": [
     161.433,
     161.57,
@@ -248,16 +248,14 @@
     162.187,
     162.072,
     162.376,
-    162.549
+    162.459
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1899.6,
-   "chg": 1.51,
+   "price": 1906.55,
+   "chg": 1.88,
    "spark": [
-    1851.5,
-    1855.88,
     1857.14,
     1856.45,
     1859.72,
@@ -303,16 +301,16 @@
     1860.37,
     1865.72,
     1901.13,
-    1899.6
+    1897.19,
+    1906.19,
+    1906.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65426.7,
-   "chg": 1.16,
+   "price": 65575.6,
+   "chg": 1.39,
    "spark": [
-    64447.5,
-    64474.7,
     64528.2,
     64658.0,
     64690.6,
@@ -358,7 +356,9 @@
     64280.7,
     64354.3,
     65542.5,
-    65426.7
+    65444.0,
+    65539.8,
+    65575.6
    ]
   }
  ],
@@ -375,20 +375,12 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784564304.454691,
-   "title": "Wheat hits two-year highs on Black Sea shipping concerns",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/wheat-hits-twoyear-highs-on-black-sea-shipping-concerns-93CH-4801184",
-   "t": "20 Jul \u00b7 09:18 PM",
-   "ur": "Baheerah isud ki tarsel ke khadshat par gandam do sal ki baland tarin sath par hai."
-  },
-  {
-   "ts": 1784564304.454691,
-   "title": "Gold steadies as traders weigh U.S.-Iran tensions, Fed rate hike signals",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4000-as-iran-conflict-keeps-fed-inflation-fears-in-focus-4799771",
-   "t": "20 Jul \u00b7 09:18 PM",
-   "ur": "Gold (sona) mastahkam hai cunkah taajron ne amrikah aur eran kasheedgi ka wazin kiya hai, fed rate mein azafe ke ashare"
+   "ts": 1784568729.0,
+   "title": "Silver Price Forecast: XAG/USD attempts to stabilize above $55.00",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-attempts-to-stabilize-above-5500-202607201732",
+   "t": "20 Jul \u00b7 10:32 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $55.00 se oper ko mastahkam karne ki koshash karta hai."
   },
   {
    "ts": 1784563308.0,
@@ -444,7 +436,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-carry-and-growth-support-potential-rebound-hsbc-202607201437",
    "t": "20 Jul \u00b7 07:37 PM",
-   "ur": "Aasterilvi Dollar: kiri aur garoth mamkana saht mandi lotne ki support karta hai - HSBC"
+   "ur": "Aasterilin Dollar: kiri aur garoth mamkana saht mandi lotne ki support karta hai - HSBC"
   },
   {
    "ts": 1784557676.0,
@@ -453,6 +445,14 @@
    "link": "https://www.fxstreet.com/news/gold-fed-risks-and-dollar-strength-cap-upside-td-securities-202607201427",
    "t": "20 Jul \u00b7 07:27 PM",
    "ur": "Gold: fed khatrat aur Dollar ki tqt ki had oper - TD securitez"
+  },
+  {
+   "ts": 1784556824.0,
+   "title": "Euro: ECB pause seen limiting downside against US Dollar \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-ecb-pause-seen-limiting-downside-against-us-dollar-bbh-202607201413",
+   "t": "20 Jul \u00b7 07:13 PM",
+   "ur": "Uro: ECB toqf US Dollar - BBH ke maqable mein kami ko muhadud karta hawa dekha gaya."
   }
  ],
  "sentiment": {
