@@ -1,17 +1,13 @@
 {
- "updated": "21-07-2026 03:27 PKT",
+ "updated": "21-07-2026 04:29 PKT",
  "gold": {
-  "price": 4009.54,
-  "open": 3996.0,
+  "price": 4004.08,
+  "open": 3992.63,
   "high": 4039.42,
   "low": 3983.43,
-  "chg": 0.34,
+  "chg": 0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4022.5,
-   4024.02,
-   4021.39,
-   4023.08,
    4030.11,
    4026.62,
    4012.68,
@@ -55,7 +51,11 @@
    4006.62,
    4006.49,
    4006.28,
-   4009.54
+   4009.5,
+   4004.56,
+   4001.4,
+   4003.35,
+   4004.08
   ]
  },
  "markets": [
@@ -115,8 +115,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 82.57,
-   "chg": 0.1,
+   "price": 82.59,
+   "chg": 0.12,
    "spark": [
     74.82,
     73.21,
@@ -137,7 +137,7 @@
     79.6,
     78.95,
     82.49,
-    82.57
+    82.59
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1416,
-   "chg": -0.25,
+   "price": 1.1417,
+   "chg": -0.09,
    "spark": [
     1.1463,
     1.1427,
@@ -192,13 +192,14 @@
     1.1425,
     1.147,
     1.1445,
-    1.1416
+    1.1428,
+    1.1417
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3425,
-   "chg": -0.4,
+   "price": 1.3428,
+   "chg": -0.13,
    "spark": [
     1.3208,
     1.3247,
@@ -220,13 +221,14 @@
     1.3397,
     1.3541,
     1.3479,
-    1.3425
+    1.3446,
+    1.3428
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.488,
-   "chg": 0.07,
+   "price": 162.502,
+   "chg": -0.01,
    "spark": [
     161.433,
     161.57,
@@ -248,15 +250,15 @@
     162.187,
     162.072,
     162.376,
-    162.488
+    162.512,
+    162.502
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1896.78,
-   "chg": 1.36,
+   "price": 1902.08,
+   "chg": 1.64,
    "spark": [
-    1861.54,
     1859.53,
     1857.65,
     1870.54,
@@ -303,15 +305,15 @@
     1896.69,
     1903.3,
     1900.81,
-    1896.78
+    1894.48,
+    1902.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65198.7,
-   "chg": 0.8,
+   "price": 65200.0,
+   "chg": 0.81,
    "spark": [
-    64796.7,
     64729.2,
     64730.9,
     64783.7,
@@ -358,7 +360,8 @@
     65090.7,
     65325.1,
     65246.8,
-    65198.7
+    65104.6,
+    65200.0
    ]
   }
  ],
@@ -375,28 +378,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784586462.163075,
+   "ts": 1784590154.695208,
    "title": "Gold marginally lower amid firmer dollar as U.S.-Iran tensions escalate further",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4000-as-iran-conflict-keeps-fed-inflation-fears-in-focus-4799771",
-   "t": "21 Jul \u00b7 03:27 AM",
+   "t": "21 Jul \u00b7 04:29 AM",
    "ur": "US eran kasheedgi mein mazid azafe ke baas Dollar ki mazbooti ke darmiyan Gold (sona) mamoli tur par gar gaya."
   },
   {
-   "ts": 1784586462.163075,
+   "ts": 1784590154.695208,
    "title": "Gold tests $3,955 support with bearish trend intact: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "21 Jul \u00b7 03:27 AM",
+   "t": "21 Jul \u00b7 04:29 AM",
    "ur": "Gold (sona) 3,955 Dollar ki support ka tajrabah karta hai jas mein mandi ka rjahan barqarar hai."
   },
   {
-   "ts": 1784586462.163075,
+   "ts": 1784590154.695208,
    "title": "Silver stalls below $58.30 resistance: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "21 Jul \u00b7 03:27 AM",
+   "t": "21 Jul \u00b7 04:29 AM",
    "ur": "Salor rak gaya hai $58.30 mazahmat se niche: laaio fi ghanta ki sath"
+  },
+  {
+   "ts": 1784585940.0,
+   "title": "Chinese Yuan: Rangebound trade guided by fix against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-rangebound-trade-guided-by-fix-against-us-dollar-ocbc-202607202219",
+   "t": "21 Jul \u00b7 03:19 AM",
+   "ur": "Chini uan: rinj bound tajart US Dollar ke khalaf fix ke zariye rahnumi karti hai - OCBC"
   },
   {
    "ts": 1784583420.0,
@@ -445,14 +456,6 @@
    "link": "https://www.fxstreet.com/news/united-states-dollar-index-rebounds-as-middle-east-tensions-drive-demand-202607201830",
    "t": "20 Jul \u00b7 11:30 PM",
    "ur": "Ryastahaye matehdah ka Dollar andex aage badh raha hai cunkah masharq wasti mein kasheedgi ki wajah se mang badh rahi hai."
-  },
-  {
-   "ts": 1784568729.0,
-   "title": "Silver Price Forecast: XAG/USD attempts to stabilize above $55.00",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-attempts-to-stabilize-above-5500-202607201732",
-   "t": "20 Jul \u00b7 10:32 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $55.00 se oper ko mastahkam karne ki koshash karta hai."
   }
  ],
  "sentiment": {
