@@ -1,20 +1,13 @@
 {
- "updated": "20-07-2026 23:25 PKT",
+ "updated": "21-07-2026 01:02 PKT",
  "gold": {
-  "price": 4004.58,
-  "open": 4010.55,
+  "price": 4006.66,
+  "open": 4010.54,
   "high": 4039.42,
   "low": 3983.43,
-  "chg": -0.15,
+  "chg": -0.1,
   "src": "XAUUSD Spot",
   "spark": [
-   4004.38,
-   4003.87,
-   4003.9,
-   4004.18,
-   4019.77,
-   4017.46,
-   4023.05,
    4023.1,
    4022.2,
    4019.42,
@@ -55,14 +48,21 @@
    4009.2,
    4004.78,
    4009.44,
-   4004.58
+   4006.91,
+   4006.84,
+   4006.65,
+   4004.78,
+   4008.32,
+   4007.94,
+   4006.72,
+   4006.66
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.1,
-   "chg": 1.9,
+   "price": 56.705,
+   "chg": 1.19,
    "spark": [
     65.527,
     62.02,
@@ -83,13 +83,13 @@
     57.11,
     55.898,
     56.038,
-    57.1
+    56.705
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.927,
-   "chg": 0.18,
+   "price": 100.937,
+   "chg": 0.19,
    "spark": [
     101.02,
     101.41,
@@ -110,13 +110,13 @@
     100.5,
     100.73,
     100.75,
-    100.927
+    100.937
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.99,
-   "chg": -0.61,
+   "price": 82.5,
+   "chg": 0.01,
    "spark": [
     74.82,
     73.21,
@@ -137,7 +137,7 @@
     79.6,
     78.95,
     82.49,
-    81.99
+    82.5
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1421,
-   "chg": -0.21,
+   "price": 1.1419,
+   "chg": -0.22,
    "spark": [
     1.1463,
     1.1427,
@@ -192,12 +192,12 @@
     1.1425,
     1.147,
     1.1445,
-    1.1421
+    1.1419
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3438,
+   "price": 1.3437,
    "chg": -0.31,
    "spark": [
     1.3208,
@@ -220,44 +220,14 @@
     1.3397,
     1.3541,
     1.3479,
-    1.3438
-   ]
-  },
-  {
-   "name": "USD/JPY",
-   "price": 162.459,
-   "chg": 0.05,
-   "spark": [
-    161.433,
-    161.57,
-    161.599,
-    161.763,
-    161.805,
-    161.787,
-    161.923,
-    162.628,
-    162.539,
-    161.449,
-    161.452,
-    162.088,
-    162.363,
-    162.539,
-    162.363,
-    161.878,
-    162.429,
-    162.187,
-    162.072,
-    162.376,
-    162.459
+    1.3437
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1906.55,
-   "chg": 1.88,
+   "price": 1895.55,
+   "chg": 1.29,
    "spark": [
-    1857.14,
-    1856.45,
     1859.72,
     1862.52,
     1861.54,
@@ -303,16 +273,16 @@
     1901.13,
     1897.19,
     1906.19,
-    1906.55
+    1898.06,
+    1896.69,
+    1895.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65575.6,
-   "chg": 1.39,
+   "price": 65051.2,
+   "chg": 0.58,
    "spark": [
-    64528.2,
-    64658.0,
     64690.6,
     64778.9,
     64796.7,
@@ -358,7 +328,9 @@
     65542.5,
     65444.0,
     65539.8,
-    65575.6
+    65191.7,
+    65090.7,
+    65051.2
    ]
   }
  ],
@@ -374,6 +346,38 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1784577731.17413,
+   "title": "Gold tests $3,955 support with bearish trend intact: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
+   "t": "21 Jul \u00b7 01:02 AM",
+   "ur": "Gold (sona) 3,955 Dollar ki support ka tajrabah karta hai jas mein mandi ka rjahan barqarar hai."
+  },
+  {
+   "ts": 1784577731.17413,
+   "title": "Silver stalls below $58.30 resistance: Live hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
+   "t": "21 Jul \u00b7 01:02 AM",
+   "ur": "Salor rak gaya hai $58.30 mazahmat se niche: laaio fi ghanta ki sath"
+  },
+  {
+   "ts": 1784572885.0,
+   "title": "Canadian Dollar falls as softer Canadian inflation weighs on the Loonie",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-falls-as-softer-canadian-inflation-weighs-on-the-loonie-202607201841",
+   "t": "20 Jul \u00b7 11:41 PM",
+   "ur": "Caniden Dollar garta hai cunkah caniden inflation (mehngai) ka wazin loni par hota hai."
+  },
+  {
+   "ts": 1784572221.0,
+   "title": "United States Dollar Index advances as Middle East tensions drive demand",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-rebounds-as-middle-east-tensions-drive-demand-202607201830",
+   "t": "20 Jul \u00b7 11:30 PM",
+   "ur": "Ryastahaye matehdah ka Dollar andex aage badh raha hai cunkah masharq wasti mein kasheedgi ki wajah se mang badh rahi hai."
+  },
   {
    "ts": 1784568729.0,
    "title": "Silver Price Forecast: XAG/USD attempts to stabilize above $55.00",
@@ -421,38 +425,6 @@
    "link": "https://www.fxstreet.com/news/latam-fx-carry-supports-resilience-against-us-dollar-bny-202607201447",
    "t": "20 Jul \u00b7 07:47 PM",
    "ur": "LatAm FX: kiri US Dollar - BNY ke khalaf lachak ki support karta hai."
-  },
-  {
-   "ts": 1784558533.0,
-   "title": "Gold swings around $4,000 as conflicting Middle East headlines drive markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-swings-around-4-000-as-conflicting-middle-east-headlines-drive-markets-202607201442",
-   "t": "20 Jul \u00b7 07:42 PM",
-   "ur": "Mutasadam masharq wasta ki sarkhiyon ki wajah se Gold (sona) taqriban 4,000 Dollar ka mandala raha hai."
-  },
-  {
-   "ts": 1784558255.0,
-   "title": "Australian Dollar: Carry and growth support potential rebound \u2013 HSBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-carry-and-growth-support-potential-rebound-hsbc-202607201437",
-   "t": "20 Jul \u00b7 07:37 PM",
-   "ur": "Aasterilin Dollar: kiri aur garoth mamkana saht mandi lotne ki support karta hai - HSBC"
-  },
-  {
-   "ts": 1784557676.0,
-   "title": "Gold: Fed risks and Dollar strength cap upside \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-fed-risks-and-dollar-strength-cap-upside-td-securities-202607201427",
-   "t": "20 Jul \u00b7 07:27 PM",
-   "ur": "Gold: fed khatrat aur Dollar ki tqt ki had oper - TD securitez"
-  },
-  {
-   "ts": 1784556824.0,
-   "title": "Euro: ECB pause seen limiting downside against US Dollar \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-ecb-pause-seen-limiting-downside-against-us-dollar-bbh-202607201413",
-   "t": "20 Jul \u00b7 07:13 PM",
-   "ur": "Uro: ECB toqf US Dollar - BBH ke maqable mein kami ko muhadud karta hawa dekha gaya."
   }
  ],
  "sentiment": {
