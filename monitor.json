@@ -1,19 +1,13 @@
 {
- "updated": "20-07-2026 19:53 PKT",
+ "updated": "20-07-2026 21:18 PKT",
  "gold": {
-  "price": 4011.87,
+  "price": 4012.72,
   "open": 4010.54,
   "high": 4039.42,
   "low": 3983.43,
-  "chg": 0.03,
+  "chg": 0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   4023.41,
-   4022.91,
-   4027.68,
-   4023.16,
-   4021.94,
-   4024.73,
    4023.03,
    4019.04,
    4012.24,
@@ -55,14 +49,20 @@
    4000.96,
    4005.31,
    4008.58,
-   4011.87
+   4006.85,
+   4014.02,
+   4015.94,
+   4011.62,
+   4013.23,
+   4013.94,
+   4012.72
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.125,
-   "chg": 1.94,
+   "price": 57.35,
+   "chg": 2.34,
    "spark": [
     65.527,
     62.02,
@@ -83,13 +83,13 @@
     57.11,
     55.898,
     56.038,
-    57.125
+    57.35
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.98,
-   "chg": 0.23,
+   "price": 100.965,
+   "chg": 0.21,
    "spark": [
     101.02,
     101.41,
@@ -110,13 +110,13 @@
     100.5,
     100.73,
     100.75,
-    100.98
+    100.965
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.38,
-   "chg": -1.35,
+   "price": 81.33,
+   "chg": -1.41,
    "spark": [
     74.82,
     73.21,
@@ -137,13 +137,13 @@
     79.6,
     78.95,
     82.49,
-    81.38
+    81.33
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.578,
-   "chg": 0.81,
+   "price": 4.592,
+   "chg": 1.12,
    "spark": [
     4.509,
     4.493,
@@ -164,13 +164,13 @@
     4.545,
     4.569,
     4.541,
-    4.578
+    4.592
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.141,
-   "chg": -0.3,
+   "price": 1.1419,
+   "chg": -0.22,
    "spark": [
     1.1463,
     1.1427,
@@ -192,13 +192,13 @@
     1.1425,
     1.147,
     1.1445,
-    1.141
+    1.1419
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3439,
-   "chg": -0.3,
+   "price": 1.3423,
+   "chg": -0.42,
    "spark": [
     1.3208,
     1.3247,
@@ -220,13 +220,13 @@
     1.3397,
     1.3541,
     1.3479,
-    1.3439
+    1.3423
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.571,
-   "chg": 0.12,
+   "price": 162.549,
+   "chg": 0.11,
    "spark": [
     161.433,
     161.57,
@@ -248,16 +248,14 @@
     162.187,
     162.072,
     162.376,
-    162.571
+    162.549
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1862.41,
-   "chg": -0.48,
+   "price": 1899.6,
+   "chg": 1.51,
    "spark": [
-    1842.61,
-    1844.52,
     1851.5,
     1855.88,
     1857.14,
@@ -303,16 +301,16 @@
     1891.19,
     1871.17,
     1860.37,
-    1862.41
+    1865.72,
+    1901.13,
+    1899.6
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64310.8,
-   "chg": -0.57,
+   "price": 65426.7,
+   "chg": 1.16,
    "spark": [
-    64072.9,
-    64244.7,
     64447.5,
     64474.7,
     64528.2,
@@ -358,7 +356,9 @@
     64935.9,
     64581.8,
     64280.7,
-    64310.8
+    64354.3,
+    65542.5,
+    65426.7
    ]
   }
  ],
@@ -375,84 +375,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784559220.898368,
+   "ts": 1784564304.454691,
    "title": "Wheat hits two-year highs on Black Sea shipping concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/wheat-hits-twoyear-highs-on-black-sea-shipping-concerns-93CH-4801184",
-   "t": "20 Jul \u00b7 07:53 PM",
+   "t": "20 Jul \u00b7 09:18 PM",
    "ur": "Baheerah isud ki tarsel ke khadshat par gandam do sal ki baland tarin sath par hai."
   },
   {
-   "ts": 1784559220.898368,
+   "ts": 1784564304.454691,
    "title": "Gold steadies as traders weigh U.S.-Iran tensions, Fed rate hike signals",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4000-as-iran-conflict-keeps-fed-inflation-fears-in-focus-4799771",
-   "t": "20 Jul \u00b7 07:53 PM",
+   "t": "20 Jul \u00b7 09:18 PM",
    "ur": "Gold (sona) mastahkam hai cunkah taajron ne amrikah aur eran kasheedgi ka wazin kiya hai, fed rate mein azafe ke ashare"
   },
   {
-   "ts": 1784556524.0,
-   "title": "New Zealand Dollar gains as softer Fed outlook offsets Middle East tensions",
+   "ts": 1784563308.0,
+   "title": "Australian Dollar holds as PBOC stands firm",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-gains-as-softer-fed-outlook-offsets-middle-east-tensions-202607201408",
-   "t": "20 Jul \u00b7 07:08 PM",
-   "ur": "Niyozi lind Dollar mein azafah hawa cunkah narm fed oat lak masharq wasta ke tanao ko dur karta hai."
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-as-pboc-stands-firm-202607201601",
+   "t": "20 Jul \u00b7 09:01 PM",
+   "ur": "Aasterilvi Dollar pi bi au si ki mazbooti ke sath barqarar hai."
   },
   {
-   "ts": 1784556183.0,
-   "title": "Canadian Dollar: Inflation cools as BoC stays patient \u2013 RBC",
+   "ts": 1784562223.0,
+   "title": "Euro loses momentum as US Dollar recovers from intraday lows",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-inflation-cools-as-boc-stays-patient-rbc-202607201403",
-   "t": "20 Jul \u00b7 07:03 PM",
-   "ur": "Caniden Dollar: inflation (mehngai) thanda ho jata hai cunkah BoC mariz rahta hai - RBC"
+   "link": "https://www.fxstreet.com/news/euro-loses-momentum-as-us-dollar-recovers-from-intraday-lows-202607201543",
+   "t": "20 Jul \u00b7 08:43 PM",
+   "ur": "Uro raftar kho dita hai cunkah US Dollar antra day kam se bahal hota hai."
   },
   {
-   "ts": 1784555349.0,
-   "title": "British Pound: Sterling shifts into broader range against US Dollar \u2013 UOB",
+   "ts": 1784561799.0,
+   "title": "Japanese Yen weakens as renewed Middle East tensions lift US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-sterling-shifts-into-broader-range-against-us-dollar-uob-202607201349",
-   "t": "20 Jul \u00b7 06:49 PM",
-   "ur": "Bartanvi pound: sterling US Dollar - UOB ke maqable mein wasi tar rinj mein badil gaya."
+   "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-renewed-middle-east-tensions-lift-us-dollar-202607201536",
+   "t": "20 Jul \u00b7 08:36 PM",
+   "ur": "Japani yan kamazor pad raha hai cunkah masharq wasta mein taazah kasheedgi ne US Dollar ko athaya hai."
   },
   {
-   "ts": 1784554679.0,
-   "title": "Fed: On-hold stance with upside hike risk \u2013 TD Securities",
+   "ts": 1784559531.0,
+   "title": "Canadian Dollar: Rate divergence weighs CAD against US Dollar \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/fed-on-hold-stance-with-upside-hike-risk-td-securities-202607201337",
-   "t": "20 Jul \u00b7 06:37 PM",
-   "ur": "Fed: alta azafe ke khatre ke sath aan hold moqf - TD securitez"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-rate-divergence-weighs-cad-against-us-dollar-td-securities-202607201458",
+   "t": "20 Jul \u00b7 07:58 PM",
+   "ur": "Caniden Dollar: ret dyurjan ka wazin US Dollar ke maqable CAD hai - TD securitez"
   },
   {
-   "ts": 1784554676.0,
-   "title": "Canadian Dollar under pressure as softer inflation meets firmer US Dollar",
+   "ts": 1784558837.0,
+   "title": "LatAm FX: Carry supports resilience against US Dollar - BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-under-pressure-as-softer-inflation-meets-firmer-us-dollar-202607201337",
-   "t": "20 Jul \u00b7 06:37 PM",
-   "ur": "Caniden Dollar dabao mein hai cunkah narm inflation (mehngai) mazboot US Dollar se malta hai."
+   "link": "https://www.fxstreet.com/news/latam-fx-carry-supports-resilience-against-us-dollar-bny-202607201447",
+   "t": "20 Jul \u00b7 07:47 PM",
+   "ur": "LatAm FX: kiri US Dollar - BNY ke khalaf lachak ki support karta hai."
   },
   {
-   "ts": 1784552583.0,
-   "title": "Australian Dollar: Labor data seen reinforcing RBA pause \u2013 BBH",
+   "ts": 1784558533.0,
+   "title": "Gold swings around $4,000 as conflicting Middle East headlines drive markets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-labor-data-seen-reinforcing-rba-pause-bbh-202607201303",
-   "t": "20 Jul \u00b7 06:03 PM",
-   "ur": "Aasterilin Dollar: libr deta RBA toqf - BBH ko taqwet dita nazar aaya"
+   "link": "https://www.fxstreet.com/news/gold-swings-around-4-000-as-conflicting-middle-east-headlines-drive-markets-202607201442",
+   "t": "20 Jul \u00b7 07:42 PM",
+   "ur": "Mutasadam masharq wasta ki sarkhiyon ki wajah se Gold (sona) taqriban 4,000 Dollar ka mandala raha hai."
   },
   {
-   "ts": 1784552022.0,
-   "title": "New Zealand Dollar: RBNZ tightening cycle underpins Kiwi \u2013 HSBC",
+   "ts": 1784558255.0,
+   "title": "Australian Dollar: Carry and growth support potential rebound \u2013 HSBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rbnz-tightening-cycle-underpins-kiwi-hsbc-202607201253",
-   "t": "20 Jul \u00b7 05:53 PM",
-   "ur": "Niyozi lind Dollar: RBNZ saqti ka chaker kevi ko kam karta hai - HSBC"
+   "link": "https://www.fxstreet.com/news/australian-dollar-carry-and-growth-support-potential-rebound-hsbc-202607201437",
+   "t": "20 Jul \u00b7 07:37 PM",
+   "ur": "Aasterilvi Dollar: kiri aur garoth mamkana saht mandi lotne ki support karta hai - HSBC"
   },
   {
-   "ts": 1784551643.0,
-   "title": "Silver climbs near $57 despite renewed Fed rate hike expectations",
+   "ts": 1784557676.0,
+   "title": "Gold: Fed risks and Dollar strength cap upside \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-climbs-near-57-despite-renewed-fed-rate-hike-expectations-202607201247",
-   "t": "20 Jul \u00b7 05:47 PM",
-   "ur": "Fed ki rate mein azafe ki tajadid ki toqaat ke bawajud Silver (chandi) $57 ke qarib chadh gayi."
+   "link": "https://www.fxstreet.com/news/gold-fed-risks-and-dollar-strength-cap-upside-td-securities-202607201427",
+   "t": "20 Jul \u00b7 07:27 PM",
+   "ur": "Gold: fed khatrat aur Dollar ki tqt ki had oper - TD securitez"
   }
  ],
  "sentiment": {
