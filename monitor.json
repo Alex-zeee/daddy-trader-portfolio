@@ -1,19 +1,13 @@
 {
- "updated": "21-07-2026 21:12 PKT",
+ "updated": "21-07-2026 22:42 PKT",
  "gold": {
-  "price": 4077.8,
-  "open": 4015.17,
+  "price": 4068.12,
+  "open": 4009.57,
   "high": 4085.13,
   "low": 3999.74,
-  "chg": 1.56,
+  "chg": 1.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4044.64,
-   4047.67,
-   4048.91,
-   4051.03,
-   4053.98,
-   4066.04,
    4062.04,
    4071.21,
    4072.3,
@@ -55,14 +49,20 @@
    4077.28,
    4077.49,
    4074.8,
-   4077.8
+   4078.66,
+   4075.33,
+   4072.37,
+   4071.54,
+   4071.78,
+   4071.36,
+   4068.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.265,
-   "chg": 4.34,
+   "price": 59.195,
+   "chg": 4.21,
    "spark": [
     65.527,
     62.02,
@@ -84,13 +84,13 @@
     55.898,
     56.038,
     56.802,
-    59.265
+    59.195
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.127,
-   "chg": 0.14,
+   "price": 101.103,
+   "chg": 0.11,
    "spark": [
     101.02,
     101.41,
@@ -112,13 +112,13 @@
     100.73,
     100.75,
     100.99,
-    101.127
+    101.103
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.44,
-   "chg": 1.45,
+   "price": 84.32,
+   "chg": 1.31,
    "spark": [
     74.82,
     73.21,
@@ -140,7 +140,7 @@
     78.95,
     82.49,
     83.23,
-    84.44
+    84.32
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1413,
-   "chg": -0.13,
+   "price": 1.141,
+   "chg": -0.15,
    "spark": [
     1.1463,
     1.1427,
@@ -197,13 +197,13 @@
     1.147,
     1.1445,
     1.1428,
-    1.1413
+    1.141
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3373,
-   "chg": -0.54,
+   "price": 1.3385,
+   "chg": -0.45,
    "spark": [
     1.3208,
     1.3247,
@@ -226,13 +226,13 @@
     1.3541,
     1.3479,
     1.3446,
-    1.3373
+    1.3385
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.003,
-   "chg": 0.3,
+   "price": 163.011,
+   "chg": 0.31,
    "spark": [
     161.433,
     161.57,
@@ -255,15 +255,14 @@
     162.072,
     162.376,
     162.512,
-    163.003
+    163.011
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1930.58,
-   "chg": 1.43,
+   "price": 1924.3,
+   "chg": 1.1,
    "spark": [
-    1866.21,
     1859.19,
     1860.92,
     1865.62,
@@ -310,15 +309,15 @@
     1938.79,
     1930.56,
     1930.67,
-    1930.0
+    1925.55,
+    1924.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66618.7,
-   "chg": 2.15,
+   "price": 66427.9,
+   "chg": 1.86,
    "spark": [
-    64508.2,
     64371.3,
     64398.7,
     64486.6,
@@ -365,7 +364,8 @@
     66743.7,
     66808.2,
     66653.3,
-    66618.6
+    66516.9,
+    66427.9
    ]
   }
  ],
@@ -382,44 +382,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784650325.888086,
+   "ts": 1784655769.961969,
    "title": "UBS recommends adding gold exposure on pullbacks at this price",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-recommends-adding-gold-exposure-on-pullbacks-at-this-price-4803578",
-   "t": "21 Jul \u00b7 09:12 PM",
+   "t": "21 Jul \u00b7 10:42 PM",
    "ur": "UBS is qeemat par pl bex par Gold (sone) ki namaish shamil karne ki tajuz karta hai."
   },
   {
-   "ts": 1784650325.888086,
+   "ts": 1784655769.961969,
    "title": "US Treasury\u2019s Bessent tells Fox Business 50% Canada tariffs are \u2019reciprocity\u2019",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-tells-fox-business-50-canada-tariffs-are-reciprocity-4803449",
-   "t": "21 Jul \u00b7 09:12 PM",
+   "t": "21 Jul \u00b7 10:42 PM",
    "ur": "US treasurei ke bessent ne fox bazans ko bataya hai kah canida ke 50% terf 'bahami' hen"
   },
   {
-   "ts": 1784650325.888086,
+   "ts": 1784655769.961969,
    "title": "Goldman Sachs hikes European gas price forecast on Hormuz disruption",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sachs-hikes-european-gas-price-forecast-on-hormuz-disruption-4803129",
-   "t": "21 Jul \u00b7 09:12 PM",
+   "t": "21 Jul \u00b7 10:42 PM",
    "ur": "Golldomin sex ne harmaz mein rakaut par uripi gis ki qeemton ki forecast mein azafah kiya."
   },
   {
-   "ts": 1784650325.888086,
-   "title": "UBS lowers silver buy-the-dip range. Here\u2019s the new buy zone",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/ubs-lowers-silver-buythedip-range-heres-the-new-buy-zone-4802948",
-   "t": "21 Jul \u00b7 09:12 PM",
-   "ur": "UBS Silver (chandi) ki khareed ki had ko kam karta hai. yahan niya khareed zon hai."
+   "ts": 1784649060.0,
+   "title": "India: Weather-driven inflation risks \u2013 Standard Chartered",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-weather-driven-inflation-risks-standard-chartered-202607211551",
+   "t": "21 Jul \u00b7 08:51 PM",
+   "ur": "Handostan: mosm se chalne wale inflation (mehngai) ke khatrat - stindrd charter"
+  },
+  {
+   "ts": 1784647923.0,
+   "title": "Australian Dollar retreats from a monthly high",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-retreats-from-a-monthly-high-202607211532",
+   "t": "21 Jul \u00b7 08:32 PM",
+   "ur": "Aasterilvi Dollar mahana balandi se patchhe hat raha hai."
+  },
+  {
+   "ts": 1784647217.0,
+   "title": "Euro slips as war boosts US Dollar despite upbeat ZEW surveys",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-slips-as-middle-east-tensions-boost-the-us-dollar-despite-upbeat-zew-surveys-202607211520",
+   "t": "21 Jul \u00b7 08:20 PM",
+   "ur": "ZEW ke parjosh sarway ke bawajud jang ke baas uro US Dollar ko badhata hai."
   },
   {
    "ts": 1784645988.0,
-   "title": "Silver Price Forecast: XAG/USD surges as Middle East tensions boost safe-haven demand",
+   "title": "Silver Price Forecast: XAG/USD surges as Middle East hostilities boost safe-haven demand",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-surges-as-middle-east-tensions-boost-safe-haven-demand-202607211459",
    "t": "21 Jul \u00b7 07:59 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD mein azafah cunkah masharq wasta mein kasheedgi ne mahfooz panah gahon ki talab ko badhaya"
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD mein azafah cunkah masharq wasta ki jangon ne mahfooz panah gahon ki talab ko badhaya"
   },
   {
    "ts": 1784645675.0,
@@ -444,22 +460,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-fiscal-uncertainty-caps-upside-against-us-dollar-bbh-202607211428",
    "t": "21 Jul \u00b7 07:28 PM",
    "ur": "Bartanvi pound: US Dollar - BBH ke maqable mein maliyati ghair yaqeeni surtahal oper ki taraf badh gayi."
-  },
-  {
-   "ts": 1784642964.0,
-   "title": "Canadian Dollar: Mean reversion faces tariff headwinds \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-mean-reversion-faces-tariff-headwinds-societe-generale-202607211409",
-   "t": "21 Jul \u00b7 07:09 PM",
-   "ur": "Caniden Dollar: ost wapsi ko terf hed wainds ka samana hai - socit janerl"
-  },
-  {
-   "ts": 1784642088.0,
-   "title": "US Dollar: Complacency risk supports Dollar \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-complacency-risk-supports-dollar-ing-202607211354",
-   "t": "21 Jul \u00b7 06:54 PM",
-   "ur": "US Dollar: atminan ka khatrah Dollar - ING ki support karta hai."
   }
  ],
  "sentiment": {
