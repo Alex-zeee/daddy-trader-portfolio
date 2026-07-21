@@ -1,17 +1,13 @@
 {
- "updated": "22-07-2026 02:31 PKT",
+ "updated": "22-07-2026 03:33 PKT",
  "gold": {
-  "price": 4077.88,
-  "open": 4006.99,
+  "price": 4083.81,
+  "open": 4004.2,
   "high": 4086.91,
   "low": 3999.74,
-  "chg": 1.77,
+  "chg": 1.99,
   "src": "XAUUSD Spot",
   "spark": [
-   4067.36,
-   4066.86,
-   4067.41,
-   4067.75,
    4062.92,
    4058.74,
    4059.92,
@@ -55,14 +51,18 @@
    4077.83,
    4078.03,
    4078.03,
-   4077.88
+   4077.98,
+   4078.31,
+   4078.23,
+   4081.96,
+   4083.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.07,
-   "chg": 3.99,
+   "price": 59.13,
+   "chg": 4.1,
    "spark": [
     65.527,
     62.02,
@@ -84,12 +84,12 @@
     55.898,
     56.038,
     56.802,
-    59.07
+    59.13
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.195,
+   "price": 101.192,
    "chg": 0.2,
    "spark": [
     101.02,
@@ -112,13 +112,13 @@
     100.73,
     100.75,
     100.99,
-    101.195
+    101.192
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.54,
-   "chg": 1.57,
+   "price": 84.68,
+   "chg": 1.74,
    "spark": [
     74.82,
     73.21,
@@ -140,7 +140,7 @@
     78.95,
     82.49,
     83.23,
-    84.54
+    84.68
    ]
   },
   {
@@ -202,8 +202,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3378,
-   "chg": -0.51,
+   "price": 1.3377,
+   "chg": -0.52,
    "spark": [
     1.3208,
     1.3247,
@@ -226,7 +226,7 @@
     1.3541,
     1.3479,
     1.3446,
-    1.3378
+    1.3377
    ]
   },
   {
@@ -260,10 +260,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1923.61,
-   "chg": 1.06,
+   "price": 1921.09,
+   "chg": 0.93,
    "spark": [
-    1868.84,
     1871.33,
     1870.9,
     1868.53,
@@ -310,15 +309,15 @@
     1918.65,
     1922.46,
     1922.03,
-    1923.61
+    1923.36,
+    1921.09
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66269.2,
+   "price": 66270.0,
    "chg": 1.62,
    "spark": [
-    64621.0,
     64678.1,
     64510.9,
     64588.8,
@@ -365,7 +364,8 @@
     66259.3,
     66412.9,
     66372.5,
-    66269.2
+    66338.8,
+    66270.0
    ]
   }
  ],
@@ -382,36 +382,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784669486.069823,
+   "ts": 1784673186.731048,
    "title": "Oil climbs on continued U.S.-Iran fighting, Houthi threat to Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-holds-gains-as-traders-weigh-usiran-conflict-houthi-saudi-blockade-4801811",
-   "t": "22 Jul \u00b7 02:31 AM",
+   "t": "22 Jul \u00b7 03:33 AM",
    "ur": "Amrikah aur eran ki maslsal larai, husiyon ka baheerah ahmar ki jahaz raani ko khatrah, til ki qeemton mein azafah"
   },
   {
-   "ts": 1784669486.069823,
+   "ts": 1784673186.731048,
    "title": "Silver nears $60-$61 bull trap zone: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "22 Jul \u00b7 02:31 AM",
+   "t": "22 Jul \u00b7 03:33 AM",
    "ur": "Silver (chandi) $60-$61 bel trip zon ke qarib hai: laaio fi ghanta ki sath"
   },
   {
-   "ts": 1784669486.069823,
+   "ts": 1784673186.731048,
    "title": "Gold hits 5h high near upper Bollinger Band: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "22 Jul \u00b7 02:31 AM",
+   "t": "22 Jul \u00b7 03:33 AM",
    "ur": "Apr bolingr bind ke qarib Gold (sona) 5 ghantay ki balandi par pohch gaya."
   },
   {
-   "ts": 1784669486.069823,
+   "ts": 1784673186.731048,
    "title": "Asian refiners look to Suez Canal to move Saudi oil amid Houthi shipping threats",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/asian-refiners-look-to-suez-canal-to-move-saudi-oil-amid-houthi-shipping-threats-4803970",
-   "t": "22 Jul \u00b7 02:31 AM",
+   "t": "22 Jul \u00b7 03:33 AM",
    "ur": "Asiai rifiner husiyon ki tarsel ke khatrat ke darmiyan sudi til ki mantaqli ke liye nahar swez ki taraf dekh rahe hen."
+  },
+  {
+   "ts": 1784671026.0,
+   "title": "The Australian Dollar goes nowhere with conviction",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-goes-nowhere-with-conviction-202607212157",
+   "t": "22 Jul \u00b7 02:57 AM",
+   "ur": "Aasterilvi Dollar yaqeen ke sath kahin nihen jata"
   },
   {
    "ts": 1784667420.0,
@@ -452,14 +460,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-to-break-resistance-trendline-eyes-on-60-202607211918",
    "t": "22 Jul \u00b7 12:18 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG mazahmati rjahan ko todne ke laye, $60 par nazarin"
-  },
-  {
-   "ts": 1784660040.0,
-   "title": "Singapore Dollar: AI exports support SGD against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-ai-exports-support-sgd-against-us-dollar-commerzbank-202607211854",
-   "t": "21 Jul \u00b7 11:54 PM",
-   "ur": "Sangapor Dollar: AI exports SGD ko US Dollar ke maqable mein sport karti hen \u2013 Commerzbank"
   }
  ],
  "sentiment": {
