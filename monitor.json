@@ -1,19 +1,13 @@
 {
- "updated": "21-07-2026 16:18 PKT",
+ "updated": "21-07-2026 17:49 PKT",
  "gold": {
-  "price": 4059.42,
-  "open": 4022.58,
+  "price": 4054.68,
+  "open": 4009.82,
   "high": 4085.13,
   "low": 3998.72,
-  "chg": 0.92,
+  "chg": 1.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4007.53,
-   4009.17,
-   4011.08,
-   4017.32,
-   4021.99,
-   4024.53,
    4028.58,
    4029.6,
    4025.87,
@@ -55,14 +49,20 @@
    4067.75,
    4062.92,
    4058.74,
-   4059.42
+   4059.92,
+   4056.03,
+   4055.63,
+   4059.3,
+   4061.21,
+   4053.79,
+   4054.68
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.045,
-   "chg": 3.95,
+   "price": 59.255,
+   "chg": 4.32,
    "spark": [
     65.527,
     62.02,
@@ -84,13 +84,13 @@
     55.898,
     56.038,
     56.802,
-    59.045
+    59.255
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.96,
-   "chg": -0.03,
+   "price": 101.018,
+   "chg": 0.03,
    "spark": [
     101.02,
     101.41,
@@ -112,13 +112,13 @@
     100.73,
     100.75,
     100.99,
-    100.96
+    101.018
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.48,
-   "chg": 0.3,
+   "price": 83.99,
+   "chg": 0.91,
    "spark": [
     74.82,
     73.21,
@@ -140,13 +140,13 @@
     78.95,
     82.49,
     83.23,
-    83.48
+    83.99
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.598,
-   "chg": 1.26,
+   "price": 4.602,
+   "chg": 0.09,
    "spark": [
     4.509,
     4.493,
@@ -167,13 +167,14 @@
     4.545,
     4.569,
     4.541,
-    4.598
+    4.598,
+    4.602
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1425,
-   "chg": -0.03,
+   "price": 1.1421,
+   "chg": -0.06,
    "spark": [
     1.1463,
     1.1427,
@@ -196,13 +197,13 @@
     1.147,
     1.1445,
     1.1428,
-    1.1425
+    1.1421
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3411,
-   "chg": -0.26,
+   "price": 1.3392,
+   "chg": -0.4,
    "spark": [
     1.3208,
     1.3247,
@@ -225,13 +226,13 @@
     1.3541,
     1.3479,
     1.3446,
-    1.3411
+    1.3392
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.724,
-   "chg": 0.13,
+   "price": 162.774,
+   "chg": 0.16,
    "spark": [
     161.433,
     161.57,
@@ -254,15 +255,14 @@
     162.072,
     162.376,
     162.512,
-    162.724
+    162.774
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1928.62,
-   "chg": 1.33,
+   "price": 1940.04,
+   "chg": 1.93,
    "spark": [
-    1869.03,
     1870.69,
     1873.4,
     1869.46,
@@ -309,15 +309,15 @@
     1938.51,
     1940.74,
     1932.62,
-    1928.62
+    1934.35,
+    1940.04
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66199.2,
-   "chg": 1.51,
+   "price": 66483.8,
+   "chg": 1.94,
    "spark": [
-    64386.5,
     64433.1,
     64549.6,
     64529.6,
@@ -364,7 +364,8 @@
     66180.1,
     66236.5,
     66160.4,
-    66199.2
+    66297.5,
+    66483.8
    ]
   }
  ],
@@ -381,20 +382,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784632711.461876,
+   "ts": 1784638145.701852,
+   "title": "Goldman Sachs hikes European gas price forecast on Hormuz disruption",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-sachs-hikes-european-gas-price-forecast-on-hormuz-disruption-4803129",
+   "t": "21 Jul \u00b7 05:49 PM",
+   "ur": "Golldomin sex ne harmaz mein khall par uripi gis ki qeemton ki forecast mein azafah kar diya."
+  },
+  {
+   "ts": 1784638145.701852,
+   "title": "UBS lowers silver buy-the-dip range. Here\u2019s the new buy zone",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/ubs-lowers-silver-buythedip-range-heres-the-new-buy-zone-4802948",
+   "t": "21 Jul \u00b7 05:49 PM",
+   "ur": "UBS Silver (chandi) ki khareed ki had ko kam karta hai. yahan niya khareed zon hai."
+  },
+  {
+   "ts": 1784638145.701852,
    "title": "Silver spikes to $59.13 but overbought signals loom: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "21 Jul \u00b7 04:18 PM",
+   "t": "21 Jul \u00b7 05:49 PM",
    "ur": "Silver (chandi) $59.13 tak badh gayi lican zarort se ziyadah khareedari ke ashare kam ho gaye."
   },
   {
-   "ts": 1784632711.461876,
+   "ts": 1784638145.701852,
    "title": "Gold tests $4,086 resistance in technical standoff: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "21 Jul \u00b7 04:18 PM",
+   "t": "21 Jul \u00b7 05:49 PM",
    "ur": "Gold (sona) takniki taatal mein $4,086 mazahmat ka tajrabah karta hai."
+  },
+  {
+   "ts": 1784633626.0,
+   "title": "Gold climbs as buyers defend $4,000, hawkish Fed expectations limit upside",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-climbs-as-buyers-defend-4-000-hawkish-fed-expectations-limit-upside-202607211133",
+   "t": "21 Jul \u00b7 04:33 PM",
+   "ur": "Khareedaron ki janb se $4,000 ka dafa karte huvay Gold (sona) badh gaya, fed ki toqaat ki hadin alta"
+  },
+  {
+   "ts": 1784633270.0,
+   "title": "Canadian Dollar: Tariffs and soft CPI pressure Loonie \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-tariffs-and-soft-cpi-pressure-loonie-bbh-202607211127",
+   "t": "21 Jul \u00b7 04:27 PM",
+   "ur": "Caniden Dollar: terf aur narm CPI pareshar loni - bi bi ach"
   },
   {
    "ts": 1784631569.0,
@@ -427,38 +460,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-cpi-focus-supports-sterling-against-us-dollar-societe-generale-202607211004",
    "t": "21 Jul \u00b7 03:04 PM",
    "ur": "Bartanvi pound: CPI fox US Dollar ke maqable mein sterling ki support karta hai - sociti janerl"
-  },
-  {
-   "ts": 1784626859.0,
-   "title": "Hungarian Forint: MNB easing on lower inflation \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/hungarian-forint-mnb-easing-on-lower-inflation-commerzbank-202607210940",
-   "t": "21 Jul \u00b7 02:40 PM",
-   "ur": "Hangri farint: kam mahungai par MNB narmi - kamers Bank"
-  },
-  {
-   "ts": 1784626236.0,
-   "title": "Silver price today: Silver rises, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202607210930",
-   "t": "21 Jul \u00b7 02:30 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
-  },
-  {
-   "ts": 1784625594.0,
-   "title": "Oil: Escalation risks and Dollar support \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/oil-escalation-risks-and-dollar-support-ocbc-202607210919",
-   "t": "21 Jul \u00b7 02:19 PM",
-   "ur": "Til: azafe ke khatrat aur Dollar ki support - OCBC"
-  },
-  {
-   "ts": 1784624561.0,
-   "title": "British Pound: Sterling trades in a broad range against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-sterling-trades-in-a-broad-range-against-us-dollar-uob-202607210902",
-   "t": "21 Jul \u00b7 02:02 PM",
-   "ur": "Bartanvi pound: sterling US Dollar - UOB ke khalaf ek wasi rinj mein tajart karta hai."
   }
  ],
  "sentiment": {
