@@ -1,26 +1,13 @@
 {
- "updated": "21-07-2026 05:57 PKT",
+ "updated": "21-07-2026 09:11 PKT",
  "gold": {
-  "price": 4023.51,
-  "open": 4001.51,
-  "high": 4039.42,
-  "low": 3996.96,
-  "chg": 0.55,
+  "price": 4049.44,
+  "open": 4022.34,
+  "high": 4051.21,
+  "low": 3998.72,
+  "chg": 0.67,
   "src": "XAUUSD Spot",
   "spark": [
-   4010.5,
-   4009.91,
-   4014.22,
-   4007.9,
-   4000.96,
-   4005.31,
-   4008.58,
-   4006.85,
-   4014.02,
-   4015.94,
-   4011.62,
-   4013.23,
-   4013.94,
    4012.26,
    4009.33,
    4010.01,
@@ -55,14 +42,27 @@
    4011.08,
    4017.32,
    4021.99,
-   4023.51
+   4024.53,
+   4028.58,
+   4029.6,
+   4025.87,
+   4022.49,
+   4024.26,
+   4028.43,
+   4037.02,
+   4037.92,
+   4039.05,
+   4045.27,
+   4042.33,
+   4046.79,
+   4049.44
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.985,
-   "chg": 1.69,
+   "price": 58.125,
+   "chg": 2.33,
    "spark": [
     65.527,
     62.02,
@@ -83,13 +83,14 @@
     57.11,
     55.898,
     56.038,
-    56.985
+    56.802,
+    58.125
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.961,
-   "chg": 0.21,
+   "price": 100.97,
+   "chg": -0.02,
    "spark": [
     101.02,
     101.41,
@@ -110,13 +111,14 @@
     100.5,
     100.73,
     100.75,
-    100.961
+    100.99,
+    100.97
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.45,
-   "chg": -0.05,
+   "price": 82.12,
+   "chg": -1.33,
    "spark": [
     74.82,
     73.21,
@@ -137,7 +139,8 @@
     79.6,
     78.95,
     82.49,
-    82.45
+    83.23,
+    82.12
    ]
   },
   {
@@ -198,8 +201,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3434,
-   "chg": -0.09,
+   "price": 1.3437,
+   "chg": -0.07,
    "spark": [
     1.3208,
     1.3247,
@@ -222,13 +225,13 @@
     1.3541,
     1.3479,
     1.3446,
-    1.3434
+    1.3437
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.516,
-   "chg": 0.0,
+   "price": 162.475,
+   "chg": -0.02,
    "spark": [
     161.433,
     161.57,
@@ -251,18 +254,14 @@
     162.072,
     162.376,
     162.512,
-    162.516
+    162.475
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1913.77,
-   "chg": 0.55,
+   "price": 1925.0,
+   "chg": 1.14,
    "spark": [
-    1857.65,
-    1870.54,
-    1865.79,
-    1865.91,
     1867.19,
     1867.98,
     1868.13,
@@ -306,18 +305,18 @@
     1900.81,
     1894.48,
     1903.56,
-    1913.77
+    1913.83,
+    1906.16,
+    1916.36,
+    1925.83,
+    1925.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65525.5,
-   "chg": 0.48,
+   "price": 65560.2,
+   "chg": 0.53,
    "spark": [
-    64730.9,
-    64783.7,
-    64657.5,
-    64676.0,
     64693.2,
     64667.6,
     64655.3,
@@ -361,7 +360,11 @@
     65246.8,
     65104.6,
     65215.7,
-    65525.5
+    65533.1,
+    65204.8,
+    65367.5,
+    65531.9,
+    65560.2
    ]
   }
  ],
@@ -378,20 +381,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784595452.913462,
+   "ts": 1784607099.116637,
    "title": "Gold marginally lower amid firmer dollar as U.S.-Iran tensions escalate further",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4000-as-iran-conflict-keeps-fed-inflation-fears-in-focus-4799771",
-   "t": "21 Jul \u00b7 05:57 AM",
+   "t": "21 Jul \u00b7 09:11 AM",
    "ur": "US eran kasheedgi mein mazid azafe ke baas Dollar ki mazbooti ke darmiyan Gold (sona) mamoli tur par gar gaya."
   },
   {
-   "ts": 1784595452.913462,
-   "title": "Gold tests $3,955 support with bearish trend intact: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "21 Jul \u00b7 05:57 AM",
-   "ur": "Gold (sona) 3,955 Dollar ki support ka tajrabah karta hai jas mein mandi ka rjahan barqarar hai."
+   "ts": 1784603323.0,
+   "title": "RBNZ Sectoral Factor Inflation Model holds steady at 2.7% YoY in Q2 2026",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/rbnz-sectoral-factor-inflation-model-holds-steady-at-27-yoy-in-q2-2026-202607210308",
+   "t": "21 Jul \u00b7 08:08 AM",
+   "ur": "RBNZ sectorl fector anfalation madl Q2 2026 mein 2.7% salana par mastahkam hai"
+  },
+  {
+   "ts": 1784601651.0,
+   "title": "United States Dollar Index holds ground near 101.00 amid rising safe-haven demand",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-ground-near-10100-amid-rising-safe-haven-demand-202607210240",
+   "t": "21 Jul \u00b7 07:40 AM",
+   "ur": "Mahfooz panah gahon ki badhti hoi talab ke darmiyan ryastahaye matehdah ka Dollar andex 101.00 ke qarib garound rakta hai"
+  },
+  {
+   "ts": 1784601275.0,
+   "title": "Australian Dollar strengthens above 0.7000 despite rising US-Iran tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-strengthens-above-07000-despite-rising-us-iran-tensions-202607210234",
+   "t": "21 Jul \u00b7 07:34 AM",
+   "ur": "Amrikah eran kasheedgi mein azafe ke bawajud aasterilvi Dollar 0.7000 se oper mazboot hai."
+  },
+  {
+   "ts": 1784598249.0,
+   "title": "Silver Price Forecast: XAG/USD bulls flirt with descending trend-line hurdle, above $57.00",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bulls-flirt-with-descending-trend-line-hurdle-above-5700-202607210144",
+   "t": "21 Jul \u00b7 06:44 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: $57.00 se oper, XAG/USD bells atrte huvay trind lin rakaut ke sath chhed chhad"
+  },
+  {
+   "ts": 1784598212.0,
+   "title": "New Zealand Dollar rises above 0.5850 as hotter CPI data bolsters case for more RBNZ rate hikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rises-above-05850-as-hotter-cpi-data-bolsters-case-for-more-rbnz-rate-hikes-202607210143",
+   "t": "21 Jul \u00b7 06:43 AM",
+   "ur": "Niyozi lind Dollar 0.5850 se oper badh gaya cunkah garm CPI deta RBNZ ki rate mein mazid azafe ke mamle ko taqwet dita hai"
+  },
+  {
+   "ts": 1784596321.0,
+   "title": "Canadian Dollar falls to one-week low vs USD on divergent BoC-Fed bets, Trump tariffs",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-falls-to-one-week-low-vs-usd-on-divergent-boc-fed-bets-trump-tariffs-202607210112",
+   "t": "21 Jul \u00b7 06:12 AM",
+   "ur": "Mukhtalf BoC-Fed sharton, trmp terf par caniden Dollar US Dollar ke maqable mein ek hafte ki kam tarin sath par aa gaya"
   },
   {
    "ts": 1784591940.0,
@@ -416,46 +459,6 @@
    "link": "https://www.fxstreet.com/news/chinese-yuan-upside-bias-against-us-dollar-below-67820-uob-202607202333",
    "t": "21 Jul \u00b7 04:33 AM",
    "ur": "Chini uan: 6.7820 se niche US Dollar ke khalaf alta taasab - UOB"
-  },
-  {
-   "ts": 1784589347.0,
-   "title": "Gold edges lower to near $4,000 as US-Iran tensions fuel inflation worries",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-edges-lower-to-near-4-000-as-us-iran-tensions-fuel-inflation-worries-202607202315",
-   "t": "21 Jul \u00b7 04:15 AM",
-   "ur": "Amrikah eran kasheedgi mein mahungai ke khadshat badhane se Gold (sone) ki qeemat 4000 Dollar ke qarib pohch gayi"
-  },
-  {
-   "ts": 1784588520.0,
-   "title": "Malaysian Ringgit: External risks weigh on MYR against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/malaysian-ringgit-external-risks-weigh-on-myr-against-us-dollar-ocbc-202607202302",
-   "t": "21 Jul \u00b7 04:02 AM",
-   "ur": "Malishin rangt: US Dollar ke maqable MYR par beroni khatrat ka wazin hai - OCBC"
-  },
-  {
-   "ts": 1784587579.0,
-   "title": "Breaking: New Zealand\u2019s CPI inflation climbs to 4.1% YoY in Q2, vs 4.0% expected",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/breaking-new-zealands-cpi-inflation-climbs-to-41-yoy-in-q2-vs-40-expected-202607202246",
-   "t": "21 Jul \u00b7 03:46 AM",
-   "ur": "Baricang: niyozi lind ki CPI mahungai Q2 mein 4.1% YoY par chadh gayi, bamaqablah 4.0% matoqa"
-  },
-  {
-   "ts": 1784585940.0,
-   "title": "Chinese Yuan: Rangebound trade guided by fix against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-rangebound-trade-guided-by-fix-against-us-dollar-ocbc-202607202219",
-   "t": "21 Jul \u00b7 03:19 AM",
-   "ur": "Chini uan: rinj bound tajart US Dollar ke khalaf fix ke zariye rahnumi karti hai - OCBC"
-  },
-  {
-   "ts": 1784583420.0,
-   "title": "Malaysian Ringgit: Growth supports range against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/malaysian-ringgit-growth-supports-range-against-us-dollar-commerzbank-202607202137",
-   "t": "21 Jul \u00b7 02:37 AM",
-   "ur": "Malishin rangt: tarqi US Dollar - kamers Bank ke khalaf had ki support karti hai."
   }
  ],
  "sentiment": {
