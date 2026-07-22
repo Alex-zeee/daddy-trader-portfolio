@@ -1,19 +1,13 @@
 {
- "updated": "22-07-2026 04:37 PKT",
+ "updated": "22-07-2026 06:04 PKT",
  "gold": {
-  "price": 4080.67,
-  "open": 4007.04,
-  "high": 4086.91,
-  "low": 4004.29,
-  "chg": 1.84,
+  "price": 4108.51,
+  "open": 4027.58,
+  "high": 4109.14,
+  "low": 4022.04,
+  "chg": 2.01,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.63,
-   4059.3,
-   4061.21,
-   4053.79,
-   4054.77,
-   4057.68,
    4051.54,
    4047.48,
    4052.04,
@@ -55,14 +49,20 @@
    4081.02,
    4081.6,
    4081.97,
-   4080.67
+   4079.75,
+   4080.48,
+   4091.89,
+   4098.19,
+   4093.21,
+   4096.42,
+   4108.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.11,
-   "chg": 4.06,
+   "price": 59.34,
+   "chg": 4.47,
    "spark": [
     65.527,
     62.02,
@@ -84,13 +84,13 @@
     55.898,
     56.038,
     56.802,
-    59.11
+    59.34
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.192,
-   "chg": 0.2,
+   "price": 101.159,
+   "chg": 0.17,
    "spark": [
     101.02,
     101.41,
@@ -112,13 +112,13 @@
     100.73,
     100.75,
     100.99,
-    101.192
+    101.159
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.67,
-   "chg": 1.73,
+   "price": 84.68,
+   "chg": 1.74,
    "spark": [
     74.82,
     73.21,
@@ -140,7 +140,7 @@
     78.95,
     82.49,
     83.23,
-    84.67
+    84.68
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1403,
-   "chg": -0.14,
+   "price": 1.1406,
+   "chg": -0.1,
    "spark": [
     1.1427,
     1.138,
@@ -197,13 +197,13 @@
     1.1445,
     1.1428,
     1.1418,
-    1.1403
+    1.1406
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3375,
-   "chg": -0.42,
+   "price": 1.3386,
+   "chg": -0.34,
    "spark": [
     1.3247,
     1.32,
@@ -226,13 +226,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.3375
+    1.3386
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.21,
-   "chg": 0.44,
+   "price": 163.136,
+   "chg": 0.4,
    "spark": [
     161.57,
     161.599,
@@ -255,16 +255,14 @@
     162.376,
     162.512,
     162.487,
-    163.21
+    163.136
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1923.1,
-   "chg": 1.04,
+   "price": 1937.39,
+   "chg": 0.44,
    "spark": [
-    1870.9,
-    1868.53,
     1877.61,
     1877.88,
     1867.6,
@@ -310,16 +308,16 @@
     1922.03,
     1923.36,
     1919.44,
-    1923.1
+    1928.41,
+    1939.11,
+    1937.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66401.4,
-   "chg": 1.82,
+   "price": 66547.9,
+   "chg": 0.05,
    "spark": [
-    64510.9,
-    64588.8,
     64796.7,
     64799.9,
     64495.3,
@@ -365,7 +363,9 @@
     66372.5,
     66338.8,
     66275.3,
-    66401.4
+    66511.7,
+    66590.7,
+    66547.9
    ]
   }
  ],
@@ -382,36 +382,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784677056.93178,
+   "ts": 1784682243.039768,
    "title": "Oil climbs on continued U.S.-Iran fighting, Houthi threat to Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-holds-gains-as-traders-weigh-usiran-conflict-houthi-saudi-blockade-4801811",
-   "t": "22 Jul \u00b7 04:37 AM",
+   "t": "22 Jul \u00b7 06:04 AM",
    "ur": "Amrikah aur eran ki maslsal larai, husiyon ka baheerah ahmar ki jahaz raani ko khatrah, til ki qeemton mein azafah"
   },
   {
-   "ts": 1784677056.93178,
+   "ts": 1784682243.039768,
    "title": "Silver nears $60-$61 bull trap zone: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "22 Jul \u00b7 04:37 AM",
+   "t": "22 Jul \u00b7 06:04 AM",
    "ur": "Silver (chandi) $60-$61 bel trip zon ke qarib hai: laaio fi ghanta ki sath"
   },
   {
-   "ts": 1784677056.93178,
+   "ts": 1784682243.039768,
    "title": "Gold hits 5h high near upper Bollinger Band: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "22 Jul \u00b7 04:37 AM",
+   "t": "22 Jul \u00b7 06:04 AM",
    "ur": "Apr bolingr bind ke qarib Gold (sona) 5 ghantay ki balandi par pohch gaya."
   },
   {
-   "ts": 1784677056.93178,
+   "ts": 1784682243.039768,
    "title": "Asian refiners look to Suez Canal to move Saudi oil amid Houthi shipping threats",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/asian-refiners-look-to-suez-canal-to-move-saudi-oil-amid-houthi-shipping-threats-4803970",
-   "t": "22 Jul \u00b7 04:37 AM",
+   "t": "22 Jul \u00b7 06:04 AM",
    "ur": "Asiai rifiner husiyon ki tarsel ke khatrat ke darmiyan sudi til ki mantaqli ke liye nahar swez ki taraf dekh rahe hen."
+  },
+  {
+   "ts": 1784675891.0,
+   "title": "Gold rebounds above $4,050 as safe-haven demand intensified on persistent US\u2011Iran tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rebounds-above-4-050-as-safe-haven-demand-intensified-on-persistent-us-iran-tensions-202607212318",
+   "t": "22 Jul \u00b7 04:18 AM",
+   "ur": "Amrikah eran kasheedgi ke baas mahfooz panah gahon ki talab mein shidat aane se Gold (sona) $4,050 se oper aagaya"
+  },
+  {
+   "ts": 1784674843.0,
+   "title": "British Pound Sterling gets a decent jobs report and sells off anyway",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-sterling-gets-a-decent-jobs-report-and-sells-off-anyway-202607212300",
+   "t": "22 Jul \u00b7 04:00 AM",
+   "ur": "Bartish pound sterling ko nokariyon ki achi rport malti hai aur wah wese bhi farokht ho jati hai."
   },
   {
    "ts": 1784671026.0,
@@ -444,27 +460,11 @@
    "link": "https://www.fxstreet.com/news/federal-reserve-seen-holding-rates-next-week-amid-oil-shock-reuters-202607212027",
    "t": "22 Jul \u00b7 01:27 AM",
    "ur": "Faderl resero ne til ke jhatake ke darmiyan agle hafte holding ret dekha - riters"
-  },
-  {
-   "ts": 1784664752.0,
-   "title": "Japanese Yen tumbles to 40-year low as US Dollar safe-haven rush deepens",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-tumbles-to-40-year-low-as-dollar-haven-rush-deepens-202607212012",
-   "t": "22 Jul \u00b7 01:12 AM",
-   "ur": "US Dollar ki mahfooz panah gahon ka rash gehra hone se japani yan 40 sal ki kam tarin sath par gar gaya"
-  },
-  {
-   "ts": 1784661519.0,
-   "title": "Silver Price Forecast: XAG to break resistance trendline, eyes on $60",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-to-break-resistance-trendline-eyes-on-60-202607211918",
-   "t": "22 Jul \u00b7 12:18 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG mazahmati rjahan ko todne ke laye, $60 par nazarin"
   }
  ],
  "sentiment": {
-  "value": 25,
-  "label": "Extreme Fear"
+  "value": 33,
+  "label": "Fear"
  },
  "err": null
 }
