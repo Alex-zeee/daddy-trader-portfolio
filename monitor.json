@@ -1,18 +1,13 @@
 {
- "updated": "22-07-2026 23:52 PKT",
+ "updated": "23-07-2026 01:04 PKT",
  "gold": {
-  "price": 4138.26,
-  "open": 4082.22,
+  "price": 4133.1,
+  "open": 4084.16,
   "high": 4165.68,
   "low": 4075.31,
-  "chg": 1.37,
+  "chg": 1.2,
   "src": "XAUUSD Spot",
   "spark": [
-   4116.21,
-   4120.05,
-   4111.95,
-   4110.21,
-   4115.44,
    4116.97,
    4115.37,
    4118.64,
@@ -55,14 +50,19 @@
    4138.56,
    4135.64,
    4135.75,
-   4138.26
+   4136.59,
+   4134.69,
+   4134.05,
+   4135.47,
+   4131.98,
+   4133.1
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.13,
-   "chg": 2.2,
+   "price": 59.91,
+   "chg": 1.83,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    60.13
+    59.91
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.136,
-   "chg": -0.04,
+   "price": 101.131,
+   "chg": -0.05,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.136
+    101.131
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.07,
-   "chg": 2.54,
+   "price": 86.58,
+   "chg": 1.97,
    "spark": [
     74.82,
     73.21,
@@ -143,13 +143,13 @@
     82.49,
     83.23,
     84.91,
-    87.07
+    86.58
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.654,
-   "chg": 0.56,
+   "price": 4.657,
+   "chg": 0.63,
    "spark": [
     4.509,
     4.493,
@@ -172,13 +172,13 @@
     4.541,
     4.598,
     4.628,
-    4.654
+    4.657
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1413,
-   "chg": -0.05,
+   "price": 1.1414,
+   "chg": -0.03,
    "spark": [
     1.1427,
     1.138,
@@ -201,7 +201,7 @@
     1.1445,
     1.1428,
     1.1418,
-    1.1413
+    1.1414
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 163.123,
-   "chg": 0.39,
+   "price": 163.15,
+   "chg": 0.41,
    "spark": [
     161.57,
     161.599,
@@ -259,16 +259,14 @@
     162.376,
     162.512,
     162.487,
-    163.123
+    163.15
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1927.88,
-   "chg": -0.05,
+   "price": 1926.64,
+   "chg": -0.12,
    "spark": [
-    1896.69,
-    1903.3,
     1900.81,
     1894.48,
     1903.56,
@@ -314,16 +312,16 @@
     1941.43,
     1948.96,
     1938.01,
-    1927.88
+    1929.82,
+    1924.05,
+    1926.64
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65802.0,
-   "chg": -1.07,
+   "price": 65869.2,
+   "chg": -0.97,
    "spark": [
-    65090.7,
-    65325.1,
     65246.8,
     65104.6,
     65215.7,
@@ -369,7 +367,9 @@
     66014.0,
     66209.4,
     66000.4,
-    65802.0
+    65867.2,
+    65900.6,
+    65869.2
    ]
   }
  ],
@@ -394,11 +394,27 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784746365.725672,
+   "ts": 1784750651.610657,
+   "title": "Gold tests 200 MA with overbought RSI at $4,141: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
+   "t": "23 Jul \u00b7 01:04 AM",
+   "ur": "Gold ne 200 MA ko ziyadah khareede huvay RSI ke sath $4,141 par test kiya."
+  },
+  {
+   "ts": 1784750651.610657,
+   "title": "Silver stalls at $60.39 resistance amid bull-bear clash: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
+   "t": "23 Jul \u00b7 01:04 AM",
+   "ur": "Bel bears ke tasadam ke darmiyan salor rak gaya hai $60.39 mazahmat par"
+  },
+  {
+   "ts": 1784750651.610657,
    "title": "Gold hits two-week high as expanding Mideast conflict eyed",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "22 Jul \u00b7 11:52 PM",
+   "t": "23 Jul \u00b7 01:04 AM",
    "ur": "Masharq wasta ke tanazaat mein tosi ke baas Gold (sona) do hafte ki baland tarin sath par hai."
   },
   {
@@ -456,22 +472,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-finds-support-from-rising-oil-prices-softer-greenback-202607221540",
    "t": "22 Jul \u00b7 08:40 PM",
    "ur": "Caniden Dollar ko til ki badhti hoi qeemton, narm garin bek se support malti hai."
-  },
-  {
-   "ts": 1784734291.0,
-   "title": "New Zealand Dollar weakens as risk aversion overshadows hawkish RBNZ outlook",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-weakens-as-risk-aversion-overshadows-hawkish-rbnz-outlook-202607221531",
-   "t": "22 Jul \u00b7 08:31 PM",
-   "ur": "Niyozi lind ka Dollar kamazor pad gaya cunkah khatre se bachane ki wajah se aar bi an zid ke aar bi an zid oat lak par chhaya ja raha hai"
-  },
-  {
-   "ts": 1784731729.0,
-   "title": "Australian Dollar steadies ahead of Australian employment data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-steadies-ahead-of-australian-employment-data-202607221448",
-   "t": "22 Jul \u00b7 07:48 PM",
-   "ur": "Aasterilvi Dollar aasteriliya ke rozgar ke aed w shmar se aage hai."
   }
  ],
  "sentiment": {
