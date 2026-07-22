@@ -1,17 +1,13 @@
 {
- "updated": "23-07-2026 02:19 PKT",
+ "updated": "23-07-2026 03:30 PKT",
  "gold": {
-  "price": 4130.53,
-  "open": 4077.94,
+  "price": 4127.8,
+  "open": 4082.11,
   "high": 4165.68,
-  "low": 4075.31,
-  "chg": 1.29,
+  "low": 4076.64,
+  "chg": 1.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4118.82,
-   4114.28,
-   4117.9,
-   4119.48,
    4117.25,
    4117.82,
    4119.45,
@@ -55,14 +51,18 @@
    4131.11,
    4130.29,
    4130.6,
-   4130.53
+   4130.78,
+   4130.53,
+   4130.7,
+   4122.26,
+   4127.8
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.035,
-   "chg": 2.04,
+   "price": 59.86,
+   "chg": 1.74,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    60.035
+    59.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.129,
-   "chg": -0.05,
+   "price": 101.141,
+   "chg": -0.04,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.129
+    101.141
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.48,
-   "chg": 1.85,
+   "price": 88.23,
+   "chg": 3.91,
    "spark": [
     74.82,
     73.21,
@@ -143,7 +143,7 @@
     82.49,
     83.23,
     84.91,
-    86.48
+    88.23
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1412,
-   "chg": -0.06,
+   "price": 1.141,
+   "chg": -0.07,
    "spark": [
     1.1427,
     1.138,
@@ -201,13 +201,13 @@
     1.1445,
     1.1428,
     1.1418,
-    1.1412
+    1.141
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3378,
-   "chg": -0.4,
+   "price": 1.337,
+   "chg": -0.46,
    "spark": [
     1.3247,
     1.32,
@@ -230,13 +230,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.3378
+    1.337
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.1,
-   "chg": 0.38,
+   "price": 163.086,
+   "chg": 0.37,
    "spark": [
     161.57,
     161.599,
@@ -259,15 +259,14 @@
     162.376,
     162.512,
     162.487,
-    163.1
+    163.086
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1927.07,
-   "chg": -0.09,
+   "price": 1935.21,
+   "chg": 0.33,
    "spark": [
-    1894.48,
     1903.56,
     1913.83,
     1906.16,
@@ -314,15 +313,15 @@
     1929.82,
     1924.05,
     1925.68,
-    1927.07
+    1936.52,
+    1935.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65888.9,
-   "chg": -0.94,
+   "price": 65982.3,
+   "chg": -0.8,
    "spark": [
-    65104.6,
     65215.7,
     65533.1,
     65204.8,
@@ -369,19 +368,12 @@
     65867.2,
     65900.6,
     65882.0,
-    65888.9
+    66036.0,
+    65982.3
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1784746800.0,
-   "t": "Thu 23 Jul \u00b7 12:00 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1784809800.0,
    "t": "Thu 23 Jul \u00b7 05:30 PM",
@@ -394,28 +386,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784755195.959631,
+   "ts": 1784759442.355554,
+   "title": "Gold hits over two-week high, extending rebound after repeatedly testing $4k level",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
+   "t": "23 Jul \u00b7 03:30 AM",
+   "ur": "Gold (sona) do hafte ki baland tarin sath par pohch gaya, bar bar $4k ki sath ko test karne ke bad ribound ko badhata hai."
+  },
+  {
+   "ts": 1784759442.355554,
    "title": "Gold tests 200 MA with overbought RSI at $4,141: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "23 Jul \u00b7 02:19 AM",
+   "t": "23 Jul \u00b7 03:30 AM",
    "ur": "Gold ne 200 MA ko ziyadah khareede huvay RSI ke sath $4,141 par test kiya."
   },
   {
-   "ts": 1784755195.959631,
+   "ts": 1784759442.355554,
    "title": "Silver stalls at $60.39 resistance amid bull-bear clash: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "23 Jul \u00b7 02:19 AM",
+   "t": "23 Jul \u00b7 03:30 AM",
    "ur": "Bel bears ke tasadam ke darmiyan salor rak gaya hai $60.39 mazahmat par"
   },
   {
-   "ts": 1784755195.959631,
-   "title": "Gold hits two-week high as expanding Mideast conflict eyed",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "23 Jul \u00b7 02:19 AM",
-   "ur": "Masharq wasta ke tanazaat mein tosi ke baas Gold (sona) do hafte ki baland tarin sath par hai."
+   "ts": 1784758560.0,
+   "title": "Chinese Yuan: Short-term consolidation with bullish bias against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-short-term-consolidation-with-bullish-bias-against-us-dollar-uob-202607222216",
+   "t": "23 Jul \u00b7 03:16 AM",
+   "ur": "Chini uan: US Dollar ke khalaf tizi ke taasab ke sath qalil madati istehkam - UOB"
+  },
+  {
+   "ts": 1784757566.0,
+   "title": "New Zealand Dollar stalls after hotter-than-expected inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-stalls-after-hotter-than-expected-inflation-202607222159",
+   "t": "23 Jul \u00b7 02:59 AM",
+   "ur": "Toqa se ziyadah mahungai ke bad niyozi lind ka Dollar rak gaya hai."
   },
   {
    "ts": 1784754997.0,
@@ -456,22 +464,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-breaks-higher-as-us-dollar-weakness-fuels-rally-202607221825",
    "t": "22 Jul \u00b7 11:25 PM",
    "ur": "US Dollar ki kamazori andhan ki rili ki wajah se Gold (sone) ki qeemat baland hogayi"
-  },
-  {
-   "ts": 1784743883.0,
-   "title": "Silver Price Forecast: XAG/USD struggles to build momentum above $60.00",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-struggles-to-build-momentum-above-6000-202607221811",
-   "t": "22 Jul \u00b7 11:11 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $60.00 se oper ki raftar badhane ke liye jadojehad kar raha hai."
-  },
-  {
-   "ts": 1784741958.0,
-   "title": "Euro gains against British Pound after mixed UK inflation report, ECB decision looms",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-gains-against-british-pound-after-mixed-uk-inflation-report-ecb-decision-looms-202607221739",
-   "t": "22 Jul \u00b7 10:39 PM",
-   "ur": "Mukhaloot uk inflation (mehngai) ki rport ke bad bartanvi pound ke maqable uro mein azafah, ai si bi ka fisalah samane aaya"
   }
  ],
  "sentiment": {
