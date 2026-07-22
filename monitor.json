@@ -1,19 +1,13 @@
 {
- "updated": "22-07-2026 16:29 PKT",
+ "updated": "22-07-2026 17:57 PKT",
  "gold": {
-  "price": 4118.19,
-  "open": 4059.51,
+  "price": 4117.41,
+  "open": 4054.63,
   "high": 4140.79,
   "low": 4044.49,
-  "chg": 1.45,
+  "chg": 1.55,
   "src": "XAUUSD Spot",
   "spark": [
-   4079.75,
-   4080.48,
-   4091.89,
-   4098.19,
-   4093.21,
-   4096.42,
    4118.69,
    4115.99,
    4122.68,
@@ -55,14 +49,20 @@
    4117.25,
    4117.82,
    4119.45,
-   4118.19
+   4118.63,
+   4114.35,
+   4122.81,
+   4126.27,
+   4132.81,
+   4127.77,
+   4117.41
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.69,
-   "chg": 1.45,
+   "price": 59.555,
+   "chg": 1.22,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    59.69
+    59.555
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.167,
-   "chg": -0.01,
+   "price": 101.134,
+   "chg": -0.05,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.167
+    101.134
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.45,
-   "chg": 2.99,
+   "price": 86.82,
+   "chg": 2.25,
    "spark": [
     74.82,
     73.21,
@@ -143,13 +143,13 @@
     82.49,
     83.23,
     84.91,
-    87.45
+    86.82
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.628,
-   "chg": 0.65,
+   "price": 4.634,
+   "chg": 0.13,
    "spark": [
     4.509,
     4.493,
@@ -171,13 +171,14 @@
     4.569,
     4.541,
     4.598,
-    4.628
+    4.628,
+    4.634
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1408,
-   "chg": -0.09,
+   "price": 1.1413,
+   "chg": -0.05,
    "spark": [
     1.1427,
     1.138,
@@ -200,13 +201,13 @@
     1.1445,
     1.1428,
     1.1418,
-    1.1408
+    1.1413
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3367,
-   "chg": -0.48,
+   "price": 1.3361,
+   "chg": -0.53,
    "spark": [
     1.3247,
     1.32,
@@ -229,13 +230,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.3367
+    1.3361
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.034,
-   "chg": 0.34,
+   "price": 163.114,
+   "chg": 0.39,
    "spark": [
     161.57,
     161.599,
@@ -258,15 +259,14 @@
     162.376,
     162.512,
     162.487,
-    163.034
+    163.114
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1926.99,
-   "chg": -0.1,
+   "price": 1913.47,
+   "chg": -0.8,
    "spark": [
-    1871.17,
     1860.37,
     1865.72,
     1901.13,
@@ -313,15 +313,15 @@
     1920.12,
     1923.16,
     1929.33,
-    1926.99
+    1925.61,
+    1913.47
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66006.7,
-   "chg": -0.76,
+   "price": 65524.5,
+   "chg": -1.48,
    "spark": [
-    64581.8,
     64280.7,
     64354.3,
     65542.5,
@@ -368,7 +368,8 @@
     65944.3,
     65880.4,
     66005.1,
-    66006.7
+    65969.0,
+    65524.5
    ]
   }
  ],
@@ -393,28 +394,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784719785.819619,
+   "ts": 1784725042.563665,
    "title": "Gold hits two-week high as expanding Mideast conflict eyed",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "22 Jul \u00b7 04:29 PM",
+   "t": "22 Jul \u00b7 05:57 PM",
    "ur": "Masharq wasta ke tanazaat mein tosi ke baas Gold (sona) do hafte ki baland tarin sath par hai."
   },
   {
-   "ts": 1784719785.819619,
+   "ts": 1784725042.563665,
    "title": "Silver surges to $59.54 but hits supply wall: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "22 Jul \u00b7 04:29 PM",
+   "t": "22 Jul \u00b7 05:57 PM",
    "ur": "Silver (chandi) $59.54 tak badh gayi lican sppli dewar se takara gayi."
   },
   {
-   "ts": 1784719785.819619,
+   "ts": 1784725042.563665,
    "title": "Gold surges to $4,119 into key resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "22 Jul \u00b7 04:29 PM",
-   "ur": "Kalidi mazahmat mein Gold (sona) $4,119 tak badh gaya: fi ghanta ki sath"
+   "t": "22 Jul \u00b7 05:57 PM",
+   "ur": "Kalidi mazahmat mein Gold (sona) $4,119 tak badh gaya: ghanta ki sath"
+  },
+  {
+   "ts": 1784724983.0,
+   "title": "United Kingdom: Core CPI resilience complicates BoE path \u2013 Nomura",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-kingdom-core-cpi-resilience-complicates-boe-path-nomura-202607221256",
+   "t": "22 Jul \u00b7 05:56 PM",
+   "ur": "Unaited kangdom: CPI ki baniyadi lachak BoE ke raaste ko patcheedah banati hai - nomora"
+  },
+  {
+   "ts": 1784720844.0,
+   "title": "US Dollar Index Price Forecast: keeps the Bullish bias intact above 101.00",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-keeps-the-bullish-bias-intact-above-10100-202607221147",
+   "t": "22 Jul \u00b7 04:47 PM",
+   "ur": "US Dollar andex ki qeemat ki forecast: 101.00 se oper ki tizi ke taasab ko barqarar rakta hai"
+  },
+  {
+   "ts": 1784720792.0,
+   "title": "Gold hits two-week high as traders weigh Middle East risks, Fed outlook",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-hits-two-week-high-as-traders-weigh-middle-east-risks-fed-outlook-202607221146",
+   "t": "22 Jul \u00b7 04:46 PM",
+   "ur": "Gold (sona) do hafte ki baland tarin sath par pohch gaya cunkah taajr masharq wasta ke khatrat ko tolte hen, fed oat lak"
+  },
+  {
+   "ts": 1784720766.0,
+   "title": "Japanese Yen: Hawkish BoJ signals versus Fed risk \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-hawkish-boj-signals-versus-fed-risk-rabobank-202607221146",
+   "t": "22 Jul \u00b7 04:46 PM",
+   "ur": "Japani yan: hakish bo je skigl bamaqablah fed rask - rabobank"
   },
   {
    "ts": 1784719057.0,
@@ -439,38 +472,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-trade-tariffs-to-reshape-fx-volatility-mufg-202607220954",
    "t": "22 Jul \u00b7 02:54 PM",
    "ur": "US Dollar: FX atar chadhao ko nayi shakl dine ke liye tajarti mehsulat - MUFG"
-  },
-  {
-   "ts": 1784713045.0,
-   "title": "Gold Price Forecast: XAU/USD holds gains above $4,100 undaunted by risk-off markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-gains-above-4-100-undaunted-by-risk-off-markets-202607220937",
-   "t": "22 Jul \u00b7 02:37 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD ne khatre se dochar marketon se be khuf $4,100 se oper ka faidah athaya"
-  },
-  {
-   "ts": 1784712998.0,
-   "title": "Japanese Yen: Technical outlook weakens against US Dollar \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-technical-outlook-weakens-against-us-dollar-societe-generale-202607220936",
-   "t": "22 Jul \u00b7 02:36 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein takniki naqatah nazar kamazor ho gaya hai - sociti janerl"
-  },
-  {
-   "ts": 1784712931.0,
-   "title": "Swiss Franc edges higher as US-Iran tensions, higher Swiss yields sustain support",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-edges-higher-as-us-iran-tensions-higher-swiss-yields-sustain-support-202607220935",
-   "t": "22 Jul \u00b7 02:35 PM",
-   "ur": "Amrikah eran kasheedgi ke baas sois farank ki qeemat mein azafah, sois pedawar ki aala support barqarar hai"
-  },
-  {
-   "ts": 1784712652.0,
-   "title": "UK inflation cools and fiscal concerns grow: Why the British Pound is surrendering recent gains",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/uk-inflation-cools-and-fiscal-concerns-grow-why-the-british-pound-is-surrendering-recent-gains-202607220930",
-   "t": "22 Jul \u00b7 02:30 PM",
-   "ur": "Bartaniya ki inflation (mehngai) thandi aur mali khadshat badh rahe hen: bartanvi pound haaliya fawaid ko kiyon hathiyar dal raha hai"
   }
  ],
  "sentiment": {
