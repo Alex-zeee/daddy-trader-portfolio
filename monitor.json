@@ -1,25 +1,13 @@
 {
- "updated": "22-07-2026 09:30 PKT",
+ "updated": "22-07-2026 12:18 PKT",
  "gold": {
-  "price": 4128.02,
-  "open": 4044.42,
+  "price": 4117.34,
+  "open": 4069.71,
   "high": 4140.79,
-  "low": 4044.22,
-  "chg": 2.07,
+  "low": 4044.49,
+  "chg": 1.17,
   "src": "XAUUSD Spot",
   "spark": [
-   4072.37,
-   4071.54,
-   4071.78,
-   4071.36,
-   4067.86,
-   4067.86,
-   4071.91,
-   4084.31,
-   4083.39,
-   4082.05,
-   4080.71,
-   4084.52,
    4083.41,
    4085.05,
    4084.07,
@@ -55,14 +43,26 @@
    4133.33,
    4131.36,
    4127.07,
-   4128.02
+   4128.43,
+   4127.01,
+   4126.98,
+   4128.42,
+   4124.38,
+   4132.36,
+   4128.66,
+   4130.52,
+   4116.36,
+   4119.52,
+   4114.94,
+   4116.21,
+   4117.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.01,
-   "chg": 2.0,
+   "price": 59.525,
+   "chg": 1.17,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    60.01
+    59.525
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.153,
-   "chg": -0.03,
+   "price": 101.116,
+   "chg": -0.06,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.153
+    101.116
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.4,
-   "chg": 0.58,
+   "price": 86.58,
+   "chg": 1.97,
    "spark": [
     74.82,
     73.21,
@@ -143,7 +143,7 @@
     82.49,
     83.23,
     84.91,
-    85.4
+    86.58
    ]
   },
   {
@@ -176,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.141,
-   "chg": -0.07,
+   "price": 1.1414,
+   "chg": -0.03,
    "spark": [
     1.1427,
     1.138,
@@ -200,13 +200,13 @@
     1.1445,
     1.1428,
     1.1418,
-    1.141
+    1.1414
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3383,
-   "chg": -0.36,
+   "price": 1.3384,
+   "chg": -0.35,
    "spark": [
     1.3247,
     1.32,
@@ -229,13 +229,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.3383
+    1.3384
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.181,
-   "chg": 0.43,
+   "price": 163.097,
+   "chg": 0.38,
    "spark": [
     161.57,
     161.599,
@@ -258,17 +258,14 @@
     162.376,
     162.512,
     162.487,
-    163.181
+    163.097
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1934.07,
-   "chg": 0.27,
+   "price": 1915.23,
+   "chg": -0.71,
    "spark": [
-    1853.79,
-    1847.04,
-    1861.51,
     1858.89,
     1862.67,
     1866.87,
@@ -313,17 +310,17 @@
     1932.23,
     1929.43,
     1927.46,
-    1934.07
+    1935.4,
+    1917.92,
+    1916.05,
+    1915.23
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66320.1,
-   "chg": -0.29,
+   "price": 65859.6,
+   "chg": -0.98,
    "spark": [
-    64084.2,
-    63831.7,
-    64198.2,
     63991.9,
     64136.8,
     64235.3,
@@ -368,11 +365,22 @@
     66366.2,
     66268.5,
     66164.8,
-    66320.1
+    66333.3,
+    65924.8,
+    65893.5,
+    65859.6
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1784746800.0,
+   "t": "Thu 23 Jul \u00b7 12:00 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
   {
    "ts": 1784809800.0,
    "t": "Thu 23 Jul \u00b7 05:30 PM",
@@ -385,84 +393,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784694621.558875,
-   "title": "Gold climbs above $4,100/oz amid M.East tensions, rate uncertainty",
+   "ts": 1784704696.368663,
+   "title": "Gold climbs above $4,130 as Middle East tensions offset rate headwinds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "22 Jul \u00b7 09:30 AM",
-   "ur": "M.East kasheedgi, rate ki ghair yaqeeni surtahal ke darmiyan Gold (sona) $4,100/oz se oper chadh gaya"
+   "t": "22 Jul \u00b7 12:18 PM",
+   "ur": "Masharq wasta ke tanao ki rate mein azafe ke baas Gold (sona) $4,130 se \u200b\u200boper chadh gaya."
   },
   {
-   "ts": 1784694621.558875,
+   "ts": 1784704696.368663,
    "title": "Oil climbs on continued U.S.-Iran fighting, Houthi threat to Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-holds-gains-as-traders-weigh-usiran-conflict-houthi-saudi-blockade-4801811",
-   "t": "22 Jul \u00b7 09:30 AM",
+   "t": "22 Jul \u00b7 12:18 PM",
    "ur": "Amrikah aur eran ki maslsal larai, husiyon ka baheerah ahmar ki jahaz raani ko khatrah, til ki qeemton mein azafah"
   },
   {
-   "ts": 1784691623.0,
-   "title": "Gold rallies to over two-week high, eyes $4,150 as traders track US-Iran diplomacy efforts",
+   "ts": 1784701984.0,
+   "title": "Euro gathers strength against British Pound after UK June CPI inflation falls by more than expected",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-to-over-two-week-high-eyes-4-150-as-traders-track-us-iran-diplomacy-efforts-202607220340",
-   "t": "22 Jul \u00b7 08:40 AM",
-   "ur": "Gold (sona) do hafte ki baland tarin sath par, taajron ki janb se US-eran safart kari ki koshashon ko trik karte huvay, 4,150 Dollar ki nazarin"
+   "link": "https://www.fxstreet.com/news/euro-gathers-strength-against-british-pound-after-uk-june-cpi-inflation-falls-by-more-than-expected-202607220633",
+   "t": "22 Jul \u00b7 11:33 AM",
+   "ur": "Uro bartanvi pound ke maqable mein tqt jama karta hai jab uk jon CPI inflation (mehngai) toqa se ziyadah gar jata hai."
   },
   {
-   "ts": 1784689777.0,
-   "title": "Silver Price Forecast: XAG/USD rises to near $60.00 despite surging inflation fears",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6000-despite-surging-inflation-fears-202607220309",
-   "t": "22 Jul \u00b7 08:09 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: mahungai ke badhte huvay khadshat ke bawajud XAG/USD $60.00 ke qarib badh gaya"
-  },
-  {
-   "ts": 1784688700.0,
-   "title": "United States Dollar Index weakens to near 101.00 despite mounting Middle East tensions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-weakens-to-near-10100-despite-mounting-middle-east-tensions-202607220251",
-   "t": "22 Jul \u00b7 07:51 AM",
-   "ur": "Masharq wasta mein badhti hoi kasheedgi ke bawajud US Dollar andex 101.00 ke qarib kamazor ho gaya."
-  },
-  {
-   "ts": 1784685600.0,
-   "title": "UK CPI set to show receding inflation in June as GBP/USD fails at May highs",
+   "ts": 1784701809.0,
+   "title": "United Kingdom CPI inflation eases to 2.6% YoY in June vs. 2.7% forecast",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/uk-cpi-set-to-show-receding-inflation-in-june-as-gbp-usd-fails-at-may-highs-202607220200",
-   "t": "22 Jul \u00b7 07:00 AM",
-   "ur": "Uk CPI jon mein mahungai mein kami ko zaahar kare ga cunkah GBP/USD mayi ki balandiyon par naakam ho jata hai"
+   "t": "22 Jul \u00b7 11:30 AM",
+   "ur": "Unaited kangdom CPI inflation (mehngai) jon mein 2.6 fisad salana bamaqablah 2.7 fisad forecast par aa gaya"
   },
   {
-   "ts": 1784685252.0,
-   "title": "Canadian Dollar edges higher amid bullish oil prices; upside potential seems limited",
+   "ts": 1784701546.0,
+   "title": "Gold: Safe-haven demand offsets energy risks \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-edges-higher-amid-bullish-oil-prices-upside-potential-seems-limited-202607220154",
-   "t": "22 Jul \u00b7 06:54 AM",
-   "ur": "Til ki qeemton mein tizi ke darmiyan caniden Dollar ki qeemat mein azafah; alta amkan muhadud lagta hai."
+   "link": "https://www.fxstreet.com/news/gold-safe-haven-demand-offsets-energy-risks-ing-202607220625",
+   "t": "22 Jul \u00b7 11:25 AM",
+   "ur": "Gold (sona): mahfooz panah gahon ki talab tawanai ke khatrat ko dur karti hai - ING"
   },
   {
-   "ts": 1784684720.0,
-   "title": "New Zealand Dollar declines as safe-haven demand lifts US Dollar",
+   "ts": 1784701504.0,
+   "title": "British Pound remains depressed against US Dollar following soft UK inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-declines-as-safe-haven-demand-lifts-us-dollar-202607220145",
-   "t": "22 Jul \u00b7 06:45 AM",
-   "ur": "Mahfooz panah gahon ki talab mein US Dollar ki balandi ke baas niyozi lind Dollar mein kami"
+   "link": "https://www.fxstreet.com/news/british-pound-remains-depressed-against-us-dollar-following-soft-uk-inflation-data-202607220625",
+   "t": "22 Jul \u00b7 11:25 AM",
+   "ur": "Bartanvi pound narm uk inflation (mehngai) ke aed w shmar ke bad US Dollar ke maqable mein afsardah hai."
   },
   {
-   "ts": 1784683866.0,
-   "title": "Australian Dollar strengthens above 0.7000 on RBA hawkish stance",
+   "ts": 1784701396.0,
+   "title": "British Pound attracts bids against Japanese Yen after mixed UK CPI data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-strengthens-above-07000-on-rba-hawkish-stance-202607220131",
-   "t": "22 Jul \u00b7 06:31 AM",
-   "ur": "Aasterilvi Dollar aar bi aye hakish maufeeq par 0.7000 se oper mazboot hawa."
+   "link": "https://www.fxstreet.com/news/british-pound-attracts-bids-against-japanese-yen-after-mixed-uk-cpi-data-202607220623",
+   "t": "22 Jul \u00b7 11:23 AM",
+   "ur": "Bartanvi pound mukhaloot uk CPI deta ke bad japani yan ke khalaf boliyon ko raaghab karta hai."
   },
   {
-   "ts": 1784675891.0,
-   "title": "Gold rebounds above $4,050 as safe-haven demand intensified on persistent US\u2011Iran tensions",
+   "ts": 1784701076.0,
+   "title": "Gold stands firm near two-week high as USD bulls remain on sidelines amid US-Iran hopes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rebounds-above-4-050-as-safe-haven-demand-intensified-on-persistent-us-iran-tensions-202607212318",
-   "t": "22 Jul \u00b7 04:18 AM",
-   "ur": "Amrikah eran kasheedgi ke baas mahfooz panah gahon ki talab mein shidat aane se Gold (sona) $4,050 se oper aagaya"
+   "link": "https://www.fxstreet.com/news/gold-rallies-to-over-two-week-high-eyes-4-150-as-traders-track-us-iran-diplomacy-efforts-202607220340",
+   "t": "22 Jul \u00b7 11:17 AM",
+   "ur": "Gold (sona) do hafte ki baland tarin sath ke qarib khada hai cunkah US eran ki amidon ke darmiyan US Dollar ki qeemtin cyd lin par hen"
+  },
+  {
+   "ts": 1784700844.0,
+   "title": "Euro: Mild downside within defined range against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-mild-downside-within-defined-range-against-us-dollar-uob-202607220614",
+   "t": "22 Jul \u00b7 11:14 AM",
+   "ur": "Uro: US Dollar - UOB ke maqable mein mataeen had ke andar halka manfi pehlo"
+  },
+  {
+   "ts": 1784696462.0,
+   "title": "Swiss Franc weakens as risk aversion support US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-risk-aversion-support-us-dollar-202607220501",
+   "t": "22 Jul \u00b7 10:01 AM",
+   "ur": "Khatre se bachane ke liye US Dollar ki support ke baas sois farank kamazor pad gaya."
   }
  ],
  "sentiment": {
