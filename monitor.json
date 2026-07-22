@@ -1,21 +1,13 @@
 {
- "updated": "22-07-2026 17:57 PKT",
+ "updated": "22-07-2026 19:59 PKT",
  "gold": {
-  "price": 4117.41,
-  "open": 4054.63,
-  "high": 4140.79,
-  "low": 4044.49,
-  "chg": 1.55,
+  "price": 4147.62,
+  "open": 4069.79,
+  "high": 4162.85,
+  "low": 4066.34,
+  "chg": 1.91,
   "src": "XAUUSD Spot",
   "spark": [
-   4118.69,
-   4115.99,
-   4122.68,
-   4121.81,
-   4120.7,
-   4125.83,
-   4125.92,
-   4129.1,
    4137.27,
    4138.15,
    4133.33,
@@ -55,14 +47,22 @@
    4126.27,
    4132.81,
    4127.77,
-   4117.41
+   4114.73,
+   4124.17,
+   4133.93,
+   4142.53,
+   4148.82,
+   4157.57,
+   4146.22,
+   4151.23,
+   4147.62
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.555,
-   "chg": 1.22,
+   "price": 60.475,
+   "chg": 2.79,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    59.555
+    60.475
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.134,
-   "chg": -0.05,
+   "price": 101.104,
+   "chg": -0.08,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.134
+    101.104
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.82,
-   "chg": 2.25,
+   "price": 86.78,
+   "chg": 2.2,
    "spark": [
     74.82,
     73.21,
@@ -143,13 +143,13 @@
     82.49,
     83.23,
     84.91,
-    86.82
+    86.78
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.634,
-   "chg": 0.13,
+   "price": 4.654,
+   "chg": 0.56,
    "spark": [
     4.509,
     4.493,
@@ -172,7 +172,7 @@
     4.541,
     4.598,
     4.628,
-    4.634
+    4.654
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3361,
-   "chg": -0.53,
+   "price": 1.3377,
+   "chg": -0.41,
    "spark": [
     1.3247,
     1.32,
@@ -230,13 +230,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.3361
+    1.3377
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.114,
-   "chg": 0.39,
+   "price": 163.099,
+   "chg": 0.38,
    "spark": [
     161.57,
     161.599,
@@ -259,16 +259,14 @@
     162.376,
     162.512,
     162.487,
-    163.114
+    163.099
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1913.47,
-   "chg": -0.8,
+   "price": 1930.61,
+   "chg": 0.09,
    "spark": [
-    1860.37,
-    1865.72,
     1901.13,
     1897.19,
     1906.19,
@@ -314,16 +312,16 @@
     1923.16,
     1929.33,
     1925.61,
-    1913.47
+    1915.79,
+    1938.74,
+    1930.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65524.5,
-   "chg": -1.48,
+   "price": 65738.0,
+   "chg": -1.16,
    "spark": [
-    64280.7,
-    64354.3,
     65542.5,
     65444.0,
     65539.8,
@@ -369,7 +367,9 @@
     65880.4,
     66005.1,
     65969.0,
-    65524.5
+    65592.6,
+    65919.4,
+    65738.0
    ]
   }
  ],
@@ -394,28 +394,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784725042.563665,
+   "ts": 1784732368.457502,
    "title": "Gold hits two-week high as expanding Mideast conflict eyed",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "22 Jul \u00b7 05:57 PM",
+   "t": "22 Jul \u00b7 07:59 PM",
    "ur": "Masharq wasta ke tanazaat mein tosi ke baas Gold (sona) do hafte ki baland tarin sath par hai."
   },
   {
-   "ts": 1784725042.563665,
-   "title": "Silver surges to $59.54 but hits supply wall: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "22 Jul \u00b7 05:57 PM",
-   "ur": "Silver (chandi) $59.54 tak badh gayi lican sppli dewar se takara gayi."
+   "ts": 1784731729.0,
+   "title": "Australian Dollar steadies ahead of Australian employment data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-steadies-ahead-of-australian-employment-data-202607221448",
+   "t": "22 Jul \u00b7 07:48 PM",
+   "ur": "Aasterilvi Dollar aasteriliya ke rozgar ke aed w shmar se aage hai."
   },
   {
-   "ts": 1784725042.563665,
-   "title": "Gold surges to $4,119 into key resistance: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "22 Jul \u00b7 05:57 PM",
-   "ur": "Kalidi mazahmat mein Gold (sona) $4,119 tak badh gaya: ghanta ki sath"
+   "ts": 1784727911.0,
+   "title": "US Dollar: Range-bound gains and episodic strength \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-range-bound-gains-and-episodic-strength-td-securities-202607221345",
+   "t": "22 Jul \u00b7 06:45 PM",
+   "ur": "US Dollar: had se manslk fawaid aur epesodic tqt - TD securitez"
+  },
+  {
+   "ts": 1784727301.0,
+   "title": "Euro struggles to extend gains as Iran war supports US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-struggles-to-extend-gains-as-middle-east-tensions-support-the-us-dollar-202607221335",
+   "t": "22 Jul \u00b7 06:35 PM",
+   "ur": "Uro fawaid ko badhane ke liye jadojehad kar raha hai cunkah eran jang US Dollar ki support kar rahi hai."
   },
   {
    "ts": 1784724983.0,
@@ -427,11 +435,11 @@
   },
   {
    "ts": 1784720844.0,
-   "title": "US Dollar Index Price Forecast: keeps the Bullish bias intact above 101.00",
+   "title": "US Dollar Index Price Forecast: Bullish bias intact above 101.00",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-keeps-the-bullish-bias-intact-above-10100-202607221147",
    "t": "22 Jul \u00b7 04:47 PM",
-   "ur": "US Dollar andex ki qeemat ki forecast: 101.00 se oper ki tizi ke taasab ko barqarar rakta hai"
+   "ur": "US Dollar andex qeemat ki forecast: 101.00 ke oper tizi ka taasab barqarar"
   },
   {
    "ts": 1784720792.0,
@@ -464,14 +472,6 @@
    "link": "https://www.fxstreet.com/news/world-bank-warns-of-risks-of-global-slowdown-renewed-inflation-202607221024",
    "t": "22 Jul \u00b7 03:24 PM",
    "ur": "Alimi Bank ne alimi sast ravi, tajadid mahungai ke khatrat se khabrdar kiya hai."
-  },
-  {
-   "ts": 1784714072.0,
-   "title": "US Dollar: Trade tariffs to reshape FX volatility \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-trade-tariffs-to-reshape-fx-volatility-mufg-202607220954",
-   "t": "22 Jul \u00b7 02:54 PM",
-   "ur": "US Dollar: FX atar chadhao ko nayi shakl dine ke liye tajarti mehsulat - MUFG"
   }
  ],
  "sentiment": {
