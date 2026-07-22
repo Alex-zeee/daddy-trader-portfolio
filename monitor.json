@@ -1,20 +1,13 @@
 {
- "updated": "22-07-2026 14:44 PKT",
+ "updated": "22-07-2026 16:29 PKT",
  "gold": {
-  "price": 4117.61,
-  "open": 4061.62,
+  "price": 4118.19,
+  "open": 4059.51,
   "high": 4140.79,
   "low": 4044.49,
-  "chg": 1.38,
+  "chg": 1.45,
   "src": "XAUUSD Spot",
   "spark": [
-   4078.31,
-   4078.23,
-   4081.96,
-   4084.69,
-   4081.02,
-   4081.6,
-   4081.97,
    4079.75,
    4080.48,
    4091.89,
@@ -55,14 +48,21 @@
    4118.64,
    4121.8,
    4119.43,
-   4117.61
+   4118.82,
+   4114.28,
+   4117.9,
+   4119.48,
+   4117.25,
+   4117.82,
+   4119.45,
+   4118.19
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.785,
-   "chg": 1.61,
+   "price": 59.69,
+   "chg": 1.45,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    59.785
+    59.69
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.101,
-   "chg": -0.08,
+   "price": 101.167,
+   "chg": -0.01,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.101
+    101.167
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.05,
-   "chg": 3.7,
+   "price": 87.45,
+   "chg": 2.99,
    "spark": [
     74.82,
     73.21,
@@ -143,7 +143,7 @@
     82.49,
     83.23,
     84.91,
-    88.05
+    87.45
    ]
   },
   {
@@ -176,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1413,
-   "chg": -0.05,
+   "price": 1.1408,
+   "chg": -0.09,
    "spark": [
     1.1427,
     1.138,
@@ -200,13 +200,13 @@
     1.1445,
     1.1428,
     1.1418,
-    1.1413
+    1.1408
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.337,
-   "chg": -0.46,
+   "price": 1.3367,
+   "chg": -0.48,
    "spark": [
     1.3247,
     1.32,
@@ -229,13 +229,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.337
+    1.3367
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 162.995,
-   "chg": 0.31,
+   "price": 163.034,
+   "chg": 0.34,
    "spark": [
     161.57,
     161.599,
@@ -258,16 +258,14 @@
     162.376,
     162.512,
     162.487,
-    162.995
+    163.034
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1920.1,
-   "chg": -0.45,
+   "price": 1926.99,
+   "chg": -0.1,
    "spark": [
-    1866.87,
-    1891.19,
     1871.17,
     1860.37,
     1865.72,
@@ -313,16 +311,16 @@
     1916.05,
     1912.97,
     1920.12,
-    1920.1
+    1923.16,
+    1929.33,
+    1926.99
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65833.9,
-   "chg": -1.02,
+   "price": 66006.7,
+   "chg": -0.76,
    "spark": [
-    64235.3,
-    64935.9,
     64581.8,
     64280.7,
     64354.3,
@@ -368,7 +366,9 @@
     65893.5,
     65800.1,
     65944.3,
-    65833.9
+    65880.4,
+    66005.1,
+    66006.7
    ]
   }
  ],
@@ -393,84 +393,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784713455.678273,
+   "ts": 1784719785.819619,
+   "title": "Gold hits two-week high as expanding Mideast conflict eyed",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
+   "t": "22 Jul \u00b7 04:29 PM",
+   "ur": "Masharq wasta ke tanazaat mein tosi ke baas Gold (sona) do hafte ki baland tarin sath par hai."
+  },
+  {
+   "ts": 1784719785.819619,
    "title": "Silver surges to $59.54 but hits supply wall: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "22 Jul \u00b7 02:44 PM",
+   "t": "22 Jul \u00b7 04:29 PM",
    "ur": "Silver (chandi) $59.54 tak badh gayi lican sppli dewar se takara gayi."
   },
   {
-   "ts": 1784713455.678273,
+   "ts": 1784719785.819619,
    "title": "Gold surges to $4,119 into key resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "22 Jul \u00b7 02:44 PM",
+   "t": "22 Jul \u00b7 04:29 PM",
    "ur": "Kalidi mazahmat mein Gold (sona) $4,119 tak badh gaya: fi ghanta ki sath"
   },
   {
-   "ts": 1784713455.678273,
-   "title": "Gold climbs above $4,130 as Middle East tensions offset rate headwinds",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "22 Jul \u00b7 02:44 PM",
-   "ur": "Masharq wasta ke tanao ki rate mein azafe ke baas Gold (sona) $4,130 se \u200b\u200boper chadh gaya."
+   "ts": 1784719057.0,
+   "title": "Silver price edges higher as geopolitical tensions offset inflation concerns",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-edges-higher-as-geopolitical-tensions-offset-inflation-concerns-202607221117",
+   "t": "22 Jul \u00b7 04:17 PM",
+   "ur": "Silver (chandi) ki qeemat badh rahi hai cunkah geograpi siyasi tanao inflation (mehngai) ke khadshat ko dur karta hai."
   },
   {
-   "ts": 1784709811.0,
-   "title": "Australian Dollar: 0.6970 support keeps upside intact against US Dollar \u2013 UOB",
+   "ts": 1784715889.0,
+   "title": "World Bank warns of risks of global slowdown, renewed inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-06970-support-keeps-upside-intact-against-us-dollar-uob-202607220843",
-   "t": "22 Jul \u00b7 01:43 PM",
-   "ur": "Aasterilvi Dollar: 0.6970 sport US Dollar ke maqable mein alta barqarar hai - UOB"
+   "link": "https://www.fxstreet.com/news/world-bank-warns-of-risks-of-global-slowdown-renewed-inflation-202607221024",
+   "t": "22 Jul \u00b7 03:24 PM",
+   "ur": "Alimi Bank ne alimi sast ravi, tajadid mahungai ke khatrat se khabrdar kiya hai."
   },
   {
-   "ts": 1784707872.0,
-   "title": "Norwegian Krone: Rate path hinges on inflation data \u2013 Commerzbank",
+   "ts": 1784714072.0,
+   "title": "US Dollar: Trade tariffs to reshape FX volatility \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/norwegian-krone-rate-path-hinges-on-inflation-data-commerzbank-202607220811",
-   "t": "22 Jul \u00b7 01:11 PM",
-   "ur": "Naarvagen karon: rate ka raastah inflation (mehngai) ke aed w shmar par manehsr hai - kamers Bank"
+   "link": "https://www.fxstreet.com/news/us-dollar-trade-tariffs-to-reshape-fx-volatility-mufg-202607220954",
+   "t": "22 Jul \u00b7 02:54 PM",
+   "ur": "US Dollar: FX atar chadhao ko nayi shakl dine ke liye tajarti mehsulat - MUFG"
   },
   {
-   "ts": 1784707075.0,
-   "title": "Hungarian Forint: Rally against Euro reassessed after rate cuts \u2013 Societe Generale",
+   "ts": 1784713045.0,
+   "title": "Gold Price Forecast: XAU/USD holds gains above $4,100 undaunted by risk-off markets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/hungarian-forint-rally-against-euro-reassessed-after-rate-cuts-societe-generale-202607220757",
-   "t": "22 Jul \u00b7 12:57 PM",
-   "ur": "Hangri fornt: rate mein kami ke bad uro ke khalaf rili ka dubarah jaizah liya gaya - socit janerl"
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-gains-above-4-100-undaunted-by-risk-off-markets-202607220937",
+   "t": "22 Jul \u00b7 02:37 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD ne khatre se dochar marketon se be khuf $4,100 se oper ka faidah athaya"
   },
   {
-   "ts": 1784706501.0,
-   "title": "BoJ says open to faster rate hike pace as yen adds price risk \u2013 Bloomberg",
+   "ts": 1784712998.0,
+   "title": "Japanese Yen: Technical outlook weakens against US Dollar \u2013 Societe Generale",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/boj-says-open-to-faster-rate-hike-pace-as-yen-adds-price-risk-bloomberg-202607220748",
-   "t": "22 Jul \u00b7 12:48 PM",
-   "ur": "BoJ ka kahana hai kah rate mein tizi se azafe ke liye khala hai cunkah yan qeemat ke khatre mein azafah karta hai \u2013 balombrg"
+   "link": "https://www.fxstreet.com/news/japanese-yen-technical-outlook-weakens-against-us-dollar-societe-generale-202607220936",
+   "t": "22 Jul \u00b7 02:36 PM",
+   "ur": "Japani yan: US Dollar ke maqable mein takniki naqatah nazar kamazor ho gaya hai - sociti janerl"
   },
   {
-   "ts": 1784706402.0,
-   "title": "Gold ease from two-week top as energy-driven inflation fears bolster Fed hike bets",
+   "ts": 1784712931.0,
+   "title": "Swiss Franc edges higher as US-Iran tensions, higher Swiss yields sustain support",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-to-over-two-week-high-eyes-4-150-as-traders-track-us-iran-diplomacy-efforts-202607220340",
-   "t": "22 Jul \u00b7 12:46 PM",
-   "ur": "Gold (sona) do hafte ki choti se kam hai cunkah tawanai se chalne wali inflation (mehngai) ne fed mein azafe ki shart ko taqwet di hai"
+   "link": "https://www.fxstreet.com/news/swiss-franc-edges-higher-as-us-iran-tensions-higher-swiss-yields-sustain-support-202607220935",
+   "t": "22 Jul \u00b7 02:35 PM",
+   "ur": "Amrikah eran kasheedgi ke baas sois farank ki qeemat mein azafah, sois pedawar ki aala support barqarar hai"
   },
   {
-   "ts": 1784705792.0,
-   "title": "British Pound: Inflation trend supports softer Sterling \u2013 ING",
+   "ts": 1784712652.0,
+   "title": "UK inflation cools and fiscal concerns grow: Why the British Pound is surrendering recent gains",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-inflation-trend-supports-softer-sterling-ing-202607220736",
-   "t": "22 Jul \u00b7 12:36 PM",
-   "ur": "Bartanvi pound: inflation (mehngai) ka rjahan narm sterling \u2013 ING ki support karta hai."
-  },
-  {
-   "ts": 1784705707.0,
-   "title": "Forex Today: US Dollar and Oil continue to rise as tensions in Middle East escalate further",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-and-oil-continue-to-rise-as-tensions-in-middle-east-escalate-further-202607220735",
-   "t": "22 Jul \u00b7 12:35 PM",
-   "ur": "Farex today: masharq wasta mein kasheedgi mazid badhane par US Dollar aur til ki qeemton mein azafah jari hai."
+   "link": "https://www.fxstreet.com/news/uk-inflation-cools-and-fiscal-concerns-grow-why-the-british-pound-is-surrendering-recent-gains-202607220930",
+   "t": "22 Jul \u00b7 02:30 PM",
+   "ur": "Bartaniya ki inflation (mehngai) thandi aur mali khadshat badh rahe hen: bartanvi pound haaliya fawaid ko kiyon hathiyar dal raha hai"
   }
  ],
  "sentiment": {
