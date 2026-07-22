@@ -1,18 +1,13 @@
 {
- "updated": "22-07-2026 21:19 PKT",
+ "updated": "22-07-2026 22:45 PKT",
  "gold": {
-  "price": 4153.29,
-  "open": 4074.92,
+  "price": 4140.93,
+  "open": 4067.23,
   "high": 4165.68,
   "low": 4066.86,
-  "chg": 1.92,
+  "chg": 1.81,
   "src": "XAUUSD Spot",
   "spark": [
-   4127.01,
-   4126.98,
-   4128.42,
-   4124.38,
-   4132.36,
    4128.66,
    4130.52,
    4116.36,
@@ -55,14 +50,19 @@
    4160.13,
    4159.87,
    4154.17,
-   4153.29
+   4149.07,
+   4148.19,
+   4149.24,
+   4145.46,
+   4146.03,
+   4140.93
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.59,
-   "chg": 2.98,
+   "price": 60.29,
+   "chg": 2.47,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    60.59
+    60.29
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.121,
-   "chg": -0.06,
+   "price": 101.138,
+   "chg": -0.04,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.121
+    101.138
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.04,
-   "chg": 1.33,
+   "price": 86.81,
+   "chg": 2.24,
    "spark": [
     74.82,
     73.21,
@@ -143,13 +143,13 @@
     82.49,
     83.23,
     84.91,
-    86.04
+    86.81
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.646,
-   "chg": 0.39,
+   "price": 4.654,
+   "chg": 0.56,
    "spark": [
     4.509,
     4.493,
@@ -172,13 +172,13 @@
     4.541,
     4.598,
     4.628,
-    4.646
+    4.654
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1412,
-   "chg": -0.06,
+   "price": 1.1413,
+   "chg": -0.05,
    "spark": [
     1.1427,
     1.138,
@@ -201,13 +201,13 @@
     1.1445,
     1.1428,
     1.1418,
-    1.1412
+    1.1413
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3367,
-   "chg": -0.48,
+   "price": 1.3372,
+   "chg": -0.45,
    "spark": [
     1.3247,
     1.32,
@@ -230,13 +230,13 @@
     1.3479,
     1.3446,
     1.3432,
-    1.3367
+    1.3372
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.108,
-   "chg": 0.38,
+   "price": 163.156,
+   "chg": 0.41,
    "spark": [
     161.57,
     161.599,
@@ -259,15 +259,14 @@
     162.376,
     162.512,
     162.487,
-    163.108
+    163.156
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1940.13,
-   "chg": 0.58,
+   "price": 1942.37,
+   "chg": 0.7,
    "spark": [
-    1906.19,
     1898.06,
     1896.69,
     1903.3,
@@ -314,15 +313,15 @@
     1938.74,
     1931.5,
     1941.43,
-    1940.13
+    1948.96,
+    1942.37
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 66002.2,
-   "chg": -0.77,
+   "price": 66129.7,
+   "chg": -0.57,
    "spark": [
-    65539.8,
     65191.7,
     65090.7,
     65325.1,
@@ -369,7 +368,8 @@
     65919.4,
     65757.0,
     66014.0,
-    66002.2
+    66209.4,
+    66129.7
    ]
   }
  ],
@@ -394,12 +394,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784737146.291424,
+   "ts": 1784742350.590297,
    "title": "Gold hits two-week high as expanding Mideast conflict eyed",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "22 Jul \u00b7 09:19 PM",
+   "t": "22 Jul \u00b7 10:45 PM",
    "ur": "Masharq wasta ke tanazaat mein tosi ke baas Gold (sona) do hafte ki baland tarin sath par hai."
+  },
+  {
+   "ts": 1784741958.0,
+   "title": "Euro gains against British Pound after mixed UK inflation report,ECB decision looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-gains-against-british-pound-after-mixed-uk-inflation-report-ecb-decision-looms-202607221739",
+   "t": "22 Jul \u00b7 10:39 PM",
+   "ur": "Mukhaloot uk inflation (mehngai) ki rport ke bad bartanvi pound ke maqable mein uro ka faidah, ai si bi ke fisale ke bad"
+  },
+  {
+   "ts": 1784739475.0,
+   "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
+   "t": "22 Jul \u00b7 09:57 PM",
+   "ur": "Cun warsh ne tin kalidi faqron mein ghar kiya hai. fed mubsarin an ki tashareeh kise karte hen."
   },
   {
    "ts": 1784736260.0,
@@ -408,14 +424,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-steadies-as-cooler-uk-cpi-meets-oil-shock-202607221604",
    "t": "22 Jul \u00b7 09:04 PM",
    "ur": "Bartanvi pound thanda uk CPI til ke jhatake ko pora karta hai."
-  },
-  {
-   "ts": 1784735396.0,
-   "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
-   "t": "22 Jul \u00b7 08:49 PM",
-   "ur": "Cun warsh ne tin kalidi faqron mein ghar kiya hai. fed mubsarin an ki tashareeh kise karte hen."
   },
   {
    "ts": 1784734824.0,
@@ -464,14 +472,6 @@
    "link": "https://www.fxstreet.com/news/united-kingdom-core-cpi-resilience-complicates-boe-path-nomura-202607221256",
    "t": "22 Jul \u00b7 05:56 PM",
    "ur": "Unaited kangdom: CPI ki baniyadi lachak BoE ke raaste ko patcheedah banati hai - nomora"
-  },
-  {
-   "ts": 1784720844.0,
-   "title": "US Dollar Index Price Forecast: Bullish bias intact above 101.00",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-keeps-the-bullish-bias-intact-above-10100-202607221147",
-   "t": "22 Jul \u00b7 04:47 PM",
-   "ur": "US Dollar andex qeemat ki forecast: 101.00 ke oper tizi ka taasab barqarar"
   }
  ],
  "sentiment": {
