@@ -1,18 +1,13 @@
 {
- "updated": "24-07-2026 01:20 PKT",
+ "updated": "24-07-2026 02:32 PKT",
  "gold": {
-  "price": 4048.45,
-  "open": 4137.51,
+  "price": 4048.88,
+  "open": 4130.56,
   "high": 4141.06,
   "low": 4040.27,
-  "chg": -2.15,
+  "chg": -1.98,
   "src": "XAUUSD Spot",
   "spark": [
-   4092.21,
-   4094.31,
-   4097.11,
-   4091.2,
-   4092.46,
    4089.25,
    4090.63,
    4088.54,
@@ -55,14 +50,19 @@
    4046.74,
    4050.68,
    4049.23,
-   4048.45
+   4050.59,
+   4049.62,
+   4049.52,
+   4048.85,
+   4048.77,
+   4048.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.84,
-   "chg": -3.63,
+   "price": 57.895,
+   "chg": -3.54,
    "spark": [
     62.02,
     58.052,
@@ -85,13 +85,13 @@
     56.802,
     58.835,
     60.019,
-    57.84
+    57.895
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.425,
-   "chg": 0.28,
+   "price": 101.439,
+   "chg": 0.3,
    "spark": [
     101.41,
     101.61,
@@ -114,13 +114,13 @@
     100.99,
     101.18,
     101.14,
-    101.425
+    101.439
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.48,
-   "chg": 5.36,
+   "price": 92.36,
+   "chg": 6.37,
    "spark": [
     73.21,
     70.34,
@@ -143,7 +143,7 @@
     83.23,
     84.91,
     86.83,
-    91.48
+    92.36
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.138,
-   "chg": -0.2,
+   "price": 1.1382,
+   "chg": -0.19,
    "spark": [
     1.138,
     1.1354,
@@ -201,13 +201,13 @@
     1.1428,
     1.1418,
     1.1404,
-    1.138
+    1.1382
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3316,
-   "chg": -0.47,
+   "price": 1.3317,
+   "chg": -0.46,
    "spark": [
     1.32,
     1.3167,
@@ -230,13 +230,13 @@
     1.3446,
     1.3432,
     1.3379,
-    1.3316
+    1.3317
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.818,
-   "chg": 0.39,
+   "price": 163.792,
+   "chg": 0.37,
    "spark": [
     161.599,
     161.763,
@@ -259,15 +259,14 @@
     162.512,
     162.487,
     163.186,
-    163.818
+    163.792
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1884.93,
-   "chg": -2.51,
+   "price": 1882.16,
+   "chg": -2.65,
    "spark": [
-    1923.36,
     1919.44,
     1928.41,
     1939.11,
@@ -314,15 +313,15 @@
     1876.26,
     1879.76,
     1875.42,
-    1884.93
+    1884.74,
+    1882.16
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65094.4,
-   "chg": -1.48,
+   "price": 65059.4,
+   "chg": -1.53,
    "spark": [
-    66338.8,
     66275.3,
     66511.7,
     66590.7,
@@ -369,7 +368,8 @@
     64620.2,
     64809.0,
     64810.0,
-    65094.4
+    65092.6,
+    65059.4
    ]
   }
  ],
@@ -394,28 +394,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784838023.627783,
+   "ts": 1784842328.81073,
    "title": "Gold tests $4,000 support after $4,171 rejection: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "24 Jul \u00b7 01:20 AM",
+   "t": "24 Jul \u00b7 02:32 AM",
    "ur": "$4,171 ke mastard hone ke bad gold ne $4,000 ki support ki janch ki."
   },
   {
-   "ts": 1784838023.627783,
+   "ts": 1784842328.81073,
    "title": "Silver consolidates below resistance at $57.85: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "24 Jul \u00b7 01:20 AM",
-   "ur": "Silver (chandi) mazahmat se niche $57.85 par mastahkam hai."
+   "t": "24 Jul \u00b7 02:32 AM",
+   "ur": "Silver (chandi) mazahmat se niche $57.85 par mastahkam hoi."
   },
   {
-   "ts": 1784838023.627783,
+   "ts": 1784842328.81073,
    "title": "Gold falls as oil price spike raises fears of prolonged U.S. policy tightening",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4130-as-middle-east-tensions-offset-higherrate-concerns-4807361",
-   "t": "24 Jul \u00b7 01:20 AM",
-   "ur": "Til ki qeemton mein azafe se Gold (sone) ki qeemat mein garaut ne tavel US palisi saqt hone ka khadshah peda kiya."
+   "t": "24 Jul \u00b7 02:32 AM",
+   "ur": "Til ki qeemton mein azafe se Gold (sone) ki qeemat mein kami hoi hai jas se US palisi ke tavel arse tak saqt hone ka khadshah hai."
+  },
+  {
+   "ts": 1784840040.0,
+   "title": "Singapore Dollar: Sideways range holds against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-sideways-range-holds-against-us-dollar-uob-202607232054",
+   "t": "24 Jul \u00b7 01:54 AM",
+   "ur": "Sangapor Dollar: cyd wez rinj US Dollar - UOB ke maqable mein hai."
+  },
+  {
+   "ts": 1784839741.0,
+   "title": "Forex Today: US Dollar rises as strong labor data and Middle East tensions lift Oil",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-rises-as-strong-labor-data-and-middle-east-tensions-lift-oil-202607232049",
+   "t": "24 Jul \u00b7 01:49 AM",
+   "ur": "Farex today: libr ke mazboot aed w shmar aur masharq wasta ke tanao se til badhane par US Dollar mein azafah hawa."
   },
   {
    "ts": 1784835872.0,
@@ -456,22 +472,6 @@
    "link": "https://www.fxstreet.com/news/gold-losses-its-bright-tumbles-as-sellers-target-4-000-202607231827",
    "t": "23 Jul \u00b7 11:27 PM",
    "ur": "Gold (sona) garta hai cunkah farokht connindgan ka target $4,000 hai."
-  },
-  {
-   "ts": 1784821697.0,
-   "title": "British Pound slides as Gulf war risk fuels US Dollar rally",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-slides-as-gulf-war-risk-fuels-us-dollar-rally-202607231548",
-   "t": "23 Jul \u00b7 08:48 PM",
-   "ur": "Khaliji jang ke khatre se US Dollar mein azafe ke baas bartanvi pound ki qeemat mein kami"
-  },
-  {
-   "ts": 1784814171.0,
-   "title": "Federal Reserve: Hike pricing questioned \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-hike-pricing-questioned-td-securities-202607231342",
-   "t": "23 Jul \u00b7 06:42 PM",
-   "ur": "Faderl resero: qeemton mein azafe par swal athaye gaye - ti di securitez"
   }
  ],
  "sentiment": {
