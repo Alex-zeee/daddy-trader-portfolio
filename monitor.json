@@ -1,19 +1,13 @@
 {
- "updated": "23-07-2026 20:05 PKT",
+ "updated": "23-07-2026 21:42 PKT",
  "gold": {
-  "price": 4058.42,
-  "open": 4156.9,
-  "high": 4165.68,
+  "price": 4050.53,
+  "open": 4149.0,
+  "high": 4149.55,
   "low": 4041.22,
   "chg": -2.37,
   "src": "XAUUSD Spot",
   "spark": [
-   4130.1,
-   4126.5,
-   4125.96,
-   4127.01,
-   4128.42,
-   4124.02,
    4121.33,
    4124.68,
    4123.85,
@@ -55,14 +49,20 @@
    4053.99,
    4057.38,
    4058.7,
-   4058.42
+   4053.4,
+   4048.83,
+   4051.8,
+   4047.52,
+   4049.47,
+   4050.62,
+   4050.53
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.025,
-   "chg": -3.32,
+   "price": 58.03,
+   "chg": -3.31,
    "spark": [
     62.02,
     58.052,
@@ -85,13 +85,13 @@
     56.802,
     58.835,
     60.019,
-    58.025
+    58.03
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.526,
-   "chg": 0.38,
+   "price": 101.423,
+   "chg": 0.28,
    "spark": [
     101.41,
     101.61,
@@ -114,13 +114,13 @@
     100.99,
     101.18,
     101.14,
-    101.526
+    101.423
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 92.1,
-   "chg": 6.07,
+   "price": 92.06,
+   "chg": 6.02,
    "spark": [
     73.21,
     70.34,
@@ -143,13 +143,13 @@
     83.23,
     84.91,
     86.83,
-    92.1
+    92.06
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.71,
-   "chg": 1.14,
+   "price": 4.697,
+   "chg": 0.86,
    "spark": [
     4.493,
     4.402,
@@ -172,13 +172,13 @@
     4.598,
     4.628,
     4.657,
-    4.71
+    4.697
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1378,
-   "chg": -0.23,
+   "price": 1.138,
+   "chg": -0.2,
    "spark": [
     1.138,
     1.1354,
@@ -201,13 +201,13 @@
     1.1428,
     1.1418,
     1.1404,
-    1.1378
+    1.138
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3322,
-   "chg": -0.43,
+   "price": 1.3321,
+   "chg": -0.44,
    "spark": [
     1.32,
     1.3167,
@@ -230,13 +230,13 @@
     1.3446,
     1.3432,
     1.3379,
-    1.3322
+    1.3321
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.878,
-   "chg": 0.42,
+   "price": 163.757,
+   "chg": 0.35,
    "spark": [
     161.599,
     161.763,
@@ -259,15 +259,14 @@
     162.512,
     162.487,
     163.186,
-    163.878
+    163.757
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1892.51,
-   "chg": -2.11,
+   "price": 1886.46,
+   "chg": -2.43,
    "spark": [
-    1925.55,
     1917.4,
     1918.65,
     1922.46,
@@ -314,15 +313,15 @@
     1903.25,
     1898.13,
     1895.24,
-    1892.51
+    1894.36,
+    1886.46
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64817.1,
-   "chg": -1.9,
+   "price": 64698.1,
+   "chg": -2.08,
    "spark": [
-    66516.9,
     66153.0,
     66259.3,
     66412.9,
@@ -369,11 +368,20 @@
     65125.7,
     64834.3,
     64862.2,
-    64817.1
+    64907.8,
+    64698.1
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1784746800.0,
+   "t": "Thu 23 Jul \u00b7 12:00 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
   {
    "ts": 1784809800.0,
    "t": "Thu 23 Jul \u00b7 05:30 PM",
@@ -383,15 +391,23 @@
    "previous": "208K"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1784819115.273928,
+   "ts": 1784824973.823978,
    "title": "Gold falls as oil price spike raises fears of prolonged U.S. policy tightening",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4130-as-middle-east-tensions-offset-higherrate-concerns-4807361",
-   "t": "23 Jul \u00b7 08:05 PM",
+   "t": "23 Jul \u00b7 09:42 PM",
    "ur": "Til ki qeemton mein azafe se Gold (sone) ki qeemat mein kami hoi hai jas se US palisi ke tavel arse tak saqt hone ka khadshah hai."
+  },
+  {
+   "ts": 1784821697.0,
+   "title": "British Pound slides as Gulf war risk fuels US Dollar rally",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-slides-as-gulf-war-risk-fuels-us-dollar-rally-202607231548",
+   "t": "23 Jul \u00b7 08:48 PM",
+   "ur": "Khaliji jang ke khatre se US Dollar mein azafe ke baas bartanvi pound ki qeemat mein kami"
   },
   {
    "ts": 1784814171.0,
@@ -443,11 +459,11 @@
   },
   {
    "ts": 1784806415.0,
-   "title": "Gold falls as Middle East tensions lift Oil prices, Fed rate hike bets",
+   "title": "Gold falls as Iran war lifts Oil prices, Fed rate hike bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-falls-as-middle-east-tensions-lift-oil-prices-fed-rate-hike-bets-202607231133",
    "t": "23 Jul \u00b7 04:33 PM",
-   "ur": "Masharq wasta ke tanao mein til ki qeemton mein azafe, fed ki rate mein azafe ki shart ke baas Gold (sona) gar gaya."
+   "ur": "Eran ki jang mein til ki qeemton mein azafe, fed ki rate mein azafe ki shart ke baas Gold (sona) gar gaya."
   },
   {
    "ts": 1784804729.0,
@@ -456,14 +472,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-retail-sales-set-to-beat-consensus-td-securities-202607231105",
    "t": "23 Jul \u00b7 04:05 PM",
    "ur": "Caniden Dollar: khurdah farokht atafaq raaye ko shkist dine ke liye tyar hai - TD securitez"
-  },
-  {
-   "ts": 1784739475.0,
-   "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
-   "t": "22 Jul \u00b7 09:57 PM",
-   "ur": "Cun warsh ne tin kalidi faqron ko shamil kiya hai. fed mubsarin an ki tashareeh kise karte hen."
   }
  ],
  "sentiment": {
