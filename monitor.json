@@ -1,18 +1,13 @@
 {
- "updated": "23-07-2026 22:59 PKT",
+ "updated": "24-07-2026 00:14 PKT",
  "gold": {
-  "price": 4042.56,
-  "open": 4143.18,
-  "high": 4144.74,
-  "low": 4041.22,
-  "chg": -2.43,
+  "price": 4044.38,
+  "open": 4135.22,
+  "high": 4141.06,
+  "low": 4040.27,
+  "chg": -2.2,
   "src": "XAUUSD Spot",
   "spark": [
-   4123.6,
-   4123.64,
-   4120.45,
-   4118.45,
-   4102.3,
    4108.66,
    4092.77,
    4094.05,
@@ -55,14 +50,19 @@
    4048.11,
    4047.97,
    4045.42,
-   4042.56
+   4043.09,
+   4042.93,
+   4044.82,
+   4046.25,
+   4045.17,
+   4044.38
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.855,
-   "chg": -3.61,
+   "price": 57.835,
+   "chg": -3.64,
    "spark": [
     62.02,
     58.052,
@@ -85,13 +85,13 @@
     56.802,
     58.835,
     60.019,
-    57.855
+    57.835
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.459,
-   "chg": 0.32,
+   "price": 101.444,
+   "chg": 0.3,
    "spark": [
     101.41,
     101.61,
@@ -114,13 +114,13 @@
     100.99,
     101.18,
     101.14,
-    101.459
+    101.444
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 92.97,
-   "chg": 7.07,
+   "price": 91.86,
+   "chg": 5.79,
    "spark": [
     73.21,
     70.34,
@@ -143,13 +143,13 @@
     83.23,
     84.91,
     86.83,
-    92.97
+    91.86
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.701,
-   "chg": 0.94,
+   "price": 4.705,
+   "chg": 1.03,
    "spark": [
     4.493,
     4.402,
@@ -172,13 +172,13 @@
     4.598,
     4.628,
     4.657,
-    4.701
+    4.705
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1375,
-   "chg": -0.25,
+   "price": 1.1378,
+   "chg": -0.23,
    "spark": [
     1.138,
     1.1354,
@@ -201,13 +201,13 @@
     1.1428,
     1.1418,
     1.1404,
-    1.1375
+    1.1378
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3314,
-   "chg": -0.48,
+   "chg": -0.49,
    "spark": [
     1.32,
     1.3167,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 163.838,
-   "chg": 0.4,
+   "price": 163.812,
+   "chg": 0.38,
    "spark": [
     161.599,
     161.763,
@@ -259,16 +259,14 @@
     162.512,
     162.487,
     163.186,
-    163.838
+    163.812
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1875.81,
-   "chg": -2.98,
+   "price": 1874.88,
+   "chg": -3.03,
    "spark": [
-    1918.65,
-    1922.46,
     1922.03,
     1923.36,
     1919.44,
@@ -314,16 +312,16 @@
     1895.24,
     1894.36,
     1886.58,
-    1875.81
+    1876.26,
+    1879.76,
+    1874.88
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64611.0,
-   "chg": -2.21,
+   "price": 64740.5,
+   "chg": -2.02,
    "spark": [
-    66259.3,
-    66412.9,
     66372.5,
     66338.8,
     66275.3,
@@ -369,7 +367,9 @@
     64862.2,
     64907.8,
     64720.0,
-    64611.0
+    64620.2,
+    64809.0,
+    64740.5
    ]
   }
  ],
@@ -394,12 +394,36 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784829577.365676,
+   "ts": 1784834084.547938,
    "title": "Gold falls as oil price spike raises fears of prolonged U.S. policy tightening",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4130-as-middle-east-tensions-offset-higherrate-concerns-4807361",
-   "t": "23 Jul \u00b7 10:59 PM",
+   "t": "24 Jul \u00b7 12:14 AM",
    "ur": "Til ki qeemton mein azafe se Gold (sone) ki qeemat mein kami hoi hai jas se US palisi ke tavel arse tak saqt hone ka khadshah hai."
+  },
+  {
+   "ts": 1784833076.0,
+   "title": "Canadian Dollar: Holds near fair value against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-near-fair-value-against-us-dollar-scotiabank-202607231857",
+   "t": "23 Jul \u00b7 11:57 PM",
+   "ur": "Caniden Dollar: US Dollar - Scotiabank ke maqable mein manasab qadar ke qarib hai."
+  },
+  {
+   "ts": 1784832315.0,
+   "title": "Swiss Franc hits 13-month low as rising Oil prices boost bets on Fed hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-hits-13-month-low-as-rising-oil-prices-boost-fed-rate-hike-bets-202607231845",
+   "t": "23 Jul \u00b7 11:45 PM",
+   "ur": "Sois farank 13 mah ki kam tarin sath par hai cunkah til ki badhti hoi qeemton ne fed mein azafe par shartin badha di hen"
+  },
+  {
+   "ts": 1784831226.0,
+   "title": "Gold tumbles as sellers target $4,000",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-losses-its-bright-tumbles-as-sellers-target-4-000-202607231827",
+   "t": "23 Jul \u00b7 11:27 PM",
+   "ur": "Gold (sona) garta hai cunkah farokht connindgan ka target $4,000 hai."
   },
   {
    "ts": 1784821697.0,
@@ -442,36 +466,12 @@
    "ur": "Aasterilvi Dollar: RBA ki qeemat ke matabiq lamated oper - Rabobank"
   },
   {
-   "ts": 1784807177.0,
-   "title": "Gold Price Forecast: XAU/USD pulls back below $4,100 weighed by higher US yields",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-pulls-back-below-4-100-weighed-by-higher-us-yields-202607231146",
-   "t": "23 Jul \u00b7 04:46 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,100 se niche waps khinchta hai jas ka wazin US ziyadah pedawar se hota hai"
-  },
-  {
-   "ts": 1784806784.0,
-   "title": "US Dollar Index: Upside risks persist as yields climb \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-upside-risks-persist-as-yields-climb-bbh-202607231139",
-   "t": "23 Jul \u00b7 04:39 PM",
-   "ur": "US Dollar andex: pedawar mein azafe ke sath sath oper ke khatrat barqarar rahte hen - BBH"
-  },
-  {
    "ts": 1784806415.0,
    "title": "Gold falls as Iran war lifts Oil prices, Fed rate hike bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-falls-as-middle-east-tensions-lift-oil-prices-fed-rate-hike-bets-202607231133",
    "t": "23 Jul \u00b7 04:33 PM",
    "ur": "Eran ki jang mein til ki qeemton mein azafe, fed ki rate mein azafe ki shart ke baas Gold (sona) gar gaya."
-  },
-  {
-   "ts": 1784739475.0,
-   "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
-   "t": "22 Jul \u00b7 09:57 PM",
-   "ur": "Cun warsh ne tin kalidi faqron ko shamil kiya hai. fed mubsarin an ki tashareeh kise karte hen."
   }
  ],
  "sentiment": {
