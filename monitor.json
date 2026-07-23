@@ -1,19 +1,13 @@
 {
- "updated": "23-07-2026 04:37 PKT",
+ "updated": "23-07-2026 06:09 PKT",
  "gold": {
-  "price": 4120.69,
-  "open": 4080.02,
+  "price": 4133.71,
+  "open": 4117.3,
   "high": 4165.68,
-  "low": 4076.64,
-  "chg": 1.0,
+  "low": 4109.15,
+  "chg": 0.4,
   "src": "XAUUSD Spot",
   "spark": [
-   4122.81,
-   4126.27,
-   4132.81,
-   4127.77,
-   4114.73,
-   4124.17,
    4133.93,
    4142.53,
    4148.82,
@@ -55,14 +49,20 @@
    4123.66,
    4123.12,
    4119.37,
-   4120.69
+   4123.6,
+   4133.11,
+   4126.94,
+   4131.44,
+   4127.88,
+   4131.05,
+   4133.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.795,
-   "chg": 1.63,
+   "price": 60.135,
+   "chg": 2.21,
    "spark": [
     65.527,
     62.02,
@@ -85,13 +85,13 @@
     56.038,
     56.802,
     58.835,
-    59.795
+    60.135
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.141,
-   "chg": -0.04,
+   "price": 101.072,
+   "chg": -0.11,
    "spark": [
     101.02,
     101.41,
@@ -114,13 +114,13 @@
     100.75,
     100.99,
     101.18,
-    101.141
+    101.072
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.82,
-   "chg": 3.43,
+   "price": 87.87,
+   "chg": 3.49,
    "spark": [
     74.82,
     73.21,
@@ -143,7 +143,7 @@
     82.49,
     83.23,
     84.91,
-    87.82
+    87.87
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1414,
-   "chg": 0.09,
+   "price": 1.1422,
+   "chg": 0.16,
    "spark": [
     1.138,
     1.1354,
@@ -201,13 +201,13 @@
     1.1428,
     1.1418,
     1.1404,
-    1.1414
+    1.1422
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3375,
-   "chg": -0.03,
+   "price": 1.3383,
+   "chg": 0.03,
    "spark": [
     1.32,
     1.3167,
@@ -230,13 +230,13 @@
     1.3446,
     1.3432,
     1.3379,
-    1.3375
+    1.3383
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.098,
-   "chg": -0.05,
+   "price": 163.06,
+   "chg": -0.08,
    "spark": [
     161.599,
     161.763,
@@ -259,16 +259,14 @@
     162.512,
     162.487,
     163.186,
-    163.098
+    163.06
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1928.77,
-   "chg": -0.01,
+   "price": 1931.38,
+   "chg": -0.1,
    "spark": [
-    1913.83,
-    1906.16,
     1916.36,
     1925.83,
     1923.16,
@@ -314,16 +312,16 @@
     1925.68,
     1936.52,
     1937.14,
-    1928.77
+    1933.37,
+    1931.68,
+    1931.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65945.7,
-   "chg": -0.85,
+   "price": 66015.1,
+   "chg": -0.09,
    "spark": [
-    65533.1,
-    65204.8,
     65367.5,
     65531.9,
     65475.6,
@@ -369,7 +367,9 @@
     65882.0,
     66036.0,
     66007.2,
-    65945.7
+    66072.5,
+    66027.5,
+    66015.1
    ]
   }
  ],
@@ -386,27 +386,27 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784763433.004388,
+   "ts": 1784768953.015252,
    "title": "Gold hits over two-week high, extending rebound after repeatedly testing $4k level",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-above-4100-as-middle-east-tensions-underpin-prices-4804558",
-   "t": "23 Jul \u00b7 04:37 AM",
+   "t": "23 Jul \u00b7 06:09 AM",
    "ur": "Gold (sona) do hafte ki baland tarin sath par pohch gaya, bar bar $4k ki sath ko test karne ke bad ribound ko badhata hai."
   },
   {
-   "ts": 1784763433.004388,
+   "ts": 1784768953.015252,
    "title": "Gold tests 200 MA with overbought RSI at $4,141: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "23 Jul \u00b7 04:37 AM",
+   "t": "23 Jul \u00b7 06:09 AM",
    "ur": "Gold ne 200 MA ko ziyadah khareede huvay RSI ke sath $4,141 par test kiya."
   },
   {
-   "ts": 1784763433.004388,
+   "ts": 1784768953.015252,
    "title": "Silver stalls at $60.39 resistance amid bull-bear clash: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "23 Jul \u00b7 04:37 AM",
+   "t": "23 Jul \u00b7 06:09 AM",
    "ur": "Bel bears ke tasadam ke darmiyan salor rak gaya hai $60.39 mazahmat par"
   },
   {
@@ -450,24 +450,24 @@
    "ur": "Toqa se ziyadah mahungai ke bad niyozi lind ka Dollar rak gaya hai."
   },
   {
+   "ts": 1784755800.0,
+   "title": "Australia unemployment rate set to steady in June as markets increase bets of RBA rate hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australia-unemployment-rate-set-to-steady-at-44-in-june-signaling-strong-job-market-202607222130",
+   "t": "23 Jul \u00b7 02:30 AM",
+   "ur": "Aasteriliya ki be rozgari ki rate jon mein mastahkam rahe gi cunkah marketon ne RBA ki rate mein azafe ki shartin badha di hen."
+  },
+  {
    "ts": 1784754997.0,
    "title": "Forex Today: US Dollar softens as oil and gold rally, ECB decision and Australian jobs loom",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-softens-as-oil-and-gold-rally-ecb-decision-and-australian-jobs-loom-202607222116",
    "t": "23 Jul \u00b7 02:16 AM",
-   "ur": "Farex today: til aur Gold (sone) mein tizi, ECB ke fisale aur aasterilvi malazmaton mein azafe ke sath US Dollar ki qadar mein narmi"
-  },
-  {
-   "ts": 1784753580.0,
-   "title": "Philippine Peso: Under pressure from Oil surge \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/philippine-peso-under-pressure-from-oil-surge-bny-202607222053",
-   "t": "23 Jul \u00b7 01:53 AM",
-   "ur": "Filpin peso: til mein azafe ke dabao mein - BNY"
+   "ur": "Farex today: til aur Gold (sone) mein tizi, ai si bi ke fisale aur aasterilvi malazmaton mein azafe ke sath US Dollar mein narmi"
   }
  ],
  "sentiment": {
-  "value": 33,
+  "value": 31,
   "label": "Fear"
  },
  "err": null
