@@ -1,19 +1,13 @@
 {
- "updated": "25-07-2026 00:07 PKT",
+ "updated": "25-07-2026 01:39 PKT",
  "gold": {
-  "price": 4054.47,
-  "open": 4043.36,
+  "price": 4054.2,
+  "open": 4049.33,
   "high": 4080.69,
   "low": 4022.09,
-  "chg": 0.27,
+  "chg": 0.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4050.41,
-   4046.42,
-   4048.87,
-   4046.38,
-   4050.04,
-   4054.91,
    4057.63,
    4053.76,
    4054.23,
@@ -55,14 +49,20 @@
    4055.9,
    4052.11,
    4055.39,
-   4054.47
+   4053.19,
+   4051.51,
+   4057.76,
+   4053.8,
+   4053.61,
+   4053.68,
+   4054.2
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.595,
-   "chg": 1.38,
+   "price": 58.5,
+   "chg": 1.21,
    "spark": [
     58.052,
     58.348,
@@ -85,13 +85,13 @@
     58.835,
     60.019,
     57.798,
-    58.595
+    58.5
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.47,
-   "chg": 0.04,
+   "price": 101.487,
+   "chg": 0.06,
    "spark": [
     101.61,
     101.43,
@@ -114,13 +114,13 @@
     101.18,
     101.14,
     101.43,
-    101.47
+    101.487
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.35,
-   "chg": -3.08,
+   "price": 90.37,
+   "chg": -1.97,
    "spark": [
     70.34,
     71.92,
@@ -143,7 +143,7 @@
     84.91,
     86.83,
     92.19,
-    89.35
+    90.37
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1374,
-   "chg": -0.33,
+   "price": 1.1371,
+   "chg": -0.35,
    "spark": [
     1.1354,
     1.1362,
@@ -201,13 +201,13 @@
     1.1418,
     1.1404,
     1.1412,
-    1.1374
+    1.1371
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3327,
-   "chg": -0.36,
+   "price": 1.3317,
+   "chg": -0.43,
    "spark": [
     1.3167,
     1.3188,
@@ -230,13 +230,13 @@
     1.3432,
     1.3379,
     1.3375,
-    1.3327
+    1.3317
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.823,
-   "chg": 0.45,
+   "price": 163.86,
+   "chg": 0.48,
    "spark": [
     161.763,
     161.805,
@@ -259,15 +259,14 @@
     162.487,
     163.186,
     163.081,
-    163.823
+    163.86
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1858.29,
-   "chg": -1.0,
+   "price": 1859.35,
+   "chg": -0.94,
    "spark": [
-    1925.68,
     1936.52,
     1937.14,
     1933.37,
@@ -314,15 +313,15 @@
     1855.69,
     1864.69,
     1860.97,
-    1858.29
+    1861.45,
+    1859.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64116.8,
-   "chg": -1.44,
+   "price": 64091.4,
+   "chg": -1.48,
    "spark": [
-    65882.0,
     66036.0,
     66007.2,
     66072.5,
@@ -369,7 +368,8 @@
     63903.6,
     64127.8,
     64220.1,
-    64116.8
+    64171.6,
+    64091.4
    ]
   }
  ],
@@ -386,12 +386,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784920057.36829,
+   "ts": 1784925549.282537,
+   "title": "Gold tests $4,037 Fib support amid bearish channel: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
+   "t": "25 Jul \u00b7 01:39 AM",
+   "ur": "Gold ne baresh chinl ke darmiyan $4,037 Fib sport ki janch ki."
+  },
+  {
+   "ts": 1784925549.282537,
+   "title": "Silver bearish engulfing at $59.22 tests key $57.30 floor: Live",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
+   "t": "25 Jul \u00b7 01:39 AM",
+   "ur": "Silver (chandi) ki mandi $59.22 test kalid $57.30 filor par hai: laaio"
+  },
+  {
+   "ts": 1784925549.282537,
    "title": "US strikes Iran from south to north after Trump threats over Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea-4810448",
-   "t": "25 Jul \u00b7 12:07 AM",
+   "t": "25 Jul \u00b7 01:39 AM",
    "ur": "Baheerah ahmar mein jahaz raani par trmp ki dhamkiyon ke bad amrikah ne eran par janob se shmal tak hamlah kiya."
+  },
+  {
+   "ts": 1784921327.0,
+   "title": "Forecasting the upcoming week: Fed, BoE and BoJ decisions take center stage",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-decisions-take-center-stage-202607241928",
+   "t": "25 Jul \u00b7 12:28 AM",
+   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ ke fisale markaz ka marhalah lite hen."
   },
   {
    "ts": 1784919480.0,
@@ -399,7 +423,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/thai-baht-oil-shock-and-dovish-bot-keep-thb-pressured-against-us-dollar-ocbc-202607241858",
    "t": "24 Jul \u00b7 11:58 PM",
-   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti THB ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
+   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti ti ach bi ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
   },
   {
    "ts": 1784917853.0,
@@ -440,30 +464,6 @@
    "link": "https://www.fxstreet.com/news/euro-choppy-range-view-holds-against-us-dollar-rabobank-202607241617",
    "t": "24 Jul \u00b7 09:17 PM",
    "ur": "Uro: US Dollar - rabobank ke maqable mein chapee rinj ka manazr"
-  },
-  {
-   "ts": 1784909324.0,
-   "title": "British Pound rises as Oil slide softens USD, Fed hike bets increase",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-rises-as-oil-slide-softens-usd-fed-hike-bets-increase-202607241608",
-   "t": "24 Jul \u00b7 09:08 PM",
-   "ur": "Bartanvi pound mein azafah hawa cunkah til ki salaid USD ko narm karti hai, fed mein azafe ki shartin badh jati hen."
-  },
-  {
-   "ts": 1784908629.0,
-   "title": "Swiss Franc gains slightly against US Dollar as Oil prices ease",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-gains-slightly-against-us-dollar-as-oil-prices-ease-202607241557",
-   "t": "24 Jul \u00b7 08:57 PM",
-   "ur": "Til ki qeemton mein narmi ke baas sois farank US Dollar ke maqable mein qadare badh gaya."
-  },
-  {
-   "ts": 1784908160.0,
-   "title": "British Pound: Strong UK data fail to lift GBP against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-strong-uk-data-fail-to-lift-gbp-against-us-dollar-scotiabank-202607241549",
-   "t": "24 Jul \u00b7 08:49 PM",
-   "ur": "Bartanvi pound: bartaniya ka mazboot deta GBP ko US Dollar ke maqable mein athane mein naakam raha - Scotiabank"
   }
  ],
  "sentiment": {
