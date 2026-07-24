@@ -1,18 +1,13 @@
 {
- "updated": "24-07-2026 22:47 PKT",
+ "updated": "25-07-2026 00:07 PKT",
  "gold": {
-  "price": 4065.94,
-  "open": 4042.81,
+  "price": 4054.47,
+  "open": 4043.36,
   "high": 4080.69,
   "low": 4022.09,
-  "chg": 0.57,
+  "chg": 0.27,
   "src": "XAUUSD Spot",
   "spark": [
-   4031.21,
-   4035.52,
-   4034.48,
-   4037.62,
-   4046.43,
    4050.41,
    4046.42,
    4048.87,
@@ -55,14 +50,19 @@
    4063.76,
    4068.26,
    4067.17,
-   4065.94
+   4064.99,
+   4062.71,
+   4055.9,
+   4052.11,
+   4055.39,
+   4054.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.995,
-   "chg": 2.07,
+   "price": 58.595,
+   "chg": 1.38,
    "spark": [
     58.052,
     58.348,
@@ -85,7 +85,7 @@
     58.835,
     60.019,
     57.798,
-    58.995
+    58.595
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 89.0,
-   "chg": -3.46,
+   "price": 89.35,
+   "chg": -3.08,
    "spark": [
     70.34,
     71.92,
@@ -143,13 +143,13 @@
     84.91,
     86.83,
     92.19,
-    89.0
+    89.35
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.677,
-   "chg": -0.55,
+   "price": 4.679,
+   "chg": -0.51,
    "spark": [
     4.402,
     4.392,
@@ -172,13 +172,13 @@
     4.628,
     4.657,
     4.703,
-    4.677
+    4.679
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1373,
-   "chg": -0.34,
+   "price": 1.1374,
+   "chg": -0.33,
    "spark": [
     1.1354,
     1.1362,
@@ -201,13 +201,13 @@
     1.1418,
     1.1404,
     1.1412,
-    1.1373
+    1.1374
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3323,
-   "chg": -0.39,
+   "price": 1.3327,
+   "chg": -0.36,
    "spark": [
     1.3167,
     1.3188,
@@ -230,12 +230,12 @@
     1.3432,
     1.3379,
     1.3375,
-    1.3323
+    1.3327
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.821,
+   "price": 163.823,
    "chg": 0.45,
    "spark": [
     161.763,
@@ -259,16 +259,14 @@
     162.487,
     163.186,
     163.081,
-    163.821
+    163.823
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1860.87,
-   "chg": -0.86,
+   "price": 1858.29,
+   "chg": -1.0,
    "spark": [
-    1929.82,
-    1924.05,
     1925.68,
     1936.52,
     1937.14,
@@ -314,16 +312,16 @@
     1860.94,
     1860.42,
     1855.69,
-    1860.87
+    1864.69,
+    1860.97,
+    1858.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64080.1,
-   "chg": -1.49,
+   "price": 64116.8,
+   "chg": -1.44,
    "spark": [
-    65867.2,
-    65900.6,
     65882.0,
     66036.0,
     66007.2,
@@ -369,7 +367,9 @@
     63988.2,
     64026.3,
     63903.6,
-    64080.1
+    64127.8,
+    64220.1,
+    64116.8
    ]
   }
  ],
@@ -386,12 +386,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784915276.321995,
+   "ts": 1784920057.36829,
    "title": "US strikes Iran from south to north after Trump threats over Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea-4810448",
-   "t": "24 Jul \u00b7 10:47 PM",
+   "t": "25 Jul \u00b7 12:07 AM",
    "ur": "Baheerah ahmar mein jahaz raani par trmp ki dhamkiyon ke bad amrikah ne eran par janob se shmal tak hamlah kiya."
+  },
+  {
+   "ts": 1784919480.0,
+   "title": "Thai Baht: Oil shock and dovish BoT keep THB pressured against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/thai-baht-oil-shock-and-dovish-bot-keep-thb-pressured-against-us-dollar-ocbc-202607241858",
+   "t": "24 Jul \u00b7 11:58 PM",
+   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti THB ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
+  },
+  {
+   "ts": 1784917853.0,
+   "title": "Gold gains despite firm US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-gains-despite-firm-us-dollar-202607241830",
+   "t": "24 Jul \u00b7 11:30 PM",
+   "ur": "US Dollar ki mazbooti ke bawajud Gold (sone) mein azafah"
+  },
+  {
+   "ts": 1784915886.0,
+   "title": "Silver Price Forecast: XAG/USD consolidates as bulls struggle to clear the 21-day SMA",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-consolidates-as-bulls-struggle-to-clear-the-21-day-sma-202607241758",
+   "t": "24 Jul \u00b7 10:58 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD mazboot ho raha hai cunkah bel 21 dan ke SMA ko saf karne ki jadojehad kar rahe hen"
   },
   {
    "ts": 1784915040.0,
@@ -440,30 +464,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-strong-uk-data-fail-to-lift-gbp-against-us-dollar-scotiabank-202607241549",
    "t": "24 Jul \u00b7 08:49 PM",
    "ur": "Bartanvi pound: bartaniya ka mazboot deta GBP ko US Dollar ke maqable mein athane mein naakam raha - Scotiabank"
-  },
-  {
-   "ts": 1784907759.0,
-   "title": "Japanese Yen stays under pressure as resilient US economy supports the Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-stays-under-pressure-as-resilient-us-economy-supports-the-dollar-202607241542",
-   "t": "24 Jul \u00b7 08:42 PM",
-   "ur": "Japani yan dabao mein rahta hai cunkah lachakdar US misht Dollar ki support karti hai."
-  },
-  {
-   "ts": 1784907162.0,
-   "title": "Singapore Dollar: MAS stance supports relative resilience \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-mas-stance-supports-relative-resilience-mufg-202607241532",
-   "t": "24 Jul \u00b7 08:32 PM",
-   "ur": "Sangapor Dollar: MAS moqf rashtah dar lachak ki support karta hai - MUFG"
-  },
-  {
-   "ts": 1784905849.0,
-   "title": "Australian Dollar edges higher after mixed US PMIs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-after-mixed-us-pmis-202607241510",
-   "t": "24 Jul \u00b7 08:10 PM",
-   "ur": "Mukhaloot US PMIs ke bad aasterilvi Dollar ki qeemat unchi hai."
   }
  ],
  "sentiment": {
