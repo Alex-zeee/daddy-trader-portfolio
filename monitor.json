@@ -1,17 +1,13 @@
 {
- "updated": "25-07-2026 01:39 PKT",
+ "updated": "25-07-2026 02:42 PKT",
  "gold": {
-  "price": 4054.2,
-  "open": 4049.33,
+  "price": 4056.0,
+  "open": 4048.79,
   "high": 4080.69,
   "low": 4022.09,
-  "chg": 0.12,
+  "chg": 0.18,
   "src": "XAUUSD Spot",
   "spark": [
-   4057.63,
-   4053.76,
-   4054.23,
-   4055.53,
    4059.54,
    4058.62,
    4064.19,
@@ -55,14 +51,18 @@
    4053.8,
    4053.61,
    4053.68,
-   4054.2
+   4055.64,
+   4053.47,
+   4055.96,
+   4055.9,
+   4056.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.5,
-   "chg": 1.21,
+   "price": 58.49,
+   "chg": 1.2,
    "spark": [
     58.052,
     58.348,
@@ -85,13 +85,13 @@
     58.835,
     60.019,
     57.798,
-    58.5
+    58.49
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.487,
-   "chg": 0.06,
+   "price": 101.465,
+   "chg": 0.03,
    "spark": [
     101.61,
     101.43,
@@ -114,13 +114,13 @@
     101.18,
     101.14,
     101.43,
-    101.487
+    101.465
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.37,
-   "chg": -1.97,
+   "price": 90.47,
+   "chg": -1.87,
    "spark": [
     70.34,
     71.92,
@@ -143,7 +143,7 @@
     84.91,
     86.83,
     92.19,
-    90.37
+    90.47
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1371,
-   "chg": -0.35,
+   "price": 1.1375,
+   "chg": -0.32,
    "spark": [
     1.1354,
     1.1362,
@@ -201,13 +201,13 @@
     1.1418,
     1.1404,
     1.1412,
-    1.1371
+    1.1375
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3317,
-   "chg": -0.43,
+   "price": 1.3319,
+   "chg": -0.42,
    "spark": [
     1.3167,
     1.3188,
@@ -230,13 +230,13 @@
     1.3432,
     1.3379,
     1.3375,
-    1.3317
+    1.3319
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.86,
-   "chg": 0.48,
+   "price": 163.791,
+   "chg": 0.44,
    "spark": [
     161.763,
     161.805,
@@ -259,15 +259,14 @@
     162.487,
     163.186,
     163.081,
-    163.86
+    163.791
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1859.35,
-   "chg": -0.94,
+   "price": 1858.0,
+   "chg": -1.01,
    "spark": [
-    1936.52,
     1937.14,
     1933.37,
     1931.68,
@@ -314,15 +313,15 @@
     1864.69,
     1860.97,
     1861.45,
-    1859.35
+    1859.0,
+    1858.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64091.4,
-   "chg": -1.48,
+   "price": 64100.1,
+   "chg": -1.46,
    "spark": [
-    66036.0,
     66007.2,
     66072.5,
     66027.5,
@@ -369,7 +368,8 @@
     64127.8,
     64220.1,
     64171.6,
-    64091.4
+    64109.6,
+    64100.1
    ]
   }
  ],
@@ -386,28 +386,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784925549.282537,
+   "ts": 1784929345.317956,
+   "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
+   "t": "25 Jul \u00b7 02:42 AM",
+   "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
+  },
+  {
+   "ts": 1784929345.317956,
    "title": "Gold tests $4,037 Fib support amid bearish channel: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "25 Jul \u00b7 01:39 AM",
+   "t": "25 Jul \u00b7 02:42 AM",
    "ur": "Gold ne baresh chinl ke darmiyan $4,037 Fib sport ki janch ki."
   },
   {
-   "ts": 1784925549.282537,
+   "ts": 1784929345.317956,
    "title": "Silver bearish engulfing at $59.22 tests key $57.30 floor: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "25 Jul \u00b7 01:39 AM",
+   "t": "25 Jul \u00b7 02:42 AM",
    "ur": "Silver (chandi) ki mandi $59.22 test kalid $57.30 filor par hai: laaio"
   },
   {
-   "ts": 1784925549.282537,
-   "title": "US strikes Iran from south to north after Trump threats over Red Sea shipping",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea-4810448",
-   "t": "25 Jul \u00b7 01:39 AM",
-   "ur": "Baheerah ahmar mein jahaz raani par trmp ki dhamkiyon ke bad amrikah ne eran par janob se shmal tak hamlah kiya."
+   "ts": 1784927100.0,
+   "title": "Singapore Dollar: MAS seen on hold with cautious inflation tone \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-mas-seen-on-hold-with-cautious-inflation-tone-ocbc-202607242105",
+   "t": "25 Jul \u00b7 02:05 AM",
+   "ur": "Sangapor Dollar: mahungai ke muhatat lahaje ke sath MAS ko hold par dekha gaya - OCBC"
   },
   {
    "ts": 1784921327.0,
@@ -415,7 +423,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-decisions-take-center-stage-202607241928",
    "t": "25 Jul \u00b7 12:28 AM",
-   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ ke fisale markaz ka marhalah lite hen."
+   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ fisale markaz ka marhalah lite hen."
   },
   {
    "ts": 1784919480.0,
@@ -423,7 +431,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/thai-baht-oil-shock-and-dovish-bot-keep-thb-pressured-against-us-dollar-ocbc-202607241858",
    "t": "24 Jul \u00b7 11:58 PM",
-   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti ti ach bi ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
+   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti THB ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
   },
   {
    "ts": 1784917853.0,
@@ -456,14 +464,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-softer-yields-curb-gains-ahead-of-fomc-scotiabank-202607241636",
    "t": "24 Jul \u00b7 09:36 PM",
    "ur": "US Dollar: FOMC - Scotiabank ke maqable mein narmi se haasil hone wali rok tham"
-  },
-  {
-   "ts": 1784909865.0,
-   "title": "Euro: Choppy range view holds against US Dollar \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-choppy-range-view-holds-against-us-dollar-rabobank-202607241617",
-   "t": "24 Jul \u00b7 09:17 PM",
-   "ur": "Uro: US Dollar - rabobank ke maqable mein chapee rinj ka manazr"
   }
  ],
  "sentiment": {
