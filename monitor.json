@@ -1,19 +1,13 @@
 {
- "updated": "24-07-2026 04:34 PKT",
+ "updated": "24-07-2026 06:04 PKT",
  "gold": {
-  "price": 4049.84,
-  "open": 4123.25,
+  "price": 4041.89,
+  "open": 4136.52,
   "high": 4141.06,
   "low": 4040.27,
-  "chg": -1.78,
+  "chg": -2.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4085.49,
-   4082.17,
-   4076.51,
-   4066.82,
-   4063.71,
-   4043.58,
    4057.48,
    4060.9,
    4045.75,
@@ -55,14 +49,20 @@
    4049.71,
    4048.13,
    4049.51,
-   4049.84
+   4047.84,
+   4048.13,
+   4044.17,
+   4044.97,
+   4050.05,
+   4050.35,
+   4041.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.855,
-   "chg": -3.61,
+   "price": 57.94,
+   "chg": -3.46,
    "spark": [
     62.02,
     58.052,
@@ -85,13 +85,13 @@
     56.802,
     58.835,
     60.019,
-    57.855
+    57.94
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.437,
-   "chg": 0.29,
+   "price": 101.439,
+   "chg": 0.3,
    "spark": [
     101.41,
     101.61,
@@ -114,13 +114,13 @@
     100.99,
     101.18,
     101.14,
-    101.437
+    101.439
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 92.16,
-   "chg": 6.14,
+   "price": 92.17,
+   "chg": 6.15,
    "spark": [
     73.21,
     70.34,
@@ -143,7 +143,7 @@
     83.23,
     84.91,
     86.83,
-    92.16
+    92.17
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1382,
-   "chg": -0.26,
+   "price": 1.1388,
+   "chg": -0.21,
    "spark": [
     1.1354,
     1.1362,
@@ -201,13 +201,13 @@
     1.1418,
     1.1404,
     1.1412,
-    1.1382
+    1.1388
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3316,
-   "chg": -0.44,
+   "price": 1.3324,
+   "chg": -0.38,
    "spark": [
     1.3167,
     1.3188,
@@ -230,13 +230,13 @@
     1.3432,
     1.3379,
     1.3375,
-    1.3316
+    1.3324
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.804,
-   "chg": 0.44,
+   "price": 163.842,
+   "chg": 0.47,
    "spark": [
     161.763,
     161.805,
@@ -259,16 +259,14 @@
     162.487,
     163.186,
     163.081,
-    163.804
+    163.842
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1880.34,
-   "chg": -2.74,
+   "price": 1871.69,
+   "chg": -0.29,
    "spark": [
-    1939.11,
-    1932.23,
     1929.43,
     1927.46,
     1935.4,
@@ -314,16 +312,16 @@
     1884.74,
     1881.29,
     1882.11,
-    1880.34
+    1877.03,
+    1869.51,
+    1871.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65130.0,
-   "chg": -1.43,
+   "price": 65004.6,
+   "chg": -0.07,
    "spark": [
-    66590.7,
-    66366.2,
     66268.5,
     66164.8,
     66333.3,
@@ -369,7 +367,9 @@
     65092.6,
     65109.8,
     65146.0,
-    65130.0
+    65050.1,
+    64929.0,
+    65007.3
    ]
   }
  ],
@@ -394,28 +394,36 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1784849655.300072,
+   "ts": 1784855070.020991,
    "title": "Gold slips 2% amid firmer dollar as Brent tops $100, stoking inflationary fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4130-as-middle-east-tensions-offset-higherrate-concerns-4807361",
-   "t": "24 Jul \u00b7 04:34 AM",
+   "t": "24 Jul \u00b7 06:04 AM",
    "ur": "Mazboot Dollar ke darmiyan Gold (sona) 2 fisad gar gaya cunkah barint 100 Dollar se oper hai, mahungai ke khadshat ko janum de raha hai"
   },
   {
-   "ts": 1784849655.300072,
+   "ts": 1784855070.020991,
    "title": "Gold tests $4,000 support after $4,171 rejection: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "24 Jul \u00b7 04:34 AM",
+   "t": "24 Jul \u00b7 06:04 AM",
    "ur": "$4,171 ke mastard hone ke bad gold ne $4,000 ki support ki janch ki."
   },
   {
-   "ts": 1784849655.300072,
+   "ts": 1784855070.020991,
    "title": "Silver consolidates below resistance at $57.85: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "24 Jul \u00b7 04:34 AM",
-   "ur": "Silver (chandi) mazahmat se niche $57.85 par mastahkam hai."
+   "t": "24 Jul \u00b7 06:04 AM",
+   "ur": "Silver (chandi) mazahmat se niche $57.85 par mastahkam hoi."
+  },
+  {
+   "ts": 1784849853.0,
+   "title": "Gold slumps to near $4,050 as Middle East conflict fuels inflation worries",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-slumps-to-near-4-050-as-middle-east-conflict-fuels-inflation-worries-202607232337",
+   "t": "24 Jul \u00b7 04:37 AM",
+   "ur": "Masharq wasta ke tanazaat ne mahungai ke khadshat ko andhan dite huvay Gold (sona) $4,050 ke qarib gar gaya."
   },
   {
    "ts": 1784849497.0,
@@ -464,18 +472,10 @@
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-rises-as-strong-labor-data-and-middle-east-tensions-lift-oil-202607232049",
    "t": "24 Jul \u00b7 01:49 AM",
    "ur": "Farex today: libr ke mazboot aed w shmar aur masharq wasta ke tanao ne til ko badhate huvay US Dollar mein azafah hawa."
-  },
-  {
-   "ts": 1784835872.0,
-   "title": "Australian Dollar trades under pressure amid strong US data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-trades-under-pressure-amid-strong-us-data-202607231944",
-   "t": "24 Jul \u00b7 12:44 AM",
-   "ur": "Mazboot US aed w shmar ke darmiyan aasterilvi Dollar dabao mein hai."
   }
  ],
  "sentiment": {
-  "value": 31,
+  "value": 28,
   "label": "Fear"
  },
  "err": null
