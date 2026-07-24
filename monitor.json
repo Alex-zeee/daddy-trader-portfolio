@@ -1,20 +1,13 @@
 {
- "updated": "24-07-2026 17:51 PKT",
+ "updated": "24-07-2026 19:40 PKT",
  "gold": {
-  "price": 4054.14,
-  "open": 4064.95,
-  "high": 4066.53,
+  "price": 4062.55,
+  "open": 4057.52,
+  "high": 4069.51,
   "low": 4022.09,
-  "chg": -0.27,
+  "chg": 0.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4041.85,
-   4045.09,
-   4048.66,
-   4042.11,
-   4045.62,
-   4048.66,
-   4041.68,
    4024.22,
    4031.83,
    4030.65,
@@ -55,14 +48,21 @@
    4056.18,
    4058.88,
    4053.93,
-   4054.14
+   4053.87,
+   4048.07,
+   4048.17,
+   4052.46,
+   4064.95,
+   4060.08,
+   4065.4,
+   4062.55
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.725,
-   "chg": 1.6,
+   "price": 58.585,
+   "chg": 1.36,
    "spark": [
     58.052,
     58.348,
@@ -85,13 +85,13 @@
     58.835,
     60.019,
     57.798,
-    58.725
+    58.585
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.484,
-   "chg": 0.05,
+   "price": 101.452,
+   "chg": 0.02,
    "spark": [
     101.61,
     101.43,
@@ -114,13 +114,13 @@
     101.18,
     101.14,
     101.43,
-    101.484
+    101.452
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.13,
-   "chg": -3.32,
+   "price": 89.77,
+   "chg": -2.63,
    "spark": [
     70.34,
     71.92,
@@ -143,13 +143,13 @@
     84.91,
     86.83,
     92.19,
-    89.13
+    89.77
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.679,
-   "chg": -0.51,
+   "price": 4.667,
+   "chg": -0.77,
    "spark": [
     4.402,
     4.392,
@@ -172,13 +172,13 @@
     4.628,
     4.657,
     4.703,
-    4.679
+    4.667
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1373,
-   "chg": -0.34,
+   "price": 1.138,
+   "chg": -0.27,
    "spark": [
     1.1354,
     1.1362,
@@ -201,13 +201,13 @@
     1.1418,
     1.1404,
     1.1412,
-    1.1373
+    1.138
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.331,
-   "chg": -0.49,
+   "price": 1.3329,
+   "chg": -0.35,
    "spark": [
     1.3167,
     1.3188,
@@ -230,13 +230,13 @@
     1.3432,
     1.3379,
     1.3375,
-    1.331
+    1.3329
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.835,
-   "chg": 0.46,
+   "price": 163.767,
+   "chg": 0.42,
    "spark": [
     161.763,
     161.805,
@@ -259,16 +259,14 @@
     162.487,
     163.186,
     163.081,
-    163.835
+    163.767
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.88,
-   "chg": -0.12,
+   "price": 1853.02,
+   "chg": -1.28,
    "spark": [
-    1938.74,
-    1931.5,
     1941.43,
     1948.96,
     1938.01,
@@ -314,16 +312,16 @@
     1886.33,
     1882.48,
     1882.5,
-    1874.88
+    1871.13,
+    1855.12,
+    1853.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64799.5,
-   "chg": -0.39,
+   "price": 63793.6,
+   "chg": -1.94,
    "spark": [
-    65919.4,
-    65757.0,
     66014.0,
     66209.4,
     66000.4,
@@ -369,69 +367,87 @@
     65061.6,
     64901.1,
     65021.9,
-    64799.5
+    64720.5,
+    64082.2,
+    63793.6
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1784746800.0,
-   "t": "Thu 23 Jul \u00b7 12:00 AM",
+   "ts": 1784940900.0,
+   "t": "Sat 25 Jul \u00b7 05:55 AM",
    "title": "President Trump Speaks",
    "impact": "Medium",
    "forecast": "",
    "previous": ""
-  },
-  {
-   "ts": 1784809800.0,
-   "t": "Thu 23 Jul \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "211K",
-   "previous": "208K"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784897483.24117,
+   "ts": 1784904038.124518,
+   "title": "Gold heads for weekly gain as oil eases, Fed decision awaited",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
+   "t": "24 Jul \u00b7 07:40 PM",
+   "ur": "Til mein narmi ke sath hi Gold (sona) haftah war azafe ki taraf badh raha hai, fed ke fisale ka antezar hai."
+  },
+  {
+   "ts": 1784904038.124518,
    "title": "US strikes Iran from south to north after Trump threats over Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea-4810448",
-   "t": "24 Jul \u00b7 05:51 PM",
+   "t": "24 Jul \u00b7 07:40 PM",
    "ur": "Baheerah ahmar mein jahaz raani par trmp ki dhamkiyon ke bad amrikah ne eran par janob se shmal tak hamlah kiya."
   },
   {
-   "ts": 1784897483.24117,
-   "title": "Gold on track for weekly gain with Mideast tensions, Fed rate outlook in focus",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "24 Jul \u00b7 05:51 PM",
-   "ur": "Masharq wasti ke tanao ke sath haftah war faidah ke liye Gold (sona) trik par hai, fed ret oat lak fox mein hai."
-  },
-  {
-   "ts": 1784897483.24117,
+   "ts": 1784904038.124518,
    "title": "Silver battles $58.20 with bearish flag near break: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "24 Jul \u00b7 05:51 PM",
+   "t": "24 Jul \u00b7 07:40 PM",
    "ur": "Silver (chandi) ka maqablah $58.20 barik ke qarib mandi wale jhanday ke sath"
   },
   {
-   "ts": 1784897483.24117,
-   "title": "Gold clings to volume support at $4,040: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "24 Jul \u00b7 05:51 PM",
-   "ur": "Gold (sona) $4,040 par waliyom sport se chimta hawa hai."
+   "ts": 1784903590.0,
+   "title": "Canadian Dollar struggles as stronger PMIs support US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-struggles-as-stronger-pmis-support-us-dollar-202607241433",
+   "t": "24 Jul \u00b7 07:33 PM",
+   "ur": "Caniden Dollar jadojehad kar raha hai cunkah mazboot PMIs US Dollar ko sport karte hen."
+  },
+  {
+   "ts": 1784903051.0,
+   "title": "Canadian Dollar: Range holds against US Dollar as trade risks linger \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-range-holds-against-us-dollar-as-trade-risks-linger-scotiabank-202607241424",
+   "t": "24 Jul \u00b7 07:24 PM",
+   "ur": "Caniden Dollar: US Dollar ke maqable mein rinj hold hai cunkah tajarti khatrat barqarar hen - Scotiabank"
+  },
+  {
+   "ts": 1784901099.0,
+   "title": "Canadian Dollar: Retail sales support modest Q2 consumption \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-retail-sales-support-modest-q2-consumption-td-securities-202607241351",
+   "t": "24 Jul \u00b7 06:51 PM",
+   "ur": "Caniden Dollar: khurdah farokht Q2 ki mamoli khapat ki support karti hai - TD securitez"
+  },
+  {
+   "ts": 1784899204.0,
+   "title": "Japanese Yen: BoJ repricing may limit JPY losses against US Dollar - BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-repricing-may-limit-jpy-losses-against-us-dollar-bbh-202607241320",
+   "t": "24 Jul \u00b7 06:20 PM",
+   "ur": "Japani yan: BoJ ki dubarah qeemat US Dollar - BBH ke maqable mein JPY naqsanat ko muhadud kar sakti hai."
   },
   {
    "ts": 1784896401.0,
-   "title": "Economists agree: Bank of England to stay on hold amid easing inflation outlook",
+   "title": "Economists Agree: Bank of England to stay on hold amid easing inflation outlook",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/economists-agree-bank-of-england-to-stay-on-hold-amid-easing-inflation-outlook-202607241233",
    "t": "24 Jul \u00b7 05:33 PM",
-   "ur": "Aqtasadi maharin mutafaq hen: Bank af anglind inflation (mehngai) ke naqatah nazar ko kam karne ke darmiyan hold par rahe ga."
+   "ur": "Maharin aqtasadiyat mutafaq hen: inflation (mehngai) ke naqatah nazar ko kam karne ke darmiyan Bank af anglind hold par rahe ga."
   },
   {
    "ts": 1784895335.0,
@@ -448,30 +464,6 @@
    "link": "https://www.fxstreet.com/news/ecb-officials-confirm-eurozone-inflation-to-stay-above-target-for-a-longer-period-202607241212",
    "t": "24 Jul \u00b7 05:12 PM",
    "ur": "Ai si bi hakam tasadiq karte hen: uro zon ki inflation (mehngai) tavel madat tak target se oper rahe gi."
-  },
-  {
-   "ts": 1784894565.0,
-   "title": "British Pound: Improved UK growth-inflation mix backs Sterling \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-improved-uk-growth-inflation-mix-backs-sterling-bbh-202607241202",
-   "t": "24 Jul \u00b7 05:02 PM",
-   "ur": "Bartanvi pound: behtar uk garoth-anfalation maks ne sterling \u2013 BBH ki support ki."
-  },
-  {
-   "ts": 1784893845.0,
-   "title": "Euro: ECB hawkish but EUR still disadvantaged against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-ecb-hawkish-but-eur-still-disadvantaged-against-us-dollar-ocbc-202607241150",
-   "t": "24 Jul \u00b7 04:50 PM",
-   "ur": "Uro: ECB hakish lican EUR ab bhi US Dollar ke maqable mein pasamandah hai - OCBC"
-  },
-  {
-   "ts": 1784892916.0,
-   "title": "Federal Reserve: Holding rates while watching inflation risks \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-holding-rates-while-watching-inflation-risks-commerzbank-202607241135",
-   "t": "24 Jul \u00b7 04:35 PM",
-   "ur": "Faderl resero: inflation (mehngai) ke khatrat ko dekhte huvay ret holding - kamers Bank"
   }
  ],
  "sentiment": {
