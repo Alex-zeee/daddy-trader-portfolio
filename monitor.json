@@ -1,19 +1,13 @@
 {
- "updated": "25-07-2026 04:40 PKT",
+ "updated": "25-07-2026 06:07 PKT",
  "gold": {
-  "price": 4056.02,
-  "open": 4047.95,
+  "price": 4056.01,
+  "open": 4041.56,
   "high": 4080.69,
   "low": 4022.09,
-  "chg": 0.2,
+  "chg": 0.36,
   "src": "XAUUSD Spot",
   "spark": [
-   4056.72,
-   4056.18,
-   4058.88,
-   4053.93,
-   4053.87,
-   4048.07,
    4048.17,
    4052.46,
    4064.95,
@@ -55,7 +49,13 @@
    4056.02,
    4055.98,
    4055.9,
-   4056.02
+   4056.02,
+   4056.01,
+   4055.99,
+   4055.91,
+   4055.92,
+   4056.0,
+   4056.01
   ]
  },
  "markets": [
@@ -115,35 +115,6 @@
     101.14,
     101.43,
     101.465
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 90.47,
-   "chg": -1.87,
-   "spark": [
-    70.34,
-    71.92,
-    69.23,
-    70.75,
-    69.5,
-    68.58,
-    68.69,
-    68.55,
-    70.44,
-    73.52,
-    72.08,
-    71.41,
-    78.14,
-    79.34,
-    79.6,
-    78.95,
-    82.49,
-    83.23,
-    84.91,
-    86.83,
-    92.19,
-    90.47
    ]
   },
   {
@@ -264,11 +235,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1858.97,
-   "chg": -0.96,
+   "price": 1859.81,
+   "chg": 0.01,
    "spark": [
-    1931.68,
-    1927.62,
     1926.83,
     1919.61,
     1918.29,
@@ -314,16 +283,16 @@
     1859.0,
     1855.92,
     1857.97,
-    1858.97
+    1860.28,
+    1858.63,
+    1859.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64102.0,
-   "chg": -1.46,
+   "price": 64042.2,
+   "chg": -0.07,
    "spark": [
-    66027.5,
-    65797.9,
     65776.2,
     65621.1,
     65561.0,
@@ -369,7 +338,9 @@
     64109.6,
     64078.0,
     64112.4,
-    64102.0
+    64087.8,
+    64012.4,
+    64042.2
    ]
   }
  ],
@@ -386,27 +357,27 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1784936453.732317,
+   "ts": 1784941665.494108,
    "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "25 Jul \u00b7 04:40 AM",
+   "t": "25 Jul \u00b7 06:07 AM",
    "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
   },
   {
-   "ts": 1784936453.732317,
+   "ts": 1784941665.494108,
    "title": "Gold tests $4,037 Fib support amid bearish channel: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "25 Jul \u00b7 04:40 AM",
+   "t": "25 Jul \u00b7 06:07 AM",
    "ur": "Gold ne baresh chinl ke darmiyan $4,037 Fib sport ki janch ki."
   },
   {
-   "ts": 1784936453.732317,
+   "ts": 1784941665.494108,
    "title": "Silver bearish engulfing at $59.22 tests key $57.30 floor: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "25 Jul \u00b7 04:40 AM",
+   "t": "25 Jul \u00b7 06:07 AM",
    "ur": "Silver (chandi) ki mandi $59.22 test kalid $57.30 filor par hai: laaio"
   },
   {
@@ -467,7 +438,7 @@
   }
  ],
  "sentiment": {
-  "value": 28,
+  "value": 27,
   "label": "Fear"
  },
  "err": null
