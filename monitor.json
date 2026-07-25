@@ -1,17 +1,13 @@
 {
- "updated": "26-07-2026 02:32 PKT",
+ "updated": "26-07-2026 03:33 PKT",
  "gold": {
-  "price": 4056.01,
+  "price": 4056.0,
   "open": 4055.93,
   "high": 4056.11,
   "low": 4055.86,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.9,
-   4056.01,
-   4056.02,
-   4055.97,
    4055.89,
    4056.01,
    4056.0,
@@ -55,7 +51,11 @@
    4056.01,
    4055.96,
    4055.89,
-   4056.01
+   4055.99,
+   4056.01,
+   4055.96,
+   4055.89,
+   4056.0
   ]
  },
  "markets": [
@@ -89,8 +89,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 101.47,
-   "chg": 0.04,
+   "price": 101.43,
+   "chg": 0.29,
    "spark": [
     101.43,
     101.36,
@@ -111,8 +111,7 @@
     100.99,
     101.18,
     101.14,
-    101.43,
-    101.47
+    101.43
    ]
   },
   {
@@ -145,8 +144,8 @@
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.679,
-   "chg": -0.51,
+   "price": 4.703,
+   "chg": 0.99,
    "spark": [
     4.402,
     4.392,
@@ -168,8 +167,7 @@
     4.598,
     4.628,
     4.657,
-    4.703,
-    4.679
+    4.703
    ]
   },
   {
@@ -231,40 +229,10 @@
    ]
   },
   {
-   "name": "USD/JPY",
-   "price": 163.791,
-   "chg": 0.44,
-   "spark": [
-    161.763,
-    161.805,
-    161.787,
-    161.923,
-    162.628,
-    162.539,
-    161.449,
-    161.452,
-    162.088,
-    162.363,
-    162.539,
-    162.363,
-    161.878,
-    162.429,
-    162.187,
-    162.072,
-    162.376,
-    162.512,
-    162.487,
-    163.186,
-    163.081,
-    163.791
-   ]
-  },
-  {
    "name": "Ethereum",
-   "price": 1869.33,
-   "chg": 0.52,
+   "price": 1872.71,
+   "chg": 0.7,
    "spark": [
-    1882.11,
     1877.03,
     1869.51,
     1871.46,
@@ -311,15 +279,15 @@
     1873.81,
     1872.99,
     1870.22,
-    1869.33
+    1870.63,
+    1872.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64247.6,
-   "chg": 0.25,
+   "price": 64305.0,
+   "chg": 0.34,
    "spark": [
-    65146.0,
     65050.1,
     64929.0,
     65036.2,
@@ -366,7 +334,8 @@
     64350.8,
     64328.5,
     64270.3,
-    64247.6
+    64286.2,
+    64305.0
    ]
   }
  ],
@@ -399,19 +368,19 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1785015131.643643,
+   "ts": 1785018824.676632,
    "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "26 Jul \u00b7 02:32 AM",
+   "t": "26 Jul \u00b7 03:33 AM",
    "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
   },
   {
-   "ts": 1785015131.643643,
+   "ts": 1785018824.676632,
    "title": "Gold tests $4,037 Fib support amid bearish channel: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "26 Jul \u00b7 02:32 AM",
+   "t": "26 Jul \u00b7 03:33 AM",
    "ur": "Gold ne baresh chinl ke darmiyan $4,037 Fib sport ki janch ki."
   },
   {
@@ -428,7 +397,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-decisions-take-center-stage-202607241928",
    "t": "25 Jul \u00b7 12:28 AM",
-   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ ke fisale markaz ka marhalah lite hen."
+   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ fisale markaz ka marhalah lite hen."
   },
   {
    "ts": 1784919480.0,
@@ -436,7 +405,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/thai-baht-oil-shock-and-dovish-bot-keep-thb-pressured-against-us-dollar-ocbc-202607241858",
    "t": "24 Jul \u00b7 11:58 PM",
-   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti ti ach bi ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
+   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti THB ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
   },
   {
    "ts": 1784917853.0,
