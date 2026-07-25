@@ -1,26 +1,13 @@
 {
- "updated": "25-07-2026 06:07 PKT",
+ "updated": "25-07-2026 09:24 PKT",
  "gold": {
-  "price": 4056.01,
-  "open": 4041.56,
+  "price": 4055.91,
+  "open": 4030.06,
   "high": 4080.69,
   "low": 4022.09,
-  "chg": 0.36,
+  "chg": 0.64,
   "src": "XAUUSD Spot",
   "spark": [
-   4048.17,
-   4052.46,
-   4064.95,
-   4060.08,
-   4065.4,
-   4060.78,
-   4064.9,
-   4066.32,
-   4075.48,
-   4073.68,
-   4076.91,
-   4074.79,
-   4074.77,
    4067.98,
    4067.38,
    4063.76,
@@ -55,16 +42,28 @@
    4055.91,
    4055.92,
    4056.0,
-   4056.01
+   4056.0,
+   4055.92,
+   4055.91,
+   4055.99,
+   4056.01,
+   4055.98,
+   4055.9,
+   4055.99,
+   4056.02,
+   4055.96,
+   4055.9,
+   4056.0,
+   4056.02,
+   4055.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.49,
-   "chg": 1.2,
+   "price": 58.656,
+   "chg": 1.48,
    "spark": [
-    58.052,
     58.348,
     59.217,
     58.175,
@@ -85,15 +84,14 @@
     58.835,
     60.019,
     57.798,
-    58.49
+    58.656
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.465,
-   "chg": 0.03,
+   "price": 101.47,
+   "chg": 0.04,
    "spark": [
-    101.61,
     101.43,
     101.36,
     101.11,
@@ -114,7 +112,35 @@
     101.18,
     101.14,
     101.43,
-    101.465
+    101.47
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 89.31,
+   "chg": -3.12,
+   "spark": [
+    71.92,
+    69.23,
+    70.75,
+    69.5,
+    68.58,
+    68.69,
+    68.55,
+    70.44,
+    73.52,
+    72.08,
+    71.41,
+    78.14,
+    79.34,
+    79.6,
+    78.95,
+    82.49,
+    83.23,
+    84.91,
+    86.83,
+    92.19,
+    89.31
    ]
   },
   {
@@ -235,12 +261,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1859.81,
-   "chg": 0.01,
+   "price": 1858.42,
+   "chg": -0.06,
    "spark": [
-    1926.83,
-    1919.61,
-    1918.29,
     1921.43,
     1924.19,
     1914.31,
@@ -285,17 +308,17 @@
     1857.97,
     1860.28,
     1858.63,
-    1859.81
+    1858.04,
+    1857.24,
+    1857.34,
+    1858.42
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64042.2,
-   "chg": -0.07,
+   "price": 64047.5,
+   "chg": -0.06,
    "spark": [
-    65776.2,
-    65621.1,
-    65561.0,
     65657.3,
     65754.6,
     65404.8,
@@ -340,11 +363,30 @@
     64112.4,
     64087.8,
     64012.4,
-    64042.2
+    64008.7,
+    63969.1,
+    64025.8,
+    64047.5
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1784746800.0,
+   "t": "Thu 23 Jul \u00b7 12:00 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1784809800.0,
+   "t": "Thu 23 Jul \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "211K",
+   "previous": "208K"
+  },
   {
    "ts": 1784940900.0,
    "t": "Sat 25 Jul \u00b7 05:55 AM",
@@ -354,30 +396,30 @@
    "previous": ""
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1784941665.494108,
+   "ts": 1784953443.963501,
    "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "25 Jul \u00b7 06:07 AM",
+   "t": "25 Jul \u00b7 09:24 AM",
    "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
   },
   {
-   "ts": 1784941665.494108,
+   "ts": 1784953443.963501,
    "title": "Gold tests $4,037 Fib support amid bearish channel: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-tests-3955-support-with-bearish-trend-intact-live-levels-93CH-4801555",
-   "t": "25 Jul \u00b7 06:07 AM",
+   "t": "25 Jul \u00b7 09:24 AM",
    "ur": "Gold ne baresh chinl ke darmiyan $4,037 Fib sport ki janch ki."
   },
   {
-   "ts": 1784941665.494108,
+   "ts": 1784953443.963501,
    "title": "Silver bearish engulfing at $59.22 tests key $57.30 floor: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-5830-resistance-live-hourly-levels-93CH-4801554",
-   "t": "25 Jul \u00b7 06:07 AM",
+   "t": "25 Jul \u00b7 09:24 AM",
    "ur": "Silver (chandi) ki mandi $59.22 test kalid $57.30 filor par hai: laaio"
   },
   {
@@ -394,7 +436,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-decisions-take-center-stage-202607241928",
    "t": "25 Jul \u00b7 12:28 AM",
-   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ fisale markaz ka marhalah lite hen."
+   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ ke fisale markaz ka marhalah lite hen."
   },
   {
    "ts": 1784919480.0,
@@ -402,7 +444,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/thai-baht-oil-shock-and-dovish-bot-keep-thb-pressured-against-us-dollar-ocbc-202607241858",
    "t": "24 Jul \u00b7 11:58 PM",
-   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti THB ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
+   "ur": "Thai bhat: til ka jhataka aur dwesh bo ti ti ach bi ko US Dollar ke maqable mein dabao mein ruktey hen - OCBC"
   },
   {
    "ts": 1784917853.0,
