@@ -1,24 +1,13 @@
 {
- "updated": "26-07-2026 09:38 PKT",
+ "updated": "26-07-2026 12:16 PKT",
  "gold": {
-  "price": 4056.01,
+  "price": 4055.9,
   "open": 4055.93,
   "high": 4056.11,
   "low": 4055.86,
-  "chg": 0.0,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.97,
-   4055.89,
-   4056.02,
-   4056.01,
-   4055.98,
-   4055.9,
-   4055.91,
-   4056.0,
-   4056.0,
-   4055.91,
-   4055.9,
    4055.98,
    4056.01,
    4055.97,
@@ -55,7 +44,18 @@
    4056.0,
    4056.01,
    4055.97,
-   4056.01
+   4055.89,
+   4056.01,
+   4056.01,
+   4055.98,
+   4055.9,
+   4055.92,
+   4056.0,
+   4055.99,
+   4055.91,
+   4055.91,
+   4055.99,
+   4055.9
   ]
  },
  "markets": [
@@ -88,8 +88,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 101.47,
-   "chg": 0.04,
+   "price": 101.43,
+   "chg": 0.29,
    "spark": [
     101.36,
     101.11,
@@ -109,8 +109,7 @@
     100.99,
     101.18,
     101.14,
-    101.43,
-    101.47
+    101.43
    ]
   },
   {
@@ -142,8 +141,8 @@
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.679,
-   "chg": -0.51,
+   "price": 4.703,
+   "chg": 0.99,
    "spark": [
     4.402,
     4.392,
@@ -165,8 +164,7 @@
     4.598,
     4.628,
     4.657,
-    4.703,
-    4.679
+    4.703
    ]
   },
   {
@@ -258,12 +256,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1881.91,
-   "chg": 0.45,
+   "price": 1882.83,
+   "chg": 0.5,
    "spark": [
-    1879.43,
-    1886.5,
-    1894.47,
     1886.82,
     1886.33,
     1882.48,
@@ -308,17 +303,17 @@
     1876.38,
     1879.26,
     1880.28,
-    1881.91
+    1884.0,
+    1881.47,
+    1883.48,
+    1882.83
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64477.0,
-   "chg": 0.26,
+   "price": 64378.6,
+   "chg": 0.1,
    "spark": [
-    65250.5,
-    65426.4,
-    65453.5,
     65275.9,
     65061.6,
     64901.1,
@@ -363,44 +358,103 @@
     64396.0,
     64450.0,
     64481.8,
-    64477.0
+    64477.8,
+    64358.6,
+    64380.8,
+    64378.6
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1784746800.0,
-   "t": "Thu 23 Jul \u00b7 12:00 AM",
-   "title": "President Trump Speaks",
+   "ts": 1785247200.0,
+   "t": "Tue 28 Jul \u00b7 07:00 PM",
+   "title": "CB Consumer Confidence",
    "impact": "Medium",
+   "forecast": "92.1",
+   "previous": "91.2"
+  },
+  {
+   "ts": 1785348000.0,
+   "t": "Wed 29 Jul \u00b7 11:00 PM",
+   "title": "Federal Funds Rate",
+   "impact": "High",
+   "forecast": "3.75%",
+   "previous": "3.75%"
+  },
+  {
+   "ts": 1785348000.0,
+   "t": "Wed 29 Jul \u00b7 11:00 PM",
+   "title": "FOMC Statement",
+   "impact": "High",
    "forecast": "",
    "previous": ""
   },
   {
-   "ts": 1784809800.0,
-   "t": "Thu 23 Jul \u00b7 05:30 PM",
+   "ts": 1785349800.0,
+   "t": "Wed 29 Jul \u00b7 11:30 PM",
+   "title": "FOMC Press Conference",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1785414600.0,
+   "t": "Thu 30 Jul \u00b7 05:30 PM",
+   "title": "Advance GDP q/q",
+   "impact": "High",
+   "forecast": "2.3%",
+   "previous": "2.0%"
+  },
+  {
+   "ts": 1785414600.0,
+   "t": "Thu 30 Jul \u00b7 05:30 PM",
+   "title": "Core PCE Price Index m/m",
+   "impact": "High",
+   "forecast": "0.1%",
+   "previous": "0.3%"
+  },
+  {
+   "ts": 1785414600.0,
+   "t": "Thu 30 Jul \u00b7 05:30 PM",
+   "title": "Advance GDP Price Index q/q",
+   "impact": "Medium",
+   "forecast": "3.7%",
+   "previous": "3.6%"
+  },
+  {
+   "ts": 1785414600.0,
+   "t": "Thu 30 Jul \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "211K",
-   "previous": "208K"
+   "forecast": "206K",
+   "previous": "187K"
   },
   {
-   "ts": 1784940900.0,
-   "t": "Sat 25 Jul \u00b7 05:55 AM",
-   "title": "President Trump Speaks",
+   "ts": 1785501000.0,
+   "t": "Fri 31 Jul \u00b7 05:30 PM",
+   "title": "Employment Cost Index q/q",
    "impact": "Medium",
-   "forecast": "",
-   "previous": ""
+   "forecast": "0.8%",
+   "previous": "0.9%"
+  },
+  {
+   "ts": 1785506400.0,
+   "t": "Fri 31 Jul \u00b7 07:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "54.2",
+   "previous": "54.4"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785040695.622477,
+   "ts": 1785050197.526251,
    "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "26 Jul \u00b7 09:38 AM",
+   "t": "26 Jul \u00b7 12:16 PM",
    "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
   },
   {
