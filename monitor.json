@@ -1,19 +1,13 @@
 {
- "updated": "27-07-2026 21:32 PKT",
+ "updated": "27-07-2026 23:10 PKT",
  "gold": {
-  "price": 4089.83,
-  "open": 4055.92,
+  "price": 4078.33,
+  "open": 4055.91,
   "high": 4116.43,
   "low": 4012.26,
-  "chg": 0.84,
+  "chg": 0.55,
   "src": "XAUUSD Spot",
   "spark": [
-   4090.64,
-   4094.5,
-   4088.03,
-   4088.36,
-   4092.99,
-   4094.09,
    4095.49,
    4096.91,
    4097.4,
@@ -55,14 +49,20 @@
    4078.89,
    4081.59,
    4086.78,
-   4089.83
+   4088.32,
+   4082.14,
+   4073.52,
+   4074.87,
+   4073.91,
+   4076.76,
+   4078.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.01,
-   "chg": 0.6,
+   "price": 58.765,
+   "chg": 0.19,
    "spark": [
     58.175,
     59.477,
@@ -83,13 +83,13 @@
     60.019,
     57.798,
     58.656,
-    59.01
+    58.765
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.416,
-   "chg": -0.05,
+   "price": 101.508,
+   "chg": 0.04,
    "spark": [
     101.11,
     101.19,
@@ -110,13 +110,13 @@
     101.14,
     101.43,
     101.47,
-    101.416
+    101.508
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.66,
-   "chg": -6.33,
+   "price": 82.55,
+   "chg": -7.57,
    "spark": [
     70.75,
     69.5,
@@ -137,13 +137,13 @@
     86.83,
     92.19,
     89.31,
-    83.66
+    82.55
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.647,
-   "chg": -0.68,
+   "price": 4.649,
+   "chg": -0.64,
    "spark": [
     4.374,
     4.418,
@@ -164,13 +164,13 @@
     4.657,
     4.703,
     4.679,
-    4.647
+    4.649
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1387,
-   "chg": 0.09,
+   "price": 1.1377,
+   "chg": -0.0,
    "spark": [
     1.1386,
     1.1422,
@@ -192,13 +192,13 @@
     1.1404,
     1.1412,
     1.1377,
-    1.1387
+    1.1377
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3311,
-   "chg": -0.01,
+   "price": 1.3292,
+   "chg": -0.16,
    "spark": [
     1.3197,
     1.3254,
@@ -220,13 +220,13 @@
     1.3379,
     1.3375,
     1.3313,
-    1.3311
+    1.3292
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.606,
-   "chg": -0.14,
+   "price": 163.703,
+   "chg": -0.08,
    "spark": [
     161.787,
     161.923,
@@ -248,16 +248,14 @@
     163.186,
     163.081,
     163.832,
-    163.606
+    163.703
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1937.22,
-   "chg": -0.83,
+   "price": 1940.0,
+   "chg": -0.69,
    "spark": [
-    1871.48,
-    1873.81,
     1872.99,
     1870.22,
     1870.63,
@@ -303,16 +301,16 @@
     1958.62,
     1929.85,
     1925.69,
-    1937.22
+    1938.48,
+    1941.71,
+    1940.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64696.8,
-   "chg": -0.98,
+   "price": 64906.6,
+   "chg": -0.66,
    "spark": [
-    64191.5,
-    64350.8,
     64328.5,
     64270.3,
     64286.2,
@@ -358,7 +356,9 @@
     65157.2,
     64615.4,
     64482.4,
-    64696.7
+    64831.3,
+    64953.6,
+    64906.6
    ]
   }
  ],
@@ -447,20 +447,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785169964.482487,
+   "ts": 1785175859.896419,
+   "title": "US Treasury trims 84 people, firms from its sanctions list as review continues",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-treasury-trims-84-people-firms-from-its-sanctions-list-as-review-continues-4814845",
+   "t": "27 Jul \u00b7 11:10 PM",
+   "ur": "US treasurei ne 84 afrad, farmon ko apani pabandiyon ki faharist se nakal diya jisa kah jaizah jari hai."
+  },
+  {
+   "ts": 1785175859.896419,
    "title": "Gold rises as Middle East fighting pause weighs on oil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
-   "t": "27 Jul \u00b7 09:32 PM",
+   "t": "27 Jul \u00b7 11:10 PM",
    "ur": "Masharq wasta ki larai ke toqf til par wazin ke baas Gold (sona) badhta hai."
-  },
-  {
-   "ts": 1785169964.482487,
-   "title": "Silver trapped at $60.39 Fib resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "27 Jul \u00b7 09:32 PM",
-   "ur": "Silver (chandi) $60.39 Fib mazahmat par phans gayi."
   },
   {
    "ts": 1785168652.0,
