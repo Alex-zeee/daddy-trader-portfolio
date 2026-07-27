@@ -1,27 +1,13 @@
 {
- "updated": "27-07-2026 09:59 PKT",
+ "updated": "27-07-2026 13:29 PKT",
  "gold": {
-  "price": 4090.87,
+  "price": 4092.24,
   "open": 4055.92,
   "high": 4116.43,
   "low": 4012.26,
-  "chg": 0.86,
+  "chg": 0.9,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.9,
-   4056.02,
-   4056.0,
-   4055.99,
-   4055.9,
-   4055.91,
-   4055.99,
-   4056.0,
-   4056.99,
-   4055.9,
-   4055.99,
-   4056.02,
-   4055.96,
-   4055.9,
    4055.96,
    4056.01,
    4055.96,
@@ -55,14 +41,28 @@
    4090.39,
    4087.98,
    4091.16,
-   4090.87
+   4090.64,
+   4094.5,
+   4088.03,
+   4088.36,
+   4092.99,
+   4094.09,
+   4095.49,
+   4096.91,
+   4097.4,
+   4100.98,
+   4103.45,
+   4096.24,
+   4091.21,
+   4091.9,
+   4092.24
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.565,
-   "chg": 1.55,
+   "price": 59.505,
+   "chg": 1.45,
    "spark": [
     58.175,
     59.477,
@@ -83,13 +83,13 @@
     60.019,
     57.798,
     58.656,
-    59.565
+    59.505
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.214,
-   "chg": -0.21,
+   "price": 101.278,
+   "chg": -0.19,
    "spark": [
     101.11,
     101.19,
@@ -109,13 +109,14 @@
     101.18,
     101.14,
     101.43,
-    101.214
+    101.47,
+    101.278
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.66,
-   "chg": -5.21,
+   "price": 84.0,
+   "chg": -5.95,
    "spark": [
     70.75,
     69.5,
@@ -136,13 +137,13 @@
     86.83,
     92.19,
     89.31,
-    84.66
+    84.0
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.703,
-   "chg": 0.99,
+   "price": 4.679,
+   "chg": -0.51,
    "spark": [
     4.402,
     4.392,
@@ -164,13 +165,14 @@
     4.598,
     4.628,
     4.657,
-    4.703
+    4.703,
+    4.679
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1406,
-   "chg": 0.26,
+   "price": 1.1399,
+   "chg": 0.19,
    "spark": [
     1.1386,
     1.1422,
@@ -192,13 +194,13 @@
     1.1404,
     1.1412,
     1.1377,
-    1.1406
+    1.1399
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3353,
-   "chg": 0.3,
+   "price": 1.3334,
+   "chg": 0.16,
    "spark": [
     1.3197,
     1.3254,
@@ -220,13 +222,13 @@
     1.3379,
     1.3375,
     1.3313,
-    1.3353
+    1.3334
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.575,
-   "chg": -0.16,
+   "price": 163.532,
+   "chg": -0.18,
    "spark": [
     161.787,
     161.923,
@@ -248,18 +250,14 @@
     163.186,
     163.081,
     163.832,
-    163.575
+    163.532
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1952.3,
-   "chg": -0.06,
+   "price": 1965.13,
+   "chg": 0.6,
    "spark": [
-    1857.0,
-    1856.35,
-    1854.48,
-    1851.83,
     1856.36,
     1856.0,
     1855.95,
@@ -303,18 +301,18 @@
     1946.25,
     1941.24,
     1947.86,
-    1952.3
+    1951.58,
+    1963.89,
+    1966.62,
+    1962.63,
+    1965.13
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65240.2,
-   "chg": -0.15,
+   "price": 65173.4,
+   "chg": -0.25,
    "spark": [
-    63967.8,
-    63948.0,
-    63965.1,
-    63800.9,
     63927.3,
     64002.8,
     63991.5,
@@ -358,7 +356,11 @@
     65139.9,
     65117.5,
     65221.7,
-    65240.2
+    65240.2,
+    65406.9,
+    65369.5,
+    65164.1,
+    65173.4
    ]
   }
  ],
@@ -447,84 +449,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785128352.776552,
+   "ts": 1785140946.737791,
+   "title": "Silver trapped at $60.39 Fib resistance: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
+   "t": "27 Jul \u00b7 01:29 PM",
+   "ur": "Silver (chandi) $60.39 Fib mazahmat par phans gayi."
+  },
+  {
+   "ts": 1785140946.737791,
+   "title": "Gold trapped in symmetrical triangle near breakout: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
+   "t": "27 Jul \u00b7 01:29 PM",
+   "ur": "Barik oat ke qarib sadol masls mein phansa Gold (sona)"
+  },
+  {
+   "ts": 1785140946.737791,
    "title": "Gold rises on weaker dollar; traders weigh Middle East pause, Fed outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
-   "t": "27 Jul \u00b7 09:59 AM",
+   "t": "27 Jul \u00b7 01:29 PM",
    "ur": "Kamazor Dollar par Gold (sone) mein azafah; taajron ne masharq wasta ke toqf ka wazin kiya, fed oat lak"
   },
   {
-   "ts": 1785128352.776552,
-   "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "27 Jul \u00b7 09:59 AM",
-   "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
-  },
-  {
-   "ts": 1785127760.0,
-   "title": "Swiss Franc climbs as US Dollar falls on easing safe-haven demand",
+   "ts": 1785140689.0,
+   "title": "Euro: Energy risks cap recovery against US Dollar \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-climbs-as-us-dollar-falls-on-easing-safe-haven-demand-202607270449",
-   "t": "27 Jul \u00b7 09:49 AM",
-   "ur": "Mahfooz panah gahon ki talab ko kam karne par US Dollar garne par sois farank chadh gaya."
+   "link": "https://www.fxstreet.com/news/euro-energy-risks-cap-recovery-against-us-dollar-ing-202607270824",
+   "t": "27 Jul \u00b7 01:24 PM",
+   "ur": "Uro: US Dollar - ING ke maqable mein tawanai ki recovery ka khatrah hai."
   },
   {
-   "ts": 1785126939.0,
-   "title": "India Gold price today: Gold rises, according to FXStreet data",
+   "ts": 1785140623.0,
+   "title": "ECB\u2019s Kazimir: One more interest rate hike is needed",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202607270435",
-   "t": "27 Jul \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
+   "link": "https://www.fxstreet.com/news/ecbs-kazimir-one-more-interest-rate-hike-is-needed-202607270823",
+   "t": "27 Jul \u00b7 01:23 PM",
+   "ur": "Ai si bi ka kazimer: ek aur rate sud mein azafe ki zarort hai."
   },
   {
-   "ts": 1785123368.0,
-   "title": "Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
-   "t": "27 Jul \u00b7 08:36 AM",
-   "ur": "Sangapor ne heeran kan aqdam mein manateri palisi ko saqt kardiya cunkah til ki badhti hoi qeemton ne mahungai ke khatre ko dubarah janum diya"
-  },
-  {
-   "ts": 1785123341.0,
-   "title": "Silver Price Forecast: XAG/USD jumps over 2% to near $60 on renewed US-Iran diplomacy hopes",
+   "ts": 1785139826.0,
+   "title": "GBP/USD Price Forecast: VCP breakout likely after Fed-BoE policy announcements",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-jumps-over-2-to-near-60-on-renewed-us-iran-diplomacy-hopes-202607270335",
-   "t": "27 Jul \u00b7 08:35 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD 2% se ziyadah chhalang laga kar $60 ke qarib pohch gaya amrikah eran safart kari ki nayi amidon par"
+   "link": "https://www.fxstreet.com/news/gbp-usd-price-forecast-vcp-breakout-likely-after-fed-boe-policy-announcements-202607270810",
+   "t": "27 Jul \u00b7 01:10 PM",
+   "ur": "GBP/USD qeemat ki forecast: Fed-BoE palisi ke aalanat ke bad VCP barik oat ka amkan"
   },
   {
-   "ts": 1785122872.0,
-   "title": "United States Dollar Index falls to near 101.00 after US-Iran strike halt",
+   "ts": 1785139391.0,
+   "title": "Indian Rupee: RBI inflow measures support against US Dollar \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-falls-to-near-10100-after-us-iran-strike-halt-202607270327",
-   "t": "27 Jul \u00b7 08:27 AM",
-   "ur": "US Dollar ka andex 101.00 ke qarib gar gaya hai jas ke bad amrikah aur eran ki hadtal rak gayi hai."
+   "link": "https://www.fxstreet.com/news/indian-rupee-rbi-inflow-measures-support-against-us-dollar-commerzbank-202607270803",
+   "t": "27 Jul \u00b7 01:03 PM",
+   "ur": "Handostani ropiya: aar bi i ki aamad US Dollar ke khalaf sport ki pemaish karti hai - kamers Bank"
   },
   {
-   "ts": 1785121990.0,
-   "title": "New Zealand Dollar bulls seem hesitant; downside seems limited amid weak USD",
+   "ts": 1785139135.0,
+   "title": "Forex Today: US and Iran halt strikes, boosting mood to start Fed week",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-bulls-seem-hesitant-downside-seems-limited-amid-weak-usd-202607270313",
-   "t": "27 Jul \u00b7 08:13 AM",
-   "ur": "Niyozi lind ke Dollar bel hichakchate nazar aate hen. kamazor USD ke darmiyan manfi pehlo muhadud lagta hai."
+   "link": "https://www.fxstreet.com/news/forex-today-us-and-iran-halt-strikes-boosting-mood-to-start-fed-week-202607270758",
+   "t": "27 Jul \u00b7 12:58 PM",
+   "ur": "Farex today: amrikah aur eran ne hadtalin rok din, fed haftah sharo karne ka mod badha raha hai."
   },
   {
-   "ts": 1785120107.0,
-   "title": "Canadian Dollar advances as easing risk aversion lifts US Dollar",
+   "ts": 1785138136.0,
+   "title": "Japanese Yen: Hawkish shift needed to aid JPY against US Dollar \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-advances-as-easing-risk-aversion-lifts-us-dollar-202607270241",
-   "t": "27 Jul \u00b7 07:41 AM",
-   "ur": "Caniden Dollar tarqi kar raha hai cunkah khatre se bachane ke liye US Dollar ki qadar mein narmi aati hai."
+   "link": "https://www.fxstreet.com/news/japanese-yen-hawkish-shift-needed-to-aid-jpy-against-us-dollar-bny-202607270742",
+   "t": "27 Jul \u00b7 12:42 PM",
+   "ur": "Japani yan: US Dollar ke maqable JPY ki madad ke liye hakish shift ki zarort hai - BNY"
   },
   {
-   "ts": 1785118035.0,
-   "title": "Gold gains as falling oil prices ease inflation and rate hike fears",
+   "ts": 1785136638.0,
+   "title": "ECB\u2019s \u017digman: Central bank is committed to ensure inflation stable around 2%",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-gains-as-falling-oil-prices-ease-inflation-and-rate-hike-fears-202607270207",
-   "t": "27 Jul \u00b7 07:07 AM",
-   "ur": "Til ki garti hoi qeemat mahungai aur rate mein azafe ke khadshat ko kam karne se Gold (sone) mein azafah hawa."
+   "link": "https://www.fxstreet.com/news/ecbs-zigman-central-bank-is-committed-to-ensure-inflation-stable-around-2-202607270717",
+   "t": "27 Jul \u00b7 12:17 PM",
+   "ur": "Ai si bi ka zeg mein: markazi Bank inflation (mehngai) ki rate ko 2 fisad ke qarib mastahkam karne ke liye parazm hai"
   }
  ],
  "sentiment": {
