@@ -1,27 +1,13 @@
 {
- "updated": "27-07-2026 13:29 PKT",
+ "updated": "27-07-2026 16:50 PKT",
  "gold": {
-  "price": 4092.24,
+  "price": 4095.9,
   "open": 4055.92,
   "high": 4116.43,
   "low": 4012.26,
-  "chg": 0.9,
+  "chg": 0.99,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.96,
-   4056.01,
-   4055.96,
-   4055.99,
-   4055.99,
-   4056.01,
-   4087.18,
-   4086.04,
-   4090.58,
-   4090.79,
-   4086.06,
-   4084.76,
-   4088.99,
-   4095.19,
    4115.45,
    4091.12,
    4101.27,
@@ -55,14 +41,28 @@
    4096.24,
    4091.21,
    4091.9,
-   4092.24
+   4091.57,
+   4091.16,
+   4096.79,
+   4095.99,
+   4092.84,
+   4094.03,
+   4097.59,
+   4090.68,
+   4093.09,
+   4101.92,
+   4099.85,
+   4102.63,
+   4100.31,
+   4096.35,
+   4095.9
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.505,
-   "chg": 1.45,
+   "price": 59.465,
+   "chg": 1.38,
    "spark": [
     58.175,
     59.477,
@@ -83,13 +83,13 @@
     60.019,
     57.798,
     58.656,
-    59.505
+    59.465
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.278,
-   "chg": -0.19,
+   "price": 101.319,
+   "chg": -0.15,
    "spark": [
     101.11,
     101.19,
@@ -110,13 +110,13 @@
     101.14,
     101.43,
     101.47,
-    101.278
+    101.319
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.0,
-   "chg": -5.95,
+   "price": 83.25,
+   "chg": -6.79,
    "spark": [
     70.75,
     69.5,
@@ -137,7 +137,7 @@
     86.83,
     92.19,
     89.31,
-    84.0
+    83.25
    ]
   },
   {
@@ -171,8 +171,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1399,
-   "chg": 0.19,
+   "price": 1.1393,
+   "chg": 0.15,
    "spark": [
     1.1386,
     1.1422,
@@ -194,13 +194,13 @@
     1.1404,
     1.1412,
     1.1377,
-    1.1399
+    1.1393
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3334,
-   "chg": 0.16,
+   "price": 1.3316,
+   "chg": 0.03,
    "spark": [
     1.3197,
     1.3254,
@@ -222,13 +222,13 @@
     1.3379,
     1.3375,
     1.3313,
-    1.3334
+    1.3316
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.532,
-   "chg": -0.18,
+   "price": 163.616,
+   "chg": -0.13,
    "spark": [
     161.787,
     161.923,
@@ -250,17 +250,14 @@
     163.186,
     163.081,
     163.832,
-    163.532
+    163.616
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1965.13,
-   "chg": 0.6,
+   "price": 1958.68,
+   "chg": 0.27,
    "spark": [
-    1856.36,
-    1856.0,
-    1855.95,
     1858.12,
     1865.64,
     1867.18,
@@ -305,17 +302,17 @@
     1963.89,
     1966.62,
     1962.63,
-    1965.13
+    1963.53,
+    1963.52,
+    1965.17,
+    1958.68
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65173.4,
-   "chg": -0.25,
+   "price": 65084.4,
+   "chg": -0.39,
    "spark": [
-    63927.3,
-    64002.8,
-    63991.5,
     64054.9,
     64106.2,
     64156.0,
@@ -360,7 +357,10 @@
     65406.9,
     65369.5,
     65164.1,
-    65173.4
+    65102.7,
+    65207.0,
+    65278.2,
+    65084.4
    ]
   }
  ],
@@ -449,84 +449,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785140946.737791,
+   "ts": 1785153026.238912,
+   "title": "Gold rises as Middle East fighting pause weighs on oil",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
+   "t": "27 Jul \u00b7 04:50 PM",
+   "ur": "Masharq wasta ki larai ke toqf til par wazin ke baas Gold (sona) badhta hai."
+  },
+  {
+   "ts": 1785153026.238912,
    "title": "Silver trapped at $60.39 Fib resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "27 Jul \u00b7 01:29 PM",
+   "t": "27 Jul \u00b7 04:50 PM",
    "ur": "Silver (chandi) $60.39 Fib mazahmat par phans gayi."
   },
   {
-   "ts": 1785140946.737791,
+   "ts": 1785153026.238912,
    "title": "Gold trapped in symmetrical triangle near breakout: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "27 Jul \u00b7 01:29 PM",
+   "t": "27 Jul \u00b7 04:50 PM",
    "ur": "Barik oat ke qarib sadol masls mein phansa Gold (sona)"
   },
   {
-   "ts": 1785140946.737791,
-   "title": "Gold rises on weaker dollar; traders weigh Middle East pause, Fed outlook",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
-   "t": "27 Jul \u00b7 01:29 PM",
-   "ur": "Kamazor Dollar par Gold (sone) mein azafah; taajron ne masharq wasta ke toqf ka wazin kiya, fed oat lak"
+   "ts": 1785152745.0,
+   "title": "Gold Price Forecast: XAU/USD is looking for direction around $4,100",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-is-looking-for-direction-around-4-100-202607271145",
+   "t": "27 Jul \u00b7 04:45 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,100 ke ard gard samat talash kar raha hai."
   },
   {
-   "ts": 1785140689.0,
-   "title": "Euro: Energy risks cap recovery against US Dollar \u2013 ING",
+   "ts": 1785151287.0,
+   "title": "Euro: Growth and policy doubts point lower against US Dollar \u2013 HSBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-energy-risks-cap-recovery-against-us-dollar-ing-202607270824",
-   "t": "27 Jul \u00b7 01:24 PM",
-   "ur": "Uro: US Dollar - ING ke maqable mein tawanai ki recovery ka khatrah hai."
+   "link": "https://www.fxstreet.com/news/euro-growth-and-policy-doubts-point-lower-against-us-dollar-hsbc-202607271121",
+   "t": "27 Jul \u00b7 04:21 PM",
+   "ur": "Uro: namo aur palisi ke shkok US Dollar - HSBC ke maqable mein kam hen."
   },
   {
-   "ts": 1785140623.0,
-   "title": "ECB\u2019s Kazimir: One more interest rate hike is needed",
+   "ts": 1785150889.0,
+   "title": "Gold firms as Oil prices fall on temporary US-Iran pause, Fed in focus",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-kazimir-one-more-interest-rate-hike-is-needed-202607270823",
-   "t": "27 Jul \u00b7 01:23 PM",
-   "ur": "Ai si bi ka kazimer: ek aur rate sud mein azafe ki zarort hai."
+   "link": "https://www.fxstreet.com/news/gold-firms-as-oil-prices-fall-on-temporary-us-iran-pause-202607271114",
+   "t": "27 Jul \u00b7 04:14 PM",
+   "ur": "Til ki qeemton mein kami ke tur par Gold (sone) ki kampaniyan aarzi tur par amrikah-eran toqf par hen, fed fox mein hai."
   },
   {
-   "ts": 1785139826.0,
-   "title": "GBP/USD Price Forecast: VCP breakout likely after Fed-BoE policy announcements",
+   "ts": 1785149026.0,
+   "title": "Canadian Dollar holds losses against US Dollar, weighed by lower Oil prices",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gbp-usd-price-forecast-vcp-breakout-likely-after-fed-boe-policy-announcements-202607270810",
-   "t": "27 Jul \u00b7 01:10 PM",
-   "ur": "GBP/USD qeemat ki forecast: Fed-BoE palisi ke aalanat ke bad VCP barik oat ka amkan"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-losses-against-us-dollar-weighed-by-lower-oil-prices-202607271043",
+   "t": "27 Jul \u00b7 03:43 PM",
+   "ur": "Caniden Dollar US Dollar ke maqable mein khasare mein hai, jas ka wazin til ki kam qeemton se hota hai."
   },
   {
-   "ts": 1785139391.0,
-   "title": "Indian Rupee: RBI inflow measures support against US Dollar \u2013 Commerzbank",
+   "ts": 1785148263.0,
+   "title": "Australian Dollar advances to 0.7000 as Middle East de-escalation weighs on the USD",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-rbi-inflow-measures-support-against-us-dollar-commerzbank-202607270803",
-   "t": "27 Jul \u00b7 01:03 PM",
-   "ur": "Handostani ropiya: aar bi i ki aamad US Dollar ke khalaf sport ki pemaish karti hai - kamers Bank"
+   "link": "https://www.fxstreet.com/news/australian-dollar-advances-to-07000-as-middle-east-de-escalation-weighs-on-the-usd-202607271031",
+   "t": "27 Jul \u00b7 03:31 PM",
+   "ur": "Aasterilvi Dollar 0.7000 tak badh gaya cunkah masharq wasta ki tanzili ka wazin USD par hai"
   },
   {
-   "ts": 1785139135.0,
-   "title": "Forex Today: US and Iran halt strikes, boosting mood to start Fed week",
+   "ts": 1785146745.0,
+   "title": "Japanese Yen: Macro backdrop favors recovery against US Dollar - BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-and-iran-halt-strikes-boosting-mood-to-start-fed-week-202607270758",
-   "t": "27 Jul \u00b7 12:58 PM",
-   "ur": "Farex today: amrikah aur eran ne hadtalin rok din, fed haftah sharo karne ka mod badha raha hai."
+   "link": "https://www.fxstreet.com/news/japanese-yen-macro-backdrop-favors-recovery-against-us-dollar-bbh-202607271005",
+   "t": "27 Jul \u00b7 03:05 PM",
+   "ur": "Japani yan: mecro bek darap US Dollar ke maqable mein recovery ke haq mein hai - BBH"
   },
   {
-   "ts": 1785138136.0,
-   "title": "Japanese Yen: Hawkish shift needed to aid JPY against US Dollar \u2013 BNY",
+   "ts": 1785144911.0,
+   "title": "Silver price today: Silver rises, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-hawkish-shift-needed-to-aid-jpy-against-us-dollar-bny-202607270742",
-   "t": "27 Jul \u00b7 12:42 PM",
-   "ur": "Japani yan: US Dollar ke maqable JPY ki madad ke liye hakish shift ki zarort hai - BNY"
-  },
-  {
-   "ts": 1785136638.0,
-   "title": "ECB\u2019s \u017digman: Central bank is committed to ensure inflation stable around 2%",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-zigman-central-bank-is-committed-to-ensure-inflation-stable-around-2-202607270717",
-   "t": "27 Jul \u00b7 12:17 PM",
-   "ur": "Ai si bi ka zeg mein: markazi Bank inflation (mehngai) ki rate ko 2 fisad ke qarib mastahkam karne ke liye parazm hai"
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202607270935",
+   "t": "27 Jul \u00b7 02:35 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
   }
  ],
  "sentiment": {
