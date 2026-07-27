@@ -1,19 +1,13 @@
 {
- "updated": "27-07-2026 04:37 PKT",
+ "updated": "27-07-2026 06:15 PKT",
  "gold": {
-  "price": 4087.05,
+  "price": 4107.11,
   "open": 4055.92,
-  "high": 4116.24,
+  "high": 4116.43,
   "low": 4012.26,
-  "chg": 0.77,
+  "chg": 1.26,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.9,
-   4055.91,
-   4056.0,
-   4056.0,
-   4055.91,
-   4055.9,
    4055.99,
    4056.01,
    4055.97,
@@ -55,14 +49,20 @@
    4090.79,
    4086.06,
    4084.76,
-   4087.05
+   4088.99,
+   4095.19,
+   4115.45,
+   4091.12,
+   4101.27,
+   4102.2,
+   4107.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.66,
-   "chg": 1.71,
+   "price": 60.01,
+   "chg": 2.31,
    "spark": [
     59.217,
     58.175,
@@ -84,13 +84,13 @@
     60.019,
     57.798,
     58.656,
-    59.66
+    60.01
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.316,
-   "chg": -0.15,
+   "price": 101.201,
+   "chg": -0.23,
    "spark": [
     101.36,
     101.11,
@@ -111,14 +111,13 @@
     101.18,
     101.14,
     101.43,
-    101.47,
-    101.316
+    101.201
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.01,
-   "chg": -4.81,
+   "price": 85.1,
+   "chg": -4.71,
    "spark": [
     69.23,
     70.75,
@@ -140,13 +139,13 @@
     86.83,
     92.19,
     89.31,
-    85.01
+    85.1
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.679,
-   "chg": -0.51,
+   "price": 4.703,
+   "chg": 0.99,
    "spark": [
     4.402,
     4.392,
@@ -168,14 +167,13 @@
     4.598,
     4.628,
     4.657,
-    4.703,
-    4.679
+    4.703
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1395,
-   "chg": 0.16,
+   "price": 1.1409,
+   "chg": 0.28,
    "spark": [
     1.1386,
     1.1422,
@@ -197,13 +195,13 @@
     1.1404,
     1.1412,
     1.1377,
-    1.1395
+    1.1409
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3348,
-   "chg": 0.26,
+   "price": 1.3355,
+   "chg": 0.32,
    "spark": [
     1.3197,
     1.3254,
@@ -225,13 +223,13 @@
     1.3379,
     1.3375,
     1.3313,
-    1.3348
+    1.3355
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.65,
-   "chg": -0.11,
+   "price": 163.552,
+   "chg": -0.17,
    "spark": [
     161.787,
     161.923,
@@ -253,16 +251,14 @@
     163.186,
     163.081,
     163.832,
-    163.65
+    163.552
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1950.82,
-   "chg": 4.13,
+   "price": 1940.35,
+   "chg": -0.67,
    "spark": [
-    1858.63,
-    1858.04,
     1857.24,
     1857.34,
     1859.49,
@@ -308,16 +304,16 @@
     1911.97,
     1923.9,
     1948.31,
-    1950.82
+    1953.47,
+    1940.28,
+    1940.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65305.1,
-   "chg": 1.54,
+   "price": 64957.9,
+   "chg": -0.58,
    "spark": [
-    64012.4,
-    64008.7,
     63969.1,
     64025.8,
     64114.6,
@@ -363,7 +359,9 @@
     64595.0,
     64784.7,
     65346.7,
-    65305.1
+    65336.6,
+    65057.3,
+    64957.9
    ]
   }
  ],
@@ -452,12 +450,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785109073.112773,
+   "ts": 1785114939.644923,
    "title": "Gold snaps two-week losing run as technical buying offsets inflationary pressures",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-set-for-first-weekly-gain-in-three-as-fed-meast-stay-in-focus-4810406",
-   "t": "27 Jul \u00b7 04:37 AM",
+   "t": "27 Jul \u00b7 06:15 AM",
    "ur": "Takniki khareedari inflation (mehngai) ke dabao ko pora karti hai ke tur par Gold (sona) do hafte ke khasare mein chala gaya."
+  },
+  {
+   "ts": 1785112934.0,
+   "title": "Australian Dollar gains as Mideast tensions ease, RBA rate expectations rise",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-gains-as-mideast-tensions-ease-rba-rate-expectations-rise-202607270042",
+   "t": "27 Jul \u00b7 05:42 AM",
+   "ur": "Aasterilvi Dollar mein azafah hawa jisa kah masharq wasta ke tanao mein kami, RBA ki rate ki toqaat mein azafah"
+  },
+  {
+   "ts": 1785112462.0,
+   "title": "Singapore tightens monetary policy as rising oil prices rekindle inflation risk",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+   "t": "27 Jul \u00b7 05:34 AM",
+   "ur": "Sangapor ne manateri palisi ko saqt kar diya hai cunkah til ki badhti hoi qeemton ne mahungai ke khatre ko dubarah janum diya hai."
   },
   {
    "ts": 1784927100.0,
@@ -514,26 +528,10 @@
    "link": "https://www.fxstreet.com/news/us-dollar-softer-yields-curb-gains-ahead-of-fomc-scotiabank-202607241636",
    "t": "24 Jul \u00b7 09:36 PM",
    "ur": "US Dollar: FOMC - Scotiabank ke maqable mein narmi se haasil hone wali rok tham"
-  },
-  {
-   "ts": 1784909865.0,
-   "title": "Euro: Choppy range view holds against US Dollar \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-choppy-range-view-holds-against-us-dollar-rabobank-202607241617",
-   "t": "24 Jul \u00b7 09:17 PM",
-   "ur": "Uro: US Dollar - rabobank ke maqable mein chapee rinj ka manazr"
-  },
-  {
-   "ts": 1784909324.0,
-   "title": "British Pound rises as Oil slide softens USD, Fed hike bets increase",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-rises-as-oil-slide-softens-usd-fed-hike-bets-increase-202607241608",
-   "t": "24 Jul \u00b7 09:08 PM",
-   "ur": "Bartanvi pound mein azafah hawa cunkah til ki salaid USD ko narm karti hai, fed mein azafe ki shartin badh jati hen."
   }
  ],
  "sentiment": {
-  "value": 26,
+  "value": 30,
   "label": "Fear"
  },
  "err": null
