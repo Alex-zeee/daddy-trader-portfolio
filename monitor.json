@@ -1,18 +1,13 @@
 {
- "updated": "28-07-2026 01:58 PKT",
+ "updated": "28-07-2026 03:03 PKT",
  "gold": {
-  "price": 4077.24,
-  "open": 4055.92,
+  "price": 4081.0,
+  "open": 4087.22,
   "high": 4116.43,
-  "low": 4012.26,
-  "chg": 0.53,
+  "low": 4064.74,
+  "chg": -0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   4095.99,
-   4092.84,
-   4094.03,
-   4097.59,
-   4090.68,
    4093.09,
    4101.92,
    4099.85,
@@ -55,14 +50,19 @@
    4081.97,
    4079.99,
    4077.2,
-   4077.24
+   4076.96,
+   4076.7,
+   4076.95,
+   4076.72,
+   4076.69,
+   4081.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.715,
-   "chg": 0.1,
+   "price": 58.695,
+   "chg": 0.07,
    "spark": [
     58.175,
     59.477,
@@ -83,13 +83,13 @@
     60.019,
     57.798,
     58.656,
-    58.715
+    58.695
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.537,
-   "chg": 0.11,
+   "price": 101.505,
+   "chg": 0.07,
    "spark": [
     101.11,
     101.19,
@@ -109,13 +109,13 @@
     101.18,
     101.14,
     101.43,
-    101.537
+    101.505
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.96,
-   "chg": -8.23,
+   "price": 81.91,
+   "chg": -8.29,
    "spark": [
     70.75,
     69.5,
@@ -136,7 +136,7 @@
     86.83,
     92.19,
     89.31,
-    81.96
+    81.91
    ]
   },
   {
@@ -167,8 +167,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1371,
-   "chg": -0.05,
+   "price": 1.1373,
+   "chg": -0.04,
    "spark": [
     1.1386,
     1.1422,
@@ -190,13 +190,13 @@
     1.1404,
     1.1412,
     1.1377,
-    1.1371
+    1.1373
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3289,
-   "chg": -0.18,
+   "price": 1.3292,
+   "chg": -0.16,
    "spark": [
     1.3197,
     1.3254,
@@ -218,12 +218,12 @@
     1.3379,
     1.3375,
     1.3313,
-    1.3289
+    1.3292
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.72,
+   "price": 163.722,
    "chg": -0.07,
    "spark": [
     161.787,
@@ -246,16 +246,14 @@
     163.186,
     163.081,
     163.832,
-    163.72
+    163.722
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1944.38,
-   "chg": -0.47,
+   "price": 1934.34,
+   "chg": -0.98,
    "spark": [
-    1870.63,
-    1874.02,
     1873.37,
     1878.79,
     1876.38,
@@ -301,16 +299,16 @@
     1941.71,
     1937.47,
     1946.38,
-    1944.38
+    1945.04,
+    1940.07,
+    1934.34
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64890.8,
-   "chg": -0.68,
+   "price": 64643.7,
+   "chg": -1.06,
    "spark": [
-    64286.2,
-    64355.5,
     64312.9,
     64434.9,
     64396.0,
@@ -356,19 +354,13 @@
     64953.6,
     64799.3,
     64902.9,
-    64890.8
+    64898.3,
+    64746.7,
+    64643.7
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785178200.0,
-   "t": "Mon 27 Jul \u00b7 11:50 PM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1785247200.0,
    "t": "Tue 28 Jul \u00b7 07:00 PM",
@@ -406,7 +398,7 @@
    "t": "Thu 30 Jul \u00b7 05:30 PM",
    "title": "Advance GDP q/q",
    "impact": "High",
-   "forecast": "2.3%",
+   "forecast": "2.0%",
    "previous": "2.0%"
   },
   {
@@ -414,7 +406,7 @@
    "t": "Thu 30 Jul \u00b7 05:30 PM",
    "title": "Core PCE Price Index m/m",
    "impact": "High",
-   "forecast": "0.1%",
+   "forecast": "0.2%",
    "previous": "0.3%"
   },
   {
@@ -422,7 +414,7 @@
    "t": "Thu 30 Jul \u00b7 05:30 PM",
    "title": "Advance GDP Price Index q/q",
    "impact": "Medium",
-   "forecast": "3.7%",
+   "forecast": "4.1%",
    "previous": "3.6%"
   },
   {
@@ -430,7 +422,7 @@
    "t": "Thu 30 Jul \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "206K",
+   "forecast": "201K",
    "previous": "187K"
   },
   {
@@ -440,33 +432,73 @@
    "impact": "Medium",
    "forecast": "0.8%",
    "previous": "0.9%"
+  },
+  {
+   "ts": 1785506400.0,
+   "t": "Fri 31 Jul \u00b7 07:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "53.9",
+   "previous": "54.4"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785185937.522243,
+   "ts": 1785189826.553388,
+   "title": "Gold prices rise slightly as pause in Middle East fighting weighs on oil",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
+   "t": "28 Jul \u00b7 03:03 AM",
+   "ur": "Gold (sone) ki qeemton mein qadare azafah hawa cunkah masharq wasta ki larai mein til ka wazin hota hai."
+  },
+  {
+   "ts": 1785189826.553388,
    "title": "Silver trapped in $55-$61.30 chop zone: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "28 Jul \u00b7 01:58 AM",
+   "t": "28 Jul \u00b7 03:03 AM",
    "ur": "Silver (chandi) $55-$61.30 chap zon mein phans gayi."
   },
   {
-   "ts": 1785185937.522243,
+   "ts": 1785189826.553388,
    "title": "Gold tests $4,037 support as bear flag forms: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "28 Jul \u00b7 01:58 AM",
+   "t": "28 Jul \u00b7 03:03 AM",
    "ur": "Gold (sone) ki janch $4,037 sport ko bears ke jhanday ki shakl ke tur par karti hai."
   },
   {
-   "ts": 1785185937.522243,
+   "ts": 1785189826.553388,
    "title": "US Treasury trims 84 people, firms from its sanctions list as review continues",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-trims-84-people-firms-from-its-sanctions-list-as-review-continues-4814845",
-   "t": "28 Jul \u00b7 01:58 AM",
+   "t": "28 Jul \u00b7 03:03 AM",
    "ur": "US treasurei ne 84 afrad, farmon ko apani pabandiyon ki faharist se nakal diya jisa kah jaizah jari hai."
+  },
+  {
+   "ts": 1785189420.0,
+   "title": "Chinese Yuan: Rangebound trade against US Dollar guided by PBoC fix \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-rangebound-trade-against-us-dollar-guided-by-pboc-fix-ocbc-202607272157",
+   "t": "28 Jul \u00b7 02:57 AM",
+   "ur": "Chini uan: US Dollar ke khalaf rinj bound tajart PBoC fix - OCBC ke zariye rahnumi"
+  },
+  {
+   "ts": 1785188534.0,
+   "title": "New Zealand Dollar holds after weak US durable goods data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-after-weak-us-durable-goods-data-202607272142",
+   "t": "28 Jul \u00b7 02:42 AM",
+   "ur": "Kamazor US pidar ashiya ke aed w shmar ke bad niyozi lind Dollar barqarar hai."
+  },
+  {
+   "ts": 1785187140.0,
+   "title": "Singapore Dollar: Hawkish MAS supports SGD against US Dollar \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-hawkish-mas-supports-sgd-against-us-dollar-mufg-202607272119",
+   "t": "28 Jul \u00b7 02:19 AM",
+   "ur": "Sangapor Dollar: hakish em aye es US Dollar ke khalaf es ji di ki support karta hai - MUFG"
   },
   {
    "ts": 1785183420.0,
@@ -491,38 +523,6 @@
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-softens-as-oil-plunges-on-middle-east-pause-202607271949",
    "t": "28 Jul \u00b7 12:49 AM",
    "ur": "Farex today: masharq wasta ke toqf par til ke garne se US Dollar ki qadar mein narmi i"
-  },
-  {
-   "ts": 1785179220.0,
-   "title": "LatAm FX: Carry appeal faces Fed test \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/latam-fx-carry-appeal-faces-fed-test-bny-202607271907",
-   "t": "28 Jul \u00b7 12:07 AM",
-   "ur": "LatAm FX: kiri apel ko Fed test ka samana hai \u2013 BNY"
-  },
-  {
-   "ts": 1785178191.0,
-   "title": "Gold rises toward $4,070 as falling US yields support Bullion",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rises-toward-4-070-as-falling-us-yields-support-bullion-202607271849",
-   "t": "27 Jul \u00b7 11:49 PM",
-   "ur": "Gold (sona) $4,070 ki taraf badhta hai cunkah garti hoi US pedawar balin ko sport karti hai."
-  },
-  {
-   "ts": 1785177498.0,
-   "title": "Silver Price Forecast: Could Fed decision trigger a break from $55-$62 range?",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-could-fed-decision-trigger-a-break-from-55-62-range-202607271838",
-   "t": "27 Jul \u00b7 11:38 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: kiya fed ka fisalah $55-$62 ki had se waqafah kar sakta hai?"
-  },
-  {
-   "ts": 1785168652.0,
-   "title": "British Pound tumbles as risk-off mood boosts the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-tumbles-as-risk-off-mood-boosts-the-us-dollar-202607271610",
-   "t": "27 Jul \u00b7 09:10 PM",
-   "ur": "Bartanvi pound garta hai cunkah khatre se dochar mod US Dollar ko badhata hai."
   }
  ],
  "sentiment": {
