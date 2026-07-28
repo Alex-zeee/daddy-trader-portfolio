@@ -1,23 +1,13 @@
 {
- "updated": "28-07-2026 08:35 PKT",
+ "updated": "28-07-2026 11:13 PKT",
  "gold": {
-  "price": 4050.06,
-  "open": 4090.5,
+  "price": 4043.8,
+  "open": 4094.68,
   "high": 4105.6,
-  "low": 4040.73,
-  "chg": -0.99,
+  "low": 4036.04,
+  "chg": -1.24,
   "src": "XAUUSD Spot",
   "spark": [
-   4078.89,
-   4081.59,
-   4086.78,
-   4088.32,
-   4082.14,
-   4073.52,
-   4074.87,
-   4073.91,
-   4076.76,
-   4076.96,
    4076.57,
    4076.95,
    4077.75,
@@ -55,14 +45,24 @@
    4043.43,
    4046.49,
    4047.9,
-   4050.06
+   4047.98,
+   4048.27,
+   4044.24,
+   4046.3,
+   4047.02,
+   4042.61,
+   4041.71,
+   4041.63,
+   4042.11,
+   4046.11,
+   4043.8
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.61,
-   "chg": -1.78,
+   "price": 57.41,
+   "chg": -1.82,
    "spark": [
     58.175,
     59.477,
@@ -83,13 +83,14 @@
     60.019,
     57.798,
     58.656,
-    57.61
+    58.472,
+    57.41
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.457,
-   "chg": -0.01,
+   "price": 101.532,
+   "chg": 0.02,
    "spark": [
     101.11,
     101.19,
@@ -109,14 +110,14 @@
     101.18,
     101.14,
     101.43,
-    101.47,
-    101.457
+    101.51,
+    101.532
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.18,
-   "chg": -9.1,
+   "price": 82.06,
+   "chg": -0.67,
    "spark": [
     70.75,
     69.5,
@@ -137,13 +138,14 @@
     86.83,
     92.19,
     89.31,
-    81.18
+    82.61,
+    82.06
    ]
   },
   {
    "name": "US 10Y Yield",
    "price": 4.641,
-   "chg": -0.81,
+   "chg": -1.32,
    "spark": [
     4.374,
     4.418,
@@ -163,14 +165,13 @@
     4.628,
     4.657,
     4.703,
-    4.679,
     4.641
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1383,
-   "chg": -0.1,
+   "price": 1.137,
+   "chg": -0.22,
    "spark": [
     1.1386,
     1.1422,
@@ -193,13 +194,13 @@
     1.1412,
     1.1377,
     1.1395,
-    1.1383
+    1.137
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3305,
-   "chg": -0.35,
+   "price": 1.3289,
+   "chg": -0.47,
    "spark": [
     1.3197,
     1.3254,
@@ -222,13 +223,13 @@
     1.3375,
     1.3313,
     1.3351,
-    1.3305
+    1.3289
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.724,
-   "chg": 0.07,
+   "price": 163.692,
+   "chg": 0.05,
    "spark": [
     161.787,
     161.923,
@@ -251,17 +252,14 @@
     163.081,
     163.832,
     163.611,
-    163.724
+    163.692
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1876.71,
+   "price": 1876.78,
    "chg": -0.74,
    "spark": [
-    1884.0,
-    1881.47,
-    1883.48,
     1879.53,
     1879.85,
     1882.06,
@@ -306,17 +304,17 @@
     1877.14,
     1874.23,
     1873.98,
-    1876.71
+    1879.37,
+    1875.94,
+    1881.31,
+    1876.78
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63242.3,
-   "chg": -0.71,
+   "price": 63346.0,
+   "chg": -0.55,
    "spark": [
-    64477.8,
-    64358.6,
-    64380.8,
     64310.2,
     64419.3,
     64483.0,
@@ -361,7 +359,10 @@
     63418.8,
     63164.5,
     63117.6,
-    63247.0
+    63274.6,
+    63272.4,
+    63400.1,
+    63346.0
    ]
   }
  ],
@@ -450,84 +451,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785209714.880098,
+   "ts": 1785219194.297818,
+   "title": "Gold prices slip as firm dollar weighs; Fed decision eyed",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-prices-slip-as-firm-dollar-weighs-fed-decision-eyed-4815435",
+   "t": "28 Jul \u00b7 11:13 AM",
+   "ur": "Dollar ke mazboot wazin se Gold (sone) ki qeemton mein kami. fed fisalah aankhon mein"
+  },
+  {
+   "ts": 1785219194.297818,
    "title": "Gold prices rise slightly as pause in Middle East fighting weighs on oil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
-   "t": "28 Jul \u00b7 08:35 AM",
+   "t": "28 Jul \u00b7 11:13 AM",
    "ur": "Gold (sone) ki qeemton mein qadare azafah hawa cunkah masharq wasta ki larai mein til ka wazin hota hai."
   },
   {
-   "ts": 1785209714.880098,
+   "ts": 1785219194.297818,
    "title": "Silver trapped in $55-$61.30 chop zone: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "28 Jul \u00b7 08:35 AM",
+   "t": "28 Jul \u00b7 11:13 AM",
    "ur": "Silver (chandi) $55-$61.30 chap zon mein phans gayi."
   },
   {
-   "ts": 1785209714.880098,
+   "ts": 1785219194.297818,
    "title": "Gold tests $4,037 support as bear flag forms: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "28 Jul \u00b7 08:35 AM",
+   "t": "28 Jul \u00b7 11:13 AM",
    "ur": "Gold (sone) ki janch $4,037 sport ko bears ke jhanday ki shakl ke tur par karti hai."
   },
   {
-   "ts": 1785209714.880098,
-   "title": "US Treasury trims 84 people, firms from its sanctions list as review continues",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/us-treasury-trims-84-people-firms-from-its-sanctions-list-as-review-continues-4814845",
-   "t": "28 Jul \u00b7 08:35 AM",
-   "ur": "US treasurei ne 84 afrad, farmon ko apani pabandiyon ki faharist se nakal diya jisa kah jaizah jari hai."
+   "ts": 1785218729.0,
+   "title": "Euro revisits monthly low against US Dollar in countdown to Fed\u2019s policy",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-revisits-monthly-low-against-us-dollar-in-countdown-to-feds-policy-202607280605",
+   "t": "28 Jul \u00b7 11:05 AM",
+   "ur": "Fed ki palisi ki alti ganti mein uro US Dollar ke maqable mein mahana kam par nazarsani karta hai."
   },
   {
-   "ts": 1785208180.0,
-   "title": "RBA\u2019s Bullock: Key question is whether tightening already delivered is enough to slow inflation",
+   "ts": 1785213922.0,
+   "title": "New Zealand Dollar struggles above mid-0.5700s as USD stays firm ahead of FOMC meeting",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/rbas-bullock-key-question-is-whether-tightening-already-delivered-is-enough-to-slow-inflation-202607280309",
-   "t": "28 Jul \u00b7 08:09 AM",
-   "ur": "RBA's Bullock: aham swal ya hai kah kiya pehle se faraham ki gayi saqti mahungai ko kam karne ke liye kafi hai."
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-above-mid-05700s-as-usd-stays-firm-ahead-of-fomc-meeting-202607280445",
+   "t": "28 Jul \u00b7 09:45 AM",
+   "ur": "Niyozi lind Dollar 0.5700s ke wast se oper jadojehad kar raha hai cunkah USD FOMC matong se pehle mastahkam rahta hai"
   },
   {
-   "ts": 1785205486.0,
-   "title": "Canadian Dollar struggles near two-week low vs USD amid bearish oil prices, ahead of FOMC",
+   "ts": 1785213324.0,
+   "title": "United States Dollar Index remains subdued near 101.50 amid Fed policy uncertainty",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-struggles-near-two-week-low-vs-usd-amid-bearish-oil-prices-ahead-of-fomc-202607280224",
-   "t": "28 Jul \u00b7 07:24 AM",
-   "ur": "Caniden Dollar FOMC se pehle, til ki mandi ki qeemton ke darmiyan do hafte ki kam tarin bamaqablah USD ke qarib jadojehad kar raha hai"
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-remains-subdued-near-10150-amid-fed-policy-uncertainty-202607280435",
+   "t": "28 Jul \u00b7 09:35 AM",
+   "ur": "Fed palisi ki ghair yaqeeni surtahal ke darmiyan ryastahaye matehdah ka Dollar andex 101.50 ke qarib dab gaya"
   },
   {
-   "ts": 1785204725.0,
-   "title": "Australian Dollar gains ahead of RBA Governor Bullock\u2019s speech",
+   "ts": 1785213307.0,
+   "title": "India Gold price today: Gold falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-gains-ahead-of-rba-governor-bullocks-speech-202607280212",
-   "t": "28 Jul \u00b7 07:12 AM",
-   "ur": "Aar bi aye ke gornar balk ki taqrir se pehle aasterilvi Dollar mein azafah hawa."
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202607280435",
+   "t": "28 Jul \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
   },
   {
-   "ts": 1785202691.0,
-   "title": "British Pound softens as Fed rate uncertainty supports US Dollar",
+   "ts": 1785212355.0,
+   "title": "Gold sticks to intraday losses below $4,050 as focus remains on FOMC meeting",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-softens-as-fed-rate-uncertainty-supports-us-dollar-202607280138",
-   "t": "28 Jul \u00b7 06:38 AM",
-   "ur": "Fed ret ki ghair yaqeeni surtahal US Dollar ko sport karne se bartanvi pound mein narmi"
+   "link": "https://www.fxstreet.com/news/gold-weakens-as-geopolitics-support-usd-ahead-of-fomc-meeting-202607280419",
+   "t": "28 Jul \u00b7 09:19 AM",
+   "ur": "Gold (sona) $4,050 se niche antra day naqsanat par qaaim hai cunkah tojah FOMC matong par rahti hai."
   },
   {
-   "ts": 1785201494.0,
-   "title": "Euro hangs near monthly low, holds above 1.1350 as USD bulls pause ahead of FOMC meeting",
+   "ts": 1785211153.0,
+   "title": "Silver Price Forecast: XAG/USD falls to near $57.50 despite easing Fed hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-hangs-near-monthly-low-holds-above-11350-as-usd-bulls-pause-ahead-of-fomc-meeting-202607280118",
-   "t": "28 Jul \u00b7 06:18 AM",
-   "ur": "Uro mahana kam ke qarib latic raha hai, 1.1350 se oper hai cunkah FOMC matong se pehle USD bel toqf karte hen"
-  },
-  {
-   "ts": 1785201169.0,
-   "title": "Gold declines despite easing concerns over inflation, interest rate hikes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-declines-despite-easing-concerns-over-inflation-interest-rate-hikes-202607280112",
-   "t": "28 Jul \u00b7 06:12 AM",
-   "ur": "Mahungai, rate sud mein azafe ke khadshat kam hone ke bawajud Gold (sone) ki qeemat mein kami"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-5750-despite-easing-fed-hike-bets-202607280359",
+   "t": "28 Jul \u00b7 08:59 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD fed mein azafe ki shart ko kam karne ke bawajud $57.50 ke qarib gar gaya"
   }
  ],
  "sentiment": {
