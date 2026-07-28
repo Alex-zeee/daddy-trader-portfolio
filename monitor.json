@@ -1,27 +1,13 @@
 {
- "updated": "28-07-2026 05:14 PKT",
+ "updated": "28-07-2026 08:35 PKT",
  "gold": {
-  "price": 4067.3,
-  "open": 4115.27,
-  "high": 4116.43,
-  "low": 4062.4,
-  "chg": -1.17,
+  "price": 4050.06,
+  "open": 4090.5,
+  "high": 4105.6,
+  "low": 4040.73,
+  "chg": -0.99,
   "src": "XAUUSD Spot",
   "spark": [
-   4088.67,
-   4086.75,
-   4085.16,
-   4087.08,
-   4078.6,
-   4086.22,
-   4072.39,
-   4076.36,
-   4070.3,
-   4065.35,
-   4074.81,
-   4074.62,
-   4075.95,
-   4074.93,
    4078.89,
    4081.59,
    4086.78,
@@ -55,14 +41,28 @@
    4072.94,
    4072.52,
    4072.88,
-   4067.3
+   4066.64,
+   4062.64,
+   4065.77,
+   4059.05,
+   4056.49,
+   4049.3,
+   4047.86,
+   4045.08,
+   4046.38,
+   4046.32,
+   4042.06,
+   4043.43,
+   4046.49,
+   4047.9,
+   4050.06
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.565,
-   "chg": -0.16,
+   "price": 57.61,
+   "chg": -1.78,
    "spark": [
     58.175,
     59.477,
@@ -83,13 +83,13 @@
     60.019,
     57.798,
     58.656,
-    58.565
+    57.61
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.544,
-   "chg": 0.07,
+   "price": 101.457,
+   "chg": -0.01,
    "spark": [
     101.11,
     101.19,
@@ -110,13 +110,13 @@
     101.14,
     101.43,
     101.47,
-    101.544
+    101.457
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.89,
-   "chg": -8.31,
+   "price": 81.18,
+   "chg": -9.1,
    "spark": [
     70.75,
     69.5,
@@ -137,13 +137,13 @@
     86.83,
     92.19,
     89.31,
-    81.89
+    81.18
    ]
   },
   {
    "name": "US 10Y Yield",
    "price": 4.641,
-   "chg": -1.32,
+   "chg": -0.81,
    "spark": [
     4.374,
     4.418,
@@ -163,13 +163,14 @@
     4.628,
     4.657,
     4.703,
+    4.679,
     4.641
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1371,
-   "chg": -0.21,
+   "price": 1.1383,
+   "chg": -0.1,
    "spark": [
     1.1386,
     1.1422,
@@ -192,13 +193,13 @@
     1.1412,
     1.1377,
     1.1395,
-    1.1371
+    1.1383
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3288,
-   "chg": -0.47,
+   "price": 1.3305,
+   "chg": -0.35,
    "spark": [
     1.3197,
     1.3254,
@@ -221,13 +222,13 @@
     1.3375,
     1.3313,
     1.3351,
-    1.3288
+    1.3305
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.808,
-   "chg": 0.12,
+   "price": 163.724,
+   "chg": 0.07,
    "spark": [
     161.787,
     161.923,
@@ -250,17 +251,14 @@
     163.081,
     163.832,
     163.611,
-    163.808
+    163.724
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1883.78,
-   "chg": -0.37,
+   "price": 1876.71,
+   "chg": -0.74,
    "spark": [
-    1876.38,
-    1879.26,
-    1880.28,
     1884.0,
     1881.47,
     1883.48,
@@ -305,17 +303,17 @@
     1940.07,
     1893.37,
     1891.1,
-    1883.78
+    1877.14,
+    1874.23,
+    1873.98,
+    1876.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63605.6,
-   "chg": -0.14,
+   "price": 63242.3,
+   "chg": -0.71,
    "spark": [
-    64396.0,
-    64450.0,
-    64481.8,
     64477.8,
     64358.6,
     64380.8,
@@ -360,7 +358,10 @@
     64746.7,
     63750.0,
     63697.1,
-    63605.6
+    63418.8,
+    63164.5,
+    63117.6,
+    63247.0
    ]
   }
  ],
@@ -449,84 +450,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785197696.258737,
+   "ts": 1785209714.880098,
    "title": "Gold prices rise slightly as pause in Middle East fighting weighs on oil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-on-weaker-dollar-traders-weigh-middle-east-pause-fed-outlook-4812946",
-   "t": "28 Jul \u00b7 05:14 AM",
+   "t": "28 Jul \u00b7 08:35 AM",
    "ur": "Gold (sone) ki qeemton mein qadare azafah hawa cunkah masharq wasta ki larai mein til ka wazin hota hai."
   },
   {
-   "ts": 1785197696.258737,
+   "ts": 1785209714.880098,
    "title": "Silver trapped in $55-$61.30 chop zone: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "28 Jul \u00b7 05:14 AM",
+   "t": "28 Jul \u00b7 08:35 AM",
    "ur": "Silver (chandi) $55-$61.30 chap zon mein phans gayi."
   },
   {
-   "ts": 1785197696.258737,
+   "ts": 1785209714.880098,
    "title": "Gold tests $4,037 support as bear flag forms: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "28 Jul \u00b7 05:14 AM",
+   "t": "28 Jul \u00b7 08:35 AM",
    "ur": "Gold (sone) ki janch $4,037 sport ko bears ke jhanday ki shakl ke tur par karti hai."
   },
   {
-   "ts": 1785197696.258737,
+   "ts": 1785209714.880098,
    "title": "US Treasury trims 84 people, firms from its sanctions list as review continues",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-trims-84-people-firms-from-its-sanctions-list-as-review-continues-4814845",
-   "t": "28 Jul \u00b7 05:14 AM",
+   "t": "28 Jul \u00b7 08:35 AM",
    "ur": "US treasurei ne 84 afrad, farmon ko apani pabandiyon ki faharist se nakal diya jisa kah jaizah jari hai."
   },
   {
-   "ts": 1785194051.0,
-   "title": "The Australian Dollar stops trading commodities and starts trading one number",
+   "ts": 1785208180.0,
+   "title": "RBA\u2019s Bullock: Key question is whether tightening already delivered is enough to slow inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-australian-dollar-stops-trading-commodities-and-starts-trading-one-number-202607272314",
-   "t": "28 Jul \u00b7 04:14 AM",
-   "ur": "Aasterilvi Dollar ashiya ki tajart rokta hai aur ek nambr ki tajart sharo karta hai."
+   "link": "https://www.fxstreet.com/news/rbas-bullock-key-question-is-whether-tightening-already-delivered-is-enough-to-slow-inflation-202607280309",
+   "t": "28 Jul \u00b7 08:09 AM",
+   "ur": "RBA's Bullock: aham swal ya hai kah kiya pehle se faraham ki gayi saqti mahungai ko kam karne ke liye kafi hai."
   },
   {
-   "ts": 1785192180.0,
-   "title": "Singapore Dollar: MAS tightening underpins Singapore Dollar \u2013 BBH",
+   "ts": 1785205486.0,
+   "title": "Canadian Dollar struggles near two-week low vs USD amid bearish oil prices, ahead of FOMC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-underpins-singapore-dollar-bbh-202607272243",
-   "t": "28 Jul \u00b7 03:43 AM",
-   "ur": "Sangapor Dollar: MAS ki saqti sangapor Dollar ko kam karti hai - BBH"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-struggles-near-two-week-low-vs-usd-amid-bearish-oil-prices-ahead-of-fomc-202607280224",
+   "t": "28 Jul \u00b7 07:24 AM",
+   "ur": "Caniden Dollar FOMC se pehle, til ki mandi ki qeemton ke darmiyan do hafte ki kam tarin bamaqablah USD ke qarib jadojehad kar raha hai"
   },
   {
-   "ts": 1785191650.0,
-   "title": "Trump urges Fed rate cuts as Gulf War ends, seen lowering prices",
+   "ts": 1785204725.0,
+   "title": "Australian Dollar gains ahead of RBA Governor Bullock\u2019s speech",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/trump-urges-fed-rate-cuts-as-gulf-war-ends-seen-lowering-prices-202607272234",
-   "t": "28 Jul \u00b7 03:34 AM",
-   "ur": "Trmp ne khaliji jang ke khatme ke sath hi fed ki rate mein kami par zor diya, qeemton mein kami dekhi gayi."
+   "link": "https://www.fxstreet.com/news/australian-dollar-gains-ahead-of-rba-governor-bullocks-speech-202607280212",
+   "t": "28 Jul \u00b7 07:12 AM",
+   "ur": "Aar bi aye ke gornar balk ki taqrir se pehle aasterilvi Dollar mein azafah hawa."
   },
   {
-   "ts": 1785189420.0,
-   "title": "Chinese Yuan: Rangebound trade against US Dollar guided by PBoC fix \u2013 OCBC",
+   "ts": 1785202691.0,
+   "title": "British Pound softens as Fed rate uncertainty supports US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-rangebound-trade-against-us-dollar-guided-by-pboc-fix-ocbc-202607272157",
-   "t": "28 Jul \u00b7 02:57 AM",
-   "ur": "Chini uan: US Dollar ke khalaf rinj bound tajart PBoC fix - OCBC ke zariye rahnumi"
+   "link": "https://www.fxstreet.com/news/british-pound-softens-as-fed-rate-uncertainty-supports-us-dollar-202607280138",
+   "t": "28 Jul \u00b7 06:38 AM",
+   "ur": "Fed ret ki ghair yaqeeni surtahal US Dollar ko sport karne se bartanvi pound mein narmi"
   },
   {
-   "ts": 1785188534.0,
-   "title": "New Zealand Dollar holds after weak US durable goods data",
+   "ts": 1785201494.0,
+   "title": "Euro hangs near monthly low, holds above 1.1350 as USD bulls pause ahead of FOMC meeting",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-after-weak-us-durable-goods-data-202607272142",
-   "t": "28 Jul \u00b7 02:42 AM",
-   "ur": "Kamazor US pidar ashiya ke aed w shmar ke bad niyozi lind Dollar barqarar hai."
+   "link": "https://www.fxstreet.com/news/euro-hangs-near-monthly-low-holds-above-11350-as-usd-bulls-pause-ahead-of-fomc-meeting-202607280118",
+   "t": "28 Jul \u00b7 06:18 AM",
+   "ur": "Uro mahana kam ke qarib latic raha hai, 1.1350 se oper hai cunkah FOMC matong se pehle USD bel toqf karte hen"
   },
   {
-   "ts": 1785187140.0,
-   "title": "Singapore Dollar: Hawkish MAS supports SGD against US Dollar \u2013 MUFG",
+   "ts": 1785201169.0,
+   "title": "Gold declines despite easing concerns over inflation, interest rate hikes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-hawkish-mas-supports-sgd-against-us-dollar-mufg-202607272119",
-   "t": "28 Jul \u00b7 02:19 AM",
-   "ur": "Sangapor Dollar: hakish em aye es US Dollar ke khalaf es ji di ki support karta hai - MUFG"
+   "link": "https://www.fxstreet.com/news/gold-declines-despite-easing-concerns-over-inflation-interest-rate-hikes-202607280112",
+   "t": "28 Jul \u00b7 06:12 AM",
+   "ur": "Mahungai, rate sud mein azafe ke khadshat kam hone ke bawajud Gold (sone) ki qeemat mein kami"
   }
  ],
  "sentiment": {
