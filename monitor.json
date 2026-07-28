@@ -1,17 +1,13 @@
 {
- "updated": "29-07-2026 03:30 PKT",
+ "updated": "29-07-2026 04:30 PKT",
  "gold": {
-  "price": 4020.46,
-  "open": 4072.36,
-  "high": 4074.98,
+  "price": 4018.24,
+  "open": 4072.73,
+  "high": 4073.65,
   "low": 4012.45,
-  "chg": -1.27,
+  "chg": -1.34,
   "src": "XAUUSD Spot",
   "spark": [
-   4022.46,
-   4028.89,
-   4024.52,
-   4027.14,
    4027.67,
    4027.21,
    4027.57,
@@ -55,14 +51,18 @@
    4028.7,
    4028.56,
    4026.05,
-   4020.46
+   4020.46,
+   4018.61,
+   4019.85,
+   4022.45,
+   4018.24
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.285,
-   "chg": -2.03,
+   "price": 57.095,
+   "chg": -2.35,
    "spark": [
     58.175,
     59.477,
@@ -84,13 +84,13 @@
     57.798,
     58.656,
     58.472,
-    57.285
+    57.095
    ]
   },
   {
    "name": "Dollar Index",
    "price": 101.393,
-   "chg": -0.08,
+   "chg": -0.12,
    "spark": [
     101.11,
     101.19,
@@ -110,14 +110,14 @@
     101.18,
     101.14,
     101.43,
-    101.47,
+    101.51,
     101.393
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.57,
-   "chg": -1.26,
+   "price": 82.56,
+   "chg": -0.06,
    "spark": [
     70.75,
     69.5,
@@ -139,7 +139,7 @@
     92.19,
     89.31,
     82.61,
-    81.57
+    82.56
    ]
   },
   {
@@ -165,7 +165,6 @@
     4.628,
     4.657,
     4.703,
-    4.679,
     4.641,
     4.604
    ]
@@ -173,9 +172,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1388,
-   "chg": -0.06,
+   "chg": 0.17,
    "spark": [
-    1.1386,
     1.1422,
     1.1413,
     1.1378,
@@ -196,15 +194,15 @@
     1.1412,
     1.1377,
     1.1395,
+    1.1369,
     1.1388
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3285,
-   "chg": -0.49,
+   "chg": -0.03,
    "spark": [
-    1.3197,
     1.3254,
     1.3251,
     1.3279,
@@ -225,15 +223,15 @@
     1.3375,
     1.3313,
     1.3351,
+    1.329,
     1.3285
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.851,
-   "chg": 0.15,
+   "price": 163.853,
+   "chg": 0.05,
    "spark": [
-    161.787,
     161.923,
     162.628,
     162.539,
@@ -254,15 +252,15 @@
     163.081,
     163.832,
     163.611,
-    163.851
+    163.771,
+    163.853
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.1,
-   "chg": 1.39,
+   "price": 1906.36,
+   "chg": 0.82,
    "spark": [
-    1953.47,
     1940.28,
     1946.25,
     1941.24,
@@ -309,15 +307,15 @@
     1919.33,
     1915.86,
     1921.41,
-    1917.1
+    1910.13,
+    1906.36
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63819.7,
-   "chg": 0.19,
+   "price": 63588.2,
+   "chg": -0.17,
    "spark": [
-    65336.6,
     65057.3,
     65139.9,
     65117.5,
@@ -364,7 +362,8 @@
     63801.5,
     63830.6,
     63899.3,
-    63819.7
+    63707.3,
+    63588.2
    ]
   }
  ],
@@ -453,28 +452,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785277810.179371,
+   "ts": 1785281426.516223,
    "title": "Gold prices slip about 1% as traders show caution a day ahead of Fed rate decision",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-slip-as-firm-dollar-weighs-fed-decision-eyed-4815435",
-   "t": "29 Jul \u00b7 03:30 AM",
+   "t": "29 Jul \u00b7 04:30 AM",
    "ur": "Gold (sone) ki qeemton mein taqriban 1% ki kami waqa hoi hai cunkah taajr fed ret ke fisale se ek dan pehle ahtyat ka mazaharah karte hen."
   },
   {
-   "ts": 1785277810.179371,
+   "ts": 1785281426.516223,
    "title": "Gold locked below $4,066 resistance: Live bearish levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "29 Jul \u00b7 03:30 AM",
+   "t": "29 Jul \u00b7 04:30 AM",
    "ur": "Gold (sona) $4,066 mazahmat se niche maqfl: barah raast mandi ki sath"
   },
   {
-   "ts": 1785277810.179371,
+   "ts": 1785281426.516223,
    "title": "Silver bear flag at $56.875 tests $55.00 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "29 Jul \u00b7 03:30 AM",
-   "ur": "Silver (chandi) ke bears ka jhanda $56.875 par $55.00 sport ki janch karta hai."
+   "t": "29 Jul \u00b7 04:30 AM",
+   "ur": "$56.875 par salor bare fileg $55.00 sport ki janch karta hai."
+  },
+  {
+   "ts": 1785280224.0,
+   "title": "The Australian Dollar sells a speech and waits for the number that decides August",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-sells-a-speech-and-waits-for-the-number-that-decides-august-202607282310",
+   "t": "29 Jul \u00b7 04:10 AM",
+   "ur": "Aasterilvi Dollar ek taqrir farokht karta hai aur agist ka fisalah karne wale nambr ka antezar karta hai."
   },
   {
    "ts": 1785277800.0,
@@ -482,7 +489,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australia-cpi-could-boost-aussie-if-inflation-arrives-above-4-202607282230",
    "t": "29 Jul \u00b7 03:30 AM",
-   "ur": "Agar inflation (mehngai) 4% se oper aajaye to aasteriliya CPI aasteriliya ko farog de sakta hai"
+   "ur": "Agar inflation (mehngai) 4 fisad se oper aajaye to aasteriliya CPI aasteriliya ko farog de sakta hai"
   },
   {
    "ts": 1785275520.0,
@@ -490,7 +497,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-keeps-pair-under-pressure-commerzbank-202607282152",
    "t": "29 Jul \u00b7 02:52 AM",
-   "ur": "Sangapor Dollar: em aye es ki saqti jodi ko dabao mein rakti hai \u2013 kamers Bank"
+   "ur": "Sangapor Dollar: MAS ki saqti jode ko dabao mein rakti hai - kamrzabink"
   },
   {
    "ts": 1785274635.0,
@@ -514,7 +521,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-eases-ahead-of-fed-as-oil-and-gold-extend-losses-202607282015",
    "t": "29 Jul \u00b7 01:15 AM",
-   "ur": "Farex today: til aur Gold (sone) ke khasare mein azafe ki wajah se US Dollar fed ke maqable mein aasan hai."
+   "ur": "Farex today: til aur Gold (sone) ke khasare mein azafe ke baas US Dollar fed ke maqable mein narmi karta hai."
   },
   {
    "ts": 1785268907.0,
@@ -523,14 +530,6 @@
    "link": "https://www.fxstreet.com/news/mexican-peso-advances-within-range-against-the-us-dollar-202607282001",
    "t": "29 Jul \u00b7 01:01 AM",
    "ur": "Mexican peso US Dollar ke maqable mein had ke andar aage badh raha hai."
-  },
-  {
-   "ts": 1785267758.0,
-   "title": "Silver: Forecast cut but deficit supports upside \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-forecast-cut-but-deficit-supports-upside-commerzbank-202607281942",
-   "t": "29 Jul \u00b7 12:42 AM",
-   "ur": "Silver (chandi): forecast mein kami lican khasarah alta sport karta hai - kamers Bank"
   }
  ],
  "sentiment": {
