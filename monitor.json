@@ -1,20 +1,13 @@
 {
- "updated": "28-07-2026 20:30 PKT",
+ "updated": "28-07-2026 22:06 PKT",
  "gold": {
-  "price": 4037.51,
-  "open": 4075.79,
-  "high": 4094.61,
+  "price": 4039.85,
+  "open": 4072.75,
+  "high": 4089.81,
   "low": 4012.45,
-  "chg": -0.94,
+  "chg": -0.81,
   "src": "XAUUSD Spot",
   "spark": [
-   4047.98,
-   4048.27,
-   4044.24,
-   4046.3,
-   4047.02,
-   4042.61,
-   4041.71,
    4041.63,
    4042.11,
    4046.11,
@@ -55,14 +48,21 @@
    4021.54,
    4026.09,
    4032.29,
-   4037.51
+   4037.51,
+   4041.05,
+   4046.66,
+   4044.44,
+   4043.48,
+   4041.94,
+   4037.01,
+   4039.85
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.56,
-   "chg": -1.56,
+   "price": 57.595,
+   "chg": -1.5,
    "spark": [
     58.175,
     59.477,
@@ -84,12 +84,12 @@
     57.798,
     58.656,
     58.472,
-    57.56
+    57.595
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.31,
+   "price": 101.311,
    "chg": -0.16,
    "spark": [
     101.11,
@@ -111,13 +111,13 @@
     101.14,
     101.43,
     101.47,
-    101.31
+    101.311
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.53,
-   "chg": -3.73,
+   "price": 78.5,
+   "chg": -4.98,
    "spark": [
     70.75,
     69.5,
@@ -139,7 +139,7 @@
     92.19,
     89.31,
     82.61,
-    79.53
+    78.5
    ]
   },
   {
@@ -201,8 +201,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3305,
-   "chg": -0.35,
+   "price": 1.3303,
+   "chg": -0.36,
    "spark": [
     1.3197,
     1.3254,
@@ -225,13 +225,13 @@
     1.3375,
     1.3313,
     1.3351,
-    1.3305
+    1.3303
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.694,
-   "chg": 0.05,
+   "price": 163.722,
+   "chg": 0.07,
    "spark": [
     161.787,
     161.923,
@@ -254,16 +254,14 @@
     163.081,
     163.832,
     163.611,
-    163.694
+    163.722
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1908.73,
-   "chg": 0.95,
+   "price": 1920.74,
+   "chg": 1.58,
    "spark": [
-    1914.56,
-    1909.51,
     1912.84,
     1912.43,
     1911.97,
@@ -309,16 +307,16 @@
     1890.27,
     1872.2,
     1885.91,
-    1908.73
+    1917.91,
+    1923.89,
+    1920.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63663.7,
-   "chg": -0.05,
+   "price": 63903.0,
+   "chg": 0.32,
    "spark": [
-    64672.5,
-    64620.0,
     64691.1,
     64640.6,
     64595.0,
@@ -364,19 +362,13 @@
     63475.3,
     63033.8,
     63337.3,
-    63663.9
+    63858.9,
+    63969.9,
+    63900.6
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785247200.0,
-   "t": "Tue 28 Jul \u00b7 07:00 PM",
-   "title": "CB Consumer Confidence",
-   "impact": "Medium",
-   "forecast": "92.4",
-   "previous": "91.2"
-  },
   {
    "ts": 1785348000.0,
    "t": "Wed 29 Jul \u00b7 11:00 PM",
@@ -448,25 +440,49 @@
    "impact": "Medium",
    "forecast": "53.9",
    "previous": "54.4"
+  },
+  {
+   "ts": 1785506400.0,
+   "t": "Fri 31 Jul \u00b7 07:00 PM",
+   "title": "Revised UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.2%"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785252656.811815,
+   "ts": 1785258378.428878,
    "title": "Gold prices slip as firm dollar weighs, Fed decision eyed",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-slip-as-firm-dollar-weighs-fed-decision-eyed-4815435",
-   "t": "28 Jul \u00b7 08:30 PM",
+   "t": "28 Jul \u00b7 10:06 PM",
    "ur": "Dollar ke mazboot wazin ke sath hi Gold (sone) ki qeemtin garti hen, fed ke fisale par nazar hai."
   },
   {
-   "ts": 1785252656.811815,
+   "ts": 1785258378.428878,
    "title": "Gold price outlook: $4,000 level tested amid Fed & rate risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/stock-market-news/gold-price-outlook-4000-level-tested-amid-fed--rate-risks-93CH-4816453",
-   "t": "28 Jul \u00b7 08:30 PM",
+   "t": "28 Jul \u00b7 10:06 PM",
    "ur": "Gold (sone) ki qeemat ka naqatah nazar: fed aur rate ke khatrat ke darmiyan $4,000 ki sath ka tajrabah kiya gaya."
+  },
+  {
+   "ts": 1785254737.0,
+   "title": "Silver loses ground as hopes for US-Iran deal improve risk appetite",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-loses-ground-as-hopes-for-us-iran-deal-improve-risk-appetite-202607281605",
+   "t": "28 Jul \u00b7 09:05 PM",
+   "ur": "Silver (chandi) ki garound gar gayi cunkah amrikah-eran del ki amidin khatre ki bhok ko behtar karti hen."
+  },
+  {
+   "ts": 1785254236.0,
+   "title": "US Dollar Index eases from tops, back to 101.30 ahead of Fed",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-eases-from-tops-back-to-10130-ahead-of-fed-202607281557",
+   "t": "28 Jul \u00b7 08:57 PM",
+   "ur": "US Dollar Index Fed se aage 101.30 par waps, sab se oper se aaram karta hai."
   },
   {
    "ts": 1785251776.0,
@@ -515,22 +531,6 @@
    "link": "https://www.fxstreet.com/news/federal-reserve-knife-edge-policy-risks-surprise-ing-202607281424",
    "t": "28 Jul \u00b7 07:24 PM",
    "ur": "Faderl resero: chaqo ke kanare ki palisi heeran kan khatrat - ING"
-  },
-  {
-   "ts": 1785248116.0,
-   "title": "Euro holds near recent lows as Fed interest rate decision looms",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-holds-near-recent-lows-against-us-dollar-as-fed-interest-rate-decision-looms-202607281415",
-   "t": "28 Jul \u00b7 07:15 PM",
-   "ur": "Fed rate sud ke fisale ki wajah se uro haaliya kam tarin sath par hai."
-  },
-  {
-   "ts": 1785247313.0,
-   "title": "Why hot Australian inflation could reignite the Reserve Bank of Australia hike debate",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/why-hot-australian-inflation-could-reignite-the-reserve-bank-of-australia-hike-debate-202607281401",
-   "t": "28 Jul \u00b7 07:01 PM",
-   "ur": "Kiyon garm aasterilvi inflation (mehngai) resero Bank af aasteriliya mein azafe ki bahas ko dubarah sharo kar sakta hai."
   }
  ],
  "sentiment": {
