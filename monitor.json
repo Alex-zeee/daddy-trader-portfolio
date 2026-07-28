@@ -1,18 +1,13 @@
 {
- "updated": "29-07-2026 01:06 PKT",
+ "updated": "29-07-2026 02:19 PKT",
  "gold": {
-  "price": 4023.85,
-  "open": 4082.07,
-  "high": 4082.34,
+  "price": 4028.84,
+  "open": 4076.87,
+  "high": 4081.47,
   "low": 4012.45,
-  "chg": -1.43,
+  "chg": -1.18,
   "src": "XAUUSD Spot",
   "spark": [
-   4049.74,
-   4042.75,
-   4044.19,
-   4042.81,
-   4040.61,
    4033.78,
    4019.11,
    4023.48,
@@ -55,14 +50,19 @@
    4023.13,
    4025.03,
    4027.65,
-   4023.85
+   4024.26,
+   4027.76,
+   4030.16,
+   4028.58,
+   4028.79,
+   4028.84
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.405,
-   "chg": -1.82,
+   "price": 57.335,
+   "chg": -1.94,
    "spark": [
     58.175,
     59.477,
@@ -84,12 +84,12 @@
     57.798,
     58.656,
     58.472,
-    57.405
+    57.335
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.392,
+   "price": 101.386,
    "chg": -0.12,
    "spark": [
     101.11,
@@ -111,13 +111,13 @@
     101.14,
     101.43,
     101.51,
-    101.392
+    101.386
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.06,
-   "chg": -4.3,
+   "price": 79.13,
+   "chg": -4.21,
    "spark": [
     70.75,
     69.5,
@@ -139,7 +139,7 @@
     92.19,
     89.31,
     82.61,
-    79.06
+    79.13
    ]
   },
   {
@@ -171,8 +171,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1391,
-   "chg": -0.04,
+   "price": 1.1393,
+   "chg": -0.01,
    "spark": [
     1.1386,
     1.1422,
@@ -195,13 +195,13 @@
     1.1412,
     1.1377,
     1.1395,
-    1.1391
+    1.1393
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3288,
-   "chg": -0.47,
+   "price": 1.3296,
+   "chg": -0.42,
    "spark": [
     1.3197,
     1.3254,
@@ -224,13 +224,13 @@
     1.3375,
     1.3313,
     1.3351,
-    1.3288
+    1.3296
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.862,
-   "chg": 0.15,
+   "price": 163.837,
+   "chg": 0.14,
    "spark": [
     161.787,
     161.923,
@@ -253,15 +253,14 @@
     163.081,
     163.832,
     163.611,
-    163.862
+    163.837
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1918.02,
+   "price": 1918.0,
    "chg": 1.44,
    "spark": [
-    1923.9,
     1948.31,
     1953.47,
     1940.28,
@@ -308,15 +307,15 @@
     1899.4,
     1909.16,
     1919.33,
-    1918.02
+    1915.86,
+    1918.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63846.7,
+   "price": 63840.8,
    "chg": 0.23,
    "spark": [
-    64784.7,
     65346.7,
     65336.6,
     65057.3,
@@ -363,7 +362,8 @@
     63608.7,
     63662.8,
     63801.5,
-    63846.7
+    63830.6,
+    63838.3
    ]
   }
  ],
@@ -452,20 +452,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785269169.286997,
+   "ts": 1785273574.002511,
    "title": "Gold locked below $4,066 resistance: Live bearish levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "29 Jul \u00b7 01:06 AM",
+   "t": "29 Jul \u00b7 02:19 AM",
    "ur": "Gold (sona) $4,066 mazahmat se niche maqfl: barah raast mandi ki sath"
   },
   {
-   "ts": 1785269169.286997,
+   "ts": 1785273574.002511,
    "title": "Silver bear flag at $56.875 tests $55.00 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "29 Jul \u00b7 01:06 AM",
+   "t": "29 Jul \u00b7 02:19 AM",
    "ur": "$56.875 par salor bare fileg $55.00 sport ki janch karta hai."
+  },
+  {
+   "ts": 1785271140.0,
+   "title": "United States: Supercore and measurement debates shape Fed path \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-supercore-and-measurement-debates-shape-fed-path-bny-202607282039",
+   "t": "29 Jul \u00b7 01:39 AM",
+   "ur": "Ryastahaye matehdah: super kor aur pemaish ke muhasay fed path ko tashkil dite hen \u2013 BNY"
+  },
+  {
+   "ts": 1785269714.0,
+   "title": "Forex Today: US Dollar eases ahead of Fed as Oil and Gold extend losses",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-eases-ahead-of-fed-as-oil-and-gold-extend-losses-202607282015",
+   "t": "29 Jul \u00b7 01:15 AM",
+   "ur": "Farex today: til aur Gold (sone) ke khasare mein azafe ke baas US Dollar fed ke maqable mein narmi karta hai."
   },
   {
    "ts": 1785268907.0,
@@ -514,22 +530,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-index-eases-from-tops-back-to-10130-ahead-of-fed-202607281557",
    "t": "28 Jul \u00b7 08:57 PM",
    "ur": "US Dollar Index Fed se aage 101.30 par waps, sab se oper se aaram karta hai."
-  },
-  {
-   "ts": 1785251776.0,
-   "title": "Gold: Hawkish Fed delays Gold recovery path \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-hawkish-fed-delays-gold-recovery-path-commerzbank-202607281516",
-   "t": "28 Jul \u00b7 08:16 PM",
-   "ur": "Gold: hakish fed ne Gold (sone) ki baziyabi ke raaste mein taakhair ki - kamers Bank"
-  },
-  {
-   "ts": 1785250542.0,
-   "title": "Australian Dollar holds onto losses after Bullock keeps further rate hikes on the table",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-onto-losses-after-bullock-keeps-further-rate-hikes-on-the-table-202607281455",
-   "t": "28 Jul \u00b7 07:55 PM",
-   "ur": "Bel ki qeemton mein mazid azafe ke bad aasterilvi Dollar khasare mein hai."
   }
  ],
  "sentiment": {
