@@ -1,19 +1,13 @@
 {
- "updated": "29-07-2026 04:30 PKT",
+ "updated": "29-07-2026 05:57 PKT",
  "gold": {
-  "price": 4018.24,
-  "open": 4072.73,
-  "high": 4073.65,
+  "price": 4023.69,
+  "open": 4059.85,
+  "high": 4059.92,
   "low": 4012.45,
-  "chg": -1.34,
+  "chg": -0.89,
   "src": "XAUUSD Spot",
   "spark": [
-   4027.67,
-   4027.21,
-   4027.57,
-   4034.28,
-   4033.91,
-   4029.11,
    4033.61,
    4030.25,
    4022.28,
@@ -55,14 +49,20 @@
    4018.61,
    4019.85,
    4022.45,
-   4018.24
+   4018.24,
+   4021.06,
+   4026.1,
+   4021.28,
+   4022.94,
+   4025.66,
+   4023.69
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.095,
-   "chg": -2.35,
+   "price": 57.5,
+   "chg": -1.66,
    "spark": [
     58.175,
     59.477,
@@ -84,12 +84,12 @@
     57.798,
     58.656,
     58.472,
-    57.095
+    57.5
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.393,
+   "price": 101.392,
    "chg": -0.12,
    "spark": [
     101.11,
@@ -111,13 +111,13 @@
     101.14,
     101.43,
     101.51,
-    101.393
+    101.392
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.56,
-   "chg": -0.06,
+   "price": 82.53,
+   "chg": -0.1,
    "spark": [
     70.75,
     69.5,
@@ -139,7 +139,7 @@
     92.19,
     89.31,
     82.61,
-    82.56
+    82.53
    ]
   },
   {
@@ -171,8 +171,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1388,
-   "chg": 0.17,
+   "price": 1.1392,
+   "chg": 0.2,
    "spark": [
     1.1422,
     1.1413,
@@ -195,13 +195,13 @@
     1.1377,
     1.1395,
     1.1369,
-    1.1388
+    1.1392
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3285,
-   "chg": -0.03,
+   "price": 1.3292,
+   "chg": 0.02,
    "spark": [
     1.3254,
     1.3251,
@@ -224,13 +224,13 @@
     1.3313,
     1.3351,
     1.329,
-    1.3285
+    1.3292
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.853,
-   "chg": 0.05,
+   "price": 163.707,
+   "chg": -0.04,
    "spark": [
     161.923,
     162.628,
@@ -253,15 +253,14 @@
     163.832,
     163.611,
     163.771,
-    163.853
+    163.707
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1906.36,
-   "chg": 0.82,
+   "price": 1915.78,
+   "chg": -0.21,
    "spark": [
-    1940.28,
     1946.25,
     1941.24,
     1947.86,
@@ -308,15 +307,15 @@
     1915.86,
     1921.41,
     1910.13,
-    1906.36
+    1919.88,
+    1915.78
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63588.2,
-   "chg": -0.17,
+   "price": 63903.8,
+   "chg": 0.09,
    "spark": [
-    65057.3,
     65139.9,
     65117.5,
     65221.7,
@@ -363,7 +362,8 @@
     63830.6,
     63899.3,
     63707.3,
-    63588.2
+    63859.6,
+    63903.8
    ]
   }
  ],
@@ -452,28 +452,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785281426.516223,
+   "ts": 1785286627.797422,
    "title": "Gold prices slip about 1% as traders show caution a day ahead of Fed rate decision",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-slip-as-firm-dollar-weighs-fed-decision-eyed-4815435",
-   "t": "29 Jul \u00b7 04:30 AM",
+   "t": "29 Jul \u00b7 05:57 AM",
    "ur": "Gold (sone) ki qeemton mein taqriban 1% ki kami waqa hoi hai cunkah taajr fed ret ke fisale se ek dan pehle ahtyat ka mazaharah karte hen."
   },
   {
-   "ts": 1785281426.516223,
+   "ts": 1785286627.797422,
    "title": "Gold locked below $4,066 resistance: Live bearish levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "29 Jul \u00b7 04:30 AM",
+   "t": "29 Jul \u00b7 05:57 AM",
    "ur": "Gold (sona) $4,066 mazahmat se niche maqfl: barah raast mandi ki sath"
   },
   {
-   "ts": 1785281426.516223,
+   "ts": 1785286627.797422,
    "title": "Silver bear flag at $56.875 tests $55.00 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "29 Jul \u00b7 04:30 AM",
+   "t": "29 Jul \u00b7 05:57 AM",
    "ur": "$56.875 par salor bare fileg $55.00 sport ki janch karta hai."
+  },
+  {
+   "ts": 1785286578.0,
+   "title": "Gold holds losses near $4,000 due to Middle East tensions, Fed rate uncertainty",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-holds-losses-near-4-000-due-to-middle-east-tensions-fed-rate-uncertainty-202607290056",
+   "t": "29 Jul \u00b7 05:56 AM",
+   "ur": "Masharq wasta ke tanao, fed ret ki ghair yaqeeni surtahal ki wajah se Gold (sona) $4,000 ke qarib khasare mein hai."
   },
   {
    "ts": 1785280224.0,
@@ -485,11 +493,11 @@
   },
   {
    "ts": 1785277800.0,
-   "title": "Australia CPI could boost Aussie if inflation arrives above 4%",
+   "title": "Australia CPI projected to arrive at 4% for June",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australia-cpi-could-boost-aussie-if-inflation-arrives-above-4-202607282230",
    "t": "29 Jul \u00b7 03:30 AM",
-   "ur": "Agar inflation (mehngai) 4 fisad se oper aajaye to aasteriliya CPI aasteriliya ko farog de sakta hai"
+   "ur": "Aasteriliyai CPI jon ke laye 4% tak pohchane ka amkan hai."
   },
   {
    "ts": 1785275520.0,
@@ -522,14 +530,6 @@
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-eases-ahead-of-fed-as-oil-and-gold-extend-losses-202607282015",
    "t": "29 Jul \u00b7 01:15 AM",
    "ur": "Farex today: til aur Gold (sone) ke khasare mein azafe ke baas US Dollar fed ke maqable mein narmi karta hai."
-  },
-  {
-   "ts": 1785268907.0,
-   "title": "Mexican Peso advances within range against the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-advances-within-range-against-the-us-dollar-202607282001",
-   "t": "29 Jul \u00b7 01:01 AM",
-   "ur": "Mexican peso US Dollar ke maqable mein had ke andar aage badh raha hai."
   }
  ],
  "sentiment": {
