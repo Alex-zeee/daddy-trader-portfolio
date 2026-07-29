@@ -1,20 +1,13 @@
 {
- "updated": "29-07-2026 16:37 PKT",
+ "updated": "29-07-2026 18:21 PKT",
  "gold": {
-  "price": 4030.88,
-  "open": 4027.9,
+  "price": 4017.89,
+  "open": 4030.86,
   "high": 4047.76,
   "low": 4009.79,
-  "chg": 0.07,
+  "chg": -0.32,
   "src": "XAUUSD Spot",
   "spark": [
-   4026.1,
-   4021.28,
-   4022.94,
-   4025.66,
-   4021.77,
-   4013.06,
-   4018.68,
    4027.23,
    4025.38,
    4028.03,
@@ -55,14 +48,21 @@
    4027.02,
    4029.22,
    4032.87,
-   4030.88
+   4031.51,
+   4031.44,
+   4027.9,
+   4015.42,
+   4020.81,
+   4022.06,
+   4015.61,
+   4017.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.885,
-   "chg": 1.03,
+   "price": 57.425,
+   "chg": 0.23,
    "spark": [
     58.175,
     59.477,
@@ -85,13 +85,13 @@
     58.656,
     58.472,
     57.296,
-    57.885
+    57.425
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.402,
-   "chg": 0.02,
+   "price": 101.464,
+   "chg": -0.05,
    "spark": [
     101.11,
     101.19,
@@ -111,15 +111,14 @@
     101.18,
     101.14,
     101.43,
-    101.47,
-    101.38,
-    101.402
+    101.51,
+    101.464
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.98,
-   "chg": 4.69,
+   "price": 84.49,
+   "chg": 6.6,
    "spark": [
     70.75,
     69.5,
@@ -142,13 +141,13 @@
     89.31,
     82.61,
     79.26,
-    82.98
+    84.49
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.604,
-   "chg": -0.8,
+   "price": 4.63,
+   "chg": -0.24,
    "spark": [
     4.374,
     4.418,
@@ -168,15 +167,14 @@
     4.628,
     4.657,
     4.703,
-    4.679,
     4.641,
-    4.604
+    4.63
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1388,
-   "chg": 0.17,
+   "price": 1.1384,
+   "chg": 0.13,
    "spark": [
     1.1422,
     1.1413,
@@ -199,13 +197,13 @@
     1.1377,
     1.1395,
     1.1369,
-    1.1388
+    1.1384
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3296,
-   "chg": 0.05,
+   "price": 1.3283,
+   "chg": -0.05,
    "spark": [
     1.3254,
     1.3251,
@@ -228,13 +226,13 @@
     1.3313,
     1.3351,
     1.329,
-    1.3296
+    1.3283
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.666,
-   "chg": -0.06,
+   "price": 163.735,
+   "chg": -0.02,
    "spark": [
     161.923,
     162.628,
@@ -257,16 +255,14 @@
     163.832,
     163.611,
     163.771,
-    163.666
+    163.735
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1908.59,
-   "chg": -0.58,
+   "price": 1899.83,
+   "chg": -1.04,
    "spark": [
-    1955.1,
-    1958.62,
     1929.85,
     1925.69,
     1938.48,
@@ -312,16 +308,16 @@
     1912.7,
     1919.9,
     1909.81,
-    1908.59
+    1913.01,
+    1903.0,
+    1899.83
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64349.9,
-   "chg": 0.79,
+   "price": 64118.5,
+   "chg": 0.43,
    "spark": [
-    65010.0,
-    65157.2,
     64615.4,
     64482.4,
     64831.3,
@@ -367,7 +363,9 @@
     64330.9,
     64614.9,
     64393.7,
-    64349.9
+    64424.9,
+    64200.0,
+    64118.5
    ]
   }
  ],
@@ -456,84 +454,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785325067.66812,
+   "ts": 1785331272.315585,
+   "title": "Gold edges up ahead of Fed decision as softer dollar offsets inflation fears",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
+   "t": "29 Jul \u00b7 06:21 PM",
+   "ur": "Gold (sona) fed ke fisale se aage badh gaya cunkah narm Dollar mahungai ke khadshat ko pora karta hai."
+  },
+  {
+   "ts": 1785331272.315585,
    "title": "After the quake came the blast: Inside Japan\u2019s shopping mall disaster",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/after-the-quake-came-the-blast-inside-japans-shopping-mall-disaster-4818780",
-   "t": "29 Jul \u00b7 04:37 PM",
+   "t": "29 Jul \u00b7 06:21 PM",
    "ur": "Zalzale ke bad dhamakah hawa: japan ke shaping mal ki tabahi ke andar"
   },
   {
-   "ts": 1785325067.66812,
-   "title": "Gold edges up ahead of Fed decision as softer dollar offsets inflation worries",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
-   "t": "29 Jul \u00b7 04:37 PM",
-   "ur": "Gold (sona) fed ke fisale se aage badh raha hai cunkah narm Dollar mahungai ke khadshat ko pora karta hai."
-  },
-  {
-   "ts": 1785325067.66812,
-   "title": "Gold stuck in $3,955-$4,170 squeeze: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "29 Jul \u00b7 04:37 PM",
-   "ur": "Gold (sona) $3,955-$4,170 nchod mein phans gaya."
-  },
-  {
-   "ts": 1785325067.66812,
-   "title": "Silver trapped in $55-$60.40 range near key zone: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "29 Jul \u00b7 04:37 PM",
-   "ur": "Silver (chandi) kalidi zon ke qarib $55-$60.40 ki had mein phansi hoi hai."
-  },
-  {
-   "ts": 1785323812.0,
-   "title": "Why is the US Dollar vulnerable when the Federal Reserve is expected to deliver a hawkish hold?",
+   "ts": 1785331175.0,
+   "title": "Singapore Dollar: Range guidance around NEER band \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/why-is-the-us-dollar-vulnerable-when-the-federal-reserve-is-expected-to-deliver-a-hawkish-hold-202607291116",
-   "t": "29 Jul \u00b7 04:16 PM",
-   "ur": "Jab faderl resero ki janb se hakish hold faraham karne ki toqa ki jati hai to US Dollar kiyon kamazor hai?"
+   "link": "https://www.fxstreet.com/news/singapore-dollar-range-guidance-around-neer-band-uob-202607291319",
+   "t": "29 Jul \u00b7 06:19 PM",
+   "ur": "Sangapor Dollar: NEER bind - UOB ke ard gard rinj gaidens"
   },
   {
-   "ts": 1785323403.0,
-   "title": "Australian Dollar: Pressured against US Dollar by softer CPI \u2013 Societe Generale",
+   "ts": 1785330380.0,
+   "title": "Canadian Dollar strengthens modestly against US Dollar ahead of Fed decision",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-pressured-against-us-dollar-by-softer-cpi-societe-generale-202607291110",
-   "t": "29 Jul \u00b7 04:10 PM",
-   "ur": "Aasterilvi Dollar: narm CPI ki taraf se US Dollar ke khalaf dabao - socit janerl"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-strengthens-modestly-against-us-dollar-ahead-of-fed-decision-202607291306",
+   "t": "29 Jul \u00b7 06:06 PM",
+   "ur": "Fed ke fisale se pehle caniden Dollar US Dollar ke maqable mein mamoli mazboot hawa."
   },
   {
-   "ts": 1785323324.0,
-   "title": "Gold struggles for direction ahead of Federal Reserve policy verdict",
+   "ts": 1785330084.0,
+   "title": "Oil: Middle East tensions revive inflation channel \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-struggles-for-direction-ahead-of-federal-reserve-policy-verdict-202607291108",
-   "t": "29 Jul \u00b7 04:08 PM",
-   "ur": "Gold (sona) faderl resero palisi ke fisale se pehle samat ke liye jadojehad kar raha hai."
+   "link": "https://www.fxstreet.com/news/oil-middle-east-tensions-revive-inflation-channel-bny-202607291301",
+   "t": "29 Jul \u00b7 06:01 PM",
+   "ur": "Til: masharq wasta ke tanao ne inflation (mehngai) ke chinl ko bahal kiya - BNY"
   },
   {
-   "ts": 1785319286.0,
-   "title": "Federal Reserve: Extended pause guidance \u2013 UOB",
+   "ts": 1785327724.0,
+   "title": "US Dollar: Stretched positioning caps gains against peers \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-extended-pause-guidance-uob-202607291001",
-   "t": "29 Jul \u00b7 03:01 PM",
-   "ur": "Faderl resero: tosiyi toqf ki rahnumi - UOB"
+   "link": "https://www.fxstreet.com/news/us-dollar-stretched-positioning-caps-gains-against-peers-bny-202607291222",
+   "t": "29 Jul \u00b7 05:22 PM",
+   "ur": "US Dollar: sathiyon ke maqable mein sterichad pozitioning caps ka faidah - BNY"
   },
   {
-   "ts": 1785318947.0,
-   "title": "Canadian Dollar: BoC minutes watched for inflation tone \u2013 TD Securities",
+   "ts": 1785327167.0,
+   "title": "Australian Dollar: Softer CPI keeps RBA on hold \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-boc-minutes-watched-for-inflation-tone-td-securities-202607290955",
-   "t": "29 Jul \u00b7 02:55 PM",
-   "ur": "Caniden Dollar: inflation (mehngai) ke lahaje ke liye BoC mant dekhe gaye - TD securitez"
+   "link": "https://www.fxstreet.com/news/australian-dollar-softer-cpi-keeps-rba-on-hold-td-securities-202607291212",
+   "t": "29 Jul \u00b7 05:12 PM",
+   "ur": "Aasterilin Dollar: narm CPI ne RBA ko hold par rakha - TD securitez"
   },
   {
-   "ts": 1785318321.0,
-   "title": "Euro: Seen back toward 1.15 against US Dollar \u2013 ING",
+   "ts": 1785326541.0,
+   "title": "British Pound languishes below 1.3300 heading into Fed and BoE decisions",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-seen-back-toward-115-against-us-dollar-ing-202607290945",
-   "t": "29 Jul \u00b7 02:45 PM",
-   "ur": "Uro: US Dollar - ING ke maqable mein 1.15 ki taraf waps dekha gaya."
+   "link": "https://www.fxstreet.com/news/british-pound-languishes-below-13300-heading-into-fed-and-boe-decisions-202607291202",
+   "t": "29 Jul \u00b7 05:02 PM",
+   "ur": "Bartanvi pound Fed aur BoE ke fisalon ki wajah se 1.3300 se niche hai."
+  },
+  {
+   "ts": 1785326244.0,
+   "title": "Federal Reserve: Hawkish hold could restore Dollar support \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/federal-reserve-hawkish-hold-could-restore-dollar-support-bbh-202607291157",
+   "t": "29 Jul \u00b7 04:57 PM",
+   "ur": "Faderl resero: hakish hold Dollar ki support ko bahal kar sakta hai - BBH"
+  },
+  {
+   "ts": 1785325736.0,
+   "title": "Japanese Yen: Fed risk clouds recovery against US Dollar \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-fed-risk-clouds-recovery-against-us-dollar-rabobank-202607291148",
+   "t": "29 Jul \u00b7 04:48 PM",
+   "ur": "Japani yan: US Dollar ke maqable mein fed khatre ke badilon ki recovery - rabobank"
   }
  ],
  "sentiment": {
