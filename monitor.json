@@ -1,17 +1,13 @@
 {
- "updated": "30-07-2026 02:10 PKT",
+ "updated": "30-07-2026 03:10 PKT",
  "gold": {
-  "price": 4066.36,
-  "open": 4028.71,
+  "price": 4068.43,
+  "open": 4026.45,
   "high": 4114.04,
   "low": 3996.32,
-  "chg": 0.93,
+  "chg": 1.04,
   "src": "XAUUSD Spot",
   "spark": [
-   4033.75,
-   4034.69,
-   4033.11,
-   4031.71,
    4032.6,
    4027.21,
    4027.02,
@@ -55,14 +51,18 @@
    4054.36,
    4067.94,
    4066.93,
-   4066.36
+   4066.3,
+   4066.3,
+   4066.31,
+   4065.84,
+   4068.43
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.9,
-   "chg": 1.05,
+   "price": 57.925,
+   "chg": 1.1,
    "spark": [
     58.175,
     59.477,
@@ -85,12 +85,12 @@
     58.656,
     58.472,
     57.296,
-    57.9
+    57.925
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.818,
+   "price": 100.821,
    "chg": -0.55,
    "spark": [
     101.11,
@@ -114,13 +114,13 @@
     101.47,
     101.51,
     101.38,
-    100.818
+    100.821
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.6,
-   "chg": 6.74,
+   "price": 84.36,
+   "chg": 6.43,
    "spark": [
     70.75,
     69.5,
@@ -143,7 +143,7 @@
     89.31,
     82.61,
     79.26,
-    84.6
+    84.36
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1467,
-   "chg": 0.85,
+   "price": 1.1472,
+   "chg": 0.9,
    "spark": [
     1.1422,
     1.1413,
@@ -201,13 +201,13 @@
     1.1377,
     1.1395,
     1.1369,
-    1.1467
+    1.1472
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3361,
-   "chg": 0.53,
+   "price": 1.337,
+   "chg": 0.6,
    "spark": [
     1.3254,
     1.3251,
@@ -230,13 +230,13 @@
     1.3313,
     1.3351,
     1.329,
-    1.3361
+    1.337
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.382,
-   "chg": -0.24,
+   "price": 163.401,
+   "chg": -0.23,
    "spark": [
     161.923,
     162.628,
@@ -259,15 +259,14 @@
     163.832,
     163.611,
     163.771,
-    163.382
+    163.401
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1882.61,
-   "chg": -1.94,
+   "price": 1904.08,
+   "chg": -0.82,
    "spark": [
-    1893.37,
     1891.1,
     1877.14,
     1874.23,
@@ -314,15 +313,15 @@
     1917.91,
     1886.47,
     1882.16,
-    1882.61
+    1894.71,
+    1904.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63379.5,
-   "chg": -0.73,
+   "price": 63940.7,
+   "chg": 0.15,
    "spark": [
-    63750.0,
     63697.1,
     63418.8,
     63164.5,
@@ -369,19 +368,12 @@
     64424.8,
     63514.9,
     63444.2,
-    63360.8
+    63766.8,
+    63940.7
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785349800.0,
-   "t": "Wed 29 Jul \u00b7 11:30 PM",
-   "title": "FOMC Press Conference",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1785414600.0,
    "t": "Thu 30 Jul \u00b7 05:30 PM",
@@ -442,44 +434,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785359431.302239,
+   "ts": 1785363044.994841,
    "title": "Trump says will hit Iran hard after attack, was briefed on Egypt tanker",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-says-will-hit-iran-hard-after-attack-was-briefed-on-egypt-tanker-4821606",
-   "t": "30 Jul \u00b7 02:10 AM",
+   "t": "30 Jul \u00b7 03:10 AM",
    "ur": "Trmp ka kahana hai kah hamle ke bad eran par saqt hamlah karin ge, masri tinkar par barifung di gayi."
   },
   {
-   "ts": 1785359431.302239,
+   "ts": 1785363044.994841,
    "title": "After the quake came the blast: Inside Japan\u2019s shopping mall disaster",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/after-the-quake-came-the-blast-inside-japans-shopping-mall-disaster-4818780",
-   "t": "30 Jul \u00b7 02:10 AM",
+   "t": "30 Jul \u00b7 03:10 AM",
    "ur": "Zalzale ke bad dhamakah hawa: japan ke shaping mal ki tabahi ke andar"
   },
   {
-   "ts": 1785359431.302239,
+   "ts": 1785363044.994841,
    "title": "Silver stuck mid-range at $59.47: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "30 Jul \u00b7 02:10 AM",
+   "t": "30 Jul \u00b7 03:10 AM",
    "ur": "Silver (chandi) darmiyani had mein $59.47 par phans gayi: laaio fi ghanta ki sath"
   },
   {
-   "ts": 1785359431.302239,
+   "ts": 1785363044.994841,
    "title": "Gold nears $4,150 resistance on bullish 5h close: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "30 Jul \u00b7 02:10 AM",
+   "t": "30 Jul \u00b7 03:10 AM",
    "ur": "Gold (sona) tizi ke 5 ghantay ke qarib $4,150 mazahmat ke qarib hai."
-  },
-  {
-   "ts": 1785359431.302239,
-   "title": "Gold jumps over 1% as Fed holds rates steady, dollar weakens",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
-   "t": "30 Jul \u00b7 02:10 AM",
-   "ur": "Gold (sona) 1% se ziyadah chhalang lagata hai cunkah fed ki rate mastahkam rahti hai, Dollar kamazor hota hai."
   },
   {
    "ts": 1785358201.0,
@@ -520,6 +504,14 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-rebounds-after-fed-hold-202607291844",
    "t": "29 Jul \u00b7 11:44 PM",
    "ur": "Fed hold ke bad niyozi lind Dollar ki qeemat mein tizi"
+  },
+  {
+   "ts": 1785350507.0,
+   "title": "Japanese Yen gains after hawkish Fed hold",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-gains-after-hawkish-fed-hold-202607291841",
+   "t": "29 Jul \u00b7 11:41 PM",
+   "ur": "Japani yan ki qeemat fed hold ke bad badh rahi hai."
   }
  ],
  "sentiment": {
