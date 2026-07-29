@@ -1,18 +1,13 @@
 {
- "updated": "29-07-2026 23:48 PKT",
+ "updated": "30-07-2026 01:05 PKT",
  "gold": {
-  "price": 4087.45,
-  "open": 4022.68,
-  "high": 4088.12,
+  "price": 4046.53,
+  "open": 4024.03,
+  "high": 4114.04,
   "low": 3996.32,
-  "chg": 1.61,
+  "chg": 0.56,
   "src": "XAUUSD Spot",
   "spark": [
-   4046.01,
-   4045.08,
-   4046.69,
-   4043.65,
-   4040.39,
    4037.8,
    4038.98,
    4037.92,
@@ -55,14 +50,19 @@
    4080.99,
    4065.93,
    4083.28,
-   4087.45
+   4108.26,
+   4100.87,
+   4084.09,
+   4069.91,
+   4047.98,
+   4046.53
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.515,
-   "chg": 2.13,
+   "price": 57.795,
+   "chg": 0.87,
    "spark": [
     58.175,
     59.477,
@@ -85,13 +85,13 @@
     58.656,
     58.472,
     57.296,
-    58.515
+    57.795
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.128,
-   "chg": -0.25,
+   "price": 100.929,
+   "chg": -0.44,
    "spark": [
     101.11,
     101.19,
@@ -111,15 +111,16 @@
     101.18,
     101.14,
     101.43,
+    101.47,
     101.51,
     101.38,
-    101.128
+    100.929
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.77,
-   "chg": 6.95,
+   "price": 84.96,
+   "chg": 7.19,
    "spark": [
     70.75,
     69.5,
@@ -142,13 +143,13 @@
     89.31,
     82.61,
     79.26,
-    84.77
+    84.96
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.647,
-   "chg": 0.93,
+   "price": 4.622,
+   "chg": 0.39,
    "spark": [
     4.374,
     4.418,
@@ -168,15 +169,16 @@
     4.628,
     4.657,
     4.703,
+    4.679,
     4.641,
     4.604,
-    4.647
+    4.622
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1446,
-   "chg": 0.67,
+   "price": 1.1453,
+   "chg": 0.74,
    "spark": [
     1.1422,
     1.1413,
@@ -199,13 +201,13 @@
     1.1377,
     1.1395,
     1.1369,
-    1.1446
+    1.1453
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3357,
-   "chg": 0.51,
+   "price": 1.3349,
+   "chg": 0.44,
    "spark": [
     1.3254,
     1.3251,
@@ -228,13 +230,13 @@
     1.3313,
     1.3351,
     1.329,
-    1.3357
+    1.3349
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.385,
-   "chg": -0.24,
+   "price": 163.513,
+   "chg": -0.16,
    "spark": [
     161.923,
     162.628,
@@ -257,16 +259,14 @@
     163.832,
     163.611,
     163.771,
-    163.385
+    163.513
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1919.53,
-   "chg": -0.01,
+   "price": 1885.07,
+   "chg": -1.81,
    "spark": [
-    1946.38,
-    1945.04,
     1940.07,
     1893.37,
     1891.1,
@@ -312,16 +312,16 @@
     1889.02,
     1892.2,
     1914.29,
-    1919.53
+    1917.91,
+    1886.47,
+    1885.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64348.5,
-   "chg": 0.79,
+   "price": 63483.1,
+   "chg": -0.57,
    "spark": [
-    64902.9,
-    64898.3,
     64746.7,
     63750.0,
     63697.1,
@@ -367,7 +367,9 @@
     63881.9,
     63725.0,
     64178.0,
-    64340.2
+    64424.8,
+    63514.9,
+    63474.6
    ]
   }
  ],
@@ -456,20 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785350911.355197,
+   "ts": 1785355534.179172,
+   "title": "After the quake came the blast: Inside Japan\u2019s shopping mall disaster",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/after-the-quake-came-the-blast-inside-japans-shopping-mall-disaster-4818780",
+   "t": "30 Jul \u00b7 01:05 AM",
+   "ur": "Zalzale ke bad dhamakah hawa: japan ke shaping mal ki tabahi ke andar"
+  },
+  {
+   "ts": 1785355534.179172,
+   "title": "Silver stuck mid-range at $59.47: Live hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
+   "t": "30 Jul \u00b7 01:05 AM",
+   "ur": "Silver (chandi) darmiyani had mein $59.47 par phans gayi: laaio fi ghanta ki sath"
+  },
+  {
+   "ts": 1785355534.179172,
+   "title": "Gold nears $4,150 resistance on bullish 5h close: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
+   "t": "30 Jul \u00b7 01:05 AM",
+   "ur": "Gold (sona) tizi ke 5 ghantay ke qarib $4,150 mazahmat ke qarib hai."
+  },
+  {
+   "ts": 1785355534.179172,
+   "title": "Gold jumps over 1% as Fed holds rates steady, dollar weakens",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
+   "t": "30 Jul \u00b7 01:05 AM",
+   "ur": "Gold (sona) 1% se ziyadah chhalang lagata hai cunkah fed ki rate mastahkam rahti hai, Dollar kamazor hota hai."
+  },
+  {
+   "ts": 1785355534.179172,
    "title": "US issues new Iran-related sanctions targeting tankers -Treasury",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-issues-new-iranrelated-sanctions-targeting-tankers-treasury-4820753",
-   "t": "29 Jul \u00b7 11:48 PM",
+   "t": "30 Jul \u00b7 01:05 AM",
    "ur": "Amrikah ne eran se matalq nayi pabandiyan jari kin jo tinkers ko nashana banati hen - treasurei"
   },
   {
-   "ts": 1785350911.355197,
-   "title": "Gold falls as firm dollar, Treasury yields weigh ahead of Fed decision",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
-   "t": "29 Jul \u00b7 11:48 PM",
-   "ur": "Gold (sona) mazboot Dollar ke tur par garta hai, fed ke fisale se pehle treasurei ki pedawar ka wazin hota hai."
+   "ts": 1785354346.0,
+   "title": "WTI remains muted after Fed hold",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/wti-remains-muted-after-fed-hold-202607291945",
+   "t": "30 Jul \u00b7 12:45 AM",
+   "ur": "Fed hold ke bad WTI khamosh rahta hai."
   },
   {
    "ts": 1785350648.0,
@@ -502,38 +536,6 @@
    "link": "https://www.fxstreet.com/news/euro-rises-despite-fed-hawkish-hold-eyes-on-warshs-speech-202607291814",
    "t": "29 Jul \u00b7 11:14 PM",
    "ur": "Uro ki qeemat fed ki hold ke bawajud badh gayi, warsh ki taqrir par nazarin"
-  },
-  {
-   "ts": 1785348641.0,
-   "title": "Dow Jones Industrial Average finds a bid in the thing the Fed did not do",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-finds-a-bid-in-the-thing-the-fed-did-not-do-202607291810",
-   "t": "29 Jul \u00b7 11:10 PM",
-   "ur": "Dow Jones Industrial Average is chies mein boli lagata hai jo Fed ne nihen kiya."
-  },
-  {
-   "ts": 1785348556.0,
-   "title": "British Pound Sterling collects a refund on the Fed hike that never came",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-sterling-collects-a-refund-on-the-fed-hike-that-never-came-202607291809",
-   "t": "29 Jul \u00b7 11:09 PM",
-   "ur": "Bartanvi pound sterling fed azafe par rakham ki wapsi jama karta hai jo kabhi nihen aaya tha."
-  },
-  {
-   "ts": 1785348551.0,
-   "title": "Gold surges after Fed holds as hawkish dissent fuels volatility",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-surges-after-fed-holds-as-hawkish-dissent-fuels-volatility-202607291809",
-   "t": "29 Jul \u00b7 11:09 PM",
-   "ur": "Fed ke bad Gold (sone) ki qeemton mein azafah ho gaya hai jisa kah hakash akhtalafi andhan ke atar chadhao ko hawa dita hai."
-  },
-  {
-   "ts": 1785348531.0,
-   "title": "The US Dollar Index sells the hold and ignores the hawks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-us-dollar-index-sells-the-hold-and-ignores-the-hawks-202607291808",
-   "t": "29 Jul \u00b7 11:08 PM",
-   "ur": "US Dollar andex hold ko farokht karta hai aur hox ko nazar andaz karta hai."
   }
  ],
  "sentiment": {
