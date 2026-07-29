@@ -1,23 +1,13 @@
 {
- "updated": "29-07-2026 08:58 PKT",
+ "updated": "29-07-2026 11:28 PKT",
  "gold": {
-  "price": 4023.86,
-  "open": 4048.73,
+  "price": 4041.22,
+  "open": 4047.43,
   "high": 4054.56,
   "low": 4009.79,
-  "chg": -0.61,
+  "chg": -0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   4044.44,
-   4043.48,
-   4041.94,
-   4037.01,
-   4036.03,
-   4038.52,
-   4028.4,
-   4027.95,
-   4028.8,
-   4026.88,
    4024.76,
    4022.59,
    4024.39,
@@ -55,14 +45,24 @@
    4028.13,
    4026.95,
    4025.57,
-   4023.86
+   4023.53,
+   4022.89,
+   4025.14,
+   4026.18,
+   4026.47,
+   4031.91,
+   4030.57,
+   4036.41,
+   4033.89,
+   4036.43,
+   4041.22
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.715,
-   "chg": -1.29,
+   "price": 58.145,
+   "chg": 1.48,
    "spark": [
     58.175,
     59.477,
@@ -84,40 +84,14 @@
     57.798,
     58.656,
     58.472,
-    57.715
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 101.296,
-   "chg": -0.17,
-   "spark": [
-    101.11,
-    101.19,
-    101.39,
-    100.86,
-    100.85,
-    101.14,
-    101.05,
-    100.94,
-    100.97,
-    101.28,
-    100.94,
-    100.5,
-    100.73,
-    100.75,
-    100.99,
-    101.18,
-    101.14,
-    101.43,
-    101.47,
-    101.296
+    57.296,
+    58.145
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.54,
-   "chg": -0.08,
+   "price": 82.17,
+   "chg": 3.67,
    "spark": [
     70.75,
     69.5,
@@ -139,13 +113,14 @@
     92.19,
     89.31,
     82.61,
-    82.54
+    79.26,
+    82.17
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.604,
-   "chg": -0.8,
+   "price": 4.641,
+   "chg": -1.32,
    "spark": [
     4.374,
     4.418,
@@ -165,15 +140,13 @@
     4.628,
     4.657,
     4.703,
-    4.679,
-    4.641,
-    4.604
+    4.641
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.14,
-   "chg": 0.27,
+   "price": 1.1397,
+   "chg": 0.25,
    "spark": [
     1.1422,
     1.1413,
@@ -196,12 +169,12 @@
     1.1377,
     1.1395,
     1.1369,
-    1.14
+    1.1397
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3295,
+   "price": 1.3296,
    "chg": 0.04,
    "spark": [
     1.3254,
@@ -225,13 +198,13 @@
     1.3313,
     1.3351,
     1.329,
-    1.3295
+    1.3296
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.617,
-   "chg": -0.09,
+   "price": 163.542,
+   "chg": -0.14,
    "spark": [
     161.923,
     162.628,
@@ -254,17 +227,14 @@
     163.832,
     163.611,
     163.771,
-    163.617
+    163.542
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1889.98,
-   "chg": -1.55,
+   "price": 1914.61,
+   "chg": -0.27,
    "spark": [
-    1951.58,
-    1963.89,
-    1966.62,
     1962.63,
     1963.53,
     1963.52,
@@ -309,17 +279,17 @@
     1915.19,
     1902.97,
     1907.78,
-    1889.98
+    1889.59,
+    1902.8,
+    1909.81,
+    1914.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63638.7,
-   "chg": -0.32,
+   "price": 64256.8,
+   "chg": 0.65,
    "spark": [
-    65240.2,
-    65406.9,
-    65369.5,
     65164.1,
     65102.7,
     65207.0,
@@ -364,7 +334,10 @@
     63874.7,
     63627.9,
     63880.1,
-    63638.7
+    63657.0,
+    63883.2,
+    63979.6,
+    64256.8
    ]
   }
  ],
@@ -453,84 +426,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785297538.936878,
+   "ts": 1785306516.818161,
    "title": "Gold prices steady ahead of Fed decision; oil rebound revives inflation concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
-   "t": "29 Jul \u00b7 08:58 AM",
+   "t": "29 Jul \u00b7 11:28 AM",
    "ur": "Fed ke fisale se qabl Gold (sone) ki qeemtin mastahkam rahin. til ki recovery mahungai ke khadshat ko bahal karti hai."
   },
   {
-   "ts": 1785297538.936878,
+   "ts": 1785306516.818161,
    "title": "Gold prices slip about 1% as traders show caution a day ahead of Fed rate decision",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-slip-as-firm-dollar-weighs-fed-decision-eyed-4815435",
-   "t": "29 Jul \u00b7 08:58 AM",
+   "t": "29 Jul \u00b7 11:28 AM",
    "ur": "Gold (sone) ki qeemton mein taqriban 1% ki kami waqa hoi hai cunkah taajr fed ret ke fisale se ek dan pehle ahtyat ka mazaharah karte hen."
   },
   {
-   "ts": 1785297538.936878,
+   "ts": 1785306516.818161,
    "title": "Gold locked below $4,066 resistance: Live bearish levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "29 Jul \u00b7 08:58 AM",
+   "t": "29 Jul \u00b7 11:28 AM",
    "ur": "Gold (sona) $4,066 mazahmat se niche maqfl: barah raast mandi ki sath"
   },
   {
-   "ts": 1785297538.936878,
-   "title": "Silver bear flag at $56.875 tests $55.00 support: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "29 Jul \u00b7 08:58 AM",
-   "ur": "Silver (chandi) ke bears ka jhanda $56.875 par $55.00 sport ki janch karta hai."
+   "ts": 1785306076.0,
+   "title": "Euro: Softer Fed signals may lift EUR against US Dollar - Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-softer-fed-signals-may-lift-eur-against-us-dollar-commerzbank-202607290621",
+   "t": "29 Jul \u00b7 11:21 AM",
+   "ur": "Uro: narm fed skigles US Dollar ke maqable mein uro ko badha sakte hen - kamers Bank"
   },
   {
-   "ts": 1785294729.0,
-   "title": "Silver Price Forecast: XAG/USD gains even as oil prices rebound, Fed policy awaited",
+   "ts": 1785304283.0,
+   "title": "AUD/USD Price Forecast: Seems vulnerable near 0.6950 after soft CPI-driven breakdown",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-gains-even-as-oil-prices-rebound-fed-policy-awaited-202607290312",
-   "t": "29 Jul \u00b7 08:12 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD mein azafah yahan tak kah til ki qeemton mein azafah, fed palisi ka antezar"
+   "link": "https://www.fxstreet.com/news/aud-usd-price-forecast-seems-vulnerable-near-06950-after-soft-cpi-driven-breakdown-202607290551",
+   "t": "29 Jul \u00b7 10:51 AM",
+   "ur": "AUD/USD qeemat ki forecast: narm CPI par mbani kharabi ke bad 0.6950 ke qarib kamazor lagti hai"
   },
   {
-   "ts": 1785294055.0,
-   "title": "Euro advances as US Dollar declines ahead of Fed policy decision",
+   "ts": 1785304103.0,
+   "title": "Indonesian Rupiah gains as Fed uncertainty weighs on US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-advances-as-us-dollar-declines-ahead-of-fed-policy-decision-202607290300",
-   "t": "29 Jul \u00b7 08:00 AM",
-   "ur": "Fed palisi ke fisale se pehle US Dollar ki kami ke sath uro ki tarqi"
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-gains-as-fed-uncertainty-weighs-on-us-dollar-202607290548",
+   "t": "29 Jul \u00b7 10:48 AM",
+   "ur": "US Dollar par fed ki ghair yaqeeni surtahal ke wazin ke baas andonishin ropiya mein azafah hawa."
   },
   {
-   "ts": 1785292943.0,
-   "title": "Canadian Dollar remains on the front foot as USD bulls turn cautious ahead of Fed decision",
+   "ts": 1785301366.0,
+   "title": "New Zealand Dollar holds steady below 0.5900 vs USD as traders seem hesitant ahead of FOMC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-on-the-front-foot-as-usd-bulls-turn-cautious-ahead-of-fed-decision-202607290242",
-   "t": "29 Jul \u00b7 07:42 AM",
-   "ur": "Caniden Dollar farnt ft par rahta hai cunkah fed ke fisale se pehle USD bel muhatat ho jate hen."
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-steady-below-05900-vs-usd-as-traders-seem-hesitant-ahead-of-fomc-202607290502",
+   "t": "29 Jul \u00b7 10:02 AM",
+   "ur": "Niyozi lind Dollar 0.5900 bamaqablah USD se niche mastahkam hai cunkah taajr FOMC se aage tazbazb ka shkar nazar aate hen"
   },
   {
-   "ts": 1785290448.0,
-   "title": "United States Dollar Index (DXY) flat below 101.50 as bulls await FOMC amid Iran risks",
+   "ts": 1785299842.0,
+   "title": "Gold bounces off one-week low as USD bulls turn cautious ahead of FOMC decision",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-dxy-flat-below-10150-as-bulls-await-fomc-amid-iran-risks-202607290200",
-   "t": "29 Jul \u00b7 07:00 AM",
-   "ur": "US Dollar andex (DXY) 101.50 se niche filet hai cunkah bel eran ke khatrat ke darmiyan FOMC ka antezar kar rahe hen"
+   "link": "https://www.fxstreet.com/news/gold-consolidates-near-two-week-low-holds-above-4-000-as-traders-await-fomc-decision-202607290437",
+   "t": "29 Jul \u00b7 09:37 AM",
+   "ur": "Gold (sona) ek hafte ki kam tarin sath par achal raha hai cunkah FOMC fisale se pehle USD bel muhatat ho jate hen."
   },
   {
-   "ts": 1785289877.0,
-   "title": "Australian Dollar falls to one-week low vs Yen as soft CPI triggers heavy selling",
+   "ts": 1785299794.0,
+   "title": "India Gold price today: Gold falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-falls-to-one-week-low-vs-yen-as-soft-cpi-triggers-heavy-selling-202607290151",
-   "t": "29 Jul \u00b7 06:51 AM",
-   "ur": "Aasterilvi Dollar yan ke maqable mein ek hafte ki kam tarin sath par gar gaya cunkah narm CPI bhari farokht ko matehrk karta hai"
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202607290436",
+   "t": "29 Jul \u00b7 09:36 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
   },
   {
-   "ts": 1785289434.0,
-   "title": "Australian Dollar slips as softer inflation cools domestic rate expectations",
+   "ts": 1785299460.0,
+   "title": "British Pound gains ground as US Dollar struggles ahead of Fed decision",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-slips-as-softer-inflation-cools-domestic-rate-expectations-202607290143",
-   "t": "29 Jul \u00b7 06:43 AM",
-   "ur": "Aasterilvi Dollar ki qeemat garti hai cunkah narm inflation (mehngai) ne maqami rate ki toqaat ko thanda kiya hai."
+   "link": "https://www.fxstreet.com/news/british-pound-gains-ground-as-us-dollar-struggles-ahead-of-fed-decision-202607290431",
+   "t": "29 Jul \u00b7 09:31 AM",
+   "ur": "Bartanvi pound ne zamin haasil ki cunkah US Dollar fed ke fisale se pehle jadojehad kar raha hai."
   }
  ],
  "sentiment": {
