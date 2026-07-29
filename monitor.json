@@ -1,18 +1,13 @@
 {
- "updated": "29-07-2026 21:44 PKT",
+ "updated": "29-07-2026 22:55 PKT",
  "gold": {
-  "price": 4016.75,
-  "open": 4041.73,
-  "high": 4047.76,
+  "price": 4046.41,
+  "open": 4027.69,
+  "high": 4049.89,
   "low": 3996.32,
-  "chg": -0.62,
+  "chg": 0.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4026.47,
-   4031.91,
-   4030.57,
-   4036.41,
-   4033.89,
    4036.43,
    4041.27,
    4042.7,
@@ -55,14 +50,19 @@
    4009.12,
    4010.85,
    4016.51,
-   4016.75
+   4016.45,
+   4028.02,
+   4049.02,
+   4039.62,
+   4045.77,
+   4046.41
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.295,
-   "chg": -0.0,
+   "price": 58.055,
+   "chg": 1.32,
    "spark": [
     58.175,
     59.477,
@@ -85,13 +85,13 @@
     58.656,
     58.472,
     57.296,
-    57.295
+    58.055
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.476,
-   "chg": -0.03,
+   "price": 101.356,
+   "chg": -0.02,
    "spark": [
     101.11,
     101.19,
@@ -111,14 +111,15 @@
     101.18,
     101.14,
     101.43,
-    101.51,
-    101.476
+    101.47,
+    101.38,
+    101.356
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.25,
-   "chg": 6.3,
+   "price": 84.33,
+   "chg": 6.4,
    "spark": [
     70.75,
     69.5,
@@ -141,13 +142,13 @@
     89.31,
     82.61,
     79.26,
-    84.25
+    84.33
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.651,
-   "chg": 0.22,
+   "price": 4.643,
+   "chg": 0.85,
    "spark": [
     4.374,
     4.418,
@@ -167,14 +168,16 @@
     4.628,
     4.657,
     4.703,
+    4.679,
     4.641,
-    4.651
+    4.604,
+    4.643
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1384,
-   "chg": 0.13,
+   "price": 1.1403,
+   "chg": 0.29,
    "spark": [
     1.1422,
     1.1413,
@@ -197,13 +200,13 @@
     1.1377,
     1.1395,
     1.1369,
-    1.1384
+    1.1403
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3283,
-   "chg": -0.05,
+   "price": 1.3305,
+   "chg": 0.12,
    "spark": [
     1.3254,
     1.3251,
@@ -226,13 +229,13 @@
     1.3313,
     1.3351,
     1.329,
-    1.3283
+    1.3305
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 163.874,
-   "chg": 0.06,
+   "price": 163.777,
+   "chg": 0.0,
    "spark": [
     161.923,
     162.628,
@@ -255,15 +258,14 @@
     163.832,
     163.611,
     163.771,
-    163.874
+    163.777
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1886.23,
-   "chg": -1.75,
+   "price": 1909.49,
+   "chg": -0.54,
    "spark": [
-    1941.71,
     1937.47,
     1946.38,
     1945.04,
@@ -310,15 +312,15 @@
     1906.09,
     1892.4,
     1889.02,
-    1886.23
+    1892.2,
+    1909.49
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63571.1,
-   "chg": -0.43,
+   "price": 64100.4,
+   "chg": 0.4,
    "spark": [
-    64953.6,
     64799.3,
     64902.9,
     64898.3,
@@ -365,7 +367,8 @@
     64581.8,
     64021.4,
     63881.9,
-    63568.7
+    63725.0,
+    64100.4
    ]
   }
  ],
@@ -454,20 +457,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785343449.664256,
+   "ts": 1785347721.910914,
    "title": "US issues new Iran-related sanctions targeting tankers -Treasury",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-issues-new-iranrelated-sanctions-targeting-tankers-treasury-4820753",
-   "t": "29 Jul \u00b7 09:44 PM",
+   "t": "29 Jul \u00b7 10:55 PM",
    "ur": "Amrikah ne eran se matalq nayi pabandiyan jari kin jo tinkers ko nashana banati hen - treasurei"
   },
   {
-   "ts": 1785343449.664256,
+   "ts": 1785347721.910914,
    "title": "Gold falls as firm dollar, Treasury yields weigh ahead of Fed decision",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-ahead-of-fed-decision-oil-rebound-revives-inflation-concerns-4818551",
-   "t": "29 Jul \u00b7 09:44 PM",
+   "t": "29 Jul \u00b7 10:55 PM",
    "ur": "Gold (sona) mazboot Dollar ke tur par garta hai, fed ke fisale se pehle treasurei ki pedawar ka wazin hota hai."
+  },
+  {
+   "ts": 1785347234.0,
+   "title": "Mexican Peso tumbles as Gulf War escalation weighs on mood, Fed eyed",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-tumbles-as-gulf-war-escalation-weighs-on-mood-fed-eyed-202607291747",
+   "t": "29 Jul \u00b7 10:47 PM",
+   "ur": "Mexican peso gar gaya cunkah khaliji jang mein azafe ka mod par wazin hai, fed ki nazar"
+  },
+  {
+   "ts": 1785347059.0,
+   "title": "The Bank of Canada shows its work while the Canadian Dollar reads Washington",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-bank-of-canada-shows-its-work-while-the-canadian-dollar-reads-washington-202607291744",
+   "t": "29 Jul \u00b7 10:44 PM",
+   "ur": "Bank af canida apana kam dikhata hai jabakah caniden Dollar washington padhta hai."
+  },
+  {
+   "ts": 1785346071.0,
+   "title": "Australian Dollar slides on softer inflation, intervention fears bolster Japanese Yen",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-slides-on-softer-inflation-intervention-fears-bolster-japanese-yen-202607291727",
+   "t": "29 Jul \u00b7 10:27 PM",
+   "ur": "Aasterilvi Dollar narm inflation (mehngai) par phisalta hai, madakhalt ka khadshah japani yan ko taqwet dita hai"
+  },
+  {
+   "ts": 1785344343.0,
+   "title": "Swiss Franc falls against US Dollar for eighth straight day as Fed decision looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-falls-against-us-dollar-for-eighth-straight-day-as-fed-decision-looms-202607291659",
+   "t": "29 Jul \u00b7 09:59 PM",
+   "ur": "Sois farank maslsal authwen dan US Dollar ke maqable mein fed ke fisale ki wajah se gara hai."
   },
   {
    "ts": 1785343020.0,
@@ -500,38 +535,6 @@
    "link": "https://www.fxstreet.com/news/silver-slips-below-57-as-fed-meeting-keeps-markets-on-edge-202607291619",
    "t": "29 Jul \u00b7 09:19 PM",
    "ur": "Silver (chandi) $57 se niche gar gayi cunkah fed matong marketon ko bartari par rakti hai."
-  },
-  {
-   "ts": 1785341639.0,
-   "title": "British Pound: Policy risk with range-bound trade against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-policy-risk-with-range-bound-trade-against-us-dollar-scotiabank-202607291613",
-   "t": "29 Jul \u00b7 09:13 PM",
-   "ur": "Bartanvi pound: US Dollar - Scotiabank ke khalaf had tak tajart ke sath palisi ka khatrah"
-  },
-  {
-   "ts": 1785340562.0,
-   "title": "Euro: Options signal downside risk against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-options-signal-downside-risk-against-us-dollar-scotiabank-202607291556",
-   "t": "29 Jul \u00b7 08:56 PM",
-   "ur": "Uro: akhtyarat US Dollar - Scotiabank ke maqable mein kami ke khatre ki nashandahi karte hen."
-  },
-  {
-   "ts": 1785340096.0,
-   "title": "Gold remains under pressure near $4,000 as Fed decision looms",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-remains-under-pressure-near-4-000-as-fed-decision-looms-202607291548",
-   "t": "29 Jul \u00b7 08:48 PM",
-   "ur": "Fed ke fisale ki wajah se Gold (sona) $4,000 ke qarib dabao mein rahta hai."
-  },
-  {
-   "ts": 1785338269.0,
-   "title": "Federal Reserve: Hawkish hold may offer US Dollar limited support \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-hawkish-hold-may-offer-us-dollar-limited-support-bny-202607291517",
-   "t": "29 Jul \u00b7 08:17 PM",
-   "ur": "Faderl resero: hakish hold US Dollar ki muhadud madad pesh kar sakta hai - BNY"
   }
  ],
  "sentiment": {
