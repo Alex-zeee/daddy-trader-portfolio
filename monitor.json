@@ -1,17 +1,13 @@
 {
- "updated": "31-07-2026 03:44 PKT",
+ "updated": "31-07-2026 04:42 PKT",
  "gold": {
-  "price": 4110.13,
-  "open": 4079.24,
+  "price": 4105.46,
+  "open": 4091.2,
   "high": 4119.46,
   "low": 4029.17,
-  "chg": 0.76,
+  "chg": 0.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4079.52,
-   4079.31,
-   4077.04,
-   4079.05,
    4077.35,
    4077.57,
    4078.68,
@@ -55,14 +51,18 @@
    4103.56,
    4106.89,
    4107.65,
-   4110.13
+   4110.3,
+   4109.68,
+   4107.05,
+   4104.84,
+   4105.46
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.27,
-   "chg": 2.43,
+   "price": 59.265,
+   "chg": 2.42,
    "spark": [
     59.477,
     60.085,
@@ -85,13 +85,13 @@
     58.472,
     57.296,
     57.863,
-    59.27
+    59.265
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.969,
-   "chg": -0.82,
+   "price": 100.023,
+   "chg": -0.77,
    "spark": [
     101.19,
     101.39,
@@ -114,13 +114,13 @@
     101.51,
     101.38,
     100.8,
-    99.969
+    100.023
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.15,
-   "chg": -0.37,
+   "price": 84.07,
+   "chg": -0.46,
    "spark": [
     69.5,
     68.58,
@@ -143,7 +143,7 @@
     82.61,
     79.26,
     84.46,
-    84.15
+    84.07
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1533,
-   "chg": 1.28,
+   "price": 1.1529,
+   "chg": 0.54,
    "spark": [
-    1.1413,
     1.1378,
     1.1423,
     1.1438,
@@ -201,15 +200,15 @@
     1.1395,
     1.1369,
     1.1387,
-    1.1533
+    1.1467,
+    1.1529
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3468,
-   "chg": 1.36,
+   "price": 1.3462,
+   "chg": 0.71,
    "spark": [
-    1.3251,
     1.3279,
     1.3339,
     1.3353,
@@ -230,15 +229,15 @@
     1.3351,
     1.329,
     1.3287,
-    1.3468
+    1.3367,
+    1.3462
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.617,
-   "chg": -2.59,
+   "price": 160.113,
+   "chg": -1.95,
    "spark": [
-    162.628,
     162.539,
     161.449,
     161.452,
@@ -259,15 +258,15 @@
     163.611,
     163.771,
     163.864,
-    159.617
+    163.3,
+    160.113
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1928.31,
-   "chg": 1.04,
+   "price": 1923.29,
+   "chg": 0.78,
    "spark": [
-    1919.88,
     1915.19,
     1902.97,
     1907.78,
@@ -314,15 +313,15 @@
     1922.16,
     1919.46,
     1916.82,
-    1928.31
+    1923.89,
+    1923.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64860.2,
-   "chg": 1.5,
+   "price": 64864.4,
+   "chg": 1.51,
    "spark": [
-    63859.6,
     63874.7,
     63627.9,
     63880.1,
@@ -369,7 +368,8 @@
     64742.9,
     64711.8,
     64669.7,
-    64860.2
+    64787.9,
+    64864.4
    ]
   }
  ],
@@ -402,36 +402,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785451460.926689,
+   "ts": 1785454939.616691,
    "title": "Silver stuck at $59.07 in tight range, breakout pending: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "31 Jul \u00b7 03:44 AM",
+   "t": "31 Jul \u00b7 04:42 AM",
    "ur": "Silver (chandi) tang rinj mein $59.07 par phans gayi, barik oat zir altawa hai."
   },
   {
-   "ts": 1785451460.926689,
+   "ts": 1785454939.616691,
    "title": "Gold trapped between $4,037-$4,142: Hourly breakout watch",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "31 Jul \u00b7 03:44 AM",
+   "t": "31 Jul \u00b7 04:42 AM",
    "ur": "Gold (sona) $4,037-$4,142 ke darmiyan phans gaya: ghanta war barik oat wach"
   },
   {
-   "ts": 1785451460.926689,
+   "ts": 1785454939.616691,
    "title": "Comex silver rises 1.6% to highest level in over a week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/comex-silver-rises-16-to-highest-level-in-over-a-week-93CH-4825920",
-   "t": "31 Jul \u00b7 03:44 AM",
+   "t": "31 Jul \u00b7 04:42 AM",
    "ur": "Kamex Silver (chandi) 1.6 fisad badh kar ek hafte ke duran baland tarin sath par pohch gayi."
   },
   {
-   "ts": 1785451460.926689,
+   "ts": 1785454939.616691,
    "title": "Gold futures rise 1.58% to snap two-session decline",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-futures-rise-158-to-snap-twosession-decline-93CH-4825919",
-   "t": "31 Jul \u00b7 03:44 AM",
+   "t": "31 Jul \u00b7 04:42 AM",
    "ur": "Gold futurs 1.58 fisad badh kar do sition garaut ka shkar huvay."
+  },
+  {
+   "ts": 1785454265.0,
+   "title": "Japan\u2019s Tokyo CPI inflation rises to 2.0% YoY in July",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japans-tokyo-cpi-inflation-rises-to-20-yoy-in-july-202607302331",
+   "t": "31 Jul \u00b7 04:31 AM",
+   "ur": "Japan ki tokiyo CPI inflation (mehngai) joli mein badh kar 2.0% tak pohch gayi."
+  },
+  {
+   "ts": 1785453831.0,
+   "title": "Gold edges higher above $4,100 as traders trim Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-edges-higher-above-4-100-as-traders-trim-fed-hike-bets-202607302323",
+   "t": "31 Jul \u00b7 04:23 AM",
+   "ur": "Gold (sone) ki qeemat $4,100 se oper hai cunkah taajron ne Fed mein azafe ki shart ko trm kiya hai."
+  },
+  {
+   "ts": 1785452418.0,
+   "title": "The Australian Dollar clears a big figure on an intervention it will come to regret",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-clears-a-big-figure-on-an-intervention-it-will-come-to-regret-202607302300",
+   "t": "31 Jul \u00b7 04:00 AM",
+   "ur": "Aasterilvi Dollar ne ek madakhalt par ek badi shaqsiyat ko saf kiya ise afsos ho ga."
   },
   {
    "ts": 1785445249.0,
@@ -456,30 +480,6 @@
    "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-gains-versus-us-dollar-commerzbank-202607302011",
    "t": "31 Jul \u00b7 01:11 AM",
    "ur": "Chini uan: US Dollar ke maqable mein btadarage azafah - kamers Bank"
-  },
-  {
-   "ts": 1785441606.0,
-   "title": "Silver Price Forecast: XAG eyes $60.00 as rebound builds",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-eyes-6000-as-rebound-builds-202607302000",
-   "t": "31 Jul \u00b7 01:00 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG ki nazarin $60.00 ke tur par bahal hoti hen."
-  },
-  {
-   "ts": 1785440318.0,
-   "title": "Gold jumps as suspected Yen intervention crushes US Dollar as Fed bets ease",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-jumps-as-suspected-yen-intervention-crushes-dollar-fed-bets-ease-202607301938",
-   "t": "31 Jul \u00b7 12:38 AM",
-   "ur": "Gold (sona) achalta hai cunkah mashtabah yan ki madakhalt US Dollar ko kachal diti hai cunkah fed sharton mein aasani hai."
-  },
-  {
-   "ts": 1785437880.0,
-   "title": "South Korean Won: Policy tightening expectations lift KRW against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-policy-tightening-expectations-lift-krw-against-us-dollar-commerzbank-202607301858",
-   "t": "30 Jul \u00b7 11:58 PM",
-   "ur": "South Korea ki Won: palisi ko saqt karne ki toqaat ne US Dollar ke maqable KRW ko athaya - kamrzabink"
   }
  ],
  "sentiment": {
