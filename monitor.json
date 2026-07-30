@@ -1,17 +1,13 @@
 {
- "updated": "31-07-2026 02:38 PKT",
+ "updated": "31-07-2026 03:44 PKT",
  "gold": {
-  "price": 4103.47,
-  "open": 4066.22,
+  "price": 4110.13,
+  "open": 4079.24,
   "high": 4119.46,
   "low": 4029.17,
-  "chg": 0.92,
+  "chg": 0.76,
   "src": "XAUUSD Spot",
   "spark": [
-   4064.36,
-   4067.37,
-   4076.41,
-   4081.14,
    4079.52,
    4079.31,
    4077.04,
@@ -55,14 +51,18 @@
    4103.5,
    4103.64,
    4103.7,
-   4103.47
+   4103.62,
+   4103.56,
+   4106.89,
+   4107.65,
+   4110.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.265,
-   "chg": 2.42,
+   "price": 59.27,
+   "chg": 2.43,
    "spark": [
     59.477,
     60.085,
@@ -85,13 +85,13 @@
     58.472,
     57.296,
     57.863,
-    59.265
+    59.27
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.005,
-   "chg": -0.79,
+   "price": 99.969,
+   "chg": -0.82,
    "spark": [
     101.19,
     101.39,
@@ -114,13 +114,13 @@
     101.51,
     101.38,
     100.8,
-    100.005
+    99.969
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.96,
-   "chg": -0.59,
+   "price": 84.15,
+   "chg": -0.37,
    "spark": [
     69.5,
     68.58,
@@ -143,7 +143,7 @@
     82.61,
     79.26,
     84.46,
-    83.96
+    84.15
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1529,
-   "chg": 1.25,
+   "price": 1.1533,
+   "chg": 1.28,
    "spark": [
     1.1413,
     1.1378,
@@ -201,13 +201,13 @@
     1.1395,
     1.1369,
     1.1387,
-    1.1529
+    1.1533
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3464,
-   "chg": 1.33,
+   "price": 1.3468,
+   "chg": 1.36,
    "spark": [
     1.3251,
     1.3279,
@@ -230,13 +230,13 @@
     1.3351,
     1.329,
     1.3287,
-    1.3464
+    1.3468
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.555,
-   "chg": -2.63,
+   "price": 159.617,
+   "chg": -2.59,
    "spark": [
     162.628,
     162.539,
@@ -259,15 +259,14 @@
     163.611,
     163.771,
     163.864,
-    159.555
+    159.617
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1919.99,
-   "chg": 0.6,
+   "price": 1928.31,
+   "chg": 1.04,
    "spark": [
-    1910.13,
     1919.88,
     1915.19,
     1902.97,
@@ -314,15 +313,15 @@
     1914.54,
     1922.16,
     1919.46,
-    1919.99
+    1916.82,
+    1928.31
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64696.7,
-   "chg": 1.25,
+   "price": 64860.2,
+   "chg": 1.5,
    "spark": [
-    63707.3,
     63859.6,
     63874.7,
     63627.9,
@@ -369,7 +368,8 @@
     64638.7,
     64742.9,
     64711.8,
-    64696.7
+    64669.7,
+    64860.2
    ]
   }
  ],
@@ -401,6 +401,38 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1785451460.926689,
+   "title": "Silver stuck at $59.07 in tight range, breakout pending: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
+   "t": "31 Jul \u00b7 03:44 AM",
+   "ur": "Silver (chandi) tang rinj mein $59.07 par phans gayi, barik oat zir altawa hai."
+  },
+  {
+   "ts": 1785451460.926689,
+   "title": "Gold trapped between $4,037-$4,142: Hourly breakout watch",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
+   "t": "31 Jul \u00b7 03:44 AM",
+   "ur": "Gold (sona) $4,037-$4,142 ke darmiyan phans gaya: ghanta war barik oat wach"
+  },
+  {
+   "ts": 1785451460.926689,
+   "title": "Comex silver rises 1.6% to highest level in over a week",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/comex-silver-rises-16-to-highest-level-in-over-a-week-93CH-4825920",
+   "t": "31 Jul \u00b7 03:44 AM",
+   "ur": "Kamex Silver (chandi) 1.6 fisad badh kar ek hafte ke duran baland tarin sath par pohch gayi."
+  },
+  {
+   "ts": 1785451460.926689,
+   "title": "Gold futures rise 1.58% to snap two-session decline",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-futures-rise-158-to-snap-twosession-decline-93CH-4825919",
+   "t": "31 Jul \u00b7 03:44 AM",
+   "ur": "Gold futurs 1.58 fisad badh kar do sition garaut ka shkar huvay."
+  },
   {
    "ts": 1785445249.0,
    "title": "Forex Today: US Dollar extends sell-off after weak US growth, Yen surges on suspected intervention",
@@ -448,45 +480,11 @@
    "link": "https://www.fxstreet.com/news/south-korean-won-policy-tightening-expectations-lift-krw-against-us-dollar-commerzbank-202607301858",
    "t": "30 Jul \u00b7 11:58 PM",
    "ur": "South Korea ki Won: palisi ko saqt karne ki toqaat ne US Dollar ke maqable KRW ko athaya - kamrzabink"
-  },
-  {
-   "ts": 1785434791.0,
-   "title": "Canadian Dollar strengthens to 1.4000 against US Dollar after suspected Japanese intervention",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-14000-against-us-dollar-after-suspected-japanese-intervention-202607301806",
-   "t": "30 Jul \u00b7 11:06 PM",
-   "ur": "Mashtabah japani madakhalt ke bad caniden Dollar US Dollar ke maqable mein 1.4000 tak mazboot"
-  },
-  {
-   "ts": 1785434435.0,
-   "title": "Silver rises as softer US inflation weighs on US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-rises-as-softer-us-inflation-weighs-on-us-dollar-202607301800",
-   "t": "30 Jul \u00b7 11:00 PM",
-   "ur": "Silver (chandi) mein azafah hawa cunkah US Dollar par US inflation (mehngai) ka wazin kam hai."
-  },
-  {
-   "ts": 1785426877.0,
-   "title": "United States Dollar Index slumps as suspected Japanese intervention rattles markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-slumps-as-suspected-japanese-intervention-rattles-markets-202607301554",
-   "t": "30 Jul \u00b7 08:54 PM",
-   "ur": "US Dollar andex gar gaya cunkah mashtabah japani madakhalt ne marketon ko hala kar rakh diya."
-  },
-  {
-   "ts": 1785424371.0,
-   "title": "Australian Dollar tumbles against Japanese Yen on suspected intervention",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-tumbles-against-japanese-yen-on-suspected-intervention-202607301512",
-   "t": "30 Jul \u00b7 08:12 PM",
-   "ur": "Mashtabah madakhalt par aasterilvi Dollar japani yan ke maqable mein gar gaya."
   }
  ],
  "sentiment": {
   "value": 28,
   "label": "Fear"
  },
- "err": [
-  "Investing.com: not well-formed (invalid token): line 73, column 0"
- ]
+ "err": null
 }
