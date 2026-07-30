@@ -1,18 +1,13 @@
 {
- "updated": "30-07-2026 22:46 PKT",
+ "updated": "31-07-2026 00:05 PKT",
  "gold": {
-  "price": 4106.31,
-  "open": 4042.22,
+  "price": 4102.91,
+  "open": 4100.18,
   "high": 4119.46,
   "low": 4029.17,
-  "chg": 1.59,
+  "chg": 0.07,
   "src": "XAUUSD Spot",
   "spark": [
-   4031.98,
-   4029.79,
-   4036.96,
-   4035.86,
-   4047.3,
    4044.39,
    4045.35,
    4038.96,
@@ -55,14 +50,19 @@
    4106.62,
    4102.77,
    4103.85,
-   4106.31
+   4102.67,
+   4106.59,
+   4102.87,
+   4104.75,
+   4099.17,
+   4102.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.015,
-   "chg": 1.99,
+   "price": 59.085,
+   "chg": 2.11,
    "spark": [
     59.477,
     60.085,
@@ -85,13 +85,13 @@
     58.472,
     57.296,
     57.863,
-    59.015
+    59.085
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.025,
-   "chg": -0.77,
+   "price": 99.887,
+   "chg": -0.91,
    "spark": [
     101.19,
     101.39,
@@ -114,13 +114,13 @@
     101.51,
     101.38,
     100.8,
-    100.025
+    99.887
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.82,
-   "chg": -0.76,
+   "price": 83.59,
+   "chg": -1.03,
    "spark": [
     69.5,
     68.58,
@@ -143,13 +143,13 @@
     82.61,
     79.26,
     84.46,
-    83.82
+    83.59
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.667,
-   "chg": 0.97,
+   "price": 4.665,
+   "chg": 0.93,
    "spark": [
     4.418,
     4.475,
@@ -172,13 +172,13 @@
     4.641,
     4.604,
     4.622,
-    4.667
+    4.665
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1531,
-   "chg": 1.27,
+   "price": 1.1538,
+   "chg": 1.33,
    "spark": [
     1.1413,
     1.1378,
@@ -201,13 +201,13 @@
     1.1395,
     1.1369,
     1.1387,
-    1.1531
+    1.1538
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3469,
-   "chg": 1.37,
+   "price": 1.3476,
+   "chg": 1.42,
    "spark": [
     1.3251,
     1.3279,
@@ -230,13 +230,13 @@
     1.3351,
     1.329,
     1.3287,
-    1.3469
+    1.3476
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.928,
-   "chg": -3.01,
+   "price": 159.086,
+   "chg": -2.92,
    "spark": [
     162.628,
     162.539,
@@ -259,16 +259,14 @@
     163.611,
     163.771,
     163.864,
-    158.928
+    159.086
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1921.76,
-   "chg": 0.7,
+   "price": 1917.27,
+   "chg": 0.46,
    "spark": [
-    1909.16,
-    1919.33,
     1915.86,
     1921.41,
     1910.13,
@@ -314,16 +312,16 @@
     1915.94,
     1916.72,
     1917.44,
-    1921.76
+    1918.78,
+    1914.54,
+    1917.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64884.0,
-   "chg": 1.54,
+   "price": 64702.0,
+   "chg": 1.25,
    "spark": [
-    63662.8,
-    63801.5,
     63830.6,
     63899.3,
     63707.3,
@@ -369,7 +367,9 @@
     64617.8,
     64659.7,
     64758.1,
-    64884.0
+    64811.0,
+    64638.7,
+    64702.0
    ]
   }
  ],
@@ -402,12 +402,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785433612.771041,
+   "ts": 1785438325.957667,
+   "title": "Comex silver rises 1.6% to highest level in over a week",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/comex-silver-rises-16-to-highest-level-in-over-a-week-93CH-4825920",
+   "t": "31 Jul \u00b7 12:05 AM",
+   "ur": "Kamex Silver (chandi) 1.6 fisad badh kar ek hafte ke duran baland tarin sath par pohch gayi."
+  },
+  {
+   "ts": 1785438325.957667,
+   "title": "Gold futures rise 1.58% to snap two-session decline",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-futures-rise-158-to-snap-twosession-decline-93CH-4825919",
+   "t": "31 Jul \u00b7 12:05 AM",
+   "ur": "Gold futurs 1.58 fisad badh kar do sition garaut ka shkar huvay."
+  },
+  {
+   "ts": 1785438325.957667,
    "title": "French soft wheat yields forecast to drop 3% below average",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/french-soft-wheat-yields-forecast-to-drop-3-below-average-93CH-4825166",
-   "t": "30 Jul \u00b7 10:46 PM",
+   "t": "31 Jul \u00b7 12:05 AM",
    "ur": "Faransesi narm gandam ki pedawar ost se 3 fisad kam hone ki forecast hai."
+  },
+  {
+   "ts": 1785437880.0,
+   "title": "South Korean Won: Policy tightening expectations lift KRW against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-policy-tightening-expectations-lift-krw-against-us-dollar-commerzbank-202607301858",
+   "t": "30 Jul \u00b7 11:58 PM",
+   "ur": "South Korea ki Won: palisi ko saqt karne ki toqaat ne US Dollar ke maqable KRW ko athaya - kamrzabink"
+  },
+  {
+   "ts": 1785434791.0,
+   "title": "Canadian Dollar strengthens to 1.4000 against US Dollar after suspected Japanese intervention",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-climbs-to-14000-against-us-dollar-after-suspected-japanese-intervention-202607301806",
+   "t": "30 Jul \u00b7 11:06 PM",
+   "ur": "Mashtabah japani madakhalt ke bad caniden Dollar US Dollar ke maqable mein 1.4000 tak mazboot"
+  },
+  {
+   "ts": 1785434435.0,
+   "title": "Silver rises as softer US inflation weighs on US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-rises-as-softer-us-inflation-weighs-on-us-dollar-202607301800",
+   "t": "30 Jul \u00b7 11:00 PM",
+   "ur": "Silver (chandi) mein azafah hawa cunkah US Dollar par US inflation (mehngai) ka wazin kam hai."
   },
   {
    "ts": 1785426877.0,
@@ -440,46 +480,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-rallies-despite-softer-cpi-as-us-dollar-tumbles-after-fed-weaker-data-202607301450",
    "t": "30 Jul \u00b7 07:50 PM",
    "ur": "Narm CPI ke bawajud aasterilvi Dollar ki riliyan cunkah fed ke bad US Dollar gara, kamazor deta"
-  },
-  {
-   "ts": 1785421167.0,
-   "title": "Gold: FOMC repricing caps CTA upside \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-fomc-repricing-caps-cta-upside-td-securities-202607301419",
-   "t": "30 Jul \u00b7 07:19 PM",
-   "ur": "Gold: FOMC ri pariceng CTA ko oper le jati hai - TD securitez"
-  },
-  {
-   "ts": 1785418767.0,
-   "title": "Canadian Dollar: BoC minutes flags two-sided economic risks \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-boc-minutes-flags-two-sided-economic-risks-td-securities-202607301339",
-   "t": "30 Jul \u00b7 06:39 PM",
-   "ur": "Caniden Dollar: BoC mant do tarafah aqtasadi khatrat ko jhanda dita hai - TD Securities"
-  },
-  {
-   "ts": 1785418161.0,
-   "title": "US Dollar: Warsh rhetoric weakens policy credibility \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-warsh-rhetoric-weakens-policy-credibility-bbh-202607301329",
-   "t": "30 Jul \u00b7 06:29 PM",
-   "ur": "US Dollar: saqt bayan bazi palisi ki sakh ko kamazor karti hai - BBH"
-  },
-  {
-   "ts": 1785417504.0,
-   "title": "Federal Reserve: Fed holds rates and supports Dollar \u2013 HSBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-fed-holds-rates-and-supports-dollar-hsbc-202607301318",
-   "t": "30 Jul \u00b7 06:18 PM",
-   "ur": "Faderl resero: fed ret rakta hai aur Dollar \u2013 HSBC ko sport karta hai."
-  },
-  {
-   "ts": 1785415816.0,
-   "title": "US PCE inflation data confirm steady disinflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-pce-inflation-data-confirm-steady-disinflation-202607301250",
-   "t": "30 Jul \u00b7 05:50 PM",
-   "ur": "US PCE inflation (mehngai) ke aed w shmar maslsal kami ki tasadiq karte hen."
   }
  ],
  "sentiment": {
