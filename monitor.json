@@ -1,18 +1,13 @@
 {
- "updated": "31-07-2026 00:05 PKT",
+ "updated": "31-07-2026 01:24 PKT",
  "gold": {
-  "price": 4102.91,
-  "open": 4100.18,
+  "price": 4112.99,
+  "open": 4052.61,
   "high": 4119.46,
   "low": 4029.17,
-  "chg": 0.07,
+  "chg": 1.49,
   "src": "XAUUSD Spot",
   "spark": [
-   4044.39,
-   4045.35,
-   4038.96,
-   4054.08,
-   4065.38,
    4065.56,
    4061.34,
    4065.23,
@@ -55,14 +50,19 @@
    4102.87,
    4104.75,
    4099.17,
-   4102.91
+   4105.39,
+   4114.17,
+   4113.24,
+   4111.91,
+   4113.91,
+   4112.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.085,
-   "chg": 2.11,
+   "price": 59.48,
+   "chg": 2.79,
    "spark": [
     59.477,
     60.085,
@@ -85,13 +85,13 @@
     58.472,
     57.296,
     57.863,
-    59.085
+    59.48
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.887,
-   "chg": -0.91,
+   "price": 99.941,
+   "chg": -0.85,
    "spark": [
     101.19,
     101.39,
@@ -114,13 +114,13 @@
     101.51,
     101.38,
     100.8,
-    99.887
+    99.941
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.59,
-   "chg": -1.03,
+   "price": 83.83,
+   "chg": -0.75,
    "spark": [
     69.5,
     68.58,
@@ -143,13 +143,13 @@
     82.61,
     79.26,
     84.46,
-    83.59
+    83.83
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.665,
-   "chg": 0.93,
+   "price": 4.663,
+   "chg": 0.89,
    "spark": [
     4.418,
     4.475,
@@ -172,13 +172,13 @@
     4.641,
     4.604,
     4.622,
-    4.665
+    4.663
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1538,
-   "chg": 1.33,
+   "price": 1.1531,
+   "chg": 1.27,
    "spark": [
     1.1413,
     1.1378,
@@ -201,13 +201,13 @@
     1.1395,
     1.1369,
     1.1387,
-    1.1538
+    1.1531
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3476,
-   "chg": 1.42,
+   "price": 1.3468,
+   "chg": 1.36,
    "spark": [
     1.3251,
     1.3279,
@@ -230,13 +230,13 @@
     1.3351,
     1.329,
     1.3287,
-    1.3476
+    1.3468
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.086,
-   "chg": -2.92,
+   "price": 159.481,
+   "chg": -2.67,
    "spark": [
     162.628,
     162.539,
@@ -259,15 +259,14 @@
     163.611,
     163.771,
     163.864,
-    159.086
+    159.481
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.27,
-   "chg": 0.46,
+   "price": 1922.74,
+   "chg": 0.75,
    "spark": [
-    1915.86,
     1921.41,
     1910.13,
     1919.88,
@@ -314,15 +313,15 @@
     1917.44,
     1918.78,
     1914.54,
-    1917.27
+    1922.16,
+    1922.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64702.0,
-   "chg": 1.25,
+   "price": 64801.4,
+   "chg": 1.41,
    "spark": [
-    63830.6,
     63899.3,
     63707.3,
     63859.6,
@@ -369,7 +368,8 @@
     64758.1,
     64811.0,
     64638.7,
-    64702.0
+    64742.9,
+    64801.4
    ]
   }
  ],
@@ -402,28 +402,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785438325.957667,
+   "ts": 1785443041.37166,
+   "title": "Silver stuck at $59.07 in tight range, breakout pending: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
+   "t": "31 Jul \u00b7 01:24 AM",
+   "ur": "Silver (chandi) tang rinj mein $59.07 par phans gayi, barik oat zir altawa hai."
+  },
+  {
+   "ts": 1785443041.37166,
+   "title": "Gold trapped between $4,037-$4,142: Hourly breakout watch",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
+   "t": "31 Jul \u00b7 01:24 AM",
+   "ur": "Gold (sona) $4,037-$4,142 ke darmiyan phans gaya: ghanta war barik oat wach"
+  },
+  {
+   "ts": 1785443041.37166,
    "title": "Comex silver rises 1.6% to highest level in over a week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/comex-silver-rises-16-to-highest-level-in-over-a-week-93CH-4825920",
-   "t": "31 Jul \u00b7 12:05 AM",
+   "t": "31 Jul \u00b7 01:24 AM",
    "ur": "Kamex Silver (chandi) 1.6 fisad badh kar ek hafte ke duran baland tarin sath par pohch gayi."
   },
   {
-   "ts": 1785438325.957667,
+   "ts": 1785443041.37166,
    "title": "Gold futures rise 1.58% to snap two-session decline",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-futures-rise-158-to-snap-twosession-decline-93CH-4825919",
-   "t": "31 Jul \u00b7 12:05 AM",
+   "t": "31 Jul \u00b7 01:24 AM",
    "ur": "Gold futurs 1.58 fisad badh kar do sition garaut ka shkar huvay."
   },
   {
-   "ts": 1785438325.957667,
-   "title": "French soft wheat yields forecast to drop 3% below average",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/french-soft-wheat-yields-forecast-to-drop-3-below-average-93CH-4825166",
-   "t": "31 Jul \u00b7 12:05 AM",
-   "ur": "Faransesi narm gandam ki pedawar ost se 3 fisad kam hone ki forecast hai."
+   "ts": 1785442260.0,
+   "title": "Chinese Yuan: Gradual gains versus US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-gains-versus-us-dollar-commerzbank-202607302011",
+   "t": "31 Jul \u00b7 01:11 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein btadarage azafah - kamers Bank"
+  },
+  {
+   "ts": 1785441606.0,
+   "title": "Silver Price Forecast: XAG eyes $60.00 as rebound builds",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-eyes-6000-as-rebound-builds-202607302000",
+   "t": "31 Jul \u00b7 01:00 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG ki nazarin $60.00 ke tur par bahal hoti hen."
+  },
+  {
+   "ts": 1785440318.0,
+   "title": "Gold jumps as suspected Yen intervention crushes US Dollar as Fed bets ease",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-jumps-as-suspected-yen-intervention-crushes-dollar-fed-bets-ease-202607301938",
+   "t": "31 Jul \u00b7 12:38 AM",
+   "ur": "Gold (sona) achalta hai cunkah mashtabah yan ki madakhalt US Dollar ko kachal diti hai cunkah fed sharton mein aasani hai."
   },
   {
    "ts": 1785437880.0,
@@ -448,38 +480,6 @@
    "link": "https://www.fxstreet.com/news/silver-rises-as-softer-us-inflation-weighs-on-us-dollar-202607301800",
    "t": "30 Jul \u00b7 11:00 PM",
    "ur": "Silver (chandi) mein azafah hawa cunkah US Dollar par US inflation (mehngai) ka wazin kam hai."
-  },
-  {
-   "ts": 1785426877.0,
-   "title": "United States Dollar Index slumps as suspected Japanese intervention rattles markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-slumps-as-suspected-japanese-intervention-rattles-markets-202607301554",
-   "t": "30 Jul \u00b7 08:54 PM",
-   "ur": "US Dollar andex gar gaya cunkah mashtabah japani madakhalt ne marketon ko hala kar rakh diya."
-  },
-  {
-   "ts": 1785424371.0,
-   "title": "Australian Dollar tumbles against Japanese Yen on suspected intervention",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-tumbles-against-japanese-yen-on-suspected-intervention-202607301512",
-   "t": "30 Jul \u00b7 08:12 PM",
-   "ur": "Mashtabah madakhalt par aasterilvi Dollar japani yan ke maqable mein gar gaya."
-  },
-  {
-   "ts": 1785423883.0,
-   "title": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
-   "t": "30 Jul \u00b7 08:04 PM",
-   "ur": "Q2 mein US misht ki rate namo 1.5 fisad par aa gayi; jon ki baniyadi inflation (mehngai) 3.3 fisad par"
-  },
-  {
-   "ts": 1785423017.0,
-   "title": "Australian Dollar rallies despite softer CPI as US Dollar tumbles after Fed, weaker data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rallies-despite-softer-cpi-as-us-dollar-tumbles-after-fed-weaker-data-202607301450",
-   "t": "30 Jul \u00b7 07:50 PM",
-   "ur": "Narm CPI ke bawajud aasterilvi Dollar ki riliyan cunkah fed ke bad US Dollar gara, kamazor deta"
   }
  ],
  "sentiment": {
