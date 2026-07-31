@@ -1,20 +1,13 @@
 {
- "updated": "31-07-2026 19:35 PKT",
+ "updated": "31-07-2026 21:21 PKT",
  "gold": {
-  "price": 4037.92,
-  "open": 4108.21,
-  "high": 4119.46,
+  "price": 4045.44,
+  "open": 4116.67,
+  "high": 4117.08,
   "low": 4021.07,
-  "chg": -1.71,
+  "chg": -1.73,
   "src": "XAUUSD Spot",
   "spark": [
-   4077.94,
-   4073.03,
-   4074.86,
-   4075.72,
-   4074.67,
-   4075.78,
-   4079.85,
    4079.73,
    4079.38,
    4079.84,
@@ -55,14 +48,21 @@
    4028.85,
    4030.07,
    4039.33,
-   4037.92
+   4041.65,
+   4049.47,
+   4045.87,
+   4042.13,
+   4041.04,
+   4045.72,
+   4046.18,
+   4045.44
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.56,
-   "chg": -2.13,
+   "price": 57.635,
+   "chg": -2.01,
    "spark": [
     60.085,
     60.643,
@@ -85,13 +85,13 @@
     57.296,
     57.863,
     58.815,
-    57.56
+    57.635
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.335,
-   "chg": 0.32,
+   "price": 100.06,
+   "chg": 0.05,
    "spark": [
     101.39,
     100.86,
@@ -114,13 +114,13 @@
     101.38,
     100.8,
     100.01,
-    100.335
+    100.06
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.05,
-   "chg": 1.75,
+   "price": 84.36,
+   "chg": 0.92,
    "spark": [
     68.58,
     68.69,
@@ -143,13 +143,13 @@
     79.26,
     84.46,
     83.59,
-    85.05
+    84.36
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.729,
-   "chg": 1.42,
+   "price": 4.733,
+   "chg": 1.5,
    "spark": [
     4.475,
     4.485,
@@ -172,13 +172,13 @@
     4.604,
     4.622,
     4.663,
-    4.729
+    4.733
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1486,
-   "chg": 0.17,
+   "price": 1.1519,
+   "chg": 0.46,
    "spark": [
     1.1378,
     1.1423,
@@ -201,42 +201,13 @@
     1.1369,
     1.1387,
     1.1467,
-    1.1486
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3428,
-   "chg": 0.46,
-   "spark": [
-    1.3279,
-    1.3339,
-    1.3353,
-    1.3398,
-    1.3349,
-    1.3396,
-    1.3416,
-    1.3387,
-    1.3348,
-    1.3397,
-    1.3541,
-    1.3479,
-    1.3446,
-    1.3432,
-    1.3379,
-    1.3375,
-    1.3313,
-    1.3351,
-    1.329,
-    1.3287,
-    1.3367,
-    1.3428
+    1.1519
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.28,
-   "chg": -2.46,
+   "price": 159.216,
+   "chg": -2.5,
    "spark": [
     162.539,
     161.449,
@@ -259,16 +230,14 @@
     163.771,
     163.864,
     163.3,
-    159.28
+    159.216
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1863.39,
-   "chg": -2.78,
+   "price": 1862.7,
+   "chg": -2.82,
    "spark": [
-    1889.02,
-    1892.2,
     1914.29,
     1917.91,
     1886.47,
@@ -314,16 +283,16 @@
     1882.03,
     1880.4,
     1864.65,
-    1863.39
+    1857.82,
+    1860.5,
+    1862.7
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62654.6,
-   "chg": -3.2,
+   "price": 62829.6,
+   "chg": -2.93,
    "spark": [
-    63881.9,
-    63725.0,
     64178.0,
     64424.8,
     63514.9,
@@ -369,19 +338,13 @@
     63732.6,
     63680.0,
     63204.1,
-    62654.6
+    62605.7,
+    62643.0,
+    62829.6
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785501000.0,
-   "t": "Fri 31 Jul \u00b7 05:30 PM",
-   "title": "Employment Cost Index q/q",
-   "impact": "Medium",
-   "forecast": "0.8%",
-   "previous": "0.9%"
-  },
   {
    "ts": 1785506400.0,
    "t": "Fri 31 Jul \u00b7 07:00 PM",
@@ -402,28 +365,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785508508.318122,
+   "ts": 1785514863.337608,
    "title": "BCA says time to buy gold as near-term headwinds fade",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/bca-says-time-to-buy-gold-as-nearterm-headwinds-fade-4828111",
-   "t": "31 Jul \u00b7 07:35 PM",
+   "t": "31 Jul \u00b7 09:21 PM",
    "ur": "Bi si aye ka kahana hai kah Gold (sona) khareedne ka waqat qarib qarib ki wajah se khtam ho raha hai."
   },
   {
-   "ts": 1785508508.318122,
+   "ts": 1785514863.337608,
    "title": "Silver chops at $58.39 with bear flag brewing: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "31 Jul \u00b7 07:35 PM",
+   "t": "31 Jul \u00b7 09:21 PM",
    "ur": "Bears ke jhanday ke sath Silver (chandi) ki qeemat $58.39 par hai."
   },
   {
-   "ts": 1785508508.318122,
+   "ts": 1785514863.337608,
    "title": "Gold rejects $4,180 resistance in macro downtrend: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "31 Jul \u00b7 07:35 PM",
+   "t": "31 Jul \u00b7 09:21 PM",
    "ur": "Gold (sone) ne mecro doun trind mein $4,180 ki mazahmat ko mastard kar diya."
+  },
+  {
+   "ts": 1785513914.0,
+   "title": "Australian Dollar holds despite weak Chinese PMIs",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-despite-weak-chinese-pmis-202607311605",
+   "t": "31 Jul \u00b7 09:05 PM",
+   "ur": "Kamazor chini PMIs ke bawajud aasterilvi Dollar barqarar hai."
+  },
+  {
+   "ts": 1785512675.0,
+   "title": "Swiss Franc trims losses against US Dollar amid Japanese intervention concerns",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-trims-losses-against-us-dollar-amid-japanese-intervention-concerns-202607311544",
+   "t": "31 Jul \u00b7 08:44 PM",
+   "ur": "Sois farank japani madakhalt ke khadshat ke darmiyan US Dollar ke maqable mein naqsanat ko kam karta hai."
+  },
+  {
+   "ts": 1785508566.0,
+   "title": "New Zealnd Dollar weakens after China PMI miss as the US Dollar rebounds",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealnd-dollar-weakens-after-china-pmi-miss-as-the-us-dollar-rebounds-202607311436",
+   "t": "31 Jul \u00b7 07:36 PM",
+   "ur": "China pi em i ki kami ke bad niyozi lind Dollar kamazor ho gaya cunkah US Dollar ki wapsi"
+  },
+  {
+   "ts": 1785508534.0,
+   "title": "Euro: Range seen around mid\u20111.15s against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-range-seen-around-mid-115s-against-us-dollar-scotiabank-202607311435",
+   "t": "31 Jul \u00b7 07:35 PM",
+   "ur": "Uro: US Dollar ke maqable mein 1.15 sicand ke darmiyan had nazar aati hai - Scotiabank"
   },
   {
    "ts": 1785503336.0,
@@ -448,38 +443,6 @@
    "link": "https://www.fxstreet.com/news/gold-reduced-fed-hike-bets-support-prices-commerzbank-202607311230",
    "t": "31 Jul \u00b7 05:30 PM",
    "ur": "Gold (sona): fed mein azafe ki qeemton mein kami - kamrzabink"
-  },
-  {
-   "ts": 1785498567.0,
-   "title": "Silver Price Forecast: XAG/USD remains under pressure as bond yields, US Dollar rebound",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-remains-under-pressure-as-bond-yields-us-dollar-rebound-202607311149",
-   "t": "31 Jul \u00b7 04:49 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: band ki pedawar, US Dollar ki wapsi ke tur par XAG/USD dabao mein rahta hai"
-  },
-  {
-   "ts": 1785498529.0,
-   "title": "Gold declines as firmer US Dollar, hawkish Fed outlook weigh",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-declines-as-firmer-us-dollar-and-hawkish-fed-outlook-weigh-202607311148",
-   "t": "31 Jul \u00b7 04:48 PM",
-   "ur": "US Dollar ke mazboot hone ke sath hi Gold (sona) gara, fed oat lak ka wazin"
-  },
-  {
-   "ts": 1785497578.0,
-   "title": "Japanese Yen dips back to 160.00 against the US Dollar as post-BoJ gains fade",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-dips-back-to-16000-against-the-us-dollar-as-post-boj-gains-fade-202607311132",
-   "t": "31 Jul \u00b7 04:32 PM",
-   "ur": "Japani yan US Dollar ke maqable mein waps 160.00 tak gar gaya cunkah BoJ ke bad ke fawaid khtam ho gaye"
-  },
-  {
-   "ts": 1785497290.0,
-   "title": "US Dollar Index: DXY seen returning to 96.00\u2013100.00 range \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-dxy-seen-returning-to-9600-10000-range-bbh-202607311128",
-   "t": "31 Jul \u00b7 04:28 PM",
-   "ur": "US Dollar andex: DXY 96.00\u2013100.00 rinj par waps aata hawa dekha gaya - BBH"
   }
  ],
  "sentiment": {
