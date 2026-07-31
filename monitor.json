@@ -1,23 +1,13 @@
 {
- "updated": "31-07-2026 17:15 PKT",
+ "updated": "31-07-2026 19:35 PKT",
  "gold": {
-  "price": 4057.42,
-  "open": 4076.21,
+  "price": 4037.92,
+  "open": 4108.21,
   "high": 4119.46,
-  "low": 4050.33,
-  "chg": -0.46,
+  "low": 4021.07,
+  "chg": -1.71,
   "src": "XAUUSD Spot",
   "spark": [
-   4097.19,
-   4091.88,
-   4093.69,
-   4091.78,
-   4094.06,
-   4086.04,
-   4086.2,
-   4089.26,
-   4082.76,
-   4076.54,
    4077.94,
    4073.03,
    4074.86,
@@ -55,14 +45,24 @@
    4058.94,
    4051.46,
    4055.43,
-   4057.42
+   4058.41,
+   4050.0,
+   4042.74,
+   4041.52,
+   4036.06,
+   4042.78,
+   4023.21,
+   4028.85,
+   4030.07,
+   4039.33,
+   4037.92
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.14,
-   "chg": -1.15,
+   "price": 57.56,
+   "chg": -2.13,
    "spark": [
     60.085,
     60.643,
@@ -85,13 +85,13 @@
     57.296,
     57.863,
     58.815,
-    58.14
+    57.56
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.354,
-   "chg": 0.34,
+   "price": 100.335,
+   "chg": 0.32,
    "spark": [
     101.39,
     100.86,
@@ -114,13 +114,13 @@
     101.38,
     100.8,
     100.01,
-    100.354
+    100.335
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.35,
-   "chg": 2.11,
+   "price": 85.05,
+   "chg": 1.75,
    "spark": [
     68.58,
     68.69,
@@ -143,15 +143,14 @@
     79.26,
     84.46,
     83.59,
-    85.35
+    85.05
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.663,
-   "chg": 0.89,
+   "price": 4.729,
+   "chg": 1.42,
    "spark": [
-    4.418,
     4.475,
     4.485,
     4.479,
@@ -172,13 +171,14 @@
     4.641,
     4.604,
     4.622,
-    4.663
+    4.663,
+    4.729
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.149,
-   "chg": 0.2,
+   "price": 1.1486,
+   "chg": 0.17,
    "spark": [
     1.1378,
     1.1423,
@@ -201,13 +201,13 @@
     1.1369,
     1.1387,
     1.1467,
-    1.149
+    1.1486
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3421,
-   "chg": 0.4,
+   "price": 1.3428,
+   "chg": 0.46,
    "spark": [
     1.3279,
     1.3339,
@@ -230,13 +230,13 @@
     1.329,
     1.3287,
     1.3367,
-    1.3421
+    1.3428
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.243,
-   "chg": -1.87,
+   "price": 159.28,
+   "chg": -2.46,
    "spark": [
     162.539,
     161.449,
@@ -259,16 +259,14 @@
     163.771,
     163.864,
     163.3,
-    160.243
+    159.28
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.87,
-   "chg": -2.18,
+   "price": 1863.39,
+   "chg": -2.78,
    "spark": [
-    1906.09,
-    1892.4,
     1889.02,
     1892.2,
     1914.29,
@@ -314,16 +312,16 @@
     1881.31,
     1885.51,
     1882.03,
-    1874.87
+    1880.4,
+    1864.65,
+    1863.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63656.5,
-   "chg": -1.65,
+   "price": 62654.6,
+   "chg": -3.2,
    "spark": [
-    64581.8,
-    64021.4,
     63881.9,
     63725.0,
     64178.0,
@@ -369,7 +367,9 @@
     63646.2,
     63851.7,
     63732.6,
-    63656.4
+    63680.0,
+    63204.1,
+    62654.6
    ]
   }
  ],
@@ -402,36 +402,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785500107.127579,
-   "title": "Gold prices slide but on track for first monthly gain in five",
+   "ts": 1785508508.318122,
+   "title": "BCA says time to buy gold as near-term headwinds fade",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-heads-for-first-monthly-gain-in-5-4826693",
-   "t": "31 Jul \u00b7 05:15 PM",
-   "ur": "Gold (sone) ki qeemtin gar rahi hen lican panch mein pehle mahana faidah ke liye trik par hen."
+   "link": "https://www.investing.com/news/commodities-news/bca-says-time-to-buy-gold-as-nearterm-headwinds-fade-4828111",
+   "t": "31 Jul \u00b7 07:35 PM",
+   "ur": "Bi si aye ka kahana hai kah Gold (sona) khareedne ka waqat qarib qarib ki wajah se khtam ho raha hai."
   },
   {
-   "ts": 1785500107.127579,
+   "ts": 1785508508.318122,
    "title": "Silver chops at $58.39 with bear flag brewing: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "31 Jul \u00b7 05:15 PM",
+   "t": "31 Jul \u00b7 07:35 PM",
    "ur": "Bears ke jhanday ke sath Silver (chandi) ki qeemat $58.39 par hai."
   },
   {
-   "ts": 1785500107.127579,
+   "ts": 1785508508.318122,
    "title": "Gold rejects $4,180 resistance in macro downtrend: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "31 Jul \u00b7 05:15 PM",
+   "t": "31 Jul \u00b7 07:35 PM",
    "ur": "Gold (sone) ne mecro doun trind mein $4,180 ki mazahmat ko mastard kar diya."
   },
   {
-   "ts": 1785500107.127579,
-   "title": "Drone strike at Egypt port near Suez Canal ignites new shipping risks",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/us-military-says-it-hit-dozens-of-irans-irgc-targets-4822452",
-   "t": "31 Jul \u00b7 05:15 PM",
-   "ur": "Nahar swez ke qarib masr ki bandargah par daron hamle ne jahaz raani ke naye khatrat ko janum diya."
+   "ts": 1785503336.0,
+   "title": "Euro slips back below 1.1500 as US Dollar recovers",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-slips-back-below-11500-as-us-dollar-recovers-202607311308",
+   "t": "31 Jul \u00b7 06:08 PM",
+   "ur": "Uro 1.1500 se niche phisal gaya jisa kah US Dollar ki recovery hai."
+  },
+  {
+   "ts": 1785502932.0,
+   "title": "Canadian Dollar shrugs off upbeat GDP as US Dollar stages a comeback",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-shrugs-off-upbeat-gdp-as-us-dollar-stages-a-comeback-202607311302",
+   "t": "31 Jul \u00b7 06:02 PM",
+   "ur": "US Dollar ki wapsi ke bad caniden Dollar ne hawasalah afza ji di pi ko rok diya."
+  },
+  {
+   "ts": 1785501050.0,
+   "title": "Gold: Reduced Fed hike bets support prices - Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-reduced-fed-hike-bets-support-prices-commerzbank-202607311230",
+   "t": "31 Jul \u00b7 05:30 PM",
+   "ur": "Gold (sona): fed mein azafe ki qeemton mein kami - kamrzabink"
   },
   {
    "ts": 1785498567.0,
@@ -464,22 +480,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-index-dxy-seen-returning-to-9600-10000-range-bbh-202607311128",
    "t": "31 Jul \u00b7 04:28 PM",
    "ur": "US Dollar andex: DXY 96.00\u2013100.00 rinj par waps aata hawa dekha gaya - BBH"
-  },
-  {
-   "ts": 1785496868.0,
-   "title": "Australian Dollar holds firm despite weak Chinese data, fading RBA rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-firm-despite-weak-chinese-data-fading-rba-rate-hike-bets-202607311121",
-   "t": "31 Jul \u00b7 04:21 PM",
-   "ur": "Kamazor chini aed w shmar ke bawajud aasterilvi Dollar mazboot hai, aar bi aye ki rate mein azafe ki shartin khtam ho rahi hen."
-  },
-  {
-   "ts": 1785496497.0,
-   "title": "Canadian Dollar: Balanced growth supports CAD \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-balanced-growth-supports-cad-td-securities-202607311114",
-   "t": "31 Jul \u00b7 04:14 PM",
-   "ur": "Caniden Dollar: mutawazin tarqi CAD \u2013 TD securitez ko sport karti hai."
   }
  ],
  "sentiment": {
