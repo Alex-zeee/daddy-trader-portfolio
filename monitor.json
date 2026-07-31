@@ -1,27 +1,13 @@
 {
- "updated": "31-07-2026 06:11 PKT",
+ "updated": "31-07-2026 09:36 PKT",
  "gold": {
-  "price": 4097.98,
-  "open": 4079.2,
+  "price": 4080.06,
+  "open": 4048.67,
   "high": 4119.46,
   "low": 4029.17,
-  "chg": 0.46,
+  "chg": 0.78,
   "src": "XAUUSD Spot",
   "spark": [
-   4075.69,
-   4093.64,
-   4107.92,
-   4097.98,
-   4095.09,
-   4109.03,
-   4099.31,
-   4083.95,
-   4094.26,
-   4101.58,
-   4108.14,
-   4115.58,
-   4116.46,
-   4109.33,
    4109.18,
    4106.62,
    4102.77,
@@ -55,16 +41,29 @@
    4097.19,
    4091.88,
    4093.69,
-   4097.98
+   4091.78,
+   4094.06,
+   4086.04,
+   4086.2,
+   4089.26,
+   4082.76,
+   4076.54,
+   4077.94,
+   4073.03,
+   4074.86,
+   4075.72,
+   4074.67,
+   4075.78,
+   4079.85,
+   4080.06
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.19,
-   "chg": 2.29,
+   "price": 58.735,
+   "chg": -0.14,
    "spark": [
-    59.477,
     60.085,
     60.643,
     61.92,
@@ -85,15 +84,15 @@
     58.472,
     57.296,
     57.863,
-    59.19
+    58.815,
+    58.735
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.14,
-   "chg": -0.65,
+   "price": 100.186,
+   "chg": 0.18,
    "spark": [
-    101.19,
     101.39,
     100.86,
     100.85,
@@ -114,15 +113,15 @@
     101.51,
     101.38,
     100.8,
-    100.14
+    100.01,
+    100.186
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.71,
-   "chg": -2.07,
+   "price": 82.15,
+   "chg": -1.72,
    "spark": [
-    69.5,
     68.58,
     68.69,
     68.55,
@@ -143,7 +142,8 @@
     82.61,
     79.26,
     84.46,
-    82.71
+    83.59,
+    82.15
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1521,
-   "chg": 0.47,
+   "price": 1.1511,
+   "chg": 0.39,
    "spark": [
     1.1378,
     1.1423,
@@ -201,13 +201,13 @@
     1.1369,
     1.1387,
     1.1467,
-    1.1521
+    1.1511
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.346,
-   "chg": 0.69,
+   "price": 1.3447,
+   "chg": 0.6,
    "spark": [
     1.3279,
     1.3339,
@@ -230,13 +230,13 @@
     1.329,
     1.3287,
     1.3367,
-    1.346
+    1.3447
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.479,
-   "chg": -1.73,
+   "price": 160.715,
+   "chg": -1.58,
    "spark": [
     162.539,
     161.449,
@@ -259,17 +259,14 @@
     163.771,
     163.864,
     163.3,
-    160.479
+    160.715
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1929.97,
-   "chg": 0.69,
+   "price": 1904.35,
+   "chg": -0.64,
    "spark": [
-    1907.78,
-    1889.59,
-    1902.8,
     1909.81,
     1917.63,
     1921.1,
@@ -314,17 +311,17 @@
     1923.89,
     1916.66,
     1915.02,
-    1929.97
+    1908.4,
+    1902.23,
+    1906.95,
+    1904.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65216.8,
-   "chg": 0.76,
+   "price": 64260.7,
+   "chg": -0.71,
    "spark": [
-    63880.1,
-    63657.0,
-    63883.2,
     63979.6,
     64342.9,
     64481.2,
@@ -369,7 +366,10 @@
     64787.9,
     64723.0,
     64666.8,
-    65216.8
+    64502.9,
+    64221.5,
+    64299.3,
+    64260.7
    ]
   }
  ],
@@ -402,84 +402,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785460305.58687,
+   "ts": 1785472593.481622,
+   "title": "Gold edges lower but heads for first monthly gain in 5",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-heads-for-first-monthly-gain-in-5-4826693",
+   "t": "31 Jul \u00b7 09:36 AM",
+   "ur": "Gold (sone) ke kanare niche hen lican 5 mein pehle mahana faidah ki taraf badh rahe hen."
+  },
+  {
+   "ts": 1785472593.481622,
+   "title": "Drone strike at Egypt port near Suez Canal ignites new shipping risks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-military-says-it-hit-dozens-of-irans-irgc-targets-4822452",
+   "t": "31 Jul \u00b7 09:36 AM",
+   "ur": "Nahar swez ke qarib masr ki bandargah par daron hamle ne jahaz raani ke naye khatrat ko janum diya."
+  },
+  {
+   "ts": 1785472593.481622,
    "title": "Silver stuck at $59.07 in tight range, breakout pending: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-at-6039-fib-resistance-live-levels-93CH-4813066",
-   "t": "31 Jul \u00b7 06:11 AM",
+   "t": "31 Jul \u00b7 09:36 AM",
    "ur": "Silver (chandi) tang rinj mein $59.07 par phans gayi, barik oat zir altawa hai."
   },
   {
-   "ts": 1785460305.58687,
-   "title": "Gold trapped between $4,037-$4,142: Hourly breakout watch",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-in-symmetrical-triangle-near-breakout-live-levels-93CH-4813065",
-   "t": "31 Jul \u00b7 06:11 AM",
-   "ur": "Gold (sona) $4,037-$4,142 ke darmiyan phans gaya: ghanta war barik oat wach"
-  },
-  {
-   "ts": 1785460305.58687,
-   "title": "Comex silver rises 1.6% to highest level in over a week",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/comex-silver-rises-16-to-highest-level-in-over-a-week-93CH-4825920",
-   "t": "31 Jul \u00b7 06:11 AM",
-   "ur": "Kamex Silver (chandi) 1.6 fisad badh kar ek hafte ke duran baland tarin sath par pohch gayi."
-  },
-  {
-   "ts": 1785460305.58687,
-   "title": "Gold futures rise 1.58% to snap two-session decline",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-futures-rise-158-to-snap-twosession-decline-93CH-4825919",
-   "t": "31 Jul \u00b7 06:11 AM",
-   "ur": "Gold futurs 1.58 fisad badh kar do sition garaut ka shkar huvay."
-  },
-  {
-   "ts": 1785454265.0,
-   "title": "Japan\u2019s Tokyo CPI inflation rises to 2.0% YoY in July",
+   "ts": 1785472521.0,
+   "title": "India Gold price today: Gold falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japans-tokyo-cpi-inflation-rises-to-20-yoy-in-july-202607302331",
-   "t": "31 Jul \u00b7 04:31 AM",
-   "ur": "Japan ki tokiyo CPI inflation (mehngai) joli mein badh kar 2.0% tak pohch gayi."
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202607310435",
+   "t": "31 Jul \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
   },
   {
-   "ts": 1785453831.0,
-   "title": "Gold edges higher above $4,100 as traders trim Fed hike bets",
+   "ts": 1785470631.0,
+   "title": "Australian Dollar sticks to intraday gains as BoJ's on-hold decision keeps Yen pressured",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-edges-higher-above-4-100-as-traders-trim-fed-hike-bets-202607302323",
-   "t": "31 Jul \u00b7 04:23 AM",
-   "ur": "Gold (sone) ki qeemat $4,100 se oper hai cunkah taajron ne Fed mein azafe ki shart ko trm kiya hai."
+   "link": "https://www.fxstreet.com/news/australian-dollar-sticks-to-intraday-gains-as-bojs-on-hold-decision-keeps-yen-pressured-202607310403",
+   "t": "31 Jul \u00b7 09:03 AM",
+   "ur": "Aasterilvi Dollar antra day fawaid par qaaim hai cunkah BoJ ke hold ke fisale se yan par dabao rahta hai"
   },
   {
-   "ts": 1785452418.0,
-   "title": "The Australian Dollar clears a big figure on an intervention it will come to regret",
+   "ts": 1785470106.0,
+   "title": "Gold drifts lower as USD recovers amid Fed hike bets and geopolitical tensions",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-australian-dollar-clears-a-big-figure-on-an-intervention-it-will-come-to-regret-202607302300",
-   "t": "31 Jul \u00b7 04:00 AM",
-   "ur": "Aasterilvi Dollar ne ek madakhalt par ek badi shaqsiyat ko saf kiya ise afsos ho ga."
+   "link": "https://www.fxstreet.com/news/gold-drifts-lower-as-usd-recovers-amid-fed-hike-bets-and-geopolitical-tensions-202607310355",
+   "t": "31 Jul \u00b7 08:55 AM",
+   "ur": "Fed mein azafe ki sharton aur geograpi siyasi tanao ke darmiyan USD ki recovery ke bad Gold (sona) kam ho gaya"
   },
   {
-   "ts": 1785445249.0,
-   "title": "Forex Today: US Dollar extends sell-off after weak US growth, Yen surges on suspected intervention",
+   "ts": 1785469325.0,
+   "title": "Silver Price Forecast: XAG/USD declines to near $58.40 as US Dollar regains ground",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-extends-sell-off-after-weak-us-growth-yen-surges-on-suspected-intervention-202607302100",
-   "t": "31 Jul \u00b7 02:00 AM",
-   "ur": "Farex today: kamazor US namo ke bad US Dollar ne farokht mein tosi ki, yan ne mashtabah madakhalt par azafah kiya"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-declines-to-near-5840-as-us-dollar-regains-ground-202607310342",
+   "t": "31 Jul \u00b7 08:42 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD gar kar taqriban 58.40 Dollar par aa gaya cunkah US Dollar dubarah zamin par aa gaya"
   },
   {
-   "ts": 1785443098.0,
-   "title": "Oil: Key driver of UK inflation scenarios \u2013 Rabobank",
+   "ts": 1785467528.0,
+   "title": "British Pound falls as US Dollar receives from internal FOMC policy split",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/oil-key-driver-of-uk-inflation-scenarios-rabobank-202607302024",
-   "t": "31 Jul \u00b7 01:24 AM",
-   "ur": "Til: ue ke inflation (mehngai) ke manazrnamon ka kalidi daryur - rabobank"
+   "link": "https://www.fxstreet.com/news/british-pound-falls-as-us-dollar-receives-from-internal-fomc-policy-split-202607310312",
+   "t": "31 Jul \u00b7 08:12 AM",
+   "ur": "Bartanvi pound garta hai cunkah US Dollar andaroni FOMC palisi taqsim se wasul karta hai."
   },
   {
-   "ts": 1785442260.0,
-   "title": "Chinese Yuan: Gradual gains versus US Dollar \u2013 Commerzbank",
+   "ts": 1785464014.0,
+   "title": "Australian Dollar inches lower as China\u2019s NBS Manufacturing PMI falls in July",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-gains-versus-us-dollar-commerzbank-202607302011",
-   "t": "31 Jul \u00b7 01:11 AM",
-   "ur": "Chini uan: US Dollar ke maqable mein btadarage azafah - kamers Bank"
+   "link": "https://www.fxstreet.com/news/australian-dollar-inches-lower-as-chinas-nbs-manufacturing-pmi-falls-in-july-202607310213",
+   "t": "31 Jul \u00b7 07:13 AM",
+   "ur": "Joli mein chin ke NBS minofectureng PMI mein kami ke sath aasteriliyai Dollar anch niche"
+  },
+  {
+   "ts": 1785461615.0,
+   "title": "United States Dollar Index bounces off its lowest level since June 17, back above 100.00",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-bounces-off-its-lowest-level-since-june-17-back-above-10000-202607310133",
+   "t": "31 Jul \u00b7 06:33 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex 17 jon ke bad apani kam tarin sath se achal raha hai, waps 100.00 se oper"
   }
  ],
  "sentiment": {
