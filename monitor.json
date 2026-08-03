@@ -1,20 +1,13 @@
 {
- "updated": "03-08-2026 23:23 PKT",
+ "updated": "04-08-2026 01:05 PKT",
  "gold": {
-  "price": 4037.08,
-  "open": 4042.68,
+  "price": 4051.17,
+  "open": 4042.46,
   "high": 4088.47,
   "low": 4022.04,
-  "chg": -0.14,
+  "chg": 0.22,
   "src": "XAUUSD Spot",
   "spark": [
-   4064.94,
-   4065.81,
-   4063.24,
-   4058.27,
-   4058.83,
-   4061.51,
-   4060.16,
    4056.02,
    4059.87,
    4058.77,
@@ -55,14 +48,21 @@
    4035.6,
    4031.21,
    4036.84,
-   4037.08
+   4036.95,
+   4039.57,
+   4043.43,
+   4046.85,
+   4053.16,
+   4053.22,
+   4052.25,
+   4051.17
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.05,
-   "chg": 0.8,
+   "price": 58.25,
+   "chg": 1.14,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    58.05
+    58.25
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.982,
-   "chg": 0.18,
+   "price": 99.928,
+   "chg": 0.13,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    99.982
+    99.928
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.69,
-   "chg": -5.88,
+   "price": 80.15,
+   "chg": -5.34,
    "spark": [
     68.55,
     70.44,
@@ -140,13 +140,13 @@
     84.46,
     83.59,
     84.67,
-    79.69
+    80.15
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.688,
-   "chg": -1.2,
+   "price": 4.686,
+   "chg": -1.24,
    "spark": [
     4.479,
     4.529,
@@ -168,13 +168,13 @@
     4.622,
     4.663,
     4.745,
-    4.688
+    4.686
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1513,
-   "chg": -0.09,
+   "price": 1.1514,
+   "chg": -0.08,
    "spark": [
     1.1423,
     1.1438,
@@ -197,13 +197,13 @@
     1.1387,
     1.1467,
     1.1524,
-    1.1513
+    1.1514
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3426,
-   "chg": -0.26,
+   "price": 1.3432,
+   "chg": -0.21,
    "spark": [
     1.3339,
     1.3353,
@@ -226,13 +226,13 @@
     1.3287,
     1.3367,
     1.3461,
-    1.3426
+    1.3432
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.872,
-   "chg": -2.07,
+   "price": 156.962,
+   "chg": -2.01,
    "spark": [
     161.449,
     161.452,
@@ -255,16 +255,14 @@
     163.864,
     163.3,
     160.183,
-    156.872
+    156.962
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1869.94,
-   "chg": -0.7,
+   "price": 1869.27,
+   "chg": -0.74,
    "spark": [
-    1835.56,
-    1836.64,
     1843.87,
     1845.46,
     1843.51,
@@ -310,16 +308,16 @@
     1861.1,
     1864.33,
     1867.01,
-    1869.94
+    1866.88,
+    1869.29,
+    1869.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63832.8,
-   "chg": 0.52,
+   "price": 63790.0,
+   "chg": 0.46,
    "spark": [
-    62477.9,
-    62607.8,
     62759.0,
     62775.1,
     62760.0,
@@ -365,7 +363,9 @@
     63603.3,
     63704.0,
     63848.4,
-    63832.8
+    63807.2,
+    63813.4,
+    63804.0
    ]
   }
  ],
@@ -375,7 +375,7 @@
    "t": "Tue 04 Aug \u00b7 07:00 PM",
    "title": "JOLTS Job Openings",
    "impact": "Medium",
-   "forecast": "7.42M",
+   "forecast": "7.44M",
    "previous": "7.59M"
   },
   {
@@ -383,7 +383,7 @@
    "t": "Wed 05 Aug \u00b7 05:15 PM",
    "title": "ADP Non-Farm Employment Change",
    "impact": "Medium",
-   "forecast": "71K",
+   "forecast": "68K",
    "previous": "98K"
   },
   {
@@ -399,7 +399,7 @@
    "t": "Thu 06 Aug \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "205K",
+   "forecast": "203K",
    "previous": "197K"
   },
   {
@@ -415,7 +415,7 @@
    "t": "Fri 07 Aug \u00b7 05:30 PM",
    "title": "Non-Farm Employment Change",
    "impact": "High",
-   "forecast": "88K",
+   "forecast": "85K",
    "previous": "57K"
   },
   {
@@ -430,20 +430,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785781422.075401,
+   "ts": 1785787522.966658,
    "title": "Gold pares gains as conflicting U.S.-Iran signals cloud outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "03 Aug \u00b7 11:23 PM",
+   "t": "04 Aug \u00b7 01:05 AM",
    "ur": "Mutasadam US-eran ke badil ke oat lak ke ashare ke tur par Gold (sona) kam ho gaya."
   },
   {
-   "ts": 1785781422.075401,
+   "ts": 1785787522.966658,
    "title": "Here\u2019s where Deutsche Bank\u2019s analysis sees fair value for gold prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/heres-where-deutsche-banks-analysis-sees-fair-value-for-gold-prices-4831250",
-   "t": "03 Aug \u00b7 11:23 PM",
+   "t": "04 Aug \u00b7 01:05 AM",
    "ur": "Ya wah jagah hai jahan deoche Bank ka tajaziya Gold (sone) ki qeemton ke liye manasab qeemat dekhta hai."
+  },
+  {
+   "ts": 1785786756.0,
+   "title": "Mexican Peso outpace broad US Dollar strength, ahead of Banxico\u2019s day",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-outpace-broad-us-dollar-strength-ahead-of-banxicos-day-202608031952",
+   "t": "04 Aug \u00b7 12:52 AM",
+   "ur": "Mexican peso ne bankseco ke dan se pehle, US Dollar ki tqt ko aage badhaya"
+  },
+  {
+   "ts": 1785784631.0,
+   "title": "Gold slips as USD rebounds, strong ISM data clouds Fed path",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-slips-as-usd-rebounds-strong-ism-data-clouds-fed-path-202608031917",
+   "t": "04 Aug \u00b7 12:17 AM",
+   "ur": "USD ribounds ke tur par Gold (sona) phisal gaya, mazboot ISM deta kalauds Fed path"
   },
   {
    "ts": 1785779969.0,
@@ -492,22 +508,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-falls-as-stronger-us-pmi-reinforces-hawkish-fed-expectations-202608031444",
    "t": "03 Aug \u00b7 07:44 PM",
    "ur": "Silver (chandi) ki qeemat garti hai cunkah mazboot US PMI ne Fed ki toqaat ko taqwet di hai."
-  },
-  {
-   "ts": 1785767635.0,
-   "title": "Euro pares gains as traders seek clarity on US-Iran talks, Fed monetary policy",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-pares-gains-as-traders-seek-clarity-on-us-iran-talks-fed-monetary-policy-202608031433",
-   "t": "03 Aug \u00b7 07:33 PM",
-   "ur": "Uro ne faidah athaya cunkah taajr amrikah eran mazakarat, fed manateri palisi par wazaht chahte hen."
-  },
-  {
-   "ts": 1785764271.0,
-   "title": "Canadian Dollar weakens on Oil price slump as markets eye data releases",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-weakens-on-oil-price-slump-as-markets-eye-data-releases-202608031337",
-   "t": "03 Aug \u00b7 06:37 PM",
-   "ur": "Caniden Dollar til ki qeemton mein kami par kamazor pad gaya cunkah marketon ki aankhon ke aed w shmar jari hote hen."
   }
  ],
  "sentiment": {
