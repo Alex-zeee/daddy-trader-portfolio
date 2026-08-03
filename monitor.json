@@ -1,20 +1,13 @@
 {
- "updated": "03-08-2026 21:38 PKT",
+ "updated": "03-08-2026 23:23 PKT",
  "gold": {
-  "price": 4036.97,
+  "price": 4037.08,
   "open": 4042.68,
   "high": 4088.47,
   "low": 4022.04,
   "chg": -0.14,
   "src": "XAUUSD Spot",
   "spark": [
-   4065.18,
-   4057.15,
-   4059.72,
-   4063.25,
-   4068.71,
-   4066.23,
-   4068.26,
    4064.94,
    4065.81,
    4063.24,
@@ -55,14 +48,21 @@
    4037.22,
    4036.34,
    4037.5,
-   4036.97
+   4038.47,
+   4037.18,
+   4034.6,
+   4034.72,
+   4035.6,
+   4031.21,
+   4036.84,
+   4037.08
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.665,
-   "chg": 0.13,
+   "price": 58.05,
+   "chg": 0.8,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    57.665
+    58.05
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.946,
-   "chg": 0.15,
+   "price": 99.982,
+   "chg": 0.18,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    99.946
+    99.982
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.38,
-   "chg": -6.25,
+   "price": 79.69,
+   "chg": -5.88,
    "spark": [
     68.55,
     70.44,
@@ -140,7 +140,7 @@
     84.46,
     83.59,
     84.67,
-    79.38
+    79.69
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1509,
-   "chg": -0.13,
+   "price": 1.1513,
+   "chg": -0.09,
    "spark": [
     1.1423,
     1.1438,
@@ -197,13 +197,13 @@
     1.1387,
     1.1467,
     1.1524,
-    1.1509
+    1.1513
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3428,
-   "chg": -0.24,
+   "price": 1.3426,
+   "chg": -0.26,
    "spark": [
     1.3339,
     1.3353,
@@ -226,13 +226,13 @@
     1.3287,
     1.3367,
     1.3461,
-    1.3428
+    1.3426
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.951,
-   "chg": -2.02,
+   "price": 156.872,
+   "chg": -2.07,
    "spark": [
     161.449,
     161.452,
@@ -255,16 +255,14 @@
     163.864,
     163.3,
     160.183,
-    156.951
+    156.872
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1865.51,
-   "chg": -0.94,
+   "price": 1869.94,
+   "chg": -0.7,
    "spark": [
-    1860.23,
-    1834.97,
     1835.56,
     1836.64,
     1843.87,
@@ -310,16 +308,16 @@
     1857.5,
     1871.62,
     1861.1,
-    1865.51
+    1864.33,
+    1867.01,
+    1869.94
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63746.3,
-   "chg": 0.39,
+   "price": 63832.8,
+   "chg": 0.52,
    "spark": [
-    62640.2,
-    62521.7,
     62477.9,
     62607.8,
     62759.0,
@@ -365,27 +363,13 @@
     63258.8,
     63887.4,
     63603.3,
-    63746.3
+    63704.0,
+    63848.4,
+    63832.8
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785765600.0,
-   "t": "Mon 03 Aug \u00b7 07:00 PM",
-   "title": "ISM Manufacturing PMI",
-   "impact": "High",
-   "forecast": "54.0",
-   "previous": "53.3"
-  },
-  {
-   "ts": 1785765600.0,
-   "t": "Mon 03 Aug \u00b7 07:00 PM",
-   "title": "ISM Manufacturing Prices",
-   "impact": "Medium",
-   "forecast": "70.0",
-   "previous": "73.0"
-  },
   {
    "ts": 1785852000.0,
    "t": "Tue 04 Aug \u00b7 07:00 PM",
@@ -446,28 +430,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785775086.583377,
+   "ts": 1785781422.075401,
    "title": "Gold pares gains as conflicting U.S.-Iran signals cloud outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "03 Aug \u00b7 09:38 PM",
+   "t": "03 Aug \u00b7 11:23 PM",
    "ur": "Mutasadam US-eran ke badil ke oat lak ke ashare ke tur par Gold (sona) kam ho gaya."
   },
   {
-   "ts": 1785775086.583377,
+   "ts": 1785781422.075401,
    "title": "Here\u2019s where Deutsche Bank\u2019s analysis sees fair value for gold prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/heres-where-deutsche-banks-analysis-sees-fair-value-for-gold-prices-4831250",
-   "t": "03 Aug \u00b7 09:38 PM",
+   "t": "03 Aug \u00b7 11:23 PM",
    "ur": "Ya wah jagah hai jahan deoche Bank ka tajaziya Gold (sone) ki qeemton ke liye manasab qeemat dekhta hai."
   },
   {
-   "ts": 1785775086.583377,
-   "title": "Bank of Korea to buy gold from local producers",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/bank-of-korea-to-buy-gold-from-local-producers-93CH-4831109",
-   "t": "03 Aug \u00b7 09:38 PM",
-   "ur": "Bank af korya maqami paroducers se Gold (sona) khareede ga."
+   "ts": 1785779969.0,
+   "title": "United States Dollar Index rebounds toward 100 amid US-Iran, Fed uncertainty",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-rebounds-toward-100-amid-us-iran-fed-uncertainty-202608031759",
+   "t": "03 Aug \u00b7 10:59 PM",
+   "ur": "Amrikah eran, fed ki ghair yaqeeni surtahal ke darmiyan US Dollar andex 100 ki taraf lot gaya"
+  },
+  {
+   "ts": 1785776059.0,
+   "title": "Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
+   "t": "03 Aug \u00b7 09:54 PM",
+   "ur": "Minofectureng sarway mahungai ke khadshat ko zaahar karta hai 'wabi dur se bhi badtar', fed pareshar mein azafah"
   },
   {
    "ts": 1785775020.0,
@@ -516,14 +508,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-weakens-on-oil-price-slump-as-markets-eye-data-releases-202608031337",
    "t": "03 Aug \u00b7 06:37 PM",
    "ur": "Caniden Dollar til ki qeemton mein kami par kamazor pad gaya cunkah marketon ki aankhon ke aed w shmar jari hote hen."
-  },
-  {
-   "ts": 1785763820.0,
-   "title": "Japanese Yen: Intervention supports JPY against US Dollar \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-supports-jpy-against-us-dollar-bbh-202608031330",
-   "t": "03 Aug \u00b7 06:30 PM",
-   "ur": "Japani yan: madakhalt US Dollar - BBH ke khalaf JPY ki support karti hai."
   }
  ],
  "sentiment": {
