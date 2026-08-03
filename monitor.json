@@ -1,24 +1,13 @@
 {
- "updated": "03-08-2026 19:00 PKT",
+ "updated": "03-08-2026 21:38 PKT",
  "gold": {
-  "price": 4032.21,
+  "price": 4036.97,
   "open": 4042.68,
   "high": 4088.47,
   "low": 4022.04,
-  "chg": -0.26,
+  "chg": -0.14,
   "src": "XAUUSD Spot",
   "spark": [
-   4054.95,
-   4058.57,
-   4059.58,
-   4062.88,
-   4063.87,
-   4063.04,
-   4061.75,
-   4064.48,
-   4065.92,
-   4067.61,
-   4068.86,
    4065.18,
    4057.15,
    4059.72,
@@ -55,14 +44,25 @@
    4040.75,
    4033.15,
    4032.76,
-   4032.21
+   4032.21,
+   4031.76,
+   4034.75,
+   4036.88,
+   4037.06,
+   4032.93,
+   4031.88,
+   4037.95,
+   4037.22,
+   4036.34,
+   4037.5,
+   4036.97
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.05,
-   "chg": -0.94,
+   "price": 57.665,
+   "chg": 0.13,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    57.05
+    57.665
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.785,
-   "chg": -0.02,
+   "price": 99.946,
+   "chg": 0.15,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    99.785
+    99.946
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.58,
-   "chg": -7.19,
+   "price": 79.38,
+   "chg": -6.25,
    "spark": [
     68.55,
     70.44,
@@ -140,13 +140,13 @@
     84.46,
     83.59,
     84.67,
-    78.58
+    79.38
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.692,
-   "chg": -1.12,
+   "price": 4.688,
+   "chg": -1.2,
    "spark": [
     4.479,
     4.529,
@@ -168,13 +168,13 @@
     4.622,
     4.663,
     4.745,
-    4.692
+    4.688
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.153,
-   "chg": 0.06,
+   "price": 1.1509,
+   "chg": -0.13,
    "spark": [
     1.1423,
     1.1438,
@@ -197,13 +197,13 @@
     1.1387,
     1.1467,
     1.1524,
-    1.153
+    1.1509
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3452,
-   "chg": -0.06,
+   "price": 1.3428,
+   "chg": -0.24,
    "spark": [
     1.3339,
     1.3353,
@@ -226,13 +226,13 @@
     1.3287,
     1.3367,
     1.3461,
-    1.3452
+    1.3428
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.545,
-   "chg": -2.27,
+   "price": 156.951,
+   "chg": -2.02,
    "spark": [
     161.449,
     161.452,
@@ -255,16 +255,14 @@
     163.864,
     163.3,
     160.183,
-    156.545
+    156.951
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1853.32,
-   "chg": -1.58,
+   "price": 1865.51,
+   "chg": -0.94,
    "spark": [
-    1869.08,
-    1866.91,
     1860.23,
     1834.97,
     1835.56,
@@ -310,16 +308,16 @@
     1836.75,
     1841.35,
     1857.5,
-    1853.32
+    1871.62,
+    1861.1,
+    1865.51
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63154.6,
-   "chg": -0.54,
+   "price": 63746.3,
+   "chg": 0.39,
    "spark": [
-    62956.1,
-    62857.4,
     62640.2,
     62521.7,
     62477.9,
@@ -365,7 +363,9 @@
     62469.0,
     62626.5,
     63258.8,
-    63154.6
+    63887.4,
+    63603.3,
+    63746.3
    ]
   }
  ],
@@ -446,28 +446,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785765635.433837,
+   "ts": 1785775086.583377,
+   "title": "Gold pares gains as conflicting U.S.-Iran signals cloud outlook",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
+   "t": "03 Aug \u00b7 09:38 PM",
+   "ur": "Mutasadam US-eran ke badil ke oat lak ke ashare ke tur par Gold (sona) kam ho gaya."
+  },
+  {
+   "ts": 1785775086.583377,
    "title": "Here\u2019s where Deutsche Bank\u2019s analysis sees fair value for gold prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/heres-where-deutsche-banks-analysis-sees-fair-value-for-gold-prices-4831250",
-   "t": "03 Aug \u00b7 07:00 PM",
+   "t": "03 Aug \u00b7 09:38 PM",
    "ur": "Ya wah jagah hai jahan deoche Bank ka tajaziya Gold (sone) ki qeemton ke liye manasab qeemat dekhta hai."
   },
   {
-   "ts": 1785765635.433837,
+   "ts": 1785775086.583377,
    "title": "Bank of Korea to buy gold from local producers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/bank-of-korea-to-buy-gold-from-local-producers-93CH-4831109",
-   "t": "03 Aug \u00b7 07:00 PM",
+   "t": "03 Aug \u00b7 09:38 PM",
    "ur": "Bank af korya maqami paroducers se Gold (sona) khareede ga."
   },
   {
-   "ts": 1785765635.433837,
-   "title": "Gold firms slightly amid drop in oil prices, weaker dollar",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "03 Aug \u00b7 07:00 PM",
-   "ur": "Til ki qeemton mein kami, kamazor Dollar ke darmiyan Gold (sone) ki farmon mein qadare kami"
+   "ts": 1785775020.0,
+   "title": "British Pound slips as strong ISM data revives the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-slips-as-strong-ism-data-revives-the-us-dollar-202608031637",
+   "t": "03 Aug \u00b7 09:37 PM",
+   "ur": "Mazboot ISM deta ne US Dollar ko bahal karne se bartanvi pound mein kami i"
+  },
+  {
+   "ts": 1785770562.0,
+   "title": "Australian Dollar slips after upbeat US ISM Manufacturing data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-slips-after-upbeat-us-ism-manufacturing-data-202608031522",
+   "t": "03 Aug \u00b7 08:22 PM",
+   "ur": "Hawasalah afza US ISM minofectureng deta ke bad aasterilvi Dollar ki qeemat mein kami"
+  },
+  {
+   "ts": 1785768646.0,
+   "title": "Singapore Dollar: Upside bias capped against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-bias-capped-against-us-dollar-uob-202608031450",
+   "t": "03 Aug \u00b7 07:50 PM",
+   "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf alta taasab"
+  },
+  {
+   "ts": 1785768258.0,
+   "title": "Silver price falls as stronger US PMI reinforces hawkish Fed expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-falls-as-stronger-us-pmi-reinforces-hawkish-fed-expectations-202608031444",
+   "t": "03 Aug \u00b7 07:44 PM",
+   "ur": "Silver (chandi) ki qeemat garti hai cunkah mazboot US PMI ne Fed ki toqaat ko taqwet di hai."
+  },
+  {
+   "ts": 1785767635.0,
+   "title": "Euro pares gains as traders seek clarity on US-Iran talks, Fed monetary policy",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-pares-gains-as-traders-seek-clarity-on-us-iran-talks-fed-monetary-policy-202608031433",
+   "t": "03 Aug \u00b7 07:33 PM",
+   "ur": "Uro ne faidah athaya cunkah taajr amrikah eran mazakarat, fed manateri palisi par wazaht chahte hen."
   },
   {
    "ts": 1785764271.0,
@@ -484,46 +524,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-intervention-supports-jpy-against-us-dollar-bbh-202608031330",
    "t": "03 Aug \u00b7 06:30 PM",
    "ur": "Japani yan: madakhalt US Dollar - BBH ke khalaf JPY ki support karti hai."
-  },
-  {
-   "ts": 1785761926.0,
-   "title": "US Dollar: August weakness seen persisting \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-august-weakness-seen-persisting-dbs-202608031258",
-   "t": "03 Aug \u00b7 05:58 PM",
-   "ur": "US Dollar: agist ki kamazori barqarar hai - DBS"
-  },
-  {
-   "ts": 1785758112.0,
-   "title": "US Dollar: Labour data and hawkish risks in focus \u2013 Deutsche Bank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-labour-data-and-hawkish-risks-in-focus-deutsche-bank-202608031155",
-   "t": "03 Aug \u00b7 04:55 PM",
-   "ur": "US Dollar: libr ke aed w shmar aur shadeed khatrat - deoche Bank"
-  },
-  {
-   "ts": 1785756664.0,
-   "title": "Australian Dollar comes under pressure as US Dollar regains ground",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-comes-under-pressure-as-us-dollar-regains-ground-202608031131",
-   "t": "03 Aug \u00b7 04:31 PM",
-   "ur": "Aasterilvi Dollar dabao mein aata hai cunkah US Dollar dubarah zamin par aata hai."
-  },
-  {
-   "ts": 1785756402.0,
-   "title": "Federal Reserve: Data driven rate path \u2013 HSBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-data-driven-rate-path-hsbc-202608031126",
-   "t": "03 Aug \u00b7 04:26 PM",
-   "ur": "Faderl resero: deta par mbani rate ka raastah - HSBC"
-  },
-  {
-   "ts": 1785754697.0,
-   "title": "Gold struggles to hold gains amid mixed US-Iran headlines, hawkish Fed",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-struggles-to-hold-gains-amid-mixed-us-iran-headlines-hawkish-fed-202608031058",
-   "t": "03 Aug \u00b7 03:58 PM",
-   "ur": "US-eran ki mali jali sarkhiyon ke darmiyan Gold (sona) faidah athane ke liye jadojehad kar raha hai, hakish fed"
   }
  ],
  "sentiment": {
