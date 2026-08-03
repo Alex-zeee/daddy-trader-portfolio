@@ -1,18 +1,13 @@
 {
- "updated": "04-08-2026 03:31 PKT",
+ "updated": "04-08-2026 04:44 PKT",
  "gold": {
-  "price": 4052.14,
-  "open": 4065.15,
+  "price": 4051.74,
+  "open": 4067.94,
   "high": 4078.71,
   "low": 4022.04,
-  "chg": -0.32,
+  "chg": -0.4,
   "src": "XAUUSD Spot",
   "spark": [
-   4049.32,
-   4047.95,
-   4048.39,
-   4049.56,
-   4054.96,
    4062.36,
    4055.64,
    4052.63,
@@ -55,14 +50,19 @@
    4053.55,
    4053.27,
    4051.1,
-   4052.14
+   4052.14,
+   4053.42,
+   4053.42,
+   4051.56,
+   4052.29,
+   4051.74
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.27,
-   "chg": 1.18,
+   "price": 58.29,
+   "chg": 1.21,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    58.27
+    58.29
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.991,
-   "chg": 0.19,
+   "price": 99.973,
+   "chg": 0.17,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    99.991
+    99.973
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.98,
-   "chg": -5.54,
+   "price": 79.91,
+   "chg": -5.62,
    "spark": [
     68.55,
     70.44,
@@ -140,7 +140,7 @@
     84.46,
     83.59,
     84.67,
-    79.98
+    79.91
    ]
   },
   {
@@ -174,9 +174,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1511,
-   "chg": -0.1,
+   "chg": -0.28,
    "spark": [
-    1.1423,
     1.1438,
     1.1442,
     1.1404,
@@ -197,15 +196,15 @@
     1.1387,
     1.1467,
     1.1524,
+    1.1544,
     1.1511
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3429,
-   "chg": -0.24,
+   "price": 1.3427,
+   "chg": -0.48,
    "spark": [
-    1.3339,
     1.3353,
     1.3398,
     1.3349,
@@ -226,15 +225,15 @@
     1.3287,
     1.3367,
     1.3461,
-    1.3429
+    1.3492,
+    1.3427
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.331,
-   "chg": -1.78,
+   "price": 157.524,
+   "chg": -0.04,
    "spark": [
-    161.449,
     161.452,
     162.088,
     162.363,
@@ -255,15 +254,15 @@
     163.864,
     163.3,
     160.183,
-    157.331
+    157.582,
+    157.524
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1856.83,
+   "price": 1856.84,
    "chg": -1.4,
    "spark": [
-    1843.51,
     1844.68,
     1855.19,
     1874.83,
@@ -310,15 +309,15 @@
     1869.29,
     1866.99,
     1862.23,
-    1856.83
+    1858.33,
+    1856.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63458.4,
-   "chg": -0.07,
+   "price": 63443.8,
+   "chg": -0.09,
    "spark": [
-    62760.0,
     62762.8,
     62920.1,
     63377.8,
@@ -365,7 +364,8 @@
     63813.4,
     63735.9,
     63542.9,
-    63458.4
+    63550.9,
+    63443.8
    ]
   }
  ],
@@ -430,12 +430,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785796269.756502,
+   "ts": 1785800654.01476,
    "title": "Gold slightly higher as slide in oil prices offset by clouded Fed rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "04 Aug \u00b7 03:31 AM",
+   "t": "04 Aug \u00b7 04:44 AM",
    "ur": "Til ki qeemton mein kami ke baas Gold (sona) qadare ziyadah hai cunkah fed ret oat lak badil ki wajah se hai."
+  },
+  {
+   "ts": 1785799193.0,
+   "title": "Gold declines to near $4,050 on US\u2013Iran talks uncertainty",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-declines-to-near-4-050-on-us-iran-talks-uncertainty-202608032319",
+   "t": "04 Aug \u00b7 04:19 AM",
+   "ur": "Amrikah-eran mazakarat ki ghair yaqeeni surtahal par Gold (sona) $4,050 ke qarib gar gaya."
   },
   {
    "ts": 1785796221.0,
@@ -500,14 +508,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-slips-after-upbeat-us-ism-manufacturing-data-202608031522",
    "t": "03 Aug \u00b7 08:22 PM",
    "ur": "Hawasalah afza US ISM minofectureng deta ke bad aasterilvi Dollar ki qeemat mein kami"
-  },
-  {
-   "ts": 1785768646.0,
-   "title": "Singapore Dollar: Upside bias capped against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-bias-capped-against-us-dollar-uob-202608031450",
-   "t": "03 Aug \u00b7 07:50 PM",
-   "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf alta taasab"
   }
  ],
  "sentiment": {
