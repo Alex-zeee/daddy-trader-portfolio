@@ -1,17 +1,13 @@
 {
- "updated": "04-08-2026 02:18 PKT",
+ "updated": "04-08-2026 03:31 PKT",
  "gold": {
-  "price": 4053.53,
-  "open": 4042.7,
-  "high": 4088.47,
+  "price": 4052.14,
+  "open": 4065.15,
+  "high": 4078.71,
   "low": 4022.04,
-  "chg": 0.27,
+  "chg": -0.32,
   "src": "XAUUSD Spot",
   "spark": [
-   4051.23,
-   4055.85,
-   4056.86,
-   4054.22,
    4049.32,
    4047.95,
    4048.39,
@@ -55,14 +51,18 @@
    4056.7,
    4055.31,
    4053.52,
-   4053.53
+   4053.5,
+   4053.55,
+   4053.27,
+   4051.1,
+   4052.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.395,
-   "chg": 1.4,
+   "price": 58.27,
+   "chg": 1.18,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    58.395
+    58.27
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.958,
-   "chg": 0.16,
+   "price": 99.991,
+   "chg": 0.19,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    99.958
+    99.991
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.06,
-   "chg": -5.44,
+   "price": 79.98,
+   "chg": -5.54,
    "spark": [
     68.55,
     70.44,
@@ -140,7 +140,7 @@
     84.46,
     83.59,
     84.67,
-    80.06
+    79.98
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1513,
-   "chg": -0.09,
+   "price": 1.1511,
+   "chg": -0.1,
    "spark": [
     1.1423,
     1.1438,
@@ -197,13 +197,13 @@
     1.1387,
     1.1467,
     1.1524,
-    1.1513
+    1.1511
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.343,
-   "chg": -0.23,
+   "price": 1.3429,
+   "chg": -0.24,
    "spark": [
     1.3339,
     1.3353,
@@ -226,13 +226,13 @@
     1.3287,
     1.3367,
     1.3461,
-    1.343
+    1.3429
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.141,
-   "chg": -1.9,
+   "price": 157.331,
+   "chg": -1.78,
    "spark": [
     161.449,
     161.452,
@@ -255,15 +255,14 @@
     163.864,
     163.3,
     160.183,
-    157.141
+    157.331
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1863.0,
-   "chg": -1.07,
+   "price": 1856.83,
+   "chg": -1.4,
    "spark": [
-    1845.46,
     1843.51,
     1844.68,
     1855.19,
@@ -310,15 +309,15 @@
     1866.88,
     1869.29,
     1866.99,
-    1863.0
+    1862.23,
+    1856.83
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63676.3,
-   "chg": 0.28,
+   "price": 63458.4,
+   "chg": -0.07,
    "spark": [
-    62775.1,
     62760.0,
     62762.8,
     62920.1,
@@ -365,7 +364,8 @@
     63807.2,
     63813.4,
     63735.9,
-    63676.3
+    63542.9,
+    63458.4
    ]
   }
  ],
@@ -430,12 +430,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785791900.310612,
-   "title": "Gold pares gains as conflicting U.S.-Iran signals cloud outlook",
+   "ts": 1785796269.756502,
+   "title": "Gold slightly higher as slide in oil prices offset by clouded Fed rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "04 Aug \u00b7 02:18 AM",
-   "ur": "Mutasadam US-eran ke badil ke oat lak ke ashare ke tur par Gold (sona) kam ho gaya."
+   "t": "04 Aug \u00b7 03:31 AM",
+   "ur": "Til ki qeemton mein kami ke baas Gold (sona) qadare ziyadah hai cunkah fed ret oat lak badil ki wajah se hai."
+  },
+  {
+   "ts": 1785796221.0,
+   "title": "Australian Dollar slides to 0.70 as US ISM PMI, revives the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-slides-to-070-as-us-ism-pmi-revives-the-us-dollar-202608032230",
+   "t": "04 Aug \u00b7 03:30 AM",
+   "ur": "US ISM PMI ke tur par aasterilvi Dollar 0.70 par phisalta hai, US Dollar ko bahal karta hai"
+  },
+  {
+   "ts": 1785792965.0,
+   "title": "New Zealand Dollar holds as traders brace for New Zealand jobs data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-as-traders-brace-for-new-zealand-jobs-data-202608032136",
+   "t": "04 Aug \u00b7 02:36 AM",
+   "ur": "Niyozi lind Dollar ke pas treaders niyozi lind ki malazmaton ke aed w shmar ke liye tyar hen."
   },
   {
    "ts": 1785786756.0,
@@ -492,22 +508,6 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-upside-bias-capped-against-us-dollar-uob-202608031450",
    "t": "03 Aug \u00b7 07:50 PM",
    "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf alta taasab"
-  },
-  {
-   "ts": 1785768258.0,
-   "title": "Silver price falls as stronger US PMI reinforces hawkish Fed expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-falls-as-stronger-us-pmi-reinforces-hawkish-fed-expectations-202608031444",
-   "t": "03 Aug \u00b7 07:44 PM",
-   "ur": "Silver (chandi) ki qeemat garti hai cunkah mazboot US PMI ne Fed ki toqaat ko taqwet di hai."
-  },
-  {
-   "ts": 1785767635.0,
-   "title": "Euro pares gains as traders seek clarity on US-Iran talks, Fed monetary policy",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-pares-gains-as-traders-seek-clarity-on-us-iran-talks-fed-monetary-policy-202608031433",
-   "t": "03 Aug \u00b7 07:33 PM",
-   "ur": "Uro ne faidah athaya cunkah taajr amrikah eran mazakarat, fed manateri palisi par wazaht chahte hen."
   }
  ],
  "sentiment": {
