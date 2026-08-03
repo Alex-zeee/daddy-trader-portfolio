@@ -1,19 +1,13 @@
 {
- "updated": "03-08-2026 04:37 PKT",
+ "updated": "03-08-2026 06:12 PKT",
  "gold": {
-  "price": 4068.99,
+  "price": 4060.24,
   "open": 4042.68,
   "high": 4088.47,
   "low": 4022.31,
-  "chg": 0.65,
+  "chg": 0.43,
   "src": "XAUUSD Spot",
   "spark": [
-   4042.73,
-   4042.65,
-   4042.77,
-   4042.76,
-   4042.74,
-   4042.66,
    4042.67,
    4042.75,
    4042.75,
@@ -55,14 +49,20 @@
    4063.99,
    4065.4,
    4071.14,
-   4068.99
+   4068.2,
+   4072.1,
+   4070.29,
+   4065.33,
+   4057.47,
+   4056.36,
+   4060.24
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.54,
-   "chg": 1.65,
+   "price": 58.455,
+   "chg": 1.5,
    "spark": [
     60.643,
     61.92,
@@ -85,13 +85,13 @@
     57.863,
     58.815,
     57.591,
-    58.54
+    58.455
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.732,
-   "chg": -0.07,
+   "price": 99.545,
+   "chg": -0.26,
    "spark": [
     100.86,
     100.85,
@@ -114,13 +114,13 @@
     100.8,
     100.01,
     99.8,
-    99.732
+    99.545
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.91,
-   "chg": -4.44,
+   "price": 80.58,
+   "chg": -4.83,
    "spark": [
     68.69,
     68.55,
@@ -143,7 +143,7 @@
     84.46,
     83.59,
     84.67,
-    80.91
+    80.58
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1549,
-   "chg": 0.22,
+   "price": 1.1542,
+   "chg": 0.16,
    "spark": [
     1.1423,
     1.1438,
@@ -201,13 +201,13 @@
     1.1387,
     1.1467,
     1.1524,
-    1.1549
+    1.1542
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3493,
-   "chg": 0.24,
+   "price": 1.3479,
+   "chg": 0.13,
    "spark": [
     1.3339,
     1.3353,
@@ -230,13 +230,13 @@
     1.3287,
     1.3367,
     1.3461,
-    1.3493
+    1.3479
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.719,
-   "chg": -1.54,
+   "price": 156.056,
+   "chg": -2.58,
    "spark": [
     161.449,
     161.452,
@@ -259,16 +259,14 @@
     163.864,
     163.3,
     160.183,
-    157.719
+    156.056
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1881.74,
-   "chg": 2.07,
+   "price": 1871.72,
+   "chg": -0.61,
    "spark": [
-    1862.89,
-    1864.73,
     1866.49,
     1867.97,
     1868.06,
@@ -314,16 +312,16 @@
     1881.79,
     1888.43,
     1879.94,
-    1881.74
+    1882.88,
+    1871.71,
+    1871.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63484.0,
-   "chg": 1.15,
+   "price": 63217.8,
+   "chg": -0.44,
    "spark": [
-    62877.9,
-    62899.4,
     63004.5,
     62942.3,
     63037.1,
@@ -369,7 +367,9 @@
     63427.2,
     63500.9,
     63351.4,
-    63484.0
+    63500.0,
+    63243.8,
+    63217.8
    ]
   }
  ],
@@ -450,28 +450,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785713859.844848,
+   "ts": 1785719538.938993,
    "title": "UBS explains what it would take for gold prices to turn higher in 2H26",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-explains-what-it-would-take-for-gold-prices-to-turn-higher-in-2h26-4829671",
-   "t": "03 Aug \u00b7 04:37 AM",
+   "t": "03 Aug \u00b7 06:12 AM",
    "ur": "UBS batata hai kah 2H26 mein Gold (sone) ki qeemton mein azafe ke liye kiya karna pade ga."
   },
   {
-   "ts": 1785713859.844848,
+   "ts": 1785719538.938993,
    "title": "Gold prices in July snap four-month losing streak, helped by weaker dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-heads-for-first-monthly-gain-in-5-4826693",
-   "t": "03 Aug \u00b7 04:37 AM",
+   "t": "03 Aug \u00b7 06:12 AM",
    "ur": "Joli mein Gold (sone) ki qeemton mein char mah ke khasare ka salsalah sharo hawa, jas ki madad kamazor Dollar ki wajah se hoi."
   },
   {
-   "ts": 1785713859.844848,
+   "ts": 1785719538.938993,
    "title": "Tether adds 14 tons of gold to reserves in second quarter",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/tether-adds-14-tons-of-gold-to-reserves-in-second-quarter-93CH-4829311",
-   "t": "03 Aug \u00b7 04:37 AM",
+   "t": "03 Aug \u00b7 06:12 AM",
    "ur": "Tethar ne dosari sah mahi mein zakhair mein 14 tan Gold (sona) shamil kiya."
+  },
+  {
+   "ts": 1785718953.0,
+   "title": "Gold recovers above $4,050 as Trump pauses Iran strikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-recovers-above-4-050-as-trump-pauses-iran-strikes-202608030102",
+   "t": "03 Aug \u00b7 06:02 AM",
+   "ur": "Trmp ki janb se eran par hamle rokane ke bad Gold (sona) $4,050 se oper aagaya"
   },
   {
    "ts": 1785713540.0,
@@ -520,18 +528,10 @@
    "link": "https://www.fxstreet.com/news/euro-recovers-as-eurozone-inflation-stays-firm-202607311800",
    "t": "31 Jul \u00b7 11:00 PM",
    "ur": "Uro zon ki inflation (mehngai) mastahkam rahne se uro ki recovery"
-  },
-  {
-   "ts": 1785519643.0,
-   "title": "Silver Price Forecast: XAG/USD consolidates above $55 as downside momentum eases",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-consolidates-above-55-as-downside-momentum-eases-202607311740",
-   "t": "31 Jul \u00b7 10:40 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $55 se oper mastahkam ho gaya cunkah niche ki raftar mein aasani hoti hai"
   }
  ],
  "sentiment": {
-  "value": 27,
+  "value": 28,
   "label": "Fear"
  },
  "err": null
