@@ -1,21 +1,13 @@
 {
- "updated": "04-08-2026 20:59 PKT",
+ "updated": "04-08-2026 22:46 PKT",
  "gold": {
-  "price": 4088.32,
-  "open": 4036.97,
-  "high": 4093.66,
+  "price": 4095.81,
+  "open": 4031.03,
+  "high": 4105.94,
   "low": 4029.79,
-  "chg": 1.27,
+  "chg": 1.61,
   "src": "XAUUSD Spot",
   "spark": [
-   4055.14,
-   4061.01,
-   4062.97,
-   4065.81,
-   4057.75,
-   4063.14,
-   4062.3,
-   4061.6,
    4064.17,
    4060.98,
    4059.05,
@@ -55,14 +47,22 @@
    4084.98,
    4077.44,
    4084.36,
-   4088.32
+   4087.81,
+   4086.73,
+   4089.56,
+   4088.73,
+   4093.63,
+   4099.94,
+   4096.14,
+   4095.17,
+   4095.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.91,
-   "chg": 3.89,
+   "price": 60.12,
+   "chg": 4.25,
    "spark": [
     61.92,
     60.931,
@@ -85,13 +85,13 @@
     58.815,
     57.591,
     57.667,
-    59.91
+    60.12
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.904,
-   "chg": -0.06,
+   "price": 99.931,
+   "chg": -0.03,
    "spark": [
     100.85,
     101.14,
@@ -114,13 +114,13 @@
     100.01,
     99.8,
     99.96,
-    99.904
+    99.931
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 75.59,
-   "chg": -5.91,
+   "price": 75.67,
+   "chg": -5.81,
    "spark": [
     68.55,
     70.44,
@@ -143,7 +143,7 @@
     83.59,
     84.67,
     80.34,
-    75.59
+    75.67
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.153,
-   "chg": -0.12,
+   "price": 1.1529,
+   "chg": -0.13,
    "spark": [
     1.1438,
     1.1442,
@@ -201,13 +201,42 @@
     1.1467,
     1.1524,
     1.1544,
-    1.153
+    1.1529
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3445,
+   "chg": -0.35,
+   "spark": [
+    1.3353,
+    1.3398,
+    1.3349,
+    1.3396,
+    1.3416,
+    1.3387,
+    1.3348,
+    1.3397,
+    1.3541,
+    1.3479,
+    1.3446,
+    1.3432,
+    1.3379,
+    1.3375,
+    1.3313,
+    1.3351,
+    1.329,
+    1.3287,
+    1.3367,
+    1.3461,
+    1.3492,
+    1.3445
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.427,
-   "chg": -0.1,
+   "price": 157.594,
+   "chg": 0.01,
    "spark": [
     161.452,
     162.088,
@@ -230,16 +259,14 @@
     163.3,
     160.183,
     157.582,
-    157.427
+    157.594
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1871.8,
-   "chg": 0.7,
+   "price": 1874.28,
+   "chg": 0.83,
    "spark": [
-    1861.38,
-    1867.22,
     1873.71,
     1880.31,
     1881.79,
@@ -285,16 +312,16 @@
     1873.37,
     1859.11,
     1870.92,
-    1871.8
+    1871.47,
+    1867.74,
+    1874.28
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64080.1,
-   "chg": 0.97,
+   "price": 64043.6,
+   "chg": 0.92,
    "spark": [
-    63111.0,
-    63236.0,
     63311.9,
     63378.1,
     63427.2,
@@ -340,19 +367,13 @@
     63845.7,
     63610.8,
     64075.6,
-    64080.1
+    64080.1,
+    63899.7,
+    64043.6
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785852000.0,
-   "t": "Tue 04 Aug \u00b7 07:00 PM",
-   "title": "JOLTS Job Openings",
-   "impact": "Medium",
-   "forecast": "7.44M",
-   "previous": "7.59M"
-  },
   {
    "ts": 1785932100.0,
    "t": "Wed 05 Aug \u00b7 05:15 PM",
@@ -405,11 +426,19 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785859158.157791,
+   "ts": 1785865614.103169,
+   "title": "LBMA suspends Shandong Gold Smelting from delivery lists",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/lbma-suspends-shandong-gold-smelting-from-delivery-lists-93CH-4835230",
+   "t": "04 Aug \u00b7 10:46 PM",
+   "ur": "LBMA ne shedong gold sameloting ko deliyori laston se matal kar diya."
+  },
+  {
+   "ts": 1785865614.103169,
    "title": "Gold jumps as upbeat comments on Mideast talks ease inflation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-traders-assess-fed-outlook-middle-east-risks-4832673",
-   "t": "04 Aug \u00b7 08:59 PM",
+   "t": "04 Aug \u00b7 10:46 PM",
    "ur": "Masharq wasta ki bat chiyat par mahungai ke khadshat ko kam karne ke par josh tabsaron ke tur par Gold (sone) ki chhalang"
   },
   {
@@ -475,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-climbs-above-07000-as-hopes-of-an-iran-deal-lift-risk-sentiment-202608041414",
    "t": "04 Aug \u00b7 07:14 PM",
    "ur": "Aasterilvi Dollar 0.7000 se oper chadh gaya cunkah eran ke maahide ki amidon se khatre ke jazbat mein azafah"
-  },
-  {
-   "ts": 1785851237.0,
-   "title": "US Dollar: Dip after FOMC but strength expected \u2013 HSBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-dip-after-fomc-but-strength-expected-hsbc-202608041347",
-   "t": "04 Aug \u00b7 06:47 PM",
-   "ur": "US Dollar: FOMC ke bad kami lican tqt matoqa - HSBC"
   }
  ],
  "sentiment": {
