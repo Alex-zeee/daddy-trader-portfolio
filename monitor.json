@@ -1,19 +1,13 @@
 {
- "updated": "04-08-2026 04:44 PKT",
+ "updated": "04-08-2026 06:06 PKT",
  "gold": {
-  "price": 4051.74,
-  "open": 4067.94,
-  "high": 4078.71,
+  "price": 4046.98,
+  "open": 4053.91,
+  "high": 4071.66,
   "low": 4022.04,
-  "chg": -0.4,
+  "chg": -0.17,
   "src": "XAUUSD Spot",
   "spark": [
-   4062.36,
-   4055.64,
-   4052.63,
-   4043.29,
-   4048.53,
-   4040.75,
    4033.15,
    4032.76,
    4032.21,
@@ -55,14 +49,20 @@
    4053.42,
    4051.56,
    4052.29,
-   4051.74
+   4052.25,
+   4053.32,
+   4064.52,
+   4060.98,
+   4056.24,
+   4050.5,
+   4046.98
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 58.29,
-   "chg": 1.21,
+   "price": 58.43,
+   "chg": 1.46,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    58.29
+    58.43
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.973,
-   "chg": 0.17,
+   "price": 99.986,
+   "chg": 0.19,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    99.973
+    99.986
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.91,
-   "chg": -5.62,
+   "price": 80.92,
+   "chg": -4.43,
    "spark": [
     68.55,
     70.44,
@@ -140,7 +140,7 @@
     84.46,
     83.59,
     84.67,
-    79.91
+    80.92
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1511,
-   "chg": -0.28,
+   "price": 1.1507,
+   "chg": -0.32,
    "spark": [
     1.1438,
     1.1442,
@@ -197,13 +197,13 @@
     1.1467,
     1.1524,
     1.1544,
-    1.1511
+    1.1507
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3427,
-   "chg": -0.48,
+   "price": 1.3423,
+   "chg": -0.51,
    "spark": [
     1.3353,
     1.3398,
@@ -226,13 +226,13 @@
     1.3367,
     1.3461,
     1.3492,
-    1.3427
+    1.3423
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.524,
-   "chg": -0.04,
+   "price": 157.559,
+   "chg": -0.01,
    "spark": [
     161.452,
     162.088,
@@ -255,16 +255,14 @@
     163.3,
     160.183,
     157.582,
-    157.524
+    157.559
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1856.84,
-   "chg": -1.4,
+   "price": 1851.9,
+   "chg": -0.37,
    "spark": [
-    1844.68,
-    1855.19,
     1874.83,
     1875.54,
     1879.13,
@@ -310,16 +308,16 @@
     1866.99,
     1862.23,
     1858.33,
-    1856.84
+    1858.77,
+    1848.9,
+    1851.9
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63443.8,
-   "chg": -0.09,
+   "price": 63420.3,
+   "chg": -0.07,
    "spark": [
-    62762.8,
-    62920.1,
     63377.8,
     63392.7,
     63514.8,
@@ -365,7 +363,9 @@
     63735.9,
     63542.9,
     63550.9,
-    63443.8
+    63461.7,
+    63288.9,
+    63420.3
    ]
   }
  ],
@@ -430,12 +430,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785800654.01476,
+   "ts": 1785805563.224992,
    "title": "Gold slightly higher as slide in oil prices offset by clouded Fed rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "04 Aug \u00b7 04:44 AM",
+   "t": "04 Aug \u00b7 06:06 AM",
    "ur": "Til ki qeemton mein kami ke baas Gold (sona) qadare ziyadah hai cunkah fed ret oat lak badil ki wajah se hai."
+  },
+  {
+   "ts": 1785801763.0,
+   "title": "Fed's Warsh weighs cutting regular FOMC meetings to six from eight a year",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/fed-weighs-cutting-regular-fomc-meetings-to-six-from-eight-a-year-202608040002",
+   "t": "04 Aug \u00b7 05:02 AM",
+   "ur": "Fed's Warsh ka wazin hai kah baqaadah FOMC matongs ko salana auth se kam kar ke chh kar diya gaya hai."
   },
   {
    "ts": 1785799193.0,
@@ -500,19 +508,11 @@
    "link": "https://www.fxstreet.com/news/british-pound-slips-as-strong-ism-data-revives-the-us-dollar-202608031637",
    "t": "03 Aug \u00b7 09:37 PM",
    "ur": "Mazboot ISM deta ne US Dollar ko bahal karne se bartanvi pound mein kami i"
-  },
-  {
-   "ts": 1785770562.0,
-   "title": "Australian Dollar slips after upbeat US ISM Manufacturing data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-slips-after-upbeat-us-ism-manufacturing-data-202608031522",
-   "t": "03 Aug \u00b7 08:22 PM",
-   "ur": "Hawasalah afza US ISM minofectureng deta ke bad aasterilvi Dollar ki qeemat mein kami"
   }
  ],
  "sentiment": {
-  "value": 28,
-  "label": "Fear"
+  "value": 25,
+  "label": "Extreme Fear"
  },
  "err": null
 }
