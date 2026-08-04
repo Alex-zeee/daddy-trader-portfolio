@@ -1,17 +1,13 @@
 {
- "updated": "05-08-2026 03:50 PKT",
+ "updated": "05-08-2026 04:51 PKT",
  "gold": {
-  "price": 4082.85,
-  "open": 4053.22,
+  "price": 4071.02,
+  "open": 4053.14,
   "high": 4105.94,
   "low": 4042.61,
-  "chg": 0.73,
+  "chg": 0.44,
   "src": "XAUUSD Spot",
   "spark": [
-   4057.86,
-   4060.69,
-   4064.46,
-   4072.76,
    4062.02,
    4067.59,
    4083.14,
@@ -55,14 +51,18 @@
    4076.71,
    4079.65,
    4083.59,
-   4082.85
+   4076.59,
+   4072.79,
+   4067.91,
+   4069.06,
+   4071.02
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.825,
-   "chg": 3.74,
+   "price": 59.655,
+   "chg": 3.45,
    "spark": [
     61.92,
     60.931,
@@ -85,13 +85,13 @@
     58.815,
     57.591,
     57.667,
-    59.825
+    59.655
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.882,
-   "chg": -0.08,
+   "price": 99.872,
+   "chg": -0.09,
    "spark": [
     100.85,
     101.14,
@@ -114,13 +114,13 @@
     100.01,
     99.8,
     99.96,
-    99.882
+    99.872
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 75.2,
-   "chg": -6.4,
+   "price": 75.11,
+   "chg": -6.51,
    "spark": [
     68.55,
     70.44,
@@ -143,7 +143,7 @@
     83.59,
     84.67,
     80.34,
-    75.2
+    75.11
    ]
   },
   {
@@ -178,9 +178,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1535,
-   "chg": -0.07,
+   "chg": 0.24,
    "spark": [
-    1.1438,
     1.1442,
     1.1404,
     1.1422,
@@ -201,15 +200,15 @@
     1.1467,
     1.1524,
     1.1544,
+    1.1507,
     1.1535
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3451,
-   "chg": -0.3,
+   "price": 1.345,
+   "chg": 0.17,
    "spark": [
-    1.3353,
     1.3398,
     1.3349,
     1.3396,
@@ -230,15 +229,15 @@
     1.3367,
     1.3461,
     1.3492,
-    1.3451
+    1.3427,
+    1.345
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.712,
-   "chg": 0.08,
+   "price": 157.761,
+   "chg": 0.15,
    "spark": [
-    161.452,
     162.088,
     162.363,
     162.539,
@@ -259,15 +258,15 @@
     163.3,
     160.183,
     157.582,
-    157.712
+    157.529,
+    157.761
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1873.26,
-   "chg": 0.78,
+   "price": 1869.01,
+   "chg": 0.55,
    "spark": [
-    1882.88,
     1871.71,
     1865.27,
     1861.23,
@@ -314,15 +313,15 @@
     1873.84,
     1874.93,
     1871.1,
-    1873.26
+    1874.0,
+    1869.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64147.7,
-   "chg": 1.08,
+   "price": 64100.0,
+   "chg": 1.01,
    "spark": [
-    63500.0,
     63243.8,
     63127.1,
     63063.8,
@@ -369,7 +368,8 @@
     64181.8,
     64297.9,
     64149.8,
-    64147.7
+    64220.0,
+    64100.0
    ]
   }
  ],
@@ -434,20 +434,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785883822.76984,
+   "ts": 1785887485.662855,
    "title": "Gold rises as oil extends slide to a second straight day, easing inflation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-traders-assess-fed-outlook-middle-east-risks-4832673",
-   "t": "05 Aug \u00b7 03:50 AM",
-   "ur": "Gold (sone) ki qeemat mein azafah hawa cunkah til maslsal dosare dan bhi garta hai, jas se mahungai ke khadshat kam hote hen."
+   "t": "05 Aug \u00b7 04:51 AM",
+   "ur": "Gold (sone) ki qeemat mein azafah hawa cunkah til ki qeemat mein maslsal dosare dan azafah hawa, jas se mahungai ke khadshat kam huvay."
   },
   {
-   "ts": 1785883822.76984,
+   "ts": 1785887485.662855,
    "title": "Gold near bull trap at $4,175 with 3:1 risk/reward: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "05 Aug \u00b7 03:50 AM",
+   "t": "05 Aug \u00b7 04:51 AM",
    "ur": "Bel trip ke qarib Gold (sona) $4,175 par 3:1 rask/anaam ke sath"
+  },
+  {
+   "ts": 1785885905.0,
+   "title": "Gold edges lower below $4,100 as markets focus on US-Iran talks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-edges-lower-below-4-100-as-markets-focus-on-us-iran-talks-202608042325",
+   "t": "05 Aug \u00b7 04:25 AM",
+   "ur": "Gold (sone) ke kanaron ki qeemat 4,100 Dollar se niche hai cunkah marketon ki tojah amrikah eran mazakarat par hai."
   },
   {
    "ts": 1785882537.0,
@@ -504,14 +512,6 @@
    "link": "https://www.fxstreet.com/news/gold-shines-and-rises-on-irans-deal-hopes-lower-us-yields-202608041753",
    "t": "04 Aug \u00b7 10:53 PM",
    "ur": "Eran ki del ki amidon par Gold (sona) chamakta aur badhta hai, US pedawar mein kami"
-  },
-  {
-   "ts": 1785859080.0,
-   "title": "Canadian Dollar: Bullish signals point to gains versus US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-signals-point-to-gains-versus-us-dollar-scotiabank-202608041558",
-   "t": "04 Aug \u00b7 08:58 PM",
-   "ur": "Caniden Dollar: US Dollar ke maqable mein tizi ke ashare - Scotiabank"
   }
  ],
  "sentiment": {
