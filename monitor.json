@@ -1,24 +1,13 @@
 {
- "updated": "04-08-2026 12:08 PKT",
+ "updated": "04-08-2026 14:47 PKT",
  "gold": {
-  "price": 4065.3,
-  "open": 4063.01,
-  "high": 4069.34,
+  "price": 4049.31,
+  "open": 4056.89,
+  "high": 4072.66,
   "low": 4022.04,
-  "chg": 0.06,
+  "chg": -0.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4053.16,
-   4053.22,
-   4052.25,
-   4052.77,
-   4054.35,
-   4056.7,
-   4055.31,
-   4053.52,
-   4053.5,
-   4053.55,
-   4053.27,
    4051.1,
    4052.14,
    4053.42,
@@ -55,14 +44,25 @@
    4060.98,
    4059.05,
    4062.01,
-   4065.3
+   4061.76,
+   4063.45,
+   4062.56,
+   4065.5,
+   4069.39,
+   4062.42,
+   4058.97,
+   4055.45,
+   4050.29,
+   4051.18,
+   4049.83,
+   4049.31
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.125,
-   "chg": 2.66,
+   "price": 58.91,
+   "chg": 2.29,
    "spark": [
     61.92,
     60.931,
@@ -84,13 +84,13 @@
     57.863,
     58.815,
     57.591,
-    59.125
+    58.91
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.03,
-   "chg": 0.23,
+   "price": 100.011,
+   "chg": 0.21,
    "spark": [
     100.85,
     101.14,
@@ -112,13 +112,13 @@
     100.8,
     100.01,
     99.8,
-    100.03
+    100.011
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.55,
-   "chg": -4.87,
+   "price": 81.88,
+   "chg": -3.3,
    "spark": [
     68.55,
     70.44,
@@ -140,7 +140,7 @@
     84.46,
     83.59,
     84.67,
-    80.55
+    81.88
    ]
   },
   {
@@ -201,8 +201,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.343,
-   "chg": -0.46,
+   "price": 1.344,
+   "chg": -0.38,
    "spark": [
     1.3353,
     1.3398,
@@ -225,13 +225,13 @@
     1.3367,
     1.3461,
     1.3492,
-    1.343
+    1.344
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.658,
-   "chg": 0.05,
+   "price": 157.918,
+   "chg": 0.21,
    "spark": [
     161.452,
     162.088,
@@ -254,16 +254,14 @@
     163.3,
     160.183,
     157.582,
-    157.658
+    157.918
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1855.61,
-   "chg": -0.17,
+   "price": 1853.7,
+   "chg": -0.27,
    "spark": [
-    1866.15,
-    1869.09,
     1867.02,
     1849.83,
     1854.83,
@@ -309,16 +307,16 @@
     1866.54,
     1862.8,
     1855.16,
-    1855.61
+    1862.51,
+    1855.69,
+    1853.7
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63596.7,
-   "chg": 0.21,
+   "price": 63492.0,
+   "chg": 0.05,
    "spark": [
-    63117.8,
-    63202.8,
     63127.3,
     62965.8,
     63059.3,
@@ -364,7 +362,9 @@
     63975.9,
     63743.2,
     63610.6,
-    63596.7
+    63627.7,
+    63521.3,
+    63492.0
    ]
   }
  ],
@@ -429,84 +429,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785827295.298652,
+   "ts": 1785836860.364335,
+   "title": "Goldman sees Brent at $80-$90 until US-Iran deal or major escalation",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-sees-brent-at-8090-until-usiran-deal-or-major-escalation-4833138",
+   "t": "04 Aug \u00b7 02:47 PM",
+   "ur": "Golldomin barint ko $80-$90 par dekhta hai jab tak kah amrikah-eran del yaa koi bada azafah na ho."
+  },
+  {
+   "ts": 1785836860.364335,
+   "title": "Silver coils below $60 in tight range: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
+   "t": "04 Aug \u00b7 02:47 PM",
+   "ur": "Silver (chandi) ki tajart kar raha hai saqt had mein $60 se niche: ghanta ki sath"
+  },
+  {
+   "ts": 1785836860.364335,
+   "title": "Gold trapped at $4,117 below SMA(200): Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
+   "t": "04 Aug \u00b7 02:47 PM",
+   "ur": "Gold (sona) SMA (200) se niche $4,117 par phans gaya: ghanta ki sath"
+  },
+  {
+   "ts": 1785836860.364335,
    "title": "Gold edges higher as U.S. jobs data, Middle East risks keep traders cautious",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-traders-assess-fed-outlook-middle-east-risks-4832673",
-   "t": "04 Aug \u00b7 12:08 PM",
+   "t": "04 Aug \u00b7 02:47 PM",
    "ur": "US malazmaton ke aed w shmar ke tur par Gold (sone) ke kanare baland huvay, masharq wasti ke khatrat taajron ko muhatat ruktey hen."
   },
   {
-   "ts": 1785827295.298652,
-   "title": "Shipping traffic at key Gulf waterways little changed on uncertain peace talks",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/shipping-traffic-at-key-gulf-waterways-little-changed-on-uncertain-peace-talks-4832728",
-   "t": "04 Aug \u00b7 12:08 PM",
-   "ur": "Aham khaliji aabi guzargahon par jahaz raani ki aamadurft mein ghair yaqeeni aman mazakarat par thoda sa tabadili i hai."
-  },
-  {
-   "ts": 1785827295.298652,
-   "title": "Gold slightly higher as slide in oil prices offset by clouded Fed rate outlook",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-climbs-as-trump-delays-iran-strike-softer-oil-eases-inflation-concerns-4829739",
-   "t": "04 Aug \u00b7 12:08 PM",
-   "ur": "Til ki qeemton mein kami ke baas Gold (sona) qadare ziyadah hai cunkah fed ret oat lak badil ki wajah se hai."
-  },
-  {
-   "ts": 1785826832.0,
-   "title": "US Dollar: Warsh tactics cloud Fed path \u2013 Commerzbank",
+   "ts": 1785835812.0,
+   "title": "Silver price today: Silver rises, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-warsh-tactics-cloud-fed-path-commerzbank-202608040700",
-   "t": "04 Aug \u00b7 12:00 PM",
-   "ur": "US Dollar: jangi hakmat amali badil fed path \u2013 kamrzabink"
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202608040930",
+   "t": "04 Aug \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
   },
   {
-   "ts": 1785826521.0,
-   "title": "Australian Dollar edges higher above 0.7000 on US-Iran breakthrough hopes",
+   "ts": 1785834955.0,
+   "title": "US Dollar: NFP and inflation mix complicate Fed path \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-above-07000-on-us-iran-breakthrough-hopes-202608040655",
-   "t": "04 Aug \u00b7 11:55 AM",
-   "ur": "Amrikah eran pesh raft ki amidon par aasterilvi Dollar 0.7000 se oper pohch gaya"
+   "link": "https://www.fxstreet.com/news/us-dollar-nfp-and-inflation-mix-complicate-fed-path-bny-202608040915",
+   "t": "04 Aug \u00b7 02:15 PM",
+   "ur": "US Dollar: NFP aur inflation (mehngai) ka akhtalat Fed ke raaste ko patcheedah banata hai \u2013 BNY"
   },
   {
-   "ts": 1785824885.0,
-   "title": "Silver Price Forecasts: XAG/USD reaches $59.00 amid cautious Iran peace hopes",
+   "ts": 1785834360.0,
+   "title": "New Zealand Dollar: Jobs data and RBNZ hiking path \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-reaches-5900-amid-cautious-iran-peace-hopes-202608040628",
-   "t": "04 Aug \u00b7 11:28 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: eran mein aman ki muhatat amidon ke darmiyan XAG/USD $59.00 tak pohch gayi"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-jobs-data-and-rbnz-hiking-path-ing-202608040906",
+   "t": "04 Aug \u00b7 02:06 PM",
+   "ur": "Niyozi lind Dollar: nokariyon ka deta aur RBNZ hicang path \u2013 ING"
   },
   {
-   "ts": 1785824861.0,
-   "title": "Euro: Consolidation with upside trigger at 1.1565 against US Dollar \u2013 UOB",
+   "ts": 1785833251.0,
+   "title": "Australian Dollar: Upside risk capped by 0.7075 against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-consolidation-with-upside-trigger-at-11565-against-us-dollar-uob-202608040627",
-   "t": "04 Aug \u00b7 11:27 AM",
-   "ur": "Uro: US Dollar ke maqable 1.1565 par alta trgar ke sath kansolidation - UOB"
+   "link": "https://www.fxstreet.com/news/australian-dollar-upside-risk-capped-by-07075-against-us-dollar-uob-202608040847",
+   "t": "04 Aug \u00b7 01:47 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein 0.7075 se oper ka khatrah kam hogia - UOB"
   },
   {
-   "ts": 1785824026.0,
-   "title": "Canadian Dollar declines ahead of US JOLTS Job Openings data",
+   "ts": 1785832639.0,
+   "title": "US Dollar: Solid manufacturing and JOLTs in focus \u2013 Danske Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-declines-ahead-of-us-jolts-job-openings-data-202608040613",
-   "t": "04 Aug \u00b7 11:13 AM",
-   "ur": "US JOLTS jab opening deta se pehle caniden Dollar mein kami"
+   "link": "https://www.fxstreet.com/news/us-dollar-solid-manufacturing-and-jolts-in-focus-danske-bank-202608040837",
+   "t": "04 Aug \u00b7 01:37 PM",
+   "ur": "US Dollar: thos minofectureng aur JOLTs fox mein - Danske Bank"
   },
   {
-   "ts": 1785822618.0,
-   "title": "Swiss Franc weakens as July inflation cools to four-month lows",
+   "ts": 1785832214.0,
+   "title": "Turkish Lira: July inflation and FX rules weigh on lira \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-july-inflation-cools-to-four-month-lows-202608040550",
-   "t": "04 Aug \u00b7 10:50 AM",
-   "ur": "Joli mein inflation (mehngai) ki rate char mah ki kam tarin sath par aane se sois farank kamazor ho gaya hai."
-  },
-  {
-   "ts": 1785818136.0,
-   "title": "Gold bulls seem hesitant as inflation-led Fed hike bets and US-Iran tensions support USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-flat-lines-above-4-050-as-fed-hike-bets-and-iran-uncertainty-support-safe-haven-usd-202608040435",
-   "t": "04 Aug \u00b7 09:35 AM",
-   "ur": "Gold (sona) bel hichakchate nazar aate hen cunkah inflation (mehngai) ki qayadat mein fed mein azafe ki shartin aur amrikah eran kasheedgi USD ko sport karti hai"
+   "link": "https://www.fxstreet.com/news/turkish-lira-july-inflation-and-fx-rules-weigh-on-lira-commerzbank-202608040830",
+   "t": "04 Aug \u00b7 01:30 PM",
+   "ur": "Tark lira: joli ki inflation (mehngai) aur FX ke qawaad lira par wazin ruktey hen - kamers Bank"
   }
  ],
  "sentiment": {
