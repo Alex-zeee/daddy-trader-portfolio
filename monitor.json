@@ -1,17 +1,13 @@
 {
- "updated": "05-08-2026 02:54 PKT",
+ "updated": "05-08-2026 03:50 PKT",
  "gold": {
-  "price": 4077.73,
-  "open": 4053.29,
+  "price": 4082.85,
+  "open": 4053.22,
   "high": 4105.94,
   "low": 4042.61,
-  "chg": 0.6,
+  "chg": 0.73,
   "src": "XAUUSD Spot",
   "spark": [
-   4048.89,
-   4049.6,
-   4047.99,
-   4053.93,
    4057.86,
    4060.69,
    4064.46,
@@ -55,14 +51,18 @@
    4077.65,
    4077.73,
    4077.97,
-   4077.73
+   4077.71,
+   4076.71,
+   4079.65,
+   4083.59,
+   4082.85
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.75,
-   "chg": 3.61,
+   "price": 59.825,
+   "chg": 3.74,
    "spark": [
     61.92,
     60.931,
@@ -85,13 +85,13 @@
     58.815,
     57.591,
     57.667,
-    59.75
+    59.825
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.888,
-   "chg": -0.07,
+   "price": 99.882,
+   "chg": -0.08,
    "spark": [
     100.85,
     101.14,
@@ -114,13 +114,13 @@
     100.01,
     99.8,
     99.96,
-    99.888
+    99.882
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 75.14,
-   "chg": -6.47,
+   "price": 75.2,
+   "chg": -6.4,
    "spark": [
     68.55,
     70.44,
@@ -143,7 +143,7 @@
     83.59,
     84.67,
     80.34,
-    75.14
+    75.2
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1534,
-   "chg": -0.09,
+   "price": 1.1535,
+   "chg": -0.07,
    "spark": [
     1.1438,
     1.1442,
@@ -201,7 +201,7 @@
     1.1467,
     1.1524,
     1.1544,
-    1.1534
+    1.1535
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 157.766,
-   "chg": 0.12,
+   "price": 157.712,
+   "chg": 0.08,
    "spark": [
     161.452,
     162.088,
@@ -259,15 +259,14 @@
     163.3,
     160.183,
     157.582,
-    157.766
+    157.712
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1870.74,
-   "chg": 0.64,
+   "price": 1873.26,
+   "chg": 0.78,
    "spark": [
-    1879.94,
     1882.88,
     1871.71,
     1865.27,
@@ -314,15 +313,15 @@
     1873.16,
     1873.84,
     1874.93,
-    1870.74
+    1871.1,
+    1873.26
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64149.3,
+   "price": 64147.7,
    "chg": 1.08,
    "spark": [
-    63351.4,
     63500.0,
     63243.8,
     63127.1,
@@ -369,7 +368,8 @@
     64255.6,
     64181.8,
     64297.9,
-    64149.3
+    64149.8,
+    64147.7
    ]
   }
  ],
@@ -434,20 +434,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785880472.273129,
+   "ts": 1785883822.76984,
    "title": "Gold rises as oil extends slide to a second straight day, easing inflation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-traders-assess-fed-outlook-middle-east-risks-4832673",
-   "t": "05 Aug \u00b7 02:54 AM",
+   "t": "05 Aug \u00b7 03:50 AM",
    "ur": "Gold (sone) ki qeemat mein azafah hawa cunkah til maslsal dosare dan bhi garta hai, jas se mahungai ke khadshat kam hote hen."
   },
   {
-   "ts": 1785880472.273129,
+   "ts": 1785883822.76984,
    "title": "Gold near bull trap at $4,175 with 3:1 risk/reward: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "05 Aug \u00b7 02:54 AM",
+   "t": "05 Aug \u00b7 03:50 AM",
    "ur": "Bel trip ke qarib Gold (sona) $4,175 par 3:1 rask/anaam ke sath"
+  },
+  {
+   "ts": 1785882537.0,
+   "title": "New Zealand Dollar climbs ahead of NZ employment data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-climbs-ahead-of-nz-employment-data-202608042228",
+   "t": "05 Aug \u00b7 03:28 AM",
+   "ur": "Niyozi lind Dollar NZ rozgar ke aed w shmar se aage badh raha hai."
   },
   {
    "ts": 1785878220.0,
@@ -504,14 +512,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-signals-point-to-gains-versus-us-dollar-scotiabank-202608041558",
    "t": "04 Aug \u00b7 08:58 PM",
    "ur": "Caniden Dollar: US Dollar ke maqable mein tizi ke ashare - Scotiabank"
-  },
-  {
-   "ts": 1785858316.0,
-   "title": "Silver advances amid Hormuz reopening hopes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-advances-amid-hormuz-reopening-hopes-202608041545",
-   "t": "04 Aug \u00b7 08:45 PM",
-   "ur": "Harmaz ke dubarah khalane ki amidon ke darmiyan Silver (chandi) ki tarqi"
   }
  ],
  "sentiment": {
