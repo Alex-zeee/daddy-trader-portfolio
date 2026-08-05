@@ -1,21 +1,13 @@
 {
- "updated": "05-08-2026 19:30 PKT",
+ "updated": "05-08-2026 21:19 PKT",
  "gold": {
-  "price": 4237.52,
-  "open": 4085.43,
-  "high": 4238.55,
+  "price": 4235.89,
+  "open": 4089.36,
+  "high": 4267.14,
   "low": 4065.91,
-  "chg": 3.72,
+  "chg": 3.58,
   "src": "XAUUSD Spot",
   "spark": [
-   4126.21,
-   4130.94,
-   4134.76,
-   4132.34,
-   4128.28,
-   4128.86,
-   4139.53,
-   4138.51,
    4135.95,
    4134.86,
    4137.78,
@@ -55,14 +47,22 @@
    4199.22,
    4203.94,
    4226.01,
-   4237.52
+   4237.52,
+   4240.36,
+   4243.82,
+   4258.62,
+   4258.33,
+   4254.91,
+   4234.43,
+   4233.72,
+   4235.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.795,
-   "chg": 4.56,
+   "price": 62.12,
+   "chg": 3.44,
    "spark": [
     60.931,
     58.164,
@@ -85,13 +85,13 @@
     57.591,
     57.667,
     60.056,
-    62.795
+    62.12
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.64,
-   "chg": -0.25,
+   "price": 99.747,
+   "chg": -0.14,
    "spark": [
     101.14,
     101.05,
@@ -114,13 +114,13 @@
     99.8,
     99.96,
     99.89,
-    99.64
+    99.747
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 75.08,
-   "chg": -0.91,
+   "price": 75.62,
+   "chg": -0.2,
    "spark": [
     70.44,
     73.52,
@@ -143,13 +143,13 @@
     84.67,
     80.34,
     75.77,
-    75.08
+    75.62
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.623,
-   "chg": -0.09,
+   "price": 4.639,
+   "chg": 0.26,
    "spark": [
     4.529,
     4.569,
@@ -172,13 +172,13 @@
     4.745,
     4.686,
     4.627,
-    4.623
+    4.639
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1554,
-   "chg": 0.41,
+   "price": 1.1551,
+   "chg": 0.38,
    "spark": [
     1.1442,
     1.1404,
@@ -201,13 +201,13 @@
     1.1524,
     1.1544,
     1.1507,
-    1.1554
+    1.1551
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3481,
-   "chg": 0.4,
+   "price": 1.3466,
+   "chg": 0.29,
    "spark": [
     1.3398,
     1.3349,
@@ -230,13 +230,13 @@
     1.3461,
     1.3492,
     1.3427,
-    1.3481
+    1.3466
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.472,
-   "chg": -0.04,
+   "price": 157.655,
+   "chg": 0.08,
    "spark": [
     162.088,
     162.363,
@@ -259,16 +259,14 @@
     160.183,
     157.582,
     157.529,
-    157.472
+    157.655
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1867.61,
-   "chg": -0.04,
+   "price": 1879.58,
+   "chg": 0.6,
    "spark": [
-    1861.1,
-    1864.33,
     1867.01,
     1866.88,
     1869.29,
@@ -314,16 +312,16 @@
     1867.15,
     1875.13,
     1876.97,
-    1867.61
+    1874.59,
+    1872.15,
+    1879.58
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64270.9,
-   "chg": 0.34,
+   "price": 64553.8,
+   "chg": 0.78,
    "spark": [
-    63603.3,
-    63704.0,
     63848.4,
     63807.2,
     63813.4,
@@ -369,19 +367,13 @@
     64015.2,
     64277.8,
     64349.6,
-    64270.9
+    64429.0,
+    64332.3,
+    64553.8
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785932100.0,
-   "t": "Wed 05 Aug \u00b7 05:15 PM",
-   "title": "ADP Non-Farm Employment Change",
-   "impact": "Medium",
-   "forecast": "68K",
-   "previous": "98K"
-  },
   {
    "ts": 1785938400.0,
    "t": "Wed 05 Aug \u00b7 07:00 PM",
@@ -434,84 +426,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785940238.140898,
+   "ts": 1785946753.213273,
+   "title": "Why is Silver Spot US Dollar stock surging today?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/why-is-silver-spot-us-dollar-stock-surging-today-93CH-4838409",
+   "t": "05 Aug \u00b7 09:19 PM",
+   "ur": "Aaj salor spat US Dollar ka stak kiyon badh raha hai?"
+  },
+  {
+   "ts": 1785946753.213273,
+   "title": "Gold surges 3.34% but overbought signals urge caution on near-term bottom",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-surges-334-but-overbought-signals-urge-caution-on-nearterm-bottom-93CH-4838257",
+   "t": "05 Aug \u00b7 09:19 PM",
+   "ur": "Gold (sone) ki qeemat mein 3.34 fisad azafah hawa lican ziyadah khareede jane wale ashare qaribi madat ke neechle hissay par ahtyat ki taakid karte hen"
+  },
+  {
+   "ts": 1785946753.213273,
    "title": "Russian fuel prices added 0.5% to inflation in June and July",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/russian-fuel-prices-added-05-to-inflation-in-june-and-july-93CH-4837892",
-   "t": "05 Aug \u00b7 07:30 PM",
+   "t": "05 Aug \u00b7 09:19 PM",
    "ur": "Rosi andhan ki qeemton ne jon aur joli mein inflation (mehngai) mein 0.5 fisad azafah kiya."
   },
   {
-   "ts": 1785940238.140898,
-   "title": "Is now a good time to buy gold? The bull vs. bear case",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/is-now-a-good-time-to-buy-gold-the-bull-vs-bear-case-93CH-4836928",
-   "t": "05 Aug \u00b7 07:30 PM",
-   "ur": "Kiya ab Gold (sona) khareedne ka acha waqat hai? bel bamaqablah bears kis"
+   "ts": 1785946726.0,
+   "title": "US Dollar slips as ADP collapse offsets hot services",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-slips-as-adp-collapse-offsets-hot-services-202608051618",
+   "t": "05 Aug \u00b7 09:18 PM",
+   "ur": "ADP ke khatme ke bad US Dollar ki qeemat mein kami ho gayi"
   },
   {
-   "ts": 1785939070.0,
-   "title": "Euro edges higher as weak US labor data, lower Oil prices temper Fed hike bets",
+   "ts": 1785945881.0,
+   "title": "British Pound rises as soft ADP jobs report weighs on Dollar, NFP looms",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-edges-higher-as-weak-us-labour-data-lower-oil-prices-temper-fed-hike-bets-202608051411",
-   "t": "05 Aug \u00b7 07:11 PM",
-   "ur": "Kamazor US libr deta ke tur par uro ke kanare unche, til ki qeemton mein kami ne fed mein azafe ki sharton ko matasar kiya"
+   "link": "https://www.fxstreet.com/news/british-pound-rises-as-soft-adp-weighs-on-dollar-nfp-looms-202608051604",
+   "t": "05 Aug \u00b7 09:04 PM",
+   "ur": "Bartanvi pound mein azafah hawa cunkah narm ADP malazmaton ki rport ka wazin Dollar par hota hai, NFP kam hota hai."
   },
   {
-   "ts": 1785938593.0,
-   "title": "New Zealand Dollar: Labor slack tempers strong jobs data \u2013 BBH",
+   "ts": 1785942834.0,
+   "title": "Silver Price Forecast: Daily momentum improves, but weekly outlook stays bearish",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-labor-slack-tempers-strong-jobs-data-bbh-202608051403",
-   "t": "05 Aug \u00b7 07:03 PM",
-   "ur": "Niyozi lind Dollar: libr ki sast ravi ne malazmaton ke mazboot aed w shmar ko matasar kiya - BBH"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-daily-momentum-improves-but-weekly-outlook-stays-bearish-202608051513",
+   "t": "05 Aug \u00b7 08:13 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: rozana ki raftar behtar hoti hai, lican haftah war naqatah nazar mandi ka shkar rahta hai."
   },
   {
-   "ts": 1785933310.0,
-   "title": "Canadian Dollar firms as Oil rebounds, USD softens on weaker ADP data",
+   "ts": 1785942250.0,
+   "title": "Australian Dollar climbs as softer US data, improving risk sentiment weigh on USD",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-firms-as-oil-rebounds-usd-softens-on-weaker-adp-data-202608051235",
-   "t": "05 Aug \u00b7 05:35 PM",
-   "ur": "Caniden Dollar ki farmin til ki recovery ke tur par, US Dollar kamazor ADP deta par narm ho gaya."
+   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-as-softer-us-data-improving-risk-sentiment-weigh-on-the-usd-202608051504",
+   "t": "05 Aug \u00b7 08:04 PM",
+   "ur": "Aasterilvi Dollar narm US aed w shmar ke tur par chadhta hai, khatre ke jazbat ko behtar banata hai jas ka wazin USD par hota hai."
   },
   {
-   "ts": 1785933041.0,
-   "title": "New Zealand Dollar: RBNZ seen hiking again \u2013 TD Securities",
+   "ts": 1785941864.0,
+   "title": "Euro: Recovery holds within 1.15\u20131.16 band against US Dollar  \u2013 Scotiabank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rbnz-seen-hiking-again-td-securities-202608051230",
-   "t": "05 Aug \u00b7 05:30 PM",
-   "ur": "Niyozi lind Dollar: aar bi an zid ne dubarah hicang dekhi \u2013 TD securitez"
+   "link": "https://www.fxstreet.com/news/euro-recovery-holds-within-115-116-band-against-us-dollar-scotiabank-202608051457",
+   "t": "05 Aug \u00b7 07:57 PM",
+   "ur": "Uro: rikori US Dollar ke maqable mein 1.15\u20131.16 bind ke andar hai - Scotiabank"
   },
   {
-   "ts": 1785932773.0,
-   "title": "Fed's Kashkari: Not calling for dramatic increase in rates",
+   "ts": 1785940893.0,
+   "title": "US Dollar: Limited downside on softer payrolls \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-kashkari-not-calling-for-dramatic-increase-in-rates-202608051226",
-   "t": "05 Aug \u00b7 05:26 PM",
-   "ur": "Fed's Kashkari: sharahon mein daramai azafe ka matalbah nihen karna"
+   "link": "https://www.fxstreet.com/news/us-dollar-limited-downside-on-softer-payrolls-td-securities-202608051441",
+   "t": "05 Aug \u00b7 07:41 PM",
+   "ur": "US Dollar: narm pay roles par muhadud manfi pehlo - TD securitez"
   },
   {
-   "ts": 1785930893.0,
-   "title": "US Dollar: Consolidation view into ISM and payrolls \u2013 BBH",
+   "ts": 1785940718.0,
+   "title": "US Treasury lifts Iran sanctions as deal hopes gain momentum",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-consolidation-view-into-ism-and-payrolls-bbh-202608051154",
-   "t": "05 Aug \u00b7 04:54 PM",
-   "ur": "US Dollar: ISM aur pay roles mein yakaja karne ka manazr - BBH"
-  },
-  {
-   "ts": 1785930104.0,
-   "title": "Silver Price Forecasts: XAG/USD, capped below $62.00 but steady near one-month highs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-capped-below-6200-but-steady-near-one-month-highs-202608051141",
-   "t": "05 Aug \u00b7 04:41 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD, $62.00 se niche lican ek mah ki balandi ke qarib mastahkam"
-  },
-  {
-   "ts": 1785928767.0,
-   "title": "Gold tops $4,200 on softer US labour data as Fed outlook turns less hawkish",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-advances-to-one-month-high-as-hormuz-reopening-hopes-ease-inflation-fears-202608051119",
-   "t": "05 Aug \u00b7 04:19 PM",
-   "ur": "Narm US libr deta par Gold (sona) $4,200 ki balandi par hai cunkah fed oat lak kam ajiz ho jata hai"
+   "link": "https://www.fxstreet.com/news/us-treasury-lifts-iran-sanctions-as-deal-hopes-gain-momentum-202608051438",
+   "t": "05 Aug \u00b7 07:38 PM",
+   "ur": "US wazart khazana ne eran par se pabandiyan hata di hen cunkah maahide ki amidin zor pakad rahi hen."
   }
  ],
  "sentiment": {
