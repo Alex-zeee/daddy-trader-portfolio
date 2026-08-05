@@ -1,16 +1,13 @@
 {
- "updated": "06-08-2026 02:54 PKT",
+ "updated": "06-08-2026 03:45 PKT",
  "gold": {
-  "price": 4247.01,
-  "open": 4077.65,
+  "price": 4248.55,
+  "open": 4084.0,
   "high": 4267.14,
   "low": 4065.91,
-  "chg": 4.15,
+  "chg": 4.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4151.4,
-   4156.44,
-   4155.06,
    4161.57,
    4168.09,
    4179.41,
@@ -55,14 +52,17 @@
    4246.83,
    4247.1,
    4247.14,
-   4247.01
+   4247.08,
+   4246.98,
+   4248.06,
+   4248.55
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.255,
-   "chg": 3.66,
+   "price": 62.345,
+   "chg": 3.81,
    "spark": [
     60.931,
     58.164,
@@ -85,7 +85,7 @@
     57.591,
     57.667,
     60.056,
-    62.255
+    62.345
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 75.08,
-   "chg": -0.91,
+   "price": 75.06,
+   "chg": -0.94,
    "spark": [
     70.44,
     73.52,
@@ -143,7 +143,7 @@
     84.67,
     80.34,
     75.77,
-    75.08
+    75.06
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1557,
-   "chg": 0.43,
+   "price": 1.1558,
+   "chg": 0.44,
    "spark": [
     1.1442,
     1.1404,
@@ -201,12 +201,12 @@
     1.1524,
     1.1544,
     1.1507,
-    1.1557
+    1.1558
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3467,
+   "price": 1.3468,
    "chg": 0.3,
    "spark": [
     1.3398,
@@ -230,12 +230,12 @@
     1.3461,
     1.3492,
     1.3427,
-    1.3467
+    1.3468
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.68,
+   "price": 157.682,
    "chg": 0.1,
    "spark": [
     162.088,
@@ -259,15 +259,14 @@
     160.183,
     157.582,
     157.529,
-    157.68
+    157.682
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1908.01,
-   "chg": 2.13,
+   "price": 1907.93,
+   "chg": 2.12,
    "spark": [
-    1858.33,
     1858.77,
     1848.9,
     1865.55,
@@ -314,15 +313,15 @@
     1916.3,
     1915.32,
     1915.31,
-    1908.01
+    1907.82,
+    1907.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64664.2,
-   "chg": 0.95,
+   "price": 64637.8,
+   "chg": 0.91,
    "spark": [
-    63550.9,
     63461.7,
     63288.9,
     63776.2,
@@ -369,7 +368,8 @@
     64745.8,
     64790.9,
     64781.8,
-    64664.2
+    64675.2,
+    64637.8
    ]
   }
  ],
@@ -418,20 +418,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785966856.300185,
+   "ts": 1785969958.201692,
    "title": "Silver overbought at RSI 73 above $62.50: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "06 Aug \u00b7 02:54 AM",
+   "t": "06 Aug \u00b7 03:45 AM",
    "ur": "Silver (chandi) RSI 73 par $62.50 ke oper khareedi gayi."
   },
   {
-   "ts": 1785966856.300185,
+   "ts": 1785969958.201692,
    "title": "Gold hits extreme overbought at $4,321: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "06 Aug \u00b7 02:54 AM",
+   "t": "06 Aug \u00b7 03:45 AM",
    "ur": "Gold (sona) 4,321 Dollar ki had se ziyadah khareeda gaya."
+  },
+  {
+   "ts": 1785968309.0,
+   "title": "Australian Dollar hits a seven-week high on nothing Australian",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-hits-a-seven-week-high-on-nothing-australian-202608052218",
+   "t": "06 Aug \u00b7 03:18 AM",
+   "ur": "Aasterilvi Dollar sat hafte ki baland tarin sath par aa gaya hai."
+  },
+  {
+   "ts": 1785967860.0,
+   "title": "Indonesia: Growth-inflation mix supports steady BI stance \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesia-growth-inflation-mix-supports-steady-bi-stance-dbs-202608052211",
+   "t": "06 Aug \u00b7 03:11 AM",
+   "ur": "Andonatio: garoth anfalation maks BI ke mastahkam moqf ki support karta hai - DBS"
   },
   {
    "ts": 1785965580.0,
@@ -480,22 +496,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-range-trade-holds-ahead-of-q2-gdp-against-us-dollar-scotiabank-202608051842",
    "t": "05 Aug \u00b7 11:42 PM",
    "ur": "Bartanvi pound: rinj tred US Dollar - Scotiabank ke maqable Q2 GDP se aage hai."
-  },
-  {
-   "ts": 1785953944.0,
-   "title": "Gold rallies as Iran-US deal seems closer ahead of NFP",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-as-iran-us-deal-seems-closer-ahead-of-nfp-202608051819",
-   "t": "05 Aug \u00b7 11:19 PM",
-   "ur": "Eran-amrikah del NFP ke qarib hone ke bad Gold (sone) mein tizi"
-  },
-  {
-   "ts": 1785951054.0,
-   "title": "Swiss Franc gains as US economic data disappoints and Fed hike bets weaken",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-gains-as-us-economic-data-disappoints-and-fed-hike-bets-weaken-202608051730",
-   "t": "05 Aug \u00b7 10:30 PM",
-   "ur": "US aqtasadi aed w shmar ke mayus kan aur fed mein azafe ki shart kamazor hone par sois farank mein azafah hawa."
   }
  ],
  "sentiment": {
