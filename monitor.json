@@ -1,17 +1,13 @@
 {
- "updated": "06-08-2026 03:45 PKT",
+ "updated": "06-08-2026 04:44 PKT",
  "gold": {
-  "price": 4248.55,
-  "open": 4084.0,
-  "high": 4267.14,
-  "low": 4065.91,
-  "chg": 4.03,
+  "price": 4280.5,
+  "open": 4069.18,
+  "high": 4281.36,
+  "low": 4068.6,
+  "chg": 5.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4161.57,
-   4168.09,
-   4179.41,
-   4187.6,
    4192.23,
    4199.31,
    4206.78,
@@ -55,14 +51,18 @@
    4247.08,
    4246.98,
    4248.06,
-   4248.55
+   4248.55,
+   4249.46,
+   4254.73,
+   4262.76,
+   4280.5
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.345,
-   "chg": 3.81,
+   "price": 62.305,
+   "chg": 3.74,
    "spark": [
     60.931,
     58.164,
@@ -85,7 +85,7 @@
     57.591,
     57.667,
     60.056,
-    62.345
+    62.305
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 75.06,
-   "chg": -0.94,
+   "price": 75.01,
+   "chg": -1.0,
    "spark": [
     70.44,
     73.52,
@@ -143,7 +143,7 @@
     84.67,
     80.34,
     75.77,
-    75.06
+    75.01
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1558,
-   "chg": 0.44,
+   "price": 1.1559,
+   "chg": 0.23,
    "spark": [
-    1.1442,
     1.1404,
     1.1422,
     1.1433,
@@ -201,15 +200,15 @@
     1.1524,
     1.1544,
     1.1507,
-    1.1558
+    1.1532,
+    1.1559
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3468,
-   "chg": 0.3,
+   "price": 1.3469,
+   "chg": 0.13,
    "spark": [
-    1.3398,
     1.3349,
     1.3396,
     1.3416,
@@ -230,15 +229,15 @@
     1.3461,
     1.3492,
     1.3427,
-    1.3468
+    1.3451,
+    1.3469
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.682,
-   "chg": 0.1,
+   "price": 157.61,
+   "chg": -0.05,
    "spark": [
-    162.088,
     162.363,
     162.539,
     162.363,
@@ -259,15 +258,15 @@
     160.183,
     157.582,
     157.529,
-    157.682
+    157.692,
+    157.61
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1907.93,
-   "chg": 2.12,
+   "price": 1908.94,
+   "chg": 2.18,
    "spark": [
-    1858.77,
     1848.9,
     1865.55,
     1864.05,
@@ -314,15 +313,15 @@
     1915.32,
     1915.31,
     1907.82,
-    1907.93
+    1905.43,
+    1908.94
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64637.8,
-   "chg": 0.91,
+   "price": 64648.7,
+   "chg": 0.93,
    "spark": [
-    63461.7,
     63288.9,
     63776.2,
     63760.5,
@@ -369,19 +368,12 @@
     64790.9,
     64781.8,
     64675.2,
-    64637.8
+    64590.1,
+    64648.7
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1785961800.0,
-   "t": "Thu 06 Aug \u00b7 01:30 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1786019400.0,
    "t": "Thu 06 Aug \u00b7 05:30 PM",
@@ -418,20 +410,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785969958.201692,
+   "ts": 1785973462.181354,
    "title": "Silver overbought at RSI 73 above $62.50: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "06 Aug \u00b7 03:45 AM",
+   "t": "06 Aug \u00b7 04:44 AM",
    "ur": "Silver (chandi) RSI 73 par $62.50 ke oper khareedi gayi."
   },
   {
-   "ts": 1785969958.201692,
+   "ts": 1785973462.181354,
    "title": "Gold hits extreme overbought at $4,321: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "06 Aug \u00b7 03:45 AM",
+   "t": "06 Aug \u00b7 04:44 AM",
    "ur": "Gold (sona) 4,321 Dollar ki had se ziyadah khareeda gaya."
+  },
+  {
+   "ts": 1785972747.0,
+   "title": "Gold rises above $4,250 on US\u2013Iran deal hopes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rises-above-4-250-on-us-iran-deal-hopes-202608052332",
+   "t": "06 Aug \u00b7 04:32 AM",
+   "ur": "Amrikah-eran maahide ki amidon par Gold (sona) $4,250 se oper badh gaya."
+  },
+  {
+   "ts": 1785970140.0,
+   "title": "Chinese Yuan: Gradual strengthening against US Dollar toward 6.7300 \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-strengthening-against-us-dollar-toward-67300-uob-202608052249",
+   "t": "06 Aug \u00b7 03:49 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein btadarage mazbooti 6.7300 ki taraf - UOB"
   },
   {
    "ts": 1785968309.0,
@@ -471,7 +479,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/fed-cook-backs-hold-but-warns-rate-hike-possible-if-disinflation-stalls-202608052048",
    "t": "06 Aug \u00b7 01:48 AM",
-   "ur": "Fed kak ne commer kas li lican mutanbah kiya kah agar dis anfalation rok gaya hai to rate mein azafah mamkan hai."
+   "ur": "Fed kak ne commer kas li lican antabah diya kah agar dis anfalation rok gaya hai to rate mein azafah mamkan hai."
   },
   {
    "ts": 1785962820.0,
@@ -480,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-break-of-12790-may-unlock-further-gains-uob-202608052047",
    "t": "06 Aug \u00b7 01:47 AM",
    "ur": "Sangapor Dollar: 1.2790 ka waqafah mazid fawaid ko khol sakta hai - UOB"
-  },
-  {
-   "ts": 1785956378.0,
-   "title": "Silver Price Forecast: XAG skyrockets above $60, tests 50-day SMA",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-skyrockets-above-60-tests-50-day-sma-202608051859",
-   "t": "05 Aug \u00b7 11:59 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG $60 se oper hai, 50-day SMA ki janch karta hai"
-  },
-  {
-   "ts": 1785955342.0,
-   "title": "British Pound: Range trade holds ahead of Q2 GDP against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-range-trade-holds-ahead-of-q2-gdp-against-us-dollar-scotiabank-202608051842",
-   "t": "05 Aug \u00b7 11:42 PM",
-   "ur": "Bartanvi pound: rinj tred US Dollar - Scotiabank ke maqable Q2 GDP se aage hai."
   }
  ],
  "sentiment": {
