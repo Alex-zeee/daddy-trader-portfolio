@@ -1,19 +1,13 @@
 {
- "updated": "06-08-2026 04:44 PKT",
+ "updated": "06-08-2026 06:05 PKT",
  "gold": {
-  "price": 4280.5,
-  "open": 4069.18,
-  "high": 4281.36,
-  "low": 4068.6,
-  "chg": 5.19,
+  "price": 4293.28,
+  "open": 4085.61,
+  "high": 4302.01,
+  "low": 4081.98,
+  "chg": 5.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4192.23,
-   4199.31,
-   4206.78,
-   4194.33,
-   4184.11,
-   4188.3,
    4196.46,
    4199.22,
    4203.94,
@@ -55,14 +49,20 @@
    4249.46,
    4254.73,
    4262.76,
-   4280.5
+   4281.92,
+   4277.96,
+   4264.88,
+   4275.43,
+   4285.27,
+   4295.87,
+   4293.28
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.305,
-   "chg": 3.74,
+   "price": 62.835,
+   "chg": 4.63,
    "spark": [
     60.931,
     58.164,
@@ -85,13 +85,13 @@
     57.591,
     57.667,
     60.056,
-    62.305
+    62.835
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.69,
-   "chg": -0.2,
+   "price": 99.655,
+   "chg": -0.24,
    "spark": [
     101.14,
     101.05,
@@ -114,13 +114,13 @@
     99.8,
     99.96,
     99.89,
-    99.69
+    99.655
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 75.01,
-   "chg": -1.0,
+   "price": 74.88,
+   "chg": -1.17,
    "spark": [
     70.44,
     73.52,
@@ -143,7 +143,7 @@
     84.67,
     80.34,
     75.77,
-    75.01
+    74.88
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3469,
-   "chg": 0.13,
+   "price": 1.3466,
+   "chg": 0.11,
    "spark": [
     1.3349,
     1.3396,
@@ -230,13 +230,13 @@
     1.3492,
     1.3427,
     1.3451,
-    1.3469
+    1.3466
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.61,
-   "chg": -0.05,
+   "price": 157.714,
+   "chg": 0.01,
    "spark": [
     162.363,
     162.539,
@@ -259,16 +259,14 @@
     157.582,
     157.529,
     157.692,
-    157.61
+    157.714
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1908.94,
-   "chg": 2.18,
+   "price": 1908.28,
+   "chg": 0.06,
    "spark": [
-    1848.9,
-    1865.55,
     1864.05,
     1862.32,
     1866.54,
@@ -314,16 +312,16 @@
     1915.31,
     1907.82,
     1905.43,
-    1908.94
+    1907.01,
+    1908.49,
+    1908.28
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64648.7,
-   "chg": 0.93,
+   "price": 64574.6,
+   "chg": -0.04,
    "spark": [
-    63288.9,
-    63776.2,
     63760.5,
     63735.8,
     63975.9,
@@ -369,7 +367,9 @@
     64781.8,
     64675.2,
     64590.1,
-    64648.7
+    64599.2,
+    64595.5,
+    64574.6
    ]
   }
  ],
@@ -410,19 +410,19 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1785973462.181354,
+   "ts": 1785978332.777194,
    "title": "Silver overbought at RSI 73 above $62.50: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "06 Aug \u00b7 04:44 AM",
+   "t": "06 Aug \u00b7 06:05 AM",
    "ur": "Silver (chandi) RSI 73 par $62.50 ke oper khareedi gayi."
   },
   {
-   "ts": 1785973462.181354,
+   "ts": 1785978332.777194,
    "title": "Gold hits extreme overbought at $4,321: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "06 Aug \u00b7 04:44 AM",
+   "t": "06 Aug \u00b7 06:05 AM",
    "ur": "Gold (sona) 4,321 Dollar ki had se ziyadah khareeda gaya."
   },
   {
@@ -491,8 +491,8 @@
   }
  ],
  "sentiment": {
-  "value": 27,
-  "label": "Fear"
+  "value": 25,
+  "label": "Extreme Fear"
  },
  "err": null
 }
