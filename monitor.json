@@ -1,24 +1,13 @@
 {
- "updated": "06-08-2026 12:11 PKT",
+ "updated": "06-08-2026 14:49 PKT",
  "gold": {
-  "price": 4259.98,
-  "open": 4167.28,
+  "price": 4275.13,
+  "open": 4157.78,
   "high": 4304.07,
   "low": 4150.28,
-  "chg": 2.22,
+  "chg": 2.82,
   "src": "XAUUSD Spot",
   "spark": [
-   4253.21,
-   4253.59,
-   4247.02,
-   4249.02,
-   4245.88,
-   4245.82,
-   4247.0,
-   4246.83,
-   4247.1,
-   4247.14,
-   4247.08,
    4246.98,
    4248.06,
    4248.55,
@@ -55,14 +44,25 @@
    4256.18,
    4255.21,
    4255.19,
-   4259.98
+   4263.65,
+   4261.86,
+   4256.03,
+   4261.77,
+   4268.74,
+   4268.74,
+   4272.47,
+   4277.61,
+   4277.26,
+   4281.74,
+   4273.64,
+   4275.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.875,
-   "chg": -0.36,
+   "price": 62.1,
+   "chg": 0.0,
    "spark": [
     58.164,
     60.378,
@@ -85,13 +85,13 @@
     57.667,
     60.056,
     62.099,
-    61.875
+    62.1
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.749,
-   "chg": 0.06,
+   "price": 99.742,
+   "chg": 0.05,
    "spark": [
     101.05,
     100.94,
@@ -114,13 +114,13 @@
     99.96,
     99.89,
     99.69,
-    99.749
+    99.742
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 75.24,
-   "chg": 0.03,
+   "price": 75.2,
+   "chg": -0.03,
    "spark": [
     73.52,
     72.08,
@@ -143,7 +143,7 @@
     80.34,
     75.77,
     75.22,
-    75.24
+    75.2
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1547,
-   "chg": 0.13,
+   "price": 1.1546,
+   "chg": 0.12,
    "spark": [
     1.1404,
     1.1422,
@@ -201,13 +201,13 @@
     1.1544,
     1.1507,
     1.1532,
-    1.1547
+    1.1546
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3459,
-   "chg": 0.06,
+   "price": 1.3457,
+   "chg": 0.05,
    "spark": [
     1.3349,
     1.3396,
@@ -230,13 +230,13 @@
     1.3492,
     1.3427,
     1.3451,
-    1.3459
+    1.3457
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.759,
-   "chg": 0.04,
+   "price": 157.842,
+   "chg": 0.1,
    "spark": [
     162.363,
     162.539,
@@ -259,16 +259,14 @@
     157.582,
     157.529,
     157.692,
-    157.759
+    157.842
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1910.83,
-   "chg": 0.19,
+   "price": 1905.08,
+   "chg": -0.11,
    "spark": [
-    1855.69,
-    1856.62,
     1864.76,
     1870.96,
     1873.37,
@@ -314,16 +312,16 @@
     1905.62,
     1912.03,
     1911.26,
-    1910.83
+    1907.52,
+    1914.02,
+    1905.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64780.2,
-   "chg": 0.28,
+   "price": 64619.1,
+   "chg": 0.03,
    "spark": [
-    63521.3,
-    63523.8,
     63697.7,
     63861.1,
     63845.7,
@@ -369,7 +367,9 @@
     64668.4,
     64838.9,
     64782.9,
-    64780.2
+    64756.5,
+    64875.9,
+    64619.1
    ]
   }
  ],
@@ -410,84 +410,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786000306.593383,
-   "title": "Gold pares gains, holds near seven-week high as Hormuz optimism tempers Fed fears",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-sevenweek-high-as-hormuz-deal-hopes-cool-fed-hike-bets-4839983",
-   "t": "06 Aug \u00b7 12:11 PM",
-   "ur": "Harmaz ki amid paristi ne fed ke khadshat ko kam kar diya, Gold (sona) kam ho gaya, sat hafton ki baland tarin sath par pohch gaya"
-  },
-  {
-   "ts": 1786000306.593383,
-   "title": "Oil extends slide on Iran-Oman Hormuz shipping deal, U.S. inventory rebound",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-extends-slide-on-iranoman-hormuz-shipping-deal-us-inventory-rebound-4839947",
-   "t": "06 Aug \u00b7 12:11 PM",
-   "ur": "Til ne eran-aman harmaz shping del par salaid mein tosi ki, US anvintri ribound"
-  },
-  {
-   "ts": 1786000306.593383,
-   "title": "Silver overbought at RSI 73 above $62.50: Live levels",
+   "ts": 1786009759.839222,
+   "title": "Silver rejected at $63.15 Fib after 200 SMA breakout: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "06 Aug \u00b7 12:11 PM",
-   "ur": "Silver (chandi) RSI 73 par $62.50 ke oper khareedi gayi."
+   "t": "06 Aug \u00b7 02:49 PM",
+   "ur": "Silver (chandi) 200 SMA barik oat ke bad $63.15 Fib par mastard hoi."
   },
   {
-   "ts": 1786000184.0,
-   "title": "Silver Price Forecasts: XAG/USD hesitates at $62.00 after a two-day rally",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-hesitates-at-6200-after-a-two-day-rally-202608060709",
-   "t": "06 Aug \u00b7 12:09 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD do dan ki rili ke bad $62.00 par hichakcha raha hai"
+   "ts": 1786009759.839222,
+   "title": "Gold hits overbought RSI 72 at $4,363: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
+   "t": "06 Aug \u00b7 02:49 PM",
+   "ur": "Gold (sone) ne RSI 72 ko $4,363 par over bot kiya."
   },
   {
-   "ts": 1785999657.0,
-   "title": "US Dollar Index Price Forecast: Holds gains above 99.50, while bearish bias persists",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-holds-gains-above-9950-while-bearish-bias-persists-202608060700",
-   "t": "06 Aug \u00b7 12:00 PM",
-   "ur": "US Dollar andex ki qeemat ki forecast: 99.50 se oper ka faidah barqarar hai, jabakah mandi ka taasab barqarar hai"
+   "ts": 1786009759.839222,
+   "title": "Oil holds sharp losses on Iran-Oman Hormuz shipping deal, U.S. inventory rebound",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-extends-slide-on-iranoman-hormuz-shipping-deal-us-inventory-rebound-4839947",
+   "t": "06 Aug \u00b7 02:49 PM",
+   "ur": "Eran-aman harmaz shping del par til ko shadeed naqsan hawa, US anvintri ribound"
   },
   {
-   "ts": 1785997485.0,
-   "title": "Euro: Upside bias needs close above resistance against US Dollar \u2013 UOB",
+   "ts": 1786008780.0,
+   "title": "Silver price today: Silver broadly unchanged, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-bias-needs-close-above-resistance-against-us-dollar-uob-202608060624",
-   "t": "06 Aug \u00b7 11:24 AM",
-   "ur": "Uro: alta taasab ko US Dollar - UOB ke khalaf mazahmat ke qarib ki zarort hai."
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-broadly-unchanged-according-to-fxstreet-data-202608060933",
+   "t": "06 Aug \u00b7 02:33 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: FXStreet deta ke matabiq, Silver (chandi) mein koi tabadili nihen hoi."
   },
   {
-   "ts": 1785997361.0,
-   "title": "Canadian Dollar flatlines as traders watch possible US-Iran deal",
+   "ts": 1786007075.0,
+   "title": "Japanese Yen: Upside risk while stuck in range against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-flatlines-as-traders-watch-possible-us-iran-deal-202608060622",
-   "t": "06 Aug \u00b7 11:22 AM",
-   "ur": "Caniden Dollar filet linez mein hai cunkah taajr amrikah aur eran ke mamkana maahide ko dekhte hen."
+   "link": "https://www.fxstreet.com/news/japanese-yen-upside-risk-while-stuck-in-range-against-us-dollar-uob-202608060904",
+   "t": "06 Aug \u00b7 02:04 PM",
+   "ur": "Japani yan: US Dollar - UOB ke maqable mein rinj mein phanste huvay alta khatrah"
   },
   {
-   "ts": 1785990939.0,
-   "title": "India Gold price today: Gold rises, according to FXStreet data",
+   "ts": 1786006502.0,
+   "title": "United States Dollar Index rebounds following Israeli airstrikes, Jobless Claims eyed",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608060435",
-   "t": "06 Aug \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-rebounds-following-israeli-airstrike-in-southern-lebanon-202608060855",
+   "t": "06 Aug \u00b7 01:55 PM",
+   "ur": "Asarili fazai hamlon ke bad US Dollar andex mein tizi, be rozgari ke daway nazar aaye"
   },
   {
-   "ts": 1785990050.0,
-   "title": "Gold sticks to modest gains below $4,300 and seven-week top amid modest USD uptick",
+   "ts": 1786006026.0,
+   "title": "Australian Dollar remains depressed; downside seems limited as fiscal concerns weigh on Yen",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-pulls-back-from-seven-week-high-as-bulls-struggle-to-find-acceptance-above-4-300-202608060420",
-   "t": "06 Aug \u00b7 09:20 AM",
-   "ur": "Gold (sona) $4,300 se niche aur sat hafte ke oper ke mamoli azafe ke darmiyan USD ke mamoli azafe par qaaim hai"
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-depressed-downside-seems-limited-as-fiscal-concerns-weigh-on-yen-202608060847",
+   "t": "06 Aug \u00b7 01:47 PM",
+   "ur": "Aasterilvi Dollar badastor afsardah manfi pehlo muhadud lagta hai cunkah mali khadshat yan par wazin ruktey hen."
   },
   {
-   "ts": 1785987336.0,
-   "title": "Swiss Franc receives support as US Dollar weakens on easing risk aversion",
+   "ts": 1786005312.0,
+   "title": "Australian Dollar: RBA uneasy pause \u2013 Standard Chartered",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-receives-support-as-us-dollar-weakens-on-easing-risk-aversion-202608060335",
-   "t": "06 Aug \u00b7 08:35 AM",
-   "ur": "Sois farank ko sport haasil hai cunkah US Dollar khatre se bachane ke liye kamazor hota hai."
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-uneasy-pause-standard-chartered-202608060835",
+   "t": "06 Aug \u00b7 01:35 PM",
+   "ur": "Aasterilin Dollar: aar bi aye be chin waqafah \u2013 stindrd charter"
+  },
+  {
+   "ts": 1786005073.0,
+   "title": "Canadian Dollar receives support from higher oil prices",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-receives-support-from-higher-oil-prices-202608060831",
+   "t": "06 Aug \u00b7 01:31 PM",
+   "ur": "Caniden Dollar ko til ki unchi qeemton se madad malti hai."
+  },
+  {
+   "ts": 1786003985.0,
+   "title": "US Dollar: Wait-and-see mood before payrolls \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-wait-and-see-mood-before-payrolls-ing-202608060813",
+   "t": "06 Aug \u00b7 01:13 PM",
+   "ur": "US Dollar: pay roles se pehle antezar karin aur dekhen mod - ING"
   }
  ],
  "sentiment": {
