@@ -1,16 +1,13 @@
 {
- "updated": "08-08-2026 00:57 PKT",
+ "updated": "08-08-2026 01:33 PKT",
  "gold": {
-  "price": 4342.29,
-  "open": 4247.72,
+  "price": 4336.11,
+  "open": 4236.08,
   "high": 4371.01,
   "low": 4230.24,
-  "chg": 2.23,
+  "chg": 2.36,
   "src": "XAUUSD Spot",
   "spark": [
-   4299.68,
-   4296.11,
-   4309.71,
    4303.82,
    4306.85,
    4306.77,
@@ -55,14 +52,17 @@
    4343.8,
    4348.05,
    4347.78,
-   4342.29
+   4344.02,
+   4341.91,
+   4338.65,
+   4336.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.9,
-   "chg": 4.01,
+   "price": 63.66,
+   "chg": 3.61,
    "spark": [
     60.378,
     59.809,
@@ -85,13 +85,13 @@
     60.056,
     62.099,
     61.439,
-    63.9
+    63.66
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.523,
-   "chg": -0.45,
+   "price": 99.608,
+   "chg": -0.36,
    "spark": [
     100.94,
     100.97,
@@ -114,13 +114,13 @@
     99.89,
     99.69,
     99.97,
-    99.523
+    99.608
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 76.93,
-   "chg": -0.47,
+   "price": 76.98,
+   "chg": -0.4,
    "spark": [
     72.08,
     71.41,
@@ -143,7 +143,7 @@
     75.77,
     75.22,
     77.29,
-    76.93
+    76.98
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1566,
-   "chg": 0.08,
+   "price": 1.1559,
+   "chg": 0.02,
    "spark": [
     1.1422,
     1.1433,
@@ -201,13 +201,13 @@
     1.1507,
     1.1532,
     1.1557,
-    1.1566
+    1.1559
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3499,
-   "chg": 0.21,
+   "price": 1.349,
+   "chg": 0.15,
    "spark": [
     1.3396,
     1.3416,
@@ -230,13 +230,13 @@
     1.3427,
     1.3451,
     1.347,
-    1.3499
+    1.349
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.56,
-   "chg": -0.03,
+   "price": 157.735,
+   "chg": 0.09,
    "spark": [
     162.539,
     162.363,
@@ -259,15 +259,14 @@
     157.529,
     157.692,
     157.6,
-    157.56
+    157.735
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.04,
-   "chg": 0.79,
+   "price": 1915.0,
+   "chg": 0.68,
    "spark": [
-    1915.31,
     1907.82,
     1905.43,
     1907.01,
@@ -314,15 +313,15 @@
     1908.5,
     1911.2,
     1908.24,
-    1917.04
+    1917.92,
+    1915.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64924.9,
+   "price": 64921.4,
    "chg": 1.02,
    "spark": [
-    64781.8,
     64675.2,
     64590.1,
     64599.2,
@@ -369,7 +368,8 @@
     64742.6,
     64715.1,
     64671.5,
-    64924.9
+    64914.0,
+    64921.4
    ]
   }
  ],
@@ -426,19 +426,27 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1786132661.645523,
+   "ts": 1786134797.98787,
+   "title": "Gold set for best week since late January after jobs data dents Fed rate hike bets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
+   "t": "08 Aug \u00b7 01:33 AM",
+   "ur": "Malazmaton ke aed w shmar ke bad fed ki rate mein azafe ki shart ke bad Gold (sona) janori ke aakhar se behtarin hafte ke liye mokhar hai."
+  },
+  {
+   "ts": 1786134797.98787,
    "title": "Silver breaks 200-hour SMA but overextended: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "08 Aug \u00b7 12:57 AM",
+   "t": "08 Aug \u00b7 01:33 AM",
    "ur": "Salor 200-hour SMA ko todta hai lican ziyadah badha hawa hai."
   },
   {
-   "ts": 1786132661.645523,
+   "ts": 1786134797.98787,
    "title": "Gold hits $4,432 with RSI at 76: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "08 Aug \u00b7 12:57 AM",
+   "t": "08 Aug \u00b7 01:33 AM",
    "ur": "Gold (sona) 76 par RSI ke sath $4,432 par pohch gaya: ghanta ki sath"
   },
   {
@@ -496,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/south-korean-won-intervention-risks-support-krw-against-us-dollar-dbs-202608071758",
    "t": "07 Aug \u00b7 10:58 PM",
    "ur": "South Korea ki Won: madakhalt ke khatrat US Dollar ke khalaf KRW ki support karte hen - DBS"
-  },
-  {
-   "ts": 1786124246.0,
-   "title": "Gold rallies as mediocre US NFP crushes Fed rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-as-mediocre-us-nfp-crushes-fed-rate-hike-bets-202608071737",
-   "t": "07 Aug \u00b7 10:37 PM",
-   "ur": "US NFP ne fed ki rate mein azafe ki sharton ko kachalne ke bad Gold (sone) ki riliyan"
   }
  ],
  "sentiment": {
