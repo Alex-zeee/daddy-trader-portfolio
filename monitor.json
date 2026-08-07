@@ -1,17 +1,13 @@
 {
- "updated": "07-08-2026 14:40 PKT",
+ "updated": "07-08-2026 15:31 PKT",
  "gold": {
-  "price": 4307.58,
-  "open": 4274.54,
-  "high": 4319.28,
+  "price": 4314.05,
+  "open": 4266.79,
+  "high": 4320.23,
   "low": 4224.23,
-  "chg": 0.77,
+  "chg": 1.11,
   "src": "XAUUSD Spot",
   "spark": [
-   4240.34,
-   4238.63,
-   4242.27,
-   4240.05,
    4241.06,
    4244.73,
    4244.13,
@@ -55,14 +51,18 @@
    4303.82,
    4306.85,
    4306.77,
-   4307.58
+   4317.21,
+   4314.75,
+   4309.41,
+   4313.71,
+   4314.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.595,
-   "chg": 5.14,
+   "price": 64.57,
+   "chg": 5.1,
    "spark": [
     60.378,
     59.809,
@@ -85,12 +85,12 @@
     60.056,
     62.099,
     61.439,
-    64.595
+    64.57
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.916,
+   "price": 99.923,
    "chg": -0.05,
    "spark": [
     100.94,
@@ -114,13 +114,13 @@
     99.89,
     99.69,
     99.97,
-    99.916
+    99.923
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 77.49,
-   "chg": 0.26,
+   "price": 77.18,
+   "chg": -0.14,
    "spark": [
     72.08,
     71.41,
@@ -143,7 +143,7 @@
     75.77,
     75.22,
     77.29,
-    77.49
+    77.18
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.153,
-   "chg": -0.24,
+   "price": 1.1531,
+   "chg": -0.22,
    "spark": [
     1.1422,
     1.1433,
@@ -201,13 +201,13 @@
     1.1507,
     1.1532,
     1.1557,
-    1.153
+    1.1531
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.344,
-   "chg": -0.22,
+   "price": 1.3438,
+   "chg": -0.23,
    "spark": [
     1.3396,
     1.3416,
@@ -230,13 +230,13 @@
     1.3427,
     1.3451,
     1.347,
-    1.344
+    1.3438
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.328,
-   "chg": 0.46,
+   "price": 158.38,
+   "chg": 0.49,
    "spark": [
     162.539,
     162.363,
@@ -259,15 +259,14 @@
     157.529,
     157.692,
     157.6,
-    158.328
+    158.38
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1915.8,
-   "chg": 0.72,
+   "price": 1913.07,
+   "chg": 0.58,
    "spark": [
-    1866.52,
     1867.15,
     1875.13,
     1876.97,
@@ -314,15 +313,15 @@
     1902.86,
     1901.27,
     1909.06,
-    1915.8
+    1911.73,
+    1913.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64866.3,
-   "chg": 0.93,
+   "price": 64838.8,
+   "chg": 0.89,
    "spark": [
-    64004.3,
     64015.2,
     64277.8,
     64349.6,
@@ -369,7 +368,8 @@
     64248.3,
     64269.5,
     64544.9,
-    64866.3
+    64786.1,
+    64838.8
    ]
   }
  ],
@@ -402,20 +402,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786095656.962051,
+   "ts": 1786098698.19885,
    "title": "Silver breaks above 200 SMA and Cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "07 Aug \u00b7 02:40 PM",
+   "t": "07 Aug \u00b7 03:31 PM",
    "ur": "Silver (chandi) 200 SMA aur kalaud se oper tot gayi."
   },
   {
-   "ts": 1786095656.962051,
+   "ts": 1786098698.19885,
    "title": "Gold tests $4,369 resistance with RSI overbought: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "07 Aug \u00b7 02:40 PM",
+   "t": "07 Aug \u00b7 03:31 PM",
    "ur": "Gold (sona) RSI ki zarort se ziyadah khareedari ke sath $4,369 ki mazahmat ka tajrabah karta hai."
+  },
+  {
+   "ts": 1786098201.0,
+   "title": "Gold Price Forecast: XAU/USD rallies further with bulls eyeing $4,380 area",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-rallies-further-with-bulls-eyeing-4-380-area-202608071023",
+   "t": "07 Aug \u00b7 03:23 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: bel ka target $4,380 ke sath XAU/USD mazid badh gaya"
+  },
+  {
+   "ts": 1786096764.0,
+   "title": "Canadian Dollar: Labour resilience favours CAD against US Dollar \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-labour-resilience-favours-cad-against-us-dollar-td-securities-202608070959",
+   "t": "07 Aug \u00b7 02:59 PM",
+   "ur": "Caniden Dollar: mazdur ki lachak US Dollar ke maqable CAD ke haq mein hai - TD securitez"
+  },
+  {
+   "ts": 1786095970.0,
+   "title": "USD/CHF Price Forecast: Dollar eases towards 0.8100 ahead of the NFP release",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-dollar-eases-towards-08100-ahead-of-the-nfp-release-202608070946",
+   "t": "07 Aug \u00b7 02:46 PM",
+   "ur": "USD/CHF qeemat ki forecast: NFP rilies se pehle Dollar 0.8100 ki taraf kam ho gaya"
   },
   {
    "ts": 1786095146.0,
@@ -456,30 +480,6 @@
    "link": "https://www.fxstreet.com/news/nzd-usd-price-forecast-consolidates-above-05860-weekly-low-as-bulls-look-to-us-nfp-202608070859",
    "t": "07 Aug \u00b7 01:59 PM",
    "ur": "NZD/USD qeemat ki forecast: 0.5860/haftah war kam se oper mastahkam hoti hai cunkah bel US NFP ki taraf dekhte hen"
-  },
-  {
-   "ts": 1786091400.0,
-   "title": "US Nonfarm Payrolls expected to rise by 80K in July",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-nonfarm-payrolls-expected-to-rise-by-80k-in-july-202608070830",
-   "t": "07 Aug \u00b7 01:30 PM",
-   "ur": "Joli mein US naan farm pay roles mein 80K azafah matoqa hai."
-  },
-  {
-   "ts": 1786091151.0,
-   "title": "British Pound eases below 1.3450 as markets brace for the US Nonfarm Payrolls report",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-eases-below-13450-as-markets-brace-for-the-us-nonfarm-payrolls-report-202608070825",
-   "t": "07 Aug \u00b7 01:25 PM",
-   "ur": "Bartish pound 1.3450 se niche aa gaya cunkah marketon ne US naan farm pay roles rport ke liye tasli bakhshi"
-  },
-  {
-   "ts": 1786090297.0,
-   "title": "Japanese Yen: Higher US rate volatility favors safe havens \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-higher-us-rate-volatility-favors-safe-havens-bny-202608070811",
-   "t": "07 Aug \u00b7 01:11 PM",
-   "ur": "Japani yan: aali US rate mein atar chadhao mahfooz panah gahon ke haq mein hai - BNY"
   }
  ],
  "sentiment": {
