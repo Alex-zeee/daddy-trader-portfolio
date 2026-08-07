@@ -1,18 +1,13 @@
 {
- "updated": "07-08-2026 10:20 PKT",
+ "updated": "07-08-2026 11:38 PKT",
  "gold": {
-  "price": 4268.51,
-  "open": 4254.88,
-  "high": 4284.96,
+  "price": 4290.13,
+  "open": 4253.78,
+  "high": 4291.19,
   "low": 4224.23,
-  "chg": 0.32,
+  "chg": 0.85,
   "src": "XAUUSD Spot",
   "spark": [
-   4242.98,
-   4247.12,
-   4247.3,
-   4246.92,
-   4241.71,
    4242.89,
    4248.6,
    4238.02,
@@ -55,14 +50,19 @@
    4266.22,
    4265.94,
    4268.63,
-   4268.51
+   4265.49,
+   4271.74,
+   4279.83,
+   4287.17,
+   4284.25,
+   4290.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.555,
-   "chg": 1.82,
+   "price": 63.58,
+   "chg": 3.48,
    "spark": [
     60.378,
     59.809,
@@ -85,13 +85,13 @@
     60.056,
     62.099,
     61.439,
-    62.555
+    63.58
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.937,
-   "chg": -0.03,
+   "price": 99.935,
+   "chg": -0.04,
    "spark": [
     100.94,
     100.97,
@@ -114,13 +114,13 @@
     99.89,
     99.69,
     99.97,
-    99.937
+    99.935
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.24,
-   "chg": 1.23,
+   "price": 77.68,
+   "chg": 0.5,
    "spark": [
     72.08,
     71.41,
@@ -143,7 +143,7 @@
     75.77,
     75.22,
     77.29,
-    78.24
+    77.68
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.387,
-   "chg": 0.5,
+   "price": 158.34,
+   "chg": 0.47,
    "spark": [
     162.539,
     162.363,
@@ -259,15 +259,14 @@
     157.529,
     157.692,
     157.6,
-    158.387
+    158.34
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1895.37,
-   "chg": -0.35,
+   "price": 1902.89,
+   "chg": 0.05,
    "spark": [
-    1868.09,
     1870.59,
     1868.41,
     1870.1,
@@ -314,15 +313,15 @@
     1900.79,
     1895.41,
     1895.48,
-    1895.37
+    1899.81,
+    1902.89
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64157.7,
-   "chg": -0.17,
+   "price": 64298.8,
+   "chg": 0.05,
    "spark": [
-    64199.9,
     64105.0,
     64063.0,
     64096.6,
@@ -369,7 +368,8 @@
     64356.1,
     64230.3,
     64190.6,
-    64157.7
+    64281.2,
+    64298.8
    ]
   }
  ],
@@ -402,20 +402,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786080051.865449,
+   "ts": 1786084728.401157,
    "title": "Gold rises as Middle East risks offset steady dollar ahead of payrolls",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "07 Aug \u00b7 10:20 AM",
+   "t": "07 Aug \u00b7 11:38 AM",
    "ur": "Gold (sona) badhta hai cunkah masharq wasti ke khatrat pay roles se pehle mastahkam Dollar ko pora karte hen."
   },
   {
-   "ts": 1786080051.865449,
+   "ts": 1786084728.401157,
    "title": "Gold slips amid firmer dollar, climbing oil prices, and advancing yields",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-sevenweek-high-as-hormuz-deal-hopes-cool-fed-hike-bets-4839983",
-   "t": "07 Aug \u00b7 10:20 AM",
+   "t": "07 Aug \u00b7 11:38 AM",
    "ur": "Mazboot Dollar, til ki qeemton mein azafah, aur pedawar mein azafah ke darmiyan Gold (sona) phisal gaya."
+  },
+  {
+   "ts": 1786084237.0,
+   "title": "Euro flatlines amid mixed German data with all eyes on US Nonfarm Payrolls",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-flatlines-amid-mixed-german-data-with-all-eyes-on-us-nonfarm-payrolls-data-202608070630",
+   "t": "07 Aug \u00b7 11:30 AM",
+   "ur": "Mukhaloot jarman deta ke darmiyan uro filet linez US naan farm pay roles par tamam nazarin rakti hen."
+  },
+  {
+   "ts": 1786083597.0,
+   "title": "Euro: Rebound against US Dollar faces key cloud barrier \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-rebound-against-us-dollar-faces-key-cloud-barrier-uob-202608070619",
+   "t": "07 Aug \u00b7 11:19 AM",
+   "ur": "Uro: US Dollar ke khalaf ribound ko kalidi badil rakaut ka samana hai - UOB"
+  },
+  {
+   "ts": 1786081566.0,
+   "title": "Indian Rupee trades calm ahead of US NFP data release",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-trades-calm-ahead-of-us-nfp-data-release-202608070546",
+   "t": "07 Aug \u00b7 10:46 AM",
+   "ur": "US NFP deta rilies se pehle handostani ropiya par sakon hai."
   },
   {
    "ts": 1786077835.0,
@@ -456,30 +480,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6220-in-countdown-to-us-nfp-data-202608070325",
    "t": "07 Aug \u00b7 08:25 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD US NFP deta ki alti ganti mein $62.20 ke qarib badh gayi"
-  },
-  {
-   "ts": 1786073140.0,
-   "title": "New Zealand Dollar hangs near weekly low after China's trade data as USD bulls await NFP",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-hangs-near-weekly-low-after-chinas-trade-data-as-usd-bulls-await-nfp-202608070325",
-   "t": "07 Aug \u00b7 08:25 AM",
-   "ur": "Chin ke tajarti aed w shmar ke bad niyozi lind Dollar ki qeemat haftah war kam hai cunkah USD bel NFP ke mantezar hen"
-  },
-  {
-   "ts": 1786070995.0,
-   "title": "United States Dollar Index holds steady near 100.00 as bulls await US NFP amid Iran risks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-steady-near-10000-as-bulls-await-us-nfp-amid-iran-risks-202608070249",
-   "t": "07 Aug \u00b7 07:49 AM",
-   "ur": "US Dollar andex 100.00 ke qarib mastahkam hai cunkah bel eran ke khatrat ke darmiyan US NFP ka antezar kar rahe hen"
-  },
-  {
-   "ts": 1786069041.0,
-   "title": "Australian Dollar bulls remains on the sidelines as Iran risks support USD ahead of US NFP",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-bulls-remains-on-the-sidelines-as-iran-risks-support-usd-ahead-of-us-nfp-202608070217",
-   "t": "07 Aug \u00b7 07:17 AM",
-   "ur": "Aasterilvi Dollar ka bel cyd lin par rahta hai cunkah eran ko US NFP se aage USD ki support ka khatrah hai."
   }
  ],
  "sentiment": {
