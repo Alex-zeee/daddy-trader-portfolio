@@ -1,17 +1,13 @@
 {
- "updated": "07-08-2026 23:11 PKT",
+ "updated": "08-08-2026 00:12 PKT",
  "gold": {
-  "price": 4342.24,
-  "open": 4247.35,
+  "price": 4345.8,
+  "open": 4249.62,
   "high": 4371.01,
   "low": 4230.24,
-  "chg": 2.23,
+  "chg": 2.26,
   "src": "XAUUSD Spot",
   "spark": [
-   4284.25,
-   4294.75,
-   4298.1,
-   4291.19,
    4285.5,
    4285.21,
    4290.41,
@@ -55,14 +51,18 @@
    4341.19,
    4337.79,
    4341.09,
-   4342.24
+   4337.94,
+   4333.75,
+   4335.12,
+   4334.19,
+   4345.8
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.58,
-   "chg": 3.48,
+   "price": 63.705,
+   "chg": 3.69,
    "spark": [
     60.378,
     59.809,
@@ -85,13 +85,13 @@
     60.056,
     62.099,
     61.439,
-    63.58
+    63.705
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.561,
-   "chg": -0.41,
+   "price": 99.527,
+   "chg": -0.44,
    "spark": [
     100.94,
     100.97,
@@ -114,13 +114,13 @@
     99.89,
     99.69,
     99.97,
-    99.561
+    99.527
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.08,
-   "chg": 1.02,
+   "price": 77.64,
+   "chg": 0.45,
    "spark": [
     72.08,
     71.41,
@@ -143,13 +143,13 @@
     75.77,
     75.22,
     77.29,
-    78.08
+    77.64
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.652,
-   "chg": -0.39,
+   "price": 4.66,
+   "chg": -0.21,
    "spark": [
     4.539,
     4.569,
@@ -172,13 +172,13 @@
     4.627,
     4.617,
     4.67,
-    4.652
+    4.66
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1566,
-   "chg": 0.08,
+   "price": 1.1569,
+   "chg": 0.1,
    "spark": [
     1.1422,
     1.1433,
@@ -201,13 +201,13 @@
     1.1507,
     1.1532,
     1.1557,
-    1.1566
+    1.1569
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3496,
-   "chg": 0.2,
+   "price": 1.35,
+   "chg": 0.23,
    "spark": [
     1.3396,
     1.3416,
@@ -230,13 +230,13 @@
     1.3427,
     1.3451,
     1.347,
-    1.3496
+    1.35
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.529,
-   "chg": -0.05,
+   "price": 157.566,
+   "chg": -0.02,
    "spark": [
     162.539,
     162.363,
@@ -259,15 +259,14 @@
     157.529,
     157.692,
     157.6,
-    157.529
+    157.566
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1912.74,
-   "chg": 0.56,
+   "price": 1913.45,
+   "chg": 0.6,
    "spark": [
-    1915.32,
     1915.31,
     1907.82,
     1905.43,
@@ -314,15 +313,15 @@
     1916.06,
     1908.5,
     1911.2,
-    1912.74
+    1908.24,
+    1913.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64818.3,
-   "chg": 0.86,
+   "price": 64805.5,
+   "chg": 0.84,
    "spark": [
-    64790.9,
     64781.8,
     64675.2,
     64590.1,
@@ -369,7 +368,8 @@
     64860.4,
     64742.6,
     64715.1,
-    64818.3
+    64671.5,
+    64805.5
    ]
   }
  ],
@@ -426,36 +426,52 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1786126305.351851,
+   "ts": 1786129958.107677,
    "title": "Oil gains on US jobs report, worries over peace talks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-concerns-over-strait-of-hormuz-reopening-plans-4844992",
-   "t": "07 Aug \u00b7 11:11 PM",
+   "t": "08 Aug \u00b7 12:12 AM",
    "ur": "US malazmaton ki rport par til ka faidah, aman mazakarat par tyush"
   },
   {
-   "ts": 1786126305.351851,
+   "ts": 1786129958.107677,
    "title": "Citadel\u2019s Rubner says it\u2019s time to start buying gold again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citadels-rubner-says-its-time-to-start-buying-gold-again-4847142",
-   "t": "07 Aug \u00b7 11:11 PM",
+   "t": "08 Aug \u00b7 12:12 AM",
    "ur": "Citadel's Rubner ka kahana hai kah ab waqat aagaya hai kah Gold (sona) dubarah khareedna sharo kiya jaye."
   },
   {
-   "ts": 1786126305.351851,
+   "ts": 1786129958.107677,
    "title": "Gold touches seven-week high after July jobs report dents Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "07 Aug \u00b7 11:11 PM",
+   "t": "08 Aug \u00b7 12:12 AM",
    "ur": "Joli ki malazmaton ki rport ke bad Gold (sona) sat hafton ki baland tarin sath ko chho raha hai, fed ki rate mein azafe ki sharton ko khtam kar diya gaya hai."
   },
   {
-   "ts": 1786126305.351851,
+   "ts": 1786129958.107677,
    "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-sees-gold-rising-to-5000oz-by-first-half-of-2027-4846225",
-   "t": "07 Aug \u00b7 11:11 PM",
+   "t": "08 Aug \u00b7 12:12 AM",
    "ur": "UBS 2027 ki pehli shashmahi tak Gold (sona) $5,000/oz tak badhta hawa dekh raha hai."
+  },
+  {
+   "ts": 1786129478.0,
+   "title": "Silver Price Forecast: XAG/USD clears 50-day SMA, eyes $65",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-clears-50-day-sma-eyes-65-202608071904",
+   "t": "08 Aug \u00b7 12:04 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD 50-day SMA, nazarin $65 saf karta hai."
+  },
+  {
+   "ts": 1786127520.0,
+   "title": "Singapore Dollar: Upside risk capped by 1.2790 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-capped-by-12790-against-us-dollar-uob-202608071832",
+   "t": "07 Aug \u00b7 11:32 PM",
+   "ur": "Sangapor Dollar: US Dollar ke maqable mein 1.2790 se oper ka khatrah kam hogia - UOB"
   },
   {
    "ts": 1786126158.0,
@@ -488,22 +504,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-advances-as-us-labor-market-weakness-pressures-the-usd-202608071603",
    "t": "07 Aug \u00b7 09:03 PM",
    "ur": "US libr market ki kamazori USD ke dabao ke sath niyozi lind Dollar ki tarqi"
-  },
-  {
-   "ts": 1786117111.0,
-   "title": "Australian Dollar climbs near two-month highs as NFP turns negative",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-near-two-month-highs-as-nfp-turns-negative-202608071538",
-   "t": "07 Aug \u00b7 08:38 PM",
-   "ur": "NFP manfi hone par aasterilvi Dollar do mah ki baland tarin sath ke qarib pohch gaya."
-  },
-  {
-   "ts": 1786116856.0,
-   "title": "NY Fed inflation expectations ease modestly in the short term",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ny-fed-inflation-expectations-ease-modestly-in-the-short-term-202608071534",
-   "t": "07 Aug \u00b7 08:34 PM",
-   "ur": "NY Fed inflation (mehngai) ki toqaat mukhtasr madat mein mamoli tur par kam hojati hen."
   }
  ],
  "sentiment": {
