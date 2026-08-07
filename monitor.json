@@ -1,17 +1,13 @@
 {
- "updated": "07-08-2026 19:36 PKT",
+ "updated": "07-08-2026 20:32 PKT",
  "gold": {
-  "price": 4348.21,
-  "open": 4273.88,
+  "price": 4352.99,
+  "open": 4249.66,
   "high": 4371.01,
   "low": 4224.23,
-  "chg": 1.74,
+  "chg": 2.43,
   "src": "XAUUSD Spot",
   "spark": [
-   4250.6,
-   4256.58,
-   4257.07,
-   4260.83,
    4264.59,
    4264.88,
    4266.54,
@@ -55,14 +51,18 @@
    4344.61,
    4331.76,
    4351.73,
-   4348.21
+   4346.31,
+   4342.52,
+   4351.76,
+   4354.25,
+   4352.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.96,
-   "chg": 4.1,
+   "price": 63.85,
+   "chg": 3.92,
    "spark": [
     60.378,
     59.809,
@@ -85,13 +85,13 @@
     60.056,
     62.099,
     61.439,
-    63.96
+    63.85
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.578,
-   "chg": -0.39,
+   "price": 99.557,
+   "chg": -0.41,
    "spark": [
     100.94,
     100.97,
@@ -114,13 +114,13 @@
     99.89,
     99.69,
     99.97,
-    99.578
+    99.557
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 77.71,
-   "chg": 0.54,
+   "price": 78.22,
+   "chg": 1.2,
    "spark": [
     72.08,
     71.41,
@@ -143,13 +143,13 @@
     75.77,
     75.22,
     77.29,
-    77.71
+    78.22
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.635,
-   "chg": -0.75,
+   "price": 4.652,
+   "chg": -0.39,
    "spark": [
     4.539,
     4.569,
@@ -172,13 +172,13 @@
     4.627,
     4.617,
     4.67,
-    4.635
+    4.652
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1562,
-   "chg": 0.04,
+   "price": 1.1558,
+   "chg": 0.01,
    "spark": [
     1.1422,
     1.1433,
@@ -201,13 +201,13 @@
     1.1507,
     1.1532,
     1.1557,
-    1.1562
+    1.1558
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3496,
-   "chg": 0.2,
+   "price": 1.3493,
+   "chg": 0.17,
    "spark": [
     1.3396,
     1.3416,
@@ -230,13 +230,13 @@
     1.3427,
     1.3451,
     1.347,
-    1.3496
+    1.3493
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.73,
-   "chg": 0.08,
+   "price": 157.713,
+   "chg": 0.07,
    "spark": [
     162.539,
     162.363,
@@ -259,15 +259,14 @@
     157.529,
     157.692,
     157.6,
-    157.73
+    157.713
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1923.25,
-   "chg": 1.12,
+   "price": 1917.25,
+   "chg": 0.8,
    "spark": [
-    1872.15,
     1893.77,
     1914.28,
     1916.3,
@@ -314,15 +313,15 @@
     1914.74,
     1930.92,
     1921.33,
-    1923.25
+    1912.13,
+    1916.6
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65145.5,
-   "chg": 1.37,
+   "price": 64992.2,
+   "chg": 1.13,
    "spark": [
-    64332.3,
     64606.9,
     64711.8,
     64745.8,
@@ -369,11 +368,36 @@
     64974.0,
     65236.2,
     64950.3,
-    65145.5
+    64902.8,
+    64992.2
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1785938400.0,
+   "t": "Wed 05 Aug \u00b7 07:00 PM",
+   "title": "ISM Services PMI",
+   "impact": "Medium",
+   "forecast": "54.5",
+   "previous": "54.0"
+  },
+  {
+   "ts": 1785961800.0,
+   "t": "Thu 06 Aug \u00b7 01:30 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1786019400.0,
+   "t": "Thu 06 Aug \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "203K",
+   "previous": "197K"
+  },
   {
    "ts": 1786105800.0,
    "t": "Fri 07 Aug \u00b7 05:30 PM",
@@ -399,87 +423,87 @@
    "previous": "4.2%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1786113415.252063,
+   "ts": 1786116737.091393,
    "title": "Gold touches seven-week high after July jobs report dents Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "07 Aug \u00b7 07:36 PM",
+   "t": "07 Aug \u00b7 08:32 PM",
    "ur": "Joli ki malazmaton ki rport ke bad Gold (sona) sat hafton ki baland tarin sath ko chho raha hai, fed ki rate mein azafe ki sharton ko khtam kar diya gaya hai."
   },
   {
-   "ts": 1786113415.252063,
+   "ts": 1786116737.091393,
    "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-sees-gold-rising-to-5000oz-by-first-half-of-2027-4846225",
-   "t": "07 Aug \u00b7 07:36 PM",
+   "t": "07 Aug \u00b7 08:32 PM",
    "ur": "UBS 2027 ki pehli shashmahi tak Gold (sona) $5,000/oz tak badhta hawa dekh raha hai."
   },
   {
-   "ts": 1786113415.252063,
+   "ts": 1786116737.091393,
    "title": "Silver breaks above 200 SMA and Cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "07 Aug \u00b7 07:36 PM",
+   "t": "07 Aug \u00b7 08:32 PM",
    "ur": "Silver (chandi) 200 SMA aur kalaud se oper tot gayi."
   },
   {
-   "ts": 1786113062.0,
-   "title": "Fed's Barkin: Jobs data is more low hire, low fire",
+   "ts": 1786116333.0,
+   "title": "US Dollar: Payrolls-driven consolidation as CPI looms \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-barkin-jobs-data-is-more-low-hire-low-fire-202608071431",
-   "t": "07 Aug \u00b7 07:31 PM",
-   "ur": "Fed's Barkin: nokariyon ka deta ziyadah kam karaya par hai, kam aag hai."
+   "link": "https://www.fxstreet.com/news/us-dollar-payrolls-driven-consolidation-as-cpi-looms-td-securities-202608071525",
+   "t": "07 Aug \u00b7 08:25 PM",
+   "ur": "US Dollar: pay roles se chalne wali yakjahati jise jise CPI kam ho raha hai - TD securitez"
   },
   {
-   "ts": 1786112243.0,
-   "title": "Canadian Dollar: Labour strength and BoC stance \u2013 TD Securities",
+   "ts": 1786115741.0,
+   "title": "Federal Reserve: Fed focus shifts to jobs \u2013 ABN AMRO",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-labour-strength-and-boc-stance-td-securities-202608071417",
-   "t": "07 Aug \u00b7 07:17 PM",
-   "ur": "Caniden Dollar: libr ki tqt aur BoC moqf - TD securitez"
+   "link": "https://www.fxstreet.com/news/federal-reserve-fed-focus-shifts-to-jobs-abn-amro-202608071515",
+   "t": "07 Aug \u00b7 08:15 PM",
+   "ur": "Faderl resero: fed ki tojah malazmaton par mantaql hoti hai - ABN AMRO"
   },
   {
-   "ts": 1786111455.0,
-   "title": "Silver Price Forecast: Weak US payrolls fuel breakout above 50-day SMA",
+   "ts": 1786115596.0,
+   "title": "Swiss Franc gains against US Dollar after surprise decline in US payrolls",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-weak-us-payrolls-fuel-breakout-above-50-day-sma-202608071404",
-   "t": "07 Aug \u00b7 07:04 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: kamazor US pay roles fiyol barik oat 50-day SMA se oper"
+   "link": "https://www.fxstreet.com/news/swiss-franc-gains-against-us-dollar-after-surprise-decline-in-us-payrolls-202608071513",
+   "t": "07 Aug \u00b7 08:13 PM",
+   "ur": "US pay roles mein heert angies kami ke bad sois farank US Dollar ke maqable mein badh gaya."
   },
   {
-   "ts": 1786110498.0,
-   "title": "Silver: Solar demand headwinds emerge \u2013 Commerzbank",
+   "ts": 1786114719.0,
+   "title": "Gold: Discretionary demand keeps bulls in control - TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-solar-demand-headwinds-emerge-commerzbank-202608071348",
-   "t": "07 Aug \u00b7 06:48 PM",
-   "ur": "Silver (chandi): shamsi tawanai ki talab mein tizi aagayi - kamers Bank"
+   "link": "https://www.fxstreet.com/news/gold-discretionary-demand-keeps-bulls-in-control-td-securities-202608071458",
+   "t": "07 Aug \u00b7 07:58 PM",
+   "ur": "Gold (sona): sawabdidi talab bel ko kantrol mein rakti hai - TD securitez"
   },
   {
-   "ts": 1786109899.0,
-   "title": "Japanese Yen surges as weak US jobs data questions Fed rate hike expectations",
+   "ts": 1786114485.0,
+   "title": "Canadian Dollar jumps after North American jobs double surprise",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-surges-as-weak-us-jobs-data-questions-fed-rate-hike-expectations-202608071338",
-   "t": "07 Aug \u00b7 06:38 PM",
-   "ur": "Japani yan US malazmaton ke aed w shmar ke kamazor fed ki rate mein azafe ki toqaat ke swalat ke tur par badhta hai."
+   "link": "https://www.fxstreet.com/news/canadian-dollar-jumps-after-north-american-jobs-double-surprise-202608071454",
+   "t": "07 Aug \u00b7 07:54 PM",
+   "ur": "Caniden Dollar shmali amrikah ki malazmaton mein dogana heert ke bad chhalang lagata hai."
   },
   {
-   "ts": 1786109287.0,
-   "title": "British Pound climbs above 1.3500 after weak US NFP data",
+   "ts": 1786114260.0,
+   "title": "United States Dollar Index tumbles as NFP shock trims Fed hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-climbs-above-13500-after-weak-us-nfp-data-202608071328",
-   "t": "07 Aug \u00b7 06:28 PM",
-   "ur": "Kamazor US NFP deta ke bad bartanvi pound 1.3500 se oper chadh gaya."
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-tumbles-as-nfp-shock-trims-fed-hike-bets-202608071451",
+   "t": "07 Aug \u00b7 07:51 PM",
+   "ur": "NFP ke jhatake ne Fed mein azafe ki shart ko tarashte huvay ryastahaye matehdah ka Dollar andex gara hai."
   },
   {
-   "ts": 1786107606.0,
-   "title": "Euro surges as shocking US NFP reverses Fed September hike expectations",
+   "ts": 1786113597.0,
+   "title": "US Dollar: Weak payrolls cloud Fed path \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-surges-as-shocking-us-nfp-reverses-fed-september-hike-expectations-202608071300",
-   "t": "07 Aug \u00b7 06:00 PM",
-   "ur": "Uro mein azafah hawa cunkah chonka dine wala US NFP Fed stambr mein azafe ki toqaat ko plt dita hai."
+   "link": "https://www.fxstreet.com/news/us-dollar-weak-payrolls-cloud-fed-path-ing-202608071439",
+   "t": "07 Aug \u00b7 07:39 PM",
+   "ur": "US Dollar: kamazor pay roles kalaud fed path \u2013 ING"
   }
  ],
  "sentiment": {
