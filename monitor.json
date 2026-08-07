@@ -1,16 +1,13 @@
 {
- "updated": "07-08-2026 20:32 PKT",
+ "updated": "07-08-2026 21:30 PKT",
  "gold": {
-  "price": 4352.99,
-  "open": 4249.66,
+  "price": 4337.24,
+  "open": 4227.65,
   "high": 4371.01,
-  "low": 4224.23,
-  "chg": 2.43,
+  "low": 4227.65,
+  "chg": 2.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4264.59,
-   4264.88,
-   4266.54,
    4266.22,
    4265.94,
    4268.63,
@@ -55,14 +52,17 @@
    4342.52,
    4351.76,
    4354.25,
-   4352.99
+   4350.3,
+   4342.56,
+   4346.95,
+   4337.24
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.85,
-   "chg": 3.92,
+   "price": 63.65,
+   "chg": 3.6,
    "spark": [
     60.378,
     59.809,
@@ -85,42 +85,13 @@
     60.056,
     62.099,
     61.439,
-    63.85
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 99.557,
-   "chg": -0.41,
-   "spark": [
-    100.94,
-    100.97,
-    101.28,
-    100.94,
-    100.5,
-    100.73,
-    100.75,
-    100.99,
-    101.18,
-    101.14,
-    101.43,
-    101.47,
-    101.51,
-    101.38,
-    100.8,
-    100.01,
-    99.8,
-    99.96,
-    99.89,
-    99.69,
-    99.97,
-    99.557
+    63.65
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.22,
-   "chg": 1.2,
+   "price": 78.35,
+   "chg": 1.37,
    "spark": [
     72.08,
     71.41,
@@ -143,7 +114,7 @@
     75.77,
     75.22,
     77.29,
-    78.22
+    78.35
    ]
   },
   {
@@ -177,8 +148,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1558,
-   "chg": 0.01,
+   "price": 1.1566,
+   "chg": 0.08,
    "spark": [
     1.1422,
     1.1433,
@@ -201,13 +172,13 @@
     1.1507,
     1.1532,
     1.1557,
-    1.1558
+    1.1566
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3493,
-   "chg": 0.17,
+   "price": 1.35,
+   "chg": 0.22,
    "spark": [
     1.3396,
     1.3416,
@@ -230,13 +201,13 @@
     1.3427,
     1.3451,
     1.347,
-    1.3493
+    1.35
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.713,
-   "chg": 0.07,
+   "price": 157.338,
+   "chg": -0.17,
    "spark": [
     162.539,
     162.363,
@@ -259,15 +230,14 @@
     157.529,
     157.692,
     157.6,
-    157.713
+    157.338
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.25,
-   "chg": 0.8,
+   "price": 1912.02,
+   "chg": 0.53,
    "spark": [
-    1893.77,
     1914.28,
     1916.3,
     1915.32,
@@ -314,15 +284,15 @@
     1930.92,
     1921.33,
     1912.13,
-    1916.6
+    1916.06,
+    1912.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64992.2,
-   "chg": 1.13,
+   "price": 64862.7,
+   "chg": 0.93,
    "spark": [
-    64606.9,
     64711.8,
     64745.8,
     64790.9,
@@ -369,7 +339,8 @@
     65236.2,
     64950.3,
     64902.8,
-    64992.2
+    64860.4,
+    64862.7
    ]
   }
  ],
@@ -426,28 +397,76 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1786116737.091393,
+   "ts": 1786120246.869174,
+   "title": "Oil gains on US jobs report, worries over peace talks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-rises-on-concerns-over-strait-of-hormuz-reopening-plans-4844992",
+   "t": "07 Aug \u00b7 09:30 PM",
+   "ur": "US malazmaton ki rport par til ka faidah, aman mazakarat par tyush"
+  },
+  {
+   "ts": 1786120246.869174,
+   "title": "Citadel\u2019s Rubner says it\u2019s time to start buying gold again",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/citadels-rubner-says-its-time-to-start-buying-gold-again-4847142",
+   "t": "07 Aug \u00b7 09:30 PM",
+   "ur": "Citadel's Rubner ka kahana hai kah ab waqat aagaya hai kah Gold (sona) dubarah khareedna sharo kiya jaye."
+  },
+  {
+   "ts": 1786120246.869174,
    "title": "Gold touches seven-week high after July jobs report dents Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "07 Aug \u00b7 08:32 PM",
+   "t": "07 Aug \u00b7 09:30 PM",
    "ur": "Joli ki malazmaton ki rport ke bad Gold (sona) sat hafton ki baland tarin sath ko chho raha hai, fed ki rate mein azafe ki sharton ko khtam kar diya gaya hai."
   },
   {
-   "ts": 1786116737.091393,
+   "ts": 1786120246.869174,
    "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-sees-gold-rising-to-5000oz-by-first-half-of-2027-4846225",
-   "t": "07 Aug \u00b7 08:32 PM",
+   "t": "07 Aug \u00b7 09:30 PM",
    "ur": "UBS 2027 ki pehli shashmahi tak Gold (sona) $5,000/oz tak badhta hawa dekh raha hai."
   },
   {
-   "ts": 1786116737.091393,
+   "ts": 1786120246.869174,
    "title": "Silver breaks above 200 SMA and Cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "07 Aug \u00b7 08:32 PM",
+   "t": "07 Aug \u00b7 09:30 PM",
    "ur": "Silver (chandi) 200 SMA aur kalaud se oper tot gayi."
+  },
+  {
+   "ts": 1786120196.0,
+   "title": "Here are three key takeaways from the disappointing July jobs report",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+   "t": "07 Aug \u00b7 09:29 PM",
+   "ur": "Joli ki mayus kan malazmaton ki rport se tin aham nakat ya hen."
+  },
+  {
+   "ts": 1786118630.0,
+   "title": "New Zealand Dollar advances as US labor market weakness pressures the USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-advances-as-us-labor-market-weakness-pressures-the-usd-202608071603",
+   "t": "07 Aug \u00b7 09:03 PM",
+   "ur": "US libr market ki kamazori USD par dabao ke baas niyozi lind Dollar ki tarqi"
+  },
+  {
+   "ts": 1786117111.0,
+   "title": "Australian Dollar climbs near two-month highs as NFP turns negative",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-near-two-month-highs-as-nfp-turns-negative-202608071538",
+   "t": "07 Aug \u00b7 08:38 PM",
+   "ur": "NFP manfi hone par aasterilvi Dollar do mah ki baland tarin sath ke qarib pohch gaya."
+  },
+  {
+   "ts": 1786116856.0,
+   "title": "NY Fed inflation expectations ease modestly in the short term",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/ny-fed-inflation-expectations-ease-modestly-in-the-short-term-202608071534",
+   "t": "07 Aug \u00b7 08:34 PM",
+   "ur": "NY Fed inflation (mehngai) ki toqaat mukhtasr madat mein mamoli tur par kam hojati hen."
   },
   {
    "ts": 1786116333.0,
@@ -456,54 +475,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-payrolls-driven-consolidation-as-cpi-looms-td-securities-202608071525",
    "t": "07 Aug \u00b7 08:25 PM",
    "ur": "US Dollar: pay roles se chalne wali yakjahati jise jise CPI kam ho raha hai - TD securitez"
-  },
-  {
-   "ts": 1786115741.0,
-   "title": "Federal Reserve: Fed focus shifts to jobs \u2013 ABN AMRO",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-fed-focus-shifts-to-jobs-abn-amro-202608071515",
-   "t": "07 Aug \u00b7 08:15 PM",
-   "ur": "Faderl resero: fed ki tojah malazmaton par mantaql hoti hai - ABN AMRO"
-  },
-  {
-   "ts": 1786115596.0,
-   "title": "Swiss Franc gains against US Dollar after surprise decline in US payrolls",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-gains-against-us-dollar-after-surprise-decline-in-us-payrolls-202608071513",
-   "t": "07 Aug \u00b7 08:13 PM",
-   "ur": "US pay roles mein heert angies kami ke bad sois farank US Dollar ke maqable mein badh gaya."
-  },
-  {
-   "ts": 1786114719.0,
-   "title": "Gold: Discretionary demand keeps bulls in control - TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-discretionary-demand-keeps-bulls-in-control-td-securities-202608071458",
-   "t": "07 Aug \u00b7 07:58 PM",
-   "ur": "Gold (sona): sawabdidi talab bel ko kantrol mein rakti hai - TD securitez"
-  },
-  {
-   "ts": 1786114485.0,
-   "title": "Canadian Dollar jumps after North American jobs double surprise",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-jumps-after-north-american-jobs-double-surprise-202608071454",
-   "t": "07 Aug \u00b7 07:54 PM",
-   "ur": "Caniden Dollar shmali amrikah ki malazmaton mein dogana heert ke bad chhalang lagata hai."
-  },
-  {
-   "ts": 1786114260.0,
-   "title": "United States Dollar Index tumbles as NFP shock trims Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-tumbles-as-nfp-shock-trims-fed-hike-bets-202608071451",
-   "t": "07 Aug \u00b7 07:51 PM",
-   "ur": "NFP ke jhatake ne Fed mein azafe ki shart ko tarashte huvay ryastahaye matehdah ka Dollar andex gara hai."
-  },
-  {
-   "ts": 1786113597.0,
-   "title": "US Dollar: Weak payrolls cloud Fed path \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-weak-payrolls-cloud-fed-path-ing-202608071439",
-   "t": "07 Aug \u00b7 07:39 PM",
-   "ur": "US Dollar: kamazor pay roles kalaud fed path \u2013 ING"
   }
  ],
  "sentiment": {
