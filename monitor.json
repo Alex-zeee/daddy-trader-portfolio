@@ -1,19 +1,13 @@
 {
- "updated": "07-08-2026 17:07 PKT",
+ "updated": "07-08-2026 18:34 PKT",
  "gold": {
-  "price": 4317.9,
-  "open": 4257.55,
-  "high": 4327.69,
+  "price": 4356.21,
+  "open": 4271.09,
+  "high": 4371.01,
   "low": 4224.23,
-  "chg": 1.42,
+  "chg": 1.99,
   "src": "XAUUSD Spot",
   "spark": [
-   4243.12,
-   4231.98,
-   4232.02,
-   4243.77,
-   4245.68,
-   4254.91,
    4258.66,
    4259.16,
    4259.88,
@@ -55,14 +49,20 @@
    4325.31,
    4323.44,
    4321.55,
-   4317.9
+   4317.67,
+   4313.86,
+   4368.38,
+   4357.17,
+   4348.4,
+   4354.9,
+   4356.21
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.52,
-   "chg": 5.01,
+   "price": 64.405,
+   "chg": 4.83,
    "spark": [
     60.378,
     59.809,
@@ -85,13 +85,13 @@
     60.056,
     62.099,
     61.439,
-    64.52
+    64.405
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.877,
-   "chg": -0.09,
+   "price": 99.473,
+   "chg": -0.5,
    "spark": [
     100.94,
     100.97,
@@ -114,13 +114,13 @@
     99.89,
     99.69,
     99.97,
-    99.877
+    99.473
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 76.72,
-   "chg": -0.74,
+   "price": 77.03,
+   "chg": -0.34,
    "spark": [
     72.08,
     71.41,
@@ -143,15 +143,14 @@
     75.77,
     75.22,
     77.29,
-    76.72
+    77.03
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.67,
-   "chg": 1.15,
+   "price": 4.625,
+   "chg": -0.96,
    "spark": [
-    4.569,
     4.539,
     4.569,
     4.609,
@@ -172,13 +171,14 @@
     4.686,
     4.627,
     4.617,
-    4.67
+    4.67,
+    4.625
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1539,
-   "chg": -0.16,
+   "price": 1.1566,
+   "chg": 0.08,
    "spark": [
     1.1422,
     1.1433,
@@ -201,13 +201,13 @@
     1.1507,
     1.1532,
     1.1557,
-    1.1539
+    1.1566
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.345,
-   "chg": -0.15,
+   "price": 1.3495,
+   "chg": 0.19,
    "spark": [
     1.3396,
     1.3416,
@@ -230,44 +230,14 @@
     1.3427,
     1.3451,
     1.347,
-    1.345
-   ]
-  },
-  {
-   "name": "USD/JPY",
-   "price": 158.327,
-   "chg": 0.46,
-   "spark": [
-    162.539,
-    162.363,
-    161.878,
-    162.429,
-    162.187,
-    162.072,
-    162.376,
-    162.512,
-    162.487,
-    163.186,
-    163.081,
-    163.832,
-    163.611,
-    163.771,
-    163.864,
-    163.3,
-    160.183,
-    157.582,
-    157.529,
-    157.692,
-    157.6,
-    158.327
+    1.3495
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1919.42,
-   "chg": 0.91,
+   "price": 1930.74,
+   "chg": 1.51,
    "spark": [
-    1876.97,
     1874.59,
     1872.15,
     1893.77,
@@ -314,15 +284,15 @@
     1911.73,
     1911.37,
     1914.74,
-    1919.42
+    1930.92,
+    1930.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65001.8,
-   "chg": 1.14,
+   "price": 65269.0,
+   "chg": 1.56,
    "spark": [
-    64349.6,
     64429.0,
     64332.3,
     64606.9,
@@ -369,7 +339,8 @@
     64786.1,
     64827.8,
     64974.0,
-    65004.7
+    65236.2,
+    65269.0
    ]
   }
  ],
@@ -402,28 +373,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786104466.995072,
-   "title": "Gold rises as key payrolls data, Mideast uncertainty loom large",
+   "ts": 1786109654.349046,
+   "title": "Gold sharply adds to gains after July jobs report cuts into Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "07 Aug \u00b7 05:07 PM",
-   "ur": "Aham pay roles ke aed w shmar ke tur par Gold (sona) badhta hai, masharq wasti ki ghair yaqeeni surtahal bahat ziyadah hai."
+   "t": "07 Aug \u00b7 06:34 PM",
+   "ur": "Fed ki rate mein azafe ki sharton mein joli ki malazmaton ki rport mein kami ke bad Gold (sone) mein tizi se azafah hota hai."
   },
   {
-   "ts": 1786104466.995072,
+   "ts": 1786109654.349046,
+   "title": "UBS sees gold rising to $5,000/oz by first half of 2027",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/ubs-sees-gold-rising-to-5000oz-by-first-half-of-2027-4846225",
+   "t": "07 Aug \u00b7 06:34 PM",
+   "ur": "UBS 2027 ki pehli shashmahi tak Gold (sona) $5,000/oz tak badhta hawa dekh raha hai."
+  },
+  {
+   "ts": 1786109654.349046,
    "title": "Silver breaks above 200 SMA and Cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "07 Aug \u00b7 05:07 PM",
+   "t": "07 Aug \u00b7 06:34 PM",
    "ur": "Silver (chandi) 200 SMA aur kalaud se oper tot gayi."
   },
   {
-   "ts": 1786104466.995072,
-   "title": "Gold tests $4,369 resistance with RSI overbought: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "07 Aug \u00b7 05:07 PM",
-   "ur": "Gold (sona) RSI ki zarort se ziyadah khareedari ke sath $4,369 ki mazahmat ka tajrabah karta hai."
+   "ts": 1786109287.0,
+   "title": "British Pound climbs above 1.3500 after weak US NFP data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-climbs-above-13500-after-weak-us-nfp-data-202608071328",
+   "t": "07 Aug \u00b7 06:28 PM",
+   "ur": "Kamazor US NFP deta ke bad bartanvi pound 1.3500 se oper chadh gaya."
+  },
+  {
+   "ts": 1786107606.0,
+   "title": "Euro surges as shocking US NFP reverses Fed September hike expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-surges-as-shocking-us-nfp-reverses-fed-september-hike-expectations-202608071300",
+   "t": "07 Aug \u00b7 06:00 PM",
+   "ur": "Uro mein azafah hawa cunkah chonka dine wala US NFP Fed stambr mein azafe ki toqaat ko plt dita hai."
+  },
+  {
+   "ts": 1786105584.0,
+   "title": "India: Inflation steady, trade deficit persists \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-inflation-steady-trade-deficit-persists-dbs-202608071226",
+   "t": "07 Aug \u00b7 05:26 PM",
+   "ur": "Handostan: inflation (mehngai) mastahkam, tajarti khasarah barqarar - DBS"
   },
   {
    "ts": 1786104371.0,
@@ -456,30 +451,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-likely-find-direction-after-us-nfp-release-202608071141",
    "t": "07 Aug \u00b7 04:41 PM",
    "ur": "US Dollar andex qeemat ki forecast: mamkana tur par US NFP ke ajra ke bad samat talash karin."
-  },
-  {
-   "ts": 1786102349.0,
-   "title": "Euro: Upside bias hinges on 1.1565 break against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-bias-hinges-on-11565-break-against-us-dollar-uob-202608071132",
-   "t": "07 Aug \u00b7 04:32 PM",
-   "ur": "Uro: alta taasab US Dollar ke maqable 1.1565 ke waqafe par hai - UOB"
-  },
-  {
-   "ts": 1786101675.0,
-   "title": "Gold rises above $4,300 as traders brace for US Nonfarm Payrolls",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rises-above-4-300-as-traders-brace-for-us-nonfarm-payrolls-202608071121",
-   "t": "07 Aug \u00b7 04:21 PM",
-   "ur": "Gold (sona) $4,300 se oper badhta hai cunkah taajr US naan farm pay roles ke liye tyar hen."
-  },
-  {
-   "ts": 1786101654.0,
-   "title": "US Dollar: Strong payrolls may offer only limited support \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-strong-payrolls-may-offer-only-limited-support-bbh-202608071120",
-   "t": "07 Aug \u00b7 04:20 PM",
-   "ur": "US Dollar: mazboot pay roles sarf muhadud madad pesh kar sakte hen - BBH"
   }
  ],
  "sentiment": {
