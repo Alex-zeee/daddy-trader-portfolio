@@ -1,16 +1,13 @@
 {
- "updated": "08-08-2026 04:53 PKT",
+ "updated": "08-08-2026 05:39 PKT",
  "gold": {
-  "price": 4342.23,
-  "open": 4252.5,
+  "price": 4342.35,
+  "open": 4232.64,
   "high": 4371.01,
   "low": 4230.24,
-  "chg": 2.11,
+  "chg": 2.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4317.67,
-   4313.86,
-   4368.38,
    4357.17,
    4348.4,
    4354.9,
@@ -55,7 +52,10 @@
    4342.24,
    4342.35,
    4342.36,
-   4342.23
+   4342.33,
+   4342.24,
+   4342.34,
+   4342.35
   ]
  },
  "markets": [
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1913.57,
-   "chg": 0.61,
+   "price": 1913.55,
+   "chg": 0.03,
    "spark": [
-    1908.49,
     1904.85,
     1897.11,
     1897.02,
@@ -314,15 +313,15 @@
     1913.61,
     1915.35,
     1913.65,
-    1913.57
+    1913.0,
+    1913.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64881.4,
-   "chg": 0.96,
+   "price": 64857.7,
+   "chg": -0.04,
    "spark": [
-    64595.5,
     64526.1,
     64515.3,
     64460.3,
@@ -369,7 +368,8 @@
     64930.9,
     64901.0,
     64846.4,
-    64881.4
+    64886.1,
+    64857.7
    ]
   }
  ],
@@ -426,28 +426,12 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1786146818.691762,
+   "ts": 1786149583.552779,
    "title": "Gold set for best week since late January after jobs data dents Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "08 Aug \u00b7 04:53 AM",
+   "t": "08 Aug \u00b7 05:39 AM",
    "ur": "Malazmaton ke aed w shmar ke bad fed ki rate mein azafe ki shart ke bad Gold (sona) janori ke aakhar se behtarin hafte ke liye mokhar hai."
-  },
-  {
-   "ts": 1786146818.691762,
-   "title": "Silver breaks 200-hour SMA but overextended: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-coils-in-250-range-awaiting-breakout-live-levels-93CH-4829887",
-   "t": "08 Aug \u00b7 04:53 AM",
-   "ur": "Salor 200-hour SMA ko todta hai lican ziyadah badha hawa hai."
-  },
-  {
-   "ts": 1786146818.691762,
-   "title": "Gold hits $4,432 with RSI at 76: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-between-mas-in-tight-range-live-levels-93CH-4829886",
-   "t": "08 Aug \u00b7 04:53 AM",
-   "ur": "Gold (sona) 76 par RSI ke sath $4,432 par pohch gaya: ghanta ki sath"
   },
   {
    "ts": 1786137120.0,
@@ -504,10 +488,26 @@
    "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
    "t": "07 Aug \u00b7 11:09 PM",
    "ur": "Joli ki mayus kan malazmaton ki rport se tin aham nakat ya hen."
+  },
+  {
+   "ts": 1786125480.0,
+   "title": "South Korean Won: Intervention risks support KRW against US Dollar \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-intervention-risks-support-krw-against-us-dollar-dbs-202608071758",
+   "t": "07 Aug \u00b7 10:58 PM",
+   "ur": "South Korea ki Won: madakhalt ke khatrat US Dollar ke khalaf KRW ki support karte hen - DBS"
+  },
+  {
+   "ts": 1786124246.0,
+   "title": "Gold rallies as mediocre US NFP crushes Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rallies-as-mediocre-us-nfp-crushes-fed-rate-hike-bets-202608071737",
+   "t": "07 Aug \u00b7 10:37 PM",
+   "ur": "US NFP ne fed ki rate mein azafe ki sharton ko kachalne ke bad Gold (sone) ki riliyan"
   }
  ],
  "sentiment": {
-  "value": 29,
+  "value": 30,
   "label": "Fear"
  },
  "err": null
