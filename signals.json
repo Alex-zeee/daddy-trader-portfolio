@@ -1,10 +1,19 @@
 {
- "updated": "10-08-2026 02:55 PKT",
- "market": "closed",
- "src": null,
+ "updated": "10-08-2026 03:16 PKT",
+ "market": "open",
+ "src": "XAUUSD-spot",
  "err": null,
- "bias": null,
- "liq": null,
+ "bias": {
+  "dir": "BUY",
+  "strength": 100,
+  "price": 4343.62,
+  "rsi": 70,
+  "tf": "M15"
+ },
+ "liq": {
+  "above": [],
+  "below": []
+ },
  "idea": null,
  "signals": []
 }
