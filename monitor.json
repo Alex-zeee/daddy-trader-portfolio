@@ -1,15 +1,13 @@
 {
- "updated": "09-08-2026 16:51 PKT",
+ "updated": "09-08-2026 17:21 PKT",
  "gold": {
-  "price": 4342.33,
+  "price": 4342.32,
   "open": 4342.26,
   "high": 4342.46,
   "low": 4342.2,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4342.23,
-   4342.33,
    4342.36,
    4342.29,
    4342.23,
@@ -55,7 +53,9 @@
    4342.35,
    4342.31,
    4342.23,
-   4342.33
+   4342.32,
+   4342.36,
+   4342.32
   ]
  },
  "markets": [
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1918.52,
-   "chg": 0.18,
+   "price": 1916.26,
+   "chg": 0.06,
    "spark": [
-    1930.92,
     1921.33,
     1912.13,
     1916.06,
@@ -314,15 +313,15 @@
     1914.0,
     1919.74,
     1919.01,
-    1918.52
+    1917.71,
+    1916.26
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64938.2,
-   "chg": 0.06,
+   "price": 64892.2,
+   "chg": -0.01,
    "spark": [
-    65236.2,
     64950.3,
     64902.8,
     64860.4,
@@ -369,7 +368,8 @@
     64763.0,
     64823.4,
     64921.3,
-    64938.2
+    64900.0,
+    64892.2
    ]
   }
  ],
@@ -458,20 +458,12 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786276292.768387,
+   "ts": 1786278112.935168,
    "title": "Citadel Securities\u2019 Rubner says it\u2019s time to start buying gold again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citadels-rubner-says-its-time-to-start-buying-gold-again-4847142",
-   "t": "09 Aug \u00b7 04:51 PM",
+   "t": "09 Aug \u00b7 05:21 PM",
    "ur": "Citadel Securities' Rubner ka kahana hai kah ab waqat aagaya hai kah Gold (sona) dubarah khareedna sharo kiya jaye."
-  },
-  {
-   "ts": 1786276292.768387,
-   "title": "Gold set for best week since late January after jobs data dents Fed rate hike bets",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steady-as-hormuz-tensions-cloud-fed-outlook-traders-eye-payrolls-4844993",
-   "t": "09 Aug \u00b7 04:51 PM",
-   "ur": "Malazmaton ke aed w shmar ke bad fed ki rate mein azafe ki shart ke bad Gold (sona) janori ke aakhar se behtarin hafte ke liye mokhar hai."
   },
   {
    "ts": 1786137120.0,
@@ -536,6 +528,14 @@
    "link": "https://www.fxstreet.com/news/south-korean-won-intervention-risks-support-krw-against-us-dollar-dbs-202608071758",
    "t": "07 Aug \u00b7 10:58 PM",
    "ur": "South Korea ki Won: madakhalt ke khatrat US Dollar ke khalaf KRW ki support karte hen - DBS"
+  },
+  {
+   "ts": 1786124246.0,
+   "title": "Gold rallies as mediocre US NFP crushes Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rallies-as-mediocre-us-nfp-crushes-fed-rate-hike-bets-202608071737",
+   "t": "07 Aug \u00b7 10:37 PM",
+   "ur": "US NFP ne fed ki rate mein azafe ki sharton ko kachalne ke bad Gold (sone) ki riliyan"
   }
  ],
  "sentiment": {
