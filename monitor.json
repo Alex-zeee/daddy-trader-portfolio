@@ -1,17 +1,13 @@
 {
- "updated": "10-08-2026 19:41 PKT",
+ "updated": "10-08-2026 20:35 PKT",
  "gold": {
-  "price": 4346.45,
+  "price": 4350.56,
   "open": 4342.26,
   "high": 4361.48,
   "low": 4313.51,
-  "chg": 0.1,
+  "chg": 0.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4322.38,
-   4318.44,
-   4326.57,
-   4325.69,
    4327.24,
    4332.05,
    4334.41,
@@ -55,14 +51,18 @@
    4318.98,
    4329.24,
    4346.16,
-   4346.45
+   4349.44,
+   4344.78,
+   4346.8,
+   4349.58,
+   4350.56
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.745,
-   "chg": 2.23,
+   "price": 64.86,
+   "chg": 2.41,
    "spark": [
     59.809,
     57.634,
@@ -85,12 +85,12 @@
     62.099,
     61.439,
     63.332,
-    64.745
+    64.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.711,
+   "price": 99.71,
    "chg": 0.11,
    "spark": [
     100.97,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.711
+    99.71
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.36,
-   "chg": 2.79,
+   "price": 81.19,
+   "chg": 3.85,
    "spark": [
     71.41,
     78.14,
@@ -143,13 +143,13 @@
     75.22,
     77.29,
     78.18,
-    80.36
+    81.19
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.686,
-   "chg": 0.56,
+   "price": 4.69,
+   "chg": 0.64,
    "spark": [
     4.569,
     4.609,
@@ -172,13 +172,13 @@
     4.617,
     4.67,
     4.66,
-    4.686
+    4.69
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1557,
-   "chg": 0.28,
+   "price": 1.155,
+   "chg": 0.22,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1557
+    1.155
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.352,
-   "chg": 0.48,
+   "price": 1.3523,
+   "chg": 0.5,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.352
+    1.3523
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.923,
-   "chg": 0.32,
+   "price": 158.935,
+   "chg": 0.33,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    158.923
+    158.935
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1898.0,
-   "chg": -0.58,
+   "price": 1875.27,
+   "chg": -1.77,
    "spark": [
-    1921.33,
     1921.18,
     1922.44,
     1919.78,
@@ -314,15 +313,15 @@
     1918.75,
     1904.1,
     1895.68,
-    1898.0
+    1891.82,
+    1875.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64765.6,
-   "chg": -0.15,
+   "price": 64257.8,
+   "chg": -0.93,
    "spark": [
-    65049.9,
     65036.4,
     65072.3,
     64994.4,
@@ -369,7 +368,8 @@
     65071.8,
     64813.8,
     64510.4,
-    64765.6
+    64570.1,
+    64257.8
    ]
   }
  ],
@@ -458,20 +458,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786372881.459599,
+   "ts": 1786376115.63115,
    "title": "Gold retreats from seven-week high amid Iran war uncertainty, looming CPI data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 07:41 PM",
+   "t": "10 Aug \u00b7 08:35 PM",
    "ur": "Eran jang ki ghair yaqeeni surtahal ke darmiyan Gold (sona) sat hafton ki baland tarin sath se patchhe hat raha hai, CPI ke aed w shmar mein azafah"
   },
   {
-   "ts": 1786372881.459599,
+   "ts": 1786376115.63115,
    "title": "Morning Bid: Fed\u2019s Cook grilled again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-feds-cook-grilled-again-4848433",
-   "t": "10 Aug \u00b7 07:41 PM",
+   "t": "10 Aug \u00b7 08:35 PM",
    "ur": "Sabah ki boli: fed ka kak dubarah garl hawa."
+  },
+  {
+   "ts": 1786373847.0,
+   "title": "Australian Dollar stays flat ahead of RBA rate decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-stays-flat-ahead-of-rba-rate-decision-202608101457",
+   "t": "10 Aug \u00b7 07:57 PM",
+   "ur": "Aasterilvi Dollar RBA ki rate ke fisale se pehle filet rahta hai."
+  },
+  {
+   "ts": 1786373480.0,
+   "title": "Euro holds ground against US Dollar amid Fed uncertainty ahead of US CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-holds-ground-against-us-dollar-amid-fed-uncertainty-ahead-of-us-cpi-202608101451",
+   "t": "10 Aug \u00b7 07:51 PM",
+   "ur": "Uro US CPI se pehle fed ki ghair yaqeeni surtahal ke darmiyan US Dollar ke khalaf garound rakta hai."
+  },
+  {
+   "ts": 1786373023.0,
+   "title": "Australian Dollar jumps as Yen struggles with Japan\u2019s fiscal woes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-jumps-as-yen-struggles-with-japans-fiscal-woes-202608101443",
+   "t": "10 Aug \u00b7 07:43 PM",
+   "ur": "Yan japan ki mali pareshaniyon se nabrdazama hone par aasterilvi Dollar ki qeemat badh rahi hai."
   },
   {
    "ts": 1786372706.0,
@@ -512,30 +536,6 @@
    "link": "https://www.fxstreet.com/news/gold-cta-selling-limits-upside-below-4-400-td-securities-202608101338",
    "t": "10 Aug \u00b7 06:38 PM",
    "ur": "Gold (sona): CTA farokht ki hadin $4,400 se niche - TD securitez"
-  },
-  {
-   "ts": 1786368489.0,
-   "title": "Australian Dollar: Uptrend targets 0.7120 against US Dollar \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-uptrend-targets-07120-against-us-dollar-societe-generale-202608101328",
-   "t": "10 Aug \u00b7 06:28 PM",
-   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein azafe ka target 0.7120 - socit janerl"
-  },
-  {
-   "ts": 1786367986.0,
-   "title": "Japanese Yen: Rate spread outlook favors JPY against US Dollar \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-rate-spread-outlook-favors-jpy-against-us-dollar-bbh-202608101319",
-   "t": "10 Aug \u00b7 06:19 PM",
-   "ur": "Japani yan: rate spred oat lak US Dollar - BBH ke maqable mein JPY ke haq mein hai."
-  },
-  {
-   "ts": 1786366680.0,
-   "title": "US Dollar: Higher hurdle for sustained gains \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-higher-hurdle-for-sustained-gains-mufg-202608101258",
-   "t": "10 Aug \u00b7 05:58 PM",
-   "ur": "US Dollar: pidar fawaid ke liye aala rakaut - MUFG"
   }
  ],
  "sentiment": {
