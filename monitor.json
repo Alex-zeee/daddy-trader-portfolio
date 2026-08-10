@@ -1,17 +1,13 @@
 {
- "updated": "10-08-2026 21:28 PKT",
+ "updated": "10-08-2026 22:24 PKT",
  "gold": {
-  "price": 4363.39,
+  "price": 4358.81,
   "open": 4342.26,
   "high": 4364.72,
   "low": 4313.51,
-  "chg": 0.49,
+  "chg": 0.38,
   "src": "XAUUSD Spot",
   "spark": [
-   4331.44,
-   4337.38,
-   4335.35,
-   4334.43,
    4340.08,
    4349.12,
    4349.65,
@@ -55,14 +51,18 @@
    4350.83,
    4358.13,
    4361.83,
-   4363.39
+   4363.37,
+   4351.94,
+   4355.92,
+   4357.76,
+   4358.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.445,
-   "chg": 3.34,
+   "price": 65.21,
+   "chg": 2.97,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    65.445
+    65.21
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.717,
-   "chg": 0.12,
+   "price": 99.784,
+   "chg": 0.18,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.717
+    99.784
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.98,
-   "chg": 3.58,
+   "price": 81.51,
+   "chg": 4.26,
    "spark": [
     71.41,
     78.14,
@@ -143,13 +143,13 @@
     75.22,
     77.29,
     78.18,
-    80.98
+    81.51
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.69,
-   "chg": 0.64,
+   "price": 4.7,
+   "chg": 0.86,
    "spark": [
     4.569,
     4.609,
@@ -172,13 +172,13 @@
     4.617,
     4.67,
     4.66,
-    4.69
+    4.7
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1555,
-   "chg": 0.27,
+   "price": 1.1545,
+   "chg": 0.17,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1555
+    1.1545
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3523,
-   "chg": 0.5,
+   "price": 1.3508,
+   "chg": 0.39,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3523
+    1.3508
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.93,
-   "chg": 0.33,
+   "price": 159.135,
+   "chg": 0.46,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    158.93
+    159.135
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.12,
-   "chg": -1.83,
+   "price": 1872.45,
+   "chg": -1.91,
    "spark": [
-    1922.44,
     1919.78,
     1918.98,
     1918.76,
@@ -314,15 +313,15 @@
     1895.68,
     1891.82,
     1875.59,
-    1874.12
+    1870.16,
+    1872.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64063.7,
-   "chg": -1.23,
+   "price": 63862.8,
+   "chg": -1.54,
    "spark": [
-    65072.3,
     64994.4,
     65032.0,
     65025.5,
@@ -369,7 +368,8 @@
     64510.4,
     64570.1,
     64231.7,
-    64063.7
+    63831.5,
+    63862.8
    ]
   }
  ],
@@ -458,20 +458,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786379325.164711,
+   "ts": 1786382661.776071,
    "title": "Gold reverses losses to hit two-month high on weak U.S. jobs data, awaits CPI data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 09:28 PM",
+   "t": "10 Aug \u00b7 10:24 PM",
    "ur": "US malazmaton ke kamazor deta par Gold (sone) ne naqsanat ko do mah ki baland tarin sath par pohcha diya, CPI deta ka antezar hai"
   },
   {
-   "ts": 1786379325.164711,
-   "title": "Morning Bid: Fed\u2019s Cook grilled again",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/morning-bid-feds-cook-grilled-again-4848433",
-   "t": "10 Aug \u00b7 09:28 PM",
-   "ur": "Sabah ki boli: fed ka kak dubarah garl hawa."
+   "ts": 1786380285.0,
+   "title": "The Canadian Dollar takes back two months in ten sessions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-canadian-dollar-takes-back-two-months-in-ten-sessions-202608101644",
+   "t": "10 Aug \u00b7 09:44 PM",
+   "ur": "Caniden Dollar das sitions mein do mah patchhe le jata hai."
   },
   {
    "ts": 1786379151.0,
@@ -483,11 +483,11 @@
   },
   {
    "ts": 1786378593.0,
-   "title": "British Pound climbs as Hormuz talks stall, US CPI up next",
+   "title": "British Pound climbs as Hormuz talks stall, US CPI in focus",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-climbs-as-hormuz-talks-stall-us-cpi-up-next-202608101616",
    "t": "10 Aug \u00b7 09:16 PM",
-   "ur": "Bartanvi pound chadhte hi harmaz mazakarat rak gaye, US CPI agla"
+   "ur": "Bartanvi pound chadhte hi harmaz mazakarat rak gaye, US CPI fox mein hai."
   },
   {
    "ts": 1786378413.0,
