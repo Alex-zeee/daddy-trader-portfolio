@@ -1,16 +1,13 @@
 {
- "updated": "10-08-2026 04:53 PKT",
+ "updated": "10-08-2026 05:43 PKT",
  "gold": {
-  "price": 4341.3,
+  "price": 4336.16,
   "open": 4342.26,
   "high": 4355.99,
-  "low": 4335.01,
-  "chg": -0.02,
+  "low": 4332.6,
+  "chg": -0.14,
   "src": "XAUUSD Spot",
   "spark": [
-   4342.36,
-   4342.3,
-   4342.23,
    4342.34,
    4342.36,
    4342.3,
@@ -55,14 +52,17 @@
    4346.91,
    4349.46,
    4341.91,
-   4341.3
+   4333.87,
+   4345.58,
+   4338.33,
+   4336.16
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.89,
-   "chg": 0.88,
+   "price": 63.82,
+   "chg": 0.77,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    63.89
+    63.82
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.627,
-   "chg": 0.03,
+   "price": 99.643,
+   "chg": 0.04,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.627
+    99.643
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.93,
-   "chg": 0.96,
+   "price": 78.91,
+   "chg": 0.93,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    78.93
+    78.91
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1561,
-   "chg": 0.31,
+   "price": 1.1558,
+   "chg": 0.29,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1561
+    1.1558
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3492,
-   "chg": 0.28,
+   "price": 1.3489,
+   "chg": 0.25,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3492
+    1.3489
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.863,
-   "chg": -0.34,
+   "price": 157.928,
+   "chg": -0.3,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    157.863
+    157.928
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1908.82,
-   "chg": -0.33,
+   "price": 1904.05,
+   "chg": -0.26,
    "spark": [
-    1913.6,
     1913.5,
     1912.11,
     1917.33,
@@ -314,15 +313,15 @@
     1919.4,
     1923.18,
     1918.03,
-    1908.82
+    1908.63,
+    1904.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64834.3,
-   "chg": -0.1,
+   "price": 64780.5,
+   "chg": -0.12,
    "spark": [
-    64884.6,
     64877.7,
     64886.4,
     64980.1,
@@ -369,7 +368,8 @@
     65086.8,
     65151.5,
     65025.0,
-    64834.3
+    64860.0,
+    64780.5
    ]
   }
  ],
@@ -458,11 +458,11 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786319623.136742,
+   "ts": 1786322633.488474,
    "title": "Citadel Securities\u2019 Rubner says it\u2019s time to start buying gold again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citadels-rubner-says-its-time-to-start-buying-gold-again-4847142",
-   "t": "10 Aug \u00b7 04:53 AM",
+   "t": "10 Aug \u00b7 05:43 AM",
    "ur": "Citadel Securities' Rubner ka kahana hai kah ab waqat aagaya hai kah Gold (sona) dubarah khareedna sharo kiya jaye."
   },
   {
@@ -539,7 +539,7 @@
   }
  ],
  "sentiment": {
-  "value": 31,
+  "value": 30,
   "label": "Fear"
  },
  "err": null
