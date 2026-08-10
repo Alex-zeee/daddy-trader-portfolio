@@ -1,16 +1,13 @@
 {
- "updated": "10-08-2026 20:35 PKT",
+ "updated": "10-08-2026 21:28 PKT",
  "gold": {
-  "price": 4350.56,
+  "price": 4363.39,
   "open": 4342.26,
-  "high": 4361.48,
+  "high": 4364.72,
   "low": 4313.51,
-  "chg": 0.19,
+  "chg": 0.49,
   "src": "XAUUSD Spot",
   "spark": [
-   4327.24,
-   4332.05,
-   4334.41,
    4331.44,
    4337.38,
    4335.35,
@@ -55,14 +52,17 @@
    4344.78,
    4346.8,
    4349.58,
-   4350.56
+   4350.83,
+   4358.13,
+   4361.83,
+   4363.39
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.86,
-   "chg": 2.41,
+   "price": 65.445,
+   "chg": 3.34,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    64.86
+    65.445
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.71,
-   "chg": 0.11,
+   "price": 99.717,
+   "chg": 0.12,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.71
+    99.717
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.19,
-   "chg": 3.85,
+   "price": 80.98,
+   "chg": 3.58,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    81.19
+    80.98
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.155,
-   "chg": 0.22,
+   "price": 1.1555,
+   "chg": 0.27,
    "spark": [
     1.1433,
     1.1404,
@@ -201,7 +201,7 @@
     1.1532,
     1.1557,
     1.1525,
-    1.155
+    1.1555
    ]
   },
   {
@@ -235,7 +235,7 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.935,
+   "price": 158.93,
    "chg": 0.33,
    "spark": [
     162.363,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    158.935
+    158.93
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1875.27,
-   "chg": -1.77,
+   "price": 1874.12,
+   "chg": -1.83,
    "spark": [
-    1921.18,
     1922.44,
     1919.78,
     1918.98,
@@ -314,15 +313,15 @@
     1904.1,
     1895.68,
     1891.82,
-    1875.27
+    1875.59,
+    1874.12
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64257.8,
-   "chg": -0.93,
+   "price": 64063.7,
+   "chg": -1.23,
    "spark": [
-    65036.4,
     65072.3,
     64994.4,
     65032.0,
@@ -369,7 +368,8 @@
     64813.8,
     64510.4,
     64570.1,
-    64257.8
+    64231.7,
+    64063.7
    ]
   }
  ],
@@ -458,20 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786376115.63115,
-   "title": "Gold retreats from seven-week high amid Iran war uncertainty, looming CPI data",
+   "ts": 1786379325.164711,
+   "title": "Gold reverses losses to hit two-month high on weak U.S. jobs data, awaits CPI data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 08:35 PM",
-   "ur": "Eran jang ki ghair yaqeeni surtahal ke darmiyan Gold (sona) sat hafton ki baland tarin sath se patchhe hat raha hai, CPI ke aed w shmar mein azafah"
+   "t": "10 Aug \u00b7 09:28 PM",
+   "ur": "US malazmaton ke kamazor deta par Gold (sone) ne naqsanat ko do mah ki baland tarin sath par pohcha diya, CPI deta ka antezar hai"
   },
   {
-   "ts": 1786376115.63115,
+   "ts": 1786379325.164711,
    "title": "Morning Bid: Fed\u2019s Cook grilled again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-feds-cook-grilled-again-4848433",
-   "t": "10 Aug \u00b7 08:35 PM",
+   "t": "10 Aug \u00b7 09:28 PM",
    "ur": "Sabah ki boli: fed ka kak dubarah garl hawa."
+  },
+  {
+   "ts": 1786379151.0,
+   "title": "The Dow Jones Industrial Average kept what payrolls lost",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-kept-what-payrolls-lost-202608101625",
+   "t": "10 Aug \u00b7 09:25 PM",
+   "ur": "Dou joons andistril everage ne pay roles ki kami ko barqarar rakha"
+  },
+  {
+   "ts": 1786378593.0,
+   "title": "British Pound climbs as Hormuz talks stall, US CPI up next",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-hormuz-talks-stall-us-cpi-up-next-202608101616",
+   "t": "10 Aug \u00b7 09:16 PM",
+   "ur": "Bartanvi pound chadhte hi harmaz mazakarat rak gaye, US CPI agla"
+  },
+  {
+   "ts": 1786378413.0,
+   "title": "Emerging Markets: Selectivity key as Fed path clouds \u2013 HSBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/emerging-markets-selectivity-key-as-fed-path-clouds-hsbc-202608101613",
+   "t": "10 Aug \u00b7 09:13 PM",
+   "ur": "Abharti hoi marcates: fed path kalauds ke tur par salectuti kalid - HSBC"
+  },
+  {
+   "ts": 1786377240.0,
+   "title": "Denmark: Tax cuts keep inflation below the euro area \u2013 Nordea",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/denmark-tax-cuts-keep-inflation-below-the-euro-area-nordea-202608101554",
+   "t": "10 Aug \u00b7 08:54 PM",
+   "ur": "Danumark: tax mein kami inflation (mehngai) ko uro erya se niche rakti hai - naurdiya."
   },
   {
    "ts": 1786373847.0,
@@ -504,38 +536,6 @@
    "link": "https://www.fxstreet.com/news/federal-reserve-sideways-growth-and-sticky-inflation-td-securities-202608101438",
    "t": "10 Aug \u00b7 07:38 PM",
    "ur": "Faderl resero: cyd wez namo aur chpachapa inflation (mehngai) - TD securitez"
-  },
-  {
-   "ts": 1786371706.0,
-   "title": "Japanese Yen: Faces risk of return to 160 against US Dollar \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-faces-risk-of-return-to-160-against-us-dollar-ing-202608101421",
-   "t": "10 Aug \u00b7 07:21 PM",
-   "ur": "Japani yan: US Dollar - ING ke maqable mein 160 par wapsi ke khatre ka samana hai."
-  },
-  {
-   "ts": 1786370973.0,
-   "title": "US Dollar: Positioning-driven softness ahead of CPI \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-positioning-driven-softness-ahead-of-cpi-bny-202608101409",
-   "t": "10 Aug \u00b7 07:09 PM",
-   "ur": "US Dollar: pozitioning par mbani narmi CPI \u2013 BNY se aage"
-  },
-  {
-   "ts": 1786370317.0,
-   "title": "Euro: Softer CPI may unlock 1.1600 against US Dollar \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-softer-cpi-may-unlock-11600-against-us-dollar-ing-202608101358",
-   "t": "10 Aug \u00b7 06:58 PM",
-   "ur": "Uro: narm CPI US Dollar - ING ke maqable mein 1.1600 ko khol sakta hai."
-  },
-  {
-   "ts": 1786369086.0,
-   "title": "Gold: CTA selling limits upside below $4,400 - TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-cta-selling-limits-upside-below-4-400-td-securities-202608101338",
-   "t": "10 Aug \u00b7 06:38 PM",
-   "ur": "Gold (sona): CTA farokht ki hadin $4,400 se niche - TD securitez"
   }
  ],
  "sentiment": {
