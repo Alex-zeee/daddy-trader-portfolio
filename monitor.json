@@ -1,16 +1,13 @@
 {
- "updated": "11-08-2026 03:03 PKT",
+ "updated": "11-08-2026 03:53 PKT",
  "gold": {
-  "price": 4390.39,
-  "open": 4345.51,
-  "high": 4395.6,
+  "price": 4399.14,
+  "open": 4342.32,
+  "high": 4399.28,
   "low": 4313.51,
-  "chg": 1.03,
+  "chg": 1.31,
   "src": "XAUUSD Spot",
   "spark": [
-   4342.38,
-   4339.28,
-   4336.41,
    4330.99,
    4334.35,
    4336.82,
@@ -55,14 +52,17 @@
    4387.53,
    4388.91,
    4389.03,
-   4390.39
+   4391.85,
+   4392.48,
+   4396.03,
+   4399.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.88,
-   "chg": 4.02,
+   "price": 65.985,
+   "chg": 4.19,
    "spark": [
     59.809,
     57.634,
@@ -85,12 +85,12 @@
     62.099,
     61.439,
     63.332,
-    65.88
+    65.985
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.805,
+   "price": 99.807,
    "chg": 0.21,
    "spark": [
     100.97,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.805
+    99.807
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.3,
-   "chg": 5.27,
+   "price": 82.14,
+   "chg": 5.07,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    82.3
+    82.14
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3508,
-   "chg": 0.39,
+   "price": 1.3509,
+   "chg": 0.4,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3508
+    1.3509
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.278,
-   "chg": 0.55,
+   "price": 159.249,
+   "chg": 0.53,
    "spark": [
     162.363,
     161.878,
@@ -259,13 +259,13 @@
     157.692,
     157.6,
     158.409,
-    159.278
+    159.249
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1873.4,
-   "chg": -1.86,
+   "price": 1873.98,
+   "chg": -1.83,
    "spark": [
     1915.15,
     1916.45,
@@ -314,13 +314,13 @@
     1876.6,
     1878.03,
     1872.55,
-    1873.4
+    1873.98
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63962.2,
-   "chg": -1.38,
+   "price": 63942.4,
+   "chg": -1.41,
    "spark": [
     64901.1,
     64925.7,
@@ -369,7 +369,7 @@
     63975.7,
     64098.1,
     63932.1,
-    63962.2
+    63942.4
    ]
   }
  ],
@@ -458,20 +458,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786399405.499965,
+   "ts": 1786402424.099949,
    "title": "Gold prices extend big weekly advance, hit their highest levels in over two months",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "11 Aug \u00b7 03:03 AM",
+   "t": "11 Aug \u00b7 03:53 AM",
    "ur": "Gold (sone) ki qeemtin badi haftah war peshgi tosi karti hen, do mah se ziyadah ki baland tarin sath par pohch gayi hen."
   },
   {
-   "ts": 1786399405.499965,
+   "ts": 1786402424.099949,
    "title": "Gold hits multi-year high near $4,441 at Fib resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "11 Aug \u00b7 03:03 AM",
+   "t": "11 Aug \u00b7 03:53 AM",
    "ur": "Fib mazahmat par Gold (sona) kai sal ki baland tarin sath $4,441 ke qarib pohch gaya."
+  },
+  {
+   "ts": 1786400714.0,
+   "title": "Fed's Hammack calls for rate hikes, says policy not restrictive enough",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/fed-hammack-calls-for-rate-hikes-says-policy-not-restrictive-enough-202608102225",
+   "t": "11 Aug \u00b7 03:25 AM",
+   "ur": "Fed ke himek ne rate mein azafe ka matalbah kiya hai, kahate hen kah palisi kafi had tak muhadud nihen hai."
+  },
+  {
+   "ts": 1786400154.0,
+   "title": "US Treasury yields climb as Oil spike revives CPI jitters",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-treasury-yields-climb-as-oil-spike-revives-cpi-jitters-202608102215",
+   "t": "11 Aug \u00b7 03:15 AM",
+   "ur": "US treasurei ki pedawar mein azafah kiyon kah til ki badhti hoi wardaton ne CPI ke jhatake ko bahal kiya."
   },
   {
    "ts": 1786396430.0,
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/gold-edges-higher-as-hormuz-delays-us-cpi-keep-traders-cautious-202608101758",
    "t": "10 Aug \u00b7 10:58 PM",
    "ur": "Harmaz mein taakhair ki wajah se Gold (sone) ke kanare baland huvay, US CPI ne taajron ko muhatat rakha"
-  },
-  {
-   "ts": 1786380285.0,
-   "title": "The Canadian Dollar takes back two months in ten sessions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-canadian-dollar-takes-back-two-months-in-ten-sessions-202608101644",
-   "t": "10 Aug \u00b7 09:44 PM",
-   "ur": "Caniden Dollar das sitions mein do mah patchhe le jata hai."
-  },
-  {
-   "ts": 1786378593.0,
-   "title": "British Pound climbs as Hormuz talks stall, US CPI in focus",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-hormuz-talks-stall-us-cpi-up-next-202608101616",
-   "t": "10 Aug \u00b7 09:16 PM",
-   "ur": "Bartanvi pound chadhte hi harmaz mazakarat rak gaye, US CPI fox mein hai."
   }
  ],
  "sentiment": {
