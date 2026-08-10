@@ -1,16 +1,13 @@
 {
- "updated": "11-08-2026 00:12 PKT",
+ "updated": "11-08-2026 00:59 PKT",
  "gold": {
-  "price": 4381.45,
-  "open": 4342.64,
-  "high": 4383.71,
+  "price": 4388.54,
+  "open": 4342.27,
+  "high": 4395.6,
   "low": 4313.51,
-  "chg": 0.89,
+  "chg": 1.07,
   "src": "XAUUSD Spot",
   "spark": [
-   4354.08,
-   4358.56,
-   4356.04,
    4353.81,
    4355.6,
    4346.51,
@@ -55,14 +52,17 @@
    4366.87,
    4381.36,
    4378.99,
-   4381.45
+   4382.69,
+   4390.43,
+   4389.14,
+   4388.54
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.86,
-   "chg": 3.99,
+   "price": 66.185,
+   "chg": 4.5,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    65.86
+    66.185
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.82,
-   "chg": 0.22,
+   "price": 99.811,
+   "chg": 0.21,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.82
+    99.811
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.82,
-   "chg": 4.66,
+   "price": 82.07,
+   "chg": 4.98,
    "spark": [
     71.41,
     78.14,
@@ -143,13 +143,13 @@
     75.22,
     77.29,
     78.18,
-    81.82
+    82.07
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.7,
-   "chg": 0.86,
+   "price": 4.699,
+   "chg": 0.84,
    "spark": [
     4.569,
     4.609,
@@ -172,7 +172,7 @@
     4.617,
     4.67,
     4.66,
-    4.7
+    4.699
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.241,
-   "chg": 0.53,
+   "price": 159.3,
+   "chg": 0.56,
    "spark": [
     162.363,
     161.878,
@@ -259,13 +259,13 @@
     157.692,
     157.6,
     158.409,
-    159.241
+    159.3
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1873.2,
-   "chg": -1.87,
+   "price": 1876.22,
+   "chg": -1.72,
    "spark": [
     1918.76,
     1919.12,
@@ -314,13 +314,13 @@
     1870.16,
     1871.88,
     1870.91,
-    1873.2
+    1876.22
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63860.7,
-   "chg": -1.54,
+   "price": 63974.2,
+   "chg": -1.37,
    "spark": [
     65025.5,
     64963.3,
@@ -369,7 +369,7 @@
     63831.5,
     63879.7,
     63835.9,
-    63860.7
+    63974.2
    ]
   }
  ],
@@ -458,12 +458,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786389147.32542,
-   "title": "Gold reverses losses to hit two-month high on weak U.S. jobs data, awaits CPI data",
+   "ts": 1786391990.250221,
+   "title": "Gold hits multi-year high near $4,441 at Fib resistance: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "11 Aug \u00b7 12:12 AM",
-   "ur": "US malazmaton ke kamazor deta par Gold (sone) ne naqsanat ko do mah ki baland tarin sath par pohcha diya, CPI deta ka antezar hai"
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
+   "t": "11 Aug \u00b7 12:59 AM",
+   "ur": "Fib mazahmat par Gold (sona) kai sal ki baland tarin sath $4,441 ke qarib pohch gaya."
+  },
+  {
+   "ts": 1786391990.250221,
+   "title": "Silver hits $66 overbought on 5h chart: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
+   "t": "11 Aug \u00b7 12:59 AM",
+   "ur": "Silver (chandi) 5h chart par $66 over bat par pohch gayi."
+  },
+  {
+   "ts": 1786391990.250221,
+   "title": "Why is Silver Spot US Dollar stock surging today?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/why-is-silver-spot-us-dollar-stock-surging-today-93CH-4850046",
+   "t": "11 Aug \u00b7 12:59 AM",
+   "ur": "Aaj salor spat US Dollar ka stak kiyon badh raha hai?"
+  },
+  {
+   "ts": 1786391733.0,
+   "title": "Forex Today: US Dollar firms as Oil surges on Hormuz",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-as-oil-surges-on-hormuz-202608101955",
+   "t": "11 Aug \u00b7 12:55 AM",
+   "ur": "Farex today: harmaz par til mein azafe ke sath hi US Dollar ki farm"
   },
   {
    "ts": 1786387677.0,
@@ -498,14 +522,6 @@
    "ur": "Caniden Dollar das sitions mein do mah patchhe le jata hai."
   },
   {
-   "ts": 1786379151.0,
-   "title": "The Dow Jones Industrial Average kept what payrolls lost",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-kept-what-payrolls-lost-202608101625",
-   "t": "10 Aug \u00b7 09:25 PM",
-   "ur": "Dou joons andistril everage ne pay roles ki kami ko barqarar rakha"
-  },
-  {
    "ts": 1786378593.0,
    "title": "British Pound climbs as Hormuz talks stall, US CPI in focus",
    "src": "FXStreet",
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/emerging-markets-selectivity-key-as-fed-path-clouds-hsbc-202608101613",
    "t": "10 Aug \u00b7 09:13 PM",
    "ur": "Abharti hoi marcates: fed path kalauds ke tur par salectuti kalid - HSBC"
-  },
-  {
-   "ts": 1786377240.0,
-   "title": "Denmark: Tax cuts keep inflation below the euro area \u2013 Nordea",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/denmark-tax-cuts-keep-inflation-below-the-euro-area-nordea-202608101554",
-   "t": "10 Aug \u00b7 08:54 PM",
-   "ur": "Danumark: tax mein kami inflation (mehngai) ko uro erya se niche rakti hai - naurdiya."
-  },
-  {
-   "ts": 1786373847.0,
-   "title": "Australian Dollar stays flat ahead of RBA rate decision",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-stays-flat-ahead-of-rba-rate-decision-202608101457",
-   "t": "10 Aug \u00b7 07:57 PM",
-   "ur": "Aasterilvi Dollar RBA ki rate ke fisale se pehle filet rahta hai."
   }
  ],
  "sentiment": {
