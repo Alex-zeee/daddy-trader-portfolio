@@ -1,17 +1,13 @@
 {
- "updated": "10-08-2026 18:39 PKT",
+ "updated": "10-08-2026 19:41 PKT",
  "gold": {
-  "price": 4338.53,
+  "price": 4346.45,
   "open": 4342.26,
   "high": 4361.48,
   "low": 4313.51,
-  "chg": -0.09,
+  "chg": 0.1,
   "src": "XAUUSD Spot",
   "spark": [
-   4316.86,
-   4322.57,
-   4330.88,
-   4329.08,
    4322.38,
    4318.44,
    4326.57,
@@ -55,14 +51,18 @@
    4334.67,
    4335.55,
    4333.06,
-   4338.53
+   4333.51,
+   4318.98,
+   4329.24,
+   4346.16,
+   4346.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.13,
-   "chg": 1.26,
+   "price": 64.745,
+   "chg": 2.23,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    64.13
+    64.745
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.738,
-   "chg": 0.14,
+   "price": 99.711,
+   "chg": 0.11,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.738
+    99.711
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.62,
-   "chg": 1.84,
+   "price": 80.36,
+   "chg": 2.79,
    "spark": [
     71.41,
     78.14,
@@ -143,13 +143,13 @@
     75.22,
     77.29,
     78.18,
-    79.62
+    80.36
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.682,
-   "chg": 0.47,
+   "price": 4.686,
+   "chg": 0.56,
    "spark": [
     4.569,
     4.609,
@@ -172,13 +172,13 @@
     4.617,
     4.67,
     4.66,
-    4.682
+    4.686
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1553,
-   "chg": 0.24,
+   "price": 1.1557,
+   "chg": 0.28,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1553
+    1.1557
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3503,
-   "chg": 0.35,
+   "price": 1.352,
+   "chg": 0.48,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3503
+    1.352
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.957,
-   "chg": 0.35,
+   "price": 158.923,
+   "chg": 0.32,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    158.957
+    158.923
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1900.0,
-   "chg": -0.47,
+   "price": 1898.0,
+   "chg": -0.58,
    "spark": [
-    1922.2,
     1921.33,
     1921.18,
     1922.44,
@@ -314,15 +313,15 @@
     1916.03,
     1918.75,
     1904.1,
-    1900.0
+    1895.68,
+    1898.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64653.6,
-   "chg": -0.32,
+   "price": 64765.6,
+   "chg": -0.15,
    "spark": [
-    65081.5,
     65049.9,
     65036.4,
     65072.3,
@@ -369,7 +368,8 @@
     64972.6,
     65071.8,
     64813.8,
-    64653.6
+    64510.4,
+    64765.6
    ]
   }
  ],
@@ -458,20 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786369181.126545,
+   "ts": 1786372881.459599,
    "title": "Gold retreats from seven-week high amid Iran war uncertainty, looming CPI data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 06:39 PM",
+   "t": "10 Aug \u00b7 07:41 PM",
    "ur": "Eran jang ki ghair yaqeeni surtahal ke darmiyan Gold (sona) sat hafton ki baland tarin sath se patchhe hat raha hai, CPI ke aed w shmar mein azafah"
   },
   {
-   "ts": 1786369181.126545,
+   "ts": 1786372881.459599,
    "title": "Morning Bid: Fed\u2019s Cook grilled again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-feds-cook-grilled-again-4848433",
-   "t": "10 Aug \u00b7 06:39 PM",
+   "t": "10 Aug \u00b7 07:41 PM",
    "ur": "Sabah ki boli: fed ka kak dubarah garl hawa."
+  },
+  {
+   "ts": 1786372706.0,
+   "title": "Federal Reserve: Sideways growth and sticky inflation \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/federal-reserve-sideways-growth-and-sticky-inflation-td-securities-202608101438",
+   "t": "10 Aug \u00b7 07:38 PM",
+   "ur": "Faderl resero: cyd wez namo aur chpachapa inflation (mehngai) - TD securitez"
+  },
+  {
+   "ts": 1786371706.0,
+   "title": "Japanese Yen: Faces risk of return to 160 against US Dollar \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-faces-risk-of-return-to-160-against-us-dollar-ing-202608101421",
+   "t": "10 Aug \u00b7 07:21 PM",
+   "ur": "Japani yan: US Dollar - ING ke maqable mein 160 par wapsi ke khatre ka samana hai."
+  },
+  {
+   "ts": 1786370973.0,
+   "title": "US Dollar: Positioning-driven softness ahead of CPI \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-positioning-driven-softness-ahead-of-cpi-bny-202608101409",
+   "t": "10 Aug \u00b7 07:09 PM",
+   "ur": "US Dollar: pozitioning par mbani narmi CPI \u2013 BNY se aage"
+  },
+  {
+   "ts": 1786370317.0,
+   "title": "Euro: Softer CPI may unlock 1.1600 against US Dollar \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-softer-cpi-may-unlock-11600-against-us-dollar-ing-202608101358",
+   "t": "10 Aug \u00b7 06:58 PM",
+   "ur": "Uro: narm CPI US Dollar - ING ke maqable mein 1.1600 ko khol sakta hai."
   },
   {
    "ts": 1786369086.0,
@@ -504,38 +536,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-higher-hurdle-for-sustained-gains-mufg-202608101258",
    "t": "10 Aug \u00b7 05:58 PM",
    "ur": "US Dollar: pidar fawaid ke liye aala rakaut - MUFG"
-  },
-  {
-   "ts": 1786366183.0,
-   "title": "Euro: Modest upside bias against US Dollar as Fed repricing \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-modest-upside-bias-against-us-dollar-as-fed-repricing-rabobank-202608101249",
-   "t": "10 Aug \u00b7 05:49 PM",
-   "ur": "Uro: US Dollar ke khalaf mamoli alta taasab jisa kah fed ri pariceng - rabobank"
-  },
-  {
-   "ts": 1786365534.0,
-   "title": "Australian Dollar: RBA policy pause maintained \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-policy-pause-maintained-td-securities-202608101238",
-   "t": "10 Aug \u00b7 05:38 PM",
-   "ur": "Aasterilvi Dollar: RBA palisi moquf barqarar - TD securitez"
-  },
-  {
-   "ts": 1786364229.0,
-   "title": "Silver tests $65: Why are buyers struggling to extend the rally?",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-tests-65-why-are-buyers-struggling-to-extend-the-rally-202608101217",
-   "t": "10 Aug \u00b7 05:17 PM",
-   "ur": "Salor test $65: khareedar rili ko badhane ke liye kiyon jadojehad kar rahe hen?"
-  },
-  {
-   "ts": 1786363681.0,
-   "title": "Norwegian Krone: Rate hike odds slashed after soft inflation \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/norwegian-krone-rate-hike-odds-slashed-after-soft-inflation-bbh-202608101208",
-   "t": "10 Aug \u00b7 05:08 PM",
-   "ur": "Naarvagen karon: narm inflation (mehngai) ke bad rate mein azafe ke amkanat kam hogaye - BBH"
   }
  ],
  "sentiment": {
