@@ -1,22 +1,13 @@
 {
- "updated": "10-08-2026 05:43 PKT",
+ "updated": "10-08-2026 07:59 PKT",
  "gold": {
-  "price": 4336.16,
+  "price": 4320.97,
   "open": 4342.26,
   "high": 4355.99,
-  "low": 4332.6,
-  "chg": -0.14,
+  "low": 4313.51,
+  "chg": -0.49,
   "src": "XAUUSD Spot",
   "spark": [
-   4342.34,
-   4342.36,
-   4342.3,
-   4342.23,
-   4342.35,
-   4342.35,
-   4342.32,
-   4342.23,
-   4342.26,
    4342.35,
    4342.33,
    4342.24,
@@ -55,14 +46,23 @@
    4333.87,
    4345.58,
    4338.33,
-   4336.16
+   4334.98,
+   4332.15,
+   4324.74,
+   4322.12,
+   4316.79,
+   4316.86,
+   4322.57,
+   4330.88,
+   4329.08,
+   4320.97
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.82,
-   "chg": 0.77,
+   "price": 63.62,
+   "chg": 0.45,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    63.82
+    63.62
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.643,
-   "chg": 0.04,
+   "price": 99.696,
+   "chg": 0.1,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.643
+    99.696
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 78.91,
-   "chg": 0.93,
+   "price": 78.76,
+   "chg": 0.74,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    78.91
+    78.76
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1558,
-   "chg": 0.29,
+   "price": 1.1555,
+   "chg": 0.27,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1558
+    1.1555
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3489,
-   "chg": 0.25,
+   "price": 1.3487,
+   "chg": 0.23,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3489
+    1.3487
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.928,
-   "chg": -0.3,
+   "price": 158.242,
+   "chg": -0.11,
    "spark": [
     162.363,
     161.878,
@@ -259,16 +259,14 @@
     157.692,
     157.6,
     158.409,
-    157.928
+    158.242
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1904.05,
-   "chg": -0.26,
+   "price": 1921.92,
+   "chg": 0.68,
    "spark": [
-    1913.5,
-    1912.11,
     1917.33,
     1915.98,
     1915.5,
@@ -314,16 +312,16 @@
     1923.18,
     1918.03,
     1908.63,
-    1904.05
+    1911.0,
+    1923.24,
+    1921.92
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64780.5,
-   "chg": -0.12,
+   "price": 65046.1,
+   "chg": 0.29,
    "spark": [
-    64877.7,
-    64886.4,
     64980.1,
     64963.0,
     64959.6,
@@ -369,7 +367,9 @@
     65151.5,
     65025.0,
     64860.0,
-    64780.5
+    64914.5,
+    65141.0,
+    65046.1
    ]
   }
  ],
@@ -458,12 +458,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786322633.488474,
+   "ts": 1786330747.550739,
    "title": "Citadel Securities\u2019 Rubner says it\u2019s time to start buying gold again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citadels-rubner-says-its-time-to-start-buying-gold-again-4847142",
-   "t": "10 Aug \u00b7 05:43 AM",
+   "t": "10 Aug \u00b7 07:59 AM",
    "ur": "Citadel Securities' Rubner ka kahana hai kah ab waqat aagaya hai kah Gold (sona) dubarah khareedna sharo kiya jaye."
+  },
+  {
+   "ts": 1786328987.0,
+   "title": "Gold retreats from June 17 highest amid USD uptick; holds above $4,300 pivotal support",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-retreats-from-june-17-highest-amid-usd-uptick-holds-above-4-300-pivotal-support-202608100229",
+   "t": "10 Aug \u00b7 07:29 AM",
+   "ur": "USD mein azafe ke darmiyan 17 jon se Gold (sona) sab se ziyadah patchhe hat raha hai. $4,300 se ziyadah aham sport rakta hai."
+  },
+  {
+   "ts": 1786323312.0,
+   "title": "BoJ Summary of Opinions: Board split on pace of rate hikes amid inflation risk",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/boj-summary-of-opinions-board-split-on-pace-of-rate-hikes-amid-inflation-risk-202608100055",
+   "t": "10 Aug \u00b7 05:55 AM",
+   "ur": "BoJ raaye ka khalaasah: mahungai ke khatre ke darmiyan rate mein azafe ki raftar par burd taqsim"
   },
   {
    "ts": 1786137120.0,
@@ -520,22 +536,6 @@
    "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
    "t": "07 Aug \u00b7 11:09 PM",
    "ur": "Joli ki mayus kan malazmaton ki rport se tin aham nakat ya hen."
-  },
-  {
-   "ts": 1786125480.0,
-   "title": "South Korean Won: Intervention risks support KRW against US Dollar \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-intervention-risks-support-krw-against-us-dollar-dbs-202608071758",
-   "t": "07 Aug \u00b7 10:58 PM",
-   "ur": "South Korea ki Won: madakhalt ke khatrat US Dollar ke khalaf KRW ki support karte hen - DBS"
-  },
-  {
-   "ts": 1786124246.0,
-   "title": "Gold rallies as mediocre US NFP crushes Fed rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-as-mediocre-us-nfp-crushes-fed-rate-hike-bets-202608071737",
-   "t": "07 Aug \u00b7 10:37 PM",
-   "ur": "US NFP ne fed ki rate mein azafe ki sharton ko kachalne ke bad Gold (sone) ki riliyan"
   }
  ],
  "sentiment": {
