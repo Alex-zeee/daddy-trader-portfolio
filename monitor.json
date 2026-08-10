@@ -1,19 +1,13 @@
 {
- "updated": "10-08-2026 17:05 PKT",
+ "updated": "10-08-2026 18:39 PKT",
  "gold": {
-  "price": 4334.5,
+  "price": 4338.53,
   "open": 4342.26,
   "high": 4361.48,
   "low": 4313.51,
-  "chg": -0.18,
+  "chg": -0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   4338.33,
-   4334.98,
-   4332.15,
-   4324.74,
-   4322.12,
-   4316.79,
    4316.86,
    4322.57,
    4330.88,
@@ -55,14 +49,20 @@
    4334.35,
    4336.82,
    4335.93,
-   4334.5
+   4332.09,
+   4327.44,
+   4330.67,
+   4334.67,
+   4335.55,
+   4333.06,
+   4338.53
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.255,
-   "chg": 1.46,
+   "price": 64.13,
+   "chg": 1.26,
    "spark": [
     59.809,
     57.634,
@@ -85,12 +85,12 @@
     62.099,
     61.439,
     63.332,
-    64.255
+    64.13
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.736,
+   "price": 99.738,
    "chg": 0.14,
    "spark": [
     100.97,
@@ -114,7 +114,7 @@
     99.69,
     99.97,
     99.6,
-    99.736
+    99.738
    ]
   },
   {
@@ -148,10 +148,9 @@
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.66,
-   "chg": -0.21,
+   "price": 4.682,
+   "chg": 0.47,
    "spark": [
-    4.539,
     4.569,
     4.609,
     4.585,
@@ -172,13 +171,14 @@
     4.627,
     4.617,
     4.67,
-    4.66
+    4.66,
+    4.682
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1555,
-   "chg": 0.27,
+   "price": 1.1553,
+   "chg": 0.24,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1555
+    1.1553
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.35,
-   "chg": 0.33,
+   "price": 1.3503,
+   "chg": 0.35,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.35
+    1.3503
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.805,
-   "chg": 0.25,
+   "price": 158.957,
+   "chg": 0.35,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    158.805
+    158.957
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1921.47,
-   "chg": 0.65,
+   "price": 1900.0,
+   "chg": -0.47,
    "spark": [
-    1918.65,
     1922.2,
     1921.33,
     1921.18,
@@ -314,15 +313,15 @@
     1914.97,
     1916.03,
     1918.75,
-    1921.47
+    1904.1,
+    1900.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65136.3,
-   "chg": 0.43,
+   "price": 64653.6,
+   "chg": -0.32,
    "spark": [
-    64974.3,
     65081.5,
     65049.9,
     65036.4,
@@ -369,7 +368,8 @@
     64913.6,
     64972.6,
     65071.8,
-    65136.3
+    64813.8,
+    64653.6
    ]
   }
  ],
@@ -458,84 +458,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786363517.070984,
+   "ts": 1786369181.126545,
+   "title": "Gold retreats from seven-week high amid Iran war uncertainty, looming CPI data",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
+   "t": "10 Aug \u00b7 06:39 PM",
+   "ur": "Eran jang ki ghair yaqeeni surtahal ke darmiyan Gold (sona) sat hafton ki baland tarin sath se patchhe hat raha hai, CPI ke aed w shmar mein azafah"
+  },
+  {
+   "ts": 1786369181.126545,
    "title": "Morning Bid: Fed\u2019s Cook grilled again",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-feds-cook-grilled-again-4848433",
-   "t": "10 Aug \u00b7 05:05 PM",
+   "t": "10 Aug \u00b7 06:39 PM",
    "ur": "Sabah ki boli: fed ka kak dubarah garl hawa."
   },
   {
-   "ts": 1786363517.070984,
-   "title": "Gold holds near 7-wk high as traders weigh Iran uncertainty, Fed outlook",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 05:05 PM",
-   "ur": "Gold (sona) 7 haftah ki unchai ke qarib hai cunkah taajr eran ki ghair yaqeeni surtahal ko tol rahe hen, fed oat lak"
+   "ts": 1786369086.0,
+   "title": "Gold: CTA selling limits upside below $4,400 - TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-cta-selling-limits-upside-below-4-400-td-securities-202608101338",
+   "t": "10 Aug \u00b7 06:38 PM",
+   "ur": "Gold (sona): CTA farokht ki hadin $4,400 se niche - TD securitez"
   },
   {
-   "ts": 1786363403.0,
-   "title": "Canadian Dollar steadies, caught between risk aversion, rebounding Oil prices",
+   "ts": 1786368489.0,
+   "title": "Australian Dollar: Uptrend targets 0.7120 against US Dollar \u2013 Societe Generale",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-steadies-caught-between-risk-aversion-rebounding-oil-prices-202608101203",
-   "t": "10 Aug \u00b7 05:03 PM",
-   "ur": "Caniden Dollar mastahkam, khatre se bachane ke darmiyan phans gaya, til ki qeemton mein tizi"
+   "link": "https://www.fxstreet.com/news/australian-dollar-uptrend-targets-07120-against-us-dollar-societe-generale-202608101328",
+   "t": "10 Aug \u00b7 06:28 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein azafe ka target 0.7120 - socit janerl"
   },
   {
-   "ts": 1786363106.0,
-   "title": "US Dollar: Fed pricing shifts with softer data \u2013 Deutsche Bank",
+   "ts": 1786367986.0,
+   "title": "Japanese Yen: Rate spread outlook favors JPY against US Dollar \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fed-pricing-shifts-with-softer-data-deutsche-bank-202608101158",
-   "t": "10 Aug \u00b7 04:58 PM",
-   "ur": "US Dollar: fed ki qeemton ka tayin narm deta ke sath badil jata hai - deoche Bank"
+   "link": "https://www.fxstreet.com/news/japanese-yen-rate-spread-outlook-favors-jpy-against-us-dollar-bbh-202608101319",
+   "t": "10 Aug \u00b7 06:19 PM",
+   "ur": "Japani yan: rate spred oat lak US Dollar - BBH ke maqable mein JPY ke haq mein hai."
   },
   {
-   "ts": 1786362900.0,
-   "title": "Australian Dollar approaches two-month highs at 0.7088 with RBA decision on tap",
+   "ts": 1786366680.0,
+   "title": "US Dollar: Higher hurdle for sustained gains \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-approaches-two-month-highs-at-07088-with-rba-decision-on-tap-202608101155",
-   "t": "10 Aug \u00b7 04:55 PM",
-   "ur": "Aasterilvi Dollar nal par aar bi aye ke fisale ke sath 0.7088 par do mah ki baland tarin sath par pohch gaya"
+   "link": "https://www.fxstreet.com/news/us-dollar-higher-hurdle-for-sustained-gains-mufg-202608101258",
+   "t": "10 Aug \u00b7 05:58 PM",
+   "ur": "US Dollar: pidar fawaid ke liye aala rakaut - MUFG"
   },
   {
-   "ts": 1786362351.0,
-   "title": "Federal Reserve: September hike odds reassessed \u2013 Rabobank",
+   "ts": 1786366183.0,
+   "title": "Euro: Modest upside bias against US Dollar as Fed repricing \u2013 Rabobank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-september-hike-odds-reassessed-rabobank-202608101145",
-   "t": "10 Aug \u00b7 04:45 PM",
-   "ur": "Faderl resero: stambr mein azafe ke amkanat ka dubarah jaizah liya gaya - rabobank"
+   "link": "https://www.fxstreet.com/news/euro-modest-upside-bias-against-us-dollar-as-fed-repricing-rabobank-202608101249",
+   "t": "10 Aug \u00b7 05:49 PM",
+   "ur": "Uro: US Dollar ke khalaf mamoli alta taasab jisa kah fed ri pariceng - rabobank"
   },
   {
-   "ts": 1786361251.0,
-   "title": "Gold holds firm as Fed rate outlook, Middle East developments remain in focus",
+   "ts": 1786365534.0,
+   "title": "Australian Dollar: RBA policy pause maintained \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-holds-firm-as-fed-rate-outlook-middle-east-developments-remain-in-focus-202608101127",
-   "t": "10 Aug \u00b7 04:27 PM",
-   "ur": "Fed ret oat lak ke tur par Gold (sona) mazboot hai, masharq wasta ki pesharft tojah mein rahti hai."
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-policy-pause-maintained-td-securities-202608101238",
+   "t": "10 Aug \u00b7 05:38 PM",
+   "ur": "Aasterilvi Dollar: RBA palisi moquf barqarar - TD securitez"
   },
   {
-   "ts": 1786360995.0,
-   "title": "Gold: Central bank demand underpins rally \u2013 ING",
+   "ts": 1786364229.0,
+   "title": "Silver tests $65: Why are buyers struggling to extend the rally?",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-central-bank-demand-underpins-rally-ing-202608101123",
-   "t": "10 Aug \u00b7 04:23 PM",
-   "ur": "Gold: santrl Bank ki talab mein tizi se azafah - ING"
+   "link": "https://www.fxstreet.com/news/silver-tests-65-why-are-buyers-struggling-to-extend-the-rally-202608101217",
+   "t": "10 Aug \u00b7 05:17 PM",
+   "ur": "Salor test $65: khareedar rili ko badhane ke liye kiyon jadojehad kar rahe hen?"
   },
   {
-   "ts": 1786360340.0,
-   "title": "Gold Price Forecast: XAU/USD remains bullish, pushing against $4,380 resistance",
+   "ts": 1786363681.0,
+   "title": "Norwegian Krone: Rate hike odds slashed after soft inflation \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-remains-bullish-pushing-against-4-380-resistance-202608101112",
-   "t": "10 Aug \u00b7 04:12 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD mein tizi barqarar hai, $4,380 ke khalaf mazahmat ko aage badha raha hai"
-  },
-  {
-   "ts": 1786360060.0,
-   "title": "US Dollar: Softer labor data supports downside \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-softer-labor-data-supports-downside-bny-202608101107",
-   "t": "10 Aug \u00b7 04:07 PM",
-   "ur": "US Dollar: libr ka narm deta manfi pehlo ko sport karta hai \u2013 BNY"
+   "link": "https://www.fxstreet.com/news/norwegian-krone-rate-hike-odds-slashed-after-soft-inflation-bbh-202608101208",
+   "t": "10 Aug \u00b7 05:08 PM",
+   "ur": "Naarvagen karon: narm inflation (mehngai) ke bad rate mein azafe ke amkanat kam hogaye - BBH"
   }
  ],
  "sentiment": {
