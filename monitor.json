@@ -1,15 +1,13 @@
 {
- "updated": "11-08-2026 04:22 PKT",
+ "updated": "11-08-2026 04:56 PKT",
  "gold": {
-  "price": 4395.75,
-  "open": 4348.84,
+  "price": 4397.33,
+  "open": 4334.81,
   "high": 4401.87,
   "low": 4313.51,
-  "chg": 1.08,
+  "chg": 1.44,
   "src": "XAUUSD Spot",
   "spark": [
-   4336.82,
-   4335.93,
    4332.09,
    4327.44,
    4330.67,
@@ -55,14 +53,16 @@
    4396.03,
    4399.52,
    4397.27,
-   4395.75
+   4395.34,
+   4398.83,
+   4397.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.935,
-   "chg": 4.11,
+   "price": 65.95,
+   "chg": 4.13,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    65.935
+    65.95
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.807,
-   "chg": 0.21,
+   "price": 99.794,
+   "chg": 0.19,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.807
+    99.794
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.07,
-   "chg": 4.98,
+   "price": 82.12,
+   "chg": 5.04,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    82.07
+    82.12
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.241,
-   "chg": 0.86,
+   "price": 159.19,
+   "chg": 0.82,
    "spark": [
     161.878,
     162.429,
@@ -259,13 +259,13 @@
     157.6,
     158.409,
     157.891,
-    159.241
+    159.19
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1872.71,
-   "chg": -1.9,
+   "price": 1871.59,
+   "chg": -1.96,
    "spark": [
     1916.45,
     1914.38,
@@ -314,13 +314,13 @@
     1878.03,
     1872.55,
     1874.51,
-    1872.71
+    1871.59
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63920.0,
-   "chg": -1.45,
+   "price": 63908.0,
+   "chg": -1.47,
    "spark": [
     64925.7,
     64814.2,
@@ -369,7 +369,7 @@
     64098.1,
     63932.1,
     63956.2,
-    63920.0
+    63908.0
    ]
   }
  ],
@@ -458,20 +458,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786404173.47323,
+   "ts": 1786406175.063301,
    "title": "Gold prices extend big weekly advance, hit their highest levels in over two months",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "11 Aug \u00b7 04:22 AM",
+   "t": "11 Aug \u00b7 04:56 AM",
    "ur": "Gold (sone) ki qeemtin badi haftah war peshgi tosi karti hen, do mah se ziyadah ki baland tarin sath par pohch gayi hen."
   },
   {
-   "ts": 1786404173.47323,
+   "ts": 1786406175.063301,
    "title": "Gold hits multi-year high near $4,441 at Fib resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "11 Aug \u00b7 04:22 AM",
+   "t": "11 Aug \u00b7 04:56 AM",
    "ur": "Fib mazahmat par Gold (sona) kai sal ki baland tarin sath $4,441 ke qarib pohch gaya."
+  },
+  {
+   "ts": 1786404697.0,
+   "title": "The Australian Dollar rallies without an Australian reason",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-rallies-without-an-australian-reason-202608102331",
+   "t": "11 Aug \u00b7 04:31 AM",
+   "ur": "Aasterilvi Dollar baghair kasi wajah ke badh gaya."
+  },
+  {
+   "ts": 1786404633.0,
+   "title": "British Pound Sterling borrows its rally from American payrolls",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-sterling-borrows-its-rally-from-american-payrolls-202608102330",
+   "t": "11 Aug \u00b7 04:30 AM",
+   "ur": "Bartanvi pound sterling ne apani rili US pay roles se li hai."
   },
   {
    "ts": 1786400714.0,
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/united-states-weak-payrolls-and-softer-retail-sales-td-securities-202608101847",
    "t": "10 Aug \u00b7 11:47 PM",
    "ur": "Ryastahaye matehdah: kamazor pay roles aur narm khurdah farokht - TD securitez"
-  },
-  {
-   "ts": 1786386983.0,
-   "title": "Mexican Peso rally pauses ahead of US inflation report",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-rally-pauses-ahead-of-us-inflation-report-202608101836",
-   "t": "10 Aug \u00b7 11:36 PM",
-   "ur": "Mexican peso ki rili US inflation (mehngai) ki rport se pehle rak gayi."
-  },
-  {
-   "ts": 1786384704.0,
-   "title": "Gold edges higher as Hormuz delays, US CPI keep traders cautious",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-edges-higher-as-hormuz-delays-us-cpi-keep-traders-cautious-202608101758",
-   "t": "10 Aug \u00b7 10:58 PM",
-   "ur": "Harmaz mein taakhair ki wajah se Gold (sone) ke kanare baland huvay, US CPI ne taajron ko muhatat rakha"
   }
  ],
  "sentiment": {
