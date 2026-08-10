@@ -1,16 +1,13 @@
 {
- "updated": "11-08-2026 01:41 PKT",
+ "updated": "11-08-2026 02:24 PKT",
  "gold": {
-  "price": 4390.23,
-  "open": 4342.26,
+  "price": 4387.49,
+  "open": 4342.29,
   "high": 4395.6,
   "low": 4313.51,
-  "chg": 1.1,
+  "chg": 1.04,
   "src": "XAUUSD Spot",
   "spark": [
-   4347.27,
-   4349.36,
-   4346.16,
    4344.14,
    4341.88,
    4340.78,
@@ -55,14 +52,17 @@
    4389.71,
    4390.73,
    4391.13,
-   4390.23
+   4390.45,
+   4389.99,
+   4387.67,
+   4387.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.03,
-   "chg": 4.26,
+   "price": 65.88,
+   "chg": 4.02,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    66.03
+    65.88
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.822,
-   "chg": 0.22,
+   "price": 99.81,
+   "chg": 0.21,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.822
+    99.81
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.36,
-   "chg": 5.35,
+   "price": 82.3,
+   "chg": 5.27,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    82.36
+    82.3
    ]
   },
   {
@@ -176,9 +176,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1546,
+   "chg": 0.18,
+   "spark": [
+    1.1433,
+    1.1404,
+    1.1384,
+    1.1425,
+    1.147,
+    1.1445,
+    1.1428,
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1546
+   ]
+  },
+  {
    "name": "GBP/USD",
    "price": 1.3507,
-   "chg": 0.39,
+   "chg": 0.38,
    "spark": [
     1.3416,
     1.3387,
@@ -206,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.31,
-   "chg": 0.57,
+   "price": 159.225,
+   "chg": 0.52,
    "spark": [
     162.363,
     161.878,
@@ -230,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    159.31
+    159.225
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1878.16,
-   "chg": -1.61,
+   "price": 1873.43,
+   "chg": -1.86,
    "spark": [
-    1919.12,
     1915.41,
     1915.15,
     1916.45,
@@ -285,15 +313,15 @@
     1871.88,
     1870.91,
     1876.6,
-    1878.16
+    1878.03,
+    1873.43
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64080.9,
-   "chg": -1.2,
+   "price": 64056.2,
+   "chg": -1.24,
    "spark": [
-    64963.3,
     64893.6,
     64901.1,
     64925.7,
@@ -340,7 +368,8 @@
     63879.7,
     63835.9,
     63975.7,
-    64080.9
+    64098.1,
+    64056.2
    ]
   }
  ],
@@ -398,7 +427,7 @@
    "t": "Thu 13 Aug \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "202K",
+   "forecast": "203K",
    "previous": "199K"
   },
   {
@@ -422,27 +451,35 @@
    "t": "Fri 14 Aug \u00b7 07:00 PM",
    "title": "Prelim UoM Consumer Sentiment",
    "impact": "Medium",
-   "forecast": "54.4",
+   "forecast": "54.7",
    "previous": "54.4"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786394498.454934,
+   "ts": 1786397086.183233,
+   "title": "Gold prices extend big weekly advance, hit their highest levels in over two months",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
+   "t": "11 Aug \u00b7 02:24 AM",
+   "ur": "Gold (sone) ki qeemtin badi haftah war peshgi tosi karti hen, do mah se ziyadah ki baland tarin sath par pohch gayi hen."
+  },
+  {
+   "ts": 1786397086.183233,
    "title": "Gold hits multi-year high near $4,441 at Fib resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "11 Aug \u00b7 01:41 AM",
+   "t": "11 Aug \u00b7 02:24 AM",
    "ur": "Fib mazahmat par Gold (sona) kai sal ki baland tarin sath $4,441 ke qarib pohch gaya."
   },
   {
-   "ts": 1786394498.454934,
-   "title": "Silver hits $66 overbought on 5h chart: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "11 Aug \u00b7 01:41 AM",
-   "ur": "Silver (chandi) 5h chart par $66 over bat par pohch gayi."
+   "ts": 1786396430.0,
+   "title": "New Zealand Dollar slips as firm US Dollar and Oil keep the Kiwi pinned",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-slips-as-firm-us-dollar-and-oil-keep-the-kiwi-pinned-202608102113",
+   "t": "11 Aug \u00b7 02:13 AM",
+   "ur": "US Dollar aur til ki wajah se niyozi lind Dollar ki qeemat mein kami"
   },
   {
    "ts": 1786393418.0,
@@ -499,14 +536,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-climbs-as-hormuz-talks-stall-us-cpi-up-next-202608101616",
    "t": "10 Aug \u00b7 09:16 PM",
    "ur": "Bartanvi pound chadhte hi harmaz mazakarat rak gaye, US CPI fox mein hai."
-  },
-  {
-   "ts": 1786378413.0,
-   "title": "Emerging Markets: Selectivity key as Fed path clouds \u2013 HSBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/emerging-markets-selectivity-key-as-fed-path-clouds-hsbc-202608101613",
-   "t": "10 Aug \u00b7 09:13 PM",
-   "ur": "Abharti hoi marcates: fed path kalauds ke tur par salectuti kalid - HSBC"
   }
  ],
  "sentiment": {
