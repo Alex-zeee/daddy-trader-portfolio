@@ -1,18 +1,13 @@
 {
- "updated": "10-08-2026 15:06 PKT",
+ "updated": "10-08-2026 16:18 PKT",
  "gold": {
-  "price": 4339.78,
+  "price": 4330.21,
   "open": 4342.26,
   "high": 4361.48,
   "low": 4313.51,
-  "chg": -0.06,
+  "chg": -0.28,
   "src": "XAUUSD Spot",
   "spark": [
-   4343.28,
-   4341.23,
-   4342.46,
-   4346.91,
-   4349.46,
    4341.91,
    4333.87,
    4345.58,
@@ -55,14 +50,19 @@
    4346.16,
    4344.14,
    4341.88,
-   4339.78
+   4340.78,
+   4342.38,
+   4339.28,
+   4336.41,
+   4330.99,
+   4330.21
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.315,
-   "chg": 1.55,
+   "price": 64.1,
+   "chg": 1.21,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    64.315
+    64.1
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.681,
-   "chg": 0.08,
+   "price": 99.709,
+   "chg": 0.11,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.681
+    99.709
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.01,
-   "chg": 1.06,
+   "price": 79.35,
+   "chg": 1.5,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    79.01
+    79.35
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1558,
-   "chg": 0.29,
+   "price": 1.1555,
+   "chg": 0.27,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1558
+    1.1555
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3494,
-   "chg": 0.29,
+   "price": 1.35,
+   "chg": 0.33,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3494
+    1.35
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.835,
-   "chg": 0.27,
+   "price": 158.788,
+   "chg": 0.24,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    158.835
+    158.788
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.94,
-   "chg": 0.47,
+   "price": 1916.23,
+   "chg": 0.38,
    "spark": [
-    1919.65,
     1918.55,
     1918.65,
     1922.2,
@@ -314,15 +313,15 @@
     1923.7,
     1925.15,
     1914.97,
-    1917.94
+    1916.03,
+    1916.23
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65016.5,
-   "chg": 0.24,
+   "price": 64997.1,
+   "chg": 0.21,
    "spark": [
-    64919.1,
     64963.6,
     64974.3,
     65081.5,
@@ -369,7 +368,8 @@
     65153.7,
     65199.9,
     64913.6,
-    65016.5
+    64972.6,
+    64997.1
    ]
   }
  ],
@@ -458,28 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786356369.020508,
+   "ts": 1786360738.821967,
+   "title": "Morning Bid: Fed\u2019s Cook grilled again",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/morning-bid-feds-cook-grilled-again-4848433",
+   "t": "10 Aug \u00b7 04:18 PM",
+   "ur": "Sabah ki boli: fed ka kak dubarah garl hawa."
+  },
+  {
+   "ts": 1786360738.821967,
    "title": "Gold holds near 7-wk high as traders weigh Iran uncertainty, Fed outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 03:06 PM",
+   "t": "10 Aug \u00b7 04:18 PM",
    "ur": "Gold (sona) 7 haftah ki unchai ke qarib hai cunkah taajr eran ki ghair yaqeeni surtahal ko tol rahe hen, fed oat lak"
   },
   {
-   "ts": 1786356369.020508,
-   "title": "Silver stalls below $65.50 resistance after V-recovery: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "10 Aug \u00b7 03:06 PM",
-   "ur": "V-rikori ke bad salor rak gaya hai $65.50 mazahmat se niche"
+   "ts": 1786360340.0,
+   "title": "Gold Price Forecast: XAU/USD remains bullish, pushing against $4,380 resistance",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-remains-bullish-pushing-against-4-380-resistance-202608101112",
+   "t": "10 Aug \u00b7 04:12 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD mein tizi barqarar hai, $4,380 ke khalaf mazahmat ko aage badha raha hai"
   },
   {
-   "ts": 1786356369.020508,
-   "title": "Gold hits RSI 77 at $4,415 overbought peak: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "10 Aug \u00b7 03:06 PM",
-   "ur": "Gold (sona) RSI 77 ko $4,415 over bat choti par pohch gaya."
+   "ts": 1786360060.0,
+   "title": "US Dollar: Softer labor data supports downside \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-softer-labor-data-supports-downside-bny-202608101107",
+   "t": "10 Aug \u00b7 04:07 PM",
+   "ur": "US Dollar: libr ka narm deta manfi pehlo ko sport karta hai \u2013 BNY"
+  },
+  {
+   "ts": 1786359763.0,
+   "title": "Experts agree: The US Dollar rally migh have come to an end",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/experts-agree-the-us-dollar-rally-migh-have-come-to-an-end-202608101102",
+   "t": "10 Aug \u00b7 04:02 PM",
+   "ur": "Maharin mutafaq hen: US Dollar ki tizi khtam hogayi"
+  },
+  {
+   "ts": 1786357638.0,
+   "title": "British Pound tests 1.3500 as US Dollar struggles to shake off NFP shock",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-tests-13500-as-us-dollar-struggles-to-shake-off-nfp-shock-202608101027",
+   "t": "10 Aug \u00b7 03:27 PM",
+   "ur": "Bartanvi pound 1.3500 ki janch kar raha hai cunkah US Dollar NFP ke jhatake ko dur karne ke liye jadojehad kar raha hai."
   },
   {
    "ts": 1786355063.0,
@@ -512,30 +536,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-recovery-against-us-dollar-faces-tariff-risks-commerzbank-202608100922",
    "t": "10 Aug \u00b7 02:22 PM",
    "ur": "Caniden Dollar: US Dollar ke maqable mein rikori ko terf ke khatrat ka samana hai \u2013 kamrzabink"
-  },
-  {
-   "ts": 1786352799.0,
-   "title": "New Zealand Dollar stalls below 0.5900 as US Dollar regains safe-haven appeal",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-stalls-below-05900-as-us-dollar-regains-safe-haven-appeal-202608100906",
-   "t": "10 Aug \u00b7 02:06 PM",
-   "ur": "Niyozi lind Dollar rak gaya hai 0.5900 se niche jab US Dollar ne mahfooz panah gah ki apel dubarah haasil ki"
-  },
-  {
-   "ts": 1786352480.0,
-   "title": "Euro advances against Canadian Dollar as Eurozone Investor Confidence rises in August",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-advances-against-canadian-dollar-as-eurozone-investor-confidence-rises-in-august-202608100901",
-   "t": "10 Aug \u00b7 02:01 PM",
-   "ur": "Agist mein uro zon ke sarmaya karon ke etimad mein azafe ke sath uro caniden Dollar ke maqable mein tarqi karta hai."
-  },
-  {
-   "ts": 1786351052.0,
-   "title": "US Dollar: Softer labour data shifts Fed outlook \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-softer-labour-data-shifts-fed-outlook-societe-generale-202608100837",
-   "t": "10 Aug \u00b7 01:37 PM",
-   "ur": "US Dollar: narm libr deta fed oat lak ko tabadil karta hai - sociti janerl"
   }
  ],
  "sentiment": {
