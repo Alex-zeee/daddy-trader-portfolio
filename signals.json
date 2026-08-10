@@ -1,13 +1,13 @@
 {
- "updated": "10-08-2026 23:09 PKT",
+ "updated": "11-08-2026 00:12 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "BUY",
   "strength": 100,
-  "price": 4359.53,
-  "rsi": 63,
+  "price": 4378.99,
+  "rsi": 74,
   "tf": "M15"
  },
  "liq": {
@@ -28,7 +28,7 @@
    "entry": 4359.53,
    "sl": 4366.36,
    "tp": 4345.37,
-   "status": "Active",
+   "status": "SL Hit",
    "note": "Auto: liquidity sweep @ 4364.72 + engulf close-back \u2014 target next liquidity (min 1:2)"
   }
  ]

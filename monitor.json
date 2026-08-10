@@ -1,17 +1,13 @@
 {
- "updated": "10-08-2026 23:09 PKT",
+ "updated": "11-08-2026 00:12 PKT",
  "gold": {
-  "price": 4364.17,
-  "open": 4342.25,
-  "high": 4365.29,
+  "price": 4381.45,
+  "open": 4342.64,
+  "high": 4383.71,
   "low": 4313.51,
-  "chg": 0.5,
+  "chg": 0.89,
   "src": "XAUUSD Spot",
   "spark": [
-   4347.01,
-   4353.42,
-   4359.45,
-   4351.32,
    4354.08,
    4358.56,
    4356.04,
@@ -55,14 +51,18 @@
    4360.26,
    4360.87,
    4359.53,
-   4364.17
+   4363.49,
+   4366.87,
+   4381.36,
+   4378.99,
+   4381.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.295,
-   "chg": 3.1,
+   "price": 65.86,
+   "chg": 3.99,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    65.295
+    65.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.807,
-   "chg": 0.21,
+   "price": 99.82,
+   "chg": 0.22,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.807
+    99.82
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.93,
-   "chg": 4.8,
+   "price": 81.82,
+   "chg": 4.66,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    81.93
+    81.82
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1547,
-   "chg": 0.2,
+   "price": 1.1545,
+   "chg": 0.17,
    "spark": [
     1.1433,
     1.1404,
@@ -201,13 +201,13 @@
     1.1532,
     1.1557,
     1.1525,
-    1.1547
+    1.1545
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3507,
-   "chg": 0.38,
+   "price": 1.3508,
+   "chg": 0.39,
    "spark": [
     1.3416,
     1.3387,
@@ -230,13 +230,13 @@
     1.3451,
     1.347,
     1.3455,
-    1.3507
+    1.3508
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.127,
-   "chg": 0.45,
+   "price": 159.241,
+   "chg": 0.53,
    "spark": [
     162.363,
     161.878,
@@ -259,15 +259,14 @@
     157.692,
     157.6,
     158.409,
-    159.127
+    159.241
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1871.01,
-   "chg": -1.99,
+   "price": 1873.2,
+   "chg": -1.87,
    "spark": [
-    1918.98,
     1918.76,
     1919.12,
     1915.41,
@@ -314,15 +313,15 @@
     1875.59,
     1870.16,
     1871.88,
-    1871.01
+    1870.91,
+    1873.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63897.4,
-   "chg": -1.48,
+   "price": 63860.7,
+   "chg": -1.54,
    "spark": [
-    65032.0,
     65025.5,
     64963.3,
     64893.6,
@@ -369,7 +368,8 @@
     64231.7,
     63831.5,
     63879.7,
-    63897.4
+    63835.9,
+    63860.7
    ]
   }
  ],
@@ -458,12 +458,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786385359.669889,
+   "ts": 1786389147.32542,
    "title": "Gold reverses losses to hit two-month high on weak U.S. jobs data, awaits CPI data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "10 Aug \u00b7 11:09 PM",
+   "t": "11 Aug \u00b7 12:12 AM",
    "ur": "US malazmaton ke kamazor deta par Gold (sone) ne naqsanat ko do mah ki baland tarin sath par pohcha diya, CPI deta ka antezar hai"
+  },
+  {
+   "ts": 1786387677.0,
+   "title": "United States: Weak payrolls and softer retail sales \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-weak-payrolls-and-softer-retail-sales-td-securities-202608101847",
+   "t": "10 Aug \u00b7 11:47 PM",
+   "ur": "Ryastahaye matehdah: kamazor pay roles aur narm khurdah farokht - TD securitez"
+  },
+  {
+   "ts": 1786386983.0,
+   "title": "Mexican Peso rally pauses ahead of US inflation report",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-rally-pauses-ahead-of-us-inflation-report-202608101836",
+   "t": "10 Aug \u00b7 11:36 PM",
+   "ur": "Mexican peso ki rili US inflation (mehngai) ki rport se pehle rak gayi."
   },
   {
    "ts": 1786384704.0,
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-stays-flat-ahead-of-rba-rate-decision-202608101457",
    "t": "10 Aug \u00b7 07:57 PM",
    "ur": "Aasterilvi Dollar RBA ki rate ke fisale se pehle filet rahta hai."
-  },
-  {
-   "ts": 1786373480.0,
-   "title": "Euro holds ground against US Dollar amid Fed uncertainty ahead of US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-holds-ground-against-us-dollar-amid-fed-uncertainty-ahead-of-us-cpi-202608101451",
-   "t": "10 Aug \u00b7 07:51 PM",
-   "ur": "Uro US CPI se pehle fed ki ghair yaqeeni surtahal ke darmiyan US Dollar ke khalaf garound rakta hai."
-  },
-  {
-   "ts": 1786373023.0,
-   "title": "Australian Dollar jumps as Yen struggles with Japan\u2019s fiscal woes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-jumps-as-yen-struggles-with-japans-fiscal-woes-202608101443",
-   "t": "10 Aug \u00b7 07:43 PM",
-   "ur": "Yan japan ki mali pareshaniyon se nabrdazama hone par aasterilvi Dollar ki qeemat badh rahi hai."
   }
  ],
  "sentiment": {
