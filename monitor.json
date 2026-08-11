@@ -1,18 +1,13 @@
 {
- "updated": "11-08-2026 09:12 PKT",
+ "updated": "11-08-2026 10:21 PKT",
  "gold": {
-  "price": 4413.35,
-  "open": 4331.69,
+  "price": 4398.8,
+  "open": 4334.38,
   "high": 4434.79,
   "low": 4317.12,
-  "chg": 1.89,
+  "chg": 1.49,
   "src": "XAUUSD Spot",
   "spark": [
-   4363.37,
-   4351.94,
-   4355.92,
-   4357.76,
-   4360.26,
    4360.87,
    4359.53,
    4363.49,
@@ -55,14 +50,19 @@
    4419.05,
    4417.24,
    4417.82,
-   4413.35
+   4413.47,
+   4414.72,
+   4409.31,
+   4406.92,
+   4402.14,
+   4398.8
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.025,
-   "chg": 1.41,
+   "price": 65.635,
+   "chg": 0.81,
    "spark": [
     57.634,
     58.772,
@@ -85,13 +85,13 @@
     61.439,
     63.332,
     65.106,
-    66.025
+    65.635
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.788,
-   "chg": -0.02,
+   "price": 99.8,
+   "chg": -0.01,
    "spark": [
     101.28,
     100.94,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.788
+    99.8
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.05,
-   "chg": -0.1,
+   "price": 82.29,
+   "chg": 0.19,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    82.05
+    82.29
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1547,
-   "chg": -0.08,
+   "price": 1.1543,
+   "chg": -0.11,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1547
+    1.1543
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3512,
-   "chg": 0.16,
+   "price": 1.3509,
+   "chg": 0.14,
    "spark": [
     1.3387,
     1.3348,
@@ -230,12 +230,12 @@
     1.347,
     1.3455,
     1.3491,
-    1.3512
+    1.3509
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.198,
+   "price": 159.194,
    "chg": 0.83,
    "spark": [
     161.878,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.198
+    159.194
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.91,
-   "chg": 0.35,
+   "price": 1871.01,
+   "chg": -0.02,
    "spark": [
-    1912.43,
     1917.55,
     1917.43,
     1914.0,
@@ -314,15 +313,15 @@
     1876.1,
     1876.57,
     1878.88,
-    1877.91
+    1874.3,
+    1871.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64063.3,
-   "chg": 0.22,
+   "price": 63926.1,
+   "chg": 0.01,
    "spark": [
-    64743.9,
     64811.2,
     64787.1,
     64763.0,
@@ -369,7 +368,8 @@
     64008.0,
     63986.2,
     64071.3,
-    64063.3
+    63972.1,
+    63926.1
    ]
   }
  ],
@@ -458,20 +458,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786421557.84389,
-   "title": "Gold climbs to 10-week high as FOMO, China demand fuel bullish momentum",
+   "ts": 1786425667.259425,
+   "title": "Gold hits more than 2-month high as investors weigh Iran talks, U.S. inflation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "11 Aug \u00b7 09:12 AM",
-   "ur": "FOMO ke tur par Gold (sona) 10 hafte ki baland tarin sath par pohch gaya, chin mein andhan ki tizi ki raftar ka matalbah"
+   "t": "11 Aug \u00b7 10:21 AM",
+   "ur": "Gold (sona) 2 mah ki baland tarin sath par pohch gaya cunkah sarmaya karon ne eran ki bat chiyat aur US inflation (mehngai) ko tol diya"
   },
   {
-   "ts": 1786421557.84389,
+   "ts": 1786425667.259425,
+   "title": "Gulf shipping traffic via Strait of Hormuz falls to six vessels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gulf-shipping-traffic-via-strait-of-hormuz-falls-to-six-vessels-4850767",
+   "t": "11 Aug \u00b7 10:21 AM",
+   "ur": "Aabanaye harmaz ke raaste khaliji jahazon ki aamadurft chh jahazon par padti hai."
+  },
+  {
+   "ts": 1786425667.259425,
    "title": "Gold prices extend big weekly advance, hit their highest levels in over two months",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "11 Aug \u00b7 09:12 AM",
+   "t": "11 Aug \u00b7 10:21 AM",
    "ur": "Gold (sone) ki qeemtin badi haftah war peshgi tosi karti hen, do mah se ziyadah ki baland tarin sath par pohch gayi hen."
+  },
+  {
+   "ts": 1786425443.0,
+   "title": "Australian Dollar declines against New Zealand Dollar following RBA decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-declines-against-new-zealand-dollar-following-rba-decision-202608110517",
+   "t": "11 Aug \u00b7 10:17 AM",
+   "ur": "Aar bi aye ke fisale ke bad aasterilvi Dollar niyozi lind Dollar ke maqable mein gara hai."
+  },
+  {
+   "ts": 1786423731.0,
+   "title": "Australian Dollar dips after RBA's on-hold decision as traders eye post-meeting presser",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-dips-after-rbas-on-hold-decision-as-traders-eye-post-meeting-presser-202608110448",
+   "t": "11 Aug \u00b7 09:48 AM",
+   "ur": "Aar bi aye ke roke jane ke fisale ke bad aasterilvi Dollar ki qeemat mein kami ke bad taajron ki nazarin matong ke bad"
+  },
+  {
+   "ts": 1786423701.0,
+   "title": "Australian Dollar falls sharply against Yen after RBA\u2019s monetary policy decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-falls-sharply-against-yen-after-rbas-monetary-policy-decision-202608110448",
+   "t": "11 Aug \u00b7 09:48 AM",
+   "ur": "RBA ke manateri palisi ke fisale ke bad aasterilvi Dollar yan ke maqable mein tizi se gar raha hai."
+  },
+  {
+   "ts": 1786422910.0,
+   "title": "India Gold price today: Gold rises, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608110435",
+   "t": "11 Aug \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
   },
   {
    "ts": 1786419360.0,
@@ -496,46 +536,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-confined-in-a-range-vs-usd-amid-iran-risks-ahead-of-us-cpi-202608110302",
    "t": "11 Aug \u00b7 08:02 AM",
    "ur": "Niyozi lind Dollar US CPI se aage, eran ke khatrat ke darmiyan US Dollar ke maqable mein ek had tak muhadud rahta hai"
-  },
-  {
-   "ts": 1786414722.0,
-   "title": "Euro flat lines near mid-1.1500s vs USD as traders await US CPI amid Iran uncertainty",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-flat-lines-near-mid-11500s-vs-usd-as-traders-await-us-cpi-amid-iran-uncertainty-202608110218",
-   "t": "11 Aug \u00b7 07:18 AM",
-   "ur": "Uro filet linin wast 1.1500s bamaqablah USD ke qarib cunkah taajr eran ki ghair yaqeeni surtahal ke darmiyan US CPI ka antezar kar rahe hen"
-  },
-  {
-   "ts": 1786414579.0,
-   "title": "Australian Dollar holds ground ahead of RBA policy decision",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-ground-ahead-of-rba-policy-decision-202608110216",
-   "t": "11 Aug \u00b7 07:16 AM",
-   "ur": "Aasterilvi Dollar aar bi aye palisi ke fisale se pehle garound rakta hai."
-  },
-  {
-   "ts": 1786412414.0,
-   "title": "Breaking: Gold rallies further beyond $4,400; highest since early June",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/breaking-gold-rallies-further-beyond-4-400-highest-since-early-june-202608110140",
-   "t": "11 Aug \u00b7 06:40 AM",
-   "ur": "Baricang: Gold (sone) ki qeemat 4,400 Dollar se aage jon ke avile se sab se ziyadah"
-  },
-  {
-   "ts": 1786412268.0,
-   "title": "Silver Price Forecast: XAG/USD holds losses near $66.00 on Fed hike fears, oil surge",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-to-near-6600-on-fed-hike-fears-oil-surge-202608110137",
-   "t": "11 Aug \u00b7 06:37 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: fed mein azafe ke khadshat, til mein azafe par XAG/USD $66.00 ke qarib naqsanat rakta hai"
-  },
-  {
-   "ts": 1786411091.0,
-   "title": "United States Dollar Index consolidates below 100.00 as bulls await US CPI amid Iran risks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-consolidates-below-10000-as-bulls-await-us-cpi-amid-iran-risks-202608110118",
-   "t": "11 Aug \u00b7 06:18 AM",
-   "ur": "US Dollar andex 100.00 se niche mastahkam hawa cunkah bel eran ke khatrat ke darmiyan US CPI ka antezar kar rahe hen"
   }
  ],
  "sentiment": {
