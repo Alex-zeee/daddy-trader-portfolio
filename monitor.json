@@ -1,17 +1,13 @@
 {
- "updated": "11-08-2026 22:36 PKT",
+ "updated": "11-08-2026 23:31 PKT",
  "gold": {
-  "price": 4377.87,
-  "open": 4361.72,
+  "price": 4362.11,
+  "open": 4381.73,
   "high": 4434.79,
   "low": 4356.49,
-  "chg": 0.37,
+  "chg": -0.45,
   "src": "XAUUSD Spot",
   "spark": [
-   4374.15,
-   4376.78,
-   4366.28,
-   4365.68,
    4364.78,
    4363.77,
    4363.78,
@@ -55,14 +51,18 @@
    4384.12,
    4381.86,
    4379.53,
-   4377.87
+   4377.3,
+   4371.92,
+   4363.27,
+   4363.21,
+   4362.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.945,
-   "chg": -0.25,
+   "price": 64.655,
+   "chg": -0.69,
    "spark": [
     57.634,
     58.772,
@@ -85,13 +85,13 @@
     61.439,
     63.332,
     65.106,
-    64.945
+    64.655
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.864,
-   "chg": 0.05,
+   "price": 99.868,
+   "chg": 0.06,
    "spark": [
     101.28,
     100.94,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.864
+    99.868
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.31,
-   "chg": 1.44,
+   "price": 82.99,
+   "chg": 1.05,
    "spark": [
     78.14,
     79.34,
@@ -143,13 +143,13 @@
     77.29,
     78.18,
     82.13,
-    83.31
+    82.99
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.684,
-   "chg": -0.32,
+   "price": 4.688,
+   "chg": -0.23,
    "spark": [
     4.609,
     4.585,
@@ -172,13 +172,13 @@
     4.67,
     4.66,
     4.699,
-    4.684
+    4.688
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1538,
-   "chg": -0.16,
+   "price": 1.1541,
+   "chg": -0.14,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1538
+    1.1541
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3498,
-   "chg": 0.06,
+   "chg": 0.05,
    "spark": [
     1.3387,
     1.3348,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.339,
-   "chg": 0.92,
+   "price": 159.316,
+   "chg": 0.9,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.339
+    159.316
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1863.07,
-   "chg": -0.44,
+   "price": 1861.47,
+   "chg": -0.53,
    "spark": [
-    1919.88,
     1920.51,
     1919.4,
     1923.18,
@@ -314,15 +313,15 @@
     1871.76,
     1861.39,
     1863.09,
-    1863.07
+    1863.04,
+    1861.25
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63505.8,
-   "chg": -0.65,
+   "price": 63412.7,
+   "chg": -0.8,
    "spark": [
-    65139.3,
     65141.0,
     65086.8,
     65151.5,
@@ -369,7 +368,8 @@
     63708.5,
     63558.1,
     63447.0,
-    63505.8
+    63544.4,
+    63412.7
    ]
   }
  ],
@@ -458,12 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786469763.145358,
+   "ts": 1786473091.806126,
    "title": "Gold eases from two-month high as fresh oil price jump complicates rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "11 Aug \u00b7 10:36 PM",
+   "t": "11 Aug \u00b7 11:31 PM",
    "ur": "Gold (sona) do mah ki baland tarin sath se kam hota hai cunkah taazah til ki qeemton mein azafe ki rate ke naqatah nazar ko patcheedah banata hai."
+  },
+  {
+   "ts": 1786472915.0,
+   "title": "British Pound: Sterling recovery eyes 1.36 caps against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-sterling-recovery-eyes-136-caps-against-us-dollar-scotiabank-202608111828",
+   "t": "11 Aug \u00b7 11:28 PM",
+   "ur": "Bartanvi pound: sterling ki recovery US Dollar ke maqable mein 1.36 caps par nazar aati hai - Scotiabank"
+  },
+  {
+   "ts": 1786472298.0,
+   "title": "Forex Today: US Dollar on pause ahead of US CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-on-pause-ahead-of-us-cpi-202608111818",
+   "t": "11 Aug \u00b7 11:18 PM",
+   "ur": "Farex today: US CPI se pehle US Dollar toqf par hai."
+  },
+  {
+   "ts": 1786471593.0,
+   "title": "The US Dollar Index has no dovish tail to price",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-us-dollar-index-has-no-dovish-tail-to-price-202608111806",
+   "t": "11 Aug \u00b7 11:06 PM",
+   "ur": "US Dollar andex mein qeemat ke lahaz se koi ddhang nihen hai."
+  },
+  {
+   "ts": 1786470908.0,
+   "title": "Silver Price Forecast: XAG pullback puts $63.50 in focus",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-pullback-puts-6350-in-focus-202608111755",
+   "t": "11 Aug \u00b7 10:55 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG pl bek $63.50 ko fox mein rakta hai."
+  },
+  {
+   "ts": 1786470590.0,
+   "title": "Japanese Yen pares losses ahead of US inflation report",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-pares-losses-ahead-of-us-inflation-report-202608111749",
+   "t": "11 Aug \u00b7 10:49 PM",
+   "ur": "Japani yan US inflation (mehngai) ki rport se pehle naqsanat ko kam karta hai."
   },
   {
    "ts": 1786469314.0,
@@ -496,46 +536,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-under-pressure-as-middle-east-tensions-support-us-dollar-202608111541",
    "t": "11 Aug \u00b7 08:41 PM",
    "ur": "Niyozi lind Dollar dabao mein rahta hai cunkah masharq wasti mein kasheedgi US Dollar ko sahara diti hai."
-  },
-  {
-   "ts": 1786461908.0,
-   "title": "British Pound holds near 1.3500 as US CPI, UK GDP loom",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-holds-near-13500-as-us-cpi-uk-gdp-loom-202608111525",
-   "t": "11 Aug \u00b7 08:25 PM",
-   "ur": "US CPI, uk ji di pi kam hone par bartanvi pound 1.3500 ke qarib hai."
-  },
-  {
-   "ts": 1786461070.0,
-   "title": "Japanese Yen: Intervention risks and Fed path \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-risks-and-fed-path-rabobank-202608111511",
-   "t": "11 Aug \u00b7 08:11 PM",
-   "ur": "Japani yan: madakhalt ke khatrat aur fed path \u2013 rabobank"
-  },
-  {
-   "ts": 1786461044.0,
-   "title": "Canadian Dollar holds firm against US Dollar ahead of US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-firm-against-us-dollar-ahead-of-us-cpi-202608111510",
-   "t": "11 Aug \u00b7 08:10 PM",
-   "ur": "Caniden Dollar US CPI se aage US Dollar ke maqable mein mazboot hai."
-  },
-  {
-   "ts": 1786460725.0,
-   "title": "Australian Dollar: RBA policy path caps upside against US Dollar \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-policy-path-caps-upside-against-us-dollar-societe-generale-202608111505",
-   "t": "11 Aug \u00b7 08:05 PM",
-   "ur": "Aasterilvi Dollar: RBA palisi ka raastah US Dollar ke maqable mein alta hai - Societe Generale"
-  },
-  {
-   "ts": 1786459737.0,
-   "title": "Canadian Dollar: Bullish momentum builds against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-momentum-builds-against-us-dollar-scotiabank-202608111448",
-   "t": "11 Aug \u00b7 07:48 PM",
-   "ur": "Caniden Dollar: US Dollar - Scotiabank ke maqable mein tizi ki raftar badh rahi hai."
   }
  ],
  "sentiment": {
