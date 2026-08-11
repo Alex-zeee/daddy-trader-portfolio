@@ -1,16 +1,13 @@
 {
- "updated": "12-08-2026 02:10 PKT",
+ "updated": "12-08-2026 03:00 PKT",
  "gold": {
-  "price": 4368.45,
-  "open": 4387.57,
+  "price": 4368.58,
+  "open": 4388.97,
   "high": 4434.79,
   "low": 4356.49,
-  "chg": -0.44,
+  "chg": -0.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.68,
-   4371.95,
-   4372.83,
    4373.3,
    4380.6,
    4377.57,
@@ -55,7 +52,10 @@
    4370.15,
    4367.84,
    4367.72,
-   4368.45
+   4368.56,
+   4368.57,
+   4368.2,
+   4368.58
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 99.817,
-   "chg": 0.01,
+   "price": 99.827,
+   "chg": 0.02,
    "spark": [
     101.28,
     100.94,
@@ -114,7 +114,7 @@
     99.97,
     99.6,
     99.81,
-    99.817
+    99.827
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3504,
-   "chg": 0.1,
+   "price": 1.3507,
+   "chg": 0.12,
    "spark": [
     1.3387,
     1.3348,
@@ -230,15 +230,14 @@
     1.347,
     1.3455,
     1.3491,
-    1.3504
+    1.3507
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.235,
-   "chg": 0.85,
+   "price": 159.276,
+   "chg": 0.08,
    "spark": [
-    161.878,
     162.429,
     162.187,
     162.072,
@@ -259,15 +258,15 @@
     157.6,
     158.409,
     157.891,
-    159.235
+    159.156,
+    159.276
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1880.44,
-   "chg": 0.49,
+   "price": 1883.38,
+   "chg": 0.65,
    "spark": [
-    1918.03,
     1908.63,
     1911.0,
     1923.24,
@@ -314,15 +313,15 @@
     1863.99,
     1880.11,
     1880.49,
-    1880.44
+    1883.3,
+    1883.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63678.8,
-   "chg": -0.38,
+   "price": 63622.1,
+   "chg": -0.47,
    "spark": [
-    65025.0,
     64860.0,
     64914.5,
     65141.0,
@@ -369,7 +368,8 @@
     63304.1,
     63478.4,
     63682.9,
-    63678.8
+    63623.7,
+    63622.1
    ]
   }
  ],
@@ -427,7 +427,7 @@
    "t": "Thu 13 Aug \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "203K",
+   "forecast": "202K",
    "previous": "199K"
   },
   {
@@ -458,12 +458,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786482606.513754,
+   "ts": 1786485616.241881,
    "title": "Gold pulls back from over two-month high amid rising oil, caution ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "12 Aug \u00b7 02:10 AM",
+   "t": "12 Aug \u00b7 03:00 AM",
    "ur": "Badhti hoi til ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya, CPI se pehle ahtyat"
+  },
+  {
+   "ts": 1786484460.0,
+   "title": "Indonesian Rupiah: BI succession supports IDR against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-bi-succession-supports-idr-against-us-dollar-ocbc-202608112141",
+   "t": "12 Aug \u00b7 02:41 AM",
+   "ur": "Andonishin ropiya: BI janshini US Dollar - OCBC ke khalaf IDR ki support karta hai."
+  },
+  {
+   "ts": 1786483186.0,
+   "title": "Mexican Peso hits 25-month high as US CPI lurks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-hits-25-month-high-as-peso-eyes-1700-as-us-cpi-lurks-202608112119",
+   "t": "12 Aug \u00b7 02:19 AM",
+   "ur": "Mexican peso 25 mah ki baland tarin sath par pohch gaya cunkah US CPI chhap gaya."
   },
   {
    "ts": 1786480080.0,
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-on-pause-ahead-of-us-cpi-202608111818",
    "t": "11 Aug \u00b7 11:18 PM",
    "ur": "Farex today: US CPI se pehle US Dollar toqf par hai."
-  },
-  {
-   "ts": 1786471593.0,
-   "title": "The US Dollar Index has no dovish tail to price",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-us-dollar-index-has-no-dovish-tail-to-price-202608111806",
-   "t": "11 Aug \u00b7 11:06 PM",
-   "ur": "US Dollar andex mein qeemat ke lahaz se koi ddhang nihen hai."
-  },
-  {
-   "ts": 1786470908.0,
-   "title": "Silver Price Forecast: XAG pullback puts $63.50 in focus",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-pullback-puts-6350-in-focus-202608111755",
-   "t": "11 Aug \u00b7 10:55 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG pl bek $63.50 ko fox mein rakta hai."
   }
  ],
  "sentiment": {
