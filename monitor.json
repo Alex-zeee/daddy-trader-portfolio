@@ -1,17 +1,13 @@
 {
- "updated": "11-08-2026 15:30 PKT",
+ "updated": "11-08-2026 16:26 PKT",
  "gold": {
-  "price": 4380.6,
-  "open": 4342.76,
+  "price": 4386.7,
+  "open": 4334.39,
   "high": 4434.79,
   "low": 4317.12,
-  "chg": 0.87,
+  "chg": 1.21,
   "src": "XAUUSD Spot",
   "spark": [
-   4396.03,
-   4399.52,
-   4397.27,
-   4395.34,
    4398.83,
    4402.08,
    4404.89,
@@ -55,14 +51,18 @@
    4371.95,
    4372.83,
    4373.3,
-   4380.6
+   4380.6,
+   4377.57,
+   4379.14,
+   4392.47,
+   4386.7
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.11,
-   "chg": 0.01,
+   "price": 65.44,
+   "chg": 0.51,
    "spark": [
     57.634,
     58.772,
@@ -85,13 +85,13 @@
     61.439,
     63.332,
     65.106,
-    65.11
+    65.44
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.872,
-   "chg": 0.06,
+   "price": 99.813,
+   "chg": 0.0,
    "spark": [
     101.28,
     100.94,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.872
+    99.813
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.12,
-   "chg": 2.42,
+   "price": 81.81,
+   "chg": -0.39,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    84.12
+    81.81
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1539,
-   "chg": -0.15,
+   "price": 1.1542,
+   "chg": -0.12,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1539
+    1.1542
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3501,
-   "chg": 0.08,
+   "price": 1.35,
+   "chg": 0.07,
    "spark": [
     1.3387,
     1.3348,
@@ -230,13 +230,13 @@
     1.347,
     1.3455,
     1.3491,
-    1.3501
+    1.35
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.255,
-   "chg": 0.86,
+   "price": 159.162,
+   "chg": 0.8,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.255
+    159.162
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1885.93,
-   "chg": 0.78,
+   "price": 1890.29,
+   "chg": 1.01,
    "spark": [
-    1917.71,
     1916.14,
     1921.95,
     1924.0,
@@ -314,15 +313,15 @@
     1875.61,
     1877.39,
     1882.84,
-    1885.93
+    1884.56,
+    1890.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64240.7,
-   "chg": 0.5,
+   "price": 64279.2,
+   "chg": 0.56,
    "spark": [
-    64900.0,
     64899.9,
     65175.1,
     65198.1,
@@ -369,7 +368,8 @@
     64003.4,
     64072.9,
     64243.0,
-    64240.7
+    64167.7,
+    64279.2
    ]
   }
  ],
@@ -458,12 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786444235.000619,
+   "ts": 1786447587.435036,
    "title": "Silver surges 6% above 200MA but stalls at $66.67: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "11 Aug \u00b7 03:30 PM",
+   "t": "11 Aug \u00b7 04:26 PM",
    "ur": "Silver (chandi) 200MA se oper 6% badh gayi lican rak gaya hai $66.67 par"
+  },
+  {
+   "ts": 1786447542.0,
+   "title": "Gold pauses near two-month highs as US-Iran standoff drives Oil prices higher",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-pauses-near-two-month-highs-as-us-iran-standoff-drives-oil-prices-higher-202608111125",
+   "t": "11 Aug \u00b7 04:25 PM",
+   "ur": "Amrikah eran taatal ke baas til ki qeemton mein azafe ke baas Gold (sona) do mah ki baland tarin sath par rak gaya."
+  },
+  {
+   "ts": 1786447122.0,
+   "title": "Japanese Yen: Wider range with intervention support against US Dollar \u2013 HSBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-wider-range-with-intervention-support-against-us-dollar-hsbc-202608111118",
+   "t": "11 Aug \u00b7 04:18 PM",
+   "ur": "Japani yan: US Dollar ke khalaf madakhalt ki support ke sath wasi rinj - HSBC"
+  },
+  {
+   "ts": 1786446408.0,
+   "title": "US Dollar Index Price Forecast: A break above 100.00 would confirm a double bottom",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-a-break-above-10000-would-confirm-a-double-bottom-202608111106",
+   "t": "11 Aug \u00b7 04:06 PM",
+   "ur": "US Dollar andex qeemat ki forecast: 100.00 se oper ka waqafah dabl niche ki tasadiq kare ga."
+  },
+  {
+   "ts": 1786445637.0,
+   "title": "Euro treads water against US Dollar as traders await US CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-treads-water-against-us-dollar-as-traders-await-us-cpi-202608111053",
+   "t": "11 Aug \u00b7 03:53 PM",
+   "ur": "Uro US Dollar ke khalaf pani ko rondata hai cunkah taajr US CPI ke mantezar hen."
+  },
+  {
+   "ts": 1786445392.0,
+   "title": "Gold Price Forecast: Rally hits pause near $4,440 with US CPI in focus",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-rally-hits-pause-near-4-440-with-us-cpi-in-focus-202608111049",
+   "t": "11 Aug \u00b7 03:49 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: rili $4,440 ke qarib waqafe waqafe se US CPI ko fox karti hai."
   },
   {
    "ts": 1786442259.0,
@@ -496,46 +536,6 @@
    "link": "https://www.fxstreet.com/news/federal-reserve-dovish-repricing-on-data-and-inflation-focus-bny-202608110936",
    "t": "11 Aug \u00b7 02:36 PM",
    "ur": "Faderl resero: deta aur inflation (mehngai) ki tojah par dwesh ri pariceng - BNY"
-  },
-  {
-   "ts": 1786440665.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608110931",
-   "t": "11 Aug \u00b7 02:31 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
-  },
-  {
-   "ts": 1786440201.0,
-   "title": "Brent: Inflation risks rise with Hormuz standoff \u2013 Deutsche Bank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/brent-inflation-risks-rise-with-hormuz-standoff-deutsche-bank-202608110923",
-   "t": "11 Aug \u00b7 02:23 PM",
-   "ur": "Barint: harmaz taatal ke sath inflation (mehngai) ke khatrat badh gaye - deoche Bank"
-  },
-  {
-   "ts": 1786439142.0,
-   "title": "US Dollar: Volatility sinks as carry trades hold \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-volatility-sinks-as-carry-trades-hold-ing-202608110905",
-   "t": "11 Aug \u00b7 02:05 PM",
-   "ur": "US Dollar: atar chadhao dob jata hai jise hi kiri treds hold - ING"
-  },
-  {
-   "ts": 1786438458.0,
-   "title": "Euro falls against Canadian Dollar as US-Iran tensions heighten oil supply concerns",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-falls-against-canadian-dollar-as-us-iran-tensions-heighten-oil-supply-concerns-202608110854",
-   "t": "11 Aug \u00b7 01:54 PM",
-   "ur": "Uro caniden Dollar ke maqable mein gara hai cunkah amrikah eran kasheedgi til ki farahami ke khadshat ko badha rahi hai."
-  },
-  {
-   "ts": 1786437859.0,
-   "title": "Japanese Yen: Yield outlook fails to lift Yen \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-yield-outlook-fails-to-lift-yen-societe-generale-202608110844",
-   "t": "11 Aug \u00b7 01:44 PM",
-   "ur": "Japani yan: pedawar ka naqatah nazar yan ko athane mein naakam rahta hai - sociti janerl"
   }
  ],
  "sentiment": {
