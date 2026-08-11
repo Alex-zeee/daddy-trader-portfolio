@@ -1,17 +1,13 @@
 {
- "updated": "11-08-2026 19:40 PKT",
+ "updated": "11-08-2026 20:34 PKT",
  "gold": {
-  "price": 4392.29,
-  "open": 4349.26,
+  "price": 4384.39,
+  "open": 4350.76,
   "high": 4434.79,
-  "low": 4342.73,
-  "chg": 0.99,
+  "low": 4350.1,
+  "chg": 0.77,
   "src": "XAUUSD Spot",
   "spark": [
-   4411.97,
-   4413.64,
-   4419.05,
-   4417.24,
    4417.82,
    4413.47,
    4414.72,
@@ -55,14 +51,18 @@
    4389.87,
    4386.5,
    4386.87,
-   4392.29
+   4394.9,
+   4393.38,
+   4395.47,
+   4386.98,
+   4384.39
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.075,
-   "chg": -0.05,
+   "price": 65.025,
+   "chg": -0.12,
    "spark": [
     57.634,
     58.772,
@@ -85,12 +85,12 @@
     61.439,
     63.332,
     65.106,
-    65.075
+    65.025
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.832,
+   "price": 99.831,
    "chg": 0.02,
    "spark": [
     101.28,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.832
+    99.831
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.2,
-   "chg": 0.09,
+   "price": 82.56,
+   "chg": 0.52,
    "spark": [
     78.14,
     79.34,
@@ -143,13 +143,13 @@
     77.29,
     78.18,
     82.13,
-    82.2
+    82.56
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.684,
-   "chg": -0.32,
+   "price": 4.686,
+   "chg": -0.28,
    "spark": [
     4.609,
     4.585,
@@ -172,13 +172,13 @@
     4.67,
     4.66,
     4.699,
-    4.684
+    4.686
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1543,
-   "chg": -0.11,
+   "price": 1.1542,
+   "chg": -0.12,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1543
+    1.1542
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3507,
-   "chg": 0.12,
+   "price": 1.351,
+   "chg": 0.14,
    "spark": [
     1.3387,
     1.3348,
@@ -230,13 +230,13 @@
     1.347,
     1.3455,
     1.3491,
-    1.3507
+    1.351
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.227,
-   "chg": 0.85,
+   "price": 159.294,
+   "chg": 0.89,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.227
+    159.294
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.4,
-   "chg": 0.17,
+   "price": 1871.96,
+   "chg": 0.03,
    "spark": [
-    1925.39,
     1922.63,
     1921.55,
     1919.88,
@@ -314,15 +313,15 @@
     1891.57,
     1886.31,
     1888.36,
-    1874.4
+    1871.76,
+    1871.96
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63885.4,
-   "chg": -0.06,
+   "price": 63703.4,
+   "chg": -0.34,
    "spark": [
-    65177.1,
     65193.5,
     65165.1,
     65139.3,
@@ -369,7 +368,8 @@
     64339.5,
     64269.3,
     64144.7,
-    63885.3
+    63708.5,
+    63703.4
    ]
   }
  ],
@@ -458,20 +458,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786459250.947527,
+   "ts": 1786462472.428573,
    "title": "Gold eases from two-month high as fresh oil price jump complicates rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "11 Aug \u00b7 07:40 PM",
+   "t": "11 Aug \u00b7 08:34 PM",
    "ur": "Gold (sona) do mah ki baland tarin sath se kam hota hai cunkah taazah til ki qeemton mein azafe ki rate ke naqatah nazar ko patcheedah banata hai."
   },
   {
-   "ts": 1786459250.947527,
+   "ts": 1786462472.428573,
    "title": "Silver surges 6% above 200MA but stalls at $66.67: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "11 Aug \u00b7 07:40 PM",
+   "t": "11 Aug \u00b7 08:34 PM",
    "ur": "Silver (chandi) 200MA se oper 6% badh gayi lican rak gaya hai $66.67 par"
+  },
+  {
+   "ts": 1786461908.0,
+   "title": "British Pound holds near 1.3500 as US CPI, UK GDP loom",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-holds-near-13500-as-us-cpi-uk-gdp-loom-202608111525",
+   "t": "11 Aug \u00b7 08:25 PM",
+   "ur": "US CPI, uk ji di pi kam hone par bartanvi pound 1.3500 ke qarib hai."
+  },
+  {
+   "ts": 1786461070.0,
+   "title": "Japanese Yen: Intervention risks and Fed path \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-risks-and-fed-path-rabobank-202608111511",
+   "t": "11 Aug \u00b7 08:11 PM",
+   "ur": "Japani yan: madakhalt ke khatrat aur fed path \u2013 rabobank"
+  },
+  {
+   "ts": 1786461044.0,
+   "title": "Canadian Dollar holds firm against US Dollar ahead of US CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-firm-against-us-dollar-ahead-of-us-cpi-202608111510",
+   "t": "11 Aug \u00b7 08:10 PM",
+   "ur": "Caniden Dollar US CPI se aage US Dollar ke maqable mein mazboot hai."
+  },
+  {
+   "ts": 1786460725.0,
+   "title": "Australian Dollar: RBA policy path caps upside against US Dollar \u2013 Societe Generale",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-policy-path-caps-upside-against-us-dollar-societe-generale-202608111505",
+   "t": "11 Aug \u00b7 08:05 PM",
+   "ur": "Aasterilvi Dollar: RBA palisi ka raastah US Dollar ke maqable mein alta hai - Societe Generale"
+  },
+  {
+   "ts": 1786459737.0,
+   "title": "Canadian Dollar: Bullish momentum builds against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-momentum-builds-against-us-dollar-scotiabank-202608111448",
+   "t": "11 Aug \u00b7 07:48 PM",
+   "ur": "Caniden Dollar: US Dollar - Scotiabank ke maqable mein tizi ki raftar badh rahi hai."
   },
   {
    "ts": 1786458457.0,
@@ -496,46 +536,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-rba-holds-hawkish-bias-with-steady-rates-ing-202608111354",
    "t": "11 Aug \u00b7 06:54 PM",
    "ur": "Aasterilvi Dollar: aar bi aye mastahkam sharahon - ING ke sath matasabana taasab rakta hai."
-  },
-  {
-   "ts": 1786455648.0,
-   "title": "Gold: ETF inflows and sceptical outlook \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-etf-inflows-and-sceptical-outlook-commerzbank-202608111340",
-   "t": "11 Aug \u00b7 06:40 PM",
-   "ur": "Gold: ai ti eff ki aamad aur shki naqatah nazar - kamers Bank"
-  },
-  {
-   "ts": 1786455010.0,
-   "title": "Japan: BoJ inflation focus and rate risks \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japan-boj-inflation-focus-and-rate-risks-rabobank-202608111330",
-   "t": "11 Aug \u00b7 06:30 PM",
-   "ur": "Japan: BoJ inflation (mehngai) ki tojah aur rate ke khatrat - Rabobank"
-  },
-  {
-   "ts": 1786453453.0,
-   "title": "Euro: Rangebound against US Dollar as volatility sinks \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-rangebound-against-us-dollar-as-volatility-sinks-ing-202608111304",
-   "t": "11 Aug \u00b7 06:04 PM",
-   "ur": "Uro: atar chadhao ke dobate hi US Dollar ke khalaf had bandi - ING"
-  },
-  {
-   "ts": 1786451837.0,
-   "title": "Japanese Yen: Heading back toward 160 against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-heading-back-toward-160-against-us-dollar-commerzbank-202608111237",
-   "t": "11 Aug \u00b7 05:37 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein 160 ki taraf waps ja raha hai \u2013 Commerzbank"
-  },
-  {
-   "ts": 1786451008.0,
-   "title": "Australian Dollar: RBA softens hawkish stance \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-softens-hawkish-stance-bbh-202608111223",
-   "t": "11 Aug \u00b7 05:23 PM",
-   "ur": "Aasterilvi Dollar: aar bi aye ne buzdilana moqf ko narm kiya - BBH"
   }
  ],
  "sentiment": {
