@@ -1,21 +1,13 @@
 {
- "updated": "11-08-2026 05:54 PKT",
+ "updated": "11-08-2026 07:56 PKT",
  "gold": {
-  "price": 4412.45,
-  "open": 4331.96,
-  "high": 4422.8,
-  "low": 4313.51,
-  "chg": 1.86,
+  "price": 4410.43,
+  "open": 4321.43,
+  "high": 4434.79,
+  "low": 4317.12,
+  "chg": 2.06,
   "src": "XAUUSD Spot",
   "spark": [
-   4335.55,
-   4333.06,
-   4333.51,
-   4318.98,
-   4329.24,
-   4346.16,
-   4349.44,
-   4344.78,
    4346.8,
    4349.58,
    4350.83,
@@ -55,14 +47,22 @@
    4404.89,
    4413.2,
    4411.64,
-   4412.45
+   4410.25,
+   4413.1,
+   4417.57,
+   4420.78,
+   4430.58,
+   4432.68,
+   4429.64,
+   4419.1,
+   4410.43
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.04,
-   "chg": 4.28,
+   "price": 65.925,
+   "chg": 4.09,
    "spark": [
     59.809,
     57.634,
@@ -85,13 +85,13 @@
     62.099,
     61.439,
     63.332,
-    66.04
+    65.925
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.74,
-   "chg": 0.14,
+   "price": 99.817,
+   "chg": 0.22,
    "spark": [
     100.97,
     101.28,
@@ -114,13 +114,13 @@
     99.69,
     99.97,
     99.6,
-    99.74
+    99.817
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.14,
-   "chg": 5.07,
+   "price": 82.33,
+   "chg": 5.31,
    "spark": [
     71.41,
     78.14,
@@ -143,7 +143,7 @@
     75.22,
     77.29,
     78.18,
-    82.14
+    82.33
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1551,
-   "chg": -0.04,
+   "price": 1.1543,
+   "chg": -0.11,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1551
+    1.1543
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3514,
-   "chg": 0.17,
+   "price": 1.3503,
+   "chg": 0.09,
    "spark": [
     1.3387,
     1.3348,
@@ -230,13 +230,13 @@
     1.347,
     1.3455,
     1.3491,
-    1.3514
+    1.3503
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.047,
-   "chg": 0.73,
+   "price": 159.278,
+   "chg": 0.88,
    "spark": [
     161.878,
     162.429,
@@ -259,16 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.047
+    159.278
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1872.23,
-   "chg": 0.05,
+   "price": 1876.82,
+   "chg": 0.29,
    "spark": [
-    1914.38,
-    1913.22,
     1912.42,
     1911.33,
     1912.43,
@@ -314,16 +312,16 @@
     1872.55,
     1874.51,
     1871.15,
-    1872.23
+    1873.75,
+    1876.1,
+    1876.82
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63960.6,
-   "chg": 0.06,
+   "price": 63986.3,
+   "chg": 0.1,
    "spark": [
-    64814.2,
-    64768.5,
     64730.9,
     64732.9,
     64743.9,
@@ -369,7 +367,9 @@
     63932.1,
     63956.2,
     63922.1,
-    63960.6
+    63989.2,
+    64008.0,
+    63986.3
    ]
   }
  ],
@@ -458,20 +458,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786409644.647162,
+   "ts": 1786417014.7143,
+   "title": "Gold climbs to 10-week high as FOMO, China demand fuel bullish momentum",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
+   "t": "11 Aug \u00b7 07:56 AM",
+   "ur": "FOMO ke tur par Gold (sona) 10 hafte ki baland tarin sath par pohch gaya, chin mein andhan ki tizi ki raftar ka matalbah"
+  },
+  {
+   "ts": 1786417014.7143,
    "title": "Gold prices extend big weekly advance, hit their highest levels in over two months",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "11 Aug \u00b7 05:54 AM",
+   "t": "11 Aug \u00b7 07:56 AM",
    "ur": "Gold (sone) ki qeemtin badi haftah war peshgi tosi karti hen, do mah se ziyadah ki baland tarin sath par pohch gayi hen."
   },
   {
+   "ts": 1786414722.0,
+   "title": "Euro flat lines near mid-1.1500s vs USD as traders await US CPI amid Iran uncertainty",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-flat-lines-near-mid-11500s-vs-usd-as-traders-await-us-cpi-amid-iran-uncertainty-202608110218",
+   "t": "11 Aug \u00b7 07:18 AM",
+   "ur": "Uro filet linin wast 1.1500s bamaqablah USD ke qarib cunkah taajr eran ki ghair yaqeeni surtahal ke darmiyan US CPI ka antezar kar rahe hen"
+  },
+  {
+   "ts": 1786414579.0,
+   "title": "Australian Dollar holds ground ahead of RBA policy decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-ground-ahead-of-rba-policy-decision-202608110216",
+   "t": "11 Aug \u00b7 07:16 AM",
+   "ur": "Aasterilvi Dollar aar bi aye palisi ke fisale se pehle garound rakta hai."
+  },
+  {
+   "ts": 1786412414.0,
+   "title": "Breaking: Gold rallies further beyond $4,400; highest since early June",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/breaking-gold-rallies-further-beyond-4-400-highest-since-early-june-202608110140",
+   "t": "11 Aug \u00b7 06:40 AM",
+   "ur": "Baricang: Gold (sone) ki qeemat 4,400 Dollar se aage jon ke avile se sab se ziyadah"
+  },
+  {
+   "ts": 1786412268.0,
+   "title": "Silver Price Forecast: XAG/USD holds losses near $66.00 on Fed hike fears, oil surge",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-to-near-6600-on-fed-hike-fears-oil-surge-202608110137",
+   "t": "11 Aug \u00b7 06:37 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: fed mein azafe ke khadshat, til mein azafe par XAG/USD $66.00 ke qarib naqsanat rakta hai"
+  },
+  {
+   "ts": 1786411091.0,
+   "title": "United States Dollar Index consolidates below 100.00 as bulls await US CPI amid Iran risks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-consolidates-below-10000-as-bulls-await-us-cpi-amid-iran-risks-202608110118",
+   "t": "11 Aug \u00b7 06:18 AM",
+   "ur": "US Dollar andex 100.00 se niche mastahkam hawa cunkah bel eran ke khatrat ke darmiyan US CPI ka antezar kar rahe hen"
+  },
+  {
    "ts": 1786408200.0,
-   "title": "RBA set to hold interest rate at 4.35% as softer inflation cools hike bets",
+   "title": "RBA set to hold interest rate as softer inflation shifts outlook",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/rba-set-to-hold-interest-rate-at-435-as-softer-inflation-cools-hike-bets-202608110030",
    "t": "11 Aug \u00b7 05:30 AM",
-   "ur": "RBA sud ki rate ko 4.35% par rakhe ga cunkah narm mahungai ne azafe ki shart ko thanda kiya hai"
+   "ur": "RBA sud ki rate ko barqarar rakhane ke laye tyar hai cunkah narm inflation (mehngai) ke naqatah nazar mein tabadili aati hai."
   },
   {
    "ts": 1786404697.0,
@@ -488,54 +536,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-sterling-borrows-its-rally-from-american-payrolls-202608102330",
    "t": "11 Aug \u00b7 04:30 AM",
    "ur": "Bartanvi pound sterling ne apani rili US pay roles se li hai."
-  },
-  {
-   "ts": 1786400714.0,
-   "title": "Fed's Hammack calls for rate hikes, says policy not restrictive enough",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/fed-hammack-calls-for-rate-hikes-says-policy-not-restrictive-enough-202608102225",
-   "t": "11 Aug \u00b7 03:25 AM",
-   "ur": "Fed ke himek ne rate mein azafe ka matalbah kiya hai, kahate hen kah palisi kafi had tak muhadud nihen hai."
-  },
-  {
-   "ts": 1786400154.0,
-   "title": "US Treasury yields climb as Oil spike revives CPI jitters",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasury-yields-climb-as-oil-spike-revives-cpi-jitters-202608102215",
-   "t": "11 Aug \u00b7 03:15 AM",
-   "ur": "US treasurei ki pedawar mein azafah kiyon kah til ki badhti hoi wardaton ne CPI ke jhatake ko bahal kiya."
-  },
-  {
-   "ts": 1786396430.0,
-   "title": "New Zealand Dollar slips as firm US Dollar and Oil keep the Kiwi pinned",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-slips-as-firm-us-dollar-and-oil-keep-the-kiwi-pinned-202608102113",
-   "t": "11 Aug \u00b7 02:13 AM",
-   "ur": "US Dollar aur til ki wajah se niyozi lind Dollar ki qeemat mein kami"
-  },
-  {
-   "ts": 1786393418.0,
-   "title": "Silver Price Forecast: XAG/USD extends rally and eyes $69",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-eyes-69-as-rally-extends-202608102023",
-   "t": "11 Aug \u00b7 01:23 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD rili aur nazaron mein $69 ko badhata hai."
-  },
-  {
-   "ts": 1786391733.0,
-   "title": "Forex Today: US Dollar firms as Oil surges on Hormuz",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-as-oil-surges-on-hormuz-202608101955",
-   "t": "11 Aug \u00b7 12:55 AM",
-   "ur": "Farex today: harmaz par til mein azafe ke sath hi US Dollar ki farm"
-  },
-  {
-   "ts": 1786387677.0,
-   "title": "United States: Weak payrolls and softer retail sales \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-weak-payrolls-and-softer-retail-sales-td-securities-202608101847",
-   "t": "10 Aug \u00b7 11:47 PM",
-   "ur": "Ryastahaye matehdah: kamazor pay roles aur narm khurdah farokht - TD securitez"
   }
  ],
  "sentiment": {
