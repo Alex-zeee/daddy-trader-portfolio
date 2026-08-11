@@ -1,16 +1,13 @@
 {
- "updated": "12-08-2026 01:22 PKT",
+ "updated": "12-08-2026 02:10 PKT",
  "gold": {
-  "price": 4368.06,
-  "open": 4390.47,
+  "price": 4368.45,
+  "open": 4387.57,
   "high": 4434.79,
   "low": 4356.49,
-  "chg": -0.51,
+  "chg": -0.44,
   "src": "XAUUSD Spot",
   "spark": [
-   4376.12,
-   4370.48,
-   4372.41,
    4375.68,
    4371.95,
    4372.83,
@@ -55,14 +52,17 @@
    4367.75,
    4372.7,
    4370.82,
-   4368.06
+   4370.15,
+   4367.84,
+   4367.72,
+   4368.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.89,
-   "chg": -0.33,
+   "price": 64.86,
+   "chg": -0.38,
    "spark": [
     57.634,
     58.772,
@@ -85,12 +85,12 @@
     61.439,
     63.332,
     65.106,
-    64.89
+    64.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.815,
+   "price": 99.817,
    "chg": 0.01,
    "spark": [
     101.28,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.815
+    99.817
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.42,
-   "chg": 1.57,
+   "price": 83.23,
+   "chg": 1.34,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    83.42
+    83.23
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1546,
-   "chg": -0.09,
+   "price": 1.1545,
+   "chg": -0.1,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1546
+    1.1545
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3507,
-   "chg": 0.12,
+   "price": 1.3504,
+   "chg": 0.1,
    "spark": [
     1.3387,
     1.3348,
@@ -230,13 +230,13 @@
     1.347,
     1.3455,
     1.3491,
-    1.3507
+    1.3504
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.287,
-   "chg": 0.88,
+   "price": 159.235,
+   "chg": 0.85,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.287
+    159.235
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1879.17,
-   "chg": 0.42,
+   "price": 1880.44,
+   "chg": 0.49,
    "spark": [
-    1923.18,
     1918.03,
     1908.63,
     1911.0,
@@ -314,15 +313,15 @@
     1863.04,
     1863.99,
     1880.11,
-    1879.17
+    1880.49,
+    1880.44
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63579.0,
-   "chg": -0.54,
+   "price": 63678.8,
+   "chg": -0.38,
    "spark": [
-    65151.5,
     65025.0,
     64860.0,
     64914.5,
@@ -369,7 +368,8 @@
     63544.4,
     63304.1,
     63478.4,
-    63579.0
+    63682.9,
+    63678.8
    ]
   }
  ],
@@ -458,6 +458,22 @@
  "cal_mode": "upcoming",
  "news": [
   {
+   "ts": 1786482606.513754,
+   "title": "Gold pulls back from over two-month high amid rising oil, caution ahead of CPI",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
+   "t": "12 Aug \u00b7 02:10 AM",
+   "ur": "Badhti hoi til ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya, CPI se pehle ahtyat"
+  },
+  {
+   "ts": 1786480080.0,
+   "title": "Thai Baht: Benign inflation keeps BoT on hold \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/thai-baht-benign-inflation-keeps-bot-on-hold-commerzbank-202608112028",
+   "t": "12 Aug \u00b7 01:28 AM",
+   "ur": "Thai bhat: mahungai ne BoT ko rok rakha hai - kamers Bank"
+  },
+  {
    "ts": 1786477825.0,
    "title": "Euro stalls below 100-day SMA as investors brace for US CPI",
    "src": "FXStreet",
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-pullback-puts-6350-in-focus-202608111755",
    "t": "11 Aug \u00b7 10:55 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG pl bek $63.50 ko fox mein rakta hai."
-  },
-  {
-   "ts": 1786470590.0,
-   "title": "Japanese Yen pares losses ahead of US inflation report",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-pares-losses-ahead-of-us-inflation-report-202608111749",
-   "t": "11 Aug \u00b7 10:49 PM",
-   "ur": "Japani yan US inflation (mehngai) ki rport se pehle naqsanat ko kam karta hai."
-  },
-  {
-   "ts": 1786469314.0,
-   "title": "Gold eases amid firm US Dollar as CPI and Hormuz risks loom",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-eases-amid-firm-us-dollar-as-cpi-and-hormuz-risks-loom-202608111728",
-   "t": "11 Aug \u00b7 10:28 PM",
-   "ur": "US Dollar ki mazbooti ke darmiyan Gold (sona) kam hawa cunkah CPI aur harmaz ke khatrat mein azafah"
   }
  ],
  "sentiment": {
