@@ -1,19 +1,13 @@
 {
- "updated": "11-08-2026 11:11 PKT",
+ "updated": "11-08-2026 12:33 PKT",
  "gold": {
-  "price": 4382.21,
-  "open": 4349.54,
+  "price": 4360.12,
+  "open": 4358.24,
   "high": 4434.79,
   "low": 4317.12,
-  "chg": 0.75,
+  "chg": 0.04,
   "src": "XAUUSD Spot",
   "spark": [
-   4366.87,
-   4381.36,
-   4378.99,
-   4382.69,
-   4390.43,
-   4389.14,
    4389.71,
    4390.73,
    4391.13,
@@ -55,14 +49,20 @@
    4392.37,
    4373.79,
    4374.15,
-   4382.21
+   4376.78,
+   4366.28,
+   4365.68,
+   4364.78,
+   4363.77,
+   4363.78,
+   4360.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.95,
-   "chg": -0.24,
+   "price": 64.59,
+   "chg": -0.79,
    "spark": [
     57.634,
     58.772,
@@ -85,13 +85,13 @@
     61.439,
     63.332,
     65.106,
-    64.95
+    64.59
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.784,
-   "chg": -0.03,
+   "price": 99.86,
+   "chg": 0.05,
    "spark": [
     101.28,
     100.94,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.784
+    99.86
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.38,
-   "chg": 0.3,
+   "price": 83.97,
+   "chg": 2.24,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    82.38
+    83.97
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1543,
-   "chg": -0.11,
+   "price": 1.1541,
+   "chg": -0.14,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1543
+    1.1541
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3514,
-   "chg": 0.17,
+   "price": 1.3501,
+   "chg": 0.08,
    "spark": [
     1.3387,
     1.3348,
@@ -230,13 +230,13 @@
     1.347,
     1.3455,
     1.3491,
-    1.3514
+    1.3501
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.214,
-   "chg": 0.84,
+   "price": 159.286,
+   "chg": 0.88,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.214
+    159.286
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1873.49,
-   "chg": 0.12,
+   "price": 1872.34,
+   "chg": 0.06,
    "spark": [
-    1917.43,
     1914.0,
     1919.74,
     1919.01,
@@ -314,15 +313,15 @@
     1878.88,
     1874.3,
     1872.62,
-    1873.49
+    1872.17,
+    1872.34
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63976.1,
-   "chg": 0.08,
+   "price": 63914.0,
+   "chg": -0.01,
    "spark": [
-    64787.1,
     64763.0,
     64823.4,
     64921.3,
@@ -369,7 +368,8 @@
     64071.3,
     63972.1,
     63950.8,
-    63976.1
+    63903.3,
+    63914.0
    ]
   }
  ],
@@ -458,28 +458,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786428705.268331,
+   "ts": 1786433626.069566,
+   "title": "Silver surges 6% above 200MA but stalls at $66.67: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
+   "t": "11 Aug \u00b7 12:33 PM",
+   "ur": "Silver (chandi) 200MA se oper 6% badh gayi lican rak gaya hai $66.67 par"
+  },
+  {
+   "ts": 1786433626.069566,
+   "title": "Gold surges 5% above 50-MA, exhaustion risk rises: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
+   "t": "11 Aug \u00b7 12:33 PM",
+   "ur": "Gold (sona) 50-MA se oper 5% badhta hai, thakn ka khatrah badh jata hai."
+  },
+  {
+   "ts": 1786433626.069566,
    "title": "Gold hits more than 2-month high as investors weigh Iran talks, U.S. inflation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "11 Aug \u00b7 11:11 AM",
+   "t": "11 Aug \u00b7 12:33 PM",
    "ur": "Gold (sona) 2 mah ki baland tarin sath par pohch gaya cunkah sarmaya karon ne eran ki bat chiyat aur US inflation (mehngai) ko tol diya"
   },
   {
-   "ts": 1786428705.268331,
-   "title": "Gulf shipping traffic via Strait of Hormuz falls to six vessels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gulf-shipping-traffic-via-strait-of-hormuz-falls-to-six-vessels-4850767",
-   "t": "11 Aug \u00b7 11:11 AM",
-   "ur": "Aabanaye harmaz ke raaste khaliji jahazon ki aamadurft chh jahazon par padti hai."
+   "ts": 1786433383.0,
+   "title": "Swiss Franc weakens as market caution lifts US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-market-caution-lifts-us-dollar-202608110729",
+   "t": "11 Aug \u00b7 12:29 PM",
+   "ur": "Sois farank kamazor ho gaya cunkah market ki ahtyat US Dollar ko athati hai."
   },
   {
-   "ts": 1786428705.268331,
-   "title": "Gold prices extend big weekly advance, hit their highest levels in over two months",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steady-near-7wk-highs-as-traders-weigh-iran-uncertainty-fed-outlook-4847814",
-   "t": "11 Aug \u00b7 11:11 AM",
-   "ur": "Gold (sone) ki qeemtin badi haftah war peshgi tosi karti hen, do mah se ziyadah ki baland tarin sath par pohch gayi hen."
+   "ts": 1786433157.0,
+   "title": "Japanese Yen: BoJ tightening key to recovery against US Dollar - OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-tightening-key-to-recovery-against-us-dollar-ocbc-202608110725",
+   "t": "11 Aug \u00b7 12:25 PM",
+   "ur": "Japani yan: BoJ US Dollar ke maqable mein recovery ki kalid ko saqt kar raha hai - OCBC"
+  },
+  {
+   "ts": 1786431780.0,
+   "title": "British Pound consolidates around 1.3500 vs USD; looks to US CPI, UK GDP for fresh impetus",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-consolidates-around-13500-vs-usd-looks-to-us-cpi-uk-gdp-for-fresh-impetus-202608110703",
+   "t": "11 Aug \u00b7 12:03 PM",
+   "ur": "Bartanvi pound taqriban 1.3500 bamaqablah USD ko mastahkam karta hai. naye muhark ke liye US CPI, UK GDP ki taraf dekhta hai."
+  },
+  {
+   "ts": 1786431378.0,
+   "title": "Australian Dollar: RBA holds rates but downside bias persists \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-holds-rates-but-downside-bias-persists-commerzbank-202608110656",
+   "t": "11 Aug \u00b7 11:56 AM",
+   "ur": "Aasterilvi Dollar: RBA mein shrahin barqarar hen lican manfi pehlo barqarar hai - kamrzabink"
+  },
+  {
+   "ts": 1786430290.0,
+   "title": "Euro: Gains capped below key resistance against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-gains-capped-below-key-resistance-against-us-dollar-uob-202608110638",
+   "t": "11 Aug \u00b7 11:38 AM",
+   "ur": "Uro: US Dollar - UOB ke khalaf kalidi mazahmat se niche ka faidah"
   },
   {
    "ts": 1786425443.0,
@@ -496,46 +536,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-dips-after-rbas-on-hold-decision-as-traders-eye-post-meeting-presser-202608110448",
    "t": "11 Aug \u00b7 09:48 AM",
    "ur": "Aar bi aye ke roke jane ke fisale ke bad aasterilvi Dollar ki qeemat mein kami ke bad taajron ki nazarin matong ke bad"
-  },
-  {
-   "ts": 1786423701.0,
-   "title": "Australian Dollar falls sharply against Yen after RBA\u2019s monetary policy decision",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-falls-sharply-against-yen-after-rbas-monetary-policy-decision-202608110448",
-   "t": "11 Aug \u00b7 09:48 AM",
-   "ur": "RBA ke manateri palisi ke fisale ke bad aasterilvi Dollar yan ke maqable mein tizi se gar raha hai."
-  },
-  {
-   "ts": 1786422910.0,
-   "title": "India Gold price today: Gold rises, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608110435",
-   "t": "11 Aug \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
-  },
-  {
-   "ts": 1786419360.0,
-   "title": "British Pound clings to gains against US Dollar, US CPI in focus",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-clings-to-gains-against-us-dollar-us-cpi-in-focus-202608110336",
-   "t": "11 Aug \u00b7 08:36 AM",
-   "ur": "Bartanvi pound US Dollar, US CPI fox ke maqable mein fawaid se chimta hawa hai."
-  },
-  {
-   "ts": 1786419310.0,
-   "title": "Canadian Dollar sits near two-month top vs USD amid bullish oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-sits-near-two-month-top-vs-usd-amid-bullish-oil-prices-202608110335",
-   "t": "11 Aug \u00b7 08:35 AM",
-   "ur": "Til ki tizi ki qeemton ke darmiyan caniden Dollar do mah ki sab se oper bamaqablah USD ke qarib betha hai."
-  },
-  {
-   "ts": 1786417363.0,
-   "title": "New Zealand Dollar remains confined in a range vs USD amid Iran risks, ahead of US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-confined-in-a-range-vs-usd-amid-iran-risks-ahead-of-us-cpi-202608110302",
-   "t": "11 Aug \u00b7 08:02 AM",
-   "ur": "Niyozi lind Dollar US CPI se aage, eran ke khatrat ke darmiyan US Dollar ke maqable mein ek had tak muhadud rahta hai"
   }
  ],
  "sentiment": {
