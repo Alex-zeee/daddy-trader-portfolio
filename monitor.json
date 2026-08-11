@@ -1,16 +1,13 @@
 {
- "updated": "11-08-2026 20:34 PKT",
+ "updated": "11-08-2026 21:30 PKT",
  "gold": {
-  "price": 4384.39,
-  "open": 4350.76,
+  "price": 4383.44,
+  "open": 4363.28,
   "high": 4434.79,
-  "low": 4350.1,
-  "chg": 0.77,
+  "low": 4351.2,
+  "chg": 0.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4417.82,
-   4413.47,
-   4414.72,
    4409.31,
    4406.92,
    4402.14,
@@ -55,14 +52,17 @@
    4393.38,
    4395.47,
    4386.98,
-   4384.39
+   4374.83,
+   4380.05,
+   4378.89,
+   4383.44
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.025,
-   "chg": -0.12,
+   "price": 65.17,
+   "chg": 0.1,
    "spark": [
     57.634,
     58.772,
@@ -85,12 +85,12 @@
     61.439,
     63.332,
     65.106,
-    65.025
+    65.17
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.831,
+   "price": 99.826,
    "chg": 0.02,
    "spark": [
     101.28,
@@ -114,13 +114,13 @@
     99.97,
     99.6,
     99.81,
-    99.831
+    99.826
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.56,
-   "chg": 0.52,
+   "price": 83.01,
+   "chg": 1.07,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    82.56
+    83.01
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1542,
-   "chg": -0.12,
+   "price": 1.1545,
+   "chg": -0.1,
    "spark": [
     1.1404,
     1.1384,
@@ -201,13 +201,13 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1542
+    1.1545
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.351,
-   "chg": 0.14,
+   "price": 1.3506,
+   "chg": 0.11,
    "spark": [
     1.3387,
     1.3348,
@@ -230,13 +230,13 @@
     1.347,
     1.3455,
     1.3491,
-    1.351
+    1.3506
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.294,
-   "chg": 0.89,
+   "price": 159.23,
+   "chg": 0.85,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.294
+    159.23
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1871.96,
-   "chg": 0.03,
+   "price": 1862.27,
+   "chg": -0.48,
    "spark": [
-    1922.63,
     1921.55,
     1919.88,
     1920.51,
@@ -314,15 +313,15 @@
     1886.31,
     1888.36,
     1871.76,
-    1871.96
+    1861.39,
+    1862.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63703.4,
-   "chg": -0.34,
+   "price": 63528.7,
+   "chg": -0.62,
    "spark": [
-    65193.5,
     65165.1,
     65139.3,
     65141.0,
@@ -369,7 +368,8 @@
     64269.3,
     64144.7,
     63708.5,
-    63703.4
+    63558.1,
+    63528.7
    ]
   }
  ],
@@ -458,20 +458,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786462472.428573,
+   "ts": 1786465847.877808,
    "title": "Gold eases from two-month high as fresh oil price jump complicates rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "11 Aug \u00b7 08:34 PM",
+   "t": "11 Aug \u00b7 09:30 PM",
    "ur": "Gold (sona) do mah ki baland tarin sath se kam hota hai cunkah taazah til ki qeemton mein azafe ki rate ke naqatah nazar ko patcheedah banata hai."
   },
   {
-   "ts": 1786462472.428573,
-   "title": "Silver surges 6% above 200MA but stalls at $66.67: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "11 Aug \u00b7 08:34 PM",
-   "ur": "Silver (chandi) 200MA se oper 6% badh gayi lican rak gaya hai $66.67 par"
+   "ts": 1786463083.0,
+   "title": "Euro: Consolidation holds in mid 1.15s against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-consolidation-holds-in-mid-115s-against-us-dollar-scotiabank-202608111544",
+   "t": "11 Aug \u00b7 08:44 PM",
+   "ur": "Uro: US Dollar ke maqable mein 1.15 ke wast mein istehkam barqarar hai - Scotiabank"
+  },
+  {
+   "ts": 1786462911.0,
+   "title": "New Zealand Dollar remains under pressure as Middle East tensions support US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-under-pressure-as-middle-east-tensions-support-us-dollar-202608111541",
+   "t": "11 Aug \u00b7 08:41 PM",
+   "ur": "Niyozi lind Dollar dabao mein rahta hai cunkah masharq wasti mein kasheedgi US Dollar ko sahara diti hai."
   },
   {
    "ts": 1786461908.0,
@@ -528,14 +536,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-trades-near-weekly-high-after-rba-decision-202608111404",
    "t": "11 Aug \u00b7 07:04 PM",
    "ur": "Aar bi aye ke fisale ke bad aasterilvi Dollar haftah war balandi ke qarib tajart karta hai."
-  },
-  {
-   "ts": 1786456480.0,
-   "title": "Australian Dollar: RBA holds hawkish bias with steady rates \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-holds-hawkish-bias-with-steady-rates-ing-202608111354",
-   "t": "11 Aug \u00b7 06:54 PM",
-   "ur": "Aasterilvi Dollar: aar bi aye mastahkam sharahon - ING ke sath matasabana taasab rakta hai."
   }
  ],
  "sentiment": {
