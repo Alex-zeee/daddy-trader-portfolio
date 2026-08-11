@@ -1,16 +1,13 @@
 {
- "updated": "12-08-2026 03:42 PKT",
+ "updated": "12-08-2026 04:22 PKT",
  "gold": {
-  "price": 4376.61,
-  "open": 4395.56,
+  "price": 4372.61,
+  "open": 4395.3,
   "high": 4434.79,
   "low": 4356.49,
-  "chg": -0.43,
+  "chg": -0.52,
   "src": "XAUUSD Spot",
   "spark": [
-   4379.14,
-   4392.47,
-   4387.17,
    4385.53,
    4388.62,
    4396.73,
@@ -55,14 +52,17 @@
    4368.45,
    4375.15,
    4376.86,
-   4376.61
+   4375.82,
+   4370.27,
+   4368.54,
+   4372.61
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.035,
-   "chg": -0.11,
+   "price": 64.965,
+   "chg": -0.22,
    "spark": [
     57.634,
     58.772,
@@ -85,7 +85,7 @@
     61.439,
     63.332,
     65.106,
-    65.035
+    64.965
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 83.5,
-   "chg": 1.67,
+   "price": 83.52,
+   "chg": 1.69,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    83.5
+    83.52
    ]
   },
   {
@@ -178,9 +178,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1546,
-   "chg": -0.09,
+   "chg": -0.0,
    "spark": [
-    1.1404,
     1.1384,
     1.1425,
     1.147,
@@ -201,15 +200,15 @@
     1.1557,
     1.1525,
     1.1556,
+    1.1546,
     1.1546
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.351,
-   "chg": 0.14,
+   "chg": -0.01,
    "spark": [
-    1.3387,
     1.3348,
     1.3397,
     1.3541,
@@ -230,15 +229,15 @@
     1.347,
     1.3455,
     1.3491,
+    1.3511,
     1.351
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.277,
-   "chg": 0.88,
+   "price": 159.288,
+   "chg": 0.08,
    "spark": [
-    161.878,
     162.429,
     162.187,
     162.072,
@@ -259,15 +258,15 @@
     157.6,
     158.409,
     157.891,
-    159.277
+    159.156,
+    159.288
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1881.36,
-   "chg": 0.54,
+   "price": 1877.77,
+   "chg": 0.35,
    "spark": [
-    1908.63,
     1911.0,
     1923.24,
     1922.14,
@@ -314,15 +313,15 @@
     1880.11,
     1880.49,
     1883.3,
-    1881.36
+    1880.94,
+    1877.77
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63633.6,
-   "chg": -0.45,
+   "price": 63517.1,
+   "chg": -0.63,
    "spark": [
-    64860.0,
     64914.5,
     65141.0,
     65046.1,
@@ -369,7 +368,8 @@
     63478.4,
     63682.9,
     63623.7,
-    63633.6
+    63620.5,
+    63517.1
    ]
   }
  ],
@@ -458,12 +458,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786488120.999263,
+   "ts": 1786490544.950285,
    "title": "Gold pulls back from over two-month high amid rising oil, caution ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "12 Aug \u00b7 03:42 AM",
+   "t": "12 Aug \u00b7 04:22 AM",
    "ur": "Badhti hoi til ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya, CPI se pehle ahtyat"
+  },
+  {
+   "ts": 1786489620.0,
+   "title": "Singapore Dollar: Decline risks assessed against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-decline-risks-assessed-against-us-dollar-ocbc-202608112307",
+   "t": "12 Aug \u00b7 04:07 AM",
+   "ur": "Sangapor Dollar: US Dollar - OCBC ke maqable mein kami ke khatrat ka andazah"
+  },
+  {
+   "ts": 1786488258.0,
+   "title": "The Australian Dollar goes seven weeks without a central bank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-goes-seven-weeks-without-a-central-bank-202608112244",
+   "t": "12 Aug \u00b7 03:44 AM",
+   "ur": "Aasterilvi Dollar sat hafte baghair markazi Bank ke chala jata hai."
   },
   {
    "ts": 1786487996.0,
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-range-bias-with-upside-risk-against-us-dollar-uob-202608111913",
    "t": "12 Aug \u00b7 12:13 AM",
    "ur": "Sangapor Dollar: US Dollar - UOB ke khalaf alta khatrah ke sath had ka taasab"
-  },
-  {
-   "ts": 1786473979.0,
-   "title": "Australian Dollar: Policy risks balanced as inflation lingers \u2013 Standard Chartered",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-policy-risks-balanced-as-inflation-lingers-standard-chartered-202608111846",
-   "t": "11 Aug \u00b7 11:46 PM",
-   "ur": "Aasterilvi Dollar: palisi ke khatrat mein tawazin barqarar hai cunkah inflation (mehngai) barqarar rahta hai - stindrd charter"
-  },
-  {
-   "ts": 1786473281.0,
-   "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
-   "t": "11 Aug \u00b7 11:34 PM",
-   "ur": "Badh ko inflation (mehngai) ki rport fed ke liye ek bada suda hona chahiye. yahan kiya toqa karna hai."
   }
  ],
  "sentiment": {
