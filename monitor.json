@@ -1,16 +1,13 @@
 {
- "updated": "11-08-2026 14:38 PKT",
+ "updated": "11-08-2026 15:30 PKT",
  "gold": {
-  "price": 4372.95,
-  "open": 4344.01,
+  "price": 4380.6,
+  "open": 4342.76,
   "high": 4434.79,
   "low": 4317.12,
-  "chg": 0.67,
+  "chg": 0.87,
   "src": "XAUUSD Spot",
   "spark": [
-   4389.03,
-   4391.85,
-   4392.48,
    4396.03,
    4399.52,
    4397.27,
@@ -55,14 +52,17 @@
    4370.48,
    4372.41,
    4375.68,
-   4372.95
+   4371.95,
+   4372.83,
+   4373.3,
+   4380.6
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.065,
-   "chg": -0.06,
+   "price": 65.11,
+   "chg": 0.01,
    "spark": [
     57.634,
     58.772,
@@ -85,7 +85,7 @@
     61.439,
     63.332,
     65.106,
-    65.065
+    65.11
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 84.31,
-   "chg": 2.65,
+   "price": 84.12,
+   "chg": 2.42,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    84.31
+    84.12
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1537,
-   "chg": -0.17,
+   "price": 1.1539,
+   "chg": -0.15,
    "spark": [
     1.1404,
     1.1384,
@@ -201,7 +201,7 @@
     1.1557,
     1.1525,
     1.1556,
-    1.1537
+    1.1539
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.313,
-   "chg": 0.9,
+   "price": 159.255,
+   "chg": 0.86,
    "spark": [
     161.878,
     162.429,
@@ -259,15 +259,14 @@
     157.6,
     158.409,
     157.891,
-    159.313
+    159.255
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1876.82,
-   "chg": 0.29,
+   "price": 1885.93,
+   "chg": 0.78,
    "spark": [
-    1919.01,
     1917.71,
     1916.14,
     1921.95,
@@ -314,15 +313,15 @@
     1872.17,
     1875.61,
     1877.39,
-    1876.82
+    1882.84,
+    1885.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64124.7,
-   "chg": 0.32,
+   "price": 64240.7,
+   "chg": 0.5,
    "spark": [
-    64921.3,
     64900.0,
     64899.9,
     65175.1,
@@ -369,7 +368,8 @@
     63903.3,
     64003.4,
     64072.9,
-    64124.7
+    64243.0,
+    64240.7
    ]
   }
  ],
@@ -458,20 +458,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786441110.248527,
+   "ts": 1786444235.000619,
    "title": "Silver surges 6% above 200MA but stalls at $66.67: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "11 Aug \u00b7 02:38 PM",
+   "t": "11 Aug \u00b7 03:30 PM",
    "ur": "Silver (chandi) 200MA se oper 6% badh gayi lican rak gaya hai $66.67 par"
   },
   {
-   "ts": 1786441110.248527,
-   "title": "Gold surges 5% above 50-MA, exhaustion risk rises: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "11 Aug \u00b7 02:38 PM",
-   "ur": "Gold (sona) 50-MA se oper 5% badhta hai, thakn ka khatrah badh jata hai."
+   "ts": 1786442259.0,
+   "title": "Australian Dollar: RBA keeps door open \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-keeps-door-open-rabobank-202608110957",
+   "t": "11 Aug \u00b7 02:57 PM",
+   "ur": "Aasterilin Dollar: RBA darwazah khala rakta hai - Rabobank"
+  },
+  {
+   "ts": 1786441873.0,
+   "title": "Australian Dollar edges up, RBA hawkish hold does little to revive rate hike expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-edges-up-rba-hawkish-hold-does-little-to-revive-rate-hike-expectations-202608110951",
+   "t": "11 Aug \u00b7 02:51 PM",
+   "ur": "Aasterilvi Dollar ki qeemat badh gayi, RBA hakish hold rate mein azafe ki toqaat ko bahal karne mein bahat kam kam karta hai"
+  },
+  {
+   "ts": 1786441641.0,
+   "title": "Canadian Dollar remains near two-month highs against US Dollar as Oil prices rise",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-near-two-month-highs-against-us-dollar-as-oil-prices-rise-202608110947",
+   "t": "11 Aug \u00b7 02:47 PM",
+   "ur": "Til ki qeemton mein azafe ke baas caniden Dollar US Dollar ke maqable mein do mah ki baland tarin sath ke qarib hai."
   },
   {
    "ts": 1786441014.0,
@@ -520,22 +536,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-yield-outlook-fails-to-lift-yen-societe-generale-202608110844",
    "t": "11 Aug \u00b7 01:44 PM",
    "ur": "Japani yan: pedawar ka naqatah nazar yan ko athane mein naakam rahta hai - sociti janerl"
-  },
-  {
-   "ts": 1786436997.0,
-   "title": "Australian Dollar : Hawkish hold keeps risks alive \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-hawkish-hold-keeps-risks-alive-td-securities-202608110829",
-   "t": "11 Aug \u00b7 01:29 PM",
-   "ur": "Aasterilin Dollar: hakish hold khatrat ko zandah rakta hai - TD securitez"
-  },
-  {
-   "ts": 1786436355.0,
-   "title": "Dow Jones futures slip as US-Iran tensions, rate hike fears weigh on sentiment",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-slip-as-us-iran-tensions-rate-hike-fears-weigh-on-sentiment-202608110819",
-   "t": "11 Aug \u00b7 01:19 PM",
-   "ur": "Amrikah eran kasheedgi, rate mein azafe ke khadshat jazbat par asar andaz hone ke baas dou joons future zawal pazeer"
   }
  ],
  "sentiment": {
