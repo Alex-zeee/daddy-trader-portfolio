@@ -1,17 +1,13 @@
 {
- "updated": "12-08-2026 21:32 PKT",
+ "updated": "12-08-2026 22:37 PKT",
  "gold": {
-  "price": 4423.05,
-  "open": 4384.8,
+  "price": 4410.15,
+  "open": 4377.45,
   "high": 4441.22,
   "low": 4361.29,
-  "chg": 0.87,
+  "chg": 0.75,
   "src": "XAUUSD Spot",
   "spark": [
-   4400.89,
-   4402.38,
-   4393.8,
-   4389.74,
    4393.9,
    4387.4,
    4389.18,
@@ -55,14 +51,18 @@
    4421.24,
    4422.95,
    4423.4,
-   4423.05
+   4411.9,
+   4401.78,
+   4404.41,
+   4407.08,
+   4410.15
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.89,
-   "chg": 1.73,
+   "price": 65.71,
+   "chg": 1.45,
    "spark": [
     58.772,
     57.11,
@@ -85,13 +85,13 @@
     63.332,
     65.106,
     64.769,
-    65.89
+    65.71
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.905,
-   "chg": 0.09,
+   "price": 99.955,
+   "chg": 0.14,
    "spark": [
     100.94,
     100.5,
@@ -114,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.905
+    99.955
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.17,
-   "chg": -0.04,
+   "price": 82.86,
+   "chg": -0.41,
    "spark": [
     79.34,
     79.6,
@@ -143,13 +143,13 @@
     78.18,
     82.13,
     83.2,
-    83.17
+    82.86
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.67,
-   "chg": -0.3,
+   "price": 4.666,
+   "chg": -0.38,
    "spark": [
     4.585,
     4.545,
@@ -172,13 +172,13 @@
     4.66,
     4.699,
     4.684,
-    4.67
+    4.666
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1535,
-   "chg": -0.1,
+   "price": 1.153,
+   "chg": -0.14,
    "spark": [
     1.1384,
     1.1425,
@@ -201,13 +201,13 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1535
+    1.153
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3503,
-   "chg": -0.06,
+   "price": 1.3496,
+   "chg": -0.11,
    "spark": [
     1.3348,
     1.3397,
@@ -230,13 +230,13 @@
     1.3455,
     1.3491,
     1.3511,
-    1.3503
+    1.3496
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.33,
-   "chg": 0.11,
+   "price": 159.466,
+   "chg": 0.19,
    "spark": [
     162.429,
     162.187,
@@ -259,15 +259,14 @@
     158.409,
     157.891,
     159.156,
-    159.33
+    159.466
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1892.06,
-   "chg": 0.59,
+   "price": 1888.56,
+   "chg": 0.4,
    "spark": [
-    1871.88,
     1870.91,
     1876.6,
     1878.03,
@@ -314,15 +313,15 @@
     1899.36,
     1885.07,
     1890.64,
-    1892.06
+    1888.79,
+    1888.56
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63473.9,
-   "chg": -0.11,
+   "price": 63431.2,
+   "chg": -0.17,
    "spark": [
-    63879.7,
     63835.9,
     63975.7,
     64098.1,
@@ -369,7 +368,8 @@
     63781.0,
     63307.1,
     63376.2,
-    63473.9
+    63421.3,
+    63431.2
    ]
   }
  ],
@@ -434,12 +434,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786552335.077841,
+   "ts": 1786556270.539617,
    "title": "Gold sits above $4,400 as investors digest U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
-   "t": "12 Aug \u00b7 09:32 PM",
+   "t": "12 Aug \u00b7 10:37 PM",
    "ur": "Gold (sona) $4,400 se oper betha hai cunkah sarmaya kar US inflation (mehngai) ke aed w shmar ko hazam karte hen."
+  },
+  {
+   "ts": 1786554849.0,
+   "title": "Here are five key takeaways from the July CPI inflation report",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
+   "t": "12 Aug \u00b7 10:14 PM",
+   "ur": "Joli ki CPI inflation (mehngai) ki rport ke panch aham nakat ya hen."
+  },
+  {
+   "ts": 1786553851.0,
+   "title": "British Pound holds near 1.3500 as CPI relief meets Hormuz risk",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-holds-near-13500-as-cpi-relief-meets-hormuz-risk-202608121657",
+   "t": "12 Aug \u00b7 09:57 PM",
+   "ur": "Bartanvi pound 1.3500 ke qarib rakta hai cunkah CPI rilif harmaz ke khatre ko pora karta hai."
+  },
+  {
+   "ts": 1786552881.0,
+   "title": "Australian Dollar slips as US Dollar steadies post CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-slips-as-us-dollar-steadies-post-cpi-202608121641",
+   "t": "12 Aug \u00b7 09:41 PM",
+   "ur": "CPI ke bad US Dollar ke mastahkam hone par aasterilvi Dollar ki qeemat mein kami"
   },
   {
    "ts": 1786551420.0,
@@ -448,14 +472,6 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-strong-singapore-growth-supports-sgd-against-us-dollar-commerzbank-202608121617",
    "t": "12 Aug \u00b7 09:17 PM",
    "ur": "Sangapor Dollar: sangapor ki mazboot namo US Dollar ke maqable SGD ki support karti hai \u2013 Commerzbank"
-  },
-  {
-   "ts": 1786551155.0,
-   "title": "Here are five key takeaways from the July CPI inflation report",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
-   "t": "12 Aug \u00b7 09:12 PM",
-   "ur": "Joli ki CPI inflation (mehngai) ki rport ke panch aham nakat ya hen."
   },
   {
    "ts": 1786550437.0,
@@ -496,22 +512,6 @@
    "link": "https://www.fxstreet.com/news/silver-jumps-more-than-2-after-us-inflation-meets-expectations-202608121505",
    "t": "12 Aug \u00b7 08:05 PM",
    "ur": "US inflation (mehngai) toqaat par pora atrne ke bad Silver (chandi) mein 2 fisad se ziyadah ka azafah hawa."
-  },
-  {
-   "ts": 1786547067.0,
-   "title": "US Dollar: Bearish momentum extends after CPI \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-bearish-momentum-extends-after-cpi-td-securities-202608121504",
-   "t": "12 Aug \u00b7 08:04 PM",
-   "ur": "US Dollar: CPI \u2013 TD securitez ke bad mandi ki raftar mein tosi"
-  },
-  {
-   "ts": 1786543642.0,
-   "title": "British Pound: Improving sentiment supports gains against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-improving-sentiment-supports-gains-against-us-dollar-scotiabank-202608121407",
-   "t": "12 Aug \u00b7 07:07 PM",
-   "ur": "Bartanvi pound: jazbat ko behtar banane se US Dollar ke maqable mein faidah hota hai - Scotiabank"
   }
  ],
  "sentiment": {
