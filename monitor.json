@@ -1,19 +1,13 @@
 {
- "updated": "12-08-2026 12:02 PKT",
+ "updated": "12-08-2026 13:37 PKT",
  "gold": {
-  "price": 4404.94,
-  "open": 4363.45,
+  "price": 4405.65,
+  "open": 4375.75,
   "high": 4415.01,
-  "low": 4356.49,
-  "chg": 0.95,
+  "low": 4361.29,
+  "chg": 0.68,
   "src": "XAUUSD Spot",
   "spark": [
-   4370.28,
-   4367.75,
-   4372.7,
-   4370.82,
-   4370.15,
-   4367.84,
    4367.72,
    4368.56,
    4368.57,
@@ -55,14 +49,20 @@
    4389.18,
    4395.85,
    4403.69,
-   4404.94
+   4405.78,
+   4402.6,
+   4408.5,
+   4405.57,
+   4408.83,
+   4406.33,
+   4405.65
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.2,
-   "chg": 2.21,
+   "price": 66.365,
+   "chg": 2.46,
    "spark": [
     58.772,
     57.11,
@@ -85,13 +85,13 @@
     63.332,
     65.106,
     64.769,
-    66.2
+    66.365
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.876,
-   "chg": 0.06,
+   "price": 99.862,
+   "chg": 0.04,
    "spark": [
     100.94,
     100.5,
@@ -114,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.876
+    99.862
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.58,
-   "chg": 0.46,
+   "price": 83.47,
+   "chg": 0.32,
    "spark": [
     79.34,
     79.6,
@@ -143,7 +143,7 @@
     78.18,
     82.13,
     83.2,
-    83.58
+    83.47
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.373,
-   "chg": 0.14,
+   "price": 159.342,
+   "chg": 0.12,
    "spark": [
     162.429,
     162.187,
@@ -259,15 +259,14 @@
     158.409,
     157.891,
     159.156,
-    159.373
+    159.342
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1886.6,
-   "chg": 0.3,
+   "price": 1890.0,
+   "chg": 0.48,
    "spark": [
-    1925.15,
     1914.97,
     1916.03,
     1918.75,
@@ -314,15 +313,15 @@
     1887.67,
     1890.07,
     1885.55,
-    1886.6
+    1889.72,
+    1890.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63666.9,
-   "chg": 0.2,
+   "price": 63725.6,
+   "chg": 0.29,
    "spark": [
-    65199.9,
     64913.6,
     64972.6,
     65071.8,
@@ -369,7 +368,8 @@
     63712.6,
     63790.4,
     63653.4,
-    63666.9
+    63763.2,
+    63725.6
    ]
   }
  ],
@@ -458,84 +458,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786518146.956314,
+   "ts": 1786523848.329382,
+   "title": "Gold rises near $4,400 as investors await U.S. inflation data for Fed clues",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
+   "t": "12 Aug \u00b7 01:37 PM",
+   "ur": "Gold (sona) $4,400 ke qarib badh gaya cunkah sarmaya kar Fed ke ashare ke liye US inflation (mehngai) ke aed w shmar ka antezar kar rahe hen"
+  },
+  {
+   "ts": 1786523848.329382,
+   "title": "Silver bulls eye $67.67 resistance after V-Bottom: Hourly",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
+   "t": "12 Aug \u00b7 01:37 PM",
+   "ur": "Salor bells ka target hai $67.67 vi-batum ke bad mazahmat: fi ghanta"
+  },
+  {
+   "ts": 1786523848.329382,
+   "title": "Gold overbought at $4,462 with MACD fading: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
+   "t": "12 Aug \u00b7 01:37 PM",
+   "ur": "MACD khtam hone ke sath Gold (sona) $4,462 par over bat hawa."
+  },
+  {
+   "ts": 1786523848.329382,
    "title": "Hormuz shipping traffic falls to one-week low amid hostilities",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/hormuz-shipping-traffic-falls-to-oneweek-low-amid-hostilities-4853676",
-   "t": "12 Aug \u00b7 12:02 PM",
+   "t": "12 Aug \u00b7 01:37 PM",
    "ur": "Dashmani ke darmiyan harmaz shping trific ek hafte ki kam tarin sath par aa gayi hai."
   },
   {
-   "ts": 1786518146.956314,
-   "title": "Gold rises near $4,400 as Hormuz doubts, CPI keep Fed path in focus",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
-   "t": "12 Aug \u00b7 12:02 PM",
-   "ur": "Harmaz ke shkok ke tur par Gold (sona) $4,400 ke qarib badh gaya, CPI Fed ke raaste ko fox mein rakta hai."
+   "ts": 1786523717.0,
+   "title": "United States Dollar Index Price Forecast: Bulls await US CPI and breakout above 100.00",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-price-forecast-bulls-await-us-cpi-and-breakout-above-10000-202608120835",
+   "t": "12 Aug \u00b7 01:35 PM",
+   "ur": "Unaited states Dollar andex qeemat ki forecast: bel US CPI aur 100.00 se oper barik oat ka antezar kar rahe hen"
   },
   {
-   "ts": 1786517247.0,
-   "title": "GBP/USD Price Forecast: Continues to remain flat ahead of US CPI data",
+   "ts": 1786523630.0,
+   "title": "Dow Jones futures remain steady as traders await US CPI data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gbp-usd-price-forecast-continues-to-remain-flat-ahead-of-us-cpi-data-202608120647",
-   "t": "12 Aug \u00b7 11:47 AM",
-   "ur": "GBP/USD qeemat ki forecast: US CPI deta se aage filet rahna jari hai."
+   "link": "https://www.fxstreet.com/news/dow-jones-futures-remain-steady-as-traders-await-us-cpi-data-202608120833",
+   "t": "12 Aug \u00b7 01:33 PM",
+   "ur": "Dou joons future mastahkam rahe cunkah taajr US CPI deta ka antezar kar rahe hen."
   },
   {
-   "ts": 1786517126.0,
-   "title": "Forex Today: Crucial US inflation data to lift market volatility",
+   "ts": 1786523400.0,
+   "title": "US CPI data set to show softer inflation in July as markets reassess Fed rate hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-crucial-us-inflation-data-to-lift-market-volatility-202608120645",
-   "t": "12 Aug \u00b7 11:45 AM",
-   "ur": "Farex today: market ke atar chadhao ko khtam karne ke liye US inflation (mehngai) ka aham deta"
+   "link": "https://www.fxstreet.com/news/us-cpi-data-set-to-show-softer-inflation-in-july-as-markets-reassess-fed-rate-hike-bets-202608120830",
+   "t": "12 Aug \u00b7 01:30 PM",
+   "ur": "US CPI deta joli mein narm inflation (mehngai) ko zaahar kare ga cunkah marketon ne fed ki rate mein azafe ki sharton ka dubarah jaizah liya hai"
   },
   {
-   "ts": 1786516624.0,
-   "title": "US Dollar: CPI and Fed rhetoric in focus \u2013 Commerzbank",
+   "ts": 1786522704.0,
+   "title": "Indian Rupee: CPI and RBI repo rate risk skew higher \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-cpi-and-fed-rhetoric-in-focus-commerzbank-202608120637",
-   "t": "12 Aug \u00b7 11:37 AM",
-   "ur": "US Dollar: CPI aur fed ki bayan bazi fox mein - kamers Bank"
+   "link": "https://www.fxstreet.com/news/indian-rupee-cpi-and-rbi-repo-rate-risk-skew-higher-mufg-202608120818",
+   "t": "12 Aug \u00b7 01:18 PM",
+   "ur": "Handostani ropiya: CPI aur aar bi i ripo ret ka khatrah ziyadah - MUFG"
   },
   {
-   "ts": 1786516152.0,
-   "title": "Euro trims losses against the British Pound following hot German inflation data",
+   "ts": 1786521445.0,
+   "title": "Canadian Dollar trims gains, US Dollar firms up ahead of US CPI numbers",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-trims-losses-against-the-british-pound-following-hot-german-inflation-data-202608120629",
-   "t": "12 Aug \u00b7 11:29 AM",
-   "ur": "Garm jarman inflation (mehngai) ke aed w shmar ke bad uro bartanvi pound ke khalaf naqsanat ko kam karta hai."
+   "link": "https://www.fxstreet.com/news/canadian-dollar-trims-gains-us-dollar-firms-up-ahead-of-us-cpi-numbers-202608120757",
+   "t": "12 Aug \u00b7 12:57 PM",
+   "ur": "Caniden Dollar ne faidah kam kiya, US Dollar ki farm US CPI nambron se aage"
   },
   {
-   "ts": 1786515764.0,
-   "title": "Euro: Upside capped by key resistance against US Dollar \u2013 UOB",
+   "ts": 1786521392.0,
+   "title": "Japanese Yen remains under pressure against US Dollar, US CPI data eyed",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-capped-by-key-resistance-against-us-dollar-uob-202608120622",
-   "t": "12 Aug \u00b7 11:22 AM",
-   "ur": "Uro: US Dollar - UOB ke khalaf kalidi mazahmat ki taraf se oper ki had"
-  },
-  {
-   "ts": 1786513904.0,
-   "title": "Euro trades with caution against US Dollar in countdown to US CPI data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-trades-with-caution-against-us-dollar-in-countdown-to-us-cpi-data-202608120551",
-   "t": "12 Aug \u00b7 10:51 AM",
-   "ur": "Uro US CPI deta ki alti ganti mein US Dollar ke khalaf ahtyat ke sath tajart karta hai."
-  },
-  {
-   "ts": 1786512576.0,
-   "title": "Indian Rupee trades lower ahead of India-US CPI data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-falls-further-as-oil-prices-extend-surge-india-us-cpi-awaited-202608120529",
-   "t": "12 Aug \u00b7 10:29 AM",
-   "ur": "Handostani ropiya handostan-US CPI ke aed w shmar se pehle niche tajart karta hai."
-  },
-  {
-   "ts": 1786509312.0,
-   "title": "India Gold price today: Gold rises, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608120435",
-   "t": "12 Aug \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
+   "link": "https://www.fxstreet.com/news/japanese-yen-remains-under-pressure-against-us-dollar-us-cpi-data-eyed-202608120756",
+   "t": "12 Aug \u00b7 12:56 PM",
+   "ur": "Japani yan US Dollar ke maqable mein dabao mein hai, US CPI ke aed w shmar par nazar hai."
   }
  ],
  "sentiment": {
