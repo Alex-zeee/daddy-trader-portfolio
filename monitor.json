@@ -1,16 +1,13 @@
 {
- "updated": "13-08-2026 02:09 PKT",
+ "updated": "13-08-2026 02:59 PKT",
  "gold": {
-  "price": 4408.69,
-  "open": 4368.47,
+  "price": 4408.8,
+  "open": 4368.48,
   "high": 4441.22,
   "low": 4363.38,
   "chg": 0.92,
   "src": "XAUUSD Spot",
   "spark": [
-   4415.37,
-   4414.53,
-   4415.84,
    4419.04,
    4420.58,
    4414.26,
@@ -55,7 +52,10 @@
    4408.03,
    4407.63,
    4409.05,
-   4408.69
+   4408.77,
+   4408.64,
+   4408.85,
+   4408.8
   ]
  },
  "markets": [
@@ -90,21 +90,23 @@
   },
   {
    "name": "Dollar Index",
-   "price": 99.973,
-   "chg": 0.15,
+   "price": 99.985,
+   "chg": 0.17,
    "spark": [
-    101.28,
     100.94,
     100.5,
     100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.973
+    99.985
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.6,
-   "chg": -0.72,
+   "price": 82.58,
+   "chg": -0.75,
    "spark": [
     79.34,
     79.6,
@@ -141,7 +143,7 @@
     78.18,
     82.13,
     83.2,
-    82.6
+    82.58
    ]
   },
   {
@@ -149,12 +151,20 @@
    "price": 4.682,
    "chg": -0.04,
    "spark": [
+    4.585,
+    4.545,
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -167,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1529,
-   "chg": -0.15,
+   "price": 1.1526,
+   "chg": -0.18,
    "spark": [
     1.1384,
     1.1425,
@@ -191,7 +201,7 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1529
+    1.1526
    ]
   },
   {
@@ -225,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.4,
-   "chg": 0.15,
+   "price": 159.385,
+   "chg": 0.14,
    "spark": [
     162.429,
     162.187,
@@ -249,13 +259,13 @@
     158.409,
     157.891,
     159.156,
-    159.4
+    159.385
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1884.21,
-   "chg": 0.17,
+   "price": 1877.2,
+   "chg": -0.2,
    "spark": [
     1874.51,
     1871.15,
@@ -304,13 +314,13 @@
     1883.97,
     1877.55,
     1884.62,
-    1884.21
+    1877.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63494.8,
-   "chg": -0.07,
+   "price": 63420.2,
+   "chg": -0.19,
    "spark": [
     63956.2,
     63922.1,
@@ -359,7 +369,7 @@
     63313.7,
     63352.6,
     63532.3,
-    63494.8
+    63420.2
    ]
   }
  ],
@@ -424,20 +434,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786568971.425088,
+   "ts": 1786571948.086878,
    "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 02:09 AM",
+   "t": "13 Aug \u00b7 02:59 AM",
    "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
   },
   {
-   "ts": 1786568971.425088,
+   "ts": 1786571948.086878,
    "title": "Gold overbought near $4,500 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "13 Aug \u00b7 02:09 AM",
+   "t": "13 Aug \u00b7 02:59 AM",
    "ur": "Gold (sona) $4,500 mazahmat ke qarib ziyadah khareeda."
+  },
+  {
+   "ts": 1786571934.0,
+   "title": "Euro reverses from two-day high, fade US soft CPI move",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-reverses-from-two-day-high-fade-us-soft-cpi-move-202608122158",
+   "t": "13 Aug \u00b7 02:58 AM",
+   "ur": "Uro do dan ki unchai se plt raha hai, US narm CPI aqdam dhandila hai."
+  },
+  {
+   "ts": 1786570472.0,
+   "title": "Mexican Peso rallies to two-year high as soft CPI hits Fed bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-rallies-to-two-year-high-as-soft-cpi-hits-fed-bets-202608122134",
+   "t": "13 Aug \u00b7 02:34 AM",
+   "ur": "Mexican peso ki riliyan do sal ki baland tarin sath par pohch gayi cunkah narm CPI ne fed ke bates ko nashana banaya"
+  },
+  {
+   "ts": 1786569793.0,
+   "title": "New Zealand Dollar slips as Middle East uncertainty weighs on Kiwi",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-slips-as-middle-east-uncertainty-weighs-on-kiwi-202608122123",
+   "t": "13 Aug \u00b7 02:23 AM",
+   "ur": "Kevi par masharq wasta ki ghair yaqeeni surtahal ke baas niyozi lind Dollar ki qeemat mein kami"
+  },
+  {
+   "ts": 1786569120.0,
+   "title": "Singapore Dollar: Upside risk builds against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-builds-against-us-dollar-uob-202608122112",
+   "t": "13 Aug \u00b7 02:12 AM",
+   "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein alta khatrah badhta hai."
   },
   {
    "ts": 1786563428.0,
@@ -470,38 +512,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-shines-above-4-400-as-inflation-dip-fuels-fed-relief-202608121905",
    "t": "13 Aug \u00b7 12:05 AM",
    "ur": "Gold (sone) ki qeemat $4,400 se oper chamakti hai cunkah inflation (mehngai) mein kami fed rilif ka baas banti hai."
-  },
-  {
-   "ts": 1786561112.0,
-   "title": "Japanese Yen stumbles as US Dollar strengthens",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-stumbles-as-us-dollar-strengthens-202608121858",
-   "t": "12 Aug \u00b7 11:58 PM",
-   "ur": "US Dollar ke mazboot hone par japani yan thokar kha raha hai."
-  },
-  {
-   "ts": 1786554849.0,
-   "title": "Here are five key takeaways from the July CPI inflation report",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
-   "t": "12 Aug \u00b7 10:14 PM",
-   "ur": "Joli ki CPI inflation (mehngai) ki rport ke panch aham nakat ya hen."
-  },
-  {
-   "ts": 1786553851.0,
-   "title": "British Pound holds near 1.3500 as CPI relief meets Hormuz risk",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-holds-near-13500-as-cpi-relief-meets-hormuz-risk-202608121657",
-   "t": "12 Aug \u00b7 09:57 PM",
-   "ur": "Bartanvi pound 1.3500 ke qarib rakta hai cunkah CPI rilif harmaz ke khatre ko pora karta hai."
-  },
-  {
-   "ts": 1786552881.0,
-   "title": "Australian Dollar slips as US Dollar steadies post CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-slips-as-us-dollar-steadies-post-cpi-202608121641",
-   "t": "12 Aug \u00b7 09:41 PM",
-   "ur": "CPI ke bad US Dollar ke mastahkam hone par aasterilvi Dollar ki qeemat mein kami"
   }
  ],
  "sentiment": {
