@@ -1,16 +1,13 @@
 {
- "updated": "13-08-2026 02:59 PKT",
+ "updated": "13-08-2026 03:37 PKT",
  "gold": {
-  "price": 4408.8,
-  "open": 4368.48,
+  "price": 4400.5,
+  "open": 4375.88,
   "high": 4441.22,
   "low": 4363.38,
-  "chg": 0.92,
+  "chg": 0.56,
   "src": "XAUUSD Spot",
   "spark": [
-   4419.04,
-   4420.58,
-   4414.26,
    4412.21,
    4411.24,
    4414.29,
@@ -55,14 +52,17 @@
    4408.77,
    4408.64,
    4408.85,
-   4408.8
+   4408.82,
+   4403.44,
+   4399.65,
+   4400.5
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.53,
-   "chg": 1.17,
+   "price": 65.26,
+   "chg": 0.76,
    "spark": [
     58.772,
     57.11,
@@ -85,7 +85,7 @@
     63.332,
     65.106,
     64.769,
-    65.53
+    65.26
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 82.58,
-   "chg": -0.75,
+   "price": 82.76,
+   "chg": -0.53,
    "spark": [
     79.34,
     79.6,
@@ -143,7 +143,7 @@
     78.18,
     82.13,
     83.2,
-    82.58
+    82.76
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1526,
-   "chg": -0.18,
+   "price": 1.1529,
+   "chg": -0.15,
    "spark": [
     1.1384,
     1.1425,
@@ -201,42 +201,13 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1526
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3495,
-   "chg": -0.12,
-   "spark": [
-    1.3348,
-    1.3397,
-    1.3541,
-    1.3479,
-    1.3446,
-    1.3432,
-    1.3379,
-    1.3375,
-    1.3313,
-    1.3351,
-    1.329,
-    1.3287,
-    1.3367,
-    1.3461,
-    1.3492,
-    1.3427,
-    1.3451,
-    1.347,
-    1.3455,
-    1.3491,
-    1.3511,
-    1.3495
+    1.1529
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.385,
-   "chg": 0.14,
+   "price": 159.405,
+   "chg": 0.16,
    "spark": [
     162.429,
     162.187,
@@ -259,15 +230,14 @@
     158.409,
     157.891,
     159.156,
-    159.385
+    159.405
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.2,
-   "chg": -0.2,
+   "price": 1876.61,
+   "chg": -0.23,
    "spark": [
-    1874.51,
     1871.15,
     1873.75,
     1876.1,
@@ -314,15 +284,15 @@
     1883.97,
     1877.55,
     1884.62,
-    1877.2
+    1876.12,
+    1876.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63420.2,
-   "chg": -0.19,
+   "price": 63329.0,
+   "chg": -0.33,
    "spark": [
-    63956.2,
     63922.1,
     63989.2,
     64008.0,
@@ -369,7 +339,8 @@
     63313.7,
     63352.6,
     63532.3,
-    63420.2
+    63390.8,
+    63329.0
    ]
   }
  ],
@@ -434,20 +405,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786571948.086878,
+   "ts": 1786574230.683439,
    "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 02:59 AM",
+   "t": "13 Aug \u00b7 03:37 AM",
    "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
   },
   {
-   "ts": 1786571948.086878,
+   "ts": 1786574230.683439,
    "title": "Gold overbought near $4,500 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "13 Aug \u00b7 02:59 AM",
+   "t": "13 Aug \u00b7 03:37 AM",
    "ur": "Gold (sona) $4,500 mazahmat ke qarib ziyadah khareeda."
+  },
+  {
+   "ts": 1786573862.0,
+   "title": "Australian Dollar pulls back as inflation expectations loom",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-pulls-back-as-inflation-expectations-loom-202608122231",
+   "t": "13 Aug \u00b7 03:31 AM",
+   "ur": "Mahungai ki toqaat ke sath aasterilvi Dollar patchhe hat gaya."
   },
   {
    "ts": 1786571934.0,
@@ -504,14 +483,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bullish-with-eyes-on-200-day-sma-202608121915",
    "t": "13 Aug \u00b7 12:15 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG mein tizi, nazarin 200-day SMA"
-  },
-  {
-   "ts": 1786561532.0,
-   "title": "Gold price shines above $4,400 as inflation dip fuels Fed relief",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-shines-above-4-400-as-inflation-dip-fuels-fed-relief-202608121905",
-   "t": "13 Aug \u00b7 12:05 AM",
-   "ur": "Gold (sone) ki qeemat $4,400 se oper chamakti hai cunkah inflation (mehngai) mein kami fed rilif ka baas banti hai."
   }
  ],
  "sentiment": {
