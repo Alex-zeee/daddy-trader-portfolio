@@ -1,19 +1,13 @@
 {
- "updated": "12-08-2026 17:07 PKT",
+ "updated": "12-08-2026 18:40 PKT",
  "gold": {
-  "price": 4408.26,
-  "open": 4396.04,
-  "high": 4423.41,
+  "price": 4414.75,
+  "open": 4400.09,
+  "high": 4441.22,
   "low": 4361.29,
-  "chg": 0.28,
+  "chg": 0.33,
   "src": "XAUUSD Spot",
   "spark": [
-   4380.01,
-   4381.31,
-   4380.62,
-   4390.3,
-   4391.16,
-   4391.8,
    4396.11,
    4402.0,
    4402.48,
@@ -55,14 +49,20 @@
    4414.29,
    4412.39,
    4413.41,
-   4408.26
+   4407.66,
+   4415.41,
+   4437.32,
+   4435.25,
+   4423.65,
+   4417.31,
+   4414.75
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.485,
-   "chg": 2.65,
+   "price": 66.02,
+   "chg": 1.93,
    "spark": [
     58.772,
     57.11,
@@ -85,26 +85,28 @@
     63.332,
     65.106,
     64.769,
-    66.485
+    66.02
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.777,
-   "chg": -0.04,
+   "price": 99.681,
+   "chg": -0.14,
    "spark": [
-    101.28,
     100.94,
     100.5,
     100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.777
+    99.681
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.63,
-   "chg": 0.52,
+   "price": 82.96,
+   "chg": -0.29,
    "spark": [
     79.34,
     79.6,
@@ -141,33 +143,42 @@
     78.18,
     82.13,
     83.2,
-    83.63
+    82.96
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.684,
-   "chg": -0.32,
+   "price": 4.658,
+   "chg": -0.56,
    "spark": [
+    4.585,
+    4.545,
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
     4.67,
     4.66,
     4.699,
-    4.684
+    4.684,
+    4.658
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1547,
-   "chg": 0.01,
+   "price": 1.1553,
+   "chg": 0.05,
    "spark": [
     1.1384,
     1.1425,
@@ -190,13 +201,13 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1547
+    1.1553
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3525,
-   "chg": 0.1,
+   "price": 1.3521,
+   "chg": 0.07,
    "spark": [
     1.3348,
     1.3397,
@@ -219,13 +230,13 @@
     1.3455,
     1.3491,
     1.3511,
-    1.3525
+    1.3521
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.079,
-   "chg": -0.05,
+   "price": 158.958,
+   "chg": -0.12,
    "spark": [
     162.429,
     162.187,
@@ -248,15 +259,14 @@
     158.409,
     157.891,
     159.156,
-    159.079
+    158.958
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1913.69,
-   "chg": 1.74,
+   "price": 1901.13,
+   "chg": 1.07,
    "spark": [
-    1895.68,
     1891.82,
     1875.59,
     1870.16,
@@ -303,15 +313,15 @@
     1903.93,
     1907.33,
     1913.77,
-    1913.69
+    1909.0,
+    1901.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64195.5,
-   "chg": 1.03,
+   "price": 63838.0,
+   "chg": 0.47,
    "spark": [
-    64510.4,
     64570.1,
     64231.7,
     63831.5,
@@ -358,7 +368,8 @@
     64033.9,
     64083.4,
     64164.9,
-    64195.5
+    64068.7,
+    63838.0
    ]
   }
  ],
@@ -447,28 +458,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786536431.623446,
+   "ts": 1786542055.612582,
    "title": "Gold sits above $4,400 as investors await U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
-   "t": "12 Aug \u00b7 05:07 PM",
+   "t": "12 Aug \u00b7 06:40 PM",
    "ur": "Gold (sona) $4,400 se oper betha hai cunkah sarmaya kar US inflation (mehngai) ke aed w shmar ka antezar kar rahe hen."
   },
   {
-   "ts": 1786536431.623446,
+   "ts": 1786542055.612582,
    "title": "Silver could surge to $90 as investment demand takes over, Citi says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-surge-to-90-as-investment-demand-takes-over-citi-says-4854387",
-   "t": "12 Aug \u00b7 05:07 PM",
+   "t": "12 Aug \u00b7 06:40 PM",
    "ur": "Citi ka kahana hai kah sarmaya kari ki talab khtam hone par Silver (chandi) $90 tak badh sakti hai."
   },
   {
-   "ts": 1786536431.623446,
-   "title": "Morning Bid: Inflation obscures all",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/morning-bid-inflation-obscures-all-4854328",
-   "t": "12 Aug \u00b7 05:07 PM",
-   "ur": "Sabah ki boli: mahungai sab ko dhandila diti hai."
+   "ts": 1786538762.0,
+   "title": "Euro remains little changed as US CPI fails to surprise the markets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-remains-little-changed-as-us-cpi-fails-to-surprise-the-markets-202608121246",
+   "t": "12 Aug \u00b7 05:46 PM",
+   "ur": "Uro thoda sa badila hawa hai cunkah US CPI marketon ko heeran karne mein naakam hai."
+  },
+  {
+   "ts": 1786538680.0,
+   "title": "AI\u2019s costly buildout complicates the Fed\u2019s inflation fight",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
+   "t": "12 Aug \u00b7 05:44 PM",
+   "ur": "AI ki mahungi taumer fed ki inflation (mehngai) ki larai ko patcheedah banati hai."
+  },
+  {
+   "ts": 1786537577.0,
+   "title": "Australian Dollar: Gradual gains against US Dollar remain likely \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-gradual-gains-against-us-dollar-remain-likely-mufg-202608121226",
+   "t": "12 Aug \u00b7 05:26 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein btadarage azafe ka amkan hai \u2013 MUFG"
+  },
+  {
+   "ts": 1786536864.0,
+   "title": "US Dollar: Soft CPI risks weigh on outlook \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-soft-cpi-risks-weigh-on-outlook-ing-202608121214",
+   "t": "12 Aug \u00b7 05:14 PM",
+   "ur": "US Dollar: narm CPI ke khatrat oat lak par wazin ruktey hen - ING"
   },
   {
    "ts": 1786536293.0,
@@ -501,30 +536,6 @@
    "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-biding-its-time-near-11550-awaiting-us-cpi-numbers-202608121147",
    "t": "12 Aug \u00b7 04:47 PM",
    "ur": "EUR/USD qeemat ki forecast: 1.1550 ke qarib apana waqat te karna, US CPI nambron ka antezar"
-  },
-  {
-   "ts": 1786533602.0,
-   "title": "US Dollar: Inflation data and Middle East risks \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-inflation-data-and-middle-east-risks-commerzbank-202608121120",
-   "t": "12 Aug \u00b7 04:20 PM",
-   "ur": "US Dollar: inflation (mehngai) ke aed w shmar aur masharq wasti ke khatrat - kamers Bank"
-  },
-  {
-   "ts": 1786532401.0,
-   "title": "AI\u2019s costly buildout complicates the Fed\u2019s inflation fight",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
-   "t": "12 Aug \u00b7 04:00 PM",
-   "ur": "AI ki mahungi taumer fed ki inflation (mehngai) ki larai ko patcheedah banati hai."
-  },
-  {
-   "ts": 1786531872.0,
-   "title": "Gold rises above $4,400 as US inflation data takes centre stage",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rises-above-4-400-as-us-inflation-data-takes-centre-stage-202608121051",
-   "t": "12 Aug \u00b7 03:51 PM",
-   "ur": "Gold (sona) $4,400 se oper badhta hai cunkah US inflation (mehngai) ke aed w shmar markaz ke marhale mein aate hen."
   }
  ],
  "sentiment": {
