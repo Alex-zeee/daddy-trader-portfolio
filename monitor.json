@@ -1,16 +1,13 @@
 {
- "updated": "12-08-2026 16:28 PKT",
+ "updated": "12-08-2026 17:07 PKT",
  "gold": {
-  "price": 4410.8,
-  "open": 4387.34,
+  "price": 4408.26,
+  "open": 4396.04,
   "high": 4423.41,
   "low": 4361.29,
-  "chg": 0.53,
+  "chg": 0.28,
   "src": "XAUUSD Spot",
   "spark": [
-   4367.87,
-   4371.35,
-   4376.98,
    4380.01,
    4381.31,
    4380.62,
@@ -55,14 +52,17 @@
    4414.26,
    4412.21,
    4411.24,
-   4410.8
+   4414.29,
+   4412.39,
+   4413.41,
+   4408.26
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.385,
-   "chg": 2.5,
+   "price": 66.485,
+   "chg": 2.65,
    "spark": [
     58.772,
     57.11,
@@ -85,13 +85,13 @@
     63.332,
     65.106,
     64.769,
-    66.385
+    66.485
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.846,
-   "chg": 0.03,
+   "price": 99.777,
+   "chg": -0.04,
    "spark": [
     101.28,
     100.94,
@@ -112,13 +112,13 @@
     99.6,
     99.81,
     99.82,
-    99.846
+    99.777
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.48,
-   "chg": 0.34,
+   "price": 83.63,
+   "chg": 0.52,
    "spark": [
     79.34,
     79.6,
@@ -141,7 +141,7 @@
     78.18,
     82.13,
     83.2,
-    83.48
+    83.63
    ]
   },
   {
@@ -149,21 +149,12 @@
    "price": 4.684,
    "chg": -0.32,
    "spark": [
-    4.609,
-    4.585,
-    4.545,
-    4.569,
-    4.541,
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -175,8 +166,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1542,
-   "chg": -0.04,
+   "price": 1.1547,
+   "chg": 0.01,
    "spark": [
     1.1384,
     1.1425,
@@ -199,13 +190,13 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1542
+    1.1547
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3519,
-   "chg": 0.06,
+   "price": 1.3525,
+   "chg": 0.1,
    "spark": [
     1.3348,
     1.3397,
@@ -228,13 +219,13 @@
     1.3455,
     1.3491,
     1.3511,
-    1.3519
+    1.3525
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.116,
-   "chg": -0.03,
+   "price": 159.079,
+   "chg": -0.05,
    "spark": [
     162.429,
     162.187,
@@ -257,15 +248,14 @@
     158.409,
     157.891,
     159.156,
-    159.116
+    159.079
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1911.24,
-   "chg": 1.61,
+   "price": 1913.69,
+   "chg": 1.74,
    "spark": [
-    1904.1,
     1895.68,
     1891.82,
     1875.59,
@@ -312,15 +302,15 @@
     1888.83,
     1903.93,
     1907.33,
-    1911.24
+    1913.77,
+    1913.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64135.2,
-   "chg": 0.93,
+   "price": 64195.5,
+   "chg": 1.03,
    "spark": [
-    64813.8,
     64510.4,
     64570.1,
     64231.7,
@@ -367,7 +357,8 @@
     63727.7,
     64033.9,
     64083.4,
-    64135.2
+    64164.9,
+    64195.5
    ]
   }
  ],
@@ -456,20 +447,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786534112.041777,
+   "ts": 1786536431.623446,
+   "title": "Gold sits above $4,400 as investors await U.S. inflation data",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
+   "t": "12 Aug \u00b7 05:07 PM",
+   "ur": "Gold (sona) $4,400 se oper betha hai cunkah sarmaya kar US inflation (mehngai) ke aed w shmar ka antezar kar rahe hen."
+  },
+  {
+   "ts": 1786536431.623446,
    "title": "Silver could surge to $90 as investment demand takes over, Citi says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-surge-to-90-as-investment-demand-takes-over-citi-says-4854387",
-   "t": "12 Aug \u00b7 04:28 PM",
+   "t": "12 Aug \u00b7 05:07 PM",
    "ur": "Citi ka kahana hai kah sarmaya kari ki talab khtam hone par Silver (chandi) $90 tak badh sakti hai."
   },
   {
-   "ts": 1786534112.041777,
+   "ts": 1786536431.623446,
    "title": "Morning Bid: Inflation obscures all",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-inflation-obscures-all-4854328",
-   "t": "12 Aug \u00b7 04:28 PM",
+   "t": "12 Aug \u00b7 05:07 PM",
    "ur": "Sabah ki boli: mahungai sab ko dhandila diti hai."
+  },
+  {
+   "ts": 1786536293.0,
+   "title": "Japanese Yen: Intervention doubts as flows favor US Dollar \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-doubts-as-flows-favor-us-dollar-bny-202608121204",
+   "t": "12 Aug \u00b7 05:04 PM",
+   "ur": "Japani yan: madakhalt shkok w shabhat cunkah bahao US Dollar ke haq mein hai \u2013 BNY"
+  },
+  {
+   "ts": 1786535804.0,
+   "title": "New Zealand Dollar slides as Middle East tensions give US Dollar the upper hand",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-slides-as-middle-east-tensions-give-us-dollar-the-upper-hand-202608121156",
+   "t": "12 Aug \u00b7 04:56 PM",
+   "ur": "Niyozi lind Dollar ki qeemat mein kami waqa hoi hai cunkah masharq wasta ki kasheedgi ne US Dollar ko operi hath diya hai."
+  },
+  {
+   "ts": 1786535378.0,
+   "title": "United States Dollar Index trades calmly ahead of US Inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-trades-calmly-ahead-of-us-inflation-data-202608121149",
+   "t": "12 Aug \u00b7 04:49 PM",
+   "ur": "Ryastahaye matehdah ka Dollar andex US inflation (mehngai) ke aed w shmar se pehle parsakon tajart karta hai."
+  },
+  {
+   "ts": 1786535277.0,
+   "title": "EUR/USD Price Forecast: Biding its time near 1.1550, awaiting US CPI numbers",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-biding-its-time-near-11550-awaiting-us-cpi-numbers-202608121147",
+   "t": "12 Aug \u00b7 04:47 PM",
+   "ur": "EUR/USD qeemat ki forecast: 1.1550 ke qarib apana waqat te karna, US CPI nambron ka antezar"
   },
   {
    "ts": 1786533602.0,
@@ -494,46 +525,6 @@
    "link": "https://www.fxstreet.com/news/gold-rises-above-4-400-as-us-inflation-data-takes-centre-stage-202608121051",
    "t": "12 Aug \u00b7 03:51 PM",
    "ur": "Gold (sona) $4,400 se oper badhta hai cunkah US inflation (mehngai) ke aed w shmar markaz ke marhale mein aate hen."
-  },
-  {
-   "ts": 1786531663.0,
-   "title": "Yen attempts to bounce up from 159.45 lows ahead of the US inflation release",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/yen-attempts-to-bounce-up-from-15945-lows-ahead-of-the-us-inflation-release-202608121047",
-   "t": "12 Aug \u00b7 03:47 PM",
-   "ur": "US inflation (mehngai) ki rilies se pehle yan 159.45 ki kam tarin sath se achalne ki koshash kar raha hai."
-  },
-  {
-   "ts": 1786531294.0,
-   "title": "Indian inflation accelerates to 4.45% in July, slightly below expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-inflation-accelerates-to-445-in-july-slightly-below-expectations-202608121041",
-   "t": "12 Aug \u00b7 03:41 PM",
-   "ur": "Handostani inflation (mehngai) joli mein 4.45% tak pohch gaya, toqaat se qadare kam"
-  },
-  {
-   "ts": 1786530921.0,
-   "title": "Australian Dollar outperforms despite RBA\u2019s hawkish tone fails to sway markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-outperforms-despite-rbas-hawkish-tone-fails-to-sway-markets-202608121035",
-   "t": "12 Aug \u00b7 03:35 PM",
-   "ur": "Aasterilvi Dollar ne aar bi aye ke saqt lahaje ke bawajud marketon ko matasar karne mein naakami ke bawajud behtar karkardgi ka mazaharah kiya"
-  },
-  {
-   "ts": 1786528966.0,
-   "title": "Euro: Soft US CPI could support gains against US Dollar \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-soft-us-cpi-could-support-gains-against-us-dollar-ing-202608121002",
-   "t": "12 Aug \u00b7 03:02 PM",
-   "ur": "Uro: narm US CPI US Dollar - ING ke maqable mein fawaid ki support kar sakta hai."
-  },
-  {
-   "ts": 1786528471.0,
-   "title": "US Dollar: Fed pricing and CPI risks \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fed-pricing-and-cpi-risks-bbh-202608120954",
-   "t": "12 Aug \u00b7 02:54 PM",
-   "ur": "US Dollar: fed qeemton ka tayin aur CPI ke khatrat - BBH"
   }
  ],
  "sentiment": {
