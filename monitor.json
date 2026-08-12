@@ -1,17 +1,13 @@
 {
- "updated": "12-08-2026 19:41 PKT",
+ "updated": "12-08-2026 20:35 PKT",
  "gold": {
-  "price": 4417.46,
-  "open": 4394.55,
+  "price": 4420.47,
+  "open": 4373.91,
   "high": 4441.22,
   "low": 4361.29,
-  "chg": 0.52,
+  "chg": 1.06,
   "src": "XAUUSD Spot",
   "spark": [
-   4412.27,
-   4413.03,
-   4407.44,
-   4402.18,
    4402.31,
    4396.94,
    4397.85,
@@ -55,14 +51,18 @@
    4430.94,
    4434.17,
    4438.09,
-   4417.46
+   4422.45,
+   4421.41,
+   4428.72,
+   4421.81,
+   4420.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.25,
-   "chg": 2.29,
+   "price": 66.05,
+   "chg": 1.98,
    "spark": [
     58.772,
     57.11,
@@ -85,13 +85,13 @@
     63.332,
     65.106,
     64.769,
-    66.25
+    66.05
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.769,
-   "chg": -0.05,
+   "price": 99.82,
+   "chg": 0.0,
    "spark": [
     100.94,
     100.5,
@@ -114,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.769
+    99.82
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.68,
-   "chg": -0.62,
+   "price": 83.17,
+   "chg": -0.04,
    "spark": [
     79.34,
     79.6,
@@ -143,13 +143,13 @@
     78.18,
     82.13,
     83.2,
-    82.68
+    83.17
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.664,
-   "chg": -0.43,
+   "price": 4.67,
+   "chg": -0.3,
    "spark": [
     4.585,
     4.545,
@@ -172,13 +172,13 @@
     4.66,
     4.699,
     4.684,
-    4.664
+    4.67
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1551,
-   "chg": 0.04,
+   "price": 1.1543,
+   "chg": -0.03,
    "spark": [
     1.1384,
     1.1425,
@@ -201,13 +201,13 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1551
+    1.1543
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3517,
-   "chg": 0.04,
+   "price": 1.3508,
+   "chg": -0.02,
    "spark": [
     1.3348,
     1.3397,
@@ -230,13 +230,13 @@
     1.3455,
     1.3491,
     1.3511,
-    1.3517
+    1.3508
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.15,
-   "chg": -0.0,
+   "price": 159.246,
+   "chg": 0.06,
    "spark": [
     162.429,
     162.187,
@@ -259,15 +259,14 @@
     158.409,
     157.891,
     159.156,
-    159.15
+    159.246
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1888.99,
-   "chg": 0.42,
+   "price": 1894.03,
+   "chg": 0.69,
    "spark": [
-    1875.59,
     1870.16,
     1871.88,
     1870.91,
@@ -314,15 +313,15 @@
     1913.77,
     1909.0,
     1899.36,
-    1888.99
+    1885.07,
+    1893.66
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63505.9,
-   "chg": -0.06,
+   "price": 63450.0,
+   "chg": -0.14,
    "spark": [
-    64231.7,
     63831.5,
     63879.7,
     63835.9,
@@ -369,43 +368,12 @@
     64164.9,
     64068.7,
     63781.0,
-    63505.9
+    63307.1,
+    63450.0
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1786537800.0,
-   "t": "Wed 12 Aug \u00b7 05:30 PM",
-   "title": "Core CPI m/m",
-   "impact": "High",
-   "forecast": "0.2%",
-   "previous": "0.0%"
-  },
-  {
-   "ts": 1786537800.0,
-   "t": "Wed 12 Aug \u00b7 05:30 PM",
-   "title": "Core CPI y/y",
-   "impact": "High",
-   "forecast": "2.5%",
-   "previous": "2.6%"
-  },
-  {
-   "ts": 1786537800.0,
-   "t": "Wed 12 Aug \u00b7 05:30 PM",
-   "title": "CPI m/m",
-   "impact": "High",
-   "forecast": "0.1%",
-   "previous": "-0.4%"
-  },
-  {
-   "ts": 1786537800.0,
-   "t": "Wed 12 Aug \u00b7 05:30 PM",
-   "title": "CPI y/y",
-   "impact": "High",
-   "forecast": "3.4%",
-   "previous": "3.5%"
-  },
   {
    "ts": 1786624200.0,
    "t": "Thu 13 Aug \u00b7 05:30 PM",
@@ -453,33 +421,57 @@
    "impact": "Medium",
    "forecast": "54.7",
    "previous": "54.4"
+  },
+  {
+   "ts": 1786716000.0,
+   "t": "Fri 14 Aug \u00b7 07:00 PM",
+   "title": "Prelim UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.2%"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786545708.652718,
+   "ts": 1786548955.772737,
    "title": "Gold sits above $4,400 as investors digest U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
-   "t": "12 Aug \u00b7 07:41 PM",
+   "t": "12 Aug \u00b7 08:35 PM",
    "ur": "Gold (sona) $4,400 se oper betha hai cunkah sarmaya kar US inflation (mehngai) ke aed w shmar ko hazam karte hen."
   },
   {
-   "ts": 1786545708.652718,
-   "title": "Silver could surge to $90 as investment demand takes over, Citi says",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-could-surge-to-90-as-investment-demand-takes-over-citi-says-4854387",
-   "t": "12 Aug \u00b7 07:41 PM",
-   "ur": "Citi ka kahana hai kah sarmaya kari ki talab khtam hone par Silver (chandi) $90 tak badh sakti hai."
-  },
-  {
-   "ts": 1786544470.0,
+   "ts": 1786548192.0,
    "title": "AI\u2019s costly build-out complicates the Fed\u2019s inflation fight",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
-   "t": "12 Aug \u00b7 07:21 PM",
+   "t": "12 Aug \u00b7 08:23 PM",
    "ur": "AI ki mahungi taumer Fed ki inflation (mehngai) ki larai ko patcheedah banati hai."
+  },
+  {
+   "ts": 1786547994.0,
+   "title": "Japanese Yen pares gains against US Dollar as markets digest US CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-pares-gains-against-us-dollar-as-markets-digest-us-cpi-202608121519",
+   "t": "12 Aug \u00b7 08:19 PM",
+   "ur": "Japani yan US Dollar ke maqable mein faidah atha raha hai cunkah marketen US CPI ko hazam kar rahi hen."
+  },
+  {
+   "ts": 1786547125.0,
+   "title": "Silver jumps more than 2% after US inflation meets expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-jumps-more-than-2-after-us-inflation-meets-expectations-202608121505",
+   "t": "12 Aug \u00b7 08:05 PM",
+   "ur": "US inflation (mehngai) toqaat par pora atrne ke bad Silver (chandi) mein 2 fisad se ziyadah ka azafah hawa."
+  },
+  {
+   "ts": 1786547067.0,
+   "title": "US Dollar: Bearish momentum extends after CPI \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-bearish-momentum-extends-after-cpi-td-securities-202608121504",
+   "t": "12 Aug \u00b7 08:04 PM",
+   "ur": "US Dollar: CPI \u2013 TD securitez ke bad mandi ki raftar mein tosi"
   },
   {
    "ts": 1786543642.0,
@@ -520,22 +512,6 @@
    "link": "https://www.fxstreet.com/news/euro-remains-little-changed-as-us-cpi-fails-to-surprise-the-markets-202608121246",
    "t": "12 Aug \u00b7 05:46 PM",
    "ur": "Uro thoda sa badila hawa hai cunkah US CPI marketon ko heeran karne mein naakam hai."
-  },
-  {
-   "ts": 1786537577.0,
-   "title": "Australian Dollar: Gradual gains against US Dollar remain likely \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-gradual-gains-against-us-dollar-remain-likely-mufg-202608121226",
-   "t": "12 Aug \u00b7 05:26 PM",
-   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein btadarage azafe ka amkan hai \u2013 MUFG"
-  },
-  {
-   "ts": 1786536864.0,
-   "title": "US Dollar: Soft CPI risks weigh on outlook \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-soft-cpi-risks-weigh-on-outlook-ing-202608121214",
-   "t": "12 Aug \u00b7 05:14 PM",
-   "ur": "US Dollar: narm CPI ke khatrat oat lak par wazin ruktey hen - ING"
   }
  ],
  "sentiment": {
