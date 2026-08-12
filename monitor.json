@@ -1,16 +1,13 @@
 {
- "updated": "12-08-2026 04:22 PKT",
+ "updated": "12-08-2026 05:04 PKT",
  "gold": {
-  "price": 4372.61,
-  "open": 4395.3,
+  "price": 4366.89,
+  "open": 4405.28,
   "high": 4434.79,
   "low": 4356.49,
-  "chg": -0.52,
+  "chg": -0.87,
   "src": "XAUUSD Spot",
   "spark": [
-   4385.53,
-   4388.62,
-   4396.73,
    4390.99,
    4394.78,
    4394.62,
@@ -55,14 +52,17 @@
    4375.82,
    4370.27,
    4368.54,
-   4372.61
+   4372.51,
+   4367.87,
+   4371.35,
+   4366.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.965,
-   "chg": -0.22,
+   "price": 64.92,
+   "chg": -0.29,
    "spark": [
     57.634,
     58.772,
@@ -85,7 +85,7 @@
     61.439,
     63.332,
     65.106,
-    64.965
+    64.92
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 83.52,
-   "chg": 1.69,
+   "price": 83.44,
+   "chg": 1.6,
    "spark": [
     78.14,
     79.34,
@@ -143,7 +143,7 @@
     77.29,
     78.18,
     82.13,
-    83.52
+    83.44
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1546,
-   "chg": -0.0,
+   "price": 1.1547,
+   "chg": 0.01,
    "spark": [
     1.1384,
     1.1425,
@@ -201,13 +201,13 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1546
+    1.1547
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.351,
-   "chg": -0.01,
+   "price": 1.3511,
+   "chg": 0.0,
    "spark": [
     1.3348,
     1.3397,
@@ -230,13 +230,13 @@
     1.3455,
     1.3491,
     1.3511,
-    1.351
+    1.3511
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.288,
-   "chg": 0.08,
+   "price": 159.234,
+   "chg": 0.05,
    "spark": [
     162.429,
     162.187,
@@ -259,15 +259,14 @@
     158.409,
     157.891,
     159.156,
-    159.288
+    159.234
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.77,
-   "chg": 0.35,
+   "price": 1880.09,
+   "chg": -0.05,
    "spark": [
-    1911.0,
     1923.24,
     1922.14,
     1915.12,
@@ -314,15 +313,15 @@
     1880.49,
     1883.3,
     1880.94,
-    1877.77
+    1881.01,
+    1880.09
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63517.1,
-   "chg": -0.63,
+   "price": 63528.3,
+   "chg": -0.02,
    "spark": [
-    64914.5,
     65141.0,
     65046.1,
     64917.4,
@@ -369,7 +368,8 @@
     63682.9,
     63623.7,
     63620.5,
-    63517.1
+    63541.1,
+    63528.3
    ]
   }
  ],
@@ -458,11 +458,11 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786490544.950285,
+   "ts": 1786493063.683145,
    "title": "Gold pulls back from over two-month high amid rising oil, caution ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "12 Aug \u00b7 04:22 AM",
+   "t": "12 Aug \u00b7 05:04 AM",
    "ur": "Badhti hoi til ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya, CPI se pehle ahtyat"
   },
   {
@@ -539,7 +539,7 @@
   }
  ],
  "sentiment": {
-  "value": 29,
+  "value": 27,
   "label": "Fear"
  },
  "err": null
