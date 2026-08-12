@@ -1,17 +1,13 @@
 {
- "updated": "12-08-2026 23:32 PKT",
+ "updated": "13-08-2026 00:45 PKT",
  "gold": {
-  "price": 4409.64,
-  "open": 4369.91,
+  "price": 4411.83,
+  "open": 4368.51,
   "high": 4441.22,
-  "low": 4361.86,
-  "chg": 0.91,
+  "low": 4363.38,
+  "chg": 0.99,
   "src": "XAUUSD Spot",
   "spark": [
-   4403.69,
-   4405.78,
-   4402.6,
-   4408.5,
    4405.57,
    4408.83,
    4406.33,
@@ -55,14 +51,18 @@
    4399.84,
    4405.72,
    4407.9,
-   4409.64
+   4412.72,
+   4413.24,
+   4416.65,
+   4415.97,
+   4411.83
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.665,
-   "chg": 1.38,
+   "price": 65.59,
+   "chg": 1.27,
    "spark": [
     58.772,
     57.11,
@@ -85,13 +85,13 @@
     63.332,
     65.106,
     64.769,
-    65.665
+    65.59
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.979,
-   "chg": 0.16,
+   "price": 100.007,
+   "chg": 0.19,
    "spark": [
     100.94,
     100.5,
@@ -114,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.979
+    100.007
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.01,
-   "chg": -0.23,
+   "price": 82.97,
+   "chg": -0.28,
    "spark": [
     79.34,
     79.6,
@@ -143,28 +143,20 @@
     78.18,
     82.13,
     83.2,
-    83.01
+    82.97
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.68,
-   "chg": -0.09,
+   "price": 4.682,
+   "chg": -0.04,
    "spark": [
-    4.585,
-    4.545,
-    4.569,
-    4.541,
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -172,7 +164,7 @@
     4.66,
     4.699,
     4.684,
-    4.68
+    4.682
    ]
   },
   {
@@ -206,8 +198,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3493,
-   "chg": -0.13,
+   "price": 1.3491,
+   "chg": -0.15,
    "spark": [
     1.3348,
     1.3397,
@@ -230,13 +222,13 @@
     1.3455,
     1.3491,
     1.3511,
-    1.3493
+    1.3491
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.479,
-   "chg": 0.2,
+   "price": 159.493,
+   "chg": 0.21,
    "spark": [
     162.429,
     162.187,
@@ -259,15 +251,14 @@
     158.409,
     157.891,
     159.156,
-    159.479
+    159.493
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1887.26,
-   "chg": 0.33,
+   "price": 1877.89,
+   "chg": -0.17,
    "spark": [
-    1876.6,
     1878.03,
     1872.55,
     1874.51,
@@ -314,15 +305,15 @@
     1890.64,
     1888.79,
     1886.66,
-    1887.26
+    1883.97,
+    1877.89
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63419.9,
-   "chg": -0.19,
+   "price": 63270.0,
+   "chg": -0.43,
    "spark": [
-    63975.7,
     64098.1,
     63932.1,
     63956.2,
@@ -369,7 +360,8 @@
     63376.2,
     63421.3,
     63409.3,
-    63419.9
+    63313.7,
+    63270.0
    ]
   }
  ],
@@ -434,12 +426,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786559548.364416,
-   "title": "Gold sits above $4,400 as investors digest U.S. inflation data",
+   "ts": 1786563906.351205,
+   "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
+   "t": "13 Aug \u00b7 12:45 AM",
+   "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
+  },
+  {
+   "ts": 1786563906.351205,
+   "title": "Gold overbought near $4,500 resistance: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
+   "t": "13 Aug \u00b7 12:45 AM",
+   "ur": "Gold (sona) $4,500 mazahmat ke qarib ziyadah khareeda."
+  },
+  {
+   "ts": 1786563906.351205,
+   "title": "Gold prices up around 1% as traders pare Fed rate hike bets after in-line July CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
-   "t": "12 Aug \u00b7 11:32 PM",
-   "ur": "Gold (sona) $4,400 se oper betha hai cunkah sarmaya kar US inflation (mehngai) ke aed w shmar ko hazam karte hen."
+   "t": "13 Aug \u00b7 12:45 AM",
+   "ur": "Gold (sone) ki qeemton mein taqriban 1% ka azafah hawa cunkah taajron ne joli ki an lin CPI ke bad Fed ki rate mein azafe ki shart laga di"
+  },
+  {
+   "ts": 1786563428.0,
+   "title": "Chinese Yuan: Range trade and upside risk against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-and-upside-risk-against-us-dollar-uob-202608121937",
+   "t": "13 Aug \u00b7 12:37 AM",
+   "ur": "Chini uan: had tajart aur US Dollar ke maqable mein alta khatrah - UOB"
+  },
+  {
+   "ts": 1786562919.0,
+   "title": "Forex Today: US Dollar firms ahead of a packed session",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-a-packed-session-202608121928",
+   "t": "13 Aug \u00b7 12:28 AM",
+   "ur": "Farex today: ek bhare sition se pehle US Dollar ki farmin"
+  },
+  {
+   "ts": 1786562127.0,
+   "title": "Silver Price Forecast: XAG turns bullish, eyes 200-day SMA",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bullish-with-eyes-on-200-day-sma-202608121915",
+   "t": "13 Aug \u00b7 12:15 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG mein tizi, nazarin 200-day SMA"
+  },
+  {
+   "ts": 1786561532.0,
+   "title": "Gold price shines above $4,400 as inflation dip fuels Fed relief",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-shines-above-4-400-as-inflation-dip-fuels-fed-relief-202608121905",
+   "t": "13 Aug \u00b7 12:05 AM",
+   "ur": "Gold (sone) ki qeemat $4,400 se oper chamakti hai cunkah inflation (mehngai) mein kami fed rilif ka baas banti hai."
+  },
+  {
+   "ts": 1786561112.0,
+   "title": "Japanese Yen stumbles as US Dollar strengthens",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-stumbles-as-us-dollar-strengthens-202608121858",
+   "t": "12 Aug \u00b7 11:58 PM",
+   "ur": "US Dollar ke mazboot hone par japani yan thokar kha raha hai."
   },
   {
    "ts": 1786554849.0,
@@ -456,62 +504,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-holds-near-13500-as-cpi-relief-meets-hormuz-risk-202608121657",
    "t": "12 Aug \u00b7 09:57 PM",
    "ur": "Bartanvi pound 1.3500 ke qarib rakta hai cunkah CPI rilif harmaz ke khatre ko pora karta hai."
-  },
-  {
-   "ts": 1786552881.0,
-   "title": "Australian Dollar slips as US Dollar steadies post CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-slips-as-us-dollar-steadies-post-cpi-202608121641",
-   "t": "12 Aug \u00b7 09:41 PM",
-   "ur": "CPI ke bad US Dollar ke mastahkam hone par aasterilvi Dollar ki qeemat mein kami"
-  },
-  {
-   "ts": 1786551420.0,
-   "title": "Singapore Dollar: Strong Singapore growth supports SGD against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-strong-singapore-growth-supports-sgd-against-us-dollar-commerzbank-202608121617",
-   "t": "12 Aug \u00b7 09:17 PM",
-   "ur": "Sangapor Dollar: sangapor ki mazboot namo US Dollar ke maqable SGD ki support karti hai \u2013 Commerzbank"
-  },
-  {
-   "ts": 1786550437.0,
-   "title": "New Zealand Dollar struggles as political uncertainty overshadows US inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-as-political-uncertainty-overshadows-us-inflation-202608121600",
-   "t": "12 Aug \u00b7 09:00 PM",
-   "ur": "Niyozi lind Dollar siyasi be yaqeeni ki wajah se jadojehad kar raha hai cunkah US inflation (mehngai) par chhaya hawa hai."
-  },
-  {
-   "ts": 1786550433.0,
-   "title": "Cooler inflation buys the Dow Jones Industrial Average nothing",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/cooler-inflation-buys-the-dow-jones-industrial-average-nothing-202608121600",
-   "t": "12 Aug \u00b7 09:00 PM",
-   "ur": "Thandi inflation (mehngai) ne dou joons andistril everage ko kach nihen khareeda."
-  },
-  {
-   "ts": 1786548192.0,
-   "title": "AI\u2019s costly build-out complicates the Fed\u2019s inflation fight",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
-   "t": "12 Aug \u00b7 08:23 PM",
-   "ur": "AI ki mahungi taumer Fed ki inflation (mehngai) ki larai ko patcheedah banati hai."
-  },
-  {
-   "ts": 1786547994.0,
-   "title": "Japanese Yen pares gains against US Dollar as markets digest US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-pares-gains-against-us-dollar-as-markets-digest-us-cpi-202608121519",
-   "t": "12 Aug \u00b7 08:19 PM",
-   "ur": "Japani yan US Dollar ke maqable mein faidah atha raha hai cunkah marketen US CPI ko hazam kar rahi hen."
-  },
-  {
-   "ts": 1786547125.0,
-   "title": "Silver jumps more than 2% after US inflation meets expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-jumps-more-than-2-after-us-inflation-meets-expectations-202608121505",
-   "t": "12 Aug \u00b7 08:05 PM",
-   "ur": "US inflation (mehngai) toqaat par pora atrne ke bad Silver (chandi) mein 2 fisad se ziyadah ka azafah hawa."
   }
  ],
  "sentiment": {
