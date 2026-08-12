@@ -1,19 +1,13 @@
 {
- "updated": "12-08-2026 09:26 PKT",
+ "updated": "12-08-2026 10:51 PKT",
  "gold": {
-  "price": 4397.59,
-  "open": 4413.61,
-  "high": 4420.65,
+  "price": 4386.05,
+  "open": 4373.48,
+  "high": 4415.01,
   "low": 4356.49,
-  "chg": -0.36,
+  "chg": 0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4384.89,
-   4384.12,
-   4381.86,
-   4379.53,
-   4377.3,
-   4371.92,
    4363.27,
    4363.21,
    4370.95,
@@ -55,14 +49,20 @@
    4402.18,
    4402.31,
    4396.94,
-   4397.59
+   4397.85,
+   4399.4,
+   4400.89,
+   4402.38,
+   4393.8,
+   4389.74,
+   4386.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.345,
-   "chg": 0.89,
+   "price": 65.35,
+   "chg": 0.9,
    "spark": [
     58.772,
     57.11,
@@ -85,13 +85,13 @@
     63.332,
     65.106,
     64.769,
-    65.345
+    65.35
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.898,
-   "chg": 0.08,
+   "price": 99.881,
+   "chg": 0.06,
    "spark": [
     100.94,
     100.5,
@@ -114,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.898
+    99.881
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.06,
-   "chg": 1.03,
+   "price": 83.68,
+   "chg": 0.58,
    "spark": [
     79.34,
     79.6,
@@ -143,7 +143,7 @@
     78.18,
     82.13,
     83.2,
-    84.06
+    83.68
    ]
   },
   {
@@ -151,21 +151,12 @@
    "price": 4.684,
    "chg": -0.32,
    "spark": [
-    4.609,
-    4.585,
-    4.545,
-    4.569,
-    4.541,
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -177,8 +168,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1538,
-   "chg": -0.07,
+   "price": 1.1537,
+   "chg": -0.08,
    "spark": [
     1.1384,
     1.1425,
@@ -201,13 +192,42 @@
     1.1525,
     1.1556,
     1.1546,
-    1.1538
+    1.1537
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3505,
+   "chg": -0.05,
+   "spark": [
+    1.3348,
+    1.3397,
+    1.3541,
+    1.3479,
+    1.3446,
+    1.3432,
+    1.3379,
+    1.3375,
+    1.3313,
+    1.3351,
+    1.329,
+    1.3287,
+    1.3367,
+    1.3461,
+    1.3492,
+    1.3427,
+    1.3451,
+    1.347,
+    1.3455,
+    1.3491,
+    1.3511,
+    1.3505
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.441,
-   "chg": 0.18,
+   "price": 159.399,
+   "chg": 0.15,
    "spark": [
     162.429,
     162.187,
@@ -230,15 +250,14 @@
     158.409,
     157.891,
     159.156,
-    159.441
+    159.399
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1890.15,
-   "chg": 0.49,
+   "price": 1889.81,
+   "chg": 0.47,
    "spark": [
-    1921.77,
     1926.4,
     1923.7,
     1925.15,
@@ -285,15 +304,15 @@
     1883.04,
     1882.32,
     1884.88,
-    1890.15
+    1887.67,
+    1889.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63788.0,
-   "chg": 0.39,
+   "price": 63770.5,
+   "chg": 0.36,
    "spark": [
-    65087.0,
     65245.9,
     65153.7,
     65199.9,
@@ -340,7 +359,8 @@
     63762.0,
     63681.9,
     63774.7,
-    63788.0
+    63712.6,
+    63770.5
    ]
   }
  ],
@@ -429,20 +449,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786508775.497294,
+   "ts": 1786513905.924928,
    "title": "Gold rises near $4,400 as Hormuz doubts, CPI keep Fed path in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-hormuz-doubts-cpi-keep-fed-path-in-focus-4853602",
-   "t": "12 Aug \u00b7 09:26 AM",
+   "t": "12 Aug \u00b7 10:51 AM",
    "ur": "Harmaz ke shkok ke tur par Gold (sona) $4,400 ke qarib badh gaya, CPI Fed ke raaste ko fox mein rakta hai."
   },
   {
-   "ts": 1786508775.497294,
+   "ts": 1786513905.924928,
    "title": "Gold pulls back from over two-month high amid rising oil, caution ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-climbs-to-10week-high-as-fomo-china-demand-fuel-bullish-momentum-4850702",
-   "t": "12 Aug \u00b7 09:26 AM",
+   "t": "12 Aug \u00b7 10:51 AM",
    "ur": "Badhti hoi til ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya, CPI se pehle ahtyat"
+  },
+  {
+   "ts": 1786512576.0,
+   "title": "Indian Rupee falls further as oil prices extend surge, India-US CPI awaited",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-falls-further-as-oil-prices-extend-surge-india-us-cpi-awaited-202608120529",
+   "t": "12 Aug \u00b7 10:29 AM",
+   "ur": "Til ki qeemton mein azafe se handostani ropiya mazid garta hai, handostan-US CPI ka antezar tha."
+  },
+  {
+   "ts": 1786509312.0,
+   "title": "India Gold price today: Gold rises, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608120435",
+   "t": "12 Aug \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
   },
   {
    "ts": 1786507412.0,
@@ -491,22 +527,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-slides-to-two-week-low-seems-vulnerable-as-usd-stands-firm-ahead-of-us-cpi-202608120228",
    "t": "12 Aug \u00b7 07:28 AM",
    "ur": "Japani yan do hafte ki kam tarin sath par phisalta hai, esa lagta hai kah USD US CPI se aage mazboot hai"
-  },
-  {
-   "ts": 1786499740.0,
-   "title": "British Pound loses as rising US Dollar, geopolitical tensions weigh on sentiment",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-loses-as-rising-us-dollar-geopolitical-tensions-weigh-on-sentiment-202608120155",
-   "t": "12 Aug \u00b7 06:55 AM",
-   "ur": "Bartanvi pound badhte huvay US Dollar ke tur par kho gaya, geograpi siyasi tanao jazbat par wazin rakta hai"
-  },
-  {
-   "ts": 1786498732.0,
-   "title": "Gold trades with positive bias below $4,400; Fed hike bets cap gains ahead of US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-trades-with-positive-bias-below-4-400-fed-hike-bets-cap-gains-ahead-of-us-cpi-202608120138",
-   "t": "12 Aug \u00b7 06:38 AM",
-   "ur": "Gold (sona) $4,400 se niche masbat taasab ke sath tajart karta hai. US CPI se pehle fed mein azafe ki shart ki topi mein azafah"
   }
  ],
  "sentiment": {
