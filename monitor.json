@@ -1,17 +1,13 @@
 {
- "updated": "13-08-2026 20:11 PKT",
+ "updated": "13-08-2026 21:07 PKT",
  "gold": {
-  "price": 4371.07,
-  "open": 4428.09,
+  "price": 4361.76,
+  "open": 4421.9,
   "high": 4449.78,
-  "low": 4359.23,
-  "chg": -1.29,
+  "low": 4357.68,
+  "chg": -1.36,
   "src": "XAUUSD Spot",
   "spark": [
-   4409.3,
-   4406.48,
-   4399.8,
-   4394.69,
    4397.74,
    4396.98,
    4398.27,
@@ -55,14 +51,18 @@
    4370.49,
    4380.24,
    4386.42,
-   4371.07
+   4369.2,
+   4367.25,
+   4369.06,
+   4364.18,
+   4361.76
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.235,
-   "chg": -0.49,
+   "price": 64.86,
+   "chg": -1.06,
    "spark": [
     57.11,
     55.898,
@@ -85,13 +85,13 @@
     65.106,
     64.769,
     65.555,
-    65.235
+    64.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.824,
-   "chg": -0.19,
+   "price": 99.92,
+   "chg": -0.09,
    "spark": [
     100.5,
     100.73,
@@ -114,13 +114,13 @@
     99.81,
     99.82,
     100.01,
-    99.824
+    99.92
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.33,
-   "chg": -2.33,
+   "price": 82.61,
+   "chg": -0.79,
    "spark": [
     79.6,
     78.95,
@@ -143,13 +143,13 @@
     82.13,
     83.2,
     83.27,
-    81.33
+    82.61
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.625,
-   "chg": -1.22,
+   "price": 4.641,
+   "chg": -0.88,
    "spark": [
     4.545,
     4.569,
@@ -172,13 +172,13 @@
     4.699,
     4.684,
     4.682,
-    4.625
+    4.641
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1545,
-   "chg": 0.01,
+   "price": 1.1535,
+   "chg": -0.07,
    "spark": [
     1.1425,
     1.147,
@@ -201,13 +201,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1545
+    1.1535
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3504,
-   "chg": -0.04,
+   "price": 1.3495,
+   "chg": -0.11,
    "spark": [
     1.3397,
     1.3541,
@@ -230,13 +230,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3504
+    1.3495
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.245,
-   "chg": -0.01,
+   "price": 159.349,
+   "chg": 0.05,
    "spark": [
     162.187,
     162.072,
@@ -259,15 +259,14 @@
     157.891,
     159.156,
     159.265,
-    159.245
+    159.349
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1890.72,
-   "chg": 0.69,
+   "price": 1878.56,
+   "chg": 0.04,
    "spark": [
-    1863.09,
     1863.04,
     1863.99,
     1880.11,
@@ -314,15 +313,15 @@
     1887.26,
     1887.64,
     1891.28,
-    1890.72
+    1878.22,
+    1878.56
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63794.3,
-   "chg": 0.6,
+   "price": 63373.3,
+   "chg": -0.06,
    "spark": [
-    63447.0,
     63544.4,
     63304.1,
     63478.4,
@@ -369,35 +368,12 @@
     63626.2,
     63655.4,
     63807.4,
-    63794.3
+    63369.1,
+    63373.3
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1786624200.0,
-   "t": "Thu 13 Aug \u00b7 05:30 PM",
-   "title": "Core PPI m/m",
-   "impact": "High",
-   "forecast": "0.3%",
-   "previous": "0.2%"
-  },
-  {
-   "ts": 1786624200.0,
-   "t": "Thu 13 Aug \u00b7 05:30 PM",
-   "title": "PPI m/m",
-   "impact": "High",
-   "forecast": "0.2%",
-   "previous": "-0.3%"
-  },
-  {
-   "ts": 1786624200.0,
-   "t": "Thu 13 Aug \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "202K",
-   "previous": "199K"
-  },
   {
    "ts": 1786710600.0,
    "t": "Fri 14 Aug \u00b7 05:30 PM",
@@ -434,12 +410,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786633905.686982,
+   "ts": 1786637267.635026,
    "title": "Gold retreats from two-month high amid post-rally profit-taking",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "13 Aug \u00b7 08:11 PM",
+   "t": "13 Aug \u00b7 09:07 PM",
    "ur": "Rili ke bad manafa line ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya."
+  },
+  {
+   "ts": 1786636839.0,
+   "title": "New Zealand Dollar struggles as softer inflation expectations challenge RBNZ hawks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-as-softer-inflation-expectations-challenge-rbnz-hawks-202608131600",
+   "t": "13 Aug \u00b7 09:00 PM",
+   "ur": "Niyozi lind Dollar jadojehad kar raha hai cunkah narm inflation (mehngai) ki toqaat RBNZ hox ko challenj karti hen."
+  },
+  {
+   "ts": 1786636803.0,
+   "title": "Japanese Yen struggles despite soft US PPI, fading Fed rate-hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-struggles-despite-soft-us-ppi-fading-fed-rate-hike-bets-202608131600",
+   "t": "13 Aug \u00b7 09:00 PM",
+   "ur": "Japani yan narm US PPI ke bawajud jadojehad kar raha hai, fed ki rate mein azafe ki shartin khtam ho rahi hen."
+  },
+  {
+   "ts": 1786636756.0,
+   "title": "AI\u2019s costly build-out complicates the Fed\u2019s inflation fight",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
+   "t": "13 Aug \u00b7 08:59 PM",
+   "ur": "AI ki mahungi taumer Fed ki inflation (mehngai) ki larai ko patcheedah banati hai."
+  },
+  {
+   "ts": 1786636345.0,
+   "title": "British Pound climbs as soft US inflation data hurt Fed hawkish bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-soft-us-inflation-data-hurt-fed-hawkish-bets-202608131552",
+   "t": "13 Aug \u00b7 08:52 PM",
+   "ur": "Bartanvi pound chadhta hai cunkah narm US inflation (mehngai) ke aed w shmar ne fed hakish sharton ko naqsan pohchaya hai."
   },
   {
    "ts": 1786633399.0,
@@ -480,38 +488,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-safe-haven-support-versus-fed-repricing-rabobank-202608131412",
    "t": "13 Aug \u00b7 07:12 PM",
    "ur": "US Dollar: mahfooz panah gahon ki support bamaqablah fed ri pariceng - rabobank"
-  },
-  {
-   "ts": 1786629329.0,
-   "title": "Food inflation jumped to 5.52% and the Reserve Bank of India held at 5.25%: Why rate hikes are still on the table",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/food-inflation-jumped-to-552-and-the-reserve-bank-of-india-held-at-525-why-rate-hikes-are-still-on-the-table-202608131355",
-   "t": "13 Aug \u00b7 06:55 PM",
-   "ur": "Khurak ki inflation (mehngai) 5.52 fisad tak pohch gayi aur resero Bank af andiya 5.25 fisad par: kiyon rate mein azafah abhi bhi mez par hai"
-  },
-  {
-   "ts": 1786628589.0,
-   "title": "Norges Bank: Disinflation slows rate path \u2013 Nomura",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/norges-bank-disinflation-slows-rate-path-nomura-202608131343",
-   "t": "13 Aug \u00b7 06:43 PM",
-   "ur": "Naurges Bank: dis anfalation rate ka raastah sast kar diti hai - nomora"
-  },
-  {
-   "ts": 1786628024.0,
-   "title": "Federal Reserve: Trump pressure and rate risks \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-trump-pressure-and-rate-risks-commerzbank-202608131333",
-   "t": "13 Aug \u00b7 06:33 PM",
-   "ur": "Faderl resero: trmp ke dabao aur rate ke khatrat - kamers Bank"
-  },
-  {
-   "ts": 1786627458.0,
-   "title": "US Dollar: Yield support erodes on weaker inflation \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-yield-support-erodes-on-weaker-inflation-dbs-202608131324",
-   "t": "13 Aug \u00b7 06:24 PM",
-   "ur": "US Dollar: kamazor inflation (mehngai) par pedawar ki support mein kami aati hai - DBS"
   }
  ],
  "sentiment": {
