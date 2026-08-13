@@ -1,16 +1,13 @@
 {
- "updated": "14-08-2026 01:02 PKT",
+ "updated": "14-08-2026 01:59 PKT",
  "gold": {
-  "price": 4350.13,
-  "open": 4409.21,
+  "price": 4350.15,
+  "open": 4408.74,
   "high": 4449.78,
   "low": 4345.18,
-  "chg": -1.34,
+  "chg": -1.33,
   "src": "XAUUSD Spot",
   "spark": [
-   4372.44,
-   4375.04,
-   4375.54,
    4377.75,
    4380.8,
    4380.66,
@@ -55,14 +52,17 @@
    4351.07,
    4352.35,
    4348.06,
-   4350.13
+   4349.6,
+   4352.29,
+   4350.55,
+   4350.15
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.52,
-   "chg": -1.58,
+   "price": 64.595,
+   "chg": -1.46,
    "spark": [
     57.11,
     55.898,
@@ -85,13 +85,42 @@
     65.106,
     64.769,
     65.555,
-    64.52
+    64.595
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 99.964,
+   "chg": -0.05,
+   "spark": [
+    100.5,
+    100.73,
+    100.75,
+    100.99,
+    101.18,
+    101.14,
+    101.43,
+    101.47,
+    101.51,
+    101.38,
+    100.8,
+    100.01,
+    99.8,
+    99.96,
+    99.89,
+    99.69,
+    99.97,
+    99.6,
+    99.81,
+    99.82,
+    100.01,
+    99.964
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.17,
-   "chg": -2.52,
+   "price": 81.2,
+   "chg": -2.49,
    "spark": [
     79.6,
     78.95,
@@ -114,7 +143,7 @@
     82.13,
     83.2,
     83.27,
-    81.17
+    81.2
    ]
   },
   {
@@ -177,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3486,
-   "chg": -0.18,
+   "price": 1.3488,
+   "chg": -0.16,
    "spark": [
     1.3397,
     1.3541,
@@ -201,12 +230,12 @@
     1.3491,
     1.3511,
     1.351,
-    1.3486
+    1.3488
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.501,
+   "price": 159.504,
    "chg": 0.15,
    "spark": [
     162.187,
@@ -230,13 +259,13 @@
     157.891,
     159.156,
     159.265,
-    159.501
+    159.504
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1885.31,
-   "chg": 0.4,
+   "price": 1884.6,
+   "chg": 0.36,
    "spark": [
     1883.3,
     1880.94,
@@ -285,13 +314,13 @@
     1875.01,
     1883.51,
     1885.31,
-    1885.31
+    1884.6
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63302.5,
-   "chg": -0.17,
+   "price": 63347.9,
+   "chg": -0.1,
    "spark": [
     63623.7,
     63620.5,
@@ -340,7 +369,7 @@
     63090.0,
     63249.9,
     63334.9,
-    63302.5
+    63350.0
    ]
   }
  ],
@@ -381,20 +410,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786651353.532677,
+   "ts": 1786654749.564976,
+   "title": "Gold takes a breather after soft PPI earlier propels bullion to new 2-month high",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
+   "t": "14 Aug \u00b7 01:59 AM",
+   "ur": "Narm PPI ke pehle balin ko 2 mah ki baland tarin sath par le jane ke bad Gold (sona) ek sans lita hai."
+  },
+  {
+   "ts": 1786654749.564976,
    "title": "Silver trapped in $63.56-$65.17 range: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "14 Aug \u00b7 01:02 AM",
+   "t": "14 Aug \u00b7 01:59 AM",
    "ur": "Silver (chandi) $63.56-$65.17 ki had mein phans gayi."
   },
   {
-   "ts": 1786651353.532677,
+   "ts": 1786654749.564976,
    "title": "Gold chops in $4,380-$4,480 range: Live breakout levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "14 Aug \u00b7 01:02 AM",
+   "t": "14 Aug \u00b7 01:59 AM",
    "ur": "Gold chips $4,380-$4,480 ki had mein: laaio barik oat liyoles"
+  },
+  {
+   "ts": 1786653129.0,
+   "title": "New Zealand Dollar steadies off two-week lows following dovish RBNZ survey",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-steadies-off-two-week-lows-following-dovish-rbnz-survey-202608132032",
+   "t": "14 Aug \u00b7 01:32 AM",
+   "ur": "Dovish RBNZ sarway ke bad niyozi lind Dollar do hafte ki kam tarin sath par mastahkam hai."
   },
   {
    "ts": 1786651262.0,
@@ -443,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-momentum-cools-as-xag-usd-consolidates-above-50-day-sma-202608131810",
    "t": "13 Aug \u00b7 11:10 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD ke 50-day SMA se oper ke mastahkam hone par raftar thanda"
-  },
-  {
-   "ts": 1786639440.0,
-   "title": "Australian Dollar stumbles near recent highs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-stumbles-near-recent-highs-202608131644",
-   "t": "13 Aug \u00b7 09:44 PM",
-   "ur": "Aasteriliyai Dollar haaliya balandiyon ke qarib thokar kha raha hai."
-  },
-  {
-   "ts": 1786636839.0,
-   "title": "New Zealand Dollar struggles as softer inflation expectations challenge RBNZ hawks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-as-softer-inflation-expectations-challenge-rbnz-hawks-202608131600",
-   "t": "13 Aug \u00b7 09:00 PM",
-   "ur": "Niyozi lind Dollar jadojehad kar raha hai cunkah narm inflation (mehngai) ki toqaat RBNZ hox ko challenj karti hen."
   }
  ],
  "sentiment": {
