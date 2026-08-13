@@ -1,18 +1,13 @@
 {
- "updated": "13-08-2026 14:45 PKT",
+ "updated": "13-08-2026 15:49 PKT",
  "gold": {
-  "price": 4380.66,
-  "open": 4415.16,
+  "price": 4388.71,
+  "open": 4411.5,
   "high": 4449.78,
   "low": 4364.91,
-  "chg": -0.78,
+  "chg": -0.52,
   "src": "XAUUSD Spot",
   "spark": [
-   4408.82,
-   4403.44,
-   4399.65,
-   4400.32,
-   4402.08,
    4405.88,
    4409.35,
    4409.04,
@@ -55,14 +50,19 @@
    4375.54,
    4377.75,
    4380.8,
-   4380.66
+   4380.66,
+   4384.69,
+   4381.97,
+   4387.07,
+   4389.98,
+   4388.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.815,
-   "chg": -1.13,
+   "price": 65.115,
+   "chg": -0.67,
    "spark": [
     57.11,
     55.898,
@@ -85,27 +85,26 @@
     65.106,
     64.769,
     65.555,
-    64.815
+    65.115
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.923,
-   "chg": -0.09,
+   "price": 99.875,
+   "chg": -0.13,
    "spark": [
+    101.28,
+    100.94,
     100.5,
     100.73,
     100.75,
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +113,13 @@
     99.81,
     99.82,
     100.01,
-    99.923
+    99.875
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.65,
-   "chg": -1.95,
+   "price": 81.44,
+   "chg": -2.2,
    "spark": [
     79.6,
     78.95,
@@ -143,7 +142,7 @@
     82.13,
     83.2,
     83.27,
-    81.65
+    81.44
    ]
   },
   {
@@ -169,8 +168,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1535,
-   "chg": -0.07,
+   "price": 1.1539,
+   "chg": -0.04,
    "spark": [
     1.1425,
     1.147,
@@ -193,13 +192,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1535
+    1.1539
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3489,
-   "chg": -0.16,
+   "price": 1.3495,
+   "chg": -0.11,
    "spark": [
     1.3397,
     1.3541,
@@ -222,13 +221,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3489
+    1.3495
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.346,
-   "chg": 0.05,
+   "price": 159.336,
+   "chg": 0.04,
    "spark": [
     162.187,
     162.072,
@@ -251,15 +250,14 @@
     157.891,
     159.156,
     159.265,
-    159.346
+    159.336
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1885.82,
-   "chg": 0.42,
+   "price": 1881.63,
+   "chg": 0.2,
    "spark": [
-    1884.56,
     1891.57,
     1886.31,
     1888.36,
@@ -306,15 +304,15 @@
     1896.61,
     1894.01,
     1887.98,
-    1885.82
+    1888.47,
+    1881.63
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63641.4,
-   "chg": 0.36,
+   "price": 63580.7,
+   "chg": 0.27,
    "spark": [
-    64167.7,
     64339.5,
     64269.3,
     64144.7,
@@ -361,7 +359,8 @@
     63869.8,
     63797.5,
     63699.1,
-    63641.4
+    63722.2,
+    63580.7
    ]
   }
  ],
@@ -426,12 +425,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786614335.781545,
-   "title": "Silver pulls back from $66.98 high amid fading momentum: Live levels",
+   "ts": 1786618181.252646,
+   "title": "Gold retreats from two-month high amid post-rally profit-taking",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 02:45 PM",
-   "ur": "Dhandilahat ki raftar ke darmiyan Silver (chandi) $66.98 ki balandi se waps khinchti hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
+   "t": "13 Aug \u00b7 03:49 PM",
+   "ur": "Rili ke bad manafa line ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya."
+  },
+  {
+   "ts": 1786616602.0,
+   "title": "Australian Dollar caught between hawkish RBA, Iran-related inflation risks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-caught-between-hawkish-rba-iran-related-inflation-risks-202608131023",
+   "t": "13 Aug \u00b7 03:23 PM",
+   "ur": "Aasterilvi Dollar hakish aar bi aye, eran se matalq inflation (mehngai) ke khatrat ke darmiyan phans gaya."
+  },
+  {
+   "ts": 1786615333.0,
+   "title": "Japanese Yen: Bearish bias against US Dollar within higher range \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-bearish-bias-against-us-dollar-within-higher-range-uob-202608131002",
+   "t": "13 Aug \u00b7 03:02 PM",
+   "ur": "Japani yan: aala had ke andar US Dollar ke khalaf mandi ka taasab - UOB"
+  },
+  {
+   "ts": 1786614732.0,
+   "title": "US Dollar: CPI-driven moves point to near-term stability \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-cpi-driven-moves-point-to-near-term-stability-mufg-202608130952",
+   "t": "13 Aug \u00b7 02:52 PM",
+   "ur": "US Dollar: CPI se chalne wali harktin qaribi madati istehkam ki taraf asharah karti hen \u2013 MUFG"
   },
   {
    "ts": 1786613556.0,
@@ -480,30 +503,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-recovery-not-just-about-oil-commerzbank-202608130848",
    "t": "13 Aug \u00b7 01:48 PM",
    "ur": "Caniden Dollar: recovery sarf til ke bare mein nihen - kamers Bank"
-  },
-  {
-   "ts": 1786610593.0,
-   "title": "Euro advances against Canadian Dollar amid ECB hawkish stance, lower oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-advances-against-canadian-dollar-amid-ecb-hawkish-stance-lower-oil-prices-202608130843",
-   "t": "13 Aug \u00b7 01:43 PM",
-   "ur": "Uro caniden Dollar ke khalaf pesh qadami ECB ke saqt moqf, til ki kam qeemton ke darmiyan"
-  },
-  {
-   "ts": 1786610463.0,
-   "title": "NZD/USD Price Forecast: Cooling NZ inflation expectations push Kiwi under pressure",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/nzd-usd-price-forecast-cooling-nz-inflation-expectations-push-kiwi-under-pressure-202608130841",
-   "t": "13 Aug \u00b7 01:41 PM",
-   "ur": "NZD/USD qeemat ki forecast: NZ inflation (mehngai) ki toqaat ko thanda karna kevi ko dabao mein dhakil diya"
-  },
-  {
-   "ts": 1786610225.0,
-   "title": "US Dollar: Markets remain hawkish after CPI \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-markets-remain-hawkish-after-cpi-ing-202608130837",
-   "t": "13 Aug \u00b7 01:37 PM",
-   "ur": "US Dollar: CPI \u2013 i an ji ke bad marcates badastor pareshan hen."
   }
  ],
  "sentiment": {
