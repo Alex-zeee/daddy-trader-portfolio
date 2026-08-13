@@ -1,16 +1,13 @@
 {
- "updated": "14-08-2026 04:08 PKT",
+ "updated": "14-08-2026 04:54 PKT",
  "gold": {
-  "price": 4349.63,
-  "open": 4405.85,
+  "price": 4359.65,
+  "open": 4412.07,
   "high": 4449.78,
   "low": 4345.18,
-  "chg": -1.28,
+  "chg": -1.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4390.04,
-   4384.54,
-   4387.3,
    4388.5,
    4385.17,
    4391.82,
@@ -55,14 +52,17 @@
    4357.57,
    4360.64,
    4354.24,
-   4349.63
+   4355.01,
+   4362.31,
+   4359.98,
+   4359.65
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.625,
-   "chg": -1.42,
+   "price": 64.78,
+   "chg": -1.18,
    "spark": [
     57.11,
     55.898,
@@ -85,7 +85,7 @@
     65.106,
     64.769,
     65.555,
-    64.625
+    64.78
    ]
   },
   {
@@ -93,18 +93,19 @@
    "price": 99.949,
    "chg": -0.06,
    "spark": [
-    101.28,
-    100.94,
     100.5,
     100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -118,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 81.1,
-   "chg": -2.61,
+   "price": 81.33,
+   "chg": -2.33,
    "spark": [
     79.6,
     78.95,
@@ -142,7 +143,7 @@
     82.13,
     83.2,
     83.27,
-    81.1
+    81.33
    ]
   },
   {
@@ -150,12 +151,19 @@
    "price": 4.641,
    "chg": -0.88,
    "spark": [
+    4.545,
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1535,
-   "chg": 0.05,
+   "price": 1.1537,
+   "chg": 0.06,
    "spark": [
     1.147,
     1.1445,
@@ -193,13 +201,13 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535
+    1.1537
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.349,
-   "chg": -0.06,
+   "price": 1.3491,
+   "chg": -0.05,
    "spark": [
     1.3541,
     1.3479,
@@ -222,12 +230,12 @@
     1.3511,
     1.351,
     1.3498,
-    1.349
+    1.3491
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.441,
+   "price": 159.443,
    "chg": 0.07,
    "spark": [
     162.072,
@@ -251,13 +259,13 @@
     159.156,
     159.265,
     159.328,
-    159.441
+    159.443
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1885.53,
-   "chg": 0.41,
+   "price": 1883.12,
+   "chg": 0.28,
    "spark": [
     1880.65,
     1883.04,
@@ -306,13 +314,13 @@
     1884.56,
     1886.76,
     1887.67,
-    1885.53
+    1883.12
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63412.8,
-   "chg": 0.0,
+   "price": 63346.8,
+   "chg": -0.1,
    "spark": [
     63684.1,
     63762.0,
@@ -361,7 +369,7 @@
     63349.8,
     63405.4,
     63468.1,
-    63412.8
+    63346.8
    ]
   }
  ],
@@ -402,20 +410,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786662512.441308,
+   "ts": 1786665281.712605,
    "title": "Gold takes a breather after soft PPI earlier propels bullion to new 2-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "14 Aug \u00b7 04:08 AM",
+   "t": "14 Aug \u00b7 04:54 AM",
    "ur": "Narm PPI ke pehle balin ko 2 mah ki baland tarin sath par le jane ke bad Gold (sona) ek sans lita hai."
   },
   {
-   "ts": 1786662512.441308,
+   "ts": 1786665281.712605,
    "title": "Silver trapped in $63.56-$65.17 range: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "14 Aug \u00b7 04:08 AM",
+   "t": "14 Aug \u00b7 04:54 AM",
    "ur": "Silver (chandi) $63.56-$65.17 ki had mein phans gayi."
+  },
+  {
+   "ts": 1786663666.0,
+   "title": "Gold drifts higher above $4,350 as softer US PPI data reduces September Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-350-as-softer-us-ppi-data-reduces-september-fed-hike-bets-202608132327",
+   "t": "14 Aug \u00b7 04:27 AM",
+   "ur": "Gold (sona) $4,350 se oper badh gaya cunkah narm US PPI deta stambr fed mein azafe ki shart ko kam karta hai"
   },
   {
    "ts": 1786661884.0,
@@ -472,14 +488,6 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-range-holds-as-upside-risk-watched-against-us-dollar-uob-202608131838",
    "t": "13 Aug \u00b7 11:38 PM",
    "ur": "Sangapor Dollar: rinj US Dollar - UOB ke maqable mein alta khatrah hai."
-  },
-  {
-   "ts": 1786645045.0,
-   "title": "Japanese Yen little changed amid cooling US inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-little-changed-amid-cooling-us-inflation-202608131817",
-   "t": "13 Aug \u00b7 11:17 PM",
-   "ur": "US inflation (mehngai) ko thanda karne ke darmiyan japani yan thoda sa tabadil hawa."
   }
  ],
  "sentiment": {
