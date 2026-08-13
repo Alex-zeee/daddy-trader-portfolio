@@ -1,16 +1,13 @@
 {
- "updated": "14-08-2026 00:16 PKT",
+ "updated": "14-08-2026 01:02 PKT",
  "gold": {
-  "price": 4346.03,
-  "open": 4416.11,
+  "price": 4350.13,
+  "open": 4409.21,
   "high": 4449.78,
   "low": 4345.18,
-  "chg": -1.59,
+  "chg": -1.34,
   "src": "XAUUSD Spot",
   "spark": [
-   4377.22,
-   4370.49,
-   4366.28,
    4372.44,
    4375.04,
    4375.54,
@@ -55,14 +52,17 @@
    4358.13,
    4357.48,
    4349.26,
-   4346.03
+   4351.07,
+   4352.35,
+   4348.06,
+   4350.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.76,
-   "chg": -1.21,
+   "price": 64.52,
+   "chg": -1.58,
    "spark": [
     57.11,
     55.898,
@@ -85,41 +85,13 @@
     65.106,
     64.769,
     65.555,
-    64.76
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 99.96,
-   "chg": -0.05,
-   "spark": [
-    101.28,
-    100.94,
-    100.5,
-    100.73,
-    100.75,
-    100.99,
-    101.43,
-    101.47,
-    101.51,
-    101.38,
-    100.8,
-    100.01,
-    99.96,
-    99.89,
-    99.69,
-    99.97,
-    99.6,
-    99.81,
-    99.82,
-    100.01,
-    99.96
+    64.52
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.08,
-   "chg": -2.63,
+   "price": 81.17,
+   "chg": -2.52,
    "spark": [
     79.6,
     78.95,
@@ -142,7 +114,7 @@
     82.13,
     83.2,
     83.27,
-    81.08
+    81.17
    ]
   },
   {
@@ -150,12 +122,19 @@
    "price": 4.641,
    "chg": -0.88,
    "spark": [
+    4.545,
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -198,8 +177,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3485,
-   "chg": -0.19,
+   "price": 1.3486,
+   "chg": -0.18,
    "spark": [
     1.3397,
     1.3541,
@@ -222,12 +201,12 @@
     1.3491,
     1.3511,
     1.351,
-    1.3485
+    1.3486
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.509,
+   "price": 159.501,
    "chg": 0.15,
    "spark": [
     162.187,
@@ -251,15 +230,14 @@
     157.891,
     159.156,
     159.265,
-    159.509
+    159.501
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1886.44,
-   "chg": 0.46,
+   "price": 1885.31,
+   "chg": 0.4,
    "spark": [
-    1880.49,
     1883.3,
     1880.94,
     1881.01,
@@ -306,15 +284,15 @@
     1872.57,
     1875.01,
     1883.51,
-    1886.44
+    1885.31,
+    1885.31
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63336.6,
-   "chg": -0.12,
+   "price": 63302.5,
+   "chg": -0.17,
    "spark": [
-    63682.9,
     63623.7,
     63620.5,
     63541.1,
@@ -361,7 +339,8 @@
     63089.3,
     63090.0,
     63249.9,
-    63336.6
+    63334.9,
+    63302.5
    ]
   }
  ],
@@ -401,6 +380,38 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1786651353.532677,
+   "title": "Silver trapped in $63.56-$65.17 range: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
+   "t": "14 Aug \u00b7 01:02 AM",
+   "ur": "Silver (chandi) $63.56-$65.17 ki had mein phans gayi."
+  },
+  {
+   "ts": 1786651353.532677,
+   "title": "Gold chops in $4,380-$4,480 range: Live breakout levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
+   "t": "14 Aug \u00b7 01:02 AM",
+   "ur": "Gold chips $4,380-$4,480 ki had mein: laaio barik oat liyoles"
+  },
+  {
+   "ts": 1786651262.0,
+   "title": "Forex Today: US Dollar holds steady ahead of US Retail Sales",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-holds-steady-ahead-of-us-retail-sales-202608132001",
+   "t": "14 Aug \u00b7 01:01 AM",
+   "ur": "Farex today: US khurdah farokht se pehle US Dollar mastahkam hai."
+  },
+  {
+   "ts": 1786648860.0,
+   "title": "Indonesian Rupiah: Two-way trade with key levels watched against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-two-way-trade-with-key-levels-watched-against-us-dollar-ocbc-202608131921",
+   "t": "14 Aug \u00b7 12:21 AM",
+   "ur": "Andonishin ropiya: US Dollar ke maqable mein aham sathon ke sath do tarafah tajart - OCBC"
+  },
   {
    "ts": 1786646280.0,
    "title": "Singapore Dollar: Range holds as upside risk watched against US Dollar \u2013 UOB",
@@ -448,38 +459,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-as-softer-inflation-expectations-challenge-rbnz-hawks-202608131600",
    "t": "13 Aug \u00b7 09:00 PM",
    "ur": "Niyozi lind Dollar jadojehad kar raha hai cunkah narm inflation (mehngai) ki toqaat RBNZ hox ko challenj karti hen."
-  },
-  {
-   "ts": 1786636803.0,
-   "title": "Japanese Yen struggles despite soft US PPI, fading Fed rate-hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-struggles-despite-soft-us-ppi-fading-fed-rate-hike-bets-202608131600",
-   "t": "13 Aug \u00b7 09:00 PM",
-   "ur": "Japani yan narm US PPI ke bawajud jadojehad kar raha hai, fed ki rate mein azafe ki shartin khtam ho rahi hen."
-  },
-  {
-   "ts": 1786636756.0,
-   "title": "AI\u2019s costly build-out complicates the Fed\u2019s inflation fight",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
-   "t": "13 Aug \u00b7 08:59 PM",
-   "ur": "AI ki mahungi taumer Fed ki inflation (mehngai) ki larai ko patcheedah banati hai."
-  },
-  {
-   "ts": 1786636345.0,
-   "title": "British Pound climbs as soft US inflation data hurt Fed hawkish bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-soft-us-inflation-data-hurt-fed-hawkish-bets-202608131552",
-   "t": "13 Aug \u00b7 08:52 PM",
-   "ur": "Bartanvi pound chadhta hai cunkah narm US inflation (mehngai) ke aed w shmar ne fed hakish sharton ko naqsan pohchaya hai."
-  },
-  {
-   "ts": 1786633399.0,
-   "title": "Poland: Fuel-driven inflation rise contained \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/poland-fuel-driven-inflation-rise-contained-ing-202608131503",
-   "t": "13 Aug \u00b7 08:03 PM",
-   "ur": "Polind: andhan se chalne wali inflation (mehngai) mein azafah - ING"
   }
  ],
  "sentiment": {
