@@ -1,20 +1,13 @@
 {
- "updated": "13-08-2026 07:42 PKT",
+ "updated": "13-08-2026 09:29 PKT",
  "gold": {
-  "price": 4408.1,
-  "open": 4406.93,
+  "price": 4398.57,
+  "open": 4398.33,
   "high": 4449.78,
   "low": 4381.6,
-  "chg": 0.03,
+  "chg": 0.01,
   "src": "XAUUSD Spot",
   "spark": [
-   4421.41,
-   4428.72,
-   4421.81,
-   4420.82,
-   4421.24,
-   4422.95,
-   4423.4,
    4411.9,
    4401.78,
    4404.41,
@@ -55,16 +48,22 @@
    4407.91,
    4411.46,
    4407.55,
-   4408.1
+   4407.85,
+   4407.32,
+   4406.61,
+   4409.3,
+   4406.48,
+   4399.8,
+   4394.69,
+   4398.57
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.255,
-   "chg": 0.75,
+   "price": 65.4,
+   "chg": -0.24,
    "spark": [
-    58.772,
     57.11,
     55.898,
     56.038,
@@ -85,15 +84,15 @@
     63.332,
     65.106,
     64.769,
-    65.255
+    65.555,
+    65.4
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.003,
-   "chg": 0.18,
+   "price": 100.018,
+   "chg": 0.01,
    "spark": [
-    100.94,
     100.5,
     100.73,
     100.75,
@@ -114,15 +113,15 @@
     99.6,
     99.81,
     99.82,
-    100.003
+    100.01,
+    100.018
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.21,
-   "chg": -1.19,
+   "price": 82.9,
+   "chg": -0.44,
    "spark": [
-    79.34,
     79.6,
     78.95,
     82.49,
@@ -143,7 +142,8 @@
     78.18,
     82.13,
     83.2,
-    82.21
+    83.27,
+    82.9
    ]
   },
   {
@@ -235,7 +235,7 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.446,
+   "price": 159.443,
    "chg": 0.11,
    "spark": [
     162.187,
@@ -259,16 +259,14 @@
     157.891,
     159.156,
     159.265,
-    159.446
+    159.443
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1873.53,
-   "chg": -0.23,
+   "price": 1884.21,
+   "chg": 0.34,
    "spark": [
-    1878.88,
-    1874.3,
     1872.62,
     1872.17,
     1875.61,
@@ -314,16 +312,16 @@
     1878.32,
     1878.89,
     1876.16,
-    1873.53
+    1879.74,
+    1884.99,
+    1884.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63382.7,
-   "chg": -0.05,
+   "price": 63526.6,
+   "chg": 0.18,
    "spark": [
-    64071.3,
-    63972.1,
     63950.8,
     63903.3,
     64003.4,
@@ -369,7 +367,9 @@
     63412.0,
     63506.6,
     63394.0,
-    63382.7
+    63480.6,
+    63575.3,
+    63526.6
    ]
   }
  ],
@@ -434,20 +434,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786588970.94748,
+   "ts": 1786595343.400822,
+   "title": "Gold holds near $4,400 after CPI-fuelled rally as Fed, Hormuz stay in focus",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
+   "t": "13 Aug \u00b7 09:29 AM",
+   "ur": "Fed aur harmaz ki tojah markoz rahne ki wajah se CPI se chalne wali rili ke bad Gold (sona) $4,400 ke qarib hai"
+  },
+  {
+   "ts": 1786595343.400822,
    "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 07:42 AM",
+   "t": "13 Aug \u00b7 09:29 AM",
    "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
   },
   {
-   "ts": 1786588970.94748,
-   "title": "Gold overbought near $4,500 resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "13 Aug \u00b7 07:42 AM",
-   "ur": "Gold (sona) $4,500 mazahmat ke qarib ziyadah khareeda."
+   "ts": 1786593107.0,
+   "title": "Asian stocks rise on soft US CPI, AI earnings rally",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/asian-stocks-rise-on-soft-us-cpi-ai-earnings-rally-202608130351",
+   "t": "13 Aug \u00b7 08:51 AM",
+   "ur": "Narm US CPI, AI ki aamadani ki rili par asiai stak mein azafah hawa."
+  },
+  {
+   "ts": 1786592648.0,
+   "title": "Gold retreats from June 5 high as oil-driven Fed rate-hike bets underpin USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-retreats-from-june-5-high-as-oil-driven-fed-rate-hike-bets-underpin-usd-202608130344",
+   "t": "13 Aug \u00b7 08:44 AM",
+   "ur": "Gold (sona) 5 jon se balandi se patchhe hat raha hai cunkah til se chalne wali fed ki rate mein azafe ki shart USD ko kam karti hai."
+  },
+  {
+   "ts": 1786591775.0,
+   "title": "Silver Price Forecast: XAG/USD wobbles around $65.40, easing hawkish Fed bets strengthen outlook",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-wobbles-around-6540-easing-hawkish-fed-bets-strengthen-outlook-202608130329",
+   "t": "13 Aug \u00b7 08:29 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD taqriban 65.40 Dollar mein dobata hai, fed bates ko narm karne se oat lak ko taqwet malti hai"
+  },
+  {
+   "ts": 1786591632.0,
+   "title": "New Zealand Dollar remains subdued as two-year QoQ RBNZ Inflation Expectations ease in Q3",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-subdued-as-two-year-qoq-rbnz-inflation-expectations-ease-in-q3-202608130327",
+   "t": "13 Aug \u00b7 08:27 AM",
+   "ur": "Niyozi lind Dollar do salah QoQ RBNZ mahungai ki toqaat sahi sah mahi mein kam hone ki wajah se gara hawa hai."
+  },
+  {
+   "ts": 1786590537.0,
+   "title": "RBNZ Survey: NZ two-year inflation expectations cool down to 2.34% QoQ in Q3 2026",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/rbnz-survey-nz-two-year-inflation-expectations-cool-down-to-234-qoq-in-q3-2026-202608130308",
+   "t": "13 Aug \u00b7 08:08 AM",
+   "ur": "RBNZ sarway: NZ do salah inflation (mehngai) ki toqaat Q3 2026 mein 2.34% QoQ tak kam ho gayin"
   },
   {
    "ts": 1786588638.0,
@@ -472,46 +512,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-steadies-as-weak-us-dollar-offsets-lower-oil-prices-202608130146",
    "t": "13 Aug \u00b7 06:46 AM",
    "ur": "Caniden Dollar mastahkam hai cunkah kamazor US Dollar til ki kam qeemton ko pora karta hai."
-  },
-  {
-   "ts": 1786583771.0,
-   "title": "United States Dollar Index stalls post-CPI bounce near 100.00 on receding Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-stalls-post-cpi-bounce-near-10000-on-receding-fed-hike-bets-202608130116",
-   "t": "13 Aug \u00b7 06:16 AM",
-   "ur": "Ryastahaye matehdah ka Dollar andex rak gaya hai CPI ke bad Fed mein azafe ki shart mein kami par 100.00 ke qarib achal"
-  },
-  {
-   "ts": 1786582897.0,
-   "title": "Euro advances as US Dollar weakens amid cooling Inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-advances-as-us-dollar-weakens-amid-cooling-us-inflation-202608130101",
-   "t": "13 Aug \u00b7 06:01 AM",
-   "ur": "Thandic inflation (mehngai) ke darmiyan US Dollar ke kamazor hone par uro ki tarqi"
-  },
-  {
-   "ts": 1786581692.0,
-   "title": "RBA's Kent: Cash rate hikes are achieving their intended impact",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/rbas-kent-cash-rate-hikes-are-achieving-their-intended-impact-202608130041",
-   "t": "13 Aug \u00b7 05:41 AM",
-   "ur": "RBA's Kent: nakhad rate mein azafah apane mutalobah asarat ko haasil kar raha hai."
-  },
-  {
-   "ts": 1786577352.0,
-   "title": "Gold edges lower to near $4,400 as Iran-US tensions counter support from tame US inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-edges-lower-to-near-4-400-as-iran-us-tensions-counter-support-from-tame-us-inflation-202608122329",
-   "t": "13 Aug \u00b7 04:29 AM",
-   "ur": "Eran-amrikah kasheedgi mein US mahungai ki support ke maqable mein Gold (sona) 4,400 Dollar ke qarib pohch gaya"
-  },
-  {
-   "ts": 1786576680.0,
-   "title": "Commodities: Weaker Dollar lacks growth catalyst \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/commodities-weaker-dollar-lacks-growth-catalyst-bny-202608122318",
-   "t": "13 Aug \u00b7 04:18 AM",
-   "ur": "Kamodits: kamazor Dollar mein namo ke ataprirk ki kami hai - BNY"
   }
  ],
  "sentiment": {
