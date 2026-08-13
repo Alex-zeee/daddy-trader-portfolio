@@ -1,18 +1,13 @@
 {
- "updated": "13-08-2026 10:55 PKT",
+ "updated": "13-08-2026 12:07 PKT",
  "gold": {
-  "price": 4386.3,
-  "open": 4393.19,
+  "price": 4380.57,
+  "open": 4405.76,
   "high": 4449.78,
-  "low": 4381.6,
-  "chg": -0.16,
+  "low": 4369.4,
+  "chg": -0.57,
   "src": "XAUUSD Spot",
   "spark": [
-   4405.72,
-   4407.9,
-   4412.72,
-   4413.24,
-   4416.65,
    4415.97,
    4411.99,
    4411.32,
@@ -55,14 +50,19 @@
    4402.83,
    4406.76,
    4389.33,
-   4386.3
+   4383.24,
+   4376.35,
+   4375.67,
+   4373.99,
+   4380.13,
+   4380.57
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.3,
-   "chg": -0.39,
+   "price": 65.015,
+   "chg": -0.82,
    "spark": [
     57.11,
     55.898,
@@ -85,27 +85,26 @@
     65.106,
     64.769,
     65.555,
-    65.3
+    65.015
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.983,
-   "chg": -0.03,
+   "price": 100.03,
+   "chg": 0.02,
    "spark": [
+    101.28,
+    100.94,
     100.5,
     100.73,
     100.75,
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +113,13 @@
     99.81,
     99.82,
     100.01,
-    99.983
+    100.03
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.96,
-   "chg": -0.37,
+   "price": 82.75,
+   "chg": -0.62,
    "spark": [
     79.6,
     78.95,
@@ -143,7 +142,7 @@
     82.13,
     83.2,
     83.27,
-    82.96
+    82.75
    ]
   },
   {
@@ -177,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1527,
-   "chg": -0.14,
+   "price": 1.1522,
+   "chg": -0.19,
    "spark": [
     1.1425,
     1.147,
@@ -201,13 +200,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1527
+    1.1522
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3493,
-   "chg": -0.12,
+   "price": 1.3481,
+   "chg": -0.21,
    "spark": [
     1.3397,
     1.3541,
@@ -230,13 +229,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3493
+    1.3481
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.314,
-   "chg": 0.03,
+   "price": 159.379,
+   "chg": 0.07,
    "spark": [
     162.187,
     162.072,
@@ -259,16 +258,14 @@
     157.891,
     159.156,
     159.265,
-    159.314
+    159.379
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1894.86,
-   "chg": 0.91,
+   "price": 1895.18,
+   "chg": 0.92,
    "spark": [
-    1872.17,
-    1875.61,
     1877.39,
     1882.84,
     1884.56,
@@ -314,16 +311,16 @@
     1879.74,
     1884.99,
     1890.27,
-    1894.86
+    1894.44,
+    1896.61,
+    1895.18
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63833.9,
-   "chg": 0.66,
+   "price": 63826.2,
+   "chg": 0.65,
    "spark": [
-    63903.3,
-    64003.4,
     64072.9,
     64243.0,
     64167.7,
@@ -369,7 +366,9 @@
     63480.6,
     63575.3,
     63622.1,
-    63833.9
+    63824.2,
+    63869.8,
+    63826.2
    ]
   }
  ],
@@ -434,28 +433,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786600521.426217,
-   "title": "Gold holds near $4,400 after CPI-fuelled rally as Fed, Hormuz stay in focus",
+   "ts": 1786604823.711225,
+   "title": "Gold slips from two-month high as traders reassess Fed outlook after soft CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "13 Aug \u00b7 10:55 AM",
-   "ur": "Fed aur harmaz ki tojah markoz rahne ki wajah se CPI se chalne wali rili ke bad Gold (sona) $4,400 ke qarib hai"
+   "t": "13 Aug \u00b7 12:07 PM",
+   "ur": "Gold (sona) do mah ki baland tarin sath se phisal gaya cunkah taajr narm CPI ke bad fed oat lak ka dubarah jaizah lite hen"
   },
   {
-   "ts": 1786600521.426217,
+   "ts": 1786604823.711225,
    "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 10:55 AM",
+   "t": "13 Aug \u00b7 12:07 PM",
    "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
   },
   {
+   "ts": 1786604486.0,
+   "title": "Canadian Dollar extends pullback from two-month high as oil-driven Fed hike bets lift USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-extends-pullback-from-two-month-high-as-oil-driven-fed-hike-bets-lift-usd-202608130701",
+   "t": "13 Aug \u00b7 12:01 PM",
+   "ur": "Caniden Dollar ne do mah ki baland tarin sath se pl bek mein tosi ki cunkah til se chalne wali fed mein azafe ki sharton ne USD atha liya"
+  },
+  {
+   "ts": 1786604278.0,
+   "title": "Equities: AI rally and CPI relief lift US stocks \u2013 Deutsche Bank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/equities-ai-rally-and-cpi-relief-lift-us-stocks-deutsche-bank-202608130657",
+   "t": "13 Aug \u00b7 11:57 AM",
+   "ur": "Ekwists: AI rili aur CPI rilif ne US stak ko athaya - deoche Bank"
+  },
+  {
+   "ts": 1786603441.0,
+   "title": "Indian Rupee: Contained inflation supports RBI pause \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-contained-inflation-supports-rbi-pause-commerzbank-202608130644",
+   "t": "13 Aug \u00b7 11:44 AM",
+   "ur": "Handostani ropiya: mahungai ki rok tham aar bi i ki support karti hai - kamers Bank"
+  },
+  {
+   "ts": 1786602281.0,
+   "title": "Euro: Range phase after failed upside break against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-range-phase-after-failed-upside-break-against-us-dollar-uob-202608130624",
+   "t": "13 Aug \u00b7 11:24 AM",
+   "ur": "Uro: US Dollar - UOB ke maqable mein naakam alta barik ke bad rinj ka marhalah"
+  },
+  {
    "ts": 1786598460.0,
-   "title": "Indian Rupee opens marginally lower as US Dollar trades firmly",
+   "title": "Indian Rupee ticks lower as US Dollar trades firmly",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/indian-rupee-opens-marginally-lower-as-us-dollar-trades-firmly-202608130521",
    "t": "13 Aug \u00b7 10:21 AM",
-   "ur": "US Dollar ki mazbooti se tajart karte huvay handostani ropiya mamoli tur par niche khala."
+   "ur": "US Dollar ki mazbooti ke sath tajart ke baas handostani ropiya kam ho raha hai."
   },
   {
    "ts": 1786596467.0,
@@ -480,38 +511,6 @@
    "link": "https://www.fxstreet.com/news/asian-stocks-rise-on-soft-us-cpi-ai-earnings-rally-202608130351",
    "t": "13 Aug \u00b7 08:51 AM",
    "ur": "Narm US CPI, AI ki aamadani ki rili par asiai stak mein azafah hawa."
-  },
-  {
-   "ts": 1786592648.0,
-   "title": "Gold moves away from June 5 high, slides below $4,400 amid Fed hike bets, firm USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-retreats-from-june-5-high-as-oil-driven-fed-rate-hike-bets-underpin-usd-202608130344",
-   "t": "13 Aug \u00b7 08:44 AM",
-   "ur": "Gold (sona) 5 jon ki unchai se hat gaya, fed mein azafe ki shart, farm USD ke darmiyan $4,400 se niche phisal gaya"
-  },
-  {
-   "ts": 1786591775.0,
-   "title": "Silver Price Forecast: XAG/USD wobbles around $65.40, easing hawkish Fed bets strengthen outlook",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-wobbles-around-6540-easing-hawkish-fed-bets-strengthen-outlook-202608130329",
-   "t": "13 Aug \u00b7 08:29 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD taqriban 65.40 Dollar mein dobata hai, fed bates ko narm karne se oat lak ko taqwet malti hai"
-  },
-  {
-   "ts": 1786591632.0,
-   "title": "New Zealand Dollar remains subdued as two-year QoQ RBNZ Inflation Expectations ease in Q3",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-subdued-as-two-year-qoq-rbnz-inflation-expectations-ease-in-q3-202608130327",
-   "t": "13 Aug \u00b7 08:27 AM",
-   "ur": "Niyozi lind Dollar do salah QoQ RBNZ mahungai ki toqaat sahi sah mahi mein kam hone ki wajah se gara hawa hai."
-  },
-  {
-   "ts": 1786590537.0,
-   "title": "RBNZ Survey: NZ two-year inflation expectations cool down to 2.34% QoQ in Q3 2026",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/rbnz-survey-nz-two-year-inflation-expectations-cool-down-to-234-qoq-in-q3-2026-202608130308",
-   "t": "13 Aug \u00b7 08:08 AM",
-   "ur": "RBNZ sarway: NZ do salah inflation (mehngai) ki toqaat Q3 2026 mein 2.34% QoQ tak kam ho gayin"
   }
  ],
  "sentiment": {
