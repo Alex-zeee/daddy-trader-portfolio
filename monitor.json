@@ -1,17 +1,13 @@
 {
- "updated": "13-08-2026 21:07 PKT",
+ "updated": "13-08-2026 22:09 PKT",
  "gold": {
-  "price": 4361.76,
-  "open": 4421.9,
+  "price": 4370.08,
+  "open": 4404.63,
   "high": 4449.78,
-  "low": 4357.68,
-  "chg": -1.36,
+  "low": 4351.8,
+  "chg": -0.78,
   "src": "XAUUSD Spot",
   "spark": [
-   4397.74,
-   4396.98,
-   4398.27,
-   4402.83,
    4406.76,
    4389.33,
    4383.24,
@@ -55,14 +51,18 @@
    4367.25,
    4369.06,
    4364.18,
-   4361.76
+   4355.8,
+   4359.5,
+   4365.49,
+   4366.73,
+   4370.08
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.86,
-   "chg": -1.06,
+   "price": 64.935,
+   "chg": -0.95,
    "spark": [
     57.11,
     55.898,
@@ -85,27 +85,26 @@
     65.106,
     64.769,
     65.555,
-    64.86
+    64.935
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.92,
-   "chg": -0.09,
+   "price": 99.957,
+   "chg": -0.05,
    "spark": [
+    101.28,
+    100.94,
     100.5,
     100.73,
     100.75,
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +113,13 @@
     99.81,
     99.82,
     100.01,
-    99.92
+    99.957
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.61,
-   "chg": -0.79,
+   "price": 81.98,
+   "chg": -1.55,
    "spark": [
     79.6,
     78.95,
@@ -143,27 +142,20 @@
     82.13,
     83.2,
     83.27,
-    82.61
+    81.98
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.641,
-   "chg": -0.88,
+   "price": 4.645,
+   "chg": -0.79,
    "spark": [
-    4.545,
-    4.569,
-    4.541,
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -172,13 +164,13 @@
     4.699,
     4.684,
     4.682,
-    4.641
+    4.645
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1535,
-   "chg": -0.07,
+   "price": 1.1533,
+   "chg": -0.1,
    "spark": [
     1.1425,
     1.147,
@@ -201,13 +193,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1535
+    1.1533
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3495,
-   "chg": -0.11,
+   "price": 1.3485,
+   "chg": -0.18,
    "spark": [
     1.3397,
     1.3541,
@@ -230,13 +222,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3495
+    1.3485
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.349,
-   "chg": 0.05,
+   "price": 159.502,
+   "chg": 0.15,
    "spark": [
     162.187,
     162.072,
@@ -259,15 +251,14 @@
     157.891,
     159.156,
     159.265,
-    159.349
+    159.502
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1878.56,
-   "chg": 0.04,
+   "price": 1874.42,
+   "chg": -0.18,
    "spark": [
-    1863.04,
     1863.99,
     1880.11,
     1880.49,
@@ -314,15 +305,15 @@
     1887.64,
     1891.28,
     1878.22,
-    1878.56
+    1872.57,
+    1874.42
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63373.3,
-   "chg": -0.06,
+   "price": 63068.3,
+   "chg": -0.54,
    "spark": [
-    63544.4,
     63304.1,
     63478.4,
     63682.9,
@@ -369,7 +360,8 @@
     63655.4,
     63807.4,
     63369.1,
-    63373.3
+    63089.3,
+    63068.3
    ]
   }
  ],
@@ -410,12 +402,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786637267.635026,
+   "ts": 1786640950.922586,
    "title": "Gold retreats from two-month high amid post-rally profit-taking",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "13 Aug \u00b7 09:07 PM",
+   "t": "13 Aug \u00b7 10:09 PM",
    "ur": "Rili ke bad manafa line ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya."
+  },
+  {
+   "ts": 1786639440.0,
+   "title": "Australian Dollar stumbles near recent highs",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-stumbles-near-recent-highs-202608131644",
+   "t": "13 Aug \u00b7 09:44 PM",
+   "ur": "Aasteriliyai Dollar haaliya balandiyon ke qarib thokar kha raha hai."
   },
   {
    "ts": 1786636839.0,
@@ -480,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/euro-edges-higher-against-us-dollar-after-soft-us-ppi-data-202608131430",
    "t": "13 Aug \u00b7 07:30 PM",
    "ur": "Narm US PPI deta ke bad uro US Dollar ke maqable mein uncha hai."
-  },
-  {
-   "ts": 1786630343.0,
-   "title": "US Dollar: Safe haven support versus Fed repricing \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-safe-haven-support-versus-fed-repricing-rabobank-202608131412",
-   "t": "13 Aug \u00b7 07:12 PM",
-   "ur": "US Dollar: mahfooz panah gahon ki support bamaqablah fed ri pariceng - rabobank"
   }
  ],
  "sentiment": {
