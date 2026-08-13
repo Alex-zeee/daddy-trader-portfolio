@@ -1,16 +1,13 @@
 {
- "updated": "13-08-2026 04:21 PKT",
+ "updated": "13-08-2026 05:04 PKT",
  "gold": {
-  "price": 4407.74,
-  "open": 4371.52,
+  "price": 4416.88,
+  "open": 4375.39,
   "high": 4441.22,
-  "low": 4366.31,
-  "chg": 0.83,
+  "low": 4374.64,
+  "chg": 0.95,
   "src": "XAUUSD Spot",
   "spark": [
-   4412.39,
-   4413.41,
-   4407.66,
    4415.41,
    4437.32,
    4435.25,
@@ -55,14 +52,17 @@
    4400.32,
    4402.08,
    4405.88,
-   4407.74
+   4409.35,
+   4409.04,
+   4412.81,
+   4416.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.36,
-   "chg": 0.91,
+   "price": 65.405,
+   "chg": 0.98,
    "spark": [
     58.772,
     57.11,
@@ -85,28 +85,26 @@
     63.332,
     65.106,
     64.769,
-    65.36
+    65.405
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.985,
-   "chg": 0.17,
+   "price": 99.955,
+   "chg": 0.14,
    "spark": [
+    101.28,
     100.94,
     100.5,
     100.73,
     100.75,
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,7 +112,7 @@
     99.6,
     99.81,
     99.82,
-    99.985
+    99.955
    ]
   },
   {
@@ -177,8 +175,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1531,
-   "chg": -0.11,
+   "price": 1.1533,
+   "chg": -0.1,
    "spark": [
     1.1425,
     1.147,
@@ -201,13 +199,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1531
+    1.1533
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3497,
-   "chg": -0.09,
+   "price": 1.3499,
+   "chg": -0.08,
    "spark": [
     1.3397,
     1.3541,
@@ -230,12 +228,12 @@
     1.3491,
     1.3511,
     1.351,
-    1.3497
+    1.3499
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.32,
+   "price": 159.311,
    "chg": 0.03,
    "spark": [
     162.187,
@@ -259,15 +257,14 @@
     157.891,
     159.156,
     159.265,
-    159.32
+    159.311
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1876.18,
-   "chg": -0.26,
+   "price": 1877.44,
+   "chg": -0.02,
    "spark": [
-    1873.75,
     1876.1,
     1876.57,
     1878.88,
@@ -314,15 +311,15 @@
     1884.62,
     1876.12,
     1876.48,
-    1876.18
+    1878.32,
+    1877.44
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63350.0,
-   "chg": -0.3,
+   "price": 63404.4,
+   "chg": -0.01,
    "spark": [
-    63989.2,
     64008.0,
     63986.2,
     64071.3,
@@ -369,7 +366,8 @@
     63532.3,
     63390.8,
     63365.0,
-    63350.0
+    63412.0,
+    63404.4
    ]
   }
  ],
@@ -434,20 +432,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786576877.673432,
+   "ts": 1786579443.492933,
    "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 04:21 AM",
+   "t": "13 Aug \u00b7 05:04 AM",
    "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
   },
   {
-   "ts": 1786576877.673432,
+   "ts": 1786579443.492933,
    "title": "Gold overbought near $4,500 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "13 Aug \u00b7 04:21 AM",
+   "t": "13 Aug \u00b7 05:04 AM",
    "ur": "Gold (sona) $4,500 mazahmat ke qarib ziyadah khareeda."
+  },
+  {
+   "ts": 1786577352.0,
+   "title": "Gold edges lower to near $4,400 as Iran-US tensions counter support from tame US inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-edges-lower-to-near-4-400-as-iran-us-tensions-counter-support-from-tame-us-inflation-202608122329",
+   "t": "13 Aug \u00b7 04:29 AM",
+   "ur": "Eran-amrikah kasheedgi mein US mahungai ki support ke maqable mein Gold (sona) 4,400 Dollar ke qarib pohch gaya"
   },
   {
    "ts": 1786576680.0,
@@ -504,18 +510,10 @@
    "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-and-upside-risk-against-us-dollar-uob-202608121937",
    "t": "13 Aug \u00b7 12:37 AM",
    "ur": "Chini uan: had tajart aur US Dollar ke maqable mein alta khatrah - UOB"
-  },
-  {
-   "ts": 1786562919.0,
-   "title": "Forex Today: US Dollar firms ahead of a packed session",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-a-packed-session-202608121928",
-   "t": "13 Aug \u00b7 12:28 AM",
-   "ur": "Farex today: ek bhare sition se pehle US Dollar ki farmin"
   }
  ],
  "sentiment": {
-  "value": 27,
+  "value": 29,
   "label": "Fear"
  },
  "err": null
