@@ -1,20 +1,13 @@
 {
- "updated": "13-08-2026 17:30 PKT",
+ "updated": "13-08-2026 19:05 PKT",
  "gold": {
-  "price": 4385.17,
-  "open": 4412.63,
+  "price": 4372.52,
+  "open": 4434.0,
   "high": 4449.78,
   "low": 4364.91,
-  "chg": -0.62,
+  "chg": -1.39,
   "src": "XAUUSD Spot",
   "spark": [
-   4439.65,
-   4427.37,
-   4430.41,
-   4420.47,
-   4420.55,
-   4407.91,
-   4411.46,
    4407.55,
    4407.85,
    4407.32,
@@ -55,14 +48,21 @@
    4384.54,
    4387.3,
    4388.5,
-   4385.17
+   4385.17,
+   4391.82,
+   4399.88,
+   4393.24,
+   4386.29,
+   4381.19,
+   4374.13,
+   4372.52
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.175,
-   "chg": -0.58,
+   "price": 65.04,
+   "chg": -0.79,
    "spark": [
     57.11,
     55.898,
@@ -85,13 +85,13 @@
     65.106,
     64.769,
     65.555,
-    65.175
+    65.04
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.932,
-   "chg": -0.08,
+   "price": 99.896,
+   "chg": -0.11,
    "spark": [
     100.5,
     100.73,
@@ -114,15 +114,43 @@
     99.81,
     99.82,
     100.01,
-    99.932
+    99.896
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 80.66,
+   "chg": -3.13,
+   "spark": [
+    79.6,
+    78.95,
+    82.49,
+    83.23,
+    84.91,
+    86.83,
+    92.19,
+    89.31,
+    82.61,
+    79.26,
+    84.46,
+    83.59,
+    84.67,
+    80.34,
+    75.77,
+    75.22,
+    77.29,
+    78.18,
+    82.13,
+    83.2,
+    83.27,
+    80.66
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.682,
-   "chg": -0.04,
+   "price": 4.637,
+   "chg": -0.96,
    "spark": [
-    4.585,
     4.545,
     4.569,
     4.541,
@@ -143,13 +171,14 @@
     4.66,
     4.699,
     4.684,
-    4.682
+    4.682,
+    4.637
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1535,
-   "chg": -0.07,
+   "price": 1.1537,
+   "chg": -0.06,
    "spark": [
     1.1425,
     1.147,
@@ -172,13 +201,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1535
+    1.1537
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3489,
-   "chg": -0.16,
+   "price": 1.35,
+   "chg": -0.07,
    "spark": [
     1.3397,
     1.3541,
@@ -201,13 +230,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3489
+    1.35
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.333,
-   "chg": 0.04,
+   "price": 159.242,
+   "chg": -0.01,
    "spark": [
     162.187,
     162.072,
@@ -230,16 +259,14 @@
     157.891,
     159.156,
     159.265,
-    159.333
+    159.242
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1884.05,
-   "chg": 0.33,
+   "price": 1887.82,
+   "chg": 0.53,
    "spark": [
-    1888.36,
-    1871.76,
     1861.39,
     1863.09,
     1863.04,
@@ -285,16 +312,16 @@
     1888.47,
     1881.01,
     1878.31,
-    1884.05
+    1887.26,
+    1887.64,
+    1887.82
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63525.5,
-   "chg": 0.18,
+   "price": 63652.5,
+   "chg": 0.38,
    "spark": [
-    64144.7,
-    63708.5,
     63558.1,
     63447.0,
     63544.4,
@@ -340,7 +367,9 @@
     63722.2,
     63593.1,
     63406.0,
-    63524.8
+    63626.2,
+    63655.4,
+    63652.5
    ]
   }
  ],
@@ -405,12 +434,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786624223.789013,
+   "ts": 1786629944.108502,
    "title": "Gold retreats from two-month high amid post-rally profit-taking",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "13 Aug \u00b7 05:30 PM",
+   "t": "13 Aug \u00b7 07:05 PM",
    "ur": "Rili ke bad manafa line ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya."
+  },
+  {
+   "ts": 1786629329.0,
+   "title": "Food inflation jumped to 5.52% and the Reserve Bank of India held at 5.25%: Why rate hikes are still on the table",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/food-inflation-jumped-to-552-and-the-reserve-bank-of-india-held-at-525-why-rate-hikes-are-still-on-the-table-202608131355",
+   "t": "13 Aug \u00b7 06:55 PM",
+   "ur": "Khurak ki inflation (mehngai) 5.52 fisad tak pohch gayi aur resero Bank af andiya 5.25 fisad par: kiyon rate mein azafah abhi bhi mez par hai"
+  },
+  {
+   "ts": 1786628589.0,
+   "title": "Norges Bank: Disinflation slows rate path \u2013 Nomura",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/norges-bank-disinflation-slows-rate-path-nomura-202608131343",
+   "t": "13 Aug \u00b7 06:43 PM",
+   "ur": "Naurges Bank: dis anfalation rate ka raastah sast kar diti hai - nomora"
+  },
+  {
+   "ts": 1786628024.0,
+   "title": "Federal Reserve: Trump pressure and rate risks \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/federal-reserve-trump-pressure-and-rate-risks-commerzbank-202608131333",
+   "t": "13 Aug \u00b7 06:33 PM",
+   "ur": "Faderl resero: trmp ke dabao aur rate ke khatrat - kamers Bank"
+  },
+  {
+   "ts": 1786627458.0,
+   "title": "US Dollar: Yield support erodes on weaker inflation \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-yield-support-erodes-on-weaker-inflation-dbs-202608131324",
+   "t": "13 Aug \u00b7 06:24 PM",
+   "ur": "US Dollar: kamazor inflation (mehngai) par pedawar ki support mein kami aati hai - DBS"
+  },
+  {
+   "ts": 1786626667.0,
+   "title": "\"Still an open question\": Fed\u2019s Barkin keeps possibility of rate hike alive",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/still-an-open-question-feds-barkin-keeps-possibility-of-rate-hike-alive-202608131311",
+   "t": "13 Aug \u00b7 06:11 PM",
+   "ur": "\"abhi bhi ek khala swal\": fed ka barkan rate mein azafe ke amkan ko zandah rakta hai."
+  },
+  {
+   "ts": 1786626663.0,
+   "title": "Euro: Choppy range trading outlook against US Dollar \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-choppy-range-trading-outlook-against-us-dollar-rabobank-202608131311",
+   "t": "13 Aug \u00b7 06:11 PM",
+   "ur": "Uro: US Dollar - rabobank ke maqable mein chopi rinj treading oat lak"
+  },
+  {
+   "ts": 1786625427.0,
+   "title": "Turkish Lira: Further depreciation seen against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/turkish-lira-further-depreciation-seen-against-us-dollar-commerzbank-202608131250",
+   "t": "13 Aug \u00b7 05:50 PM",
+   "ur": "Tark lira: US Dollar ke maqable mein mazid garaut dekhi gayi - kamers Bank"
+  },
+  {
+   "ts": 1786624995.0,
+   "title": "US PPI comes in softer than expected, confirms easing inflation pressure",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-ppi-comes-in-softer-than-expected-confirms-easing-inflation-pressures-202608131243",
+   "t": "13 Aug \u00b7 05:43 PM",
+   "ur": "US PPI toqa se ziyadah narm hai, inflation (mehngai) ke dabao ko kam karne ki tasadiq karta hai."
   },
   {
    "ts": 1786624169.0,
@@ -419,70 +512,6 @@
    "link": "https://www.fxstreet.com/news/euro-steadies-against-japanese-yen-as-ecb-rate-hike-expectations-strengthen-202608131229",
    "t": "13 Aug \u00b7 05:29 PM",
    "ur": "Uro japani yan ke maqable mein mastahkam hai cunkah ECB ki rate mein azafe ki toqaat mazboot hoti hen."
-  },
-  {
-   "ts": 1786624154.0,
-   "title": "Indian Rupee: Benign inflation reinforces RBI pause \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-benign-inflation-reinforces-rbi-pause-dbs-202608131229",
-   "t": "13 Aug \u00b7 05:29 PM",
-   "ur": "Handostani ropiya: somi inflation (mehngai) ne RBI ke toqf ko taqwet di - DBS"
-  },
-  {
-   "ts": 1786622419.0,
-   "title": "New Zealand Dollar: Anchored expectations back RBNZ hikes \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-anchored-expectations-back-rbnz-hikes-bbh-202608131200",
-   "t": "13 Aug \u00b7 05:00 PM",
-   "ur": "Niyozi lind Dollar: langr andaz toqaat RBNZ mein azafe - BBH"
-  },
-  {
-   "ts": 1786621940.0,
-   "title": "Gold Price Forecast: XAU/USD stands tall at two-month highs above $4,380",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-stands-tall-at-two-month-highs-above-4-380-202608131152",
-   "t": "13 Aug \u00b7 04:52 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,380 se oper do mah ki baland tarin sath par khada hai"
-  },
-  {
-   "ts": 1786621922.0,
-   "title": "Federal Reserve: Gradual easing path \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-gradual-easing-path-uob-202608131152",
-   "t": "13 Aug \u00b7 04:52 PM",
-   "ur": "Faderl resero: btadarage narmi ka raastah - UOB"
-  },
-  {
-   "ts": 1786621280.0,
-   "title": "Silver slips below $65, but cooling US inflation keeps downside in check",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-slips-below-65-but-cooling-us-inflation-keeps-downside-in-check-202608131141",
-   "t": "13 Aug \u00b7 04:41 PM",
-   "ur": "Silver (chandi) $65 se niche phisalti hai, lican US inflation (mehngai) ko thanda karne se niche ki taraf kantrol hota hai."
-  },
-  {
-   "ts": 1786620770.0,
-   "title": "Riksbank: Rate hike risks rise \u2013 Nomura",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/riksbank-rate-hike-risks-rise-nomura-202608131132",
-   "t": "13 Aug \u00b7 04:32 PM",
-   "ur": "Riksbank: rate mein azafe ke khatrat badh rahe hen - nomora"
-  },
-  {
-   "ts": 1786619475.0,
-   "title": "British Pound recovers early losses against US Dollar, US PPI data eyed",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-recovers-early-losses-against-us-dollar-us-ppi-data-eyed-202608131111",
-   "t": "13 Aug \u00b7 04:11 PM",
-   "ur": "Bartanvi pound ne US Dollar ke maqable mein abtadai naqsanat ka azalah kiya, US PPI ke aed w shmar par nazar rakhi gayi."
-  },
-  {
-   "ts": 1786618630.0,
-   "title": "Gold retreats from two-month high as traders await US PPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-retreats-from-two-month-high-as-traders-await-us-ppi-202608131057",
-   "t": "13 Aug \u00b7 03:57 PM",
-   "ur": "Gold (sona) do mah ki baland tarin sath se patchhe hat raha hai cunkah taajr US PPI ka antezar kar rahe hen."
   }
  ],
  "sentiment": {
