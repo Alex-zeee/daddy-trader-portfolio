@@ -1,23 +1,13 @@
 {
- "updated": "13-08-2026 05:04 PKT",
+ "updated": "13-08-2026 07:42 PKT",
  "gold": {
-  "price": 4416.88,
-  "open": 4375.39,
-  "high": 4441.22,
-  "low": 4374.64,
-  "chg": 0.95,
+  "price": 4408.1,
+  "open": 4406.93,
+  "high": 4449.78,
+  "low": 4381.6,
+  "chg": 0.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4415.41,
-   4437.32,
-   4435.25,
-   4423.65,
-   4417.31,
-   4417.52,
-   4430.94,
-   4434.17,
-   4438.09,
-   4422.45,
    4421.41,
    4428.72,
    4421.81,
@@ -55,14 +45,24 @@
    4409.35,
    4409.04,
    4412.81,
-   4416.88
+   4420.22,
+   4427.93,
+   4439.65,
+   4427.37,
+   4430.41,
+   4420.47,
+   4420.55,
+   4407.91,
+   4411.46,
+   4407.55,
+   4408.1
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.405,
-   "chg": 0.98,
+   "price": 65.255,
+   "chg": 0.75,
    "spark": [
     58.772,
     57.11,
@@ -85,26 +85,28 @@
     63.332,
     65.106,
     64.769,
-    65.405
+    65.255
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.955,
-   "chg": 0.14,
+   "price": 100.003,
+   "chg": 0.18,
    "spark": [
-    101.28,
     100.94,
     100.5,
     100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     99.6,
     99.81,
     99.82,
-    99.955
+    100.003
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.71,
-   "chg": -0.59,
+   "price": 82.21,
+   "chg": -1.19,
    "spark": [
     79.34,
     79.6,
@@ -141,7 +143,7 @@
     78.18,
     82.13,
     83.2,
-    82.71
+    82.21
    ]
   },
   {
@@ -175,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1533,
-   "chg": -0.1,
+   "price": 1.1525,
+   "chg": -0.16,
    "spark": [
     1.1425,
     1.147,
@@ -199,13 +201,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1533
+    1.1525
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3499,
-   "chg": -0.08,
+   "price": 1.3488,
+   "chg": -0.16,
    "spark": [
     1.3397,
     1.3541,
@@ -228,13 +230,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3499
+    1.3488
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.311,
-   "chg": 0.03,
+   "price": 159.446,
+   "chg": 0.11,
    "spark": [
     162.187,
     162.072,
@@ -257,16 +259,14 @@
     157.891,
     159.156,
     159.265,
-    159.311
+    159.446
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.44,
-   "chg": -0.02,
+   "price": 1873.53,
+   "chg": -0.23,
    "spark": [
-    1876.1,
-    1876.57,
     1878.88,
     1874.3,
     1872.62,
@@ -312,16 +312,16 @@
     1876.12,
     1876.48,
     1878.32,
-    1877.44
+    1878.89,
+    1876.16,
+    1873.53
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63404.4,
-   "chg": -0.01,
+   "price": 63382.7,
+   "chg": -0.05,
    "spark": [
-    64008.0,
-    63986.2,
     64071.3,
     63972.1,
     63950.8,
@@ -367,7 +367,9 @@
     63390.8,
     63365.0,
     63412.0,
-    63404.4
+    63506.6,
+    63394.0,
+    63382.7
    ]
   }
  ],
@@ -432,20 +434,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786579443.492933,
+   "ts": 1786588970.94748,
    "title": "Silver stalls below $66.86 Fib resistance: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "13 Aug \u00b7 05:04 AM",
+   "t": "13 Aug \u00b7 07:42 AM",
    "ur": "Silver (chandi) ki qeemat 66.86 Dollar se niche hai: fi ghanta ki sath"
   },
   {
-   "ts": 1786579443.492933,
+   "ts": 1786588970.94748,
    "title": "Gold overbought near $4,500 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "13 Aug \u00b7 05:04 AM",
+   "t": "13 Aug \u00b7 07:42 AM",
    "ur": "Gold (sona) $4,500 mazahmat ke qarib ziyadah khareeda."
+  },
+  {
+   "ts": 1786588638.0,
+   "title": "Japanese Yen flatlines near 159.50 on intervention risks, US PPI data looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-flatlines-near-15950-on-intervention-risks-us-ppi-data-looms-202608130237",
+   "t": "13 Aug \u00b7 07:37 AM",
+   "ur": "Madakhalt ke khatrat par japani yan filet linez 159.50 ke qarib, US PPI deta kam ho gaya"
+  },
+  {
+   "ts": 1786587280.0,
+   "title": "0.7050: Australian Dollar stuck in a range as Iran risks offset hawkish RBA",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/07050-australian-dollar-stuck-in-a-range-as-iran-risks-offset-hawkish-rba-202608130214",
+   "t": "13 Aug \u00b7 07:14 AM",
+   "ur": "0.7050: aasterilvi Dollar ek had mein phans gaya cunkah eran ne hakish RBA ko afset karne ka khatrah mol liya"
+  },
+  {
+   "ts": 1786585566.0,
+   "title": "Canadian Dollar steadies as weak US Dollar offsets lower oil prices",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-steadies-as-weak-us-dollar-offsets-lower-oil-prices-202608130146",
+   "t": "13 Aug \u00b7 06:46 AM",
+   "ur": "Caniden Dollar mastahkam hai cunkah kamazor US Dollar til ki kam qeemton ko pora karta hai."
+  },
+  {
+   "ts": 1786583771.0,
+   "title": "United States Dollar Index stalls post-CPI bounce near 100.00 on receding Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-stalls-post-cpi-bounce-near-10000-on-receding-fed-hike-bets-202608130116",
+   "t": "13 Aug \u00b7 06:16 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex rak gaya hai CPI ke bad Fed mein azafe ki shart mein kami par 100.00 ke qarib achal"
+  },
+  {
+   "ts": 1786582897.0,
+   "title": "Euro advances as US Dollar weakens amid cooling Inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-advances-as-us-dollar-weakens-amid-cooling-us-inflation-202608130101",
+   "t": "13 Aug \u00b7 06:01 AM",
+   "ur": "Thandic inflation (mehngai) ke darmiyan US Dollar ke kamazor hone par uro ki tarqi"
+  },
+  {
+   "ts": 1786581692.0,
+   "title": "RBA's Kent: Cash rate hikes are achieving their intended impact",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/rbas-kent-cash-rate-hikes-are-achieving-their-intended-impact-202608130041",
+   "t": "13 Aug \u00b7 05:41 AM",
+   "ur": "RBA's Kent: nakhad rate mein azafah apane mutalobah asarat ko haasil kar raha hai."
   },
   {
    "ts": 1786577352.0,
@@ -462,54 +512,6 @@
    "link": "https://www.fxstreet.com/news/commodities-weaker-dollar-lacks-growth-catalyst-bny-202608122318",
    "t": "13 Aug \u00b7 04:18 AM",
    "ur": "Kamodits: kamazor Dollar mein namo ke ataprirk ki kami hai - BNY"
-  },
-  {
-   "ts": 1786573862.0,
-   "title": "Australian Dollar pulls back as inflation expectations loom",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-pulls-back-as-inflation-expectations-loom-202608122231",
-   "t": "13 Aug \u00b7 03:31 AM",
-   "ur": "Mahungai ki toqaat ke sath aasterilvi Dollar patchhe hat gaya."
-  },
-  {
-   "ts": 1786571934.0,
-   "title": "Euro reverses from two-day high, fade US soft CPI move",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-reverses-from-two-day-high-fade-us-soft-cpi-move-202608122158",
-   "t": "13 Aug \u00b7 02:58 AM",
-   "ur": "Uro do dan ki unchai se plt raha hai, US narm CPI aqdam dhandila hai."
-  },
-  {
-   "ts": 1786570472.0,
-   "title": "Mexican Peso rallies to two-year high as soft CPI hits Fed bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-rallies-to-two-year-high-as-soft-cpi-hits-fed-bets-202608122134",
-   "t": "13 Aug \u00b7 02:34 AM",
-   "ur": "Mexican peso ki riliyan do sal ki baland tarin sath par pohch gayi cunkah narm CPI ne fed ke bates ko nashana banaya"
-  },
-  {
-   "ts": 1786569793.0,
-   "title": "New Zealand Dollar slips as Middle East uncertainty weighs on Kiwi",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-slips-as-middle-east-uncertainty-weighs-on-kiwi-202608122123",
-   "t": "13 Aug \u00b7 02:23 AM",
-   "ur": "Kevi par masharq wasta ki ghair yaqeeni surtahal ke baas niyozi lind Dollar ki qeemat mein kami"
-  },
-  {
-   "ts": 1786569120.0,
-   "title": "Singapore Dollar: Upside risk builds against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-builds-against-us-dollar-uob-202608122112",
-   "t": "13 Aug \u00b7 02:12 AM",
-   "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein alta khatrah badhta hai."
-  },
-  {
-   "ts": 1786563428.0,
-   "title": "Chinese Yuan: Range trade and upside risk against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-and-upside-risk-against-us-dollar-uob-202608121937",
-   "t": "13 Aug \u00b7 12:37 AM",
-   "ur": "Chini uan: had tajart aur US Dollar ke maqable mein alta khatrah - UOB"
   }
  ],
  "sentiment": {
