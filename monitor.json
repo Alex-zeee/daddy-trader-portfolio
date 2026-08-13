@@ -1,16 +1,13 @@
 {
- "updated": "13-08-2026 15:49 PKT",
+ "updated": "13-08-2026 16:36 PKT",
  "gold": {
-  "price": 4388.71,
-  "open": 4411.5,
+  "price": 4387.65,
+  "open": 4412.55,
   "high": 4449.78,
   "low": 4364.91,
-  "chg": -0.52,
+  "chg": -0.56,
   "src": "XAUUSD Spot",
   "spark": [
-   4405.88,
-   4409.35,
-   4409.04,
    4412.81,
    4420.22,
    4427.93,
@@ -55,14 +52,17 @@
    4381.97,
    4387.07,
    4389.98,
-   4388.71
+   4392.34,
+   4392.7,
+   4390.04,
+   4387.65
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.115,
-   "chg": -0.67,
+   "price": 65.095,
+   "chg": -0.7,
    "spark": [
     57.11,
     55.898,
@@ -85,26 +85,27 @@
     65.106,
     64.769,
     65.555,
-    65.115
+    65.095
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.875,
-   "chg": -0.13,
+   "price": 99.885,
+   "chg": -0.12,
    "spark": [
-    101.28,
-    100.94,
     100.5,
     100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +114,13 @@
     99.81,
     99.82,
     100.01,
-    99.875
+    99.885
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.44,
-   "chg": -2.2,
+   "price": 81.59,
+   "chg": -2.02,
    "spark": [
     79.6,
     78.95,
@@ -142,7 +143,7 @@
     82.13,
     83.2,
     83.27,
-    81.44
+    81.59
    ]
   },
   {
@@ -150,12 +151,20 @@
    "price": 4.682,
    "chg": -0.04,
    "spark": [
+    4.585,
+    4.545,
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -226,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.336,
-   "chg": 0.04,
+   "price": 159.291,
+   "chg": 0.02,
    "spark": [
     162.187,
     162.072,
@@ -250,15 +259,14 @@
     157.891,
     159.156,
     159.265,
-    159.336
+    159.291
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1881.63,
-   "chg": 0.2,
+   "price": 1874.1,
+   "chg": -0.2,
    "spark": [
-    1891.57,
     1886.31,
     1888.36,
     1871.76,
@@ -305,15 +313,15 @@
     1894.01,
     1887.98,
     1888.47,
-    1881.63
+    1881.01,
+    1874.1
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63580.7,
-   "chg": 0.27,
+   "price": 63323.2,
+   "chg": -0.14,
    "spark": [
-    64339.5,
     64269.3,
     64144.7,
     63708.5,
@@ -360,7 +368,8 @@
     63797.5,
     63699.1,
     63722.2,
-    63580.7
+    63593.1,
+    63323.2
    ]
   }
  ],
@@ -425,12 +434,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786618181.252646,
+   "ts": 1786620991.176134,
    "title": "Gold retreats from two-month high amid post-rally profit-taking",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "13 Aug \u00b7 03:49 PM",
+   "t": "13 Aug \u00b7 04:36 PM",
    "ur": "Rili ke bad manafa line ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya."
+  },
+  {
+   "ts": 1786620770.0,
+   "title": "Riksbank: Rate hike risks rise \u2013 Nomura",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/riksbank-rate-hike-risks-rise-nomura-202608131132",
+   "t": "13 Aug \u00b7 04:32 PM",
+   "ur": "Riksbank: rate mein azafe ke khatrat badh rahe hen - nomora"
+  },
+  {
+   "ts": 1786619475.0,
+   "title": "British Pound recovers early losses against US Dollar, US PPI data eyed",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-recovers-early-losses-against-us-dollar-us-ppi-data-eyed-202608131111",
+   "t": "13 Aug \u00b7 04:11 PM",
+   "ur": "Bartanvi pound ne US Dollar ke maqable mein abtadai naqsanat ka azalah kiya, US PPI ke aed w shmar par nazar rakhi gayi."
+  },
+  {
+   "ts": 1786618630.0,
+   "title": "Gold retreats from two-month high as traders await US PPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-retreats-from-two-month-high-as-traders-await-us-ppi-202608131057",
+   "t": "13 Aug \u00b7 03:57 PM",
+   "ur": "Gold (sona) do mah ki baland tarin sath se patchhe hat raha hai cunkah taajr US PPI ka antezar kar rahe hen."
   },
   {
    "ts": 1786616602.0,
@@ -479,30 +512,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-inflation-outlook-and-fed-path-uob-202608130919",
    "t": "13 Aug \u00b7 02:19 PM",
    "ur": "US Dollar: inflation (mehngai) ka naqatah nazar aur fed path - UOB"
-  },
-  {
-   "ts": 1786612223.0,
-   "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar - MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-boj-hike-expectations-support-jpy-against-us-dollar-mufg-202608130910",
-   "t": "13 Aug \u00b7 02:10 PM",
-   "ur": "Japani yan: BoJ mein azafe ki toqaat US Dollar - MUFG ke maqable JPY ki support karti hen."
-  },
-  {
-   "ts": 1786611264.0,
-   "title": "Euro bounces off one-week low, holds above 1.1500 vs USD as traders look to US PPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-bounces-off-one-week-low-holds-above-11500-vs-usd-as-traders-look-to-us-ppi-202608130854",
-   "t": "13 Aug \u00b7 01:54 PM",
-   "ur": "Uro ek hafte ki kam tarin sath se achal raha hai, 1.1500 bamaqablah USD se oper hai cunkah taajr US PPI ki taraf dekhte hen"
-  },
-  {
-   "ts": 1786610937.0,
-   "title": "Canadian Dollar: Recovery not just about Oil \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-recovery-not-just-about-oil-commerzbank-202608130848",
-   "t": "13 Aug \u00b7 01:48 PM",
-   "ur": "Caniden Dollar: recovery sarf til ke bare mein nihen - kamers Bank"
   }
  ],
  "sentiment": {
