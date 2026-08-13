@@ -1,18 +1,13 @@
 {
- "updated": "13-08-2026 23:04 PKT",
+ "updated": "14-08-2026 00:16 PKT",
  "gold": {
-  "price": 4359.06,
-  "open": 4405.74,
+  "price": 4346.03,
+  "open": 4416.11,
   "high": 4449.78,
-  "low": 4351.8,
-  "chg": -1.06,
+  "low": 4345.18,
+  "chg": -1.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.67,
-   4373.99,
-   4380.13,
-   4376.34,
-   4376.32,
    4377.22,
    4370.49,
    4366.28,
@@ -55,14 +50,19 @@
    4364.67,
    4357.3,
    4356.63,
-   4359.06
+   4362.46,
+   4357.83,
+   4358.13,
+   4357.48,
+   4349.26,
+   4346.03
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.915,
-   "chg": -0.98,
+   "price": 64.76,
+   "chg": -1.21,
    "spark": [
     57.11,
     55.898,
@@ -85,12 +85,12 @@
     65.106,
     64.769,
     65.555,
-    64.915
+    64.76
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.965,
+   "price": 99.96,
    "chg": -0.05,
    "spark": [
     101.28,
@@ -113,13 +113,13 @@
     99.81,
     99.82,
     100.01,
-    99.965
+    99.96
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.89,
-   "chg": -1.66,
+   "price": 81.08,
+   "chg": -2.63,
    "spark": [
     79.6,
     78.95,
@@ -142,13 +142,13 @@
     82.13,
     83.2,
     83.27,
-    81.89
+    81.08
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.645,
-   "chg": -0.79,
+   "price": 4.641,
+   "chg": -0.88,
    "spark": [
     4.703,
     4.679,
@@ -164,13 +164,13 @@
     4.699,
     4.684,
     4.682,
-    4.645
+    4.641
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1531,
-   "chg": -0.11,
+   "price": 1.1533,
+   "chg": -0.1,
    "spark": [
     1.1425,
     1.147,
@@ -193,13 +193,13 @@
     1.1556,
     1.1546,
     1.1544,
-    1.1531
+    1.1533
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3482,
-   "chg": -0.21,
+   "price": 1.3485,
+   "chg": -0.19,
    "spark": [
     1.3397,
     1.3541,
@@ -222,13 +222,13 @@
     1.3491,
     1.3511,
     1.351,
-    1.3482
+    1.3485
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.533,
-   "chg": 0.17,
+   "price": 159.509,
+   "chg": 0.15,
    "spark": [
     162.187,
     162.072,
@@ -251,15 +251,14 @@
     157.891,
     159.156,
     159.265,
-    159.533
+    159.509
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1879.5,
-   "chg": 0.09,
+   "price": 1886.44,
+   "chg": 0.46,
    "spark": [
-    1880.11,
     1880.49,
     1883.3,
     1880.94,
@@ -306,15 +305,15 @@
     1878.22,
     1872.57,
     1875.01,
-    1879.5
+    1883.51,
+    1886.44
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63224.0,
-   "chg": -0.3,
+   "price": 63336.6,
+   "chg": -0.12,
    "spark": [
-    63478.4,
     63682.9,
     63623.7,
     63620.5,
@@ -361,7 +360,8 @@
     63369.1,
     63089.3,
     63090.0,
-    63224.0
+    63249.9,
+    63336.6
    ]
   }
  ],
@@ -402,12 +402,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786644253.777166,
-   "title": "Gold retreats from two-month high amid post-rally profit-taking",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-cpifuelled-rally-as-fed-hormuz-stay-in-focus-4856542",
-   "t": "13 Aug \u00b7 11:04 PM",
-   "ur": "Rili ke bad manafa line ke darmiyan Gold (sona) do mah ki baland tarin sath se patchhe hat gaya."
+   "ts": 1786646280.0,
+   "title": "Singapore Dollar: Range holds as upside risk watched against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-range-holds-as-upside-risk-watched-against-us-dollar-uob-202608131838",
+   "t": "13 Aug \u00b7 11:38 PM",
+   "ur": "Sangapor Dollar: rinj US Dollar - UOB ke maqable mein alta khatrah hai."
+  },
+  {
+   "ts": 1786645045.0,
+   "title": "Japanese Yen little changed amid cooling US inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-little-changed-amid-cooling-us-inflation-202608131817",
+   "t": "13 Aug \u00b7 11:17 PM",
+   "ur": "US inflation (mehngai) ko thanda karne ke darmiyan japani yan thoda sa tabadil hawa."
+  },
+  {
+   "ts": 1786644810.0,
+   "title": "Gold slips as US Dollar recovers despite softer US factory inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-slips-as-us-dollar-recovers-despite-softer-us-factory-inflation-202608131813",
+   "t": "13 Aug \u00b7 11:13 PM",
+   "ur": "US fectori mahungai mein narmi ke bawajud US Dollar ki recovery ke bad Gold (sona) phisal gaya."
+  },
+  {
+   "ts": 1786644641.0,
+   "title": "Silver Price Forecast: Momentum cools as XAG/USD consolidates above 50-day SMA",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-momentum-cools-as-xag-usd-consolidates-above-50-day-sma-202608131810",
+   "t": "13 Aug \u00b7 11:10 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD ke 50-day SMA se oper ke mastahkam hone par raftar thanda"
   },
   {
    "ts": 1786639440.0,
@@ -456,30 +480,6 @@
    "link": "https://www.fxstreet.com/news/poland-fuel-driven-inflation-rise-contained-ing-202608131503",
    "t": "13 Aug \u00b7 08:03 PM",
    "ur": "Polind: andhan se chalne wali inflation (mehngai) mein azafah - ING"
-  },
-  {
-   "ts": 1786632982.0,
-   "title": "India: Inflation path higher into FY27 \u2013 Standard Chartered",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-inflation-path-higher-into-fy27-standard-chartered-202608131456",
-   "t": "13 Aug \u00b7 07:56 PM",
-   "ur": "Handostan: mali sal 27 mein inflation (mehngai) ka raastah baland - stindrd charter"
-  },
-  {
-   "ts": 1786632453.0,
-   "title": "Canadian Dollar steadies as falling Oil offsets US Dollar weakness",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-steadies-as-falling-oil-offsets-us-dollar-weakness-202608131447",
-   "t": "13 Aug \u00b7 07:47 PM",
-   "ur": "Caniden Dollar mastahkam hai cunkah til garta hai US Dollar ki kamazori ko pora karta hai."
-  },
-  {
-   "ts": 1786631439.0,
-   "title": "Euro edges higher against US Dollar after soft US PPI data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-edges-higher-against-us-dollar-after-soft-us-ppi-data-202608131430",
-   "t": "13 Aug \u00b7 07:30 PM",
-   "ur": "Narm US PPI deta ke bad uro US Dollar ke maqable mein uncha hai."
   }
  ],
  "sentiment": {
