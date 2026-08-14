@@ -1,17 +1,13 @@
 {
- "updated": "14-08-2026 23:03 PKT",
+ "updated": "15-08-2026 00:10 PKT",
  "gold": {
-  "price": 4378.07,
-  "open": 4362.07,
+  "price": 4374.47,
+  "open": 4351.44,
   "high": 4396.59,
   "low": 4310.61,
-  "chg": 0.37,
+  "chg": 0.53,
   "src": "XAUUSD Spot",
   "spark": [
-   4330.58,
-   4331.89,
-   4335.35,
-   4332.36,
    4334.2,
    4338.51,
    4344.1,
@@ -55,14 +51,18 @@
    4380.18,
    4377.95,
    4377.78,
-   4378.07
+   4377.44,
+   4378.84,
+   4381.6,
+   4373.35,
+   4374.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.965,
-   "chg": 0.14,
+   "price": 64.91,
+   "chg": 0.06,
    "spark": [
     55.898,
     56.038,
@@ -85,13 +85,13 @@
     64.769,
     65.555,
     64.873,
-    64.965
+    64.91
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.68,
-   "chg": -0.28,
+   "price": 99.664,
+   "chg": -0.3,
    "spark": [
     100.73,
     100.75,
@@ -114,13 +114,13 @@
     99.82,
     100.01,
     99.96,
-    99.68
+    99.664
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.37,
-   "chg": 1.38,
+   "price": 82.35,
+   "chg": 1.35,
    "spark": [
     78.95,
     82.49,
@@ -143,7 +143,7 @@
     83.2,
     83.27,
     81.25,
-    82.37
+    82.35
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1567,
-   "chg": 0.32,
+   "price": 1.1569,
+   "chg": 0.34,
    "spark": [
     1.147,
     1.1445,
@@ -201,13 +201,13 @@
     1.1546,
     1.1544,
     1.153,
-    1.1567
+    1.1569
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3532,
-   "chg": 0.25,
+   "price": 1.3534,
+   "chg": 0.27,
    "spark": [
     1.3541,
     1.3479,
@@ -230,13 +230,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3532
+    1.3534
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.353,
-   "chg": 0.02,
+   "price": 159.374,
+   "chg": 0.03,
    "spark": [
     162.072,
     162.376,
@@ -259,15 +259,14 @@
     159.156,
     159.265,
     159.328,
-    159.353
+    159.374
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.42,
-   "chg": -0.54,
+   "price": 1872.85,
+   "chg": -0.62,
    "spark": [
-    1877.55,
     1884.62,
     1876.12,
     1876.48,
@@ -314,15 +313,15 @@
     1879.28,
     1883.68,
     1876.59,
-    1874.42
+    1873.69,
+    1872.85
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62945.6,
-   "chg": -0.75,
+   "price": 62821.9,
+   "chg": -0.95,
    "spark": [
-    63352.6,
     63532.3,
     63390.8,
     63365.0,
@@ -369,7 +368,8 @@
     62914.0,
     63066.2,
     62940.9,
-    62945.5
+    62846.7,
+    62821.9
    ]
   }
  ],
@@ -386,12 +386,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786730580.684264,
+   "ts": 1786734618.120021,
    "title": "Gold advances after unexpected fall in U.S. retail sales",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "14 Aug \u00b7 11:03 PM",
+   "t": "15 Aug \u00b7 12:10 AM",
    "ur": "US khurdah farokht mein ghair matoqa kami ke bad Gold (sone) ki qeemat mein azafah"
+  },
+  {
+   "ts": 1786731836.0,
+   "title": "The Dollar Index breaks on the fourth consecutive soft print",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-dollar-index-breaks-on-the-fourth-consecutive-soft-print-202608141823",
+   "t": "14 Aug \u00b7 11:23 PM",
+   "ur": "Dollar andex maslsal chothe narm parnt par tot gaya."
+  },
+  {
+   "ts": 1786731240.0,
+   "title": "Singapore Dollar: Consolidation near 1.28 with upside risks against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-consolidation-near-128-with-upside-risks-against-us-dollar-ocbc-202608141814",
+   "t": "14 Aug \u00b7 11:14 PM",
+   "ur": "Sangapor Dollar: US Dollar ke khalaf alta khatrat ke sath 1.28 ke qarib istehkam - OCBC"
   },
   {
    "ts": 1786729166.0,
@@ -448,22 +464,6 @@
    "link": "https://www.fxstreet.com/news/euro-spreads-support-upside-bias-against-us-dollar-scotiabank-202608141609",
    "t": "14 Aug \u00b7 09:09 PM",
    "ur": "Uro: US Dollar - Scotiabank ke khalaf alta taasab phelata hai."
-  },
-  {
-   "ts": 1786721820.0,
-   "title": "Japanese Yen: Policy risks support gains against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-policy-risks-support-gains-against-us-dollar-scotiabank-202608141537",
-   "t": "14 Aug \u00b7 08:37 PM",
-   "ur": "Japani yan: palisi US Dollar - Scotiabank ke maqable mein maaun fawaid ko khatre mein dalti hai."
-  },
-  {
-   "ts": 1786720310.0,
-   "title": "US Dollar: Data-driven outlook in focus \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-data-driven-outlook-in-focus-mufg-202608141511",
-   "t": "14 Aug \u00b7 08:11 PM",
-   "ur": "US Dollar: deta par mbani oat lak an fox \u2013 MUFG"
   }
  ],
  "sentiment": {
