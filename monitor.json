@@ -1,15 +1,13 @@
 {
- "updated": "15-08-2026 04:13 PKT",
+ "updated": "15-08-2026 04:35 PKT",
  "gold": {
-  "price": 4375.67,
-  "open": 4355.88,
+  "price": 4375.66,
+  "open": 4359.17,
   "high": 4396.59,
   "low": 4310.61,
-  "chg": 0.45,
+  "chg": 0.38,
   "src": "XAUUSD Spot",
   "spark": [
-   4357.12,
-   4363.18,
    4368.14,
    4369.93,
    4379.25,
@@ -55,7 +53,9 @@
    4375.69,
    4375.66,
    4375.58,
-   4375.67
+   4375.66,
+   4375.7,
+   4375.66
   ]
  },
  "markets": [
@@ -86,6 +86,35 @@
     65.555,
     64.873,
     64.825
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 99.636,
+   "chg": -0.32,
+   "spark": [
+    100.73,
+    100.75,
+    100.99,
+    101.18,
+    101.14,
+    101.43,
+    101.47,
+    101.51,
+    101.38,
+    100.8,
+    100.01,
+    99.8,
+    99.96,
+    99.89,
+    99.69,
+    99.97,
+    99.6,
+    99.81,
+    99.82,
+    100.01,
+    99.96,
+    99.636
    ]
   },
   {
@@ -122,12 +151,18 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -201,9 +236,8 @@
   {
    "name": "USD/JPY",
    "price": 159.305,
-   "chg": -0.01,
+   "chg": -0.08,
    "spark": [
-    162.072,
     162.376,
     162.512,
     162.487,
@@ -224,13 +258,14 @@
     159.156,
     159.265,
     159.328,
+    159.426,
     159.305
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1878.34,
-   "chg": -0.33,
+   "price": 1877.62,
+   "chg": -0.37,
    "spark": [
     1878.89,
     1876.16,
@@ -279,13 +314,13 @@
     1878.2,
     1877.53,
     1877.88,
-    1878.34
+    1877.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62849.3,
-   "chg": -0.91,
+   "price": 62865.3,
+   "chg": -0.88,
    "spark": [
     63506.6,
     63394.0,
@@ -334,7 +369,7 @@
     62840.2,
     62863.2,
     62829.4,
-    62849.3
+    62865.3
    ]
   }
  ],
@@ -391,19 +426,19 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1786749180.358891,
+   "ts": 1786750536.887088,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "15 Aug \u00b7 04:13 AM",
+   "t": "15 Aug \u00b7 04:35 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
   },
   {
-   "ts": 1786749180.358891,
+   "ts": 1786750536.887088,
    "title": "Silver doji signals range indecision at $64.90: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "15 Aug \u00b7 04:13 AM",
+   "t": "15 Aug \u00b7 04:35 AM",
    "ur": "Salor dogi skigles ghair fisalah kan had $64.90 par hen."
   },
   {
@@ -452,7 +487,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
+   "ur": "Kamazor US deta ne fed mein azafe ki shart ko naqsan pohchate huvay Gold (sone) ki riliyan nakalin."
   },
   {
    "ts": 1786729140.0,
@@ -460,7 +495,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kiya - socit janerl"
+   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kar liya - sociti janerl"
   },
   {
    "ts": 1786726849.0,
