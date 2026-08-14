@@ -1,18 +1,13 @@
 {
- "updated": "14-08-2026 19:00 PKT",
+ "updated": "14-08-2026 20:04 PKT",
  "gold": {
-  "price": 4383.76,
-  "open": 4374.55,
+  "price": 4387.27,
+  "open": 4369.34,
   "high": 4396.59,
   "low": 4310.61,
-  "chg": 0.21,
+  "chg": 0.41,
   "src": "XAUUSD Spot",
   "spark": [
-   4313.29,
-   4313.46,
-   4318.99,
-   4314.87,
-   4322.46,
    4325.84,
    4325.84,
    4324.67,
@@ -55,14 +50,19 @@
    4378.35,
    4384.96,
    4395.73,
-   4383.76
+   4383.76,
+   4392.44,
+   4391.91,
+   4382.81,
+   4381.07,
+   4387.27
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.43,
-   "chg": 0.86,
+   "price": 65.455,
+   "chg": 0.9,
    "spark": [
     55.898,
     56.038,
@@ -85,26 +85,25 @@
     64.769,
     65.555,
     64.873,
-    65.43
+    65.455
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.493,
-   "chg": -0.47,
+   "price": 99.539,
+   "chg": -0.42,
    "spark": [
+    100.94,
+    100.5,
     100.73,
     100.75,
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +113,13 @@
     99.82,
     100.01,
     99.96,
-    99.493
+    99.539
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.94,
-   "chg": -0.38,
+   "price": 81.71,
+   "chg": 0.57,
    "spark": [
     78.95,
     82.49,
@@ -143,42 +142,36 @@
     83.2,
     83.27,
     81.25,
-    80.94
+    81.71
    ]
   },
   {
-   "name": "EUR/USD",
-   "price": 1.1587,
-   "chg": 0.5,
+   "name": "US 10Y Yield",
+   "price": 4.668,
+   "chg": 0.58,
    "spark": [
-    1.147,
-    1.1445,
-    1.1428,
-    1.1418,
-    1.1404,
-    1.1412,
-    1.1377,
-    1.1395,
-    1.1369,
-    1.1387,
-    1.1467,
-    1.1524,
-    1.1544,
-    1.1507,
-    1.1532,
-    1.1557,
-    1.1525,
-    1.1556,
-    1.1546,
-    1.1544,
-    1.153,
-    1.1587
+    4.703,
+    4.679,
+    4.641,
+    4.604,
+    4.622,
+    4.663,
+    4.686,
+    4.627,
+    4.617,
+    4.67,
+    4.66,
+    4.699,
+    4.684,
+    4.682,
+    4.641,
+    4.668
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3557,
-   "chg": 0.44,
+   "price": 1.3552,
+   "chg": 0.4,
    "spark": [
     1.3541,
     1.3479,
@@ -201,13 +194,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3557
+    1.3552
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.891,
-   "chg": -0.27,
+   "price": 158.985,
+   "chg": -0.22,
    "spark": [
     162.072,
     162.376,
@@ -230,15 +223,14 @@
     159.156,
     159.265,
     159.328,
-    158.891
+    158.985
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1867.64,
-   "chg": -0.9,
+   "price": 1864.39,
+   "chg": -1.07,
    "spark": [
-    1890.64,
     1888.79,
     1886.66,
     1883.97,
@@ -285,15 +277,15 @@
     1876.25,
     1871.58,
     1867.48,
-    1867.64
+    1865.3,
+    1864.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62618.5,
-   "chg": -1.27,
+   "price": 62569.4,
+   "chg": -1.35,
    "spark": [
-    63376.2,
     63421.3,
     63409.3,
     63313.7,
@@ -340,7 +332,8 @@
     62804.9,
     62676.0,
     62582.5,
-    62618.5
+    62553.0,
+    62569.4
    ]
   }
  ],
@@ -389,20 +382,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786716025.214576,
-   "title": "Gold rally loses steam as traders take profits",
+   "ts": 1786719876.942361,
+   "title": "Gold advances after unexpected fall in U.S. retail sales",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "14 Aug \u00b7 07:00 PM",
-   "ur": "Gold (sone) ki rili bhap kho diti hai cunkah taajr manafa lite hen."
+   "t": "14 Aug \u00b7 08:04 PM",
+   "ur": "US khurdah farokht mein ghair matoqa kami ke bad Gold (sone) ki qeemat mein azafah"
   },
   {
-   "ts": 1786716025.214576,
+   "ts": 1786719876.942361,
    "title": "Should you chase this mini rally in gold? Citi weighs in",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/should-you-chase-this-mini-rally-in-gold-citi-weighs-in-4860317",
-   "t": "14 Aug \u00b7 07:00 PM",
+   "t": "14 Aug \u00b7 08:04 PM",
    "ur": "Kiya aap ko Gold (sone) mein is mani rili ka patchha karna chahe? Citi ka wazin hai."
+  },
+  {
+   "ts": 1786718755.0,
+   "title": "Euro climbs as fading Fed hike expectations pressure US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-climbs-as-fading-fed-hike-expectations-pressure-us-dollar-202608141445",
+   "t": "14 Aug \u00b7 07:45 PM",
+   "ur": "Uro chadhta hai cunkah fed mein azafe ki toqaat US Dollar par dabao dalti hen."
+  },
+  {
+   "ts": 1786718738.0,
+   "title": "Gold: Upside seen as Fed hike bets fade \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-upside-seen-as-fed-hike-bets-fade-commerzbank-202608141445",
+   "t": "14 Aug \u00b7 07:45 PM",
+   "ur": "Gold: fed mein azafe ki shart khtam hone ke tur par alta dekha gaya - kamers Bank"
+  },
+  {
+   "ts": 1786718239.0,
+   "title": "Federal Reserve: Labour strength supports further hikes \u2013 Nordea",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/federal-reserve-labour-strength-supports-further-hikes-nordea-202608141437",
+   "t": "14 Aug \u00b7 07:37 PM",
+   "ur": "Faderl resero: libr ki tqt mazid azafe ki support karti hai - naurdiya."
+  },
+  {
+   "ts": 1786717731.0,
+   "title": "United Kingdom: Inflation risks tilt higher \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-kingdom-inflation-risks-tilt-higher-td-securities-202608141428",
+   "t": "14 Aug \u00b7 07:28 PM",
+   "ur": "Unaited kangdom: inflation (mehngai) ke khatrat ziyadah jhakte hen - TD securitez"
+  },
+  {
+   "ts": 1786717597.0,
+   "title": "Canadian Dollar surges as sharp US Retail Sales miss hits the Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-surges-as-sharp-us-retail-sales-miss-hits-the-dollar-202608141426",
+   "t": "14 Aug \u00b7 07:26 PM",
+   "ur": "Caniden Dollar mein tizi se azafah hawa cunkah US retel sells ki kami Dollar se takara gayi."
+  },
+  {
+   "ts": 1786717226.0,
+   "title": "Japan: GDP steady, inflation near BoJ target \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japan-gdp-steady-inflation-near-boj-target-ing-202608141420",
+   "t": "14 Aug \u00b7 07:20 PM",
+   "ur": "Japan: ji di pi mastahkam, BoJ target ke qarib inflation (mehngai) - ING"
+  },
+  {
+   "ts": 1786716185.0,
+   "title": "US Dollar: Medium-term depreciation risks build \u2013 Nordea",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-medium-term-depreciation-risks-build-nordea-202608141403",
+   "t": "14 Aug \u00b7 07:03 PM",
+   "ur": "US Dollar: darmiyani madat ke garaut ke khatrat peda hote hen - Nordea"
   },
   {
    "ts": 1786715615.0,
@@ -411,62 +460,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-gains-on-hawkish-boj-outlook-and-softer-us-dollar-202608141353",
    "t": "14 Aug \u00b7 06:53 PM",
    "ur": "Japani yan ne BoJ ke ajeeb w ghareeb naqatah nazar aur narm US Dollar par faidah athaya"
-  },
-  {
-   "ts": 1786714778.0,
-   "title": "Gold: Fed pause keeps systematic demand supported - TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-fed-pause-keeps-systematic-demand-supported-td-securities-202608141339",
-   "t": "14 Aug \u00b7 06:39 PM",
-   "ur": "Gold: fed toqf manazm matalbah ko sahara dita hai - TD securitez"
-  },
-  {
-   "ts": 1786713139.0,
-   "title": "European Central Bank: Inflation keeps three rate hikes in play - Nordea",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/european-central-bank-inflation-keeps-three-rate-hikes-in-play-nordea-202608141312",
-   "t": "14 Aug \u00b7 06:12 PM",
-   "ur": "Uripi markazi Bank: inflation (mehngai) ne rate mein tin azafe ko barqarar rakha - Nordea"
-  },
-  {
-   "ts": 1786711769.0,
-   "title": "US Dollar: Lower short-term yields weigh on the Greenback \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-lower-short-term-yields-weigh-on-the-greenback-mufg-202608141249",
-   "t": "14 Aug \u00b7 05:49 PM",
-   "ur": "US Dollar: kam qalil madati pedawar ka wazin garin bek \u2013 MUFG par hai."
-  },
-  {
-   "ts": 1786710983.0,
-   "title": "Oil: War-driven price effects and inflation \u2013 UBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/oil-war-driven-price-effects-and-inflation-ubs-202608141236",
-   "t": "14 Aug \u00b7 05:36 PM",
-   "ur": "Til: jang se chalne wali qeemat ke asarat aur inflation (mehngai) - UBS"
-  },
-  {
-   "ts": 1786710303.0,
-   "title": "Federal Reserve: Communication reset at Jackson Hole \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-communication-reset-at-jackson-hole-td-securities-202608141225",
-   "t": "14 Aug \u00b7 05:25 PM",
-   "ur": "Faderl resero: jection hol - ti di securitez mein kamunication ri set"
-  },
-  {
-   "ts": 1786709856.0,
-   "title": "Australian Dollar regains momentum as hawkish RBA meets softer US inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-regains-momentum-as-hawkish-rba-meets-softer-us-inflation-202608141217",
-   "t": "14 Aug \u00b7 05:17 PM",
-   "ur": "Aasterilvi Dollar ne phar se raftar haasil ki jab kah aar bi aye narm US inflation (mehngai) ko pora karta hai."
-  },
-  {
-   "ts": 1786709073.0,
-   "title": "US Dollar: Mixed data and higher yields shape outlook \u2013 Danske Bank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-mixed-data-and-higher-yields-shape-outlook-danske-bank-202608141204",
-   "t": "14 Aug \u00b7 05:04 PM",
-   "ur": "US Dollar: mukhaloot aed w shmar aur ziyadah pedawar ka naqatah nazar - dansk Bank"
   }
  ],
  "sentiment": {
