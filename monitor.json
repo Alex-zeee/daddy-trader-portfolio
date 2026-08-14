@@ -1,14 +1,13 @@
 {
- "updated": "15-08-2026 02:55 PKT",
+ "updated": "15-08-2026 03:10 PKT",
  "gold": {
-  "price": 4375.67,
-  "open": 4351.43,
+  "price": 4375.68,
+  "open": 4355.28,
   "high": 4396.59,
   "low": 4310.61,
-  "chg": 0.56,
+  "chg": 0.47,
   "src": "XAUUSD Spot",
   "spark": [
-   4356.52,
    4351.58,
    4350.97,
    4349.52,
@@ -55,7 +54,8 @@
    4375.68,
    4375.67,
    4375.58,
-   4375.67
+   4375.59,
+   4375.68
   ]
  },
  "markets": [
@@ -236,8 +236,9 @@
   {
    "name": "USD/JPY",
    "price": 159.305,
-   "chg": -0.08,
+   "chg": -0.01,
    "spark": [
+    162.072,
     162.376,
     162.512,
     162.487,
@@ -258,16 +259,14 @@
     159.156,
     159.265,
     159.328,
-    159.426,
     159.305
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1875.49,
-   "chg": -0.48,
+   "price": 1877.26,
+   "chg": -0.39,
    "spark": [
-    1876.48,
     1878.32,
     1878.89,
     1876.16,
@@ -314,15 +313,15 @@
     1873.69,
     1878.56,
     1878.2,
-    1875.49
+    1877.53,
+    1877.26
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62818.5,
-   "chg": -0.95,
+   "price": 62834.8,
+   "chg": -0.93,
    "spark": [
-    63365.0,
     63412.0,
     63506.6,
     63394.0,
@@ -369,11 +368,52 @@
     62846.7,
     62887.3,
     62840.2,
-    62818.5
+    62863.2,
+    62834.8
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1786624200.0,
+   "t": "Thu 13 Aug \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "202K",
+   "previous": "199K"
+  },
+  {
+   "ts": 1786710600.0,
+   "t": "Fri 14 Aug \u00b7 05:30 PM",
+   "title": "Core Retail Sales m/m",
+   "impact": "Medium",
+   "forecast": "0.2%",
+   "previous": "-0.2%"
+  },
+  {
+   "ts": 1786710600.0,
+   "t": "Fri 14 Aug \u00b7 05:30 PM",
+   "title": "Retail Sales m/m",
+   "impact": "Medium",
+   "forecast": "0.1%",
+   "previous": "0.2%"
+  },
+  {
+   "ts": 1786716000.0,
+   "t": "Fri 14 Aug \u00b7 07:00 PM",
+   "title": "Prelim UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "54.7",
+   "previous": "54.4"
+  },
+  {
+   "ts": 1786716000.0,
+   "t": "Fri 14 Aug \u00b7 07:00 PM",
+   "title": "Prelim UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.2%"
+  },
   {
    "ts": 1786734000.0,
    "t": "Sat 15 Aug \u00b7 12:00 AM",
@@ -383,23 +423,31 @@
    "previous": ""
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1786744545.869861,
+   "ts": 1786745436.963784,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "15 Aug \u00b7 02:55 AM",
+   "t": "15 Aug \u00b7 03:10 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
   },
   {
-   "ts": 1786744545.869861,
+   "ts": 1786745436.963784,
    "title": "Silver doji signals range indecision at $64.90: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "15 Aug \u00b7 02:55 AM",
+   "t": "15 Aug \u00b7 03:10 AM",
    "ur": "Salor dogi skigles ghair fisalah kan had $64.90 par hen."
+  },
+  {
+   "ts": 1786744906.0,
+   "title": "US Treasury yields rise as Oil strength offsets weak Retail Sales",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-treasury-yields-rise-as-oil-strength-offsets-weak-retail-sales-202608142201",
+   "t": "15 Aug \u00b7 03:01 AM",
+   "ur": "US treasurei ki pedawar mein azafah cunkah til ki tqt kamazor khurdah farokht ko pora karti hai."
   },
   {
    "ts": 1786736543.0,
@@ -431,7 +479,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "Kamazor US deta ne fed mein azafe ki shart ko naqsan pohchate huvay Gold (sone) ki riliyan nakalin."
+   "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
   },
   {
    "ts": 1786729140.0,
@@ -439,7 +487,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kar liya - sociti janerl"
+   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kiya - socit janerl"
   },
   {
    "ts": 1786726849.0,
@@ -456,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-learns-who-paid-for-disinflation-202608141635",
    "t": "14 Aug \u00b7 09:35 PM",
    "ur": "Dou joons andistril everage sekhta hai kah kas ne dis anfalation ki adaigi ki."
-  },
-  {
-   "ts": 1786724899.0,
-   "title": "New Zealand Dollar charges toward 0.5900 as US Dollar loses ground",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-charges-toward-05900-as-us-dollar-loses-ground-202608141628",
-   "t": "14 Aug \u00b7 09:28 PM",
-   "ur": "Niyozi lind Dollar 0.5900 ki taraf charj karta hai cunkah US Dollar zamin kho dita hai."
   }
  ],
  "sentiment": {
