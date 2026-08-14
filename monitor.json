@@ -1,17 +1,13 @@
 {
- "updated": "14-08-2026 22:07 PKT",
+ "updated": "14-08-2026 23:03 PKT",
  "gold": {
-  "price": 4383.11,
-  "open": 4372.96,
+  "price": 4378.07,
+  "open": 4362.07,
   "high": 4396.59,
   "low": 4310.61,
-  "chg": 0.23,
+  "chg": 0.37,
   "src": "XAUUSD Spot",
   "spark": [
-   4319.23,
-   4319.75,
-   4331.89,
-   4333.05,
    4330.58,
    4331.89,
    4335.35,
@@ -55,14 +51,18 @@
    4387.69,
    4386.6,
    4385.33,
-   4383.11
+   4380.85,
+   4380.18,
+   4377.95,
+   4377.78,
+   4378.07
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.14,
-   "chg": 0.41,
+   "price": 64.965,
+   "chg": 0.14,
    "spark": [
     55.898,
     56.038,
@@ -85,13 +85,13 @@
     64.769,
     65.555,
     64.873,
-    65.14
+    64.965
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.629,
-   "chg": -0.33,
+   "price": 99.68,
+   "chg": -0.28,
    "spark": [
     100.73,
     100.75,
@@ -114,13 +114,13 @@
     99.82,
     100.01,
     99.96,
-    99.629
+    99.68
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.97,
-   "chg": 0.89,
+   "price": 82.37,
+   "chg": 1.38,
    "spark": [
     78.95,
     82.49,
@@ -143,20 +143,26 @@
     83.2,
     83.27,
     81.25,
-    81.97
+    82.37
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.69,
-   "chg": 1.06,
+   "price": 4.696,
+   "chg": 1.19,
    "spark": [
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -166,13 +172,42 @@
     4.684,
     4.682,
     4.641,
-    4.69
+    4.696
+   ]
+  },
+  {
+   "name": "EUR/USD",
+   "price": 1.1567,
+   "chg": 0.32,
+   "spark": [
+    1.147,
+    1.1445,
+    1.1428,
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1567
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3534,
-   "chg": 0.27,
+   "price": 1.3532,
+   "chg": 0.25,
    "spark": [
     1.3541,
     1.3479,
@@ -195,13 +230,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3534
+    1.3532
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.385,
-   "chg": 0.04,
+   "price": 159.353,
+   "chg": 0.02,
    "spark": [
     162.072,
     162.376,
@@ -224,15 +259,14 @@
     159.156,
     159.265,
     159.328,
-    159.385
+    159.353
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1882.13,
-   "chg": -0.13,
+   "price": 1874.42,
+   "chg": -0.54,
    "spark": [
-    1883.97,
     1877.55,
     1884.62,
     1876.12,
@@ -279,15 +313,15 @@
     1865.3,
     1879.28,
     1883.68,
-    1882.13
+    1876.59,
+    1874.42
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63048.7,
-   "chg": -0.59,
+   "price": 62945.6,
+   "chg": -0.75,
    "spark": [
-    63313.7,
     63352.6,
     63532.3,
     63390.8,
@@ -334,7 +368,8 @@
     62553.0,
     62914.0,
     63066.2,
-    63048.7
+    62940.9,
+    62945.5
    ]
   }
  ],
@@ -351,12 +386,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786727253.941611,
+   "ts": 1786730580.684264,
    "title": "Gold advances after unexpected fall in U.S. retail sales",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "14 Aug \u00b7 10:07 PM",
+   "t": "14 Aug \u00b7 11:03 PM",
    "ur": "US khurdah farokht mein ghair matoqa kami ke bad Gold (sone) ki qeemat mein azafah"
+  },
+  {
+   "ts": 1786729166.0,
+   "title": "Gold rallies as weak US data dents Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
+   "t": "14 Aug \u00b7 10:39 PM",
+   "ur": "Kamazor US deta ne fed mein azafe ki shart ko naqsan pohchate huvay Gold (sone) ki riliyan nakalin."
+  },
+  {
+   "ts": 1786729140.0,
+   "title": "South Korean Won: Gains target 1407 against US Dollar \u2013 Societe Generale",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
+   "t": "14 Aug \u00b7 10:39 PM",
+   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kar liya - sociti janerl"
   },
   {
    "ts": 1786726849.0,
@@ -413,22 +464,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-data-driven-outlook-in-focus-mufg-202608141511",
    "t": "14 Aug \u00b7 08:11 PM",
    "ur": "US Dollar: deta par mbani oat lak an fox \u2013 MUFG"
-  },
-  {
-   "ts": 1786720033.0,
-   "title": "Euro gains against Japanese Yen as ECB, BoJ rate hike bets intensify",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-gains-against-japanese-yen-as-ecb-boj-rate-hike-bets-intensify-202608141507",
-   "t": "14 Aug \u00b7 08:07 PM",
-   "ur": "ECB, BoJ rate mein azafe ki shartin ties hone par japani yan ke maqable mein uro ka faidah"
-  },
-  {
-   "ts": 1786719930.0,
-   "title": "Canadian Dollar: Bullish momentum points to gains against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-momentum-points-to-gains-against-us-dollar-scotiabank-202608141505",
-   "t": "14 Aug \u00b7 08:05 PM",
-   "ur": "Caniden Dollar: tizi ki raftar US Dollar ke maqable mein faidah ki taraf asharah karti hai - Scotiabank"
   }
  ],
  "sentiment": {
