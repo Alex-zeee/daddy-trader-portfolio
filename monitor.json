@@ -1,15 +1,13 @@
 {
- "updated": "15-08-2026 01:18 PKT",
+ "updated": "15-08-2026 01:51 PKT",
  "gold": {
-  "price": 4373.65,
-  "open": 4352.12,
+  "price": 4375.62,
+  "open": 4350.64,
   "high": 4396.59,
   "low": 4310.61,
-  "chg": 0.49,
+  "chg": 0.57,
   "src": "XAUUSD Spot",
   "spark": [
-   4345.34,
-   4347.7,
    4348.96,
    4350.82,
    4352.64,
@@ -55,14 +53,16 @@
    4376.72,
    4375.04,
    4371.8,
-   4373.65
+   4374.33,
+   4375.15,
+   4375.62
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.815,
-   "chg": -0.09,
+   "price": 64.87,
+   "chg": -0.0,
    "spark": [
     55.898,
     56.038,
@@ -85,13 +85,13 @@
     64.769,
     65.555,
     64.873,
-    64.815
+    64.87
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.643,
-   "chg": -0.32,
+   "price": 99.646,
+   "chg": -0.31,
    "spark": [
     100.73,
     100.75,
@@ -114,13 +114,13 @@
     99.82,
     100.01,
     99.96,
-    99.643
+    99.646
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.51,
-   "chg": 1.55,
+   "price": 82.4,
+   "chg": 1.42,
    "spark": [
     78.95,
     82.49,
@@ -143,7 +143,7 @@
     83.2,
     83.27,
     81.25,
-    82.51
+    82.4
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3536,
-   "chg": 0.28,
+   "price": 1.3534,
+   "chg": 0.27,
    "spark": [
     1.3541,
     1.3479,
@@ -230,42 +230,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3536
-   ]
-  },
-  {
-   "name": "USD/JPY",
-   "price": 159.352,
-   "chg": 0.02,
-   "spark": [
-    162.072,
-    162.376,
-    162.512,
-    162.487,
-    163.186,
-    163.081,
-    163.832,
-    163.611,
-    163.771,
-    163.864,
-    163.3,
-    160.183,
-    157.582,
-    157.529,
-    157.692,
-    157.6,
-    158.409,
-    157.891,
-    159.156,
-    159.265,
-    159.328,
-    159.352
+    1.3534
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1877.48,
-   "chg": -0.38,
+   "price": 1877.93,
+   "chg": -0.35,
    "spark": [
     1876.12,
     1876.48,
@@ -314,13 +285,13 @@
     1876.59,
     1873.69,
     1878.56,
-    1877.48
+    1877.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62859.2,
-   "chg": -0.89,
+   "price": 62850.4,
+   "chg": -0.9,
    "spark": [
     63390.8,
     63365.0,
@@ -369,7 +340,7 @@
     62940.9,
     62846.7,
     62887.3,
-    62859.2
+    62850.4
    ]
   }
  ],
@@ -386,19 +357,27 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786738738.31778,
+   "ts": 1786740695.122855,
+   "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
+   "t": "15 Aug \u00b7 01:51 AM",
+   "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
+  },
+  {
+   "ts": 1786740695.122855,
    "title": "Silver doji signals range indecision at $64.90: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "15 Aug \u00b7 01:18 AM",
+   "t": "15 Aug \u00b7 01:51 AM",
    "ur": "Salor dogi skigles ghair fisalah kan had $64.90 par hen."
   },
   {
-   "ts": 1786738738.31778,
+   "ts": 1786740695.122855,
    "title": "Gold consolidates near $4,432 as MACD turns bearish: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-rsi-77-at-4415-overbought-peak-live-levels-93CH-4847932",
-   "t": "15 Aug \u00b7 01:18 AM",
+   "t": "15 Aug \u00b7 01:51 AM",
    "ur": "MACD ki mandi ke baas Gold (sona) $4,432 ke qarib mastahkam hota hai."
   },
   {
@@ -431,7 +410,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "Kamazor US deta ne fed mein azafe ki shart ko naqsan pohchate huvay Gold (sone) ki riliyan nakalin."
+   "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
   },
   {
    "ts": 1786729140.0,
@@ -439,7 +418,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kar liya - sociti janerl"
+   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kiya - socit janerl"
   },
   {
    "ts": 1786726849.0,
@@ -456,14 +435,6 @@
    "link": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-learns-who-paid-for-disinflation-202608141635",
    "t": "14 Aug \u00b7 09:35 PM",
    "ur": "Dou joons andistril everage sekhta hai kah kas ne dis anfalation ki adaigi ki."
-  },
-  {
-   "ts": 1786724899.0,
-   "title": "New Zealand Dollar charges toward 0.5900 as US Dollar loses ground",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-charges-toward-05900-as-us-dollar-loses-ground-202608141628",
-   "t": "14 Aug \u00b7 09:28 PM",
-   "ur": "Niyozi lind Dollar 0.5900 ki taraf charj karta hai cunkah US Dollar zamin kho dita hai."
   }
  ],
  "sentiment": {
