@@ -1,17 +1,13 @@
 {
- "updated": "14-08-2026 15:14 PKT",
+ "updated": "14-08-2026 16:07 PKT",
  "gold": {
-  "price": 4356.34,
-  "open": 4382.42,
+  "price": 4349.39,
+  "open": 4391.74,
   "high": 4401.02,
   "low": 4310.61,
-  "chg": -0.6,
+  "chg": -0.96,
   "src": "XAUUSD Spot",
   "spark": [
-   4357.57,
-   4360.64,
-   4354.24,
-   4355.01,
    4362.31,
    4359.98,
    4357.89,
@@ -55,14 +51,18 @@
    4350.82,
    4352.64,
    4355.87,
-   4356.34
+   4356.52,
+   4351.58,
+   4350.97,
+   4349.52,
+   4349.39
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.06,
-   "chg": 0.29,
+   "price": 64.795,
+   "chg": -0.12,
    "spark": [
     55.898,
     56.038,
@@ -85,25 +85,26 @@
     64.769,
     65.555,
     64.873,
-    65.06
+    64.795
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.733,
-   "chg": -0.23,
+   "price": 99.722,
+   "chg": -0.24,
    "spark": [
-    100.94,
-    100.5,
     100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +114,13 @@
     99.82,
     100.01,
     99.96,
-    99.733
+    99.722
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.02,
-   "chg": 0.95,
+   "price": 81.57,
+   "chg": 0.39,
    "spark": [
     78.95,
     82.49,
@@ -142,7 +143,7 @@
     83.2,
     83.27,
     81.25,
-    82.02
+    81.57
    ]
   },
   {
@@ -150,12 +151,19 @@
    "price": 4.641,
    "chg": -0.88,
    "spark": [
+    4.545,
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1558,
-   "chg": 0.24,
+   "price": 1.1559,
+   "chg": 0.25,
    "spark": [
     1.147,
     1.1445,
@@ -193,13 +201,13 @@
     1.1546,
     1.1544,
     1.153,
-    1.1558
+    1.1559
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3527,
-   "chg": 0.22,
+   "price": 1.3528,
+   "chg": 0.23,
    "spark": [
     1.3541,
     1.3479,
@@ -222,13 +230,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3527
+    1.3528
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.125,
-   "chg": -0.13,
+   "price": 159.184,
+   "chg": -0.09,
    "spark": [
     162.072,
     162.376,
@@ -251,15 +259,14 @@
     159.156,
     159.265,
     159.328,
-    159.125
+    159.184
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1873.15,
-   "chg": -0.61,
+   "price": 1874.58,
+   "chg": -0.53,
    "spark": [
-    1913.77,
     1909.0,
     1899.36,
     1885.07,
@@ -306,15 +313,15 @@
     1871.36,
     1876.45,
     1871.34,
-    1873.15
+    1874.31,
+    1874.58
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62758.9,
+   "price": 62754.5,
    "chg": -1.05,
    "spark": [
-    64164.9,
     64068.7,
     63781.0,
     63307.1,
@@ -361,7 +368,8 @@
     62862.7,
     62877.9,
     62729.8,
-    62758.9
+    62749.4,
+    62754.6
    ]
   }
  ],
@@ -402,12 +410,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786702465.908396,
+   "ts": 1786705671.066832,
+   "title": "Should you chase this mini rally in gold? Citi weighs in",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/should-you-chase-this-mini-rally-in-gold-citi-weighs-in-4860317",
+   "t": "14 Aug \u00b7 04:07 PM",
+   "ur": "Kiya aap ko Gold (sone) mein is mani rili ka patchha karna chahe? Citi ka wazin hai."
+  },
+  {
+   "ts": 1786705671.066832,
    "title": "Silver slips below key averages into Ichimoku cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "14 Aug \u00b7 03:14 PM",
+   "t": "14 Aug \u00b7 04:07 PM",
    "ur": "Ichimoku badil mein Silver (chandi) kalidi ost se niche khisak gayi."
+  },
+  {
+   "ts": 1786703873.0,
+   "title": "NZD/USD Price Forecast: Approaches 0.5900 resistance area as US Dollar weakens",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/nzd-usd-price-forecast-approaches-05900-resistance-area-as-us-dollar-weakens-202608141037",
+   "t": "14 Aug \u00b7 03:37 PM",
+   "ur": "NZD/USD qeemat ki forecast: US Dollar ke kamazor hone par 0.5900 mazahmati alaqe tak pohch gaya"
   },
   {
    "ts": 1786701600.0,
@@ -464,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/federal-reserve-rmp-pause-and-qt-timing-td-securities-202608140908",
    "t": "14 Aug \u00b7 02:08 PM",
    "ur": "Faderl resero: RMP toqf aur QT timeng - TD securitez"
-  },
-  {
-   "ts": 1786697909.0,
-   "title": "US Dollar Index Price Forecast: DXY declines to 99.75-99.70 amid receding Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-dxy-declines-to-9975-9970-amid-receding-fed-hike-bets-202608140858",
-   "t": "14 Aug \u00b7 01:58 PM",
-   "ur": "US Dollar andex ki qeemat ki forecast: Fed mein azafe ki sharton mein kami ke darmiyan DXY 99.75-99.70 tak gar gaya"
-  },
-  {
-   "ts": 1786697709.0,
-   "title": "GBP/USD Price Forecast: Picks up above 1.3500 amid generalised US Dollar weakness",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gbp-usd-price-forecast-picks-up-above-13500-amid-generalised-us-dollar-weakness-202608140855",
-   "t": "14 Aug \u00b7 01:55 PM",
-   "ur": "GBP/USD qeemat ki forecast: am US Dollar ki kamazori ke darmiyan 1.3500 se oper atha"
   }
  ],
  "sentiment": {
