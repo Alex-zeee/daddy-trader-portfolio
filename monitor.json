@@ -1,16 +1,13 @@
 {
- "updated": "15-08-2026 17:11 PKT",
+ "updated": "15-08-2026 17:56 PKT",
  "gold": {
-  "price": 4375.69,
-  "open": 4370.14,
+  "price": 4375.66,
+  "open": 4374.2,
   "high": 4396.59,
-  "low": 4369.48,
-  "chg": 0.13,
+  "low": 4370.09,
+  "chg": 0.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.71,
-   4375.63,
-   4375.56,
    4375.69,
    4375.7,
    4375.66,
@@ -55,7 +52,10 @@
    4375.57,
    4375.66,
    4375.69,
-   4375.69
+   4375.63,
+   4375.56,
+   4375.68,
+   4375.66
   ]
  },
  "markets": [
@@ -115,35 +115,6 @@
     100.01,
     99.96,
     99.67
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 82.4,
-   "chg": 1.42,
-   "spark": [
-    78.95,
-    82.49,
-    83.23,
-    84.91,
-    86.83,
-    92.19,
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4
    ]
   },
   {
@@ -234,9 +205,38 @@
    ]
   },
   {
+   "name": "USD/JPY",
+   "price": 159.305,
+   "chg": -0.08,
+   "spark": [
+    162.376,
+    162.512,
+    162.487,
+    163.186,
+    163.081,
+    163.832,
+    163.611,
+    163.771,
+    163.864,
+    163.3,
+    160.183,
+    157.582,
+    157.529,
+    157.692,
+    157.6,
+    158.409,
+    157.891,
+    159.156,
+    159.265,
+    159.328,
+    159.426,
+    159.305
+   ]
+  },
+  {
    "name": "Ethereum",
-   "price": 1877.18,
-   "chg": -0.17,
+   "price": 1877.87,
+   "chg": -0.13,
    "spark": [
     1887.64,
     1891.28,
@@ -285,13 +285,13 @@
     1878.51,
     1879.25,
     1877.31,
-    1877.18
+    1877.87
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62932.7,
-   "chg": -0.07,
+   "price": 62909.3,
+   "chg": -0.11,
    "spark": [
     63655.4,
     63807.4,
@@ -340,7 +340,7 @@
     62976.3,
     62964.1,
     62954.9,
-    62932.7
+    62909.3
    ]
   }
  ],
@@ -397,20 +397,12 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1786795911.426063,
+   "ts": 1786798616.220724,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "15 Aug \u00b7 05:11 PM",
+   "t": "15 Aug \u00b7 05:56 PM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
-  },
-  {
-   "ts": 1786795911.426063,
-   "title": "Silver doji signals range indecision at $64.90: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-6550-resistance-after-vrecovery-live-levels-93CH-4847934",
-   "t": "15 Aug \u00b7 05:11 PM",
-   "ur": "Salor dogi skigles ghair fisalah kan had $64.90 par hen."
   },
   {
    "ts": 1786748348.0,
@@ -458,7 +450,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
+   "ur": "Kamazor US deta ne fed mein azafe ki shart ko naqsan pohchate huvay Gold (sone) ki riliyan nakalin."
   },
   {
    "ts": 1786729140.0,
@@ -466,7 +458,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kiya - socit janerl"
+   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kar liya - sociti janerl"
   },
   {
    "ts": 1786726849.0,
@@ -475,6 +467,14 @@
    "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-near-67450-against-us-dollar-uob-202608141700",
    "t": "14 Aug \u00b7 10:00 PM",
    "ur": "Chini uan: rinj tred US Dollar - UOB ke maqable mein 6.7450 ke qarib barqarar hai."
+  },
+  {
+   "ts": 1786725316.0,
+   "title": "The Dow Jones Industrial Average learns who paid for disinflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-dow-jones-industrial-average-learns-who-paid-for-disinflation-202608141635",
+   "t": "14 Aug \u00b7 09:35 PM",
+   "ur": "Dou joons andistril everage sekhta hai kah kas ne dis anfalation ki adaigi ki."
   }
  ],
  "sentiment": {
