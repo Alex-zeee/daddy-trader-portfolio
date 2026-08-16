@@ -1,14 +1,13 @@
 {
- "updated": "16-08-2026 16:53 PKT",
+ "updated": "16-08-2026 17:12 PKT",
  "gold": {
-  "price": 4375.66,
+  "price": 4375.58,
   "open": 4375.6,
   "high": 4379.85,
   "low": 4375.53,
-  "chg": 0.0,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.68,
    4375.7,
    4375.64,
    4375.57,
@@ -55,7 +54,8 @@
    4375.64,
    4375.57,
    4375.67,
-   4375.66
+   4375.7,
+   4375.58
   ]
  },
  "markets": [
@@ -207,8 +207,9 @@
   {
    "name": "GBP/USD",
    "price": 1.3533,
-   "chg": 0.31,
+   "chg": 0.26,
    "spark": [
+    1.3541,
     1.3479,
     1.3446,
     1.3432,
@@ -229,7 +230,6 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3533
    ]
   },
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1878.16,
-   "chg": -0.16,
+   "price": 1878.34,
+   "chg": -0.15,
    "spark": [
-    1871.58,
     1867.48,
     1865.3,
     1879.28,
@@ -314,15 +313,15 @@
     1878.57,
     1878.33,
     1878.81,
-    1878.16
+    1878.49,
+    1878.34
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62916.7,
-   "chg": -0.17,
+   "price": 62951.8,
+   "chg": -0.12,
    "spark": [
-    62676.0,
     62582.5,
     62553.0,
     62914.0,
@@ -369,7 +368,8 @@
     63003.7,
     62920.1,
     62925.0,
-    62916.7
+    62924.9,
+    62951.8
    ]
   }
  ],
@@ -402,11 +402,11 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786881237.673839,
+   "ts": 1786882372.046376,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "16 Aug \u00b7 04:53 PM",
+   "t": "16 Aug \u00b7 05:12 PM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
   },
   {
@@ -455,7 +455,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "Kamazor US deta ne fed mein azafe ki shart ko naqsan pohchate huvay Gold (sone) ki riliyan nakalin."
+   "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
   },
   {
    "ts": 1786729140.0,
@@ -463,7 +463,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kar liya - sociti janerl"
+   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kiya - socit janerl"
   },
   {
    "ts": 1786726849.0,
