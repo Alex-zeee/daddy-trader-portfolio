@@ -1,15 +1,13 @@
 {
- "updated": "16-08-2026 09:24 PKT",
+ "updated": "16-08-2026 09:56 PKT",
  "gold": {
-  "price": 4375.57,
-  "open": 4375.61,
+  "price": 4375.68,
+  "open": 4375.6,
   "high": 4379.85,
   "low": 4375.53,
-  "chg": -0.0,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.57,
-   4375.65,
    4375.69,
    4375.64,
    4375.56,
@@ -55,7 +53,9 @@
    4375.68,
    4375.59,
    4375.57,
-   4375.57
+   4375.66,
+   4375.69,
+   4375.68
   ]
  },
  "markets": [
@@ -255,8 +255,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1881.98,
-   "chg": 0.04,
+   "price": 1880.61,
+   "chg": -0.03,
    "spark": [
     1881.88,
     1871.24,
@@ -305,13 +305,13 @@
     1878.1,
     1881.63,
     1881.04,
-    1881.98
+    1880.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63087.0,
-   "chg": 0.1,
+   "price": 63058.4,
+   "chg": 0.05,
    "spark": [
     63328.6,
     62915.0,
@@ -360,68 +360,44 @@
     63014.0,
     63055.4,
     63059.1,
-    63087.0
+    63058.4
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1786624200.0,
-   "t": "Thu 13 Aug \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "202K",
-   "previous": "199K"
-  },
-  {
-   "ts": 1786710600.0,
-   "t": "Fri 14 Aug \u00b7 05:30 PM",
-   "title": "Core Retail Sales m/m",
-   "impact": "Medium",
-   "forecast": "0.2%",
-   "previous": "-0.2%"
-  },
-  {
-   "ts": 1786710600.0,
-   "t": "Fri 14 Aug \u00b7 05:30 PM",
-   "title": "Retail Sales m/m",
-   "impact": "Medium",
-   "forecast": "0.1%",
-   "previous": "0.2%"
-  },
-  {
-   "ts": 1786716000.0,
-   "t": "Fri 14 Aug \u00b7 07:00 PM",
-   "title": "Prelim UoM Consumer Sentiment",
-   "impact": "Medium",
-   "forecast": "54.7",
-   "previous": "54.4"
-  },
-  {
-   "ts": 1786716000.0,
-   "t": "Fri 14 Aug \u00b7 07:00 PM",
-   "title": "Prelim UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.2%"
-  },
-  {
-   "ts": 1786734000.0,
-   "t": "Sat 15 Aug \u00b7 12:00 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
+   "ts": 1787162400.0,
+   "t": "Wed 19 Aug \u00b7 11:00 PM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
    "forecast": "",
    "previous": ""
+  },
+  {
+   "ts": 1787229000.0,
+   "t": "Thu 20 Aug \u00b7 05:30 PM",
+   "title": "Philly Fed Manufacturing Index",
+   "impact": "Medium",
+   "forecast": "24.3",
+   "previous": "41.4"
+  },
+  {
+   "ts": 1787229000.0,
+   "t": "Thu 20 Aug \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "210K",
+   "previous": "209K"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786854296.247341,
+   "ts": 1786856191.504116,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "16 Aug \u00b7 09:24 AM",
+   "t": "16 Aug \u00b7 09:56 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
   },
   {
