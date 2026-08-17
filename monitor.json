@@ -1,15 +1,13 @@
 {
- "updated": "17-08-2026 15:18 PKT",
+ "updated": "17-08-2026 15:52 PKT",
  "gold": {
-  "price": 4397.7,
+  "price": 4397.99,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
   "chg": 0.51,
   "src": "XAUUSD Spot",
   "spark": [
-   4377.08,
-   4385.58,
    4381.49,
    4374.41,
    4369.06,
@@ -55,14 +53,16 @@
    4395.24,
    4394.3,
    4396.2,
-   4397.7
+   4395.17,
+   4398.4,
+   4397.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.655,
-   "chg": 1.03,
+   "price": 65.815,
+   "chg": 1.27,
    "spark": [
     56.038,
     56.802,
@@ -85,12 +85,12 @@
     65.555,
     64.873,
     64.988,
-    65.655
+    65.815
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.452,
+   "price": 99.45,
    "chg": -0.22,
    "spark": [
     100.75,
@@ -114,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.452
+    99.45
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.13,
-   "chg": 0.89,
+   "price": 82.9,
+   "chg": 0.61,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    83.13
+    82.9
    ]
   },
   {
@@ -176,9 +176,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1596,
+   "chg": 0.52,
+   "spark": [
+    1.1445,
+    1.1428,
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1535,
+    1.1596
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.356,
-   "chg": 0.46,
+   "price": 1.3557,
+   "chg": 0.49,
    "spark": [
     1.3479,
     1.3446,
@@ -200,12 +229,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.356
+    1.3491,
+    1.3557
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.164,
+   "price": 159.172,
    "chg": -0.16,
    "spark": [
     162.376,
@@ -229,13 +259,13 @@
     159.265,
     159.328,
     159.426,
-    159.164
+    159.172
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1890.36,
-   "chg": 0.87,
+   "price": 1903.27,
+   "chg": 1.56,
    "spark": [
     1877.31,
     1881.24,
@@ -284,13 +314,13 @@
     1899.41,
     1892.26,
     1891.95,
-    1890.36
+    1903.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63231.9,
-   "chg": 0.66,
+   "price": 63545.1,
+   "chg": 1.16,
    "spark": [
     62954.9,
     62985.2,
@@ -339,7 +369,7 @@
     63463.0,
     63314.7,
     63247.4,
-    63231.9
+    63545.1
    ]
   }
  ],
@@ -372,20 +402,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786961934.189723,
+   "ts": 1786963973.229417,
    "title": "Gold edges higher amid softer dollar, easing Fed rate hike wagers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 03:18 PM",
+   "t": "17 Aug \u00b7 03:52 PM",
    "ur": "Narm Dollar ke darmiyan Gold (sone) ki qeemtin unchi hen, fed ki rate mein azafe ki sharton mein narmi."
   },
   {
-   "ts": 1786961934.189723,
+   "ts": 1786963973.229417,
    "title": "Silver stalls below $67 resistance as momentum fades: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "17 Aug \u00b7 03:18 PM",
+   "t": "17 Aug \u00b7 03:52 PM",
    "ur": "Silver (chandi) rak gaya hai $67 ki mazahmat se niche ki raftar khtam hone par"
+  },
+  {
+   "ts": 1786963227.0,
+   "title": "Yen retreats below 159.00 against the US Dollar as Japanese GDP disappoints",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/yen-retreats-below-15900-against-the-us-dollar-as-japanese-gdp-slows-down-202608171040",
+   "t": "17 Aug \u00b7 03:40 PM",
+   "ur": "Yan US Dollar ke maqable mein 159.00 se niche patchhe hat gaya cunkah japani ji di pi mayus"
   },
   {
    "ts": 1786961285.0,
@@ -442,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-losing-momentum-as-fiscal-risks-rise-dbs-202608170920",
    "t": "17 Aug \u00b7 02:20 PM",
    "ur": "US Dollar: maliyati khatrat badhte hi raftar kho rahi hai \u2013 DBS"
-  },
-  {
-   "ts": 1786957907.0,
-   "title": "Federal Reserve: Changing communications and higher volatility \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-changing-communications-and-higher-volatility-td-securities-202608170911",
-   "t": "17 Aug \u00b7 02:11 PM",
-   "ur": "Faderl resero: mawasilat mein tabadili aur ziyadah atar chadhao - TD securitez"
   }
  ],
  "sentiment": {
