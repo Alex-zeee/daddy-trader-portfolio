@@ -1,15 +1,13 @@
 {
- "updated": "17-08-2026 19:15 PKT",
+ "updated": "17-08-2026 19:44 PKT",
  "gold": {
-  "price": 4408.02,
+  "price": 4420.66,
   "open": 4375.6,
-  "high": 4415.06,
+  "high": 4427.33,
   "low": 4367.4,
-  "chg": 0.74,
+  "chg": 1.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4396.96,
-   4394.41,
    4392.88,
    4389.58,
    4390.93,
@@ -55,14 +53,45 @@
    4386.63,
    4386.82,
    4408.33,
-   4408.02
+   4410.48,
+   4417.8,
+   4420.66
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 66.35,
+   "chg": 2.1,
+   "spark": [
+    56.038,
+    56.802,
+    58.835,
+    60.019,
+    57.798,
+    58.656,
+    58.472,
+    57.296,
+    57.863,
+    58.815,
+    57.591,
+    57.667,
+    60.056,
+    62.099,
+    61.439,
+    63.332,
+    65.106,
+    64.769,
+    65.555,
+    64.873,
+    64.988,
+    66.35
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 99.419,
-   "chg": -0.25,
+   "price": 99.447,
+   "chg": -0.22,
    "spark": [
     100.75,
     100.99,
@@ -85,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.419
+    99.447
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.43,
-   "chg": 0.04,
+   "price": 82.5,
+   "chg": 0.12,
    "spark": [
     82.49,
     83.23,
@@ -114,13 +143,13 @@
     83.27,
     81.25,
     82.4,
-    82.43
+    82.5
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.704,
-   "chg": 0.17,
+   "price": 4.7,
+   "chg": 0.09,
    "spark": [
     4.541,
     4.598,
@@ -143,13 +172,13 @@
     4.682,
     4.641,
     4.696,
-    4.704
+    4.7
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.16,
-   "chg": 0.56,
+   "price": 1.1593,
+   "chg": 0.5,
    "spark": [
     1.1445,
     1.1428,
@@ -172,13 +201,13 @@
     1.1544,
     1.153,
     1.1535,
-    1.16
+    1.1593
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3566,
-   "chg": 0.55,
+   "price": 1.3558,
+   "chg": 0.5,
    "spark": [
     1.3479,
     1.3446,
@@ -201,13 +230,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3566
+    1.3558
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.239,
-   "chg": -0.12,
+   "price": 159.224,
+   "chg": -0.13,
    "spark": [
     162.376,
     162.512,
@@ -230,13 +259,13 @@
     159.265,
     159.328,
     159.426,
-    159.239
+    159.224
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1900.13,
-   "chg": 1.39,
+   "price": 1899.52,
+   "chg": 1.36,
    "spark": [
     1883.01,
     1882.93,
@@ -285,13 +314,13 @@
     1902.37,
     1897.06,
     1902.99,
-    1900.13
+    1899.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63646.8,
-   "chg": 1.32,
+   "price": 63552.2,
+   "chg": 1.17,
    "spark": [
     63037.1,
     63024.7,
@@ -340,7 +369,7 @@
     63561.2,
     63484.7,
     63583.2,
-    63646.8
+    63552.2
    ]
   }
  ],
@@ -373,20 +402,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786976111.294149,
+   "ts": 1786977863.044697,
    "title": "Gold edges higher amid softer dollar, easing Fed rate hike wagers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 07:15 PM",
+   "t": "17 Aug \u00b7 07:44 PM",
    "ur": "Narm Dollar ke darmiyan Gold (sone) ki qeemtin unchi hen, fed ki rate mein azafe ki sharton mein narmi."
   },
   {
-   "ts": 1786976111.294149,
+   "ts": 1786977863.044697,
    "title": "Why this Wall Street strategist says the \"trade is long gold\"",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-this-wall-street-strategist-says-the-trade-is-long-gold-4862683",
-   "t": "17 Aug \u00b7 07:15 PM",
+   "t": "17 Aug \u00b7 07:44 PM",
    "ur": "Wal stret ke is hakmat amali ke mahar ka kahana hai kah \"tajart tavel Gold (sona) hai\""
+  },
+  {
+   "ts": 1786977355.0,
+   "title": "US Dollar: Faces renewed downside risk \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-faces-renewed-downside-risk-commerzbank-202608171435",
+   "t": "17 Aug \u00b7 07:35 PM",
+   "ur": "US Dollar: kamers Bank ke naye khatre ka samana hai."
+  },
+  {
+   "ts": 1786976584.0,
+   "title": "Gold: Investors extend longs but hedge risks \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-investors-extend-longs-but-hedge-risks-td-securities-202608171423",
+   "t": "17 Aug \u00b7 07:23 PM",
+   "ur": "Gold (sona): sarmaya kar lambe arse tak lican khatrat se bachate hen - TD securitez"
   },
   {
    "ts": 1786975860.0,
@@ -435,22 +480,6 @@
    "link": "https://www.fxstreet.com/news/united-states-sideways-growth-and-sticky-inflation-td-securities-202608171232",
    "t": "17 Aug \u00b7 05:32 PM",
    "ur": "Ryastahaye matehdah: zamni tarqi aur chpachapa inflation (mehngai) - TD securitez"
-  },
-  {
-   "ts": 1786967158.0,
-   "title": "Economists agree: Fed to leave interest rates unchanged this year \u2013 Reuters poll",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/economists-agree-fed-to-leave-interest-rates-unchanged-this-year-reuters-poll-202608171145",
-   "t": "17 Aug \u00b7 04:45 PM",
-   "ur": "Maharin aqtasadiyat mutafaq hen: fed is sal sud ki sharahon mein koi tabadili nihen kare ga \u2013 riters pol"
-  },
-  {
-   "ts": 1786966091.0,
-   "title": "Gold holds near $4,400 as fading Fed rate hike bets weigh on US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-holds-near-4-400-as-fading-fed-rate-hike-bets-weigh-on-us-dollar-202608171128",
-   "t": "17 Aug \u00b7 04:28 PM",
-   "ur": "Gold (sona) 4,400 Dollar ke qarib rakta hai cunkah fed ki rate mein azafe ki shartin US Dollar par padti hen"
   }
  ],
  "sentiment": {
