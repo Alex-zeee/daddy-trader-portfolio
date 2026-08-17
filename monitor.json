@@ -1,15 +1,13 @@
 {
- "updated": "18-08-2026 03:57 PKT",
+ "updated": "18-08-2026 04:17 PKT",
  "gold": {
-  "price": 4412.76,
-  "open": 4385.06,
+  "price": 4415.33,
+  "open": 4375.63,
   "high": 4427.91,
   "low": 4367.4,
-  "chg": 0.63,
+  "chg": 0.91,
   "src": "XAUUSD Spot",
   "spark": [
-   4401.03,
-   4404.01,
    4400.58,
    4397.11,
    4394.01,
@@ -55,14 +53,16 @@
    4416.79,
    4412.4,
    4415.05,
-   4412.76
+   4411.55,
+   4413.91,
+   4415.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.865,
-   "chg": 1.35,
+   "price": 65.85,
+   "chg": 1.33,
    "spark": [
     56.038,
     56.802,
@@ -85,7 +85,7 @@
     65.555,
     64.873,
     64.988,
-    65.865
+    65.85
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 85.04,
-   "chg": 3.2,
+   "price": 85.03,
+   "chg": 3.19,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    85.04
+    85.03
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1582,
-   "chg": 0.41,
+   "price": 1.1583,
+   "chg": 0.08,
    "spark": [
-    1.1445,
     1.1428,
     1.1418,
     1.1404,
@@ -201,15 +200,15 @@
     1.1544,
     1.153,
     1.1535,
-    1.1582
+    1.1574,
+    1.1583
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3544,
-   "chg": 0.4,
+   "price": 1.3547,
+   "chg": 0.0,
    "spark": [
-    1.3479,
     1.3446,
     1.3432,
     1.3379,
@@ -230,15 +229,15 @@
     1.351,
     1.3498,
     1.3491,
-    1.3544
+    1.3547,
+    1.3547
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.406,
-   "chg": -0.01,
+   "price": 159.379,
+   "chg": 0.1,
    "spark": [
-    162.376,
     162.512,
     162.487,
     163.186,
@@ -259,15 +258,15 @@
     159.265,
     159.328,
     159.426,
-    159.406
+    159.223,
+    159.379
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1902.83,
-   "chg": 1.53,
+   "price": 1907.71,
+   "chg": 1.79,
    "spark": [
-    1881.19,
     1880.31,
     1878.1,
     1881.63,
@@ -314,15 +313,15 @@
     1905.5,
     1904.94,
     1904.56,
-    1902.83
+    1902.83,
+    1907.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64233.8,
-   "chg": 2.25,
+   "price": 64310.0,
+   "chg": 2.37,
    "spark": [
-    63024.3,
     63001.1,
     63014.0,
     63055.4,
@@ -369,7 +368,8 @@
     64262.3,
     64340.0,
     64330.1,
-    64233.8
+    64232.3,
+    64310.0
    ]
   }
  ],
@@ -402,12 +402,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787007477.223609,
+   "ts": 1787008620.367209,
    "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "18 Aug \u00b7 03:57 AM",
+   "t": "18 Aug \u00b7 04:17 AM",
    "ur": "Narm Dollar ke darmiyan Gold (sona) 1% badh gaya, fed ki rate mein azafe ki sharton mein kami; til ki topiyan faidah"
+  },
+  {
+   "ts": 1787007848.0,
+   "title": "Australian Dollar climbs as the Greenback falls on soft US data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-as-the-greenback-falls-on-soft-us-data-202608172304",
+   "t": "18 Aug \u00b7 04:04 AM",
+   "ur": "Aasterilvi Dollar chadhta hai jisa kah garin bek narm US deta par garta hai."
   },
   {
    "ts": 1787002464.0,
@@ -472,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-consolidates-as-haven-demand-returns-202608171820",
    "t": "17 Aug \u00b7 11:20 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG hun demand ratern ke tur par mastahkam hota hai."
-  },
-  {
-   "ts": 1786989337.0,
-   "title": "Euro returns below 1.1600 as US Dollar selling pressure eases",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-returns-below-11600-as-us-dollar-selling-pressure-eases-202608171755",
-   "t": "17 Aug \u00b7 10:55 PM",
-   "ur": "Uro 1.1600 se niche waps aata hai cunkah US Dollar ki farokht ka dabao kam hota hai."
   }
  ],
  "sentiment": {
