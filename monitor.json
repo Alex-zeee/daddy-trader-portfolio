@@ -1,16 +1,13 @@
 {
- "updated": "17-08-2026 09:36 PKT",
+ "updated": "17-08-2026 10:19 PKT",
  "gold": {
-  "price": 4391.1,
+  "price": 4390.55,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
-  "chg": 0.35,
+  "chg": 0.34,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.66,
-   4375.69,
-   4375.64,
    4375.57,
    4375.68,
    4375.72,
@@ -55,14 +52,17 @@
    4397.08,
    4398.97,
    4391.6,
-   4391.1
+   4395.86,
+   4391.45,
+   4389.16,
+   4390.55
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.625,
-   "chg": 0.98,
+   "price": 65.735,
+   "chg": 1.15,
    "spark": [
     56.038,
     56.802,
@@ -85,22 +85,25 @@
     65.555,
     64.873,
     64.988,
-    65.625
+    65.735
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.492,
-   "chg": -0.18,
+   "price": 99.506,
+   "chg": -0.16,
    "spark": [
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -111,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.492
+    99.506
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.27,
-   "chg": -0.16,
+   "price": 82.15,
+   "chg": -0.3,
    "spark": [
     82.49,
     83.23,
@@ -140,7 +143,36 @@
     83.27,
     81.25,
     82.4,
-    82.27
+    82.15
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.696,
+   "chg": 1.19,
+   "spark": [
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
+    4.703,
+    4.679,
+    4.641,
+    4.604,
+    4.622,
+    4.663,
+    4.745,
+    4.686,
+    4.627,
+    4.617,
+    4.67,
+    4.66,
+    4.699,
+    4.684,
+    4.682,
+    4.641,
+    4.696
    ]
   },
   {
@@ -174,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3555,
-   "chg": 0.48,
+   "price": 1.3552,
+   "chg": 0.45,
    "spark": [
     1.3479,
     1.3446,
@@ -198,13 +230,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3555
+    1.3552
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.08,
-   "chg": -0.22,
+   "price": 159.094,
+   "chg": -0.21,
    "spark": [
     162.376,
     162.512,
@@ -227,15 +259,14 @@
     159.265,
     159.328,
     159.426,
-    159.08
+    159.094
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1900.61,
-   "chg": 1.42,
+   "price": 1900.88,
+   "chg": 1.43,
    "spark": [
-    1878.83,
     1880.34,
     1878.31,
     1875.05,
@@ -282,15 +313,15 @@
     1890.0,
     1900.04,
     1899.1,
-    1900.61
+    1901.58,
+    1900.88
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63438.3,
-   "chg": 0.99,
+   "price": 63495.4,
+   "chg": 1.08,
    "spark": [
-    63020.4,
     63052.4,
     62987.1,
     62867.5,
@@ -337,7 +368,8 @@
     63048.3,
     63326.4,
     63362.2,
-    63438.3
+    63476.0,
+    63495.4
    ]
   }
  ],
@@ -370,36 +402,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786941375.066545,
+   "ts": 1786943963.111522,
    "title": "Gold rises near $4,400 as Fed minutes, oil risks shape rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 09:36 AM",
+   "t": "17 Aug \u00b7 10:19 AM",
    "ur": "Fed mant ke tur par Gold (sona) $4,400 ke qarib badhta hai, til ke khatre ki rate ke naqatah nazar ki shakl"
   },
   {
-   "ts": 1786941375.066545,
+   "ts": 1786943963.111522,
    "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-treads-water-as-usiran-peace-talks-stall-hormuz-shipping-slows-4862040",
-   "t": "17 Aug \u00b7 09:36 AM",
+   "t": "17 Aug \u00b7 10:19 AM",
    "ur": "Amrikah eran aman mazakarat ke taatal ke baas til pani ko rond raha hai, harmaz ki tarsel sast hai."
   },
   {
-   "ts": 1786941375.066545,
+   "ts": 1786943963.111522,
    "title": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/shipping-slows-through-strait-of-hormuz-after-tanker-attacks-data-shows-4862024",
-   "t": "17 Aug \u00b7 09:36 AM",
+   "t": "17 Aug \u00b7 10:19 AM",
    "ur": "Aed w shmar se patah chalta hai kah tinkar hamlon ke bad aabanaye harmaz se jahaz raani ki raftar sast pad gayi hai."
   },
   {
-   "ts": 1786941375.066545,
+   "ts": 1786943963.111522,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "17 Aug \u00b7 09:36 AM",
+   "t": "17 Aug \u00b7 10:19 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
+  },
+  {
+   "ts": 1786942931.0,
+   "title": "Euro rallies to two-month high, eyes 1.1600 as USD struggles amid receding Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-rallies-to-two-month-high-eyes-11600-as-usd-struggles-amid-receding-fed-hike-bets-202608170502",
+   "t": "17 Aug \u00b7 10:02 AM",
+   "ur": "Uro ki riliyan do mah ki baland tarin sath par, nazarin 1.1600 par hen cunkah fed mein azafe ki sharton mein kami ke darmiyan USD ki jadojehad"
   },
   {
    "ts": 1786941335.0,
@@ -440,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-rises-on-hawkish-rba-outlook-202608170237",
    "t": "17 Aug \u00b7 07:37 AM",
    "ur": "Aasterilvi Dollar ki qeemat aar bi aye ke ajeeb w ghareeb naqatah nazar par badh rahi hai."
-  },
-  {
-   "ts": 1786932102.0,
-   "title": "Canadian Dollar advances due to softer US Dollar, higher oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-advances-due-to-softer-us-dollar-higher-oil-prices-202608170201",
-   "t": "17 Aug \u00b7 07:01 AM",
-   "ur": "Narm US Dollar, til ki baland qeemton ki wajah se caniden Dollar ki tarqi"
   }
  ],
  "sentiment": {
