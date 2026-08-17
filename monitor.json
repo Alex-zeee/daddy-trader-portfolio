@@ -1,18 +1,13 @@
 {
- "updated": "17-08-2026 07:01 PKT",
+ "updated": "17-08-2026 08:09 PKT",
  "gold": {
-  "price": 4395.53,
+  "price": 4393.05,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
-  "chg": 0.46,
+  "chg": 0.4,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.66,
-   4375.58,
-   4375.59,
-   4375.68,
-   4375.68,
    4375.59,
    4375.58,
    4375.67,
@@ -55,14 +50,19 @@
    4409.57,
    4408.46,
    4401.56,
-   4395.53
+   4395.53,
+   4393.57,
+   4396.96,
+   4394.41,
+   4392.88,
+   4393.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.885,
-   "chg": 1.38,
+   "price": 65.755,
+   "chg": 1.18,
    "spark": [
     56.038,
     56.802,
@@ -85,13 +85,13 @@
     65.555,
     64.873,
     64.988,
-    65.885
+    65.755
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.521,
-   "chg": -0.15,
+   "price": 99.535,
+   "chg": -0.14,
    "spark": [
     100.75,
     100.99,
@@ -114,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.521
+    99.535
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.68,
-   "chg": 0.34,
+   "price": 82.43,
+   "chg": 0.04,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    82.68
+    82.43
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1587,
-   "chg": 0.45,
+   "price": 1.1583,
+   "chg": 0.42,
    "spark": [
     1.1445,
     1.1428,
@@ -201,13 +201,13 @@
     1.1544,
     1.153,
     1.1535,
-    1.1587
+    1.1583
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3555,
-   "chg": 0.48,
+   "price": 1.355,
+   "chg": 0.38,
    "spark": [
     1.3479,
     1.3446,
@@ -229,14 +229,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
-    1.3555
+    1.355
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.055,
-   "chg": -0.23,
+   "price": 159.072,
+   "chg": -0.22,
    "spark": [
     162.376,
     162.512,
@@ -259,15 +258,14 @@
     159.265,
     159.328,
     159.426,
-    159.055
+    159.072
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1890.75,
-   "chg": 0.89,
+   "price": 1901.52,
+   "chg": 1.46,
    "spark": [
-    1880.83,
     1882.5,
     1878.83,
     1880.34,
@@ -314,15 +312,15 @@
     1873.89,
     1876.88,
     1890.0,
-    1890.75
+    1900.04,
+    1901.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63062.0,
-   "chg": 0.39,
+   "price": 63319.3,
+   "chg": 0.8,
    "spark": [
-    62989.8,
     63057.3,
     63020.4,
     63052.4,
@@ -369,7 +367,8 @@
     62819.1,
     62840.2,
     63048.3,
-    63062.0
+    63326.4,
+    63319.3
    ]
   }
  ],
@@ -402,36 +401,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786932061.386156,
+   "ts": 1786936188.339813,
    "title": "Gold rises near $4,400 as Fed minutes, oil risks shape rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 07:01 AM",
+   "t": "17 Aug \u00b7 08:09 AM",
    "ur": "Fed mant ke tur par Gold (sona) $4,400 ke qarib badhta hai, til ke khatre ki rate ke naqatah nazar ki shakl"
   },
   {
-   "ts": 1786932061.386156,
+   "ts": 1786936188.339813,
    "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-treads-water-as-usiran-peace-talks-stall-hormuz-shipping-slows-4862040",
-   "t": "17 Aug \u00b7 07:01 AM",
+   "t": "17 Aug \u00b7 08:09 AM",
    "ur": "Amrikah eran aman mazakarat ke taatal ke baas til pani ko rond raha hai, harmaz ki tarsel sast hai."
   },
   {
-   "ts": 1786932061.386156,
+   "ts": 1786936188.339813,
    "title": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/shipping-slows-through-strait-of-hormuz-after-tanker-attacks-data-shows-4862024",
-   "t": "17 Aug \u00b7 07:01 AM",
+   "t": "17 Aug \u00b7 08:09 AM",
    "ur": "Aed w shmar se patah chalta hai kah tinkar hamlon ke bad aabanaye harmaz se jahaz raani ki raftar sast pad gayi hai."
   },
   {
-   "ts": 1786932061.386156,
+   "ts": 1786936188.339813,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "17 Aug \u00b7 07:01 AM",
+   "t": "17 Aug \u00b7 08:09 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
+  },
+  {
+   "ts": 1786935287.0,
+   "title": "United States Dollar Index\u00a0weakens to near 99.50 as traders push back Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-weakens-to-near-9950-as-traders-push-back-fed-rate-hike-bets-202608170254",
+   "t": "17 Aug \u00b7 07:54 AM",
+   "ur": "Unaited states Dollar andex kamazor hokar 99.50 ke qarib pohch gaya cunkah taajron ne fed ki rate mein azafe ki shart ko patchhe dhakil diya"
+  },
+  {
+   "ts": 1786934651.0,
+   "title": "Silver Price Forecast: XAG/USD bulls await acceptance above $66.00, 100-day EMA breakout",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bulls-await-acceptance-above-6600-100-day-ema-breakout-202608170244",
+   "t": "17 Aug \u00b7 07:44 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD bel $66.00 se ziyadah qaboliyat ke mantezar hen, 100-day EMA barik oat"
+  },
+  {
+   "ts": 1786934221.0,
+   "title": "Australian Dollar rises on hawkish RBA outlook",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rises-on-hawkish-rba-outlook-202608170237",
+   "t": "17 Aug \u00b7 07:37 AM",
+   "ur": "Aasterilvi Dollar ki qeemat aar bi aye ke ajeeb w ghareeb naqatah nazar par badh rahi hai."
+  },
+  {
+   "ts": 1786932102.0,
+   "title": "Canadian Dollar advances due to softer US Dollar, higher oil prices",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-advances-due-to-softer-us-dollar-higher-oil-prices-202608170201",
+   "t": "17 Aug \u00b7 07:01 AM",
+   "ur": "Narm US Dollar, til ki baland qeemton ki wajah se caniden Dollar ki tarqi"
   },
   {
    "ts": 1786931941.0,
@@ -448,38 +479,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-gains-against-weaker-us-dollar-following-softer-q2-gdp-data-202608170112",
    "t": "17 Aug \u00b7 06:12 AM",
    "ur": "Narm Q2 GDP deta ke bad kamazor US Dollar ke maqable mein japani yan ka faidah"
-  },
-  {
-   "ts": 1786929109.0,
-   "title": "British Pound trades near three-month top as fading Fed hike bets undermine USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-trades-near-three-month-top-as-fading-fed-hike-bets-undermine-usd-202608170111",
-   "t": "17 Aug \u00b7 06:11 AM",
-   "ur": "Bartanvi pound tin mah ki choti ke qarib tajart kar raha hai cunkah dhandila hawa fed azafe ki shartin US Dollar ko kamazor karti hen."
-  },
-  {
-   "ts": 1786928336.0,
-   "title": "Gold gains momentum to near $4,400 as Fed hike expectations drop despite Us-Iran tensions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-gains-momentum-to-near-4-400-as-fed-hike-expectations-drop-despite-us-iran-tensions-202608170058",
-   "t": "17 Aug \u00b7 05:58 AM",
-   "ur": "Amrikah eran kasheedgi ke bawajud fed mein azafe ki toqaat kam hone par Gold (sona) 4,400 Dollar ke qarib pohch gaya"
-  },
-  {
-   "ts": 1786926051.0,
-   "title": "Euro strengthens above 1.1550 as Fed rate hike bets fade",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-strengthens-above-11550-as-fed-rate-hike-bets-fade-202608170020",
-   "t": "17 Aug \u00b7 05:20 AM",
-   "ur": "Uro 1.1550 se oper mazboot hota hai cunkah fed ki rate mein azafe ki shartin khtam ho jati hen."
-  },
-  {
-   "ts": 1786922948.0,
-   "title": "Australian Dollar gains traction to near 0.7100 on fading Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-gains-traction-to-near-07100-on-fading-fed-hike-bets-202608162329",
-   "t": "17 Aug \u00b7 04:29 AM",
-   "ur": "Aasterilvi Dollar fed mein azafe ki dhandali shart par 0.7100 ke qarib karshan haasil karta hai"
   }
  ],
  "sentiment": {
