@@ -1,19 +1,13 @@
 {
- "updated": "17-08-2026 05:27 PKT",
+ "updated": "17-08-2026 07:01 PKT",
  "gold": {
-  "price": 4388.08,
+  "price": 4395.53,
   "open": 4375.6,
-  "high": 4389.34,
+  "high": 4415.06,
   "low": 4367.4,
-  "chg": 0.29,
+  "chg": 0.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.69,
-   4375.69,
-   4375.65,
-   4375.57,
-   4375.7,
-   4375.69,
    4375.66,
    4375.58,
    4375.59,
@@ -55,14 +49,20 @@
    4369.06,
    4370.92,
    4378.93,
-   4388.08
+   4389.95,
+   4393.43,
+   4400.35,
+   4409.57,
+   4408.46,
+   4401.56,
+   4395.53
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.27,
-   "chg": 0.43,
+   "price": 65.885,
+   "chg": 1.38,
    "spark": [
     56.038,
     56.802,
@@ -85,23 +85,25 @@
     65.555,
     64.873,
     64.988,
-    65.27
+    65.885
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.537,
-   "chg": -0.13,
+   "price": 99.521,
+   "chg": -0.15,
    "spark": [
-    100.73,
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.537
+    99.521
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.08,
-   "chg": -0.39,
+   "price": 82.68,
+   "chg": 0.34,
    "spark": [
     82.49,
     83.23,
@@ -141,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    82.08
+    82.68
    ]
   },
   {
@@ -149,12 +151,18 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1583,
-   "chg": 0.42,
+   "price": 1.1587,
+   "chg": 0.45,
    "spark": [
     1.1445,
     1.1428,
@@ -193,13 +201,13 @@
     1.1544,
     1.153,
     1.1535,
-    1.1583
+    1.1587
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3554,
-   "chg": 0.47,
+   "price": 1.3555,
+   "chg": 0.48,
    "spark": [
     1.3479,
     1.3446,
@@ -222,13 +230,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3554
+    1.3555
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.046,
-   "chg": -0.24,
+   "price": 159.055,
+   "chg": -0.23,
    "spark": [
     162.376,
     162.512,
@@ -251,16 +259,14 @@
     159.265,
     159.328,
     159.426,
-    159.046
+    159.055
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1871.0,
-   "chg": -0.16,
+   "price": 1890.75,
+   "chg": 0.89,
    "spark": [
-    1882.61,
-    1882.98,
     1880.83,
     1882.5,
     1878.83,
@@ -306,16 +312,16 @@
     1873.73,
     1873.57,
     1873.89,
-    1871.0
+    1876.88,
+    1890.0,
+    1890.75
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62708.2,
-   "chg": -0.18,
+   "price": 63062.0,
+   "chg": 0.39,
    "spark": [
-    62974.1,
-    63056.5,
     62989.8,
     63057.3,
     63020.4,
@@ -361,7 +367,9 @@
     62899.0,
     62835.1,
     62819.1,
-    62708.2
+    62840.2,
+    63048.3,
+    63062.0
    ]
   }
  ],
@@ -394,20 +402,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786926469.470658,
+   "ts": 1786932061.386156,
+   "title": "Gold rises near $4,400 as Fed minutes, oil risks shape rate outlook",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
+   "t": "17 Aug \u00b7 07:01 AM",
+   "ur": "Fed mant ke tur par Gold (sona) $4,400 ke qarib badhta hai, til ke khatre ki rate ke naqatah nazar ki shakl"
+  },
+  {
+   "ts": 1786932061.386156,
+   "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-treads-water-as-usiran-peace-talks-stall-hormuz-shipping-slows-4862040",
+   "t": "17 Aug \u00b7 07:01 AM",
+   "ur": "Amrikah eran aman mazakarat ke taatal ke baas til pani ko rond raha hai, harmaz ki tarsel sast hai."
+  },
+  {
+   "ts": 1786932061.386156,
    "title": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/shipping-slows-through-strait-of-hormuz-after-tanker-attacks-data-shows-4862024",
-   "t": "17 Aug \u00b7 05:27 AM",
+   "t": "17 Aug \u00b7 07:01 AM",
    "ur": "Aed w shmar se patah chalta hai kah tinkar hamlon ke bad aabanaye harmaz se jahaz raani ki raftar sast pad gayi hai."
   },
   {
-   "ts": 1786926469.470658,
+   "ts": 1786932061.386156,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "17 Aug \u00b7 05:27 AM",
+   "t": "17 Aug \u00b7 07:01 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
+  },
+  {
+   "ts": 1786931941.0,
+   "title": "New Zealand Dollar advances beyond 0.5900, highest since June 3 as USD stays weak",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-advances-beyond-05900-highest-since-june-3-as-usd-stays-weak-202608170159",
+   "t": "17 Aug \u00b7 06:59 AM",
+   "ur": "Niyozi lind Dollar 0.5900 se aage badhta hai, jo 3 jon ke bad sab se ziyadah hai cunkah USD kamazor rahta hai"
+  },
+  {
+   "ts": 1786929149.0,
+   "title": "Japanese Yen gains against weaker US Dollar following softer Q2 GDP data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-gains-against-weaker-us-dollar-following-softer-q2-gdp-data-202608170112",
+   "t": "17 Aug \u00b7 06:12 AM",
+   "ur": "Narm Q2 GDP deta ke bad kamazor US Dollar ke maqable mein japani yan ka faidah"
+  },
+  {
+   "ts": 1786929109.0,
+   "title": "British Pound trades near three-month top as fading Fed hike bets undermine USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-trades-near-three-month-top-as-fading-fed-hike-bets-undermine-usd-202608170111",
+   "t": "17 Aug \u00b7 06:11 AM",
+   "ur": "Bartanvi pound tin mah ki choti ke qarib tajart kar raha hai cunkah dhandila hawa fed azafe ki shartin US Dollar ko kamazor karti hen."
+  },
+  {
+   "ts": 1786928336.0,
+   "title": "Gold gains momentum to near $4,400 as Fed hike expectations drop despite Us-Iran tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-gains-momentum-to-near-4-400-as-fed-hike-expectations-drop-despite-us-iran-tensions-202608170058",
+   "t": "17 Aug \u00b7 05:58 AM",
+   "ur": "Amrikah eran kasheedgi ke bawajud fed mein azafe ki toqaat kam hone par Gold (sona) 4,400 Dollar ke qarib pohch gaya"
   },
   {
    "ts": 1786926051.0,
@@ -423,55 +479,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-gains-traction-to-near-07100-on-fading-fed-hike-bets-202608162329",
    "t": "17 Aug \u00b7 04:29 AM",
-   "ur": "Aasterilvi Dollar fed mein azafe ki dhandali shart par 0.7100 ke qarib karshan haasil kar raha hai"
-  },
-  {
-   "ts": 1786748348.0,
-   "title": "Silver Price Forecast: XAG stalls as yields cap recovery",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-stalls-as-yields-cap-recovery-202608142259",
-   "t": "15 Aug \u00b7 03:59 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: ex aye ji rak gaya hai jisa kah pedawar ki topi rikori"
-  },
-  {
-   "ts": 1786744906.0,
-   "title": "US Treasury yields rise as Oil strength offsets weak Retail Sales",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasury-yields-rise-as-oil-strength-offsets-weak-retail-sales-202608142201",
-   "t": "15 Aug \u00b7 03:01 AM",
-   "ur": "US treasurei ki pedawar mein azafah cunkah til ki tqt kamazor khurdah farokht ko pora karti hai."
-  },
-  {
-   "ts": 1786736543.0,
-   "title": "Forecasting the upcoming week: FOMC Minutes take center stage next week",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fomc-minutes-take-center-stage-next-week-202608141942",
-   "t": "15 Aug \u00b7 12:42 AM",
-   "ur": "Aainda hafte ki forecast: FOMC mant agle hafte sintr stage le ga."
-  },
-  {
-   "ts": 1786731836.0,
-   "title": "The Dollar Index breaks on the fourth consecutive soft print",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-dollar-index-breaks-on-the-fourth-consecutive-soft-print-202608141823",
-   "t": "14 Aug \u00b7 11:23 PM",
-   "ur": "Dollar andex maslsal chothe narm parnt par tot gaya."
-  },
-  {
-   "ts": 1786731240.0,
-   "title": "Singapore Dollar: Consolidation near 1.28 with upside risks against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-consolidation-near-128-with-upside-risks-against-us-dollar-ocbc-202608141814",
-   "t": "14 Aug \u00b7 11:14 PM",
-   "ur": "Sangapor Dollar: US Dollar ke khalaf alta khatrat ke sath 1.28 ke qarib istehkam - OCBC"
-  },
-  {
-   "ts": 1786729166.0,
-   "title": "Gold rallies as weak US data dents Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
-   "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
+   "ur": "Aasterilvi Dollar fed mein azafe ki dhandali shart par 0.7100 ke qarib karshan haasil karta hai"
   }
  ],
  "sentiment": {
