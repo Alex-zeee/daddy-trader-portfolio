@@ -1,14 +1,13 @@
 {
- "updated": "18-08-2026 02:56 PKT",
+ "updated": "18-08-2026 03:15 PKT",
  "gold": {
-  "price": 4416.93,
-  "open": 4376.54,
+  "price": 4416.72,
+  "open": 4375.44,
   "high": 4427.91,
   "low": 4367.4,
-  "chg": 0.92,
+  "chg": 0.94,
   "src": "XAUUSD Spot",
   "spark": [
-   4396.2,
    4395.17,
    4398.4,
    4398.76,
@@ -55,14 +54,15 @@
    4416.78,
    4416.83,
    4417.03,
-   4416.93
+   4417.06,
+   4416.72
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.905,
-   "chg": 1.41,
+   "price": 65.975,
+   "chg": 1.52,
    "spark": [
     56.038,
     56.802,
@@ -85,7 +85,7 @@
     65.555,
     64.873,
     64.988,
-    65.905
+    65.975
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 84.95,
-   "chg": 3.09,
+   "price": 85.04,
+   "chg": 3.2,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    84.95
+    85.04
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1579,
-   "chg": 0.38,
+   "price": 1.1582,
+   "chg": 0.41,
    "spark": [
     1.1445,
     1.1428,
@@ -201,13 +201,13 @@
     1.1544,
     1.153,
     1.1535,
-    1.1579
+    1.1582
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3544,
-   "chg": 0.39,
+   "chg": 0.4,
    "spark": [
     1.3479,
     1.3446,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.378,
-   "chg": -0.03,
+   "price": 159.458,
+   "chg": 0.02,
    "spark": [
     162.376,
     162.512,
@@ -259,15 +259,14 @@
     159.265,
     159.328,
     159.426,
-    159.378
+    159.458
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1904.66,
-   "chg": 1.63,
+   "price": 1903.51,
+   "chg": 1.57,
    "spark": [
-    1882.67,
     1881.19,
     1880.31,
     1878.1,
@@ -314,15 +313,15 @@
     1908.15,
     1905.5,
     1904.94,
-    1904.66
+    1904.56,
+    1903.51
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64311.1,
-   "chg": 2.38,
+   "price": 64255.9,
+   "chg": 2.29,
    "spark": [
-    63066.6,
     63024.3,
     63001.1,
     63014.0,
@@ -369,7 +368,8 @@
     64369.9,
     64262.3,
     64340.0,
-    64311.1
+    64330.1,
+    64255.9
    ]
   }
  ],
@@ -401,6 +401,14 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1787004906.261783,
+   "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
+   "t": "18 Aug \u00b7 03:15 AM",
+   "ur": "Narm Dollar ke darmiyan Gold (sona) 1% badh gaya, fed ki rate mein azafe ki sharton mein kami; til ki topiyan faidah"
+  },
   {
    "ts": 1787002464.0,
    "title": "New Zealand Dollar stalls as China slows down",
@@ -472,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/euro-returns-below-11600-as-us-dollar-selling-pressure-eases-202608171755",
    "t": "17 Aug \u00b7 10:55 PM",
    "ur": "Uro 1.1600 se niche waps aata hai cunkah US Dollar ki farokht ka dabao kam hota hai."
-  },
-  {
-   "ts": 1786983860.0,
-   "title": "The US Dollar Index cannot rally with Washington on the offer",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-us-dollar-index-cannot-rally-with-washington-on-the-offer-202608171624",
-   "t": "17 Aug \u00b7 09:24 PM",
-   "ur": "US Dollar andex peshkash par washington ke sath nihen badh sakta"
   }
  ],
  "sentiment": {
