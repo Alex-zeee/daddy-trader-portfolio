@@ -1,15 +1,13 @@
 {
- "updated": "18-08-2026 02:01 PKT",
+ "updated": "18-08-2026 02:36 PKT",
  "gold": {
-  "price": 4416.8,
-  "open": 4375.63,
+  "price": 4416.93,
+  "open": 4375.52,
   "high": 4427.91,
   "low": 4367.4,
-  "chg": 0.94,
+  "chg": 0.95,
   "src": "XAUUSD Spot",
   "spark": [
-   4396.54,
-   4395.24,
    4394.3,
    4396.2,
    4395.17,
@@ -55,7 +53,9 @@
    4415.24,
    4415.68,
    4416.63,
-   4416.8
+   4416.78,
+   4416.83,
+   4416.93
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 99.588,
-   "chg": -0.08,
+   "price": 99.58,
+   "chg": -0.09,
    "spark": [
     100.75,
     100.99,
@@ -114,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.588
+    99.58
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.96,
-   "chg": 3.11,
+   "price": 84.95,
+   "chg": 3.09,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    84.96
+    84.95
    ]
   },
   {
@@ -177,9 +177,10 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1586,
-   "chg": 0.11,
+   "price": 1.1582,
+   "chg": 0.41,
    "spark": [
+    1.1445,
     1.1428,
     1.1418,
     1.1404,
@@ -200,15 +201,15 @@
     1.1544,
     1.153,
     1.1535,
-    1.1574,
-    1.1586
+    1.1582
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3549,
-   "chg": 0.02,
+   "price": 1.3546,
+   "chg": 0.41,
    "spark": [
+    1.3479,
     1.3446,
     1.3432,
     1.3379,
@@ -229,14 +230,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3547,
-    1.3549
+    1.3546
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.441,
-   "chg": 0.01,
+   "price": 159.372,
+   "chg": -0.03,
    "spark": [
     162.376,
     162.512,
@@ -259,12 +259,12 @@
     159.265,
     159.328,
     159.426,
-    159.441
+    159.372
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1904.98,
+   "price": 1905.02,
    "chg": 1.65,
    "spark": [
     1882.67,
@@ -314,13 +314,13 @@
     1908.15,
     1905.5,
     1904.94,
-    1904.98
+    1905.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64347.5,
-   "chg": 2.43,
+   "price": 64265.0,
+   "chg": 2.3,
    "spark": [
     63066.6,
     63024.3,
@@ -369,7 +369,7 @@
     64369.9,
     64262.3,
     64340.0,
-    64347.5
+    64265.0
    ]
   }
  ],
@@ -401,6 +401,14 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1787002464.0,
+   "title": "New Zealand Dollar stalls as China slows down",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-stalls-as-china-slows-down-202608172134",
+   "t": "18 Aug \u00b7 02:34 AM",
+   "ur": "Niyozi lind Dollar rak gaya hai cunkah chin mein sast ravi hai."
+  },
   {
    "ts": 1786999551.0,
    "title": "US Treasury yields surge as 30-year hits 2007 high",
@@ -472,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/the-us-dollar-index-cannot-rally-with-washington-on-the-offer-202608171624",
    "t": "17 Aug \u00b7 09:24 PM",
    "ur": "US Dollar andex peshkash par washington ke sath nihen badh sakta"
-  },
-  {
-   "ts": 1786982676.0,
-   "title": "British Pound edges higher as traders await UK jobs and CPI data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-edges-higher-as-traders-await-uk-jobs-cpi-data-202608171604",
-   "t": "17 Aug \u00b7 09:04 PM",
-   "ur": "Bartanvi pound ki qeemtin unchi hen cunkah taajr bartaniya ki malazmaton aur CPI deta ke mantezar hen."
   }
  ],
  "sentiment": {
