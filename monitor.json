@@ -1,16 +1,13 @@
 {
- "updated": "17-08-2026 17:22 PKT",
+ "updated": "17-08-2026 18:12 PKT",
  "gold": {
-  "price": 4392.51,
+  "price": 4383.79,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
-  "chg": 0.39,
+  "chg": 0.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4393.43,
-   4400.35,
-   4409.57,
    4408.46,
    4401.56,
    4395.53,
@@ -55,14 +52,17 @@
    4400.58,
    4397.11,
    4394.01,
-   4392.51
+   4389.28,
+   4379.93,
+   4386.04,
+   4383.79
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.785,
-   "chg": 1.23,
+   "price": 65.45,
+   "chg": 0.71,
    "spark": [
     56.038,
     56.802,
@@ -85,22 +85,25 @@
     65.555,
     64.873,
     64.988,
-    65.785
+    65.45
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.447,
-   "chg": -0.22,
+   "price": 99.424,
+   "chg": -0.25,
    "spark": [
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -111,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.447
+    99.424
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.37,
-   "chg": -0.04,
+   "price": 82.93,
+   "chg": 0.64,
    "spark": [
     82.49,
     83.23,
@@ -140,20 +143,25 @@
     83.27,
     81.25,
     82.4,
-    82.37
+    82.93
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.696,
-   "chg": 1.19,
+   "price": 4.712,
+   "chg": 0.34,
    "spark": [
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -163,13 +171,14 @@
     4.684,
     4.682,
     4.641,
-    4.696
+    4.696,
+    4.712
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1597,
-   "chg": 0.53,
+   "price": 1.1602,
+   "chg": 0.63,
    "spark": [
     1.1445,
     1.1428,
@@ -191,14 +200,13 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
-    1.1597
+    1.1602
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.356,
-   "chg": 0.46,
+   "price": 1.3565,
+   "chg": 0.5,
    "spark": [
     1.3479,
     1.3446,
@@ -220,13 +228,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.356
+    1.3565
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.224,
-   "chg": -0.13,
+   "price": 159.258,
+   "chg": -0.11,
    "spark": [
     162.376,
     162.512,
@@ -249,15 +257,14 @@
     159.265,
     159.328,
     159.426,
-    159.224
+    159.258
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1900.44,
-   "chg": 1.41,
+   "price": 1898.38,
+   "chg": 1.3,
    "spark": [
-    1881.77,
     1882.05,
     1883.01,
     1882.93,
@@ -304,15 +311,15 @@
     1891.95,
     1904.9,
     1902.37,
-    1900.44
+    1897.06,
+    1898.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63553.0,
-   "chg": 1.17,
+   "price": 63497.5,
+   "chg": 1.08,
    "spark": [
-    62976.8,
     62974.6,
     63037.1,
     63024.7,
@@ -359,7 +366,8 @@
     63247.4,
     63610.8,
     63561.2,
-    63553.0
+    63484.7,
+    63497.5
    ]
   }
  ],
@@ -392,28 +400,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786969337.936917,
+   "ts": 1786972323.311699,
    "title": "Why this Wall Street strategist says the \"trade is long gold\"",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-this-wall-street-strategist-says-the-trade-is-long-gold-4862683",
-   "t": "17 Aug \u00b7 05:22 PM",
+   "t": "17 Aug \u00b7 06:12 PM",
    "ur": "Wal stret ke is hakmat amali ke mahar ka kahana hai kah \"tajart tavel Gold (sona) hai\""
   },
   {
-   "ts": 1786969337.936917,
+   "ts": 1786972323.311699,
    "title": "Gold edges higher amid softer dollar, easing Fed rate hike wagers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 05:22 PM",
+   "t": "17 Aug \u00b7 06:12 PM",
    "ur": "Narm Dollar ke darmiyan Gold (sone) ki qeemtin unchi hen, fed ki rate mein azafe ki sharton mein narmi."
   },
   {
-   "ts": 1786969337.936917,
+   "ts": 1786972323.311699,
    "title": "Silver stalls below $67 resistance as momentum fades: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "17 Aug \u00b7 05:22 PM",
+   "t": "17 Aug \u00b7 06:12 PM",
    "ur": "Silver (chandi) rak gaya hai $67 ki mazahmat se niche ki raftar khtam hone par"
+  },
+  {
+   "ts": 1786971664.0,
+   "title": "New Zealand Dollar hits two-month high as US Dollar weakness offsets softer China data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-hits-two-month-high-as-us-dollar-weakness-offsets-softer-china-data-202608171301",
+   "t": "17 Aug \u00b7 06:01 PM",
+   "ur": "Niyozi lind Dollar do mah ki baland tarin sath par pohch gaya cunkah US Dollar ki kamazori ne chin ke aed w shmar ko narm kar diya"
+  },
+  {
+   "ts": 1786969961.0,
+   "title": "United States: Sideways growth and sticky inflation \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-sideways-growth-and-sticky-inflation-td-securities-202608171232",
+   "t": "17 Aug \u00b7 05:32 PM",
+   "ur": "Ryastahaye matehdah: zamni tarqi aur chpachapa inflation (mehngai) - TD securitez"
   },
   {
    "ts": 1786967158.0,
@@ -454,22 +478,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-bullish-bias-near-4-400-202608171008",
    "t": "17 Aug \u00b7 03:08 PM",
    "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,400 ke qarib tizi ka taasab rakta hai."
-  },
-  {
-   "ts": 1786960585.0,
-   "title": "US Dollar Index Price Forecast: Bears push against two-month lows at 99.40",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-bears-push-against-two-month-lows-at-9940-202608170956",
-   "t": "17 Aug \u00b7 02:56 PM",
-   "ur": "US Dollar andex qeemat ki forecast: bears 99.40 par do mah ki kam tarin sath ke khalaf dhakil raha hai"
-  },
-  {
-   "ts": 1786960087.0,
-   "title": "Dow Jones futures decline despite softening Fed rate hike expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-decline-despite-softening-fed-rate-hike-expectations-202608170948",
-   "t": "17 Aug \u00b7 02:48 PM",
-   "ur": "Fed ki rate mein azafe ki toqaat mein narmi ke bawajud dou joons futurs mein kami"
   }
  ],
  "sentiment": {
