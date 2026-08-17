@@ -1,15 +1,13 @@
 {
- "updated": "18-08-2026 01:14 PKT",
+ "updated": "18-08-2026 01:43 PKT",
  "gold": {
-  "price": 4417.07,
+  "price": 4415.17,
   "open": 4375.61,
   "high": 4427.91,
   "low": 4367.4,
-  "chg": 0.95,
+  "chg": 0.9,
   "src": "XAUUSD Spot",
   "spark": [
-   4403.39,
-   4397.29,
    4395.48,
    4399.52,
    4396.54,
@@ -55,14 +53,16 @@
    4415.39,
    4419.13,
    4420.27,
-   4417.07
+   4417.85,
+   4415.24,
+   4415.17
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.005,
-   "chg": 1.56,
+   "price": 65.905,
+   "chg": 1.41,
    "spark": [
     56.038,
     56.802,
@@ -85,13 +85,13 @@
     65.555,
     64.873,
     64.988,
-    66.005
+    65.905
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.58,
-   "chg": -0.09,
+   "price": 99.591,
+   "chg": -0.08,
    "spark": [
     100.75,
     100.99,
@@ -114,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.58
+    99.591
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.58,
-   "chg": 2.65,
+   "price": 84.88,
+   "chg": 3.01,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    84.58
+    84.88
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1581,
-   "chg": 0.39,
+   "price": 1.1582,
+   "chg": 0.41,
    "spark": [
     1.1445,
     1.1428,
@@ -201,13 +201,13 @@
     1.1544,
     1.153,
     1.1535,
-    1.1581
+    1.1582
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3542,
-   "chg": 0.38,
+   "price": 1.3544,
+   "chg": 0.4,
    "spark": [
     1.3479,
     1.3446,
@@ -230,13 +230,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3542
+    1.3544
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.499,
-   "chg": 0.05,
+   "price": 159.472,
+   "chg": 0.03,
    "spark": [
     162.376,
     162.512,
@@ -259,13 +259,13 @@
     159.265,
     159.328,
     159.426,
-    159.499
+    159.472
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1904.86,
-   "chg": 1.64,
+   "price": 1908.57,
+   "chg": 1.84,
    "spark": [
     1883.36,
     1882.67,
@@ -314,13 +314,13 @@
     1907.51,
     1908.15,
     1905.5,
-    1904.86
+    1908.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64240.0,
-   "chg": 2.26,
+   "price": 64333.6,
+   "chg": 2.41,
    "spark": [
     63090.0,
     63066.6,
@@ -369,7 +369,7 @@
     64275.3,
     64369.9,
     64262.3,
-    64240.0
+    64333.6
    ]
   }
  ],
@@ -402,12 +402,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786997672.123785,
+   "ts": 1786999403.435741,
    "title": "Silver stalls below $67.00 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "18 Aug \u00b7 01:14 AM",
+   "t": "18 Aug \u00b7 01:43 AM",
    "ur": "Salor rak gaya hai $67.00 mazahmat se niche"
+  },
+  {
+   "ts": 1786998139.0,
+   "title": "Forex Today: US Dollar sags to two-month lows as Middle East risk lifts Oil and Gold",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-sags-to-two-month-lows-as-middle-east-risk-lifts-oil-and-gold-202608172022",
+   "t": "18 Aug \u00b7 01:22 AM",
+   "ur": "Farex today: US Dollar do mah ki kam tarin sath par aa gaya cunkah masharq wasta mein til aur Gold (sona) badh gaya"
   },
   {
    "ts": 1786996870.0,
@@ -427,11 +435,11 @@
   },
   {
    "ts": 1786996373.0,
-   "title": "Mexican Peso softens as Middle East risks boosts the US Dollar",
+   "title": "Mexican Peso softens as Middle East risks boost US Dollar",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/mexican-peso-softens-as-middle-east-risks-boosts-the-us-dollar-202608171952",
    "t": "18 Aug \u00b7 12:52 AM",
-   "ur": "Mexican peso narm ho gaya cunkah masharq wasti ke khatrat US Dollar ko badha rahe hen."
+   "ur": "Mexican peso narm ho gaya cunkah masharq wasta ke khatre se US Dollar ko farog malta hai."
   },
   {
    "ts": 1786991161.0,
@@ -472,14 +480,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-edges-higher-as-traders-await-uk-jobs-cpi-data-202608171604",
    "t": "17 Aug \u00b7 09:04 PM",
    "ur": "Bartanvi pound ki qeemtin unchi hen cunkah taajr bartaniya ki malazmaton aur CPI deta ke mantezar hen."
-  },
-  {
-   "ts": 1786980385.0,
-   "title": "Japanese Yen struggles despite rising bond yields and BoJ hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-struggles-despite-rising-bond-yields-and-boj-hike-bets-202608171526",
-   "t": "17 Aug \u00b7 08:26 PM",
-   "ur": "Japani yan badhti hoi band ki pedawar aur BoJ mein azafe ki shart ke bawajud jadojehad kar raha hai."
   }
  ],
  "sentiment": {
