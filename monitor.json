@@ -1,18 +1,13 @@
 {
- "updated": "17-08-2026 11:29 PKT",
+ "updated": "17-08-2026 12:31 PKT",
  "gold": {
-  "price": 4397.76,
+  "price": 4405.51,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
-  "chg": 0.51,
+  "chg": 0.68,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.58,
-   4375.7,
-   4375.7,
-   4375.66,
-   4375.57,
    4375.6,
    4375.7,
    4375.67,
@@ -55,14 +50,19 @@
    4395.18,
    4393.72,
    4392.74,
-   4397.76
+   4396.53,
+   4395.0,
+   4403.08,
+   4397.21,
+   4402.45,
+   4405.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.89,
-   "chg": 1.39,
+   "price": 65.795,
+   "chg": 1.24,
    "spark": [
     56.038,
     56.802,
@@ -85,13 +85,13 @@
     65.555,
     64.873,
     64.988,
-    65.89
+    65.795
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.497,
-   "chg": -0.17,
+   "price": 99.388,
+   "chg": -0.28,
    "spark": [
     100.75,
     100.99,
@@ -114,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.497
+    99.388
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.71,
-   "chg": -0.84,
+   "price": 81.66,
+   "chg": -0.9,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    81.71
+    81.66
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1594,
-   "chg": 0.51,
+   "price": 1.161,
+   "chg": 0.65,
    "spark": [
     1.1445,
     1.1428,
@@ -201,13 +201,13 @@
     1.1544,
     1.153,
     1.1535,
-    1.1594
+    1.161
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3556,
-   "chg": 0.48,
+   "price": 1.3566,
+   "chg": 0.56,
    "spark": [
     1.3479,
     1.3446,
@@ -230,13 +230,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3556
+    1.3566
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.028,
-   "chg": -0.25,
+   "price": 158.904,
+   "chg": -0.33,
    "spark": [
     162.376,
     162.512,
@@ -259,15 +259,14 @@
     159.265,
     159.328,
     159.426,
-    159.028
+    158.904
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1898.65,
-   "chg": 1.31,
+   "price": 1903.4,
+   "chg": 1.56,
    "spark": [
-    1878.31,
     1875.05,
     1878.51,
     1879.25,
@@ -314,15 +313,15 @@
     1899.1,
     1901.58,
     1897.78,
-    1898.65
+    1905.23,
+    1903.4
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63507.0,
-   "chg": 1.1,
+   "price": 63526.5,
+   "chg": 1.13,
    "spark": [
-    62987.1,
     62867.5,
     62976.3,
     62964.1,
@@ -369,7 +368,8 @@
     63362.2,
     63476.0,
     63459.6,
-    63507.0
+    63587.5,
+    63526.5
    ]
   }
  ],
@@ -402,36 +402,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786948154.442042,
+   "ts": 1786951884.489557,
+   "title": "Silver stalls below $67 resistance as momentum fades: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
+   "t": "17 Aug \u00b7 12:31 PM",
+   "ur": "Silver (chandi) rak gaya hai $67 ki mazahmat se niche ki raftar khtam hone par"
+  },
+  {
+   "ts": 1786951884.489557,
+   "title": "Gold consolidates at $4,456 with MACD divergence: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
+   "t": "17 Aug \u00b7 12:31 PM",
+   "ur": "Gold (sona) MACD ke anharaf ke sath $4,456 par mastahkam hawa."
+  },
+  {
+   "ts": 1786951884.489557,
    "title": "Gold edges higher near $4,400 as softer dollar offsets Middle East inflation risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 11:29 AM",
+   "t": "17 Aug \u00b7 12:31 PM",
    "ur": "Gold (sone) ki qeemat 4,400 Dollar ke qarib pohch gayi cunkah narm Dollar masharq wasti mein inflation (mehngai) ke khatrat ko pora karta hai"
   },
   {
-   "ts": 1786948154.442042,
-   "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-treads-water-as-usiran-peace-talks-stall-hormuz-shipping-slows-4862040",
-   "t": "17 Aug \u00b7 11:29 AM",
-   "ur": "Amrikah eran aman mazakarat ke taatal ke baas til pani ko rond raha hai, harmaz ki tarsel sast hai."
+   "ts": 1786951800.0,
+   "title": "Canada CPI expected to show rising inflation in July",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canada-cpi-expected-to-show-rising-inflation-in-july-202608170730",
+   "t": "17 Aug \u00b7 12:30 PM",
+   "ur": "Canida CPI joli mein badhti hoi inflation (mehngai) ko zaahar kare ga."
   },
   {
-   "ts": 1786948154.442042,
-   "title": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/shipping-slows-through-strait-of-hormuz-after-tanker-attacks-data-shows-4862024",
-   "t": "17 Aug \u00b7 11:29 AM",
-   "ur": "Aed w shmar se patah chalta hai kah tinkar hamlon ke bad aabanaye harmaz se jahaz raani ki raftar sast pad gayi hai."
+   "ts": 1786951645.0,
+   "title": "Japanese Yen: Intervention risks cap losses against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-risks-cap-losses-against-us-dollar-ocbc-202608170727",
+   "t": "17 Aug \u00b7 12:27 PM",
+   "ur": "Japani yan: madakhalt US Dollar - OCBC ke khalaf cap ke naqsanat ka khatrah hai."
   },
   {
-   "ts": 1786948154.442042,
-   "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "17 Aug \u00b7 11:29 AM",
-   "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
+   "ts": 1786950991.0,
+   "title": "Forex Today: US Dollar extends pullback to start new week",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-extends-pullback-to-start-new-week-202608170716",
+   "t": "17 Aug \u00b7 12:16 PM",
+   "ur": "Farex today: US Dollar ne niya haftah sharo karne ke liye pl bek mein tosi ki hai."
+  },
+  {
+   "ts": 1786950651.0,
+   "title": "Canadian Dollar: Data and tariffs shape near-term risks \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-data-and-tariffs-shape-near-term-risks-td-securities-202608170710",
+   "t": "17 Aug \u00b7 12:10 PM",
+   "ur": "Caniden Dollar: deta aur terf qaribi madat ke khatrat ko tashkil dite hen - TD securitez"
+  },
+  {
+   "ts": 1786949875.0,
+   "title": "Canadian Dollar edges higher as Fed rate hike bets recede, CPI data looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-edges-higher-as-fed-rate-hike-bets-recede-cpi-data-looms-202608170657",
+   "t": "17 Aug \u00b7 11:57 AM",
+   "ur": "Fed ki rate mein azafe ki shartin kam hone ke sath hi caniden Dollar ki qeemat badh gayi, CPI deta mein azafah"
+  },
+  {
+   "ts": 1786948805.0,
+   "title": "British Pound: Data mix limits sustained gains against US Dollar  \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-data-mix-limits-sustained-gains-against-us-dollar-bbh-202608170640",
+   "t": "17 Aug \u00b7 11:40 AM",
+   "ur": "Bartanvi pound: deta maks US Dollar - BBH ke maqable mein maslsal fawaid ko muhadud karta hai."
   },
   {
    "ts": 1786947690.0,
@@ -440,46 +480,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-approaches-6600-favoured-by-a-softer-us-dollar-202608170621",
    "t": "17 Aug \u00b7 11:21 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $66.00 ke qarib pohch gaya hai jase ek narm US Dollar ne pasand kiya hai"
-  },
-  {
-   "ts": 1786946895.0,
-   "title": "Euro: Upside bias targets 1.1590 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-bias-targets-11590-against-us-dollar-uob-202608170608",
-   "t": "17 Aug \u00b7 11:08 AM",
-   "ur": "Uro: alta taasab US Dollar - UOB ke maqable mein 1.1590 ka target rakta hai."
-  },
-  {
-   "ts": 1786945931.0,
-   "title": "British Pound gathers strength above 1.3550 as softer US data cools Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-gathers-strength-above-13550-as-softer-us-data-cools-fed-hike-bets-202608170552",
-   "t": "17 Aug \u00b7 10:52 AM",
-   "ur": "Bartanvi pound ne 1.3550 se oper ki tqt jama ki cunkah narm US deta ne fed mein azafe ki shart ko thanda kiya"
-  },
-  {
-   "ts": 1786945510.0,
-   "title": "Indonesian Rupiah strengthens amid Prabowo's growth target, weaker US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indonesian-rupiah-strengthens-amid-prabowos-growth-target-weaker-us-dollar-202608170545",
-   "t": "17 Aug \u00b7 10:45 AM",
-   "ur": "Paraboo ke namo ke target ke darmiyan andonishin ropiya mazboot hawa, US Dollar kamazor"
-  },
-  {
-   "ts": 1786942931.0,
-   "title": "Euro rallies to two-month high, eyes 1.1600 as USD struggles amid receding Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-rallies-to-two-month-high-eyes-11600-as-usd-struggles-amid-receding-fed-hike-bets-202608170502",
-   "t": "17 Aug \u00b7 10:02 AM",
-   "ur": "Uro ki riliyan do mah ki baland tarin sath par, nazarin 1.1600 par hen cunkah fed mein azafe ki sharton mein kami ke darmiyan USD ki jadojehad"
-  },
-  {
-   "ts": 1786941631.0,
-   "title": "Indian Rupee steadies as US Dollar declines on reducing Fed rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-holds-ground-despite-rbi-ending-fcnr-forex-swap-window-early-202608170440",
-   "t": "17 Aug \u00b7 09:40 AM",
-   "ur": "Fed ki rate mein azafe ki shart ko kam karne par US Dollar ki kami ke sath handostani ropiya mastahkam hai."
   }
  ],
  "sentiment": {
