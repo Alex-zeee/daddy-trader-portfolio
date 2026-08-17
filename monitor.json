@@ -1,15 +1,13 @@
 {
- "updated": "17-08-2026 04:53 PKT",
+ "updated": "17-08-2026 05:27 PKT",
  "gold": {
-  "price": 4372.13,
+  "price": 4388.08,
   "open": 4375.6,
-  "high": 4386.16,
+  "high": 4389.34,
   "low": 4367.4,
-  "chg": -0.08,
+  "chg": 0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.63,
-   4375.57,
    4375.69,
    4375.69,
    4375.65,
@@ -55,14 +53,16 @@
    4381.49,
    4374.41,
    4369.06,
-   4372.13
+   4370.92,
+   4378.93,
+   4388.08
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.95,
-   "chg": -0.06,
+   "price": 65.27,
+   "chg": 0.43,
    "spark": [
     56.038,
     56.802,
@@ -85,25 +85,23 @@
     65.555,
     64.873,
     64.988,
-    64.95
+    65.27
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.583,
-   "chg": -0.09,
+   "price": 99.537,
+   "chg": -0.13,
    "spark": [
+    100.73,
     100.75,
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +112,13 @@
     100.01,
     99.96,
     99.67,
-    99.583
+    99.537
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.42,
-   "chg": 0.02,
+   "price": 82.08,
+   "chg": -0.39,
    "spark": [
     82.49,
     83.23,
@@ -143,7 +141,7 @@
     83.27,
     81.25,
     82.4,
-    82.42
+    82.08
    ]
   },
   {
@@ -151,18 +149,12 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
-    4.569,
-    4.541,
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -177,7 +169,7 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1578,
+   "price": 1.1583,
    "chg": 0.42,
    "spark": [
     1.1445,
@@ -200,13 +192,14 @@
     1.1546,
     1.1544,
     1.153,
-    1.1578
+    1.1535,
+    1.1583
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3547,
-   "chg": 0.41,
+   "price": 1.3554,
+   "chg": 0.47,
    "spark": [
     1.3479,
     1.3446,
@@ -229,13 +222,13 @@
     1.351,
     1.3498,
     1.3491,
-    1.3547
+    1.3554
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.216,
-   "chg": -0.13,
+   "price": 159.046,
+   "chg": -0.24,
    "spark": [
     162.376,
     162.512,
@@ -258,15 +251,14 @@
     159.265,
     159.328,
     159.426,
-    159.216
+    159.046
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1874.39,
-   "chg": -0.36,
+   "price": 1871.0,
+   "chg": -0.16,
    "spark": [
-    1880.75,
     1882.61,
     1882.98,
     1880.83,
@@ -313,15 +305,15 @@
     1879.92,
     1873.73,
     1873.57,
-    1874.39
+    1873.89,
+    1871.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62838.0,
-   "chg": -0.3,
+   "price": 62708.2,
+   "chg": -0.18,
    "spark": [
-    62955.3,
     62974.1,
     63056.5,
     62989.8,
@@ -368,7 +360,8 @@
     62998.3,
     62899.0,
     62835.1,
-    62838.0
+    62819.1,
+    62708.2
    ]
   }
  ],
@@ -401,12 +394,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786924404.197201,
+   "ts": 1786926469.470658,
+   "title": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/shipping-slows-through-strait-of-hormuz-after-tanker-attacks-data-shows-4862024",
+   "t": "17 Aug \u00b7 05:27 AM",
+   "ur": "Aed w shmar se patah chalta hai kah tinkar hamlon ke bad aabanaye harmaz se jahaz raani ki raftar sast pad gayi hai."
+  },
+  {
+   "ts": 1786926469.470658,
    "title": "Gold prices head for weekly gain, helped by a hit to Fed rate hike odds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-below-4400-as-fed-path-and-hormuz-talks-cap-recent-rally-4859615",
-   "t": "17 Aug \u00b7 04:53 AM",
+   "t": "17 Aug \u00b7 05:27 AM",
    "ur": "Gold (sone) ki qeemtin haftah war faidah ki taraf badh rahi hen, jas mein fed ki rate mein azafe ki mashaklat se madad mali"
+  },
+  {
+   "ts": 1786926051.0,
+   "title": "Euro strengthens above 1.1550 as Fed rate hike bets fade",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-strengthens-above-11550-as-fed-rate-hike-bets-fade-202608170020",
+   "t": "17 Aug \u00b7 05:20 AM",
+   "ur": "Uro 1.1550 se oper mazboot hota hai cunkah fed ki rate mein azafe ki shartin khtam ho jati hen."
   },
   {
    "ts": 1786922948.0,
@@ -463,26 +472,10 @@
    "link": "https://www.fxstreet.com/news/gold-rallies-as-weak-us-data-dents-fed-hike-bets-202608141739",
    "t": "14 Aug \u00b7 10:39 PM",
    "ur": "Kamazor US aed w shmar fed mein azafe ki sharton mein kami ke tur par Gold (sone) ki riliyan"
-  },
-  {
-   "ts": 1786729140.0,
-   "title": "South Korean Won: Gains target 1407 against US Dollar \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-gains-target-1407-against-us-dollar-societe-generale-202608141739",
-   "t": "14 Aug \u00b7 10:39 PM",
-   "ur": "South Korea ki Won: US Dollar ke maqable mein 1407 ka target haasil kiya - socit janerl"
-  },
-  {
-   "ts": 1786726849.0,
-   "title": "Chinese Yuan: Range trade persists near 6.7450 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-near-67450-against-us-dollar-uob-202608141700",
-   "t": "14 Aug \u00b7 10:00 PM",
-   "ur": "Chini uan: rinj tred US Dollar - UOB ke maqable mein 6.7450 ke qarib barqarar hai."
   }
  ],
  "sentiment": {
-  "value": 34,
+  "value": 31,
   "label": "Fear"
  },
  "err": null
