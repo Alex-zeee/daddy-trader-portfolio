@@ -1,16 +1,13 @@
 {
- "updated": "17-08-2026 14:04 PKT",
+ "updated": "17-08-2026 14:53 PKT",
  "gold": {
-  "price": 4394.97,
+  "price": 4394.74,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
   "chg": 0.44,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.69,
-   4375.45,
-   4376.63,
    4374.69,
    4375.04,
    4377.08,
@@ -55,14 +52,17 @@
    4403.39,
    4397.29,
    4395.48,
-   4394.97
+   4399.52,
+   4396.54,
+   4395.24,
+   4394.74
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.605,
-   "chg": 0.95,
+   "price": 65.675,
+   "chg": 1.06,
    "spark": [
     56.038,
     56.802,
@@ -85,13 +85,13 @@
     65.555,
     64.873,
     64.988,
-    65.605
+    65.675
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.433,
-   "chg": -0.24,
+   "price": 99.396,
+   "chg": -0.27,
    "spark": [
     100.75,
     100.99,
@@ -111,13 +111,13 @@
     100.01,
     99.96,
     99.67,
-    99.433
+    99.396
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.32,
-   "chg": -0.1,
+   "price": 82.82,
+   "chg": 0.51,
    "spark": [
     82.49,
     83.23,
@@ -140,7 +140,7 @@
     83.27,
     81.25,
     82.4,
-    82.32
+    82.82
    ]
   },
   {
@@ -148,18 +148,12 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
-    4.569,
-    4.541,
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -174,8 +168,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1601,
-   "chg": 0.61,
+   "price": 1.1602,
+   "chg": 0.63,
    "spark": [
     1.1445,
     1.1428,
@@ -197,13 +191,13 @@
     1.1546,
     1.1544,
     1.153,
-    1.1601
+    1.1602
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3553,
-   "chg": 0.41,
+   "price": 1.356,
+   "chg": 0.46,
    "spark": [
     1.3479,
     1.3446,
@@ -225,13 +219,13 @@
     1.3511,
     1.351,
     1.3498,
-    1.3553
+    1.356
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.149,
-   "chg": -0.17,
+   "price": 159.172,
+   "chg": -0.16,
    "spark": [
     162.376,
     162.512,
@@ -254,13 +248,13 @@
     159.265,
     159.328,
     159.426,
-    159.149
+    159.172
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1893.68,
-   "chg": 1.05,
+   "price": 1892.14,
+   "chg": 0.96,
    "spark": [
     1879.25,
     1877.31,
@@ -309,13 +303,13 @@
     1905.23,
     1899.41,
     1892.26,
-    1893.68
+    1892.14
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63322.4,
-   "chg": 0.8,
+   "price": 63252.4,
+   "chg": 0.69,
    "spark": [
     62964.1,
     62954.9,
@@ -364,7 +358,7 @@
     63587.5,
     63463.0,
     63314.7,
-    63322.4
+    63252.4
    ]
   }
  ],
@@ -397,28 +391,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786957489.079337,
+   "ts": 1786960435.743335,
    "title": "Silver stalls below $67 resistance as momentum fades: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "17 Aug \u00b7 02:04 PM",
+   "t": "17 Aug \u00b7 02:53 PM",
    "ur": "Silver (chandi) rak gaya hai $67 ki mazahmat se niche ki raftar khtam hone par"
   },
   {
-   "ts": 1786957489.079337,
+   "ts": 1786960435.743335,
    "title": "Gold consolidates at $4,456 with MACD divergence: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "17 Aug \u00b7 02:04 PM",
+   "t": "17 Aug \u00b7 02:53 PM",
    "ur": "Gold (sona) MACD ke anharaf ke sath $4,456 par mastahkam hawa."
   },
   {
-   "ts": 1786957489.079337,
-   "title": "Gold edges higher near $4,400 as softer dollar offsets Middle East inflation risks",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "17 Aug \u00b7 02:04 PM",
-   "ur": "Gold (sone) ki qeemat 4,400 Dollar ke qarib pohch gayi cunkah narm Dollar masharq wasti mein inflation (mehngai) ke khatrat ko pora karta hai"
+   "ts": 1786960087.0,
+   "title": "Dow Jones futures decline despite softening Fed rate hike expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-futures-decline-despite-softening-fed-rate-hike-expectations-202608170948",
+   "t": "17 Aug \u00b7 02:48 PM",
+   "ur": "Fed ki rate mein azafe ki toqaat mein narmi ke bawajud dou joons futurs mein kami"
+  },
+  {
+   "ts": 1786959747.0,
+   "title": "Turkish Lira: Market doubts disinflation and Lira stability \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/turkish-lira-market-doubts-disinflation-and-lira-stability-commerzbank-202608170942",
+   "t": "17 Aug \u00b7 02:42 PM",
+   "ur": "Tark lira: market mein kami aur lira ke istehkam par shbah hai \u2013 kamers Bank"
+  },
+  {
+   "ts": 1786959070.0,
+   "title": "Silver price today: Silver rises, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202608170931",
+   "t": "17 Aug \u00b7 02:31 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
+  },
+  {
+   "ts": 1786959039.0,
+   "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-hike-expectations-support-jpy-against-us-dollar-mufg-202608170930",
+   "t": "17 Aug \u00b7 02:30 PM",
+   "ur": "Japani yan: BoJ mein azafe ki toqaat US Dollar - MUFG ke maqable mein JPY ki support karti hen."
+  },
+  {
+   "ts": 1786958405.0,
+   "title": "US Dollar: Losing momentum as fiscal risks rise \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-losing-momentum-as-fiscal-risks-rise-dbs-202608170920",
+   "t": "17 Aug \u00b7 02:20 PM",
+   "ur": "US Dollar: maliyati khatrat badhte hi raftar kho rahi hai \u2013 DBS"
+  },
+  {
+   "ts": 1786957907.0,
+   "title": "Federal Reserve: Changing communications and higher volatility \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/federal-reserve-changing-communications-and-higher-volatility-td-securities-202608170911",
+   "t": "17 Aug \u00b7 02:11 PM",
+   "ur": "Faderl resero: mawasilat mein tabadili aur ziyadah atar chadhao - TD securitez"
   },
   {
    "ts": 1786956520.0,
@@ -435,46 +469,6 @@
    "link": "https://www.fxstreet.com/news/british-pound-hits-three-month-highs-at-13570-amid-generalised-us-dollar-weakness-202608170839",
    "t": "17 Aug \u00b7 01:39 PM",
    "ur": "US Dollar ki amomi kamazori ke darmiyan bartanvi pound tin mah ki baland tarin sath 1.3570 par pohch gaya"
-  },
-  {
-   "ts": 1786955517.0,
-   "title": "Japanese Yen: Downside bias within 158.00\u2013160.20 band against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-downside-bias-within-15800-16020-band-against-us-dollar-uob-202608170831",
-   "t": "17 Aug \u00b7 01:31 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein 158.00\u2013160.20 bind ke andar manfi taasab - UOB"
-  },
-  {
-   "ts": 1786955025.0,
-   "title": "US Dollar: Softer data challenges resilience \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-softer-data-challenges-resilience-mufg-202608170823",
-   "t": "17 Aug \u00b7 01:23 PM",
-   "ur": "US Dollar: narm deta lachak ko challenj karta hai \u2013 MUFG"
-  },
-  {
-   "ts": 1786954751.0,
-   "title": "Australian Dollar gains against Japanese Yen despite weak economic data from China",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-gains-against-japanese-yen-despite-weak-economic-data-from-china-202608170819",
-   "t": "17 Aug \u00b7 01:19 PM",
-   "ur": "Chin ki janb se kamazor mashi aed w shmar ke bawajud aasterilvi Dollar japani yan ke maqable mein badh gaya."
-  },
-  {
-   "ts": 1786953987.0,
-   "title": "Australian Dollar: Solid carry as RBA pause risk grows \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-solid-carry-as-rba-pause-risk-grows-bbh-202608170806",
-   "t": "17 Aug \u00b7 01:06 PM",
-   "ur": "Aasterilvi Dollar: RBA toqf ka khatrah badhane par thos kiri - BBH"
-  },
-  {
-   "ts": 1786953489.0,
-   "title": "New Zealand Dollar: RBNZ seen on hold in September \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rbnz-seen-on-hold-in-september-commerzbank-202608170758",
-   "t": "17 Aug \u00b7 12:58 PM",
-   "ur": "Niyozi lind Dollar: RBNZ stambr mein hold par dekha gaya - Commerzbank"
   }
  ],
  "sentiment": {
