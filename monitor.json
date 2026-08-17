@@ -1,15 +1,13 @@
 {
- "updated": "17-08-2026 14:53 PKT",
+ "updated": "17-08-2026 15:18 PKT",
  "gold": {
-  "price": 4394.74,
+  "price": 4397.7,
   "open": 4375.6,
   "high": 4415.06,
   "low": 4367.4,
-  "chg": 0.44,
+  "chg": 0.51,
   "src": "XAUUSD Spot",
   "spark": [
-   4374.69,
-   4375.04,
    4377.08,
    4385.58,
    4381.49,
@@ -55,14 +53,16 @@
    4399.52,
    4396.54,
    4395.24,
-   4394.74
+   4394.3,
+   4396.2,
+   4397.7
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.675,
-   "chg": 1.06,
+   "price": 65.655,
+   "chg": 1.03,
    "spark": [
     56.038,
     56.802,
@@ -85,22 +85,25 @@
     65.555,
     64.873,
     64.988,
-    65.675
+    65.655
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.396,
-   "chg": -0.27,
+   "price": 99.452,
+   "chg": -0.22,
    "spark": [
     100.75,
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -111,13 +114,13 @@
     100.01,
     99.96,
     99.67,
-    99.396
+    99.452
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.82,
-   "chg": 0.51,
+   "price": 83.13,
+   "chg": 0.89,
    "spark": [
     82.49,
     83.23,
@@ -140,7 +143,7 @@
     83.27,
     81.25,
     82.4,
-    82.82
+    83.13
    ]
   },
   {
@@ -148,12 +151,18 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
+    4.569,
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -164,34 +173,6 @@
     4.682,
     4.641,
     4.696
-   ]
-  },
-  {
-   "name": "EUR/USD",
-   "price": 1.1602,
-   "chg": 0.63,
-   "spark": [
-    1.1445,
-    1.1428,
-    1.1418,
-    1.1404,
-    1.1412,
-    1.1377,
-    1.1395,
-    1.1369,
-    1.1387,
-    1.1467,
-    1.1524,
-    1.1544,
-    1.1507,
-    1.1532,
-    1.1557,
-    1.1525,
-    1.1556,
-    1.1546,
-    1.1544,
-    1.153,
-    1.1602
    ]
   },
   {
@@ -224,7 +205,7 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.172,
+   "price": 159.164,
    "chg": -0.16,
    "spark": [
     162.376,
@@ -248,15 +229,14 @@
     159.265,
     159.328,
     159.426,
-    159.172
+    159.164
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1892.14,
-   "chg": 0.96,
+   "price": 1890.36,
+   "chg": 0.87,
    "spark": [
-    1879.25,
     1877.31,
     1881.24,
     1881.77,
@@ -303,15 +283,15 @@
     1905.23,
     1899.41,
     1892.26,
-    1892.14
+    1891.95,
+    1890.36
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63252.4,
-   "chg": 0.69,
+   "price": 63231.9,
+   "chg": 0.66,
    "spark": [
-    62964.1,
     62954.9,
     62985.2,
     62976.8,
@@ -358,7 +338,8 @@
     63587.5,
     63463.0,
     63314.7,
-    63252.4
+    63247.4,
+    63231.9
    ]
   }
  ],
@@ -391,20 +372,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1786960435.743335,
+   "ts": 1786961934.189723,
+   "title": "Gold edges higher amid softer dollar, easing Fed rate hike wagers",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
+   "t": "17 Aug \u00b7 03:18 PM",
+   "ur": "Narm Dollar ke darmiyan Gold (sone) ki qeemtin unchi hen, fed ki rate mein azafe ki sharton mein narmi."
+  },
+  {
+   "ts": 1786961934.189723,
    "title": "Silver stalls below $67 resistance as momentum fades: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "17 Aug \u00b7 02:53 PM",
+   "t": "17 Aug \u00b7 03:18 PM",
    "ur": "Silver (chandi) rak gaya hai $67 ki mazahmat se niche ki raftar khtam hone par"
   },
   {
-   "ts": 1786960435.743335,
-   "title": "Gold consolidates at $4,456 with MACD divergence: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "17 Aug \u00b7 02:53 PM",
-   "ur": "Gold (sona) MACD ke anharaf ke sath $4,456 par mastahkam hawa."
+   "ts": 1786961285.0,
+   "title": "Gold Price Forecast: XAU/USD holds bullish bias near $4,400",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-bullish-bias-near-4-400-202608171008",
+   "t": "17 Aug \u00b7 03:08 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,400 ke qarib tizi ka taasab rakta hai."
+  },
+  {
+   "ts": 1786960585.0,
+   "title": "US Dollar Index Price Forecast: Bears push against two-month lows at 99.40",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-bears-push-against-two-month-lows-at-9940-202608170956",
+   "t": "17 Aug \u00b7 02:56 PM",
+   "ur": "US Dollar andex qeemat ki forecast: bears 99.40 par do mah ki kam tarin sath ke khalaf dhakil raha hai"
   },
   {
    "ts": 1786960087.0,
@@ -453,22 +450,6 @@
    "link": "https://www.fxstreet.com/news/federal-reserve-changing-communications-and-higher-volatility-td-securities-202608170911",
    "t": "17 Aug \u00b7 02:11 PM",
    "ur": "Faderl resero: mawasilat mein tabadili aur ziyadah atar chadhao - TD securitez"
-  },
-  {
-   "ts": 1786956520.0,
-   "title": "Canadian Dollar: CPI and US tariffs weigh on outlook \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-cpi-and-us-tariffs-weigh-on-outlook-bbh-202608170848",
-   "t": "17 Aug \u00b7 01:48 PM",
-   "ur": "Caniden Dollar: CPI aur US terf ka wazin oat lak par hai - BBH"
-  },
-  {
-   "ts": 1786955979.0,
-   "title": "British Pound hits three-month highs at 1.3570 amid generalised US Dollar weakness",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-hits-three-month-highs-at-13570-amid-generalised-us-dollar-weakness-202608170839",
-   "t": "17 Aug \u00b7 01:39 PM",
-   "ur": "US Dollar ki amomi kamazori ke darmiyan bartanvi pound tin mah ki baland tarin sath 1.3570 par pohch gaya"
   }
  ],
  "sentiment": {
