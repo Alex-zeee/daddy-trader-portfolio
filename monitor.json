@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 12:11 PKT",
+ "updated": "18-08-2026 12:50 PKT",
  "gold": {
-  "price": 4397.98,
-  "open": 4397.98,
+  "price": 4401.49,
+  "open": 4405.12,
   "high": 4435.58,
   "low": 4377.71,
-  "chg": -0.0,
+  "chg": -0.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4415.39,
-   4419.13,
-   4420.27,
    4417.85,
    4415.24,
    4415.68,
@@ -55,14 +52,17 @@
    4399.54,
    4398.1,
    4397.84,
-   4397.98
+   4397.7,
+   4402.07,
+   4400.69,
+   4401.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.37,
-   "chg": -1.14,
+   "price": 65.34,
+   "chg": -1.18,
    "spark": [
     56.802,
     58.835,
@@ -85,13 +85,13 @@
     64.873,
     64.988,
     66.121,
-    65.37
+    65.34
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.646,
-   "chg": -0.02,
+   "price": 99.623,
+   "chg": -0.05,
    "spark": [
     100.99,
     101.18,
@@ -113,13 +113,13 @@
     100.01,
     99.96,
     99.67,
-    99.646
+    99.623
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.21,
-   "chg": 0.84,
+   "price": 84.15,
+   "chg": -0.41,
    "spark": [
     83.23,
     84.91,
@@ -142,7 +142,7 @@
     81.25,
     82.4,
     84.5,
-    85.21
+    84.15
    ]
   },
   {
@@ -175,8 +175,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1577,
-   "chg": 0.02,
+   "price": 1.1579,
+   "chg": 0.05,
    "spark": [
     1.1428,
     1.1418,
@@ -199,13 +199,13 @@
     1.153,
     1.1535,
     1.1574,
-    1.1577
+    1.1579
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3524,
-   "chg": -0.16,
+   "price": 1.353,
+   "chg": -0.12,
    "spark": [
     1.3446,
     1.3432,
@@ -226,15 +226,14 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3547,
-    1.3524
+    1.353
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.722,
-   "chg": 0.31,
+   "price": 159.679,
+   "chg": 0.29,
    "spark": [
     162.512,
     162.487,
@@ -257,13 +256,13 @@
     159.328,
     159.426,
     159.223,
-    159.722
+    159.679
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1900.19,
-   "chg": -0.64,
+   "price": 1896.07,
+   "chg": -0.86,
    "spark": [
     1878.57,
     1878.33,
@@ -312,13 +311,13 @@
     1894.71,
     1893.77,
     1900.92,
-    1900.19
+    1896.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64276.1,
-   "chg": -0.3,
+   "price": 64134.3,
+   "chg": -0.52,
    "spark": [
     63003.7,
     62920.1,
@@ -367,7 +366,7 @@
     64142.6,
     64175.0,
     64263.5,
-    64276.1
+    64134.3
    ]
   }
  ],
@@ -400,20 +399,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787037070.665548,
+   "ts": 1787039424.376177,
+   "title": "Silver stalls at $65.34 amid exhaustion signals: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
+   "t": "18 Aug \u00b7 12:50 PM",
+   "ur": "Thakn ke ashare ke darmiyan Silver (chandi) ka rak gaya hai $65.34 par: fi ghanta ki sath"
+  },
+  {
+   "ts": 1787039424.376177,
+   "title": "Gold stalls below $4,509 in chop zone: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
+   "t": "18 Aug \u00b7 12:50 PM",
+   "ur": "Gold rak gaya hai chap zon mein $4,509 se niche"
+  },
+  {
+   "ts": 1787039424.376177,
    "title": "Gold falls below $4,400 as oil, Treasury yields pressure bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 12:11 PM",
+   "t": "18 Aug \u00b7 12:50 PM",
    "ur": "Gold (sona) til ke tur par 4,400 Dollar se niche garta hai, treasurei se pareshar balin haasil hota hai."
   },
   {
-   "ts": 1787037070.665548,
-   "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "18 Aug \u00b7 12:11 PM",
-   "ur": "Narm Dollar ke darmiyan Gold (sona) 1% badh gaya, fed ki rate mein azafe ki sharton mein kami; til ki topiyan faidah"
+   "ts": 1787038993.0,
+   "title": "Australian Dollar: Upside risk targets 0.7150 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-upside-risk-targets-07150-against-us-dollar-uob-202608180743",
+   "t": "18 Aug \u00b7 12:43 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke maqable mein operi khatre ka target 0.7150 - UOB"
   },
   {
    "ts": 1787036931.0,
@@ -462,22 +477,6 @@
    "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202608180437",
    "t": "18 Aug \u00b7 09:37 AM",
    "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
-  },
-  {
-   "ts": 1787024942.0,
-   "title": "Gold remains depressed below $4,400 as USD firms amid oil-driven inflation fears",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-drifts-lower-as-oil-driven-inflation-risks-and-us-iran-tensions-bolster-usd-202608180349",
-   "t": "18 Aug \u00b7 08:49 AM",
-   "ur": "Til se chalne wali inflation (mehngai) ke khadshat ke darmiyan US Dollar ki farmon ke tur par Gold (sona) $4,400 se niche afsardah hai"
-  },
-  {
-   "ts": 1787023568.0,
-   "title": "Japanese Yen remains near two-week low against US Dollar despite hawkish BoJ bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-remains-near-two-week-low-against-us-dollar-despite-hawkish-boj-bets-202608180326",
-   "t": "18 Aug \u00b7 08:26 AM",
-   "ur": "Japani yan US Dollar ke maqable mein do hafte ki kam tarin sath par hai, is ke bawajud bi au je ki saqt shartin hen."
   }
  ],
  "sentiment": {
