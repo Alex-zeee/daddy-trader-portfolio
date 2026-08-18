@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 11:20 PKT",
+ "updated": "18-08-2026 12:11 PKT",
  "gold": {
-  "price": 4393.82,
-  "open": 4396.97,
+  "price": 4397.98,
+  "open": 4397.98,
   "high": 4435.58,
   "low": 4377.71,
-  "chg": -0.07,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4405.24,
-   4406.05,
-   4404.7,
    4415.39,
    4419.13,
    4420.27,
@@ -55,14 +52,17 @@
    4390.01,
    4395.6,
    4394.97,
-   4393.82
+   4399.54,
+   4398.1,
+   4397.84,
+   4397.98
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.215,
-   "chg": -1.37,
+   "price": 65.37,
+   "chg": -1.14,
    "spark": [
     56.802,
     58.835,
@@ -85,21 +85,24 @@
     64.873,
     64.988,
     66.121,
-    65.215
+    65.37
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.675,
-   "chg": 0.01,
+   "price": 99.646,
+   "chg": -0.02,
    "spark": [
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -110,13 +113,13 @@
     100.01,
     99.96,
     99.67,
-    99.675
+    99.646
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.5,
-   "chg": 1.18,
+   "price": 85.21,
+   "chg": 0.84,
    "spark": [
     83.23,
     84.91,
@@ -139,7 +142,7 @@
     81.25,
     82.4,
     84.5,
-    85.5
+    85.21
    ]
   },
   {
@@ -172,8 +175,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1573,
-   "chg": -0.01,
+   "price": 1.1577,
+   "chg": 0.02,
    "spark": [
     1.1428,
     1.1418,
@@ -196,13 +199,13 @@
     1.153,
     1.1535,
     1.1574,
-    1.1573
+    1.1577
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.353,
-   "chg": -0.13,
+   "price": 1.3524,
+   "chg": -0.16,
    "spark": [
     1.3446,
     1.3432,
@@ -225,12 +228,12 @@
     1.3498,
     1.3491,
     1.3547,
-    1.353
+    1.3524
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.718,
+   "price": 159.722,
    "chg": 0.31,
    "spark": [
     162.512,
@@ -254,15 +257,14 @@
     159.328,
     159.426,
     159.223,
-    159.718
+    159.722
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1896.24,
-   "chg": -0.85,
+   "price": 1900.19,
+   "chg": -0.64,
    "spark": [
-    1879.2,
     1878.57,
     1878.33,
     1878.81,
@@ -309,15 +311,15 @@
     1892.74,
     1894.71,
     1893.77,
-    1896.24
+    1900.92,
+    1900.19
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64207.9,
-   "chg": -0.41,
+   "price": 64276.1,
+   "chg": -0.3,
    "spark": [
-    62989.6,
     63003.7,
     62920.1,
     62925.0,
@@ -364,7 +366,8 @@
     64122.2,
     64142.6,
     64175.0,
-    64207.9
+    64263.5,
+    64276.1
    ]
   }
  ],
@@ -397,20 +400,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787034008.549459,
-   "title": "Gold rises near $4,450 as Fed hike bets fade, dollar weakens, risks persist",
+   "ts": 1787037070.665548,
+   "title": "Gold falls below $4,400 as oil, Treasury yields pressure bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 11:20 AM",
-   "ur": "Gold (sona) $4,450 ke qarib badh gaya cunkah fed mein azafe ki shartin khtam, Dollar kamazor, khatrat barqarar"
+   "t": "18 Aug \u00b7 12:11 PM",
+   "ur": "Gold (sona) til ke tur par 4,400 Dollar se niche garta hai, treasurei se pareshar balin haasil hota hai."
   },
   {
-   "ts": 1787034008.549459,
+   "ts": 1787037070.665548,
    "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "18 Aug \u00b7 11:20 AM",
+   "t": "18 Aug \u00b7 12:11 PM",
    "ur": "Narm Dollar ke darmiyan Gold (sona) 1% badh gaya, fed ki rate mein azafe ki sharton mein kami; til ki topiyan faidah"
+  },
+  {
+   "ts": 1787036931.0,
+   "title": "US Dollar: Carry-supported but rangebound near term \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-carry-supported-but-rangebound-near-term-ocbc-202608180708",
+   "t": "18 Aug \u00b7 12:08 PM",
+   "ur": "US Dollar: kiri sported lican qarib ki had tak - OCBC"
+  },
+  {
+   "ts": 1787036844.0,
+   "title": "Silver Price Forecast: XAG/USD remains sideways around $65, FOMC takes centre stage",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-remains-sideways-around-65-fomc-takes-centre-stage-202608180707",
+   "t": "18 Aug \u00b7 12:07 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $65 ke aas pas rahta hai, FOMC markaz ka marhalah lita hai"
   },
   {
    "ts": 1787033428.0,
@@ -446,11 +465,11 @@
   },
   {
    "ts": 1787024942.0,
-   "title": "Gold slides below $4,400 as oil-fueled inflation risks and US-Iran tensions bolster USD",
+   "title": "Gold remains depressed below $4,400 as USD firms amid oil-driven inflation fears",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-drifts-lower-as-oil-driven-inflation-risks-and-us-iran-tensions-bolster-usd-202608180349",
    "t": "18 Aug \u00b7 08:49 AM",
-   "ur": "Gold (sona) 4,400 Dollar se niche gar gaya cunkah til ke andhan se mahungai ke khatrat aur amrikah eran kasheedgi ne US Dollar ko taqwet di"
+   "ur": "Til se chalne wali inflation (mehngai) ke khadshat ke darmiyan US Dollar ki farmon ke tur par Gold (sona) $4,400 se niche afsardah hai"
   },
   {
    "ts": 1787023568.0,
@@ -459,22 +478,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-remains-near-two-week-low-against-us-dollar-despite-hawkish-boj-bets-202608180326",
    "t": "18 Aug \u00b7 08:26 AM",
    "ur": "Japani yan US Dollar ke maqable mein do hafte ki kam tarin sath par hai, is ke bawajud bi au je ki saqt shartin hen."
-  },
-  {
-   "ts": 1787022706.0,
-   "title": "United States Dollar Index holds ground on safe-haven demand",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-ground-on-safe-haven-demand-202608180311",
-   "t": "18 Aug \u00b7 08:11 AM",
-   "ur": "Ryastahaye matehdah ka Dollar andex mahfooz panah gahon ki talab par qaaim hai."
-  },
-  {
-   "ts": 1787019980.0,
-   "title": "New Zealand Dollar edges lower below 0.5900 as China\u2019s economy slows in July",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-below-05900-as-chinas-economy-slows-in-july-202608180226",
-   "t": "18 Aug \u00b7 07:26 AM",
-   "ur": "Niyozi lind Dollar 0.5900 se niche gar gaya cunkah joli mein chin ki misht sast pad gayi"
   }
  ],
  "sentiment": {
