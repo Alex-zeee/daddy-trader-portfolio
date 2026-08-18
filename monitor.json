@@ -1,15 +1,13 @@
 {
- "updated": "18-08-2026 16:01 PKT",
+ "updated": "18-08-2026 16:36 PKT",
  "gold": {
-  "price": 4397.55,
-  "open": 4401.43,
+  "price": 4389.98,
+  "open": 4401.13,
   "high": 4435.58,
   "low": 4377.71,
-  "chg": -0.09,
+  "chg": -0.25,
   "src": "XAUUSD Spot",
   "spark": [
-   4420.31,
-   4422.6,
    4423.97,
    4419.7,
    4430.91,
@@ -55,14 +53,45 @@
    4391.69,
    4398.39,
    4397.51,
-   4397.55
+   4393.65,
+   4390.77,
+   4389.98
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 65.12,
+   "chg": -1.51,
+   "spark": [
+    56.802,
+    58.835,
+    60.019,
+    57.798,
+    58.656,
+    58.472,
+    57.296,
+    57.863,
+    58.815,
+    57.591,
+    57.667,
+    60.056,
+    62.099,
+    61.439,
+    63.332,
+    65.106,
+    64.769,
+    65.555,
+    64.873,
+    64.988,
+    66.121,
+    65.12
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 99.639,
-   "chg": -0.03,
+   "price": 99.661,
+   "chg": -0.01,
    "spark": [
     100.99,
     101.18,
@@ -84,13 +113,13 @@
     100.01,
     99.96,
     99.67,
-    99.639
+    99.661
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.95,
-   "chg": -0.65,
+   "price": 84.07,
+   "chg": -0.51,
    "spark": [
     83.23,
     84.91,
@@ -113,7 +142,7 @@
     81.25,
     82.4,
     84.5,
-    83.95
+    84.07
    ]
   },
   {
@@ -121,12 +150,17 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -141,8 +175,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1579,
-   "chg": 0.05,
+   "price": 1.1578,
+   "chg": 0.04,
    "spark": [
     1.1428,
     1.1418,
@@ -165,13 +199,13 @@
     1.153,
     1.1535,
     1.1574,
-    1.1579
+    1.1578
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3526,
-   "chg": -0.15,
+   "price": 1.3523,
+   "chg": -0.18,
    "spark": [
     1.3446,
     1.3432,
@@ -194,13 +228,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3526
+    1.3523
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.703,
-   "chg": 0.3,
+   "price": 159.717,
+   "chg": 0.31,
    "spark": [
     162.512,
     162.487,
@@ -223,13 +257,13 @@
     159.328,
     159.426,
     159.223,
-    159.703
+    159.717
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1896.94,
-   "chg": -0.81,
+   "price": 1902.13,
+   "chg": -0.54,
    "spark": [
     1877.7,
     1879.86,
@@ -278,13 +312,13 @@
     1898.31,
     1894.89,
     1896.06,
-    1896.94
+    1902.13
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64153.3,
-   "chg": -0.49,
+   "price": 64306.5,
+   "chg": -0.26,
    "spark": [
     62940.0,
     62998.9,
@@ -333,7 +367,7 @@
     64216.4,
     64114.8,
     64143.0,
-    64153.3
+    64306.5
    ]
   }
  ],
@@ -366,28 +400,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787050882.268634,
+   "ts": 1787052961.99235,
    "title": "Morning Bid: Yields give way",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-yields-give-way-4864764",
-   "t": "18 Aug \u00b7 04:01 PM",
+   "t": "18 Aug \u00b7 04:36 PM",
    "ur": "Sabah ki boli: pedawar raastah diti hai."
   },
   {
-   "ts": 1787050882.268634,
+   "ts": 1787052961.99235,
    "title": "Gold hovers below $4,400 as oil, Treasury yields pressure bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 04:01 PM",
+   "t": "18 Aug \u00b7 04:36 PM",
    "ur": "Gold (sona) til ke tur par $4,400 se niche mandalata hai, treasurei se pareshar balin haasil hota hai."
   },
   {
-   "ts": 1787050882.268634,
+   "ts": 1787052961.99235,
    "title": "Silver stalls at $65.34 amid exhaustion signals: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "18 Aug \u00b7 04:01 PM",
+   "t": "18 Aug \u00b7 04:36 PM",
    "ur": "Thakn ke ashare ke darmiyan Silver (chandi) ka rak gaya hai $65.34 par: fi ghanta ki sath"
+  },
+  {
+   "ts": 1787052250.0,
+   "title": "US Dollar: Safe haven status faces debt-market strains \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-safe-haven-status-faces-debt-market-strains-rabobank-202608181124",
+   "t": "18 Aug \u00b7 04:24 PM",
+   "ur": "US Dollar: mahfooz panah gah ki heesiyat ko qarzon ki mandi ke tanao ka samana hai - rabobank"
   },
   {
    "ts": 1787050311.0,
@@ -436,14 +478,6 @@
    "link": "https://www.fxstreet.com/news/united-states-august-inflation-profile-td-securities-202608180909",
    "t": "18 Aug \u00b7 02:09 PM",
    "ur": "Ryastahaye matehdah: agist inflation (mehngai) ki parofile - TD securitez"
-  },
-  {
-   "ts": 1787043822.0,
-   "title": "Canadian Dollar receives support from firm oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-receives-support-from-firm-oil-prices-202608180903",
-   "t": "18 Aug \u00b7 02:03 PM",
-   "ur": "Caniden Dollar ko til ki mazboot qeemton se support malti hai."
   }
  ],
  "sentiment": {
