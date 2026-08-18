@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 16:57 PKT",
+ "updated": "18-08-2026 17:33 PKT",
  "gold": {
-  "price": 4391.66,
-  "open": 4397.05,
+  "price": 4395.38,
+  "open": 4380.19,
   "high": 4435.58,
   "low": 4377.71,
-  "chg": -0.12,
+  "chg": 0.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4419.7,
-   4430.91,
-   4429.64,
    4432.52,
    4429.39,
    4425.27,
@@ -55,14 +52,17 @@
    4393.65,
    4390.77,
    4392.27,
-   4391.66
+   4396.02,
+   4391.41,
+   4393.29,
+   4395.38
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.155,
-   "chg": -1.46,
+   "price": 65.315,
+   "chg": -1.22,
    "spark": [
     56.802,
     58.835,
@@ -85,21 +85,24 @@
     64.873,
     64.988,
     66.121,
-    65.155
+    65.315
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.665,
-   "chg": -0.01,
+   "price": 99.628,
+   "chg": -0.04,
    "spark": [
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -110,13 +113,13 @@
     100.01,
     99.96,
     99.67,
-    99.665
+    99.628
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.08,
-   "chg": -0.5,
+   "price": 84.31,
+   "chg": -0.22,
    "spark": [
     83.23,
     84.91,
@@ -139,7 +142,7 @@
     81.25,
     82.4,
     84.5,
-    84.08
+    84.31
    ]
   },
   {
@@ -147,7 +150,6 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
-    4.541,
     4.598,
     4.628,
     4.657,
@@ -171,9 +173,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1577,
+   "chg": 0.02,
+   "spark": [
+    1.1428,
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1535,
+    1.1574,
+    1.1577
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3526,
-   "chg": -0.15,
+   "price": 1.3528,
+   "chg": -0.14,
    "spark": [
     1.3446,
     1.3432,
@@ -196,13 +227,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3526
+    1.3528
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.694,
-   "chg": 0.3,
+   "price": 159.683,
+   "chg": 0.29,
    "spark": [
     162.512,
     162.487,
@@ -225,15 +256,14 @@
     159.328,
     159.426,
     159.223,
-    159.694
+    159.683
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1900.68,
-   "chg": -0.62,
+   "price": 1899.83,
+   "chg": -0.66,
    "spark": [
-    1877.7,
     1879.86,
     1881.46,
     1882.4,
@@ -280,15 +310,15 @@
     1898.31,
     1894.89,
     1896.06,
-    1900.68
+    1901.11,
+    1899.83
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64280.0,
-   "chg": -0.3,
+   "price": 64224.1,
+   "chg": -0.38,
    "spark": [
-    62940.0,
     62998.9,
     63035.2,
     63075.0,
@@ -335,7 +365,8 @@
     64216.4,
     64114.8,
     64143.0,
-    64280.0
+    64283.6,
+    64224.1
    ]
   }
  ],
@@ -368,28 +399,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787054269.426758,
+   "ts": 1787056384.256218,
    "title": "Morning Bid: Yields give way",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-yields-give-way-4864764",
-   "t": "18 Aug \u00b7 04:57 PM",
+   "t": "18 Aug \u00b7 05:33 PM",
    "ur": "Sabah ki boli: pedawar raastah diti hai."
   },
   {
-   "ts": 1787054269.426758,
+   "ts": 1787056384.256218,
    "title": "Gold hovers below $4,400 as oil, Treasury yields pressure bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 04:57 PM",
+   "t": "18 Aug \u00b7 05:33 PM",
    "ur": "Gold (sona) til ke tur par $4,400 se niche mandalata hai, treasurei se pareshar balin haasil hota hai."
   },
   {
-   "ts": 1787054269.426758,
+   "ts": 1787056384.256218,
    "title": "Silver stalls at $65.34 amid exhaustion signals: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "18 Aug \u00b7 04:57 PM",
+   "t": "18 Aug \u00b7 05:33 PM",
    "ur": "Thakn ke ashare ke darmiyan Silver (chandi) ka rak gaya hai $65.34 par: fi ghanta ki sath"
+  },
+  {
+   "ts": 1787056223.0,
+   "title": "Euro: Range-bound before FOMC against US Dollar \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-range-bound-before-fomc-against-us-dollar-ing-202608181230",
+   "t": "18 Aug \u00b7 05:30 PM",
+   "ur": "Uro: US Dollar - ING ke khalaf FOMC se pehle had se manslk"
+  },
+  {
+   "ts": 1787055365.0,
+   "title": "Canadian Dollar remains resilient as Oil strength counters firmer US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-resilient-as-oil-strength-counters-firmer-us-dollar-202608181216",
+   "t": "18 Aug \u00b7 05:16 PM",
+   "ur": "Caniden Dollar lachakdar hai cunkah til ki tqt US Dollar ko mazboot karti hai."
   },
   {
    "ts": 1787053588.0,
@@ -430,22 +477,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-eases-below-4-400-as-us-yields-rally-202608181043",
    "t": "18 Aug \u00b7 03:43 PM",
    "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,400 se niche aa gaya cunkah US pedawar mein azafah"
-  },
-  {
-   "ts": 1787046469.0,
-   "title": "Japanese Yen: Bearish bias within tight range against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-bearish-bias-within-tight-range-against-us-dollar-uob-202608180947",
-   "t": "18 Aug \u00b7 02:47 PM",
-   "ur": "Japani yan: US Dollar - UOB ke khalaf saqt had ke andar mandi ka taasab"
-  },
-  {
-   "ts": 1787045469.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608180931",
-   "t": "18 Aug \u00b7 02:31 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   }
  ],
  "sentiment": {
