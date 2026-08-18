@@ -1,15 +1,13 @@
 {
- "updated": "18-08-2026 10:51 PKT",
+ "updated": "18-08-2026 11:20 PKT",
  "gold": {
-  "price": 4394.96,
-  "open": 4393.83,
+  "price": 4393.82,
+  "open": 4396.97,
   "high": 4435.58,
   "low": 4377.71,
-  "chg": 0.03,
+  "chg": -0.07,
   "src": "XAUUSD Spot",
   "spark": [
-   4412.48,
-   4406.61,
    4405.24,
    4406.05,
    4404.7,
@@ -55,14 +53,16 @@
    4391.43,
    4393.49,
    4390.01,
-   4394.96
+   4395.6,
+   4394.97,
+   4393.82
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.05,
-   "chg": -1.62,
+   "price": 65.215,
+   "chg": -1.37,
    "spark": [
     56.802,
     58.835,
@@ -85,24 +85,21 @@
     64.873,
     64.988,
     66.121,
-    65.05
+    65.215
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.654,
-   "chg": -0.02,
+   "price": 99.675,
+   "chg": 0.01,
    "spark": [
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +110,13 @@
     100.01,
     99.96,
     99.67,
-    99.654
+    99.675
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.18,
-   "chg": 0.8,
+   "price": 85.5,
+   "chg": 1.18,
    "spark": [
     83.23,
     84.91,
@@ -142,7 +139,7 @@
     81.25,
     82.4,
     84.5,
-    85.18
+    85.5
    ]
   },
   {
@@ -175,8 +172,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1577,
-   "chg": 0.02,
+   "price": 1.1573,
+   "chg": -0.01,
    "spark": [
     1.1428,
     1.1418,
@@ -197,14 +194,15 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
-    1.1577
+    1.1573
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3539,
-   "chg": -0.06,
+   "price": 1.353,
+   "chg": -0.13,
    "spark": [
     1.3446,
     1.3432,
@@ -227,13 +225,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3539
+    1.353
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.659,
-   "chg": 0.27,
+   "price": 159.718,
+   "chg": 0.31,
    "spark": [
     162.512,
     162.487,
@@ -256,15 +254,14 @@
     159.328,
     159.426,
     159.223,
-    159.659
+    159.718
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1893.1,
-   "chg": -1.01,
+   "price": 1896.24,
+   "chg": -0.85,
    "spark": [
-    1878.66,
     1879.2,
     1878.57,
     1878.33,
@@ -311,15 +308,15 @@
     1891.44,
     1892.74,
     1894.71,
-    1893.1
+    1893.77,
+    1896.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64139.4,
-   "chg": -0.52,
+   "price": 64207.9,
+   "chg": -0.41,
    "spark": [
-    62996.7,
     62989.6,
     63003.7,
     62920.1,
@@ -366,7 +363,8 @@
     64040.7,
     64122.2,
     64142.6,
-    64139.4
+    64175.0,
+    64207.9
    ]
   }
  ],
@@ -399,20 +397,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787032269.577887,
+   "ts": 1787034008.549459,
    "title": "Gold rises near $4,450 as Fed hike bets fade, dollar weakens, risks persist",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 10:51 AM",
+   "t": "18 Aug \u00b7 11:20 AM",
    "ur": "Gold (sona) $4,450 ke qarib badh gaya cunkah fed mein azafe ki shartin khtam, Dollar kamazor, khatrat barqarar"
   },
   {
-   "ts": 1787032269.577887,
+   "ts": 1787034008.549459,
    "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "18 Aug \u00b7 10:51 AM",
+   "t": "18 Aug \u00b7 11:20 AM",
    "ur": "Narm Dollar ke darmiyan Gold (sona) 1% badh gaya, fed ki rate mein azafe ki sharton mein kami; til ki topiyan faidah"
+  },
+  {
+   "ts": 1787033428.0,
+   "title": "Euro: Upside bias needs confirmation above 1.1615 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-upside-bias-needs-confirmation-above-11615-against-us-dollar-uob-202608180610",
+   "t": "18 Aug \u00b7 11:10 AM",
+   "ur": "Uro: US Dollar ke maqable 1.1615 se oper ki taraf matasabana tasadiq ki zarort hai - UOB"
+  },
+  {
+   "ts": 1787032472.0,
+   "title": "Swiss Franc edges lower as US Dollar rebounds, FOMC minutes in focus",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-edges-lower-as-us-dollar-rebounds-fomc-minutes-in-focus-202608180554",
+   "t": "18 Aug \u00b7 10:54 AM",
+   "ur": "Sois farank kanaron ko US Dollar ki recovery ke tur par kam, FOMC mant fox mein"
   },
   {
    "ts": 1787028548.0,
@@ -461,22 +475,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-below-05900-as-chinas-economy-slows-in-july-202608180226",
    "t": "18 Aug \u00b7 07:26 AM",
    "ur": "Niyozi lind Dollar 0.5900 se niche gar gaya cunkah joli mein chin ki misht sast pad gayi"
-  },
-  {
-   "ts": 1787018931.0,
-   "title": "Silver Price Forecast: XAG/USD falls to near $65.50 amid US-Iran peace uncertainty",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6550-amid-us-iran-peace-uncertainty-202608180208",
-   "t": "18 Aug \u00b7 07:08 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: amrikah eran aman ki ghair yaqeeni surtahal ke darmiyan XAG/USD gar kar $65.50 ke qarib"
-  },
-  {
-   "ts": 1787018149.0,
-   "title": "Canadian Dollar holds near early June high as rising oil prices offset modest USD strength",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-near-early-june-high-as-rising-oil-prices-offset-modest-usd-strength-202608180155",
-   "t": "18 Aug \u00b7 06:55 AM",
-   "ur": "Caniden Dollar jon ke avile ke qarib balandi par hai cunkah til ki badhti hoi qeemtin US Dollar ki mamoli tqt ko pora karti hen."
   }
  ],
  "sentiment": {
