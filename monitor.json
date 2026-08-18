@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 14:31 PKT",
+ "updated": "18-08-2026 15:01 PKT",
  "gold": {
-  "price": 4392.0,
-  "open": 4396.62,
+  "price": 4393.89,
+  "open": 4395.9,
   "high": 4435.58,
   "low": 4377.71,
-  "chg": -0.11,
+  "chg": -0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   4417.03,
-   4417.06,
-   4416.79,
    4412.4,
    4415.05,
    4411.55,
@@ -55,14 +52,17 @@
    4397.35,
    4393.22,
    4392.74,
-   4392.0
+   4392.0,
+   4388.13,
+   4393.97,
+   4393.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.0,
-   "chg": -1.7,
+   "price": 65.11,
+   "chg": -1.53,
    "spark": [
     56.802,
     58.835,
@@ -85,13 +85,13 @@
     64.873,
     64.988,
     66.121,
-    65.0
+    65.11
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.633,
-   "chg": -0.04,
+   "price": 99.613,
+   "chg": -0.06,
    "spark": [
     100.99,
     101.18,
@@ -113,13 +113,13 @@
     100.01,
     99.96,
     99.67,
-    99.633
+    99.613
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.12,
-   "chg": -0.45,
+   "price": 84.26,
+   "chg": -0.28,
    "spark": [
     83.23,
     84.91,
@@ -142,7 +142,7 @@
     81.25,
     82.4,
     84.5,
-    84.12
+    84.26
    ]
   },
   {
@@ -150,12 +150,17 @@
    "price": 4.696,
    "chg": 1.19,
    "spark": [
+    4.541,
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,9 +174,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1582,
+   "chg": 0.07,
+   "spark": [
+    1.1428,
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1535,
+    1.1574,
+    1.1582
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3533,
-   "chg": -0.1,
+   "price": 1.3532,
+   "chg": -0.11,
    "spark": [
     1.3446,
     1.3432,
@@ -192,13 +226,14 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
-    1.3533
+    1.3532
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.602,
+   "price": 159.609,
    "chg": 0.24,
    "spark": [
     162.512,
@@ -222,15 +257,14 @@
     159.328,
     159.426,
     159.223,
-    159.602
+    159.609
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1894.27,
-   "chg": -0.95,
+   "price": 1894.12,
+   "chg": -0.96,
    "spark": [
-    1878.81,
     1878.49,
     1877.7,
     1879.86,
@@ -277,15 +311,15 @@
     1900.92,
     1896.78,
     1898.31,
-    1894.27
+    1894.89,
+    1894.12
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64084.0,
-   "chg": -0.6,
+   "price": 64100.0,
+   "chg": -0.58,
    "spark": [
-    62925.0,
     62924.9,
     62940.0,
     62998.9,
@@ -332,7 +366,8 @@
     64263.5,
     64139.2,
     64216.4,
-    64084.0
+    64114.8,
+    64100.0
    ]
   }
  ],
@@ -365,20 +400,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787045472.309123,
+   "ts": 1787047313.260842,
    "title": "Silver stalls at $65.34 amid exhaustion signals: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "18 Aug \u00b7 02:31 PM",
+   "t": "18 Aug \u00b7 03:01 PM",
    "ur": "Thakn ke ashare ke darmiyan Silver (chandi) ka rak gaya hai $65.34 par: fi ghanta ki sath"
   },
   {
-   "ts": 1787045472.309123,
+   "ts": 1787047313.260842,
    "title": "Gold stalls below $4,509 in chop zone: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "18 Aug \u00b7 02:31 PM",
+   "t": "18 Aug \u00b7 03:01 PM",
    "ur": "Gold rak gaya hai chap zon mein $4,509 se niche"
+  },
+  {
+   "ts": 1787046469.0,
+   "title": "Japanese Yen: Bearish bias within tight range against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-bearish-bias-within-tight-range-against-us-dollar-uob-202608180947",
+   "t": "18 Aug \u00b7 02:47 PM",
+   "ur": "Japani yan: US Dollar - UOB ke khalaf saqt had ke andar mandi ka taasab"
+  },
+  {
+   "ts": 1787045469.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608180931",
+   "t": "18 Aug \u00b7 02:31 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   },
   {
    "ts": 1787044567.0,
@@ -427,22 +478,6 @@
    "link": "https://www.fxstreet.com/news/euro-overvaluation-and-energy-risks-weigh-against-us-dollar-mufg-202608180836",
    "t": "18 Aug \u00b7 01:36 PM",
    "ur": "Uro: over welution aur tawanai ke khatrat ka wazin US Dollar - MUFG ke maqable mein hai."
-  },
-  {
-   "ts": 1787041408.0,
-   "title": "Dow Jones futures drop as soaring US yields, US-Iran friction rattle markets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-drop-as-soaring-us-yields-us-iran-friction-rattle-markets-202608180823",
-   "t": "18 Aug \u00b7 01:23 PM",
-   "ur": "Dou joons futurs gara kiyon kah US pedawar mein azafah, amrikah eran rgad ki marketon mein halchal"
-  },
-  {
-   "ts": 1787040497.0,
-   "title": "Canadian Dollar: Fragile recovery tied to US \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-fragile-recovery-tied-to-us-commerzbank-202608180808",
-   "t": "18 Aug \u00b7 01:08 PM",
-   "ur": "Caniden Dollar: kamazor recovery ka taalq US - kamers Bank se hai."
   }
  ],
  "sentiment": {
