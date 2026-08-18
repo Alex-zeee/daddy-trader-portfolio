@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 22:15 PKT",
+ "updated": "18-08-2026 22:49 PKT",
  "gold": {
-  "price": 4366.45,
-  "open": 4422.41,
+  "price": 4360.38,
+  "open": 4414.34,
   "high": 4435.58,
   "low": 4352.96,
-  "chg": -1.27,
+  "chg": -1.22,
   "src": "XAUUSD Spot",
   "spark": [
-   4393.49,
-   4390.01,
-   4395.6,
    4394.97,
    4399.54,
    4398.1,
@@ -55,14 +52,17 @@
    4363.84,
    4366.12,
    4363.71,
-   4366.45
+   4366.45,
+   4365.2,
+   4360.8,
+   4360.38
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.035,
-   "chg": -3.15,
+   "price": 64.01,
+   "chg": -3.19,
    "spark": [
     56.802,
     58.835,
@@ -85,13 +85,13 @@
     64.873,
     64.988,
     66.121,
-    64.035
+    64.01
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.637,
-   "chg": -0.0,
+   "price": 99.659,
+   "chg": 0.02,
    "spark": [
     100.99,
     101.18,
@@ -114,13 +114,13 @@
     99.96,
     99.67,
     99.64,
-    99.637
+    99.659
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.23,
-   "chg": -0.32,
+   "price": 84.21,
+   "chg": -0.34,
    "spark": [
     83.23,
     84.91,
@@ -143,13 +143,13 @@
     81.25,
     82.4,
     84.5,
-    84.23
+    84.21
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.712,
-   "chg": -0.25,
+   "price": 4.71,
+   "chg": -0.3,
    "spark": [
     4.598,
     4.628,
@@ -172,7 +172,7 @@
     4.641,
     4.696,
     4.724,
-    4.712
+    4.71
    ]
   },
   {
@@ -199,6 +199,7 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1579
    ]
@@ -227,13 +228,14 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.3535
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.598,
+   "price": 159.612,
    "chg": 0.24,
    "spark": [
     162.512,
@@ -257,13 +259,13 @@
     159.328,
     159.426,
     159.223,
-    159.598
+    159.612
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1914.39,
-   "chg": 0.1,
+   "price": 1911.92,
+   "chg": -0.03,
    "spark": [
     1883.65,
     1883.92,
@@ -312,13 +314,13 @@
     1909.49,
     1915.98,
     1917.07,
-    1914.39
+    1912.03
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64752.5,
-   "chg": 0.44,
+   "price": 64655.9,
+   "chg": 0.29,
    "spark": [
     63077.6,
     63049.1,
@@ -367,7 +369,7 @@
     64664.8,
     64803.0,
     64794.5,
-    64752.5
+    64655.9
    ]
   }
  ],
@@ -400,12 +402,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787073347.000552,
+   "ts": 1787075347.533306,
    "title": "Gold wavers as rising oil prices fuel lingering inflation worries",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 10:15 PM",
+   "t": "18 Aug \u00b7 10:49 PM",
    "ur": "Til ki qeemton mein azafe se mahungai ki tyush mein azafe ke baas Gold (sona) hal raha hai."
+  },
+  {
+   "ts": 1787075301.0,
+   "title": "Gold price falls as US yields surge, pressuring bullion",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-falls-as-us-yields-surge-pressuring-bullion-202608181748",
+   "t": "18 Aug \u00b7 10:48 PM",
+   "ur": "US pedawar mein azafe se Gold (sone) ki qeemat garti hai, balin par dabao hai."
+  },
+  {
+   "ts": 1787074250.0,
+   "title": "Silver Price Forecast: XAG/USD consolidates as bullish momentum fades",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-consolidates-as-bullish-momentum-fades-202608181730",
+   "t": "18 Aug \u00b7 10:30 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD tizi ki raftar ke madham hone ke sath mastahkam hota hai."
+  },
+  {
+   "ts": 1787074128.0,
+   "title": "A two-decade yield high buys the Dollar Index nothing",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/a-two-decade-yield-high-buys-the-dollar-index-nothing-202608181728",
+   "t": "18 Aug \u00b7 10:28 PM",
+   "ur": "Do dhion ki aali pedawar Dollar andex ko kach nihen kharidati"
   },
   {
    "ts": 1787070340.0,
@@ -454,30 +480,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-holds-despite-higher-yields-commerzbank-202608181344",
    "t": "18 Aug \u00b7 06:44 PM",
    "ur": "Gold (sona): ziyadah pedawar ke bawajud qeemat barqarar hai - kamers Bank"
-  },
-  {
-   "ts": 1787060041.0,
-   "title": "Gold expected to trade range-bound despite increasing bets of a Fed rate pause",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-expected-to-trade-range-bound-despite-increasing-bets-of-a-fed-rate-pause-202608181334",
-   "t": "18 Aug \u00b7 06:34 PM",
-   "ur": "Fed ret toqf ke badhte huvay sharton ke bawajud Gold (sone) ki had tak tajart ki toqa hai."
-  },
-  {
-   "ts": 1787059152.0,
-   "title": "Euro consolidates below two-month high as US Dollar steadies",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-consolidates-below-two-month-high-as-us-dollar-steadies-202608181319",
-   "t": "18 Aug \u00b7 06:19 PM",
-   "ur": "Uro do mah ki baland tarin sath se niche US Dollar mastahkam hai."
-  },
-  {
-   "ts": 1787057804.0,
-   "title": "New Zealand Dollar: Market overpricing RBNZ hikes \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-market-overpricing-rbnz-hikes-bny-202608181256",
-   "t": "18 Aug \u00b7 05:56 PM",
-   "ur": "Niyozi lind Dollar: market se ziyadah qeemat RBNZ mein azafah - BNY"
   }
  ],
  "sentiment": {
