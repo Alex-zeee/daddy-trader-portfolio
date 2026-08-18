@@ -1,14 +1,13 @@
 {
- "updated": "19-08-2026 04:42 PKT",
+ "updated": "19-08-2026 04:56 PKT",
  "gold": {
-  "price": 4327.97,
-  "open": 4422.07,
+  "price": 4334.13,
+  "open": 4424.13,
   "high": 4435.58,
   "low": 4327.51,
-  "chg": -2.13,
+  "chg": -2.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4396.02,
    4391.41,
    4393.29,
    4392.65,
@@ -55,14 +54,15 @@
    4333.45,
    4333.92,
    4330.75,
-   4327.97
+   4329.54,
+   4334.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.905,
-   "chg": -4.86,
+   "price": 62.955,
+   "chg": -4.79,
    "spark": [
     56.802,
     58.835,
@@ -85,21 +85,24 @@
     64.873,
     64.988,
     66.121,
-    62.905
+    62.955
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.644,
-   "chg": 0.0,
+   "price": 99.659,
+   "chg": 0.02,
    "spark": [
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -111,36 +114,7 @@
     99.96,
     99.67,
     99.64,
-    99.644
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 84.48,
-   "chg": -0.02,
-   "spark": [
-    83.23,
-    84.91,
-    86.83,
-    92.19,
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4,
-    84.5,
-    84.48
+    99.659
    ]
   },
   {
@@ -148,12 +122,16 @@
    "price": 4.706,
    "chg": -0.38,
    "spark": [
+    4.598,
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -170,10 +148,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1577,
-   "chg": -0.05,
+   "price": 1.1578,
+   "chg": -0.04,
    "spark": [
-    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -192,15 +169,45 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
-    1.1577
+    1.1578
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3534,
+   "chg": -0.12,
+   "spark": [
+    1.3432,
+    1.3379,
+    1.3375,
+    1.3313,
+    1.3351,
+    1.329,
+    1.3287,
+    1.3367,
+    1.3461,
+    1.3492,
+    1.3427,
+    1.3451,
+    1.347,
+    1.3455,
+    1.3491,
+    1.3511,
+    1.351,
+    1.3498,
+    1.3491,
+    1.3547,
+    1.355,
+    1.3534
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.599,
-   "chg": 0.16,
+   "price": 159.563,
+   "chg": 0.14,
    "spark": [
     162.487,
     163.186,
@@ -223,13 +230,13 @@
     159.426,
     159.223,
     159.34,
-    159.599
+    159.563
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.86,
-   "chg": 0.28,
+   "price": 1916.92,
+   "chg": 0.23,
    "spark": [
     1876.88,
     1890.0,
@@ -278,12 +285,12 @@
     1912.3,
     1910.95,
     1912.23,
-    1917.86
+    1916.92
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64700.0,
+   "price": 64698.1,
    "chg": 0.35,
    "spark": [
     62840.2,
@@ -333,7 +340,7 @@
     64550.1,
     64559.6,
     64591.6,
-    64700.0
+    64698.1
    ]
   }
  ],
@@ -366,28 +373,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787096547.389968,
+   "ts": 1787097411.028976,
    "title": "Gold falls over 1.5%, weighed down by elevated Treasury yields, higher oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "19 Aug \u00b7 04:42 AM",
-   "ur": "Gold (sona) 1.5 fisad se ziyadah gara, treasury ki baland pedawar, til ki qeemton mein azafah"
+   "t": "19 Aug \u00b7 04:56 AM",
+   "ur": "Gold (sona) 1.5 fisad se ziyadah gar gaya, treasury ki baland pedawar, til ki qeemton mein azafah"
   },
   {
-   "ts": 1787096547.389968,
+   "ts": 1787097411.028976,
    "title": "Why is US Dollar Silver Spot stock rallying today?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-is-us-dollar-silver-spot-stock-rallying-today-93CH-4865926",
-   "t": "19 Aug \u00b7 04:42 AM",
+   "t": "19 Aug \u00b7 04:56 AM",
    "ur": "US Dollar salor spat stak aaj kiyon tizi se badh raha hai?"
   },
   {
-   "ts": 1787096547.389968,
+   "ts": 1787097411.028976,
    "title": "Why is Gold Spot Platinum Stock ratio climbing today?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-is-gold-spot-platinum-stock-ratio-climbing-today-93CH-4865922",
-   "t": "19 Aug \u00b7 04:42 AM",
+   "t": "19 Aug \u00b7 04:56 AM",
    "ur": "Gold spat platinum stak ka tanasab aaj kiyon chadh raha hai?"
+  },
+  {
+   "ts": 1787097181.0,
+   "title": "Australian Dollar reverses as Iran risks lift USD ahead of Fed minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-reverses-as-iran-risks-lift-usd-ahead-of-fed-minutes-202608182353",
+   "t": "19 Aug \u00b7 04:53 AM",
+   "ur": "Aasterilvi Dollar plt raha hai cunkah eran ne US Dollar ko fed mant se pehle athane ka khatrah laahaq hai."
   },
   {
    "ts": 1787095500.0,
@@ -395,7 +410,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-steadies-below-4-350-as-surging-yields-offset-support-from-fed-rate-hold-bets-202608182325",
    "t": "19 Aug \u00b7 04:25 AM",
-   "ur": "Gold (sona) $4,350 se niche khada hai cunkah badhti hoi pedawar fed ret hold bates se sport afset karti hai"
+   "ur": "Gold (sona) $4,350 se niche mastahkam hai cunkah badhti hoi pedawar fed ret hold bates se sport afset karti hai"
   },
   {
    "ts": 1787092222.0,
@@ -436,14 +451,6 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-in-focus-against-us-dollar-uob-202608181935",
    "t": "19 Aug \u00b7 12:35 AM",
    "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein oper ka khatrah rahta hai."
-  },
-  {
-   "ts": 1787078460.0,
-   "title": "Singapore Dollar: Strong exports underpin SGD \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-strong-exports-underpin-sgd-commerzbank-202608181841",
-   "t": "18 Aug \u00b7 11:41 PM",
-   "ur": "Sangapor Dollar: mazboot exports SGD \u2013 Commerzbank ke zir asar hen."
   }
  ],
  "sentiment": {
