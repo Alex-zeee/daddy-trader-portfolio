@@ -1,19 +1,13 @@
 {
- "updated": "18-08-2026 05:44 PKT",
+ "updated": "18-08-2026 07:05 PKT",
  "gold": {
-  "price": 4429.11,
-  "open": 4390.99,
-  "high": 4433.64,
+  "price": 4401.88,
+  "open": 4393.92,
+  "high": 4435.58,
   "low": 4377.71,
-  "chg": 0.87,
+  "chg": 0.18,
   "src": "XAUUSD Spot",
   "spark": [
-   4386.04,
-   4387.64,
-   4386.63,
-   4386.82,
-   4408.33,
-   4410.48,
    4417.8,
    4420.57,
    4415.38,
@@ -55,14 +49,20 @@
    4423.97,
    4419.7,
    4430.91,
-   4429.11
+   4429.64,
+   4432.52,
+   4429.39,
+   4425.27,
+   4415.51,
+   4408.14,
+   4401.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.535,
-   "chg": 2.38,
+   "price": 65.705,
+   "chg": 1.1,
    "spark": [
     56.038,
     56.802,
@@ -85,13 +85,13 @@
     65.555,
     64.873,
     64.988,
-    66.535
+    65.705
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.584,
-   "chg": -0.09,
+   "price": 99.567,
+   "chg": -0.1,
    "spark": [
     100.75,
     100.99,
@@ -114,7 +114,7 @@
     100.01,
     99.96,
     99.67,
-    99.584
+    99.567
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1585,
-   "chg": 0.09,
+   "price": 1.1582,
+   "chg": 0.07,
    "spark": [
     1.1428,
     1.1418,
@@ -201,13 +201,13 @@
     1.153,
     1.1535,
     1.1574,
-    1.1585
+    1.1582
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3549,
-   "chg": 0.02,
+   "price": 1.3546,
+   "chg": -0.0,
    "spark": [
     1.3446,
     1.3432,
@@ -230,13 +230,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3549
+    1.3546
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.483,
-   "chg": 0.16,
+   "price": 159.511,
+   "chg": 0.18,
    "spark": [
     162.512,
     162.487,
@@ -259,16 +259,14 @@
     159.328,
     159.426,
     159.223,
-    159.483
+    159.511
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1908.22,
-   "chg": -0.22,
+   "price": 1899.79,
+   "chg": -0.66,
    "spark": [
-    1878.1,
-    1881.63,
     1881.04,
     1879.94,
     1877.83,
@@ -314,16 +312,16 @@
     1904.56,
     1902.83,
     1912.46,
-    1908.22
+    1908.16,
+    1899.73,
+    1899.79
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64343.6,
-   "chg": -0.2,
+   "price": 64175.0,
+   "chg": -0.46,
    "spark": [
-    63014.0,
-    63055.4,
     63059.1,
     63018.2,
     63002.2,
@@ -369,7 +367,9 @@
     64330.1,
     64232.3,
     64471.7,
-    64343.6
+    64321.4,
+    64131.0,
+    64175.0
    ]
   }
  ],
@@ -402,12 +402,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787013842.383136,
+   "ts": 1787018707.187257,
+   "title": "Gold rises near $4,450 as Fed hike bets fade, dollar weakens, risks persist",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
+   "t": "18 Aug \u00b7 07:05 AM",
+   "ur": "Gold (sona) $4,450 ke qarib badh gaya cunkah fed mein azafe ki shartin khtam, Dollar kamazor, khatrat barqarar"
+  },
+  {
+   "ts": 1787018707.187257,
    "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4400-as-fed-minutes-oil-risks-shape-rate-outlook-4862058",
-   "t": "18 Aug \u00b7 05:44 AM",
+   "t": "18 Aug \u00b7 07:05 AM",
    "ur": "Narm Dollar ke darmiyan Gold (sona) 1% badh gaya, fed ki rate mein azafe ki sharton mein kami; til ki topiyan faidah"
+  },
+  {
+   "ts": 1787018149.0,
+   "title": "Canadian Dollar holds near early June high as rising oil prices offset modest USD strength",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-holds-near-early-june-high-as-rising-oil-prices-offset-modest-usd-strength-202608180155",
+   "t": "18 Aug \u00b7 06:55 AM",
+   "ur": "Caniden Dollar jon ke avile ke qarib balandi par hai cunkah til ki badhti hoi qeemtin US Dollar ki mamoli tqt ko pora karti hen."
+  },
+  {
+   "ts": 1787016456.0,
+   "title": "British Pound gathers strength to near 1.3550 as Fed hike bets fade, UK jobs data loom",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-gathers-strength-to-near-13550-as-fed-hike-bets-fade-uk-jobs-data-loom-202608180127",
+   "t": "18 Aug \u00b7 06:27 AM",
+   "ur": "Bartanvi pound 1.3550 ke qarib tqt jama karta hai cunkah fed mein azafe ki shartin khtam hoti hen, bartaniya ki malazmaton ka deta kam hota hai"
+  },
+  {
+   "ts": 1787015666.0,
+   "title": "Euro flat lines below two-month high as oil-driven inflation fears support USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-flat-lines-below-two-month-low-as-oil-driven-inflation-fears-support-usd-202608180114",
+   "t": "18 Aug \u00b7 06:14 AM",
+   "ur": "Uro filet linez do mah ki baland tarin sath se niche hai cunkah til se chalne wali mahungai ke khadshat USD ko sport karte hen."
+  },
+  {
+   "ts": 1787014826.0,
+   "title": "Australian Dollar gains as US Dollar struggles amid fading Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-gains-as-us-dollar-struggles-amid-fading-fed-rate-hike-bets-202608180100",
+   "t": "18 Aug \u00b7 06:00 AM",
+   "ur": "Aasterilvi Dollar mein azafah hawa cunkah US Dollar fed ki rate mein azafe ke dao ki dhandilahat ke darmiyan jadojehad kar raha hai."
   },
   {
    "ts": 1787009246.0,
@@ -440,46 +480,6 @@
    "link": "https://www.fxstreet.com/news/us-treasury-yields-surge-as-30-year-hits-2007-high-202608172045",
    "t": "18 Aug \u00b7 01:45 AM",
    "ur": "US treasurei ki pedawar mein azafah 30 salah 2007 ki baland tarin sath par hai."
-  },
-  {
-   "ts": 1786998139.0,
-   "title": "Forex Today: US Dollar sags to two-month lows as Middle East risk lifts Oil and Gold",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-sags-to-two-month-lows-as-middle-east-risk-lifts-oil-and-gold-202608172022",
-   "t": "18 Aug \u00b7 01:22 AM",
-   "ur": "Farex today: US Dollar do mah ki kam tarin sath par aa gaya cunkah masharq wasta mein til aur Gold (sona) badh gaya"
-  },
-  {
-   "ts": 1786996870.0,
-   "title": "Japanese Yen muted on a soft US Dollar note",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-muted-on-a-soft-us-dollar-note-202608172001",
-   "t": "18 Aug \u00b7 01:01 AM",
-   "ur": "Japani yan US Dollar ke narm not par khamosh ho gaya."
-  },
-  {
-   "ts": 1786996380.0,
-   "title": "Singapore Dollar: Mild upside bias against US Dollar remains intact \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-mild-upside-bias-against-us-dollar-remains-intact-uob-202608171953",
-   "t": "18 Aug \u00b7 12:53 AM",
-   "ur": "Sangapor Dollar: US Dollar ke khalaf halka alta taasab barqarar hai - UOB"
-  },
-  {
-   "ts": 1786996373.0,
-   "title": "Mexican Peso softens as Middle East risks boost US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-softens-as-middle-east-risks-boosts-the-us-dollar-202608171952",
-   "t": "18 Aug \u00b7 12:52 AM",
-   "ur": "Mexican peso narm ho gaya cunkah masharq wasta ke khatre se US Dollar ko farog malta hai."
-  },
-  {
-   "ts": 1786991161.0,
-   "title": "A crushed US Dollar sends Gold into a rally above $4,400",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/a-crushed-us-dollar-sends-gold-into-a-rally-above-4-400-202608171826",
-   "t": "17 Aug \u00b7 11:26 PM",
-   "ur": "Ek pase huvay US Dollar ne Gold (sone) ko $4,400 se oper ki rili mein bhej diya."
   }
  ],
  "sentiment": {
