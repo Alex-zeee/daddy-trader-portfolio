@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 21:16 PKT",
+ "updated": "18-08-2026 21:53 PKT",
  "gold": {
-  "price": 4368.87,
-  "open": 4426.56,
+  "price": 4365.96,
+  "open": 4424.82,
   "high": 4435.58,
   "low": 4352.96,
-  "chg": -1.3,
+  "chg": -1.33,
   "src": "XAUUSD Spot",
   "spark": [
-   4392.06,
-   4394.15,
-   4394.07,
    4391.43,
    4393.49,
    4390.01,
@@ -55,14 +52,17 @@
    4358.47,
    4357.82,
    4364.31,
-   4368.87
+   4368.87,
+   4363.84,
+   4366.12,
+   4365.96
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.19,
-   "chg": -2.92,
+   "price": 63.995,
+   "chg": -3.22,
    "spark": [
     56.802,
     58.835,
@@ -85,24 +85,21 @@
     64.873,
     64.988,
     66.121,
-    64.19
+    63.995
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.598,
+   "price": 99.605,
    "chg": -0.04,
    "spark": [
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +111,13 @@
     99.96,
     99.67,
     99.64,
-    99.598
+    99.605
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.45,
-   "chg": -0.06,
+   "price": 84.44,
+   "chg": -0.07,
    "spark": [
     83.23,
     84.91,
@@ -143,13 +140,38 @@
     81.25,
     82.4,
     84.5,
-    84.45
+    84.44
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.712,
+   "chg": -0.25,
+   "spark": [
+    4.703,
+    4.679,
+    4.641,
+    4.604,
+    4.622,
+    4.663,
+    4.686,
+    4.627,
+    4.617,
+    4.67,
+    4.66,
+    4.699,
+    4.684,
+    4.682,
+    4.641,
+    4.696,
+    4.724,
+    4.712
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1586,
-   "chg": 0.11,
+   "price": 1.1585,
+   "chg": 0.09,
    "spark": [
     1.1428,
     1.1418,
@@ -172,13 +194,13 @@
     1.153,
     1.1535,
     1.1574,
-    1.1586
+    1.1585
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3545,
-   "chg": -0.01,
+   "price": 1.3543,
+   "chg": -0.02,
    "spark": [
     1.3446,
     1.3432,
@@ -201,13 +223,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3545
+    1.3543
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.569,
-   "chg": 0.22,
+   "price": 159.559,
+   "chg": 0.21,
    "spark": [
     162.512,
     162.487,
@@ -230,13 +252,13 @@
     159.328,
     159.426,
     159.223,
-    159.569
+    159.559
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1912.65,
-   "chg": 0.01,
+   "price": 1917.43,
+   "chg": 0.26,
    "spark": [
     1883.52,
     1883.65,
@@ -285,13 +307,13 @@
     1895.76,
     1909.49,
     1915.98,
-    1912.65
+    1917.43
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64696.6,
-   "chg": 0.35,
+   "price": 64783.3,
+   "chg": 0.48,
    "spark": [
     63100.6,
     63077.6,
@@ -340,7 +362,7 @@
     64148.9,
     64664.8,
     64803.0,
-    64696.6
+    64783.3
    ]
   }
  ],
@@ -373,20 +395,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787069766.647728,
+   "ts": 1787072036.34416,
    "title": "Gold wavers as rising oil prices fuel lingering inflation worries",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 09:16 PM",
+   "t": "18 Aug \u00b7 09:53 PM",
    "ur": "Til ki qeemton mein azafe se mahungai ki tyush mein azafe ke baas Gold (sona) hal raha hai."
   },
   {
-   "ts": 1787069766.647728,
+   "ts": 1787072036.34416,
    "title": "Morning Bid: Yields give way",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-yields-give-way-4864764",
-   "t": "18 Aug \u00b7 09:16 PM",
+   "t": "18 Aug \u00b7 09:53 PM",
    "ur": "Sabah ki boli: pedawar raastah diti hai."
+  },
+  {
+   "ts": 1787070340.0,
+   "title": "Australian Dollar declines from two-month highs as Hormuz tensions lift the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-declines-from-two-month-highs-as-hormuz-tensions-lift-the-us-dollar-202608181625",
+   "t": "18 Aug \u00b7 09:25 PM",
+   "ur": "Aasterilvi Dollar do mah ki baland tarin sath se gara cunkah harmaz kasheedgi ne US Dollar ko athaya"
   },
   {
    "ts": 1787069459.0,
@@ -443,14 +473,6 @@
    "link": "https://www.fxstreet.com/news/euro-consolidates-below-two-month-high-as-us-dollar-steadies-202608181319",
    "t": "18 Aug \u00b7 06:19 PM",
    "ur": "Uro do mah ki baland tarin sath se niche US Dollar mastahkam hai."
-  },
-  {
-   "ts": 1787057804.0,
-   "title": "New Zealand Dollar: Market overpricing RBNZ hikes \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-market-overpricing-rbnz-hikes-bny-202608181256",
-   "t": "18 Aug \u00b7 05:56 PM",
-   "ur": "Niyozi lind Dollar: market se ziyadah qeemat RBNZ mein azafah - BNY"
   }
  ],
  "sentiment": {
