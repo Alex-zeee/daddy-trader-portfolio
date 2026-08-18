@@ -1,15 +1,13 @@
 {
- "updated": "19-08-2026 03:09 PKT",
+ "updated": "19-08-2026 03:38 PKT",
  "gold": {
-  "price": 4342.5,
-  "open": 4416.62,
+  "price": 4336.29,
+  "open": 4414.81,
   "high": 4435.58,
   "low": 4330.69,
-  "chg": -1.68,
+  "chg": -1.78,
   "src": "XAUUSD Spot",
   "spark": [
-   4391.69,
-   4398.39,
    4397.51,
    4393.65,
    4390.77,
@@ -55,14 +53,16 @@
    4334.4,
    4334.59,
    4334.4,
-   4342.5
+   4342.4,
+   4335.72,
+   4336.29
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.42,
-   "chg": -4.08,
+   "price": 63.3,
+   "chg": -4.27,
    "spark": [
     56.802,
     58.835,
@@ -85,13 +85,13 @@
     64.873,
     64.988,
     66.121,
-    63.42
+    63.3
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.648,
-   "chg": 0.01,
+   "price": 99.644,
+   "chg": 0.0,
    "spark": [
     100.99,
     101.18,
@@ -114,13 +114,13 @@
     99.96,
     99.67,
     99.64,
-    99.648
+    99.644
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.42,
-   "chg": -0.09,
+   "price": 84.44,
+   "chg": -0.07,
    "spark": [
     83.23,
     84.91,
@@ -143,7 +143,7 @@
     81.25,
     82.4,
     84.5,
-    84.42
+    84.44
    ]
   },
   {
@@ -195,6 +195,7 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1579
    ]
@@ -229,8 +230,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.587,
-   "chg": 0.23,
+   "price": 159.607,
+   "chg": 0.24,
    "spark": [
     162.512,
     162.487,
@@ -253,13 +254,13 @@
     159.328,
     159.426,
     159.223,
-    159.587
+    159.607
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1912.28,
-   "chg": -0.01,
+   "price": 1912.61,
+   "chg": 0.01,
    "spark": [
     1873.89,
     1876.88,
@@ -308,13 +309,13 @@
     1911.94,
     1912.3,
     1910.95,
-    1912.28
+    1912.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64546.7,
-   "chg": 0.12,
+   "price": 64572.0,
+   "chg": 0.16,
    "spark": [
     62819.1,
     62840.2,
@@ -363,7 +364,7 @@
     64617.2,
     64550.1,
     64559.6,
-    64546.7
+    64572.0
    ]
   }
  ],
@@ -396,28 +397,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787090976.108748,
+   "ts": 1787092689.908895,
    "title": "Gold falls over 1.5%, weighed down by elevated Treasury yields, higher oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "19 Aug \u00b7 03:09 AM",
+   "t": "19 Aug \u00b7 03:38 AM",
    "ur": "Gold (sona) 1.5 fisad se ziyadah gara, treasury ki baland pedawar, til ki qeemton mein azafah"
   },
   {
-   "ts": 1787090976.108748,
+   "ts": 1787092689.908895,
    "title": "Why is US Dollar Silver Spot stock rallying today?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-is-us-dollar-silver-spot-stock-rallying-today-93CH-4865926",
-   "t": "19 Aug \u00b7 03:09 AM",
+   "t": "19 Aug \u00b7 03:38 AM",
    "ur": "US Dollar salor spat stak aaj kiyon tizi se badh raha hai?"
   },
   {
-   "ts": 1787090976.108748,
+   "ts": 1787092689.908895,
    "title": "Why is Gold Spot Platinum Stock ratio climbing today?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-is-gold-spot-platinum-stock-ratio-climbing-today-93CH-4865922",
-   "t": "19 Aug \u00b7 03:09 AM",
+   "t": "19 Aug \u00b7 03:38 AM",
    "ur": "Gold spat platinum stak ka tanasab aaj kiyon chadh raha hai?"
+  },
+  {
+   "ts": 1787092222.0,
+   "title": "New Zealand Dollar holds steady amid a firm US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-steady-amid-a-firm-us-dollar-202608182230",
+   "t": "19 Aug \u00b7 03:30 AM",
+   "ur": "Niyozi lind ka Dollar US Dollar ke darmiyan mastahkam hai."
   },
   {
    "ts": 1787090337.0,
@@ -466,14 +475,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-as-greenback-retains-safe-haven-bid-202608181806",
    "t": "18 Aug \u00b7 11:06 PM",
    "ur": "Japani yan niche ki taraf badhta hai cunkah garin bek ne mahfooz panah gahon ki boli barqarar rakhi hai."
-  },
-  {
-   "ts": 1787075301.0,
-   "title": "Gold price falls as US yields surge, pressuring bullion",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-falls-as-us-yields-surge-pressuring-bullion-202608181748",
-   "t": "18 Aug \u00b7 10:48 PM",
-   "ur": "US pedawar mein azafe se Gold (sone) ki qeemat garti hai, balin par dabao hai."
   }
  ],
  "sentiment": {
