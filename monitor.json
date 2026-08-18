@@ -1,15 +1,13 @@
 {
- "updated": "18-08-2026 22:49 PKT",
+ "updated": "18-08-2026 23:17 PKT",
  "gold": {
-  "price": 4360.38,
-  "open": 4414.34,
+  "price": 4358.05,
+  "open": 4407.43,
   "high": 4435.58,
-  "low": 4352.96,
-  "chg": -1.22,
+  "low": 4352.75,
+  "chg": -1.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4394.97,
-   4399.54,
    4398.1,
    4397.84,
    4397.7,
@@ -55,14 +53,16 @@
    4366.45,
    4365.2,
    4360.8,
-   4360.38
+   4357.22,
+   4357.16,
+   4358.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.01,
-   "chg": -3.19,
+   "price": 63.83,
+   "chg": -3.46,
    "spark": [
     56.802,
     58.835,
@@ -85,24 +85,21 @@
     64.873,
     64.988,
     66.121,
-    64.01
+    63.83
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.659,
+   "price": 99.656,
    "chg": 0.02,
    "spark": [
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,53 +111,20 @@
     99.96,
     99.67,
     99.64,
-    99.659
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 84.21,
-   "chg": -0.34,
-   "spark": [
-    83.23,
-    84.91,
-    86.83,
-    92.19,
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4,
-    84.5,
-    84.21
+    99.656
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.71,
-   "chg": -0.3,
+   "price": 4.708,
+   "chg": -0.34,
    "spark": [
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -172,13 +136,13 @@
     4.641,
     4.696,
     4.724,
-    4.71
+    4.708
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1579,
-   "chg": 0.05,
+   "price": 1.1581,
+   "chg": 0.06,
    "spark": [
     1.1428,
     1.1418,
@@ -199,15 +163,14 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
     1.1574,
-    1.1579
+    1.1581
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3535,
-   "chg": -0.09,
+   "price": 1.3536,
+   "chg": -0.08,
    "spark": [
     1.3446,
     1.3432,
@@ -230,13 +193,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3535
+    1.3536
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.612,
-   "chg": 0.24,
+   "price": 159.575,
+   "chg": 0.22,
    "spark": [
     162.512,
     162.487,
@@ -259,15 +222,14 @@
     159.328,
     159.426,
     159.223,
-    159.612
+    159.575
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1911.92,
-   "chg": -0.03,
+   "price": 1913.19,
+   "chg": 0.04,
    "spark": [
-    1883.65,
     1883.92,
     1879.92,
     1873.73,
@@ -314,15 +276,15 @@
     1909.49,
     1915.98,
     1917.07,
-    1912.03
+    1910.0,
+    1913.19
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64655.9,
-   "chg": 0.29,
+   "price": 64692.7,
+   "chg": 0.34,
    "spark": [
-    63077.6,
     63049.1,
     62998.3,
     62899.0,
@@ -369,7 +331,8 @@
     64664.8,
     64803.0,
     64794.5,
-    64655.9
+    64622.4,
+    64692.7
    ]
   }
  ],
@@ -402,12 +365,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787075347.533306,
+   "ts": 1787077055.619578,
    "title": "Gold wavers as rising oil prices fuel lingering inflation worries",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 10:49 PM",
+   "t": "18 Aug \u00b7 11:17 PM",
    "ur": "Til ki qeemton mein azafe se mahungai ki tyush mein azafe ke baas Gold (sona) hal raha hai."
+  },
+  {
+   "ts": 1787076391.0,
+   "title": "Japanese Yen drifts lower as Greenback retains safe-haven bid",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-drifts-lower-as-greenback-retains-safe-haven-bid-202608181806",
+   "t": "18 Aug \u00b7 11:06 PM",
+   "ur": "Japani yan niche ki taraf badhta hai cunkah garin bek ne mahfooz panah gahon ki boli barqarar rakhi hai."
   },
   {
    "ts": 1787075301.0,
@@ -472,14 +443,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-further-gains-eye-135-137-against-us-dollar-scotiabank-202608181406",
    "t": "18 Aug \u00b7 07:06 PM",
    "ur": "Caniden Dollar: US Dollar ke maqable mein 1.35\u20131.37 par mazid azafah hawa - Scotiabank"
-  },
-  {
-   "ts": 1787060650.0,
-   "title": "Gold: Price holds despite higher yields \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-holds-despite-higher-yields-commerzbank-202608181344",
-   "t": "18 Aug \u00b7 06:44 PM",
-   "ur": "Gold (sona): ziyadah pedawar ke bawajud qeemat barqarar hai - kamers Bank"
   }
  ],
  "sentiment": {
