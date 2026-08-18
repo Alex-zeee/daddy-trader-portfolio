@@ -1,16 +1,13 @@
 {
- "updated": "18-08-2026 18:26 PKT",
+ "updated": "18-08-2026 19:03 PKT",
  "gold": {
-  "price": 4389.82,
-  "open": 4386.74,
+  "price": 4400.57,
+  "open": 4409.28,
   "high": 4435.58,
-  "low": 4385.38,
-  "chg": 0.07,
+  "low": 4384.43,
+  "chg": -0.2,
   "src": "XAUUSD Spot",
   "spark": [
-   4415.51,
-   4408.14,
-   4401.4,
    4403.12,
    4394.63,
    4399.54,
@@ -55,14 +52,17 @@
    4392.65,
    4394.51,
    4394.3,
-   4389.82
+   4391.49,
+   4402.0,
+   4393.53,
+   4400.57
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.14,
-   "chg": -1.48,
+   "price": 64.865,
+   "chg": -1.9,
    "spark": [
     56.802,
     58.835,
@@ -85,24 +85,21 @@
     64.873,
     64.988,
     66.121,
-    65.14
+    64.865
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.621,
+   "price": 99.616,
    "chg": -0.05,
    "spark": [
     100.99,
-    101.18,
-    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +110,13 @@
     100.01,
     99.96,
     99.67,
-    99.621
+    99.616
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.4,
-   "chg": -0.12,
+   "price": 84.49,
+   "chg": -0.01,
    "spark": [
     83.23,
     84.91,
@@ -142,13 +139,13 @@
     81.25,
     82.4,
     84.5,
-    84.4
+    84.49
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.734,
-   "chg": 0.81,
+   "price": 4.724,
+   "chg": 0.6,
    "spark": [
     4.703,
     4.679,
@@ -166,13 +163,13 @@
     4.682,
     4.641,
     4.696,
-    4.734
+    4.724
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1579,
-   "chg": 0.05,
+   "price": 1.1585,
+   "chg": 0.09,
    "spark": [
     1.1428,
     1.1418,
@@ -193,14 +190,15 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
-    1.1579
+    1.1585
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3535,
-   "chg": -0.08,
+   "price": 1.3543,
+   "chg": -0.03,
    "spark": [
     1.3446,
     1.3432,
@@ -222,13 +220,13 @@
     1.351,
     1.3498,
     1.3547,
-    1.3535
+    1.3543
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.65,
-   "chg": 0.27,
+   "price": 159.549,
+   "chg": 0.2,
    "spark": [
     162.512,
     162.487,
@@ -251,15 +249,14 @@
     159.328,
     159.426,
     159.223,
-    159.65
+    159.549
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1894.95,
-   "chg": -0.92,
+   "price": 1897.91,
+   "chg": -0.76,
    "spark": [
-    1881.46,
     1882.4,
     1887.8,
     1883.52,
@@ -306,15 +303,15 @@
     1896.06,
     1901.11,
     1897.85,
-    1894.95
+    1895.76,
+    1897.91
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64035.1,
-   "chg": -0.68,
+   "price": 64279.7,
+   "chg": -0.3,
    "spark": [
-    63035.2,
     63075.0,
     63200.3,
     63100.6,
@@ -361,7 +358,8 @@
     64143.0,
     64283.6,
     64164.4,
-    64035.1
+    64148.9,
+    64279.7
    ]
   }
  ],
@@ -394,28 +392,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787059595.261848,
+   "ts": 1787061803.811251,
+   "title": "Gold wavers as rising oil prices fuel lingering inflation worries",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
+   "t": "18 Aug \u00b7 07:03 PM",
+   "ur": "Til ki qeemton mein azafe se mahungai ki tyush mein azafe ke baas Gold (sona) hal raha hai."
+  },
+  {
+   "ts": 1787061803.811251,
    "title": "Morning Bid: Yields give way",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-yields-give-way-4864764",
-   "t": "18 Aug \u00b7 06:26 PM",
+   "t": "18 Aug \u00b7 07:03 PM",
    "ur": "Sabah ki boli: pedawar raastah diti hai."
   },
   {
-   "ts": 1787059595.261848,
-   "title": "Gold hovers below $4,400 as oil, Treasury yields pressure bullion",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "18 Aug \u00b7 06:26 PM",
-   "ur": "Gold (sona) til ke tur par $4,400 se niche mandalata hai, treasurei se pareshar balin haasil hota hai."
+   "ts": 1787060650.0,
+   "title": "Gold: Price holds despite higher yields \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-holds-despite-higher-yields-commerzbank-202608181344",
+   "t": "18 Aug \u00b7 06:44 PM",
+   "ur": "Gold (sona): ziyadah pedawar ke bawajud qeemat barqarar hai - kamers Bank"
   },
   {
-   "ts": 1787059595.261848,
-   "title": "Silver stalls at $65.34 amid exhaustion signals: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "18 Aug \u00b7 06:26 PM",
-   "ur": "Thakn ke ashare ke darmiyan Silver (chandi) ka rak gaya hai $65.34 par: fi ghanta ki sath"
+   "ts": 1787060041.0,
+   "title": "Gold expected to trade range-bound despite increasing bets of a Fed rate pause",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-expected-to-trade-range-bound-despite-increasing-bets-of-a-fed-rate-pause-202608181334",
+   "t": "18 Aug \u00b7 06:34 PM",
+   "ur": "Fed ret toqf ke badhte huvay sharton ke bawajud Gold (sone) ki had tak tajart ki toqa hai."
   },
   {
    "ts": 1787059152.0,
@@ -464,14 +470,6 @@
    "link": "https://www.fxstreet.com/news/gold-higher-rate-risk-to-keep-prices-range-bound-td-securities-202608181146",
    "t": "18 Aug \u00b7 04:46 PM",
    "ur": "Gold (sona): qeemton ko had ke paband rakhane ke liye ziyadah rate ka khatrah - TD securitez"
-  },
-  {
-   "ts": 1787053580.0,
-   "title": "Silver retreats toward $65 ahead of Fed Minutes as energy tensions cloud outlook",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-retreats-toward-65-ahead-of-fed-minutes-as-energy-tensions-cloud-outlook-202608181146",
-   "t": "18 Aug \u00b7 04:46 PM",
-   "ur": "Silver (chandi) fed mants se pehle $65 ki taraf patchhe hat rahi hai cunkah tawanai ke tanao ke badil oat lak"
   }
  ],
  "sentiment": {
