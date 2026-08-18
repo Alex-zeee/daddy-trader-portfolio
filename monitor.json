@@ -1,15 +1,13 @@
 {
- "updated": "19-08-2026 00:03 PKT",
+ "updated": "19-08-2026 00:36 PKT",
  "gold": {
-  "price": 4356.52,
-  "open": 4405.12,
+  "price": 4354.29,
+  "open": 4418.49,
   "high": 4435.58,
   "low": 4352.75,
-  "chg": -1.1,
+  "chg": -1.45,
   "src": "XAUUSD Spot",
   "spark": [
-   4402.07,
-   4400.69,
    4397.25,
    4394.97,
    4388.45,
@@ -55,14 +53,16 @@
    4360.6,
    4355.11,
    4354.46,
-   4356.52
+   4356.05,
+   4355.27,
+   4354.29
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.88,
-   "chg": -3.39,
+   "price": 63.92,
+   "chg": -3.33,
    "spark": [
     56.802,
     58.835,
@@ -85,13 +85,13 @@
     64.873,
     64.988,
     66.121,
-    63.88
+    63.92
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.666,
-   "chg": 0.03,
+   "price": 99.645,
+   "chg": 0.01,
    "spark": [
     100.99,
     101.18,
@@ -114,13 +114,13 @@
     99.96,
     99.67,
     99.64,
-    99.666
+    99.645
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.12,
-   "chg": -0.45,
+   "price": 84.1,
+   "chg": -0.47,
    "spark": [
     83.23,
     84.91,
@@ -143,7 +143,7 @@
     81.25,
     82.4,
     84.5,
-    84.12
+    84.1
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1579,
-   "chg": 0.05,
+   "price": 1.1582,
+   "chg": 0.07,
    "spark": [
     1.1428,
     1.1418,
@@ -199,15 +199,14 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
     1.1574,
-    1.1579
+    1.1582
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3535,
-   "chg": -0.09,
+   "price": 1.3537,
+   "chg": -0.07,
    "spark": [
     1.3446,
     1.3432,
@@ -230,13 +229,13 @@
     1.3498,
     1.3491,
     1.3547,
-    1.3535
+    1.3537
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.595,
-   "chg": 0.23,
+   "price": 159.605,
+   "chg": 0.24,
    "spark": [
     162.512,
     162.487,
@@ -259,13 +258,13 @@
     159.328,
     159.426,
     159.223,
-    159.595
+    159.605
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1914.71,
-   "chg": 0.12,
+   "price": 1914.45,
+   "chg": 0.1,
    "spark": [
     1879.92,
     1873.73,
@@ -314,13 +313,13 @@
     1917.07,
     1910.0,
     1915.12,
-    1914.71
+    1914.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64712.1,
-   "chg": 0.37,
+   "price": 64688.1,
+   "chg": 0.34,
    "spark": [
     62998.3,
     62899.0,
@@ -369,7 +368,7 @@
     64794.5,
     64622.4,
     64734.1,
-    64715.5
+    64688.1
    ]
   }
  ],
@@ -402,12 +401,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787079811.978834,
+   "ts": 1787081790.803152,
    "title": "Gold wavers as rising oil prices fuel lingering inflation worries",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "19 Aug \u00b7 12:03 AM",
+   "t": "19 Aug \u00b7 12:36 AM",
    "ur": "Til ki qeemton mein azafe se mahungai ki tyush mein azafe ke baas Gold (sona) hal raha hai."
+  },
+  {
+   "ts": 1787081748.0,
+   "title": "Singapore Dollar: Upside risk stays in focus against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-in-focus-against-us-dollar-uob-202608181935",
+   "t": "19 Aug \u00b7 12:35 AM",
+   "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein oper ka khatrah rahta hai."
   },
   {
    "ts": 1787078460.0,
@@ -472,14 +479,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-edges-lower-on-us-iran-tensions-as-rbnz-hike-expectations-curb-losses-202608181605",
    "t": "18 Aug \u00b7 09:05 PM",
    "ur": "Niyozi lind Dollar US eran kasheedgi par kam hawa cunkah RBNZ mein azafe ki toqaat naqsanat ko rokti hen"
-  },
-  {
-   "ts": 1787062682.0,
-   "title": "Australian Dollar remains resilient near two-month high ahead of Fed Minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-remains-resilient-near-two-month-high-ahead-of-fed-minutes-202608181418",
-   "t": "18 Aug \u00b7 07:18 PM",
-   "ur": "Aasterilvi Dollar fed mants se pehle do mah ki balandi ke qarib lachakdar hai."
   }
  ],
  "sentiment": {
