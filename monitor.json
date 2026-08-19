@@ -1,16 +1,13 @@
 {
- "updated": "19-08-2026 12:11 PKT",
+ "updated": "19-08-2026 12:52 PKT",
  "gold": {
-  "price": 4353.03,
-  "open": 4398.2,
+  "price": 4356.26,
+  "open": 4396.93,
   "high": 4404.7,
   "low": 4325.97,
-  "chg": -1.03,
+  "chg": -0.92,
   "src": "XAUUSD Spot",
   "spark": [
-   4355.27,
-   4354.6,
-   4343.96,
    4341.83,
    4337.66,
    4333.24,
@@ -55,14 +52,17 @@
    4341.41,
    4342.9,
    4348.58,
-   4353.03
+   4350.74,
+   4355.68,
+   4354.22,
+   4356.26
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.245,
-   "chg": -1.09,
+   "price": 63.17,
+   "chg": -1.21,
    "spark": [
     58.835,
     60.019,
@@ -85,36 +85,34 @@
     64.988,
     66.121,
     63.941,
-    63.245
+    63.17
    ]
   },
   {
-   "name": "Oil WTI",
-   "price": 84.66,
-   "chg": -0.33,
+   "name": "Dollar Index",
+   "price": 99.463,
+   "chg": -0.19,
    "spark": [
-    84.91,
-    86.83,
-    92.19,
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4,
-    84.5,
-    84.94,
-    84.66
+    100.99,
+    101.43,
+    101.47,
+    101.51,
+    101.38,
+    100.8,
+    100.01,
+    99.96,
+    99.89,
+    99.69,
+    99.97,
+    99.6,
+    99.81,
+    99.82,
+    100.01,
+    99.96,
+    99.67,
+    99.64,
+    99.65,
+    99.463
    ]
   },
   {
@@ -122,16 +120,12 @@
    "price": 4.706,
    "chg": -0.38,
    "spark": [
-    4.598,
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -148,9 +142,10 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1597,
-   "chg": 0.12,
+   "price": 1.1598,
+   "chg": 0.13,
    "spark": [
+    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -169,17 +164,17 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
     1.1574,
     1.1583,
-    1.1597
+    1.1598
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3551,
-   "chg": 0.01,
+   "price": 1.3553,
+   "chg": 0.02,
    "spark": [
+    1.3446,
     1.3432,
     1.3379,
     1.3375,
@@ -198,16 +193,15 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3547,
     1.355,
-    1.3551
+    1.3553
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.193,
-   "chg": -0.09,
+   "price": 159.165,
+   "chg": -0.11,
    "spark": [
     162.487,
     163.186,
@@ -230,13 +224,13 @@
     159.426,
     159.223,
     159.34,
-    159.193
+    159.165
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1916.99,
-   "chg": 0.03,
+   "price": 1916.82,
+   "chg": 0.02,
    "spark": [
     1892.26,
     1891.95,
@@ -285,13 +279,13 @@
     1909.43,
     1908.88,
     1915.82,
-    1916.99
+    1916.82
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64289.9,
-   "chg": -0.6,
+   "price": 64306.6,
+   "chg": -0.57,
    "spark": [
     63314.7,
     63247.4,
@@ -340,7 +334,7 @@
     64249.5,
     64200.1,
     64288.9,
-    64289.9
+    64306.6
    ]
   }
  ],
@@ -381,36 +375,68 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787123510.224731,
+   "ts": 1787125931.939905,
+   "title": "Silver breaks Ichimoku cloud near $62.40 support: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
+   "t": "19 Aug \u00b7 12:52 PM",
+   "ur": "Silver (chandi) ne Ichimoku kalaud ko $62.40 sport ke qarib tod diya."
+  },
+  {
+   "ts": 1787125931.939905,
+   "title": "Gold coils near $4,400 in tight range: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
+   "t": "19 Aug \u00b7 12:52 PM",
+   "ur": "Gold (sone) ki tajart kar raha hai saqt had mein $4,400 ke qarib"
+  },
+  {
+   "ts": 1787125931.939905,
    "title": "Gold edges higher after sharp selloff as dollar, yields ease ahead of Fed minutes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "19 Aug \u00b7 12:11 PM",
+   "t": "19 Aug \u00b7 12:52 PM",
    "ur": "Dollar ke tur par tizi se farokht hone ke bad Gold (sone) ki qeemtin baland huve, fed mant se pehle aasani peda hoti hai"
   },
   {
-   "ts": 1787123510.224731,
-   "title": "Gold falls over 1.5%, weighed down by elevated Treasury yields, higher oil prices",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "19 Aug \u00b7 12:11 PM",
-   "ur": "Gold (sona) 1.5 fisad se ziyadah gar gaya, treasury ki baland pedawar, til ki qeemton mein azafah"
+   "ts": 1787125788.0,
+   "title": "British Pound: BoE outlook steady with CPI and jobs data \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-boe-outlook-steady-with-cpi-and-jobs-data-mufg-202608190749",
+   "t": "19 Aug \u00b7 12:49 PM",
+   "ur": "Bartish pound: BoE oat lak CPI aur malazmaton ke deta - MUFG ke sath mastahkam hai."
   },
   {
-   "ts": 1787123510.224731,
-   "title": "Why is US Dollar Silver Spot stock rallying today?",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/why-is-us-dollar-silver-spot-stock-rallying-today-93CH-4865926",
-   "t": "19 Aug \u00b7 12:11 PM",
-   "ur": "US Dollar salor spat stak aaj kiyon tizi se badh raha hai?"
+   "ts": 1787125149.0,
+   "title": "Forex Today: UK inflation data arrive mixed, focus shifts to FOMC Minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-uk-inflation-data-arrive-mixed-focus-shifts-to-fomc-minutes-202608190739",
+   "t": "19 Aug \u00b7 12:39 PM",
+   "ur": "Farex today: ue ke inflation (mehngai) ke aed w shmar male jale aate hen, tojah FOMC mants par mantaql hoti hai."
   },
   {
-   "ts": 1787123510.224731,
-   "title": "Why is Gold Spot Platinum Stock ratio climbing today?",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/why-is-gold-spot-platinum-stock-ratio-climbing-today-93CH-4865922",
-   "t": "19 Aug \u00b7 12:11 PM",
-   "ur": "Gold spat platinum stak ka tanasab aaj kiyon chadh raha hai?"
+   "ts": 1787124790.0,
+   "title": "Canadian Dollar: Tariff delay offers only muted relief \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-tariff-delay-offers-only-muted-relief-commerzbank-202608190733",
+   "t": "19 Aug \u00b7 12:33 PM",
+   "ur": "Caniden Dollar: terf mein taakhair sarf khamosh rilif pesh karti hai - kamers Bank"
+  },
+  {
+   "ts": 1787123930.0,
+   "title": "ECB's Rehn: Keeping inflation expectations anchored is essential",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/ecbs-rehn-keeping-inflation-expectations-anchored-is-essential-202608190718",
+   "t": "19 Aug \u00b7 12:18 PM",
+   "ur": "ECB ke Rehn: inflation (mehngai) ki toqaat ko langr andaz rakhana zarori hai."
+  },
+  {
+   "ts": 1787123645.0,
+   "title": "Silver Price Forecasts: XAG/USD tests levels sub-$63.00 as bearish pressure mounts",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-tests-levels-sub-6300-as-bearish-pressure-mounts-202608190714",
+   "t": "19 Aug \u00b7 12:14 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: ex aye ji/ US di baresh pareshar maunt ke tur par zeeli $63.00 ki sath ko janchta hai"
   },
   {
    "ts": 1787121961.0,
@@ -427,38 +453,6 @@
    "link": "https://www.fxstreet.com/news/asia-fx-lower-us-yields-offset-oil-risk-mufg-202608190637",
    "t": "19 Aug \u00b7 11:37 AM",
    "ur": "Asia FX: amrikah ki kam pedawar til ke khatre ko pora karti hai - MUFG"
-  },
-  {
-   "ts": 1787121319.0,
-   "title": "Euro trims gains against British Pound after UK CPI inflation rises to 2.9%",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-trims-gains-against-british-pound-after-uk-cpi-inflation-rises-to-29-202608190635",
-   "t": "19 Aug \u00b7 11:35 AM",
-   "ur": "UK CPI inflation (mehngai) 2.9% tak badhane ke bad uro ne bartanvi pound ke maqable mein faidah kam kiya"
-  },
-  {
-   "ts": 1787121104.0,
-   "title": "British Pound edges up within range following hotter UK inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-edges-up-within-range-following-hotter-uk-inflation-data-202608190631",
-   "t": "19 Aug \u00b7 11:31 AM",
-   "ur": "Bartaniya mein inflation (mehngai) ke aed w shmar ke bad bartanvi pound had ke andar badh gaya."
-  },
-  {
-   "ts": 1787120728.0,
-   "title": "Japanese Yen: JGB spillover supports firmer JPY against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-jgb-spillover-supports-firmer-jpy-against-us-dollar-ocbc-202608190625",
-   "t": "19 Aug \u00b7 11:25 AM",
-   "ur": "Japani yan: JGB spl over US Dollar ke maqable mein mazboot JPY ki support karta hai - OCBC"
-  },
-  {
-   "ts": 1787120059.0,
-   "title": "British Pound shows limited reaction to expected increase in UK headline inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-shows-limited-reaction-to-expected-increase-in-uk-headline-inflation-202608190614",
-   "t": "19 Aug \u00b7 11:14 AM",
-   "ur": "Bartanvi pound uk hed lin inflation (mehngai) mein matoqa azafe par muhadud rdumal zaahar karta hai."
   }
  ],
  "sentiment": {
