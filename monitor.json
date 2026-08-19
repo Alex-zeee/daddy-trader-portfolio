@@ -1,14 +1,13 @@
 {
- "updated": "20-08-2026 00:22 PKT",
+ "updated": "20-08-2026 00:45 PKT",
  "gold": {
-  "price": 4506.14,
-  "open": 4354.86,
-  "high": 4506.45,
+  "price": 4506.12,
+  "open": 4357.47,
+  "high": 4509.99,
   "low": 4325.97,
-  "chg": 3.47,
+  "chg": 3.41,
   "src": "XAUUSD Spot",
   "spark": [
-   4354.22,
    4355.28,
    4360.89,
    4358.7,
@@ -55,14 +54,15 @@
    4491.44,
    4495.39,
    4503.8,
-   4506.14
+   4506.63,
+   4506.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.405,
-   "chg": 3.85,
+   "price": 66.48,
+   "chg": 3.97,
    "spark": [
     58.835,
     60.019,
@@ -85,13 +85,13 @@
     64.988,
     66.121,
     63.941,
-    66.405
+    66.48
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.815,
-   "chg": -0.84,
+   "price": 98.806,
+   "chg": -0.85,
    "spark": [
     101.18,
     101.14,
@@ -114,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    98.815
+    98.806
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.29,
-   "chg": -0.77,
+   "price": 83.96,
+   "chg": -1.15,
    "spark": [
     84.91,
     86.83,
@@ -143,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    84.29
+    83.96
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1678,
-   "chg": 0.82,
+   "price": 1.1677,
+   "chg": 0.81,
    "spark": [
     1.1418,
     1.1404,
@@ -201,13 +201,13 @@
     1.1535,
     1.1574,
     1.1583,
-    1.1678
+    1.1677
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3608,
-   "chg": 0.43,
+   "price": 1.3607,
+   "chg": 0.42,
    "spark": [
     1.3432,
     1.3379,
@@ -230,12 +230,12 @@
     1.3491,
     1.3547,
     1.355,
-    1.3608
+    1.3607
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.27,
+   "price": 158.278,
    "chg": -0.67,
    "spark": [
     162.487,
@@ -259,13 +259,13 @@
     159.426,
     159.223,
     159.34,
-    158.27
+    158.278
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2098.82,
-   "chg": 9.52,
+   "price": 2098.2,
+   "chg": 9.49,
    "spark": [
     1904.94,
     1904.56,
@@ -314,13 +314,13 @@
     2088.56,
     2090.05,
     2091.0,
-    2098.82
+    2098.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 68290.0,
-   "chg": 5.59,
+   "price": 68359.9,
+   "chg": 5.69,
    "spark": [
     64340.0,
     64330.1,
@@ -369,7 +369,7 @@
     68433.0,
     68173.4,
     68379.4,
-    68290.1
+    68359.9
    ]
   }
  ],
@@ -410,20 +410,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787167321.612837,
+   "ts": 1787168751.305965,
+   "title": "Silver tests $67.00 resistance with double top risk: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
+   "t": "20 Aug \u00b7 12:45 AM",
+   "ur": "Silver (chandi) dabl tap rask ke sath $67.00 mazahmat ki janch karti hai."
+  },
+  {
+   "ts": 1787168751.305965,
+   "title": "Gold hits 4,564 high with RSI near overbought: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
+   "t": "20 Aug \u00b7 12:45 AM",
+   "ur": "Overbot ke qarib RSI ke sath Gold (sona) 4,564 ki balandi par pohch gaya."
+  },
+  {
+   "ts": 1787168751.305965,
    "title": "Gold jumps as Treasury buyback plans push yields lower, Fed flags inflation risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "20 Aug \u00b7 12:22 AM",
+   "t": "20 Aug \u00b7 12:45 AM",
    "ur": "Treasurei bai bek ke mansubon ke natije mein pedawar kam hone par Gold (sona) achalta hai, fed ne inflation (mehngai) ke khatrat ko zaahar kiya hai"
   },
   {
-   "ts": 1787167321.612837,
-   "title": "Why is Platinum Spot US Dollar stock rallying today?",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/why-is-platinum-spot-us-dollar-stock-rallying-today-93CH-4867605",
-   "t": "20 Aug \u00b7 12:22 AM",
-   "ur": "Platinum spat US Dollar ka stak aaj kiyon badh raha hai?"
+   "ts": 1787168294.0,
+   "title": "Forex Today: US Dollar sinks on Treasury buyback ahead of data-heavy Thursday",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-sinks-on-treasury-buyback-ahead-of-data-heavy-thursday-202608191938",
+   "t": "20 Aug \u00b7 12:38 AM",
+   "ur": "Farex today: jamarat ko deta hevi se pehle treasurei bi bek par US Dollar dob gaya"
   },
   {
    "ts": 1787166509.0,
@@ -472,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/eur-gbp-pushes-toward-two-week-high-amid-cooling-uk-services-inflation-202608191619",
    "t": "19 Aug \u00b7 09:19 PM",
    "ur": "Uk saroses inflation (mehngai) ko thanda karne ke darmiyan EUR/GBP do hafte ki balandi ki taraf dhakil raha hai."
-  },
-  {
-   "ts": 1787153011.0,
-   "title": "British Pound jumps as Treasury buyback weakens the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-jumps-as-treasury-buyback-weakens-the-us-dollar-202608191523",
-   "t": "19 Aug \u00b7 08:23 PM",
-   "ur": "Treasurei bai bek US Dollar ke kamazor hone par bartanvi pound mein azafah"
-  },
-  {
-   "ts": 1787152624.0,
-   "title": "US 10-year Treasury yield tumbles as Treasury steps in to calm bond market",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-10-year-treasury-yield-tumbles-as-treasury-steps-in-to-calm-bond-market-202608191517",
-   "t": "19 Aug \u00b7 08:17 PM",
-   "ur": "US 10 salah treasurei ki pedawar mein kami hoi hai cunkah treasurei ne band market ko parsakon karne ke laye qadam athaya hai"
   }
  ],
  "sentiment": {
