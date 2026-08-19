@@ -1,16 +1,13 @@
 {
- "updated": "19-08-2026 08:08 PKT",
+ "updated": "19-08-2026 08:55 PKT",
  "gold": {
-  "price": 4352.89,
-  "open": 4400.15,
+  "price": 4357.54,
+  "open": 4391.55,
   "high": 4404.7,
   "low": 4325.97,
-  "chg": -1.07,
+  "chg": -0.77,
   "src": "XAUUSD Spot",
   "spark": [
-   4358.47,
-   4357.82,
-   4364.31,
    4368.87,
    4363.84,
    4366.12,
@@ -55,14 +52,17 @@
    4360.7,
    4356.58,
    4354.86,
-   4352.89
+   4354.89,
+   4357.78,
+   4357.87,
+   4357.54
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.125,
-   "chg": -4.53,
+   "price": 63.23,
+   "chg": -4.37,
    "spark": [
     56.802,
     58.835,
@@ -85,21 +85,24 @@
     64.873,
     64.988,
     66.121,
-    63.125
+    63.23
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.581,
+   "price": 99.578,
    "chg": -0.06,
    "spark": [
     100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -111,13 +114,13 @@
     99.96,
     99.67,
     99.64,
-    99.581
+    99.578
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.7,
-   "chg": 0.24,
+   "price": 84.64,
+   "chg": 0.17,
    "spark": [
     83.23,
     84.91,
@@ -140,7 +143,7 @@
     81.25,
     82.4,
     84.5,
-    84.7
+    84.64
    ]
   },
   {
@@ -169,9 +172,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1586,
+   "chg": 0.03,
+   "spark": [
+    1.1428,
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1574,
+    1.1583,
+    1.1586
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3538,
-   "chg": -0.09,
+   "price": 1.3539,
+   "chg": -0.08,
    "spark": [
     1.3446,
     1.3432,
@@ -194,13 +226,13 @@
     1.3498,
     1.3547,
     1.355,
-    1.3538
+    1.3539
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.378,
-   "chg": 0.02,
+   "price": 159.425,
+   "chg": 0.05,
    "spark": [
     162.487,
     163.186,
@@ -223,13 +255,13 @@
     159.426,
     159.223,
     159.34,
-    159.378
+    159.425
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1906.1,
-   "chg": -0.54,
+   "price": 1910.66,
+   "chg": -0.3,
    "spark": [
     1901.58,
     1897.78,
@@ -278,13 +310,13 @@
     1912.44,
     1912.28,
     1906.86,
-    1906.1
+    1910.66
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64250.8,
-   "chg": -0.66,
+   "price": 64283.4,
+   "chg": -0.61,
    "spark": [
     63476.0,
     63459.6,
@@ -333,7 +365,7 @@
     64444.2,
     64350.5,
     64301.1,
-    64250.8
+    64283.4
    ]
   }
  ],
@@ -374,36 +406,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787108903.933418,
+   "ts": 1787111728.88036,
    "title": "Gold steadies after big drop as oil, bond yields pressure bullion; Fed minutes due",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "19 Aug \u00b7 08:08 AM",
+   "t": "19 Aug \u00b7 08:55 AM",
    "ur": "Til ke tur par badi garaut ke bad Gold (sona) mastahkam hai, band ki pedawar pareshar balin; fed mant wajib alada hen."
   },
   {
-   "ts": 1787108903.933418,
+   "ts": 1787111728.88036,
    "title": "Gold falls over 1.5%, weighed down by elevated Treasury yields, higher oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-near-4450-as-fed-hike-bets-fade-dollar-weakens-risks-persist-4864147",
-   "t": "19 Aug \u00b7 08:08 AM",
+   "t": "19 Aug \u00b7 08:55 AM",
    "ur": "Gold (sona) 1.5 fisad se ziyadah gara, treasury ki baland pedawar, til ki qeemton mein azafah"
   },
   {
-   "ts": 1787108903.933418,
+   "ts": 1787111728.88036,
    "title": "Why is US Dollar Silver Spot stock rallying today?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-is-us-dollar-silver-spot-stock-rallying-today-93CH-4865926",
-   "t": "19 Aug \u00b7 08:08 AM",
+   "t": "19 Aug \u00b7 08:55 AM",
    "ur": "US Dollar salor spat stak aaj kiyon tizi se badh raha hai?"
   },
   {
-   "ts": 1787108903.933418,
+   "ts": 1787111728.88036,
    "title": "Why is Gold Spot Platinum Stock ratio climbing today?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-is-gold-spot-platinum-stock-ratio-climbing-today-93CH-4865922",
-   "t": "19 Aug \u00b7 08:08 AM",
+   "t": "19 Aug \u00b7 08:55 AM",
    "ur": "Gold spat platinum stak ka tanasab aaj kiyon chadh raha hai?"
+  },
+  {
+   "ts": 1787110593.0,
+   "title": "Gold recovers from weekly low as USD softens ahead of FOMC Minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-recovers-from-weekly-low-as-usd-softens-ahead-of-fomc-minutes-202608190336",
+   "t": "19 Aug \u00b7 08:36 AM",
+   "ur": "FOMC mants se pehle USD ke narm hone ke sath hi Gold (sona) haftah war kam se thek ho jata hai."
+  },
+  {
+   "ts": 1787110510.0,
+   "title": "Australian Dollar weakens despite RBA\u2019s Hauser hawkish remarks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-despite-rbas-hauser-hawkish-remarks-202608190335",
+   "t": "19 Aug \u00b7 08:35 AM",
+   "ur": "Aasterilvi Dollar RBA ke Hauser ke hokish rimarks ke bawajud kamazor ho raha hai."
+  },
+  {
+   "ts": 1787110381.0,
+   "title": "Silver Price Forecast: XAG/USD extends decline to near $63 amid continued energy supply risks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-extends-decline-to-near-63-amid-continued-energy-supply-risks-202608190333",
+   "t": "19 Aug \u00b7 08:33 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: tawanai ki farahami ke maslsal khatrat ke darmiyan XAG/USD ne garaut ko $63 ke qarib badha diya"
   },
   {
    "ts": 1787107978.0,
@@ -428,30 +484,6 @@
    "link": "https://www.fxstreet.com/news/united-states-dollar-index-hovers-above-9950-due-to-safe-haven-support-202608190207",
    "t": "19 Aug \u00b7 07:07 AM",
    "ur": "Mahfooz panah gahon ki support ki wajah se ryastahaye matehdah ka Dollar andex 99.50 se oper mandala raha hai."
-  },
-  {
-   "ts": 1787104800.0,
-   "title": "UK CPI set to show inflation rebounding to four-month high due to higher energy bill",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/uk-cpi-set-to-show-inflation-rebounding-to-four-month-high-due-to-higher-energy-bill-202608190200",
-   "t": "19 Aug \u00b7 07:00 AM",
-   "ur": "Uk CPI tawanai ke baland bal ki wajah se inflation (mehngai) ki rate ko char mah ki baland tarin sath par dikhaye ga."
-  },
-  {
-   "ts": 1787103951.0,
-   "title": "New Zealand Dollar declines to weekly low as USD holds firm ahead of FOMC Minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-declines-to-weekly-low-as-usd-holds-firm-ahead-of-fomc-minutes-202608190145",
-   "t": "19 Aug \u00b7 06:45 AM",
-   "ur": "Niyozi lind Dollar haftah war kam tarin sath par gar gaya cunkah USD FOMC mants se aage mazbooti rakta hai"
-  },
-  {
-   "ts": 1787103354.0,
-   "title": "British Pound declines below 1.3550 on soft UK labour figures, traders brace for CPI data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-declines-below-13550-on-soft-uk-labour-figures-traders-brace-for-cpi-data-202608190135",
-   "t": "19 Aug \u00b7 06:35 AM",
-   "ur": "Bartanvi pound narm uk libr ke aed w shmar par 1.3550 se niche gara, taajr CPI deta ke liye tyar"
   }
  ],
  "sentiment": {
