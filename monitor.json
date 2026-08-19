@@ -1,14 +1,13 @@
 {
- "updated": "20-08-2026 04:33 PKT",
+ "updated": "20-08-2026 04:55 PKT",
  "gold": {
-  "price": 4517.97,
-  "open": 4328.93,
+  "price": 4513.25,
+  "open": 4332.82,
   "high": 4527.83,
   "low": 4325.97,
-  "chg": 4.37,
+  "chg": 4.16,
   "src": "XAUUSD Spot",
   "spark": [
-   4365.21,
    4368.13,
    4370.22,
    4407.89,
@@ -55,14 +54,15 @@
    4519.73,
    4520.41,
    4518.34,
-   4517.97
+   4514.96,
+   4513.25
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.17,
-   "chg": 5.05,
+   "price": 67.205,
+   "chg": 5.1,
    "spark": [
     58.835,
     60.019,
@@ -85,13 +85,13 @@
     64.988,
     66.121,
     63.941,
-    67.17
+    67.205
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.768,
-   "chg": -0.89,
+   "price": 98.836,
+   "chg": -0.82,
    "spark": [
     101.18,
     101.14,
@@ -114,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    98.768
+    98.836
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.51,
-   "chg": -0.51,
+   "price": 84.31,
+   "chg": -0.74,
    "spark": [
     84.91,
     86.83,
@@ -143,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    84.51
+    84.31
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1678,
-   "chg": 0.85,
+   "price": 1.1677,
+   "chg": 0.84,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -198,16 +197,17 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1678
+    1.1677
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3602,
-   "chg": 0.48,
+   "price": 1.3601,
+   "chg": 0.47,
    "spark": [
     1.3379,
     1.3375,
@@ -230,12 +230,12 @@
     1.3547,
     1.355,
     1.3537,
-    1.3602
+    1.3601
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.236,
+   "price": 158.243,
    "chg": -0.82,
    "spark": [
     163.186,
@@ -259,13 +259,13 @@
     159.223,
     159.34,
     159.55,
-    158.236
+    158.243
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2247.03,
-   "chg": 17.25,
+   "price": 2251.57,
+   "chg": 17.49,
    "spark": [
     1908.16,
     1899.73,
@@ -314,13 +314,13 @@
     2217.54,
     2285.28,
     2248.14,
-    2247.03
+    2251.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 69282.0,
-   "chg": 7.12,
+   "price": 69217.4,
+   "chg": 7.02,
    "spark": [
     64321.4,
     64131.0,
@@ -369,7 +369,7 @@
     69033.3,
     69697.2,
     69214.3,
-    69282.0
+    69217.4
    ]
   }
  ],
@@ -394,28 +394,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787182434.74445,
+   "ts": 1787183741.873702,
    "title": "Gold pops as dollar, yields fall; spot prices top $4.5k for first time since June",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "20 Aug \u00b7 04:33 AM",
+   "t": "20 Aug \u00b7 04:55 AM",
    "ur": "Gold (sona) Dollar ke tur par khalta hai, pedawar mein kami; jon ke bad pehli bar spat ki qeemtin $4.5k ke oper hen."
   },
   {
-   "ts": 1787182434.74445,
+   "ts": 1787183741.873702,
    "title": "Silver tests $67.00 resistance with double top risk: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 04:33 AM",
+   "t": "20 Aug \u00b7 04:55 AM",
    "ur": "Silver (chandi) dabl tap rask ke sath $67.00 mazahmat ki janch karti hai."
   },
   {
-   "ts": 1787182434.74445,
+   "ts": 1787183741.873702,
    "title": "Gold hits 4,564 high with RSI near overbought: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "20 Aug \u00b7 04:33 AM",
+   "t": "20 Aug \u00b7 04:55 AM",
    "ur": "Overbot ke qarib RSI ke sath Gold (sona) 4,564 ki balandi par pohch gaya."
+  },
+  {
+   "ts": 1787183669.0,
+   "title": "US Treasury Department to buy back more longer-term bonds",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-treasury-department-to-buy-back-more-longer-term-bonds-202608192354",
+   "t": "20 Aug \u00b7 04:54 AM",
+   "ur": "US mahkamah khazana mazid tavel madati bands waps khareede ga."
   },
   {
    "ts": 1787182015.0,
@@ -464,14 +472,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-eyes-67-as-us-yields-slide-202608192054",
    "t": "20 Aug \u00b7 01:54 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD ki nazarin $67 par hen jisa kah US ki pedawar mein azafah hota hai."
-  },
-  {
-   "ts": 1787170047.0,
-   "title": "Euro surges as traders ignore Fed\u2019s hawkish minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-surges-as-traders-ignore-feds-hawkish-minutes-202608192007",
-   "t": "20 Aug \u00b7 01:07 AM",
-   "ur": "Uro mein azafah hawa cunkah taajron ne fed ke ajeeb w ghareeb lmahat ko nazar andaz kiya."
   }
  ],
  "sentiment": {
