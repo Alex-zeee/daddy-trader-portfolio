@@ -1,22 +1,22 @@
 {
- "updated": "19-08-2026 13:20 PKT",
+ "updated": "19-08-2026 14:02 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "NEUTRAL",
   "strength": 33,
-  "price": 4360.89,
-  "rsi": 65,
+  "price": 4355.34,
+  "rsi": 62,
   "tf": "M15"
  },
  "liq": {
   "above": [
-   4362.7,
    4371.58,
    4404.7
   ],
   "below": [
+   4351.88,
    4333.92,
    4325.97
   ]
@@ -33,6 +33,17 @@
    "tp": 4418.91,
    "status": "SL Hit",
    "note": "Auto: liquidity sweep @ 4387.31 + engulf close-back \u2014 target next liquidity (min 1:2)"
+  },
+  {
+   "ts": "2026-08-19T08:45:00+00:00",
+   "date": "19-08-2026 13:45 PKT",
+   "pair": "XAUUSD",
+   "type": "SELL",
+   "entry": 4355.34,
+   "sl": 4364.96,
+   "tp": 4333.92,
+   "status": "Active",
+   "note": "Auto: liquidity sweep @ 4362.7 + engulf close-back \u2014 target next liquidity (min 1:2)"
   }
  ]
 }

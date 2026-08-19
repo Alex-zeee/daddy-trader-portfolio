@@ -1,16 +1,13 @@
 {
- "updated": "19-08-2026 13:20 PKT",
+ "updated": "19-08-2026 14:02 PKT",
  "gold": {
-  "price": 4361.94,
-  "open": 4388.45,
+  "price": 4356.08,
+  "open": 4392.2,
   "high": 4404.7,
   "low": 4325.97,
-  "chg": -0.6,
+  "chg": -0.82,
   "src": "XAUUSD Spot",
   "spark": [
-   4333.24,
-   4335.68,
-   4334.55,
    4334.4,
    4334.59,
    4334.4,
@@ -55,14 +52,17 @@
    4354.22,
    4355.28,
    4360.89,
-   4361.94
+   4358.7,
+   4362.31,
+   4355.34,
+   4356.08
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.305,
-   "chg": -0.99,
+   "price": 63.29,
+   "chg": -1.02,
    "spark": [
     58.835,
     60.019,
@@ -85,21 +85,23 @@
     64.988,
     66.121,
     63.941,
-    63.305
+    63.29
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.409,
-   "chg": -0.24,
+   "price": 99.427,
+   "chg": -0.22,
    "spark": [
-    100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    99.409
+    99.427
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.57,
-   "chg": -0.44,
+   "price": 84.61,
+   "chg": -0.39,
    "spark": [
     84.91,
     86.83,
@@ -141,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    84.57
+    84.61
    ]
   },
   {
@@ -175,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1605,
-   "chg": 0.19,
+   "price": 1.16,
+   "chg": 0.14,
    "spark": [
-    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -197,17 +198,17 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
-    1.1605
+    1.16
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3562,
-   "chg": 0.09,
+   "price": 1.3551,
+   "chg": 0.0,
    "spark": [
-    1.3446,
     1.3432,
     1.3379,
     1.3375,
@@ -226,15 +227,16 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
-    1.3562
+    1.3551
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.06,
-   "chg": -0.18,
+   "price": 159.208,
+   "chg": -0.08,
    "spark": [
     162.487,
     163.186,
@@ -257,15 +259,14 @@
     159.426,
     159.223,
     159.34,
-    159.06
+    159.208
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1915.08,
-   "chg": -0.07,
+   "price": 1920.81,
+   "chg": 0.23,
    "spark": [
-    1891.95,
     1904.9,
     1902.37,
     1897.06,
@@ -312,15 +313,15 @@
     1908.88,
     1915.82,
     1914.45,
-    1915.08
+    1920.02,
+    1920.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64230.8,
-   "chg": -0.69,
+   "price": 64365.5,
+   "chg": -0.48,
    "spark": [
-    63247.4,
     63610.8,
     63561.2,
     63484.7,
@@ -367,7 +368,8 @@
     64200.1,
     64288.9,
     64254.0,
-    64230.8
+    64370.8,
+    64365.5
    ]
   }
  ],
@@ -408,28 +410,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787127656.774642,
+   "ts": 1787130133.926478,
    "title": "Silver breaks Ichimoku cloud near $62.40 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "19 Aug \u00b7 01:20 PM",
+   "t": "19 Aug \u00b7 02:02 PM",
    "ur": "Silver (chandi) ne Ichimoku kalaud ko $62.40 sport ke qarib tod diya."
   },
   {
-   "ts": 1787127656.774642,
+   "ts": 1787130133.926478,
    "title": "Gold coils near $4,400 in tight range: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "19 Aug \u00b7 01:20 PM",
+   "t": "19 Aug \u00b7 02:02 PM",
    "ur": "Gold (sone) ki tajart kar raha hai saqt had mein $4,400 ke qarib"
   },
   {
-   "ts": 1787127656.774642,
+   "ts": 1787130133.926478,
    "title": "Gold edges higher after sharp selloff as dollar, yields ease ahead of Fed minutes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "19 Aug \u00b7 01:20 PM",
+   "t": "19 Aug \u00b7 02:02 PM",
    "ur": "Dollar ke tur par tizi se farokht hone ke bad Gold (sone) ki qeemtin baland huve, fed mant se pehle aasani peda hoti hai"
+  },
+  {
+   "ts": 1787130050.0,
+   "title": "US Dollar: Higher yields threaten housing and risk sentiment \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-higher-yields-threaten-housing-and-risk-sentiment-mufg-202608190900",
+   "t": "19 Aug \u00b7 02:00 PM",
+   "ur": "US Dollar: ziyadah pedawar se rahaish aur khatre ke jazbat - MUFG"
+  },
+  {
+   "ts": 1787129356.0,
+   "title": "Japanese Yen: BoJ\u2019s hawkish pivot reshapes outlook against US Dollar - Standard Chartered",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-bojs-hawkish-pivot-reshapes-outlook-against-us-dollar-standard-chartered-202608190849",
+   "t": "19 Aug \u00b7 01:49 PM",
+   "ur": "Japani yan: BoJ ka ajeeb w ghareeb mahur US Dollar ke khalaf naqatah nazar ko tabadil karta hai - stindrd charter"
+  },
+  {
+   "ts": 1787128273.0,
+   "title": "Swiss Franc picks up within range, USDollar softens awaiting Fed minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-picks-up-within-range-usdollar-softens-awaiting-fed-minutes-202608190831",
+   "t": "19 Aug \u00b7 01:31 PM",
+   "ur": "Sois farank rinj ke andar andar atha, USDollar Fed manton ke antezar mein narm"
+  },
+  {
+   "ts": 1787128128.0,
+   "title": "Indian Rupee: Range-bound with RBI support against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-range-bound-with-rbi-support-against-us-dollar-commerzbank-202608190828",
+   "t": "19 Aug \u00b7 01:28 PM",
+   "ur": "Handostani ropiya: US Dollar ke maqable mein RBI ki support ke sath had se manslk - Commerzbank"
   },
   {
    "ts": 1787127611.0,
@@ -454,38 +488,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-range-bound-trading-as-fomc-minutes-loom-ing-202608190809",
    "t": "19 Aug \u00b7 01:09 PM",
    "ur": "US Dollar: FOMC mant ki had tak tajart - ING"
-  },
-  {
-   "ts": 1787126333.0,
-   "title": "Euro: Extends rebound as yields stabilize against US Dollar - Danske Bank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-extends-rebound-as-yields-stabilize-against-us-dollar-danske-bank-202608190758",
-   "t": "19 Aug \u00b7 12:58 PM",
-   "ur": "Uro: US Dollar ke maqable mein pedawar mastahkam hone par saht mandi lotne mein tosi - dansk Bank"
-  },
-  {
-   "ts": 1787125788.0,
-   "title": "British Pound: BoE outlook steady with CPI and jobs data \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-boe-outlook-steady-with-cpi-and-jobs-data-mufg-202608190749",
-   "t": "19 Aug \u00b7 12:49 PM",
-   "ur": "Bartish pound: BoE oat lak CPI aur malazmaton ke deta - MUFG ke sath mastahkam hai."
-  },
-  {
-   "ts": 1787125149.0,
-   "title": "Forex Today: UK inflation data arrive mixed, focus shifts to FOMC Minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-uk-inflation-data-arrive-mixed-focus-shifts-to-fomc-minutes-202608190739",
-   "t": "19 Aug \u00b7 12:39 PM",
-   "ur": "Farex today: ue ke inflation (mehngai) ke aed w shmar male jale aate hen, tojah FOMC mants par mantaql hoti hai."
-  },
-  {
-   "ts": 1787124790.0,
-   "title": "Canadian Dollar: Tariff delay offers only muted relief \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-tariff-delay-offers-only-muted-relief-commerzbank-202608190733",
-   "t": "19 Aug \u00b7 12:33 PM",
-   "ur": "Caniden Dollar: terf mein taakhair sarf khamosh rilif pesh karti hai - kamers Bank"
   }
  ],
  "sentiment": {
