@@ -1,15 +1,13 @@
 {
- "updated": "20-08-2026 01:11 PKT",
+ "updated": "20-08-2026 01:43 PKT",
  "gold": {
-  "price": 4510.23,
-  "open": 4341.91,
-  "high": 4512.23,
+  "price": 4519.79,
+  "open": 4334.14,
+  "high": 4523.04,
   "low": 4325.97,
-  "chg": 3.88,
+  "chg": 4.28,
   "src": "XAUUSD Spot",
   "spark": [
-   4358.7,
-   4362.31,
    4355.34,
    4356.32,
    4354.66,
@@ -55,14 +53,16 @@
    4506.63,
    4506.12,
    4509.54,
-   4510.23
+   4506.67,
+   4519.17,
+   4519.79
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.465,
-   "chg": 3.95,
+   "price": 66.775,
+   "chg": 4.43,
    "spark": [
     58.835,
     60.019,
@@ -85,21 +85,23 @@
     64.988,
     66.121,
     63.941,
-    66.465
+    66.775
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.794,
-   "chg": -0.86,
+   "price": 98.816,
+   "chg": -0.84,
    "spark": [
-    100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    98.794
+    98.816
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.24,
-   "chg": -0.82,
+   "price": 84.31,
+   "chg": -0.74,
    "spark": [
     84.91,
     86.83,
@@ -141,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    84.24
+    84.31
    ]
   },
   {
@@ -149,12 +151,15 @@
    "price": 4.653,
    "chg": -1.13,
    "spark": [
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -172,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.168,
-   "chg": 0.84,
+   "price": 1.1682,
+   "chg": 0.86,
    "spark": [
-    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -194,17 +198,17 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
-    1.168
+    1.1682
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3606,
-   "chg": 0.41,
+   "price": 1.3607,
+   "chg": 0.42,
    "spark": [
-    1.3446,
     1.3432,
     1.3379,
     1.3375,
@@ -223,15 +227,16 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
-    1.3606
+    1.3607
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.157,
-   "chg": -0.74,
+   "price": 158.146,
+   "chg": -0.75,
    "spark": [
     162.487,
     163.186,
@@ -254,13 +259,13 @@
     159.426,
     159.223,
     159.34,
-    158.157
+    158.146
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2112.9,
-   "chg": 10.25,
+   "price": 2123.63,
+   "chg": 10.81,
    "spark": [
     1904.56,
     1902.83,
@@ -309,13 +314,13 @@
     2090.05,
     2091.0,
     2101.38,
-    2112.9
+    2123.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 68594.2,
-   "chg": 6.06,
+   "price": 68674.3,
+   "chg": 6.18,
    "spark": [
     64330.1,
     64232.3,
@@ -364,7 +369,7 @@
     68173.4,
     68379.4,
     68393.8,
-    68563.5
+    68674.3
    ]
   }
  ],
@@ -405,28 +410,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787170314.38744,
+   "ts": 1787172208.969416,
    "title": "Gold pops as dollar, yields fall; spot prices top $4.5k for first time since June",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "20 Aug \u00b7 01:11 AM",
+   "t": "20 Aug \u00b7 01:43 AM",
    "ur": "Gold (sona) Dollar ke tur par khalta hai, pedawar mein kami; jon ke bad pehli bar spat ki qeemtin $4.5k ke oper hen."
   },
   {
-   "ts": 1787170314.38744,
+   "ts": 1787172208.969416,
    "title": "Silver tests $67.00 resistance with double top risk: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 01:11 AM",
+   "t": "20 Aug \u00b7 01:43 AM",
    "ur": "Silver (chandi) dabl tap rask ke sath $67.00 mazahmat ki janch karti hai."
   },
   {
-   "ts": 1787170314.38744,
+   "ts": 1787172208.969416,
    "title": "Gold hits 4,564 high with RSI near overbought: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "20 Aug \u00b7 01:11 AM",
+   "t": "20 Aug \u00b7 01:43 AM",
    "ur": "Overbot ke qarib RSI ke sath Gold (sona) 4,564 ki balandi par pohch gaya."
+  },
+  {
+   "ts": 1787171568.0,
+   "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
+   "t": "20 Aug \u00b7 01:32 AM",
+   "ur": "Trmp ne fed ki rate sud ki palisi par afsos ka azhar kiya, kahate hen kah amrikah ko bahat kam adaigi karni chahiye."
   },
   {
    "ts": 1787170047.0,
@@ -475,14 +488,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-jumps-as-falling-us-yields-weigh-on-the-usd-202608191706",
    "t": "19 Aug \u00b7 10:06 PM",
    "ur": "US Dollar par garti hoi pedawar ke wazin ke baas niyozi lind ka Dollar chhalang laga raha hai."
-  },
-  {
-   "ts": 1787158554.0,
-   "title": "Gold rallies as buyback sinks yields despite Fed hawkish minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-soars-toward-4-500-as-treasury-buyback-sinks-us-yields-202608191655",
-   "t": "19 Aug \u00b7 09:55 PM",
-   "ur": "Fed hakish mants ke bawajud bai bek dobane ke natije mein Gold (sone) ki riliyan"
   }
  ],
  "sentiment": {
