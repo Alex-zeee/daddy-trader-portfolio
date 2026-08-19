@@ -1,14 +1,13 @@
 {
- "updated": "19-08-2026 15:50 PKT",
+ "updated": "19-08-2026 16:13 PKT",
  "gold": {
-  "price": 4368.66,
-  "open": 4397.34,
+  "price": 4372.33,
+  "open": 4393.39,
   "high": 4404.7,
   "low": 4325.97,
-  "chg": -0.65,
+  "chg": -0.48,
   "src": "XAUUSD Spot",
   "spark": [
-   4333.92,
    4330.75,
    4329.54,
    4332.97,
@@ -55,14 +54,15 @@
    4363.51,
    4368.57,
    4367.35,
-   4368.66
+   4366.42,
+   4372.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.38,
-   "chg": -0.88,
+   "price": 63.465,
+   "chg": -0.74,
    "spark": [
     58.835,
     60.019,
@@ -85,13 +85,13 @@
     64.988,
     66.121,
     63.941,
-    63.38
+    63.465
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.36,
-   "chg": -0.29,
+   "price": 99.388,
+   "chg": -0.26,
    "spark": [
     101.18,
     101.14,
@@ -114,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    99.36
+    99.388
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.14,
-   "chg": 0.24,
+   "price": 84.89,
+   "chg": -0.06,
    "spark": [
     84.91,
     86.83,
@@ -143,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    85.14
+    84.89
    ]
   },
   {
@@ -173,10 +173,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1614,
-   "chg": 0.27,
+   "price": 1.1609,
+   "chg": 0.23,
    "spark": [
-    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -195,16 +194,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
-    1.1614
+    1.1609
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3564,
-   "chg": 0.1,
+   "price": 1.3555,
+   "chg": 0.04,
    "spark": [
+    1.3446,
     1.3432,
     1.3379,
     1.3375,
@@ -223,16 +224,15 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3547,
     1.355,
-    1.3564
+    1.3555
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.05,
-   "chg": -0.18,
+   "price": 159.121,
+   "chg": -0.14,
    "spark": [
     162.487,
     163.186,
@@ -255,15 +255,14 @@
     159.426,
     159.223,
     159.34,
-    159.05
+    159.121
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1917.76,
-   "chg": 0.07,
+   "price": 1922.16,
+   "chg": 0.3,
    "spark": [
-    1902.37,
     1897.06,
     1902.99,
     1907.99,
@@ -310,15 +309,15 @@
     1914.45,
     1920.02,
     1917.59,
-    1917.76
+    1918.48,
+    1922.16
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64357.0,
-   "chg": -0.5,
+   "price": 64451.1,
+   "chg": -0.35,
    "spark": [
-    63561.2,
     63484.7,
     63583.2,
     63809.9,
@@ -365,7 +364,8 @@
     64254.0,
     64370.8,
     64371.3,
-    64357.0
+    64383.2,
+    64451.1
    ]
   }
  ],
@@ -406,20 +406,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787136654.23971,
+   "ts": 1787137985.364773,
+   "title": "Gold\u2019s rally isn\u2019t over, says UBS \u2014 what\u2019s behind its $5,400 target?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/golds-rally-isnt-over-says-ubs--whats-behind-its-5400-target-4866914",
+   "t": "19 Aug \u00b7 04:13 PM",
+   "ur": "Ue bi es ka kahana hai kah gold ki rili khtam nihen hoi hai - is ke $5,400 ke target ke patchhe kiya hai?"
+  },
+  {
+   "ts": 1787137985.364773,
    "title": "Gold prices inch higher as U.S. dollar, yields ease ahead of Fed minutes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "19 Aug \u00b7 03:50 PM",
+   "t": "19 Aug \u00b7 04:13 PM",
    "ur": "Gold (sone) ki qeemtin US Dollar ki tarah anch ziyadah hen, fed mant se pehle aasani peda karti hai."
   },
   {
-   "ts": 1787136654.23971,
+   "ts": 1787137985.364773,
    "title": "Silver breaks Ichimoku cloud near $62.40 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "19 Aug \u00b7 03:50 PM",
+   "t": "19 Aug \u00b7 04:13 PM",
    "ur": "Silver (chandi) ne Ichimoku kalaud ko $62.40 sport ke qarib tod diya."
+  },
+  {
+   "ts": 1787137752.0,
+   "title": "Gold finds support as US Dollar retreats ahead of Fed Minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-finds-support-as-us-dollar-retreats-ahead-of-fed-minutes-202608191109",
+   "t": "19 Aug \u00b7 04:09 PM",
+   "ur": "Fed mants se pehle US Dollar ke patchhe hatte hi Gold (sone) ko sport mal gayi."
+  },
+  {
+   "ts": 1787137660.0,
+   "title": "US Dollar: Exposure normalizes as real rates fall \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-exposure-normalizes-as-real-rates-fall-bny-202608191107",
+   "t": "19 Aug \u00b7 04:07 PM",
+   "ur": "US Dollar: haqeeqi sharahon mein kami ke sath hi namaish mamol par aati hai \u2013 BNY"
   },
   {
    "ts": 1787135523.0,
@@ -460,30 +484,6 @@
    "link": "https://www.fxstreet.com/news/united-kingdom-upside-risks-building-for-inflation-deutsche-bank-202608190929",
    "t": "19 Aug \u00b7 02:29 PM",
    "ur": "Unaited kangdom: inflation (mehngai) ke liye oper ki taraf khatrah - deoche Bank"
-  },
-  {
-   "ts": 1787130050.0,
-   "title": "US Dollar: Higher yields threaten housing and risk sentiment \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-higher-yields-threaten-housing-and-risk-sentiment-mufg-202608190900",
-   "t": "19 Aug \u00b7 02:00 PM",
-   "ur": "US Dollar: ziyadah pedawar se rahaish aur khatre ke jazbat - MUFG"
-  },
-  {
-   "ts": 1787129356.0,
-   "title": "Japanese Yen: BoJ\u2019s hawkish pivot reshapes outlook against US Dollar - Standard Chartered",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-bojs-hawkish-pivot-reshapes-outlook-against-us-dollar-standard-chartered-202608190849",
-   "t": "19 Aug \u00b7 01:49 PM",
-   "ur": "Japani yan: BoJ ka ajeeb w ghareeb mahur US Dollar ke khalaf naqatah nazar ko tabadil karta hai - stindrd charter"
-  },
-  {
-   "ts": 1787128273.0,
-   "title": "Swiss Franc picks up within range, USDollar softens awaiting Fed minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-picks-up-within-range-usdollar-softens-awaiting-fed-minutes-202608190831",
-   "t": "19 Aug \u00b7 01:31 PM",
-   "ur": "Sois farank rinj ke andar andar atha, USDollar Fed manton ke antezar mein narm"
   }
  ],
  "sentiment": {
