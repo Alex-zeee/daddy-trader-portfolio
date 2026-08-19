@@ -1,15 +1,13 @@
 {
- "updated": "19-08-2026 14:02 PKT",
+ "updated": "19-08-2026 14:46 PKT",
  "gold": {
-  "price": 4356.08,
-  "open": 4392.2,
+  "price": 4358.97,
+  "open": 4388.61,
   "high": 4404.7,
   "low": 4325.97,
-  "chg": -0.82,
+  "chg": -0.68,
   "src": "XAUUSD Spot",
   "spark": [
-   4334.4,
-   4334.59,
    4334.4,
    4342.4,
    4335.72,
@@ -55,14 +53,16 @@
    4358.7,
    4362.31,
    4355.34,
-   4356.08
+   4356.32,
+   4354.66,
+   4358.97
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.29,
-   "chg": -1.02,
+   "price": 63.195,
+   "chg": -1.17,
    "spark": [
     58.835,
     60.019,
@@ -85,13 +85,13 @@
     64.988,
     66.121,
     63.941,
-    63.29
+    63.195
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.427,
-   "chg": -0.22,
+   "price": 99.404,
+   "chg": -0.25,
    "spark": [
     101.18,
     101.14,
@@ -114,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    99.427
+    99.404
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.61,
-   "chg": -0.39,
+   "price": 84.69,
+   "chg": -0.29,
    "spark": [
     84.91,
     86.83,
@@ -143,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    84.61
+    84.69
    ]
   },
   {
@@ -177,9 +177,10 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.16,
-   "chg": 0.14,
+   "price": 1.1609,
+   "chg": 0.23,
    "spark": [
+    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -198,16 +199,15 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
     1.1574,
     1.1583,
-    1.16
+    1.1609
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3551,
-   "chg": 0.0,
+   "price": 1.3554,
+   "chg": 0.03,
    "spark": [
     1.3432,
     1.3379,
@@ -230,13 +230,13 @@
     1.3491,
     1.3547,
     1.355,
-    1.3551
+    1.3554
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.208,
-   "chg": -0.08,
+   "price": 159.129,
+   "chg": -0.13,
    "spark": [
     162.487,
     163.186,
@@ -259,13 +259,13 @@
     159.426,
     159.223,
     159.34,
-    159.208
+    159.129
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1920.81,
-   "chg": 0.23,
+   "price": 1917.1,
+   "chg": 0.04,
    "spark": [
     1904.9,
     1902.37,
@@ -314,13 +314,13 @@
     1915.82,
     1914.45,
     1920.02,
-    1920.81
+    1917.1
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64365.5,
-   "chg": -0.48,
+   "price": 64309.5,
+   "chg": -0.57,
    "spark": [
     63610.8,
     63561.2,
@@ -369,7 +369,7 @@
     64288.9,
     64254.0,
     64370.8,
-    64365.5
+    64309.5
    ]
   }
  ],
@@ -410,28 +410,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787130133.926478,
+   "ts": 1787132763.244593,
    "title": "Silver breaks Ichimoku cloud near $62.40 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "19 Aug \u00b7 02:02 PM",
+   "t": "19 Aug \u00b7 02:46 PM",
    "ur": "Silver (chandi) ne Ichimoku kalaud ko $62.40 sport ke qarib tod diya."
   },
   {
-   "ts": 1787130133.926478,
+   "ts": 1787132763.244593,
    "title": "Gold coils near $4,400 in tight range: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "19 Aug \u00b7 02:02 PM",
+   "t": "19 Aug \u00b7 02:46 PM",
    "ur": "Gold (sone) ki tajart kar raha hai saqt had mein $4,400 ke qarib"
   },
   {
-   "ts": 1787130133.926478,
-   "title": "Gold edges higher after sharp selloff as dollar, yields ease ahead of Fed minutes",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "19 Aug \u00b7 02:02 PM",
-   "ur": "Dollar ke tur par tizi se farokht hone ke bad Gold (sone) ki qeemtin baland huve, fed mant se pehle aasani peda hoti hai"
+   "ts": 1787132213.0,
+   "title": "Euro extends gains against British Pound as Eurozone inflation accelerates",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-extends-gains-against-british-pound-as-eurozone-inflation-accelerates-202608190936",
+   "t": "19 Aug \u00b7 02:36 PM",
+   "ur": "Uro ne bartish pound ke maqable mein faidah badhaya cunkah uro zon ki inflation (mehngai) mein tizi aati hai."
+  },
+  {
+   "ts": 1787131850.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608190930",
+   "t": "19 Aug \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
+  },
+  {
+   "ts": 1787131764.0,
+   "title": "United Kingdom: Upside risks building for inflation \u2013 Deutsche Bank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-kingdom-upside-risks-building-for-inflation-deutsche-bank-202608190929",
+   "t": "19 Aug \u00b7 02:29 PM",
+   "ur": "Unaited kangdom: inflation (mehngai) ke liye oper ki taraf khatrah - deoche Bank"
   },
   {
    "ts": 1787130050.0,
@@ -472,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/gold-pullback-risk-with-higher-yields-and-oil-ocbc-202608190820",
    "t": "19 Aug \u00b7 01:20 PM",
    "ur": "Gold (sona): ziyadah pedawar aur til ke sath wapsi ka khatrah - OCBC"
-  },
-  {
-   "ts": 1787127488.0,
-   "title": "United States Dollar Index slumps in countdown to FOMC minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-slumps-in-countdown-to-fomc-minutes-202608190818",
-   "t": "19 Aug \u00b7 01:18 PM",
-   "ur": "Ryastahaye matehdah ka Dollar andex FOMC mant tak alti ganti mein gar gaya."
-  },
-  {
-   "ts": 1787126978.0,
-   "title": "US Dollar: Range-bound trading as FOMC minutes loom \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-range-bound-trading-as-fomc-minutes-loom-ing-202608190809",
-   "t": "19 Aug \u00b7 01:09 PM",
-   "ur": "US Dollar: FOMC mant ki had tak tajart - ING"
   }
  ],
  "sentiment": {
