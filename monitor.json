@@ -1,16 +1,13 @@
 {
- "updated": "19-08-2026 15:15 PKT",
+ "updated": "19-08-2026 15:50 PKT",
  "gold": {
-  "price": 4363.51,
-  "open": 4393.32,
+  "price": 4368.66,
+  "open": 4397.34,
   "high": 4404.7,
   "low": 4325.97,
-  "chg": -0.68,
+  "chg": -0.65,
   "src": "XAUUSD Spot",
   "spark": [
-   4335.72,
-   4333.91,
-   4333.45,
    4333.92,
    4330.75,
    4329.54,
@@ -55,14 +52,17 @@
    4354.66,
    4358.97,
    4361.34,
-   4363.51
+   4363.51,
+   4368.57,
+   4367.35,
+   4368.66
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.23,
-   "chg": -1.11,
+   "price": 63.38,
+   "chg": -0.88,
    "spark": [
     58.835,
     60.019,
@@ -85,21 +85,23 @@
     64.988,
     66.121,
     63.941,
-    63.23
+    63.38
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.4,
-   "chg": -0.25,
+   "price": 99.36,
+   "chg": -0.29,
    "spark": [
-    100.99,
+    101.18,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -112,13 +114,13 @@
     99.67,
     99.64,
     99.65,
-    99.4
+    99.36
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.02,
-   "chg": 0.09,
+   "price": 85.14,
+   "chg": 0.24,
    "spark": [
     84.91,
     86.83,
@@ -141,7 +143,7 @@
     82.4,
     84.5,
     84.94,
-    85.02
+    85.14
    ]
   },
   {
@@ -171,9 +173,10 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1613,
-   "chg": 0.26,
+   "price": 1.1614,
+   "chg": 0.27,
    "spark": [
+    1.1428,
     1.1418,
     1.1404,
     1.1412,
@@ -192,16 +195,15 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
     1.1574,
     1.1583,
-    1.1613
+    1.1614
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3562,
-   "chg": 0.09,
+   "price": 1.3564,
+   "chg": 0.1,
    "spark": [
     1.3432,
     1.3379,
@@ -224,12 +226,12 @@
     1.3491,
     1.3547,
     1.355,
-    1.3562
+    1.3564
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.047,
+   "price": 159.05,
    "chg": -0.18,
    "spark": [
     162.487,
@@ -253,13 +255,13 @@
     159.426,
     159.223,
     159.34,
-    159.047
+    159.05
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1916.97,
-   "chg": 0.03,
+   "price": 1917.76,
+   "chg": 0.07,
    "spark": [
     1902.37,
     1897.06,
@@ -308,13 +310,13 @@
     1914.45,
     1920.02,
     1917.59,
-    1916.97
+    1917.76
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64330.0,
-   "chg": -0.54,
+   "price": 64357.0,
+   "chg": -0.5,
    "spark": [
     63561.2,
     63484.7,
@@ -363,7 +365,7 @@
     64254.0,
     64370.8,
     64371.3,
-    64330.0
+    64357.0
    ]
   }
  ],
@@ -404,20 +406,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787134531.041279,
+   "ts": 1787136654.23971,
    "title": "Gold prices inch higher as U.S. dollar, yields ease ahead of Fed minutes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "19 Aug \u00b7 03:15 PM",
+   "t": "19 Aug \u00b7 03:50 PM",
    "ur": "Gold (sone) ki qeemtin US Dollar ki tarah anch ziyadah hen, fed mant se pehle aasani peda karti hai."
   },
   {
-   "ts": 1787134531.041279,
+   "ts": 1787136654.23971,
    "title": "Silver breaks Ichimoku cloud near $62.40 support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "19 Aug \u00b7 03:15 PM",
+   "t": "19 Aug \u00b7 03:50 PM",
    "ur": "Silver (chandi) ne Ichimoku kalaud ko $62.40 sport ke qarib tod diya."
+  },
+  {
+   "ts": 1787135523.0,
+   "title": "Australian Dollar ticks up from intra-week lows with all eyes on Fed minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-ticks-up-from-intra-week-lows-with-all-eyes-on-fed-minutes-202608191032",
+   "t": "19 Aug \u00b7 03:32 PM",
+   "ur": "Aasterilvi Dollar fed mant par tamam nazaron ke sath antra wek ki nchali sath se oper ja raha hai."
   },
   {
    "ts": 1787132981.0,
@@ -425,7 +435,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-rba-seen-sidelined-on-softer-wages-bbh-202608190949",
    "t": "19 Aug \u00b7 02:49 PM",
-   "ur": "Aasterilvi Dollar: RBA ko narm ajrat par nazar andaz kiya gaya - BBH"
+   "ur": "Aasterilin Dollar: RBA narm ajrat par nazar andaz kar diya gaya - BBH"
   },
   {
    "ts": 1787132213.0,
@@ -474,14 +484,6 @@
    "link": "https://www.fxstreet.com/news/swiss-franc-picks-up-within-range-usdollar-softens-awaiting-fed-minutes-202608190831",
    "t": "19 Aug \u00b7 01:31 PM",
    "ur": "Sois farank rinj ke andar andar atha, USDollar Fed manton ke antezar mein narm"
-  },
-  {
-   "ts": 1787128128.0,
-   "title": "Indian Rupee: Range-bound with RBI support against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-range-bound-with-rbi-support-against-us-dollar-commerzbank-202608190828",
-   "t": "19 Aug \u00b7 01:28 PM",
-   "ur": "Handostani ropiya: US Dollar ke maqable mein RBI ki support ke sath had se manslk - Commerzbank"
   }
  ],
  "sentiment": {
