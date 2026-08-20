@@ -1,16 +1,13 @@
 {
- "updated": "20-08-2026 20:00 PKT",
+ "updated": "20-08-2026 20:46 PKT",
  "gold": {
-  "price": 4515.2,
-  "open": 4487.82,
-  "high": 4527.83,
+  "price": 4513.58,
+  "open": 4488.11,
+  "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.61,
+  "chg": 0.57,
   "src": "XAUUSD Spot",
   "spark": [
-   4492.06,
-   4494.14,
-   4496.52,
    4498.62,
    4497.48,
    4492.35,
@@ -55,14 +52,17 @@
    4489.87,
    4488.16,
    4500.43,
-   4515.2
+   4515.2,
+   4535.62,
+   4533.75,
+   4513.58
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.0,
-   "chg": 3.45,
+   "price": 68.59,
+   "chg": 4.34,
    "spark": [
     60.019,
     57.798,
@@ -85,22 +85,21 @@
     66.121,
     63.941,
     65.734,
-    68.0
+    68.59
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.8,
-   "chg": -0.03,
+   "price": 98.832,
+   "chg": 0.0,
    "spark": [
-    101.14,
+    100.99,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +113,13 @@
     99.64,
     99.65,
     98.83,
-    98.8
+    98.832
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.21,
-   "chg": 0.44,
+   "price": 86.69,
+   "chg": 1.0,
    "spark": [
     86.83,
     92.19,
@@ -143,22 +142,20 @@
     84.5,
     84.94,
     85.83,
-    86.21
+    86.69
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.688,
-   "chg": 0.75,
+   "price": 4.7,
+   "chg": 1.01,
    "spark": [
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -172,14 +169,44 @@
     4.724,
     4.706,
     4.653,
-    4.688
+    4.7
+   ]
+  },
+  {
+   "name": "EUR/USD",
+   "price": 1.1677,
+   "chg": 0.84,
+   "spark": [
+    1.1418,
+    1.1404,
+    1.1412,
+    1.1377,
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1574,
+    1.1583,
+    1.1579,
+    1.1677
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3632,
-   "chg": 0.71,
+   "price": 1.363,
+   "chg": 0.69,
    "spark": [
+    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -197,17 +224,16 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3632
+    1.363
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.723,
-   "chg": -0.52,
+   "price": 158.953,
+   "chg": -0.37,
    "spark": [
     163.186,
     163.081,
@@ -230,13 +256,13 @@
     159.223,
     159.34,
     159.55,
-    158.723
+    158.953
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2283.96,
-   "chg": 1.44,
+   "price": 2302.47,
+   "chg": 2.26,
    "spark": [
     1917.07,
     1910.0,
@@ -285,13 +311,13 @@
     2288.51,
     2274.0,
     2278.62,
-    2283.96
+    2302.49
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71788.7,
-   "chg": 3.61,
+   "price": 72177.4,
+   "chg": 4.17,
    "spark": [
     64794.5,
     64622.4,
@@ -340,11 +366,27 @@
     71884.7,
     71625.8,
     71764.1,
-    71788.7
+    72177.4
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1787162400.0,
+   "t": "Wed 19 Aug \u00b7 11:00 PM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1787164200.0,
+   "t": "Wed 19 Aug \u00b7 11:30 PM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
   {
    "ts": 1787229000.0,
    "t": "Thu 20 Aug \u00b7 05:30 PM",
@@ -362,15 +404,31 @@
    "previous": "209K"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1787238057.567269,
+   "ts": 1787240770.012218,
    "title": "Gold retreats after Treasury buybacks fuel rally to more than 2-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 08:00 PM",
+   "t": "20 Aug \u00b7 08:46 PM",
    "ur": "Treasurei ki janb se andhan ki wapsi ke bad Gold (sona) 2 mah ki baland tarin sath par patchhe hat gaya."
+  },
+  {
+   "ts": 1787240133.0,
+   "title": "Bessent says Treasury buyback operation could be more than $4 billion",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/20/bessent-says-treasury-buyback-operation-could-be-more-than-4-billion.html",
+   "t": "20 Aug \u00b7 08:35 PM",
+   "ur": "Bessent ka kahana hai kah treasurei bi bek operation $4 balin se ziyadah hoskta hai."
+  },
+  {
+   "ts": 1787238121.0,
+   "title": "Canadian Dollar remains supported by rising Oil prices and US tariff pause",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-supported-despite-modest-us-dollar-rebound-202608201502",
+   "t": "20 Aug \u00b7 08:02 PM",
+   "ur": "Caniden Dollar til ki badhti hoi qeemton aur US terf ke waqafe ki wajah se barqarar hai."
   },
   {
    "ts": 1787235235.0,
@@ -427,22 +485,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-consolidation-after-treasury-buybacks-dbs-202608201305",
    "t": "20 Aug \u00b7 06:05 PM",
    "ur": "US Dollar: treasurei bi bex ke bad istehkam - DBS"
-  },
-  {
-   "ts": 1787230851.0,
-   "title": "Fed's Daly: Rise in long term yields is a global issue",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-daly-rise-in-long-term-yields-is-a-global-issue-202608201300",
-   "t": "20 Aug \u00b7 06:00 PM",
-   "ur": "Fed's Daly: tavel madati pedawar mein azafah ek alimi maslah hai."
-  },
-  {
-   "ts": 1787230442.0,
-   "title": "Australian Dollar retreats as weak jobs data weighs on RBA rate outlook",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-retreats-as-weak-jobs-data-weighs-on-rba-rate-outlook-202608201254",
-   "t": "20 Aug \u00b7 05:54 PM",
-   "ur": "Aasterilvi Dollar patchhe hat raha hai cunkah kamazor malazmaton ka deta RBA ki rate ke oat lak par wazin rakta hai."
   }
  ],
  "sentiment": {
