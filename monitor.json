@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 02:02 PKT",
+ "updated": "21-08-2026 02:39 PKT",
  "gold": {
-  "price": 4519.06,
-  "open": 4522.78,
+  "price": 4519.18,
+  "open": 4522.71,
   "high": 4544.49,
   "low": 4451.37,
   "chg": -0.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4489.58,
-   4489.69,
    4483.94,
    4490.1,
    4492.3,
@@ -55,14 +53,16 @@
    4521.4,
    4518.57,
    4519.34,
-   4519.06
+   4519.08,
+   4519.15,
+   4519.18
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.205,
-   "chg": 3.76,
+   "price": 68.13,
+   "chg": 3.64,
    "spark": [
     60.019,
     57.798,
@@ -85,21 +85,22 @@
     66.121,
     63.941,
     65.734,
-    68.205
+    68.13
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.869,
+   "price": 98.866,
    "chg": 0.04,
    "spark": [
-    100.99,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +114,13 @@
     99.64,
     99.65,
     98.83,
-    98.869
+    98.866
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.36,
-   "chg": 0.62,
+   "price": 86.21,
+   "chg": 0.44,
    "spark": [
     86.83,
     92.19,
@@ -142,7 +143,7 @@
     84.5,
     84.94,
     85.83,
-    86.36
+    86.21
    ]
   },
   {
@@ -150,12 +151,14 @@
    "price": 4.696,
    "chg": 0.92,
    "spark": [
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -174,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1681,
-   "chg": 0.88,
+   "price": 1.1682,
+   "chg": 0.89,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -195,18 +197,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1681
+    1.1682
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3631,
-   "chg": 0.7,
+   "price": 1.363,
+   "chg": 0.69,
    "spark": [
-    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -224,16 +226,17 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3631
+    1.363
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.987,
-   "chg": -0.35,
+   "price": 159.008,
+   "chg": -0.34,
    "spark": [
     163.186,
     163.081,
@@ -256,13 +259,13 @@
     159.223,
     159.34,
     159.55,
-    158.987
+    159.008
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2317.02,
-   "chg": 2.91,
+   "price": 2318.85,
+   "chg": 2.99,
    "spark": [
     1912.23,
     1916.04,
@@ -311,13 +314,13 @@
     2315.99,
     2322.62,
     2317.89,
-    2317.02
+    2318.85
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72595.6,
-   "chg": 4.78,
+   "price": 72789.4,
+   "chg": 5.06,
    "spark": [
     64591.6,
     64677.2,
@@ -366,7 +369,7 @@
     72410.3,
     72632.2,
     72656.2,
-    72595.6
+    72789.4
    ]
   }
  ],
@@ -407,36 +410,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787259743.262176,
+   "ts": 1787261962.423883,
    "title": "Spot gold holds above $4.5k a day after topping the mark for first time since June",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "21 Aug \u00b7 02:02 AM",
+   "t": "21 Aug \u00b7 02:39 AM",
    "ur": "Jon ke bad pehli bar mark tap karne ke bad spat gold ek dan mein $4.5k se oper rakta hai."
   },
   {
-   "ts": 1787259743.262176,
+   "ts": 1787261962.423883,
    "title": "Silver surges to $68.30 near upper Bollinger Band: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 02:02 AM",
+   "t": "21 Aug \u00b7 02:39 AM",
    "ur": "Balingr bind ke qarib Silver (chandi) $68.30 tak badh gayi."
   },
   {
-   "ts": 1787259743.262176,
+   "ts": 1787261962.423883,
    "title": "Gold tests $4,600 resistance with overbought RSI: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "21 Aug \u00b7 02:02 AM",
+   "t": "21 Aug \u00b7 02:39 AM",
    "ur": "Gold (sona) ziyadah khareedi hoi RSI ke sath $4,600 ki mazahmat ko janchta hai."
   },
   {
-   "ts": 1787256570.0,
+   "ts": 1787260706.0,
+   "title": "Japanese Yen slips as firmer yields lift US Dollar ahead of global PMIs",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-slips-as-firmer-yields-lift-us-dollar-ahead-of-global-pmis-202608202118",
+   "t": "21 Aug \u00b7 02:18 AM",
+   "ur": "Japani yan phisal gaya cunkah mazboot pedawar ne US Dollar ko alimi PMIs se aage badha diya"
+  },
+  {
+   "ts": 1787260394.0,
    "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
-   "t": "21 Aug \u00b7 01:09 AM",
-   "ur": "Treasurei market mein besint ki koshashin ab tak kargar saabat nihen huve. yahan wah aur kiya koshash kar sakta hai."
+   "t": "21 Aug \u00b7 02:13 AM",
+   "ur": "Treasurei market mein besint ki koshashon ne ab tak kam nihen kiya hai. yahan wah aur kiya koshash kar sakta hai."
   },
   {
    "ts": 1787253315.0,
@@ -477,14 +488,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-tests-100-day-sma-as-rally-extends-202608201812",
    "t": "20 Aug \u00b7 11:12 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD 100-day SMA test karta hai cunkah rili mein tosi hoti hai"
-  },
-  {
-   "ts": 1787248606.0,
-   "title": "Japanese Yen underperforms as elevated Oil prices weigh, US Dollar recovers",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-underperforms-as-elevated-oil-prices-weigh-us-dollar-recovers-202608201756",
-   "t": "20 Aug \u00b7 10:56 PM",
-   "ur": "Japani yan ne kam karkardgi ka mazaharah kiya cunkah til ki baland qeemton ka wazin, US Dollar ki recovery"
   }
  ],
  "sentiment": {
