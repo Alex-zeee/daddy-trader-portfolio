@@ -1,16 +1,13 @@
 {
- "updated": "20-08-2026 23:19 PKT",
+ "updated": "21-08-2026 00:07 PKT",
  "gold": {
-  "price": 4510.13,
-  "open": 4475.19,
+  "price": 4522.34,
+  "open": 4504.35,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.78,
+  "chg": 0.4,
   "src": "XAUUSD Spot",
   "spark": [
-   4492.73,
-   4493.68,
-   4488.73,
    4484.36,
    4490.62,
    4490.08,
@@ -55,14 +52,17 @@
    4517.83,
    4520.07,
    4510.26,
-   4510.13
+   4519.32,
+   4520.96,
+   4522.17,
+   4522.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.98,
-   "chg": 3.42,
+   "price": 68.05,
+   "chg": 3.52,
    "spark": [
     60.019,
     57.798,
@@ -85,22 +85,21 @@
     66.121,
     63.941,
     65.734,
-    67.98
+    68.05
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.906,
-   "chg": 0.08,
+   "price": 98.892,
+   "chg": 0.06,
    "spark": [
-    101.14,
+    100.99,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
-    99.8,
     99.96,
     99.89,
     99.69,
@@ -114,13 +113,13 @@
     99.64,
     99.65,
     98.83,
-    98.906
+    98.892
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.43,
-   "chg": 0.7,
+   "price": 86.87,
+   "chg": 1.21,
    "spark": [
     86.83,
     92.19,
@@ -143,22 +142,20 @@
     84.5,
     84.94,
     85.83,
-    86.43
+    86.87
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.696,
-   "chg": 0.92,
+   "price": 4.7,
+   "chg": 1.01,
    "spark": [
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -172,14 +169,15 @@
     4.724,
     4.706,
     4.653,
-    4.696
+    4.7
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1674,
-   "chg": 0.82,
+   "price": 1.1678,
+   "chg": 0.85,
    "spark": [
+    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -197,18 +195,18 @@
     1.1546,
     1.1544,
     1.153,
-    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1674
+    1.1678
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3622,
-   "chg": 0.63,
+   "price": 1.3628,
+   "chg": 0.67,
    "spark": [
+    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -226,16 +224,15 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3622
+    1.3628
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.151,
+   "price": 159.155,
    "chg": -0.25,
    "spark": [
     163.186,
@@ -259,15 +256,14 @@
     159.223,
     159.34,
     159.55,
-    159.151
+    159.155
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2326.99,
-   "chg": 3.35,
+   "price": 2319.81,
+   "chg": 3.03,
    "spark": [
-    1911.94,
     1912.3,
     1910.95,
     1912.23,
@@ -314,15 +310,15 @@
     2325.92,
     2343.5,
     2343.34,
-    2326.99
+    2315.99,
+    2319.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72590.7,
-   "chg": 4.77,
+   "price": 72432.0,
+   "chg": 4.54,
    "spark": [
-    64617.2,
     64550.1,
     64559.6,
     64591.6,
@@ -369,7 +365,8 @@
     72431.7,
     72816.6,
     72723.6,
-    72590.7
+    72410.3,
+    72432.0
    ]
   }
  ],
@@ -410,12 +407,36 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787249946.327247,
+   "ts": 1787252854.121437,
    "title": "Truist upgrades gold to neutral on rate outlook and dollar weakness",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/truist-upgrades-gold-to-neutral-on-rate-outlook-and-dollar-weakness-93CH-4870269",
-   "t": "20 Aug \u00b7 11:19 PM",
+   "t": "21 Aug \u00b7 12:07 AM",
    "ur": "Tarts ret oat lak aur Dollar ki kamazori par Gold (sone) ko nuterl par ap gared karta hai."
+  },
+  {
+   "ts": 1787251487.0,
+   "title": "The Dollar Index takes its floor from a Fed non-voter",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-dollar-index-takes-its-floor-from-a-fed-non-voter-202608201844",
+   "t": "20 Aug \u00b7 11:44 PM",
+   "ur": "Dollar andex apani mazil fed naan votr se lita hai."
+  },
+  {
+   "ts": 1787251399.0,
+   "title": "Indonesian Rupiah: Softer Dollar offers limited relief \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-softer-dollar-offers-limited-relief-ocbc-202608201843",
+   "t": "20 Aug \u00b7 11:43 PM",
+   "ur": "Andonishin ropiya: narm Dollar muhadud rilif pesh karta hai - OCBC"
+  },
+  {
+   "ts": 1787250816.0,
+   "title": "Singapore Dollar: Upside risk stays in focus against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-in-focus-against-us-dollar-uob-202608201833",
+   "t": "20 Aug \u00b7 11:33 PM",
+   "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein oper ka khatrah rahta hai."
   },
   {
    "ts": 1787249541.0,
@@ -443,7 +464,7 @@
   },
   {
    "ts": 1787247386.0,
-   "title": "Banxico minutes signals long rate pause as inflation eases",
+   "title": "Banxico minutes signal long rate pause as inflation eases",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/banxico-signals-long-rate-pause-as-inflation-eases-202608201736",
    "t": "20 Aug \u00b7 10:36 PM",
@@ -464,30 +485,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-holds-near-highs-as-mixed-data-keeps-rba-tightening-bets-alive-202608201701",
    "t": "20 Aug \u00b7 10:01 PM",
    "ur": "Aasterilvi Dollar balandi ke qarib hai cunkah mukhaloot deta RBA ko saqt karne wali sharton ko zandah rakta hai."
-  },
-  {
-   "ts": 1787241538.0,
-   "title": "British Pound climbs as UK inflation keeps BoE hike bets alive",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-uk-inflation-keeps-boe-hike-bets-alive-202608201558",
-   "t": "20 Aug \u00b7 08:58 PM",
-   "ur": "Bartanvi pound chadhta hai cunkah uk inflation (mehngai) ne BoE mein azafe ki shart ko zandah rakha hai."
-  },
-  {
-   "ts": 1787241171.0,
-   "title": "Fed's Musalem: Hiking rates now could save more aggressive action later",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-musalem-hiking-rates-now-could-save-more-aggressive-action-later-202608201552",
-   "t": "20 Aug \u00b7 08:52 PM",
-   "ur": "Fed's Musalem: hicang rates ab bad mein mazid jarahana karwai ko bacha sakte hen."
-  },
-  {
-   "ts": 1787241120.0,
-   "title": "US Dollar: Debasement worries weigh after buyback \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-debasement-worries-weigh-after-buyback-scotiabank-202608201552",
-   "t": "20 Aug \u00b7 08:52 PM",
-   "ur": "US Dollar: wapsi ke bad tanzili ki pareshaniyon ka wazin hota hai \u2013 Scotiabank"
   }
  ],
  "sentiment": {
