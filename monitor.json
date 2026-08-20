@@ -1,16 +1,13 @@
 {
- "updated": "20-08-2026 20:46 PKT",
+ "updated": "20-08-2026 21:18 PKT",
  "gold": {
-  "price": 4513.58,
-  "open": 4488.11,
+  "price": 4509.14,
+  "open": 4492.61,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.57,
+  "chg": 0.37,
   "src": "XAUUSD Spot",
   "spark": [
-   4498.62,
-   4497.48,
-   4492.35,
    4487.6,
    4488.88,
    4486.56,
@@ -55,14 +52,17 @@
    4515.2,
    4535.62,
    4533.75,
-   4513.58
+   4513.58,
+   4523.21,
+   4512.59,
+   4509.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.59,
-   "chg": 4.34,
+   "price": 68.395,
+   "chg": 4.05,
    "spark": [
     60.019,
     57.798,
@@ -85,21 +85,22 @@
     66.121,
     63.941,
     65.734,
-    68.59
+    68.395
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.832,
-   "chg": 0.0,
+   "price": 98.858,
+   "chg": 0.03,
    "spark": [
-    100.99,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,36 +114,7 @@
     99.64,
     99.65,
     98.83,
-    98.832
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 86.69,
-   "chg": 1.0,
-   "spark": [
-    86.83,
-    92.19,
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4,
-    84.5,
-    84.94,
-    85.83,
-    86.69
+    98.858
    ]
   },
   {
@@ -150,12 +122,14 @@
    "price": 4.7,
    "chg": 1.01,
    "spark": [
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -174,10 +148,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1677,
-   "chg": 0.84,
+   "price": 1.1678,
+   "chg": 0.85,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -195,18 +168,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1677
+    1.1678
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.363,
-   "chg": 0.69,
+   "price": 1.3631,
+   "chg": 0.7,
    "spark": [
-    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -224,16 +197,17 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.363
+    1.3631
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.953,
-   "chg": -0.37,
+   "price": 158.971,
+   "chg": -0.36,
    "spark": [
     163.186,
     163.081,
@@ -256,15 +230,14 @@
     159.223,
     159.34,
     159.55,
-    158.953
+    158.971
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2302.47,
-   "chg": 2.26,
+   "price": 2321.05,
+   "chg": 3.09,
    "spark": [
-    1917.07,
     1910.0,
     1915.12,
     1911.94,
@@ -311,15 +284,15 @@
     2288.51,
     2274.0,
     2278.62,
-    2302.49
+    2325.92,
+    2321.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72177.4,
-   "chg": 4.17,
+   "price": 72276.9,
+   "chg": 4.32,
    "spark": [
-    64794.5,
     64622.4,
     64734.1,
     64617.2,
@@ -366,7 +339,8 @@
     71884.7,
     71625.8,
     71764.1,
-    72177.4
+    72431.7,
+    72276.9
    ]
   }
  ],
@@ -407,12 +381,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787240770.012218,
+   "ts": 1787242720.554524,
+   "title": "US Treasury Secretary Bessent to hold press conference on Iran\u00a0on Monday",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-treasury-secretary-bessent-to-hold-press-conference-on-iranon-monday-4870187",
+   "t": "20 Aug \u00b7 09:18 PM",
+   "ur": "US wazir khazana bessent per ko eran par paris kanfarns karin ge."
+  },
+  {
+   "ts": 1787242720.554524,
    "title": "Gold retreats after Treasury buybacks fuel rally to more than 2-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 08:46 PM",
+   "t": "20 Aug \u00b7 09:18 PM",
    "ur": "Treasurei ki janb se andhan ki wapsi ke bad Gold (sona) 2 mah ki baland tarin sath par patchhe hat gaya."
+  },
+  {
+   "ts": 1787241538.0,
+   "title": "British Pound climbs as UK inflation keeps BoE hike bets alive",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-uk-inflation-keeps-boe-hike-bets-alive-202608201558",
+   "t": "20 Aug \u00b7 08:58 PM",
+   "ur": "Bartanvi pound chadhta hai cunkah uk inflation (mehngai) ne BoE mein azafe ki shart ko zandah rakha hai."
+  },
+  {
+   "ts": 1787241171.0,
+   "title": "Fed's Musalem: Hiking rates now could save more aggressive action later",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-musalem-hiking-rates-now-could-save-more-aggressive-action-later-202608201552",
+   "t": "20 Aug \u00b7 08:52 PM",
+   "ur": "Fed's Musalem: hicang rates ab bad mein mazid jarahana karwai ko bacha sakte hen."
+  },
+  {
+   "ts": 1787241120.0,
+   "title": "US Dollar: Debasement worries weigh after buyback \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-debasement-worries-weigh-after-buyback-scotiabank-202608201552",
+   "t": "20 Aug \u00b7 08:52 PM",
+   "ur": "US Dollar: wapsi ke bad tanzili ki pareshaniyon ka wazin hota hai \u2013 Scotiabank"
   },
   {
    "ts": 1787240133.0,
@@ -453,38 +459,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-upside-focus-into-135-137-against-us-dollar-scotiabank-202608201330",
    "t": "20 Aug \u00b7 06:30 PM",
    "ur": "Caniden Dollar: US Dollar ke maqable mein 1.35\u20131.37 mein oper ki taraf tojah - Scotiabank"
-  },
-  {
-   "ts": 1787232475.0,
-   "title": "Euro eases from three-month high as US Dollar stabilises, Jobless Claims beat expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-eases-from-three-month-high-as-us-dollar-stabilises-jobless-claims-beat-expectations-202608201327",
-   "t": "20 Aug \u00b7 06:27 PM",
-   "ur": "Uro tin mah ki baland tarin sath se kam hawa jisa kah US Dollar mastahkam hawa, be rozgari ke daway toqaat ko mat de gaye"
-  },
-  {
-   "ts": 1787232190.0,
-   "title": "\"More avenues opening for US Dollar weakness ahead\": MUFG on why Treasury buyback could backfire",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/more-avenues-opening-for-us-dollar-weakness-ahead-mufg-on-why-treasury-buyback-could-backfire-202608201323",
-   "t": "20 Aug \u00b7 06:23 PM",
-   "ur": "\"aage US Dollar ki kamazori ke liye mazid raaste khal rahe hen\": MUFG is par kah treasurei bai bek kiyon bek fire kar sakta hai"
-  },
-  {
-   "ts": 1787232030.0,
-   "title": "Indian Rupee: RBI defends manageable Dollar shorts \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-rbi-defends-manageable-dollar-shorts-bny-202608201320",
-   "t": "20 Aug \u00b7 06:20 PM",
-   "ur": "Handostani ropiya: RBI ne qaabl antezam Dollar sharts ka dafa kiya - BNY"
-  },
-  {
-   "ts": 1787231124.0,
-   "title": "US Dollar: Consolidation after treasury buybacks \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-consolidation-after-treasury-buybacks-dbs-202608201305",
-   "t": "20 Aug \u00b7 06:05 PM",
-   "ur": "US Dollar: treasurei bi bex ke bad istehkam - DBS"
   }
  ],
  "sentiment": {
