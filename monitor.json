@@ -1,15 +1,13 @@
 {
- "updated": "20-08-2026 22:52 PKT",
+ "updated": "20-08-2026 23:19 PKT",
  "gold": {
-  "price": 4519.16,
-  "open": 4485.35,
+  "price": 4510.13,
+  "open": 4475.19,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.75,
+  "chg": 0.78,
   "src": "XAUUSD Spot",
   "spark": [
-   4492.65,
-   4494.6,
    4492.73,
    4493.68,
    4488.73,
@@ -55,14 +53,16 @@
    4509.34,
    4510.71,
    4517.83,
-   4519.16
+   4520.07,
+   4510.26,
+   4510.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.21,
-   "chg": 3.77,
+   "price": 67.98,
+   "chg": 3.42,
    "spark": [
     60.019,
     57.798,
@@ -85,21 +85,22 @@
     66.121,
     63.941,
     65.734,
-    68.21
+    67.98
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.921,
-   "chg": 0.09,
+   "price": 98.906,
+   "chg": 0.08,
    "spark": [
-    100.99,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +114,13 @@
     99.64,
     99.65,
     98.83,
-    98.921
+    98.906
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.69,
-   "chg": 1.0,
+   "price": 86.43,
+   "chg": 0.7,
    "spark": [
     86.83,
     92.19,
@@ -142,20 +143,22 @@
     84.5,
     84.94,
     85.83,
-    86.69
+    86.43
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.708,
-   "chg": 1.18,
+   "price": 4.696,
+   "chg": 0.92,
    "spark": [
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,15 +172,14 @@
     4.724,
     4.706,
     4.653,
-    4.708
+    4.696
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1677,
-   "chg": 0.84,
+   "price": 1.1674,
+   "chg": 0.82,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -195,18 +197,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1677
+    1.1674
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3628,
-   "chg": 0.67,
+   "price": 1.3622,
+   "chg": 0.63,
    "spark": [
-    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -224,16 +226,17 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3628
+    1.3622
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.051,
-   "chg": -0.31,
+   "price": 159.151,
+   "chg": -0.25,
    "spark": [
     163.186,
     163.081,
@@ -256,15 +259,14 @@
     159.223,
     159.34,
     159.55,
-    159.051
+    159.151
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2346.41,
-   "chg": 4.22,
+   "price": 2326.99,
+   "chg": 3.35,
    "spark": [
-    1915.12,
     1911.94,
     1912.3,
     1910.95,
@@ -311,15 +313,15 @@
     2278.62,
     2325.92,
     2343.5,
-    2346.41
+    2343.34,
+    2326.99
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72864.2,
-   "chg": 5.17,
+   "price": 72590.7,
+   "chg": 4.77,
    "spark": [
-    64734.1,
     64617.2,
     64550.1,
     64559.6,
@@ -366,7 +368,8 @@
     71764.1,
     72431.7,
     72816.6,
-    72864.2
+    72723.6,
+    72590.7
    ]
   }
  ],
@@ -407,12 +410,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787248332.157445,
+   "ts": 1787249946.327247,
    "title": "Truist upgrades gold to neutral on rate outlook and dollar weakness",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/truist-upgrades-gold-to-neutral-on-rate-outlook-and-dollar-weakness-93CH-4870269",
-   "t": "20 Aug \u00b7 10:52 PM",
+   "t": "20 Aug \u00b7 11:19 PM",
    "ur": "Tarts ret oat lak aur Dollar ki kamazori par Gold (sone) ko nuterl par ap gared karta hai."
+  },
+  {
+   "ts": 1787249541.0,
+   "title": "Silver Price Forecast: XAG/USD tests 100-day SMA as rally extends",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-tests-100-day-sma-as-rally-extends-202608201812",
+   "t": "20 Aug \u00b7 11:12 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD 100-day SMA test karta hai cunkah rili mein tosi hoti hai"
+  },
+  {
+   "ts": 1787248606.0,
+   "title": "Japanese Yen underperforms as elevated Oil prices weigh, US Dollar recovers",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-underperforms-as-elevated-oil-prices-weigh-us-dollar-recovers-202608201756",
+   "t": "20 Aug \u00b7 10:56 PM",
+   "ur": "Japani yan ne kam karkardgi ka mazaharah kiya cunkah til ki baland qeemton ka wazin, US Dollar ki recovery"
   },
   {
    "ts": 1787247403.0,
@@ -469,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-debasement-worries-weigh-after-buyback-scotiabank-202608201552",
    "t": "20 Aug \u00b7 08:52 PM",
    "ur": "US Dollar: wapsi ke bad tanzili ki pareshaniyon ka wazin hota hai \u2013 Scotiabank"
-  },
-  {
-   "ts": 1787240133.0,
-   "title": "Bessent says Treasury buyback operation could be more than $4 billion",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/20/bessent-says-treasury-buyback-operation-could-be-more-than-4-billion.html",
-   "t": "20 Aug \u00b7 08:35 PM",
-   "ur": "Bessent ka kahana hai kah treasurei bi bek operation $4 balin se ziyadah hoskta hai."
-  },
-  {
-   "ts": 1787238121.0,
-   "title": "Canadian Dollar remains supported by rising Oil prices and US tariff pause",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-supported-despite-modest-us-dollar-rebound-202608201502",
-   "t": "20 Aug \u00b7 08:02 PM",
-   "ur": "Caniden Dollar til ki badhti hoi qeemton aur US terf ke waqafe ki wajah se barqarar hai."
   }
  ],
  "sentiment": {
