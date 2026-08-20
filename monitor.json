@@ -1,15 +1,13 @@
 {
- "updated": "20-08-2026 21:57 PKT",
+ "updated": "20-08-2026 22:21 PKT",
  "gold": {
-  "price": 4510.84,
-  "open": 4494.62,
+  "price": 4509.37,
+  "open": 4486.94,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.36,
+  "chg": 0.5,
   "src": "XAUUSD Spot",
   "spark": [
-   4486.56,
-   4484.08,
    4481.8,
    4481.86,
    4492.65,
@@ -55,14 +53,16 @@
    4512.59,
    4506.0,
    4508.07,
-   4510.84
+   4511.02,
+   4509.34,
+   4509.37
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.28,
-   "chg": 3.87,
+   "price": 68.25,
+   "chg": 3.83,
    "spark": [
     60.019,
     57.798,
@@ -85,21 +85,22 @@
     66.121,
     63.941,
     65.734,
-    68.28
+    68.25
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.903,
-   "chg": 0.07,
+   "price": 98.919,
+   "chg": 0.09,
    "spark": [
-    100.99,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +114,13 @@
     99.64,
     99.65,
     98.83,
-    98.903
+    98.919
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.37,
-   "chg": 0.63,
+   "price": 86.33,
+   "chg": 0.58,
    "spark": [
     86.83,
     92.19,
@@ -142,20 +143,22 @@
     84.5,
     84.94,
     85.83,
-    86.37
+    86.33
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.704,
-   "chg": 1.1,
+   "price": 4.698,
+   "chg": 0.97,
    "spark": [
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,15 +172,14 @@
     4.724,
     4.706,
     4.653,
-    4.704
+    4.698
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1675,
-   "chg": 0.83,
+   "price": 1.1674,
+   "chg": 0.82,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -195,18 +197,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1675
+    1.1674
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3631,
-   "chg": 0.7,
+   "price": 1.3625,
+   "chg": 0.65,
    "spark": [
-    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -224,16 +226,17 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3631
+    1.3625
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.015,
-   "chg": -0.34,
+   "price": 159.04,
+   "chg": -0.32,
    "spark": [
     163.186,
     163.081,
@@ -256,15 +259,14 @@
     159.223,
     159.34,
     159.55,
-    159.015
+    159.04
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2344.15,
-   "chg": 4.12,
+   "price": 2336.61,
+   "chg": 3.78,
    "spark": [
-    1910.0,
     1915.12,
     1911.94,
     1912.3,
@@ -311,15 +313,15 @@
     2274.0,
     2278.62,
     2325.92,
-    2344.15
+    2343.5,
+    2336.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72701.8,
-   "chg": 4.93,
+   "price": 72595.9,
+   "chg": 4.78,
    "spark": [
-    64622.4,
     64734.1,
     64617.2,
     64550.1,
@@ -366,7 +368,8 @@
     71625.8,
     71764.1,
     72431.7,
-    72701.8
+    72816.6,
+    72595.9
    ]
   }
  ],
@@ -407,12 +410,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787245035.364733,
+   "ts": 1787246491.816133,
    "title": "Gold retreats after Treasury buybacks fuel rally to more than 2-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 09:57 PM",
+   "t": "20 Aug \u00b7 10:21 PM",
    "ur": "Treasurei ki janb se andhan ki wapsi ke bad Gold (sona) 2 mah ki baland tarin sath par patchhe hat gaya."
+  },
+  {
+   "ts": 1787245503.0,
+   "title": "New Zealand Dollar rises as RBNZ rate hike expectations strengthen",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rises-as-rbnz-rate-hike-expectations-strengthen-202608201705",
+   "t": "20 Aug \u00b7 10:05 PM",
+   "ur": "RBNZ ki rate mein azafe ki toqaat mazboot hone par niyozi lind Dollar mein azafah hawa."
+  },
+  {
+   "ts": 1787245262.0,
+   "title": "Australian Dollar holds near highs as mixed data keeps RBA tightening bets alive",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-near-highs-as-mixed-data-keeps-rba-tightening-bets-alive-202608201701",
+   "t": "20 Aug \u00b7 10:01 PM",
+   "ur": "Aasterilvi Dollar balandi ke qarib hai cunkah mukhaloot deta RBA ko saqt karne wali sharton ko zandah rakta hai."
   },
   {
    "ts": 1787241538.0,
@@ -469,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/gold-higher-range-holds-but-next-leg-delayed-td-securities-202608201345",
    "t": "20 Aug \u00b7 06:45 PM",
    "ur": "Gold: ziyadah rinj rakta hai lican agli tang mein taakhair hoti hai - TD securitez"
-  },
-  {
-   "ts": 1787232655.0,
-   "title": "Canadian Dollar: Upside focus into 1.35\u20131.37 against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-upside-focus-into-135-137-against-us-dollar-scotiabank-202608201330",
-   "t": "20 Aug \u00b7 06:30 PM",
-   "ur": "Caniden Dollar: US Dollar ke maqable mein 1.35\u20131.37 mein oper ki taraf tojah - Scotiabank"
-  },
-  {
-   "ts": 1787232475.0,
-   "title": "Euro eases from three-month high as US Dollar stabilises, Jobless Claims beat expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-eases-from-three-month-high-as-us-dollar-stabilises-jobless-claims-beat-expectations-202608201327",
-   "t": "20 Aug \u00b7 06:27 PM",
-   "ur": "Uro tin mah ki baland tarin sath se kam hawa jisa kah US Dollar mastahkam hawa, be rozgari ke daway toqaat ko mat de gaye"
   }
  ],
  "sentiment": {
