@@ -1,14 +1,13 @@
 {
- "updated": "21-08-2026 00:41 PKT",
+ "updated": "21-08-2026 01:00 PKT",
  "gold": {
-  "price": 4528.12,
-  "open": 4505.59,
+  "price": 4529.21,
+  "open": 4509.78,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.5,
+  "chg": 0.43,
   "src": "XAUUSD Spot",
   "spark": [
-   4490.08,
    4492.09,
    4490.34,
    4492.45,
@@ -55,14 +54,15 @@
    4522.17,
    4527.53,
    4523.99,
-   4528.12
+   4527.39,
+   4529.21
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.185,
-   "chg": 3.73,
+   "price": 68.365,
+   "chg": 4.0,
    "spark": [
     60.019,
     57.798,
@@ -85,13 +85,13 @@
     66.121,
     63.941,
     65.734,
-    68.185
+    68.365
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.881,
-   "chg": 0.05,
+   "price": 98.887,
+   "chg": 0.06,
    "spark": [
     101.14,
     101.43,
@@ -114,7 +114,7 @@
     99.64,
     99.65,
     98.83,
-    98.881
+    98.887
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.168,
-   "chg": 0.86,
+   "price": 1.1681,
+   "chg": 0.88,
    "spark": [
     1.1404,
     1.1412,
@@ -201,7 +201,7 @@
     1.1574,
     1.1583,
     1.1579,
-    1.168
+    1.1681
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.124,
-   "chg": -0.27,
+   "price": 159.11,
+   "chg": -0.28,
    "spark": [
     163.186,
     163.081,
@@ -259,15 +259,14 @@
     159.223,
     159.34,
     159.55,
-    159.124
+    159.11
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2330.4,
-   "chg": 3.5,
+   "price": 2324.92,
+   "chg": 3.26,
    "spark": [
-    1912.3,
     1910.95,
     1912.23,
     1916.04,
@@ -314,15 +313,15 @@
     2343.5,
     2343.34,
     2315.99,
-    2330.4
+    2322.62,
+    2324.92
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72727.0,
-   "chg": 4.97,
+   "price": 72649.8,
+   "chg": 4.86,
    "spark": [
-    64550.1,
     64559.6,
     64591.6,
     64677.2,
@@ -369,7 +368,8 @@
     72816.6,
     72723.6,
     72410.3,
-    72727.0
+    72632.2,
+    72649.8
    ]
   }
  ],
@@ -410,19 +410,27 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787254915.24356,
+   "ts": 1787256027.129683,
+   "title": "Spot gold holds above $4.5k a day after topping the mark for first time since June",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
+   "t": "21 Aug \u00b7 01:00 AM",
+   "ur": "Jon ke bad pehli bar mark tap karne ke bad spat gold ek dan mein $4.5k se oper rakta hai."
+  },
+  {
+   "ts": 1787256027.129683,
    "title": "Silver surges to $68.30 near upper Bollinger Band: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 12:41 AM",
+   "t": "21 Aug \u00b7 01:00 AM",
    "ur": "Balingr bind ke qarib Silver (chandi) $68.30 tak badh gayi."
   },
   {
-   "ts": 1787254915.24356,
+   "ts": 1787256027.129683,
    "title": "Gold tests $4,600 resistance with overbought RSI: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "21 Aug \u00b7 12:41 AM",
+   "t": "21 Aug \u00b7 01:00 AM",
    "ur": "Gold (sona) ziyadah khareedi hoi RSI ke sath $4,600 ki mazahmat ko janchta hai."
   },
   {
@@ -480,14 +488,6 @@
    "link": "https://www.fxstreet.com/news/gold-pulls-back-as-us-yields-recover-after-treasury-buyback-202608201736",
    "t": "20 Aug \u00b7 10:36 PM",
    "ur": "Treasurei bai bek ke bad US pedawar bahal hone par Gold (sona) waps aagaya"
-  },
-  {
-   "ts": 1787247386.0,
-   "title": "Banxico minutes signal long rate pause as inflation eases",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/banxico-signals-long-rate-pause-as-inflation-eases-202608201736",
-   "t": "20 Aug \u00b7 10:36 PM",
-   "ur": "Binkiko mant mahungai mein narmi ke sath tavel rate toqf ka asharah dite hen."
   }
  ],
  "sentiment": {
