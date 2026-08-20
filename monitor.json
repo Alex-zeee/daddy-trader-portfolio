@@ -1,17 +1,13 @@
 {
- "updated": "20-08-2026 16:59 PKT",
+ "updated": "20-08-2026 17:47 PKT",
  "gold": {
-  "price": 4466.64,
-  "open": 4365.39,
+  "price": 4467.23,
+  "open": 4438.11,
   "high": 4527.83,
-  "low": 4362.17,
-  "chg": 2.32,
+  "low": 4423.9,
+  "chg": 0.66,
   "src": "XAUUSD Spot",
   "spark": [
-   4513.56,
-   4511.43,
-   4504.33,
-   4509.85,
    4493.82,
    4502.04,
    4495.71,
@@ -55,14 +51,18 @@
    4484.71,
    4485.16,
    4476.67,
-   4466.64
+   4467.43,
+   4465.63,
+   4459.8,
+   4459.97,
+   4467.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.535,
-   "chg": 1.22,
+   "price": 66.195,
+   "chg": 0.7,
    "spark": [
     60.019,
     57.798,
@@ -85,13 +85,13 @@
     66.121,
     63.941,
     65.734,
-    66.535
+    66.195
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.77,
-   "chg": -0.06,
+   "price": 98.804,
+   "chg": -0.03,
    "spark": [
     100.99,
     101.43,
@@ -113,13 +113,13 @@
     99.64,
     99.65,
     98.83,
-    98.77
+    98.804
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.14,
-   "chg": 1.53,
+   "price": 87.45,
+   "chg": 1.89,
    "spark": [
     86.83,
     92.19,
@@ -142,13 +142,13 @@
     84.5,
     84.94,
     85.83,
-    87.14
+    87.45
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.653,
-   "chg": -1.13,
+   "price": 4.708,
+   "chg": 1.18,
    "spark": [
     4.703,
     4.679,
@@ -168,13 +168,14 @@
     4.696,
     4.724,
     4.706,
-    4.653
+    4.653,
+    4.708
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1689,
-   "chg": 0.95,
+   "price": 1.169,
+   "chg": 0.96,
    "spark": [
     1.1418,
     1.1404,
@@ -197,13 +198,13 @@
     1.1574,
     1.1583,
     1.1579,
-    1.1689
+    1.169
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3634,
-   "chg": 0.72,
+   "price": 1.3638,
+   "chg": 0.74,
    "spark": [
     1.3432,
     1.3379,
@@ -226,12 +227,12 @@
     1.3547,
     1.355,
     1.3537,
-    1.3634
+    1.3638
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.656,
+   "price": 158.661,
    "chg": -0.56,
    "spark": [
     163.186,
@@ -255,15 +256,14 @@
     159.223,
     159.34,
     159.55,
-    158.656
+    158.661
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2294.83,
-   "chg": 1.92,
+   "price": 2274.24,
+   "chg": 1.01,
    "spark": [
-    1897.85,
     1895.76,
     1909.49,
     1915.98,
@@ -310,15 +310,15 @@
     2279.73,
     2276.67,
     2283.38,
-    2294.83
+    2294.83,
+    2274.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71875.8,
-   "chg": 3.74,
+   "price": 71578.1,
+   "chg": 3.31,
    "spark": [
-    64164.4,
     64148.9,
     64664.8,
     64803.0,
@@ -365,7 +365,8 @@
     71533.1,
     71724.0,
     71916.8,
-    71875.8
+    71875.8,
+    71578.1
    ]
   }
  ],
@@ -390,28 +391,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787227189.693843,
+   "ts": 1787230038.961314,
    "title": "Morgan Stanley is out with its gold price outlook for 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morgan-stanley-is-out-with-its-gold-price-outlook-for-2027-4869386",
-   "t": "20 Aug \u00b7 04:59 PM",
+   "t": "20 Aug \u00b7 05:47 PM",
    "ur": "Morgan stinle 2027 ke liye apane Gold (sone) ki qeemat ke oat lak ke sath bahar hai."
   },
   {
-   "ts": 1787227189.693843,
+   "ts": 1787230038.961314,
    "title": "Gold retreats after Treasury buybacks fuel rally to more than 2-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 04:59 PM",
+   "t": "20 Aug \u00b7 05:47 PM",
    "ur": "Treasurei ki janb se andhan ki wapsi ke bad Gold (sona) 2 mah ki baland tarin sath par patchhe hat gaya."
   },
   {
-   "ts": 1787227189.693843,
+   "ts": 1787230038.961314,
    "title": "Silver tests $67.13-$67.50 resistance: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 04:59 PM",
+   "t": "20 Aug \u00b7 05:47 PM",
    "ur": "Silver (chandi) $67.13-$67.50 mazahmat ki janch karti hai: laaio fi ghanta ki sath"
+  },
+  {
+   "ts": 1787229612.0,
+   "title": "Gold: Rally faces questions as buybacks reshape yields \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rally-faces-questions-as-buybacks-reshape-yields-bny-202608201240",
+   "t": "20 Aug \u00b7 05:40 PM",
+   "ur": "Gold: rili ko swalat ka samana hai cunkah bai bex ne pedawar ko nayi shakl di hai - BNY"
+  },
+  {
+   "ts": 1787228708.0,
+   "title": "United States: Long-end yield risks contained \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-long-end-yield-risks-contained-ing-202608201225",
+   "t": "20 Aug \u00b7 05:25 PM",
+   "ur": "Ryastahaye matehdah: tavel madati pedawar ke khatrat par mashtamil hai - ING"
+  },
+  {
+   "ts": 1787227915.0,
+   "title": "US Dollar: Treasury buybacks raise fiscal questions \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-treasury-buybacks-raise-fiscal-questions-bbh-202608201211",
+   "t": "20 Aug \u00b7 05:11 PM",
+   "ur": "US Dollar: treasurei bi bex maliyati swalat ko janum dita hai - BBH"
   },
   {
    "ts": 1787226893.0,
@@ -444,30 +469,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-downside-risks-grow-as-yields-contained-mufg-202608201128",
    "t": "20 Aug \u00b7 04:28 PM",
    "ur": "US Dollar: manfi khatrat badhte jate hen cunkah pedawar shamil hoti hai - MUFG"
-  },
-  {
-   "ts": 1787224570.0,
-   "title": "Gold pares gains, remaining close to recent highs, as Treasury buybacks weigh on US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-pares-gains-remaining-close-to-recent-highs-as-treasury-buybacks-weigh-on-us-dollar-202608201116",
-   "t": "20 Aug \u00b7 04:16 PM",
-   "ur": "US Dollar par treasurei bai bex ka wazin hone ki wajah se Gold (sone) mein azafah, haaliya balandiyon ke qarib baqi hai"
-  },
-  {
-   "ts": 1787224369.0,
-   "title": "Australian Dollar: Softer jobs data keeps RBA sidelined \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-softer-jobs-data-keeps-rba-sidelined-bbh-202608201112",
-   "t": "20 Aug \u00b7 04:12 PM",
-   "ur": "Aasterilin Dollar: malazmaton ka narm deta RBA ko dur rakta hai - BBH"
-  },
-  {
-   "ts": 1787223375.0,
-   "title": "Gold Price Forecast: XAU/USD corrects below $4,500 as Yields recover some losses",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-corrects-below-4-500-as-yields-recover-some-losses-202608201056",
-   "t": "20 Aug \u00b7 03:56 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD $4,500 se niche darist karta hai cunkah pedawar kach naqsanat ko pora karti hai"
   }
  ],
  "sentiment": {
