@@ -1,15 +1,13 @@
 {
- "updated": "20-08-2026 14:47 PKT",
+ "updated": "20-08-2026 15:16 PKT",
  "gold": {
-  "price": 4488.35,
-  "open": 4360.47,
+  "price": 4490.78,
+  "open": 4368.15,
   "high": 4527.83,
-  "low": 4359.46,
-  "chg": 2.93,
+  "low": 4362.17,
+  "chg": 2.81,
   "src": "XAUUSD Spot",
   "spark": [
-   4521.06,
-   4520.38,
    4518.24,
    4519.73,
    4520.41,
@@ -55,14 +53,16 @@
    4492.21,
    4489.58,
    4489.69,
-   4488.35
+   4483.94,
+   4490.1,
+   4490.78
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.75,
-   "chg": 1.55,
+   "price": 66.955,
+   "chg": 1.86,
    "spark": [
     60.019,
     57.798,
@@ -85,13 +85,13 @@
     66.121,
     63.941,
     65.734,
-    66.75
+    66.955
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.628,
-   "chg": -0.2,
+   "price": 98.6,
+   "chg": -0.23,
    "spark": [
     100.99,
     101.43,
@@ -113,13 +113,13 @@
     99.64,
     99.65,
     98.83,
-    98.628
+    98.6
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.48,
-   "chg": 0.76,
+   "price": 86.51,
+   "chg": 0.79,
    "spark": [
     86.83,
     92.19,
@@ -142,7 +142,7 @@
     84.5,
     84.94,
     85.83,
-    86.48
+    86.51
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1705,
-   "chg": 1.09,
+   "price": 1.1712,
+   "chg": 1.15,
    "spark": [
     1.1418,
     1.1404,
@@ -197,13 +197,13 @@
     1.1574,
     1.1583,
     1.1579,
-    1.1705
+    1.1712
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3644,
-   "chg": 0.79,
+   "price": 1.3655,
+   "chg": 0.88,
    "spark": [
     1.3432,
     1.3379,
@@ -226,13 +226,13 @@
     1.3547,
     1.355,
     1.3537,
-    1.3644
+    1.3655
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.323,
-   "chg": -0.77,
+   "price": 158.272,
+   "chg": -0.8,
    "spark": [
     163.186,
     163.081,
@@ -255,15 +255,14 @@
     159.223,
     159.34,
     159.55,
-    158.323
+    158.272
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2286.51,
-   "chg": 1.55,
+   "price": 2286.02,
+   "chg": 1.53,
    "spark": [
-    1896.06,
     1901.11,
     1897.85,
     1895.76,
@@ -310,15 +309,15 @@
     2260.89,
     2249.76,
     2279.73,
-    2286.51
+    2276.67,
+    2286.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71930.5,
-   "chg": 3.82,
+   "price": 72160.0,
+   "chg": 4.15,
    "spark": [
-    64143.0,
     64283.6,
     64164.4,
     64148.9,
@@ -365,7 +364,8 @@
     69806.1,
     69768.0,
     71533.1,
-    71930.5
+    71724.0,
+    72165.1
    ]
   }
  ],
@@ -390,28 +390,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787219254.429832,
+   "ts": 1787221017.715908,
+   "title": "Gold retreats after Treasury buybacks fuel rally to more than 2-month high",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
+   "t": "20 Aug \u00b7 03:16 PM",
+   "ur": "Treasurei ki janb se andhan ki wapsi ke bad Gold (sona) 2 mah ki baland tarin sath par patchhe hat gaya."
+  },
+  {
+   "ts": 1787221017.715908,
    "title": "Silver tests $67.13-$67.50 resistance: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 02:47 PM",
+   "t": "20 Aug \u00b7 03:16 PM",
    "ur": "Silver (chandi) $67.13-$67.50 mazahmat ki janch karti hai: laaio fi ghanta ki sath"
   },
   {
-   "ts": 1787219254.429832,
+   "ts": 1787221017.715908,
    "title": "Gold stalls near highs with double top risk: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "20 Aug \u00b7 02:47 PM",
+   "t": "20 Aug \u00b7 03:16 PM",
    "ur": "Dabl tap rask ke sath unchai ke qarib gold rak gaya hai."
   },
   {
-   "ts": 1787219254.429832,
-   "title": "European gas edges up as shipping slowdown keeps winter supply risks intact",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/european-gas-edges-up-as-shipping-slowdown-keeps-winter-supply-risks-intact-4868793",
-   "t": "20 Aug \u00b7 02:47 PM",
-   "ur": "Uripi gis ki qeemton mein azafah hawa cunkah shping mein sast ravi mosm sarma ki sppli ke khatrat ko barqarar rakti hai."
+   "ts": 1787220643.0,
+   "title": "Euro holds steady against British Pound as ECB, BoE rate hike bets offset each other",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-holds-steady-against-british-pound-as-ecb-boe-rate-hike-bets-offset-each-other-202608201010",
+   "t": "20 Aug \u00b7 03:10 PM",
+   "ur": "Uro bartanvi pound ke khalaf mastahkam hai cunkah ECB, BoE rate mein azafe ki shartin ek dosare ko pora karti hen"
   },
   {
    "ts": 1787218367.0,
@@ -460,14 +468,6 @@
    "link": "https://www.fxstreet.com/news/dow-jones-futures-gain-on-treasury-bond-buyback-relief-202608200850",
    "t": "20 Aug \u00b7 01:50 PM",
    "ur": "Treasurei band bai bek rilif par dou joons future ka faidah"
-  },
-  {
-   "ts": 1787214828.0,
-   "title": "Federal Reserve: Divided hawks shape late-2026 hike risks \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-divided-hawks-shape-late-2026-hike-risks-societe-generale-202608200833",
-   "t": "20 Aug \u00b7 01:33 PM",
-   "ur": "Faderl resero: manqsam hox 2026 ke awakhar mein azafe ke khatrat - socit janerl"
   }
  ],
  "sentiment": {
