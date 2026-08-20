@@ -1,15 +1,13 @@
 {
- "updated": "20-08-2026 10:56 PKT",
+ "updated": "20-08-2026 11:25 PKT",
  "gold": {
-  "price": 4479.27,
-  "open": 4338.2,
+  "price": 4492.63,
+  "open": 4341.88,
   "high": 4527.83,
-  "low": 4333.92,
-  "chg": 3.25,
+  "low": 4337.44,
+  "chg": 3.47,
   "src": "XAUUSD Spot",
   "spark": [
-   4489.98,
-   4474.5,
    4491.44,
    4495.39,
    4503.8,
@@ -55,14 +53,16 @@
    4486.56,
    4484.08,
    4481.8,
-   4479.27
+   4481.86,
+   4492.65,
+   4492.63
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.91,
-   "chg": 1.79,
+   "price": 67.26,
+   "chg": 2.32,
    "spark": [
     60.019,
     57.798,
@@ -85,13 +85,13 @@
     66.121,
     63.941,
     65.734,
-    66.91
+    67.26
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.895,
-   "chg": 0.07,
+   "price": 98.821,
+   "chg": -0.01,
    "spark": [
     101.14,
     101.43,
@@ -114,13 +114,13 @@
     99.64,
     99.65,
     98.83,
-    98.895
+    98.821
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.6,
-   "chg": -1.43,
+   "price": 84.5,
+   "chg": -1.55,
    "spark": [
     86.83,
     92.19,
@@ -143,7 +143,7 @@
     84.5,
     84.94,
     85.83,
-    84.6
+    84.5
    ]
   },
   {
@@ -151,12 +151,15 @@
    "price": 4.653,
    "chg": -1.13,
    "spark": [
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -174,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1677,
-   "chg": 0.84,
+   "price": 1.1681,
+   "chg": 0.88,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -195,18 +197,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1677
+    1.1681
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3603,
-   "chg": 0.49,
+   "price": 1.3607,
+   "chg": 0.52,
    "spark": [
-    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -224,18 +226,47 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3603
+    1.3607
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 158.516,
+   "chg": -0.65,
+   "spark": [
+    163.186,
+    163.081,
+    163.832,
+    163.611,
+    163.771,
+    163.864,
+    163.3,
+    160.183,
+    157.582,
+    157.529,
+    157.692,
+    157.6,
+    158.409,
+    157.891,
+    159.156,
+    159.265,
+    159.328,
+    159.426,
+    159.223,
+    159.34,
+    159.55,
+    158.516
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2244.5,
-   "chg": -0.31,
+   "price": 2251.91,
+   "chg": 0.02,
    "spark": [
-    1900.92,
     1896.78,
     1898.31,
     1894.89,
@@ -282,15 +313,15 @@
     2250.92,
     2249.06,
     2249.59,
-    2244.5
+    2247.17,
+    2251.91
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 69334.7,
-   "chg": 0.07,
+   "price": 69621.5,
+   "chg": 0.49,
    "spark": [
-    64263.5,
     64139.2,
     64216.4,
     64114.8,
@@ -337,7 +368,8 @@
     69270.1,
     69137.7,
     69449.4,
-    69334.7
+    69365.0,
+    69621.5
    ]
   }
  ],
@@ -362,28 +394,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787205367.545668,
-   "title": "Gold holds near 2-month high as Treasury buybacks push yields, dollar lower",
+   "ts": 1787207145.613269,
+   "title": "Gold holds near $4,500 as Treasury buybacks, Fed minutes shape rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 10:56 AM",
-   "ur": "Gold (sona) 2 mah ki baland tarin sath par hai cunkah treasurei bi bek ne pedawar ko dhakil diya, Dollar ki kami"
+   "t": "20 Aug \u00b7 11:25 AM",
+   "ur": "Treasurei bi bex, fed mant ki shakl ki rate oat lak ke tur par Gold (sona) $4,500 ke qarib rakta hai."
   },
   {
-   "ts": 1787205367.545668,
+   "ts": 1787207145.613269,
    "title": "Gold pops as dollar, yields fall; spot prices top $4.5k for first time since June",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "20 Aug \u00b7 10:56 AM",
+   "t": "20 Aug \u00b7 11:25 AM",
    "ur": "Gold (sona) Dollar ke tur par khalta hai, pedawar mein kami; jon ke bad pehli bar spat ki qeemtin $4.5k ke oper hen."
   },
   {
-   "ts": 1787205367.545668,
+   "ts": 1787207145.613269,
    "title": "Silver tests $67.00 resistance with double top risk: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 10:56 AM",
+   "t": "20 Aug \u00b7 11:25 AM",
    "ur": "Silver (chandi) dabl tap rask ke sath $67.00 mazahmat ki janch karti hai."
+  },
+  {
+   "ts": 1787206533.0,
+   "title": "British Pound: Further gains face 1.3655 cap against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-further-gains-face-13655-cap-against-us-dollar-uob-202608200615",
+   "t": "20 Aug \u00b7 11:15 AM",
+   "ur": "Bartanvi pound: US Dollar - UOB ke maqable mein mazid fawaid ko 1.3655 cap ka samana hai."
+  },
+  {
+   "ts": 1787206022.0,
+   "title": "Euro: Spikes higher against US Dollar on Treasury buybacks \u2013 Danske Bank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-spikes-higher-against-us-dollar-on-treasury-buybacks-danske-bank-202608200607",
+   "t": "20 Aug \u00b7 11:07 AM",
+   "ur": "Uro: treasurei bi bex par US Dollar ke maqable mein azafah - dansk Bank"
   },
   {
    "ts": 1787202178.0,
@@ -424,22 +472,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-gains-on-higher-oil-prices-weaker-us-dollar-202608200416",
    "t": "20 Aug \u00b7 09:16 AM",
    "ur": "Til ki unchi qeemton par caniden Dollar ka faidah, US Dollar kamazor"
-  },
-  {
-   "ts": 1787198269.0,
-   "title": "Asian equities rally; KOSPI leads gains as US Treasury support counters Fed/Iran risks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/asian-equities-rally-kospi-leads-gains-as-us-treasury-support-counters-fed-iran-risks-202608200357",
-   "t": "20 Aug \u00b7 08:57 AM",
-   "ur": "Asiai ekoti mein tizi; Fed/eran ke khatrat ka maqablah karne ke liye US treasurei sport ke tur par KOSPI fawaid mein aage hai."
-  },
-  {
-   "ts": 1787198191.0,
-   "title": "Silver Price Forecast: XAG/USD refreshes two-month high as US doubles bond buyback plan",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-refreshes-two-month-high-as-us-doubles-bond-buyback-plan-202608200356",
-   "t": "20 Aug \u00b7 08:56 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD do mah ki baland tarin sath ko taazah karta hai cunkah US ne band bi bek plan ko dgana kar diya"
   }
  ],
  "sentiment": {
