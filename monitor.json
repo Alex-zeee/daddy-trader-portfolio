@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 00:07 PKT",
+ "updated": "21-08-2026 00:41 PKT",
  "gold": {
-  "price": 4522.34,
-  "open": 4504.35,
+  "price": 4528.12,
+  "open": 4505.59,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.4,
+  "chg": 0.5,
   "src": "XAUUSD Spot",
   "spark": [
-   4484.36,
-   4490.62,
    4490.08,
    4492.09,
    4490.34,
@@ -55,14 +53,16 @@
    4519.32,
    4520.96,
    4522.17,
-   4522.34
+   4527.53,
+   4523.99,
+   4528.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.05,
-   "chg": 3.52,
+   "price": 68.185,
+   "chg": 3.73,
    "spark": [
     60.019,
     57.798,
@@ -85,21 +85,22 @@
     66.121,
     63.941,
     65.734,
-    68.05
+    68.185
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.892,
-   "chg": 0.06,
+   "price": 98.881,
+   "chg": 0.05,
    "spark": [
-    100.99,
+    101.14,
     101.43,
     101.47,
     101.51,
     101.38,
     100.8,
     100.01,
+    99.8,
     99.96,
     99.89,
     99.69,
@@ -113,13 +114,13 @@
     99.64,
     99.65,
     98.83,
-    98.892
+    98.881
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.87,
-   "chg": 1.21,
+   "price": 86.65,
+   "chg": 0.96,
    "spark": [
     86.83,
     92.19,
@@ -142,20 +143,22 @@
     84.5,
     84.94,
     85.83,
-    86.87
+    86.65
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.7,
-   "chg": 1.01,
+   "price": 4.696,
+   "chg": 0.92,
    "spark": [
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -169,15 +172,14 @@
     4.724,
     4.706,
     4.653,
-    4.7
+    4.696
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1678,
-   "chg": 0.85,
+   "price": 1.168,
+   "chg": 0.86,
    "spark": [
-    1.1418,
     1.1404,
     1.1412,
     1.1377,
@@ -195,18 +197,18 @@
     1.1546,
     1.1544,
     1.153,
+    1.1535,
     1.1574,
     1.1583,
     1.1579,
-    1.1678
+    1.168
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3628,
-   "chg": 0.67,
+   "price": 1.3629,
+   "chg": 0.68,
    "spark": [
-    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -224,16 +226,17 @@
     1.3511,
     1.351,
     1.3498,
+    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3628
+    1.3629
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.155,
-   "chg": -0.25,
+   "price": 159.124,
+   "chg": -0.27,
    "spark": [
     163.186,
     163.081,
@@ -256,13 +259,13 @@
     159.223,
     159.34,
     159.55,
-    159.155
+    159.124
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2319.81,
-   "chg": 3.03,
+   "price": 2330.4,
+   "chg": 3.5,
    "spark": [
     1912.3,
     1910.95,
@@ -311,13 +314,13 @@
     2343.5,
     2343.34,
     2315.99,
-    2319.81
+    2330.4
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72432.0,
-   "chg": 4.54,
+   "price": 72727.0,
+   "chg": 4.97,
    "spark": [
     64550.1,
     64559.6,
@@ -366,7 +369,7 @@
     72816.6,
     72723.6,
     72410.3,
-    72432.0
+    72727.0
    ]
   }
  ],
@@ -407,12 +410,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787252854.121437,
-   "title": "Truist upgrades gold to neutral on rate outlook and dollar weakness",
+   "ts": 1787254915.24356,
+   "title": "Silver surges to $68.30 near upper Bollinger Band: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/truist-upgrades-gold-to-neutral-on-rate-outlook-and-dollar-weakness-93CH-4870269",
-   "t": "21 Aug \u00b7 12:07 AM",
-   "ur": "Tarts ret oat lak aur Dollar ki kamazori par Gold (sone) ko nuterl par ap gared karta hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
+   "t": "21 Aug \u00b7 12:41 AM",
+   "ur": "Balingr bind ke qarib Silver (chandi) $68.30 tak badh gayi."
+  },
+  {
+   "ts": 1787254915.24356,
+   "title": "Gold tests $4,600 resistance with overbought RSI: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
+   "t": "21 Aug \u00b7 12:41 AM",
+   "ur": "Gold (sona) ziyadah khareedi hoi RSI ke sath $4,600 ki mazahmat ko janchta hai."
+  },
+  {
+   "ts": 1787253315.0,
+   "title": "Forex Today: US Dollar firms ahead of global flash PMIs",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-global-flash-pmis-202608201915",
+   "t": "21 Aug \u00b7 12:15 AM",
+   "ur": "Farex today: US Dollar ki farmin alimi filish PMIs se aage hen."
   },
   {
    "ts": 1787251487.0,
@@ -469,22 +488,6 @@
    "link": "https://www.fxstreet.com/news/banxico-signals-long-rate-pause-as-inflation-eases-202608201736",
    "t": "20 Aug \u00b7 10:36 PM",
    "ur": "Binkiko mant mahungai mein narmi ke sath tavel rate toqf ka asharah dite hen."
-  },
-  {
-   "ts": 1787245503.0,
-   "title": "New Zealand Dollar rises as RBNZ rate hike expectations strengthen",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rises-as-rbnz-rate-hike-expectations-strengthen-202608201705",
-   "t": "20 Aug \u00b7 10:05 PM",
-   "ur": "RBNZ ki rate mein azafe ki toqaat mazboot hone par niyozi lind Dollar mein azafah hawa."
-  },
-  {
-   "ts": 1787245262.0,
-   "title": "Australian Dollar holds near highs as mixed data keeps RBA tightening bets alive",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-near-highs-as-mixed-data-keeps-rba-tightening-bets-alive-202608201701",
-   "t": "20 Aug \u00b7 10:01 PM",
-   "ur": "Aasterilvi Dollar balandi ke qarib hai cunkah mukhaloot deta RBA ko saqt karne wali sharton ko zandah rakta hai."
   }
  ],
  "sentiment": {
