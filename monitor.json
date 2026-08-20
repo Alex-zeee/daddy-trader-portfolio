@@ -1,15 +1,13 @@
 {
- "updated": "20-08-2026 16:14 PKT",
+ "updated": "20-08-2026 16:42 PKT",
  "gold": {
-  "price": 4486.21,
-  "open": 4373.78,
+  "price": 4481.59,
+  "open": 4363.64,
   "high": 4527.83,
   "low": 4362.17,
-  "chg": 2.57,
+  "chg": 2.7,
   "src": "XAUUSD Spot",
   "spark": [
-   4518.34,
-   4514.96,
    4512.4,
    4513.56,
    4511.43,
@@ -55,14 +53,16 @@
    4492.3,
    4491.15,
    4489.61,
-   4486.21
+   4484.71,
+   4485.16,
+   4481.59
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.84,
-   "chg": 1.68,
+   "price": 66.83,
+   "chg": 1.67,
    "spark": [
     60.019,
     57.798,
@@ -85,42 +85,13 @@
     66.121,
     63.941,
     65.734,
-    66.84
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 98.694,
-   "chg": -0.14,
-   "spark": [
-    101.14,
-    101.43,
-    101.47,
-    101.51,
-    101.38,
-    100.8,
-    100.01,
-    99.8,
-    99.96,
-    99.89,
-    99.69,
-    99.97,
-    99.6,
-    99.81,
-    99.82,
-    100.01,
-    99.96,
-    99.67,
-    99.64,
-    99.65,
-    98.83,
-    98.694
+    66.83
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.85,
-   "chg": 1.19,
+   "price": 87.12,
+   "chg": 1.5,
    "spark": [
     86.83,
     92.19,
@@ -143,7 +114,7 @@
     84.5,
     84.94,
     85.83,
-    86.85
+    87.12
    ]
   },
   {
@@ -151,15 +122,12 @@
    "price": 4.653,
    "chg": -1.13,
    "spark": [
-    4.628,
-    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -206,9 +174,10 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3634,
-   "chg": 0.72,
+   "price": 1.3637,
+   "chg": 0.74,
    "spark": [
+    1.3432,
     1.3379,
     1.3375,
     1.3313,
@@ -226,11 +195,10 @@
     1.3511,
     1.351,
     1.3498,
-    1.3491,
     1.3547,
     1.355,
     1.3537,
-    1.3634
+    1.3637
    ]
   },
   {
@@ -264,8 +232,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 2285.22,
-   "chg": 1.5,
+   "price": 2309.07,
+   "chg": 2.56,
    "spark": [
     1897.85,
     1895.76,
@@ -314,13 +282,13 @@
     2279.73,
     2276.67,
     2283.38,
-    2285.22
+    2309.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71877.2,
-   "chg": 3.74,
+   "price": 72218.8,
+   "chg": 4.23,
    "spark": [
     64164.4,
     64148.9,
@@ -369,7 +337,7 @@
     71533.1,
     71724.0,
     71916.8,
-    71877.2
+    72218.8
    ]
   }
  ],
@@ -394,28 +362,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787224485.390912,
+   "ts": 1787226124.462394,
+   "title": "Morgan Stanley is out with its gold price outlook for 2027",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/morgan-stanley-is-out-with-its-gold-price-outlook-for-2027-4869386",
+   "t": "20 Aug \u00b7 04:42 PM",
+   "ur": "Morgan stinle 2027 ke liye apane Gold (sone) ki qeemat ke oat lak ke sath bahar hai."
+  },
+  {
+   "ts": 1787226124.462394,
    "title": "Gold retreats after Treasury buybacks fuel rally to more than 2-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 04:14 PM",
+   "t": "20 Aug \u00b7 04:42 PM",
    "ur": "Treasurei ki janb se andhan ki wapsi ke bad Gold (sona) 2 mah ki baland tarin sath par patchhe hat gaya."
   },
   {
-   "ts": 1787224485.390912,
+   "ts": 1787226124.462394,
    "title": "Silver tests $67.13-$67.50 resistance: Live hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 04:14 PM",
+   "t": "20 Aug \u00b7 04:42 PM",
    "ur": "Silver (chandi) $67.13-$67.50 mazahmat ki janch karti hai: laaio fi ghanta ki sath"
   },
   {
-   "ts": 1787224485.390912,
-   "title": "Gold stalls near highs with double top risk: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "20 Aug \u00b7 04:14 PM",
-   "ur": "Dabl tap rask ke sath unchai ke qarib gold rak gaya hai."
+   "ts": 1787226035.0,
+   "title": "Euro: Benefits from US Dollar weakness \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-benefits-from-us-dollar-weakness-dbs-202608201140",
+   "t": "20 Aug \u00b7 04:40 PM",
+   "ur": "Uro: US Dollar ki kamazori se faidah - DBS"
+  },
+  {
+   "ts": 1787225336.0,
+   "title": "US Dollar: Downside risks grow as yields contained \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-downside-risks-grow-as-yields-contained-mufg-202608201128",
+   "t": "20 Aug \u00b7 04:28 PM",
+   "ur": "US Dollar: manfi khatrat badhte jate hen cunkah pedawar shamil hoti hai - MUFG"
+  },
+  {
+   "ts": 1787224570.0,
+   "title": "Gold pares gains, remaining close to recent highs, as Treasury buybacks weigh on US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-pares-gains-remaining-close-to-recent-highs-as-treasury-buybacks-weigh-on-us-dollar-202608201116",
+   "t": "20 Aug \u00b7 04:16 PM",
+   "ur": "US Dollar par treasurei bai bex ka wazin hone ki wajah se Gold (sone) mein azafah, haaliya balandiyon ke qarib baqi hai"
   },
   {
    "ts": 1787224369.0,
@@ -448,30 +440,6 @@
    "link": "https://www.fxstreet.com/news/euro-holds-steady-against-british-pound-as-ecb-boe-rate-hike-bets-offset-each-other-202608201010",
    "t": "20 Aug \u00b7 03:10 PM",
    "ur": "Uro bartanvi pound ke khalaf mastahkam hai cunkah ECB, BoE rate mein azafe ki shartin ek dosare ko pora karti hen"
-  },
-  {
-   "ts": 1787218367.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608200932",
-   "t": "20 Aug \u00b7 02:32 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
-  },
-  {
-   "ts": 1787217937.0,
-   "title": "Federal Reserve: AI, inflation risks and limited FX impact \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-ai-inflation-risks-and-limited-fx-impact-mufg-202608200925",
-   "t": "20 Aug \u00b7 02:25 PM",
-   "ur": "Faderl resero: AI, inflation (mehngai) ke khatrat aur muhadud FX asar - MUFG"
-  },
-  {
-   "ts": 1787217384.0,
-   "title": "US Dollar: Policy-driven yield retreat \u2013 UBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-policy-driven-yield-retreat-ubs-202608200916",
-   "t": "20 Aug \u00b7 02:16 PM",
-   "ur": "US Dollar: palisi par mbani pedawar ki wapsi - UBS"
   }
  ],
  "sentiment": {
