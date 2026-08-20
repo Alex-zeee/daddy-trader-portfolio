@@ -1,16 +1,13 @@
 {
- "updated": "20-08-2026 12:14 PKT",
+ "updated": "20-08-2026 12:56 PKT",
  "gold": {
-  "price": 4489.92,
-  "open": 4351.09,
+  "price": 4490.77,
+  "open": 4355.49,
   "high": 4527.83,
-  "low": 4348.2,
-  "chg": 3.19,
+  "low": 4351.88,
+  "chg": 3.11,
   "src": "XAUUSD Spot",
   "spark": [
-   4506.63,
-   4506.12,
-   4509.54,
    4506.67,
    4519.17,
    4520.33,
@@ -55,14 +52,17 @@
    4494.6,
    4492.73,
    4493.68,
-   4489.92
+   4488.73,
+   4484.36,
+   4490.62,
+   4490.77
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.015,
-   "chg": 1.95,
+   "price": 66.76,
+   "chg": 1.56,
    "spark": [
     60.019,
     57.798,
@@ -85,13 +85,13 @@
     66.121,
     63.941,
     65.734,
-    67.015
+    66.76
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.786,
-   "chg": -0.04,
+   "price": 98.744,
+   "chg": -0.09,
    "spark": [
     100.99,
     101.43,
@@ -113,13 +113,13 @@
     99.64,
     99.65,
     98.83,
-    98.786
+    98.744
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.11,
-   "chg": -0.84,
+   "price": 85.73,
+   "chg": -0.12,
    "spark": [
     86.83,
     92.19,
@@ -142,7 +142,7 @@
     84.5,
     84.94,
     85.83,
-    85.11
+    85.73
    ]
   },
   {
@@ -150,12 +150,15 @@
    "price": 4.653,
    "chg": -1.13,
    "spark": [
+    4.628,
+    4.657,
     4.703,
     4.679,
     4.641,
     4.604,
     4.622,
     4.663,
+    4.745,
     4.686,
     4.627,
     4.617,
@@ -173,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1686,
-   "chg": 0.92,
+   "price": 1.1693,
+   "chg": 0.98,
    "spark": [
     1.1418,
     1.1404,
@@ -197,13 +200,13 @@
     1.1574,
     1.1583,
     1.1579,
-    1.1686
+    1.1693
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3613,
-   "chg": 0.57,
+   "price": 1.3626,
+   "chg": 0.66,
    "spark": [
     1.3432,
     1.3379,
@@ -226,13 +229,13 @@
     1.3547,
     1.355,
     1.3537,
-    1.3613
+    1.3626
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.379,
-   "chg": -0.73,
+   "price": 158.453,
+   "chg": -0.69,
    "spark": [
     163.186,
     163.081,
@@ -255,13 +258,13 @@
     159.223,
     159.34,
     159.55,
-    158.379
+    158.453
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2255.76,
-   "chg": 0.19,
+   "price": 2247.62,
+   "chg": -0.17,
    "spark": [
     1898.31,
     1894.89,
@@ -310,13 +313,13 @@
     2249.59,
     2247.17,
     2260.89,
-    2255.76
+    2247.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 69778.8,
-   "chg": 0.71,
+   "price": 69715.9,
+   "chg": 0.62,
    "spark": [
     64216.4,
     64114.8,
@@ -365,7 +368,7 @@
     69449.4,
     69365.0,
     69806.1,
-    69778.8
+    69715.9
    ]
   }
  ],
@@ -390,28 +393,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787210045.385685,
+   "ts": 1787212585.169944,
+   "title": "Silver tests $67.13-$67.50 resistance: Live hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
+   "t": "20 Aug \u00b7 12:56 PM",
+   "ur": "Silver (chandi) $67.13-$67.50 mazahmat ki janch karti hai: laaio fi ghanta ki sath"
+  },
+  {
+   "ts": 1787212585.169944,
+   "title": "Gold stalls near highs with double top risk: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
+   "t": "20 Aug \u00b7 12:56 PM",
+   "ur": "Dabl tap rask ke sath unchai ke qarib gold rak gaya hai."
+  },
+  {
+   "ts": 1787212585.169944,
    "title": "Gold holds near $4,500 as Treasury buybacks, Fed minutes shape rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "20 Aug \u00b7 12:14 PM",
+   "t": "20 Aug \u00b7 12:56 PM",
    "ur": "Treasurei bi bex, fed mant ki shakl ki rate oat lak ke tur par Gold (sona) $4,500 ke qarib rakta hai."
   },
   {
-   "ts": 1787210045.385685,
-   "title": "Gold pops as dollar, yields fall; spot prices top $4.5k for first time since June",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-big-drop-as-oil-bond-yields-pressure-bullion-fed-minutes-due-4866317",
-   "t": "20 Aug \u00b7 12:14 PM",
-   "ur": "Gold (sona) Dollar ke tur par khalta hai, pedawar mein kami; jon ke bad pehli bar spat ki qeemtin $4.5k ke oper hen."
+   "ts": 1787212410.0,
+   "title": "South African Rand: inflation risks from El Ni\u00f1o \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-african-rand-inflation-risks-from-el-nino-commerzbank-202608200753",
+   "t": "20 Aug \u00b7 12:53 PM",
+   "ur": "South afriqi rind: al nino - kamers Bank se inflation (mehngai) ke khatrat"
   },
   {
-   "ts": 1787210045.385685,
-   "title": "Silver tests $67.00 resistance with double top risk: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "20 Aug \u00b7 12:14 PM",
-   "ur": "Silver (chandi) dabl tap rask ke sath $67.00 mazahmat ki janch karti hai."
+   "ts": 1787211521.0,
+   "title": "US Dollar: Under pressure as yields capped \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-under-pressure-as-yields-capped-ocbc-202608200738",
+   "t": "20 Aug \u00b7 12:38 PM",
+   "ur": "US Dollar: dabao mein hai jisa kah pedawar muhadud hai - OCBC"
+  },
+  {
+   "ts": 1787211327.0,
+   "title": "New Zealand Dollar advances on RBNZ hawkish outlook",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-advances-on-rbnz-hawkish-outlook-202608200735",
+   "t": "20 Aug \u00b7 12:35 PM",
+   "ur": "Niyozi lind Dollar RBNZ hakish oat lak par aage badh raha hai."
+  },
+  {
+   "ts": 1787210701.0,
+   "title": "Forex Today: US Dollar struggles after Treasury boosts long-term bond purchases",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-struggles-after-treasury-boosts-long-term-bond-purchases-202608200725",
+   "t": "20 Aug \u00b7 12:25 PM",
+   "ur": "Farex today: treasurei ki janb se tavel madati band ki khareedari mein azafe ke bad US Dollar jadojehad kar raha hai."
+  },
+  {
+   "ts": 1787210353.0,
+   "title": "Australian Dollar: Upside risk hinges on 0.7150 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-upside-risk-hinges-on-07150-against-us-dollar-uob-202608200719",
+   "t": "20 Aug \u00b7 12:19 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke maqable 0.7150 par alta khatrah hai - UOB"
+  },
+  {
+   "ts": 1787210334.0,
+   "title": "98.75 support tested; US Dollar Index under pressure amid US debt buyback plan",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/9875-support-tested-us-dollar-index-under-pressure-amid-us-debt-buyback-plan-202608200718",
+   "t": "20 Aug \u00b7 12:18 PM",
+   "ur": "98.75 sport ka tajrabah kiya gaya. US qarz ki wapsi ke mansube ke darmiyan US Dollar andex dabao mein hai."
   },
   {
    "ts": 1787209842.0,
@@ -420,54 +471,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-risk-on-pattern-with-softer-dxy-ing-202608200710",
    "t": "20 Aug \u00b7 12:10 PM",
    "ur": "US Dollar: moutadil DXY - ING ke sath rask aan patern"
-  },
-  {
-   "ts": 1787209455.0,
-   "title": "Australian Dollar holds early losses driven by weak job data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-early-losses-driven-by-weak-job-data-202608200704",
-   "t": "20 Aug \u00b7 12:04 PM",
-   "ur": "Aasterilvi Dollar ko malazmat ke kamazor deta ki wajah se abtadai naqsanat ka samana hai."
-  },
-  {
-   "ts": 1787209443.0,
-   "title": "Canadian Dollar gains traction on fading Fed rate hike bets, US-Canada tariff pause",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-traction-on-fading-fed-rate-hike-bets-us-canada-tariff-pause-202608200704",
-   "t": "20 Aug \u00b7 12:04 PM",
-   "ur": "Caniden Dollar ne fed ki rate mein azafe ke dao, US-canida terf toqf par karshan haasil kiya"
-  },
-  {
-   "ts": 1787208272.0,
-   "title": "Silver Price Forecasts: XAG/USD stands tall near $67 supported by US Treasury\u2019s buybacks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-stands-tall-near-67-supported-by-us-treasurys-buybacks-202608200644",
-   "t": "20 Aug \u00b7 11:44 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $67 ke qarib khada hai jase US treasurei ki bai bex ki support haasil hai"
-  },
-  {
-   "ts": 1787207769.0,
-   "title": "Indian Rupee: Elevated Oil keeps INR lagging against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-elevated-oil-keeps-inr-lagging-against-us-dollar-ocbc-202608200636",
-   "t": "20 Aug \u00b7 11:36 AM",
-   "ur": "Handostani ropiya: elevated il US Dollar - OCBC ke maqable mein INR ko patchhe rakta hai."
-  },
-  {
-   "ts": 1787207152.0,
-   "title": "Equities: Yield relief and healthcare gains lift markets \u2013 Deutsche Bank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/equities-yield-relief-and-healthcare-gains-lift-markets-deutsche-bank-202608200625",
-   "t": "20 Aug \u00b7 11:25 AM",
-   "ur": "Ekwists: pedawar mein rilif aur saht ki dekh bhal se marketon mein azafah hota hai - deoche Bank"
-  },
-  {
-   "ts": 1787206533.0,
-   "title": "British Pound: Further gains face 1.3655 cap against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-further-gains-face-13655-cap-against-us-dollar-uob-202608200615",
-   "t": "20 Aug \u00b7 11:15 AM",
-   "ur": "Bartanvi pound: US Dollar - UOB ke maqable mein mazid fawaid ko 1.3655 cap ka samana hai."
   }
  ],
  "sentiment": {
