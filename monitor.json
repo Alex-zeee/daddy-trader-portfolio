@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 04:13 PKT",
+ "updated": "21-08-2026 04:38 PKT",
  "gold": {
-  "price": 4530.13,
-  "open": 4520.37,
+  "price": 4521.66,
+  "open": 4514.68,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.22,
+  "chg": 0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   4485.16,
-   4476.67,
    4467.43,
    4465.63,
    4459.8,
@@ -55,14 +53,16 @@
    4521.22,
    4523.45,
    4524.28,
-   4530.13
+   4531.74,
+   4525.92,
+   4521.66
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.385,
-   "chg": 4.03,
+   "price": 68.32,
+   "chg": 3.93,
    "spark": [
     60.019,
     57.798,
@@ -85,7 +85,7 @@
     66.121,
     63.941,
     65.734,
-    68.385
+    68.32
    ]
   },
   {
@@ -118,8 +118,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 86.32,
-   "chg": 0.57,
+   "price": 86.31,
+   "chg": 0.56,
    "spark": [
     86.83,
     92.19,
@@ -142,7 +142,7 @@
     84.5,
     84.94,
     85.83,
-    86.32
+    86.31
    ]
   },
   {
@@ -176,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1688,
-   "chg": 0.12,
+   "price": 1.1689,
+   "chg": 0.13,
    "spark": [
     1.1404,
     1.1412,
@@ -200,12 +200,12 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1688
+    1.1689
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3639,
+   "price": 1.364,
    "chg": 0.29,
    "spark": [
     1.3379,
@@ -229,13 +229,13 @@
     1.355,
     1.3537,
     1.36,
-    1.3639
+    1.364
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.899,
-   "chg": 0.39,
+   "price": 158.931,
+   "chg": 0.41,
    "spark": [
     163.081,
     163.832,
@@ -258,13 +258,13 @@
     159.34,
     159.55,
     158.276,
-    158.899
+    158.931
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2319.96,
-   "chg": 3.04,
+   "price": 2325.41,
+   "chg": 3.28,
    "spark": [
     1912.44,
     1912.28,
@@ -313,13 +313,13 @@
     2317.89,
     2317.15,
     2313.71,
-    2319.96
+    2325.41
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 72863.0,
-   "chg": 5.16,
+   "price": 73063.0,
+   "chg": 5.45,
    "spark": [
     64444.2,
     64350.5,
@@ -368,7 +368,7 @@
     72656.2,
     72724.8,
     72666.7,
-    72863.0
+    73063.0
    ]
   }
  ],
@@ -409,28 +409,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787267631.324539,
+   "ts": 1787269136.239799,
    "title": "Spot gold holds above $4.5k a day after topping the mark for first time since June",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "21 Aug \u00b7 04:13 AM",
+   "t": "21 Aug \u00b7 04:38 AM",
    "ur": "Jon ke bad pehli bar mark tap karne ke bad spat gold ek dan mein $4.5k se oper rakta hai."
   },
   {
-   "ts": 1787267631.324539,
+   "ts": 1787269136.239799,
    "title": "Silver surges to $68.30 near upper Bollinger Band: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 04:13 AM",
+   "t": "21 Aug \u00b7 04:38 AM",
    "ur": "Balingr bind ke qarib Silver (chandi) $68.30 tak badh gayi."
   },
   {
-   "ts": 1787267631.324539,
-   "title": "Gold tests $4,600 resistance with overbought RSI: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "21 Aug \u00b7 04:13 AM",
-   "ur": "Gold (sona) ziyadah khareedi hoi RSI ke sath $4,600 ki mazahmat ko janchta hai."
+   "ts": 1787269036.0,
+   "title": "Gold drifts higher above $4,500 on US Treasury buyback",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-500-on-us-treasury-buyback-202608202337",
+   "t": "21 Aug \u00b7 04:37 AM",
+   "ur": "US treasurei bai bek par Gold (sona) $4,500 se oper chala gaya."
+  },
+  {
+   "ts": 1787268722.0,
+   "title": "Japan\u2019s National CPI climbs 2.0% YoY in July, Core CPI rises as expected",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japans-national-cpi-climbs-20-yoy-in-july-core-cpi-rises-as-expected-202608202332",
+   "t": "21 Aug \u00b7 04:32 AM",
+   "ur": "Japan ki qaumi CPI joli mein 2.0% sal par chadh gayi, kor CPI mein toqa ke matabiq azafah hawa"
+  },
+  {
+   "ts": 1787267734.0,
+   "title": "Australian Dollar weakens as US yields rebound, PMIs fail to impress",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-as-us-yields-rebound-pmis-fail-to-impress-202608202315",
+   "t": "21 Aug \u00b7 04:15 AM",
+   "ur": "Aasterilvi Dollar kamazor hota hai jisa kah US pedawar mein tizi aati hai, PMIs matasar karne mein naakam rahte hen."
   },
   {
    "ts": 1787265903.0,
@@ -471,22 +487,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-slips-as-firmer-yields-lift-us-dollar-ahead-of-global-pmis-202608202118",
    "t": "21 Aug \u00b7 02:18 AM",
    "ur": "Japani yan phisal gaya cunkah mazboot pedawar ne US Dollar ko alimi PMIs se aage badha diya"
-  },
-  {
-   "ts": 1787260394.0,
-   "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
-   "t": "21 Aug \u00b7 02:13 AM",
-   "ur": "Treasurei market mein besint ki koshashon ne ab tak kam nihen kiya hai. yahan wah aur kiya koshash kar sakta hai."
-  },
-  {
-   "ts": 1787253315.0,
-   "title": "Forex Today: US Dollar firms ahead of global flash PMIs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-global-flash-pmis-202608201915",
-   "t": "21 Aug \u00b7 12:15 AM",
-   "ur": "Farex today: US Dollar ki farmin alimi filish PMIs se aage hen."
   }
  ],
  "sentiment": {
