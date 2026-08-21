@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 22:27 PKT",
+ "updated": "21-08-2026 22:54 PKT",
  "gold": {
-  "price": 4618.96,
-  "open": 4511.67,
+  "price": 4619.58,
+  "open": 4519.86,
   "high": 4631.91,
   "low": 4509.18,
-  "chg": 2.38,
+  "chg": 2.21,
   "src": "XAUUSD Spot",
   "spark": [
-   4539.67,
-   4554.99,
    4548.81,
    4557.77,
    4564.74,
@@ -55,14 +53,16 @@
    4621.39,
    4628.45,
    4622.98,
-   4618.96
+   4621.87,
+   4622.5,
+   4619.58
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.735,
-   "chg": 2.51,
+   "price": 69.72,
+   "chg": 2.49,
    "spark": [
     57.798,
     58.656,
@@ -85,42 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.735
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 98.836,
-   "chg": -0.06,
-   "spark": [
-    101.43,
-    101.47,
-    101.51,
-    101.38,
-    100.8,
-    100.01,
-    99.8,
-    99.96,
-    99.89,
-    99.69,
-    99.97,
-    99.6,
-    99.81,
-    99.82,
-    100.01,
-    99.96,
-    99.67,
-    99.64,
-    99.65,
-    98.83,
-    98.9,
-    98.836
+    69.72
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.15,
-   "chg": -0.77,
+   "price": 87.21,
+   "chg": -0.71,
    "spark": [
     92.19,
     89.31,
@@ -143,13 +114,13 @@
     84.94,
     85.83,
     87.83,
-    87.15
+    87.21
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.734,
-   "chg": 0.81,
+   "price": 4.74,
+   "chg": 0.94,
    "spark": [
     4.703,
     4.679,
@@ -172,7 +143,7 @@
     4.706,
     4.653,
     4.696,
-    4.734
+    4.74
    ]
   },
   {
@@ -206,8 +177,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3644,
-   "chg": 0.32,
+   "price": 1.3648,
+   "chg": 0.35,
    "spark": [
     1.3375,
     1.3313,
@@ -230,13 +201,13 @@
     1.355,
     1.3537,
     1.36,
-    1.3644
+    1.3648
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.01,
-   "chg": 0.46,
+   "price": 159.013,
+   "chg": 0.47,
    "spark": [
     163.081,
     163.832,
@@ -259,13 +230,13 @@
     159.34,
     159.55,
     158.276,
-    159.01
+    159.013
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2412.57,
-   "chg": 3.71,
+   "price": 2422.72,
+   "chg": 4.15,
    "spark": [
     2091.0,
     2101.38,
@@ -314,13 +285,13 @@
     2392.99,
     2391.91,
     2405.99,
-    2412.45
+    2422.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77422.8,
-   "chg": 6.06,
+   "price": 77338.8,
+   "chg": 5.94,
    "spark": [
     68379.4,
     68393.8,
@@ -369,7 +340,7 @@
     77378.5,
     77185.7,
     77466.9,
-    77422.8
+    77338.8
    ]
   }
  ],
@@ -386,12 +357,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787333279.442721,
+   "ts": 1787334859.289642,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 10:27 PM",
+   "t": "21 Aug \u00b7 10:54 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
+  },
+  {
+   "ts": 1787333639.0,
+   "title": "Higher yields stop paying the Dollar Index",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/higher-yields-stop-paying-the-dollar-index-202608211733",
+   "t": "21 Aug \u00b7 10:33 PM",
+   "ur": "Ziyadah pedawar Dollar andex ki adaigi rok diti hai."
   },
   {
    "ts": 1787333199.0,
@@ -456,14 +435,6 @@
    "link": "https://www.fxstreet.com/news/euro-pares-gains-against-us-dollar-but-eyes-fourth-weekly-advance-202608211409",
    "t": "21 Aug \u00b7 07:09 PM",
    "ur": "Uro US Dollar ke maqable mein faidah atha raha hai lican chothi haftah war pesh qadami dekh raha hai."
-  },
-  {
-   "ts": 1787320796.0,
-   "title": "Japanese Yen: Soft Dollar and BoJ outlook shift near-term tone \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-soft-dollar-and-boj-outlook-shift-near-term-tone-scotiabank-202608211359",
-   "t": "21 Aug \u00b7 06:59 PM",
-   "ur": "Japani yan: narm Dollar aur BoJ oat lak ki tabadili qarib almadat lahajah \u2013 Scotiabank"
   }
  ],
  "sentiment": {
