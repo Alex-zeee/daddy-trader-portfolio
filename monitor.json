@@ -1,16 +1,13 @@
 {
- "updated": "21-08-2026 23:18 PKT",
+ "updated": "22-08-2026 00:03 PKT",
  "gold": {
-  "price": 4625.15,
-  "open": 4519.03,
+  "price": 4623.2,
+  "open": 4526.88,
   "high": 4631.91,
   "low": 4509.73,
-  "chg": 2.35,
+  "chg": 2.13,
   "src": "XAUUSD Spot",
   "spark": [
-   4564.74,
-   4562.53,
-   4559.26,
    4562.3,
    4566.31,
    4563.59,
@@ -55,14 +52,17 @@
    4622.5,
    4621.21,
    4624.05,
-   4625.15
+   4625.28,
+   4620.55,
+   4624.34,
+   4623.2
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.67,
-   "chg": 2.42,
+   "price": 69.63,
+   "chg": 2.36,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.67
+    69.63
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.801,
-   "chg": -0.1,
+   "price": 98.815,
+   "chg": -0.09,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.801
+    98.815
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.11,
-   "chg": -0.82,
+   "price": 87.06,
+   "chg": -0.88,
    "spark": [
     92.19,
     89.31,
@@ -143,13 +143,13 @@
     84.94,
     85.83,
     87.83,
-    87.11
+    87.06
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.74,
-   "chg": 0.94,
+   "price": 4.738,
+   "chg": 0.89,
    "spark": [
     4.703,
     4.679,
@@ -172,13 +172,13 @@
     4.706,
     4.653,
     4.696,
-    4.74
+    4.738
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1685,
-   "chg": 0.1,
+   "price": 1.1686,
+   "chg": 0.11,
    "spark": [
     1.1412,
     1.1377,
@@ -201,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1685
+    1.1686
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3651,
-   "chg": 0.37,
+   "price": 1.3652,
+   "chg": 0.38,
    "spark": [
     1.3375,
     1.3313,
@@ -230,12 +230,12 @@
     1.355,
     1.3537,
     1.36,
-    1.3651
+    1.3652
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.013,
+   "price": 159.018,
    "chg": 0.47,
    "spark": [
     163.081,
@@ -259,15 +259,14 @@
     159.34,
     159.55,
     158.276,
-    159.013
+    159.018
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2422.37,
-   "chg": 4.13,
+   "price": 2412.11,
+   "chg": 3.69,
    "spark": [
-    2101.38,
     2217.54,
     2285.28,
     2248.14,
@@ -314,15 +313,15 @@
     2391.91,
     2405.99,
     2422.99,
-    2422.37
+    2420.21,
+    2412.11
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77257.4,
-   "chg": 5.83,
+   "price": 76989.0,
+   "chg": 5.46,
    "spark": [
-    68393.8,
     69033.3,
     69697.2,
     69214.3,
@@ -369,7 +368,8 @@
     77185.7,
     77466.9,
     77371.8,
-    77257.4
+    77095.0,
+    76989.0
    ]
   }
  ],
@@ -386,12 +386,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787336285.336883,
+   "ts": 1787339020.320933,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 11:18 PM",
+   "t": "22 Aug \u00b7 12:03 AM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
+  },
+  {
+   "ts": 1787338380.0,
+   "title": "Malaysian Ringgit: Supported by strong fundamentals against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/malaysian-ringgit-supported-by-strong-fundamentals-against-us-dollar-ocbc-202608211853",
+   "t": "21 Aug \u00b7 11:53 PM",
+   "ur": "Malishin rangt: US Dollar ke maqable mein mazboot baniyadi asilon se taaaun yaaftah - OCBC"
+  },
+  {
+   "ts": 1787336640.0,
+   "title": "Singapore: inflation and production outlook \u2013 DBS",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-inflation-and-production-outlook-dbs-202608211824",
+   "t": "21 Aug \u00b7 11:24 PM",
+   "ur": "Sangapor: inflation (mehngai) aur pedawar ka naqatah nazar - DBS"
   },
   {
    "ts": 1787335545.0,
@@ -448,22 +464,6 @@
    "link": "https://www.fxstreet.com/news/bank-of-canada-tariff-deal-unlikely-to-accelerate-hikes-td-securities-202608211638",
    "t": "21 Aug \u00b7 09:38 PM",
    "ur": "Bank af canida: terf del mein azafe ko ties karne ka amkan nihen hai - TD securitez"
-  },
-  {
-   "ts": 1787329189.0,
-   "title": "Euro treads water vs Yen as Japanese inflation, European PMIs offset each other",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-treads-water-vs-yen-as-japanese-inflation-european-pmis-offset-each-other-202608211619",
-   "t": "21 Aug \u00b7 09:19 PM",
-   "ur": "Uro pani bamaqablah yan japani inflation (mehngai) ke tur par chal raha hai, uripi PMIs ek dosare ko afset kar rahe hen."
-  },
-  {
-   "ts": 1787323389.0,
-   "title": "US Dollar: Jackson Hole volatility over credibility \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-jackson-hole-volatility-over-credibility-td-securities-202608211443",
-   "t": "21 Aug \u00b7 07:43 PM",
-   "ur": "US Dollar: jection hol ki sakh par atar chadhao - TD securitez"
   }
  ],
  "sentiment": {
