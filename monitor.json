@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 20:58 PKT",
+ "updated": "21-08-2026 21:27 PKT",
  "gold": {
-  "price": 4613.63,
-  "open": 4522.7,
-  "high": 4614.67,
+  "price": 4612.88,
+  "open": 4506.92,
+  "high": 4618.19,
   "low": 4503.9,
-  "chg": 2.01,
+  "chg": 2.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4539.84,
-   4546.46,
    4542.06,
    4541.01,
    4536.2,
@@ -55,14 +53,16 @@
    4595.4,
    4605.06,
    4609.74,
-   4613.63
+   4611.26,
+   4614.91,
+   4612.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.58,
-   "chg": 2.28,
+   "price": 69.55,
+   "chg": 2.24,
    "spark": [
     57.798,
     58.656,
@@ -85,12 +85,12 @@
     63.941,
     65.734,
     68.026,
-    69.58
+    69.55
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.825,
+   "price": 98.817,
    "chg": -0.08,
    "spark": [
     101.43,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.825
+    98.817
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.76,
-   "chg": -1.22,
+   "price": 86.93,
+   "chg": -1.02,
    "spark": [
     92.19,
     89.31,
@@ -143,13 +143,13 @@
     84.94,
     85.83,
     87.83,
-    86.76
+    86.93
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.73,
-   "chg": 0.72,
+   "price": 4.734,
+   "chg": 0.81,
    "spark": [
     4.703,
     4.679,
@@ -172,7 +172,7 @@
     4.706,
     4.653,
     4.696,
-    4.73
+    4.734
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.91,
-   "chg": 0.4,
+   "price": 158.957,
+   "chg": 0.43,
    "spark": [
     163.081,
     163.832,
@@ -259,15 +259,14 @@
     159.34,
     159.55,
     158.276,
-    158.91
+    158.957
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2393.88,
-   "chg": 2.91,
+   "price": 2398.0,
+   "chg": 3.09,
    "spark": [
-    2088.56,
     2090.05,
     2091.0,
     2101.38,
@@ -314,15 +313,15 @@
     2387.23,
     2385.73,
     2392.99,
-    2393.88
+    2391.91,
+    2398.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77224.6,
-   "chg": 5.79,
+   "price": 77209.0,
+   "chg": 5.76,
    "spark": [
-    68433.0,
     68173.4,
     68379.4,
     68393.8,
@@ -369,7 +368,8 @@
     77187.0,
     77257.6,
     77378.5,
-    77224.6
+    77185.7,
+    77209.0
    ]
   }
  ],
@@ -386,12 +386,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787327908.663377,
+   "ts": 1787329666.221367,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 08:58 PM",
+   "t": "21 Aug \u00b7 09:27 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
+  },
+  {
+   "ts": 1787329189.0,
+   "title": "Euro treads water vs Yen as Japanese inflation, European PMIs offset each other",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-treads-water-vs-yen-as-japanese-inflation-european-pmis-offset-each-other-202608211619",
+   "t": "21 Aug \u00b7 09:19 PM",
+   "ur": "Uro pani bamaqablah yan japani inflation (mehngai) ke tur par chal raha hai, uripi PMIs ek dosare ko afset kar rahe hen."
   },
   {
    "ts": 1787323389.0,
@@ -456,14 +464,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-heads-for-fourth-weekly-gain-on-weaker-us-dollar-elevated-oil-prices-202608211259",
    "t": "21 Aug \u00b7 05:59 PM",
    "ur": "Caniden Dollar kamazor US Dollar, til ki baland qeemton par chothe haftah war azafe ki taraf badh raha hai"
-  },
-  {
-   "ts": 1787316193.0,
-   "title": "US Dollar: Bearish regime reinforced by bull flattener \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-bearish-regime-reinforced-by-bull-flattener-td-securities-202608211243",
-   "t": "21 Aug \u00b7 05:43 PM",
-   "ur": "US Dollar: bel filatoner - ti di securitez ke zaria mandi ki hakomat ko taqwet mali"
   }
  ],
  "sentiment": {
