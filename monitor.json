@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 22:54 PKT",
+ "updated": "21-08-2026 23:18 PKT",
  "gold": {
-  "price": 4619.58,
-  "open": 4519.86,
+  "price": 4625.15,
+  "open": 4519.03,
   "high": 4631.91,
-  "low": 4509.18,
-  "chg": 2.21,
+  "low": 4509.73,
+  "chg": 2.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4548.81,
-   4557.77,
    4564.74,
    4562.53,
    4559.26,
@@ -55,14 +53,16 @@
    4622.98,
    4621.87,
    4622.5,
-   4619.58
+   4621.21,
+   4624.05,
+   4625.15
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.72,
-   "chg": 2.49,
+   "price": 69.67,
+   "chg": 2.42,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,42 @@
     63.941,
     65.734,
     68.026,
-    69.72
+    69.67
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 98.801,
+   "chg": -0.1,
+   "spark": [
+    101.43,
+    101.47,
+    101.51,
+    101.38,
+    100.8,
+    100.01,
+    99.8,
+    99.96,
+    99.89,
+    99.69,
+    99.97,
+    99.6,
+    99.81,
+    99.82,
+    100.01,
+    99.96,
+    99.67,
+    99.64,
+    99.65,
+    98.83,
+    98.9,
+    98.801
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.21,
-   "chg": -0.71,
+   "price": 87.11,
+   "chg": -0.82,
    "spark": [
     92.19,
     89.31,
@@ -114,7 +143,7 @@
     84.94,
     85.83,
     87.83,
-    87.21
+    87.11
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1684,
-   "chg": 0.08,
+   "price": 1.1685,
+   "chg": 0.1,
    "spark": [
     1.1412,
     1.1377,
@@ -172,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1684
+    1.1685
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3648,
-   "chg": 0.35,
+   "price": 1.3651,
+   "chg": 0.37,
    "spark": [
     1.3375,
     1.3313,
@@ -201,7 +230,7 @@
     1.355,
     1.3537,
     1.36,
-    1.3648
+    1.3651
    ]
   },
   {
@@ -235,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2422.72,
-   "chg": 4.15,
+   "price": 2422.37,
+   "chg": 4.13,
    "spark": [
-    2091.0,
     2101.38,
     2217.54,
     2285.28,
@@ -285,15 +313,15 @@
     2392.99,
     2391.91,
     2405.99,
-    2422.72
+    2422.99,
+    2422.37
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77338.8,
-   "chg": 5.94,
+   "price": 77257.4,
+   "chg": 5.83,
    "spark": [
-    68379.4,
     68393.8,
     69033.3,
     69697.2,
@@ -340,7 +368,8 @@
     77378.5,
     77185.7,
     77466.9,
-    77338.8
+    77371.8,
+    77257.4
    ]
   }
  ],
@@ -357,12 +386,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787334859.289642,
+   "ts": 1787336285.336883,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 10:54 PM",
+   "t": "21 Aug \u00b7 11:18 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
+  },
+  {
+   "ts": 1787335545.0,
+   "title": "Silver Price Forecast: XAG bulls test $70 as rally extends",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bulls-test-70-as-rally-extends-202608211805",
+   "t": "21 Aug \u00b7 11:05 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG bells $70 ki janch kar rahe hen cunkah rili mein tosi hoti hai."
+  },
+  {
+   "ts": 1787334987.0,
+   "title": "Gold hits three-month peak above $4,600 as Middle East risks fuel rally",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-hits-three-month-peak-above-4-600-as-middle-east-risks-fuel-rally-202608211756",
+   "t": "21 Aug \u00b7 10:56 PM",
+   "ur": "Masharq wasta mein andhan mein azafe ke khatre ke baas Gold (sona) tin mah ki baland tarin qeemat $4,600 se oper hai."
+  },
+  {
+   "ts": 1787334670.0,
+   "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
+   "t": "21 Aug \u00b7 10:51 PM",
+   "ur": "Besint ka band gampbet jas ka masad marketon ko parsakon karna hai bajaye is ke kah mahungai ke khadshat ko hawa di ja rahi hai"
   },
   {
    "ts": 1787333639.0,
@@ -411,30 +464,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-jackson-hole-volatility-over-credibility-td-securities-202608211443",
    "t": "21 Aug \u00b7 07:43 PM",
    "ur": "US Dollar: jection hol ki sakh par atar chadhao - TD securitez"
-  },
-  {
-   "ts": 1787322484.0,
-   "title": "Euro: PMI strength supports against US Dollar \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-pmi-strength-supports-against-us-dollar-bbh-202608211428",
-   "t": "21 Aug \u00b7 07:28 PM",
-   "ur": "Uro: pi em i ki tqt US Dollar - BBH ke maqable mein maaun hai."
-  },
-  {
-   "ts": 1787322211.0,
-   "title": "Japanese Yen strengthens against US Dollar as inflation backs BoJ rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-strengthens-against-us-dollar-as-inflation-backs-boj-rate-hike-bets-202608211423",
-   "t": "21 Aug \u00b7 07:23 PM",
-   "ur": "Japani yan US Dollar ke maqable mein mazboot hawa cunkah inflation (mehngai) ne BoJ rate mein azafe ki shart ki support ki."
-  },
-  {
-   "ts": 1787321373.0,
-   "title": "Euro pares gains against US Dollar but eyes fourth weekly advance",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-pares-gains-against-us-dollar-but-eyes-fourth-weekly-advance-202608211409",
-   "t": "21 Aug \u00b7 07:09 PM",
-   "ur": "Uro US Dollar ke maqable mein faidah atha raha hai lican chothi haftah war pesh qadami dekh raha hai."
   }
  ],
  "sentiment": {
