@@ -1,14 +1,13 @@
 {
- "updated": "21-08-2026 16:42 PKT",
+ "updated": "21-08-2026 17:00 PKT",
  "gold": {
-  "price": 4597.31,
-  "open": 4477.72,
+  "price": 4598.12,
+  "open": 4467.27,
   "high": 4606.18,
   "low": 4451.37,
-  "chg": 2.67,
+  "chg": 2.93,
   "src": "XAUUSD Spot",
   "spark": [
-   4527.09,
    4518.7,
    4517.48,
    4512.58,
@@ -55,14 +54,15 @@
    4588.3,
    4589.42,
    4597.95,
-   4597.31
+   4592.81,
+   4598.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.955,
-   "chg": 2.84,
+   "price": 69.92,
+   "chg": 2.78,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.955
+    69.92
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.651,
-   "chg": -0.25,
+   "price": 98.671,
+   "chg": -0.23,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.651
+    98.671
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.45,
-   "chg": -1.57,
+   "price": 86.68,
+   "chg": -1.31,
    "spark": [
     92.19,
     89.31,
@@ -143,7 +143,7 @@
     84.94,
     85.83,
     87.83,
-    86.45
+    86.68
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1701,
-   "chg": 0.24,
+   "price": 1.1704,
+   "chg": 0.26,
    "spark": [
     1.1412,
     1.1377,
@@ -201,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1701
+    1.1704
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3655,
-   "chg": 0.41,
+   "price": 1.3658,
+   "chg": 0.42,
    "spark": [
     1.3375,
     1.3313,
@@ -230,13 +230,13 @@
     1.355,
     1.3537,
     1.36,
-    1.3655
+    1.3658
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.639,
-   "chg": 0.23,
+   "price": 158.664,
+   "chg": 0.25,
    "spark": [
     163.081,
     163.832,
@@ -259,15 +259,14 @@
     159.34,
     159.55,
     158.276,
-    158.639
+    158.664
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2375.85,
-   "chg": 2.13,
+   "price": 2370.14,
+   "chg": 1.89,
    "spark": [
-    1935.86,
     1930.86,
     1968.58,
     2084.12,
@@ -314,15 +313,15 @@
     2443.95,
     2403.42,
     2394.53,
-    2374.52
+    2369.61,
+    2370.41
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76945.6,
-   "chg": 5.4,
+   "price": 76723.9,
+   "chg": 5.1,
    "spark": [
-    64826.9,
     64940.7,
     65888.0,
     68539.7,
@@ -369,7 +368,8 @@
     79261.5,
     77889.9,
     77801.0,
-    76945.6
+    76689.9,
+    76718.2
    ]
   }
  ],
@@ -386,20 +386,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787312534.026187,
+   "ts": 1787313610.254005,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 04:42 PM",
+   "t": "21 Aug \u00b7 05:00 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
   },
   {
-   "ts": 1787312534.026187,
+   "ts": 1787313610.254005,
    "title": "Silver nears $70 Fibonacci resistance after 25% rally: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 04:42 PM",
+   "t": "21 Aug \u00b7 05:00 PM",
    "ur": "Silver (chandi) 25% ki tizi ke bad $70 faboniki mazahmat ke qarib hai."
+  },
+  {
+   "ts": 1787313114.0,
+   "title": "Canadian Dollar: Binary tariff risks shape near-term path \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-binary-tariff-risks-shape-near-term-path-td-securities-202608211151",
+   "t": "21 Aug \u00b7 04:51 PM",
+   "ur": "Caniden Dollar: binari terf ke khatrat qarib almadat raaste ki tashkil karte hen - TD securitez"
   },
   {
    "ts": 1787312477.0,
@@ -456,14 +464,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-broadly-consolidates-as-analysts-cast-doubts-over-long-term-impact-of-us-treasury-buyback-202608211043",
    "t": "21 Aug \u00b7 03:43 PM",
    "ur": "US Dollar bade pemane par mastahkam hawa cunkah tajaziya karon ne US treasurei bi bek ke tavel madati asarat par shkok w shabhat ka azhar kiya"
-  },
-  {
-   "ts": 1787307648.0,
-   "title": "New Zealand Dollar climbs to highest since June as US Dollar weakens",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-climbs-to-highest-since-june-as-us-dollar-weakens-202608211020",
-   "t": "21 Aug \u00b7 03:20 PM",
-   "ur": "US Dollar ke kamazor hone se niyozi lind Dollar jon ke bad se baland tarin sath par pohch gaya."
   }
  ],
  "sentiment": {
