@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 21:27 PKT",
+ "updated": "21-08-2026 21:59 PKT",
  "gold": {
-  "price": 4612.88,
-  "open": 4506.92,
-  "high": 4618.19,
-  "low": 4503.9,
-  "chg": 2.35,
+  "price": 4627.9,
+  "open": 4510.66,
+  "high": 4628.17,
+  "low": 4507.31,
+  "chg": 2.6,
   "src": "XAUUSD Spot",
   "spark": [
-   4542.06,
-   4541.01,
    4536.2,
    4531.12,
    4539.67,
@@ -55,14 +53,16 @@
    4609.74,
    4611.26,
    4614.91,
-   4612.88
+   4613.63,
+   4621.39,
+   4627.9
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.55,
-   "chg": 2.24,
+   "price": 69.86,
+   "chg": 2.7,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.55
+    69.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.817,
-   "chg": -0.08,
+   "price": 98.805,
+   "chg": -0.1,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.817
+    98.805
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.93,
-   "chg": -1.02,
+   "price": 86.79,
+   "chg": -1.18,
    "spark": [
     92.19,
     89.31,
@@ -143,7 +143,7 @@
     84.94,
     85.83,
     87.83,
-    86.93
+    86.79
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1686,
-   "chg": 0.11,
+   "price": 1.1685,
+   "chg": 0.1,
    "spark": [
     1.1412,
     1.1377,
@@ -201,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1686
+    1.1685
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3641,
-   "chg": 0.3,
+   "price": 1.3643,
+   "chg": 0.32,
    "spark": [
     1.3375,
     1.3313,
@@ -230,12 +230,12 @@
     1.355,
     1.3537,
     1.36,
-    1.3641
+    1.3643
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.957,
+   "price": 158.963,
    "chg": 0.43,
    "spark": [
     163.081,
@@ -259,13 +259,13 @@
     159.34,
     159.55,
     158.276,
-    158.957
+    158.963
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2398.0,
-   "chg": 3.09,
+   "price": 2406.56,
+   "chg": 3.45,
    "spark": [
     2090.05,
     2091.0,
@@ -314,13 +314,13 @@
     2385.73,
     2392.99,
     2391.91,
-    2398.0
+    2406.56
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77209.0,
-   "chg": 5.76,
+   "price": 77454.5,
+   "chg": 6.1,
    "spark": [
     68173.4,
     68379.4,
@@ -369,7 +369,7 @@
     77257.6,
     77378.5,
     77185.7,
-    77209.0
+    77454.5
    ]
   }
  ],
@@ -386,12 +386,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787329666.221367,
+   "ts": 1787331593.474156,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 09:27 PM",
+   "t": "21 Aug \u00b7 09:59 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
+  },
+  {
+   "ts": 1787330280.0,
+   "title": "Bank of Canada: Tariff deal unlikely to accelerate hikes \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/bank-of-canada-tariff-deal-unlikely-to-accelerate-hikes-td-securities-202608211638",
+   "t": "21 Aug \u00b7 09:38 PM",
+   "ur": "Bank af canida: terf del mein azafe ko ties karne ka amkan nihen hai - TD securitez"
   },
   {
    "ts": 1787329189.0,
@@ -456,14 +464,6 @@
    "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-structure-points-to-135-handle-against-us-dollar-scotiabank-202608211325",
    "t": "21 Aug \u00b7 06:25 PM",
    "ur": "Caniden Dollar: balsh dhancha US Dollar ke maqable mein 1.35 hindal ki taraf asharah karta hai - Scotiabank"
-  },
-  {
-   "ts": 1787317148.0,
-   "title": "Canadian Dollar heads for fourth weekly gain on weaker US Dollar, elevated Oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-heads-for-fourth-weekly-gain-on-weaker-us-dollar-elevated-oil-prices-202608211259",
-   "t": "21 Aug \u00b7 05:59 PM",
-   "ur": "Caniden Dollar kamazor US Dollar, til ki baland qeemton par chothe haftah war azafe ki taraf badh raha hai"
   }
  ],
  "sentiment": {
