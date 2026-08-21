@@ -1,17 +1,13 @@
 {
- "updated": "21-08-2026 07:15 PKT",
+ "updated": "21-08-2026 08:16 PKT",
  "gold": {
-  "price": 4519.92,
-  "open": 4499.32,
+  "price": 4534.47,
+  "open": 4491.75,
   "high": 4544.49,
   "low": 4451.37,
-  "chg": 0.46,
+  "chg": 0.95,
   "src": "XAUUSD Spot",
   "spark": [
-   4488.16,
-   4500.43,
-   4515.2,
-   4535.62,
    4533.75,
    4513.58,
    4523.21,
@@ -55,14 +51,18 @@
    4529.99,
    4526.44,
    4530.12,
-   4519.92
+   4519.01,
+   4527.03,
+   4535.72,
+   4535.2,
+   4534.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.475,
-   "chg": 4.17,
+   "price": 68.865,
+   "chg": 4.76,
    "spark": [
     60.019,
     57.798,
@@ -85,13 +85,13 @@
     66.121,
     63.941,
     65.734,
-    68.475
+    68.865
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.779,
-   "chg": -0.05,
+   "price": 98.735,
+   "chg": -0.1,
    "spark": [
     100.99,
     101.43,
@@ -113,13 +113,13 @@
     99.64,
     99.65,
     98.83,
-    98.779
+    98.735
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.76,
-   "chg": 1.08,
+   "price": 86.48,
+   "chg": 0.76,
    "spark": [
     86.83,
     92.19,
@@ -142,7 +142,7 @@
     84.5,
     84.94,
     85.83,
-    86.76
+    86.48
    ]
   },
   {
@@ -176,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1696,
-   "chg": 0.19,
+   "price": 1.1701,
+   "chg": 0.24,
    "spark": [
     1.1404,
     1.1412,
@@ -200,13 +200,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1696
+    1.1701
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3646,
-   "chg": 0.34,
+   "price": 1.3651,
+   "chg": 0.37,
    "spark": [
     1.3379,
     1.3375,
@@ -229,13 +229,13 @@
     1.355,
     1.3537,
     1.36,
-    1.3646
+    1.3651
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.983,
-   "chg": 0.45,
+   "price": 158.952,
+   "chg": 0.43,
    "spark": [
     163.081,
     163.832,
@@ -258,15 +258,14 @@
     159.34,
     159.55,
     158.276,
-    158.983
+    158.952
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2352.49,
-   "chg": 1.13,
+   "price": 2341.96,
+   "chg": 0.68,
    "spark": [
-    1910.94,
     1909.43,
     1908.88,
     1915.82,
@@ -313,15 +312,15 @@
     2326.33,
     2339.24,
     2358.39,
-    2353.24
+    2344.42,
+    2341.96
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74845.4,
-   "chg": 2.53,
+   "price": 74366.7,
+   "chg": 1.87,
    "spark": [
-    64284.1,
     64249.5,
     64200.1,
     64288.9,
@@ -368,61 +367,70 @@
     73001.1,
     73682.5,
     75099.3,
-    74845.4
+    74409.9,
+    74366.7
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1787162400.0,
-   "t": "Wed 19 Aug \u00b7 11:00 PM",
-   "title": "FOMC Meeting Minutes",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1787164200.0,
-   "t": "Wed 19 Aug \u00b7 11:30 PM",
+   "ts": 1787353200.0,
+   "t": "Sat 22 Aug \u00b7 04:00 AM",
    "title": "President Trump Speaks",
    "impact": "Medium",
    "forecast": "",
    "previous": ""
-  },
-  {
-   "ts": 1787229000.0,
-   "t": "Thu 20 Aug \u00b7 05:30 PM",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "Medium",
-   "forecast": "24.1",
-   "previous": "41.4"
-  },
-  {
-   "ts": 1787229000.0,
-   "t": "Thu 20 Aug \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "210K",
-   "previous": "209K"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787278503.974212,
+   "ts": 1787282161.07418,
+   "title": "Gold holds above $4,500 as weaker dollar, Treasury buybacks boost weekly gains now",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
+   "t": "21 Aug \u00b7 08:16 AM",
+   "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper rakta hai, treasurei bi bex ne ab haftah war manafa ko farog diya"
+  },
+  {
+   "ts": 1787282161.07418,
    "title": "Spot gold holds above $4.5k a day after topping the mark for first time since June",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-2month-high-as-treasury-buybacks-push-yields-dollar-lower-4868639",
-   "t": "21 Aug \u00b7 07:15 AM",
+   "t": "21 Aug \u00b7 08:16 AM",
    "ur": "Jon ke bad pehli bar mark tap karne ke bad spat gold ek dan mein $4.5k se oper rakta hai."
   },
   {
-   "ts": 1787278503.974212,
+   "ts": 1787282161.07418,
    "title": "Silver surges to $68.30 near upper Bollinger Band: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 07:15 AM",
+   "t": "21 Aug \u00b7 08:16 AM",
    "ur": "Balingr bind ke qarib Silver (chandi) $68.30 tak badh gayi."
+  },
+  {
+   "ts": 1787280321.0,
+   "title": "Australian Dollar gains ground above 0.7100 as US debt concerns weigh on US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-gains-ground-above-07100-as-us-debt-concerns-weigh-on-us-dollar-202608210245",
+   "t": "21 Aug \u00b7 07:45 AM",
+   "ur": "Aasterilvi Dollar 0.7100 se oper gar gaya cunkah US qarzon ke khadshat US Dollar par wazin ruktey hen"
+  },
+  {
+   "ts": 1787279857.0,
+   "title": "Silver Price Forecast: XAG/USD surges to near $69.00 amid heightened volatility",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-surges-to-near-6900-amid-heightened-volatility-202608210237",
+   "t": "21 Aug \u00b7 07:37 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: ties atar chadhao ke darmiyan XAG/USD badh kar $69.00 ke qarib pohch gaya"
+  },
+  {
+   "ts": 1787279204.0,
+   "title": "United States Dollar Index trades around 99.75-99.70, hangs near three-month low",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-trades-around-9975-9970-hangs-near-three-month-low-202608210226",
+   "t": "21 Aug \u00b7 07:26 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex 99.75-99.70 ke ard gard tajart karta hai, tin mah ki kam tarin sath ke qarib hai"
   },
   {
    "ts": 1787277199.0,
@@ -455,38 +463,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-flatlines-after-cpi-inflation-report-202608210058",
    "t": "21 Aug \u00b7 05:58 AM",
    "ur": "CPI inflation (mehngai) ki rport ke bad japani yan filet linez"
-  },
-  {
-   "ts": 1787269036.0,
-   "title": "Gold drifts higher above $4,500 on US Treasury buyback",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-drifts-higher-above-4-500-on-us-treasury-buyback-202608202337",
-   "t": "21 Aug \u00b7 04:37 AM",
-   "ur": "US treasurei bai bek par Gold (sona) $4,500 se oper chala gaya."
-  },
-  {
-   "ts": 1787268722.0,
-   "title": "Japan\u2019s National CPI climbs 2.0% YoY in July, Core CPI rises as expected",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japans-national-cpi-climbs-20-yoy-in-july-core-cpi-rises-as-expected-202608202332",
-   "t": "21 Aug \u00b7 04:32 AM",
-   "ur": "Japan ki qaumi CPI joli mein 2.0% sal par chadh gayi, kor CPI mein toqa ke matabiq azafah hawa"
-  },
-  {
-   "ts": 1787267734.0,
-   "title": "Australian Dollar weakens as US yields rebound, PMIs fail to impress",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-as-us-yields-rebound-pmis-fail-to-impress-202608202315",
-   "t": "21 Aug \u00b7 04:15 AM",
-   "ur": "Aasterilvi Dollar kamazor hota hai jisa kah US pedawar mein tizi aati hai, PMIs matasar karne mein naakam rahte hen."
-  },
-  {
-   "ts": 1787265903.0,
-   "title": "The British Pound is buying an energy bill, not inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-british-pound-is-buying-an-energy-bill-not-inflation-202608202245",
-   "t": "21 Aug \u00b7 03:45 AM",
-   "ur": "Bartanvi pound mahungai nihen balkah tawanai ka bal khareed raha hai."
   }
  ],
  "sentiment": {
