@@ -1,15 +1,13 @@
 {
- "updated": "21-08-2026 16:14 PKT",
+ "updated": "21-08-2026 16:42 PKT",
  "gold": {
-  "price": 4589.81,
-  "open": 4485.64,
-  "high": 4601.09,
+  "price": 4597.31,
+  "open": 4477.72,
+  "high": 4606.18,
   "low": 4451.37,
-  "chg": 2.32,
+  "chg": 2.67,
   "src": "XAUUSD Spot",
   "spark": [
-   4525.92,
-   4524.31,
    4527.09,
    4518.7,
    4517.48,
@@ -55,14 +53,16 @@
    4587.04,
    4593.56,
    4588.3,
-   4589.81
+   4589.42,
+   4597.95,
+   4597.31
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.68,
-   "chg": 2.43,
+   "price": 69.955,
+   "chg": 2.84,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.68
+    69.955
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.659,
-   "chg": -0.24,
+   "price": 98.651,
+   "chg": -0.25,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.659
+    98.651
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.15,
-   "chg": -0.77,
+   "price": 86.45,
+   "chg": -1.57,
    "spark": [
     92.19,
     89.31,
@@ -143,7 +143,7 @@
     84.94,
     85.83,
     87.83,
-    87.15
+    86.45
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1708,
-   "chg": 0.3,
+   "price": 1.1701,
+   "chg": 0.24,
    "spark": [
     1.1412,
     1.1377,
@@ -201,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1708
+    1.1701
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3655,
-   "chg": 0.4,
+   "chg": 0.41,
    "spark": [
     1.3375,
     1.3313,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.725,
-   "chg": 0.28,
+   "price": 158.639,
+   "chg": 0.23,
    "spark": [
     163.081,
     163.832,
@@ -259,13 +259,13 @@
     159.34,
     159.55,
     158.276,
-    158.725
+    158.639
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2382.26,
-   "chg": 2.41,
+   "price": 2375.85,
+   "chg": 2.13,
    "spark": [
     1935.86,
     1930.86,
@@ -314,13 +314,13 @@
     2443.95,
     2403.42,
     2394.53,
-    2382.26
+    2374.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77474.0,
-   "chg": 6.13,
+   "price": 76945.6,
+   "chg": 5.4,
    "spark": [
     64826.9,
     64940.7,
@@ -369,7 +369,7 @@
     79261.5,
     77889.9,
     77801.0,
-    77474.0
+    76945.6
    ]
   }
  ],
@@ -386,20 +386,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787310886.645741,
+   "ts": 1787312534.026187,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 04:14 PM",
+   "t": "21 Aug \u00b7 04:42 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
   },
   {
-   "ts": 1787310886.645741,
+   "ts": 1787312534.026187,
    "title": "Silver nears $70 Fibonacci resistance after 25% rally: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 04:14 PM",
+   "t": "21 Aug \u00b7 04:42 PM",
    "ur": "Silver (chandi) 25% ki tizi ke bad $70 faboniki mazahmat ke qarib hai."
+  },
+  {
+   "ts": 1787312477.0,
+   "title": "Silver climbs toward $70 as US Dollar remains under pressure",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-climbs-toward-70-as-us-dollar-remains-under-pressure-202608211141",
+   "t": "21 Aug \u00b7 04:41 PM",
+   "ur": "US Dollar dabao mein rahne ki wajah se Silver (chandi) $70 ki taraf chadh gayi."
+  },
+  {
+   "ts": 1787312171.0,
+   "title": "Euro: Set to outperform Pound, US Dollar and Yen - Nomura",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-set-to-outperform-pound-us-dollar-and-yen-nomura-202608211136",
+   "t": "21 Aug \u00b7 04:36 PM",
+   "ur": "Uro: pound, US Dollar aur yan - nomora ko patchhe chhodne ke liye tyar hai."
+  },
+  {
+   "ts": 1787311445.0,
+   "title": "Australian Dollar rallies above 0.7150 as the US Dollar bleeds amid bond buybacks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rallies-above-07150-as-the-us-dollar-bleeds-amid-bond-buybacks-202608211124",
+   "t": "21 Aug \u00b7 04:24 PM",
+   "ur": "Aasterilvi Dollar 0.7150 se oper badh gaya cunkah band bi bex ke darmiyan US Dollar ka khun bahah raha hai"
+  },
+  {
+   "ts": 1787311137.0,
+   "title": "Experts agree: Weak Dollar backs near-term upside in EUR/USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/experts-agree-weak-dollar-backs-near-term-upside-in-eur-usd-202608211118",
+   "t": "21 Aug \u00b7 04:18 PM",
+   "ur": "Maharin mutafaq hen: kamazor Dollar EUR/USD mein qarib almadat azafe ki support karta hai."
+  },
+  {
+   "ts": 1787310901.0,
+   "title": "US Dollar: Yield management weighs on currency \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-yield-management-weighs-on-currency-bbh-202608211115",
+   "t": "21 Aug \u00b7 04:15 PM",
+   "ur": "US Dollar: pedawar ke antezam ka wazin karnsi - BBH par hota hai."
   },
   {
    "ts": 1787310415.0,
@@ -424,46 +464,6 @@
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-climbs-to-highest-since-june-as-us-dollar-weakens-202608211020",
    "t": "21 Aug \u00b7 03:20 PM",
    "ur": "US Dollar ke kamazor hone se niyozi lind Dollar jon ke bad se baland tarin sath par pohch gaya."
-  },
-  {
-   "ts": 1787307253.0,
-   "title": "Gold Price Forecast: XAU/USD testing three-month highs near $4,600 as the US Dollar dives",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-testing-three-month-highs-near-4-600-as-the-us-dollar-dives-202608211014",
-   "t": "21 Aug \u00b7 03:14 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD tin mah ki baland tarin sath par $4,600 ke qarib US Dollar ke dobate huvay"
-  },
-  {
-   "ts": 1787306655.0,
-   "title": "US Dollar: Limited upside as fiscal plans questioned \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-limited-upside-as-fiscal-plans-questioned-mufg-202608211004",
-   "t": "21 Aug \u00b7 03:04 PM",
-   "ur": "US Dollar: maliyati mansubon par swaliya nashan ke tur par muhadud azafah - MUFG"
-  },
-  {
-   "ts": 1787304799.0,
-   "title": "United States: Yields risk renewed surge \u2013 Rabobank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-yields-risk-renewed-surge-rabobank-202608210933",
-   "t": "21 Aug \u00b7 02:33 PM",
-   "ur": "Ryastahaye matehdah: pedawar mein naye azafe ka khatrah hai \u2013 Rabobank"
-  },
-  {
-   "ts": 1787304609.0,
-   "title": "Silver price today: Silver rises, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202608210930",
-   "t": "21 Aug \u00b7 02:30 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
-  },
-  {
-   "ts": 1787303768.0,
-   "title": "ECB\u2019s Kaz\u0101ks: Central bank is well placed to act if needed to get inflation to 2%",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-kazaks-central-bank-is-well-placed-to-act-if-needed-to-get-inflation-to-2-202608210916",
-   "t": "21 Aug \u00b7 02:16 PM",
-   "ur": "Ai si bi ke qaazks: agar zarori ho to markazi Bank ko inflation (mehngai) ko 2 fisad tak le jane ke liye kam karne ke liye achi jagah hai"
   }
  ],
  "sentiment": {
