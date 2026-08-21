@@ -1,14 +1,13 @@
 {
- "updated": "21-08-2026 15:53 PKT",
+ "updated": "21-08-2026 16:14 PKT",
  "gold": {
-  "price": 4589.82,
-  "open": 4488.89,
+  "price": 4589.81,
+  "open": 4485.64,
   "high": 4601.09,
   "low": 4451.37,
-  "chg": 2.25,
+  "chg": 2.32,
   "src": "XAUUSD Spot",
   "spark": [
-   4531.74,
    4525.92,
    4524.31,
    4527.09,
@@ -55,14 +54,15 @@
    4578.96,
    4587.04,
    4593.56,
-   4589.82
+   4588.3,
+   4589.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.535,
-   "chg": 2.22,
+   "price": 69.68,
+   "chg": 2.43,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.535
+    69.68
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.607,
-   "chg": -0.3,
+   "price": 98.659,
+   "chg": -0.24,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.607
+    98.659
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.79,
-   "chg": -1.18,
+   "price": 87.15,
+   "chg": -0.77,
    "spark": [
     92.19,
     89.31,
@@ -143,7 +143,7 @@
     84.94,
     85.83,
     87.83,
-    86.79
+    87.15
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1707,
-   "chg": 0.28,
+   "price": 1.1708,
+   "chg": 0.3,
    "spark": [
     1.1412,
     1.1377,
@@ -201,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1707
+    1.1708
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3656,
-   "chg": 0.41,
+   "price": 1.3655,
+   "chg": 0.4,
    "spark": [
     1.3375,
     1.3313,
@@ -230,13 +230,13 @@
     1.355,
     1.3537,
     1.36,
-    1.3656
+    1.3655
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.689,
-   "chg": 0.26,
+   "price": 158.725,
+   "chg": 0.28,
    "spark": [
     163.081,
     163.832,
@@ -259,15 +259,14 @@
     159.34,
     159.55,
     158.276,
-    158.689
+    158.725
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2396.02,
-   "chg": 3.0,
+   "price": 2382.26,
+   "chg": 2.41,
    "spark": [
-    1921.28,
     1935.86,
     1930.86,
     1968.58,
@@ -314,15 +313,15 @@
     2368.91,
     2443.95,
     2403.42,
-    2396.02
+    2394.53,
+    2382.26
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77796.7,
-   "chg": 6.57,
+   "price": 77474.0,
+   "chg": 6.13,
    "spark": [
-    64456.3,
     64826.9,
     64940.7,
     65888.0,
@@ -369,7 +368,8 @@
     76275.6,
     79261.5,
     77889.9,
-    77796.7
+    77801.0,
+    77474.0
    ]
   }
  ],
@@ -386,20 +386,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787309633.664313,
+   "ts": 1787310886.645741,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 03:53 PM",
+   "t": "21 Aug \u00b7 04:14 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
   },
   {
-   "ts": 1787309633.664313,
+   "ts": 1787310886.645741,
    "title": "Silver nears $70 Fibonacci resistance after 25% rally: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 03:53 PM",
+   "t": "21 Aug \u00b7 04:14 PM",
    "ur": "Silver (chandi) 25% ki tizi ke bad $70 faboniki mazahmat ke qarib hai."
+  },
+  {
+   "ts": 1787310415.0,
+   "title": "$4,600: Gold rallies to three-month high, eyes third weekly gain",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/4-600-gold-rallies-to-three-month-high-eyes-third-weekly-gain-202608211106",
+   "t": "21 Aug \u00b7 04:06 PM",
+   "ur": "$4,600: Gold (sona) tin mah ki baland tarin sath par, nazarin tisre haftah war faidah par"
   },
   {
    "ts": 1787309003.0,
@@ -456,14 +464,6 @@
    "link": "https://www.fxstreet.com/news/ecbs-kazaks-central-bank-is-well-placed-to-act-if-needed-to-get-inflation-to-2-202608210916",
    "t": "21 Aug \u00b7 02:16 PM",
    "ur": "Ai si bi ke qaazks: agar zarori ho to markazi Bank ko inflation (mehngai) ko 2 fisad tak le jane ke liye kam karne ke liye achi jagah hai"
-  },
-  {
-   "ts": 1787302909.0,
-   "title": "US Dollar: Softer bias with pro-risk flows \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-softer-bias-with-pro-risk-flows-ing-202608210901",
-   "t": "21 Aug \u00b7 02:01 PM",
-   "ur": "US Dollar: khatre ke bahao ke sath narm taasab - ING"
   }
  ],
  "sentiment": {
