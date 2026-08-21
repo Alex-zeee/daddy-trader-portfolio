@@ -1,16 +1,13 @@
 {
- "updated": "21-08-2026 14:04 PKT",
+ "updated": "21-08-2026 14:49 PKT",
  "gold": {
-  "price": 4584.6,
-  "open": 4491.87,
-  "high": 4584.63,
+  "price": 4581.63,
+  "open": 4483.59,
+  "high": 4601.09,
   "low": 4451.37,
-  "chg": 2.06,
+  "chg": 2.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4519.15,
-   4519.15,
-   4519.08,
    4518.43,
    4521.22,
    4523.45,
@@ -55,14 +52,17 @@
    4581.03,
    4581.33,
    4583.29,
-   4584.6
+   4599.1,
+   4581.95,
+   4583.67,
+   4581.63
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.78,
-   "chg": 2.58,
+   "price": 69.595,
+   "chg": 2.31,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.78
+    69.595
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.639,
-   "chg": -0.26,
+   "price": 98.61,
+   "chg": -0.29,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.639
+    98.61
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.1,
-   "chg": -1.97,
+   "price": 86.28,
+   "chg": -1.76,
    "spark": [
     92.19,
     89.31,
@@ -143,13 +143,42 @@
     84.94,
     85.83,
     87.83,
-    86.1
+    86.28
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.696,
+   "chg": 0.92,
+   "spark": [
+    4.657,
+    4.703,
+    4.679,
+    4.641,
+    4.604,
+    4.622,
+    4.663,
+    4.745,
+    4.686,
+    4.627,
+    4.617,
+    4.67,
+    4.66,
+    4.699,
+    4.684,
+    4.682,
+    4.641,
+    4.696,
+    4.724,
+    4.706,
+    4.653,
+    4.696
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1708,
-   "chg": 0.3,
+   "price": 1.1707,
+   "chg": 0.28,
    "spark": [
     1.1412,
     1.1377,
@@ -172,13 +201,13 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1708
+    1.1707
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3667,
-   "chg": 0.49,
+   "price": 1.3659,
+   "chg": 0.44,
    "spark": [
     1.3375,
     1.3313,
@@ -201,13 +230,13 @@
     1.355,
     1.3537,
     1.36,
-    1.3667
+    1.3659
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.485,
-   "chg": 0.13,
+   "price": 158.552,
+   "chg": 0.17,
    "spark": [
     163.081,
     163.832,
@@ -230,13 +259,13 @@
     159.34,
     159.55,
     158.276,
-    158.485
+    158.552
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2402.57,
-   "chg": 3.28,
+   "price": 2412.29,
+   "chg": 3.7,
    "spark": [
     1918.48,
     1921.28,
@@ -285,13 +314,13 @@
     2370.37,
     2368.91,
     2443.95,
-    2402.57
+    2412.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77779.3,
-   "chg": 6.55,
+   "price": 78252.1,
+   "chg": 7.19,
    "spark": [
     64383.2,
     64456.3,
@@ -340,7 +369,7 @@
     75591.9,
     76275.6,
     79261.5,
-    77699.0
+    78252.1
    ]
   }
  ],
@@ -357,28 +386,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787303071.029255,
+   "ts": 1787305783.040261,
+   "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
+   "t": "21 Aug \u00b7 02:49 PM",
+   "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
+  },
+  {
+   "ts": 1787305783.040261,
    "title": "Silver nears $70 Fibonacci resistance after 25% rally: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 02:04 PM",
+   "t": "21 Aug \u00b7 02:49 PM",
    "ur": "Silver (chandi) 25% ki tizi ke bad $70 faboniki mazahmat ke qarib hai."
   },
   {
-   "ts": 1787303071.029255,
+   "ts": 1787305783.040261,
    "title": "Gold tests $4,627 resistance near overbought RSI: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "21 Aug \u00b7 02:04 PM",
+   "t": "21 Aug \u00b7 02:49 PM",
    "ur": "Gold (sona) ziyadah khareedi hoi RSI ke qarib $4,627 mazahmat ka tajrabah karta hai."
   },
   {
-   "ts": 1787303071.029255,
-   "title": "Gold holds above $4,500 as weaker dollar, U.S. Treasury moves support rally",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 02:04 PM",
-   "ur": "Kamazor Dollar ki wajah se Gold (sona) 4,500 Dollar se oper hai, US treasurei ne sport rili ko aage badhaya"
+   "ts": 1787304799.0,
+   "title": "United States: Yields risk renewed surge \u2013 Rabobank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-yields-risk-renewed-surge-rabobank-202608210933",
+   "t": "21 Aug \u00b7 02:33 PM",
+   "ur": "Ryastahaye matehdah: pedawar mein naye azafe ka khatrah hai \u2013 Rabobank"
+  },
+  {
+   "ts": 1787304609.0,
+   "title": "Silver price today: Silver rises, according to FXStreet data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202608210930",
+   "t": "21 Aug \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
+  },
+  {
+   "ts": 1787303768.0,
+   "title": "ECB\u2019s Kaz\u0101ks: Central bank is well placed to act if needed to get inflation to 2%",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/ecbs-kazaks-central-bank-is-well-placed-to-act-if-needed-to-get-inflation-to-2-202608210916",
+   "t": "21 Aug \u00b7 02:16 PM",
+   "ur": "Ai si bi ke qaazks: agar zarori ho to markazi Bank ko inflation (mehngai) ko 2 fisad tak le jane ke liye kam karne ke liye achi jagah hai"
   },
   {
    "ts": 1787302909.0,
@@ -411,30 +464,6 @@
    "link": "https://www.fxstreet.com/news/polish-zloty-inflation-re-acceleration-weighs-on-pln-commerzbank-202608210840",
    "t": "21 Aug \u00b7 01:40 PM",
    "ur": "Polsh zaloti: inflation (mehngai) ki dubarah sarat ka wazin PLN par hai \u2013 Commerzbank"
-  },
-  {
-   "ts": 1787301367.0,
-   "title": "Here are three key takeaways from the disappointing July jobs report",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
-   "t": "21 Aug \u00b7 01:36 PM",
-   "ur": "Joli ki mayus kan malazmaton ki rport se tin aham nakat ya hen."
-  },
-  {
-   "ts": 1787300885.0,
-   "title": "Japanese Yen: Range-bound with mild upside against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-range-bound-with-mild-upside-against-us-dollar-uob-202608210828",
-   "t": "21 Aug \u00b7 01:28 PM",
-   "ur": "Japani yan: US Dollar - UOB ke maqable mein halke atar chadhao ke sath had se manslk"
-  },
-  {
-   "ts": 1787300377.0,
-   "title": "New Zealand Dollar: Extreme shorts face a high bar for further losses \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-extreme-shorts-face-a-high-bar-for-further-losses-mufg-202608210819",
-   "t": "21 Aug \u00b7 01:19 PM",
-   "ur": "Niyozi lind Dollar: anthi sharts ko mazid naqsanat ka samana karna padta hai - MUFG"
   }
  ],
  "sentiment": {
