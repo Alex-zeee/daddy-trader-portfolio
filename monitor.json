@@ -1,17 +1,13 @@
 {
- "updated": "21-08-2026 17:46 PKT",
+ "updated": "21-08-2026 18:35 PKT",
  "gold": {
-  "price": 4574.17,
-  "open": 4461.67,
+  "price": 4577.85,
+  "open": 4486.39,
   "high": 4606.18,
-  "low": 4461.67,
-  "chg": 2.52,
+  "low": 4480.09,
+  "chg": 2.04,
   "src": "XAUUSD Spot",
   "spark": [
-   4511.18,
-   4520.35,
-   4529.99,
-   4526.44,
    4530.12,
    4519.01,
    4527.03,
@@ -55,14 +51,18 @@
    4597.45,
    4589.61,
    4585.73,
-   4574.17
+   4574.17,
+   4577.81,
+   4585.79,
+   4583.95,
+   4577.85
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.31,
-   "chg": 1.89,
+   "price": 69.645,
+   "chg": 2.38,
    "spark": [
     57.798,
     58.656,
@@ -85,13 +85,13 @@
     63.941,
     65.734,
     68.026,
-    69.31
+    69.645
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.748,
-   "chg": -0.15,
+   "price": 98.8,
+   "chg": -0.1,
    "spark": [
     101.43,
     101.47,
@@ -114,13 +114,13 @@
     99.65,
     98.83,
     98.9,
-    98.748
+    98.8
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.9,
-   "chg": -1.06,
+   "price": 86.98,
+   "chg": -0.97,
    "spark": [
     92.19,
     89.31,
@@ -143,13 +143,13 @@
     84.94,
     85.83,
     87.83,
-    86.9
+    86.98
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.696,
-   "chg": 0.0,
+   "price": 4.712,
+   "chg": 0.34,
    "spark": [
     4.703,
     4.679,
@@ -172,13 +172,13 @@
     4.706,
     4.653,
     4.696,
-    4.696
+    4.712
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1693,
-   "chg": 0.17,
+   "price": 1.1684,
+   "chg": 0.08,
    "spark": [
     1.1412,
     1.1377,
@@ -201,13 +201,42 @@
     1.1583,
     1.1579,
     1.1674,
-    1.1693
+    1.1684
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3636,
+   "chg": 0.27,
+   "spark": [
+    1.3375,
+    1.3313,
+    1.3351,
+    1.329,
+    1.3287,
+    1.3367,
+    1.3461,
+    1.3492,
+    1.3427,
+    1.3451,
+    1.347,
+    1.3455,
+    1.3491,
+    1.3511,
+    1.351,
+    1.3498,
+    1.3491,
+    1.3547,
+    1.355,
+    1.3537,
+    1.36,
+    1.3636
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.762,
-   "chg": 0.31,
+   "price": 158.849,
+   "chg": 0.36,
    "spark": [
     163.081,
     163.832,
@@ -230,15 +259,14 @@
     159.34,
     159.55,
     158.276,
-    158.762
+    158.849
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2393.3,
-   "chg": 2.88,
+   "price": 2373.5,
+   "chg": 2.03,
    "spark": [
-    1930.86,
     1968.58,
     2084.12,
     2088.56,
@@ -285,15 +313,15 @@
     2403.42,
     2394.53,
     2369.61,
-    2393.3
+    2387.23,
+    2373.5
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77355.9,
-   "chg": 5.97,
+   "price": 76442.4,
+   "chg": 4.71,
    "spark": [
-    64940.7,
     65888.0,
     68539.7,
     68433.0,
@@ -340,7 +368,8 @@
     77889.9,
     77801.0,
     76689.9,
-    77355.9
+    77187.0,
+    76413.8
    ]
   }
  ],
@@ -357,20 +386,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787316376.551927,
+   "ts": 1787319344.501729,
    "title": "Gold floats above $4,500 as weaker dollar, U.S. Treasury moves support rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "21 Aug \u00b7 05:46 PM",
+   "t": "21 Aug \u00b7 06:35 PM",
    "ur": "Kamazor Dollar ke tur par Gold (sona) $4,500 se oper tirta hai, US treasurei ne amdadi rili ko aage badhaya"
   },
   {
-   "ts": 1787316376.551927,
+   "ts": 1787319344.501729,
    "title": "Silver nears $70 Fibonacci resistance after 25% rally: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "21 Aug \u00b7 05:46 PM",
+   "t": "21 Aug \u00b7 06:35 PM",
    "ur": "Silver (chandi) 25% ki tizi ke bad $70 faboniki mazahmat ke qarib hai."
+  },
+  {
+   "ts": 1787318735.0,
+   "title": "Canadian Dollar: Bullish structure points to 1.35 handle against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-bullish-structure-points-to-135-handle-against-us-dollar-scotiabank-202608211325",
+   "t": "21 Aug \u00b7 06:25 PM",
+   "ur": "Caniden Dollar: balsh dhancha US Dollar ke maqable mein 1.35 hindal ki taraf asharah karta hai - Scotiabank"
+  },
+  {
+   "ts": 1787317148.0,
+   "title": "Canadian Dollar heads for fourth weekly gain on weaker US Dollar, elevated Oil prices",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-heads-for-fourth-weekly-gain-on-weaker-us-dollar-elevated-oil-prices-202608211259",
+   "t": "21 Aug \u00b7 05:59 PM",
+   "ur": "Caniden Dollar kamazor US Dollar, til ki baland qeemton par chothe haftah war azafe ki taraf badh raha hai"
   },
   {
    "ts": 1787316193.0,
@@ -419,22 +464,6 @@
    "link": "https://www.fxstreet.com/news/euro-set-to-outperform-pound-us-dollar-and-yen-nomura-202608211136",
    "t": "21 Aug \u00b7 04:36 PM",
    "ur": "Uro: pound, US Dollar aur yan - nomora ko patchhe chhodne ke liye tyar hai."
-  },
-  {
-   "ts": 1787311445.0,
-   "title": "Australian Dollar rallies above 0.7150 as the US Dollar bleeds amid bond buybacks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rallies-above-07150-as-the-us-dollar-bleeds-amid-bond-buybacks-202608211124",
-   "t": "21 Aug \u00b7 04:24 PM",
-   "ur": "Aasterilvi Dollar 0.7150 se oper badh gaya cunkah band bi bex ke darmiyan US Dollar ka khun bahah raha hai"
-  },
-  {
-   "ts": 1787311137.0,
-   "title": "Experts agree: Weak Dollar backs near-term upside in EUR/USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/experts-agree-weak-dollar-backs-near-term-upside-in-eur-usd-202608211118",
-   "t": "21 Aug \u00b7 04:18 PM",
-   "ur": "Maharin mutafaq hen: kamazor Dollar EUR/USD mein qarib almadat azafe ki support karta hai."
   }
  ],
  "sentiment": {
