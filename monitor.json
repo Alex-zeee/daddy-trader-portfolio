@@ -1,19 +1,13 @@
 {
- "updated": "22-08-2026 05:42 PKT",
+ "updated": "22-08-2026 07:04 PKT",
  "gold": {
-  "price": 4608.29,
-  "open": 4511.16,
+  "price": 4608.28,
+  "open": 4519.87,
   "high": 4631.91,
-  "low": 4509.73,
-  "chg": 2.15,
+  "low": 4519.87,
+  "chg": 1.96,
   "src": "XAUUSD Spot",
   "spark": [
-   4577.81,
-   4585.79,
-   4583.95,
-   4587.64,
-   4581.58,
-   4588.92,
    4602.83,
    4587.05,
    4591.4,
@@ -55,7 +49,13 @@
    4608.11,
    4608.28,
    4608.29,
-   4608.29
+   4608.25,
+   4608.11,
+   4608.12,
+   4608.26,
+   4608.26,
+   4608.11,
+   4608.28
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2506.39,
-   "chg": -0.37,
+   "price": 2510.39,
+   "chg": -0.21,
    "spark": [
-    2265.15,
-    2250.92,
     2249.06,
     2249.59,
     2247.17,
@@ -314,16 +312,16 @@
     2514.41,
     2521.43,
     2515.72,
-    2506.39
+    2521.46,
+    2507.0,
+    2510.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77773.9,
-   "chg": -0.71,
+   "price": 77972.7,
+   "chg": -0.45,
    "spark": [
-    69682.4,
-    69270.1,
     69137.7,
     69449.4,
     69365.0,
@@ -369,11 +367,45 @@
     78491.0,
     78443.6,
     78327.2,
-    77773.9
+    77943.0,
+    77850.1,
+    77972.7
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1787162400.0,
+   "t": "Wed 19 Aug \u00b7 11:00 PM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1787164200.0,
+   "t": "Wed 19 Aug \u00b7 11:30 PM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1787229000.0,
+   "t": "Thu 20 Aug \u00b7 05:30 PM",
+   "title": "Philly Fed Manufacturing Index",
+   "impact": "Medium",
+   "forecast": "24.1",
+   "previous": "41.4"
+  },
+  {
+   "ts": 1787229000.0,
+   "t": "Thu 20 Aug \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "210K",
+   "previous": "209K"
+  },
   {
    "ts": 1787353200.0,
    "t": "Sat 22 Aug \u00b7 04:00 AM",
@@ -383,31 +415,23 @@
    "previous": ""
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1787359321.378558,
+   "ts": 1787364247.144123,
    "title": "Gold prices surge more than 5% for the week as dollar slides amid bond sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "22 Aug \u00b7 05:42 AM",
+   "t": "22 Aug \u00b7 07:04 AM",
    "ur": "Hafte ke liye Gold (sone) ki qeemton mein 5 fisad se ziyadah ka azafah hawa cunkah bands ki farokht ke duran Dollar mein azafah hawa."
   },
   {
-   "ts": 1787359321.378558,
+   "ts": 1787364247.144123,
    "title": "Silver tests 61.8% Fib at $70 with overbought RSI: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-stalls-below-67-resistance-as-momentum-fades-live-levels-93CH-4862235",
-   "t": "22 Aug \u00b7 05:42 AM",
+   "t": "22 Aug \u00b7 07:04 AM",
    "ur": "Silver (chandi) ziyadah khareedi hoi RSI ke sath $70 par 61.8% Fib test karti hai."
-  },
-  {
-   "ts": 1787359321.378558,
-   "title": "Gold parabolic surge hits overbought extremes: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-at-4456-with-macd-divergence-live-levels-93CH-4862229",
-   "t": "22 Aug \u00b7 05:42 AM",
-   "ur": "Gold perabolk azafah had se ziyadah khareedi hoi hadon ko marta hai."
   },
   {
    "ts": 1787351931.0,
@@ -464,6 +488,14 @@
    "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
    "t": "21 Aug \u00b7 10:51 PM",
    "ur": "Besint ka band gampbet jas ka masad marketon ko parsakon karna hai bajaye is ke kah mahungai ke khadshat ko hawa di ja rahi hai"
+  },
+  {
+   "ts": 1787333639.0,
+   "title": "Higher yields stop paying the Dollar Index",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/higher-yields-stop-paying-the-dollar-index-202608211733",
+   "t": "21 Aug \u00b7 10:33 PM",
+   "ur": "Ziyadah pedawar Dollar andex ki adaigi rok diti hai."
   }
  ],
  "sentiment": {
