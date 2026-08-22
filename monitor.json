@@ -1,14 +1,13 @@
 {
- "updated": "22-08-2026 20:33 PKT",
+ "updated": "22-08-2026 20:54 PKT",
  "gold": {
-  "price": 4608.16,
-  "open": 4609.23,
+  "price": 4608.28,
+  "open": 4612.24,
   "high": 4631.91,
   "low": 4602.75,
-  "chg": -0.02,
+  "chg": -0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   4608.23,
    4608.16,
    4608.26,
    4608.29,
@@ -55,7 +54,8 @@
    4608.24,
    4608.28,
    4608.23,
-   4608.16
+   4608.15,
+   4608.28
   ]
  },
  "markets": [
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 2411.61,
-   "chg": -4.14,
+   "price": 2409.86,
+   "chg": -4.21,
    "spark": [
     2343.5,
     2343.34,
@@ -314,13 +314,13 @@
     2428.43,
     2429.76,
     2413.34,
-    2411.61
+    2409.86
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77019.5,
-   "chg": -1.67,
+   "price": 76948.2,
+   "chg": -1.76,
    "spark": [
     72816.6,
     72723.6,
@@ -369,7 +369,7 @@
     77302.9,
     77286.3,
     76980.3,
-    77019.5
+    76948.3
    ]
   }
  ],
@@ -418,11 +418,11 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1787412792.863853,
+   "ts": 1787414056.403783,
    "title": "Gold prices surge more than 5% for the week as dollar slides amid bond sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "22 Aug \u00b7 08:33 PM",
+   "t": "22 Aug \u00b7 08:54 PM",
    "ur": "Hafte ke liye Gold (sone) ki qeemton mein 5 fisad se ziyadah ka azafah hawa cunkah bands ki farokht ke duran Dollar mein azafah hawa."
   },
   {
@@ -430,8 +430,7 @@
    "title": "US Treasury yields extend rebound as Services PMI beats estimates",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-treasury-yields-extend-rebound-as-services-pmi-beats-estimates-202608212238",
-   "t": "22 Aug \u00b7 03:38 AM",
-   "ur": "US Treasury yields rebound mein tosi karta hai cunkah Services PMI takhameenon ko mat dita hai."
+   "t": "22 Aug \u00b7 03:38 AM"
   },
   {
    "ts": 1787343766.0,
@@ -462,16 +461,14 @@
    "title": "Silver Price Forecast: XAG bulls test $70 as rally extends",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bulls-test-70-as-rally-extends-202608211805",
-   "t": "21 Aug \u00b7 11:05 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG bells $70 ki janch kar rahe hen cunkah rili mein tosi hoti hai."
+   "t": "21 Aug \u00b7 11:05 PM"
   },
   {
    "ts": 1787334987.0,
    "title": "Gold hits three-month peak above $4,600 as Middle East risks fuel rally",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-hits-three-month-peak-above-4-600-as-middle-east-risks-fuel-rally-202608211756",
-   "t": "21 Aug \u00b7 10:56 PM",
-   "ur": "Masharq wasta mein andhan mein azafe ke khatre ke baas Gold (sona) tin mah ki baland tarin qeemat $4,600 se oper hai."
+   "t": "21 Aug \u00b7 10:56 PM"
   },
   {
    "ts": 1787334670.0,
@@ -494,13 +491,14 @@
    "title": "Swiss Franc struggles as US Dollar steadies, SNB keeps negative rates on table",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-struggles-as-us-dollar-steadies-snb-keeps-negative-rates-on-table-202608211726",
-   "t": "21 Aug \u00b7 10:26 PM",
-   "ur": "Sois farank US Dollar ke mastahkam hone par jadojehad kar raha hai, SNB mez par manfi rate rakta hai."
+   "t": "21 Aug \u00b7 10:26 PM"
   }
  ],
  "sentiment": {
   "value": 71,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 4/10 failed"
+ ]
 }
