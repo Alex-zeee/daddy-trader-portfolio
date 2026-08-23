@@ -1,15 +1,13 @@
 {
- "updated": "23-08-2026 09:33 PKT",
+ "updated": "23-08-2026 10:05 PKT",
  "gold": {
-  "price": 4608.16,
-  "open": 4608.18,
-  "high": 4608.4,
+  "price": 4608.28,
+  "open": 4608.19,
+  "high": 4608.39,
   "low": 4608.08,
-  "chg": -0.0,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4608.27,
-   4608.28,
    4608.23,
    4608.15,
    4608.28,
@@ -55,7 +53,9 @@
    4608.22,
    4608.15,
    4608.26,
-   4608.16
+   4608.28,
+   4608.22,
+   4608.28
   ]
  },
  "markets": [
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2404.91,
-   "chg": -0.72,
+   "price": 2378.19,
+   "chg": -1.82,
    "spark": [
-    2366.53,
     2370.37,
     2368.91,
     2443.95,
@@ -314,15 +313,15 @@
     2423.03,
     2417.15,
     2412.79,
-    2404.91
+    2379.41,
+    2378.19
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76893.5,
-   "chg": -0.25,
+   "price": 76550.5,
+   "chg": -0.69,
    "spark": [
-    75426.7,
     75591.9,
     76275.6,
     79261.5,
@@ -369,130 +368,179 @@
     77186.9,
     77071.9,
     76921.1,
-    76893.5
+    76581.8,
+    76550.5
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1787162400.0,
-   "t": "Wed 19 Aug \u00b7 11:00 PM",
-   "title": "FOMC Meeting Minutes",
+   "ts": 1787594400.0,
+   "t": "Mon 24 Aug \u00b7 11:00 PM",
+   "title": "Treasury Sec Bessent Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1787666400.0,
+   "t": "Tue 25 Aug \u00b7 07:00 PM",
+   "title": "CB Consumer Confidence",
+   "impact": "Medium",
+   "forecast": "90.3",
+   "previous": "90.8"
+  },
+  {
+   "ts": 1787747400.0,
+   "t": "Wed 26 Aug \u00b7 05:30 PM",
+   "title": "Core PCE Price Index m/m",
+   "impact": "High",
+   "forecast": "0.2%",
+   "previous": "0.1%"
+  },
+  {
+   "ts": 1787747400.0,
+   "t": "Wed 26 Aug \u00b7 05:30 PM",
+   "title": "Prelim GDP q/q",
+   "impact": "High",
+   "forecast": "1.5%",
+   "previous": "1.5%"
+  },
+  {
+   "ts": 1787747400.0,
+   "t": "Wed 26 Aug \u00b7 05:30 PM",
+   "title": "Prelim GDP Price Index q/q",
+   "impact": "Medium",
+   "forecast": "6.2%",
+   "previous": "6.2%"
+  },
+  {
+   "ts": 1787833800.0,
+   "t": "Thu 27 Aug \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "208K",
+   "previous": "206K"
+  },
+  {
+   "ts": 1787925600.0,
+   "t": "Fri 28 Aug \u00b7 07:00 PM",
+   "title": "Fed Chairman Warsh Speaks",
    "impact": "High",
    "forecast": "",
    "previous": ""
   },
   {
-   "ts": 1787164200.0,
-   "t": "Wed 19 Aug \u00b7 11:30 PM",
-   "title": "President Trump Speaks",
+   "ts": 1787925600.0,
+   "t": "Fri 28 Aug \u00b7 07:00 PM",
+   "title": "Prelim Benchmark Payrolls Revision",
+   "impact": "High",
+   "forecast": "",
+   "previous": "-911K"
+  },
+  {
+   "ts": 1787925600.0,
+   "t": "Fri 28 Aug \u00b7 07:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "51.0",
+   "previous": "51.0"
+  },
+  {
+   "ts": 1787925600.0,
+   "t": "Fri 28 Aug \u00b7 07:00 PM",
+   "title": "Revised UoM Inflation Expectations",
    "impact": "Medium",
    "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1787229000.0,
-   "t": "Thu 20 Aug \u00b7 05:30 PM",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "Medium",
-   "forecast": "24.1",
-   "previous": "41.4"
-  },
-  {
-   "ts": 1787229000.0,
-   "t": "Thu 20 Aug \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "210K",
-   "previous": "209K"
-  },
-  {
-   "ts": 1787353200.0,
-   "t": "Sat 22 Aug \u00b7 04:00 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
+   "previous": "4.3%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787459632.630624,
+   "ts": 1787461553.444346,
    "title": "Gold prices surge more than 5% for the week as dollar slides amid bond sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-above-4500-as-weaker-dollar-treasury-buybacks-boost-weekly-gains-now-4870779",
-   "t": "23 Aug \u00b7 09:33 AM"
+   "t": "23 Aug \u00b7 10:05 AM",
+   "ur": "Hafte ke liye Gold (sone) ki qeemton mein 5 fisad se ziyadah ka azafah hawa cunkah bands ki farokht ke duran Dollar mein azafah hawa."
   },
   {
    "ts": 1787351931.0,
    "title": "US Treasury yields extend rebound as Services PMI beats estimates",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-treasury-yields-extend-rebound-as-services-pmi-beats-estimates-202608212238",
-   "t": "22 Aug \u00b7 03:38 AM"
+   "t": "22 Aug \u00b7 03:38 AM",
+   "ur": "US Treasury yields rebound mein tosi karta hai cunkah Services PMI takhameenon ko mat dita hai."
   },
   {
    "ts": 1787343766.0,
    "title": "Forecasting the upcoming week: Warsh's Jackson Hole debut and US inflation test a soft US Dollar",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-warshs-jackson-hole-debut-and-us-inflation-test-a-soft-us-dollar-202608212022",
-   "t": "22 Aug \u00b7 01:22 AM"
+   "t": "22 Aug \u00b7 01:22 AM",
+   "ur": "Aane wale hafte ki forecast: warsh ka jection hol dibiyo aur US inflation (mehngai) ka ek narm US Dollar ka amtahan"
   },
   {
    "ts": 1787338380.0,
    "title": "Malaysian Ringgit: Supported by strong fundamentals against US Dollar \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/malaysian-ringgit-supported-by-strong-fundamentals-against-us-dollar-ocbc-202608211853",
-   "t": "21 Aug \u00b7 11:53 PM"
+   "t": "21 Aug \u00b7 11:53 PM",
+   "ur": "Malishin rangt: US Dollar ke maqable mein mazboot baniyadi asilon se taaaun yaaftah - OCBC"
   },
   {
    "ts": 1787336640.0,
    "title": "Singapore: inflation and production outlook \u2013 DBS",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-inflation-and-production-outlook-dbs-202608211824",
-   "t": "21 Aug \u00b7 11:24 PM"
+   "t": "21 Aug \u00b7 11:24 PM",
+   "ur": "Sangapor: inflation (mehngai) aur pedawar ka naqatah nazar - DBS"
   },
   {
    "ts": 1787335545.0,
    "title": "Silver Price Forecast: XAG bulls test $70 as rally extends",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bulls-test-70-as-rally-extends-202608211805",
-   "t": "21 Aug \u00b7 11:05 PM"
+   "t": "21 Aug \u00b7 11:05 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG bells $70 ki janch kar rahe hen cunkah rili mein tosi hoti hai."
   },
   {
    "ts": 1787334987.0,
    "title": "Gold hits three-month peak above $4,600 as Middle East risks fuel rally",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-hits-three-month-peak-above-4-600-as-middle-east-risks-fuel-rally-202608211756",
-   "t": "21 Aug \u00b7 10:56 PM"
+   "t": "21 Aug \u00b7 10:56 PM",
+   "ur": "Masharq wasta mein andhan mein azafe ke khatre ke baas Gold (sona) tin mah ki baland tarin qeemat $4,600 se oper hai."
   },
   {
    "ts": 1787334670.0,
    "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
-   "t": "21 Aug \u00b7 10:51 PM"
+   "t": "21 Aug \u00b7 10:51 PM",
+   "ur": "Besint ka band gampbet jas ka masad marketon ko parsakon karna hai bajaye is ke kah mahungai ke khadshat ko hawa di ja rahi hai"
   },
   {
    "ts": 1787333639.0,
    "title": "Higher yields stop paying the Dollar Index",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/higher-yields-stop-paying-the-dollar-index-202608211733",
-   "t": "21 Aug \u00b7 10:33 PM"
+   "t": "21 Aug \u00b7 10:33 PM",
+   "ur": "Ziyadah pedawar Dollar andex ki adaigi rok diti hai."
   },
   {
    "ts": 1787333199.0,
    "title": "Swiss Franc struggles as US Dollar steadies, SNB keeps negative rates on table",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-struggles-as-us-dollar-steadies-snb-keeps-negative-rates-on-table-202608211726",
-   "t": "21 Aug \u00b7 10:26 PM"
+   "t": "21 Aug \u00b7 10:26 PM",
+   "ur": "Sois farank US Dollar ke mastahkam hone par jadojehad kar raha hai, SNB mez par manfi rate rakta hai."
   }
  ],
  "sentiment": {
   "value": 66,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
