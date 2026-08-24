@@ -1,15 +1,13 @@
 {
- "updated": "24-08-2026 15:36 PKT",
+ "updated": "24-08-2026 16:05 PKT",
  "gold": {
-  "price": 4645.31,
+  "price": 4643.78,
   "open": 4608.18,
   "high": 4658.96,
   "low": 4596.86,
-  "chg": 0.81,
+  "chg": 0.77,
   "src": "XAUUSD Spot",
   "spark": [
-   4606.52,
-   4607.98,
    4614.57,
    4607.57,
    4624.27,
@@ -55,14 +53,16 @@
    4645.25,
    4649.35,
    4643.14,
-   4645.31
+   4644.79,
+   4644.57,
+   4643.78
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.89,
-   "chg": -0.83,
+   "price": 68.855,
+   "chg": -0.88,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.89
+    68.855
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.971,
-   "chg": 0.17,
+   "price": 98.985,
+   "chg": 0.19,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.971
+    98.985
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.06,
-   "chg": -2.3,
+   "price": 85.19,
+   "chg": -2.15,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.06
+    85.19
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1669,
-   "chg": -0.16,
+   "price": 1.1667,
+   "chg": -0.18,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1669
+    1.1667
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3632,
-   "chg": -0.08,
+   "price": 1.3625,
+   "chg": -0.14,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3632
+    1.3625
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.132,
-   "chg": 0.16,
+   "price": 159.219,
+   "chg": 0.21,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.132
+    159.219
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2475.24,
-   "chg": 0.5,
+   "price": 2462.78,
+   "chg": -0.0,
    "spark": [
-    2423.45,
     2428.43,
     2429.76,
     2413.34,
@@ -314,15 +313,15 @@
     2454.22,
     2453.96,
     2462.24,
-    2475.24
+    2464.1,
+    2462.78
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77915.4,
-   "chg": 0.23,
+   "price": 77594.9,
+   "chg": -0.18,
    "spark": [
-    77130.3,
     77302.9,
     77286.3,
     76980.3,
@@ -369,7 +368,8 @@
     77303.3,
     77029.2,
     77534.9,
-    77915.4
+    77610.9,
+    77594.9
    ]
   }
  ],
@@ -458,18 +458,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787567789.869899,
+   "ts": 1787569522.192498,
    "title": "Gold rises above $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 03:36 PM"
+   "t": "24 Aug \u00b7 04:05 PM"
   },
   {
-   "ts": 1787567789.869899,
+   "ts": 1787569522.192498,
    "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "24 Aug \u00b7 03:36 PM"
+   "t": "24 Aug \u00b7 04:05 PM"
+  },
+  {
+   "ts": 1787569437.0,
+   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
+   "t": "24 Aug \u00b7 04:03 PM"
   },
   {
    "ts": 1787567184.0,
@@ -477,13 +484,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-pushes-higher-but-overbought-rsi-warns-bulls-202608241026",
    "t": "24 Aug \u00b7 03:26 PM"
-  },
-  {
-   "ts": 1787567105.0,
-   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-   "t": "24 Aug \u00b7 03:25 PM"
   },
   {
    "ts": 1787565738.0,
