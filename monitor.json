@@ -1,15 +1,13 @@
 {
- "updated": "24-08-2026 22:42 PKT",
+ "updated": "24-08-2026 23:03 PKT",
  "gold": {
-  "price": 4642.17,
+  "price": 4635.85,
   "open": 4608.18,
   "high": 4683.31,
   "low": 4596.86,
-  "chg": 0.74,
+  "chg": 0.6,
   "src": "XAUUSD Spot",
   "spark": [
-   4641.12,
-   4650.65,
    4643.09,
    4644.44,
    4650.05,
@@ -55,14 +53,16 @@
    4645.08,
    4654.14,
    4641.23,
-   4642.17
+   4640.51,
+   4637.22,
+   4635.85
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.455,
-   "chg": -1.46,
+   "price": 68.4,
+   "chg": -1.53,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.455
+    68.4
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.03,
-   "chg": 0.23,
+   "price": 99.06,
+   "chg": 0.26,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    99.03
+    99.06
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.96,
-   "chg": -2.41,
+   "price": 84.77,
+   "chg": -2.63,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    84.96
+    84.77
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1662,
-   "chg": -0.22,
+   "price": 1.1663,
+   "chg": -0.21,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1662
+    1.1663
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3628,
-   "chg": -0.11,
+   "price": 1.363,
+   "chg": -0.1,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3628
+    1.363
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.162,
-   "chg": 0.18,
+   "price": 159.16,
+   "chg": 0.17,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.162
+    159.16
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2466.17,
-   "chg": 0.13,
+   "price": 2473.85,
+   "chg": 0.45,
    "spark": [
-    2427.13,
     2440.0,
     2431.72,
     2407.23,
@@ -314,15 +313,15 @@
     2515.4,
     2486.32,
     2478.06,
-    2466.17
+    2469.05,
+    2473.85
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78749.0,
-   "chg": 1.3,
+   "price": 78902.3,
+   "chg": 1.5,
    "spark": [
-    77260.9,
     77431.4,
     77311.3,
     76850.0,
@@ -369,7 +368,8 @@
     79488.9,
     79074.1,
     79056.6,
-    78749.0
+    78746.7,
+    78902.3
    ]
   }
  ],
@@ -458,89 +458,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787593376.011914,
+   "ts": 1787594601.2635,
    "title": "U.S. Treasury to broaden scope of secondary sanctions on Iran, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-to-broaden-scope-of-secondary-sanctions-on-iran-source-says-4873545",
-   "t": "24 Aug \u00b7 10:42 PM",
-   "ur": "US mahkamah khazana eran par saanvi pabandiyon ka dairah wasi kare ga, zaria ka kahana hai kah"
+   "t": "24 Aug \u00b7 11:03 PM"
   },
   {
-   "ts": 1787593376.011914,
+   "ts": 1787594601.2635,
    "title": "Gold climbs to $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 10:42 PM",
-   "ur": "Gold (sona) $4,650 par chadh gaya cunkah US maliyati khadshat ne balin ko 3 mah ki baland tarin sath ke qarib rakha"
+   "t": "24 Aug \u00b7 11:03 PM"
+  },
+  {
+   "ts": 1787593878.0,
+   "title": "Treasury Bessent: US is launching an \"economic onslaught\" against Iran's financial connection",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/treasury-bessent-us-is-launching-an-economic-onslaught-against-irans-financial-connection-202608241751",
+   "t": "24 Aug \u00b7 10:51 PM"
   },
   {
    "ts": 1787590039.0,
    "title": "The Dollar Index takes its orders from the Treasury",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-dollar-index-takes-its-orders-from-the-treasury-202608241647",
-   "t": "24 Aug \u00b7 09:47 PM",
-   "ur": "Dollar andex treasurei se aarder lita hai."
+   "t": "24 Aug \u00b7 09:47 PM"
   },
   {
    "ts": 1787588056.0,
    "title": "The Treasury bids and offers the Dow Jones Industrial Average",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-treasury-bids-and-offers-the-dow-jones-industrial-average-202608241614",
-   "t": "24 Aug \u00b7 09:14 PM",
-   "ur": "Treasurei boli lagata hai aur dou joons andistril everage pesh karta hai."
+   "t": "24 Aug \u00b7 09:14 PM"
   },
   {
    "ts": 1787586769.0,
    "title": "New Zealand Dollar retreats from recent highs on weak Retail Sales",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-retreats-from-recent-highs-on-weak-retail-sales-202608241552",
-   "t": "24 Aug \u00b7 08:52 PM",
-   "ur": "Niyozi lind Dollar kamazor khurdah farokht par haaliya balandiyon se patchhe hat raha hai."
+   "t": "24 Aug \u00b7 08:52 PM"
   },
   {
    "ts": 1787586238.0,
    "title": "Australian Dollar pulls back near multi-month highs as traders await RBA Minutes",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-pulls-back-near-multi-month-highs-as-traders-await-rba-minutes-202608241543",
-   "t": "24 Aug \u00b7 08:43 PM",
-   "ur": "Aasterilvi Dollar kai mahinon ki unchai ke qarib waps aa gaya hai cunkah taajr RBA mants ka antezar kar rahe hen."
+   "t": "24 Aug \u00b7 08:43 PM"
   },
   {
    "ts": 1787585340.0,
    "title": "British Pound: Sentiment supports further gains against US Dollar \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-sentiment-supports-further-gains-against-us-dollar-scotiabank-202608241529",
-   "t": "24 Aug \u00b7 08:29 PM",
-   "ur": "Bartanvi pound: US Dollar - Scotiabank ke maqable mein jazbat mazid fawaid ki support karta hai."
+   "t": "24 Aug \u00b7 08:29 PM"
   },
   {
    "ts": 1787583999.0,
    "title": "United States: Spending and inflation outlook \u2013 Wells Fargo",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/united-states-spending-and-inflation-outlook-wells-fargo-202608241506",
-   "t": "24 Aug \u00b7 08:06 PM",
-   "ur": "Ryastahaye matehdah: akharajat aur inflation (mehngai) ka naqatah nazar - wells fargo"
+   "t": "24 Aug \u00b7 08:06 PM"
   },
   {
    "ts": 1787583095.0,
    "title": "Japanese Yen slips as US Dollar stabilizes, US PCE in focus",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-slips-as-us-dollar-stabilizes-us-pce-in-focus-202608241451",
-   "t": "24 Aug \u00b7 07:51 PM",
-   "ur": "US Dollar ke mastahkam hone par japani yan phisal gaya, US PCE fox mein hai."
-  },
-  {
-   "ts": 1787582673.0,
-   "title": "Canadian Dollar: Trade shock weighs against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-shock-weighs-against-us-dollar-scotiabank-202608241444",
-   "t": "24 Aug \u00b7 07:44 PM",
-   "ur": "Caniden Dollar: tajarti jhataka US Dollar - Scotiabank ke maqable mein hai."
+   "t": "24 Aug \u00b7 07:51 PM"
   }
  ],
  "sentiment": {
   "value": 73,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
