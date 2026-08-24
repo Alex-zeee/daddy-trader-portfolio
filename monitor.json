@@ -1,20 +1,13 @@
 {
- "updated": "24-08-2026 05:29 PKT",
+ "updated": "24-08-2026 07:07 PKT",
  "gold": {
-  "price": 4597.91,
+  "price": 4635.59,
   "open": 4608.18,
   "high": 4642.85,
   "low": 4596.86,
-  "chg": -0.22,
+  "chg": 0.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4608.18,
-   4608.27,
-   4608.26,
-   4608.17,
-   4608.16,
-   4608.26,
-   4608.27,
    4608.24,
    4608.15,
    4608.24,
@@ -55,14 +48,21 @@
    4607.57,
    4624.27,
    4638.72,
-   4597.91
+   4603.98,
+   4606.91,
+   4616.55,
+   4627.61,
+   4616.82,
+   4616.49,
+   4636.32,
+   4635.59
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.3,
-   "chg": -0.24,
+   "price": 68.895,
+   "chg": -0.82,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    69.3
+    68.895
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.789,
-   "chg": -0.01,
+   "price": 98.816,
+   "chg": 0.02,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.789
+    98.816
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.06,
-   "chg": -1.15,
+   "price": 85.4,
+   "chg": -1.91,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    86.06
+    85.4
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1688,
-   "chg": -0.0,
+   "price": 1.1685,
+   "chg": -0.02,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1688
+    1.1685
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3652,
-   "chg": 0.06,
+   "price": 1.3647,
+   "chg": 0.03,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3652
+    1.3647
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.776,
-   "chg": -0.07,
+   "price": 158.839,
+   "chg": -0.03,
    "spark": [
     163.832,
     163.611,
@@ -259,16 +259,14 @@
     159.55,
     158.276,
     158.883,
-    158.776
+    158.839
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2450.81,
-   "chg": -0.49,
+   "price": 2433.4,
+   "chg": -1.2,
    "spark": [
-    2507.0,
-    2514.36,
     2514.31,
     2514.5,
     2439.54,
@@ -314,16 +312,16 @@
     2470.09,
     2454.74,
     2462.4,
-    2450.81
+    2464.65,
+    2429.93,
+    2433.4
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77427.1,
-   "chg": -0.4,
+   "price": 77075.1,
+   "chg": -0.85,
    "spark": [
-    77850.1,
-    78461.2,
     78409.5,
     78463.9,
     77373.9,
@@ -369,7 +367,9 @@
     77834.0,
     77601.8,
     77737.5,
-    77427.1
+    77642.9,
+    76924.2,
+    77075.1
    ]
   }
  ],
@@ -458,6 +458,34 @@
  "cal_mode": "upcoming",
  "news": [
   {
+   "ts": 1787537035.0,
+   "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-bears-seem-hesitant-as-weak-usd-counters-us-canada-trade-war-202608240203",
+   "t": "24 Aug \u00b7 07:03 AM"
+  },
+  {
+   "ts": 1787535630.0,
+   "title": "Gold gains momentum above $4,600 on US Treasury buyback plans",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-gains-momentum-above-4-600-on-us-treasury-buyback-plans-202608240140",
+   "t": "24 Aug \u00b7 06:40 AM"
+  },
+  {
+   "ts": 1787532949.0,
+   "title": "Euro holds steady against US Dollar amid US debt strategy",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-holds-steady-against-us-dollar-amid-us-debt-strategy-202608240055",
+   "t": "24 Aug \u00b7 05:55 AM"
+  },
+  {
+   "ts": 1787531966.0,
+   "title": "Australian Dollar posts modest gains above 0.7150 on US Treasury buyback worries",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-posts-modest-gains-above-07150-on-us-treasury-buyback-worries-202608240039",
+   "t": "24 Aug \u00b7 05:39 AM"
+  },
+  {
    "ts": 1787528381.0,
    "title": "New Zealand Dollar edges lower below 0.6000 after weaker Retail Sales data",
    "src": "FXStreet",
@@ -498,34 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bulls-test-70-as-rally-extends-202608211805",
    "t": "21 Aug \u00b7 11:05 PM"
-  },
-  {
-   "ts": 1787334987.0,
-   "title": "Gold hits three-month peak above $4,600 as Middle East risks fuel rally",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-hits-three-month-peak-above-4-600-as-middle-east-risks-fuel-rally-202608211756",
-   "t": "21 Aug \u00b7 10:56 PM"
-  },
-  {
-   "ts": 1787334670.0,
-   "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
-   "t": "21 Aug \u00b7 10:51 PM"
-  },
-  {
-   "ts": 1787333639.0,
-   "title": "Higher yields stop paying the Dollar Index",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/higher-yields-stop-paying-the-dollar-index-202608211733",
-   "t": "21 Aug \u00b7 10:33 PM"
-  },
-  {
-   "ts": 1787333199.0,
-   "title": "Swiss Franc struggles as US Dollar steadies, SNB keeps negative rates on table",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-struggles-as-us-dollar-steadies-snb-keeps-negative-rates-on-table-202608211726",
-   "t": "21 Aug \u00b7 10:26 PM"
   }
  ],
  "sentiment": {
