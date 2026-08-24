@@ -1,15 +1,13 @@
 {
- "updated": "24-08-2026 21:20 PKT",
+ "updated": "24-08-2026 22:01 PKT",
  "gold": {
-  "price": 4659.5,
+  "price": 4645.08,
   "open": 4608.18,
   "high": 4683.31,
   "low": 4596.86,
-  "chg": 1.11,
+  "chg": 0.8,
   "src": "XAUUSD Spot",
   "spark": [
-   4637.99,
-   4638.16,
    4640.87,
    4640.9,
    4632.38,
@@ -55,14 +53,16 @@
    4661.45,
    4642.56,
    4657.5,
-   4659.5
+   4658.32,
+   4660.68,
+   4645.08
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.675,
-   "chg": -1.14,
+   "price": 68.83,
+   "chg": -0.92,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.675
+    68.83
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.977,
-   "chg": 0.18,
+   "price": 98.986,
+   "chg": 0.19,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.977
+    98.986
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.92,
-   "chg": -2.46,
+   "price": 85.33,
+   "chg": -1.99,
    "spark": [
     89.31,
     82.61,
@@ -143,13 +143,13 @@
     85.83,
     87.83,
     87.06,
-    84.92
+    85.33
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.684,
-   "chg": -1.14,
+   "price": 4.694,
+   "chg": -0.93,
    "spark": [
     4.679,
     4.641,
@@ -172,13 +172,13 @@
     4.653,
     4.696,
     4.738,
-    4.684
+    4.694
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1671,
-   "chg": -0.14,
+   "price": 1.1669,
+   "chg": -0.16,
    "spark": [
     1.1377,
     1.1395,
@@ -201,7 +201,7 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1671
+    1.1669
    ]
   },
   {
@@ -235,7 +235,7 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.072,
+   "price": 159.067,
    "chg": 0.12,
    "spark": [
     163.832,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.072
+    159.067
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2499.92,
-   "chg": 1.5,
+   "price": 2467.71,
+   "chg": 0.2,
    "spark": [
-    2426.2,
     2427.13,
     2440.0,
     2431.72,
@@ -314,15 +313,15 @@
     2493.31,
     2515.4,
     2486.32,
-    2499.92
+    2478.06,
+    2467.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79701.3,
-   "chg": 2.53,
+   "price": 78816.3,
+   "chg": 1.39,
    "spark": [
-    77266.9,
     77260.9,
     77431.4,
     77311.3,
@@ -369,7 +368,8 @@
     78577.6,
     79488.9,
     79074.1,
-    79700.0
+    79056.6,
+    78816.3
    ]
   }
  ],
@@ -458,18 +458,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787588451.263045,
+   "ts": 1787590892.01672,
    "title": "U.S. Treasury to broaden scope of secondary sanctions on Iran, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-to-broaden-scope-of-secondary-sanctions-on-iran-source-says-4873545",
-   "t": "24 Aug \u00b7 09:20 PM"
+   "t": "24 Aug \u00b7 10:01 PM"
   },
   {
-   "ts": 1787588451.263045,
+   "ts": 1787590892.01672,
    "title": "Gold climbs to $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 09:20 PM"
+   "t": "24 Aug \u00b7 10:01 PM"
+  },
+  {
+   "ts": 1787590039.0,
+   "title": "The Dollar Index takes its orders from the Treasury",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-dollar-index-takes-its-orders-from-the-treasury-202608241647",
+   "t": "24 Aug \u00b7 09:47 PM"
   },
   {
    "ts": 1787588056.0,
@@ -519,13 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/canadian-dollar-trade-shock-weighs-against-us-dollar-scotiabank-202608241444",
    "t": "24 Aug \u00b7 07:44 PM"
-  },
-  {
-   "ts": 1787581993.0,
-   "title": "Federal Reserve: Jackson Hole communication focus \u2013 Wells Fargo",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-jackson-hole-communication-focus-wells-fargo-202608241433",
-   "t": "24 Aug \u00b7 07:33 PM"
   }
  ],
  "sentiment": {
