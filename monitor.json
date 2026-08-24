@@ -1,14 +1,13 @@
 {
- "updated": "24-08-2026 16:40 PKT",
+ "updated": "24-08-2026 16:59 PKT",
  "gold": {
-  "price": 4669.49,
+  "price": 4657.46,
   "open": 4608.18,
   "high": 4670.28,
   "low": 4596.86,
-  "chg": 1.33,
+  "chg": 1.07,
   "src": "XAUUSD Spot",
   "spark": [
-   4624.27,
    4638.72,
    4603.98,
    4606.91,
@@ -55,14 +54,15 @@
    4644.57,
    4645.9,
    4644.95,
-   4669.49
+   4658.33,
+   4657.46
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.85,
-   "chg": -0.89,
+   "price": 69.105,
+   "chg": -0.52,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.85
+    69.105
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.984,
-   "chg": 0.19,
+   "price": 98.967,
+   "chg": 0.17,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.984
+    98.967
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.59,
-   "chg": -1.69,
+   "price": 85.19,
+   "chg": -2.15,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.59
+    85.19
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1671,
-   "chg": -0.14,
+   "price": 1.167,
+   "chg": -0.15,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1671
+    1.167
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3636,
-   "chg": -0.05,
+   "price": 1.3638,
+   "chg": -0.04,
    "spark": [
     1.3313,
     1.3351,
@@ -230,12 +230,12 @@
     1.3537,
     1.36,
     1.3643,
-    1.3636
+    1.3638
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.068,
+   "price": 159.074,
    "chg": 0.12,
    "spark": [
     163.832,
@@ -259,13 +259,13 @@
     159.55,
     158.276,
     158.883,
-    159.068
+    159.074
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2495.49,
-   "chg": 1.32,
+   "price": 2493.06,
+   "chg": 1.23,
    "spark": [
     2428.43,
     2429.76,
@@ -314,13 +314,13 @@
     2453.96,
     2462.24,
     2464.1,
-    2496.3
+    2493.06
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78468.3,
-   "chg": 0.94,
+   "price": 78392.5,
+   "chg": 0.84,
    "spark": [
     77302.9,
     77286.3,
@@ -369,7 +369,7 @@
     77029.2,
     77534.9,
     77610.9,
-    78485.2
+    78392.5
    ]
   }
  ],
@@ -458,18 +458,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787571635.722791,
-   "title": "Gold rises above $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
+   "ts": 1787572755.973949,
+   "title": "Gold climbs to $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 04:40 PM"
+   "t": "24 Aug \u00b7 04:59 PM"
   },
   {
-   "ts": 1787571635.722791,
-   "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "24 Aug \u00b7 04:40 PM"
+   "ts": 1787572274.0,
+   "title": "Canadian Dollar: GDP rebound supports Loonie \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-gdp-rebound-supports-loonie-td-securities-202608241151",
+   "t": "24 Aug \u00b7 04:51 PM"
+  },
+  {
+   "ts": 1787571754.0,
+   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
+   "t": "24 Aug \u00b7 04:42 PM"
   },
   {
    "ts": 1787571599.0,
@@ -477,13 +484,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-debasement-narrative-caps-upside-ocbc-202608241139",
    "t": "24 Aug \u00b7 04:39 PM"
-  },
-  {
-   "ts": 1787571514.0,
-   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-   "t": "24 Aug \u00b7 04:38 PM"
   },
   {
    "ts": 1787571265.0,
