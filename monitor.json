@@ -1,16 +1,13 @@
 {
- "updated": "24-08-2026 14:59 PKT",
+ "updated": "24-08-2026 15:36 PKT",
  "gold": {
-  "price": 4645.37,
+  "price": 4645.31,
   "open": 4608.18,
   "high": 4658.96,
   "low": 4596.86,
   "chg": 0.81,
   "src": "XAUUSD Spot",
   "spark": [
-   4616.58,
-   4615.65,
-   4611.45,
    4606.52,
    4607.98,
    4614.57,
@@ -55,14 +52,17 @@
    4642.26,
    4638.11,
    4638.93,
-   4645.37
+   4645.25,
+   4649.35,
+   4643.14,
+   4645.31
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.805,
-   "chg": -0.95,
+   "price": 68.89,
+   "chg": -0.83,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.805
+    68.89
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.989,
-   "chg": 0.19,
+   "price": 98.971,
+   "chg": 0.17,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.989
+    98.971
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.11,
-   "chg": -2.24,
+   "price": 85.06,
+   "chg": -2.3,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.11
+    85.06
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1667,
-   "chg": -0.18,
+   "price": 1.1669,
+   "chg": -0.16,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1667
+    1.1669
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3634,
-   "chg": -0.07,
+   "price": 1.3632,
+   "chg": -0.08,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3634
+    1.3632
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.201,
-   "chg": 0.2,
+   "price": 159.132,
+   "chg": 0.16,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.201
+    159.132
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2462.24,
-   "chg": -0.03,
+   "price": 2475.24,
+   "chg": 0.5,
    "spark": [
-    2413.29,
     2423.45,
     2428.43,
     2429.76,
@@ -314,13 +313,14 @@
     2456.47,
     2454.22,
     2453.96,
-    2462.24
+    2462.24,
+    2475.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77534.9,
-   "chg": -0.26,
+   "price": 77915.4,
+   "chg": 0.23,
    "spark": [
     77130.3,
     77302.9,
@@ -369,7 +369,7 @@
     77303.3,
     77029.2,
     77534.9,
-    77534.9
+    77915.4
    ]
   }
  ],
@@ -458,18 +458,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787565598.971519,
+   "ts": 1787567789.869899,
    "title": "Gold rises above $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 02:59 PM"
+   "t": "24 Aug \u00b7 03:36 PM"
   },
   {
-   "ts": 1787565598.971519,
+   "ts": 1787567789.869899,
    "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "24 Aug \u00b7 02:59 PM"
+   "t": "24 Aug \u00b7 03:36 PM"
+  },
+  {
+   "ts": 1787567184.0,
+   "title": "Gold Price Forecast: XAU/USD pushes higher, but overbought RSI warns bulls",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-pushes-higher-but-overbought-rsi-warns-bulls-202608241026",
+   "t": "24 Aug \u00b7 03:26 PM"
+  },
+  {
+   "ts": 1787567105.0,
+   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
+   "t": "24 Aug \u00b7 03:25 PM"
+  },
+  {
+   "ts": 1787565738.0,
+   "title": "New Zealand Dollar edges down from highs amid soft retail consumption data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-edges-down-from-highs-amid-soft-retail-consumption-data-202608241002",
+   "t": "24 Aug \u00b7 03:02 PM"
   },
   {
    "ts": 1787565533.0,
@@ -484,13 +505,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-event-driven-risks-shape-debasement-narrative-mufg-202608240958",
    "t": "24 Aug \u00b7 02:58 PM"
-  },
-  {
-   "ts": 1787565286.0,
-   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-   "t": "24 Aug \u00b7 02:54 PM"
   },
   {
    "ts": 1787564932.0,
@@ -512,20 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608240931",
    "t": "24 Aug \u00b7 02:31 PM"
-  },
-  {
-   "ts": 1787562454.0,
-   "title": "US Dollar: Warsh speech shapes Dollar and Treasuries \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-warsh-speech-shapes-dollar-and-treasuries-bny-202608240907",
-   "t": "24 Aug \u00b7 02:07 PM"
-  },
-  {
-   "ts": 1787561985.0,
-   "title": "Dow Jones futures slip as US Treasury pledges buybacks, Middle East tensions persist",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-slip-as-us-treasury-pledges-buybacks-middle-east-tensions-persist-202608240859",
-   "t": "24 Aug \u00b7 01:59 PM"
   }
  ],
  "sentiment": {
