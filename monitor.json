@@ -1,14 +1,13 @@
 {
- "updated": "25-08-2026 00:50 PKT",
+ "updated": "25-08-2026 01:15 PKT",
  "gold": {
-  "price": 4652.56,
-  "open": 4603.57,
+  "price": 4650.59,
+  "open": 4603.59,
   "high": 4683.31,
   "low": 4596.86,
-  "chg": 1.06,
+  "chg": 1.02,
   "src": "XAUUSD Spot",
   "spark": [
-   4638.09,
    4632.37,
    4645.03,
    4636.49,
@@ -55,14 +54,15 @@
    4636.41,
    4641.93,
    4650.1,
-   4652.56
+   4651.31,
+   4650.59
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.595,
-   "chg": -1.25,
+   "price": 68.865,
+   "chg": -0.87,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.595
+    68.865
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.027,
-   "chg": 0.23,
+   "price": 99.015,
+   "chg": 0.22,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    99.027
+    99.015
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.07,
-   "chg": -2.29,
+   "price": 84.99,
+   "chg": -2.38,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.07
+    84.99
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1666,
-   "chg": -0.19,
+   "price": 1.1667,
+   "chg": -0.18,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1666
+    1.1667
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.363,
-   "chg": -0.1,
+   "price": 1.3631,
+   "chg": -0.09,
    "spark": [
     1.3313,
     1.3351,
@@ -230,12 +230,12 @@
     1.3537,
     1.36,
     1.3643,
-    1.363
+    1.3631
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.135,
+   "price": 159.143,
    "chg": 0.16,
    "spark": [
     163.832,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.135
+    159.143
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2469.65,
-   "chg": 0.28,
+   "price": 2471.75,
+   "chg": 0.36,
    "spark": [
-    2431.72,
     2407.23,
     2413.57,
     2422.94,
@@ -314,15 +313,15 @@
     2478.06,
     2469.05,
     2473.7,
-    2469.65
+    2469.67,
+    2471.75
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78815.1,
-   "chg": 1.39,
+   "price": 78639.0,
+   "chg": 1.16,
    "spark": [
-    77311.3,
     76850.0,
     76981.0,
     77082.6,
@@ -369,19 +368,12 @@
     79056.6,
     78746.7,
     78927.8,
-    78815.1
+    78742.8,
+    78645.4
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1787590800.0,
-   "t": "Mon 24 Aug \u00b7 10:00 PM",
-   "title": "Treasury Sec Bessent Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1787666400.0,
    "t": "Tue 25 Aug \u00b7 07:00 PM",
@@ -458,89 +450,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787601016.07955,
+   "ts": 1787602516.297997,
+   "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-treasury-to-stick-to-debt-auction-schedule-despite-bigger-buybacks-bessent-says-4874098",
+   "t": "25 Aug \u00b7 01:15 AM"
+  },
+  {
+   "ts": 1787602516.297997,
    "title": "Gold hits all-time high with RSI near overbought: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "25 Aug \u00b7 12:50 AM",
-   "ur": "RSI ke sath overbot ke qarib Gold (sona) ab tak ki baland tarin sath par hai."
+   "t": "25 Aug \u00b7 01:15 AM"
   },
   {
-   "ts": 1787601016.07955,
+   "ts": 1787602516.297997,
    "title": "Silver rejected at $70, double top risk rising: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "25 Aug \u00b7 12:50 AM",
-   "ur": "Silver (chandi) $ 70 par mastard, dabl sab se oper khatrah badh raha hai"
+   "t": "25 Aug \u00b7 01:15 AM"
+  },
+  {
+   "ts": 1787602427.0,
+   "title": "Mexican Peso weakens as Iran sanctions offset Mexico\u2019s inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-weakens-as-iran-sanctions-offset-mexicos-inflation-data-202608242013",
+   "t": "25 Aug \u00b7 01:13 AM"
+  },
+  {
+   "ts": 1787602422.0,
+   "title": "Forex Today: US Dollar firms on safe-haven demand ahead of data-heavy Tuesday",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-on-safe-haven-demand-ahead-of-data-heavy-tuesday-202608242013",
+   "t": "25 Aug \u00b7 01:13 AM"
+  },
+  {
+   "ts": 1787601060.0,
+   "title": "South Korean Won: Consolidation zone eyed against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-consolidation-zone-eyed-against-us-dollar-commerzbank-202608241951",
+   "t": "25 Aug \u00b7 12:51 AM"
   },
   {
    "ts": 1787600162.0,
    "title": "US Dollar Index: Cautious rebound capped near 100 \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-index-cautious-rebound-capped-near-100-scotiabank-202608241936",
-   "t": "25 Aug \u00b7 12:36 AM",
-   "ur": "US Dollar andex: muhatat ribound 100 ke qarib - Scotiabank"
+   "t": "25 Aug \u00b7 12:36 AM"
   },
   {
    "ts": 1787599020.0,
    "title": "Chinese Yuan: Gradual appreciation bias with key levels against US Dollar \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-appreciation-bias-with-key-levels-against-us-dollar-ocbc-202608241917",
-   "t": "25 Aug \u00b7 12:17 AM",
-   "ur": "Chini uan: US Dollar ke khalaf kalidi sathon ke sath btadarage taarifi taasab - OCBC"
+   "t": "25 Aug \u00b7 12:17 AM"
   },
   {
    "ts": 1787597531.0,
    "title": "Silver Price Forecast: XAG pullback tests 100-day SMA",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-pullback-tests-100-day-sma-202608241852",
-   "t": "24 Aug \u00b7 11:52 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG pl bek 100 dan ke SMA ki janch karta hai."
+   "t": "24 Aug \u00b7 11:52 PM"
   },
   {
    "ts": 1787596860.0,
    "title": "Singapore Dollar: Upside risk stays intact against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-intact-against-us-dollar-uob-202608241841",
-   "t": "24 Aug \u00b7 11:41 PM",
-   "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein oper ka khatrah barqarar hai."
-  },
-  {
-   "ts": 1787595657.0,
-   "title": "Gold rallies as Iran sanctions stoke haven demand",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-rallies-as-iran-sanctions-stoke-haven-demand-202608241820",
-   "t": "24 Aug \u00b7 11:20 PM",
-   "ur": "Eran par pabandiyon ke baas Gold (sone) ki qeemton mein azafah hawa hai."
-  },
-  {
-   "ts": 1787595252.0,
-   "title": "Swiss Franc eases as US Dollar stabilizes after last week\u2019s sell-off",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-eases-as-us-dollar-stabilizes-after-last-weeks-sell-off-202608241814",
-   "t": "24 Aug \u00b7 11:14 PM",
-   "ur": "Guzashtah hafte ki farokht ke bad US Dollar ke mastahkam hone par sois farank mein narmi i"
-  },
-  {
-   "ts": 1787593878.0,
-   "title": "Treasury Bessent: US is launching an \"economic onslaught\" against Iran's financial connection",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/treasury-bessent-us-is-launching-an-economic-onslaught-against-irans-financial-connection-202608241751",
-   "t": "24 Aug \u00b7 10:51 PM",
-   "ur": "Treasurei bessent: amrikah eran ke mali connection ke khalaf \"mashi hamlah\" sharo kar raha hai"
-  },
-  {
-   "ts": 1787590039.0,
-   "title": "The Dollar Index takes its orders from the Treasury",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-dollar-index-takes-its-orders-from-the-treasury-202608241647",
-   "t": "24 Aug \u00b7 09:47 PM",
-   "ur": "Dollar andex treasurei se aarder lita hai."
+   "t": "24 Aug \u00b7 11:41 PM"
   }
  ],
  "sentiment": {
   "value": 73,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
