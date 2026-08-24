@@ -1,15 +1,13 @@
 {
- "updated": "24-08-2026 16:05 PKT",
+ "updated": "24-08-2026 16:40 PKT",
  "gold": {
-  "price": 4643.78,
+  "price": 4669.49,
   "open": 4608.18,
-  "high": 4658.96,
+  "high": 4670.28,
   "low": 4596.86,
-  "chg": 0.77,
+  "chg": 1.33,
   "src": "XAUUSD Spot",
   "spark": [
-   4614.57,
-   4607.57,
    4624.27,
    4638.72,
    4603.98,
@@ -55,14 +53,16 @@
    4643.14,
    4644.79,
    4644.57,
-   4643.78
+   4645.9,
+   4644.95,
+   4669.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.855,
-   "chg": -0.88,
+   "price": 68.85,
+   "chg": -0.89,
    "spark": [
     58.656,
     58.472,
@@ -85,12 +85,12 @@
     65.734,
     68.026,
     69.466,
-    68.855
+    68.85
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.985,
+   "price": 98.984,
    "chg": 0.19,
    "spark": [
     101.47,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.985
+    98.984
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.19,
-   "chg": -2.15,
+   "price": 85.59,
+   "chg": -1.69,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.19
+    85.59
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1667,
-   "chg": -0.18,
+   "price": 1.1671,
+   "chg": -0.14,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1667
+    1.1671
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3625,
-   "chg": -0.14,
+   "price": 1.3636,
+   "chg": -0.05,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3625
+    1.3636
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.219,
-   "chg": 0.21,
+   "price": 159.068,
+   "chg": 0.12,
    "spark": [
     163.832,
     163.611,
@@ -259,13 +259,13 @@
     159.55,
     158.276,
     158.883,
-    159.219
+    159.068
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2462.78,
-   "chg": -0.0,
+   "price": 2495.49,
+   "chg": 1.32,
    "spark": [
     2428.43,
     2429.76,
@@ -314,13 +314,13 @@
     2453.96,
     2462.24,
     2464.1,
-    2462.78
+    2496.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77594.9,
-   "chg": -0.18,
+   "price": 78468.3,
+   "chg": 0.94,
    "spark": [
     77302.9,
     77286.3,
@@ -369,7 +369,7 @@
     77029.2,
     77534.9,
     77610.9,
-    77594.9
+    78485.2
    ]
   }
  ],
@@ -458,25 +458,67 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787569522.192498,
+   "ts": 1787571635.722791,
    "title": "Gold rises above $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 04:05 PM"
+   "t": "24 Aug \u00b7 04:40 PM"
   },
   {
-   "ts": 1787569522.192498,
+   "ts": 1787571635.722791,
    "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "24 Aug \u00b7 04:05 PM"
+   "t": "24 Aug \u00b7 04:40 PM"
   },
   {
-   "ts": 1787569437.0,
+   "ts": 1787571599.0,
+   "title": "US Dollar: Debasement narrative caps upside \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-debasement-narrative-caps-upside-ocbc-202608241139",
+   "t": "24 Aug \u00b7 04:39 PM"
+  },
+  {
+   "ts": 1787571514.0,
    "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-   "t": "24 Aug \u00b7 04:03 PM"
+   "t": "24 Aug \u00b7 04:38 PM"
+  },
+  {
+   "ts": 1787571265.0,
+   "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+   "t": "24 Aug \u00b7 04:34 PM"
+  },
+  {
+   "ts": 1787570766.0,
+   "title": "Gold: Breakout sustains upward momentum \u2013 Societe Generale",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-breakout-sustains-upward-momentum-societe-generale-202608241126",
+   "t": "24 Aug \u00b7 04:26 PM"
+  },
+  {
+   "ts": 1787570234.0,
+   "title": "Euro: Positioning supports gradual gains against US Dollar \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-positioning-supports-gradual-gains-against-us-dollar-ing-202608241117",
+   "t": "24 Aug \u00b7 04:17 PM"
+  },
+  {
+   "ts": 1787569630.0,
+   "title": "Gold extends rally as markets await US PCE and Warsh\u2019s Jackson Hole speech",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-extends-rally-as-markets-await-us-pce-and-warshs-jackson-hole-speech-202608241107",
+   "t": "24 Aug \u00b7 04:07 PM"
+  },
+  {
+   "ts": 1787569604.0,
+   "title": "New Zealand Dollar: Retail slump yet hikes priced \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-retail-slump-yet-hikes-priced-bbh-202608241106",
+   "t": "24 Aug \u00b7 04:06 PM"
   },
   {
    "ts": 1787567184.0,
@@ -484,48 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-pushes-higher-but-overbought-rsi-warns-bulls-202608241026",
    "t": "24 Aug \u00b7 03:26 PM"
-  },
-  {
-   "ts": 1787565738.0,
-   "title": "New Zealand Dollar edges down from highs amid soft retail consumption data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-edges-down-from-highs-amid-soft-retail-consumption-data-202608241002",
-   "t": "24 Aug \u00b7 03:02 PM"
-  },
-  {
-   "ts": 1787565533.0,
-   "title": "Euro steadies against Japanese Yen as markets weigh ECB, BoJ rate hikes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-steadies-against-japanese-yen-as-markets-weigh-ecb-boj-rate-hikes-202608240958",
-   "t": "24 Aug \u00b7 02:58 PM"
-  },
-  {
-   "ts": 1787565533.0,
-   "title": "US Dollar: Event-driven risks shape debasement narrative \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-event-driven-risks-shape-debasement-narrative-mufg-202608240958",
-   "t": "24 Aug \u00b7 02:58 PM"
-  },
-  {
-   "ts": 1787564932.0,
-   "title": "Australian Dollar: Momentum builds toward 0.7200 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-momentum-builds-toward-07200-against-us-dollar-uob-202608240948",
-   "t": "24 Aug \u00b7 02:48 PM"
-  },
-  {
-   "ts": 1787564341.0,
-   "title": "Canadian Dollar: Trade tensions threaten recovery against US Dollar - OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-tensions-threaten-recovery-against-us-dollar-ocbc-202608240939",
-   "t": "24 Aug \u00b7 02:39 PM"
-  },
-  {
-   "ts": 1787563898.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608240931",
-   "t": "24 Aug \u00b7 02:31 PM"
   }
  ],
  "sentiment": {
