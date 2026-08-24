@@ -1,16 +1,13 @@
 {
- "updated": "24-08-2026 12:17 PKT",
+ "updated": "24-08-2026 13:08 PKT",
  "gold": {
-  "price": 4648.77,
+  "price": 4638.03,
   "open": 4608.18,
   "high": 4658.96,
   "low": 4596.86,
-  "chg": 0.88,
+  "chg": 0.65,
   "src": "XAUUSD Spot",
   "spark": [
-   4603.56,
-   4603.65,
-   4603.67,
    4603.57,
    4603.72,
    4603.7,
@@ -55,14 +52,17 @@
    4644.44,
    4650.05,
    4647.4,
-   4648.77
+   4645.48,
+   4637.15,
+   4643.26,
+   4638.03
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.1,
-   "chg": -0.53,
+   "price": 68.955,
+   "chg": -0.74,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    69.1
+    68.955
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.891,
-   "chg": 0.09,
+   "price": 98.958,
+   "chg": 0.16,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.891
+    98.958
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.08,
-   "chg": -2.27,
+   "price": 85.63,
+   "chg": -1.64,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.08
+    85.63
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1674,
-   "chg": -0.12,
+   "price": 1.167,
+   "chg": -0.15,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1674
+    1.167
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3642,
-   "chg": -0.01,
+   "price": 1.3637,
+   "chg": -0.05,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3642
+    1.3637
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.113,
-   "chg": 0.14,
+   "price": 159.205,
+   "chg": 0.2,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.113
+    159.205
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2464.12,
-   "chg": 0.05,
+   "price": 2455.16,
+   "chg": -0.31,
    "spark": [
-    2425.32,
     2421.64,
     2413.29,
     2423.45,
@@ -314,15 +313,15 @@
     2437.68,
     2449.18,
     2456.47,
-    2464.12
+    2454.22,
+    2455.16
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77666.9,
-   "chg": -0.09,
+   "price": 77340.6,
+   "chg": -0.51,
    "spark": [
-    77189.9,
     77041.3,
     76971.6,
     77130.3,
@@ -369,7 +368,8 @@
     76895.2,
     77178.0,
     77454.1,
-    77666.9
+    77303.3,
+    77340.6
    ]
   }
  ],
@@ -458,74 +458,74 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787555822.742501,
+   "ts": 1787558938.915346,
+   "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
+   "t": "24 Aug \u00b7 01:08 PM"
+  },
+  {
+   "ts": 1787558938.915346,
+   "title": "Gold hits $4,703 deep in overbought territory: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
+   "t": "24 Aug \u00b7 01:08 PM"
+  },
+  {
+   "ts": 1787558938.915346,
    "title": "Gold rises above $4,650 as U.S. debt concerns sustain bullion demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 12:17 PM"
+   "t": "24 Aug \u00b7 01:08 PM"
   },
   {
-   "ts": 1787555361.0,
-   "title": "ECB's Cipollone: Risk of economic stagnation and sharp inflation rise is rather remote",
+   "ts": 1787558492.0,
+   "title": "Silver Price Forecast: XAG/USD steadies around $69.00 amid US bond buybacks",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-cipollone-risk-of-economic-stagnation-and-sharp-inflation-rise-is-rather-remote-202608240709",
-   "t": "24 Aug \u00b7 12:09 PM"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-steadies-around-6900-amid-us-bond-buybacks-202608240801",
+   "t": "24 Aug \u00b7 01:01 PM"
   },
   {
-   "ts": 1787554941.0,
-   "title": "Canadian Dollar declines as US-Canada trade talks collapse",
+   "ts": 1787558213.0,
+   "title": "US Dollar: Momentum fades as yields stay high \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-declines-as-us-canada-trade-talks-collapse-202608240702",
-   "t": "24 Aug \u00b7 12:02 PM"
+   "link": "https://www.fxstreet.com/news/us-dollar-momentum-fades-as-yields-stay-high-mufg-202608240756",
+   "t": "24 Aug \u00b7 12:56 PM"
   },
   {
-   "ts": 1787554685.0,
-   "title": "Gold: Upside risks building as fiscal worries grow \u2013 ING",
+   "ts": 1787557601.0,
+   "title": "Euro: ECB patience with inflation and growth tension \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-upside-risks-building-as-fiscal-worries-grow-ing-202608240658",
-   "t": "24 Aug \u00b7 11:58 AM"
+   "link": "https://www.fxstreet.com/news/euro-ecb-patience-with-inflation-and-growth-tension-bny-202608240746",
+   "t": "24 Aug \u00b7 12:46 PM"
   },
   {
-   "ts": 1787551542.0,
-   "title": "Euro: Upside room toward 1.1800 against US Dollar \u2013 UOB",
+   "ts": 1787557056.0,
+   "title": "British Pound holds near six-month highs as debt woes keep US Dollar rallies shallow",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-room-toward-11800-against-us-dollar-uob-202608240605",
-   "t": "24 Aug \u00b7 11:05 AM"
+   "link": "https://www.fxstreet.com/news/british-pound-holds-near-six-month-highs-as-debt-woes-keep-us-dollar-rallies-shallow-202608240737",
+   "t": "24 Aug \u00b7 12:37 PM"
   },
   {
-   "ts": 1787549550.0,
-   "title": "Indonesian Rupiah declines despite prevailing high interest rates, weaker US Dollar",
+   "ts": 1787556784.0,
+   "title": "British Pound: Range-trade now, 1.3700 in sight against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indonesian-rupiah-declines-despite-prevailing-high-interest-rates-weaker-us-dollar-202608240532",
-   "t": "24 Aug \u00b7 10:32 AM"
+   "link": "https://www.fxstreet.com/news/british-pound-range-trade-now-13700-in-sight-against-us-dollar-uob-202608240733",
+   "t": "24 Aug \u00b7 12:33 PM"
   },
   {
-   "ts": 1787549083.0,
-   "title": "Singapore inflation hits highest in nearly two years, but undershoots expectations",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
-   "t": "24 Aug \u00b7 10:24 AM"
-  },
-  {
-   "ts": 1787546753.0,
-   "title": "Swiss Franc advances as Dollar slides on US bond buyback surge",
+   "ts": 1787556114.0,
+   "title": "Canadian Dollar: Trade conflict weighs on Loonie \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-advances-as-dollar-slides-on-us-bond-buyback-surge-202608240445",
-   "t": "24 Aug \u00b7 09:45 AM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-conflict-weighs-on-loonie-commerzbank-202608240721",
+   "t": "24 Aug \u00b7 12:21 PM"
   },
   {
-   "ts": 1787546666.0,
-   "title": "Gold extends rally above $4,650, fresh high since mid-May as Fed hike bets recede",
+   "ts": 1787556044.0,
+   "title": "Australian Dollar holds near June highs, above 0.7150 ahead of expected Iran sanctions",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-hits-fresh-high-since-mid-may-as-lower-bond-yields-and-fading-fed-bets-undermine-usd-202608240444",
-   "t": "24 Aug \u00b7 09:44 AM"
-  },
-  {
-   "ts": 1787546177.0,
-   "title": "India Gold price today: Gold rises, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202608240436",
-   "t": "24 Aug \u00b7 09:36 AM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-near-june-highs-above-07150-ahead-of-expected-iran-sanctions-202608240720",
+   "t": "24 Aug \u00b7 12:20 PM"
   }
  ],
  "sentiment": {
