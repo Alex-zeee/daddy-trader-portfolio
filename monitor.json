@@ -1,16 +1,13 @@
 {
- "updated": "24-08-2026 23:03 PKT",
+ "updated": "24-08-2026 23:56 PKT",
  "gold": {
-  "price": 4635.85,
-  "open": 4608.18,
+  "price": 4635.09,
+  "open": 4603.68,
   "high": 4683.31,
   "low": 4596.86,
-  "chg": 0.6,
+  "chg": 0.68,
   "src": "XAUUSD Spot",
   "spark": [
-   4643.09,
-   4644.44,
-   4650.05,
    4647.4,
    4645.48,
    4637.15,
@@ -55,14 +52,17 @@
    4641.23,
    4640.51,
    4637.22,
-   4635.85
+   4630.29,
+   4640.14,
+   4635.21,
+   4635.09
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.4,
-   "chg": -1.53,
+   "price": 68.51,
+   "chg": -1.38,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.4
+    68.51
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.06,
-   "chg": 0.26,
+   "price": 99.012,
+   "chg": 0.21,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    99.06
+    99.012
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.77,
-   "chg": -2.63,
+   "price": 85.18,
+   "chg": -2.16,
    "spark": [
     89.31,
     82.61,
@@ -143,13 +143,13 @@
     85.83,
     87.83,
     87.06,
-    84.77
+    85.18
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.7,
-   "chg": -0.8,
+   "price": 4.698,
+   "chg": -0.84,
    "spark": [
     4.679,
     4.641,
@@ -172,13 +172,13 @@
     4.653,
     4.696,
     4.738,
-    4.7
+    4.698
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1663,
-   "chg": -0.21,
+   "price": 1.1666,
+   "chg": -0.19,
    "spark": [
     1.1377,
     1.1395,
@@ -201,7 +201,7 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1663
+    1.1666
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.16,
-   "chg": 0.17,
+   "price": 159.195,
+   "chg": 0.2,
    "spark": [
     163.832,
     163.611,
@@ -259,13 +259,13 @@
     159.55,
     158.276,
     158.883,
-    159.16
+    159.195
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2473.85,
-   "chg": 0.45,
+   "price": 2474.84,
+   "chg": 0.49,
    "spark": [
     2440.0,
     2431.72,
@@ -314,12 +314,12 @@
     2486.32,
     2478.06,
     2469.05,
-    2473.85
+    2474.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78902.3,
+   "price": 78905.1,
    "chg": 1.5,
    "spark": [
     77431.4,
@@ -369,7 +369,7 @@
     79074.1,
     79056.6,
     78746.7,
-    78902.3
+    78905.1
    ]
   }
  ],
@@ -458,18 +458,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787594601.2635,
+   "ts": 1787597772.57745,
    "title": "U.S. Treasury to broaden scope of secondary sanctions on Iran, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-to-broaden-scope-of-secondary-sanctions-on-iran-source-says-4873545",
-   "t": "24 Aug \u00b7 11:03 PM"
+   "t": "24 Aug \u00b7 11:56 PM"
   },
   {
-   "ts": 1787594601.2635,
+   "ts": 1787597772.57745,
    "title": "Gold climbs to $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 11:03 PM"
+   "t": "24 Aug \u00b7 11:56 PM"
+  },
+  {
+   "ts": 1787597531.0,
+   "title": "Silver Price Forecast: XAG pullback tests 100-day SMA",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-pullback-tests-100-day-sma-202608241852",
+   "t": "24 Aug \u00b7 11:52 PM"
+  },
+  {
+   "ts": 1787596860.0,
+   "title": "Singapore Dollar: Upside risk stays intact against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-intact-against-us-dollar-uob-202608241841",
+   "t": "24 Aug \u00b7 11:41 PM"
+  },
+  {
+   "ts": 1787595657.0,
+   "title": "Gold rallies as Iran sanctions stoke haven demand",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rallies-as-iran-sanctions-stoke-haven-demand-202608241820",
+   "t": "24 Aug \u00b7 11:20 PM"
+  },
+  {
+   "ts": 1787595252.0,
+   "title": "Swiss Franc eases as US Dollar stabilizes after last week\u2019s sell-off",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-eases-as-us-dollar-stabilizes-after-last-weeks-sell-off-202608241814",
+   "t": "24 Aug \u00b7 11:14 PM"
   },
   {
    "ts": 1787593878.0,
@@ -498,34 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-retreats-from-recent-highs-on-weak-retail-sales-202608241552",
    "t": "24 Aug \u00b7 08:52 PM"
-  },
-  {
-   "ts": 1787586238.0,
-   "title": "Australian Dollar pulls back near multi-month highs as traders await RBA Minutes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-pulls-back-near-multi-month-highs-as-traders-await-rba-minutes-202608241543",
-   "t": "24 Aug \u00b7 08:43 PM"
-  },
-  {
-   "ts": 1787585340.0,
-   "title": "British Pound: Sentiment supports further gains against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-sentiment-supports-further-gains-against-us-dollar-scotiabank-202608241529",
-   "t": "24 Aug \u00b7 08:29 PM"
-  },
-  {
-   "ts": 1787583999.0,
-   "title": "United States: Spending and inflation outlook \u2013 Wells Fargo",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-spending-and-inflation-outlook-wells-fargo-202608241506",
-   "t": "24 Aug \u00b7 08:06 PM"
-  },
-  {
-   "ts": 1787583095.0,
-   "title": "Japanese Yen slips as US Dollar stabilizes, US PCE in focus",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-slips-as-us-dollar-stabilizes-us-pce-in-focus-202608241451",
-   "t": "24 Aug \u00b7 07:51 PM"
   }
  ],
  "sentiment": {
