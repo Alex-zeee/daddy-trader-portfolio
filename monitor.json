@@ -1,16 +1,13 @@
 {
- "updated": "24-08-2026 13:08 PKT",
+ "updated": "24-08-2026 14:01 PKT",
  "gold": {
-  "price": 4638.03,
+  "price": 4636.49,
   "open": 4608.18,
   "high": 4658.96,
   "low": 4596.86,
-  "chg": 0.65,
+  "chg": 0.61,
   "src": "XAUUSD Spot",
   "spark": [
-   4603.57,
-   4603.72,
-   4603.7,
    4603.69,
    4603.63,
    4603.73,
@@ -55,14 +52,17 @@
    4645.48,
    4637.15,
    4643.26,
-   4638.03
+   4638.09,
+   4632.37,
+   4645.03,
+   4636.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.955,
-   "chg": -0.74,
+   "price": 68.9,
+   "chg": -0.81,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.955
+    68.9
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.958,
-   "chg": 0.16,
+   "price": 98.973,
+   "chg": 0.18,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.958
+    98.973
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.63,
-   "chg": -1.64,
+   "price": 85.07,
+   "chg": -2.29,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.63
+    85.07
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.167,
-   "chg": -0.15,
+   "price": 1.1667,
+   "chg": -0.18,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.167
+    1.1667
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3637,
-   "chg": -0.05,
+   "price": 1.3624,
+   "chg": -0.14,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3637
+    1.3624
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.205,
-   "chg": 0.2,
+   "price": 159.187,
+   "chg": 0.19,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.205
+    159.187
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2455.16,
-   "chg": -0.31,
+   "price": 2454.18,
+   "chg": -0.35,
    "spark": [
-    2421.64,
     2413.29,
     2423.45,
     2428.43,
@@ -314,15 +313,15 @@
     2449.18,
     2456.47,
     2454.22,
-    2455.16
+    2453.96,
+    2454.18
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77340.6,
-   "chg": -0.51,
+   "price": 77044.1,
+   "chg": -0.89,
    "spark": [
-    77041.3,
     76971.6,
     77130.3,
     77302.9,
@@ -369,7 +368,8 @@
     77178.0,
     77454.1,
     77303.3,
-    77340.6
+    77029.2,
+    77044.1
    ]
   }
  ],
@@ -458,25 +458,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787558938.915346,
-   "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "24 Aug \u00b7 01:08 PM"
-  },
-  {
-   "ts": 1787558938.915346,
-   "title": "Gold hits $4,703 deep in overbought territory: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "24 Aug \u00b7 01:08 PM"
-  },
-  {
-   "ts": 1787558938.915346,
+   "ts": 1787562073.260487,
    "title": "Gold rises above $4,650 as U.S. debt concerns sustain bullion demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 01:08 PM"
+   "t": "24 Aug \u00b7 02:01 PM"
+  },
+  {
+   "ts": 1787562073.260487,
+   "title": "Silver hits Fibonacci resistance with MFI at 89: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
+   "t": "24 Aug \u00b7 02:01 PM"
+  },
+  {
+   "ts": 1787561985.0,
+   "title": "Dow Jones futures slip as US Treasury pledges buybacks, Middle East tensions persist",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-futures-slip-as-us-treasury-pledges-buybacks-middle-east-tensions-persist-202608240859",
+   "t": "24 Aug \u00b7 01:59 PM"
+  },
+  {
+   "ts": 1787561790.0,
+   "title": "Japanese Yen: Slightly bullish within broad range against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-slightly-bullish-within-broad-range-against-us-dollar-uob-202608240856",
+   "t": "24 Aug \u00b7 01:56 PM"
+  },
+  {
+   "ts": 1787560939.0,
+   "title": "Gold: Debasement narrative lifts prices \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-debasement-narrative-lifts-prices-td-securities-202608240842",
+   "t": "24 Aug \u00b7 01:42 PM"
   },
   {
    "ts": 1787558492.0,
@@ -512,20 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-range-trade-now-13700-in-sight-against-us-dollar-uob-202608240733",
    "t": "24 Aug \u00b7 12:33 PM"
-  },
-  {
-   "ts": 1787556114.0,
-   "title": "Canadian Dollar: Trade conflict weighs on Loonie \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-conflict-weighs-on-loonie-commerzbank-202608240721",
-   "t": "24 Aug \u00b7 12:21 PM"
-  },
-  {
-   "ts": 1787556044.0,
-   "title": "Australian Dollar holds near June highs, above 0.7150 ahead of expected Iran sanctions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-near-june-highs-above-07150-ahead-of-expected-iran-sanctions-202608240720",
-   "t": "24 Aug \u00b7 12:20 PM"
   }
  ],
  "sentiment": {
