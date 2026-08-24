@@ -1,16 +1,13 @@
 {
- "updated": "25-08-2026 01:15 PKT",
+ "updated": "25-08-2026 01:48 PKT",
  "gold": {
-  "price": 4650.59,
-  "open": 4603.59,
+  "price": 4648.69,
+  "open": 4603.63,
   "high": 4683.31,
   "low": 4596.86,
-  "chg": 1.02,
+  "chg": 0.98,
   "src": "XAUUSD Spot",
   "spark": [
-   4632.37,
-   4645.03,
-   4636.49,
    4642.26,
    4638.11,
    4638.93,
@@ -55,7 +52,10 @@
    4641.93,
    4650.1,
    4651.31,
-   4650.59
+   4651.0,
+   4649.41,
+   4647.44,
+   4648.69
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 99.015,
-   "chg": 0.22,
+   "price": 99.0,
+   "chg": 0.2,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    99.015
+    99.0
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.99,
-   "chg": -2.38,
+   "price": 84.95,
+   "chg": -2.42,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    84.99
+    84.95
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.143,
-   "chg": 0.16,
+   "price": 159.109,
+   "chg": 0.14,
    "spark": [
     163.832,
     163.611,
@@ -259,13 +259,13 @@
     159.55,
     158.276,
     158.883,
-    159.143
+    159.109
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2471.75,
-   "chg": 0.36,
+   "price": 2473.24,
+   "chg": 0.42,
    "spark": [
     2407.23,
     2413.57,
@@ -314,13 +314,13 @@
     2469.05,
     2473.7,
     2469.67,
-    2471.75
+    2473.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78639.0,
-   "chg": 1.16,
+   "price": 78902.6,
+   "chg": 1.5,
    "spark": [
     76850.0,
     76981.0,
@@ -369,7 +369,7 @@
     78746.7,
     78927.8,
     78742.8,
-    78645.4
+    78902.6
    ]
   }
  ],
@@ -450,25 +450,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787602516.297997,
+   "ts": 1787604497.833266,
+   "title": "Gold adds to weekly surge, spot prices briefly come within sight of $4,700",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
+   "t": "25 Aug \u00b7 01:48 AM"
+  },
+  {
+   "ts": 1787604497.833266,
    "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-to-stick-to-debt-auction-schedule-despite-bigger-buybacks-bessent-says-4874098",
-   "t": "25 Aug \u00b7 01:15 AM"
+   "t": "25 Aug \u00b7 01:48 AM"
   },
   {
-   "ts": 1787602516.297997,
+   "ts": 1787604497.833266,
    "title": "Gold hits all-time high with RSI near overbought: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "25 Aug \u00b7 01:15 AM"
+   "t": "25 Aug \u00b7 01:48 AM"
   },
   {
-   "ts": 1787602516.297997,
+   "ts": 1787604497.833266,
    "title": "Silver rejected at $70, double top risk rising: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "25 Aug \u00b7 01:15 AM"
+   "t": "25 Aug \u00b7 01:48 AM"
   },
   {
    "ts": 1787602427.0,
@@ -511,13 +518,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-pullback-tests-100-day-sma-202608241852",
    "t": "24 Aug \u00b7 11:52 PM"
-  },
-  {
-   "ts": 1787596860.0,
-   "title": "Singapore Dollar: Upside risk stays intact against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-risk-stays-intact-against-us-dollar-uob-202608241841",
-   "t": "24 Aug \u00b7 11:41 PM"
   }
  ],
  "sentiment": {
