@@ -1,16 +1,13 @@
 {
- "updated": "24-08-2026 16:59 PKT",
+ "updated": "24-08-2026 17:43 PKT",
  "gold": {
-  "price": 4657.46,
+  "price": 4662.99,
   "open": 4608.18,
   "high": 4670.28,
   "low": 4596.86,
-  "chg": 1.07,
+  "chg": 1.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4638.72,
-   4603.98,
-   4606.91,
    4616.55,
    4627.61,
    4616.82,
@@ -55,14 +52,17 @@
    4645.9,
    4644.95,
    4658.33,
-   4657.46
+   4656.65,
+   4658.22,
+   4661.75,
+   4662.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.105,
-   "chg": -0.52,
+   "price": 69.125,
+   "chg": -0.49,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    69.105
+    69.125
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.967,
-   "chg": 0.17,
+   "price": 98.945,
+   "chg": 0.15,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.967
+    98.945
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.19,
-   "chg": -2.15,
+   "price": 85.62,
+   "chg": -1.65,
    "spark": [
     89.31,
     82.61,
@@ -143,15 +143,14 @@
     85.83,
     87.83,
     87.06,
-    85.19
+    85.62
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.738,
-   "chg": 0.89,
+   "price": 4.706,
+   "chg": -0.68,
    "spark": [
-    4.703,
     4.679,
     4.641,
     4.604,
@@ -172,13 +171,14 @@
     4.706,
     4.653,
     4.696,
-    4.738
+    4.738,
+    4.706
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.167,
-   "chg": -0.15,
+   "price": 1.1673,
+   "chg": -0.13,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.167
+    1.1673
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3638,
-   "chg": -0.04,
+   "price": 1.3642,
+   "chg": -0.01,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3638
+    1.3642
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.074,
-   "chg": 0.12,
+   "price": 158.984,
+   "chg": 0.06,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    159.074
+    158.984
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2493.06,
-   "chg": 1.23,
+   "price": 2499.71,
+   "chg": 1.5,
    "spark": [
-    2428.43,
     2429.76,
     2413.34,
     2410.94,
@@ -314,15 +313,15 @@
     2453.96,
     2462.24,
     2464.1,
-    2493.06
+    2493.77,
+    2499.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78392.5,
-   "chg": 0.84,
+   "price": 78734.9,
+   "chg": 1.28,
    "spark": [
-    77302.9,
     77286.3,
     76980.3,
     76966.8,
@@ -369,7 +368,8 @@
     77029.2,
     77534.9,
     77610.9,
-    78392.5
+    78424.2,
+    78734.9
    ]
   }
  ],
@@ -458,11 +458,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787572755.973949,
+   "ts": 1787575434.345382,
    "title": "Gold climbs to $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 04:59 PM"
+   "t": "24 Aug \u00b7 05:43 PM"
+  },
+  {
+   "ts": 1787575366.0,
+   "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+   "t": "24 Aug \u00b7 05:42 PM"
+  },
+  {
+   "ts": 1787575125.0,
+   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
+   "t": "24 Aug \u00b7 05:38 PM"
+  },
+  {
+   "ts": 1787574836.0,
+   "title": "US Dollar: Policy risks keep downside bias \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-policy-risks-keep-downside-bias-ing-202608241233",
+   "t": "24 Aug \u00b7 05:33 PM"
+  },
+  {
+   "ts": 1787574236.0,
+   "title": "Australian Dollar: Cooling inflation but carry remains supportive \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-cooling-inflation-but-carry-remains-supportive-bbh-202608241223",
+   "t": "24 Aug \u00b7 05:23 PM"
+  },
+  {
+   "ts": 1787573373.0,
+   "title": "Silver Price Forecast: Buyers stall near $70 after strong rally",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-buyers-stall-near-70-after-strong-rally-202608241209",
+   "t": "24 Aug \u00b7 05:09 PM"
   },
   {
    "ts": 1787572274.0,
@@ -472,25 +507,11 @@
    "t": "24 Aug \u00b7 04:51 PM"
   },
   {
-   "ts": 1787571754.0,
-   "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-   "t": "24 Aug \u00b7 04:42 PM"
-  },
-  {
    "ts": 1787571599.0,
    "title": "US Dollar: Debasement narrative caps upside \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-debasement-narrative-caps-upside-ocbc-202608241139",
    "t": "24 Aug \u00b7 04:39 PM"
-  },
-  {
-   "ts": 1787571265.0,
-   "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-   "t": "24 Aug \u00b7 04:34 PM"
   },
   {
    "ts": 1787570766.0,
@@ -505,27 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-positioning-supports-gradual-gains-against-us-dollar-ing-202608241117",
    "t": "24 Aug \u00b7 04:17 PM"
-  },
-  {
-   "ts": 1787569630.0,
-   "title": "Gold extends rally as markets await US PCE and Warsh\u2019s Jackson Hole speech",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-extends-rally-as-markets-await-us-pce-and-warshs-jackson-hole-speech-202608241107",
-   "t": "24 Aug \u00b7 04:07 PM"
-  },
-  {
-   "ts": 1787569604.0,
-   "title": "New Zealand Dollar: Retail slump yet hikes priced \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-retail-slump-yet-hikes-priced-bbh-202608241106",
-   "t": "24 Aug \u00b7 04:06 PM"
-  },
-  {
-   "ts": 1787567184.0,
-   "title": "Gold Price Forecast: XAU/USD pushes higher, but overbought RSI warns bulls",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-pushes-higher-but-overbought-rsi-warns-bulls-202608241026",
-   "t": "24 Aug \u00b7 03:26 PM"
   }
  ],
  "sentiment": {
