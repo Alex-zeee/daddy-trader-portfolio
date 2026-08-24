@@ -1,20 +1,13 @@
 {
- "updated": "24-08-2026 17:43 PKT",
+ "updated": "24-08-2026 19:23 PKT",
  "gold": {
-  "price": 4662.99,
+  "price": 4667.44,
   "open": 4608.18,
-  "high": 4670.28,
+  "high": 4683.31,
   "low": 4596.86,
-  "chg": 1.19,
+  "chg": 1.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4616.55,
-   4627.61,
-   4616.82,
-   4616.49,
-   4636.32,
-   4649.22,
-   4649.55,
    4641.23,
    4640.37,
    4637.54,
@@ -55,14 +48,21 @@
    4656.65,
    4658.22,
    4661.75,
-   4662.99
+   4655.99,
+   4662.92,
+   4673.25,
+   4673.72,
+   4665.09,
+   4660.61,
+   4664.89,
+   4667.44
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.125,
-   "chg": -0.49,
+   "price": 68.975,
+   "chg": -0.71,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    69.125
+    68.975
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.945,
-   "chg": 0.15,
+   "price": 98.982,
+   "chg": 0.18,
    "spark": [
     101.47,
     101.51,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.945
+    98.982
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.62,
-   "chg": -1.65,
+   "price": 85.35,
+   "chg": -1.96,
    "spark": [
     89.31,
     82.61,
@@ -143,13 +143,13 @@
     85.83,
     87.83,
     87.06,
-    85.62
+    85.35
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.706,
-   "chg": -0.68,
+   "price": 4.696,
+   "chg": -0.89,
    "spark": [
     4.679,
     4.641,
@@ -172,13 +172,13 @@
     4.653,
     4.696,
     4.738,
-    4.706
+    4.696
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1673,
-   "chg": -0.13,
+   "price": 1.167,
+   "chg": -0.15,
    "spark": [
     1.1377,
     1.1395,
@@ -201,13 +201,13 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1673
+    1.167
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3642,
-   "chg": -0.01,
+   "price": 1.3639,
+   "chg": -0.03,
    "spark": [
     1.3313,
     1.3351,
@@ -230,13 +230,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3642
+    1.3639
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.984,
-   "chg": 0.06,
+   "price": 159.154,
+   "chg": 0.17,
    "spark": [
     163.832,
     163.611,
@@ -259,16 +259,14 @@
     159.55,
     158.276,
     158.883,
-    158.984
+    159.154
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2499.71,
-   "chg": 1.5,
+   "price": 2515.53,
+   "chg": 2.14,
    "spark": [
-    2429.76,
-    2413.34,
     2410.94,
     2422.05,
     2426.2,
@@ -314,16 +312,16 @@
     2462.24,
     2464.1,
     2493.77,
-    2499.71
+    2511.25,
+    2493.31,
+    2515.53
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78734.9,
-   "chg": 1.28,
+   "price": 79326.7,
+   "chg": 2.04,
    "spark": [
-    77286.3,
-    76980.3,
     76966.8,
     77283.7,
     77266.9,
@@ -369,7 +367,9 @@
     77534.9,
     77610.9,
     78424.2,
-    78734.9
+    79130.8,
+    78577.6,
+    79326.7
    ]
   }
  ],
@@ -458,74 +458,74 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787575434.345382,
+   "ts": 1787581382.525536,
+   "title": "U.S. Treasury to broaden scope of secondary sanctions on Iran, source says",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-treasury-to-broaden-scope-of-secondary-sanctions-on-iran-source-says-4873545",
+   "t": "24 Aug \u00b7 07:23 PM"
+  },
+  {
+   "ts": 1787581382.525536,
    "title": "Gold climbs to $4,650 as U.S. fiscal concerns keep bullion near 3-month high",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "24 Aug \u00b7 05:43 PM"
+   "t": "24 Aug \u00b7 07:23 PM"
   },
   {
-   "ts": 1787575366.0,
-   "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-   "t": "24 Aug \u00b7 05:42 PM"
+   "ts": 1787580709.0,
+   "title": "US Dollar: Weakness may stabilize as US growth advantage persists - BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-weakness-may-stabilize-as-us-growth-advantage-persists-bbh-202608241411",
+   "t": "24 Aug \u00b7 07:11 PM"
   },
   {
-   "ts": 1787575125.0,
+   "ts": 1787580216.0,
+   "title": "Canadian Dollar slides as Trump escalates trade war with Canada",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-slides-as-trump-escalates-trade-war-with-canada-202608241403",
+   "t": "24 Aug \u00b7 07:03 PM"
+  },
+  {
+   "ts": 1787579757.0,
+   "title": "Euro: Rally vulnerable to reversal against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-rally-vulnerable-to-reversal-against-us-dollar-scotiabank-202608241355",
+   "t": "24 Aug \u00b7 06:55 PM"
+  },
+  {
+   "ts": 1787578508.0,
    "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-   "t": "24 Aug \u00b7 05:38 PM"
+   "t": "24 Aug \u00b7 06:35 PM"
   },
   {
-   "ts": 1787574836.0,
-   "title": "US Dollar: Policy risks keep downside bias \u2013 ING",
+   "ts": 1787578214.0,
+   "title": "Euro holds ground as US Dollar steadies, markets brace for Iran sanctions",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-policy-risks-keep-downside-bias-ing-202608241233",
-   "t": "24 Aug \u00b7 05:33 PM"
+   "link": "https://www.fxstreet.com/news/euro-holds-ground-as-us-dollar-steadies-and-markets-brace-for-iran-sanctions-202608241330",
+   "t": "24 Aug \u00b7 06:30 PM"
   },
   {
-   "ts": 1787574236.0,
-   "title": "Australian Dollar: Cooling inflation but carry remains supportive \u2013 BBH",
+   "ts": 1787577576.0,
+   "title": "Federal Reserve: Warsh faces a communication test \u2013 DBS",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-cooling-inflation-but-carry-remains-supportive-bbh-202608241223",
-   "t": "24 Aug \u00b7 05:23 PM"
+   "link": "https://www.fxstreet.com/news/federal-reserve-warsh-faces-a-communication-test-dbs-202608241319",
+   "t": "24 Aug \u00b7 06:19 PM"
   },
   {
-   "ts": 1787573373.0,
-   "title": "Silver Price Forecast: Buyers stall near $70 after strong rally",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-buyers-stall-near-70-after-strong-rally-202608241209",
-   "t": "24 Aug \u00b7 05:09 PM"
+   "ts": 1787577455.0,
+   "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+   "t": "24 Aug \u00b7 06:17 PM"
   },
   {
-   "ts": 1787572274.0,
-   "title": "Canadian Dollar: GDP rebound supports Loonie \u2013 TD Securities",
+   "ts": 1787577298.0,
+   "title": "Reuters: US Treasury's Scott Bessent to announce more sanctions on Iran",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gdp-rebound-supports-loonie-td-securities-202608241151",
-   "t": "24 Aug \u00b7 04:51 PM"
-  },
-  {
-   "ts": 1787571599.0,
-   "title": "US Dollar: Debasement narrative caps upside \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-debasement-narrative-caps-upside-ocbc-202608241139",
-   "t": "24 Aug \u00b7 04:39 PM"
-  },
-  {
-   "ts": 1787570766.0,
-   "title": "Gold: Breakout sustains upward momentum \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-breakout-sustains-upward-momentum-societe-generale-202608241126",
-   "t": "24 Aug \u00b7 04:26 PM"
-  },
-  {
-   "ts": 1787570234.0,
-   "title": "Euro: Positioning supports gradual gains against US Dollar \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-positioning-supports-gradual-gains-against-us-dollar-ing-202608241117",
-   "t": "24 Aug \u00b7 04:17 PM"
+   "link": "https://www.fxstreet.com/news/reuters-us-treasurys-scott-bessent-to-announce-more-sanctions-on-iran-202608241314",
+   "t": "24 Aug \u00b7 06:14 PM"
   }
  ],
  "sentiment": {
