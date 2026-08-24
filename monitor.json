@@ -1,15 +1,13 @@
 {
- "updated": "25-08-2026 03:12 PKT",
+ "updated": "25-08-2026 03:42 PKT",
  "gold": {
-  "price": 4660.42,
-  "open": 4616.86,
+  "price": 4660.91,
+  "open": 4610.58,
   "high": 4683.31,
   "low": 4596.86,
-  "chg": 0.94,
+  "chg": 1.09,
   "src": "XAUUSD Spot",
   "spark": [
-   4643.14,
-   4644.79,
    4644.57,
    4645.9,
    4644.95,
@@ -55,14 +53,16 @@
    4651.99,
    4651.92,
    4652.05,
-   4660.42
+   4658.79,
+   4657.32,
+   4660.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.0,
-   "chg": -0.67,
+   "price": 69.005,
+   "chg": -0.66,
    "spark": [
     58.656,
     58.472,
@@ -85,12 +85,12 @@
     65.734,
     68.026,
     69.466,
-    69.0
+    69.005
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.986,
+   "price": 98.984,
    "chg": 0.19,
    "spark": [
     101.47,
@@ -114,13 +114,13 @@
     98.83,
     98.9,
     98.8,
-    98.986
+    98.984
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.06,
-   "chg": -2.3,
+   "price": 85.1,
+   "chg": -2.25,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,36 @@
     85.83,
     87.83,
     87.06,
-    85.06
+    85.1
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.704,
+   "chg": -0.72,
+   "spark": [
+    4.679,
+    4.641,
+    4.604,
+    4.622,
+    4.663,
+    4.745,
+    4.686,
+    4.627,
+    4.617,
+    4.67,
+    4.66,
+    4.699,
+    4.684,
+    4.682,
+    4.641,
+    4.696,
+    4.724,
+    4.706,
+    4.653,
+    4.696,
+    4.738,
+    4.704
    ]
   },
   {
@@ -206,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.094,
-   "chg": 0.13,
+   "price": 159.102,
+   "chg": 0.14,
    "spark": [
     163.832,
     163.611,
@@ -230,13 +259,13 @@
     159.55,
     158.276,
     158.883,
-    159.094
+    159.102
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2480.34,
-   "chg": 0.71,
+   "price": 2479.69,
+   "chg": 0.68,
    "spark": [
     2422.94,
     2430.74,
@@ -285,13 +314,13 @@
     2469.67,
     2474.19,
     2483.54,
-    2480.34
+    2479.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78858.4,
-   "chg": 1.44,
+   "price": 78783.9,
+   "chg": 1.35,
    "spark": [
     77082.6,
     77303.5,
@@ -340,7 +369,7 @@
     78742.8,
     78925.2,
     78960.0,
-    78858.4
+    78783.9
    ]
   }
  ],
@@ -421,89 +450,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787609554.138421,
+   "ts": 1787611345.799225,
    "title": "Oil slips as improved Hormuz shipping traffic offsets U.S. economic escalation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-nearly-1-as-us-prepares-more-iran-sanctions-4872509",
-   "t": "25 Aug \u00b7 03:12 AM",
-   "ur": "Til phisal gaya cunkah harmaz shping trific mein behtari ne US aqtasadi tarqi ko pora kiya"
+   "t": "25 Aug \u00b7 03:42 AM"
   },
   {
-   "ts": 1787609554.138421,
+   "ts": 1787611345.799225,
    "title": "Gold adds to weekly surge, spot prices briefly come within sight of $4,700",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "25 Aug \u00b7 03:12 AM",
-   "ur": "Gold (sona) haftah war azafe mein azafah karta hai, jagah ki qeemtin mukhtasr tur par $4,700 ki nazar mein aati hen."
+   "t": "25 Aug \u00b7 03:42 AM"
   },
   {
-   "ts": 1787609554.138421,
+   "ts": 1787611345.799225,
    "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasury-to-stick-to-debt-auction-schedule-despite-bigger-buybacks-bessent-says-4874098",
-   "t": "25 Aug \u00b7 03:12 AM",
-   "ur": "Bessent ka kahana hai kah US khazana badi bai bex ke bawajud qarz ki nilami ke shedol par qaaim rahe ga."
+   "t": "25 Aug \u00b7 03:42 AM"
+  },
+  {
+   "ts": 1787610780.0,
+   "title": "Chinese Yuan: Targeting 6.7200 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-targeting-67200-against-us-dollar-uob-202608242233",
+   "t": "25 Aug \u00b7 03:33 AM"
   },
   {
    "ts": 1787607664.0,
    "title": "New Zealand Dollar muted near multi-month highs as it outweighs soft retail sales",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-muted-near-multi-month-highs-as-it-outweighs-soft-retail-sales-202608242141",
-   "t": "25 Aug \u00b7 02:41 AM",
-   "ur": "Niyozi lind Dollar kai mahinon ki unchai ke qarib khamosh hogia cunkah ya narm khurdah farokht se ziyadah hai."
+   "t": "25 Aug \u00b7 02:41 AM"
   },
   {
    "ts": 1787606133.0,
    "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-lower-as-us-dollar-firms-on-heavier-iran-sanctions-202608242115",
-   "t": "25 Aug \u00b7 02:15 AM",
-   "ur": "US Dollar ki farmon ki eran par saqt pabandiyon ke baas japani yan ki qeemat mein kami"
+   "t": "25 Aug \u00b7 02:15 AM"
   },
   {
    "ts": 1787602427.0,
    "title": "Mexican Peso weakens as Iran sanctions offset Mexico\u2019s inflation data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/mexican-peso-weakens-as-iran-sanctions-offset-mexicos-inflation-data-202608242013",
-   "t": "25 Aug \u00b7 01:13 AM",
-   "ur": "Mexiko peso kamazor hawa cunkah eran ki pabandiyon ne mexiko ke inflation (mehngai) ke aed w shmar ko pora kiya."
+   "t": "25 Aug \u00b7 01:13 AM"
   },
   {
    "ts": 1787602422.0,
    "title": "Forex Today: US Dollar firms on safe-haven demand ahead of data-heavy Tuesday",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-on-safe-haven-demand-ahead-of-data-heavy-tuesday-202608242013",
-   "t": "25 Aug \u00b7 01:13 AM",
-   "ur": "Farex today: US Dollar ki farmin mahfooz panah gahon ki mang par deta hevi mangl se pehle"
+   "t": "25 Aug \u00b7 01:13 AM"
   },
   {
    "ts": 1787601060.0,
    "title": "South Korean Won: Consolidation zone eyed against US Dollar \u2013 Commerzbank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-consolidation-zone-eyed-against-us-dollar-commerzbank-202608241951",
-   "t": "25 Aug \u00b7 12:51 AM",
-   "ur": "South Korea ki Won: US Dollar ke khalaf kansolidation zon ki nazarin - kamers Bank"
+   "t": "25 Aug \u00b7 12:51 AM"
   },
   {
    "ts": 1787600162.0,
    "title": "US Dollar Index: Cautious rebound capped near 100 \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-index-cautious-rebound-capped-near-100-scotiabank-202608241936",
-   "t": "25 Aug \u00b7 12:36 AM",
-   "ur": "US Dollar andex: muhatat ribound 100 ke qarib - Scotiabank"
-  },
-  {
-   "ts": 1787599020.0,
-   "title": "Chinese Yuan: Gradual appreciation bias with key levels against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-gradual-appreciation-bias-with-key-levels-against-us-dollar-ocbc-202608241917",
-   "t": "25 Aug \u00b7 12:17 AM",
-   "ur": "Chini uan: US Dollar ke khalaf kalidi sathon ke sath btadarage taarifi taasab - OCBC"
+   "t": "25 Aug \u00b7 12:36 AM"
   }
  ],
  "sentiment": {
   "value": 73,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
