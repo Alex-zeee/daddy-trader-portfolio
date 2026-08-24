@@ -1,17 +1,13 @@
 {
- "updated": "24-08-2026 07:07 PKT",
+ "updated": "24-08-2026 08:13 PKT",
  "gold": {
-  "price": 4635.59,
+  "price": 4634.01,
   "open": 4608.18,
-  "high": 4642.85,
+  "high": 4656.14,
   "low": 4596.86,
-  "chg": 0.59,
+  "chg": 0.56,
   "src": "XAUUSD Spot",
   "spark": [
-   4608.24,
-   4608.15,
-   4608.24,
-   4608.28,
    4608.22,
    4608.15,
    4608.26,
@@ -55,14 +51,18 @@
    4616.82,
    4616.49,
    4636.32,
-   4635.59
+   4649.22,
+   4649.55,
+   4641.23,
+   4640.37,
+   4634.01
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.895,
-   "chg": -0.82,
+   "price": 68.93,
+   "chg": -0.77,
    "spark": [
     58.656,
     58.472,
@@ -85,12 +85,12 @@
     65.734,
     68.026,
     69.466,
-    68.895
+    68.93
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.816,
+   "price": 98.821,
    "chg": 0.02,
    "spark": [
     101.47,
@@ -114,36 +114,7 @@
     98.83,
     98.9,
     98.8,
-    98.816
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 85.4,
-   "chg": -1.91,
-   "spark": [
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4,
-    84.5,
-    84.94,
-    85.83,
-    87.83,
-    87.06,
-    85.4
+    98.821
    ]
   },
   {
@@ -177,8 +148,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1685,
-   "chg": -0.02,
+   "price": 1.1684,
+   "chg": -0.04,
    "spark": [
     1.1377,
     1.1395,
@@ -201,12 +172,12 @@
     1.1579,
     1.1674,
     1.1688,
-    1.1685
+    1.1684
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3647,
+   "price": 1.3648,
    "chg": 0.03,
    "spark": [
     1.3313,
@@ -230,13 +201,13 @@
     1.3537,
     1.36,
     1.3643,
-    1.3647
+    1.3648
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.839,
-   "chg": -0.03,
+   "price": 158.91,
+   "chg": 0.02,
    "spark": [
     163.832,
     163.611,
@@ -259,15 +230,14 @@
     159.55,
     158.276,
     158.883,
-    158.839
+    158.91
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2433.4,
-   "chg": -1.2,
+   "price": 2435.95,
+   "chg": -1.09,
    "spark": [
-    2514.31,
     2514.5,
     2439.54,
     2438.04,
@@ -314,15 +284,15 @@
     2462.4,
     2464.65,
     2429.93,
-    2433.4
+    2443.65,
+    2435.95
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77075.1,
-   "chg": -0.85,
+   "price": 77242.4,
+   "chg": -0.64,
    "spark": [
-    78409.5,
     78463.9,
     77373.9,
     77484.4,
@@ -369,7 +339,8 @@
     77737.5,
     77642.9,
     76924.2,
-    77075.1
+    77468.1,
+    77242.4
    ]
   }
  ],
@@ -458,6 +429,34 @@
  "cal_mode": "upcoming",
  "news": [
   {
+   "ts": 1787541239.592689,
+   "title": "Gold holds near 3-month high as Treasury moves fuel demand for bullion",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
+   "t": "24 Aug \u00b7 08:13 AM"
+  },
+  {
+   "ts": 1787540043.0,
+   "title": "Silver Price Forecast: XAG/USD holds bullish below $70.00/two-month high set on Friday",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-bullish-below-7000-two-month-high-set-on-friday-202608240254",
+   "t": "24 Aug \u00b7 07:54 AM"
+  },
+  {
+   "ts": 1787539718.0,
+   "title": "United States Dollar Index\u00a0softens below 99.00 on US fiscal concerns",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-softens-below-9900-on-us-fiscal-concerns-202608240248",
+   "t": "24 Aug \u00b7 07:48 AM"
+  },
+  {
+   "ts": 1787538494.0,
+   "title": "Japanese Yen advances on BoJ rate hike bets, subdued US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-advances-on-boj-rate-hike-bets-subdued-us-dollar-202608240228",
+   "t": "24 Aug \u00b7 07:28 AM"
+  },
+  {
    "ts": 1787537035.0,
    "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
    "src": "FXStreet",
@@ -498,34 +497,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-treasury-yields-extend-rebound-as-services-pmi-beats-estimates-202608212238",
    "t": "22 Aug \u00b7 03:38 AM"
-  },
-  {
-   "ts": 1787343766.0,
-   "title": "Forecasting the upcoming week: Warsh's Jackson Hole debut and US inflation test a soft US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-warshs-jackson-hole-debut-and-us-inflation-test-a-soft-us-dollar-202608212022",
-   "t": "22 Aug \u00b7 01:22 AM"
-  },
-  {
-   "ts": 1787338380.0,
-   "title": "Malaysian Ringgit: Supported by strong fundamentals against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/malaysian-ringgit-supported-by-strong-fundamentals-against-us-dollar-ocbc-202608211853",
-   "t": "21 Aug \u00b7 11:53 PM"
-  },
-  {
-   "ts": 1787336640.0,
-   "title": "Singapore: inflation and production outlook \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-inflation-and-production-outlook-dbs-202608211824",
-   "t": "21 Aug \u00b7 11:24 PM"
-  },
-  {
-   "ts": 1787335545.0,
-   "title": "Silver Price Forecast: XAG bulls test $70 as rally extends",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-bulls-test-70-as-rally-extends-202608211805",
-   "t": "21 Aug \u00b7 11:05 PM"
   }
  ],
  "sentiment": {
