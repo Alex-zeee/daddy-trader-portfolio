@@ -1,15 +1,13 @@
 {
- "updated": "24-08-2026 10:32 PKT",
+ "updated": "24-08-2026 11:07 PKT",
  "gold": {
-  "price": 4636.15,
+  "price": 4644.82,
   "open": 4608.18,
   "high": 4656.14,
   "low": 4596.86,
-  "chg": 0.61,
+  "chg": 0.8,
   "src": "XAUUSD Spot",
   "spark": [
-   4608.29,
-   4608.29,
    4608.28,
    4608.18,
    4603.76,
@@ -55,14 +53,16 @@
    4638.16,
    4640.87,
    4640.9,
-   4636.15
+   4632.38,
+   4641.12,
+   4644.82
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.88,
-   "chg": -0.84,
+   "price": 68.825,
+   "chg": -0.92,
    "spark": [
     58.656,
     58.472,
@@ -85,7 +85,7 @@
     65.734,
     68.026,
     69.466,
-    68.88
+    68.825
    ]
   },
   {
@@ -115,6 +115,35 @@
     98.9,
     98.8,
     98.842
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 85.72,
+   "chg": -1.54,
+   "spark": [
+    89.31,
+    82.61,
+    79.26,
+    84.46,
+    83.59,
+    84.67,
+    80.34,
+    75.77,
+    75.22,
+    77.29,
+    78.18,
+    82.13,
+    83.2,
+    83.27,
+    81.25,
+    82.4,
+    84.5,
+    84.94,
+    85.83,
+    87.83,
+    87.06,
+    85.72
    ]
   },
   {
@@ -178,7 +207,7 @@
   {
    "name": "GBP/USD",
    "price": 1.3643,
-   "chg": -0.01,
+   "chg": -0.0,
    "spark": [
     1.3313,
     1.3351,
@@ -206,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.925,
-   "chg": 0.03,
+   "price": 158.88,
+   "chg": -0.0,
    "spark": [
     163.832,
     163.611,
@@ -230,15 +259,14 @@
     159.55,
     158.276,
     158.883,
-    158.925
+    158.88
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2444.03,
-   "chg": -0.76,
+   "price": 2445.01,
+   "chg": -0.72,
    "spark": [
-    2438.04,
     2432.22,
     2425.32,
     2421.64,
@@ -285,15 +313,15 @@
     2443.65,
     2429.96,
     2437.68,
-    2444.03
+    2449.18,
+    2445.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76957.6,
-   "chg": -1.0,
+   "price": 77088.0,
+   "chg": -0.84,
    "spark": [
-    77484.4,
     77266.2,
     77189.9,
     77041.3,
@@ -340,7 +368,8 @@
     77468.1,
     76935.9,
     76895.2,
-    76957.6
+    77178.0,
+    77088.0
    ]
   }
  ],
@@ -429,10 +458,24 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787549579.388428,
+   "ts": 1787551640.27024,
    "title": "Gold holds near 3-month high as Treasury moves fuel demand for bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
+   "t": "24 Aug \u00b7 11:07 AM"
+  },
+  {
+   "ts": 1787551542.0,
+   "title": "Euro: Upside room toward 1.1800 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-upside-room-toward-11800-against-us-dollar-uob-202608240605",
+   "t": "24 Aug \u00b7 11:05 AM"
+  },
+  {
+   "ts": 1787549550.0,
+   "title": "Indonesian Rupiah declines despite prevailing high interest rates, weaker US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-declines-despite-prevailing-high-interest-rates-weaker-us-dollar-202608240532",
    "t": "24 Aug \u00b7 10:32 AM"
   },
   {
@@ -483,20 +526,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-advances-on-boj-rate-hike-bets-subdued-us-dollar-202608240228",
    "t": "24 Aug \u00b7 07:28 AM"
-  },
-  {
-   "ts": 1787537035.0,
-   "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-bears-seem-hesitant-as-weak-usd-counters-us-canada-trade-war-202608240203",
-   "t": "24 Aug \u00b7 07:03 AM"
-  },
-  {
-   "ts": 1787535630.0,
-   "title": "Gold gains momentum above $4,600 on US Treasury buyback plans",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-gains-momentum-above-4-600-on-us-treasury-buyback-plans-202608240140",
-   "t": "24 Aug \u00b7 06:40 AM"
   }
  ],
  "sentiment": {
