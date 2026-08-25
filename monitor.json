@@ -1,15 +1,13 @@
 {
- "updated": "25-08-2026 12:55 PKT",
+ "updated": "25-08-2026 13:26 PKT",
  "gold": {
-  "price": 4632.84,
-  "open": 4642.68,
+  "price": 4641.45,
+  "open": 4632.61,
   "high": 4695.94,
   "low": 4619.8,
-  "chg": -0.21,
+  "chg": 0.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4651.0,
-   4649.41,
    4647.44,
    4652.17,
    4651.97,
@@ -55,14 +53,16 @@
    4640.95,
    4637.1,
    4636.15,
-   4632.84
+   4630.87,
+   4625.71,
+   4641.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.27,
-   "chg": -0.4,
+   "price": 67.79,
+   "chg": -1.1,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.27
+    67.79
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.075,
-   "chg": 0.08,
+   "price": 99.068,
+   "chg": 0.07,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    99.075
+    99.068
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.42,
-   "chg": -0.69,
+   "price": 84.59,
+   "chg": -0.49,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    84.42
+    84.59
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1663,
-   "chg": -0.16,
+   "price": 1.1667,
+   "chg": -0.12,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1663
+    1.1667
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.364,
-   "chg": -0.1,
+   "price": 1.3639,
+   "chg": -0.11,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.364
+    1.3639
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.427,
-   "chg": 0.33,
+   "price": 159.374,
+   "chg": 0.3,
    "spark": [
     163.611,
     163.771,
@@ -259,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.427
+    159.374
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2480.78,
-   "chg": -0.04,
+   "price": 2493.84,
+   "chg": 0.49,
    "spark": [
-    2412.13,
     2410.98,
     2414.71,
     2433.38,
@@ -314,15 +313,15 @@
     2492.54,
     2508.38,
     2499.77,
-    2480.78
+    2479.69,
+    2493.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79744.9,
-   "chg": 0.99,
+   "price": 80177.0,
+   "chg": 1.53,
    "spark": [
-    76480.5,
     76541.6,
     76783.6,
     77308.7,
@@ -369,7 +368,8 @@
     80340.2,
     80694.7,
     80538.5,
-    79744.9
+    79714.3,
+    80177.0
    ]
   }
  ],
@@ -450,81 +450,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787644514.621045,
+   "ts": 1787646401.619305,
    "title": "Gold surges to $4,696 but momentum fades: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "25 Aug \u00b7 12:55 PM"
+   "t": "25 Aug \u00b7 01:26 PM",
+   "ur": "Gold (sona) $4,696 tak badhta hai lican raftar khtam hoti hai: fi ghanta ki sath"
   },
   {
-   "ts": 1787644514.621045,
+   "ts": 1787646401.619305,
    "title": "Silver hits $68.38 but double top near $70 looms: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "25 Aug \u00b7 12:55 PM"
+   "t": "25 Aug \u00b7 01:26 PM",
+   "ur": "Silver (chandi) $68.38 tak pohch gayi lican $70 ke qarib dogana oper hai."
+  },
+  {
+   "ts": 1787645422.0,
+   "title": "British Pound: Upside bias toward 1.3700 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-upside-bias-toward-13700-against-us-dollar-uob-202608250810",
+   "t": "25 Aug \u00b7 01:10 PM",
+   "ur": "Bartanvi pound: US Dollar ke maqable mein 1.3700 ki taraf alta taasab - UOB"
   },
   {
    "ts": 1787644129.0,
    "title": "Gold: Path depends on yield regime shift \u2013 MUFG",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-path-depends-on-yield-regime-shift-mufg-202608250748",
-   "t": "25 Aug \u00b7 12:48 PM"
+   "t": "25 Aug \u00b7 12:48 PM",
+   "ur": "Gold: raastah pedawar ke nazaam ki tabadili par manehsr hai - MUFG"
   },
   {
    "ts": 1787644090.0,
    "title": "New Zealand Dollar falls as US Dollar gains on safe-haven demand",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-falls-as-us-dollar-gains-on-safe-haven-demand-202608250748",
-   "t": "25 Aug \u00b7 12:48 PM"
+   "t": "25 Aug \u00b7 12:48 PM",
+   "ur": "Mahfooz panah gahon ki talab par US Dollar ki qeemat mein azafe ke sath hi niyozi lind Dollar ki qeemat gar rahi hai."
   },
   {
    "ts": 1787643174.0,
    "title": "Silver Price Forecast: XAG/USD slips below $68.50 despite revived debasement trading",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-below-6850-despite-revived-debasement-trading-202608250732",
-   "t": "25 Aug \u00b7 12:32 PM"
+   "t": "25 Aug \u00b7 12:32 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $68.50 se niche phisal gaya, is ke bawajud tajadid shdah tajart"
   },
   {
    "ts": 1787642609.0,
    "title": "Forex Today: US Dollar recovers modestly as markets assess developments in Mideast",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-recovers-modestly-as-markets-assess-developments-in-mideast-202608250723",
-   "t": "25 Aug \u00b7 12:23 PM"
+   "t": "25 Aug \u00b7 12:23 PM",
+   "ur": "Farex today: US Dollar mamoli tur par bahal ho raha hai cunkah marketen masharq wasti mein pesharft ka jaizah le rahi hen."
   },
   {
    "ts": 1787640276.0,
    "title": "Australian Dollar edges up as RBA keeps rate hike option quite possible",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-edges-up-as-rba-keeps-rate-hike-option-quite-possible-202608250644",
-   "t": "25 Aug \u00b7 11:44 AM"
+   "t": "25 Aug \u00b7 11:44 AM",
+   "ur": "Aasterilvi Dollar badh raha hai cunkah RBA rate mein azafe ka aaption kafi had tak mamkan rakta hai."
   },
   {
    "ts": 1787639474.0,
    "title": "USD/JPY Price Forecast: US Dollar keeps crawling towards the key 160.00 area",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/usd-jpy-price-forecast-us-dollar-keeps-crawling-towards-the-key-16000-area-202608250631",
-   "t": "25 Aug \u00b7 11:31 AM"
+   "t": "25 Aug \u00b7 11:31 AM",
+   "ur": "USD/JPY qeemat ki forecast: US Dollar kalidi 160.00 alaqe ki taraf ringta rahta hai"
   },
   {
    "ts": 1787639230.0,
    "title": "US Dollar: Data weakness keeps downside risks elevated - TD Securities",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-data-weakness-keeps-downside-risks-elevated-td-securities-202608250627",
-   "t": "25 Aug \u00b7 11:27 AM"
-  },
-  {
-   "ts": 1787638133.0,
-   "title": "Euro: Further gains eyed toward 1.1800 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-further-gains-eyed-toward-11800-against-us-dollar-uob-202608250608",
-   "t": "25 Aug \u00b7 11:08 AM"
+   "t": "25 Aug \u00b7 11:27 AM",
+   "ur": "US Dollar: deta ki kamazori manfi pehlo ke khatrat ko baland rakti hai - TD securitez"
   }
  ],
  "sentiment": {
   "value": 74,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
