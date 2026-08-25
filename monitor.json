@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 02:03 PKT",
+ "updated": "26-08-2026 02:40 PKT",
  "gold": {
-  "price": 4658.76,
-  "open": 4651.89,
+  "price": 4658.83,
+  "open": 4651.87,
   "high": 4695.94,
   "low": 4607.66,
   "chg": 0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   4627.52,
-   4637.48,
    4637.95,
    4635.48,
    4637.93,
@@ -55,14 +53,16 @@
    4662.52,
    4660.97,
    4658.64,
-   4658.76
+   4658.65,
+   4658.78,
+   4658.83
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.79,
-   "chg": 0.36,
+   "price": 68.63,
+   "chg": 0.13,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.79
+    68.63
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.896,
-   "chg": -0.11,
+   "price": 98.915,
+   "chg": -0.09,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.896
+    98.915
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.15,
-   "chg": -4.54,
+   "price": 81.11,
+   "chg": -4.59,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    81.15
+    81.11
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.169,
-   "chg": 0.08,
+   "price": 1.168,
+   "chg": -0.02,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.169
+    1.168
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3635,
-   "chg": -0.13,
+   "price": 1.3649,
+   "chg": -0.03,
    "spark": [
     1.3351,
     1.329,
@@ -230,12 +230,12 @@
     1.36,
     1.3643,
     1.3654,
-    1.3635
+    1.3649
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.197,
+   "price": 159.183,
    "chg": 0.18,
    "spark": [
     163.611,
@@ -259,13 +259,13 @@
     158.276,
     158.883,
     158.904,
-    159.197
+    159.183
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2439.51,
-   "chg": -1.7,
+   "price": 2441.99,
+   "chg": -1.6,
    "spark": [
     2454.74,
     2462.4,
@@ -314,13 +314,13 @@
     2467.58,
     2463.43,
     2436.79,
-    2439.51
+    2441.99
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78243.1,
-   "chg": -0.92,
+   "price": 78599.2,
+   "chg": -0.46,
    "spark": [
     77601.8,
     77737.5,
@@ -369,7 +369,7 @@
     79128.9,
     78936.7,
     78212.7,
-    78243.1
+    78599.2
    ]
   }
  ],
@@ -442,18 +442,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787691790.015345,
+   "ts": 1787694002.00469,
+   "title": "Gold prices tick up marginally amid weaker dollar, falling oil, and sliding yields",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
+   "t": "26 Aug \u00b7 02:40 AM"
+  },
+  {
+   "ts": 1787694002.00469,
    "title": "Silver stalls just below $70 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 02:03 AM"
+   "t": "26 Aug \u00b7 02:40 AM"
   },
   {
-   "ts": 1787691790.015345,
+   "ts": 1787694002.00469,
    "title": "Gold parabolic run stalls at $4,754: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "26 Aug \u00b7 02:03 AM"
+   "t": "26 Aug \u00b7 02:40 AM"
+  },
+  {
+   "ts": 1787692860.0,
+   "title": "Chinese Yuan: Bullish bias with focus on 6.7000 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-with-focus-on-67000-against-us-dollar-uob-202608252121",
+   "t": "26 Aug \u00b7 02:21 AM"
   },
   {
    "ts": 1787691260.0,
@@ -496,20 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-us-dollar-index-stops-paying-for-hawks-who-cannot-vote-202608251853",
    "t": "25 Aug \u00b7 11:53 PM"
-  },
-  {
-   "ts": 1787683412.0,
-   "title": "Forex Today: US Dollar stays on the back foot ahead of PCE",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-stays-on-the-back-foot-ahead-of-pce-202608251843",
-   "t": "25 Aug \u00b7 11:43 PM"
-  },
-  {
-   "ts": 1787683151.0,
-   "title": "Singapore Dollar: Upside momentum eases against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-upside-momentum-eases-against-us-dollar-uob-202608251839",
-   "t": "25 Aug \u00b7 11:39 PM"
   }
  ],
  "sentiment": {
