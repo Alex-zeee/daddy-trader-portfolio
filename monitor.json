@@ -1,16 +1,13 @@
 {
- "updated": "25-08-2026 20:41 PKT",
+ "updated": "25-08-2026 21:17 PKT",
  "gold": {
-  "price": 4656.95,
-  "open": 4662.03,
+  "price": 4643.27,
+  "open": 4658.37,
   "high": 4695.94,
   "low": 4607.66,
-  "chg": -0.11,
+  "chg": -0.32,
   "src": "XAUUSD Spot",
   "spark": [
-   4632.77,
-   4637.65,
-   4629.95,
    4626.91,
    4626.1,
    4638.7,
@@ -55,14 +52,17 @@
    4635.3,
    4634.0,
    4642.13,
-   4656.95
+   4655.99,
+   4651.93,
+   4645.44,
+   4643.27
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.405,
-   "chg": -0.2,
+   "price": 68.72,
+   "chg": 0.26,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.405
+    68.72
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.952,
-   "chg": -0.05,
+   "price": 98.94,
+   "chg": -0.06,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.952
+    98.94
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.23,
-   "chg": -3.27,
+   "price": 82.14,
+   "chg": -3.38,
    "spark": [
     82.61,
     79.26,
@@ -143,13 +143,13 @@
     87.83,
     87.06,
     85.01,
-    82.23
+    82.14
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.647,
-   "chg": -1.21,
+   "price": 4.649,
+   "chg": -1.17,
    "spark": [
     4.641,
     4.604,
@@ -172,13 +172,13 @@
     4.696,
     4.738,
     4.704,
-    4.647
+    4.649
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1675,
-   "chg": -0.05,
+   "price": 1.1673,
+   "chg": -0.08,
    "spark": [
     1.1395,
     1.1369,
@@ -201,12 +201,12 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1675
+    1.1673
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3635,
+   "price": 1.3634,
    "chg": -0.14,
    "spark": [
     1.3351,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3635
+    1.3634
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.195,
-   "chg": 0.18,
+   "price": 159.256,
+   "chg": 0.22,
    "spark": [
     163.611,
     163.771,
@@ -259,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.195
+    159.256
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2473.94,
-   "chg": -0.32,
+   "price": 2474.73,
+   "chg": -0.28,
    "spark": [
-    2450.73,
     2440.32,
     2448.21,
     2445.39,
@@ -314,15 +313,15 @@
     2473.56,
     2460.08,
     2476.69,
-    2473.94
+    2483.24,
+    2474.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79349.7,
-   "chg": 0.49,
+   "price": 79165.3,
+   "chg": 0.25,
    "spark": [
-    77424.2,
     77185.9,
     77312.0,
     77333.0,
@@ -369,7 +368,8 @@
     78977.3,
     78610.7,
     79229.9,
-    79349.7
+    79529.2,
+    79165.3
    ]
   }
  ],
@@ -450,89 +450,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787672472.048773,
+   "ts": 1787674672.076532,
    "title": "Gold wavers as investors await U.S. inflation, Warsh speech",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 08:41 PM",
-   "ur": "Gold (sona) ddagmaga raha hai cunkah sarmaya kar US inflation (mehngai) ka antezar kar rahe hen, warsh taqrir"
+   "t": "25 Aug \u00b7 09:17 PM"
   },
   {
-   "ts": 1787672472.048773,
+   "ts": 1787674672.076532,
    "title": "Citi says gold\u2019s breakout is spec-driven and hinges on Jackson Hole",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citi-says-golds-breakout-is-specdriven-and-hinges-on-jackson-hole-4874987",
-   "t": "25 Aug \u00b7 08:41 PM",
-   "ur": "Steady ka kahana hai kah Gold (sone) ka barik oat qayas par mbani hai aur jection hol par manehsr hai."
+   "t": "25 Aug \u00b7 09:17 PM"
+  },
+  {
+   "ts": 1787673640.0,
+   "title": "China needs U.S. dollars but is building a hedge against Washington\u2019s sanctions",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
+   "t": "25 Aug \u00b7 09:00 PM"
   },
   {
    "ts": 1787671236.0,
-   "title": "Australian Dollar steadies after hawkish RBA Minutes as soft US Dollar lends support",
+   "title": "Australian Dollar up modestly on RBA, weak USD",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-steadies-after-hawkish-rba-minutes-as-soft-us-dollar-lends-support-202608251520",
-   "t": "25 Aug \u00b7 08:20 PM",
-   "ur": "Aasterilvi Dollar saqt RBA mants ke bad mastahkam hai cunkah narm US Dollar ki support"
+   "t": "25 Aug \u00b7 08:20 PM"
   },
   {
    "ts": 1787670499.0,
    "title": "British Pound: Range-bound against US Dollar ahead of Budget \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-range-bound-against-us-dollar-ahead-of-budget-scotiabank-202608251508",
-   "t": "25 Aug \u00b7 08:08 PM",
-   "ur": "Bartanvi pound: budget se pehle US Dollar ke maqable rinj-bound - Scotiabank"
+   "t": "25 Aug \u00b7 08:08 PM"
   },
   {
    "ts": 1787668102.0,
    "title": "Japanese Yen: BoJ September risk looms in flat range against US Dollar \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-boj-september-risk-looms-in-flat-range-against-us-dollar-scotiabank-202608251428",
-   "t": "25 Aug \u00b7 07:28 PM",
-   "ur": "Japani yan: BoJ stambr ka khatrah US Dollar ke maqable mein filet rinj mein hai - Scotiabank"
+   "t": "25 Aug \u00b7 07:28 PM"
   },
   {
    "ts": 1787667493.0,
    "title": "US Dollar: Credibility risks for USD \u2013 TD Securities",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-credibility-risks-for-usd-td-securities-202608251418",
-   "t": "25 Aug \u00b7 07:18 PM",
-   "ur": "US Dollar: USD \u2013 TD securitez ke liye sakh ke khatrat"
+   "t": "25 Aug \u00b7 07:18 PM"
   },
   {
    "ts": 1787667481.0,
    "title": "Silver retreats ahead of US PCE data, but underlying support persists",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-retreats-ahead-of-us-pce-data-but-underlying-support-persists-202608251418",
-   "t": "25 Aug \u00b7 07:18 PM",
-   "ur": "Silver (chandi) US PCE deta se aage patchhe hat rahi hai, lican baniyadi support barqarar hai."
+   "t": "25 Aug \u00b7 07:18 PM"
   },
   {
    "ts": 1787666910.0,
    "title": "Euro: Upside limited above fair value against US Dollar \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-upside-limited-above-fair-value-against-us-dollar-scotiabank-202608251408",
-   "t": "25 Aug \u00b7 07:08 PM",
-   "ur": "Uro: US Dollar - Scotiabank ke maqable mein mansafana qadar se oper muhadud azafah"
+   "t": "25 Aug \u00b7 07:08 PM"
   },
   {
    "ts": 1787666377.0,
    "title": "Gold: Overbought rally eyes key resistance \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-overbought-rally-eyes-key-resistance-uob-202608251359",
-   "t": "25 Aug \u00b7 06:59 PM",
-   "ur": "Gold: over bot rili ies kalidi mazahmat - UOB"
-  },
-  {
-   "ts": 1787664923.0,
-   "title": "Euro stays near three-month high as US Dollar remains subdued",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-stays-near-three-month-high-as-us-dollar-remains-subdued-202608251335",
-   "t": "25 Aug \u00b7 06:35 PM",
-   "ur": "Uro tin mah ki baland tarin sath ke qarib rahta hai cunkah US Dollar ki qadar garti rahti hai."
+   "t": "25 Aug \u00b7 06:59 PM"
   }
  ],
  "sentiment": {
   "value": 74,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
