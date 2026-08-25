@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 01:45 PKT",
+ "updated": "26-08-2026 02:03 PKT",
  "gold": {
-  "price": 4661.25,
-  "open": 4647.69,
+  "price": 4658.76,
+  "open": 4651.89,
   "high": 4695.94,
   "low": 4607.66,
-  "chg": 0.29,
+  "chg": 0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   4629.69,
-   4630.92,
    4627.52,
    4637.48,
    4637.95,
@@ -55,14 +53,16 @@
    4666.55,
    4666.91,
    4662.52,
-   4661.25
+   4660.97,
+   4658.64,
+   4658.76
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.845,
-   "chg": 0.44,
+   "price": 68.79,
+   "chg": 0.36,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.845
+    68.79
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.9,
-   "chg": -0.1,
+   "price": 98.896,
+   "chg": -0.11,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.9
+    98.896
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.78,
-   "chg": -4.98,
+   "price": 81.15,
+   "chg": -4.54,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    80.78
+    81.15
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1678,
-   "chg": -0.03,
+   "price": 1.169,
+   "chg": 0.08,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1678
+    1.169
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.365,
-   "chg": -0.03,
+   "price": 1.3635,
+   "chg": -0.13,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.365
+    1.3635
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.218,
-   "chg": 0.2,
+   "price": 159.197,
+   "chg": 0.18,
    "spark": [
     163.611,
     163.771,
@@ -259,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.218
+    159.197
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2446.38,
-   "chg": -1.43,
+   "price": 2439.51,
+   "chg": -1.7,
    "spark": [
-    2470.09,
     2454.74,
     2462.4,
     2464.65,
@@ -314,15 +313,15 @@
     2470.9,
     2467.58,
     2463.43,
-    2446.38
+    2436.79,
+    2439.51
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78474.9,
-   "chg": -0.62,
+   "price": 78243.1,
+   "chg": -0.92,
    "spark": [
-    77834.0,
     77601.8,
     77737.5,
     77642.9,
@@ -369,7 +368,8 @@
     79233.4,
     79128.9,
     78936.7,
-    78474.9
+    78212.7,
+    78243.1
    ]
   }
  ],
@@ -442,18 +442,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787690702.161965,
+   "ts": 1787691790.015345,
    "title": "Silver stalls just below $70 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 01:45 AM"
+   "t": "26 Aug \u00b7 02:03 AM"
   },
   {
-   "ts": 1787690702.161965,
+   "ts": 1787691790.015345,
    "title": "Gold parabolic run stalls at $4,754: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "26 Aug \u00b7 01:45 AM"
+   "t": "26 Aug \u00b7 02:03 AM"
+  },
+  {
+   "ts": 1787691260.0,
+   "title": "New Zealand Dollar climbs to fresh highs amid timid US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-climbs-to-fresh-highs-amid-timid-us-dollar-202608252054",
+   "t": "26 Aug \u00b7 01:54 AM"
   },
   {
    "ts": 1787690400.0,
@@ -503,13 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-upside-momentum-eases-against-us-dollar-uob-202608251839",
    "t": "25 Aug \u00b7 11:39 PM"
-  },
-  {
-   "ts": 1787682717.0,
-   "title": "Silver Price Forecast: XAG/USD reclaims 100-day SMA, eyes $70",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-reclaims-100-day-sma-eyes-70-202608251831",
-   "t": "25 Aug \u00b7 11:31 PM"
   }
  ],
  "sentiment": {
