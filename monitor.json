@@ -1,16 +1,13 @@
 {
- "updated": "25-08-2026 08:09 PKT",
+ "updated": "25-08-2026 08:56 PKT",
  "gold": {
-  "price": 4635.29,
-  "open": 4636.92,
+  "price": 4633.49,
+  "open": 4641.31,
   "high": 4695.94,
   "low": 4619.8,
-  "chg": -0.03,
+  "chg": -0.17,
   "src": "XAUUSD Spot",
   "spark": [
-   4673.17,
-   4661.45,
-   4642.56,
    4657.5,
    4658.32,
    4660.68,
@@ -55,14 +52,17 @@
    4656.55,
    4641.32,
    4622.62,
-   4635.29
+   4636.97,
+   4637.03,
+   4636.89,
+   4633.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.7,
-   "chg": -2.54,
+   "price": 67.945,
+   "chg": -2.19,
    "spark": [
     58.656,
     58.472,
@@ -85,7 +85,7 @@
     65.734,
     68.026,
     69.466,
-    67.7
+    67.945
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 85.56,
-   "chg": -1.72,
+   "price": 85.4,
+   "chg": -1.91,
    "spark": [
     89.31,
     82.61,
@@ -143,7 +143,7 @@
     85.83,
     87.83,
     87.06,
-    85.56
+    85.4
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1666,
-   "chg": -0.13,
+   "price": 1.1663,
+   "chg": -0.16,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1666
+    1.1663
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3633,
-   "chg": -0.15,
+   "price": 1.3629,
+   "chg": -0.18,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3633
+    1.3629
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.35,
-   "chg": 0.28,
+   "price": 159.334,
+   "chg": 0.27,
    "spark": [
     163.611,
     163.771,
@@ -259,13 +259,13 @@
     158.276,
     158.883,
     158.904,
-    159.35
+    159.334
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2511.34,
-   "chg": 1.19,
+   "price": 2496.63,
+   "chg": 0.6,
    "spark": [
     2379.41,
     2374.5,
@@ -314,13 +314,13 @@
     2493.22,
     2495.21,
     2507.2,
-    2511.34
+    2496.63
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80864.6,
-   "chg": 2.4,
+   "price": 80458.3,
+   "chg": 1.89,
    "spark": [
     76581.8,
     76092.1,
@@ -369,7 +369,7 @@
     79724.9,
     79803.0,
     80638.7,
-    80864.6
+    80458.3
    ]
   }
  ],
@@ -450,25 +450,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787627391.303635,
+   "ts": 1787630179.468302,
    "title": "Gold rises to 3-month high as Treasury moves, trade tensions lift bullion demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 08:09 AM"
+   "t": "25 Aug \u00b7 08:56 AM"
   },
   {
-   "ts": 1787627391.303635,
+   "ts": 1787630179.468302,
    "title": "Oil slips as improved Hormuz shipping traffic offsets U.S. economic escalation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-nearly-1-as-us-prepares-more-iran-sanctions-4872509",
-   "t": "25 Aug \u00b7 08:09 AM"
+   "t": "25 Aug \u00b7 08:56 AM"
   },
   {
-   "ts": 1787627391.303635,
+   "ts": 1787630179.468302,
    "title": "Gold adds to weekly surge, spot prices briefly come within sight of $4,700",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "25 Aug \u00b7 08:09 AM"
+   "t": "25 Aug \u00b7 08:56 AM"
+  },
+  {
+   "ts": 1787629537.0,
+   "title": "United States Dollar Index holds gains near 99.00 amid escalating geopolitical risks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-gains-near-9900-amid-escalating-geopolitical-risks-202608250345",
+   "t": "25 Aug \u00b7 08:45 AM"
+  },
+  {
+   "ts": 1787629456.0,
+   "title": "Silver Price Forecast: XAG/USD corrects below $68 in countdown to US PCE Inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-corrects-below-68-in-countdown-to-us-pce-inflation-data-202608250344",
+   "t": "25 Aug \u00b7 08:44 AM"
+  },
+  {
+   "ts": 1787628823.0,
+   "title": "British Pound holds range below mid-1.3600s as USD firms  amid Fed risks and Iran tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-holds-range-below-mid-13600s-as-usd-firms-amid-fed-risks-and-iran-tensions-202608250333",
+   "t": "25 Aug \u00b7 08:33 AM"
   },
   {
    "ts": 1787626834.0,
@@ -497,27 +518,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-gains-support-amid-hawkish-ecb-expectations-subdued-us-dollar-202608250108",
    "t": "25 Aug \u00b7 06:08 AM"
-  },
-  {
-   "ts": 1787612303.0,
-   "title": "Australian Dollar falls as Iran sanctions sour risk appetite, RBA minutes eyed",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-falls-as-iran-sanctions-sour-risk-appetite-rba-minutes-eyed-202608242258",
-   "t": "25 Aug \u00b7 03:58 AM"
-  },
-  {
-   "ts": 1787610780.0,
-   "title": "Chinese Yuan: Targeting 6.7200 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-targeting-67200-against-us-dollar-uob-202608242233",
-   "t": "25 Aug \u00b7 03:33 AM"
-  },
-  {
-   "ts": 1787607664.0,
-   "title": "New Zealand Dollar muted near multi-month highs as it outweighs soft retail sales",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-muted-near-multi-month-highs-as-it-outweighs-soft-retail-sales-202608242141",
-   "t": "25 Aug \u00b7 02:41 AM"
   }
  ],
  "sentiment": {
