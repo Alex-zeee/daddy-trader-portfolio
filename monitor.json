@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 01:13 PKT",
+ "updated": "26-08-2026 01:45 PKT",
  "gold": {
-  "price": 4667.56,
-  "open": 4651.1,
+  "price": 4661.25,
+  "open": 4647.69,
   "high": 4695.94,
   "low": 4607.66,
-  "chg": 0.35,
+  "chg": 0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4632.73,
-   4630.2,
    4629.69,
    4630.92,
    4627.52,
@@ -55,14 +53,16 @@
    4661.14,
    4662.86,
    4666.55,
-   4667.56
+   4666.91,
+   4662.52,
+   4661.25
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.93,
-   "chg": 0.57,
+   "price": 68.845,
+   "chg": 0.44,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.93
+    68.845
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.893,
-   "chg": -0.11,
+   "price": 98.9,
+   "chg": -0.1,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.893
+    98.9
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.02,
-   "chg": -4.69,
+   "price": 80.78,
+   "chg": -4.98,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    81.02
+    80.78
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1682,
-   "chg": 0.01,
+   "price": 1.1678,
+   "chg": -0.03,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1682
+    1.1678
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3654,
-   "chg": 0.01,
+   "price": 1.365,
+   "chg": -0.03,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3654
+    1.365
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.148,
-   "chg": 0.15,
+   "price": 159.218,
+   "chg": 0.2,
    "spark": [
     163.611,
     163.771,
@@ -259,13 +259,13 @@
     158.276,
     158.883,
     158.904,
-    159.148
+    159.218
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2456.62,
-   "chg": -1.01,
+   "price": 2446.38,
+   "chg": -1.43,
    "spark": [
     2470.09,
     2454.74,
@@ -314,13 +314,13 @@
     2470.9,
     2467.58,
     2463.43,
-    2456.62
+    2446.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78828.7,
-   "chg": -0.17,
+   "price": 78474.9,
+   "chg": -0.62,
    "spark": [
     77834.0,
     77601.8,
@@ -369,7 +369,7 @@
     79233.4,
     79128.9,
     78936.7,
-    78828.7
+    78474.9
    ]
   }
  ],
@@ -442,18 +442,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787688837.74662,
+   "ts": 1787690702.161965,
    "title": "Silver stalls just below $70 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 01:13 AM"
+   "t": "26 Aug \u00b7 01:45 AM"
   },
   {
-   "ts": 1787688837.74662,
+   "ts": 1787690702.161965,
    "title": "Gold parabolic run stalls at $4,754: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "26 Aug \u00b7 01:13 AM"
+   "t": "26 Aug \u00b7 01:45 AM"
+  },
+  {
+   "ts": 1787690400.0,
+   "title": "Singapore Dollar: Range-bound consolidation outlook against US Dollar \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-range-bound-consolidation-outlook-against-us-dollar-commerzbank-202608252040",
+   "t": "26 Aug \u00b7 01:40 AM"
   },
   {
    "ts": 1787687646.0,
@@ -503,13 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-reclaims-100-day-sma-eyes-70-202608251831",
    "t": "25 Aug \u00b7 11:31 PM"
-  },
-  {
-   "ts": 1787681654.0,
-   "title": "Gold pulls back from $4,700 as Hormuz hopes cool haven demand",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-pulls-back-from-4-700-as-hormuz-hopes-cool-haven-demand-202608251814",
-   "t": "25 Aug \u00b7 11:14 PM"
   }
  ],
  "sentiment": {
