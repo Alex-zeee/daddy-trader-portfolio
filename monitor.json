@@ -1,16 +1,13 @@
 {
- "updated": "25-08-2026 18:24 PKT",
+ "updated": "25-08-2026 19:10 PKT",
  "gold": {
-  "price": 4618.12,
-  "open": 4673.53,
+  "price": 4622.0,
+  "open": 4665.28,
   "high": 4695.94,
-  "low": 4615.93,
-  "chg": -1.19,
+  "low": 4607.66,
+  "chg": -0.93,
   "src": "XAUUSD Spot",
   "spark": [
-   4671.64,
-   4659.05,
-   4639.58,
    4656.55,
    4641.32,
    4622.62,
@@ -55,14 +52,17 @@
    4640.17,
    4638.85,
    4628.18,
-   4618.12
+   4616.85,
+   4613.22,
+   4610.69,
+   4622.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.52,
-   "chg": -1.49,
+   "price": 67.77,
+   "chg": -1.12,
    "spark": [
     58.472,
     57.296,
@@ -85,12 +85,12 @@
     68.026,
     69.466,
     68.541,
-    67.52
+    67.77
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.933,
+   "price": 98.927,
    "chg": -0.07,
    "spark": [
     101.51,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.933
+    98.927
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.98,
-   "chg": -3.56,
+   "price": 82.45,
+   "chg": -3.01,
    "spark": [
     82.61,
     79.26,
@@ -143,13 +143,13 @@
     87.83,
     87.06,
     85.01,
-    81.98
+    82.45
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.653,
-   "chg": -1.08,
+   "price": 4.664,
+   "chg": -0.85,
    "spark": [
     4.641,
     4.604,
@@ -172,13 +172,42 @@
     4.696,
     4.738,
     4.704,
-    4.653
+    4.664
+   ]
+  },
+  {
+   "name": "EUR/USD",
+   "price": 1.1677,
+   "chg": -0.04,
+   "spark": [
+    1.1395,
+    1.1369,
+    1.1387,
+    1.1467,
+    1.1524,
+    1.1544,
+    1.1507,
+    1.1532,
+    1.1557,
+    1.1525,
+    1.1556,
+    1.1546,
+    1.1544,
+    1.153,
+    1.1535,
+    1.1574,
+    1.1583,
+    1.1579,
+    1.1674,
+    1.1688,
+    1.1682,
+    1.1677
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3645,
-   "chg": -0.06,
+   "price": 1.3643,
+   "chg": -0.08,
    "spark": [
     1.3351,
     1.329,
@@ -201,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3645
+    1.3643
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.226,
-   "chg": 0.2,
+   "price": 159.248,
+   "chg": 0.22,
    "spark": [
     163.611,
     163.771,
@@ -230,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.226
+    159.248
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2459.69,
-   "chg": -0.89,
+   "price": 2469.02,
+   "chg": -0.51,
    "spark": [
-    2438.1,
     2438.98,
     2450.73,
     2440.32,
@@ -285,15 +313,15 @@
     2481.44,
     2477.37,
     2473.56,
-    2459.69
+    2460.08,
+    2469.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78798.1,
-   "chg": -0.21,
+   "price": 78883.9,
+   "chg": -0.1,
    "spark": [
-    77187.4,
     77138.4,
     77424.2,
     77185.9,
@@ -340,7 +368,8 @@
     79301.9,
     79105.8,
     78977.3,
-    78798.1
+    78610.7,
+    78883.9
    ]
   }
  ],
@@ -421,18 +450,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787664277.737338,
+   "ts": 1787667022.217663,
    "title": "Gold wavers as investors await U.S. inflation, Warsh speech",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 06:24 PM"
+   "t": "25 Aug \u00b7 07:10 PM"
   },
   {
-   "ts": 1787664277.737338,
+   "ts": 1787667022.217663,
    "title": "Citi says gold\u2019s breakout is spec-driven and hinges on Jackson Hole",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citi-says-golds-breakout-is-specdriven-and-hinges-on-jackson-hole-4874987",
-   "t": "25 Aug \u00b7 06:24 PM"
+   "t": "25 Aug \u00b7 07:10 PM"
+  },
+  {
+   "ts": 1787666910.0,
+   "title": "Euro: Upside limited above fair value against US Dollar \u2013 Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-upside-limited-above-fair-value-against-us-dollar-scotiabank-202608251408",
+   "t": "25 Aug \u00b7 07:08 PM"
+  },
+  {
+   "ts": 1787666377.0,
+   "title": "Gold: Overbought rally eyes key resistance \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-overbought-rally-eyes-key-resistance-uob-202608251359",
+   "t": "25 Aug \u00b7 06:59 PM"
+  },
+  {
+   "ts": 1787664923.0,
+   "title": "Euro stays near three-month high as US Dollar remains subdued",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-stays-near-three-month-high-as-us-dollar-remains-subdued-202608251335",
+   "t": "25 Aug \u00b7 06:35 PM"
+  },
+  {
+   "ts": 1787664855.0,
+   "title": "Canadian Dollar: Trading near fair value against US Dollar - Scotiabank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-trading-near-fair-value-against-us-dollar-scotiabank-202608251334",
+   "t": "25 Aug \u00b7 06:34 PM"
   },
   {
    "ts": 1787663672.0,
@@ -461,34 +518,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-defies-stronger-us-dollar-as-rbnz-rate-hike-bets-offer-support-202608251241",
    "t": "25 Aug \u00b7 05:41 PM"
-  },
-  {
-   "ts": 1787661293.0,
-   "title": "Australian Dollar: RBA risks and carry support \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-risks-and-carry-support-bbh-202608251234",
-   "t": "25 Aug \u00b7 05:34 PM"
-  },
-  {
-   "ts": 1787659599.0,
-   "title": "US Dollar: Fragmentation risks and reserve diversification \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fragmentation-risks-and-reserve-diversification-mufg-202608251206",
-   "t": "25 Aug \u00b7 05:06 PM"
-  },
-  {
-   "ts": 1787658887.0,
-   "title": "Canadian Dollar: Trade conflict keeps downside risks alive against US Dollar - ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-conflict-keeps-downside-risks-alive-against-us-dollar-ing-202608251154",
-   "t": "25 Aug \u00b7 04:54 PM"
-  },
-  {
-   "ts": 1787658658.0,
-   "title": "Japanese Yen under pressure as geopolitical risks support the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-under-pressure-as-geopolitical-risks-support-the-us-dollar-202608251150",
-   "t": "25 Aug \u00b7 04:50 PM"
   }
  ],
  "sentiment": {
