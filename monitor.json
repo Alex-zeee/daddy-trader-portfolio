@@ -1,15 +1,13 @@
 {
- "updated": "25-08-2026 15:56 PKT",
+ "updated": "25-08-2026 16:17 PKT",
  "gold": {
-  "price": 4642.17,
-  "open": 4644.33,
+  "price": 4643.41,
+  "open": 4644.41,
   "high": 4695.94,
   "low": 4619.8,
-  "chg": -0.05,
+  "chg": -0.02,
   "src": "XAUUSD Spot",
   "spark": [
-   4670.62,
-   4669.47,
    4676.8,
    4679.6,
    4686.57,
@@ -55,14 +53,16 @@
    4635.48,
    4637.93,
    4638.54,
-   4642.17
+   4640.31,
+   4640.84,
+   4643.41
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.86,
-   "chg": -0.99,
+   "price": 67.855,
+   "chg": -1.0,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    67.86
+    67.855
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.021,
-   "chg": 0.02,
+   "price": 99.034,
+   "chg": 0.03,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    99.021
+    99.034
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.5,
-   "chg": -2.95,
+   "price": 82.46,
+   "chg": -3.0,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    82.5
+    82.46
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1666,
-   "chg": -0.13,
+   "price": 1.1662,
+   "chg": -0.17,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1666
+    1.1662
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3634,
-   "chg": -0.14,
+   "price": 1.3629,
+   "chg": -0.18,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3634
+    1.3629
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.276,
-   "chg": 0.23,
+   "price": 159.306,
+   "chg": 0.25,
    "spark": [
     163.611,
     163.771,
@@ -259,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.276
+    159.306
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2483.54,
-   "chg": 0.07,
+   "price": 2475.01,
+   "chg": -0.27,
    "spark": [
-    2433.38,
     2426.7,
     2458.88,
     2438.1,
@@ -314,15 +313,15 @@
     2479.69,
     2484.03,
     2473.69,
-    2483.54
+    2481.44,
+    2475.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79378.9,
-   "chg": 0.52,
+   "price": 79100.0,
+   "chg": 0.17,
    "spark": [
-    77308.7,
     77215.8,
     77484.2,
     77187.4,
@@ -369,7 +368,8 @@
     79714.3,
     79926.6,
     79160.3,
-    79378.9
+    79301.9,
+    79099.9
    ]
   }
  ],
@@ -450,18 +450,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787655391.463624,
+   "ts": 1787656648.566474,
+   "title": "Citi says gold\u2019s breakout is spec-driven and hinges on Jackson Hole",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/citi-says-golds-breakout-is-specdriven-and-hinges-on-jackson-hole-4874987",
+   "t": "25 Aug \u00b7 04:17 PM"
+  },
+  {
+   "ts": 1787656648.566474,
    "title": "Gold wavers as investors await U.S. inflation, Warsh speech",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 03:56 PM"
+   "t": "25 Aug \u00b7 04:17 PM"
   },
   {
-   "ts": 1787655391.463624,
-   "title": "Gold surges to $4,696 but momentum fades: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "25 Aug \u00b7 03:56 PM"
+   "ts": 1787656141.0,
+   "title": "Gold pauses near three-month high after sharp rally",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-pauses-near-three-month-high-after-sharp-rally-202608251109",
+   "t": "25 Aug \u00b7 04:09 PM"
+  },
+  {
+   "ts": 1787656107.0,
+   "title": "US Dollar: Debasement fears meet historical skepticism \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-debasement-fears-meet-historical-skepticism-mufg-202608251108",
+   "t": "25 Aug \u00b7 04:08 PM"
   },
   {
    "ts": 1787653346.0,
@@ -504,20 +518,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/indian-rupee-range-holds-against-us-dollar-as-inflows-offset-trade-drag-dbs-202608250902",
    "t": "25 Aug \u00b7 02:02 PM"
-  },
-  {
-   "ts": 1787647702.0,
-   "title": "Australian Dollar: CPI keeps RBA on hold bias \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-cpi-keeps-rba-on-hold-bias-ing-202608250848",
-   "t": "25 Aug \u00b7 01:48 PM"
-  },
-  {
-   "ts": 1787646612.0,
-   "title": "Euro holds gains against Canadian Dollar on upbeat German IFO data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-holds-gains-against-canadian-dollar-on-upbeat-german-ifo-data-202608250830",
-   "t": "25 Aug \u00b7 01:30 PM"
   }
  ],
  "sentiment": {
