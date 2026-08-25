@@ -1,15 +1,13 @@
 {
- "updated": "25-08-2026 16:50 PKT",
+ "updated": "25-08-2026 17:21 PKT",
  "gold": {
-  "price": 4645.19,
-  "open": 4656.78,
+  "price": 4635.27,
+  "open": 4660.5,
   "high": 4695.94,
   "low": 4619.8,
-  "chg": -0.25,
+  "chg": -0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   4686.57,
-   4681.47,
    4694.14,
    4689.7,
    4678.11,
@@ -55,14 +53,16 @@
    4640.84,
    4641.03,
    4641.72,
-   4645.19
+   4642.92,
+   4639.42,
+   4635.27
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.11,
-   "chg": -0.63,
+   "price": 67.965,
+   "chg": -0.84,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.11
+    67.965
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.018,
-   "chg": 0.02,
+   "price": 99.025,
+   "chg": 0.03,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    99.018
+    99.025
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.28,
-   "chg": -3.21,
+   "price": 81.98,
+   "chg": -3.56,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    82.28
+    81.98
    ]
   },
   {
@@ -151,7 +151,6 @@
    "price": 4.704,
    "chg": -0.72,
    "spark": [
-    4.679,
     4.641,
     4.604,
     4.622,
@@ -206,8 +205,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3635,
-   "chg": -0.13,
+   "price": 1.3634,
+   "chg": -0.14,
    "spark": [
     1.3351,
     1.329,
@@ -230,12 +229,12 @@
     1.36,
     1.3643,
     1.3654,
-    1.3635
+    1.3634
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.241,
+   "price": 159.24,
    "chg": 0.21,
    "spark": [
     163.611,
@@ -259,15 +258,14 @@
     158.276,
     158.883,
     158.904,
-    159.241
+    159.24
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2479.0,
-   "chg": -0.11,
+   "price": 2471.46,
+   "chg": -0.42,
    "spark": [
-    2426.7,
     2458.88,
     2438.1,
     2438.98,
@@ -314,15 +312,15 @@
     2484.03,
     2473.69,
     2481.44,
-    2479.0
+    2477.37,
+    2471.95
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79105.0,
-   "chg": 0.18,
+   "price": 78887.6,
+   "chg": -0.1,
    "spark": [
-    77215.8,
     77484.2,
     77187.4,
     77138.4,
@@ -369,7 +367,8 @@
     79926.6,
     79160.3,
     79301.9,
-    79105.0
+    79105.8,
+    78887.6
    ]
   }
  ],
@@ -450,20 +449,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787658600.269557,
+   "ts": 1787660466.715245,
    "title": "Citi says gold\u2019s breakout is spec-driven and hinges on Jackson Hole",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/citi-says-golds-breakout-is-specdriven-and-hinges-on-jackson-hole-4874987",
-   "t": "25 Aug \u00b7 04:50 PM",
+   "t": "25 Aug \u00b7 05:21 PM",
    "ur": "Steady ka kahana hai kah Gold (sone) ka barik oat qayas par mbani hai aur jection hol par manehsr hai."
   },
   {
-   "ts": 1787658600.269557,
+   "ts": 1787660466.715245,
    "title": "Gold wavers as investors await U.S. inflation, Warsh speech",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 04:50 PM",
+   "t": "25 Aug \u00b7 05:21 PM",
    "ur": "Gold (sona) ddagmaga raha hai cunkah sarmaya kar US inflation (mehngai) ka antezar kar rahe hen, warsh taqrir"
+  },
+  {
+   "ts": 1787659599.0,
+   "title": "US Dollar: Fragmentation risks and reserve diversification \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-fragmentation-risks-and-reserve-diversification-mufg-202608251206",
+   "t": "25 Aug \u00b7 05:06 PM",
+   "ur": "US Dollar: takde takde karne ke khatrat aur resero tanu - MUFG"
+  },
+  {
+   "ts": 1787658887.0,
+   "title": "Canadian Dollar: Trade conflict keeps downside risks alive against US Dollar - ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-conflict-keeps-downside-risks-alive-against-us-dollar-ing-202608251154",
+   "t": "25 Aug \u00b7 04:54 PM",
+   "ur": "Caniden Dollar: tajarti tanaza US Dollar - ING ke maqable mein manfi khatrat ko zandah rakta hai."
+  },
+  {
+   "ts": 1787658658.0,
+   "title": "Japanese Yen under pressure as geopolitical risks support the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-under-pressure-as-geopolitical-risks-support-the-us-dollar-202608251150",
+   "t": "25 Aug \u00b7 04:50 PM",
+   "ur": "Japani yan dabao mein hai cunkah geograpi siyasi khatrat US Dollar ki support karte hen."
   },
   {
    "ts": 1787657241.0,
@@ -504,30 +527,6 @@
    "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-onto-early-losses-near-4-630-us-yields-plunge-202608251022",
    "t": "25 Aug \u00b7 03:22 PM",
    "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD ka abtadai naqsan $4,630 ke qarib hai, US pedawar mein kami"
-  },
-  {
-   "ts": 1787650278.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608250931",
-   "t": "25 Aug \u00b7 02:31 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
-  },
-  {
-   "ts": 1787650265.0,
-   "title": "Canadian Dollar: Tariff risks cloud outlook \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-tariff-risks-cloud-outlook-commerzbank-202608250931",
-   "t": "25 Aug \u00b7 02:31 PM",
-   "ur": "Caniden Dollar: terf kalaud oat lak ko khatre mein dalta hai - kamers Bank"
-  },
-  {
-   "ts": 1787649425.0,
-   "title": "Japanese Yen: Range trade within 157.90 and 159.80 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-range-trade-within-15790-and-15980-against-us-dollar-uob-202608250917",
-   "t": "25 Aug \u00b7 02:17 PM",
-   "ur": "Japani yan: US Dollar ke maqable 157.90 aur 159.80 ke andar tajart ki had - UOB"
   }
  ],
  "sentiment": {
