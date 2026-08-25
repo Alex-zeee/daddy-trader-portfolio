@@ -1,17 +1,13 @@
 {
- "updated": "25-08-2026 07:07 PKT",
+ "updated": "25-08-2026 08:09 PKT",
  "gold": {
-  "price": 4644.81,
-  "open": 4649.6,
+  "price": 4635.29,
+  "open": 4636.92,
   "high": 4695.94,
-  "low": 4626.2,
-  "chg": -0.1,
+  "low": 4619.8,
+  "chg": -0.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4674.04,
-   4670.3,
-   4674.27,
-   4674.15,
    4673.17,
    4661.45,
    4642.56,
@@ -55,14 +51,18 @@
    4672.81,
    4671.64,
    4659.05,
-   4644.81
+   4639.58,
+   4656.55,
+   4641.32,
+   4622.62,
+   4635.29
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.905,
-   "chg": -0.81,
+   "price": 67.7,
+   "chg": -2.54,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    68.905
+    67.7
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.024,
-   "chg": 0.23,
+   "price": 99.045,
+   "chg": 0.25,
    "spark": [
     101.47,
     101.51,
@@ -114,7 +114,36 @@
     98.83,
     98.9,
     98.8,
-    99.024
+    99.045
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 85.56,
+   "chg": -1.72,
+   "spark": [
+    89.31,
+    82.61,
+    79.26,
+    84.46,
+    83.59,
+    84.67,
+    80.34,
+    75.77,
+    75.22,
+    77.29,
+    78.18,
+    82.13,
+    83.2,
+    83.27,
+    81.25,
+    82.4,
+    84.5,
+    84.94,
+    85.83,
+    87.83,
+    87.06,
+    85.56
    ]
   },
   {
@@ -177,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3632,
-   "chg": -0.16,
+   "price": 1.3633,
+   "chg": -0.15,
    "spark": [
     1.3351,
     1.329,
@@ -201,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3632
+    1.3633
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.301,
-   "chg": 0.25,
+   "price": 159.35,
+   "chg": 0.28,
    "spark": [
     163.611,
     163.771,
@@ -230,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.301
+    159.35
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2494.15,
-   "chg": 0.5,
+   "price": 2511.34,
+   "chg": 1.19,
    "spark": [
-    2412.79,
     2379.41,
     2374.5,
     2389.47,
@@ -285,15 +313,15 @@
     2482.69,
     2493.22,
     2495.21,
-    2494.15
+    2507.2,
+    2511.34
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79768.3,
-   "chg": 1.02,
+   "price": 80864.6,
+   "chg": 2.4,
    "spark": [
-    76921.1,
     76581.8,
     76092.1,
     76074.4,
@@ -340,7 +368,8 @@
     78966.1,
     79724.9,
     79803.0,
-    79799.5
+    80638.7,
+    80864.6
    ]
   }
  ],
@@ -421,25 +450,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787623662.489726,
+   "ts": 1787627391.303635,
    "title": "Gold rises to 3-month high as Treasury moves, trade tensions lift bullion demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 07:07 AM"
+   "t": "25 Aug \u00b7 08:09 AM"
   },
   {
-   "ts": 1787623662.489726,
+   "ts": 1787627391.303635,
    "title": "Oil slips as improved Hormuz shipping traffic offsets U.S. economic escalation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-nearly-1-as-us-prepares-more-iran-sanctions-4872509",
-   "t": "25 Aug \u00b7 07:07 AM"
+   "t": "25 Aug \u00b7 08:09 AM"
   },
   {
-   "ts": 1787623662.489726,
+   "ts": 1787627391.303635,
    "title": "Gold adds to weekly surge, spot prices briefly come within sight of $4,700",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "25 Aug \u00b7 07:07 AM"
+   "t": "25 Aug \u00b7 08:09 AM"
+  },
+  {
+   "ts": 1787626834.0,
+   "title": "New Zealand Dollar gains as high inflation fuels odds of RBNZ September rate hikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-gains-as-high-inflation-fuels-odds-of-rbnz-september-rate-hikes-202608250300",
+   "t": "25 Aug \u00b7 08:00 AM"
+  },
+  {
+   "ts": 1787626452.0,
+   "title": "Gold retreats from mid-May highs; fails ahead of $4,700 as Fed risks support USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-retreats-from-mid-may-highs-fails-ahead-of-4-700-as-fed-risks-support-usd-202608250254",
+   "t": "25 Aug \u00b7 07:54 AM"
   },
   {
    "ts": 1787623519.0,
@@ -475,20 +518,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-muted-near-multi-month-highs-as-it-outweighs-soft-retail-sales-202608242141",
    "t": "25 Aug \u00b7 02:41 AM"
-  },
-  {
-   "ts": 1787606133.0,
-   "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-lower-as-us-dollar-firms-on-heavier-iran-sanctions-202608242115",
-   "t": "25 Aug \u00b7 02:15 AM"
-  },
-  {
-   "ts": 1787602427.0,
-   "title": "Mexican Peso weakens as Iran sanctions offset Mexico\u2019s inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-weakens-as-iran-sanctions-offset-mexicos-inflation-data-202608242013",
-   "t": "25 Aug \u00b7 01:13 AM"
   }
  ],
  "sentiment": {
