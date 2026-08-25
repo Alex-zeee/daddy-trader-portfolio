@@ -1,14 +1,13 @@
 {
- "updated": "26-08-2026 00:51 PKT",
+ "updated": "26-08-2026 01:13 PKT",
  "gold": {
-  "price": 4662.83,
-  "open": 4651.64,
+  "price": 4667.56,
+  "open": 4651.1,
   "high": 4695.94,
   "low": 4607.66,
-  "chg": 0.24,
+  "chg": 0.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4625.71,
    4632.73,
    4630.2,
    4629.69,
@@ -55,14 +54,15 @@
    4660.61,
    4661.14,
    4662.86,
-   4662.83
+   4666.55,
+   4667.56
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.91,
-   "chg": 0.54,
+   "price": 68.93,
+   "chg": 0.57,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.91
+    68.93
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.936,
-   "chg": -0.06,
+   "price": 98.893,
+   "chg": -0.11,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.936
+    98.893
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.99,
-   "chg": -3.55,
+   "price": 81.02,
+   "chg": -4.69,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    81.99
+    81.02
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1675,
-   "chg": -0.05,
+   "price": 1.1682,
+   "chg": 0.01,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1675
+    1.1682
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3649,
-   "chg": -0.03,
+   "price": 1.3654,
+   "chg": 0.01,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3649
+    1.3654
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.165,
-   "chg": 0.16,
+   "price": 159.148,
+   "chg": 0.15,
    "spark": [
     163.611,
     163.771,
@@ -259,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.165
+    159.148
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2459.3,
-   "chg": -0.91,
+   "price": 2456.62,
+   "chg": -1.01,
    "spark": [
-    2449.25,
     2470.09,
     2454.74,
     2462.4,
@@ -314,15 +313,15 @@
     2470.34,
     2470.9,
     2467.58,
-    2459.3
+    2463.43,
+    2456.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78752.0,
-   "chg": -0.27,
+   "price": 78828.7,
+   "chg": -0.17,
    "spark": [
-    77397.6,
     77834.0,
     77601.8,
     77737.5,
@@ -369,7 +368,8 @@
     79149.6,
     79233.4,
     79128.9,
-    78752.0
+    78936.7,
+    78828.7
    ]
   }
  ],
@@ -442,18 +442,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787687465.963933,
+   "ts": 1787688837.74662,
    "title": "Silver stalls just below $70 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 12:51 AM"
+   "t": "26 Aug \u00b7 01:13 AM"
   },
   {
-   "ts": 1787687465.963933,
+   "ts": 1787688837.74662,
    "title": "Gold parabolic run stalls at $4,754: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "26 Aug \u00b7 12:51 AM"
+   "t": "26 Aug \u00b7 01:13 AM"
+  },
+  {
+   "ts": 1787687646.0,
+   "title": "US Treasury yields fall as Hormuz progress eases inflation fears",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-treasury-yields-fall-as-hormuz-progress-eases-inflation-fears-202608251954",
+   "t": "26 Aug \u00b7 12:54 AM"
+  },
+  {
+   "ts": 1787687640.0,
+   "title": "South Korean Won: Strength backed by tech flows against US Dollar \u2013 Societe Generale",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-strength-backed-by-tech-flows-against-us-dollar-societe-generale-202608251954",
+   "t": "26 Aug \u00b7 12:54 AM"
   },
   {
    "ts": 1787685780.0,
@@ -496,20 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-pulls-back-from-4-700-as-hormuz-hopes-cool-haven-demand-202608251814",
    "t": "25 Aug \u00b7 11:14 PM"
-  },
-  {
-   "ts": 1787675796.0,
-   "title": "Dow Jones Industrial Average round-trips between Ottawa and the Treasury",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-round-trips-between-ottawa-and-the-treasury-202608251636",
-   "t": "25 Aug \u00b7 09:36 PM"
-  },
-  {
-   "ts": 1787674927.0,
-   "title": "Canadian Dollar faces double trouble from Oil slump, US tariffs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-faces-double-trouble-from-oil-slump-us-tariffs-202608251622",
-   "t": "25 Aug \u00b7 09:22 PM"
   }
  ],
  "sentiment": {
