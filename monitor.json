@@ -1,17 +1,13 @@
 {
- "updated": "25-08-2026 11:03 PKT",
+ "updated": "25-08-2026 12:05 PKT",
  "gold": {
-  "price": 4644.62,
-  "open": 4649.55,
+  "price": 4638.81,
+  "open": 4647.65,
   "high": 4695.94,
   "low": 4619.8,
-  "chg": -0.11,
+  "chg": -0.19,
   "src": "XAUUSD Spot",
   "spark": [
-   4640.14,
-   4635.21,
-   4637.4,
-   4636.41,
    4641.93,
    4650.1,
    4651.31,
@@ -55,14 +51,18 @@
    4646.67,
    4639.37,
    4643.0,
-   4644.62
+   4649.48,
+   4652.41,
+   4648.83,
+   4638.82,
+   4638.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.94,
-   "chg": -0.88,
+   "price": 68.345,
+   "chg": -0.29,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    67.94
+    68.345
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.081,
-   "chg": 0.08,
+   "price": 99.099,
+   "chg": 0.1,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    99.081
+    99.099
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.54,
-   "chg": -0.55,
+   "price": 84.23,
+   "chg": -0.92,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    84.54
+    84.23
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1658,
-   "chg": -0.2,
+   "price": 1.1662,
+   "chg": -0.17,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1658
+    1.1662
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3623,
-   "chg": -0.22,
+   "price": 1.3636,
+   "chg": -0.13,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3623
+    1.3636
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.308,
-   "chg": 0.25,
+   "price": 159.365,
+   "chg": 0.29,
    "spark": [
     163.611,
     163.771,
@@ -259,15 +259,14 @@
     158.276,
     158.883,
     158.904,
-    159.308
+    159.365
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2508.71,
-   "chg": 1.08,
+   "price": 2511.31,
+   "chg": 1.19,
    "spark": [
-    2388.24,
     2412.13,
     2410.98,
     2414.71,
@@ -314,15 +313,15 @@
     2498.41,
     2492.54,
     2508.38,
-    2508.71
+    2499.77,
+    2511.31
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80748.5,
+   "price": 80752.2,
    "chg": 2.26,
    "spark": [
-    75976.4,
     76480.5,
     76541.6,
     76783.6,
@@ -369,7 +368,8 @@
     80472.6,
     80340.2,
     80694.7,
-    80748.5
+    80538.5,
+    80753.4
    ]
   }
  ],
@@ -450,89 +450,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787637820.038035,
-   "title": "Gold rises to 3-month high as Treasury moves, trade tensions lift bullion demand",
+   "ts": 1787641539.420263,
+   "title": "Gold eases from 3-month high as investors await U.S. inflation, Warsh speech",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 11:03 AM",
-   "ur": "Treasurei harkt mein aane se Gold (sona) 3 mah ki baland tarin sath par pohch gaya, tajarti tanao ne balin ki talab mein azafah kiya."
+   "t": "25 Aug \u00b7 12:05 PM"
   },
   {
-   "ts": 1787637820.038035,
+   "ts": 1787641539.420263,
    "title": "Oil slips as improved Hormuz shipping traffic offsets U.S. economic escalation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-nearly-1-as-us-prepares-more-iran-sanctions-4872509",
-   "t": "25 Aug \u00b7 11:03 AM",
-   "ur": "Til phisal gaya cunkah harmaz shping trific mein behtari ne US aqtasadi tarqi ko pora kiya"
+   "t": "25 Aug \u00b7 12:05 PM"
   },
   {
-   "ts": 1787637820.038035,
-   "title": "Gold adds to weekly surge, spot prices briefly come within sight of $4,700",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "25 Aug \u00b7 11:03 AM",
-   "ur": "Gold (sona) haftah war azafe mein azafah karta hai, jagah ki qeemtin mukhtasr tur par $4,700 ki nazar mein aati hen."
+   "ts": 1787640276.0,
+   "title": "Australian Dollar edges up as RBA keeps rate hike option quite possible",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-edges-up-as-rba-keeps-rate-hike-option-quite-possible-202608250644",
+   "t": "25 Aug \u00b7 11:44 AM"
+  },
+  {
+   "ts": 1787639474.0,
+   "title": "USD/JPY Price Forecast: US Dollar keeps crawling towards the key 160.00 area",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/usd-jpy-price-forecast-us-dollar-keeps-crawling-towards-the-key-16000-area-202608250631",
+   "t": "25 Aug \u00b7 11:31 AM"
+  },
+  {
+   "ts": 1787639230.0,
+   "title": "US Dollar: Data weakness keeps downside risks elevated - TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-data-weakness-keeps-downside-risks-elevated-td-securities-202608250627",
+   "t": "25 Aug \u00b7 11:27 AM"
+  },
+  {
+   "ts": 1787638133.0,
+   "title": "Euro: Further gains eyed toward 1.1800 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-further-gains-eyed-toward-11800-against-us-dollar-uob-202608250608",
+   "t": "25 Aug \u00b7 11:08 AM"
   },
   {
    "ts": 1787637510.0,
    "title": "EUR/USD Price Forecast: Corrects further as US Dollar extends recovery",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-corrects-further-as-us-dollar-extends-recovery-202608250558",
-   "t": "25 Aug \u00b7 10:58 AM",
-   "ur": "EUR/USD qeemat ki forecast: US Dollar ki recovery mein tosi ke sath mazid darist"
+   "t": "25 Aug \u00b7 10:58 AM"
   },
   {
    "ts": 1787636259.0,
-   "title": "Indian Rupee ticks up against US Dollar on RBI\u2019s likely intervention",
+   "title": "Indian Rupee edges up against US Dollar on possible RBI\u2019s intervention",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/indian-rupee-ticks-up-against-us-dollar-on-rbis-likely-intervention-202608250537",
-   "t": "25 Aug \u00b7 10:37 AM",
-   "ur": "RBI ki mamkana madakhalt par handostani ropiya US Dollar ke maqable mein badh raha hai."
+   "t": "25 Aug \u00b7 10:37 AM"
   },
   {
    "ts": 1787632504.0,
    "title": "India Gold price today: Gold falls, according to FXStreet data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202608250435",
-   "t": "25 Aug \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
+   "t": "25 Aug \u00b7 09:35 AM"
   },
   {
    "ts": 1787631158.0,
    "title": "Canadian Dollar remains depressed as firmer USD and trade war counter higher oil prices",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/canadian-dollar-remains-depressed-as-firmer-usd-and-trade-war-counter-higher-oil-prices-202608250412",
-   "t": "25 Aug \u00b7 09:12 AM",
-   "ur": "Caniden Dollar mastahkam USD aur tajarti jang ki wajah se til ki baland qeemton ki wajah se afsardah hai."
-  },
-  {
-   "ts": 1787629537.0,
-   "title": "United States Dollar Index holds gains near 99.00 amid escalating geopolitical risks",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-holds-gains-near-9900-amid-escalating-geopolitical-risks-202608250345",
-   "t": "25 Aug \u00b7 08:45 AM",
-   "ur": "Badhte huvay geograpi siyasi khatrat ke darmiyan US Dollar andex 99.00 ke qarib azafah rakta hai"
-  },
-  {
-   "ts": 1787629456.0,
-   "title": "Silver Price Forecast: XAG/USD corrects below $68 in countdown to US PCE Inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-corrects-below-68-in-countdown-to-us-pce-inflation-data-202608250344",
-   "t": "25 Aug \u00b7 08:44 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD US PCE inflation (mehngai) ke aed w shmar ke alti ganti mein $68 se niche darist"
-  },
-  {
-   "ts": 1787628823.0,
-   "title": "British Pound holds range below mid-1.3600s as USD firms  amid Fed risks and Iran tensions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-holds-range-below-mid-13600s-as-usd-firms-amid-fed-risks-and-iran-tensions-202608250333",
-   "t": "25 Aug \u00b7 08:33 AM",
-   "ur": "Bartanvi pound Fed khatrat aur eran kasheedgi ke darmiyan USD farmon ke tur par 1.3600s ke wast se niche hai"
+   "t": "25 Aug \u00b7 09:12 AM"
   }
  ],
  "sentiment": {
   "value": 74,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
