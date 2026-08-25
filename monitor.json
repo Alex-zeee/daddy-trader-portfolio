@@ -1,19 +1,13 @@
 {
- "updated": "25-08-2026 05:42 PKT",
+ "updated": "25-08-2026 07:07 PKT",
  "gold": {
-  "price": 4695.55,
-  "open": 4606.63,
-  "high": 4695.72,
-  "low": 4604.29,
-  "chg": 1.93,
+  "price": 4644.81,
+  "open": 4649.6,
+  "high": 4695.94,
+  "low": 4626.2,
+  "chg": -0.1,
   "src": "XAUUSD Spot",
   "spark": [
-   4662.92,
-   4673.25,
-   4673.72,
-   4665.09,
-   4660.61,
-   4664.89,
    4674.04,
    4670.3,
    4674.27,
@@ -55,14 +49,20 @@
    4679.6,
    4686.57,
    4681.47,
-   4695.55
+   4694.14,
+   4689.7,
+   4678.11,
+   4672.81,
+   4671.64,
+   4659.05,
+   4644.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.585,
-   "chg": 0.17,
+   "price": 68.905,
+   "chg": -0.81,
    "spark": [
     58.656,
     58.472,
@@ -85,13 +85,13 @@
     65.734,
     68.026,
     69.466,
-    69.585
+    68.905
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.959,
-   "chg": 0.16,
+   "price": 99.024,
+   "chg": 0.23,
    "spark": [
     101.47,
     101.51,
@@ -114,36 +114,7 @@
     98.83,
     98.9,
     98.8,
-    98.959
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 85.08,
-   "chg": -2.27,
-   "spark": [
-    89.31,
-    82.61,
-    79.26,
-    84.46,
-    83.59,
-    84.67,
-    80.34,
-    75.77,
-    75.22,
-    77.29,
-    78.18,
-    82.13,
-    83.2,
-    83.27,
-    81.25,
-    82.4,
-    84.5,
-    84.94,
-    85.83,
-    87.83,
-    87.06,
-    85.08
+    99.024
    ]
   },
   {
@@ -177,8 +148,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1673,
-   "chg": -0.08,
+   "price": 1.1666,
+   "chg": -0.13,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +172,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1673
+    1.1666
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.364,
-   "chg": -0.1,
+   "price": 1.3632,
+   "chg": -0.16,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +201,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.364
+    1.3632
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.109,
-   "chg": 0.13,
+   "price": 159.301,
+   "chg": 0.25,
    "spark": [
     163.611,
     163.771,
@@ -259,16 +230,14 @@
     158.276,
     158.883,
     158.904,
-    159.109
+    159.301
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2483.26,
-   "chg": 0.06,
+   "price": 2494.15,
+   "chg": 0.5,
    "spark": [
-    2423.03,
-    2417.15,
     2412.79,
     2379.41,
     2374.5,
@@ -314,16 +283,16 @@
     2483.54,
     2473.94,
     2482.69,
-    2483.26
+    2493.22,
+    2495.21,
+    2494.15
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78933.8,
-   "chg": -0.04,
+   "price": 79768.3,
+   "chg": 1.02,
    "spark": [
-    77186.9,
-    77071.9,
     76921.1,
     76581.8,
     76092.1,
@@ -369,7 +338,9 @@
     78960.0,
     78730.8,
     78966.1,
-    78933.8
+    79724.9,
+    79803.0,
+    79799.5
    ]
   }
  ],
@@ -450,25 +421,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787618532.046533,
+   "ts": 1787623662.489726,
+   "title": "Gold rises to 3-month high as Treasury moves, trade tensions lift bullion demand",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
+   "t": "25 Aug \u00b7 07:07 AM"
+  },
+  {
+   "ts": 1787623662.489726,
    "title": "Oil slips as improved Hormuz shipping traffic offsets U.S. economic escalation",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-nearly-1-as-us-prepares-more-iran-sanctions-4872509",
-   "t": "25 Aug \u00b7 05:42 AM"
+   "t": "25 Aug \u00b7 07:07 AM"
   },
   {
-   "ts": 1787618532.046533,
+   "ts": 1787623662.489726,
    "title": "Gold adds to weekly surge, spot prices briefly come within sight of $4,700",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3month-high-as-treasury-moves-fuel-demand-for-bullion-4872573",
-   "t": "25 Aug \u00b7 05:42 AM"
+   "t": "25 Aug \u00b7 07:07 AM"
   },
   {
-   "ts": 1787618532.046533,
-   "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/us-treasury-to-stick-to-debt-auction-schedule-despite-bigger-buybacks-bessent-says-4874098",
-   "t": "25 Aug \u00b7 05:42 AM"
+   "ts": 1787623519.0,
+   "title": "Australian Dollar remains steady following RBA Meeting Minutes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-steady-following-rba-meeting-minutes-202608250205",
+   "t": "25 Aug \u00b7 07:05 AM"
+  },
+  {
+   "ts": 1787620130.0,
+   "title": "Euro gains support amid hawkish ECB expectations, subdued US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-gains-support-amid-hawkish-ecb-expectations-subdued-us-dollar-202608250108",
+   "t": "25 Aug \u00b7 06:08 AM"
   },
   {
    "ts": 1787612303.0,
@@ -504,20 +489,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/mexican-peso-weakens-as-iran-sanctions-offset-mexicos-inflation-data-202608242013",
    "t": "25 Aug \u00b7 01:13 AM"
-  },
-  {
-   "ts": 1787602422.0,
-   "title": "Forex Today: US Dollar firms on safe-haven demand ahead of data-heavy Tuesday",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-on-safe-haven-demand-ahead-of-data-heavy-tuesday-202608242013",
-   "t": "25 Aug \u00b7 01:13 AM"
-  },
-  {
-   "ts": 1787601060.0,
-   "title": "South Korean Won: Consolidation zone eyed against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-consolidation-zone-eyed-against-us-dollar-commerzbank-202608241951",
-   "t": "25 Aug \u00b7 12:51 AM"
   }
  ],
  "sentiment": {
