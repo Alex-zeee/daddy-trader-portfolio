@@ -1,15 +1,13 @@
 {
- "updated": "25-08-2026 15:18 PKT",
+ "updated": "25-08-2026 15:56 PKT",
  "gold": {
-  "price": 4637.34,
-  "open": 4643.4,
+  "price": 4642.17,
+  "open": 4644.33,
   "high": 4695.94,
   "low": 4619.8,
-  "chg": -0.13,
+  "chg": -0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   4661.47,
-   4667.65,
    4670.62,
    4669.47,
    4676.8,
@@ -55,14 +53,16 @@
    4637.48,
    4637.95,
    4635.48,
-   4637.34
+   4637.93,
+   4638.54,
+   4642.17
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.975,
-   "chg": -0.83,
+   "price": 67.86,
+   "chg": -0.99,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    67.975
+    67.86
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.995,
-   "chg": -0.01,
+   "price": 99.021,
+   "chg": 0.02,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.995
+    99.021
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.46,
-   "chg": -3.0,
+   "price": 82.5,
+   "chg": -2.95,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    82.46
+    82.5
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1669,
-   "chg": -0.11,
+   "price": 1.1666,
+   "chg": -0.13,
    "spark": [
     1.1395,
     1.1369,
@@ -201,13 +201,13 @@
     1.1674,
     1.1688,
     1.1682,
-    1.1669
+    1.1666
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3639,
-   "chg": -0.1,
+   "price": 1.3634,
+   "chg": -0.14,
    "spark": [
     1.3351,
     1.329,
@@ -230,13 +230,13 @@
     1.36,
     1.3643,
     1.3654,
-    1.3639
+    1.3634
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.28,
-   "chg": 0.24,
+   "price": 159.276,
+   "chg": 0.23,
    "spark": [
     163.611,
     163.771,
@@ -259,13 +259,13 @@
     158.276,
     158.883,
     158.904,
-    159.28
+    159.276
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2477.99,
-   "chg": -0.15,
+   "price": 2483.54,
+   "chg": 0.07,
    "spark": [
     2433.38,
     2426.7,
@@ -314,13 +314,13 @@
     2479.69,
     2484.03,
     2473.69,
-    2477.99
+    2483.54
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79342.8,
-   "chg": 0.48,
+   "price": 79378.9,
+   "chg": 0.52,
    "spark": [
     77308.7,
     77215.8,
@@ -369,7 +369,7 @@
     79714.3,
     79926.6,
     79160.3,
-    79342.8
+    79378.9
    ]
   }
  ],
@@ -450,18 +450,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787653123.301316,
+   "ts": 1787655391.463624,
    "title": "Gold wavers as investors await U.S. inflation, Warsh speech",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "25 Aug \u00b7 03:18 PM"
+   "t": "25 Aug \u00b7 03:56 PM"
   },
   {
-   "ts": 1787653123.301316,
+   "ts": 1787655391.463624,
    "title": "Gold surges to $4,696 but momentum fades: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "25 Aug \u00b7 03:18 PM"
+   "t": "25 Aug \u00b7 03:56 PM"
+  },
+  {
+   "ts": 1787653346.0,
+   "title": "Gold Price Forecast: XAU/USD holds onto early losses near $4,630, US Yields plunge",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-holds-onto-early-losses-near-4-630-us-yields-plunge-202608251022",
+   "t": "25 Aug \u00b7 03:22 PM"
   },
   {
    "ts": 1787650278.0,
@@ -511,13 +518,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-holds-gains-against-canadian-dollar-on-upbeat-german-ifo-data-202608250830",
    "t": "25 Aug \u00b7 01:30 PM"
-  },
-  {
-   "ts": 1787646353.0,
-   "title": "US Dollar: Policy crosscurrents shape outlook \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-policy-crosscurrents-shape-outlook-ocbc-202608250825",
-   "t": "25 Aug \u00b7 01:25 PM"
   }
  ],
  "sentiment": {
