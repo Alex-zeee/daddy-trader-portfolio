@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 10:55 PKT",
+ "updated": "26-08-2026 11:26 PKT",
  "gold": {
-  "price": 4640.06,
-  "open": 4643.44,
+  "price": 4627.27,
+  "open": 4652.05,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": -0.07,
+  "chg": -0.53,
   "src": "XAUUSD Spot",
   "spark": [
-   4646.96,
-   4649.89,
    4650.23,
    4654.44,
    4660.61,
@@ -55,14 +53,16 @@
    4642.04,
    4644.94,
    4639.68,
-   4640.06
+   4639.25,
+   4638.46,
+   4627.27
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.05,
-   "chg": 0.6,
+   "price": 68.96,
+   "chg": 0.47,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    69.05
+    68.96
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.964,
-   "chg": 0.04,
+   "price": 99.0,
+   "chg": 0.08,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    98.964
+    99.0
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.89,
-   "chg": -1.78,
+   "price": 80.85,
+   "chg": -1.83,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    80.89
+    80.85
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1669,
-   "chg": 0.0,
+   "price": 1.1667,
+   "chg": -0.01,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1669
+    1.1667
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3635,
-   "chg": -0.03,
+   "price": 1.3631,
+   "chg": -0.05,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3635
+    1.3631
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.005,
-   "chg": -0.08,
+   "price": 159.055,
+   "chg": -0.05,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.005
+    159.055
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2462.17,
-   "chg": 0.8,
+   "price": 2456.58,
+   "chg": 0.57,
    "spark": [
-    2456.47,
     2454.22,
     2453.96,
     2462.24,
@@ -314,15 +313,15 @@
     2465.52,
     2465.19,
     2456.73,
-    2462.17
+    2464.45,
+    2456.58
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78975.6,
-   "chg": 0.59,
+   "price": 78889.5,
+   "chg": 0.48,
    "spark": [
-    77454.1,
     77303.3,
     77029.2,
     77534.9,
@@ -369,7 +368,8 @@
     79098.5,
     79089.2,
     78816.5,
-    78975.6
+    79070.6,
+    78889.5
    ]
   }
  ],
@@ -442,89 +442,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787723756.763219,
+   "ts": 1787725567.501192,
    "title": "Gold slips but stays near 3-month high as oil, yields ease inflation pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 10:55 AM",
-   "ur": "Gold (sona) phisalta hai lican til ki tarah 3 mah ki balandi ke qarib rahta hai, inflation (mehngai) ke dabao ko kam karta hai"
+   "t": "26 Aug \u00b7 11:26 AM"
   },
   {
-   "ts": 1787723756.763219,
+   "ts": 1787725567.501192,
    "title": "Gold prices tick up marginally amid weaker dollar, falling oil, and sliding yields",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "26 Aug \u00b7 10:55 AM",
-   "ur": "Kamazor Dollar, garti hoi til, aur pedawar mein kami ke darmiyan Gold (sone) ki qeemton mein mamoli azafah hawa"
+   "t": "26 Aug \u00b7 11:26 AM"
+  },
+  {
+   "ts": 1787725497.0,
+   "title": "Canadian Dollar gives away gains amid lower oil prices, fresh trade tensions",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-gives-away-gains-amid-lower-oil-prices-fresh-trade-tensions-202608260624",
+   "t": "26 Aug \u00b7 11:24 AM"
+  },
+  {
+   "ts": 1787724804.0,
+   "title": "Euro weakens against Japanese Yen amid firm BoJ interest rate hike prospects",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-weakens-against-japanese-yen-amid-firm-boj-interest-rate-hike-prospects-202608260613",
+   "t": "26 Aug \u00b7 11:13 AM"
+  },
+  {
+   "ts": 1787724749.0,
+   "title": "Euro: Upside bias toward 1.1725 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-upside-bias-toward-11725-against-us-dollar-uob-202608260612",
+   "t": "26 Aug \u00b7 11:12 AM"
   },
   {
    "ts": 1787723317.0,
    "title": "AUD/USD Price Forecast: Hot Australian CPI data boosts hawkish RBA bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/aud-usd-price-forecast-hot-australian-cpi-data-boosts-hawkish-rba-bets-202608260548",
-   "t": "26 Aug \u00b7 10:48 AM",
-   "ur": "AUD/USD qeemat ki forecast: garm aasterilvi CPI deta hakish RBA sharton ko badhata hai"
+   "t": "26 Aug \u00b7 10:48 AM"
   },
   {
    "ts": 1787722877.0,
    "title": "ECB's Schnabel: Inflation likely to top 2% for extended period",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/ecbs-schnabel-inflation-likely-to-top-2-for-extended-period-202608260541",
-   "t": "26 Aug \u00b7 10:41 AM",
-   "ur": "ECB ka shanabel: tosiyi madat ke liye inflation (mehngai) ki rate 2% se oper jane ka amkan hai."
+   "t": "26 Aug \u00b7 10:41 AM"
   },
   {
    "ts": 1787722139.0,
    "title": "Swiss Franc weakens as US Dollar gains ahead of PCE inflation data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-us-dollar-gains-ahead-of-pce-inflation-data-202608260528",
-   "t": "26 Aug \u00b7 10:28 AM",
-   "ur": "PCE inflation (mehngai) ke aed w shmar se pehle US Dollar ke badhane se sois farank kamazor hota hai."
+   "t": "26 Aug \u00b7 10:28 AM"
   },
   {
    "ts": 1787719371.0,
    "title": "United States Dollar Index recovers to near 99.00 ahead of US PCE inflation data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/united-states-dollar-index-recovers-to-near-9900-ahead-of-us-pce-inflation-data-202608260442",
-   "t": "26 Aug \u00b7 09:42 AM",
-   "ur": "Ryastahaye matehdah ka Dollar andex US PCE inflation (mehngai) ke aed w shmar se pehle 99.00 ke qarib bahal hogia"
+   "t": "26 Aug \u00b7 09:42 AM"
   },
   {
    "ts": 1787718921.0,
    "title": "India Gold price today: Gold falls, according to FXStreet data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202608260435",
-   "t": "26 Aug \u00b7 09:35 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
-  },
-  {
-   "ts": 1787718223.0,
-   "title": "Japan\u2019s Kiuchi: CPI expected to gradually rise due to Middle East conditions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japans-kiuchi-cpi-expected-to-gradually-rise-due-to-middle-east-conditions-202608260423",
-   "t": "26 Aug \u00b7 09:23 AM",
-   "ur": "Japan ki cuti: masharq wasta ke haalat ki wajah se CPI mein btadarage azafah matoqa hai."
-  },
-  {
-   "ts": 1787715140.0,
-   "title": "Gold trades with negative bias below $4,650 as USD edges higher ahead of US PCE",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-holds-steady-around-4-650-as-traders-look-to-us-pce-for-fed-rate-cues-202608260332",
-   "t": "26 Aug \u00b7 08:32 AM",
-   "ur": "Gold (sona) $4,650 se niche manfi taasab ke sath tajart karta hai cunkah USD ke kanare US PCE se ziyadah hen"
-  },
-  {
-   "ts": 1787714394.0,
-   "title": "Silver Price Forecast: XAG/USD holds firmly above $69 ahead of US PCE Inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-firmly-above-69-ahead-of-us-pce-inflation-data-202608260319",
-   "t": "26 Aug \u00b7 08:19 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD US PCE inflation (mehngai) ke aed w shmar se pehle $69 ke oper mazbooti se rakta hai"
+   "t": "26 Aug \u00b7 09:35 AM"
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
