@@ -1,16 +1,13 @@
 {
- "updated": "26-08-2026 19:11 PKT",
+ "updated": "26-08-2026 20:00 PKT",
  "gold": {
-  "price": 4623.07,
-  "open": 4624.67,
+  "price": 4607.28,
+  "open": 4635.2,
   "high": 4673.71,
   "low": 4600.66,
-  "chg": -0.03,
+  "chg": -0.6,
   "src": "XAUUSD Spot",
   "spark": [
-   4657.11,
-   4669.83,
-   4658.81,
    4648.5,
    4648.19,
    4647.23,
@@ -55,14 +52,17 @@
    4609.89,
    4620.21,
    4629.8,
-   4623.07
+   4623.5,
+   4618.68,
+   4622.03,
+   4607.28
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.385,
-   "chg": -0.37,
+   "price": 68.11,
+   "chg": -0.77,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.385
+    68.11
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.159,
-   "chg": 0.24,
+   "price": 99.214,
+   "chg": 0.3,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.159
+    99.214
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.4,
-   "chg": -1.17,
+   "price": 81.86,
+   "chg": -0.61,
    "spark": [
     79.26,
     84.46,
@@ -143,13 +143,13 @@
     87.06,
     85.01,
     82.36,
-    81.4
+    81.86
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.664,
-   "chg": 0.54,
+   "price": 4.656,
+   "chg": 0.37,
    "spark": [
     4.604,
     4.622,
@@ -172,13 +172,13 @@
     4.738,
     4.704,
     4.639,
-    4.664
+    4.656
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1655,
-   "chg": -0.11,
+   "price": 1.1648,
+   "chg": -0.17,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1655
+    1.1648
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3599,
-   "chg": -0.29,
+   "price": 1.3588,
+   "chg": -0.37,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3599
+    1.3588
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.382,
-   "chg": 0.15,
+   "price": 159.402,
+   "chg": 0.17,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.382
+    159.402
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2459.38,
-   "chg": 0.69,
+   "price": 2439.64,
+   "chg": -0.12,
    "spark": [
-    2486.32,
     2478.06,
     2469.05,
     2473.7,
@@ -314,15 +313,15 @@
     2462.34,
     2455.31,
     2457.04,
-    2459.38
+    2439.14,
+    2439.64
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78561.1,
-   "chg": 0.07,
+   "price": 77783.2,
+   "chg": -0.93,
    "spark": [
-    79074.1,
     79056.6,
     78746.7,
     78927.8,
@@ -369,7 +368,8 @@
     78480.6,
     78333.5,
     78450.0,
-    78561.1
+    77785.0,
+    77783.2
    ]
   }
  ],
@@ -442,11 +442,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787753497.430751,
+   "ts": 1787756422.346996,
    "title": "Gold slips as traders parse through Fed\u2019s preferred inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 07:11 PM"
+   "t": "26 Aug \u00b7 08:00 PM"
+  },
+  {
+   "ts": 1787756180.0,
+   "title": "Australian Dollar stumbles as hot Australian CPI runs into a firmer US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-stumbles-as-hot-australian-cpi-runs-into-a-firmer-us-dollar-202608261456",
+   "t": "26 Aug \u00b7 07:56 PM"
+  },
+  {
+   "ts": 1787755088.0,
+   "title": "Canadian Dollar falls despite Oil gains as trade tensions take center stage",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-falls-despite-oil-gains-as-trade-tensions-take-center-stage-202608261438",
+   "t": "26 Aug \u00b7 07:38 PM"
+  },
+  {
+   "ts": 1787753939.0,
+   "title": "Japanese Yen reverses earlier gains as US Dollar firms after PCE data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-reverses-earlier-gains-as-us-dollar-firms-after-pce-data-202608261418",
+   "t": "26 Aug \u00b7 07:18 PM"
   },
   {
    "ts": 1787753180.0,
@@ -489,27 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-comes-under-pressure-against-us-dollar-after-mixed-us-pce-data-202608261257",
    "t": "26 Aug \u00b7 05:57 PM"
-  },
-  {
-   "ts": 1787748462.0,
-   "title": "Canadian Dollar: Trade dispute risks weigh on Canada \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-dispute-risks-weigh-on-canada-bny-202608261247",
-   "t": "26 Aug \u00b7 05:47 PM"
-  },
-  {
-   "ts": 1787747236.0,
-   "title": "Australian Dollar: Hot CPI supports carry and RBA risk \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-hot-cpi-supports-carry-and-rba-risk-bbh-202608261227",
-   "t": "26 Aug \u00b7 05:27 PM"
-  },
-  {
-   "ts": 1787744910.0,
-   "title": "US Dollar: Softer energy supports carry trades \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-softer-energy-supports-carry-trades-ing-202608261148",
-   "t": "26 Aug \u00b7 04:48 PM"
   }
  ],
  "sentiment": {
