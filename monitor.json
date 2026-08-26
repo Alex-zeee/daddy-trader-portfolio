@@ -1,19 +1,13 @@
 {
- "updated": "26-08-2026 20:00 PKT",
+ "updated": "26-08-2026 21:17 PKT",
  "gold": {
-  "price": 4607.28,
-  "open": 4635.2,
+  "price": 4598.23,
+  "open": 4641.57,
   "high": 4673.71,
-  "low": 4600.66,
-  "chg": -0.6,
+  "low": 4582.25,
+  "chg": -0.93,
   "src": "XAUUSD Spot",
   "spark": [
-   4648.5,
-   4648.19,
-   4647.23,
-   4644.03,
-   4643.21,
-   4641.86,
    4641.64,
    4639.85,
    4642.04,
@@ -55,14 +49,20 @@
    4623.5,
    4618.68,
    4622.03,
-   4607.28
+   4607.28,
+   4596.89,
+   4595.76,
+   4603.51,
+   4598.21,
+   4597.88,
+   4598.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.11,
-   "chg": -0.77,
+   "price": 67.955,
+   "chg": -0.99,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.11
+    67.955
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.214,
-   "chg": 0.3,
+   "price": 99.158,
+   "chg": 0.24,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.214
+    99.158
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.86,
-   "chg": -0.61,
+   "price": 82.81,
+   "chg": 0.55,
    "spark": [
     79.26,
     84.46,
@@ -143,13 +143,13 @@
     87.06,
     85.01,
     82.36,
-    81.86
+    82.81
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.656,
-   "chg": 0.37,
+   "price": 4.664,
+   "chg": 0.54,
    "spark": [
     4.604,
     4.622,
@@ -172,13 +172,13 @@
     4.738,
     4.704,
     4.639,
-    4.656
+    4.664
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1648,
-   "chg": -0.17,
+   "price": 1.1656,
+   "chg": -0.1,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1648
+    1.1656
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3588,
-   "chg": -0.37,
+   "price": 1.3597,
+   "chg": -0.3,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3588
+    1.3597
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.402,
-   "chg": 0.17,
+   "price": 159.321,
+   "chg": 0.11,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.402
+    159.321
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2439.64,
-   "chg": -0.12,
+   "price": 2448.9,
+   "chg": 0.26,
    "spark": [
-    2478.06,
     2469.05,
     2473.7,
     2469.67,
@@ -314,15 +313,15 @@
     2455.31,
     2457.04,
     2439.14,
-    2439.64
+    2449.96,
+    2448.9
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77783.2,
-   "chg": -0.93,
+   "price": 77999.9,
+   "chg": -0.65,
    "spark": [
-    79056.6,
     78746.7,
     78927.8,
     78742.8,
@@ -369,35 +368,12 @@
     78333.5,
     78450.0,
     77785.0,
-    77783.2
+    78008.8,
+    77999.9
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1787747400.0,
-   "t": "Wed 26 Aug \u00b7 05:30 PM",
-   "title": "Core PCE Price Index m/m",
-   "impact": "High",
-   "forecast": "0.2%",
-   "previous": "0.1%"
-  },
-  {
-   "ts": 1787747400.0,
-   "t": "Wed 26 Aug \u00b7 05:30 PM",
-   "title": "Prelim GDP q/q",
-   "impact": "High",
-   "forecast": "1.5%",
-   "previous": "1.5%"
-  },
-  {
-   "ts": 1787747400.0,
-   "t": "Wed 26 Aug \u00b7 05:30 PM",
-   "title": "Prelim GDP Price Index q/q",
-   "impact": "Medium",
-   "forecast": "6.2%",
-   "previous": "6.2%"
-  },
   {
    "ts": 1787833800.0,
    "t": "Thu 27 Aug \u00b7 05:30 PM",
@@ -442,81 +418,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787756422.346996,
+   "ts": 1787761059.231551,
    "title": "Gold slips as traders parse through Fed\u2019s preferred inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 08:00 PM"
+   "t": "26 Aug \u00b7 09:17 PM",
+   "ur": "Gold (sona) phisal jata hai cunkah taajr Fed ke tarjeehi inflation (mehngai) ke aed w shmar ke zariye tajaziya karte hen."
+  },
+  {
+   "ts": 1787760185.0,
+   "title": "New Zealand Dollar dips, but RBNZ hike bets provide safety net",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-dips-but-rbnz-hike-bets-provide-safety-net-202608261603",
+   "t": "26 Aug \u00b7 09:03 PM",
+   "ur": "Niyozi lind Dollar garta hai, lican RBNZ mein azafe ki shart hafazati jal faraham karti hai."
+  },
+  {
+   "ts": 1787758123.0,
+   "title": "Silver Price Forecast: Buyers struggle below the 100-day SMA",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-buyers-struggle-below-the-100-day-sma-202608261528",
+   "t": "26 Aug \u00b7 08:28 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: khareedar 100 dan ke SMA se niche jadojehad karte hen."
   },
   {
    "ts": 1787756180.0,
    "title": "Australian Dollar stumbles as hot Australian CPI runs into a firmer US Dollar",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-stumbles-as-hot-australian-cpi-runs-into-a-firmer-us-dollar-202608261456",
-   "t": "26 Aug \u00b7 07:56 PM"
+   "t": "26 Aug \u00b7 07:56 PM",
+   "ur": "Aasterilvi Dollar thokar kha raha hai cunkah garm aasterilvi CPI ek mazboot US Dollar mein chala gaya hai."
   },
   {
    "ts": 1787755088.0,
    "title": "Canadian Dollar falls despite Oil gains as trade tensions take center stage",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/canadian-dollar-falls-despite-oil-gains-as-trade-tensions-take-center-stage-202608261438",
-   "t": "26 Aug \u00b7 07:38 PM"
+   "t": "26 Aug \u00b7 07:38 PM",
+   "ur": "Caniden Dollar til mein azafe ke bawajud garta hai cunkah tajarti tanao markazi sath par hota hai."
   },
   {
    "ts": 1787753939.0,
    "title": "Japanese Yen reverses earlier gains as US Dollar firms after PCE data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-reverses-earlier-gains-as-us-dollar-firms-after-pce-data-202608261418",
-   "t": "26 Aug \u00b7 07:18 PM"
+   "t": "26 Aug \u00b7 07:18 PM",
+   "ur": "Japani yan ne PCE deta ke bad US Dollar farmon ke tur par pehle ke fawaid ko tabadil kar diya."
   },
   {
    "ts": 1787753180.0,
    "title": "US Dollar: Pressure builds as risk premia rise \u2013 ABN AMRO",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-pressure-builds-as-risk-premia-rise-abn-amro-202608261406",
-   "t": "26 Aug \u00b7 07:06 PM"
+   "t": "26 Aug \u00b7 07:06 PM",
+   "ur": "US Dollar: khatre ki parimiya mein azafe ke sath dabao badhta hai - ABN AMRO"
   },
   {
    "ts": 1787753153.0,
    "title": "Neither a confirmed hike nor a guaranteed pause: Why the Australian Dollar is climbing toward 0.7200",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/neither-a-confirmed-hike-nor-a-guaranteed-pause-why-the-australian-dollar-is-climbing-toward-07200-202608261405",
-   "t": "26 Aug \u00b7 07:05 PM"
+   "t": "26 Aug \u00b7 07:05 PM",
+   "ur": "Na to koi tasadiq shdah azafah aur na hi koi yaqeeni toqf: kiyon aasterilvi Dollar 0.7200 ki taraf badh raha hai"
   },
   {
    "ts": 1787751350.0,
    "title": "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
-   "t": "26 Aug \u00b7 06:35 PM"
+   "t": "26 Aug \u00b7 06:35 PM",
+   "ur": "Fed ki tarjeehi inflation (mehngai) ka andazah zaahar karta hai kah baniyadi qeemton mein joli mein salana 3.3 fisad azafah hawa"
   },
   {
    "ts": 1787751342.0,
    "title": "British Pound weakens against US Dollar as headline PCE beats forecasts",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-weakens-against-us-dollar-as-headline-pce-beats-forecasts-202608261335",
-   "t": "26 Aug \u00b7 06:35 PM"
-  },
-  {
-   "ts": 1787749181.0,
-   "title": "Gold slips as sticky US PCE inflation fails to boost Fed rate-hike expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-slips-as-sticky-us-pce-inflation-fails-to-boost-fed-rate-hike-expectations-202608261259",
-   "t": "26 Aug \u00b7 05:59 PM"
-  },
-  {
-   "ts": 1787749058.0,
-   "title": "Euro comes under pressure against US Dollar after mixed US PCE data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-comes-under-pressure-against-us-dollar-after-mixed-us-pce-data-202608261257",
-   "t": "26 Aug \u00b7 05:57 PM"
+   "t": "26 Aug \u00b7 06:35 PM",
+   "ur": "Bartanvi pound US Dollar ke maqable mein kamazor ho gaya hai cunkah sarkhi PCE ne forecast ko mat di hai."
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
