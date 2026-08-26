@@ -1,17 +1,13 @@
 {
- "updated": "26-08-2026 17:22 PKT",
+ "updated": "26-08-2026 18:30 PKT",
  "gold": {
-  "price": 4628.11,
-  "open": 4636.05,
+  "price": 4607.91,
+  "open": 4616.27,
   "high": 4673.71,
-  "low": 4607.66,
-  "chg": -0.17,
+  "low": 4600.66,
+  "chg": -0.18,
   "src": "XAUUSD Spot",
   "spark": [
-   4637.02,
-   4638.16,
-   4643.82,
-   4646.35,
    4645.37,
    4661.01,
    4660.55,
@@ -55,14 +51,18 @@
    4619.25,
    4625.08,
    4627.27,
-   4628.11
+   4629.2,
+   4622.68,
+   4615.88,
+   4610.49,
+   4607.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.735,
-   "chg": 0.14,
+   "price": 68.165,
+   "chg": -0.69,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.735
+    68.165
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.976,
-   "chg": 0.06,
+   "price": 99.097,
+   "chg": 0.18,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    98.976
+    99.097
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.5,
-   "chg": -2.26,
+   "price": 80.75,
+   "chg": -1.95,
    "spark": [
     79.26,
     84.46,
@@ -143,15 +143,14 @@
     87.06,
     85.01,
     82.36,
-    80.5
+    80.75
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.639,
-   "chg": -1.38,
+   "price": 4.654,
+   "chg": 0.32,
    "spark": [
-    4.641,
     4.604,
     4.622,
     4.663,
@@ -172,13 +171,14 @@
     4.696,
     4.738,
     4.704,
-    4.639
+    4.639,
+    4.654
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1677,
-   "chg": 0.07,
+   "price": 1.1662,
+   "chg": -0.06,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1677
+    1.1662
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3632,
-   "chg": -0.04,
+   "price": 1.3607,
+   "chg": -0.23,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3632
+    1.3607
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.012,
-   "chg": -0.08,
+   "price": 159.269,
+   "chg": 0.08,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.012
+    159.269
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2464.27,
-   "chg": 0.89,
+   "price": 2449.0,
+   "chg": 0.26,
    "spark": [
-    2493.31,
     2515.4,
     2486.32,
     2478.06,
@@ -314,15 +313,15 @@
     2447.39,
     2468.56,
     2462.34,
-    2464.27
+    2455.31,
+    2449.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78520.1,
-   "chg": 0.01,
+   "price": 78152.0,
+   "chg": -0.46,
    "spark": [
-    78577.6,
     79488.9,
     79074.1,
     79056.6,
@@ -369,7 +368,8 @@
     78434.8,
     78716.5,
     78480.6,
-    78520.1
+    78333.5,
+    78152.0
    ]
   }
  ],
@@ -442,11 +442,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787746978.438155,
+   "ts": 1787751008.645832,
    "title": "Gold slips ahead of key inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 05:22 PM"
+   "t": "26 Aug \u00b7 06:30 PM"
+  },
+  {
+   "ts": 1787749708.0,
+   "title": "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+   "t": "26 Aug \u00b7 06:08 PM"
+  },
+  {
+   "ts": 1787749181.0,
+   "title": "Gold slips as sticky US PCE inflation fails to boost Fed rate-hike expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-slips-as-sticky-us-pce-inflation-fails-to-boost-fed-rate-hike-expectations-202608261259",
+   "t": "26 Aug \u00b7 05:59 PM"
+  },
+  {
+   "ts": 1787749058.0,
+   "title": "Euro comes under pressure against US Dollar after mixed US PCE data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-comes-under-pressure-against-us-dollar-after-mixed-us-pce-data-202608261257",
+   "t": "26 Aug \u00b7 05:57 PM"
+  },
+  {
+   "ts": 1787748462.0,
+   "title": "Canadian Dollar: Trade dispute risks weigh on Canada \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-trade-dispute-risks-weigh-on-canada-bny-202608261247",
+   "t": "26 Aug \u00b7 05:47 PM"
+  },
+  {
+   "ts": 1787747236.0,
+   "title": "Australian Dollar: Hot CPI supports carry and RBA risk \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-hot-cpi-supports-carry-and-rba-risk-bbh-202608261227",
+   "t": "26 Aug \u00b7 05:27 PM"
   },
   {
    "ts": 1787744910.0,
@@ -475,41 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-rba-tightening-risks-rise-td-securities-202608261128",
    "t": "26 Aug \u00b7 04:28 PM"
-  },
-  {
-   "ts": 1787743041.0,
-   "title": "US Dollar Index: Range-bound consolidation as PCE looms \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-range-bound-consolidation-as-pce-looms-bbh-202608261117",
-   "t": "26 Aug \u00b7 04:17 PM"
-  },
-  {
-   "ts": 1787742430.0,
-   "title": "Gold slips ahead of US PCE as US Dollar firms modestly",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-slips-ahead-of-us-pce-as-us-dollar-firms-modestly-202608261107",
-   "t": "26 Aug \u00b7 04:07 PM"
-  },
-  {
-   "ts": 1787739156.0,
-   "title": "Gold Price Forecast: XAU/USD corrects to near $4,620 in countdown to US PCE Inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-corrects-to-near-4-620-in-countdown-to-us-pce-inflation-data-202608261012",
-   "t": "26 Aug \u00b7 03:12 PM"
-  },
-  {
-   "ts": 1787738696.0,
-   "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-boj-hike-expectations-support-jpy-against-us-dollar-mufg-202608261004",
-   "t": "26 Aug \u00b7 03:04 PM"
-  },
-  {
-   "ts": 1787738104.0,
-   "title": "Australian Dollar: Watching 0.7200 resistance against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-watching-07200-resistance-against-us-dollar-uob-202608260955",
-   "t": "26 Aug \u00b7 02:55 PM"
   }
  ],
  "sentiment": {
