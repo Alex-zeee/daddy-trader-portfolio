@@ -1,16 +1,13 @@
 {
- "updated": "26-08-2026 13:04 PKT",
+ "updated": "26-08-2026 13:58 PKT",
  "gold": {
-  "price": 4629.32,
-  "open": 4625.37,
+  "price": 4626.85,
+  "open": 4629.15,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": 0.09,
+  "chg": -0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   4662.52,
-   4660.97,
-   4658.64,
    4658.65,
    4658.78,
    4658.65,
@@ -55,14 +52,17 @@
    4631.95,
    4630.59,
    4629.19,
-   4629.32
+   4627.88,
+   4628.92,
+   4628.97,
+   4626.85
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.675,
-   "chg": 0.06,
+   "price": 68.585,
+   "chg": -0.07,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.675
+    68.585
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.971,
-   "chg": 0.05,
+   "price": 98.955,
+   "chg": 0.04,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    98.971
+    98.955
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.0,
-   "chg": -2.87,
+   "price": 79.88,
+   "chg": -3.01,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    80.0
+    79.88
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1675,
-   "chg": 0.06,
+   "price": 1.1674,
+   "chg": 0.05,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1675
+    1.1674
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3633,
-   "chg": -0.04,
+   "price": 1.3628,
+   "chg": -0.07,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3633
+    1.3628
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.974,
-   "chg": -0.1,
+   "price": 159.015,
+   "chg": -0.08,
    "spark": [
     163.771,
     163.864,
@@ -259,13 +259,13 @@
     158.883,
     158.904,
     159.139,
-    158.974
+    159.015
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2461.15,
-   "chg": 0.76,
+   "price": 2454.2,
+   "chg": 0.48,
    "spark": [
     2462.24,
     2464.1,
@@ -314,13 +314,13 @@
     2464.45,
     2459.5,
     2461.32,
-    2461.15
+    2454.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78884.8,
-   "chg": 0.48,
+   "price": 78655.9,
+   "chg": 0.19,
    "spark": [
     77534.9,
     77610.9,
@@ -369,7 +369,7 @@
     79070.6,
     78932.9,
     78917.8,
-    78884.8
+    78655.9
    ]
   }
  ],
@@ -442,89 +442,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787731487.061019,
+   "ts": 1787734699.567624,
    "title": "Silver stalls below $70.00 double top: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 01:04 PM",
-   "ur": "Salor rak gaya hai $70.00 dabl tap se niche"
+   "t": "26 Aug \u00b7 01:58 PM"
   },
   {
-   "ts": 1787731487.061019,
+   "ts": 1787734699.567624,
    "title": "Gold tests $4,692 as bull flag meets MACD warning: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
-   "t": "26 Aug \u00b7 01:04 PM",
-   "ur": "Gold $4,692 test karta hai cunkah bel fileg MACD warning ko pora karta hai."
+   "t": "26 Aug \u00b7 01:58 PM"
   },
   {
-   "ts": 1787731487.061019,
-   "title": "Gold slips but stays near 3-month high as oil, yields ease inflation pressure",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 01:04 PM",
-   "ur": "Gold (sona) phisalta hai lican til ki tarah 3 mah ki balandi ke qarib rahta hai, inflation (mehngai) ke dabao ko kam karta hai"
-  },
-  {
-   "ts": 1787731475.0,
-   "title": "Japanese Yen: Range-bound trading outlook against US Dollar \u2013 UOB",
+   "ts": 1787734623.0,
+   "title": "Silver Price Forecast: XAG/USD bulls await break above $70.00 amid mixed setup",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-range-bound-trading-outlook-against-us-dollar-uob-202608260804",
-   "t": "26 Aug \u00b7 01:04 PM",
-   "ur": "Japani yan: US Dollar - UOB ke khalaf had se manslk tajarti naqatah nazar"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bulls-await-break-above-7000-amid-mixed-setup-202608260857",
+   "t": "26 Aug \u00b7 01:57 PM"
   },
   {
-   "ts": 1787731200.0,
-   "title": "US core PCE inflation set to keep pressure on the Federal Reserve to hike interest rates",
+   "ts": 1787734080.0,
+   "title": "Swiss Franc ticks up against US Dollar despite bright Swiss ZEW economic expectations",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-core-pce-inflation-set-to-keep-pressure-on-the-federal-reserve-to-hike-interest-rates-202608260800",
-   "t": "26 Aug \u00b7 01:00 PM",
-   "ur": "US kor PCE inflation (mehngai) ki rate sud mein azafe ke liye faderl resero par dabao barqarar rakhane ke liye tyar hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-ticks-up-against-us-dollar-despite-bright-swiss-zew-economic-expectations-202608260848",
+   "t": "26 Aug \u00b7 01:48 PM"
   },
   {
-   "ts": 1787731106.0,
-   "title": "US Dollar Index Price Forecast: Bears prevail with the 200-day SMA capping rallies",
+   "ts": 1787734059.0,
+   "title": "Australian Dollar remains stronger as CPI YoY climbs in July",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-bears-prevail-with-the-200-day-sma-capping-rallies-202608260758",
-   "t": "26 Aug \u00b7 12:58 PM",
-   "ur": "US Dollar andex qeemat ki forecast: 200 dan ki SMA caping riliyon ke sath bears ghalb"
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-stronger-as-cpi-yoy-climbs-in-july-202608260847",
+   "t": "26 Aug \u00b7 01:47 PM"
   },
   {
-   "ts": 1787730142.0,
-   "title": "Silver Price Forecast: XAG/USD rises to near $69.00 ahead of US PCE inflation data",
+   "ts": 1787733409.0,
+   "title": "Australian Dollar: RBA risks seen underpriced \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6900-ahead-of-us-pce-inflation-data-202608260742",
-   "t": "26 Aug \u00b7 12:42 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD US PCE inflation (mehngai) ke aed w shmar se pehle badh kar $69.00 ke qarib ho gaya"
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-risks-seen-underpriced-mufg-202608260836",
+   "t": "26 Aug \u00b7 01:36 PM"
   },
   {
-   "ts": 1787729390.0,
-   "title": "US Dollar: Buyback impact stays marginal \u2013 BNY",
+   "ts": 1787732926.0,
+   "title": "Euro advances against Canadian Dollar amid falling oil prices",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-buyback-impact-stays-marginal-bny-202608260729",
-   "t": "26 Aug \u00b7 12:29 PM",
-   "ur": "US Dollar: bai bek ka asar mamoli rahta hai \u2013 BNY"
+   "link": "https://www.fxstreet.com/news/euro-advances-against-canadian-dollar-amid-falling-oil-prices-202608260828",
+   "t": "26 Aug \u00b7 01:28 PM"
   },
   {
-   "ts": 1787728158.0,
-   "title": "Euro: Holds near 1.1670 against US Dollar as rate moves offset - Danske Bank",
+   "ts": 1787732141.0,
+   "title": "Forex Today: US Dollar extends consolidation ahead of key inflation data, Nvidia earnings",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-holds-near-11670-against-us-dollar-as-rate-moves-offset-danske-bank-202608260709",
-   "t": "26 Aug \u00b7 12:09 PM",
-   "ur": "Uro: US Dollar ke maqable mein 1.1670 ke qarib hai cunkah ret af set ho jata hai - dansk Bank"
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-extends-consolidation-ahead-of-key-inflation-data-nvidia-earnings-202608260815",
+   "t": "26 Aug \u00b7 01:15 PM"
   },
   {
-   "ts": 1787727711.0,
-   "title": "ECB sets for September rate hike with no appetite to signal more \u2013 RTE",
+   "ts": 1787731979.0,
+   "title": "Euro: Schnabel\u2019s upbeat tone supports against US Dollar \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecb-sets-for-september-rate-hike-with-no-appetite-to-signal-more-rte-202608260701",
-   "t": "26 Aug \u00b7 12:01 PM",
-   "ur": "ECB mazid ashare ki bhok ke baghair stambr ki rate mein azafe ka tayin karta hai - RTE"
+   "link": "https://www.fxstreet.com/news/euro-schnabels-upbeat-tone-supports-against-us-dollar-ing-202608260812",
+   "t": "26 Aug \u00b7 01:12 PM"
+  },
+  {
+   "ts": 1787731587.0,
+   "title": "Dow Jones futures hold flat as traders await US PCE inflation data, Nvidia earnings",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-futures-hold-flat-as-traders-await-us-pce-inflation-data-nvidia-earnings-202608260806",
+   "t": "26 Aug \u00b7 01:06 PM"
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
