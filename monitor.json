@@ -1,16 +1,13 @@
 {
- "updated": "26-08-2026 15:16 PKT",
+ "updated": "26-08-2026 15:56 PKT",
  "gold": {
-  "price": 4618.24,
-  "open": 4636.0,
+  "price": 4623.01,
+  "open": 4641.17,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": -0.38,
+  "chg": -0.39,
   "src": "XAUUSD Spot",
   "spark": [
-   4666.73,
-   4669.45,
-   4673.33,
    4668.28,
    4660.86,
    4656.41,
@@ -55,14 +52,17 @@
    4617.81,
    4621.84,
    4624.08,
-   4618.24
+   4618.24,
+   4615.01,
+   4621.16,
+   4623.01
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.595,
-   "chg": -0.06,
+   "price": 68.54,
+   "chg": -0.14,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.595
+    68.54
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.997,
-   "chg": 0.08,
+   "price": 99.024,
+   "chg": 0.11,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    98.997
+    99.024
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.14,
-   "chg": -2.7,
+   "price": 80.19,
+   "chg": -2.63,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    80.14
+    80.19
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1669,
-   "chg": 0.0,
+   "price": 1.1666,
+   "chg": -0.02,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1669
+    1.1666
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3623,
-   "chg": -0.11,
+   "price": 1.362,
+   "chg": -0.13,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3623
+    1.362
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.001,
-   "chg": -0.09,
+   "price": 159.111,
+   "chg": -0.02,
    "spark": [
     163.771,
     163.864,
@@ -259,13 +259,13 @@
     158.883,
     158.904,
     159.139,
-    159.001
+    159.111
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2449.08,
-   "chg": 0.27,
+   "price": 2468.44,
+   "chg": 1.06,
    "spark": [
     2493.77,
     2511.25,
@@ -314,13 +314,13 @@
     2461.32,
     2455.94,
     2447.39,
-    2449.08
+    2468.44
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78439.0,
-   "chg": -0.09,
+   "price": 78719.5,
+   "chg": 0.27,
    "spark": [
     78424.2,
     79130.8,
@@ -369,7 +369,7 @@
     78917.8,
     78686.1,
     78434.8,
-    78439.0
+    78719.5
    ]
   }
  ],
@@ -442,81 +442,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787739371.843721,
+   "ts": 1787741817.676377,
    "title": "Gold slips ahead of key inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 03:16 PM"
-  },
-  {
-   "ts": 1787739371.843721,
-   "title": "Silver stalls below $70.00 double top: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 03:16 PM"
+   "t": "26 Aug \u00b7 03:56 PM",
+   "ur": "Gold (sona) mahungai ke aham aed w shmar se aage nikal gaya."
   },
   {
    "ts": 1787739156.0,
    "title": "Gold Price Forecast: XAU/USD corrects to near $4,620 in countdown to US PCE Inflation data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-corrects-to-near-4-620-in-countdown-to-us-pce-inflation-data-202608261012",
-   "t": "26 Aug \u00b7 03:12 PM"
+   "t": "26 Aug \u00b7 03:12 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD US PCE inflation (mehngai) ke aed w shmar ki alti ganti mein $4,620 ke qarib"
   },
   {
    "ts": 1787738696.0,
    "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar \u2013 MUFG",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-boj-hike-expectations-support-jpy-against-us-dollar-mufg-202608261004",
-   "t": "26 Aug \u00b7 03:04 PM"
+   "t": "26 Aug \u00b7 03:04 PM",
+   "ur": "Japani yan: BoJ mein azafe ki toqaat US Dollar - MUFG ke maqable mein JPY ki support karti hen."
   },
   {
    "ts": 1787738104.0,
    "title": "Australian Dollar: Watching 0.7200 resistance against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-watching-07200-resistance-against-us-dollar-uob-202608260955",
-   "t": "26 Aug \u00b7 02:55 PM"
+   "t": "26 Aug \u00b7 02:55 PM",
+   "ur": "Aasterilvi Dollar: US Dollar ke khalaf 0.7200 mazahmat dekh raha hai - UOB"
   },
   {
    "ts": 1787736816.0,
    "title": "Silver price today: Silver falls, according to FXStreet data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608260933",
-   "t": "26 Aug \u00b7 02:33 PM"
+   "t": "26 Aug \u00b7 02:33 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   },
   {
    "ts": 1787736346.0,
    "title": "US Dollar Index: Range trade persists as data soft \u2013 DBS",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-index-range-trade-persists-as-data-soft-dbs-202608260925",
-   "t": "26 Aug \u00b7 02:25 PM"
+   "t": "26 Aug \u00b7 02:25 PM",
+   "ur": "US Dollar andex: rinj tred deta narm ke tur par barqarar rahta hai - DBS"
   },
   {
    "ts": 1787734741.0,
    "title": "US Dollar: Shaky basis trade risks weigh \u2013 Commerzbank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-shaky-basis-trade-risks-weigh-commerzbank-202608260859",
-   "t": "26 Aug \u00b7 01:59 PM"
+   "t": "26 Aug \u00b7 01:59 PM",
+   "ur": "US Dollar: mutazlzal baniyadon par tajarti khatrat ka wazin - kamers Bank"
   },
   {
    "ts": 1787734623.0,
    "title": "Silver Price Forecast: XAG/USD bulls await break above $70.00 amid mixed setup",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bulls-await-break-above-7000-amid-mixed-setup-202608260857",
-   "t": "26 Aug \u00b7 01:57 PM"
+   "t": "26 Aug \u00b7 01:57 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD bel mukhaloot set ap ke darmiyan $70.00 se oper ke waqafe ka antezar kar rahe hen"
   },
   {
    "ts": 1787734080.0,
    "title": "Swiss Franc ticks up against US Dollar despite bright Swiss ZEW economic expectations",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-ticks-up-against-us-dollar-despite-bright-swiss-zew-economic-expectations-202608260848",
-   "t": "26 Aug \u00b7 01:48 PM"
+   "t": "26 Aug \u00b7 01:48 PM",
+   "ur": "Sois ZEW ki rotion aqtasadi toqaat ke bawajud sois farank US Dollar ke maqable mein tic raha hai."
+  },
+  {
+   "ts": 1787734059.0,
+   "title": "Australian Dollar remains stronger as CPI YoY climbs in July",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-stronger-as-cpi-yoy-climbs-in-july-202608260847",
+   "t": "26 Aug \u00b7 01:47 PM",
+   "ur": "Joli mein CPI YoY chadhane par aasteriliyai Dollar mazboot rahta hai."
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
