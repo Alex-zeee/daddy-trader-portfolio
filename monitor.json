@@ -1,17 +1,13 @@
 {
- "updated": "26-08-2026 11:26 PKT",
+ "updated": "26-08-2026 12:22 PKT",
  "gold": {
-  "price": 4627.27,
-  "open": 4652.05,
+  "price": 4633.03,
+  "open": 4638.72,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": -0.53,
+  "chg": -0.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4650.23,
-   4654.44,
-   4660.61,
-   4661.14,
    4662.86,
    4666.55,
    4666.91,
@@ -55,43 +51,18 @@
    4639.68,
    4639.25,
    4638.46,
-   4627.27
+   4626.03,
+   4633.55,
+   4633.72,
+   4636.22,
+   4633.03
   ]
  },
  "markets": [
   {
-   "name": "Silver (fut)",
-   "price": 68.96,
-   "chg": 0.47,
-   "spark": [
-    57.296,
-    57.863,
-    58.815,
-    57.591,
-    57.667,
-    60.056,
-    62.099,
-    61.439,
-    63.332,
-    65.106,
-    64.769,
-    65.555,
-    64.873,
-    64.988,
-    66.121,
-    63.941,
-    65.734,
-    68.026,
-    69.466,
-    68.541,
-    68.636,
-    68.96
-   ]
-  },
-  {
    "name": "Dollar Index",
-   "price": 99.0,
-   "chg": 0.08,
+   "price": 98.951,
+   "chg": 0.03,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +85,13 @@
     98.8,
     99.0,
     98.92,
-    99.0
+    98.951
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.85,
-   "chg": -1.83,
+   "price": 80.33,
+   "chg": -2.46,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +114,7 @@
     87.06,
     85.01,
     82.36,
-    80.85
+    80.33
    ]
   },
   {
@@ -177,8 +148,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1667,
-   "chg": -0.01,
+   "price": 1.1673,
+   "chg": 0.04,
    "spark": [
     1.1369,
     1.1387,
@@ -201,42 +172,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1667
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3631,
-   "chg": -0.05,
-   "spark": [
-    1.329,
-    1.3287,
-    1.3367,
-    1.3461,
-    1.3492,
-    1.3427,
-    1.3451,
-    1.347,
-    1.3455,
-    1.3491,
-    1.3511,
-    1.351,
-    1.3498,
-    1.3491,
-    1.3547,
-    1.355,
-    1.3537,
-    1.36,
-    1.3643,
-    1.3654,
-    1.3638,
-    1.3631
+    1.1673
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.055,
-   "chg": -0.05,
+   "price": 159.012,
+   "chg": -0.08,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +201,14 @@
     158.883,
     158.904,
     159.139,
-    159.055
+    159.012
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2456.58,
-   "chg": 0.57,
+   "price": 2464.61,
+   "chg": 0.9,
    "spark": [
-    2454.22,
     2453.96,
     2462.24,
     2464.1,
@@ -314,15 +255,15 @@
     2465.19,
     2456.73,
     2464.45,
-    2456.58
+    2459.5,
+    2464.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78889.5,
-   "chg": 0.48,
+   "price": 78980.6,
+   "chg": 0.6,
    "spark": [
-    77303.3,
     77029.2,
     77534.9,
     77610.9,
@@ -369,7 +310,8 @@
     79089.2,
     78816.5,
     79070.6,
-    78889.5
+    78932.9,
+    78980.6
    ]
   }
  ],
@@ -442,81 +384,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787725567.501192,
+   "ts": 1787728950.717703,
+   "title": "Silver stalls below $70.00 double top: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
+   "t": "26 Aug \u00b7 12:22 PM",
+   "ur": "Salor rak gaya hai $70.00 dabl tap se niche"
+  },
+  {
+   "ts": 1787728950.717703,
+   "title": "Gold tests $4,692 as bull flag meets MACD warning: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
+   "t": "26 Aug \u00b7 12:22 PM",
+   "ur": "Gold $4,692 test karta hai cunkah bel fileg MACD warning ko pora karta hai."
+  },
+  {
+   "ts": 1787728950.717703,
    "title": "Gold slips but stays near 3-month high as oil, yields ease inflation pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 11:26 AM"
+   "t": "26 Aug \u00b7 12:22 PM",
+   "ur": "Gold (sona) phisalta hai lican til ki tarah 3 mah ki balandi ke qarib rahta hai, inflation (mehngai) ke dabao ko kam karta hai"
   },
   {
-   "ts": 1787725567.501192,
-   "title": "Gold prices tick up marginally amid weaker dollar, falling oil, and sliding yields",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "26 Aug \u00b7 11:26 AM"
+   "ts": 1787728158.0,
+   "title": "Euro: Holds near 1.1670 against US Dollar as rate moves offset - Danske Bank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-holds-near-11670-against-us-dollar-as-rate-moves-offset-danske-bank-202608260709",
+   "t": "26 Aug \u00b7 12:09 PM",
+   "ur": "Uro: US Dollar ke maqable mein 1.1670 ke qarib hai cunkah ret af set ho jata hai - dansk Bank"
+  },
+  {
+   "ts": 1787727711.0,
+   "title": "ECB sets for September rate hike with no appetite to signal more \u2013 RTE",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/ecb-sets-for-september-rate-hike-with-no-appetite-to-signal-more-rte-202608260701",
+   "t": "26 Aug \u00b7 12:01 PM",
+   "ur": "ECB ne stambr ki rate mein azafe ke liye set kiya hai jas mein mazid ashare ki bhok nihen hai \u2013 RTE"
+  },
+  {
+   "ts": 1787727360.0,
+   "title": "British Pound: Upside remains intact above 1.3605 against US Dollar - UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-upside-remains-intact-above-13605-against-us-dollar-uob-202608260656",
+   "t": "26 Aug \u00b7 11:56 AM",
+   "ur": "Bartanvi pound: US Dollar ke maqable mein 1.3605 se oper ki balandi barqarar hai - UOB"
+  },
+  {
+   "ts": 1787726366.0,
+   "title": "US Dollar: Core PCE and Warsh remarks in focus \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-core-pce-and-warsh-remarks-in-focus-ocbc-202608260639",
+   "t": "26 Aug \u00b7 11:39 AM",
+   "ur": "US Dollar: baniyadi PCE aur warsh rimarks an fox \u2013 OCBC"
+  },
+  {
+   "ts": 1787725846.0,
+   "title": "Australian Dollar: RBA waits as inflation sticks \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-waits-as-inflation-sticks-commerzbank-202608260630",
+   "t": "26 Aug \u00b7 11:30 AM",
+   "ur": "Aasterilvi Dollar: aar bi aye mahungai barqarar rahne ka antezar kar raha hai - kamers Bank"
   },
   {
    "ts": 1787725497.0,
    "title": "Canadian Dollar gives away gains amid lower oil prices, fresh trade tensions",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/canadian-dollar-gives-away-gains-amid-lower-oil-prices-fresh-trade-tensions-202608260624",
-   "t": "26 Aug \u00b7 11:24 AM"
+   "t": "26 Aug \u00b7 11:24 AM",
+   "ur": "Caniden Dollar til ki kam qeemton, taazah tajarti tanao ke darmiyan faidah dita hai."
   },
   {
    "ts": 1787724804.0,
    "title": "Euro weakens against Japanese Yen amid firm BoJ interest rate hike prospects",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-weakens-against-japanese-yen-amid-firm-boj-interest-rate-hike-prospects-202608260613",
-   "t": "26 Aug \u00b7 11:13 AM"
-  },
-  {
-   "ts": 1787724749.0,
-   "title": "Euro: Upside bias toward 1.1725 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-bias-toward-11725-against-us-dollar-uob-202608260612",
-   "t": "26 Aug \u00b7 11:12 AM"
-  },
-  {
-   "ts": 1787723317.0,
-   "title": "AUD/USD Price Forecast: Hot Australian CPI data boosts hawkish RBA bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/aud-usd-price-forecast-hot-australian-cpi-data-boosts-hawkish-rba-bets-202608260548",
-   "t": "26 Aug \u00b7 10:48 AM"
-  },
-  {
-   "ts": 1787722877.0,
-   "title": "ECB's Schnabel: Inflation likely to top 2% for extended period",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-schnabel-inflation-likely-to-top-2-for-extended-period-202608260541",
-   "t": "26 Aug \u00b7 10:41 AM"
-  },
-  {
-   "ts": 1787722139.0,
-   "title": "Swiss Franc weakens as US Dollar gains ahead of PCE inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-us-dollar-gains-ahead-of-pce-inflation-data-202608260528",
-   "t": "26 Aug \u00b7 10:28 AM"
-  },
-  {
-   "ts": 1787719371.0,
-   "title": "United States Dollar Index recovers to near 99.00 ahead of US PCE inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-recovers-to-near-9900-ahead-of-us-pce-inflation-data-202608260442",
-   "t": "26 Aug \u00b7 09:42 AM"
-  },
-  {
-   "ts": 1787718921.0,
-   "title": "India Gold price today: Gold falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202608260435",
-   "t": "26 Aug \u00b7 09:35 AM"
+   "t": "26 Aug \u00b7 11:13 AM",
+   "ur": "Farm BoJ rate sud mein azafe ke amkanat ke darmiyan uro japani yan ke maqable mein kamazor hai."
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
