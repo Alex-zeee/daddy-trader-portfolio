@@ -1,16 +1,13 @@
 {
- "updated": "26-08-2026 18:30 PKT",
+ "updated": "26-08-2026 19:11 PKT",
  "gold": {
-  "price": 4607.91,
-  "open": 4616.27,
+  "price": 4623.07,
+  "open": 4624.67,
   "high": 4673.71,
   "low": 4600.66,
-  "chg": -0.18,
+  "chg": -0.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4645.37,
-   4661.01,
-   4660.55,
    4657.11,
    4669.83,
    4658.81,
@@ -55,14 +52,17 @@
    4622.68,
    4615.88,
    4610.49,
-   4607.91
+   4609.89,
+   4620.21,
+   4629.8,
+   4623.07
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.165,
-   "chg": -0.69,
+   "price": 68.385,
+   "chg": -0.37,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.165
+    68.385
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.097,
-   "chg": 0.18,
+   "price": 99.159,
+   "chg": 0.24,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.097
+    99.159
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.75,
-   "chg": -1.95,
+   "price": 81.4,
+   "chg": -1.17,
    "spark": [
     79.26,
     84.46,
@@ -143,13 +143,13 @@
     87.06,
     85.01,
     82.36,
-    80.75
+    81.4
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.654,
-   "chg": 0.32,
+   "price": 4.664,
+   "chg": 0.54,
    "spark": [
     4.604,
     4.622,
@@ -172,13 +172,13 @@
     4.738,
     4.704,
     4.639,
-    4.654
+    4.664
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1662,
-   "chg": -0.06,
+   "price": 1.1655,
+   "chg": -0.11,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1662
+    1.1655
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3607,
-   "chg": -0.23,
+   "price": 1.3599,
+   "chg": -0.29,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3607
+    1.3599
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.269,
-   "chg": 0.08,
+   "price": 159.382,
+   "chg": 0.15,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.269
+    159.382
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2449.0,
-   "chg": 0.26,
+   "price": 2459.38,
+   "chg": 0.69,
    "spark": [
-    2515.4,
     2486.32,
     2478.06,
     2469.05,
@@ -314,15 +313,15 @@
     2468.56,
     2462.34,
     2455.31,
-    2449.0
+    2457.04,
+    2459.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78152.0,
-   "chg": -0.46,
+   "price": 78561.1,
+   "chg": 0.07,
    "spark": [
-    79488.9,
     79074.1,
     79056.6,
     78746.7,
@@ -369,7 +368,8 @@
     78716.5,
     78480.6,
     78333.5,
-    78152.0
+    78450.0,
+    78561.1
    ]
   }
  ],
@@ -442,18 +442,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787751008.645832,
-   "title": "Gold slips ahead of key inflation data",
+   "ts": 1787753497.430751,
+   "title": "Gold slips as traders parse through Fed\u2019s preferred inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 06:30 PM"
+   "t": "26 Aug \u00b7 07:11 PM"
   },
   {
-   "ts": 1787749708.0,
+   "ts": 1787753180.0,
+   "title": "US Dollar: Pressure builds as risk premia rise \u2013 ABN AMRO",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-pressure-builds-as-risk-premia-rise-abn-amro-202608261406",
+   "t": "26 Aug \u00b7 07:06 PM"
+  },
+  {
+   "ts": 1787753153.0,
+   "title": "Neither a confirmed hike nor a guaranteed pause: Why the Australian Dollar is climbing toward 0.7200",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/neither-a-confirmed-hike-nor-a-guaranteed-pause-why-the-australian-dollar-is-climbing-toward-07200-202608261405",
+   "t": "26 Aug \u00b7 07:05 PM"
+  },
+  {
+   "ts": 1787751350.0,
    "title": "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
-   "t": "26 Aug \u00b7 06:08 PM"
+   "t": "26 Aug \u00b7 06:35 PM"
+  },
+  {
+   "ts": 1787751342.0,
+   "title": "British Pound weakens against US Dollar as headline PCE beats forecasts",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-weakens-against-us-dollar-as-headline-pce-beats-forecasts-202608261335",
+   "t": "26 Aug \u00b7 06:35 PM"
   },
   {
    "ts": 1787749181.0,
@@ -489,27 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-softer-energy-supports-carry-trades-ing-202608261148",
    "t": "26 Aug \u00b7 04:48 PM"
-  },
-  {
-   "ts": 1787744417.0,
-   "title": "Euro: ECB tightening outlook offers support against US Dollar - BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-ecb-tightening-outlook-offers-support-against-us-dollar-bny-202608261140",
-   "t": "26 Aug \u00b7 04:40 PM"
-  },
-  {
-   "ts": 1787744381.0,
-   "title": "Japanese Yen treads water around 159.00 with US PCE Inflation on tap",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-treads-water-around-15900-with-us-pce-inflation-on-tap-202608261139",
-   "t": "26 Aug \u00b7 04:39 PM"
-  },
-  {
-   "ts": 1787743702.0,
-   "title": "Australian Dollar: RBA tightening risks rise \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-tightening-risks-rise-td-securities-202608261128",
-   "t": "26 Aug \u00b7 04:28 PM"
   }
  ],
  "sentiment": {
