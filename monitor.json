@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 14:35 PKT",
+ "updated": "26-08-2026 15:16 PKT",
  "gold": {
-  "price": 4621.32,
-  "open": 4637.06,
+  "price": 4618.24,
+  "open": 4636.0,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": -0.34,
+  "chg": -0.38,
   "src": "XAUUSD Spot",
   "spark": [
-   4658.35,
-   4663.69,
    4666.73,
    4669.45,
    4673.33,
@@ -55,14 +53,16 @@
    4627.47,
    4625.41,
    4617.81,
-   4621.32
+   4621.84,
+   4624.08,
+   4618.24
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.455,
-   "chg": -0.26,
+   "price": 68.595,
+   "chg": -0.06,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    68.455
+    68.595
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.006,
-   "chg": 0.09,
+   "price": 98.997,
+   "chg": 0.08,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.006
+    98.997
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.99,
-   "chg": -2.88,
+   "price": 80.14,
+   "chg": -2.7,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    79.99
+    80.14
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.167,
-   "chg": 0.01,
+   "price": 1.1669,
+   "chg": 0.0,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.167
+    1.1669
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3626,
-   "chg": -0.09,
+   "price": 1.3623,
+   "chg": -0.11,
    "spark": [
     1.329,
     1.3287,
@@ -230,15 +230,43 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3626
+    1.3623
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 159.001,
+   "chg": -0.09,
+   "spark": [
+    163.771,
+    163.864,
+    163.3,
+    160.183,
+    157.582,
+    157.529,
+    157.692,
+    157.6,
+    158.409,
+    157.891,
+    159.156,
+    159.265,
+    159.328,
+    159.426,
+    159.223,
+    159.34,
+    159.55,
+    158.276,
+    158.883,
+    158.904,
+    159.139,
+    159.001
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2451.83,
-   "chg": 0.38,
+   "price": 2449.08,
+   "chg": 0.27,
    "spark": [
-    2464.1,
     2493.77,
     2511.25,
     2493.31,
@@ -285,15 +313,15 @@
     2459.5,
     2461.32,
     2455.94,
-    2451.83
+    2447.39,
+    2449.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78568.4,
-   "chg": 0.08,
+   "price": 78439.0,
+   "chg": -0.09,
    "spark": [
-    77610.9,
     78424.2,
     79130.8,
     78577.6,
@@ -340,7 +368,8 @@
     78932.9,
     78917.8,
     78686.1,
-    78568.4
+    78434.8,
+    78439.0
    ]
   }
  ],
@@ -413,18 +442,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787736939.445935,
+   "ts": 1787739371.843721,
    "title": "Gold slips ahead of key inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 02:35 PM"
+   "t": "26 Aug \u00b7 03:16 PM"
   },
   {
-   "ts": 1787736939.445935,
+   "ts": 1787739371.843721,
    "title": "Silver stalls below $70.00 double top: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "26 Aug \u00b7 02:35 PM"
+   "t": "26 Aug \u00b7 03:16 PM"
+  },
+  {
+   "ts": 1787739156.0,
+   "title": "Gold Price Forecast: XAU/USD corrects to near $4,620 in countdown to US PCE Inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-corrects-to-near-4-620-in-countdown-to-us-pce-inflation-data-202608261012",
+   "t": "26 Aug \u00b7 03:12 PM"
+  },
+  {
+   "ts": 1787738696.0,
+   "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-hike-expectations-support-jpy-against-us-dollar-mufg-202608261004",
+   "t": "26 Aug \u00b7 03:04 PM"
+  },
+  {
+   "ts": 1787738104.0,
+   "title": "Australian Dollar: Watching 0.7200 resistance against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-watching-07200-resistance-against-us-dollar-uob-202608260955",
+   "t": "26 Aug \u00b7 02:55 PM"
   },
   {
    "ts": 1787736816.0,
@@ -460,27 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-ticks-up-against-us-dollar-despite-bright-swiss-zew-economic-expectations-202608260848",
    "t": "26 Aug \u00b7 01:48 PM"
-  },
-  {
-   "ts": 1787734059.0,
-   "title": "Australian Dollar remains stronger as CPI YoY climbs in July",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-remains-stronger-as-cpi-yoy-climbs-in-july-202608260847",
-   "t": "26 Aug \u00b7 01:47 PM"
-  },
-  {
-   "ts": 1787733409.0,
-   "title": "Australian Dollar: RBA risks seen underpriced \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-risks-seen-underpriced-mufg-202608260836",
-   "t": "26 Aug \u00b7 01:36 PM"
-  },
-  {
-   "ts": 1787732926.0,
-   "title": "Euro advances against Canadian Dollar amid falling oil prices",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-advances-against-canadian-dollar-amid-falling-oil-prices-202608260828",
-   "t": "26 Aug \u00b7 01:28 PM"
   }
  ],
  "sentiment": {
