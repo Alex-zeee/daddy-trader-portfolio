@@ -1,19 +1,13 @@
 {
- "updated": "26-08-2026 05:45 PKT",
+ "updated": "26-08-2026 07:16 PKT",
  "gold": {
-  "price": 4637.02,
-  "open": 4694.82,
-  "high": 4695.28,
+  "price": 4660.55,
+  "open": 4640.06,
+  "high": 4673.71,
   "low": 4607.66,
-  "chg": -1.23,
+  "chg": 0.44,
   "src": "XAUUSD Spot",
   "spark": [
-   4638.85,
-   4628.18,
-   4616.85,
-   4613.22,
-   4610.69,
-   4625.06,
    4626.13,
    4632.68,
    4635.3,
@@ -55,14 +49,20 @@
    4653.88,
    4652.82,
    4647.38,
-   4637.02
+   4637.02,
+   4638.16,
+   4643.82,
+   4646.35,
+   4645.37,
+   4661.01,
+   4660.55
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.52,
-   "chg": -0.03,
+   "price": 69.44,
+   "chg": 1.31,
    "spark": [
     58.472,
     57.296,
@@ -85,13 +85,13 @@
     68.026,
     69.466,
     68.541,
-    68.52
+    69.44
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.922,
-   "chg": -0.08,
+   "price": 98.906,
+   "chg": -0.09,
    "spark": [
     101.51,
     101.38,
@@ -114,13 +114,13 @@
     98.9,
     98.8,
     99.0,
-    98.922
+    98.906
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.91,
-   "chg": -4.82,
+   "price": 80.33,
+   "chg": -5.51,
    "spark": [
     82.61,
     79.26,
@@ -143,7 +143,7 @@
     87.83,
     87.06,
     85.01,
-    80.91
+    80.33
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1677,
-   "chg": 0.07,
+   "price": 1.1675,
+   "chg": 0.06,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1677
+    1.1675
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3648,
-   "chg": 0.07,
+   "price": 1.3645,
+   "chg": 0.05,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3648
+    1.3645
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.15,
-   "chg": 0.01,
+   "price": 158.95,
+   "chg": -0.12,
    "spark": [
     163.771,
     163.864,
@@ -259,16 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.15
+    158.95
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2441.22,
-   "chg": -0.05,
+   "price": 2455.24,
+   "chg": 0.52,
    "spark": [
-    2429.93,
-    2443.65,
     2429.96,
     2437.68,
     2449.18,
@@ -314,16 +312,16 @@
     2441.29,
     2453.66,
     2442.55,
-    2441.22
+    2446.32,
+    2455.3,
+    2455.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78422.0,
-   "chg": -0.11,
+   "price": 78766.9,
+   "chg": 0.33,
    "spark": [
-    76924.2,
-    77468.1,
     76935.9,
     76895.2,
     77178.0,
@@ -369,7 +367,9 @@
     78564.2,
     78876.4,
     78509.4,
-    78422.0
+    78622.0,
+    78790.6,
+    78766.9
    ]
   }
  ],
@@ -442,11 +442,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787705158.132284,
+   "ts": 1787710572.342007,
+   "title": "Gold edges lower but stays near 3-month high as oil, yields retreat",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
+   "t": "26 Aug \u00b7 07:16 AM"
+  },
+  {
+   "ts": 1787710572.342007,
    "title": "Gold prices tick up marginally amid weaker dollar, falling oil, and sliding yields",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "26 Aug \u00b7 05:45 AM"
+   "t": "26 Aug \u00b7 07:16 AM"
+  },
+  {
+   "ts": 1787710492.0,
+   "title": "Australian Dollar strengthens against Japanese Yen following CPI data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-strengthens-against-japanese-yen-following-cpi-data-202608260214",
+   "t": "26 Aug \u00b7 07:14 AM"
+  },
+  {
+   "ts": 1787708849.0,
+   "title": "Australian Dollar strengthens after hot CPI report; eyes multi-month high ahead of US PCE",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-strengthens-after-hot-cpi-report-eyes-multi-month-high-ahead-of-us-pce-202608260147",
+   "t": "26 Aug \u00b7 06:47 AM"
+  },
+  {
+   "ts": 1787707215.0,
+   "title": "Canadian Dollar weakens amid falling oil prices as USD holds steady ahead of US PCE",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-weakens-amid-falling-oil-prices-as-usd-holds-steady-ahead-of-us-pce-202608260120",
+   "t": "26 Aug \u00b7 06:20 AM"
   },
   {
    "ts": 1787704948.0,
@@ -478,38 +506,10 @@
   },
   {
    "ts": 1787697000.0,
-   "title": "Australia CPI forecast to show cooling inflation in July, still above RBA target",
+   "title": "Australia\u2019s CPI inflation declines to 3.5% YoY in July vs. 3.2% forecast",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australia-cpi-expected-to-show-inflation-easing-in-july-202608252230",
    "t": "26 Aug \u00b7 03:30 AM"
-  },
-  {
-   "ts": 1787694840.0,
-   "title": "Thai Baht: Bullish bias against US Dollar faces BoT sensitivity \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/thai-baht-bullish-bias-against-us-dollar-faces-bot-sensitivity-ocbc-202608252154",
-   "t": "26 Aug \u00b7 02:54 AM"
-  },
-  {
-   "ts": 1787692860.0,
-   "title": "Chinese Yuan: Bullish bias with focus on 6.7000 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-with-focus-on-67000-against-us-dollar-uob-202608252121",
-   "t": "26 Aug \u00b7 02:21 AM"
-  },
-  {
-   "ts": 1787691260.0,
-   "title": "New Zealand Dollar climbs to fresh highs amid timid US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-climbs-to-fresh-highs-amid-timid-us-dollar-202608252054",
-   "t": "26 Aug \u00b7 01:54 AM"
-  },
-  {
-   "ts": 1787690400.0,
-   "title": "Singapore Dollar: Range-bound consolidation outlook against US Dollar \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-range-bound-consolidation-outlook-against-us-dollar-commerzbank-202608252040",
-   "t": "26 Aug \u00b7 01:40 AM"
   }
  ],
  "sentiment": {
