@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 09:52 PKT",
+ "updated": "26-08-2026 10:21 PKT",
  "gold": {
-  "price": 4640.68,
-  "open": 4626.19,
+  "price": 4643.89,
+  "open": 4646.27,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": 0.31,
+  "chg": -0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   4638.56,
-   4636.54,
    4643.06,
    4647.73,
    4646.96,
@@ -55,14 +53,16 @@
    4643.21,
    4641.86,
    4641.64,
-   4640.68
+   4639.85,
+   4642.04,
+   4643.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.13,
-   "chg": 0.72,
+   "price": 69.14,
+   "chg": 0.73,
    "spark": [
     57.296,
     57.863,
@@ -85,13 +85,13 @@
     69.466,
     68.541,
     68.636,
-    69.13
+    69.14
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.992,
-   "chg": 0.07,
+   "price": 99.002,
+   "chg": 0.08,
    "spark": [
     101.38,
     100.8,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    98.992
+    99.002
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.32,
-   "chg": -2.48,
+   "price": 80.58,
+   "chg": -2.16,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    80.32
+    80.58
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1665,
-   "chg": -0.03,
+   "price": 1.1667,
+   "chg": -0.01,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1665
+    1.1667
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3633,
-   "chg": -0.04,
+   "price": 1.3634,
+   "chg": -0.03,
    "spark": [
     1.329,
     1.3287,
@@ -230,13 +230,13 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3633
+    1.3634
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.023,
-   "chg": -0.07,
+   "price": 159.009,
+   "chg": -0.08,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.023
+    159.009
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2460.17,
-   "chg": 0.72,
+   "price": 2455.18,
+   "chg": 0.52,
    "spark": [
-    2449.18,
     2456.47,
     2454.22,
     2453.96,
@@ -314,15 +313,15 @@
     2455.3,
     2465.52,
     2465.19,
-    2460.17
+    2456.73,
+    2455.18
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78856.2,
-   "chg": 0.44,
+   "price": 78783.7,
+   "chg": 0.35,
    "spark": [
-    77178.0,
     77454.1,
     77303.3,
     77029.2,
@@ -369,7 +368,8 @@
     78790.6,
     79098.5,
     79089.2,
-    78856.2
+    78816.5,
+    78783.7
    ]
   }
  ],
@@ -442,19 +442,19 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787719952.636208,
-   "title": "Gold edges lower but stays near 3-month high as oil, yields retreat",
+   "ts": 1787721676.585867,
+   "title": "Gold slips but stays near 3-month high as oil, yields ease inflation pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 09:52 AM",
-   "ur": "Gold (sone) ke kanare kam hote hen lican til ki tarah 3 mah ki balandi ke qarib rahte hen, pedawar patchhe hat jati hai."
+   "t": "26 Aug \u00b7 10:21 AM",
+   "ur": "Gold (sona) phisalta hai lican til ki tarah 3 mah ki balandi ke qarib rahta hai, inflation (mehngai) ke dabao ko kam karta hai"
   },
   {
-   "ts": 1787719952.636208,
+   "ts": 1787721676.585867,
    "title": "Gold prices tick up marginally amid weaker dollar, falling oil, and sliding yields",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
-   "t": "26 Aug \u00b7 09:52 AM",
+   "t": "26 Aug \u00b7 10:21 AM",
    "ur": "Kamazor Dollar, garti hoi til, aur pedawar mein kami ke darmiyan Gold (sone) ki qeemton mein mamoli azafah hawa"
   },
   {
@@ -483,11 +483,11 @@
   },
   {
    "ts": 1787715140.0,
-   "title": "Gold holds steady around $4,650 as traders look to US PCE for Fed rate cues",
+   "title": "Gold trades with negative bias below $4,650 as USD edges higher ahead of US PCE",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-holds-steady-around-4-650-as-traders-look-to-us-pce-for-fed-rate-cues-202608260332",
    "t": "26 Aug \u00b7 08:32 AM",
-   "ur": "Gold (sona) $4,650 ke qarib mastahkam hai cunkah taajr fed ret ke ashare ke liye US PCE ki taraf dekhte hen"
+   "ur": "Gold (sona) $4,650 se niche manfi taasab ke sath tajart karta hai cunkah USD ke kanare US PCE se ziyadah hen"
   },
   {
    "ts": 1787714394.0,
