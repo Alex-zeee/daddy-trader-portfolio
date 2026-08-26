@@ -1,15 +1,13 @@
 {
- "updated": "26-08-2026 16:20 PKT",
+ "updated": "26-08-2026 16:52 PKT",
  "gold": {
-  "price": 4621.46,
-  "open": 4640.75,
+  "price": 4619.32,
+  "open": 4643.35,
   "high": 4673.71,
   "low": 4607.66,
-  "chg": -0.42,
+  "chg": -0.52,
   "src": "XAUUSD Spot",
   "spark": [
-   4656.41,
-   4653.88,
    4652.82,
    4647.38,
    4637.02,
@@ -55,14 +53,16 @@
    4621.16,
    4620.12,
    4618.63,
-   4621.46
+   4620.91,
+   4619.25,
+   4619.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.5,
-   "chg": -0.2,
+   "price": 68.47,
+   "chg": -0.24,
    "spark": [
     57.296,
     57.863,
@@ -85,12 +85,12 @@
     69.466,
     68.541,
     68.636,
-    68.5
+    68.47
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.021,
+   "price": 99.022,
    "chg": 0.1,
    "spark": [
     101.38,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.021
+    99.022
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.32,
-   "chg": -2.48,
+   "price": 80.45,
+   "chg": -2.32,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    80.32
+    80.45
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1667,
-   "chg": -0.01,
+   "price": 1.167,
+   "chg": 0.01,
    "spark": [
     1.1369,
     1.1387,
@@ -201,13 +201,13 @@
     1.1688,
     1.1682,
     1.1668,
-    1.1667
+    1.167
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3623,
-   "chg": -0.11,
+   "price": 1.3628,
+   "chg": -0.08,
    "spark": [
     1.329,
     1.3287,
@@ -230,12 +230,12 @@
     1.3643,
     1.3654,
     1.3638,
-    1.3623
+    1.3628
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.103,
+   "price": 159.114,
    "chg": -0.02,
    "spark": [
     163.771,
@@ -259,13 +259,13 @@
     158.883,
     158.904,
     159.139,
-    159.103
+    159.114
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2465.45,
-   "chg": 0.94,
+   "price": 2462.76,
+   "chg": 0.83,
    "spark": [
     2511.25,
     2493.31,
@@ -314,13 +314,13 @@
     2455.94,
     2447.39,
     2468.56,
-    2465.45
+    2462.76
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78653.9,
-   "chg": 0.18,
+   "price": 78457.2,
+   "chg": -0.07,
    "spark": [
     79130.8,
     78577.6,
@@ -369,7 +369,7 @@
     78686.1,
     78434.8,
     78716.5,
-    78653.9
+    78457.2
    ]
   }
  ],
@@ -442,11 +442,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787743216.804704,
+   "ts": 1787745143.678466,
    "title": "Gold slips ahead of key inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 04:20 PM"
+   "t": "26 Aug \u00b7 04:52 PM"
+  },
+  {
+   "ts": 1787744910.0,
+   "title": "US Dollar: Softer energy supports carry trades \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-softer-energy-supports-carry-trades-ing-202608261148",
+   "t": "26 Aug \u00b7 04:48 PM"
+  },
+  {
+   "ts": 1787744417.0,
+   "title": "Euro: ECB tightening outlook offers support against US Dollar - BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-ecb-tightening-outlook-offers-support-against-us-dollar-bny-202608261140",
+   "t": "26 Aug \u00b7 04:40 PM"
+  },
+  {
+   "ts": 1787744381.0,
+   "title": "Japanese Yen treads water around 159.00 with US PCE Inflation on tap",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-treads-water-around-15900-with-us-pce-inflation-on-tap-202608261139",
+   "t": "26 Aug \u00b7 04:39 PM"
+  },
+  {
+   "ts": 1787743702.0,
+   "title": "Australian Dollar: RBA tightening risks rise \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-tightening-risks-rise-td-securities-202608261128",
+   "t": "26 Aug \u00b7 04:28 PM"
   },
   {
    "ts": 1787743041.0,
@@ -482,34 +510,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-watching-07200-resistance-against-us-dollar-uob-202608260955",
    "t": "26 Aug \u00b7 02:55 PM"
-  },
-  {
-   "ts": 1787736816.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202608260933",
-   "t": "26 Aug \u00b7 02:33 PM"
-  },
-  {
-   "ts": 1787736346.0,
-   "title": "US Dollar Index: Range trade persists as data soft \u2013 DBS",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-range-trade-persists-as-data-soft-dbs-202608260925",
-   "t": "26 Aug \u00b7 02:25 PM"
-  },
-  {
-   "ts": 1787734741.0,
-   "title": "US Dollar: Shaky basis trade risks weigh \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-shaky-basis-trade-risks-weigh-commerzbank-202608260859",
-   "t": "26 Aug \u00b7 01:59 PM"
-  },
-  {
-   "ts": 1787734623.0,
-   "title": "Silver Price Forecast: XAG/USD bulls await break above $70.00 amid mixed setup",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bulls-await-break-above-7000-amid-mixed-setup-202608260857",
-   "t": "26 Aug \u00b7 01:57 PM"
   }
  ],
  "sentiment": {
