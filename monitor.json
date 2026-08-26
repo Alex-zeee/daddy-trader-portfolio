@@ -1,20 +1,13 @@
 {
- "updated": "26-08-2026 23:09 PKT",
+ "updated": "27-08-2026 00:58 PKT",
  "gold": {
-  "price": 4601.22,
-  "open": 4647.49,
+  "price": 4594.51,
+  "open": 4665.54,
   "high": 4673.71,
   "low": 4582.25,
-  "chg": -1.0,
+  "chg": -1.52,
   "src": "XAUUSD Spot",
   "spark": [
-   4626.03,
-   4633.55,
-   4633.72,
-   4636.22,
-   4631.95,
-   4630.59,
-   4629.19,
    4627.88,
    4628.92,
    4628.97,
@@ -55,14 +48,21 @@
    4597.32,
    4596.32,
    4597.13,
-   4601.22
+   4601.5,
+   4594.2,
+   4597.17,
+   4594.26,
+   4593.55,
+   4597.44,
+   4595.63,
+   4594.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.935,
-   "chg": -1.02,
+   "price": 68.235,
+   "chg": -0.58,
    "spark": [
     57.296,
     57.863,
@@ -85,12 +85,12 @@
     69.466,
     68.541,
     68.636,
-    67.935
+    68.235
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.155,
+   "price": 99.154,
    "chg": 0.24,
    "spark": [
     101.38,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.155
+    99.154
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.54,
-   "chg": 0.22,
+   "price": 81.99,
+   "chg": -0.45,
    "spark": [
     79.26,
     84.46,
@@ -143,13 +143,13 @@
     87.06,
     85.01,
     82.36,
-    82.54
+    81.99
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.668,
-   "chg": 0.63,
+   "price": 4.664,
+   "chg": 0.54,
    "spark": [
     4.604,
     4.622,
@@ -172,7 +172,7 @@
     4.738,
     4.704,
     4.639,
-    4.668
+    4.664
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.388,
-   "chg": 0.16,
+   "price": 159.361,
+   "chg": 0.14,
    "spark": [
     163.771,
     163.864,
@@ -259,15 +259,14 @@
     158.883,
     158.904,
     159.139,
-    159.388
+    159.361
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2466.22,
-   "chg": 0.97,
+   "price": 2470.87,
+   "chg": 1.16,
    "spark": [
-    2469.67,
     2474.19,
     2483.54,
     2473.94,
@@ -314,15 +313,15 @@
     2449.96,
     2444.52,
     2460.84,
-    2466.22
+    2472.64,
+    2470.87
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78500.0,
-   "chg": -0.01,
+   "price": 78458.4,
+   "chg": -0.07,
    "spark": [
-    78742.8,
     78925.2,
     78960.0,
     78730.8,
@@ -369,7 +368,8 @@
     78008.8,
     78000.1,
     78436.6,
-    78500.0
+    78471.0,
+    78458.4
    ]
   }
  ],
@@ -418,84 +418,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787767777.258564,
-   "title": "Gold slips as traders parse through Fed\u2019s preferred inflation data",
+   "ts": 1787774338.57867,
+   "title": "Silver stalls below $70 in tight consolidation: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "26 Aug \u00b7 11:09 PM",
-   "ur": "Gold (sona) phisal jata hai cunkah taajr Fed ke tarjeehi inflation (mehngai) ke aed w shmar ke zariye tajaziya karte hen."
+   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
+   "t": "27 Aug \u00b7 12:58 AM",
+   "ur": "Salor rak gaya hai saqt istehkam mein $70 se niche"
   },
   {
-   "ts": 1787766505.0,
-   "title": "Canadian Dollar: Tariff headlines but range intact against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-tariff-headlines-but-range-intact-against-us-dollar-scotiabank-202608261748",
-   "t": "26 Aug \u00b7 10:48 PM",
-   "ur": "Caniden Dollar: terf ki sarkhayan lican US Dollar ke maqable mein had barqarar hai - Scotiabank"
+   "ts": 1787774338.57867,
+   "title": "Gold stalls at $4,647 after parabolic run: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-4703-deep-in-overbought-territory-live-levels-93CH-4872739",
+   "t": "27 Aug \u00b7 12:58 AM",
+   "ur": "Perabolk ran ke bad gold rak gaya hai $4,647 par"
   },
   {
-   "ts": 1787765189.0,
-   "title": "Swiss Franc falls against US Dollar as headline PCE inflation tops forecasts",
+   "ts": 1787774220.0,
+   "title": "Chinese Yuan: Pace of appreciation against US Dollar seen slowing \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-falls-against-us-dollar-as-headline-pce-inflation-tops-forecasts-202608261726",
-   "t": "26 Aug \u00b7 10:26 PM",
-   "ur": "Sois farank US Dollar ke maqable mein garta hai cunkah hed lin PCE inflation (mehngai) ki pition goion mein sarfehrist hai."
+   "link": "https://www.fxstreet.com/news/chinese-yuan-pace-of-appreciation-against-us-dollar-seen-slowing-ing-202608261957",
+   "t": "27 Aug \u00b7 12:57 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein qadar ki raftar mein kami dekhi gayi - ING"
   },
   {
-   "ts": 1787762063.0,
-   "title": "British Pound retreats as sticky PCE inflation keeps Fed hike bets alive",
+   "ts": 1787773260.0,
+   "title": "Japanese Yen: Range-bound against US Dollar as markets price BoJ hike \u2013 Scotiabank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-retreats-as-sticky-pce-revives-fed-hike-bets-202608261634",
-   "t": "26 Aug \u00b7 09:34 PM",
-   "ur": "Bartanvi pound patchhe hat raha hai cunkah chpachapa PCE inflation (mehngai) ne Fed mein azafe ki shart ko zandah rakha hai."
+   "link": "https://www.fxstreet.com/news/japanese-yen-range-bound-against-us-dollar-as-markets-price-boj-hike-scotiabank-202608261941",
+   "t": "27 Aug \u00b7 12:41 AM",
+   "ur": "Japani yan: US Dollar ke maqable mein had tak muhadud cunkah bazaron ki qeemton mein BoJ mein azafah \u2013 Scotiabank"
   },
   {
-   "ts": 1787761663.0,
-   "title": "Dow Jones Industrial Average ignores a revision made of inflation",
+   "ts": 1787773128.0,
+   "title": "Banxico lifts 2026 GDP forecast, delays inflation target return",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-ignores-a-revision-made-of-inflation-202608261627",
-   "t": "26 Aug \u00b7 09:27 PM",
-   "ur": "Dou joons andistril everage ne inflation (mehngai) par nazar saani ki hai."
+   "link": "https://www.fxstreet.com/news/banxico-lifts-2026-gdp-forecast-delays-inflation-target-return-202608261938",
+   "t": "27 Aug \u00b7 12:38 AM",
+   "ur": "Bankseco ne 2026 ki ji di pi ki forecast ko khtam kar diya, inflation (mehngai) ke target ki wapsi mein taakhair"
   },
   {
-   "ts": 1787760185.0,
-   "title": "New Zealand Dollar dips, but RBNZ hike bets provide safety net",
+   "ts": 1787772300.0,
+   "title": "South Korean Won: Appreciation may slow against US Dollar \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-dips-but-rbnz-hike-bets-provide-safety-net-202608261603",
-   "t": "26 Aug \u00b7 09:03 PM",
-   "ur": "Niyozi lind Dollar garta hai, lican RBNZ mein azafe ki shart hafazati jal faraham karti hai."
+   "link": "https://www.fxstreet.com/news/south-korean-won-appreciation-may-slow-against-us-dollar-ocbc-202608261925",
+   "t": "27 Aug \u00b7 12:25 AM",
+   "ur": "South Korea ki wan: US Dollar ke maqable mein qadar kam ho sakti hai \u2013 OCBC"
   },
   {
-   "ts": 1787758123.0,
-   "title": "Silver Price Forecast: Buyers struggle below the 100-day SMA",
+   "ts": 1787769780.0,
+   "title": "Euro: Rally stalls against US Dollar as spreads drive trade \u2013 Scotiabank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-buyers-struggle-below-the-100-day-sma-202608261528",
-   "t": "26 Aug \u00b7 08:28 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: khareedar 100 dan ke SMA se niche jadojehad karte hen."
+   "link": "https://www.fxstreet.com/news/euro-rally-stalls-against-us-dollar-as-spreads-drive-trade-scotiabank-202608261843",
+   "t": "26 Aug \u00b7 11:43 PM",
+   "ur": "Uro: US Dollar ke khalaf rili rak gaya hai cunkah tajart ko farog dita hai - Scotiabank"
   },
   {
-   "ts": 1787756180.0,
-   "title": "Australian Dollar stumbles as hot Australian CPI runs into a firmer US Dollar",
+   "ts": 1787769734.0,
+   "title": "Forex Today: US Dollar firms ahead of Jackson Hole",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-stumbles-as-hot-australian-cpi-runs-into-a-firmer-us-dollar-202608261456",
-   "t": "26 Aug \u00b7 07:56 PM",
-   "ur": "Aasterilvi Dollar thokar kha raha hai cunkah garm aasterilvi CPI ek mazboot US Dollar mein chala gaya hai."
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-jackson-hole-202608261842",
+   "t": "26 Aug \u00b7 11:42 PM",
+   "ur": "Farex today: US Dollar ki kampaniyan jection hol se aage hen."
   },
   {
-   "ts": 1787755088.0,
-   "title": "Canadian Dollar falls despite Oil gains as trade tensions take center stage",
+   "ts": 1787768880.0,
+   "title": "Taiwan Dollar: Consolidation range with upside risks against US Dollar \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-falls-despite-oil-gains-as-trade-tensions-take-center-stage-202608261438",
-   "t": "26 Aug \u00b7 07:38 PM",
-   "ur": "Caniden Dollar til mein azafe ke bawajud garta hai cunkah tajarti tanao markazi sath par hota hai."
+   "link": "https://www.fxstreet.com/news/taiwan-dollar-consolidation-range-with-upside-risks-against-us-dollar-commerzbank-202608261828",
+   "t": "26 Aug \u00b7 11:28 PM",
+   "ur": "Taiwan Dollar: US Dollar ke maqable mein alta khatrat ke sath istehkam ki had - kamrzabink"
   },
   {
-   "ts": 1787753939.0,
-   "title": "Japanese Yen reverses earlier gains as US Dollar firms after PCE data",
+   "ts": 1787767978.0,
+   "title": "The Dollar Index is climbing out of a fiscal hole",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-reverses-earlier-gains-as-us-dollar-firms-after-pce-data-202608261418",
-   "t": "26 Aug \u00b7 07:18 PM",
-   "ur": "Japani yan ne PCE deta ke bad US Dollar farmon ke tur par pehle ke fawaid ko tabadil kar diya."
+   "link": "https://www.fxstreet.com/news/the-dollar-index-is-climbing-out-of-a-fiscal-hole-202608261812",
+   "t": "26 Aug \u00b7 11:12 PM",
+   "ur": "Dollar andex maliyati sorakh se bahar nikal raha hai."
   }
  ],
  "sentiment": {
