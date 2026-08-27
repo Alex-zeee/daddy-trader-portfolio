@@ -1,33 +1,13 @@
 {
- "updated": "27-08-2026 03:40 PKT",
+ "updated": "27-08-2026 08:32 PKT",
  "gold": {
-  "price": 4609.32,
-  "open": 4669.3,
-  "high": 4673.71,
+  "price": 4634.49,
+  "open": 4646.87,
+  "high": 4647.49,
   "low": 4582.25,
-  "chg": -1.28,
+  "chg": -0.27,
   "src": "XAUUSD Spot",
   "spark": [
-   4620.12,
-   4618.63,
-   4620.91,
-   4619.25,
-   4625.08,
-   4627.27,
-   4629.2,
-   4622.68,
-   4615.88,
-   4610.49,
-   4609.89,
-   4620.21,
-   4629.8,
-   4623.5,
-   4618.68,
-   4622.03,
-   4607.28,
-   4596.89,
-   4595.76,
-   4603.51,
    4598.21,
    4597.88,
    4595.47,
@@ -55,14 +35,34 @@
    4593.8,
    4603.19,
    4609.19,
-   4609.32
+   4611.05,
+   4608.48,
+   4611.98,
+   4622.24,
+   4622.73,
+   4623.74,
+   4617.09,
+   4618.47,
+   4608.08,
+   4603.23,
+   4618.85,
+   4620.12,
+   4624.74,
+   4639.19,
+   4638.78,
+   4634.31,
+   4624.03,
+   4629.69,
+   4634.05,
+   4637.06,
+   4634.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.69,
-   "chg": 0.08,
+   "price": 69.3,
+   "chg": 0.97,
    "spark": [
     57.296,
     57.863,
@@ -85,12 +85,12 @@
     69.466,
     68.541,
     68.636,
-    68.69
+    69.3
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.134,
+   "price": 99.141,
    "chg": 0.22,
    "spark": [
     101.38,
@@ -114,13 +114,13 @@
     98.8,
     99.0,
     98.92,
-    99.134
+    99.141
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.85,
-   "chg": -0.62,
+   "price": 81.78,
+   "chg": -0.7,
    "spark": [
     79.26,
     84.46,
@@ -143,7 +143,7 @@
     87.06,
     85.01,
     82.36,
-    81.85
+    81.78
    ]
   },
   {
@@ -178,9 +178,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1659,
-   "chg": -0.08,
+   "chg": -0.13,
    "spark": [
-    1.1369,
     1.1387,
     1.1467,
     1.1524,
@@ -201,48 +200,44 @@
     1.1688,
     1.1682,
     1.1668,
+    1.1675,
     1.1659
    ]
   },
   {
-   "name": "GBP/USD",
-   "price": 1.3595,
-   "chg": -0.32,
+   "name": "USD/JPY",
+   "price": 159.357,
+   "chg": 0.08,
    "spark": [
-    1.329,
-    1.3287,
-    1.3367,
-    1.3461,
-    1.3492,
-    1.3427,
-    1.3451,
-    1.347,
-    1.3455,
-    1.3491,
-    1.3511,
-    1.351,
-    1.3498,
-    1.3491,
-    1.3547,
-    1.355,
-    1.3537,
-    1.36,
-    1.3643,
-    1.3654,
-    1.3638,
-    1.3595
+    163.864,
+    163.3,
+    160.183,
+    157.582,
+    157.529,
+    157.692,
+    157.6,
+    158.409,
+    157.891,
+    159.156,
+    159.265,
+    159.328,
+    159.426,
+    159.223,
+    159.34,
+    159.55,
+    158.276,
+    158.883,
+    158.904,
+    159.139,
+    159.223,
+    159.357
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2495.65,
-   "chg": 2.17,
+   "price": 2493.81,
+   "chg": -0.53,
    "spark": [
-    2482.69,
-    2493.22,
-    2495.21,
-    2507.2,
-    2498.41,
     2492.54,
     2508.38,
     2499.77,
@@ -285,19 +280,19 @@
     2470.22,
     2472.02,
     2496.86,
-    2495.65
+    2494.03,
+    2507.08,
+    2492.26,
+    2498.24,
+    2494.58,
+    2493.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78613.0,
-   "chg": 0.13,
+   "price": 78850.4,
+   "chg": -0.22,
    "spark": [
-    78966.1,
-    79724.9,
-    79803.0,
-    80638.7,
-    80472.6,
     80340.2,
     80694.7,
     80538.5,
@@ -340,7 +335,12 @@
     78459.9,
     78449.5,
     78749.2,
-    78613.0
+    78706.2,
+    79008.6,
+    78708.0,
+    78893.2,
+    78717.1,
+    78842.0
    ]
   }
  ],
@@ -389,81 +389,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787784007.252946,
+   "ts": 1787801574.779395,
    "title": "Gold falls amid firmer dollar after PCE, GDP data muddles Fed interest rate path",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "27 Aug \u00b7 03:40 AM"
+   "t": "27 Aug \u00b7 08:32 AM",
+   "ur": "Pi si ai ke bad mazboot Dollar ke darmiyan Gold (sona) garta hai, ji di pi deta fed ki rate sud ki raah mein khall dalta hai."
   },
   {
-   "ts": 1787784007.252946,
+   "ts": 1787801574.779395,
    "title": "Silver stalls below $70 in tight consolidation: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "27 Aug \u00b7 03:40 AM"
+   "t": "27 Aug \u00b7 08:32 AM",
+   "ur": "Salor rak gaya hai saqt istehkam mein $70 se niche"
+  },
+  {
+   "ts": 1787800330.0,
+   "title": "South Korean Won gains on back-to-back BoK interest rate hikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-gains-on-back-to-back-bok-interest-rate-hikes-202608270312",
+   "t": "27 Aug \u00b7 08:12 AM",
+   "ur": "South Korea ki Won ne bek to bek BoK rate sud mein azafe par faidah athaya"
+  },
+  {
+   "ts": 1787799095.0,
+   "title": "Silver Price Forecast: XAG/USD holds above $69.00 as traders assess Fed stance",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-above-6900-as-traders-assess-fed-stance-202608270251",
+   "t": "27 Aug \u00b7 07:51 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $69.00 se oper rakta hai cunkah taajr Fed ke moqf ka jaizah lite hen"
+  },
+  {
+   "ts": 1787797350.0,
+   "title": "New Zealand Dollar declines to near 0.5950 as US PCE data lift Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-declines-to-near-05950-as-us-pce-data-lift-fed-rate-hike-bets-202608270222",
+   "t": "27 Aug \u00b7 07:22 AM",
+   "ur": "Niyozi lind Dollar kam ho kar 0.5950 ke qarib ho gaya cunkah US PCE deta ne Fed ki rate mein azafe ki shart ko athaya"
+  },
+  {
+   "ts": 1787796180.0,
+   "title": "Australian Dollar holds strong due to RBA rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-strong-due-to-rba-rate-hike-bets-202608270203",
+   "t": "27 Aug \u00b7 07:03 AM",
+   "ur": "Aar bi aye ki rate mein azafe ki shart ki wajah se aasterilvi Dollar mazboot hai."
+  },
+  {
+   "ts": 1787796099.0,
+   "title": "Canadian Dollar consolidates near weekly low as USD bulls seem hesitant",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-consolidates-near-weekly-low-as-usd-bulls-seem-hesitant-202608270201",
+   "t": "27 Aug \u00b7 07:01 AM",
+   "ur": "Caniden Dollar haftah war kam hone ke qarib mastahkam hota hai cunkah USD bel hichakchate nazar aate hen."
+  },
+  {
+   "ts": 1787786812.0,
+   "title": "Gold retreats from three-month high to near $4,600 after US PCE data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-retreats-from-three-month-high-to-near-4-600-after-us-pce-data-202608262326",
+   "t": "27 Aug \u00b7 04:26 AM",
+   "ur": "US PCE deta ke bad Gold (sona) tin mah ki baland tarin sath se $4,600 ke qarib pohch gaya."
+  },
+  {
+   "ts": 1787786461.0,
+   "title": "Australian Dollar extends rally as RBA hike bets, offset US data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-extends-rally-as-rba-hike-bets-offset-us-data-202608262321",
+   "t": "27 Aug \u00b7 04:21 AM",
+   "ur": "Aasterilvi Dollar ne RBA mein azafe ki shart ke tur par rili ko badhaya, US deta ko afset kiya."
   },
   {
    "ts": 1787781055.0,
    "title": "New Zealand Dollar steadies as firm US Dollar caps gains",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-steadies-as-firm-us-dollar-caps-gains-202608262150",
-   "t": "27 Aug \u00b7 02:50 AM"
-  },
-  {
-   "ts": 1787780173.0,
-   "title": "Mexican Peso dips as US Core PCE renew Fed hawkish bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-dips-as-us-core-pce-renew-fed-hawkish-bets-202608262136",
-   "t": "27 Aug \u00b7 02:36 AM"
-  },
-  {
-   "ts": 1787778015.0,
-   "title": "Japanese Yen slips ahead of Tokyo CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-slips-ahead-of-tokyo-cpi-202608262100",
-   "t": "27 Aug \u00b7 02:00 AM"
-  },
-  {
-   "ts": 1787774220.0,
-   "title": "Chinese Yuan: Pace of appreciation against US Dollar seen slowing \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-pace-of-appreciation-against-us-dollar-seen-slowing-ing-202608261957",
-   "t": "27 Aug \u00b7 12:57 AM"
-  },
-  {
-   "ts": 1787773260.0,
-   "title": "Japanese Yen: Range-bound against US Dollar as markets price BoJ hike \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-range-bound-against-us-dollar-as-markets-price-boj-hike-scotiabank-202608261941",
-   "t": "27 Aug \u00b7 12:41 AM"
-  },
-  {
-   "ts": 1787773128.0,
-   "title": "Banxico lifts 2026 GDP forecast, delays inflation target return",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/banxico-lifts-2026-gdp-forecast-delays-inflation-target-return-202608261938",
-   "t": "27 Aug \u00b7 12:38 AM"
-  },
-  {
-   "ts": 1787772300.0,
-   "title": "South Korean Won: Appreciation may slow against US Dollar \u2013 OCBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-appreciation-may-slow-against-us-dollar-ocbc-202608261925",
-   "t": "27 Aug \u00b7 12:25 AM"
-  },
-  {
-   "ts": 1787769780.0,
-   "title": "Euro: Rally stalls against US Dollar as spreads drive trade \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-rally-stalls-against-us-dollar-as-spreads-drive-trade-scotiabank-202608261843",
-   "t": "26 Aug \u00b7 11:43 PM"
+   "t": "27 Aug \u00b7 02:50 AM",
+   "ur": "Niyozi lind Dollar mastahkam hai cunkah US Dollar ki qeemat mein azafah hawa hai."
   }
  ],
  "sentiment": {
-  "value": 65,
+  "value": 71,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
