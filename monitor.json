@@ -1,70 +1,69 @@
 {
- "updated": "27-08-2026 08:32 PKT",
+ "updated": "27-08-2026 19:37 PKT",
  "gold": {
-  "price": 4634.49,
-  "open": 4646.87,
-  "high": 4647.49,
-  "low": 4582.25,
-  "chg": -0.27,
+  "price": 4588.55,
+  "open": 4621.58,
+  "high": 4642.31,
+  "low": 4567.5,
+  "chg": -0.71,
   "src": "XAUUSD Spot",
   "spark": [
-   4598.21,
-   4597.88,
-   4595.47,
-   4591.05,
-   4591.35,
-   4593.9,
-   4597.32,
-   4596.32,
-   4597.13,
-   4601.5,
-   4594.2,
-   4597.17,
-   4594.26,
-   4593.55,
-   4597.44,
-   4595.63,
-   4592.81,
-   4592.98,
-   4591.55,
-   4591.53,
-   4594.48,
-   4593.68,
-   4593.87,
-   4593.79,
-   4593.8,
-   4603.19,
-   4609.19,
-   4611.05,
-   4608.48,
-   4611.98,
-   4622.24,
-   4622.73,
-   4623.74,
-   4617.09,
-   4618.47,
-   4608.08,
-   4603.23,
-   4618.85,
-   4620.12,
-   4624.74,
-   4639.19,
-   4638.78,
-   4634.31,
-   4624.03,
    4629.69,
    4634.05,
    4637.06,
-   4634.49
+   4629.58,
+   4624.56,
+   4625.63,
+   4621.27,
+   4619.88,
+   4618.5,
+   4620.88,
+   4619.28,
+   4610.55,
+   4606.44,
+   4604.8,
+   4609.76,
+   4608.63,
+   4597.96,
+   4601.7,
+   4597.69,
+   4598.16,
+   4601.94,
+   4604.54,
+   4601.58,
+   4597.85,
+   4603.07,
+   4596.57,
+   4593.82,
+   4583.25,
+   4579.78,
+   4579.98,
+   4580.87,
+   4585.23,
+   4590.19,
+   4590.2,
+   4593.32,
+   4598.76,
+   4597.91,
+   4595.06,
+   4594.27,
+   4588.35,
+   4585.17,
+   4590.92,
+   4591.31,
+   4580.82,
+   4573.8,
+   4574.39,
+   4578.71,
+   4588.55
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 69.3,
-   "chg": 0.97,
+   "price": 68.985,
+   "chg": 1.46,
    "spark": [
-    57.296,
     57.863,
     58.815,
     57.591,
@@ -85,15 +84,15 @@
     69.466,
     68.541,
     68.636,
-    69.3
+    67.99,
+    68.985
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.141,
-   "chg": 0.22,
+   "price": 99.16,
+   "chg": -0.01,
    "spark": [
-    101.38,
     100.8,
     100.01,
     99.8,
@@ -114,15 +113,15 @@
     98.8,
     99.0,
     98.92,
-    99.141
+    99.17,
+    99.16
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.78,
-   "chg": -0.7,
+   "price": 82.74,
+   "chg": 0.62,
    "spark": [
-    79.26,
     84.46,
     83.59,
     84.67,
@@ -143,15 +142,15 @@
     87.06,
     85.01,
     82.36,
-    81.78
+    82.23,
+    82.74
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.664,
-   "chg": 0.54,
+   "price": 4.662,
+   "chg": -0.04,
    "spark": [
-    4.604,
     4.622,
     4.663,
     4.745,
@@ -172,13 +171,14 @@
     4.738,
     4.704,
     4.639,
-    4.664
+    4.664,
+    4.662
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1659,
-   "chg": -0.13,
+   "price": 1.1656,
+   "chg": -0.16,
    "spark": [
     1.1387,
     1.1467,
@@ -201,13 +201,42 @@
     1.1682,
     1.1668,
     1.1675,
-    1.1659
+    1.1656
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3588,
+   "chg": -0.44,
+   "spark": [
+    1.3287,
+    1.3367,
+    1.3461,
+    1.3492,
+    1.3427,
+    1.3451,
+    1.347,
+    1.3455,
+    1.3491,
+    1.3511,
+    1.351,
+    1.3498,
+    1.3491,
+    1.3547,
+    1.355,
+    1.3537,
+    1.36,
+    1.3643,
+    1.3654,
+    1.3638,
+    1.3647,
+    1.3588
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.357,
-   "chg": 0.08,
+   "price": 159.325,
+   "chg": 0.06,
    "spark": [
     163.864,
     163.3,
@@ -230,25 +259,14 @@
     158.904,
     159.139,
     159.223,
-    159.357
+    159.325
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2493.81,
-   "chg": -0.53,
+   "price": 2513.93,
+   "chg": 0.28,
    "spark": [
-    2492.54,
-    2508.38,
-    2499.77,
-    2479.69,
-    2484.03,
-    2473.69,
-    2481.44,
-    2477.37,
-    2473.56,
-    2460.08,
-    2476.69,
     2483.24,
     2470.34,
     2470.9,
@@ -285,25 +303,25 @@
     2492.26,
     2498.24,
     2494.58,
-    2493.81
+    2491.84,
+    2486.98,
+    2496.32,
+    2492.51,
+    2497.4,
+    2531.19,
+    2535.12,
+    2503.64,
+    2501.53,
+    2495.16,
+    2497.2,
+    2513.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78850.4,
-   "chg": -0.22,
+   "price": 80131.1,
+   "chg": 1.41,
    "spark": [
-    80340.2,
-    80694.7,
-    80538.5,
-    79714.3,
-    79926.6,
-    79160.3,
-    79301.9,
-    79105.8,
-    78977.3,
-    78610.7,
-    79229.9,
     79529.2,
     79149.6,
     79233.4,
@@ -340,7 +358,18 @@
     78708.0,
     78893.2,
     78717.1,
-    78842.0
+    78816.5,
+    78769.3,
+    78897.0,
+    78799.0,
+    79085.7,
+    79739.9,
+    79958.0,
+    79603.0,
+    79472.0,
+    79276.8,
+    79543.5,
+    80131.1
    ]
   }
  ],
@@ -389,84 +418,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1787801574.779395,
-   "title": "Gold falls amid firmer dollar after PCE, GDP data muddles Fed interest rate path",
+   "ts": 1787841458.607693,
+   "title": "Gold edges down as markets await Warsh\u2019s Jackson Hole speech",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-but-stays-near-3month-high-as-oil-yields-retreat-4876127",
-   "t": "27 Aug \u00b7 08:32 AM",
-   "ur": "Pi si ai ke bad mazboot Dollar ke darmiyan Gold (sona) garta hai, ji di pi deta fed ki rate sud ki raah mein khall dalta hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4600-after-inflation-setback-as-warsh-speech-looms-4878233",
+   "t": "27 Aug \u00b7 07:37 PM",
+   "ur": "Market warsh ki jection hol taqrir ka antezar kar rahi hai to Gold (sone) ke kanare niche aagay."
   },
   {
-   "ts": 1787801574.779395,
-   "title": "Silver stalls below $70 in tight consolidation: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-hits-fibonacci-resistance-with-mfi-at-89-hourly-levels-93CH-4872745",
-   "t": "27 Aug \u00b7 08:32 AM",
-   "ur": "Salor rak gaya hai saqt istehkam mein $70 se niche"
+   "ts": 1787841389.0,
+   "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+   "t": "27 Aug \u00b7 07:36 PM",
+   "ur": "Fed ke himek ka kahana hai kah rate sud badhane par 'ab amal karne ka waqat hai'"
   },
   {
-   "ts": 1787800330.0,
-   "title": "South Korean Won gains on back-to-back BoK interest rate hikes",
+   "ts": 1787841338.0,
+   "title": "Fed's Hammack says \u201cnow\u201d is the time to tackle inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-gains-on-back-to-back-bok-interest-rate-hikes-202608270312",
-   "t": "27 Aug \u00b7 08:12 AM",
-   "ur": "South Korea ki Won ne bek to bek BoK rate sud mein azafe par faidah athaya"
+   "link": "https://www.fxstreet.com/news/feds-hammack-says-now-is-the-time-to-tackle-inflation-202608271435",
+   "t": "27 Aug \u00b7 07:35 PM",
+   "ur": "Fed's Hammack ka kahana hai kah \"ab\" mahungai se namtine ka waqat hai."
   },
   {
-   "ts": 1787799095.0,
-   "title": "Silver Price Forecast: XAG/USD holds above $69.00 as traders assess Fed stance",
+   "ts": 1787838122.0,
+   "title": "Fed\u2019s Schmid warns energy shock is leaking into the economy",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-holds-above-6900-as-traders-assess-fed-stance-202608270251",
-   "t": "27 Aug \u00b7 07:51 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $69.00 se oper rakta hai cunkah taajr Fed ke moqf ka jaizah lite hen"
+   "link": "https://www.fxstreet.com/news/feds-schmid-warns-energy-shock-is-leaking-into-the-economy-202608271342",
+   "t": "27 Aug \u00b7 06:42 PM",
+   "ur": "Fed ke shmad ne khabrdar kiya hai kah tawanai ka jhataka misht mein ras raha hai."
   },
   {
-   "ts": 1787797350.0,
-   "title": "New Zealand Dollar declines to near 0.5950 as US PCE data lift Fed rate hike bets",
+   "ts": 1787837897.0,
+   "title": "Fed's Goolsbee warns political interference with Fed could fuel inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-declines-to-near-05950-as-us-pce-data-lift-fed-rate-hike-bets-202608270222",
-   "t": "27 Aug \u00b7 07:22 AM",
-   "ur": "Niyozi lind Dollar kam ho kar 0.5950 ke qarib ho gaya cunkah US PCE deta ne Fed ki rate mein azafe ki shart ko athaya"
+   "link": "https://www.fxstreet.com/news/feds-goolsbee-warns-political-interference-with-fed-could-fuel-inflation-202608271338",
+   "t": "27 Aug \u00b7 06:38 PM",
+   "ur": "Fed ke Goolsbee ne khabrdar kiya hai kah Fed ke sath siyasi madakhalt mahungai ko badha sakti hai."
   },
   {
-   "ts": 1787796180.0,
-   "title": "Australian Dollar holds strong due to RBA rate hike bets",
+   "ts": 1787837823.0,
+   "title": "Euro trims intraday losses as traders weigh Fed-ECB interest rate outlooks",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-strong-due-to-rba-rate-hike-bets-202608270203",
-   "t": "27 Aug \u00b7 07:03 AM",
-   "ur": "Aar bi aye ki rate mein azafe ki shart ki wajah se aasterilvi Dollar mazboot hai."
+   "link": "https://www.fxstreet.com/news/euro-trims-intraday-losses-as-traders-weigh-fed-ecb-interest-rate-outlooks-202608271337",
+   "t": "27 Aug \u00b7 06:37 PM",
+   "ur": "Uro antra day naqsanat ko kam karta hai cunkah taajr Fed-ECB ki rate sud ke naqatah nazar ko tolte hen."
   },
   {
-   "ts": 1787796099.0,
-   "title": "Canadian Dollar consolidates near weekly low as USD bulls seem hesitant",
+   "ts": 1787837321.0,
+   "title": "US Dollar: Fed repricing risk weighs on usd \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-consolidates-near-weekly-low-as-usd-bulls-seem-hesitant-202608270201",
-   "t": "27 Aug \u00b7 07:01 AM",
-   "ur": "Caniden Dollar haftah war kam hone ke qarib mastahkam hota hai cunkah USD bel hichakchate nazar aate hen."
+   "link": "https://www.fxstreet.com/news/us-dollar-fed-repricing-risk-weighs-on-usd-bbh-202608271328",
+   "t": "27 Aug \u00b7 06:28 PM",
+   "ur": "US Dollar: fed ri pariceng ka khatrah USD - BBH par hota hai."
   },
   {
-   "ts": 1787786812.0,
-   "title": "Gold retreats from three-month high to near $4,600 after US PCE data",
+   "ts": 1787835835.0,
+   "title": "Swedish Krona: Inflation risks may prompt tougher Riksbank stance - BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-retreats-from-three-month-high-to-near-4-600-after-us-pce-data-202608262326",
-   "t": "27 Aug \u00b7 04:26 AM",
-   "ur": "US PCE deta ke bad Gold (sona) tin mah ki baland tarin sath se $4,600 ke qarib pohch gaya."
+   "link": "https://www.fxstreet.com/news/swedish-krona-inflation-risks-may-prompt-tougher-riksbank-stance-bny-202608271303",
+   "t": "27 Aug \u00b7 06:03 PM",
+   "ur": "Sweadish karona: inflation (mehngai) ke khatrat Riksbank ke saqt moqf ka sabab ban sakte hen - BNY"
   },
   {
-   "ts": 1787786461.0,
-   "title": "Australian Dollar extends rally as RBA hike bets, offset US data",
+   "ts": 1787833700.0,
+   "title": "Brent: Watching support at 84/83 dollars \u2013 Societe Generale",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-extends-rally-as-rba-hike-bets-offset-us-data-202608262321",
-   "t": "27 Aug \u00b7 04:21 AM",
-   "ur": "Aasterilvi Dollar ne RBA mein azafe ki shart ke tur par rili ko badhaya, US deta ko afset kiya."
+   "link": "https://www.fxstreet.com/news/brent-watching-support-at-84-83-dollars-societe-generale-202608271228",
+   "t": "27 Aug \u00b7 05:28 PM",
+   "ur": "Barint: 84/83 dalers par sport dekhana \u2013 Societe Generale"
   },
   {
-   "ts": 1787781055.0,
-   "title": "New Zealand Dollar steadies as firm US Dollar caps gains",
+   "ts": 1787833007.0,
+   "title": "Canadian Dollar stays vulnerable as US-Canada trade war heats up",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-steadies-as-firm-us-dollar-caps-gains-202608262150",
-   "t": "27 Aug \u00b7 02:50 AM",
-   "ur": "Niyozi lind Dollar mastahkam hai cunkah US Dollar ki qeemat mein azafah hawa hai."
+   "link": "https://www.fxstreet.com/news/canadian-dollar-stays-vulnerable-as-us-canada-trade-war-heats-up-202608271216",
+   "t": "27 Aug \u00b7 05:16 PM",
+   "ur": "US-canida tajarti jang ke garm hone par caniden Dollar kamazor rahta hai."
   }
  ],
  "sentiment": {
