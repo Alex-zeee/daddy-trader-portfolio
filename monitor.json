@@ -1,33 +1,13 @@
 {
- "updated": "30-08-2026 10:47 PKT",
+ "updated": "30-08-2026 15:47 PKT",
  "gold": {
-  "price": 4458.85,
+  "price": 4458.76,
   "open": 4458.78,
   "high": 4458.99,
-  "low": 4458.69,
-  "chg": 0.0,
+  "low": 4458.71,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4458.88,
-   4458.83,
-   4458.75,
-   4458.85,
-   4458.88,
-   4458.82,
-   4458.75,
-   4458.87,
-   4458.88,
-   4458.83,
-   4458.75,
-   4458.88,
-   4458.88,
-   4458.84,
-   4458.76,
-   4458.78,
-   4458.87,
-   4458.86,
-   4458.77,
-   4458.77,
    4458.86,
    4458.87,
    4458.79,
@@ -55,7 +35,27 @@
    4458.77,
    4458.86,
    4458.88,
-   4458.85
+   4458.84,
+   4458.76,
+   4458.85,
+   4458.88,
+   4458.83,
+   4458.75,
+   4458.86,
+   4458.89,
+   4458.83,
+   4458.75,
+   4458.88,
+   4458.88,
+   4458.84,
+   4458.76,
+   4458.89,
+   4458.88,
+   4458.86,
+   4458.77,
+   4458.77,
+   4458.87,
+   4458.76
   ]
  },
  "markets": [
@@ -264,14 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2455.92,
-   "chg": -0.06,
+   "price": 2458.45,
+   "chg": 0.04,
    "spark": [
-    2503.43,
-    2496.43,
-    2488.19,
-    2489.62,
-    2506.62,
     2504.62,
     2499.26,
     2511.97,
@@ -314,19 +309,19 @@
     2454.91,
     2457.25,
     2455.48,
-    2455.92
+    2456.24,
+    2461.11,
+    2455.81,
+    2456.8,
+    2452.99,
+    2458.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78136.1,
-   "chg": -0.12,
+   "price": 78141.6,
+   "chg": -0.11,
    "spark": [
-    79926.7,
-    79681.8,
-    79517.0,
-    79301.1,
-    79577.6,
     79593.4,
     79420.0,
     79335.0,
@@ -369,7 +364,12 @@
     78100.7,
     78137.5,
     78099.1,
-    78136.1
+    78115.8,
+    78260.5,
+    78127.1,
+    78072.8,
+    78003.1,
+    78141.6
    ]
   }
  ],
@@ -450,20 +450,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788068843.631859,
+   "ts": 1788086838.490244,
    "title": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer-4880409",
-   "t": "30 Aug \u00b7 10:47 AM",
+   "t": "30 Aug \u00b7 03:47 PM",
    "ur": "Fed palisi, harmaz del ki afwahon ke bare mein ashare par til ki qeemat kam hogayi"
   },
   {
-   "ts": 1788068843.631859,
+   "ts": 1788086838.490244,
    "title": "Gold prices shed about 3% on hawkish Warsh at Jackson Hole, set for weekly decline",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-dips-ahead-of-warshs-jackson-hole-speech-set-for-weekly-fall-4880473",
-   "t": "30 Aug \u00b7 10:47 AM",
-   "ur": "Jection hol mein hakish warsh par Gold (sone) ki qeemton mein taqriban 3 fisad kami hoi, haftah war kami ke liye tyar"
+   "t": "30 Aug \u00b7 03:47 PM",
+   "ur": "Jection hol mein hakish warsh par Gold (sone) ki qeemton mein taqriban 3 fisad kami hoi, haftah war kami ke liye mokhar"
   },
   {
    "ts": 1787960460.0,
@@ -471,7 +471,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-bok-tightening-supports-krw-against-us-dollar-commerzbank-202608282341",
    "t": "29 Aug \u00b7 04:41 AM",
-   "ur": "South Korea ki Won: BoK saqti US Dollar ke maqable KRW ki support karti hai - kamers Bank"
+   "ur": "South Korea ki wan: BoK ki saqti se KRW ko US Dollar ke maqable mein madad malti hai - Commerzbank"
   },
   {
    "ts": 1787954160.0,
@@ -495,7 +495,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/boes-bailey-sees-muted-inflation-effects-ahead-of-boes-meeting-202608281848",
    "t": "28 Aug \u00b7 11:48 PM",
-   "ur": "BoE's Bailey palisi matong se pehle khamosh inflation (mehngai) ke asarat dekhta hai."
+   "ur": "BoE's Bailey palisi matong se qabl khamosh inflation (mehngai) ke asarat dekhta hai."
   },
   {
    "ts": 1787941393.0,
@@ -527,7 +527,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-retreats-from-highs-as-warshs-hawkish-message-lifts-us-dollar-202608281603",
    "t": "28 Aug \u00b7 09:03 PM",
-   "ur": "Aasterilvi Dollar unchai se patchhe hat raha hai cunkah warsh ke aqabi pegham ne US Dollar ko atha liya"
+   "ur": "Aasterilvi Dollar unchai se patchhe hat raha hai cunkah warsh ke aqabi pegham ne US Dollar ko athaya"
   }
  ],
  "sentiment": {
