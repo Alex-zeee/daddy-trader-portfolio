@@ -1,21 +1,13 @@
 {
- "updated": "30-08-2026 03:38 PKT",
+ "updated": "30-08-2026 05:40 PKT",
  "gold": {
-  "price": 4458.89,
+  "price": 4458.76,
   "open": 4458.79,
   "high": 4458.99,
   "low": 4458.69,
-  "chg": 0.0,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4458.86,
-   4458.74,
-   4458.73,
-   4458.85,
-   4458.87,
-   4458.84,
-   4458.75,
-   4458.84,
    4458.88,
    4458.82,
    4458.75,
@@ -55,7 +47,15 @@
    4458.78,
    4458.87,
    4458.86,
-   4458.89
+   4458.77,
+   4458.77,
+   4458.86,
+   4458.87,
+   4458.79,
+   4458.76,
+   4458.85,
+   4458.88,
+   4458.76
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2451.15,
-   "chg": 0.34,
+   "price": 2461.96,
+   "chg": 0.19,
    "spark": [
-    2511.32,
-    2516.4,
     2513.03,
     2492.62,
     2490.94,
@@ -314,16 +312,16 @@
     2452.91,
     2452.65,
     2450.99,
-    2451.15
+    2452.68,
+    2457.38,
+    2461.96
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78142.9,
-   "chg": 0.39,
+   "price": 78237.0,
+   "chg": 0.01,
    "spark": [
-    80265.9,
-    80581.5,
     80519.1,
     79935.5,
     79828.2,
@@ -369,7 +367,9 @@
     78165.1,
     78126.5,
     78156.3,
-    78142.9
+    78201.8,
+    78227.8,
+    78237.0
    ]
   }
  ],
@@ -426,89 +426,81 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1788043085.725364,
+   "ts": 1788050436.886073,
    "title": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer-4880409",
-   "t": "30 Aug \u00b7 03:38 AM",
-   "ur": "Fed palisi, harmaz del ki afwahon ke bare mein ashare par til ki qeemat kam hogayi"
+   "t": "30 Aug \u00b7 05:40 AM"
   },
   {
-   "ts": 1788043085.725364,
+   "ts": 1788050436.886073,
    "title": "Gold prices shed about 3% on hawkish Warsh at Jackson Hole, set for weekly decline",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-dips-ahead-of-warshs-jackson-hole-speech-set-for-weekly-fall-4880473",
-   "t": "30 Aug \u00b7 03:38 AM",
-   "ur": "Jection hol mein hakish warsh par Gold (sone) ki qeemton mein taqriban 3 fisad kami hoi, haftah war kami ke liye tyar"
+   "t": "30 Aug \u00b7 05:40 AM"
   },
   {
    "ts": 1787960460.0,
    "title": "South Korean Won: BoK tightening supports KRW against US Dollar \u2013 Commerzbank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-bok-tightening-supports-krw-against-us-dollar-commerzbank-202608282341",
-   "t": "29 Aug \u00b7 04:41 AM",
-   "ur": "South Korea ki Won: BoK saqti US Dollar ke maqable KRW ki support karti hai - kamers Bank"
+   "t": "29 Aug \u00b7 04:41 AM"
   },
   {
    "ts": 1787954160.0,
    "title": "Philippine Peso: BSP tightening bias on inflation risks \u2013 DBS",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/philippine-peso-bsp-tightening-bias-on-inflation-risks-dbs-202608282156",
-   "t": "29 Aug \u00b7 02:56 AM",
-   "ur": "Filpin peso: BSP inflation (mehngai) ke khatrat par taasab ko saqt kar raha hai - DBS"
+   "t": "29 Aug \u00b7 02:56 AM"
   },
   {
    "ts": 1787948696.0,
    "title": "Mexican Peso tumbles as Warsh embarks on inflation fight",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/mexican-peso-tumbles-as-warsh-embarks-on-inflation-fight-202608282024",
-   "t": "29 Aug \u00b7 01:24 AM",
-   "ur": "Warsh ke mahungai ke khalaf jang sharo hote hi mexican peso gar gaya."
+   "t": "29 Aug \u00b7 01:24 AM"
   },
   {
    "ts": 1787942899.0,
    "title": "BoE\u2019s Bailey sees muted inflation effects ahead of policy meeting",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/boes-bailey-sees-muted-inflation-effects-ahead-of-boes-meeting-202608281848",
-   "t": "28 Aug \u00b7 11:48 PM",
-   "ur": "BoE's Bailey palisi matong se pehle khamosh inflation (mehngai) ke asarat dekhta hai."
+   "t": "28 Aug \u00b7 11:48 PM"
   },
   {
    "ts": 1787941393.0,
    "title": "Fed\u2019s Goolsbee says inflation is the main issue right now",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/feds-goolsbee-says-inflation-is-the-main-issue-right-now-202608281823",
-   "t": "28 Aug \u00b7 11:23 PM",
-   "ur": "Fed's Goolsbee ka kahana hai kah inflation (mehngai) is waqat aham maslah hai."
+   "t": "28 Aug \u00b7 11:23 PM"
   },
   {
    "ts": 1787934623.0,
    "title": "Silver Price Forecast: False breakout and hawkish Fed sink XAG",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-false-breakout-and-hawkish-fed-sinks-xag-202608281630",
-   "t": "28 Aug \u00b7 09:30 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: ghalat barik oat aur hakish fed sank XAG"
+   "t": "28 Aug \u00b7 09:30 PM"
   },
   {
    "ts": 1787933511.0,
    "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
-   "t": "28 Aug \u00b7 09:11 PM",
-   "ur": "Fed ke chairmin warsh ne inflation (mehngai) ke bare mein tyush ka azhar kiya, markazi Bank ke 'sakon' ke haami hen."
+   "t": "28 Aug \u00b7 09:11 PM"
   },
   {
    "ts": 1787933006.0,
    "title": "Australian Dollar retreats from highs as Warsh\u2019s hawkish message lifts US Dollar",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-retreats-from-highs-as-warshs-hawkish-message-lifts-us-dollar-202608281603",
-   "t": "28 Aug \u00b7 09:03 PM",
-   "ur": "Aasterilvi Dollar unchai se patchhe hat raha hai cunkah warsh ke aqabi pegham ne US Dollar ko atha liya"
+   "t": "28 Aug \u00b7 09:03 PM"
   }
  ],
  "sentiment": {
-  "value": 68,
+  "value": 69,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
