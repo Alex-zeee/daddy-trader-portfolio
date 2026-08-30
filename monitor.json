@@ -1,22 +1,13 @@
 {
- "updated": "31-08-2026 02:31 PKT",
+ "updated": "31-08-2026 04:49 PKT",
  "gold": {
-  "price": 4456.2,
-  "open": 4458.78,
-  "high": 4459.54,
-  "low": 4455.53,
-  "chg": -0.06,
+  "price": 4441.22,
+  "open": 4458.79,
+  "high": 4466.53,
+  "low": 4436.56,
+  "chg": -0.39,
   "src": "XAUUSD Spot",
   "spark": [
-   4458.86,
-   4458.77,
-   4458.77,
-   4458.87,
-   4458.87,
-   4458.78,
-   4458.76,
-   4458.85,
-   4458.88,
    4458.84,
    4458.76,
    4458.85,
@@ -55,16 +46,24 @@
    4456.19,
    4456.13,
    4456.24,
-   4456.2
+   4456.18,
+   4456.2,
+   4459.05,
+   4459.06,
+   4459.16,
+   4461.54,
+   4462.08,
+   4454.53,
+   4447.52,
+   4441.22
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.786,
-   "chg": -2.37,
+   "price": 67.06,
+   "chg": 0.1,
    "spark": [
-    58.815,
     57.591,
     57.667,
     60.056,
@@ -85,15 +84,15 @@
     68.636,
     67.99,
     69.429,
-    67.786
+    66.995,
+    67.06
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.7,
-   "chg": 0.54,
+   "price": 99.646,
+   "chg": -0.05,
    "spark": [
-    100.01,
     99.8,
     99.96,
     99.89,
@@ -114,15 +113,15 @@
     98.92,
     99.17,
     99.16,
-    99.7
+    99.7,
+    99.646
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.4,
-   "chg": -0.16,
+   "price": 84.79,
+   "chg": 1.67,
    "spark": [
-    83.59,
     84.67,
     80.34,
     75.77,
@@ -143,42 +142,14 @@
     82.36,
     82.23,
     83.53,
-    83.4
-   ]
-  },
-  {
-   "name": "US 10Y Yield",
-   "price": 4.72,
-   "chg": 1.03,
-   "spark": [
-    4.663,
-    4.745,
-    4.686,
-    4.627,
-    4.617,
-    4.67,
-    4.66,
-    4.699,
-    4.684,
-    4.682,
-    4.641,
-    4.696,
-    4.724,
-    4.706,
-    4.653,
-    4.696,
-    4.738,
-    4.704,
-    4.639,
-    4.664,
-    4.672,
-    4.72
+    83.4,
+    84.79
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1582,
-   "chg": -0.64,
+   "price": 1.159,
+   "chg": -0.57,
    "spark": [
     1.1524,
     1.1544,
@@ -201,13 +172,13 @@
     1.1675,
     1.1655,
     1.1656,
-    1.1582
+    1.159
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3534,
-   "chg": -0.47,
+   "price": 1.3539,
+   "chg": -0.43,
    "spark": [
     1.3461,
     1.3492,
@@ -230,13 +201,13 @@
     1.3647,
     1.3597,
     1.3597,
-    1.3534
+    1.3539
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.059,
-   "chg": 0.46,
+   "price": 160.12,
+   "chg": 0.5,
    "spark": [
     160.183,
     157.582,
@@ -259,16 +230,14 @@
     159.223,
     159.255,
     159.321,
-    160.059
+    160.12
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2480.11,
-   "chg": 0.92,
+   "price": 2400.4,
+   "chg": -2.32,
    "spark": [
-    2441.69,
-    2442.73,
     2442.44,
     2443.24,
     2438.47,
@@ -314,16 +283,16 @@
     2511.13,
     2503.44,
     2491.01,
-    2480.11
+    2481.81,
+    2470.01,
+    2399.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78702.4,
-   "chg": 0.61,
+   "price": 77332.2,
+   "chg": -1.14,
    "spark": [
-    77760.7,
-    77841.8,
     77727.9,
     77807.8,
     77672.1,
@@ -369,7 +338,9 @@
     79021.1,
     78850.2,
     78595.1,
-    78702.4
+    78650.4,
+    78416.2,
+    77332.2
    ]
   }
  ],
@@ -450,18 +421,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788125492.409182,
+   "ts": 1788133796.105814,
    "title": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer-4880409",
-   "t": "31 Aug \u00b7 02:31 AM"
+   "t": "31 Aug \u00b7 04:49 AM"
   },
   {
-   "ts": 1788125492.409182,
+   "ts": 1788133796.105814,
    "title": "Gold prices shed about 3% on hawkish Warsh at Jackson Hole, set for weekly decline",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-dips-ahead-of-warshs-jackson-hole-speech-set-for-weekly-fall-4880473",
-   "t": "31 Aug \u00b7 02:31 AM"
+   "t": "31 Aug \u00b7 04:49 AM"
+  },
+  {
+   "ts": 1788133640.0,
+   "title": "US Treasury Secretary Bessent: Japanese Yen moves 'pretty contained' and not disorderly",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-japanese-yen-moves-pretty-contained-and-not-disorderly-202608302347",
+   "t": "31 Aug \u00b7 04:47 AM"
+  },
+  {
+   "ts": 1788132768.0,
+   "title": "Australian Dollar weakens to near 0.7150 as Fed's Warsh signals rate hikes, China's PMI data loom",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-to-near-07150-as-feds-warsh-signals-rate-hikes-chinas-pmi-data-loom-202608302332",
+   "t": "31 Aug \u00b7 04:32 AM"
   },
   {
    "ts": 1787960460.0,
@@ -504,20 +489,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-false-breakout-and-hawkish-fed-sinks-xag-202608281630",
    "t": "28 Aug \u00b7 09:30 PM"
-  },
-  {
-   "ts": 1787933511.0,
-   "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
-   "t": "28 Aug \u00b7 09:11 PM"
-  },
-  {
-   "ts": 1787933006.0,
-   "title": "Australian Dollar retreats from highs as Warsh\u2019s hawkish message lifts US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-retreats-from-highs-as-warshs-hawkish-message-lifts-us-dollar-202608281603",
-   "t": "28 Aug \u00b7 09:03 PM"
   }
  ],
  "sentiment": {
