@@ -1,36 +1,13 @@
 {
- "updated": "31-08-2026 06:50 PKT",
+ "updated": "31-08-2026 12:45 PKT",
  "gold": {
-  "price": 4440.7,
+  "price": 4446.23,
   "open": 4458.79,
   "high": 4470.87,
-  "low": 4435.39,
-  "chg": -0.41,
+  "low": 4400.1,
+  "chg": -0.28,
   "src": "XAUUSD Spot",
   "spark": [
-   4458.83,
-   4458.75,
-   4458.88,
-   4458.88,
-   4458.85,
-   4458.76,
-   4458.78,
-   4458.87,
-   4458.86,
-   4458.77,
-   4458.77,
-   4458.86,
-   4458.87,
-   4458.79,
-   4458.76,
-   4458.85,
-   4458.86,
-   4458.83,
-   4458.72,
-   4456.96,
-   4456.13,
-   4456.22,
-   4456.24,
    4456.2,
    4456.13,
    4456.22,
@@ -55,14 +32,66 @@
    4440.87,
    4447.19,
    4451.49,
-   4440.7
+   4441.83,
+   4424.39,
+   4426.4,
+   4406.64,
+   4421.66,
+   4426.89,
+   4428.95,
+   4423.01,
+   4422.48,
+   4422.81,
+   4416.41,
+   4419.06,
+   4424.45,
+   4424.49,
+   4439.85,
+   4439.04,
+   4443.03,
+   4433.72,
+   4436.49,
+   4440.04,
+   4438.93,
+   4436.72,
+   4447.76,
+   4446.23
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 67.715,
+   "chg": 1.07,
+   "spark": [
+    57.591,
+    57.667,
+    60.056,
+    62.099,
+    61.439,
+    63.332,
+    65.106,
+    64.769,
+    65.555,
+    64.873,
+    64.988,
+    66.121,
+    63.941,
+    65.734,
+    68.026,
+    69.466,
+    68.541,
+    68.636,
+    67.99,
+    69.429,
+    66.995,
+    67.715
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 99.594,
-   "chg": -0.11,
+   "price": 99.542,
+   "chg": -0.16,
    "spark": [
     99.8,
     99.96,
@@ -85,13 +114,13 @@
     99.17,
     99.16,
     99.7,
-    99.594
+    99.542
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.36,
-   "chg": 2.35,
+   "price": 84.72,
+   "chg": 1.58,
    "spark": [
     84.67,
     80.34,
@@ -114,7 +143,7 @@
     82.23,
     83.53,
     83.4,
-    85.36
+    84.72
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1596,
-   "chg": -0.52,
+   "price": 1.1602,
+   "chg": -0.46,
    "spark": [
     1.1524,
     1.1544,
@@ -172,12 +201,12 @@
     1.1675,
     1.1655,
     1.1656,
-    1.1596
+    1.1602
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3545,
+   "price": 1.3546,
    "chg": -0.38,
    "spark": [
     1.3461,
@@ -201,13 +230,13 @@
     1.3647,
     1.3597,
     1.3597,
-    1.3545
+    1.3546
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.807,
-   "chg": 0.31,
+   "price": 159.608,
+   "chg": 0.18,
    "spark": [
     160.183,
     157.582,
@@ -230,20 +259,14 @@
     159.223,
     159.255,
     159.321,
-    159.807
+    159.608
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2418.82,
-   "chg": 0.09,
+   "price": 2441.01,
+   "chg": 1.0,
    "spark": [
-    2438.47,
-    2435.14,
-    2440.47,
-    2439.1,
-    2435.48,
-    2436.91,
     2434.33,
     2436.18,
     2435.0,
@@ -285,20 +308,20 @@
     2470.01,
     2416.95,
     2427.54,
-    2418.82
+    2411.64,
+    2407.26,
+    2421.21,
+    2417.14,
+    2435.87,
+    2438.4,
+    2441.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77753.0,
-   "chg": 0.09,
+   "price": 78261.8,
+   "chg": 0.75,
    "spark": [
-    77672.1,
-    77515.5,
-    77652.7,
-    77637.9,
-    77463.9,
-    77637.0,
     77638.0,
     77679.8,
     77668.2,
@@ -340,7 +363,13 @@
     78416.2,
     77681.6,
     77920.6,
-    77753.1
+    77618.7,
+    77448.7,
+    77738.8,
+    77603.8,
+    78010.0,
+    78079.3,
+    78261.8
    ]
   }
  ],
@@ -421,81 +450,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788141047.418829,
-   "title": "Gold steadies after sharp selloff as Warsh revives Fed hike bets",
+   "ts": 1788162343.662617,
+   "title": "Silver breaks below 20/50 SMAs at $66.71: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
+   "t": "31 Aug \u00b7 12:45 PM",
+   "ur": "Silver (chandi) 20/50 SMAs se niche $66.71 par tot gayi."
+  },
+  {
+   "ts": 1788162343.662617,
+   "title": "Gold double top breakdown: Live levels this hour",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
+   "t": "31 Aug \u00b7 12:45 PM",
+   "ur": "Gold dabl tap barik doun: is ghantay"
+  },
+  {
+   "ts": 1788162343.662617,
+   "title": "Gold slips as hawkish Fed outlook, oil prices pressure bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-selloff-as-warsh-revives-fed-hike-bets-4882094",
-   "t": "31 Aug \u00b7 06:50 AM"
+   "t": "31 Aug \u00b7 12:45 PM",
+   "ur": "Fed oat lak ki wajah se Gold (sona) phisal gaya, til ki qeemton par dabao"
   },
   {
-   "ts": 1788141047.418829,
-   "title": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer-4880409",
-   "t": "31 Aug \u00b7 06:50 AM"
-  },
-  {
-   "ts": 1788140746.0,
-   "title": "Gold drifts lower below $4,450 as hawkish Warsh remarks lift Fed hike bets",
+   "ts": 1788161968.0,
+   "title": "Euro: Inflation test for ECB hike odds \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-drifts-lower-below-4-450-as-hawkish-warsh-remarks-lift-fed-hike-bets-202608310145",
-   "t": "31 Aug \u00b7 06:45 AM"
+   "link": "https://www.fxstreet.com/news/euro-inflation-test-for-ecb-hike-odds-bny-202608310739",
+   "t": "31 Aug \u00b7 12:39 PM",
+   "ur": "Uro: ECB mein azafe ki mashaklat ke liye inflation (mehngai) ka amtahan - BNY"
   },
   {
-   "ts": 1788140607.0,
-   "title": "Australian Dollar moves little following China\u2019s NBS PMI data",
+   "ts": 1788161491.0,
+   "title": "US Dollar: Warsh speech supports greenback \u2013 DBS",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-moves-little-following-chinas-nbs-pmi-data-202608310143",
-   "t": "31 Aug \u00b7 06:43 AM"
+   "link": "https://www.fxstreet.com/news/us-dollar-warsh-speech-supports-greenback-dbs-202608310731",
+   "t": "31 Aug \u00b7 12:31 PM",
+   "ur": "US Dollar: warsh spatch garin bek ki support karti hai \u2013 DBS"
   },
   {
-   "ts": 1788137497.0,
-   "title": "Euro edges higher to near 1.1600 ahead of German CPI inflation release",
+   "ts": 1788161359.0,
+   "title": "Indonesian Rupiah declines despite weaker US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-edges-higher-to-near-11600-ahead-of-german-cpi-inflation-release-202608310051",
-   "t": "31 Aug \u00b7 05:51 AM"
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-declines-despite-weaker-us-dollar-202608310729",
+   "t": "31 Aug \u00b7 12:29 PM",
+   "ur": "Kamazor US Dollar ke bawajud andonishin ropiya mein kami"
   },
   {
-   "ts": 1788133640.0,
-   "title": "US Treasury Secretary Bessent: Japanese Yen moves 'pretty contained' and not disorderly",
+   "ts": 1788161075.0,
+   "title": "EUR/GBP Price Forecast: Hesitates near 0.8550 with the risk-off mood capping rallies",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-japanese-yen-moves-pretty-contained-and-not-disorderly-202608302347",
-   "t": "31 Aug \u00b7 04:47 AM"
+   "link": "https://www.fxstreet.com/news/eur-gbp-price-forecast-hesitates-near-08550-with-the-risk-off-mood-capping-rallies-202608310724",
+   "t": "31 Aug \u00b7 12:24 PM",
+   "ur": "EUR/GBP qeemat ki forecast: rask af mod caping riliyon ke sath 0.8550 ke qarib hichakchata hai"
   },
   {
-   "ts": 1788132768.0,
-   "title": "Australian Dollar weakens to near 0.7150 as Fed's Warsh signals rate hikes, China's PMI data loom",
+   "ts": 1788159801.0,
+   "title": "Indian Rupee: Growth supports INR against US Dollar \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-to-near-07150-as-feds-warsh-signals-rate-hikes-chinas-pmi-data-loom-202608302332",
-   "t": "31 Aug \u00b7 04:32 AM"
+   "link": "https://www.fxstreet.com/news/indian-rupee-growth-supports-inr-against-us-dollar-commerzbank-202608310703",
+   "t": "31 Aug \u00b7 12:03 PM",
+   "ur": "Handostani ropiya: tarqi US Dollar ke maqable mein INR ko sport karti hai - Commerzbank"
   },
   {
-   "ts": 1787960460.0,
-   "title": "South Korean Won: BoK tightening supports KRW against US Dollar \u2013 Commerzbank",
+   "ts": 1788159491.0,
+   "title": "New Zealand Dollar gathers strength above 0.5900 on stronger China PMI data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/south-korean-won-bok-tightening-supports-krw-against-us-dollar-commerzbank-202608282341",
-   "t": "29 Aug \u00b7 04:41 AM"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-gathers-strength-above-05900-on-stronger-china-pmi-data-202608310658",
+   "t": "31 Aug \u00b7 11:58 AM",
+   "ur": "Mazboot china pi em i deta par niyozi lind Dollar 0.5900 se oper ki tqt jama karta hai."
   },
   {
-   "ts": 1787954160.0,
-   "title": "Philippine Peso: BSP tightening bias on inflation risks \u2013 DBS",
+   "ts": 1788158565.0,
+   "title": "Asian stock markets face slight pressure from renewed geopolitical risks, hawkish Fed bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/philippine-peso-bsp-tightening-bias-on-inflation-risks-dbs-202608282156",
-   "t": "29 Aug \u00b7 02:56 AM"
-  },
-  {
-   "ts": 1787948696.0,
-   "title": "Mexican Peso tumbles as Warsh embarks on inflation fight",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-tumbles-as-warsh-embarks-on-inflation-fight-202608282024",
-   "t": "29 Aug \u00b7 01:24 AM"
+   "link": "https://www.fxstreet.com/news/asian-stock-markets-face-slight-pressure-renewed-geopolitical-risks-hawkish-fed-bets-202608310642",
+   "t": "31 Aug \u00b7 11:42 AM",
+   "ur": "Asiai stak marketon ko naye jio poletecl khatrat se mamoli dabao ka samana hai"
   }
  ],
  "sentiment": {
   "value": 62,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
