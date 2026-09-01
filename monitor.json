@@ -1,24 +1,13 @@
 {
- "updated": "01-09-2026 23:10 PKT",
+ "updated": "02-09-2026 01:59 PKT",
  "gold": {
-  "price": 4339.33,
-  "open": 4432.58,
+  "price": 4328.7,
+  "open": 4448.66,
   "high": 4462.06,
-  "low": 4326.76,
-  "chg": -2.1,
+  "low": 4323.34,
+  "chg": -2.7,
   "src": "XAUUSD Spot",
   "spark": [
-   4430.7,
-   4434.61,
-   4430.45,
-   4431.29,
-   4428.86,
-   4422.51,
-   4417.89,
-   4404.68,
-   4383.75,
-   4373.45,
-   4375.01,
    4375.43,
    4372.55,
    4370.13,
@@ -55,14 +44,25 @@
    4346.83,
    4343.78,
    4342.25,
-   4339.33
+   4336.3,
+   4337.54,
+   4329.08,
+   4332.88,
+   4336.55,
+   4335.31,
+   4325.26,
+   4325.74,
+   4327.15,
+   4326.97,
+   4328.05,
+   4328.7
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.225,
-   "chg": -1.5,
+   "price": 64.695,
+   "chg": -2.3,
    "spark": [
     57.667,
     60.056,
@@ -85,13 +85,13 @@
     69.429,
     66.995,
     66.221,
-    65.225
+    64.695
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.704,
-   "chg": 0.28,
+   "price": 99.665,
+   "chg": 0.24,
    "spark": [
     99.96,
     99.89,
@@ -113,13 +113,13 @@
     99.17,
     99.16,
     99.43,
-    99.704
+    99.665
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.73,
-   "chg": 4.63,
+   "price": 90.61,
+   "chg": 5.66,
    "spark": [
     80.34,
     75.77,
@@ -142,13 +142,13 @@
     83.53,
     83.4,
     85.76,
-    89.73
+    90.61
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.792,
-   "chg": 0.71,
+   "price": 4.796,
+   "chg": 0.8,
    "spark": [
     4.686,
     4.627,
@@ -170,13 +170,13 @@
     4.664,
     4.672,
     4.758,
-    4.792
+    4.796
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1593,
-   "chg": 0.03,
+   "price": 1.1596,
+   "chg": 0.06,
    "spark": [
     1.1544,
     1.1507,
@@ -199,13 +199,13 @@
     1.1655,
     1.1656,
     1.1589,
-    1.1593
+    1.1596
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3514,
-   "chg": -0.2,
+   "price": 1.3518,
+   "chg": -0.17,
    "spark": [
     1.3492,
     1.3427,
@@ -228,13 +228,13 @@
     1.3597,
     1.3597,
     1.354,
-    1.3514
+    1.3518
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.238,
-   "chg": 0.07,
+   "price": 160.198,
+   "chg": 0.05,
    "spark": [
     157.582,
     157.529,
@@ -257,16 +257,14 @@
     159.255,
     159.321,
     160.122,
-    160.238
+    160.198
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2411.59,
-   "chg": -2.25,
+   "price": 2419.76,
+   "chg": -1.92,
    "spark": [
-    2503.44,
-    2491.01,
     2481.81,
     2470.01,
     2416.95,
@@ -312,16 +310,16 @@
     2448.29,
     2431.91,
     2417.09,
-    2411.59
+    2412.28,
+    2417.85,
+    2419.76
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77152.9,
-   "chg": -1.79,
+   "price": 77412.2,
+   "chg": -1.46,
    "spark": [
-    78850.2,
-    78595.1,
     78650.4,
     78416.2,
     77681.6,
@@ -367,7 +365,9 @@
     77891.0,
     77561.1,
     77237.5,
-    77152.9
+    77125.8,
+    77268.3,
+    77412.2
    ]
   }
  ],
@@ -424,89 +424,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788286228.40005,
-   "title": "Gold slides 2% as yields, oil and Fed hike bets weigh",
+   "ts": 1788296355.942729,
+   "title": "Silver breaks below key MAs at $64.90: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-twoday-drop-as-iran-strikes-revive-inflation-risks-4883434",
-   "t": "01 Sep \u00b7 11:10 PM",
-   "ur": "Pedawar, til aur fed mein azafe ki shart ke wazin ke baas Gold (sona) 2 fisad tak garta hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
+   "t": "02 Sep \u00b7 01:59 AM"
+  },
+  {
+   "ts": 1788296355.942729,
+   "title": "Gold plunges to RSI 24.9 near $4,378 support: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
+   "t": "02 Sep \u00b7 01:59 AM"
+  },
+  {
+   "ts": 1788294180.0,
+   "title": "Singapore Dollar: Volatility widens range-trading band against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-volatility-widens-range-trading-band-against-us-dollar-uob-202609012023",
+   "t": "02 Sep \u00b7 01:23 AM"
+  },
+  {
+   "ts": 1788291049.0,
+   "title": "Gold collapses as US-Iran strikes send Oil, US yields higher",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-collapses-as-us-iran-strikes-send-oil-us-yields-higher-202609011930",
+   "t": "02 Sep \u00b7 12:30 AM"
+  },
+  {
+   "ts": 1788288180.0,
+   "title": "Equities: Fragile advance under energy and yield risks \u2013 NBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/equities-fragile-advance-under-energy-and-yield-risks-nbc-202609011843",
+   "t": "01 Sep \u00b7 11:43 PM"
+  },
+  {
+   "ts": 1788287055.0,
+   "title": "United States Treasury yields read Iran strikes as inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-treasury-yields-read-iran-strikes-as-inflation-202609011824",
+   "t": "01 Sep \u00b7 11:24 PM"
+  },
+  {
+   "ts": 1788286881.0,
+   "title": "US Dollar Index gains as US-Iran tensions escalate, Treasury yields rise",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-gains-as-us-iran-tensions-escalate-treasury-yields-rise-202609011821",
+   "t": "01 Sep \u00b7 11:21 PM"
   },
   {
    "ts": 1788279662.0,
    "title": "US Treasury Secretary Bessent backs Yen support, urges BoJ clarity",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-backs-yen-support-urges-boj-clarity-202609011621",
-   "t": "01 Sep \u00b7 09:21 PM",
-   "ur": "US wazir khazana bessent ne yan ki support ki support ki, BoJ ki wazaht par zor diya."
+   "t": "01 Sep \u00b7 09:21 PM"
   },
   {
    "ts": 1788278578.0,
    "title": "New Zealand Dollar struggles to rebound despite softer US data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-to-rebound-despite-softer-us-data-202609011602",
-   "t": "01 Sep \u00b7 09:02 PM",
-   "ur": "Niyozi lind Dollar narm US aed w shmar ke bawajud saht mandi lotne ke laye jadojehad kar raha hai."
+   "t": "01 Sep \u00b7 09:02 PM"
   },
   {
    "ts": 1788277533.0,
    "title": "US Treasury Secretary Bessent backs Japan's steps, presses G20 on Iran",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-backs-japans-steps-presses-g20-on-iran-202609011545",
-   "t": "01 Sep \u00b7 08:45 PM",
-   "ur": "US wazir khazana bessent ne japan ke aqdamat ki support ki, eran par G20 par dabao dala."
-  },
-  {
-   "ts": 1788277463.0,
-   "title": "Australian Dollar trades cautiously as Fed and RBA rate hike bets clash",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-trades-cautiously-as-fed-and-rba-rate-hike-bets-clash-202609011544",
-   "t": "01 Sep \u00b7 08:44 PM",
-   "ur": "Aasterilvi Dollar muhatat tur par tajart kar raha hai cunkah Fed aur RBA ki rate mein azafe ke sharton ke darmiyan tasadam hai."
-  },
-  {
-   "ts": 1788276789.0,
-   "title": "British Pound stalls as mixed US data keeps Fed hawkish bets alive",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-stalls-as-mixed-us-data-keeps-fed-hawkish-bets-alive-202609011533",
-   "t": "01 Sep \u00b7 08:33 PM",
-   "ur": "Bartanvi pound rak gaya hai jisa kah mukhaloot US deta fed hakish sharton ko zandah rakta hai"
-  },
-  {
-   "ts": 1788275063.0,
-   "title": "United Kingdom: Growth cools as inflation risks build \u2013 Deutsche Bank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-kingdom-growth-cools-as-inflation-risks-build-deutsche-bank-202609011504",
-   "t": "01 Sep \u00b7 08:04 PM",
-   "ur": "Unaited kangdom: inflation (mehngai) ke khatrat badhte hi tarqi thanda padti hai \u2013 deoche Bank"
-  },
-  {
-   "ts": 1788273675.0,
-   "title": "US Dollar: Fed risks and election scenarios \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fed-risks-and-election-scenarios-td-securities-202609011441",
-   "t": "01 Sep \u00b7 07:41 PM",
-   "ur": "US Dollar: fed ke khatrat aur antakhabi manazrname - TD securitez"
-  },
-  {
-   "ts": 1788272344.0,
-   "title": "Gold: Pricing stays supported as Fed path questioned \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-pricing-stays-supported-as-fed-path-questioned-td-securities-202609011419",
-   "t": "01 Sep \u00b7 07:19 PM",
-   "ur": "Gold: fed path se pochh gach ke tur par qeemton ka tayin barqarar rahta hai - TD securitez"
-  },
-  {
-   "ts": 1788271014.0,
-   "title": "Japanese Yen: Yield cap and intervention shape risks \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-yield-cap-and-intervention-shape-risks-bbh-202609011356",
-   "t": "01 Sep \u00b7 06:56 PM",
-   "ur": "Japani yan: pedawar ki topi aur madakhalt ki shakl ke khatrat - BBH"
+   "t": "01 Sep \u00b7 08:45 PM"
   }
  ],
  "sentiment": {
   "value": 69,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
