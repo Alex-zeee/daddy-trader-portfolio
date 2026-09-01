@@ -1,31 +1,13 @@
 {
- "updated": "01-09-2026 15:25 PKT",
+ "updated": "01-09-2026 20:00 PKT",
  "gold": {
-  "price": 4384.14,
-  "open": 4447.61,
-  "high": 4464.49,
-  "low": 4364.0,
-  "chg": -1.43,
+  "price": 4357.79,
+  "open": 4434.31,
+  "high": 4462.06,
+  "low": 4326.76,
+  "chg": -1.73,
   "src": "XAUUSD Spot",
   "spark": [
-   4447.59,
-   4447.31,
-   4444.06,
-   4443.61,
-   4446.24,
-   4451.29,
-   4456.81,
-   4460.92,
-   4453.89,
-   4453.58,
-   4448.95,
-   4440.52,
-   4444.98,
-   4442.72,
-   4445.22,
-   4441.93,
-   4433.44,
-   4441.83,
    4439.38,
    4436.46,
    4438.55,
@@ -55,14 +37,32 @@
    4370.13,
    4367.66,
    4379.9,
-   4384.14
+   4383.72,
+   4382.85,
+   4378.79,
+   4380.02,
+   4380.64,
+   4384.37,
+   4374.42,
+   4371.95,
+   4373.04,
+   4360.7,
+   4358.73,
+   4334.94,
+   4342.09,
+   4358.29,
+   4362.53,
+   4364.06,
+   4370.13,
+   4366.47,
+   4357.79
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.57,
-   "chg": -0.98,
+   "price": 65.38,
+   "chg": -1.27,
    "spark": [
     57.667,
     60.056,
@@ -85,13 +85,42 @@
     69.429,
     66.995,
     66.221,
-    65.57
+    65.38
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 99.581,
+   "chg": 0.15,
+   "spark": [
+    99.96,
+    99.89,
+    99.69,
+    99.97,
+    99.6,
+    99.81,
+    99.82,
+    100.01,
+    99.96,
+    99.67,
+    99.64,
+    99.65,
+    98.83,
+    98.9,
+    98.8,
+    99.0,
+    98.92,
+    99.17,
+    99.16,
+    99.7,
+    99.43,
+    99.581
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.89,
-   "chg": 2.48,
+   "price": 87.71,
+   "chg": 2.27,
    "spark": [
     80.34,
     75.77,
@@ -114,15 +143,14 @@
     83.53,
     83.4,
     85.76,
-    87.89
+    87.71
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.758,
-   "chg": 1.84,
+   "price": 4.766,
+   "chg": 0.17,
    "spark": [
-    4.745,
     4.686,
     4.627,
     4.617,
@@ -142,13 +170,15 @@
     4.639,
     4.664,
     4.672,
-    4.758
+    4.72,
+    4.758,
+    4.766
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1598,
-   "chg": 0.08,
+   "price": 1.16,
+   "chg": 0.09,
    "spark": [
     1.1544,
     1.1507,
@@ -171,13 +201,13 @@
     1.1655,
     1.1656,
     1.1589,
-    1.1598
+    1.16
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3543,
-   "chg": 0.02,
+   "price": 1.3538,
+   "chg": -0.02,
    "spark": [
     1.3492,
     1.3427,
@@ -200,13 +230,13 @@
     1.3597,
     1.3597,
     1.354,
-    1.3543
+    1.3538
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.991,
-   "chg": -0.08,
+   "price": 160.063,
+   "chg": -0.04,
    "spark": [
     157.582,
     157.529,
@@ -229,19 +259,14 @@
     159.255,
     159.321,
     160.122,
-    159.991
+    160.063
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2456.65,
-   "chg": -0.42,
+   "price": 2448.36,
+   "chg": -0.76,
    "spark": [
-    2459.67,
-    2468.49,
-    2475.94,
-    2476.94,
-    2480.85,
     2528.55,
     2505.24,
     2511.13,
@@ -284,19 +309,19 @@
     2472.07,
     2447.43,
     2451.55,
-    2456.65
+    2456.21,
+    2458.3,
+    2445.66,
+    2443.39,
+    2448.87,
+    2448.36
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77991.8,
-   "chg": -0.73,
+   "price": 78139.0,
+   "chg": -0.54,
    "spark": [
-    78149.9,
-    78762.8,
-    78897.3,
-    78779.6,
-    78808.3,
     79322.7,
     79003.1,
     79021.1,
@@ -339,7 +364,12 @@
     78616.4,
     77863.8,
     77896.5,
-    77991.8
+    77999.9,
+    78072.6,
+    77971.3,
+    78041.1,
+    78139.0,
+    78139.0
    ]
   }
  ],
@@ -420,84 +450,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788258334.330587,
-   "title": "Gold falls as oil, Treasury yields jump and Fed hike bets rise",
+   "ts": 1788274800.362542,
+   "title": "Gold declines as oil, Treasury yields jump and Fed hike bets rise",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-twoday-drop-as-iran-strikes-revive-inflation-risks-4883434",
-   "t": "01 Sep \u00b7 03:25 PM",
-   "ur": "Til ke tur par Gold (sona) garta hai, treasurei ki pedawar chhalang lagati hai aur fed mein azafe ki shartin badh jati hen."
+   "t": "01 Sep \u00b7 08:00 PM",
+   "ur": "Til ke tur par Gold (sone) mein kami, treasurei ki pedawar mein azafah aur fed mein azafe ki shartin badh gayin."
   },
   {
-   "ts": 1788258334.330587,
-   "title": "Silver trapped in $67-$68.50 coil, breakout brewing: Live levels",
+   "ts": 1788274800.362542,
+   "title": "European gas rally accelerates as US-Iran strikes threaten LNG shipping ahead",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "01 Sep \u00b7 03:25 PM",
-   "ur": "Silver (chandi) $67-$68.50 koile mein phans gayi, barik oat bariyong"
+   "link": "https://www.investing.com/news/commodities-news/european-gas-rally-accelerates-as-usiran-strikes-threaten-lng-shipping-ahead-4883739",
+   "t": "01 Sep \u00b7 08:00 PM",
+   "ur": "Uropi gis rili mein tizi i hai cunkah amrikah-eran hamlon se el an ji ki tarsel ko khatrah hai."
   },
   {
-   "ts": 1788256965.0,
-   "title": "Euro: Rebound capped by nearby resistance against US Dollar \u2013 UOB",
+   "ts": 1788273675.0,
+   "title": "US Dollar: Fed risks and election scenarios \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-rebound-capped-by-nearby-resistance-against-us-dollar-uob-202609011002",
-   "t": "01 Sep \u00b7 03:02 PM",
-   "ur": "Uro: US Dollar - UOB ke khalaf qaribi mazahmat se ribound muhadud"
+   "link": "https://www.fxstreet.com/news/us-dollar-fed-risks-and-election-scenarios-td-securities-202609011441",
+   "t": "01 Sep \u00b7 07:41 PM",
+   "ur": "US Dollar: fed ke khatrat aur antakhabi manazrname - TD securitez"
   },
   {
-   "ts": 1788256572.0,
-   "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html",
-   "t": "01 Sep \u00b7 02:56 PM",
-   "ur": "Uro zon ki inflation (mehngai) 3 fisad se oper waps aa gayi hai. aali rate sud ki pervi ka amkan hai."
-  },
-  {
-   "ts": 1788256404.0,
-   "title": "US Dollar: Jackson Hole keeps hike risk alive \u2013 MUFG",
+   "ts": 1788272344.0,
+   "title": "Gold: Pricing stays supported as Fed path questioned \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-jackson-hole-keeps-hike-risk-alive-mufg-202609010953",
-   "t": "01 Sep \u00b7 02:53 PM",
-   "ur": "US Dollar: jection hol azafe ke khatre ko zandah rakta hai - MUFG"
+   "link": "https://www.fxstreet.com/news/gold-pricing-stays-supported-as-fed-path-questioned-td-securities-202609011419",
+   "t": "01 Sep \u00b7 07:19 PM",
+   "ur": "Gold: fed path se pochh gach ke tur par qeemton ka tayin barqarar rahta hai - TD securitez"
   },
   {
-   "ts": 1788255167.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
+   "ts": 1788271014.0,
+   "title": "Japanese Yen: Yield cap and intervention shape risks \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609010932",
-   "t": "01 Sep \u00b7 02:32 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
+   "link": "https://www.fxstreet.com/news/japanese-yen-yield-cap-and-intervention-shape-risks-bbh-202609011356",
+   "t": "01 Sep \u00b7 06:56 PM",
+   "ur": "Japani yan: pedawar ki topi aur madakhalt ki shakl ke khatrat - BBH"
   },
   {
-   "ts": 1788254172.0,
-   "title": "Dow Jones futures fall as surging oil prices stoke inflation concerns",
+   "ts": 1788270470.0,
+   "title": "Japanese Yen weakens as Japan\u2019s 10-year yield hits 3% for first time since 1996",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-fall-as-surging-oil-prices-stoke-inflation-concerns-202609010916",
-   "t": "01 Sep \u00b7 02:16 PM",
-   "ur": "Dou joons futurs gar gaye cunkah til ki badhti hoi qeemton ne inflation (mehngai) ke khadshat ko janum diya."
+   "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-japans-10-year-yield-hits-3-for-first-time-since-1996-202609011347",
+   "t": "01 Sep \u00b7 06:47 PM",
+   "ur": "Japani yan kamazor hawa cunkah japan ki 10 salah pedawar 1996 ke bad pehli bar 3 fisad tak pohch gayi"
   },
   {
-   "ts": 1788254006.0,
-   "title": "Euro holds losses against Canadian Dollar following Eurozone HICP data",
+   "ts": 1788269614.0,
+   "title": "Euro area: Inflation jump supports ECB hike \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-holds-losses-against-canadian-dollar-following-eurozone-hicp-data-202609010913",
-   "t": "01 Sep \u00b7 02:13 PM",
-   "ur": "Uro zon ach i si pi ke aed w shmar ke bad caniden Dollar ke maqable mein uro ka naqsan hai."
+   "link": "https://www.fxstreet.com/news/euro-area-inflation-jump-supports-ecb-hike-commerzbank-202609011333",
+   "t": "01 Sep \u00b7 06:33 PM",
+   "ur": "Uro erya: inflation (mehngai) mein azafah ECB mein azafe ki support karta hai \u2013 Commerzbank"
   },
   {
-   "ts": 1788253708.0,
-   "title": "Japanese Yen: Consolidation before potential push to 160.55 against US Dollar \u2013 UOB",
+   "ts": 1788269062.0,
+   "title": "Fed\u2019s Barr keeps rate hike on the table as inflation persists",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-consolidation-before-potential-push-to-16055-against-us-dollar-uob-202609010908",
-   "t": "01 Sep \u00b7 02:08 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein 160.55 tak mamkana dhaka se pehle istehkam - UOB"
+   "link": "https://www.fxstreet.com/news/feds-barr-keeps-rate-hike-on-the-table-as-inflation-persists-202609011324",
+   "t": "01 Sep \u00b7 06:24 PM",
+   "ur": "Fed's Barr rate mein azafe ko mez par rakta hai cunkah inflation (mehngai) barqarar rahta hai."
   },
   {
-   "ts": 1788253469.0,
-   "title": "US Dollar Index Price Forecast: DXY eyes 99.75 confluence hurdle amid Fed bets, Iran risks",
+   "ts": 1788268601.0,
+   "title": "\u201cGood news\u201d on inflation: ECB\u2019s Nagel sees no second-round effects",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-dxy-eyes-9975-confluence-hurdle-amid-fed-bets-iran-risks-202609010904",
-   "t": "01 Sep \u00b7 02:04 PM",
-   "ur": "US Dollar andex ki qeemat ki forecast: di ex wai ne fed sharton ke darmiyan 99.75 sangam rakaut ko dekha, eran ke khatrat"
+   "link": "https://www.fxstreet.com/news/good-news-on-inflation-ecbs-nagel-sees-no-second-round-effects-202609011316",
+   "t": "01 Sep \u00b7 06:16 PM",
+   "ur": "Inflation (mehngai) par \"achi khabar\": ai si bi ke naagl ne dosare dur ke asarat nihen dekhe."
+  },
+  {
+   "ts": 1788268178.0,
+   "title": "Indian Rupee: RBI seen hiking as inflation risks build \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-rbi-seen-hiking-as-inflation-risks-build-uob-202609011309",
+   "t": "01 Sep \u00b7 06:09 PM",
+   "ur": "Handostani ropiya: mahungai ke khatrat badhte hi aar bi i ne azafah dekha - UOB"
   }
  ],
  "sentiment": {
