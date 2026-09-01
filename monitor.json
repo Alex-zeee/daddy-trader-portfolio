@@ -1,21 +1,13 @@
 {
- "updated": "02-09-2026 01:59 PKT",
+ "updated": "02-09-2026 04:00 PKT",
  "gold": {
-  "price": 4328.7,
-  "open": 4448.66,
+  "price": 4330.02,
+  "open": 4447.02,
   "high": 4462.06,
   "low": 4323.34,
-  "chg": -2.7,
+  "chg": -2.63,
   "src": "XAUUSD Spot",
   "spark": [
-   4375.43,
-   4372.55,
-   4370.13,
-   4367.66,
-   4379.9,
-   4383.72,
-   4382.85,
-   4378.79,
    4380.02,
    4380.64,
    4384.37,
@@ -55,43 +47,22 @@
    4327.15,
    4326.97,
    4328.05,
-   4328.7
+   4328.58,
+   4329.6,
+   4329.84,
+   4329.53,
+   4329.75,
+   4329.46,
+   4327.76,
+   4328.09,
+   4330.02
   ]
  },
  "markets": [
   {
-   "name": "Silver (fut)",
-   "price": 64.695,
-   "chg": -2.3,
-   "spark": [
-    57.667,
-    60.056,
-    62.099,
-    61.439,
-    63.332,
-    65.106,
-    64.769,
-    65.555,
-    64.873,
-    64.988,
-    66.121,
-    63.941,
-    65.734,
-    68.026,
-    69.466,
-    68.541,
-    68.636,
-    67.99,
-    69.429,
-    66.995,
-    66.221,
-    64.695
-   ]
-  },
-  {
    "name": "Dollar Index",
-   "price": 99.665,
-   "chg": 0.24,
+   "price": 99.654,
+   "chg": 0.23,
    "spark": [
     99.96,
     99.89,
@@ -113,13 +84,13 @@
     99.17,
     99.16,
     99.43,
-    99.665
+    99.654
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.61,
-   "chg": 5.66,
+   "price": 90.73,
+   "chg": 5.8,
    "spark": [
     80.34,
     75.77,
@@ -142,7 +113,7 @@
     83.53,
     83.4,
     85.76,
-    90.61
+    90.73
    ]
   },
   {
@@ -175,8 +146,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1596,
-   "chg": 0.06,
+   "price": 1.1618,
+   "chg": 0.25,
    "spark": [
     1.1544,
     1.1507,
@@ -199,13 +170,13 @@
     1.1655,
     1.1656,
     1.1589,
-    1.1596
+    1.1618
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3518,
-   "chg": -0.17,
+   "price": 1.355,
+   "chg": 0.07,
    "spark": [
     1.3492,
     1.3427,
@@ -228,15 +199,14 @@
     1.3597,
     1.3597,
     1.354,
-    1.3518
+    1.355
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.198,
-   "chg": 0.05,
+   "price": 160.199,
+   "chg": 0.28,
    "spark": [
-    157.582,
     157.529,
     157.692,
     157.6,
@@ -257,17 +227,15 @@
     159.255,
     159.321,
     160.122,
-    160.198
+    159.747,
+    160.199
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2419.76,
-   "chg": -1.92,
+   "price": 2410.52,
+   "chg": -2.29,
    "spark": [
-    2481.81,
-    2470.01,
-    2416.95,
     2427.54,
     2411.64,
     2407.26,
@@ -312,17 +280,17 @@
     2417.09,
     2412.28,
     2417.85,
-    2419.76
+    2420.08,
+    2414.22,
+    2411.62,
+    2410.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77412.2,
-   "chg": -1.46,
+   "price": 77230.0,
+   "chg": -1.7,
    "spark": [
-    78650.4,
-    78416.2,
-    77681.6,
     77920.6,
     77618.7,
     77448.7,
@@ -367,7 +335,10 @@
     77237.5,
     77125.8,
     77268.3,
-    77412.2
+    77412.7,
+    77170.4,
+    77230.0,
+    77230.1
    ]
   }
  ],
@@ -424,18 +395,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788296355.942729,
+   "ts": 1788303621.892516,
+   "title": "Gold falls over 2% as dollar gets a boost from spiking oil prices, rising yields",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-twoday-drop-as-iran-strikes-revive-inflation-risks-4883434",
+   "t": "02 Sep \u00b7 04:00 AM"
+  },
+  {
+   "ts": 1788303621.892516,
    "title": "Silver breaks below key MAs at $64.90: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "02 Sep \u00b7 01:59 AM"
+   "t": "02 Sep \u00b7 04:00 AM"
   },
   {
-   "ts": 1788296355.942729,
-   "title": "Gold plunges to RSI 24.9 near $4,378 support: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
-   "t": "02 Sep \u00b7 01:59 AM"
+   "ts": 1788302366.0,
+   "title": "Australian Dollar falls as US-Iran conflict lifts USD, GDP data eyed",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-conflict-lifts-usd-gdp-data-eyed-202609012239",
+   "t": "02 Sep \u00b7 03:39 AM"
+  },
+  {
+   "ts": 1788301440.0,
+   "title": "Chinese Yuan: Range-bound consolidation outlook against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-range-bound-consolidation-outlook-against-us-dollar-uob-202609012224",
+   "t": "02 Sep \u00b7 03:24 AM"
+  },
+  {
+   "ts": 1788300255.0,
+   "title": "EUR/USD Price Forecast: 200-day SMA caps Euro as Dollar firms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-200-day-sma-caps-euro-as-dollar-firms-202609012204",
+   "t": "02 Sep \u00b7 03:04 AM"
+  },
+  {
+   "ts": 1788298860.0,
+   "title": "India: Growth and inflation forecasts revised higher \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/india-growth-and-inflation-forecasts-revised-higher-uob-202609012141",
+   "t": "02 Sep \u00b7 02:41 AM"
   },
   {
    "ts": 1788294180.0,
@@ -464,34 +463,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/united-states-treasury-yields-read-iran-strikes-as-inflation-202609011824",
    "t": "01 Sep \u00b7 11:24 PM"
-  },
-  {
-   "ts": 1788286881.0,
-   "title": "US Dollar Index gains as US-Iran tensions escalate, Treasury yields rise",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-gains-as-us-iran-tensions-escalate-treasury-yields-rise-202609011821",
-   "t": "01 Sep \u00b7 11:21 PM"
-  },
-  {
-   "ts": 1788279662.0,
-   "title": "US Treasury Secretary Bessent backs Yen support, urges BoJ clarity",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-backs-yen-support-urges-boj-clarity-202609011621",
-   "t": "01 Sep \u00b7 09:21 PM"
-  },
-  {
-   "ts": 1788278578.0,
-   "title": "New Zealand Dollar struggles to rebound despite softer US data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-to-rebound-despite-softer-us-data-202609011602",
-   "t": "01 Sep \u00b7 09:02 PM"
-  },
-  {
-   "ts": 1788277533.0,
-   "title": "US Treasury Secretary Bessent backs Japan's steps, presses G20 on Iran",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasury-secretary-bessent-backs-japans-steps-presses-g20-on-iran-202609011545",
-   "t": "01 Sep \u00b7 08:45 PM"
   }
  ],
  "sentiment": {
