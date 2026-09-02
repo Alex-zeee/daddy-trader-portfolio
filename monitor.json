@@ -1,31 +1,13 @@
 {
- "updated": "02-09-2026 10:28 PKT",
+ "updated": "02-09-2026 14:47 PKT",
  "gold": {
-  "price": 4309.98,
-  "open": 4427.08,
-  "high": 4446.06,
+  "price": 4310.39,
+  "open": 4368.36,
+  "high": 4386.73,
   "low": 4283.21,
-  "chg": -2.65,
+  "chg": -1.33,
   "src": "XAUUSD Spot",
   "spark": [
-   4343.78,
-   4342.25,
-   4336.3,
-   4337.54,
-   4329.08,
-   4332.88,
-   4336.55,
-   4335.31,
-   4325.26,
-   4325.74,
-   4327.15,
-   4326.97,
-   4328.05,
-   4328.58,
-   4329.6,
-   4329.84,
-   4329.53,
-   4329.75,
    4329.46,
    4327.76,
    4328.09,
@@ -55,14 +37,32 @@
    4304.12,
    4307.08,
    4309.54,
-   4309.98
+   4313.03,
+   4320.54,
+   4321.0,
+   4327.87,
+   4324.51,
+   4325.12,
+   4319.8,
+   4328.65,
+   4326.49,
+   4323.88,
+   4323.46,
+   4326.21,
+   4324.11,
+   4322.56,
+   4313.99,
+   4315.56,
+   4308.34,
+   4310.3,
+   4310.39
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.43,
-   "chg": -0.29,
+   "price": 64.235,
+   "chg": -0.59,
    "spark": [
     60.056,
     62.099,
@@ -85,13 +85,13 @@
     66.995,
     66.221,
     64.618,
-    64.43
+    64.235
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.762,
-   "chg": 0.09,
+   "price": 99.788,
+   "chg": 0.12,
    "spark": [
     99.96,
     99.89,
@@ -114,13 +114,13 @@
     99.16,
     99.43,
     99.67,
-    99.762
+    99.788
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.53,
-   "chg": 0.34,
+   "price": 90.46,
+   "chg": 0.27,
    "spark": [
     75.77,
     75.22,
@@ -143,13 +143,41 @@
     83.4,
     85.76,
     90.22,
-    90.53
+    90.46
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.796,
+   "chg": 0.8,
+   "spark": [
+    4.686,
+    4.627,
+    4.617,
+    4.67,
+    4.66,
+    4.699,
+    4.684,
+    4.682,
+    4.641,
+    4.696,
+    4.724,
+    4.706,
+    4.653,
+    4.696,
+    4.738,
+    4.704,
+    4.639,
+    4.664,
+    4.672,
+    4.758,
+    4.796
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1581,
-   "chg": -0.32,
+   "price": 1.1577,
+   "chg": -0.35,
    "spark": [
     1.1507,
     1.1532,
@@ -172,13 +200,13 @@
     1.1656,
     1.1589,
     1.1618,
-    1.1581
+    1.1577
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3501,
-   "chg": -0.37,
+   "price": 1.3494,
+   "chg": -0.41,
    "spark": [
     1.3427,
     1.3451,
@@ -201,13 +229,13 @@
     1.3597,
     1.354,
     1.355,
-    1.3501
+    1.3494
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.016,
-   "chg": 0.17,
+   "price": 159.857,
+   "chg": 0.07,
    "spark": [
     157.529,
     157.692,
@@ -230,18 +258,14 @@
     159.321,
     160.122,
     159.747,
-    160.016
+    159.857
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2419.79,
-   "chg": 0.1,
+   "price": 2371.31,
+   "chg": -1.9,
    "spark": [
-    2438.4,
-    2440.45,
-    2446.01,
-    2446.39,
     2454.77,
     2445.64,
     2451.05,
@@ -285,18 +309,18 @@
     2408.17,
     2413.13,
     2414.7,
-    2419.79
+    2421.09,
+    2419.67,
+    2416.63,
+    2391.79,
+    2371.7
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77676.9,
-   "chg": 0.36,
+   "price": 76580.6,
+   "chg": -1.06,
    "spark": [
-    78079.3,
-    78192.5,
-    78450.1,
-    78503.4,
     78690.7,
     78294.4,
     77916.6,
@@ -340,7 +364,11 @@
     77280.3,
     77525.7,
     77519.4,
-    77676.9
+    77614.6,
+    77572.8,
+    77437.7,
+    76815.3,
+    76608.0
    ]
   }
  ],
@@ -397,84 +425,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788326893.79473,
-   "title": "Gold falls as oil, bond yields and Fed hike bets climb on Iran escalation",
+   "ts": 1788342463.444695,
+   "title": "Silver breaks uptrend, hovers above $64 support: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-falls-as-oil-bond-yields-and-fed-hike-bets-climb-on-iran-escalation-4885255",
-   "t": "02 Sep \u00b7 10:28 AM",
-   "ur": "Eran mein azafe par til, band ki pedawar aur fed mein azafe ki sharton par Gold (sone) ki qeemat mein kami"
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
+   "t": "02 Sep \u00b7 02:47 PM",
+   "ur": "Silver (chandi) ne ap trind ko toda, $64 sport se oper mandala raha hai."
   },
   {
-   "ts": 1788326893.79473,
-   "title": "Gold falls over 2% as dollar gets a boost from spiking oil prices, rising yields",
+   "ts": 1788342463.444695,
+   "title": "Gold bounces from oversold extremes, bearish trend intact: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-twoday-drop-as-iran-strikes-revive-inflation-risks-4883434",
-   "t": "02 Sep \u00b7 10:28 AM",
-   "ur": "Til ki qeemton mein azafe, pedawar mein azafe se Dollar ki qadar mein azafe ke baas Gold (sona) 2 fisad se ziyadah gar gaya"
+   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
+   "t": "02 Sep \u00b7 02:47 PM",
+   "ur": "Ziyadah farokht hone wali antahaon se Gold (sona) achal raha hai, mandi ka rjahan barqarar hai."
   },
   {
-   "ts": 1788326208.0,
-   "title": "Swiss Franc weakens as Fed rate hike fears lift US Dollar",
+   "ts": 1788342300.0,
+   "title": "BoC set to keep interest rates steady despite sticky inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-fed-rate-hike-fears-lift-us-dollar-202609020516",
-   "t": "02 Sep \u00b7 10:16 AM",
-   "ur": "Sois farank kamazor ho gaya hai cunkah fed ki rate mein azafe se US Dollar mein azafe ka khadshah hai."
+   "link": "https://www.fxstreet.com/news/boc-set-to-keep-interest-rates-steady-despite-sticky-inflation-202609020945",
+   "t": "02 Sep \u00b7 02:45 PM",
+   "ur": "BoC chpachapa inflation (mehngai) ke bawajud rate sud ko mastahkam rakhane ke liye tyar hai."
   },
   {
-   "ts": 1788323544.0,
-   "title": "NZD/USD Price Forecast: New Zealand Dollar moves little following RBNZ Breman\u2019s remarks",
+   "ts": 1788341429.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/nzd-usd-price-forecast-new-zealand-dollar-moves-little-following-rbnz-bremans-remarks-202609020432",
-   "t": "02 Sep \u00b7 09:32 AM",
-   "ur": "NZD/USD qeemat ki forecast: niyozi lind Dollar RBNZ bariman ke rimarks ke bad thoda sa aage badhta hai"
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609020930",
+   "t": "02 Sep \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   },
   {
-   "ts": 1788321619.0,
-   "title": "Gold bounces off four-week low; remains vulnerable near $4,300 amid Fed hike bets",
+   "ts": 1788341312.0,
+   "title": "Brent: Higher inflation risks support prices \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-drops-to-four-week-low-below-4-300-as-usd-firms-amid-fed-hike-bets-and-iran-risks-202609020400",
-   "t": "02 Sep \u00b7 09:00 AM",
-   "ur": "Gold (sona) char hafte ki kam tarin sath par fed mein azafe ki shart ke darmiyan $4,300 ke qarib kamazor hai."
+   "link": "https://www.fxstreet.com/news/brent-higher-inflation-risks-support-prices-ocbc-202609020928",
+   "t": "02 Sep \u00b7 02:28 PM",
+   "ur": "Barint: aali inflation (mehngai) ki qeemton ko sport karne ke khatrat - OCBC"
   },
   {
-   "ts": 1788319412.0,
-   "title": "United States Dollar Index hold gains above 99.50 as Treasury yields hit multi-year highs",
+   "ts": 1788340887.0,
+   "title": "Euro tests two-week lows as risk aversion, Fed tightening bets buoy the US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-hold-gains-above-9950-as-treasury-yields-hit-multi-year-highs-202609020323",
-   "t": "02 Sep \u00b7 08:23 AM",
-   "ur": "Ryastahaye matehdah ka Dollar andex 99.50 se oper badh gaya cunkah treasurei ki pedawar kai salon ki balandiyon par pohch gayi"
+   "link": "https://www.fxstreet.com/news/euro-tests-two-week-lows-as-risk-aversion-fed-tightening-bets-buoy-the-us-dollar-202609020921",
+   "t": "02 Sep \u00b7 02:21 PM",
+   "ur": "Uro khatre se bachane ke tur par do hafte ki kam tarin sath ka tajrabah karta hai, fed saqt sharton ne US Dollar ko badhawa diya"
   },
   {
-   "ts": 1788316613.0,
-   "title": "Silver Price Forecast: XAG/USD slips below $64.00 as inflation fears increase",
+   "ts": 1788338896.0,
+   "title": "Canadian Dollar: BoC hold leaves risk of further losses against US Dollar - ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-slips-below-6400-as-inflation-fears-increase-202609020236",
-   "t": "02 Sep \u00b7 07:36 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $64.00 se niche gar gaya cunkah inflation (mehngai) mein azafah ka khadshah hai"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-boc-hold-leaves-risk-of-further-losses-against-us-dollar-ing-202609020848",
+   "t": "02 Sep \u00b7 01:48 PM",
+   "ur": "Caniden Dollar: BoC hold US Dollar - ING ke maqable mein mazid naqsanat ka khatrah chhod dita hai."
   },
   {
-   "ts": 1788315335.0,
-   "title": "Australian Dollar surges to July 8 high vs New Zealand Dollar after Aussie GDP, RBNZ",
+   "ts": 1788338211.0,
+   "title": "Australian Dollar extends decline on firm Fed interest rate hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-surges-to-july-8-high-vs-new-zealand-dollar-after-aussie-gdp-rbnz-202609020215",
-   "t": "02 Sep \u00b7 07:15 AM",
-   "ur": "Aasteriliyai ji di pi, aar bi an zid ke bad aasterilvi Dollar 8 joli ki balandi par pohch gaya bamaqablah niyozi lind Dollar"
+   "link": "https://www.fxstreet.com/news/australian-dollar-extends-decline-on-firm-fed-interest-rate-hike-bets-202609020836",
+   "t": "02 Sep \u00b7 01:36 PM",
+   "ur": "Aasterilvi Dollar ne farm fed sud ki rate mein azafe ki shart par kami ko badha diya."
   },
   {
-   "ts": 1788315257.0,
-   "title": "New Zealand Dollar plunges after RBNZ raises OCR by 25 bps to 2.75%",
+   "ts": 1788336923.0,
+   "title": "Euro advances against Canadian Dollar amid lower oil prices, ECB rate hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-after-rbnz-raises-ocr-by-25-bps-to-275-202609020214",
-   "t": "02 Sep \u00b7 07:14 AM",
-   "ur": "RBNZ ke OCR ko 25 bps se 2.75 fisad karne ke bad niyozi lind ka Dollar gar gaya"
+   "link": "https://www.fxstreet.com/news/euro-advances-against-canadian-dollar-amid-lower-oil-prices-ecb-rate-hike-bets-202609020815",
+   "t": "02 Sep \u00b7 01:15 PM",
+   "ur": "Til ki kam qeemton, ai si bi ki rate mein azafe ki sharton ke darmiyan uro caniden Dollar ke maqable mein tarqi"
   },
   {
-   "ts": 1788313637.0,
-   "title": "Australian Dollar rises as quarterly GDP grows in Q2",
+   "ts": 1788336900.0,
+   "title": "ADP Employment Report is expected to show a moderate increase in private payrolls in August",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rises-as-quarterly-gdp-grows-in-q2-202609020147",
-   "t": "02 Sep \u00b7 06:47 AM",
-   "ur": "Q2 mein sah mahi ji di pi badhane se aasterilvi Dollar badhta hai."
+   "link": "https://www.fxstreet.com/news/adp-employment-report-is-expected-to-show-a-moderate-increase-in-private-payrolls-in-august-202609020815",
+   "t": "02 Sep \u00b7 01:15 PM",
+   "ur": "ADP emppliment rport mein agist mein parayevet pay roles mein mamoli azafah matoqa hai."
   }
  ],
  "sentiment": {
