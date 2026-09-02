@@ -1,21 +1,13 @@
 {
- "updated": "02-09-2026 04:00 PKT",
+ "updated": "02-09-2026 05:59 PKT",
  "gold": {
-  "price": 4330.02,
-  "open": 4447.02,
-  "high": 4462.06,
-  "low": 4323.34,
-  "chg": -2.63,
+  "price": 4318.8,
+  "open": 4453.99,
+  "high": 4455.93,
+  "low": 4314.81,
+  "chg": -3.04,
   "src": "XAUUSD Spot",
   "spark": [
-   4380.02,
-   4380.64,
-   4384.37,
-   4374.42,
-   4371.95,
-   4373.04,
-   4360.7,
-   4358.73,
    4334.94,
    4342.09,
    4358.29,
@@ -55,14 +47,51 @@
    4329.46,
    4327.76,
    4328.09,
-   4330.02
+   4329.56,
+   4332.06,
+   4329.51,
+   4334.15,
+   4327.8,
+   4325.48,
+   4324.54,
+   4328.57,
+   4318.8
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 64.67,
+   "chg": -2.34,
+   "spark": [
+    57.667,
+    60.056,
+    62.099,
+    61.439,
+    63.332,
+    65.106,
+    64.769,
+    65.555,
+    64.873,
+    64.988,
+    66.121,
+    63.941,
+    65.734,
+    68.026,
+    69.466,
+    68.541,
+    68.636,
+    67.99,
+    69.429,
+    66.995,
+    66.221,
+    64.67
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 99.654,
-   "chg": 0.23,
+   "price": 99.713,
+   "chg": 0.28,
    "spark": [
     99.96,
     99.89,
@@ -83,14 +112,15 @@
     98.92,
     99.17,
     99.16,
+    99.7,
     99.43,
-    99.654
+    99.713
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.73,
-   "chg": 5.8,
+   "price": 91.64,
+   "chg": 6.86,
    "spark": [
     80.34,
     75.77,
@@ -113,7 +143,7 @@
     83.53,
     83.4,
     85.76,
-    90.73
+    91.64
    ]
   },
   {
@@ -140,16 +170,16 @@
     4.639,
     4.664,
     4.672,
+    4.72,
     4.758,
     4.796
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1618,
-   "chg": 0.25,
+   "price": 1.1589,
+   "chg": -0.25,
    "spark": [
-    1.1544,
     1.1507,
     1.1532,
     1.1557,
@@ -170,15 +200,15 @@
     1.1655,
     1.1656,
     1.1589,
-    1.1618
+    1.1618,
+    1.1589
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.355,
-   "chg": 0.07,
+   "price": 1.3509,
+   "chg": -0.31,
    "spark": [
-    1.3492,
     1.3427,
     1.3451,
     1.347,
@@ -199,13 +229,14 @@
     1.3597,
     1.3597,
     1.354,
-    1.355
+    1.355,
+    1.3509
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 160.199,
-   "chg": 0.28,
+   "price": 160.286,
+   "chg": 0.34,
    "spark": [
     157.529,
     157.692,
@@ -228,15 +259,14 @@
     159.321,
     160.122,
     159.747,
-    160.199
+    160.286
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2410.52,
-   "chg": -2.29,
+   "price": 2408.21,
+   "chg": -0.37,
    "spark": [
-    2427.54,
     2411.64,
     2407.26,
     2421.21,
@@ -283,15 +313,15 @@
     2420.08,
     2414.22,
     2411.62,
-    2410.52
+    2417.26,
+    2408.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77230.0,
-   "chg": -1.7,
+   "price": 77183.6,
+   "chg": -0.28,
    "spark": [
-    77920.6,
     77618.7,
     77448.7,
     77738.8,
@@ -338,7 +368,8 @@
     77412.7,
     77170.4,
     77230.0,
-    77230.1
+    77398.1,
+    77183.6
    ]
   }
  ],
@@ -395,81 +426,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788303621.892516,
+   "ts": 1788310788.729266,
    "title": "Gold falls over 2% as dollar gets a boost from spiking oil prices, rising yields",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-twoday-drop-as-iran-strikes-revive-inflation-risks-4883434",
-   "t": "02 Sep \u00b7 04:00 AM"
+   "t": "02 Sep \u00b7 05:59 AM",
+   "ur": "Til ki qeemton mein azafe, pedawar mein azafe se Dollar ki qadar mein azafe ke baas Gold (sona) 2 fisad se ziyadah gar gaya"
   },
   {
-   "ts": 1788303621.892516,
+   "ts": 1788310788.729266,
    "title": "Silver breaks below key MAs at $64.90: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "02 Sep \u00b7 04:00 AM"
+   "t": "02 Sep \u00b7 05:59 AM",
+   "ur": "Silver (chandi) kalidi MAs se niche $64.90 par tot gayi."
+  },
+  {
+   "ts": 1788308348.0,
+   "title": "BoJ\u2019s Ueda says no comment on daily moves, markets price in high likelihood of September rate hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/bojs-ueda-says-no-comment-on-daily-moves-markets-price-in-high-likelihood-of-september-rate-hike-202609020019",
+   "t": "02 Sep \u00b7 05:19 AM",
+   "ur": "BoJ ke Ueda ka kahana hai kah rozana ki chalon par koi tabsarah nihen, stambr ki rate mein azafe ke aali amkan mein market ki qeemat"
+  },
+  {
+   "ts": 1788305294.0,
+   "title": "Gold slumps below $4,350 on higher US yields, hawkish Fed bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-slumps-below-4-350-on-higher-us-yields-hawkish-fed-bets-202609012328",
+   "t": "02 Sep \u00b7 04:28 AM",
+   "ur": "US aali pedawar par Gold (sona) $4,350 se niche gar gaya"
   },
   {
    "ts": 1788302366.0,
    "title": "Australian Dollar falls as US-Iran conflict lifts USD, GDP data eyed",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-falls-as-us-iran-conflict-lifts-usd-gdp-data-eyed-202609012239",
-   "t": "02 Sep \u00b7 03:39 AM"
+   "t": "02 Sep \u00b7 03:39 AM",
+   "ur": "Aasterilvi Dollar garta hai cunkah amrikah-eran tanaza ne US Dollar, ji di pi ke aed w shmar par nazar dali hai."
   },
   {
    "ts": 1788301440.0,
    "title": "Chinese Yuan: Range-bound consolidation outlook against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/chinese-yuan-range-bound-consolidation-outlook-against-us-dollar-uob-202609012224",
-   "t": "02 Sep \u00b7 03:24 AM"
+   "t": "02 Sep \u00b7 03:24 AM",
+   "ur": "Chini uan: US Dollar - UOB ke maqable mein had tak muhadud kansolidation oat lak"
   },
   {
    "ts": 1788300255.0,
    "title": "EUR/USD Price Forecast: 200-day SMA caps Euro as Dollar firms",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-200-day-sma-caps-euro-as-dollar-firms-202609012204",
-   "t": "02 Sep \u00b7 03:04 AM"
+   "t": "02 Sep \u00b7 03:04 AM",
+   "ur": "EUR/USD qeemat ki forecast: 200-day SMA uro ko Dollar farm ke tur par muhadud karta hai"
   },
   {
    "ts": 1788298860.0,
    "title": "India: Growth and inflation forecasts revised higher \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/india-growth-and-inflation-forecasts-revised-higher-uob-202609012141",
-   "t": "02 Sep \u00b7 02:41 AM"
+   "t": "02 Sep \u00b7 02:41 AM",
+   "ur": "Handostan: namo aur inflation (mehngai) ki pesh goiyan ziyadah nazarsani ki gayin - UOB"
   },
   {
    "ts": 1788294180.0,
    "title": "Singapore Dollar: Volatility widens range-trading band against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-volatility-widens-range-trading-band-against-us-dollar-uob-202609012023",
-   "t": "02 Sep \u00b7 01:23 AM"
+   "t": "02 Sep \u00b7 01:23 AM",
+   "ur": "Sangapor Dollar: atar chadhao US Dollar ke maqable rinj treading bind ko wasi karta hai - UOB"
   },
   {
    "ts": 1788291049.0,
    "title": "Gold collapses as US-Iran strikes send Oil, US yields higher",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-collapses-as-us-iran-strikes-send-oil-us-yields-higher-202609011930",
-   "t": "02 Sep \u00b7 12:30 AM"
-  },
-  {
-   "ts": 1788288180.0,
-   "title": "Equities: Fragile advance under energy and yield risks \u2013 NBC",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/equities-fragile-advance-under-energy-and-yield-risks-nbc-202609011843",
-   "t": "01 Sep \u00b7 11:43 PM"
-  },
-  {
-   "ts": 1788287055.0,
-   "title": "United States Treasury yields read Iran strikes as inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-treasury-yields-read-iran-strikes-as-inflation-202609011824",
-   "t": "01 Sep \u00b7 11:24 PM"
+   "t": "02 Sep \u00b7 12:30 AM",
+   "ur": "Amrikah-eran hamlon se til ki tarsel, amrikah ki pedawar ziyadah hone se Gold (sona) gar gaya."
   }
  ],
  "sentiment": {
-  "value": 69,
+  "value": 63,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
