@@ -1,23 +1,13 @@
 {
- "updated": "02-09-2026 22:27 PKT",
+ "updated": "03-09-2026 00:57 PKT",
  "gold": {
-  "price": 4368.21,
-  "open": 4345.6,
+  "price": 4386.4,
+  "open": 4326.25,
   "high": 4396.18,
   "low": 4283.21,
-  "chg": 0.52,
+  "chg": 1.39,
   "src": "XAUUSD Spot",
   "spark": [
-   4320.54,
-   4321.0,
-   4327.87,
-   4324.51,
-   4325.12,
-   4319.8,
-   4328.65,
-   4326.49,
-   4323.88,
-   4323.46,
    4326.21,
    4324.11,
    4322.56,
@@ -55,14 +45,24 @@
    4365.3,
    4369.21,
    4369.86,
-   4368.21
+   4368.53,
+   4374.41,
+   4377.83,
+   4372.52,
+   4372.54,
+   4373.85,
+   4372.84,
+   4379.69,
+   4381.93,
+   4386.7,
+   4386.4
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.455,
-   "chg": 1.3,
+   "price": 65.85,
+   "chg": 1.91,
    "spark": [
     60.056,
     62.099,
@@ -85,13 +85,13 @@
     66.995,
     66.221,
     64.618,
-    65.455
+    65.85
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.592,
-   "chg": -0.08,
+   "price": 99.596,
+   "chg": -0.07,
    "spark": [
     99.96,
     99.89,
@@ -114,13 +114,13 @@
     99.16,
     99.43,
     99.67,
-    99.592
+    99.596
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.12,
-   "chg": 1.0,
+   "price": 90.96,
+   "chg": 0.82,
    "spark": [
     75.77,
     75.22,
@@ -143,7 +143,7 @@
     83.4,
     85.76,
     90.22,
-    91.12
+    90.96
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3488,
-   "chg": -0.46,
+   "price": 1.3486,
+   "chg": -0.47,
    "spark": [
     1.3427,
     1.3451,
@@ -230,13 +230,13 @@
     1.3597,
     1.354,
     1.355,
-    1.3488
+    1.3486
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.942,
-   "chg": -0.5,
+   "price": 158.834,
+   "chg": -0.57,
    "spark": [
     157.529,
     157.692,
@@ -259,16 +259,14 @@
     159.321,
     160.122,
     159.747,
-    158.942
+    158.834
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2375.08,
-   "chg": -1.74,
+   "price": 2387.84,
+   "chg": -1.22,
    "spark": [
-    2477.36,
-    2481.67,
     2472.41,
     2478.42,
     2468.77,
@@ -314,16 +312,16 @@
     2393.23,
     2389.63,
     2384.8,
-    2375.08
+    2392.65,
+    2393.96,
+    2387.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77028.5,
-   "chg": -0.48,
+   "price": 77174.4,
+   "chg": -0.29,
    "spark": [
-    79022.6,
-    78900.0,
     78847.2,
     78957.0,
     78574.4,
@@ -369,7 +367,9 @@
     77031.5,
     77248.4,
     77150.1,
-    77028.5
+    77348.4,
+    77345.0,
+    77174.4
    ]
   }
  ],
@@ -418,12 +418,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788370047.123318,
-   "title": "Gold extends losses to 3-week low as stronger dollar, Fed hike bets weigh",
+   "ts": 1788379029.861846,
+   "title": "Silver trapped between $64 support and $66.75 resistance: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-falls-as-oil-bond-yields-and-fed-hike-bets-climb-on-iran-escalation-4885255",
-   "t": "02 Sep \u00b7 10:27 PM",
-   "ur": "Gold (sona) mazboot Dollar ki wajah se naqsanat ko 3 hafte ki kam tarin sath tak badhata hai, fed mein azafe ki sharton ka wazin hota hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
+   "t": "03 Sep \u00b7 12:57 AM",
+   "ur": "Silver (chandi) $64 sport aur $66.75 mazahmat ke darmiyan phans gayi."
+  },
+  {
+   "ts": 1788379029.861846,
+   "title": "Gold tests $4,330 support after double-top drop: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
+   "t": "03 Sep \u00b7 12:57 AM",
+   "ur": "Dabl tap darap ke bad gold $4,330 sport ka test karta hai."
+  },
+  {
+   "ts": 1788378415.0,
+   "title": "Gold rises as speculation of Yen intervention weighs on the US Dollar",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rises-as-speculation-of-yen-intervention-weighs-on-the-us-dollar-202609021946",
+   "t": "03 Sep \u00b7 12:46 AM",
+   "ur": "US Dollar par yan ki madakhalt ki qayas aaraion se Gold (sona) badhta hai."
+  },
+  {
+   "ts": 1788373308.0,
+   "title": "Fed\u2019s Beige Book shows modest economic growth as prices rise",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-beige-book-shows-modest-growth-as-prices-rise-202609021821",
+   "t": "02 Sep \u00b7 11:21 PM",
+   "ur": "Qeemton mein azafe ke sath hi fed ki bage bak mamoli aqtasadi tarqi ko zaahar karti hai."
+  },
+  {
+   "ts": 1788371023.0,
+   "title": "Singapore Dollar: Downside risks remain against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-downside-risks-remain-against-us-dollar-ocbc-202609021743",
+   "t": "02 Sep \u00b7 10:43 PM",
+   "ur": "Sangapor Dollar: US Dollar - OCBC ke khalaf manfi khatrat barqarar hen."
   },
   {
    "ts": 1788369840.0,
@@ -464,38 +496,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-strong-gdp-and-carry-support-bbh-202609021520",
    "t": "02 Sep \u00b7 08:20 PM",
    "ur": "Aasterilin Dollar: mazboot GDP aur kiri sport - BBH"
-  },
-  {
-   "ts": 1788360857.0,
-   "title": "Euro: Headwinds from Fed and energy \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-headwinds-from-fed-and-energy-ing-202609021454",
-   "t": "02 Sep \u00b7 07:54 PM",
-   "ur": "Uro: fed aur tawanai se hed wainds - ING"
-  },
-  {
-   "ts": 1788359410.0,
-   "title": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
-   "t": "02 Sep \u00b7 07:30 PM",
-   "ur": "ADP ki rporton ke matabiq, agist mein naji tankhwahon mein 38,000 ka azafah hawa, jo toqa se kam hai."
-  },
-  {
-   "ts": 1788359375.0,
-   "title": "Gold: Data risks and CTA selling \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-data-risks-and-cta-selling-td-securities-202609021429",
-   "t": "02 Sep \u00b7 07:29 PM",
-   "ur": "Gold: deta ke khatrat aur CTA ki farokht - TD securitez"
-  },
-  {
-   "ts": 1788358821.0,
-   "title": "Canadian Dollar gains after Bank of Canada keeps rates unchanged",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-after-bank-of-canada-keeps-rates-unchanged-202609021420",
-   "t": "02 Sep \u00b7 07:20 PM",
-   "ur": "Bank af canida ki janb se shrahin barqarar rakhane ke bad caniden Dollar mein azafah"
   }
  ],
  "sentiment": {
