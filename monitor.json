@@ -1,32 +1,13 @@
 {
- "updated": "03-09-2026 09:21 PKT",
+ "updated": "03-09-2026 14:01 PKT",
  "gold": {
-  "price": 4431.18,
-  "open": 4302.42,
-  "high": 4435.57,
-  "low": 4301.9,
-  "chg": 2.99,
+  "price": 4435.62,
+  "open": 4316.28,
+  "high": 4440.1,
+  "low": 4302.0,
+  "chg": 2.76,
   "src": "XAUUSD Spot",
   "spark": [
-   4365.3,
-   4369.21,
-   4369.86,
-   4368.53,
-   4374.41,
-   4377.83,
-   4372.52,
-   4372.54,
-   4373.85,
-   4372.84,
-   4379.69,
-   4381.93,
-   4386.7,
-   4389.62,
-   4387.41,
-   4386.74,
-   4389.06,
-   4387.77,
-   4387.44,
    4387.5,
    4387.21,
    4387.58,
@@ -55,14 +36,33 @@
    4427.8,
    4432.71,
    4432.01,
-   4431.18
+   4435.09,
+   4438.13,
+   4436.9,
+   4430.38,
+   4424.39,
+   4430.93,
+   4432.32,
+   4427.81,
+   4421.73,
+   4425.55,
+   4421.36,
+   4425.2,
+   4427.95,
+   4427.74,
+   4428.93,
+   4430.72,
+   4436.73,
+   4432.55,
+   4437.64,
+   4435.62
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.73,
-   "chg": 3.1,
+   "price": 66.475,
+   "chg": 2.71,
    "spark": [
     62.099,
     61.439,
@@ -85,13 +85,13 @@
     66.221,
     64.618,
     64.723,
-    66.73
+    66.475
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.412,
-   "chg": -0.15,
+   "price": 99.22,
+   "chg": -0.34,
    "spark": [
     99.69,
     99.97,
@@ -114,13 +114,13 @@
     99.43,
     99.67,
     99.56,
-    99.412
+    99.22
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.92,
-   "chg": -0.1,
+   "price": 91.11,
+   "chg": 0.11,
    "spark": [
     75.22,
     77.29,
@@ -143,7 +143,7 @@
     85.76,
     90.22,
     91.01,
-    90.92
+    91.11
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.16,
-   "chg": 0.03,
+   "price": 1.1614,
+   "chg": 0.16,
    "spark": [
     1.1532,
     1.1557,
@@ -201,13 +201,42 @@
     1.1589,
     1.1618,
     1.1596,
-    1.16
+    1.1614
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3501,
+   "chg": -0.1,
+   "spark": [
+    1.3451,
+    1.347,
+    1.3455,
+    1.3491,
+    1.3511,
+    1.351,
+    1.3498,
+    1.3491,
+    1.3547,
+    1.355,
+    1.3537,
+    1.36,
+    1.3643,
+    1.3654,
+    1.3638,
+    1.3647,
+    1.3597,
+    1.3597,
+    1.354,
+    1.355,
+    1.3515,
+    1.3501
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.764,
-   "chg": -1.52,
+   "price": 156.704,
+   "chg": -2.18,
    "spark": [
     157.692,
     157.6,
@@ -230,19 +259,14 @@
     160.122,
     159.747,
     160.196,
-    157.764
+    156.704
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2396.85,
-   "chg": 0.25,
+   "price": 2401.07,
+   "chg": 0.42,
    "spark": [
-    2483.86,
-    2470.95,
-    2472.07,
-    2447.43,
-    2451.55,
     2456.21,
     2458.3,
     2445.66,
@@ -285,19 +309,19 @@
     2385.75,
     2404.35,
     2402.24,
-    2396.85
+    2406.56,
+    2403.59,
+    2407.19,
+    2397.6,
+    2402.19,
+    2401.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77544.7,
-   "chg": 0.31,
+   "price": 77774.0,
+   "chg": 0.61,
    "spark": [
-    79156.6,
-    78733.3,
-    78616.4,
-    77863.8,
-    77896.5,
     77999.9,
     78072.6,
     77971.3,
@@ -340,7 +364,12 @@
     77330.2,
     77780.3,
     77670.6,
-    77544.7
+    77739.8,
+    77776.4,
+    77791.1,
+    77626.0,
+    77800.9,
+    77774.0
    ]
   }
  ],
@@ -389,89 +418,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788409288.7239,
-   "title": "Gold holds near $4,400 after rebound as Trump, Fed remarks ease inflation fears",
+   "ts": 1788426116.733544,
+   "title": "Silver coils in $65.50-$67.00 range: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-rebound-as-trump-fed-remarks-ease-inflation-fears-4886908",
-   "t": "03 Sep \u00b7 09:21 AM",
-   "ur": "Trmp ke tur par saht mandi lotne ke bad Gold (sona) $4,400 ke qarib rakta hai, fed rimarks ne inflation (mehngai) ke khadshat ko kam kiya"
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
+   "t": "03 Sep \u00b7 02:01 PM"
   },
   {
-   "ts": 1788409288.7239,
-   "title": "Gold rises about 1% amid weaker dollar as oil prices and yields stabilize",
+   "ts": 1788426116.733544,
+   "title": "Gold wedged below $4,489 resistance: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-falls-as-oil-bond-yields-and-fed-hike-bets-climb-on-iran-escalation-4885255",
-   "t": "03 Sep \u00b7 09:21 AM",
-   "ur": "Til ki qeemton aur pedawar mein istehkam ke sath kamazor Dollar ke darmiyan Gold (sona) taqriban 1% badhta hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
+   "t": "03 Sep \u00b7 02:01 PM"
   },
   {
-   "ts": 1788407519.0,
-   "title": "Gold extends gains above $4,400 as sliding bond yields and soft USD counter Fed hike bets",
+   "ts": 1788425210.0,
+   "title": "Silver Price Forecast: XAG/USD struggles to extend upside above $66.25, NFP data awaited",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-extends-gains-above-4-400-as-sliding-bond-yields-and-soft-usd-counter-fed-hike-bets-202609030351",
-   "t": "03 Sep \u00b7 08:51 AM",
-   "ur": "Salaideng band ki pedawar aur narm USD countr fed mein azafe ki shart ke tur par Gold (sone) ne $4,400 se oper ke fawaid ko badhaya"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-struggles-to-extend-upside-above-6625-nfp-data-awaited-202609030846",
+   "t": "03 Sep \u00b7 01:46 PM"
   },
   {
-   "ts": 1788406384.0,
-   "title": "Canadian Dollar rises on weaker US Dollar, rising oil prices",
+   "ts": 1788424745.0,
+   "title": "Dow Jones futures gain as oil prices, US yields ease",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-rises-on-weaker-us-dollar-rising-oil-prices-202609030333",
-   "t": "03 Sep \u00b7 08:33 AM",
-   "ur": "Caniden Dollar kamazor US Dollar par badh gaya, til ki qeemton mein azafah"
+   "link": "https://www.fxstreet.com/news/dow-jones-futures-gain-as-oil-prices-us-yields-ease-202609030839",
+   "t": "03 Sep \u00b7 01:39 PM"
   },
   {
-   "ts": 1788405714.0,
-   "title": "Silver Price Forecast: XAG/USD extends gains as US Dollar falls further, NFP comes into focus",
+   "ts": 1788424460.0,
+   "title": "US Dollar: Hedging impulse fades as holdings stabilize \u2013 BNY",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-extends-gains-as-us-dollar-falls-further-nfp-comes-into-focus-202609030321",
-   "t": "03 Sep \u00b7 08:21 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD ne faidah badhaya cunkah US Dollar mazid garta hai, NFP tojah mein aata hai"
+   "link": "https://www.fxstreet.com/news/us-dollar-hedging-impulse-fades-as-holdings-stabilize-bny-202609030834",
+   "t": "03 Sep \u00b7 01:34 PM"
   },
   {
-   "ts": 1788405257.0,
-   "title": "Japanese Yen strengthens on BoJ rate hike signals",
+   "ts": 1788422109.0,
+   "title": "British Pound: Downside seen limited near 1.3465 against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-strengthens-on-boj-rate-hike-signals-202609030314",
-   "t": "03 Sep \u00b7 08:14 AM",
-   "ur": "Japani yan BoJ rate mein azafe ke ashare par mazboot hota hai."
+   "link": "https://www.fxstreet.com/news/british-pound-downside-seen-limited-near-13465-against-us-dollar-uob-202609030755",
+   "t": "03 Sep \u00b7 12:55 PM"
   },
   {
-   "ts": 1788402677.0,
-   "title": "Australian Dollar weakens against Japanese Yen following China\u2019s Services PMI data",
+   "ts": 1788421396.0,
+   "title": "Euro: Trading near 1.16 against US Dollar as yields rise \u2013 Danske Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-weakens-against-japanese-yen-following-chinas-services-pmi-data-202609030231",
-   "t": "03 Sep \u00b7 07:31 AM",
-   "ur": "Chin ke saroses PMI deta ke bad aasterilvi Dollar japani yan ke maqable mein kamazor ho gaya hai."
+   "link": "https://www.fxstreet.com/news/euro-trading-near-116-against-us-dollar-as-yields-rise-danske-bank-202609030743",
+   "t": "03 Sep \u00b7 12:43 PM"
   },
   {
-   "ts": 1788401657.0,
-   "title": "New Zealand Dollar rebounds above 0.5850 on stronger Chinese services PMI",
+   "ts": 1788420905.0,
+   "title": "US Dollar: Upside risks persist \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-rebounds-above-05850-on-stronger-chinese-services-pmi-202609030214",
-   "t": "03 Sep \u00b7 07:14 AM",
-   "ur": "Mazboot chini khidmaat PMI par niyozi lind Dollar 0.5850 se oper waps aa gaya."
+   "link": "https://www.fxstreet.com/news/us-dollar-upside-risks-persist-ing-202609030735",
+   "t": "03 Sep \u00b7 12:35 PM"
   },
   {
-   "ts": 1788400792.0,
-   "title": "Australian Dollar flat lines above 0.7150 vs USD after Aussie trade data, China PMI",
+   "ts": 1788420099.0,
+   "title": "Equities: Stabilise with lower yields \u2013 Deutsche Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-flat-lines-above-07150-vs-usd-after-aussie-trade-data-china-pmi-202609030159",
-   "t": "03 Sep \u00b7 06:59 AM",
-   "ur": "Aasterilvi Dollar filet linon ke oper 0.7150 bamaqablah USD ke bad aasterilvi tajarti deta, chin PMI"
+   "link": "https://www.fxstreet.com/news/equities-stabilise-with-lower-yields-deutsche-bank-202609030721",
+   "t": "03 Sep \u00b7 12:21 PM"
   },
   {
-   "ts": 1788397969.0,
-   "title": "British Pound consolidates near three-week low as Fed bets and Iran tensions support USD",
+   "ts": 1788419843.0,
+   "title": "Swiss Franc bounces up from monthly lows as GDP, inflation data beat expectations",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-consolidates-near-three-week-low-as-fed-bets-and-iran-tensions-support-usd-202609030112",
-   "t": "03 Sep \u00b7 06:12 AM",
-   "ur": "Bartanvi pound tin hafte ki kam tarin sath ke qarib mastahkam hai cunkah fed ki shartin aur eran kasheedgi USD ko sport karti hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-bounces-up-from-monthly-lows-as-gdp-inflation-data-beat-expectations-202609030717",
+   "t": "03 Sep \u00b7 12:17 PM"
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
