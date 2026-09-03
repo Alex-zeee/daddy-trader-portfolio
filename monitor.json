@@ -1,31 +1,13 @@
 {
- "updated": "03-09-2026 14:01 PKT",
+ "updated": "03-09-2026 18:32 PKT",
  "gold": {
-  "price": 4435.62,
-  "open": 4316.28,
-  "high": 4440.1,
-  "low": 4302.0,
-  "chg": 2.76,
+  "price": 4479.46,
+  "open": 4374.09,
+  "high": 4496.45,
+  "low": 4364.1,
+  "chg": 2.41,
   "src": "XAUUSD Spot",
   "spark": [
-   4387.5,
-   4387.21,
-   4387.58,
-   4390.9,
-   4390.09,
-   4385.67,
-   4384.85,
-   4384.42,
-   4382.99,
-   4384.5,
-   4384.74,
-   4389.73,
-   4387.55,
-   4387.72,
-   4394.72,
-   4402.66,
-   4398.98,
-   4401.89,
    4411.32,
    4412.31,
    4410.54,
@@ -55,14 +37,32 @@
    4436.73,
    4432.55,
    4437.64,
-   4435.62
+   4439.24,
+   4435.51,
+   4431.27,
+   4428.35,
+   4423.44,
+   4423.72,
+   4425.91,
+   4427.28,
+   4432.48,
+   4432.16,
+   4439.19,
+   4444.54,
+   4444.1,
+   4447.35,
+   4466.23,
+   4493.9,
+   4486.25,
+   4479.34,
+   4479.46
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.475,
-   "chg": 2.71,
+   "price": 67.05,
+   "chg": 3.6,
    "spark": [
     62.099,
     61.439,
@@ -85,14 +85,15 @@
     66.221,
     64.618,
     64.723,
-    66.475
+    67.05
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.22,
-   "chg": -0.34,
+   "price": 99.017,
+   "chg": -0.55,
    "spark": [
+    99.89,
     99.69,
     99.97,
     99.6,
@@ -110,17 +111,16 @@
     98.92,
     99.17,
     99.16,
-    99.7,
     99.43,
     99.67,
     99.56,
-    99.22
+    99.017
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.11,
-   "chg": 0.11,
+   "price": 91.86,
+   "chg": 0.93,
    "spark": [
     75.22,
     77.29,
@@ -143,13 +143,13 @@
     85.76,
     90.22,
     91.01,
-    91.11
+    91.86
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.796,
-   "chg": 0.0,
+   "price": 4.74,
+   "chg": -1.17,
    "spark": [
     4.627,
     4.617,
@@ -169,16 +169,16 @@
     4.639,
     4.664,
     4.672,
-    4.72,
     4.758,
     4.796,
-    4.796
+    4.796,
+    4.74
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1614,
-   "chg": 0.16,
+   "price": 1.1625,
+   "chg": 0.26,
    "spark": [
     1.1532,
     1.1557,
@@ -201,13 +201,13 @@
     1.1589,
     1.1618,
     1.1596,
-    1.1614
+    1.1625
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3501,
-   "chg": -0.1,
+   "price": 1.3507,
+   "chg": -0.06,
    "spark": [
     1.3451,
     1.347,
@@ -230,13 +230,13 @@
     1.354,
     1.355,
     1.3515,
-    1.3501
+    1.3507
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.704,
-   "chg": -2.18,
+   "price": 155.647,
+   "chg": -2.84,
    "spark": [
     157.692,
     157.6,
@@ -259,18 +259,14 @@
     160.122,
     159.747,
     160.196,
-    156.704
+    155.647
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2401.07,
-   "chg": 0.42,
+   "price": 2424.21,
+   "chg": 1.39,
    "spark": [
-    2456.21,
-    2458.3,
-    2445.66,
-    2443.39,
     2448.87,
     2448.29,
     2431.91,
@@ -314,18 +310,18 @@
     2407.19,
     2397.6,
     2402.19,
-    2401.07
+    2392.7,
+    2395.69,
+    2406.51,
+    2422.37,
+    2424.34
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77774.0,
-   "chg": 0.61,
+   "price": 78559.9,
+   "chg": 1.62,
    "spark": [
-    77999.9,
-    78072.6,
-    77971.3,
-    78041.1,
     78139.0,
     77891.0,
     77561.1,
@@ -369,7 +365,11 @@
     77791.1,
     77626.0,
     77800.9,
-    77774.0
+    77578.6,
+    77708.6,
+    77917.5,
+    78611.1,
+    78567.5
    ]
   }
  ],
@@ -418,81 +418,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788426116.733544,
-   "title": "Silver coils in $65.50-$67.00 range: Live levels",
+   "ts": 1788442329.523203,
+   "title": "Gold gains over 1% as softer dollar, lower yields ease Fed rate hike pressure",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "03 Sep \u00b7 02:01 PM"
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-rebound-as-trump-fed-remarks-ease-inflation-fears-4886908",
+   "t": "03 Sep \u00b7 06:32 PM",
+   "ur": "Narm Dollar ke tur par Gold (sone) mein 1% se ziyadah azafah hawa, kam pedawar fed ki rate mein azafe ke dabao ko kam karti hai."
   },
   {
-   "ts": 1788426116.733544,
-   "title": "Gold wedged below $4,489 resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
-   "t": "03 Sep \u00b7 02:01 PM"
-  },
-  {
-   "ts": 1788425210.0,
-   "title": "Silver Price Forecast: XAG/USD struggles to extend upside above $66.25, NFP data awaited",
+   "ts": 1788441352.0,
+   "title": "Japanese Yen: BoJ repricing supports gains against US Dollar \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-struggles-to-extend-upside-above-6625-nfp-data-awaited-202609030846",
-   "t": "03 Sep \u00b7 01:46 PM"
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-repricing-supports-gains-against-us-dollar-mufg-202609031315",
+   "t": "03 Sep \u00b7 06:15 PM",
+   "ur": "Japani yan: BoJ ri pariceng US Dollar - MUFG ke maqable mein fawaid ki support karti hai."
   },
   {
-   "ts": 1788424745.0,
-   "title": "Dow Jones futures gain as oil prices, US yields ease",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-gain-as-oil-prices-us-yields-ease-202609030839",
-   "t": "03 Sep \u00b7 01:39 PM"
+   "ts": 1788440764.0,
+   "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
+   "t": "03 Sep \u00b7 06:06 PM",
+   "ur": "Fed gornar waler asharah karta hai kah wah stambr ki matong mein rate ko mastahkam rakhane ki support kare ga."
   },
   {
-   "ts": 1788424460.0,
-   "title": "US Dollar: Hedging impulse fades as holdings stabilize \u2013 BNY",
+   "ts": 1788440244.0,
+   "title": "Swiss Franc strengthens on inflation surprise and broad US Dollar weakness",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-hedging-impulse-fades-as-holdings-stabilize-bny-202609030834",
-   "t": "03 Sep \u00b7 01:34 PM"
+   "link": "https://www.fxstreet.com/news/swiss-franc-strengthens-on-inflation-surprise-and-broad-us-dollar-weakness-202609031257",
+   "t": "03 Sep \u00b7 05:57 PM",
+   "ur": "Sois farank inflation (mehngai) ki heert aur wasi US Dollar ki kamazori par mazboot hawa."
   },
   {
-   "ts": 1788422109.0,
-   "title": "British Pound: Downside seen limited near 1.3465 against US Dollar \u2013 UOB",
+   "ts": 1788440034.0,
+   "title": "Fed's Waller: Inclined to support policy hold if August inflation data shows progress",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-downside-seen-limited-near-13465-against-us-dollar-uob-202609030755",
-   "t": "03 Sep \u00b7 12:55 PM"
+   "link": "https://www.fxstreet.com/news/feds-waller-inclined-to-support-policy-hold-if-august-inflation-data-shows-progress-202609031253",
+   "t": "03 Sep \u00b7 05:53 PM",
+   "ur": "Fed's Waller: agar agist ke inflation (mehngai) ke aed w shmar mein pesharft zaahar hoti hai to palisi hold ki support ki taraf mile"
   },
   {
-   "ts": 1788421396.0,
-   "title": "Euro: Trading near 1.16 against US Dollar as yields rise \u2013 Danske Bank",
+   "ts": 1788439803.0,
+   "title": "Australian Dollar climbs as softer US labor data weighs on US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-trading-near-116-against-us-dollar-as-yields-rise-danske-bank-202609030743",
-   "t": "03 Sep \u00b7 12:43 PM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-as-softer-us-labor-data-weighs-on-us-dollar-202609031250",
+   "t": "03 Sep \u00b7 05:50 PM",
+   "ur": "Aasterilvi Dollar chadhta hai cunkah narm US libr deta ka wazin US Dollar par hota hai."
   },
   {
-   "ts": 1788420905.0,
-   "title": "US Dollar: Upside risks persist \u2013 ING",
+   "ts": 1788439784.0,
+   "title": "Canadian Dollar: Testing support after BoC hold \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-upside-risks-persist-ing-202609030735",
-   "t": "03 Sep \u00b7 12:35 PM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-testing-support-after-boc-hold-bbh-202609031249",
+   "t": "03 Sep \u00b7 05:49 PM",
+   "ur": "Caniden Dollar: BoC hold ke bad testing sport - BBH"
   },
   {
-   "ts": 1788420099.0,
-   "title": "Equities: Stabilise with lower yields \u2013 Deutsche Bank",
+   "ts": 1788435767.0,
+   "title": "What is keeping the US Dollar supported as front-end rates and ISM expectations point higher?",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/equities-stabilise-with-lower-yields-deutsche-bank-202609030721",
-   "t": "03 Sep \u00b7 12:21 PM"
+   "link": "https://www.fxstreet.com/news/what-is-keeping-the-us-dollar-supported-as-front-end-rates-and-ism-expectations-point-higher-202609031142",
+   "t": "03 Sep \u00b7 04:42 PM",
+   "ur": "Farnt and ret aur i es em ki toqaat ziyadah hone ke baas US Dollar ko kas chies ki support haasil hai?"
   },
   {
-   "ts": 1788419843.0,
-   "title": "Swiss Franc bounces up from monthly lows as GDP, inflation data beat expectations",
+   "ts": 1788434974.0,
+   "title": "Federal Reserve: September hike bias shifts \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-bounces-up-from-monthly-lows-as-gdp-inflation-data-beat-expectations-202609030717",
-   "t": "03 Sep \u00b7 12:17 PM"
+   "link": "https://www.fxstreet.com/news/federal-reserve-september-hike-bias-shifts-ing-202609031129",
+   "t": "03 Sep \u00b7 04:29 PM",
+   "ur": "Faderl resero: stambr mein azafe ki taasab ki tabadili - ING"
+  },
+  {
+   "ts": 1788434321.0,
+   "title": "US Dollar: Near-term stabilization view \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-near-term-stabilization-view-bbh-202609031118",
+   "t": "03 Sep \u00b7 04:18 PM",
+   "ur": "US Dollar: qaribi madati istehkam ka manazr - BBH"
   }
  ],
  "sentiment": {
   "value": 65,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
