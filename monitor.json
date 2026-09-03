@@ -1,21 +1,13 @@
 {
- "updated": "04-09-2026 00:48 PKT",
+ "updated": "04-09-2026 02:57 PKT",
  "gold": {
-  "price": 4480.21,
-  "open": 4387.77,
+  "price": 4474.05,
+  "open": 4387.44,
   "high": 4510.6,
   "low": 4381.93,
-  "chg": 2.11,
+  "chg": 1.97,
   "src": "XAUUSD Spot",
   "spark": [
-   4430.72,
-   4436.73,
-   4432.55,
-   4437.64,
-   4439.24,
-   4435.51,
-   4431.27,
-   4428.35,
    4423.44,
    4423.72,
    4425.91,
@@ -55,14 +47,22 @@
    4474.08,
    4475.17,
    4477.95,
-   4480.21
+   4475.45,
+   4472.84,
+   4472.4,
+   4472.83,
+   4473.79,
+   4474.1,
+   4474.19,
+   4474.12,
+   4474.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.59,
-   "chg": 4.43,
+   "price": 67.585,
+   "chg": 4.42,
    "spark": [
     62.099,
     61.439,
@@ -85,12 +85,12 @@
     66.221,
     64.618,
     64.723,
-    67.59
+    67.585
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.999,
+   "price": 99.002,
    "chg": -0.56,
    "spark": [
     99.69,
@@ -114,13 +114,13 @@
     99.43,
     99.67,
     99.56,
-    98.999
+    99.002
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.42,
-   "chg": 0.45,
+   "price": 91.67,
+   "chg": 0.73,
    "spark": [
     75.22,
     77.29,
@@ -143,7 +143,7 @@
     85.76,
     90.22,
     91.01,
-    91.42
+    91.67
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1632,
-   "chg": 0.31,
+   "price": 1.1629,
+   "chg": 0.29,
    "spark": [
     1.1532,
     1.1557,
@@ -201,12 +201,12 @@
     1.1589,
     1.1618,
     1.1596,
-    1.1632
+    1.1629
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3528,
+   "price": 1.3529,
    "chg": 0.1,
    "spark": [
     1.3451,
@@ -230,16 +230,43 @@
     1.354,
     1.355,
     1.3515,
-    1.3528
+    1.3529
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 155.821,
+   "chg": -2.73,
+   "spark": [
+    157.692,
+    157.6,
+    158.409,
+    157.891,
+    159.156,
+    159.265,
+    159.328,
+    159.426,
+    159.223,
+    159.34,
+    159.55,
+    158.276,
+    158.883,
+    158.904,
+    159.139,
+    159.223,
+    159.255,
+    159.321,
+    160.122,
+    159.747,
+    160.196,
+    155.821
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2513.41,
-   "chg": 5.12,
+   "price": 2512.81,
+   "chg": 5.1,
    "spark": [
-    2420.08,
-    2414.22,
     2411.62,
     2417.26,
     2408.01,
@@ -285,16 +312,16 @@
     2494.07,
     2500.34,
     2513.01,
-    2513.23
+    2518.24,
+    2505.4,
+    2512.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81532.8,
-   "chg": 5.47,
+   "price": 81625.2,
+   "chg": 5.59,
    "spark": [
-    77412.7,
-    77170.4,
     77230.0,
     77398.1,
     77172.6,
@@ -340,7 +367,9 @@
     80968.8,
     81048.7,
     81262.4,
-    81532.8
+    81746.9,
+    81476.7,
+    81625.2
    ]
   }
  ],
@@ -373,28 +402,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788464900.686837,
+   "ts": 1788472640.165307,
    "title": "Silver trapped at $67.55 in cloud chop zone: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "04 Sep \u00b7 12:48 AM",
-   "ur": "Silver (chandi) kalaud chap zon mein $67.55 par phans gayi: ghanta ki sath"
+   "t": "04 Sep \u00b7 02:57 AM",
+   "ur": "Silver (chandi) kalaud chap zon mein $67.55 par phans gayi: fi ghanta ki sath"
   },
   {
-   "ts": 1788464900.686837,
-   "title": "Gold trapped in bear flag at $4,542-4,580 resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
-   "t": "04 Sep \u00b7 12:48 AM",
-   "ur": "Gold (sona) $4,542-4,580 mazahmat par bears ke jhanday mein phans gaya."
+   "ts": 1788472407.0,
+   "title": "Banxico\u2019s Heath says rate cuts can wait as core inflation persists",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/banxicos-heath-says-rate-cuts-can-wait-as-core-inflation-persists-202609032153",
+   "t": "04 Sep \u00b7 02:53 AM",
+   "ur": "Binkiko ki hith ka kahana hai kah baniyadi inflation (mehngai) barqarar rahne par rate mein kami ka antezar kiya ja sakta hai."
   },
   {
-   "ts": 1788464900.686837,
-   "title": "Gold rises about 2% amid sliding dollar and yields, muted oil prices",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-after-rebound-as-trump-fed-remarks-ease-inflation-fears-4886908",
-   "t": "04 Sep \u00b7 12:48 AM",
-   "ur": "Dollar aur pedawar mein kami, til ki qeemton mein kami ke darmiyan Gold (sona) taqriban 2 fisad badh gaya."
+   "ts": 1788471767.0,
+   "title": "Mexican Peso rescued by Waller\u2019s dovish tilt, appreciates ahead of NFP",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-rescued-by-wallers-dovish-tilt-appreciates-ahead-of-nfp-202609032142",
+   "t": "04 Sep \u00b7 02:42 AM",
+   "ur": "Mexican peso ko waler ke dosh jhakao se bachaya gaya, NFP se aage ki taarif karta hai."
+  },
+  {
+   "ts": 1788471547.0,
+   "title": "Dow Jones Industrial Average rallies into a payrolls print it cannot win",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-rallies-into-a-payrolls-print-it-cannot-win-202609032139",
+   "t": "04 Sep \u00b7 02:39 AM",
+   "ur": "Dou joons andistril ost riliyan ek pay rol parnt mein jit nihen sakta"
+  },
+  {
+   "ts": 1788465463.0,
+   "title": "Silver Price Forecast: XAG eyes 100-day SMA after Waller-led rally",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-eyes-100-day-sma-after-waller-rally-202609031957",
+   "t": "04 Sep \u00b7 12:57 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG ki nazarin waler ki qayadat mein rili ke bad 100 dan ke SMA par"
   },
   {
    "ts": 1788464289.0,
@@ -418,7 +463,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-against-us-dollar-uob-202609031852",
    "t": "03 Sep \u00b7 11:52 PM",
-   "ur": "Chini uan: rinj tred US Dollar - UOB ke khalaf barqarar hai."
+   "ur": "Chini uan: US Dollar - UOB ke khalaf had ki tajart barqarar hai."
   },
   {
    "ts": 1788459743.0,
@@ -435,22 +480,6 @@
    "link": "https://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
    "t": "03 Sep \u00b7 11:20 PM",
    "ur": "Gold (sone) mein azafah hawa cunkah waler ke dosh ton ne NFP se pehle fed mein azafe ki shart ko naqsan pohchaya"
-  },
-  {
-   "ts": 1788457304.0,
-   "title": "Forex Today: US Nonfarm Payrolls take centre stage",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-nonfarm-payrolls-take-centre-stage-202609031741",
-   "t": "03 Sep \u00b7 10:41 PM",
-   "ur": "Farex today: US naan farm pay roles sintr stage lite hen."
-  },
-  {
-   "ts": 1788450240.0,
-   "title": "BoE\u2019s Pill backs rate hike to 4% to limit inflation catch-up effects",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/boes-pill-backs-rate-hike-to-4-to-limit-inflation-catch-up-effects-202609031544",
-   "t": "03 Sep \u00b7 08:44 PM",
-   "ur": "BoE ki goli inflation (mehngai) ke asarat ko muhadud karne ke liye rate mein 4% tak azafe ki support karti hai."
   }
  ],
  "sentiment": {
