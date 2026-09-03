@@ -1,21 +1,13 @@
 {
- "updated": "03-09-2026 03:12 PKT",
+ "updated": "03-09-2026 05:13 PKT",
  "gold": {
-  "price": 4390.56,
-  "open": 4329.42,
+  "price": 4390.27,
+  "open": 4323.14,
   "high": 4396.18,
   "low": 4283.21,
-  "chg": 1.41,
+  "chg": 1.55,
   "src": "XAUUSD Spot",
   "spark": [
-   4311.42,
-   4309.2,
-   4307.1,
-   4318.3,
-   4322.75,
-   4325.53,
-   4331.05,
-   4332.57,
    4334.92,
    4333.45,
    4332.16,
@@ -55,14 +47,22 @@
    4387.5,
    4387.21,
    4387.58,
-   4390.56
+   4390.9,
+   4390.09,
+   4385.67,
+   4384.85,
+   4384.42,
+   4382.99,
+   4384.5,
+   4384.74,
+   4390.27
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.04,
-   "chg": 2.2,
+   "price": 65.88,
+   "chg": 1.95,
    "spark": [
     60.056,
     62.099,
@@ -85,15 +85,14 @@
     66.995,
     66.221,
     64.618,
-    66.04
+    65.88
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.574,
-   "chg": -0.1,
+   "price": 99.584,
+   "chg": -0.09,
    "spark": [
-    99.96,
     99.89,
     99.69,
     99.97,
@@ -112,15 +111,16 @@
     98.92,
     99.17,
     99.16,
+    99.7,
     99.43,
     99.67,
-    99.574
+    99.584
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.69,
-   "chg": 0.52,
+   "price": 90.64,
+   "chg": 0.47,
    "spark": [
     75.77,
     75.22,
@@ -143,7 +143,7 @@
     83.4,
     85.76,
     90.22,
-    90.69
+    90.64
    ]
   },
   {
@@ -151,7 +151,6 @@
    "price": 4.796,
    "chg": 0.0,
    "spark": [
-    4.686,
     4.627,
     4.617,
     4.67,
@@ -170,6 +169,7 @@
     4.639,
     4.664,
     4.672,
+    4.72,
     4.758,
     4.796,
     4.796
@@ -178,9 +178,8 @@
   {
    "name": "EUR/USD",
    "price": 1.159,
-   "chg": -0.24,
+   "chg": -0.05,
    "spark": [
-    1.1507,
     1.1532,
     1.1557,
     1.1525,
@@ -201,15 +200,15 @@
     1.1656,
     1.1589,
     1.1618,
+    1.1596,
     1.159
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3483,
-   "chg": -0.49,
+   "chg": -0.24,
    "spark": [
-    1.3427,
     1.3451,
     1.347,
     1.3455,
@@ -230,15 +229,15 @@
     1.3597,
     1.354,
     1.355,
+    1.3515,
     1.3483
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.721,
-   "chg": -0.64,
+   "price": 158.873,
+   "chg": -0.83,
    "spark": [
-    157.529,
     157.692,
     157.6,
     158.409,
@@ -259,16 +258,15 @@
     159.321,
     160.122,
     159.747,
-    158.721
+    160.196,
+    158.873
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2384.21,
-   "chg": -1.37,
+   "price": 2388.84,
+   "chg": -0.09,
    "spark": [
-    2467.12,
-    2470.56,
     2462.51,
     2464.13,
     2471.55,
@@ -314,16 +312,16 @@
     2391.56,
     2392.86,
     2389.56,
-    2384.21
+    2378.72,
+    2390.98,
+    2388.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77114.2,
-   "chg": -0.37,
+   "price": 77195.6,
+   "chg": -0.14,
    "spark": [
-    78566.1,
-    78613.7,
     78382.1,
     78425.8,
     78656.9,
@@ -369,7 +367,9 @@
     77305.9,
     77370.1,
     77253.7,
-    77114.2
+    77000.1,
+    77305.1,
+    77195.6
    ]
   }
  ],
@@ -418,20 +418,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788387156.031568,
+   "ts": 1788394408.331913,
    "title": "Gold rises about 1% amid weaker dollar as oil prices and yields stabilize",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-as-oil-bond-yields-and-fed-hike-bets-climb-on-iran-escalation-4885255",
-   "t": "03 Sep \u00b7 03:12 AM",
+   "t": "03 Sep \u00b7 05:13 AM",
    "ur": "Til ki qeemton aur pedawar mein istehkam ke sath kamazor Dollar ke darmiyan Gold (sona) taqriban 1% badhta hai."
   },
   {
-   "ts": 1788387156.031568,
+   "ts": 1788394408.331913,
    "title": "Silver trapped between $64 support and $66.75 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "03 Sep \u00b7 03:12 AM",
+   "t": "03 Sep \u00b7 05:13 AM",
    "ur": "Silver (chandi) $64 sport aur $66.75 mazahmat ke darmiyan phans gayi."
+  },
+  {
+   "ts": 1788391800.0,
+   "title": "The Australian Dollar's thirteen-year high is a New Zealand story",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollars-thirteen-year-high-is-a-new-zealand-story-202609022330",
+   "t": "03 Sep \u00b7 04:30 AM",
+   "ur": "Aasterilvi Dollar ki tirah sal ki baland tarin sath niyozi lind ki kahani hai."
+  },
+  {
+   "ts": 1788391772.0,
+   "title": "Gold rebounds above $4,350 as US Dollar, Treasury yields slip",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rebounds-above-4-350-as-us-dollar-treasury-yields-slip-202609022329",
+   "t": "03 Sep \u00b7 04:29 AM",
+   "ur": "US Dollar, treasurei ki pedawar mein kami se Gold (sona) $4,350 se oper aagaya"
+  },
+  {
+   "ts": 1788389233.0,
+   "title": "The New Zealand Dollar sells the hike it asked for",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-new-zealand-dollar-sells-the-hike-it-asked-for-202609022247",
+   "t": "03 Sep \u00b7 03:47 AM",
+   "ur": "Niyozi lind Dollar is azafe ko farokht karta hai jas ka is ne pochha tha."
+  },
+  {
+   "ts": 1788388733.0,
+   "title": "Australian Dollar rises as soft US jobs, GDP beat lift AUD, PMIs ahead",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-rises-as-soft-us-jobs-gdp-beat-lift-aud-pmis-ahead-202609022238",
+   "t": "03 Sep \u00b7 03:38 AM",
+   "ur": "Aasterilvi Dollar narm US malazmaton ke tur par badhta hai, ji di pi ne AUD ko patchhe chhod diya, PMIs aage"
   },
   {
    "ts": 1788386054.0,
@@ -464,42 +496,10 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-downside-risks-remain-against-us-dollar-ocbc-202609021743",
    "t": "02 Sep \u00b7 10:43 PM",
    "ur": "Sangapor Dollar: US Dollar - OCBC ke khalaf manfi khatrat barqarar hen."
-  },
-  {
-   "ts": 1788369840.0,
-   "title": "British Pound: Break below 1.35 shifts focus lower against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-break-below-135-shifts-focus-lower-against-us-dollar-scotiabank-202609021724",
-   "t": "02 Sep \u00b7 10:24 PM",
-   "ur": "Bartanvi pound: US Dollar ke maqable mein 1.35 shifton se kam fox - Scotiabank"
-  },
-  {
-   "ts": 1788368827.0,
-   "title": "British Pound hits three-week low as US yields, Iran risks weigh",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-hits-three-week-low-as-us-yields-iran-risks-weigh-202609021707",
-   "t": "02 Sep \u00b7 10:07 PM",
-   "ur": "US pedawar ke tur par bartanvi pound tin hafte ki kam tarin sath par pohch gaya, eran ko khatrat laahaq hen."
-  },
-  {
-   "ts": 1788364863.0,
-   "title": "United States Dollar Index loses ground on possible Yen intervention",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-loses-ground-on-possible-yen-intervention-202609021601",
-   "t": "02 Sep \u00b7 09:01 PM",
-   "ur": "US Dollar andex yan ki mamkana madakhalt par garound kho dita hai."
-  },
-  {
-   "ts": 1788363565.0,
-   "title": "Euro: Downside risks build against US Dollar as oil rises \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-downside-risks-build-against-us-dollar-as-oil-rises-scotiabank-202609021539",
-   "t": "02 Sep \u00b7 08:39 PM",
-   "ur": "Uro: til badhane ke sath hi US Dollar ke maqable manfi khatrat badhte hen - Scotiabank"
   }
  ],
  "sentiment": {
-  "value": 63,
+  "value": 65,
   "label": "Greed"
  },
  "err": null
