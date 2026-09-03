@@ -1,20 +1,13 @@
 {
- "updated": "04-09-2026 02:57 PKT",
+ "updated": "04-09-2026 04:43 PKT",
  "gold": {
-  "price": 4474.05,
-  "open": 4387.44,
+  "price": 4478.21,
+  "open": 4384.7,
   "high": 4510.6,
-  "low": 4381.93,
-  "chg": 1.97,
+  "low": 4383.08,
+  "chg": 2.13,
   "src": "XAUUSD Spot",
   "spark": [
-   4423.44,
-   4423.72,
-   4425.91,
-   4427.28,
-   4432.48,
-   4432.16,
-   4439.19,
    4444.54,
    4444.1,
    4447.35,
@@ -55,14 +48,21 @@
    4474.1,
    4474.19,
    4474.12,
-   4474.05
+   4474.17,
+   4476.92,
+   4474.74,
+   4473.67,
+   4475.35,
+   4474.6,
+   4473.09,
+   4478.21
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.585,
-   "chg": 4.42,
+   "price": 67.54,
+   "chg": 4.35,
    "spark": [
     62.099,
     61.439,
@@ -85,12 +85,12 @@
     66.221,
     64.618,
     64.723,
-    67.585
+    67.54
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.002,
+   "price": 99.003,
    "chg": -0.56,
    "spark": [
     99.69,
@@ -114,13 +114,13 @@
     99.43,
     99.67,
     99.56,
-    99.002
+    99.003
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.67,
-   "chg": 0.73,
+   "price": 91.8,
+   "chg": 0.87,
    "spark": [
     75.22,
     77.29,
@@ -143,7 +143,7 @@
     85.76,
     90.22,
     91.01,
-    91.67
+    91.8
    ]
   },
   {
@@ -178,9 +178,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1629,
-   "chg": 0.29,
+   "chg": 0.38,
    "spark": [
-    1.1532,
     1.1557,
     1.1525,
     1.1556,
@@ -201,15 +200,15 @@
     1.1589,
     1.1618,
     1.1596,
+    1.1585,
     1.1629
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3529,
-   "chg": 0.1,
+   "price": 1.3526,
+   "chg": 0.32,
    "spark": [
-    1.3451,
     1.347,
     1.3455,
     1.3491,
@@ -230,15 +229,15 @@
     1.354,
     1.355,
     1.3515,
-    1.3529
+    1.3484,
+    1.3526
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 155.821,
-   "chg": -2.73,
+   "price": 155.867,
+   "chg": -1.92,
    "spark": [
-    157.692,
     157.6,
     158.409,
     157.891,
@@ -259,16 +258,15 @@
     160.122,
     159.747,
     160.196,
-    155.821
+    158.923,
+    155.867
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2512.81,
-   "chg": 5.1,
+   "price": 2506.45,
+   "chg": 4.83,
    "spark": [
-    2411.62,
-    2417.26,
     2408.01,
     2398.58,
     2408.17,
@@ -314,16 +312,16 @@
     2513.01,
     2518.24,
     2505.4,
-    2512.81
+    2511.56,
+    2496.96,
+    2506.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81625.2,
-   "chg": 5.59,
+   "price": 81274.7,
+   "chg": 5.14,
    "spark": [
-    77230.0,
-    77398.1,
     77172.6,
     76971.8,
     77280.3,
@@ -369,7 +367,9 @@
     81262.4,
     81746.9,
     81476.7,
-    81625.2
+    81607.8,
+    81150.7,
+    81271.4
    ]
   }
  ],
@@ -402,12 +402,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788472640.165307,
+   "ts": 1788478995.681466,
    "title": "Silver trapped at $67.55 in cloud chop zone: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "04 Sep \u00b7 02:57 AM",
+   "t": "04 Sep \u00b7 04:43 AM",
    "ur": "Silver (chandi) kalaud chap zon mein $67.55 par phans gayi: fi ghanta ki sath"
+  },
+  {
+   "ts": 1788478611.0,
+   "title": "Gold rebounds above $4,450 as Waller tempers Fed rate hike bets ahead US jobs data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rebounds-above-4-450-as-waller-tempers-fed-rate-hike-bets-ahead-us-jobs-data-202609032336",
+   "t": "04 Sep \u00b7 04:36 AM",
+   "ur": "US malazmaton ke aed w shmar ke aage fed ki rate mein azafe ki shart par waler ke gussay se Gold (sona) $4,450 se oper aagaya"
+  },
+  {
+   "ts": 1788475412.0,
+   "title": "The Australian Dollar thanks Waller's comments, which sink the USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-australian-dollar-thanks-wallers-comments-which-sink-the-usd-202609032243",
+   "t": "04 Sep \u00b7 03:43 AM",
+   "ur": "Aasterilvi Dollar waler ke tabsaron ka shkaria ada karta hai, jas se USD dob jata hai."
   },
   {
    "ts": 1788472407.0,
@@ -464,22 +480,6 @@
    "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-against-us-dollar-uob-202609031852",
    "t": "03 Sep \u00b7 11:52 PM",
    "ur": "Chini uan: US Dollar - UOB ke khalaf had ki tajart barqarar hai."
-  },
-  {
-   "ts": 1788459743.0,
-   "title": "US Dollar extends decline as NFP takes centre stage",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-extends-decline-as-nfp-takes-centre-stage-202609031822",
-   "t": "03 Sep \u00b7 11:22 PM",
-   "ur": "US Dollar kami ko badhata hai cunkah NFP markaz ka marhalah lita hai."
-  },
-  {
-   "ts": 1788459630.0,
-   "title": "Gold soars as Waller's dovish tone hurts Fed hike bets ahead of NFP",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-soars-as-wallers-dovish-tone-hurts-fed-hike-bets-ahead-of-nfp-202609031820",
-   "t": "03 Sep \u00b7 11:20 PM",
-   "ur": "Gold (sone) mein azafah hawa cunkah waler ke dosh ton ne NFP se pehle fed mein azafe ki shart ko naqsan pohchaya"
   }
  ],
  "sentiment": {
