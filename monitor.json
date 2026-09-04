@@ -1,28 +1,13 @@
 {
- "updated": "04-09-2026 16:12 PKT",
+ "updated": "04-09-2026 19:56 PKT",
  "gold": {
-  "price": 4470.99,
-  "open": 4432.2,
-  "high": 4510.6,
-  "low": 4428.6,
-  "chg": 0.88,
+  "price": 4422.9,
+  "open": 4481.54,
+  "high": 4514.11,
+  "low": 4368.53,
+  "chg": -1.31,
   "src": "XAUUSD Spot",
   "spark": [
-   4473.09,
-   4477.26,
-   4479.88,
-   4482.35,
-   4475.1,
-   4480.85,
-   4486.59,
-   4478.08,
-   4471.27,
-   4471.14,
-   4480.62,
-   4480.11,
-   4472.43,
-   4472.68,
-   4476.71,
    4469.99,
    4472.75,
    4470.42,
@@ -55,14 +40,29 @@
    4470.81,
    4473.81,
    4474.63,
-   4470.99
+   4470.06,
+   4466.5,
+   4466.14,
+   4467.51,
+   4465.71,
+   4471.65,
+   4401.14,
+   4407.33,
+   4392.71,
+   4410.62,
+   4420.99,
+   4415.73,
+   4430.44,
+   4431.58,
+   4426.12,
+   4422.9
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.4,
-   "chg": 0.64,
+   "price": 66.565,
+   "chg": -0.61,
    "spark": [
     61.439,
     63.332,
@@ -85,13 +85,13 @@
     64.618,
     64.723,
     66.973,
-    67.4
+    66.565
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.073,
-   "chg": 0.07,
+   "price": 99.096,
+   "chg": 0.1,
    "spark": [
     99.97,
     99.6,
@@ -114,13 +114,13 @@
     99.67,
     99.56,
     99.0,
-    99.073
+    99.096
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.5,
-   "chg": -0.88,
+   "price": 90.42,
+   "chg": -0.96,
    "spark": [
     77.29,
     78.18,
@@ -143,15 +143,14 @@
     90.22,
     91.01,
     91.3,
-    90.5
+    90.42
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.762,
-   "chg": -0.71,
+   "price": 4.772,
+   "chg": 0.21,
    "spark": [
-    4.617,
     4.67,
     4.66,
     4.699,
@@ -172,13 +171,14 @@
     4.758,
     4.796,
     4.796,
-    4.762
+    4.762,
+    4.772
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1625,
-   "chg": 0.34,
+   "price": 1.162,
+   "chg": 0.3,
    "spark": [
     1.1557,
     1.1525,
@@ -201,42 +201,13 @@
     1.1618,
     1.1596,
     1.1585,
-    1.1625
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3534,
-   "chg": 0.37,
-   "spark": [
-    1.347,
-    1.3455,
-    1.3491,
-    1.3511,
-    1.351,
-    1.3498,
-    1.3491,
-    1.3547,
-    1.355,
-    1.3537,
-    1.36,
-    1.3643,
-    1.3654,
-    1.3638,
-    1.3647,
-    1.3597,
-    1.3597,
-    1.354,
-    1.355,
-    1.3515,
-    1.3484,
-    1.3534
+    1.162
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.321,
-   "chg": -1.64,
+   "price": 156.148,
+   "chg": -1.75,
    "spark": [
     157.6,
     158.409,
@@ -259,17 +230,14 @@
     159.747,
     160.196,
     158.923,
-    156.321
+    156.148
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2522.41,
-   "chg": 0.6,
+   "price": 2442.45,
+   "chg": -2.59,
    "spark": [
-    2376.42,
-    2401.57,
-    2393.23,
     2389.63,
     2384.8,
     2392.65,
@@ -314,17 +282,17 @@
     2526.96,
     2520.77,
     2526.26,
-    2522.41
+    2522.95,
+    2451.51,
+    2451.98,
+    2442.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81140.4,
-   "chg": -0.17,
+   "price": 78938.0,
+   "chg": -2.88,
    "spark": [
-    76575.3,
-    77106.7,
-    77031.5,
     77248.4,
     77150.1,
     77348.4,
@@ -369,7 +337,10 @@
     81132.0,
     81042.6,
     81179.5,
-    81140.3
+    81220.0,
+    79443.0,
+    79370.6,
+    78938.0
    ]
   }
  ],
@@ -402,89 +373,91 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788520328.571923,
-   "title": "Citi says the dip in gold prices is a buying opportunity",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/citi-says-the-dip-in-gold-prices-is-a-buying-opportunity-93CH-4889056",
-   "t": "04 Sep \u00b7 04:12 PM",
-   "ur": "Citi ka kahana hai kah Gold (sone) ki qeemton mein kami ek khareedari ka moqa hai."
-  },
-  {
-   "ts": 1788520328.571923,
-   "title": "Gold holds near $4,500 as traders await U.S. jobs data for Fed clues",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4500-as-waller-cools-fed-hike-bets-4888741",
-   "t": "04 Sep \u00b7 04:12 PM",
-   "ur": "Gold (sona) $4,500 ke qarib hai cunkah taajr fed sarag ke liye US malazmaton ke deta ka antezar kar rahe hen"
-  },
-  {
-   "ts": 1788519834.0,
-   "title": "Gold pauses after two-day recovery as US NFP looms",
+   "ts": 1788533586.0,
+   "title": "Swiss Franc loses ground upbeat US Nonfarm Payrolls",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-pauses-after-two-day-recovery-as-us-nfp-looms-202609041103",
-   "t": "04 Sep \u00b7 04:03 PM",
-   "ur": "Gold (sona) do dan ki recovery ke bad rak gaya jisa kah US an eff pi kam hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-loses-ground-upbeat-us-nonfarm-payrolls-202609041453",
+   "t": "04 Sep \u00b7 07:53 PM",
+   "ur": "Sois farank ne US naan farm pay roles ko kho diya."
   },
   {
-   "ts": 1788518729.0,
-   "title": "British Pound pulls back from session highs as BoE Bailey tames rate hike hopes",
+   "ts": 1788532603.0,
+   "title": "United States: Solid jobs data support steady Fed \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-pulls-back-from-session-highs-as-boe-bailey-tames-rate-hike-hopes-202609041045",
-   "t": "04 Sep \u00b7 03:45 PM",
-   "ur": "Bartanvi pound sition ki unchaion se patchhe hat gaya cunkah BoE beli ne rate mein azafe ki amidon par qaabo paliya"
+   "link": "https://www.fxstreet.com/news/united-states-solid-jobs-data-support-steady-fed-commerzbank-202609041436",
+   "t": "04 Sep \u00b7 07:36 PM",
+   "ur": "Ryastahaye matehdah: thos malazmaton ka deta mastahkam Fed \u2013 Commerzbank ki support karta hai."
   },
   {
-   "ts": 1788517373.0,
-   "title": "Australian Dollar edges higher vs Yen as RBA tightening bets meet BoJ normalization hopes",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-vs-yen-as-rba-tightening-bets-meets-boj-normalization-hopes-202609041022",
-   "t": "04 Sep \u00b7 03:22 PM",
-   "ur": "Aasterilvi Dollar ne yan ke maqable mein unchi sath par bartari haasil ki cunkah RBA saqt shart BoJ ko mamol par laane ki amidon ko pora karta hai"
+   "ts": 1788531542.0,
+   "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+   "t": "04 Sep \u00b7 07:19 PM",
+   "ur": "Agist mein US tankhwahon mein 162,000 ka azafah hawa, jo kah toqa se kahin ziyadah hai. be rozgari ki rate 4.1 fisad"
   },
   {
-   "ts": 1788515843.0,
-   "title": "Canadian Dollar: Data volatility guides Bank of Canada \u2013 Commerzbank",
+   "ts": 1788531055.0,
+   "title": "\"Lower the rate or I\u2019ll stop trading\": Trump pressures Fed after strong US jobs report",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-data-volatility-guides-bank-of-canada-commerzbank-202609040957",
-   "t": "04 Sep \u00b7 02:57 PM",
-   "ur": "Caniden Dollar: deta ki atar chadhao Bank af canida - kamers Bank ki rahnumi karta hai."
+   "link": "https://www.fxstreet.com/news/lower-the-rate-or-ill-stop-trading-trump-pressures-fed-after-strong-us-jobs-report-202609041410",
+   "t": "04 Sep \u00b7 07:10 PM",
+   "ur": "\"ret kam karin yaa mein tajart band kardon ga\": trmp ne US malazmaton ki mazboot rport ke bad fed par dabao dala."
   },
   {
-   "ts": 1788515391.0,
-   "title": "Gold Price Forecast: XAU/USD recovery stalls below $4.500 awaiting US Nonfarm Payrolls",
+   "ts": 1788530817.0,
+   "title": "Canadian Dollar: Jobs weakness caps gains against US Dollar - TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-recovery-stalls-below-4500-awaiting-us-nonfarm-payrolls-202609040949",
-   "t": "04 Sep \u00b7 02:49 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD rikori rok gaya hai $4.500 se niche US naan farm pay roles ke mantezar"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-jobs-weakness-caps-gains-against-us-dollar-td-securities-202609041406",
+   "t": "04 Sep \u00b7 07:06 PM",
+   "ur": "Caniden Dollar: malazmaton ki kamazori US Dollar ke maqable mein fawaid ko muhadud karti hai - TD securitez"
   },
   {
-   "ts": 1788515234.0,
-   "title": "US Dollar Index: Two-way risks within bearish channel \u2013 OCBC",
+   "ts": 1788530441.0,
+   "title": "Canadian Dollar slides as Canada sheds 41.7K jobs, US payrolls surge",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-two-way-risks-within-bearish-channel-ocbc-202609040947",
-   "t": "04 Sep \u00b7 02:47 PM",
-   "ur": "US Dollar andex: baresh chinl ke andar do tarafah khatrat - OCBC"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-slides-as-canada-sheds-417k-jobs-us-payrolls-surge-202609041400",
+   "t": "04 Sep \u00b7 07:00 PM",
+   "ur": "Canida mein 41.7K malazmatin khtam hone par caniden Dollar ki qeemat mein azafah, US tankhwahon mein azafah"
   },
   {
-   "ts": 1788514204.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
+   "ts": 1788529778.0,
+   "title": "US Dollar: Jobs strength lifts hike odds \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609040930",
-   "t": "04 Sep \u00b7 02:30 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
+   "link": "https://www.fxstreet.com/news/us-dollar-jobs-strength-lifts-hike-odds-ing-202609041349",
+   "t": "04 Sep \u00b7 06:49 PM",
+   "ur": "US Dollar: malazmaton ki tqt ne azafe ki mashaklat ko hata diya - ING"
   },
   {
-   "ts": 1788514024.0,
-   "title": "Indian Rupee: Rate hike path supports currency \u2013 Societe Generale",
+   "ts": 1788529586.0,
+   "title": "British Pound trims losses against US Dollar after NFP-driven volatility",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-rate-hike-path-supports-currency-societe-generale-202609040927",
-   "t": "04 Sep \u00b7 02:27 PM",
-   "ur": "Handostani ropiya: rate mein azafe ka raastah karnsi ko sport karta hai - sociti janerl"
+   "link": "https://www.fxstreet.com/news/british-pound-trims-losses-against-us-dollar-after-nfp-driven-volatility-202609041346",
+   "t": "04 Sep \u00b7 06:46 PM",
+   "ur": "Bartanvi pound NFP se chalne wale atar chadhao ke bad US Dollar ke maqable mein naqsanat ko kam karta hai."
+  },
+  {
+   "ts": 1788528301.0,
+   "title": "Gold: Central bank buying underpins prices \u2013 ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-central-bank-buying-underpins-prices-ing-202609041325",
+   "t": "04 Sep \u00b7 06:25 PM",
+   "ur": "Gold (sona): markazi Bank ki khareedari qeemton ko kam karti hai - ING"
+  },
+  {
+   "ts": 1788527941.0,
+   "title": "Euro slips against US Dollar as Nonfarm Payrolls crush expectations",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-slips-against-us-dollar-as-nonfarm-payrolls-crush-expectations-202609041319",
+   "t": "04 Sep \u00b7 06:19 PM",
+   "ur": "Ghair farm pay roles toqaat ko kachalne ke baas uro US Dollar ke maqable mein phisal gaya."
   }
  ],
  "sentiment": {
   "value": 74,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "Investing.com: <urlopen error [Errno 104] Connection reset by peer>"
+ ]
 }
