@@ -1,21 +1,13 @@
 {
- "updated": "05-09-2026 00:57 PKT",
+ "updated": "05-09-2026 02:58 PKT",
  "gold": {
-  "price": 4435.85,
-  "open": 4478.4,
+  "price": 4429.03,
+  "open": 4474.07,
   "high": 4514.11,
   "low": 4368.53,
-  "chg": -0.95,
+  "chg": -1.01,
   "src": "XAUUSD Spot",
   "spark": [
-   4483.28,
-   4481.8,
-   4478.84,
-   4478.16,
-   4469.61,
-   4463.75,
-   4467.52,
-   4467.28,
    4471.9,
    4470.81,
    4473.81,
@@ -55,14 +47,22 @@
    4427.94,
    4435.56,
    4435.9,
-   4435.85
+   4435.04,
+   4432.01,
+   4429.6,
+   4430.47,
+   4430.06,
+   4429.03,
+   4428.91,
+   4428.91,
+   4429.03
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.81,
-   "chg": -0.24,
+   "price": 66.82,
+   "chg": -0.23,
    "spark": [
     61.439,
     63.332,
@@ -85,13 +85,13 @@
     64.618,
     64.723,
     66.973,
-    66.81
+    66.82
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.139,
-   "chg": 0.14,
+   "price": 99.157,
+   "chg": 0.16,
    "spark": [
     99.97,
     99.6,
@@ -114,13 +114,13 @@
     99.67,
     99.56,
     99.0,
-    99.139
+    99.157
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.37,
-   "chg": 0.08,
+   "price": 91.22,
+   "chg": -0.09,
    "spark": [
     77.29,
     78.18,
@@ -143,7 +143,7 @@
     90.22,
     91.01,
     91.3,
-    91.37
+    91.22
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1618,
-   "chg": 0.29,
+   "price": 1.1621,
+   "chg": 0.31,
    "spark": [
     1.1557,
     1.1525,
@@ -201,13 +201,13 @@
     1.1618,
     1.1596,
     1.1585,
-    1.1618
+    1.1621
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3519,
-   "chg": 0.26,
+   "price": 1.3517,
+   "chg": 0.25,
    "spark": [
     1.347,
     1.3455,
@@ -230,13 +230,13 @@
     1.355,
     1.3515,
     1.3484,
-    1.3519
+    1.3517
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.246,
-   "chg": -1.68,
+   "price": 156.221,
+   "chg": -1.7,
    "spark": [
     157.6,
     158.409,
@@ -259,16 +259,14 @@
     159.747,
     160.196,
     158.923,
-    156.246
+    156.221
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2456.42,
-   "chg": -2.03,
+   "price": 2453.03,
+   "chg": -2.17,
    "spark": [
-    2392.86,
-    2389.56,
     2378.72,
     2390.98,
     2378.91,
@@ -314,16 +312,16 @@
     2459.91,
     2445.89,
     2450.81,
-    2456.42
+    2455.26,
+    2451.7,
+    2453.09
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79754.8,
-   "chg": -1.87,
+   "price": 79670.5,
+   "chg": -1.98,
    "spark": [
-    77370.1,
-    77253.7,
     77000.1,
     77305.1,
     77035.1,
@@ -369,7 +367,9 @@
     79753.0,
     79474.4,
     79640.4,
-    79754.8
+    79798.9,
+    79715.6,
+    79670.5
    ]
   }
  ],
@@ -426,20 +426,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1788551831.639826,
+   "ts": 1788559138.833842,
+   "title": "Gold dips as stellar jobs report drives up Fed rate hike bets, boosts dollar",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4500-as-waller-cools-fed-hike-bets-4888741",
+   "t": "05 Sep \u00b7 02:58 AM",
+   "ur": "Shandar malazmaton ki rport ke tur par Gold (sone) mein kami fed ki rate mein azafe ki sharton ko badhati hai, Dollar ko badhata hai."
+  },
+  {
+   "ts": 1788559138.833842,
    "title": "Silver stuck in $65.30-$67.50 range: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "05 Sep \u00b7 12:57 AM",
+   "t": "05 Sep \u00b7 02:58 AM",
    "ur": "Silver (chandi) $65.30-$67.50 ki had mein phans gayi: fi ghanta ki sath"
   },
   {
-   "ts": 1788551831.639826,
-   "title": "Gold struggles below $4,477 after bearish drop: Hourly levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
-   "t": "05 Sep \u00b7 12:57 AM",
-   "ur": "Gold (sona) mandi mein kami ke bad $4,477 se niche jadojehad kar raha hai: fi ghanta ki sath"
+   "ts": 1788557244.0,
+   "title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
+   "t": "05 Sep \u00b7 02:27 AM",
+   "ur": "USD/CHF qeemat ki forecast: NFP rili rak gaya hai 0.8100 par, patchhe hatna"
   },
   {
    "ts": 1788551546.0,
@@ -487,7 +495,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
    "t": "04 Sep \u00b7 11:10 PM",
-   "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
+   "ur": "Aasterilvi Dollar ne phar se pesh qadami sharo ki cunkah US Dollar NFP ke bad ki raftar kho dita hai."
   },
   {
    "ts": 1788545297.0,
@@ -496,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/gold-falls-as-traders-increase-fed-hawkish-bets-after-stellar-nfp-202609041808",
    "t": "04 Sep \u00b7 11:08 PM",
    "ur": "Gold (sona) garta hai cunkah taajron ne shandar NFP ke bad Fed hakish sharton mein azafah kiya hai."
-  },
-  {
-   "ts": 1788542197.0,
-   "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
-   "t": "04 Sep \u00b7 10:16 PM",
-   "ur": "Agist mein US pay roles mein 162,000 ka azafah hawa, jo toqa se kahin ziyadah hai. be rozgari ki rate 4.1 fisad"
   }
  ],
  "sentiment": {
