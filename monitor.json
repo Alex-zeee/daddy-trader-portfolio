@@ -1,33 +1,13 @@
 {
- "updated": "04-09-2026 11:04 PKT",
+ "updated": "04-09-2026 16:12 PKT",
  "gold": {
-  "price": 4472.03,
-  "open": 4427.23,
+  "price": 4470.99,
+  "open": 4432.2,
   "high": 4510.6,
-  "low": 4418.72,
-  "chg": 1.01,
+  "low": 4428.6,
+  "chg": 0.88,
   "src": "XAUUSD Spot",
   "spark": [
-   4481.63,
-   4481.55,
-   4475.3,
-   4474.08,
-   4475.17,
-   4477.95,
-   4475.45,
-   4472.84,
-   4472.4,
-   4472.83,
-   4473.79,
-   4474.1,
-   4474.19,
-   4474.12,
-   4474.17,
-   4476.92,
-   4474.74,
-   4473.67,
-   4475.35,
-   4474.6,
    4473.09,
    4477.26,
    4479.88,
@@ -55,16 +35,35 @@
    4468.89,
    4472.06,
    4471.0,
-   4472.03
+   4467.87,
+   4470.11,
+   4465.88,
+   4462.72,
+   4469.2,
+   4471.36,
+   4484.47,
+   4482.53,
+   4483.28,
+   4481.8,
+   4478.84,
+   4478.16,
+   4469.61,
+   4463.75,
+   4467.52,
+   4467.28,
+   4471.9,
+   4470.81,
+   4473.81,
+   4474.63,
+   4470.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.2,
-   "chg": 3.83,
+   "price": 67.4,
+   "chg": 0.64,
    "spark": [
-    62.099,
     61.439,
     63.332,
     65.106,
@@ -85,15 +84,15 @@
     66.221,
     64.618,
     64.723,
-    67.2
+    66.973,
+    67.4
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.026,
-   "chg": -0.54,
+   "price": 99.073,
+   "chg": 0.07,
    "spark": [
-    99.69,
     99.97,
     99.6,
     99.81,
@@ -114,15 +113,15 @@
     99.43,
     99.67,
     99.56,
-    99.026
+    99.0,
+    99.073
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.56,
-   "chg": 0.6,
+   "price": 90.5,
+   "chg": -0.88,
    "spark": [
-    75.22,
     77.29,
     78.18,
     82.13,
@@ -143,15 +142,15 @@
     85.76,
     90.22,
     91.01,
-    91.56
+    91.3,
+    90.5
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.796,
-   "chg": 0.0,
+   "price": 4.762,
+   "chg": -0.71,
    "spark": [
-    4.627,
     4.617,
     4.67,
     4.66,
@@ -172,13 +171,14 @@
     4.72,
     4.758,
     4.796,
-    4.796
+    4.796,
+    4.762
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1633,
-   "chg": 0.41,
+   "price": 1.1625,
+   "chg": 0.34,
    "spark": [
     1.1557,
     1.1525,
@@ -201,13 +201,13 @@
     1.1618,
     1.1596,
     1.1585,
-    1.1633
+    1.1625
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3538,
-   "chg": 0.4,
+   "price": 1.3534,
+   "chg": 0.37,
    "spark": [
     1.347,
     1.3455,
@@ -230,13 +230,13 @@
     1.355,
     1.3515,
     1.3484,
-    1.3538
+    1.3534
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.426,
-   "chg": -1.57,
+   "price": 156.321,
+   "chg": -1.64,
    "spark": [
     157.6,
     158.409,
@@ -259,19 +259,14 @@
     159.747,
     160.196,
     158.923,
-    156.426
+    156.321
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2507.91,
-   "chg": 0.02,
+   "price": 2522.41,
+   "chg": 0.6,
    "spark": [
-    2416.63,
-    2391.79,
-    2375.54,
-    2371.35,
-    2380.39,
     2376.42,
     2401.57,
     2393.23,
@@ -314,19 +309,19 @@
     2504.91,
     2509.25,
     2509.24,
-    2507.91
+    2507.33,
+    2504.05,
+    2526.96,
+    2520.77,
+    2526.26,
+    2522.41
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80921.2,
-   "chg": -0.44,
+   "price": 81140.4,
+   "chg": -0.17,
    "spark": [
-    77437.7,
-    76815.3,
-    76717.3,
-    76634.8,
-    76790.6,
     76575.3,
     77106.7,
     77031.5,
@@ -369,7 +364,12 @@
     80853.5,
     81067.9,
     81004.7,
-    80937.2
+    80786.9,
+    80650.1,
+    81132.0,
+    81042.6,
+    81179.5,
+    81140.3
    ]
   }
  ],
@@ -402,81 +402,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788501887.877773,
-   "title": "Gold holds near $4,500 after rally as traders await U.S. jobs data",
+   "ts": 1788520328.571923,
+   "title": "Citi says the dip in gold prices is a buying opportunity",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/citi-says-the-dip-in-gold-prices-is-a-buying-opportunity-93CH-4889056",
+   "t": "04 Sep \u00b7 04:12 PM",
+   "ur": "Citi ka kahana hai kah Gold (sone) ki qeemton mein kami ek khareedari ka moqa hai."
+  },
+  {
+   "ts": 1788520328.571923,
+   "title": "Gold holds near $4,500 as traders await U.S. jobs data for Fed clues",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4500-as-waller-cools-fed-hike-bets-4888741",
-   "t": "04 Sep \u00b7 11:04 AM"
+   "t": "04 Sep \u00b7 04:12 PM",
+   "ur": "Gold (sona) $4,500 ke qarib hai cunkah taajr fed sarag ke liye US malazmaton ke deta ka antezar kar rahe hen"
   },
   {
-   "ts": 1788501242.0,
-   "title": "Indonesian Rupiah declines as US Dollar gains despite easing Fed rate hike odds",
+   "ts": 1788519834.0,
+   "title": "Gold pauses after two-day recovery as US NFP looms",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indonesian-rupiah-declines-as-us-dollar-gains-despite-easing-fed-rate-hike-odds-202609040554",
-   "t": "04 Sep \u00b7 10:54 AM"
+   "link": "https://www.fxstreet.com/news/gold-pauses-after-two-day-recovery-as-us-nfp-looms-202609041103",
+   "t": "04 Sep \u00b7 04:03 PM",
+   "ur": "Gold (sona) do dan ki recovery ke bad rak gaya jisa kah US an eff pi kam hai."
   },
   {
-   "ts": 1788501052.0,
-   "title": "British Pound strengthens above 1.3500 as BoE stays hawkish, traders brace for US NFP data",
+   "ts": 1788518729.0,
+   "title": "British Pound pulls back from session highs as BoE Bailey tames rate hike hopes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-strengthens-above-13500-as-boe-stays-hawkish-traders-brace-for-us-nfp-data-202609040550",
-   "t": "04 Sep \u00b7 10:50 AM"
+   "link": "https://www.fxstreet.com/news/british-pound-pulls-back-from-session-highs-as-boe-bailey-tames-rate-hike-hopes-202609041045",
+   "t": "04 Sep \u00b7 03:45 PM",
+   "ur": "Bartanvi pound sition ki unchaion se patchhe hat gaya cunkah BoE beli ne rate mein azafe ki amidon par qaabo paliya"
   },
   {
-   "ts": 1788500812.0,
-   "title": "Indian Rupee trades close to two-month low ahead of US NFP data",
+   "ts": 1788517373.0,
+   "title": "Australian Dollar edges higher vs Yen as RBA tightening bets meet BoJ normalization hopes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-trades-close-to-two-month-low-ahead-of-us-nfp-data-202609040546",
-   "t": "04 Sep \u00b7 10:46 AM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-vs-yen-as-rba-tightening-bets-meets-boj-normalization-hopes-202609041022",
+   "t": "04 Sep \u00b7 03:22 PM",
+   "ur": "Aasterilvi Dollar ne yan ke maqable mein unchi sath par bartari haasil ki cunkah RBA saqt shart BoJ ko mamol par laane ki amidon ko pora karta hai"
   },
   {
-   "ts": 1788499747.0,
-   "title": "Japanese Yen retreats from August highs as USD bears turn cautious ahead of US NFP",
+   "ts": 1788515843.0,
+   "title": "Canadian Dollar: Data volatility guides Bank of Canada \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-retreats-from-august-highs-as-usd-bears-turn-cautious-ahead-of-us-nfp-202609040529",
-   "t": "04 Sep \u00b7 10:29 AM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-data-volatility-guides-bank-of-canada-commerzbank-202609040957",
+   "t": "04 Sep \u00b7 02:57 PM",
+   "ur": "Caniden Dollar: deta ki atar chadhao Bank af canida - kamers Bank ki rahnumi karta hai."
   },
   {
-   "ts": 1788496547.0,
-   "title": "India Gold price today: Gold falls, according to FXStreet data",
+   "ts": 1788515391.0,
+   "title": "Gold Price Forecast: XAU/USD recovery stalls below $4.500 awaiting US Nonfarm Payrolls",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202609040435",
-   "t": "04 Sep \u00b7 09:35 AM"
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-recovery-stalls-below-4500-awaiting-us-nonfarm-payrolls-202609040949",
+   "t": "04 Sep \u00b7 02:49 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD rikori rok gaya hai $4.500 se niche US naan farm pay roles ke mantezar"
   },
   {
-   "ts": 1788495480.0,
-   "title": "Gold bulls seem hesitant below $4,500 amid modest USD bounce ahead of US NFP",
+   "ts": 1788515234.0,
+   "title": "US Dollar Index: Two-way risks within bearish channel \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-consolidates-below-4-500-as-bulls-look-to-us-nfp-for-fed-rate-cues-202609040418",
-   "t": "04 Sep \u00b7 09:18 AM"
+   "link": "https://www.fxstreet.com/news/us-dollar-index-two-way-risks-within-bearish-channel-ocbc-202609040947",
+   "t": "04 Sep \u00b7 02:47 PM",
+   "ur": "US Dollar andex: baresh chinl ke andar do tarafah khatrat - OCBC"
   },
   {
-   "ts": 1788492010.0,
-   "title": "EUR/USD Price Forecast: Strong recovery from 100-day MA ahead of US NFP data",
+   "ts": 1788514204.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-strong-recovery-from-100-day-ma-ahead-of-us-nfp-data-202609040320",
-   "t": "04 Sep \u00b7 08:20 AM"
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609040930",
+   "t": "04 Sep \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   },
   {
-   "ts": 1788489910.0,
-   "title": "New Zealand Dollar gains momentum to near 0.5900, US NFP data looms",
+   "ts": 1788514024.0,
+   "title": "Indian Rupee: Rate hike path supports currency \u2013 Societe Generale",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-gains-momentum-to-near-05900-us-nfp-data-looms-202609040245",
-   "t": "04 Sep \u00b7 07:45 AM"
-  },
-  {
-   "ts": 1788488755.0,
-   "title": "United States Dollar Index weakens as Fed\u2019s Waller signals rate pause",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-weakens-as-feds-waller-signals-rate-pause-202609040225",
-   "t": "04 Sep \u00b7 07:25 AM"
+   "link": "https://www.fxstreet.com/news/indian-rupee-rate-hike-path-supports-currency-societe-generale-202609040927",
+   "t": "04 Sep \u00b7 02:27 PM",
+   "ur": "Handostani ropiya: rate mein azafe ka raastah karnsi ko sport karta hai - sociti janerl"
   }
  ],
  "sentiment": {
   "value": 74,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
