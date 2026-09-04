@@ -1,21 +1,13 @@
 {
- "updated": "04-09-2026 22:53 PKT",
+ "updated": "05-09-2026 00:57 PKT",
  "gold": {
-  "price": 4420.21,
-  "open": 4488.29,
+  "price": 4435.85,
+  "open": 4478.4,
   "high": 4514.11,
   "low": 4368.53,
-  "chg": -1.52,
+  "chg": -0.95,
   "src": "XAUUSD Spot",
   "spark": [
-   4467.87,
-   4470.11,
-   4465.88,
-   4462.72,
-   4469.2,
-   4471.36,
-   4484.47,
-   4482.53,
    4483.28,
    4481.8,
    4478.84,
@@ -55,14 +47,51 @@
    4433.58,
    4431.99,
    4418.48,
-   4420.21
+   4417.38,
+   4418.0,
+   4424.54,
+   4423.01,
+   4423.89,
+   4427.94,
+   4435.56,
+   4435.9,
+   4435.85
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 66.81,
+   "chg": -0.24,
+   "spark": [
+    61.439,
+    63.332,
+    65.106,
+    64.769,
+    65.555,
+    64.873,
+    64.988,
+    66.121,
+    63.941,
+    65.734,
+    68.026,
+    69.466,
+    68.541,
+    68.636,
+    67.99,
+    69.429,
+    66.995,
+    66.221,
+    64.618,
+    64.723,
+    66.973,
+    66.81
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 99.147,
-   "chg": 0.15,
+   "price": 99.139,
+   "chg": 0.14,
    "spark": [
     99.97,
     99.6,
@@ -85,13 +114,13 @@
     99.67,
     99.56,
     99.0,
-    99.147
+    99.139
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.91,
-   "chg": -0.43,
+   "price": 91.37,
+   "chg": 0.08,
    "spark": [
     77.29,
     78.18,
@@ -114,13 +143,13 @@
     90.22,
     91.01,
     91.3,
-    90.91
+    91.37
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.772,
-   "chg": 0.21,
+   "price": 4.784,
+   "chg": 0.46,
    "spark": [
     4.67,
     4.66,
@@ -143,13 +172,13 @@
     4.796,
     4.796,
     4.762,
-    4.772
+    4.784
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1617,
-   "chg": 0.27,
+   "price": 1.1618,
+   "chg": 0.29,
    "spark": [
     1.1557,
     1.1525,
@@ -172,13 +201,13 @@
     1.1618,
     1.1596,
     1.1585,
-    1.1617
+    1.1618
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3513,
-   "chg": 0.22,
+   "price": 1.3519,
+   "chg": 0.26,
    "spark": [
     1.347,
     1.3455,
@@ -201,13 +230,13 @@
     1.355,
     1.3515,
     1.3484,
-    1.3513
+    1.3519
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.113,
-   "chg": -1.77,
+   "price": 156.246,
+   "chg": -1.68,
    "spark": [
     157.6,
     158.409,
@@ -230,16 +259,14 @@
     159.747,
     160.196,
     158.923,
-    156.113
+    156.246
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2443.78,
-   "chg": -2.54,
+   "price": 2456.42,
+   "chg": -2.03,
    "spark": [
-    2393.96,
-    2391.56,
     2392.86,
     2389.56,
     2378.72,
@@ -285,16 +312,16 @@
     2440.4,
     2452.21,
     2459.91,
-    2443.78
+    2445.89,
+    2450.81,
+    2456.42
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79409.3,
-   "chg": -2.3,
+   "price": 79754.8,
+   "chg": -1.87,
    "spark": [
-    77345.0,
-    77305.9,
     77370.1,
     77253.7,
     77000.1,
@@ -340,7 +367,9 @@
     78896.2,
     79421.1,
     79753.0,
-    79409.3
+    79474.4,
+    79640.4,
+    79754.8
    ]
   }
  ],
@@ -397,12 +426,76 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1788544396.951856,
-   "title": "Gold slips after stronger-than-expected US jobs data, Fed rate hike bets in focus",
+   "ts": 1788551831.639826,
+   "title": "Silver stuck in $65.30-$67.50 range: Hourly levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4500-as-waller-cools-fed-hike-bets-4888741",
-   "t": "04 Sep \u00b7 10:53 PM",
-   "ur": "Toqa se ziyadah mazboot US malazmaton ke aed w shmar ke bad Gold (sona) phisal gaya, fed ki rate mein azafe par tojah markoz"
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
+   "t": "05 Sep \u00b7 12:57 AM",
+   "ur": "Silver (chandi) $65.30-$67.50 ki had mein phans gayi: fi ghanta ki sath"
+  },
+  {
+   "ts": 1788551831.639826,
+   "title": "Gold struggles below $4,477 after bearish drop: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-double-top-breakdown-live-levels-this-hour-93CH-4882209",
+   "t": "05 Sep \u00b7 12:57 AM",
+   "ur": "Gold (sona) mandi mein kami ke bad $4,477 se niche jadojehad kar raha hai: fi ghanta ki sath"
+  },
+  {
+   "ts": 1788551546.0,
+   "title": "Sterling\u2019s rally stalls as US jobs data reopens Fed debate",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/sterlings-rally-stalls-as-us-jobs-data-reopens-fed-debate-202609041952",
+   "t": "05 Sep \u00b7 12:52 AM",
+   "ur": "Sterling ki rili rak gaya hai jisa kah US malazmaton ke aed w shmar ne fed bahas ko dubarah khola."
+  },
+  {
+   "ts": 1788550320.0,
+   "title": "Indian Rupee: Dollar inflows support INR but impulse may fade \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indian-rupee-dollar-inflows-support-inr-but-impulse-may-fade-ocbc-202609041932",
+   "t": "05 Sep \u00b7 12:32 AM",
+   "ur": "Handostani ropiya: Dollar ki aamad INR ko sport karti hai lican taslsal khtam ho sakta hai - OCBC"
+  },
+  {
+   "ts": 1788547836.0,
+   "title": "Eurozone: Inflation above target into 2027 \u2013 Nordea",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/eurozone-inflation-above-target-into-2027-nordea-202609041850",
+   "t": "04 Sep \u00b7 11:50 PM",
+   "ur": "Urozon: inflation (mehngai) 2027 mein target se ziyadah - naurdiya."
+  },
+  {
+   "ts": 1788545813.0,
+   "title": "Fed\u2019s Hammack says policy is not restrictive enough",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-hammack-says-policy-is-not-restrictive-enough-202609041816",
+   "t": "04 Sep \u00b7 11:16 PM",
+   "ur": "Fed's Hammack ka kahana hai kah palisi kafi had tak muhadud nihen hai."
+  },
+  {
+   "ts": 1788545456.0,
+   "title": "Turkey: CBRT likely to hold before two Q4 rate cuts - ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/turkey-cbrt-likely-to-hold-before-two-q4-rate-cuts-ing-202609041810",
+   "t": "04 Sep \u00b7 11:10 PM",
+   "ur": "Tarki: CBRT ka amkan hai kah Q4 ki do sharahon mein kami se pehle aneqad kiya jaye ga - ING"
+  },
+  {
+   "ts": 1788545440.0,
+   "title": "Australian Dollar resumes advance as US Dollar loses post-NFP momentum",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
+   "t": "04 Sep \u00b7 11:10 PM",
+   "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
+  },
+  {
+   "ts": 1788545297.0,
+   "title": "Gold falls as traders increase Fed hawkish bets after stellar NFP",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-falls-as-traders-increase-fed-hawkish-bets-after-stellar-nfp-202609041808",
+   "t": "04 Sep \u00b7 11:08 PM",
+   "ur": "Gold (sona) garta hai cunkah taajron ne shandar NFP ke bad Fed hakish sharton mein azafah kiya hai."
   },
   {
    "ts": 1788542197.0,
@@ -410,71 +503,7 @@
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
    "t": "04 Sep \u00b7 10:16 PM",
-   "ur": "Agist mein US tankhwahon mein 162,000 ka azafah hawa, jo kah toqa se kahin ziyadah hai. be rozgari ki rate 4.1 fisad"
-  },
-  {
-   "ts": 1788537091.0,
-   "title": "Silver claws back post-NFP losses after briefly crashing below $65",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-claws-back-post-nfp-losses-after-briefly-crashing-below-65-202609041551",
-   "t": "04 Sep \u00b7 08:51 PM",
-   "ur": "Silver (chandi) ne NFP ke bad ke naqsanat ko $65 se niche garne ke bad waps kiya."
-  },
-  {
-   "ts": 1788535286.0,
-   "title": "United States Dollar Index rises as strong NFP revives Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-rises-as-strong-nfp-revives-fed-hike-bets-202609041521",
-   "t": "04 Sep \u00b7 08:21 PM",
-   "ur": "Ryastahaye matehdah ka Dollar andex badhta hai cunkah mazboot NFP ne Fed mein azafe ki shart ko bahal kiya hai."
-  },
-  {
-   "ts": 1788534849.0,
-   "title": "Hungary: Inflation uptick complicates rate-cut path \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/hungary-inflation-uptick-complicates-rate-cut-path-ing-202609041514",
-   "t": "04 Sep \u00b7 08:14 PM",
-   "ur": "Hangri: inflation (mehngai) mein azafah rate mein kami ke raaste ko patcheedah banata hai - ING"
-  },
-  {
-   "ts": 1788533586.0,
-   "title": "Swiss Franc loses ground upbeat US Nonfarm Payrolls",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-loses-ground-upbeat-us-nonfarm-payrolls-202609041453",
-   "t": "04 Sep \u00b7 07:53 PM",
-   "ur": "Sois farank ne US naan farm pay roles ko kho diya."
-  },
-  {
-   "ts": 1788532603.0,
-   "title": "United States: Solid jobs data support steady Fed \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-solid-jobs-data-support-steady-fed-commerzbank-202609041436",
-   "t": "04 Sep \u00b7 07:36 PM",
-   "ur": "Ryastahaye matehdah: thos malazmaton ka deta mastahkam Fed \u2013 Commerzbank ki support karta hai."
-  },
-  {
-   "ts": 1788531055.0,
-   "title": "\"Lower the rate or I\u2019ll stop trading\": Trump pressures Fed after strong US jobs report",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/lower-the-rate-or-ill-stop-trading-trump-pressures-fed-after-strong-us-jobs-report-202609041410",
-   "t": "04 Sep \u00b7 07:10 PM",
-   "ur": "\"ret kam karin yaa mein tajart band kardon ga\": trmp ne US malazmaton ki mazboot rport ke bad fed par dabao dala."
-  },
-  {
-   "ts": 1788530817.0,
-   "title": "Canadian Dollar: Jobs weakness caps gains against US Dollar - TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-jobs-weakness-caps-gains-against-us-dollar-td-securities-202609041406",
-   "t": "04 Sep \u00b7 07:06 PM",
-   "ur": "Caniden Dollar: malazmaton ki kamazori US Dollar ke maqable mein fawaid ko muhadud karti hai - TD securitez"
-  },
-  {
-   "ts": 1788530441.0,
-   "title": "Canadian Dollar slides as Canada sheds 41.7K jobs, US payrolls surge",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-slides-as-canada-sheds-417k-jobs-us-payrolls-surge-202609041400",
-   "t": "04 Sep \u00b7 07:00 PM",
-   "ur": "Canida mein 41.7K malazmatin khtam hone par caniden Dollar ki qeemat mein azafah, US tankhwahon mein azafah"
+   "ur": "Agist mein US pay roles mein 162,000 ka azafah hawa, jo toqa se kahin ziyadah hai. be rozgari ki rate 4.1 fisad"
   }
  ],
  "sentiment": {
