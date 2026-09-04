@@ -1,20 +1,13 @@
 {
- "updated": "04-09-2026 04:43 PKT",
+ "updated": "04-09-2026 06:21 PKT",
  "gold": {
-  "price": 4478.21,
-  "open": 4384.7,
+  "price": 4476.51,
+  "open": 4398.09,
   "high": 4510.6,
-  "low": 4383.08,
-  "chg": 2.13,
+  "low": 4398.09,
+  "chg": 1.78,
   "src": "XAUUSD Spot",
   "spark": [
-   4444.54,
-   4444.1,
-   4447.35,
-   4466.23,
-   4493.9,
-   4486.25,
-   4479.34,
    4470.58,
    4465.33,
    4468.3,
@@ -55,14 +48,21 @@
    4475.35,
    4474.6,
    4473.09,
-   4478.21
+   4477.26,
+   4479.88,
+   4482.35,
+   4475.1,
+   4480.85,
+   4486.59,
+   4478.08,
+   4476.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.54,
-   "chg": 4.35,
+   "price": 67.485,
+   "chg": 4.27,
    "spark": [
     62.099,
     61.439,
@@ -85,13 +85,13 @@
     66.221,
     64.618,
     64.723,
-    67.54
+    67.485
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.003,
-   "chg": -0.56,
+   "price": 98.964,
+   "chg": -0.6,
    "spark": [
     99.69,
     99.97,
@@ -114,13 +114,13 @@
     99.43,
     99.67,
     99.56,
-    99.003
+    98.964
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.8,
-   "chg": 0.87,
+   "price": 91.7,
+   "chg": 0.76,
    "spark": [
     75.22,
     77.29,
@@ -143,7 +143,7 @@
     85.76,
     90.22,
     91.01,
-    91.8
+    91.7
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1629,
-   "chg": 0.38,
+   "price": 1.1633,
+   "chg": 0.41,
    "spark": [
     1.1557,
     1.1525,
@@ -201,13 +201,13 @@
     1.1618,
     1.1596,
     1.1585,
-    1.1629
+    1.1633
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3526,
-   "chg": 0.32,
+   "price": 1.3533,
+   "chg": 0.37,
    "spark": [
     1.347,
     1.3455,
@@ -230,13 +230,13 @@
     1.355,
     1.3515,
     1.3484,
-    1.3526
+    1.3533
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 155.867,
-   "chg": -1.92,
+   "price": 155.902,
+   "chg": -1.9,
    "spark": [
     157.6,
     158.409,
@@ -259,16 +259,14 @@
     159.747,
     160.196,
     158.923,
-    155.867
+    155.902
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2506.45,
-   "chg": 4.83,
+   "price": 2509.57,
+   "chg": 0.09,
    "spark": [
-    2408.01,
-    2398.58,
     2408.17,
     2413.13,
     2414.7,
@@ -314,16 +312,16 @@
     2505.4,
     2511.56,
     2496.96,
-    2506.45
+    2507.42,
+    2501.4,
+    2509.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81274.7,
-   "chg": 5.14,
+   "price": 80983.7,
+   "chg": -0.36,
    "spark": [
-    77172.6,
-    76971.8,
     77280.3,
     77525.7,
     77519.4,
@@ -369,7 +367,9 @@
     81476.7,
     81607.8,
     81150.7,
-    81271.4
+    81276.1,
+    80974.3,
+    80983.7
    ]
   }
  ],
@@ -402,89 +402,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788478995.681466,
+   "ts": 1788484912.022467,
    "title": "Silver trapped at $67.55 in cloud chop zone: Hourly levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-2050-smas-at-6671-live-levels-93CH-4882212",
-   "t": "04 Sep \u00b7 04:43 AM",
-   "ur": "Silver (chandi) kalaud chap zon mein $67.55 par phans gayi: fi ghanta ki sath"
+   "t": "04 Sep \u00b7 06:21 AM"
+  },
+  {
+   "ts": 1788483876.0,
+   "title": "Japanese Yen sits near August highs as USD remains on the back foot ahead of US NFP",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-sits-near-august-highs-as-usd-remains-on-the-back-foot-ahead-of-us-nfp-202609040104",
+   "t": "04 Sep \u00b7 06:04 AM"
+  },
+  {
+   "ts": 1788482933.0,
+   "title": "Euro steadies above 1.1600 as traders await US NFP data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-steadies-above-11600-as-traders-await-us-nfp-data-202609040048",
+   "t": "04 Sep \u00b7 05:48 AM"
   },
   {
    "ts": 1788478611.0,
    "title": "Gold rebounds above $4,450 as Waller tempers Fed rate hike bets ahead US jobs data",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-rebounds-above-4-450-as-waller-tempers-fed-rate-hike-bets-ahead-us-jobs-data-202609032336",
-   "t": "04 Sep \u00b7 04:36 AM",
-   "ur": "US malazmaton ke aed w shmar ke aage fed ki rate mein azafe ki shart par waler ke gussay se Gold (sona) $4,450 se oper aagaya"
+   "t": "04 Sep \u00b7 04:36 AM"
   },
   {
    "ts": 1788475412.0,
    "title": "The Australian Dollar thanks Waller's comments, which sink the USD",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-australian-dollar-thanks-wallers-comments-which-sink-the-usd-202609032243",
-   "t": "04 Sep \u00b7 03:43 AM",
-   "ur": "Aasterilvi Dollar waler ke tabsaron ka shkaria ada karta hai, jas se USD dob jata hai."
+   "t": "04 Sep \u00b7 03:43 AM"
   },
   {
    "ts": 1788472407.0,
    "title": "Banxico\u2019s Heath says rate cuts can wait as core inflation persists",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/banxicos-heath-says-rate-cuts-can-wait-as-core-inflation-persists-202609032153",
-   "t": "04 Sep \u00b7 02:53 AM",
-   "ur": "Binkiko ki hith ka kahana hai kah baniyadi inflation (mehngai) barqarar rahne par rate mein kami ka antezar kiya ja sakta hai."
+   "t": "04 Sep \u00b7 02:53 AM"
   },
   {
    "ts": 1788471767.0,
    "title": "Mexican Peso rescued by Waller\u2019s dovish tilt, appreciates ahead of NFP",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/mexican-peso-rescued-by-wallers-dovish-tilt-appreciates-ahead-of-nfp-202609032142",
-   "t": "04 Sep \u00b7 02:42 AM",
-   "ur": "Mexican peso ko waler ke dosh jhakao se bachaya gaya, NFP se aage ki taarif karta hai."
+   "t": "04 Sep \u00b7 02:42 AM"
   },
   {
    "ts": 1788471547.0,
    "title": "Dow Jones Industrial Average rallies into a payrolls print it cannot win",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-rallies-into-a-payrolls-print-it-cannot-win-202609032139",
-   "t": "04 Sep \u00b7 02:39 AM",
-   "ur": "Dou joons andistril ost riliyan ek pay rol parnt mein jit nihen sakta"
+   "t": "04 Sep \u00b7 02:39 AM"
   },
   {
    "ts": 1788465463.0,
    "title": "Silver Price Forecast: XAG eyes 100-day SMA after Waller-led rally",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-eyes-100-day-sma-after-waller-rally-202609031957",
-   "t": "04 Sep \u00b7 12:57 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG ki nazarin waler ki qayadat mein rili ke bad 100 dan ke SMA par"
+   "t": "04 Sep \u00b7 12:57 AM"
   },
   {
    "ts": 1788464289.0,
    "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
-   "t": "04 Sep \u00b7 12:38 AM",
-   "ur": "Agist ki badi malazmaton ki rport jama ko samane aane wali hai. yahan ya hai kah be rozgar mosm garma ke laye kiya toqa ki jaye."
-  },
-  {
-   "ts": 1788464280.0,
-   "title": "Singapore Dollar: Stronger Singapore growth with contained inflation \u2013 Commerzbank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-stronger-singapore-growth-with-contained-inflation-commerzbank-202609031938",
-   "t": "04 Sep \u00b7 12:38 AM",
-   "ur": "Sangapor Dollar: sanga por ki mazboot namo par mashtamil inflation (mehngai) ke sath - kamrzabink"
-  },
-  {
-   "ts": 1788461520.0,
-   "title": "Chinese Yuan: Range trade persists against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-range-trade-persists-against-us-dollar-uob-202609031852",
-   "t": "03 Sep \u00b7 11:52 PM",
-   "ur": "Chini uan: US Dollar - UOB ke khalaf had ki tajart barqarar hai."
+   "t": "04 Sep \u00b7 12:38 AM"
   }
  ],
  "sentiment": {
-  "value": 65,
+  "value": 74,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
