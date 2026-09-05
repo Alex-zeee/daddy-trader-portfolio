@@ -1,20 +1,13 @@
 {
- "updated": "05-09-2026 04:41 PKT",
+ "updated": "05-09-2026 06:23 PKT",
  "gold": {
-  "price": 4428.99,
-  "open": 4477.16,
+  "price": 4428.95,
+  "open": 4470.85,
   "high": 4514.11,
   "low": 4368.53,
-  "chg": -1.08,
+  "chg": -0.94,
   "src": "XAUUSD Spot",
   "spark": [
-   4467.51,
-   4465.71,
-   4471.65,
-   4401.14,
-   4407.33,
-   4392.71,
-   4410.62,
    4420.99,
    4415.73,
    4430.44,
@@ -55,7 +48,14 @@
    4429.01,
    4429.04,
    4428.97,
-   4428.99
+   4428.9,
+   4429.03,
+   4429.04,
+   4428.99,
+   4428.9,
+   4429.05,
+   4429.04,
+   4428.95
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2454.17,
-   "chg": -2.12,
+   "price": 2453.46,
+   "chg": -0.12,
    "spark": [
-    2378.91,
-    2385.75,
     2404.35,
     2402.24,
     2406.56,
@@ -314,16 +312,16 @@
     2451.7,
     2452.82,
     2451.5,
-    2454.17
+    2456.27,
+    2452.57,
+    2453.46
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79690.9,
-   "chg": -1.95,
+   "price": 79672.6,
+   "chg": -0.0,
    "spark": [
-    77035.1,
-    77330.2,
     77780.3,
     77670.6,
     77739.8,
@@ -369,7 +367,9 @@
     79715.6,
     79661.4,
     79655.5,
-    79690.9
+    79676.4,
+    79588.2,
+    79672.6
    ]
   }
  ],
@@ -426,11 +426,11 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1788565306.280364,
+   "ts": 1788571405.050791,
    "title": "Gold dips as stellar jobs report drives up Fed rate hike bets, boosts dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4500-as-waller-cools-fed-hike-bets-4888741",
-   "t": "05 Sep \u00b7 04:41 AM",
+   "t": "05 Sep \u00b7 06:23 AM",
    "ur": "Shandar malazmaton ki rport ke tur par Gold (sone) mein kami fed ki rate mein azafe ki shart ko badhati hai, Dollar ko badhata hai."
   },
   {
@@ -507,7 +507,7 @@
   }
  ],
  "sentiment": {
-  "value": 74,
+  "value": 73,
   "label": "Greed"
  },
  "err": null
