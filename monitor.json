@@ -1,26 +1,13 @@
 {
- "updated": "05-09-2026 14:31 PKT",
+ "updated": "05-09-2026 18:01 PKT",
  "gold": {
-  "price": 4428.91,
-  "open": 4467.33,
-  "high": 4514.11,
+  "price": 4429.01,
+  "open": 4403.66,
+  "high": 4449.17,
   "low": 4368.53,
-  "chg": -0.86,
+  "chg": 0.58,
   "src": "XAUUSD Spot",
   "spark": [
-   4429.01,
-   4429.04,
-   4428.99,
-   4428.9,
-   4429.01,
-   4429.04,
-   4428.97,
-   4428.9,
-   4429.03,
-   4429.04,
-   4428.99,
-   4428.9,
-   4429.05,
    4429.04,
    4429.0,
    4428.9,
@@ -55,7 +42,20 @@
    4428.91,
    4428.91,
    4429.02,
-   4428.91
+   4429.04,
+   4429.0,
+   4428.9,
+   4429.0,
+   4429.04,
+   4428.99,
+   4428.9,
+   4429.03,
+   4429.05,
+   4428.99,
+   4428.92,
+   4429.04,
+   4429.05,
+   4429.01
   ]
  },
  "markets": [
@@ -264,13 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2457.93,
-   "chg": 0.06,
+   "price": 2459.29,
+   "chg": 0.12,
    "spark": [
-    2395.69,
-    2406.51,
-    2422.37,
-    2429.78,
     2489.53,
     2517.04,
     2494.07,
@@ -314,18 +310,18 @@
     2453.72,
     2457.64,
     2456.92,
-    2457.91
+    2458.4,
+    2454.14,
+    2453.87,
+    2458.94,
+    2459.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79700.2,
-   "chg": 0.03,
+   "price": 79731.8,
+   "chg": 0.07,
    "spark": [
-    77708.6,
-    77917.5,
-    78611.1,
-    78836.5,
     80549.2,
     81361.7,
     80968.8,
@@ -369,7 +365,11 @@
     79670.8,
     79720.9,
     79654.4,
-    79700.2
+    79632.9,
+    79618.6,
+    79618.5,
+    79731.8,
+    79731.8
    ]
   }
  ],
@@ -426,11 +426,19 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1788600691.087872,
+   "ts": 1788613264.142655,
+   "title": "Here are three scenarios that could drive gold above $5,000",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/jefferies-identifies-three-scenarios-that-could-drive-gold-above-5000-4890189",
+   "t": "05 Sep \u00b7 06:01 PM",
+   "ur": "Yahan tin ese manazrname hen jo Gold (sone) ko $5,000 se oper le sakte hen."
+  },
+  {
+   "ts": 1788613264.142655,
    "title": "Gold dips as stellar jobs report drives up Fed rate hike bets, boosts dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4500-as-waller-cools-fed-hike-bets-4888741",
-   "t": "05 Sep \u00b7 02:31 PM",
+   "t": "05 Sep \u00b7 06:01 PM",
    "ur": "Shandar malazmaton ki rport ke tur par Gold (sone) mein kami fed ki rate mein azafe ki sharton ko badhati hai, Dollar ko badhata hai."
   },
   {
@@ -496,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
    "t": "04 Sep \u00b7 11:10 PM",
    "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
-  },
-  {
-   "ts": 1788545297.0,
-   "title": "Gold falls as traders increase Fed hawkish bets after stellar NFP",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-falls-as-traders-increase-fed-hawkish-bets-after-stellar-nfp-202609041808",
-   "t": "04 Sep \u00b7 11:08 PM",
-   "ur": "Gold (sona) garta hai cunkah taajron ne shandar NFP ke bad Fed hakish sharton mein azafah kiya hai."
   }
  ],
  "sentiment": {
