@@ -1,22 +1,13 @@
 {
- "updated": "05-09-2026 23:13 PKT",
+ "updated": "06-09-2026 01:18 PKT",
  "gold": {
-  "price": 4429.03,
-  "open": 4417.48,
-  "high": 4438.54,
-  "low": 4417.48,
-  "chg": 0.26,
+  "price": 4429.02,
+  "open": 4429.83,
+  "high": 4432.16,
+  "low": 4428.77,
+  "chg": -0.02,
   "src": "XAUUSD Spot",
   "spark": [
-   4429.04,
-   4428.99,
-   4428.9,
-   4429.05,
-   4429.04,
-   4429.01,
-   4428.92,
-   4428.94,
-   4429.03,
    4429.02,
    4428.91,
    4428.91,
@@ -55,7 +46,16 @@
    4428.92,
    4429.03,
    4429.05,
-   4429.03
+   4428.99,
+   4428.92,
+   4429.05,
+   4429.05,
+   4429.01,
+   4428.93,
+   4428.95,
+   4429.04,
+   4429.03,
+   4429.02
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2478.57,
-   "chg": 0.9,
+   "price": 2476.56,
+   "chg": 0.82,
    "spark": [
-    2518.24,
-    2505.4,
     2511.56,
     2496.96,
     2507.42,
@@ -314,16 +312,16 @@
     2460.1,
     2471.03,
     2481.29,
-    2478.57
+    2480.68,
+    2477.82,
+    2476.56
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80001.4,
-   "chg": 0.41,
+   "price": 79714.7,
+   "chg": 0.05,
    "spark": [
-    81746.9,
-    81476.7,
     81607.8,
     81150.7,
     81276.1,
@@ -369,7 +367,9 @@
     79814.3,
     80043.8,
     80070.5,
-    80001.4
+    80001.7,
+    79752.7,
+    79714.7
    ]
   }
  ],
@@ -426,12 +426,20 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1788632010.596541,
+   "ts": 1788639532.073658,
    "title": "Here are three scenarios that could drive gold above $5,000",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/jefferies-identifies-three-scenarios-that-could-drive-gold-above-5000-4890189",
-   "t": "05 Sep \u00b7 11:13 PM",
+   "t": "06 Sep \u00b7 01:18 AM",
    "ur": "Yahan tin ese manazrname hen jo Gold (sone) ko $5,000 se oper le sakte hen."
+  },
+  {
+   "ts": 1788635573.0,
+   "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+   "t": "06 Sep \u00b7 12:12 AM",
+   "ur": "Trmp ne warsh par garmi ko badha diya cunkah fed ki rate mein azafah ho raha hai."
   },
   {
    "ts": 1788562260.0,
@@ -495,15 +503,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
    "t": "04 Sep \u00b7 11:10 PM",
-   "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
-  },
-  {
-   "ts": 1788545297.0,
-   "title": "Gold falls as traders increase Fed hawkish bets after stellar NFP",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-falls-as-traders-increase-fed-hawkish-bets-after-stellar-nfp-202609041808",
-   "t": "04 Sep \u00b7 11:08 PM",
-   "ur": "Gold (sona) garta hai cunkah taajron ne shandar NFP ke bad Fed hakish sharton mein azafah kiya hai."
+   "ur": "Aasterilvi Dollar ne phar se pesh qadami sharo ki cunkah US Dollar NFP ke bad ki raftar kho dita hai."
   }
  ],
  "sentiment": {
