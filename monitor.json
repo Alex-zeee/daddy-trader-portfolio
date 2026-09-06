@@ -1,21 +1,13 @@
 {
- "updated": "06-09-2026 23:50 PKT",
+ "updated": "07-09-2026 01:53 PKT",
  "gold": {
-  "price": 4429.02,
+  "price": 4429.03,
   "open": 4428.95,
-  "high": 4429.15,
-  "low": 4428.86,
+  "high": 4430.07,
+  "low": 4428.81,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4429.06,
-   4429.04,
-   4429.02,
-   4428.93,
-   4428.94,
-   4429.03,
-   4429.03,
-   4428.94,
    4428.93,
    4429.02,
    4429.04,
@@ -55,7 +47,15 @@
    4428.98,
    4428.9,
    4429.04,
-   4429.02
+   4429.04,
+   4429.01,
+   4428.9,
+   4428.91,
+   4429.03,
+   4429.02,
+   4428.91,
+   4428.9,
+   4429.03
   ]
  },
  "markets": [
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1621,
-   "chg": 0.31,
+   "price": 1.162,
+   "chg": -0.07,
    "spark": [
-    1.1557,
     1.1525,
     1.1556,
     1.1546,
@@ -201,15 +200,15 @@
     1.1618,
     1.1596,
     1.1585,
-    1.1621
+    1.1628,
+    1.162
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3517,
-   "chg": 0.25,
+   "chg": -0.11,
    "spark": [
-    1.347,
     1.3455,
     1.3491,
     1.3511,
@@ -230,15 +229,15 @@
     1.355,
     1.3515,
     1.3484,
+    1.3532,
     1.3517
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.221,
-   "chg": -1.7,
+   "price": 155.942,
+   "chg": 0.18,
    "spark": [
-    157.6,
     158.409,
     157.891,
     159.156,
@@ -259,16 +258,15 @@
     159.747,
     160.196,
     158.923,
-    156.221
+    155.66,
+    155.942
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2495.06,
-   "chg": 0.59,
+   "price": 2498.15,
+   "chg": 0.72,
    "spark": [
-    2455.26,
-    2451.7,
     2452.82,
     2451.5,
     2456.27,
@@ -314,16 +312,16 @@
     2479.69,
     2484.43,
     2491.22,
-    2495.06
+    2494.33,
+    2490.5,
+    2498.13
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79922.4,
-   "chg": 0.12,
+   "price": 79907.1,
+   "chg": 0.1,
    "spark": [
-    79798.9,
-    79715.6,
     79661.4,
     79655.5,
     79676.4,
@@ -369,7 +367,9 @@
     79709.2,
     79681.1,
     79735.7,
-    79922.4
+    79942.4,
+    79825.1,
+    79907.1
    ]
   }
  ],
@@ -450,11 +450,11 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788720603.508342,
+   "ts": 1788728036.809735,
    "title": "Here are three scenarios that could drive gold above $5,000",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/jefferies-identifies-three-scenarios-that-could-drive-gold-above-5000-4890189",
-   "t": "06 Sep \u00b7 11:50 PM",
+   "t": "07 Sep \u00b7 01:53 AM",
    "ur": "Yahan tin ese manazrname hen jo Gold (sone) ko $5,000 se oper le sakte hen."
   },
   {
@@ -527,7 +527,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
    "t": "04 Sep \u00b7 11:10 PM",
-   "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
+   "ur": "Aasterilvi Dollar ne phar se pesh qadami sharo ki cunkah US Dollar NFP ke bad ki raftar kho dita hai."
   }
  ],
  "sentiment": {
