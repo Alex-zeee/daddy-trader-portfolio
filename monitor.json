@@ -1,21 +1,13 @@
 {
- "updated": "06-09-2026 21:59 PKT",
+ "updated": "06-09-2026 23:50 PKT",
  "gold": {
-  "price": 4429.04,
+  "price": 4429.02,
   "open": 4428.95,
   "high": 4429.15,
-  "low": 4428.88,
+  "low": 4428.86,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4429.03,
-   4429.05,
-   4428.99,
-   4428.92,
-   4429.04,
-   4429.05,
-   4429.0,
-   4428.92,
    4429.06,
    4429.04,
    4429.02,
@@ -55,7 +47,15 @@
    4429.0,
    4428.92,
    4429.02,
-   4429.04
+   4429.05,
+   4428.98,
+   4428.92,
+   4429.04,
+   4429.05,
+   4428.98,
+   4428.9,
+   4429.04,
+   4429.02
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2483.13,
-   "chg": 0.11,
+   "price": 2495.06,
+   "chg": 0.59,
    "spark": [
-    2445.89,
-    2450.81,
     2455.26,
     2451.7,
     2452.82,
@@ -314,16 +312,16 @@
     2494.51,
     2478.59,
     2479.69,
-    2483.13
+    2484.43,
+    2491.22,
+    2495.06
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79670.1,
-   "chg": -0.2,
+   "price": 79922.4,
+   "chg": 0.12,
    "spark": [
-    79474.4,
-    79640.4,
     79798.9,
     79715.6,
     79661.4,
@@ -369,7 +367,9 @@
     79829.3,
     79546.6,
     79709.2,
-    79670.1
+    79681.1,
+    79735.7,
+    79922.4
    ]
   }
  ],
@@ -450,81 +450,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788713943.836477,
+   "ts": 1788720603.508342,
    "title": "Here are three scenarios that could drive gold above $5,000",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/jefferies-identifies-three-scenarios-that-could-drive-gold-above-5000-4890189",
-   "t": "06 Sep \u00b7 09:59 PM"
+   "t": "06 Sep \u00b7 11:50 PM",
+   "ur": "Yahan tin ese manazrname hen jo Gold (sone) ko $5,000 se oper le sakte hen."
   },
   {
    "ts": 1788635573.0,
    "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
-   "t": "06 Sep \u00b7 12:12 AM"
+   "t": "06 Sep \u00b7 12:12 AM",
+   "ur": "Trmp ne warsh par garmi ko badha diya cunkah fed ki rate mein azafah ho raha hai."
   },
   {
    "ts": 1788562260.0,
    "title": "Malaysian Ringgit: Range-bound risks and key levels against US Dollar \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/malaysian-ringgit-range-bound-risks-and-key-levels-against-us-dollar-ocbc-202609042251",
-   "t": "05 Sep \u00b7 03:51 AM"
+   "t": "05 Sep \u00b7 03:51 AM",
+   "ur": "Malishin rangt: US Dollar ke maqable mein had se matalq khatrat aur kalidi sathin - OCBC"
   },
   {
    "ts": 1788557244.0,
    "title": "USD/CHF Price Forecast: NFP rally stalls at 0.8100, retraces",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-nfp-rally-stalls-at-08100-retraces-202609042127",
-   "t": "05 Sep \u00b7 02:27 AM"
+   "t": "05 Sep \u00b7 02:27 AM",
+   "ur": "USD/CHF qeemat ki forecast: NFP rili rak gaya hai 0.8100 par, patchhe hatna"
   },
   {
    "ts": 1788551546.0,
    "title": "Sterling\u2019s rally stalls as US jobs data reopens Fed debate",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/sterlings-rally-stalls-as-us-jobs-data-reopens-fed-debate-202609041952",
-   "t": "05 Sep \u00b7 12:52 AM"
+   "t": "05 Sep \u00b7 12:52 AM",
+   "ur": "Sterling ki rili rak gaya hai jisa kah US malazmaton ke aed w shmar ne fed bahas ko dubarah khola."
   },
   {
    "ts": 1788550320.0,
    "title": "Indian Rupee: Dollar inflows support INR but impulse may fade \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/indian-rupee-dollar-inflows-support-inr-but-impulse-may-fade-ocbc-202609041932",
-   "t": "05 Sep \u00b7 12:32 AM"
+   "t": "05 Sep \u00b7 12:32 AM",
+   "ur": "Handostani ropiya: Dollar ki aamad INR ko sport karti hai lican taslsal khtam ho sakta hai - OCBC"
   },
   {
    "ts": 1788547836.0,
    "title": "Eurozone: Inflation above target into 2027 \u2013 Nordea",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/eurozone-inflation-above-target-into-2027-nordea-202609041850",
-   "t": "04 Sep \u00b7 11:50 PM"
+   "t": "04 Sep \u00b7 11:50 PM",
+   "ur": "Urozon: inflation (mehngai) 2027 mein target se ziyadah - naurdiya."
   },
   {
    "ts": 1788545813.0,
    "title": "Fed\u2019s Hammack says policy is not restrictive enough",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/feds-hammack-says-policy-is-not-restrictive-enough-202609041816",
-   "t": "04 Sep \u00b7 11:16 PM"
+   "t": "04 Sep \u00b7 11:16 PM",
+   "ur": "Fed's Hammack ka kahana hai kah palisi kafi had tak muhadud nihen hai."
   },
   {
    "ts": 1788545456.0,
    "title": "Turkey: CBRT likely to hold before two Q4 rate cuts - ING",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/turkey-cbrt-likely-to-hold-before-two-q4-rate-cuts-ing-202609041810",
-   "t": "04 Sep \u00b7 11:10 PM"
+   "t": "04 Sep \u00b7 11:10 PM",
+   "ur": "Tarki: CBRT ka amkan hai kah Q4 ki do sharahon mein kami se pehle aneqad kiya jaye ga - ING"
   },
   {
    "ts": 1788545440.0,
    "title": "Australian Dollar resumes advance as US Dollar loses post-NFP momentum",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
-   "t": "04 Sep \u00b7 11:10 PM"
+   "t": "04 Sep \u00b7 11:10 PM",
+   "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
   }
  ],
  "sentiment": {
   "value": 73,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
