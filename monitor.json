@@ -1,33 +1,13 @@
 {
- "updated": "06-09-2026 06:29 PKT",
+ "updated": "06-09-2026 11:19 PKT",
  "gold": {
   "price": 4428.94,
   "open": 4428.94,
   "high": 4429.15,
-  "low": 4428.87,
+  "low": 4428.88,
   "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4429.04,
-   4429.02,
-   4428.93,
-   4428.94,
-   4429.03,
-   4429.03,
-   4428.94,
-   4428.93,
-   4429.02,
-   4429.04,
-   4429.0,
-   4428.92,
-   4429.02,
-   4429.05,
-   4428.99,
-   4428.92,
-   4429.03,
-   4429.05,
-   4428.99,
-   4428.92,
    4429.05,
    4429.05,
    4429.01,
@@ -55,14 +35,34 @@
    4428.92,
    4429.05,
    4429.04,
+   4429.02,
+   4428.93,
+   4428.95,
+   4429.04,
+   4429.03,
+   4428.94,
+   4428.93,
+   4429.02,
+   4429.04,
+   4429.01,
+   4428.92,
+   4429.01,
+   4429.05,
+   4428.99,
+   4428.92,
+   4429.03,
+   4429.05,
+   4428.99,
+   4428.92,
+   4429.04,
    4428.94
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.047,
-   "chg": -1.38,
+   "price": 66.748,
+   "chg": -0.34,
    "spark": [
     61.439,
     63.332,
@@ -85,7 +85,7 @@
     64.618,
     64.723,
     66.973,
-    66.047
+    66.748
    ]
   },
   {
@@ -234,44 +234,10 @@
    ]
   },
   {
-   "name": "USD/JPY",
-   "price": 156.221,
-   "chg": -1.7,
-   "spark": [
-    157.6,
-    158.409,
-    157.891,
-    159.156,
-    159.265,
-    159.328,
-    159.426,
-    159.223,
-    159.34,
-    159.55,
-    158.276,
-    158.883,
-    158.904,
-    159.139,
-    159.223,
-    159.255,
-    159.321,
-    160.122,
-    159.747,
-    160.196,
-    158.923,
-    156.221
-   ]
-  },
-  {
    "name": "Ethereum",
-   "price": 2493.73,
-   "chg": 0.54,
+   "price": 2508.8,
+   "chg": 1.15,
    "spark": [
-    2507.46,
-    2504.91,
-    2509.25,
-    2509.24,
-    2507.33,
     2504.05,
     2526.96,
     2520.77,
@@ -314,19 +280,19 @@
     2480.91,
     2480.62,
     2490.39,
-    2493.73
+    2505.44,
+    2503.41,
+    2509.93,
+    2504.33,
+    2513.35,
+    2508.8
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79926.9,
-   "chg": 0.12,
+   "price": 79907.7,
+   "chg": 0.1,
    "spark": [
-    80823.2,
-    80853.5,
-    81067.9,
-    81004.7,
-    80786.9,
     80650.1,
     81132.0,
     81042.6,
@@ -369,68 +335,97 @@
     79789.8,
     79828.4,
     79879.5,
-    79926.9
+    79958.4,
+    79914.2,
+    80039.9,
+    79865.0,
+    79993.5,
+    79907.7
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1788351300.0,
-   "t": "Wed 02 Sep \u00b7 05:15 PM",
-   "title": "ADP Non-Farm Employment Change",
-   "impact": "Medium",
-   "forecast": "47K",
-   "previous": "44K"
+   "ts": 1789043400.0,
+   "t": "Thu 10 Sep \u00b7 05:30 PM",
+   "title": "Core PPI m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.2%"
   },
   {
-   "ts": 1788438600.0,
-   "t": "Thu 03 Sep \u00b7 05:30 PM",
+   "ts": 1789043400.0,
+   "t": "Thu 10 Sep \u00b7 05:30 PM",
+   "title": "PPI m/m",
+   "impact": "High",
+   "forecast": "0.4%",
+   "previous": "0.0%"
+  },
+  {
+   "ts": 1789043400.0,
+   "t": "Thu 10 Sep \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
    "forecast": "205K",
-   "previous": "203K"
+   "previous": "206K"
   },
   {
-   "ts": 1788444000.0,
-   "t": "Thu 03 Sep \u00b7 07:00 PM",
-   "title": "ISM Services PMI",
-   "impact": "Medium",
-   "forecast": "54.2",
-   "previous": "54.1"
-  },
-  {
-   "ts": 1788525000.0,
-   "t": "Fri 04 Sep \u00b7 05:30 PM",
-   "title": "Average Hourly Earnings m/m",
+   "ts": 1789129800.0,
+   "t": "Fri 11 Sep \u00b7 05:30 PM",
+   "title": "Core CPI m/m",
    "impact": "High",
-   "forecast": "0.3%",
+   "forecast": "0.2%",
+   "previous": "0.2%"
+  },
+  {
+   "ts": 1789129800.0,
+   "t": "Fri 11 Sep \u00b7 05:30 PM",
+   "title": "Core CPI y/y",
+   "impact": "High",
+   "forecast": "2.4%",
+   "previous": "2.5%"
+  },
+  {
+   "ts": 1789129800.0,
+   "t": "Fri 11 Sep \u00b7 05:30 PM",
+   "title": "CPI m/m",
+   "impact": "High",
+   "forecast": "0.4%",
    "previous": "0.1%"
   },
   {
-   "ts": 1788525000.0,
-   "t": "Fri 04 Sep \u00b7 05:30 PM",
-   "title": "Non-Farm Employment Change",
+   "ts": 1789129800.0,
+   "t": "Fri 11 Sep \u00b7 05:30 PM",
+   "title": "CPI y/y",
    "impact": "High",
-   "forecast": "55K",
-   "previous": "-23K"
+   "forecast": "3.4%",
+   "previous": "3.4%"
   },
   {
-   "ts": 1788525000.0,
-   "t": "Fri 04 Sep \u00b7 05:30 PM",
-   "title": "Unemployment Rate",
-   "impact": "High",
-   "forecast": "4.1%",
-   "previous": "4.1%"
+   "ts": 1789135200.0,
+   "t": "Fri 11 Sep \u00b7 07:00 PM",
+   "title": "Prelim UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "51.0",
+   "previous": "51.0"
+  },
+  {
+   "ts": 1789135200.0,
+   "t": "Fri 11 Sep \u00b7 07:00 PM",
+   "title": "Prelim UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.3%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788658182.494144,
+   "ts": 1788675550.014949,
    "title": "Here are three scenarios that could drive gold above $5,000",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/jefferies-identifies-three-scenarios-that-could-drive-gold-above-5000-4890189",
-   "t": "06 Sep \u00b7 06:29 AM",
+   "t": "06 Sep \u00b7 11:19 AM",
    "ur": "Yahan tin ese manazrname hen jo Gold (sone) ko $5,000 se oper le sakte hen."
   },
   {
@@ -503,7 +498,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-resumes-advance-as-us-dollar-loses-post-nfp-momentum-202609041810",
    "t": "04 Sep \u00b7 11:10 PM",
-   "ur": "Aasterilvi Dollar ne phar se pesh qadami sharo ki cunkah US Dollar NFP ke bad ki raftar kho dita hai."
+   "ur": "Aasterilvi Dollar ne dubarah pesh qadami sharo kardi cunkah US Dollar NFP ke bad ki raftar kho dita hai."
   }
  ],
  "sentiment": {
