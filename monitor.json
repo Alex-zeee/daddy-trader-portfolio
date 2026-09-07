@@ -1,24 +1,13 @@
 {
- "updated": "08-09-2026 00:09 PKT",
+ "updated": "08-09-2026 02:59 PKT",
  "gold": {
-  "price": 4405.24,
-  "open": 4428.94,
+  "price": 4405.07,
+  "open": 4429.14,
   "high": 4434.89,
   "low": 4382.51,
   "chg": -0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   4396.74,
-   4392.17,
-   4405.54,
-   4416.71,
-   4419.29,
-   4415.51,
-   4409.96,
-   4411.61,
-   4407.42,
-   4409.33,
-   4405.23,
    4402.92,
    4397.1,
    4398.14,
@@ -55,7 +44,18 @@
    4406.12,
    4405.16,
    4405.18,
-   4405.24
+   4405.08,
+   4405.25,
+   4405.18,
+   4405.13,
+   4405.14,
+   4405.05,
+   4405.14,
+   4405.18,
+   4405.27,
+   4405.25,
+   4404.95,
+   4405.07
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 98.918,
-   "chg": -0.24,
+   "price": 99.176,
+   "chg": 0.02,
    "spark": [
     99.6,
     99.81,
@@ -114,7 +114,7 @@
     99.56,
     99.0,
     99.16,
-    98.918
+    99.176
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1627,
-   "chg": -0.02,
+   "price": 1.1628,
+   "chg": -0.0,
    "spark": [
     1.1525,
     1.1556,
@@ -201,13 +201,13 @@
     1.1596,
     1.1585,
     1.1628,
-    1.1627
+    1.1628
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3541,
-   "chg": 0.07,
+   "price": 1.3542,
+   "chg": 0.08,
    "spark": [
     1.3455,
     1.3491,
@@ -230,12 +230,12 @@
     1.3515,
     1.3484,
     1.3532,
-    1.3541
+    1.3542
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 154.356,
+   "price": 154.345,
    "chg": -0.84,
    "spark": [
     158.409,
@@ -259,16 +259,14 @@
     160.196,
     158.923,
     155.66,
-    154.356
+    154.345
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2490.06,
-   "chg": -0.97,
+   "price": 2491.07,
+   "chg": -0.93,
    "spark": [
-    2477.8,
-    2488.98,
     2480.91,
     2480.62,
     2490.39,
@@ -314,16 +312,16 @@
     2482.55,
     2495.01,
     2491.41,
-    2490.06
+    2495.7,
+    2494.24,
+    2491.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79165.7,
-   "chg": -1.45,
+   "price": 79190.3,
+   "chg": -1.42,
    "spark": [
-    79745.0,
-    79929.6,
     79789.8,
     79828.4,
     79879.5,
@@ -369,7 +367,9 @@
     79011.5,
     79173.6,
     79189.7,
-    79165.7
+    79353.8,
+    79224.7,
+    79190.3
    ]
   }
  ],
@@ -450,89 +450,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788808145.97926,
+   "ts": 1788818359.041908,
+   "title": "Gold head & shoulders at $4,452 in tight range: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-trapped-at-4444-in-bullbear-standoff-live-levels-93CH-4890476",
+   "t": "08 Sep \u00b7 02:59 AM"
+  },
+  {
+   "ts": 1788818359.041908,
+   "title": "Silver trapped in $65.80-$68.00 range: Live breakout levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
+   "t": "08 Sep \u00b7 02:59 AM"
+  },
+  {
+   "ts": 1788818359.041908,
    "title": "Gold edges down as strong payrolls revive Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-as-strong-payrolls-iran-tensions-lift-fed-hike-bets-4890334",
-   "t": "08 Sep \u00b7 12:09 AM",
-   "ur": "Gold (sone) ke kanare niche aate hen cunkah mazboot pay roles ne fed mein azafe ki shart ko bahal kiya hai."
+   "t": "08 Sep \u00b7 02:59 AM"
+  },
+  {
+   "ts": 1788814860.0,
+   "title": "Indonesian Rupiah: Oil and US inflation pose risks \u2013 MUFG",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/indonesian-rupiah-oil-and-us-inflation-pose-risks-mufg-202609072101",
+   "t": "08 Sep \u00b7 02:01 AM"
+  },
+  {
+   "ts": 1788812280.0,
+   "title": "Vietnam: Inflation and trade trends shape VND \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/vietnam-inflation-and-trade-trends-shape-vnd-commerzbank-202609072018",
+   "t": "08 Sep \u00b7 01:18 AM"
+  },
+  {
+   "ts": 1788811949.0,
+   "title": "Mexican Peso stumbles as traders brace for US inflation week",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/mexican-peso-stumbles-as-traders-brace-for-us-inflation-week-202609072012",
+   "t": "08 Sep \u00b7 01:12 AM"
+  },
+  {
+   "ts": 1788810060.0,
+   "title": "Asia FX: Stronger Dollar and Oil weigh on CNY and peers \u2013 BNY",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/asia-fx-stronger-dollar-and-oil-weigh-on-cny-and-peers-bny-202609071941",
+   "t": "08 Sep \u00b7 12:41 AM"
+  },
+  {
+   "ts": 1788808709.0,
+   "title": "Gold bulls flinch as NFP puts Fed hawks back in the driver\u2019s seat",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-bulls-flinch-as-nfp-puts-fed-hawks-back-in-the-drivers-seat-202609071918",
+   "t": "08 Sep \u00b7 12:18 AM"
   },
   {
    "ts": 1788804196.0,
    "title": "United States Dollar Index trades under pressure as Yen buying accelerates",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/united-states-dollar-index-trades-under-pressure-as-yen-buying-accelerates-202609071803",
-   "t": "07 Sep \u00b7 11:03 PM",
-   "ur": "Yan ki khareedari mein tizi ke sath hi ryastahaye matehdah ka Dollar andex dabao mein hai."
-  },
-  {
-   "ts": 1788802898.0,
-   "title": "The Euro waits for the sentence after the rate hike",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-euro-waits-for-the-sentence-after-the-rate-hike-202609071741",
-   "t": "07 Sep \u00b7 10:41 PM",
-   "ur": "Uro rate mein azafe ke bad saza ka antezar karta hai."
+   "t": "07 Sep \u00b7 11:03 PM"
   },
   {
    "ts": 1788800504.0,
    "title": "The Japanese Yen has stopped trading the Federal Reserve",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/nobody-has-unwound-the-japanese-yen-carry-trade-yet-202609071701",
-   "t": "07 Sep \u00b7 10:01 PM",
-   "ur": "Japani yan ne faderl resero ki tajart rok di hai."
-  },
-  {
-   "ts": 1788799917.0,
-   "title": "British Pound climbs as USD fades, Hormuz risk keeps Fed in play",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-usd-fades-hormuz-risk-keeps-fed-in-play-202609071651",
-   "t": "07 Sep \u00b7 09:51 PM",
-   "ur": "US Dollar khtam hote hi bartanvi pound mein azafah, harmaz ka khatrah fed ko khel mein rakta hai."
-  },
-  {
-   "ts": 1788797379.0,
-   "title": "New Zealand Dollar struggles to gain traction as cautious RBNZ outlook weighs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-to-gain-traction-as-cautious-rbnz-outlook-weighs-202609071609",
-   "t": "07 Sep \u00b7 09:09 PM",
-   "ur": "Niyozi lind Dollar karshan haasil karne ke liye jadojehad kar raha hai cunkah muhatat RBNZ oat lak wazin mein hai"
-  },
-  {
-   "ts": 1788794137.0,
-   "title": "Australian Dollar hits three-month high as RBA rate hike bets intensify",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-hits-three-month-high-as-rba-rate-hike-bets-intensify-202609071515",
-   "t": "07 Sep \u00b7 08:15 PM",
-   "ur": "Aasterilvi Dollar tin mah ki baland tarin sath par pohch gaya cunkah RBA ki rate mein azafe ki shartin ties hoti ja rahi hen."
-  },
-  {
-   "ts": 1788792069.0,
-   "title": "Bank of Canada: Rates outlook and inflation risks \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/bank-of-canada-rates-outlook-and-inflation-risks-td-securities-202609071441",
-   "t": "07 Sep \u00b7 07:41 PM",
-   "ur": "Bank af canida: ret oat lak aur inflation (mehngai) ke khatrat - TD securitez"
-  },
-  {
-   "ts": 1788791042.0,
-   "title": "Eurozone: Resilient growth, worrying inflation \u2013 ABN AMRO",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/eurozone-resilient-growth-worrying-inflation-abn-amro-202609071424",
-   "t": "07 Sep \u00b7 07:24 PM",
-   "ur": "Urozon: lachakdar tarqi, tashvationak inflation (mehngai) - ABN AMRO"
-  },
-  {
-   "ts": 1788789434.0,
-   "title": "US Dollar: CPI outcome to steer Fed path \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-cpi-outcome-to-steer-fed-path-bbh-202609071357",
-   "t": "07 Sep \u00b7 06:57 PM",
-   "ur": "US Dollar: fed ke raaste ko chalane ke liye CPI ka natijah - BBH"
+   "t": "07 Sep \u00b7 10:01 PM"
   }
  ],
  "sentiment": {
   "value": 71,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
