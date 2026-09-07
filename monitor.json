@@ -1,29 +1,13 @@
 {
- "updated": "07-09-2026 20:14 PKT",
+ "updated": "08-09-2026 00:09 PKT",
  "gold": {
-  "price": 4413.39,
-  "open": 4428.95,
+  "price": 4405.24,
+  "open": 4428.94,
   "high": 4434.89,
   "low": 4382.51,
-  "chg": -0.35,
+  "chg": -0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   4409.07,
-   4402.44,
-   4403.45,
-   4406.51,
-   4402.28,
-   4397.3,
-   4398.76,
-   4401.24,
-   4410.05,
-   4404.62,
-   4397.73,
-   4393.22,
-   4394.87,
-   4397.05,
-   4391.61,
-   4399.85,
    4396.74,
    4392.17,
    4405.54,
@@ -55,7 +39,23 @@
    4407.32,
    4410.89,
    4416.11,
-   4413.39
+   4413.76,
+   4413.12,
+   4410.87,
+   4414.36,
+   4416.68,
+   4413.92,
+   4413.46,
+   4414.01,
+   4412.29,
+   4412.55,
+   4411.01,
+   4408.37,
+   4405.84,
+   4406.12,
+   4405.16,
+   4405.18,
+   4405.24
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 98.863,
-   "chg": -0.3,
+   "price": 98.918,
+   "chg": -0.24,
    "spark": [
     99.6,
     99.81,
@@ -114,7 +114,7 @@
     99.56,
     99.0,
     99.16,
-    98.863
+    98.918
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1631,
-   "chg": 0.02,
+   "price": 1.1627,
+   "chg": -0.02,
    "spark": [
     1.1525,
     1.1556,
@@ -201,13 +201,13 @@
     1.1596,
     1.1585,
     1.1628,
-    1.1631
+    1.1627
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3543,
-   "chg": 0.08,
+   "price": 1.3541,
+   "chg": 0.07,
    "spark": [
     1.3455,
     1.3491,
@@ -230,13 +230,13 @@
     1.3515,
     1.3484,
     1.3532,
-    1.3543
+    1.3541
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 154.337,
-   "chg": -0.85,
+   "price": 154.356,
+   "chg": -0.84,
    "spark": [
     158.409,
     157.891,
@@ -259,18 +259,14 @@
     160.196,
     158.923,
     155.66,
-    154.337
+    154.356
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2483.61,
-   "chg": -1.22,
+   "price": 2490.06,
+   "chg": -0.97,
    "spark": [
-    2471.03,
-    2481.29,
-    2480.68,
-    2477.82,
     2477.8,
     2488.98,
     2480.91,
@@ -314,18 +310,18 @@
     2505.39,
     2498.68,
     2489.88,
-    2483.61
+    2469.33,
+    2482.55,
+    2495.01,
+    2491.41,
+    2490.06
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79048.4,
-   "chg": -1.6,
+   "price": 79165.7,
+   "chg": -1.45,
    "spark": [
-    80043.8,
-    80070.5,
-    80001.7,
-    79752.7,
     79745.0,
     79929.6,
     79789.8,
@@ -369,7 +365,11 @@
     79606.5,
     79346.7,
     79180.4,
-    79048.4
+    78805.5,
+    79011.5,
+    79173.6,
+    79189.7,
+    79165.7
    ]
   }
  ],
@@ -450,12 +450,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788794090.27507,
+   "ts": 1788808145.97926,
    "title": "Gold edges down as strong payrolls revive Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-as-strong-payrolls-iran-tensions-lift-fed-hike-bets-4890334",
-   "t": "07 Sep \u00b7 08:14 PM",
+   "t": "08 Sep \u00b7 12:09 AM",
    "ur": "Gold (sone) ke kanare niche aate hen cunkah mazboot pay roles ne fed mein azafe ki shart ko bahal kiya hai."
+  },
+  {
+   "ts": 1788804196.0,
+   "title": "United States Dollar Index trades under pressure as Yen buying accelerates",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-trades-under-pressure-as-yen-buying-accelerates-202609071803",
+   "t": "07 Sep \u00b7 11:03 PM",
+   "ur": "Yan ki khareedari mein tizi ke sath hi ryastahaye matehdah ka Dollar andex dabao mein hai."
+  },
+  {
+   "ts": 1788802898.0,
+   "title": "The Euro waits for the sentence after the rate hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-euro-waits-for-the-sentence-after-the-rate-hike-202609071741",
+   "t": "07 Sep \u00b7 10:41 PM",
+   "ur": "Uro rate mein azafe ke bad saza ka antezar karta hai."
+  },
+  {
+   "ts": 1788800504.0,
+   "title": "The Japanese Yen has stopped trading the Federal Reserve",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/nobody-has-unwound-the-japanese-yen-carry-trade-yet-202609071701",
+   "t": "07 Sep \u00b7 10:01 PM",
+   "ur": "Japani yan ne faderl resero ki tajart rok di hai."
+  },
+  {
+   "ts": 1788799917.0,
+   "title": "British Pound climbs as USD fades, Hormuz risk keeps Fed in play",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-climbs-as-usd-fades-hormuz-risk-keeps-fed-in-play-202609071651",
+   "t": "07 Sep \u00b7 09:51 PM",
+   "ur": "US Dollar khtam hote hi bartanvi pound mein azafah, harmaz ka khatrah fed ko khel mein rakta hai."
+  },
+  {
+   "ts": 1788797379.0,
+   "title": "New Zealand Dollar struggles to gain traction as cautious RBNZ outlook weighs",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-struggles-to-gain-traction-as-cautious-rbnz-outlook-weighs-202609071609",
+   "t": "07 Sep \u00b7 09:09 PM",
+   "ur": "Niyozi lind Dollar karshan haasil karne ke liye jadojehad kar raha hai cunkah muhatat RBNZ oat lak wazin mein hai"
+  },
+  {
+   "ts": 1788794137.0,
+   "title": "Australian Dollar hits three-month high as RBA rate hike bets intensify",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-hits-three-month-high-as-rba-rate-hike-bets-intensify-202609071515",
+   "t": "07 Sep \u00b7 08:15 PM",
+   "ur": "Aasterilvi Dollar tin mah ki baland tarin sath par pohch gaya cunkah RBA ki rate mein azafe ki shartin ties hoti ja rahi hen."
   },
   {
    "ts": 1788792069.0,
@@ -471,7 +519,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/eurozone-resilient-growth-worrying-inflation-abn-amro-202609071424",
    "t": "07 Sep \u00b7 07:24 PM",
-   "ur": "Urozon: lachakdar tarqi, tashvationak inflation (mehngai) \u2013 ABN AMRO"
+   "ur": "Urozon: lachakdar tarqi, tashvationak inflation (mehngai) - ABN AMRO"
   },
   {
    "ts": 1788789434.0,
@@ -480,54 +528,6 @@
    "link": "https://www.fxstreet.com/news/us-dollar-cpi-outcome-to-steer-fed-path-bbh-202609071357",
    "t": "07 Sep \u00b7 06:57 PM",
    "ur": "US Dollar: fed ke raaste ko chalane ke liye CPI ka natijah - BBH"
-  },
-  {
-   "ts": 1788788677.0,
-   "title": "Gold: Bull market conviction broadens \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-bull-market-conviction-broadens-societe-generale-202609071344",
-   "t": "07 Sep \u00b7 06:44 PM",
-   "ur": "Gold: bel market ki yaqeen dahani wasi hoti hai - sociti janerl"
-  },
-  {
-   "ts": 1788787676.0,
-   "title": "United States: Inflation risks but still contained - TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-inflation-risks-but-still-contained-td-securities-202609071327",
-   "t": "07 Sep \u00b7 06:27 PM",
-   "ur": "Ryastahaye matehdah: inflation (mehngai) ke khatrat lican phar bhi mojud hen - TD securitez"
-  },
-  {
-   "ts": 1788787363.0,
-   "title": "Canadian Dollar finds support from Oil surge despite Fed rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-finds-support-from-oil-surge-despite-fed-rate-hike-bets-202609071322",
-   "t": "07 Sep \u00b7 06:22 PM",
-   "ur": "Fed ki rate mein azafe ki shart ke bawajud caniden Dollar ko til mein azafe se madad malti hai."
-  },
-  {
-   "ts": 1788786972.0,
-   "title": "Euro area: Inflation overshoot extends ECB hiking path \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-area-inflation-overshoot-extends-ecb-hiking-path-societe-generale-202609071316",
-   "t": "07 Sep \u00b7 06:16 PM",
-   "ur": "Uro erya: inflation (mehngai) ke over shot ne ai si bi ke pedil safar ke raaste ko badhaya - socit janerl"
-  },
-  {
-   "ts": 1788785626.0,
-   "title": "Euro benefits from weaker US Dollar as ECB decision looms",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-benefits-from-weaker-us-dollar-as-ecb-decision-looms-202609071253",
-   "t": "07 Sep \u00b7 05:53 PM",
-   "ur": "Uro ko kamazor US Dollar se faidah hota hai cunkah ECB ka fisalah samane aata hai."
-  },
-  {
-   "ts": 1788784192.0,
-   "title": "US Dollar: Range-bound support as Fed priced \u2013 ING",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-range-bound-support-as-fed-priced-ing-202609071229",
-   "t": "07 Sep \u00b7 05:29 PM",
-   "ur": "US Dollar: fed ki qeemat ke matabiq rinj bound sport - ING"
   }
  ],
  "sentiment": {
