@@ -1,26 +1,13 @@
 {
- "updated": "08-09-2026 04:59 PKT",
+ "updated": "08-09-2026 08:04 PKT",
  "gold": {
-  "price": 4422.53,
-  "open": 4421.88,
-  "high": 4428.7,
+  "price": 4424.57,
+  "open": 4407.9,
+  "high": 4440.69,
   "low": 4382.51,
-  "chg": 0.01,
+  "chg": 0.38,
   "src": "XAUUSD Spot",
   "spark": [
-   4392.57,
-   4394.51,
-   4396.31,
-   4396.15,
-   4403.95,
-   4403.84,
-   4402.53,
-   4401.76,
-   4408.92,
-   4407.32,
-   4410.89,
-   4416.11,
-   4413.76,
    4413.12,
    4410.87,
    4414.36,
@@ -55,13 +42,26 @@
    4410.96,
    4410.8,
    4425.72,
-   4422.53
+   4421.55,
+   4416.31,
+   4421.67,
+   4421.05,
+   4425.98,
+   4430.29,
+   4433.87,
+   4434.33,
+   4436.46,
+   4430.14,
+   4425.6,
+   4425.54,
+   4424.28,
+   4424.57
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.245,
+   "price": 67.24,
    "chg": 1.81,
    "spark": [
     63.332,
@@ -85,7 +85,7 @@
     64.723,
     66.973,
     66.047,
-    67.245
+    67.24
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 92.52,
-   "chg": 1.14,
+   "price": 92.61,
+   "chg": 1.24,
    "spark": [
     78.18,
     82.13,
@@ -143,7 +143,7 @@
     91.01,
     91.3,
     91.48,
-    92.52
+    92.61
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1631,
-   "chg": 0.14,
+   "price": 1.1628,
+   "chg": 0.12,
    "spark": [
     1.1556,
     1.1546,
@@ -201,13 +201,13 @@
     1.1585,
     1.1628,
     1.1614,
-    1.1631
+    1.1628
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3547,
-   "chg": 0.22,
+   "price": 1.3535,
+   "chg": 0.13,
    "spark": [
     1.3491,
     1.3511,
@@ -230,13 +230,13 @@
     1.3484,
     1.3532,
     1.3517,
-    1.3547
+    1.3535
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.814,
-   "chg": -1.53,
+   "price": 153.225,
+   "chg": -1.9,
    "spark": [
     157.891,
     159.156,
@@ -259,18 +259,14 @@
     158.923,
     155.66,
     156.197,
-    153.814
+    153.225
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2490.58,
-   "chg": -0.95,
+   "price": 2482.96,
+   "chg": -0.27,
    "spark": [
-    2490.39,
-    2505.44,
-    2503.41,
-    2509.93,
     2504.33,
     2513.35,
     2506.02,
@@ -314,18 +310,18 @@
     2494.24,
     2490.67,
     2482.43,
-    2490.58
+    2489.67,
+    2495.0,
+    2502.98,
+    2484.11,
+    2482.96
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79109.7,
-   "chg": -1.52,
+   "price": 78882.4,
+   "chg": -0.26,
    "spark": [
-    79879.5,
-    79958.4,
-    79914.2,
-    80039.9,
     79865.0,
     79993.5,
     79764.7,
@@ -369,7 +365,11 @@
     79224.7,
     79156.5,
     78940.8,
-    79109.7
+    79090.3,
+    79285.2,
+    79411.9,
+    78913.2,
+    78885.3
    ]
   }
  ],
@@ -450,81 +450,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788825554.704306,
+   "ts": 1788836686.621041,
+   "title": "Gold rises as yen surge weakens dollar; oil and Fed bets cap gains",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-as-yen-surge-weakens-dollar-oil-and-fed-bets-cap-gains-4890770",
+   "t": "08 Sep \u00b7 08:04 AM",
+   "ur": "Yan ke azafe se Dollar ki kamazori se Gold (sona) badh gaya. til aur fed bates cap mein azafah"
+  },
+  {
+   "ts": 1788836686.621041,
    "title": "Gold head & shoulders at $4,452 in tight range: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-at-4444-in-bullbear-standoff-live-levels-93CH-4890476",
-   "t": "08 Sep \u00b7 04:59 AM"
+   "t": "08 Sep \u00b7 08:04 AM",
+   "ur": "Saqt rinj mein Gold (sone) ke sar aur kandhe $4,452 par hen."
   },
   {
-   "ts": 1788825554.704306,
-   "title": "Silver trapped in $65.80-$68.00 range: Live breakout levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
-   "t": "08 Sep \u00b7 04:59 AM"
+   "ts": 1788835925.0,
+   "title": "Australian Dollar remains steady following China\u2019s Trade Balance data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-steady-following-chinas-trade-balance-data-202609080252",
+   "t": "08 Sep \u00b7 07:52 AM",
+   "ur": "Chin ke tajarti tawazin ke aed w shmar ke bad aasteriliyai Dollar mastahkam hai."
   },
   {
-   "ts": 1788825554.704306,
-   "title": "Gold edges down as strong payrolls revive Fed hike bets",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4400-as-strong-payrolls-iran-tensions-lift-fed-hike-bets-4890334",
-   "t": "08 Sep \u00b7 04:59 AM"
+   "ts": 1788832669.0,
+   "title": "US Dollar Index (DXY) struggles below 99.00, two-week low as traders eye US inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-index-dxy-struggles-below-9900-two-week-low-as-traders-eye-us-inflation-data-202609080157",
+   "t": "08 Sep \u00b7 06:57 AM",
+   "ur": "US Dollar andex (DXY) 99.00 se niche jadojehad kar raha hai, jo kah do hafte ki kam tarin rate hai cunkah taajron ki nazar US inflation (mehngai) ke aed w shmar par hai"
+  },
+  {
+   "ts": 1788832657.0,
+   "title": "Canadian Dollar gains as US Dollar struggles despite rising Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-as-us-dollar-struggles-despite-rising-fed-rate-hike-bets-202609080157",
+   "t": "08 Sep \u00b7 06:57 AM",
+   "ur": "Fed ki rate mein azafe ki sharton mein azafe ke bawajud US Dollar ki jadojehad ke duran caniden Dollar mein azafah hawa."
   },
   {
    "ts": 1788823593.0,
    "title": "Gold declines to near $4,400 as robust US jobs data lifts Fed hike odds",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-declines-to-near-4-400-as-robust-us-jobs-data-lifts-fed-hike-odds-202609072326",
-   "t": "08 Sep \u00b7 04:26 AM"
+   "t": "08 Sep \u00b7 04:26 AM",
+   "ur": "Gold (sona) gar kar 4,400 Dollar ke qarib pohch gaya cunkah mazboot US malazmaton ke aed w shmar ne fed mein azafe ki mashaklat ko khtam kardiya"
   },
   {
    "ts": 1788821596.0,
    "title": "Australian Dollar rides thin-trading lift as Fed test looms",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/australian-dollar-rides-thin-trading-lift-as-fed-test-looms-202609072253",
-   "t": "08 Sep \u00b7 03:53 AM"
+   "t": "08 Sep \u00b7 03:53 AM",
+   "ur": "Aasterilvi Dollar fed test ke sharo hone ke sath hi patli tajarti lft ki swari karta hai."
   },
   {
    "ts": 1788818919.0,
    "title": "The Canadian Dollar gains as Oil rally offsets jobs gloom",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-canadian-dollar-gains-as-oil-rally-offsets-jobs-gloom-202609072208",
-   "t": "08 Sep \u00b7 03:08 AM"
+   "t": "08 Sep \u00b7 03:08 AM",
+   "ur": "Caniden Dollar ki qadar mein azafah cunkah til ki rili malazmaton ki adasi ko dur karti hai."
   },
   {
    "ts": 1788814860.0,
    "title": "Indonesian Rupiah: Oil and US inflation pose risks \u2013 MUFG",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/indonesian-rupiah-oil-and-us-inflation-pose-risks-mufg-202609072101",
-   "t": "08 Sep \u00b7 02:01 AM"
+   "t": "08 Sep \u00b7 02:01 AM",
+   "ur": "Andonatio ka ropiya: til aur US inflation (mehngai) se khatrat laahaq hen - MUFG"
   },
   {
    "ts": 1788812280.0,
    "title": "Vietnam: Inflation and trade trends shape VND \u2013 Commerzbank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/vietnam-inflation-and-trade-trends-shape-vnd-commerzbank-202609072018",
-   "t": "08 Sep \u00b7 01:18 AM"
-  },
-  {
-   "ts": 1788811949.0,
-   "title": "Mexican Peso stumbles as traders brace for US inflation week",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/mexican-peso-stumbles-as-traders-brace-for-us-inflation-week-202609072012",
-   "t": "08 Sep \u00b7 01:12 AM"
-  },
-  {
-   "ts": 1788810060.0,
-   "title": "Asia FX: Stronger Dollar and Oil weigh on CNY and peers \u2013 BNY",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/asia-fx-stronger-dollar-and-oil-weigh-on-cny-and-peers-bny-202609071941",
-   "t": "08 Sep \u00b7 12:41 AM"
+   "t": "08 Sep \u00b7 01:18 AM",
+   "ur": "Wetanam: inflation (mehngai) aur tajarti rjahanat VND \u2013 Commerzbank ki tashkil karte hen."
   }
  ],
  "sentiment": {
-  "value": 71,
+  "value": 69,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
