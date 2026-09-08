@@ -1,22 +1,13 @@
 {
- "updated": "09-09-2026 00:38 PKT",
+ "updated": "09-09-2026 03:00 PKT",
  "gold": {
-  "price": 4366.56,
-  "open": 4405.08,
+  "price": 4355.83,
+  "open": 4405.1,
   "high": 4443.2,
-  "low": 4358.82,
-  "chg": -0.87,
+  "low": 4348.39,
+  "chg": -1.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4390.88,
-   4392.14,
-   4395.1,
-   4393.15,
-   4394.21,
-   4396.84,
-   4394.74,
-   4401.22,
-   4403.37,
    4395.57,
    4400.81,
    4397.82,
@@ -55,14 +46,23 @@
    4373.43,
    4372.2,
    4369.1,
-   4366.56
+   4369.3,
+   4363.03,
+   4361.3,
+   4356.92,
+   4358.01,
+   4356.03,
+   4355.61,
+   4355.7,
+   4355.73,
+   4355.83
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.565,
-   "chg": 0.78,
+   "price": 66.375,
+   "chg": 0.5,
    "spark": [
     65.106,
     64.769,
@@ -84,12 +84,12 @@
     64.723,
     66.973,
     66.047,
-    66.565
+    66.375
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.843,
+   "price": 98.838,
    "chg": -0.32,
    "spark": [
     99.81,
@@ -112,13 +112,13 @@
     99.56,
     99.0,
     99.16,
-    98.843
+    98.838
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 93.62,
-   "chg": 2.34,
+   "price": 94.25,
+   "chg": 3.03,
    "spark": [
     82.13,
     83.2,
@@ -140,7 +140,7 @@
     91.01,
     91.3,
     91.48,
-    93.62
+    94.25
    ]
   },
   {
@@ -173,10 +173,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1629,
-   "chg": 0.13,
+   "price": 1.1628,
+   "chg": 0.0,
    "spark": [
-    1.1556,
     1.1546,
     1.1544,
     1.153,
@@ -197,15 +196,15 @@
     1.1585,
     1.1628,
     1.1614,
-    1.1629
+    1.1628,
+    1.1628
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3543,
-   "chg": 0.19,
+   "price": 1.3539,
+   "chg": -0.05,
    "spark": [
-    1.3491,
     1.3511,
     1.351,
     1.3498,
@@ -226,15 +225,15 @@
     1.3484,
     1.3532,
     1.3517,
-    1.3543
+    1.3547,
+    1.3539
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.888,
-   "chg": -1.48,
+   "price": 153.973,
+   "chg": 0.08,
    "spark": [
-    157.891,
     159.156,
     159.265,
     159.328,
@@ -255,17 +254,15 @@
     158.923,
     155.66,
     156.197,
-    153.888
+    153.855,
+    153.973
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2485.99,
-   "chg": -0.15,
+   "price": 2484.4,
+   "chg": -0.21,
    "spark": [
-    2499.49,
-    2508.02,
-    2507.97,
     2514.35,
     2512.38,
     2503.73,
@@ -310,17 +307,17 @@
     2496.55,
     2487.95,
     2486.68,
-    2485.99
+    2482.3,
+    2483.01,
+    2482.57,
+    2484.4
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78465.1,
-   "chg": -0.79,
+   "price": 78535.0,
+   "chg": -0.7,
    "spark": [
-    79909.2,
-    79942.3,
-    80042.0,
     80334.3,
     80144.3,
     79917.6,
@@ -365,7 +362,10 @@
     78730.0,
     78491.7,
     78426.8,
-    78465.1
+    78438.1,
+    78482.4,
+    78485.0,
+    78535.0
    ]
   }
  ],
@@ -446,12 +446,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788896292.071764,
+   "ts": 1788904853.419116,
    "title": "Gold prices subdued as elevated Fed rate hike bets and oil offset weaker dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-yen-surge-weakens-dollar-oil-and-fed-bets-cap-gains-4890770",
-   "t": "09 Sep \u00b7 12:38 AM",
+   "t": "09 Sep \u00b7 03:00 AM",
    "ur": "Fed ki rate mein azafe ki sharton aur til ke kamazor Dollar ko afset karne se Gold (sone) ki qeemton mein kami i"
+  },
+  {
+   "ts": 1788898441.0,
+   "title": "Forex Today: China\u2019s inflation looms as Lagarde tees up ECB decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-chinas-inflation-looms-as-lagarde-tees-up-ecb-decision-202609082014",
+   "t": "09 Sep \u00b7 01:14 AM",
+   "ur": "Farex today: legard ke ai si bi ke fisale ko ties karne ke bad chin ki inflation (mehngai) mein azafah hawa."
   },
   {
    "ts": 1788895854.0,
@@ -516,14 +524,6 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-policy-scenarios-favor-stronger-jpy-against-us-dollar-bbh-202609081740",
    "t": "08 Sep \u00b7 10:40 PM",
    "ur": "Japani yan: palisi ke haalat US Dollar ke maqable mein mazboot JPY ke haq mein hen - BBH"
-  },
-  {
-   "ts": 1788888100.0,
-   "title": "British Pound: Supportive BoE outlook with range trade against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-supportive-boe-outlook-with-range-trade-against-us-dollar-scotiabank-202609081721",
-   "t": "08 Sep \u00b7 10:21 PM",
-   "ur": "Bartanvi pound: US Dollar ke khalaf rinj tred ke sath maaun BoE oat lak - Scotiabank"
   }
  ],
  "sentiment": {
