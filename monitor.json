@@ -1,31 +1,13 @@
 {
- "updated": "09-09-2026 09:34 PKT",
+ "updated": "09-09-2026 14:09 PKT",
  "gold": {
-  "price": 4379.86,
-  "open": 4435.95,
-  "high": 4440.1,
+  "price": 4401.63,
+  "open": 4397.02,
+  "high": 4412.87,
   "low": 4341.97,
-  "chg": -1.26,
+  "chg": 0.1,
   "src": "XAUUSD Spot",
   "spark": [
-   4395.22,
-   4395.44,
-   4394.03,
-   4386.53,
-   4389.87,
-   4385.81,
-   4384.7,
-   4384.66,
-   4373.43,
-   4372.2,
-   4369.1,
-   4369.3,
-   4363.03,
-   4361.3,
-   4356.92,
-   4358.01,
-   4356.03,
-   4355.61,
    4355.7,
    4355.73,
    4355.83,
@@ -55,14 +37,32 @@
    4377.22,
    4373.4,
    4380.65,
-   4379.86
+   4378.13,
+   4382.58,
+   4387.88,
+   4386.87,
+   4394.66,
+   4399.44,
+   4401.33,
+   4396.65,
+   4400.08,
+   4399.97,
+   4406.14,
+   4407.57,
+   4409.1,
+   4408.94,
+   4404.85,
+   4400.07,
+   4400.38,
+   4400.87,
+   4401.63
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.835,
-   "chg": 0.81,
+   "price": 67.26,
+   "chg": 1.45,
    "spark": [
     65.106,
     64.769,
@@ -85,13 +85,13 @@
     66.973,
     66.047,
     66.297,
-    66.835
+    67.26
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.751,
-   "chg": -0.09,
+   "price": 98.785,
+   "chg": -0.06,
    "spark": [
     99.81,
     99.82,
@@ -114,13 +114,13 @@
     99.0,
     99.16,
     98.84,
-    98.751
+    98.785
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 94.07,
-   "chg": 1.12,
+   "price": 94.69,
+   "chg": 1.78,
    "spark": [
     82.13,
     83.2,
@@ -143,7 +143,7 @@
     91.3,
     91.48,
     93.03,
-    94.07
+    94.69
    ]
   },
   {
@@ -176,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1636,
-   "chg": 0.07,
+   "price": 1.1637,
+   "chg": 0.08,
    "spark": [
     1.1546,
     1.1544,
@@ -200,13 +200,13 @@
     1.1628,
     1.1614,
     1.1628,
-    1.1636
+    1.1637
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3548,
-   "chg": 0.01,
+   "price": 1.3544,
+   "chg": -0.02,
    "spark": [
     1.3511,
     1.351,
@@ -229,13 +229,13 @@
     1.3532,
     1.3517,
     1.3547,
-    1.3548
+    1.3544
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.351,
-   "chg": -0.33,
+   "price": 153.614,
+   "chg": -0.16,
    "spark": [
     159.156,
     159.265,
@@ -258,19 +258,14 @@
     155.66,
     156.197,
     153.855,
-    153.351
+    153.614
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2496.45,
-   "chg": 0.46,
+   "price": 2512.06,
+   "chg": 1.09,
    "spark": [
-    2504.78,
-    2497.69,
-    2488.8,
-    2491.03,
-    2484.56,
     2488.76,
     2489.06,
     2505.39,
@@ -313,19 +308,19 @@
     2497.13,
     2494.02,
     2488.58,
-    2496.45
+    2508.4,
+    2495.77,
+    2500.75,
+    2510.13,
+    2519.76,
+    2512.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78881.1,
-   "chg": 0.55,
+   "price": 79493.3,
+   "chg": 1.33,
    "spark": [
-    79739.0,
-    79646.3,
-    79380.8,
-    79424.8,
-    79294.6,
     79354.7,
     79410.5,
     79606.5,
@@ -368,7 +363,12 @@
     78878.4,
     78716.0,
     78631.5,
-    78881.1
+    79153.4,
+    78927.5,
+    79155.6,
+    79262.5,
+    79688.3,
+    79493.3
    ]
   }
  ],
@@ -449,89 +449,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788928488.510216,
-   "title": "Gold rebounds as dollar eases, but Fed hike risks cap gains",
+   "ts": 1788944998.937942,
+   "title": "Silver consolidates in Ichimoku cloud chop zone: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-as-dollar-eases-but-fed-hike-risks-cap-gains-4892653",
-   "t": "09 Sep \u00b7 09:34 AM",
-   "ur": "Dollar mein narmi ke sath hi Gold (sona) waps lotta hai, lican fed mein azafe se cap mein azafe ka khatrah hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
+   "t": "09 Sep \u00b7 02:09 PM"
   },
   {
-   "ts": 1788928488.510216,
-   "title": "Gold prices subdued as elevated Fed rate hike bets and oil offset weaker dollar",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rises-as-yen-surge-weakens-dollar-oil-and-fed-bets-cap-gains-4890770",
-   "t": "09 Sep \u00b7 09:34 AM",
-   "ur": "Fed ki rate mein azafe ki sharton aur til ke kamazor Dollar ko afset karne se Gold (sone) ki qeemton mein kami i"
-  },
-  {
-   "ts": 1788926461.0,
-   "title": "EUR/USD Price Forecast: Bullish bias remains above 1.1600 ahead of ECB and US inflation",
+   "ts": 1788944269.0,
+   "title": "USD/CHF Price Forecast: Flat lines near 0.8100 as bulls await US inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-bullish-bias-remains-above-11600-ahead-of-ecb-and-us-inflation-202609090401",
-   "t": "09 Sep \u00b7 09:01 AM",
-   "ur": "EUR/USD qeemat ki forecast: tizi ka taasab ECB aur US inflation (mehngai) se pehle 1.1600 se oper rahta hai"
+   "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-flat-lines-near-08100-as-bulls-await-us-inflation-data-202609090857",
+   "t": "09 Sep \u00b7 01:57 PM"
   },
   {
-   "ts": 1788924851.0,
-   "title": "Gold bounces off one-week low on soft USD; upside seems capped ahead of US inflation data",
+   "ts": 1788944224.0,
+   "title": "Euro advances against Canadian Dollar due to hawkish ECB sentiment",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-bounces-off-one-week-low-on-soft-usd-upside-seems-capped-ahead-of-us-inflation-data-202609090334",
-   "t": "09 Sep \u00b7 08:34 AM",
-   "ur": "Gold (sona) narm USD par ek hafte ki kam tarin sath par achal raha hai. US inflation (mehngai) ke aed w shmar ke maqable mein alta lagta hai."
+   "link": "https://www.fxstreet.com/news/euro-advances-against-canadian-dollar-due-to-hawkish-ecb-sentiment-202609090857",
+   "t": "09 Sep \u00b7 01:57 PM"
   },
   {
-   "ts": 1788924422.0,
-   "title": "United States Dollar Index weakens despite rising inflation concerns, Fed rate hike bets",
+   "ts": 1788943692.0,
+   "title": "US Dollar: CPI outcome guides Fed path \u2013 DBS",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-weakens-despite-rising-inflation-concerns-fed-rate-hike-bets-202609090327",
-   "t": "09 Sep \u00b7 08:27 AM",
-   "ur": "Ryastahaye matehdah ka Dollar andex mahungai ke badhte huvay khadshat, fed ki rate mein azafe ki sharton ke bawajud kamazor"
+   "link": "https://www.fxstreet.com/news/us-dollar-cpi-outcome-guides-fed-path-dbs-202609090848",
+   "t": "09 Sep \u00b7 01:48 PM"
   },
   {
-   "ts": 1788923924.0,
-   "title": "Silver Price Forecast: XAG/USD rises to near $66.40 as US Dollar declines, US CPI in focus",
+   "ts": 1788943558.0,
+   "title": "Australian Dollar hits fresh four-month highs amid USD weakness, strong Chinese inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6640-as-us-dollar-declines-us-cpi-in-focus-202609090318",
-   "t": "09 Sep \u00b7 08:18 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD badh kar $66.40 ke qarib pohch gaya jisa kah US Dollar mein kami, US CPI tojah mein"
+   "link": "https://www.fxstreet.com/news/australian-dollar-hits-fresh-four-month-highs-amid-usd-weakness-strong-chinese-inflation-202609090845",
+   "t": "09 Sep \u00b7 01:45 PM"
   },
   {
-   "ts": 1788922437.0,
-   "title": "Canadian Dollar gains amid elevated oil prices, escalating US trade sanctions",
+   "ts": 1788942746.0,
+   "title": "Euro: Mid-range trading with capped upside against US Dollar \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-amid-elevated-oil-prices-escalating-us-trade-sanctions-202609090253",
-   "t": "09 Sep \u00b7 07:53 AM",
-   "ur": "US tajarti pabandiyon mein azafe, til ki baland qeemton ke darmiyan caniden Dollar ki qadar mein azafah"
+   "link": "https://www.fxstreet.com/news/euro-mid-range-trading-with-capped-upside-against-us-dollar-ing-202609090832",
+   "t": "09 Sep \u00b7 01:32 PM"
   },
   {
-   "ts": 1788919499.0,
-   "title": "New Zealand Dollar holds gains above 0.5850 after Chinese inflation data",
+   "ts": 1788940819.0,
+   "title": "Federal Reserve: Market mispricing risk into blackout \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-gains-above-05850-after-chinese-inflation-data-202609090204",
-   "t": "09 Sep \u00b7 07:04 AM",
-   "ur": "Chini inflation (mehngai) ke aed w shmar ke bad niyozi lind Dollar 0.5850 se oper hai."
+   "link": "https://www.fxstreet.com/news/federal-reserve-market-mispricing-risk-into-blackout-td-securities-202609090800",
+   "t": "09 Sep \u00b7 01:00 PM"
   },
   {
-   "ts": 1788918863.0,
-   "title": "Australian Dollar remains on the front foot vs weak USD after China's inflation data",
+   "ts": 1788940683.0,
+   "title": "Forex Today: US Dollar retreats as markets gear up for key events",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-remains-on-the-front-foot-vs-weak-usd-after-chinas-inflation-data-202609090154",
-   "t": "09 Sep \u00b7 06:54 AM",
-   "ur": "Chin ke inflation (mehngai) ke aed w shmar ke bad aasterilvi Dollar kamazor USD ke maqable mein farnt ft par hai."
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-retreats-as-markets-gear-up-for-key-events-202609090758",
+   "t": "09 Sep \u00b7 12:58 PM"
   },
   {
-   "ts": 1788918856.0,
-   "title": "Australian Dollar inches higher against Japanese Yen following China\u2019s inflation data",
+   "ts": 1788940636.0,
+   "title": "NZD/USD Price Forecast: Rises in limited range with US CPI in focus",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-inches-higher-against-japanese-yen-following-chinas-inflation-data-202609090154",
-   "t": "09 Sep \u00b7 06:54 AM",
-   "ur": "Chin ke inflation (mehngai) ke aed w shmar ke bad aasterilvi Dollar japani yan ke maqable mein baland hawa."
+   "link": "https://www.fxstreet.com/news/nzd-usd-price-forecast-rises-in-limited-range-with-us-cpi-in-focus-202609090757",
+   "t": "09 Sep \u00b7 12:57 PM"
+  },
+  {
+   "ts": 1788940152.0,
+   "title": "Euro remains steady against British Pound Gains due to ECB rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-remains-steady-against-british-pound-gains-due-to-ecb-rate-hike-bets-202609090749",
+   "t": "09 Sep \u00b7 12:49 PM"
   }
  ],
  "sentiment": {
   "value": 66,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
