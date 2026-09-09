@@ -1,22 +1,13 @@
 {
- "updated": "10-09-2026 00:53 PKT",
+ "updated": "10-09-2026 03:01 PKT",
  "gold": {
-  "price": 4397.85,
-  "open": 4361.8,
+  "price": 4401.54,
+  "open": 4356.71,
   "high": 4432.62,
   "low": 4341.97,
-  "chg": 0.83,
+  "chg": 1.03,
   "src": "XAUUSD Spot",
   "spark": [
-   4404.85,
-   4400.07,
-   4400.38,
-   4400.87,
-   4398.24,
-   4397.96,
-   4396.22,
-   4389.33,
-   4391.43,
    4393.79,
    4394.78,
    4401.62,
@@ -55,14 +46,23 @@
    4397.67,
    4400.78,
    4398.96,
-   4397.85
+   4398.59,
+   4398.24,
+   4394.25,
+   4399.92,
+   4401.7,
+   4401.61,
+   4401.64,
+   4401.62,
+   4401.54,
+   4401.54
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.9,
-   "chg": 2.42,
+   "price": 67.925,
+   "chg": 2.46,
    "spark": [
     65.106,
     64.769,
@@ -85,13 +85,13 @@
     66.973,
     66.047,
     66.297,
-    67.9
+    67.925
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.821,
-   "chg": -0.02,
+   "price": 98.769,
+   "chg": -0.07,
    "spark": [
     99.81,
     99.82,
@@ -114,13 +114,13 @@
     99.0,
     99.16,
     98.84,
-    98.821
+    98.769
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 96.48,
-   "chg": 3.71,
+   "price": 96.67,
+   "chg": 3.91,
    "spark": [
     82.13,
     83.2,
@@ -143,7 +143,7 @@
     91.3,
     91.48,
     93.03,
-    96.48
+    96.67
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1633,
-   "chg": 0.05,
+   "price": 1.1637,
+   "chg": 0.08,
    "spark": [
     1.1546,
     1.1544,
@@ -201,13 +201,13 @@
     1.1628,
     1.1614,
     1.1628,
-    1.1633
+    1.1637
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3546,
-   "chg": -0.01,
+   "price": 1.3548,
+   "chg": 0.01,
    "spark": [
     1.3511,
     1.351,
@@ -230,13 +230,13 @@
     1.3532,
     1.3517,
     1.3547,
-    1.3546
+    1.3548
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.617,
-   "chg": -0.15,
+   "price": 153.535,
+   "chg": -0.21,
    "spark": [
     159.156,
     159.265,
@@ -259,17 +259,14 @@
     155.66,
     156.197,
     153.855,
-    153.617
+    153.535
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2463.26,
-   "chg": -0.88,
+   "price": 2461.88,
+   "chg": -0.93,
    "spark": [
-    2494.24,
-    2490.67,
-    2482.43,
     2489.67,
     2495.0,
     2502.98,
@@ -314,17 +311,17 @@
     2495.49,
     2493.25,
     2480.86,
-    2463.26
+    2464.73,
+    2471.22,
+    2461.07,
+    2461.88
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78185.4,
-   "chg": -0.34,
+   "price": 78146.1,
+   "chg": -0.39,
    "spark": [
-    79224.7,
-    79156.5,
-    78940.8,
     79090.3,
     79285.2,
     79411.9,
@@ -369,7 +366,10 @@
     78785.1,
     78749.6,
     78395.9,
-    78185.3
+    78210.6,
+    78300.0,
+    78125.3,
+    78146.1
    ]
   }
  ],
@@ -458,20 +458,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788983584.682004,
+   "ts": 1788991315.047353,
+   "title": "Spot gold up 1% amid muted dollar, elevated oil prices, and a slide in U.S. bonds",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-as-dollar-eases-but-fed-hike-risks-cap-gains-4892653",
+   "t": "10 Sep \u00b7 03:01 AM",
+   "ur": "Khamosh Dollar, til ki baland qeemton aur US bands mein kami ke darmiyan Gold (sone) ki qeemat mein 1 fisad azafah"
+  },
+  {
+   "ts": 1788991315.047353,
    "title": "Silver tests $69.50 resistance with weak ADX trend: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
-   "t": "10 Sep \u00b7 12:53 AM",
+   "t": "10 Sep \u00b7 03:01 AM",
    "ur": "Silver (chandi) kamazor ADX rjahan ke sath $69.50 ki mazahmat ko janchti hai."
   },
   {
-   "ts": 1788983584.682004,
+   "ts": 1788991315.047353,
    "title": "Gold deadlocked at $4,444 inside Ichimoku cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-at-4444-in-bullbear-standoff-live-levels-93CH-4890476",
-   "t": "10 Sep \u00b7 12:53 AM",
+   "t": "10 Sep \u00b7 03:01 AM",
    "ur": "Ichimoku kalaud ke andar Gold (sona) 4,444 Dollar par band hawa."
+  },
+  {
+   "ts": 1788989778.0,
+   "title": "Australian Dollar flatlines as US yield ripples meet RBA hawks",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-flatlines-as-us-yield-ripples-meet-rba-hawks-202609092136",
+   "t": "10 Sep \u00b7 02:36 AM",
+   "ur": "Aasterilvi Dollar filet linez jisa kah US pedawar ki lahrin aar bi aye hox se malti hen."
+  },
+  {
+   "ts": 1788988766.0,
+   "title": "Pound Sterling awaits the Fed's two-strike inflation test",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/pound-sterling-awaits-the-feds-two-strike-inflation-test-202609092119",
+   "t": "10 Sep \u00b7 02:19 AM",
+   "ur": "Pound sterling fed ke do straik inflation (mehngai) ke test ka mantezar hai."
+  },
+  {
+   "ts": 1788986043.0,
+   "title": "NZD/USD Price Forecast: SMA cluster wobbles as US yields bite",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/nzd-usd-price-forecast-sma-cluster-wobbles-as-us-yields-bite-202609092034",
+   "t": "10 Sep \u00b7 01:34 AM",
+   "ur": "NZD/USD qeemat ki forecast: SMA kalster dobata hai jisa kah US pedawar katta hai"
+  },
+  {
+   "ts": 1788983640.0,
+   "title": "Chinese Yuan: Uptrend intact with muted inflation against US Dollar \u2013 BBH",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/chinese-yuan-uptrend-intact-with-muted-inflation-against-us-dollar-bbh-202609091954",
+   "t": "10 Sep \u00b7 12:54 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein khamosh inflation (mehngai) ke sath oper ka rjahan barqarar - BBH"
   },
   {
    "ts": 1788983381.0,
@@ -496,46 +536,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-rally-puts-head-and-shoulders-pattern-on-ice-202609091756",
    "t": "09 Sep \u00b7 10:56 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: rili barf par sar aur kandhon ka namona rakti hai."
-  },
-  {
-   "ts": 1788973936.0,
-   "title": "Forex Today: Attention shifts to the ECB and US PPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-attention-shifts-to-the-ecb-and-us-ppi-202609091712",
-   "t": "09 Sep \u00b7 10:12 PM",
-   "ur": "Farex today: tojah ECB aur US PPI par mantaql ho gayi hai."
-  },
-  {
-   "ts": 1788973329.0,
-   "title": "Gold bulls defy US yield spike as Treasury buyback nears",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-bulls-defy-us-yield-spike-as-treasury-buyback-nears-202609091702",
-   "t": "09 Sep \u00b7 10:02 PM",
-   "ur": "Treasurei bai bek ke qarib aate hi Gold (sone) ke belon ne US pedawar mein azafe ko rok diya."
-  },
-  {
-   "ts": 1788970561.0,
-   "title": "Dow Jones Industrial Average slides all session as the Treasury bid falls short",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-slides-all-session-as-the-treasury-bid-falls-short-202609091616",
-   "t": "09 Sep \u00b7 09:16 PM",
-   "ur": "Treasurei ki boli kam padne par dou joons andistril everage tamam sition ko salaid kar diti hai"
-  },
-  {
-   "ts": 1788970015.0,
-   "title": "Australian Dollar stabilizes as rebound in US yields supports USD",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-stabilizes-as-rebound-in-us-yields-supports-the-usd-202609091606",
-   "t": "09 Sep \u00b7 09:06 PM",
-   "ur": "Aasterilvi Dollar mastahkam hota hai cunkah US pedawar mein wapsi USD ko sport karti hai."
-  },
-  {
-   "ts": 1788969004.0,
-   "title": "Japanese Yen pauses advance as Treasury announcement supports US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-pauses-advance-as-treasury-announcement-supports-us-dollar-202609091550",
-   "t": "09 Sep \u00b7 08:50 PM",
-   "ur": "Japani yan ne pesh qadami ko rok diya cunkah treasurei aalan US Dollar ki support karta hai."
   }
  ],
  "sentiment": {
