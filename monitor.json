@@ -1,22 +1,13 @@
 {
- "updated": "09-09-2026 03:00 PKT",
+ "updated": "09-09-2026 05:10 PKT",
  "gold": {
-  "price": 4355.83,
-  "open": 4405.1,
+  "price": 4345.48,
+  "open": 4416.39,
   "high": 4443.2,
-  "low": 4348.39,
-  "chg": -1.12,
+  "low": 4344.8,
+  "chg": -1.61,
   "src": "XAUUSD Spot",
   "spark": [
-   4395.57,
-   4400.81,
-   4397.82,
-   4397.7,
-   4390.87,
-   4402.48,
-   4406.01,
-   4405.0,
-   4392.95,
    4397.28,
    4396.61,
    4408.92,
@@ -55,14 +46,23 @@
    4355.61,
    4355.7,
    4355.73,
-   4355.83
+   4355.83,
+   4356.95,
+   4354.82,
+   4352.69,
+   4352.54,
+   4352.6,
+   4357.28,
+   4358.96,
+   4350.2,
+   4345.48
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.375,
-   "chg": 0.5,
+   "price": 66.2,
+   "chg": 0.23,
    "spark": [
     65.106,
     64.769,
@@ -84,13 +84,13 @@
     64.723,
     66.973,
     66.047,
-    66.375
+    66.2
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.838,
-   "chg": -0.32,
+   "price": 98.782,
+   "chg": -0.38,
    "spark": [
     99.81,
     99.82,
@@ -112,13 +112,13 @@
     99.56,
     99.0,
     99.16,
-    98.838
+    98.782
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 94.25,
-   "chg": 3.03,
+   "price": 94.53,
+   "chg": 3.33,
    "spark": [
     82.13,
     83.2,
@@ -140,7 +140,7 @@
     91.01,
     91.3,
     91.48,
-    94.25
+    94.53
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1628,
-   "chg": 0.0,
+   "price": 1.1633,
+   "chg": 0.05,
    "spark": [
     1.1546,
     1.1544,
@@ -197,13 +197,13 @@
     1.1628,
     1.1614,
     1.1628,
-    1.1628
+    1.1633
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3539,
-   "chg": -0.05,
+   "price": 1.3546,
+   "chg": -0.01,
    "spark": [
     1.3511,
     1.351,
@@ -226,13 +226,13 @@
     1.3532,
     1.3517,
     1.3547,
-    1.3539
+    1.3546
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.973,
-   "chg": 0.08,
+   "price": 153.369,
+   "chg": -0.32,
    "spark": [
     159.156,
     159.265,
@@ -255,16 +255,14 @@
     155.66,
     156.197,
     153.855,
-    153.973
+    153.369
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2484.4,
-   "chg": -0.21,
+   "price": 2491.69,
+   "chg": 0.27,
    "spark": [
-    2514.35,
-    2512.38,
     2503.73,
     2510.94,
     2497.08,
@@ -310,16 +308,16 @@
     2482.3,
     2483.01,
     2482.57,
-    2484.4
+    2488.67,
+    2484.92,
+    2491.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78535.0,
-   "chg": -0.7,
+   "price": 78612.6,
+   "chg": 0.21,
    "spark": [
-    80334.3,
-    80144.3,
     79917.6,
     79868.7,
     79581.9,
@@ -365,7 +363,9 @@
     78438.1,
     78482.4,
     78485.0,
-    78535.0
+    78544.9,
+    78449.6,
+    78612.6
    ]
   }
  ],
@@ -446,89 +446,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788904853.419116,
+   "ts": 1788912602.50564,
    "title": "Gold prices subdued as elevated Fed rate hike bets and oil offset weaker dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-yen-surge-weakens-dollar-oil-and-fed-bets-cap-gains-4890770",
-   "t": "09 Sep \u00b7 03:00 AM",
-   "ur": "Fed ki rate mein azafe ki sharton aur til ke kamazor Dollar ko afset karne se Gold (sone) ki qeemton mein kami i"
+   "t": "09 Sep \u00b7 05:10 AM"
+  },
+  {
+   "ts": 1788910349.0,
+   "title": "Gold slumps to near $4,350 amid oil-driven inflation fears, US inflation data in focus",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-slumps-to-near-4-350-amid-oil-driven-inflation-fears-us-inflation-data-in-focus-202609082332",
+   "t": "09 Sep \u00b7 04:32 AM"
+  },
+  {
+   "ts": 1788909982.0,
+   "title": "Australian Dollar bulls run into Oil wall amid looming Fed decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-bulls-run-into-oil-wall-amid-looming-fed-decision-202609082326",
+   "t": "09 Sep \u00b7 04:26 AM"
+  },
+  {
+   "ts": 1788905100.0,
+   "title": "Silver Price Forecast: Head-and-Shoulders risk builds below $67",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-head-and-shoulders-risk-builds-below-67-202609082205",
+   "t": "09 Sep \u00b7 03:05 AM"
   },
   {
    "ts": 1788898441.0,
    "title": "Forex Today: China\u2019s inflation looms as Lagarde tees up ECB decision",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forex-today-chinas-inflation-looms-as-lagarde-tees-up-ecb-decision-202609082014",
-   "t": "09 Sep \u00b7 01:14 AM",
-   "ur": "Farex today: legard ke ai si bi ke fisale ko ties karne ke bad chin ki inflation (mehngai) mein azafah hawa."
+   "t": "09 Sep \u00b7 01:14 AM"
   },
   {
    "ts": 1788895854.0,
    "title": "British Pound: Short term bias tilts higher against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-short-term-bias-tilts-higher-against-us-dollar-uob-202609081930",
-   "t": "09 Sep \u00b7 12:30 AM",
-   "ur": "Bartanvi pound: qalil madati taasab US Dollar - UOB ke maqable mein uncha jhak raha hai."
+   "t": "09 Sep \u00b7 12:30 AM"
   },
   {
    "ts": 1788895032.0,
    "title": "United States: Core inflation stays contained as goods soften \u2013 TD Securities",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/united-states-core-inflation-stays-contained-as-goods-soften-td-securities-202609081917",
-   "t": "09 Sep \u00b7 12:17 AM",
-   "ur": "Ryastahaye matehdah: ashiya ke narm hone par baniyadi inflation (mehngai) barqarar rahta hai - TD securitez"
+   "t": "09 Sep \u00b7 12:17 AM"
   },
   {
    "ts": 1788894438.0,
    "title": "Japanese Yen: Intervention risk and key levels in focus against US Dollar \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-intervention-risk-and-key-levels-in-focus-against-us-dollar-scotiabank-202609081907",
-   "t": "09 Sep \u00b7 12:07 AM",
-   "ur": "Japani yan: US Dollar ke maqable mein madakhalt ka khatrah aur kalidi sathin - Scotiabank"
+   "t": "09 Sep \u00b7 12:07 AM"
   },
   {
    "ts": 1788893838.0,
    "title": "Swiss Franc: Sideways consolidation inside tight band against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-sideways-consolidation-inside-tight-band-against-us-dollar-uob-202609081857",
-   "t": "08 Sep \u00b7 11:57 PM",
-   "ur": "Sois farank: US Dollar - UOB ke khalaf saqt bind ke andar cyd wez kansolidation"
+   "t": "08 Sep \u00b7 11:57 PM"
   },
   {
    "ts": 1788892439.0,
    "title": "US Dollar: Mixed performance with Fed and trade risks \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-mixed-performance-with-fed-and-trade-risks-scotiabank-202609081833",
-   "t": "08 Sep \u00b7 11:33 PM",
-   "ur": "US Dollar: fed aur tajarti khatrat ke sath mukhaloot karkardgi - Scotiabank"
-  },
-  {
-   "ts": 1788890503.0,
-   "title": "Gold price wilts as Oil shock puts CPI in Fed crosshairs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-wilts-as-oil-shock-puts-cpi-in-fed-crosshairs-202609081801",
-   "t": "08 Sep \u00b7 11:01 PM",
-   "ur": "Til ke jhatake ne CPI ko fed karas hears mein dalne se Gold (sone) ki qeemat gar jati hai."
-  },
-  {
-   "ts": 1788889876.0,
-   "title": "Euro: Upside bias within defined range against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-upside-bias-within-defined-range-against-us-dollar-uob-202609081751",
-   "t": "08 Sep \u00b7 10:51 PM",
-   "ur": "Uro: US Dollar - UOB ke khalaf mataeen had ke andar oper ki taraf taasab"
-  },
-  {
-   "ts": 1788889211.0,
-   "title": "Japanese Yen: Policy scenarios favor stronger JPY against US Dollar \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-policy-scenarios-favor-stronger-jpy-against-us-dollar-bbh-202609081740",
-   "t": "08 Sep \u00b7 10:40 PM",
-   "ur": "Japani yan: palisi ke haalat US Dollar ke maqable mein mazboot JPY ke haq mein hen - BBH"
+   "t": "08 Sep \u00b7 11:33 PM"
   }
  ],
  "sentiment": {
-  "value": 69,
+  "value": 66,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
