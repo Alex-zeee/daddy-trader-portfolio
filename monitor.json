@@ -1,31 +1,13 @@
 {
- "updated": "09-09-2026 05:10 PKT",
+ "updated": "09-09-2026 09:34 PKT",
  "gold": {
-  "price": 4345.48,
-  "open": 4416.39,
-  "high": 4443.2,
-  "low": 4344.8,
-  "chg": -1.61,
+  "price": 4379.86,
+  "open": 4435.95,
+  "high": 4440.1,
+  "low": 4341.97,
+  "chg": -1.26,
   "src": "XAUUSD Spot",
   "spark": [
-   4397.28,
-   4396.61,
-   4408.92,
-   4407.46,
-   4399.78,
-   4392.99,
-   4401.06,
-   4395.67,
-   4400.38,
-   4393.51,
-   4394.63,
-   4405.74,
-   4400.1,
-   4398.24,
-   4396.42,
-   4382.71,
-   4393.37,
-   4394.32,
    4395.22,
    4395.44,
    4394.03,
@@ -55,14 +37,32 @@
    4357.28,
    4358.96,
    4350.2,
-   4345.48
+   4352.25,
+   4346.26,
+   4352.46,
+   4363.12,
+   4366.85,
+   4372.16,
+   4376.82,
+   4372.12,
+   4373.76,
+   4372.2,
+   4371.66,
+   4380.95,
+   4378.86,
+   4377.15,
+   4378.53,
+   4377.22,
+   4373.4,
+   4380.65,
+   4379.86
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.2,
-   "chg": 0.23,
+   "price": 66.835,
+   "chg": 0.81,
    "spark": [
     65.106,
     64.769,
@@ -84,13 +84,14 @@
     64.723,
     66.973,
     66.047,
-    66.2
+    66.297,
+    66.835
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.782,
-   "chg": -0.38,
+   "price": 98.751,
+   "chg": -0.09,
    "spark": [
     99.81,
     99.82,
@@ -112,13 +113,14 @@
     99.56,
     99.0,
     99.16,
-    98.782
+    98.84,
+    98.751
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 94.53,
-   "chg": 3.33,
+   "price": 94.07,
+   "chg": 1.12,
    "spark": [
     82.13,
     83.2,
@@ -140,7 +142,8 @@
     91.01,
     91.3,
     91.48,
-    94.53
+    93.03,
+    94.07
    ]
   },
   {
@@ -173,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1633,
-   "chg": 0.05,
+   "price": 1.1636,
+   "chg": 0.07,
    "spark": [
     1.1546,
     1.1544,
@@ -197,13 +200,13 @@
     1.1628,
     1.1614,
     1.1628,
-    1.1633
+    1.1636
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3546,
-   "chg": -0.01,
+   "price": 1.3548,
+   "chg": 0.01,
    "spark": [
     1.3511,
     1.351,
@@ -226,13 +229,13 @@
     1.3532,
     1.3517,
     1.3547,
-    1.3546
+    1.3548
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.369,
-   "chg": -0.32,
+   "price": 153.351,
+   "chg": -0.33,
    "spark": [
     159.156,
     159.265,
@@ -255,18 +258,14 @@
     155.66,
     156.197,
     153.855,
-    153.369
+    153.351
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2491.69,
-   "chg": 0.27,
+   "price": 2496.45,
+   "chg": 0.46,
    "spark": [
-    2503.73,
-    2510.94,
-    2497.08,
-    2497.75,
     2504.78,
     2497.69,
     2488.8,
@@ -310,18 +309,18 @@
     2482.57,
     2488.67,
     2484.92,
-    2491.69
+    2495.4,
+    2497.13,
+    2494.02,
+    2488.58,
+    2496.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78612.6,
-   "chg": 0.21,
+   "price": 78881.1,
+   "chg": 0.55,
    "spark": [
-    79917.6,
-    79868.7,
-    79581.9,
-    79711.2,
     79739.0,
     79646.3,
     79380.8,
@@ -365,7 +364,11 @@
     78485.0,
     78544.9,
     78449.6,
-    78612.6
+    78762.1,
+    78878.4,
+    78716.0,
+    78631.5,
+    78881.1
    ]
   }
  ],
@@ -446,81 +449,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788912602.50564,
+   "ts": 1788928488.510216,
+   "title": "Gold rebounds as dollar eases, but Fed hike risks cap gains",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-as-dollar-eases-but-fed-hike-risks-cap-gains-4892653",
+   "t": "09 Sep \u00b7 09:34 AM",
+   "ur": "Dollar mein narmi ke sath hi Gold (sona) waps lotta hai, lican fed mein azafe se cap mein azafe ka khatrah hai."
+  },
+  {
+   "ts": 1788928488.510216,
    "title": "Gold prices subdued as elevated Fed rate hike bets and oil offset weaker dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-yen-surge-weakens-dollar-oil-and-fed-bets-cap-gains-4890770",
-   "t": "09 Sep \u00b7 05:10 AM"
+   "t": "09 Sep \u00b7 09:34 AM",
+   "ur": "Fed ki rate mein azafe ki sharton aur til ke kamazor Dollar ko afset karne se Gold (sone) ki qeemton mein kami i"
   },
   {
-   "ts": 1788910349.0,
-   "title": "Gold slumps to near $4,350 amid oil-driven inflation fears, US inflation data in focus",
+   "ts": 1788926461.0,
+   "title": "EUR/USD Price Forecast: Bullish bias remains above 1.1600 ahead of ECB and US inflation",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-slumps-to-near-4-350-amid-oil-driven-inflation-fears-us-inflation-data-in-focus-202609082332",
-   "t": "09 Sep \u00b7 04:32 AM"
+   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-bullish-bias-remains-above-11600-ahead-of-ecb-and-us-inflation-202609090401",
+   "t": "09 Sep \u00b7 09:01 AM",
+   "ur": "EUR/USD qeemat ki forecast: tizi ka taasab ECB aur US inflation (mehngai) se pehle 1.1600 se oper rahta hai"
   },
   {
-   "ts": 1788909982.0,
-   "title": "Australian Dollar bulls run into Oil wall amid looming Fed decision",
+   "ts": 1788924851.0,
+   "title": "Gold bounces off one-week low on soft USD; upside seems capped ahead of US inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-bulls-run-into-oil-wall-amid-looming-fed-decision-202609082326",
-   "t": "09 Sep \u00b7 04:26 AM"
+   "link": "https://www.fxstreet.com/news/gold-bounces-off-one-week-low-on-soft-usd-upside-seems-capped-ahead-of-us-inflation-data-202609090334",
+   "t": "09 Sep \u00b7 08:34 AM",
+   "ur": "Gold (sona) narm USD par ek hafte ki kam tarin sath par achal raha hai. US inflation (mehngai) ke aed w shmar ke maqable mein alta lagta hai."
   },
   {
-   "ts": 1788905100.0,
-   "title": "Silver Price Forecast: Head-and-Shoulders risk builds below $67",
+   "ts": 1788924422.0,
+   "title": "United States Dollar Index weakens despite rising inflation concerns, Fed rate hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-head-and-shoulders-risk-builds-below-67-202609082205",
-   "t": "09 Sep \u00b7 03:05 AM"
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-weakens-despite-rising-inflation-concerns-fed-rate-hike-bets-202609090327",
+   "t": "09 Sep \u00b7 08:27 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex mahungai ke badhte huvay khadshat, fed ki rate mein azafe ki sharton ke bawajud kamazor"
   },
   {
-   "ts": 1788898441.0,
-   "title": "Forex Today: China\u2019s inflation looms as Lagarde tees up ECB decision",
+   "ts": 1788923924.0,
+   "title": "Silver Price Forecast: XAG/USD rises to near $66.40 as US Dollar declines, US CPI in focus",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-chinas-inflation-looms-as-lagarde-tees-up-ecb-decision-202609082014",
-   "t": "09 Sep \u00b7 01:14 AM"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6640-as-us-dollar-declines-us-cpi-in-focus-202609090318",
+   "t": "09 Sep \u00b7 08:18 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD badh kar $66.40 ke qarib pohch gaya jisa kah US Dollar mein kami, US CPI tojah mein"
   },
   {
-   "ts": 1788895854.0,
-   "title": "British Pound: Short term bias tilts higher against US Dollar \u2013 UOB",
+   "ts": 1788922437.0,
+   "title": "Canadian Dollar gains amid elevated oil prices, escalating US trade sanctions",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-short-term-bias-tilts-higher-against-us-dollar-uob-202609081930",
-   "t": "09 Sep \u00b7 12:30 AM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-amid-elevated-oil-prices-escalating-us-trade-sanctions-202609090253",
+   "t": "09 Sep \u00b7 07:53 AM",
+   "ur": "US tajarti pabandiyon mein azafe, til ki baland qeemton ke darmiyan caniden Dollar ki qadar mein azafah"
   },
   {
-   "ts": 1788895032.0,
-   "title": "United States: Core inflation stays contained as goods soften \u2013 TD Securities",
+   "ts": 1788919499.0,
+   "title": "New Zealand Dollar holds gains above 0.5850 after Chinese inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-core-inflation-stays-contained-as-goods-soften-td-securities-202609081917",
-   "t": "09 Sep \u00b7 12:17 AM"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-gains-above-05850-after-chinese-inflation-data-202609090204",
+   "t": "09 Sep \u00b7 07:04 AM",
+   "ur": "Chini inflation (mehngai) ke aed w shmar ke bad niyozi lind Dollar 0.5850 se oper hai."
   },
   {
-   "ts": 1788894438.0,
-   "title": "Japanese Yen: Intervention risk and key levels in focus against US Dollar \u2013 Scotiabank",
+   "ts": 1788918863.0,
+   "title": "Australian Dollar remains on the front foot vs weak USD after China's inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-risk-and-key-levels-in-focus-against-us-dollar-scotiabank-202609081907",
-   "t": "09 Sep \u00b7 12:07 AM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-on-the-front-foot-vs-weak-usd-after-chinas-inflation-data-202609090154",
+   "t": "09 Sep \u00b7 06:54 AM",
+   "ur": "Chin ke inflation (mehngai) ke aed w shmar ke bad aasterilvi Dollar kamazor USD ke maqable mein farnt ft par hai."
   },
   {
-   "ts": 1788893838.0,
-   "title": "Swiss Franc: Sideways consolidation inside tight band against US Dollar \u2013 UOB",
+   "ts": 1788918856.0,
+   "title": "Australian Dollar inches higher against Japanese Yen following China\u2019s inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-sideways-consolidation-inside-tight-band-against-us-dollar-uob-202609081857",
-   "t": "08 Sep \u00b7 11:57 PM"
-  },
-  {
-   "ts": 1788892439.0,
-   "title": "US Dollar: Mixed performance with Fed and trade risks \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-mixed-performance-with-fed-and-trade-risks-scotiabank-202609081833",
-   "t": "08 Sep \u00b7 11:33 PM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-inches-higher-against-japanese-yen-following-chinas-inflation-data-202609090154",
+   "t": "09 Sep \u00b7 06:54 AM",
+   "ur": "Chin ke inflation (mehngai) ke aed w shmar ke bad aasterilvi Dollar japani yan ke maqable mein baland hawa."
   }
  ],
  "sentiment": {
   "value": 66,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
