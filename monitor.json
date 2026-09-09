@@ -1,27 +1,13 @@
 {
- "updated": "09-09-2026 18:40 PKT",
+ "updated": "09-09-2026 22:15 PKT",
  "gold": {
-  "price": 4424.25,
-  "open": 4393.31,
+  "price": 4415.95,
+  "open": 4395.76,
   "high": 4432.62,
   "low": 4341.97,
-  "chg": 0.7,
+  "chg": 0.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4372.12,
-   4373.76,
-   4372.2,
-   4371.66,
-   4380.95,
-   4378.86,
-   4377.15,
-   4378.53,
-   4377.22,
-   4373.4,
-   4380.65,
-   4378.13,
-   4382.58,
-   4387.88,
    4386.87,
    4394.66,
    4399.44,
@@ -55,14 +41,28 @@
    4402.2,
    4412.16,
    4429.46,
-   4424.25
+   4412.96,
+   4412.0,
+   4419.26,
+   4423.31,
+   4420.68,
+   4416.63,
+   4387.85,
+   4392.92,
+   4401.25,
+   4399.21,
+   4398.0,
+   4401.77,
+   4406.82,
+   4409.35,
+   4415.95
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 68.425,
-   "chg": 3.21,
+   "price": 68.7,
+   "chg": 3.62,
    "spark": [
     65.106,
     64.769,
@@ -85,13 +85,13 @@
     66.973,
     66.047,
     66.297,
-    68.425
+    68.7
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.654,
-   "chg": -0.19,
+   "price": 98.744,
+   "chg": -0.1,
    "spark": [
     99.81,
     99.82,
@@ -114,13 +114,13 @@
     99.0,
     99.16,
     98.84,
-    98.654
+    98.744
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 95.86,
-   "chg": 3.04,
+   "price": 95.29,
+   "chg": 2.43,
    "spark": [
     82.13,
     83.2,
@@ -143,13 +143,13 @@
     91.3,
     91.48,
     93.03,
-    95.86
+    95.29
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.806,
-   "chg": 0.0,
+   "price": 4.845,
+   "chg": 0.81,
    "spark": [
     4.699,
     4.684,
@@ -172,13 +172,13 @@
     4.762,
     4.784,
     4.806,
-    4.806
+    4.845
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1651,
-   "chg": 0.2,
+   "price": 1.1641,
+   "chg": 0.12,
    "spark": [
     1.1546,
     1.1544,
@@ -201,13 +201,13 @@
     1.1628,
     1.1614,
     1.1628,
-    1.1651
+    1.1641
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3555,
-   "chg": 0.06,
+   "price": 1.3557,
+   "chg": 0.07,
    "spark": [
     1.3511,
     1.351,
@@ -230,13 +230,13 @@
     1.3532,
     1.3517,
     1.3547,
-    1.3555
+    1.3557
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.386,
-   "chg": -0.3,
+   "price": 153.503,
+   "chg": -0.23,
    "spark": [
     159.156,
     159.265,
@@ -259,18 +259,14 @@
     155.66,
     156.197,
     153.855,
-    153.386
+    153.503
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2509.34,
-   "chg": 0.98,
+   "price": 2496.87,
+   "chg": 0.48,
    "spark": [
-    2489.88,
-    2469.33,
-    2482.55,
-    2495.01,
     2491.41,
     2495.7,
     2494.24,
@@ -314,18 +310,18 @@
     2486.92,
     2500.57,
     2510.93,
-    2508.9
+    2501.92,
+    2498.71,
+    2489.71,
+    2495.49,
+    2496.87
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 79362.5,
-   "chg": 1.16,
+   "price": 78861.1,
+   "chg": 0.52,
    "spark": [
-    79180.4,
-    78805.5,
-    79011.5,
-    79173.6,
     79189.7,
     79353.8,
     79224.7,
@@ -369,7 +365,11 @@
     78911.0,
     79310.9,
     79586.0,
-    79362.5
+    79125.4,
+    78946.3,
+    78576.6,
+    78785.1,
+    78861.1
    ]
   }
  ],
@@ -458,89 +458,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788960786.0,
-   "title": "Silver price rebounds as US Dollar weakness clashes with rising rate expectations",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-rebounds-as-us-dollar-weakness-clashes-with-rising-rate-expectations-202609091333",
-   "t": "09 Sep \u00b7 06:33 PM",
-   "ur": "Badhti hoi rate ki toqaat ke sath US Dollar ki kamazori ke tasadam ke tur par Silver (chandi) ki qeemat mein tizi i"
+   "ts": 1788974154.370988,
+   "title": "Sudan gold ban takes effect in Switzerland on Thursday",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/sudan-gold-ban-takes-effect-in-switzerland-on-thursday-93CH-4894119",
+   "t": "09 Sep \u00b7 10:15 PM"
   },
   {
-   "ts": 1788960331.0,
-   "title": "Euro benefits from broad US Dollar weakness ahead of ECB rate decision",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-benefits-from-broad-us-dollar-weakness-ahead-of-ecb-rate-decision-202609091325",
-   "t": "09 Sep \u00b7 06:25 PM",
-   "ur": "Ai si bi ki rate ke fisale se pehle uro ko wasi US Dollar ki kamazori se faidah hota hai."
+   "ts": 1788974154.370988,
+   "title": "Why is Gold Spot Silver Spot stock sliding today?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/why-is-gold-spot-silver-spot-stock-sliding-today-93CH-4894104",
+   "t": "09 Sep \u00b7 10:15 PM"
   },
   {
-   "ts": 1788959805.0,
-   "title": "Indian Rupee: Inflation risks broadening \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-inflation-risks-broadening-societe-generale-202609091316",
-   "t": "09 Sep \u00b7 06:16 PM",
-   "ur": "Handostani ropiya: inflation (mehngai) ke badhane ke khatrat - sociti janerl"
+   "ts": 1788974154.370988,
+   "title": "Gold climbs on weaker dollar; investors eye rate outlook, Mideast violence",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-as-dollar-eases-but-fed-hike-risks-cap-gains-4892653",
+   "t": "09 Sep \u00b7 10:15 PM"
   },
   {
-   "ts": 1788957647.0,
-   "title": "US Dollar: Soft despite supportive fundamentals \u2013 ING",
+   "ts": 1788973936.0,
+   "title": "Forex Today: Attention shifts to the ECB and US PPI",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-soft-despite-supportive-fundamentals-ing-202609091240",
-   "t": "09 Sep \u00b7 05:40 PM",
-   "ur": "US Dollar: maaun baniyadi asilon ke bawajud narm - ING"
+   "link": "https://www.fxstreet.com/news/forex-today-attention-shifts-to-the-ecb-and-us-ppi-202609091712",
+   "t": "09 Sep \u00b7 10:12 PM"
   },
   {
-   "ts": 1788954949.0,
-   "title": "New Zealand Dollar extends losses below 0.5850 as Oil prices approach the $100 level",
+   "ts": 1788973329.0,
+   "title": "Gold bulls defy US yield spike as Treasury buyback nears",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-extends-losses-below-05850-as-oil-prices-approach-the-100-level-202609091155",
-   "t": "09 Sep \u00b7 04:55 PM",
-   "ur": "Niyozi lind Dollar ne 0.5850 se niche ke naqsanat ko badhaya cunkah til ki qeemtin 100 Dollar ki sath tak pohch gayi hen"
+   "link": "https://www.fxstreet.com/news/gold-bulls-defy-us-yield-spike-as-treasury-buyback-nears-202609091702",
+   "t": "09 Sep \u00b7 10:02 PM"
   },
   {
-   "ts": 1788953940.0,
-   "title": "Japanese Yen gains against US Dollar as markets brace for a more aggressive BoJ",
+   "ts": 1788970561.0,
+   "title": "Dow Jones Industrial Average slides all session as the Treasury bid falls short",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-gains-against-us-dollar-as-markets-brace-for-a-more-aggressive-boj-202609091139",
-   "t": "09 Sep \u00b7 04:39 PM",
-   "ur": "Japani yan US Dollar ke maqable mein badh raha hai cunkah marketen ziyadah jarahana BoJ ke liye tyar hen."
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-slides-all-session-as-the-treasury-bid-falls-short-202609091616",
+   "t": "09 Sep \u00b7 09:16 PM"
   },
   {
-   "ts": 1788953798.0,
-   "title": "Gold buyers struggle near $4,400 amid Fed rate hike bets, rising Oil prices",
+   "ts": 1788970015.0,
+   "title": "Australian Dollar stabilizes as rebound in US yields supports USD",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-buyers-struggle-near-4-400-amid-fed-rate-hike-bets-rising-oil-prices-202609091136",
-   "t": "09 Sep \u00b7 04:36 PM",
-   "ur": "Fed ki rate mein azafe, til ki qeemton mein azafe ke darmiyan Gold (sone) ke khareedar $4,400 ke qarib jadojehad kar rahe hen"
+   "link": "https://www.fxstreet.com/news/australian-dollar-stabilizes-as-rebound-in-us-yields-supports-the-usd-202609091606",
+   "t": "09 Sep \u00b7 09:06 PM"
   },
   {
-   "ts": 1788952073.0,
-   "title": "Dollar debasement talk, Japanese Yen carry trade unwinding offset USD safe-haven status",
+   "ts": 1788969004.0,
+   "title": "Japanese Yen pauses advance as Treasury announcement supports US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dollar-debasement-talk-japanese-yen-carry-trade-unwinding-offset-usd-safe-haven-status-202609091107",
-   "t": "09 Sep \u00b7 04:07 PM",
-   "ur": "Dollar ki be azti ki bat, japani yan ki tajart ko ghair manqata karne se USD mahfooz panah gah ka darjah afset"
+   "link": "https://www.fxstreet.com/news/japanese-yen-pauses-advance-as-treasury-announcement-supports-us-dollar-202609091550",
+   "t": "09 Sep \u00b7 08:50 PM"
   },
   {
-   "ts": 1788947182.0,
-   "title": "Australian Dollar slips against Japanese Yen as BoJ rate hike bets grow",
+   "ts": 1788968940.0,
+   "title": "Japanese Yen: Strength builds against US Dollar ahead of BoJ decision \u2013 Scotiabank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-slips-against-japanese-yen-as-boj-rate-hike-bets-grow-202609090946",
-   "t": "09 Sep \u00b7 02:46 PM",
-   "ur": "BoJ rate mein azafe ki shart badhane par aasterilvi Dollar japani yan ke maqable mein phisal gaya."
+   "link": "https://www.fxstreet.com/news/japanese-yen-strength-builds-against-us-dollar-ahead-of-boj-decision-scotiabank-202609091549",
+   "t": "09 Sep \u00b7 08:49 PM"
   },
   {
-   "ts": 1788947090.0,
-   "title": "Gold Price Forecast: XAU/USD bounces up to $4,400 with the bearish trend intact",
+   "ts": 1788967889.0,
+   "title": "US Treasury yields rise after buyback announcement, 30-year yield reaches 5.30%",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-bounces-up-to-4-400-with-the-bearish-trend-intact-202609090944",
-   "t": "09 Sep \u00b7 02:44 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD mein mandi ke rjahan ke sath $4,400 tak ka azafah"
+   "link": "https://www.fxstreet.com/news/us-treasury-yields-rise-after-buyback-announcement-30-year-yield-reaches-530-202609091531",
+   "t": "09 Sep \u00b7 08:31 PM"
   }
  ],
  "sentiment": {
   "value": 66,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
