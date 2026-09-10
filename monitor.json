@@ -1,21 +1,13 @@
 {
- "updated": "10-09-2026 03:01 PKT",
+ "updated": "10-09-2026 05:10 PKT",
  "gold": {
-  "price": 4401.54,
-  "open": 4356.71,
+  "price": 4390.77,
+  "open": 4351.87,
   "high": 4432.62,
   "low": 4341.97,
-  "chg": 1.03,
+  "chg": 0.89,
   "src": "XAUUSD Spot",
   "spark": [
-   4393.79,
-   4394.78,
-   4401.62,
-   4403.65,
-   4408.06,
-   4406.04,
-   4408.05,
-   4400.1,
    4395.6,
    4393.57,
    4402.2,
@@ -55,14 +47,22 @@
    4401.64,
    4401.62,
    4401.54,
-   4401.54
+   4403.69,
+   4400.93,
+   4401.93,
+   4399.97,
+   4402.13,
+   4395.98,
+   4393.99,
+   4393.58,
+   4390.77
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.925,
-   "chg": 2.46,
+   "price": 67.81,
+   "chg": 2.28,
    "spark": [
     65.106,
     64.769,
@@ -85,13 +85,13 @@
     66.973,
     66.047,
     66.297,
-    67.925
+    67.81
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 98.769,
-   "chg": -0.07,
+   "price": 98.787,
+   "chg": -0.05,
    "spark": [
     99.81,
     99.82,
@@ -114,13 +114,13 @@
     99.0,
     99.16,
     98.84,
-    98.769
+    98.787
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 96.67,
-   "chg": 3.91,
+   "price": 97.02,
+   "chg": 4.29,
    "spark": [
     82.13,
     83.2,
@@ -143,7 +143,7 @@
     91.3,
     91.48,
     93.03,
-    96.67
+    97.02
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1637,
-   "chg": 0.08,
+   "price": 1.1636,
+   "chg": 0.07,
    "spark": [
-    1.1546,
     1.1544,
     1.153,
     1.1535,
@@ -201,15 +200,15 @@
     1.1628,
     1.1614,
     1.1628,
-    1.1637
+    1.1627,
+    1.1636
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3548,
-   "chg": 0.01,
+   "chg": 0.02,
    "spark": [
-    1.3511,
     1.351,
     1.3498,
     1.3491,
@@ -230,15 +229,15 @@
     1.3532,
     1.3517,
     1.3547,
+    1.3545,
     1.3548
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.535,
-   "chg": -0.21,
+   "price": 153.548,
+   "chg": 0.05,
    "spark": [
-    159.156,
     159.265,
     159.328,
     159.426,
@@ -259,16 +258,15 @@
     155.66,
     156.197,
     153.855,
-    153.535
+    153.478,
+    153.548
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2461.88,
-   "chg": -0.93,
+   "price": 2467.53,
+   "chg": -0.0,
    "spark": [
-    2489.67,
-    2495.0,
     2502.98,
     2484.11,
     2485.37,
@@ -314,16 +312,16 @@
     2464.73,
     2471.22,
     2461.07,
-    2461.88
+    2449.83,
+    2468.02,
+    2467.53
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78146.1,
-   "chg": -0.39,
+   "price": 78293.7,
+   "chg": 0.01,
    "spark": [
-    79090.3,
-    79285.2,
     79411.9,
     78913.2,
     78905.0,
@@ -369,7 +367,9 @@
     78210.6,
     78300.0,
     78125.3,
-    78146.1
+    77909.3,
+    78288.6,
+    78293.7
    ]
   }
  ],
@@ -458,28 +458,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1788991315.047353,
+   "ts": 1788999043.826171,
    "title": "Spot gold up 1% amid muted dollar, elevated oil prices, and a slide in U.S. bonds",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-as-dollar-eases-but-fed-hike-risks-cap-gains-4892653",
-   "t": "10 Sep \u00b7 03:01 AM",
+   "t": "10 Sep \u00b7 05:10 AM",
    "ur": "Khamosh Dollar, til ki baland qeemton aur US bands mein kami ke darmiyan Gold (sone) ki qeemat mein 1 fisad azafah"
   },
   {
-   "ts": 1788991315.047353,
+   "ts": 1788999043.826171,
    "title": "Silver tests $69.50 resistance with weak ADX trend: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
-   "t": "10 Sep \u00b7 03:01 AM",
+   "t": "10 Sep \u00b7 05:10 AM",
    "ur": "Silver (chandi) kamazor ADX rjahan ke sath $69.50 ki mazahmat ko janchti hai."
   },
   {
-   "ts": 1788991315.047353,
+   "ts": 1788999043.826171,
    "title": "Gold deadlocked at $4,444 inside Ichimoku cloud: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-trapped-at-4444-in-bullbear-standoff-live-levels-93CH-4890476",
-   "t": "10 Sep \u00b7 03:01 AM",
+   "t": "10 Sep \u00b7 05:10 AM",
    "ur": "Ichimoku kalaud ke andar Gold (sona) 4,444 Dollar par band hawa."
+  },
+  {
+   "ts": 1788996162.0,
+   "title": "Gold rebounds above $4,400 on weaker Dollar, US PPI inflation data looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rebounds-above-4-400-on-weaker-dollar-us-ppi-inflation-data-looms-202609092322",
+   "t": "10 Sep \u00b7 04:22 AM",
+   "ur": "Kamazor Dollar par Gold (sona) $4,400 se oper aagaya, US PPI inflation (mehngai) ke aed w shmar mein azafah"
   },
   {
    "ts": 1788989778.0,
@@ -511,7 +519,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/chinese-yuan-uptrend-intact-with-muted-inflation-against-us-dollar-bbh-202609091954",
    "t": "10 Sep \u00b7 12:54 AM",
-   "ur": "Chini uan: US Dollar ke maqable mein khamosh inflation (mehngai) ke sath oper ka rjahan barqarar - BBH"
+   "ur": "Chini uan: US Dollar ke maqable mein khamosh inflation (mehngai) ke sath oper ka rjahan barqarar hai - BBH"
   },
   {
    "ts": 1788983381.0,
@@ -528,18 +536,10 @@
    "link": "https://www.fxstreet.com/news/taiwan-dollar-range-trade-expected-after-cpi-surprise-against-us-dollar-commerzbank-202609091912",
    "t": "10 Sep \u00b7 12:12 AM",
    "ur": "Taiwan Dollar: US Dollar ke maqable mein CPI sarparis ke bad rinj tred ki toqa - kamers Bank"
-  },
-  {
-   "ts": 1788976604.0,
-   "title": "Silver Price Forecast: Rally puts head-and-shoulders pattern on ice",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-rally-puts-head-and-shoulders-pattern-on-ice-202609091756",
-   "t": "09 Sep \u00b7 10:56 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: rili barf par sar aur kandhon ka namona rakti hai."
   }
  ],
  "sentiment": {
-  "value": 66,
+  "value": 69,
   "label": "Greed"
  },
  "err": null
