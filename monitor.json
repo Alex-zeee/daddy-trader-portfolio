@@ -1,21 +1,13 @@
 {
- "updated": "12-09-2026 01:55 PKT",
+ "updated": "12-09-2026 03:50 PKT",
  "gold": {
-  "price": 4347.59,
-  "open": 4316.69,
+  "price": 4348.36,
+  "open": 4318.31,
   "high": 4403.8,
   "low": 4297.93,
-  "chg": 0.72,
+  "chg": 0.7,
   "src": "XAUUSD Spot",
   "spark": [
-   4345.47,
-   4344.35,
-   4343.18,
-   4346.45,
-   4345.83,
-   4347.89,
-   4345.91,
-   4337.8,
    4337.51,
    4337.19,
    4330.42,
@@ -55,14 +47,22 @@
    4348.79,
    4349.3,
    4346.06,
-   4347.59
+   4348.87,
+   4348.42,
+   4348.34,
+   4348.47,
+   4348.47,
+   4348.43,
+   4348.35,
+   4348.36,
+   4348.36
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.955,
-   "chg": 1.04,
+   "price": 65.02,
+   "chg": 1.14,
    "spark": [
     65.555,
     64.873,
@@ -85,13 +85,13 @@
     66.297,
     67.942,
     64.284,
-    64.955
+    65.02
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.13,
-   "chg": 0.04,
+   "price": 99.095,
+   "chg": 0.01,
    "spark": [
     100.01,
     99.96,
@@ -114,13 +114,13 @@
     98.84,
     98.77,
     99.09,
-    99.13
+    99.095
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 100.32,
-   "chg": -2.11,
+   "price": 99.99,
+   "chg": -2.43,
    "spark": [
     83.27,
     81.25,
@@ -143,7 +143,7 @@
     93.03,
     96.05,
     102.48,
-    100.32
+    99.99
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1601,
-   "chg": -0.28,
+   "price": 1.1602,
+   "chg": -0.27,
    "spark": [
     1.153,
     1.1535,
@@ -201,13 +201,13 @@
     1.1628,
     1.1627,
     1.1634,
-    1.1601
+    1.1602
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3528,
-   "chg": -0.18,
+   "price": 1.3529,
+   "chg": -0.17,
    "spark": [
     1.3498,
     1.3491,
@@ -230,13 +230,13 @@
     1.3547,
     1.3545,
     1.3552,
-    1.3528
+    1.3529
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.482,
-   "chg": -0.06,
+   "price": 153.554,
+   "chg": -0.01,
    "spark": [
     159.328,
     159.426,
@@ -259,16 +259,14 @@
     153.855,
     153.478,
     153.573,
-    153.482
+    153.554
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2528.35,
-   "chg": 3.73,
+   "price": 2512.72,
+   "chg": 3.09,
    "spark": [
-    2461.07,
-    2449.83,
     2468.02,
     2464.27,
     2463.14,
@@ -314,16 +312,16 @@
     2566.03,
     2536.67,
     2538.12,
-    2528.35
+    2530.61,
+    2515.78,
+    2512.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77264.1,
-   "chg": 0.94,
+   "price": 77059.3,
+   "chg": 0.68,
    "spark": [
-    78125.3,
-    77909.3,
     78288.6,
     78154.2,
     78069.1,
@@ -369,7 +367,9 @@
     77508.7,
     77032.3,
     77260.6,
-    77264.1
+    77315.4,
+    77099.4,
+    77059.3
    ]
   }
  ],
@@ -426,28 +426,52 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789160120.602256,
+   "ts": 1789167032.853122,
    "title": "Oil on track to settle above $100 a barrel after whopping 20% two-week surge",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-brent-tests-110-a-barrel-as-meast-supply-risks-grow-4897144",
-   "t": "12 Sep \u00b7 01:55 AM",
-   "ur": "Do hafte ke 20 fisad azafe ke bad til 100 Dollar fi berl se oper te karne ki raah par"
+   "t": "12 Sep \u00b7 03:50 AM",
+   "ur": "Do hafton ke 20 fisad azafe ke bad til 100 Dollar fi berl se oper te karne ki raah par"
   },
   {
-   "ts": 1789160120.602256,
+   "ts": 1789167032.853122,
    "title": "Gold headed for a weekly loss of nearly 2% on surging oil, raised Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-drop-as-hotter-ppi-lifts-fed-hike-bets-4897138",
-   "t": "12 Sep \u00b7 01:55 AM",
-   "ur": "Gold (sona) badhte huvay til ki wajah se haftah war taqriban 2 fisad ke naqsan ki taraf badh gaya, fed mein azafe ki shartin badh gayin."
+   "t": "12 Sep \u00b7 03:50 AM",
+   "ur": "Gold (sona) badhte huvay til par haftah war taqriban 2 fisad ke naqsan ki taraf badh gaya, fed mein azafe ki shartin badh gayin."
   },
   {
-   "ts": 1789160120.602256,
+   "ts": 1789167032.853122,
    "title": "Silver holds $64.90 but faces $67.30 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
-   "t": "12 Sep \u00b7 01:55 AM",
+   "t": "12 Sep \u00b7 03:50 AM",
    "ur": "Silver (chandi) $64.90 rakti hai lican ise $67.30 mazahmat ka samana hai."
+  },
+  {
+   "ts": 1789164062.0,
+   "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/aud-usd-price-forecast-doji-high-guards-bulls-as-fed-bets-bite-202609112201",
+   "t": "12 Sep \u00b7 03:01 AM",
+   "ur": "AUD/USD qeemat ki forecast: Doji high guards bulls as Fed bets bit"
+  },
+  {
+   "ts": 1789161660.0,
+   "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-downside-bias-capped-with-12705-against-us-dollar-uob-202609112121",
+   "t": "12 Sep \u00b7 02:21 AM",
+   "ur": "Sangapor Dollar: US Dollar ke maqable mein 1.2705 ke sath niche ki taraf ka taasab - UOB"
+  },
+  {
+   "ts": 1789160506.0,
+   "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-bulls-break-08150-as-cpi-fuels-fed-bets-202609112101",
+   "t": "12 Sep \u00b7 02:01 AM",
+   "ur": "USD/CHF qeemat ki forecast: bales 0.8150 ko todte hen cunkah CPI andhan Fed shart lagata hai"
   },
   {
    "ts": 1789159260.0,
@@ -480,30 +504,6 @@
    "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-headline-a-central-bank-triple-header-202609111952",
    "t": "12 Sep \u00b7 12:52 AM",
    "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ markazi Bank ke trpl header ki sarkhi hai."
-  },
-  {
-   "ts": 1789152744.0,
-   "title": "US Treasury yields ease after CPI as Fed hike risks linger",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasury-yields-ease-after-cpi-but-fed-hike-risks-linger-202609111852",
-   "t": "11 Sep \u00b7 11:52 PM",
-   "ur": "US treasurei CPI ke bad aasani peda karta hai cunkah fed mein azafe ka khatrah barqarar hai."
-  },
-  {
-   "ts": 1789152053.0,
-   "title": "Asia FX: Resilience at risk as US yields climb \u2013 MUFG",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/asia-fx-resilience-at-risk-as-us-yields-climb-mufg-202609111840",
-   "t": "11 Sep \u00b7 11:40 PM",
-   "ur": "Asia FX: amrikah ki pedawar mein azafe ke sath lachak khatre mein - MUFG"
-  },
-  {
-   "ts": 1789151867.0,
-   "title": "Japanese Yen rises as the Greenback's inflation bounce fades",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-rises-as-the-greenbacks-inflation-bounce-fades-202609111837",
-   "t": "11 Sep \u00b7 11:37 PM",
-   "ur": "Japani yan badhta hai jisa kah garin bek ki inflation (mehngai) ka achal khtam hota hai."
   }
  ],
  "sentiment": {
