@@ -1,28 +1,13 @@
 {
- "updated": "11-09-2026 16:13 PKT",
+ "updated": "11-09-2026 20:00 PKT",
  "gold": {
-  "price": 4334.73,
-  "open": 4380.04,
-  "high": 4392.01,
-  "low": 4301.82,
-  "chg": -1.03,
+  "price": 4374.2,
+  "open": 4357.79,
+  "high": 4403.8,
+  "low": 4297.93,
+  "chg": 0.38,
   "src": "XAUUSD Spot",
   "spark": [
-   4318.52,
-   4316.11,
-   4314.3,
-   4318.97,
-   4323.75,
-   4325.6,
-   4330.39,
-   4335.55,
-   4329.62,
-   4325.33,
-   4325.65,
-   4331.16,
-   4326.98,
-   4320.38,
-   4323.79,
    4318.79,
    4310.08,
    4312.51,
@@ -55,14 +40,29 @@
    4347.89,
    4345.91,
    4337.8,
-   4334.73
+   4337.51,
+   4337.19,
+   4330.42,
+   4332.92,
+   4326.69,
+   4338.72,
+   4356.66,
+   4385.37,
+   4383.64,
+   4393.24,
+   4391.57,
+   4396.11,
+   4384.63,
+   4376.95,
+   4369.45,
+   4374.2
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.345,
-   "chg": 0.09,
+   "price": 65.36,
+   "chg": 1.67,
    "spark": [
     65.555,
     64.873,
@@ -85,13 +85,13 @@
     66.297,
     67.942,
     64.284,
-    64.345
+    65.36
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.149,
-   "chg": 0.06,
+   "price": 99.012,
+   "chg": -0.08,
    "spark": [
     100.01,
     99.96,
@@ -114,13 +114,13 @@
     98.84,
     98.77,
     99.09,
-    99.149
+    99.012
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 98.86,
-   "chg": -3.53,
+   "price": 99.04,
+   "chg": -3.36,
    "spark": [
     83.27,
     81.25,
@@ -143,15 +143,14 @@
     93.03,
     96.05,
     102.48,
-    98.86
+    99.04
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.944,
-   "chg": 2.21,
+   "price": 4.93,
+   "chg": -0.28,
    "spark": [
-    4.684,
     4.682,
     4.641,
     4.696,
@@ -172,13 +171,14 @@
     4.784,
     4.806,
     4.837,
-    4.944
+    4.944,
+    4.93
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1597,
-   "chg": -0.32,
+   "price": 1.1618,
+   "chg": -0.13,
    "spark": [
     1.153,
     1.1535,
@@ -201,13 +201,13 @@
     1.1628,
     1.1627,
     1.1634,
-    1.1597
+    1.1618
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3509,
-   "chg": -0.31,
+   "price": 1.353,
+   "chg": -0.16,
    "spark": [
     1.3498,
     1.3491,
@@ -230,13 +230,13 @@
     1.3547,
     1.3545,
     1.3552,
-    1.3509
+    1.353
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.971,
-   "chg": 0.26,
+   "price": 153.468,
+   "chg": -0.07,
    "spark": [
     159.328,
     159.426,
@@ -259,18 +259,14 @@
     153.855,
     153.478,
     153.573,
-    153.971
+    153.468
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2453.92,
-   "chg": 0.68,
+   "price": 2608.62,
+   "chg": 7.03,
    "spark": [
-    2510.93,
-    2501.92,
-    2498.71,
-    2489.71,
     2495.49,
     2493.25,
     2480.86,
@@ -314,18 +310,18 @@
     2475.72,
     2468.78,
     2461.14,
-    2453.92
+    2457.6,
+    2510.05,
+    2629.57,
+    2607.45,
+    2608.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76808.2,
-   "chg": 0.35,
+   "price": 78802.4,
+   "chg": 2.95,
    "spark": [
-    79586.0,
-    79125.4,
-    78946.3,
-    78576.6,
     78785.1,
     78749.6,
     78395.9,
@@ -369,7 +365,11 @@
     77337.5,
     77023.6,
     76971.4,
-    76806.2
+    77000.0,
+    78019.6,
+    79173.2,
+    78774.3,
+    78802.4
    ]
   }
  ],
@@ -426,84 +426,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789125223.192574,
-   "title": "Gold edges higher ahead of key U.S. inflation data",
+   "ts": 1789138800.518335,
+   "title": "Gold vs. platinum: Which metal should investors own in Q4?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-vs-platinum-which-metal-should-investors-own-in-q4-4898114",
+   "t": "11 Sep \u00b7 08:00 PM",
+   "ur": "Gold bamaqablah platinum: Q4 mein sarmaya karon ko kas dhat ki malkiyat honi chahiye?"
+  },
+  {
+   "ts": 1789138800.518335,
+   "title": "Gold edges higher amid dip-buying following U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-drop-as-hotter-ppi-lifts-fed-hike-bets-4897138",
-   "t": "11 Sep \u00b7 04:13 PM",
-   "ur": "US inflation (mehngai) ke aham aed w shmar se pehle Gold (sone) ki qeemtin baland hen."
+   "t": "11 Sep \u00b7 08:00 PM",
+   "ur": "US inflation (mehngai) ke aed w shmar ke bad khareedari mein kami ke darmiyan Gold (sone) ke kanare baland huvay."
   },
   {
-   "ts": 1789125223.192574,
-   "title": "Yemen\u2019s Houthis reach strategic island at mouth of vital shipping lane",
+   "ts": 1789138800.518335,
+   "title": "UBS warns September rate hike may spark a short-term gold selloff",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/yemens-houthis-reach-strategic-island-at-mouth-of-vital-shipping-lane-4897455",
-   "t": "11 Sep \u00b7 04:13 PM",
-   "ur": "Yaman ke husi aham shping lin ke mana par waqa tazwerati jazire tak pohch gaye."
+   "link": "https://www.investing.com/news/commodities-news/ubs-warns-september-rate-hike-may-spark-a-shortterm-gold-selloff-4897695",
+   "t": "11 Sep \u00b7 08:00 PM",
+   "ur": "Ue bi es ne khabrdar kiya hai kah stambr ki rate mein azafah ek qalil madati Gold (sone) ki farokht ko janum de sakta hai."
   },
   {
-   "ts": 1789125223.192574,
-   "title": "Gold trapped near $4,340 support with RSI divergence: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-trapped-at-4444-in-bullbear-standoff-live-levels-93CH-4890476",
-   "t": "11 Sep \u00b7 04:13 PM",
-   "ur": "Gold (sona) RSI dyurjan ke sath $4,340 sport ke qarib phans gaya."
-  },
-  {
-   "ts": 1789125105.0,
-   "title": "US Dollar: CPI volatility risk and limited upside \u2013 BBH",
+   "ts": 1789137332.0,
+   "title": "Swiss Franc struggles even as US Dollar gives back CPI-led gains",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-cpi-volatility-risk-and-limited-upside-bbh-202609111111",
-   "t": "11 Sep \u00b7 04:11 PM",
-   "ur": "US Dollar: CPI atar chadhao ka khatrah aur muhadud alta - BBH"
+   "link": "https://www.fxstreet.com/news/swiss-franc-struggles-even-as-us-dollar-gives-back-cpi-led-gains-202609111435",
+   "t": "11 Sep \u00b7 07:35 PM",
+   "ur": "Sois farank jadojehad kar raha hai yahan tak kah US Dollar ne CPI ki qayadat wale fawaid ko waps kar diya hai."
   },
   {
-   "ts": 1789124437.0,
-   "title": "Australian Dollar climbs on RBA rate hike expectations as traders await US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-on-rba-rate-hike-expectations-as-traders-await-us-cpi-202609111100",
-   "t": "11 Sep \u00b7 04:00 PM",
-   "ur": "Aasterilvi Dollar aar bi aye ki rate mein azafe ki toqaat par chadh raha hai cunkah taajr US CPI ka antezar kar rahe hen."
+   "ts": 1789136934.0,
+   "title": "Consumer outlook plunges in September as inflation outlook worsens",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
+   "t": "11 Sep \u00b7 07:28 PM",
+   "ur": "Stambr mein mahungai ka naqatah nazar kharab hone par sarfin ka naqatah nazar dob jata hai."
   },
   {
-   "ts": 1789124362.0,
-   "title": "Gold holds ground as markets brace for US CPI data",
+   "ts": 1789136512.0,
+   "title": "India: Inflation pressures point to tighter bias \u2013 DBS",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-holds-ground-as-markets-brace-for-us-cpi-data-202609111059",
-   "t": "11 Sep \u00b7 03:59 PM",
-   "ur": "US CPI ke aed w shmar ke liye marcates ke tur par Gold (sona) garound rakta hai."
+   "link": "https://www.fxstreet.com/news/india-inflation-pressures-point-to-tighter-bias-dbs-202609111421",
+   "t": "11 Sep \u00b7 07:21 PM",
+   "ur": "Handostan: inflation (mehngai) ka dabao saqt taasab ki taraf asharah karta hai \u2013 DBS"
   },
   {
-   "ts": 1789122780.0,
-   "title": "SNB\u2019s Schlegel: Inflation accelerates in recent months but remains within stability range",
+   "ts": 1789135791.0,
+   "title": "Canadian Dollar slides with Oil prices, US CPI fails to keep US Dollar higher",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/snbs-schlegel-inflation-accelerates-in-recent-months-but-remains-within-stability-range-202609111033",
-   "t": "11 Sep \u00b7 03:33 PM",
-   "ur": "SNB ki Schlegel: haaliya mahinon mein inflation (mehngai) mein tizi i hai lican istehkam ki had ke andar rahti hai."
+   "link": "https://www.fxstreet.com/news/canadian-dollar-slides-with-oil-prices-us-cpi-fails-to-keep-us-dollar-higher-202609111409",
+   "t": "11 Sep \u00b7 07:09 PM",
+   "ur": "Til ki qeemton ke sath caniden Dollar mein kami, US CPI US Dollar ko baland rakhane mein naakam"
   },
   {
-   "ts": 1789122736.0,
-   "title": "Swiss Franc nears monthly lows as investors brace for US CPI data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-nears-monthly-lows-as-investors-brace-for-us-cpi-data-202609111032",
-   "t": "11 Sep \u00b7 03:32 PM",
-   "ur": "Sois farank mahana kam tarin sath ke qarib hai cunkah sarmaya kar US CPI deta ke liye tyar hen."
+   "ts": 1789134396.0,
+   "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+   "t": "11 Sep \u00b7 06:46 PM",
+   "ur": "Mahungai agist mein barqarar rahi, mamkana tur par fed ki rate sud mein azafe ki wajah se"
   },
   {
-   "ts": 1789120714.0,
-   "title": "British Pound: Support at 1.3495 under pressure against US Dollar \u2013 UOB",
+   "ts": 1789131886.0,
+   "title": "Japanese Yen strengthens as US inflation fails to sustain Dollar rebound",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-support-at-13495-under-pressure-against-us-dollar-uob-202609110958",
-   "t": "11 Sep \u00b7 02:58 PM",
-   "ur": "Bartanvi pound: US Dollar ke maqable mein 1.3495 par sport - UOB"
+   "link": "https://www.fxstreet.com/news/japanese-yen-strengthens-as-us-inflation-fails-to-sustain-dollar-rebound-202609111304",
+   "t": "11 Sep \u00b7 06:04 PM",
+   "ur": "Japani yan mazboot hota hai cunkah US inflation (mehngai) Dollar ki recovery ko barqarar rakhane mein naakam rahta hai."
   },
   {
-   "ts": 1789119929.0,
-   "title": "Australian Dollar steadies vs Japanese Yen as hawkish RBA signals offset JPY strength",
+   "ts": 1789131746.0,
+   "title": "Euro steadies against US Dollar after volatile reaction to US CPI",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-steadies-vs-japanese-yen-as-hawkish-rba-signals-offset-jpy-strength-202609110945",
-   "t": "11 Sep \u00b7 02:45 PM",
-   "ur": "Aasterilvi Dollar japani yan ke maqable mein mastahkam aar bi aye ke ashare JPY ki tqt ko pora karta hai"
+   "link": "https://www.fxstreet.com/news/euro-steadies-against-us-dollar-after-volatile-reaction-to-us-cpi-202609111302",
+   "t": "11 Sep \u00b7 06:02 PM",
+   "ur": "Uro US CPI ke ghair mastahkam rdumal ke bad US Dollar ke maqable mein mastahkam hai."
   }
  ],
  "sentiment": {
