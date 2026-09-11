@@ -1,26 +1,13 @@
 {
- "updated": "11-09-2026 20:00 PKT",
+ "updated": "11-09-2026 23:11 PKT",
  "gold": {
-  "price": 4374.2,
-  "open": 4357.79,
+  "price": 4354.96,
+  "open": 4342.48,
   "high": 4403.8,
   "low": 4297.93,
-  "chg": 0.38,
+  "chg": 0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4318.79,
-   4310.08,
-   4312.51,
-   4304.2,
-   4323.7,
-   4328.44,
-   4331.33,
-   4333.37,
-   4335.04,
-   4334.18,
-   4341.1,
-   4347.23,
-   4358.71,
    4352.12,
    4349.38,
    4352.79,
@@ -55,14 +42,27 @@
    4384.63,
    4376.95,
    4369.45,
-   4374.2
+   4372.46,
+   4360.55,
+   4371.25,
+   4374.07,
+   4366.13,
+   4364.64,
+   4362.58,
+   4362.36,
+   4363.26,
+   4366.43,
+   4367.18,
+   4362.09,
+   4358.57,
+   4354.96
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.36,
-   "chg": 1.67,
+   "price": 65.025,
+   "chg": 1.15,
    "spark": [
     65.555,
     64.873,
@@ -85,13 +85,13 @@
     66.297,
     67.942,
     64.284,
-    65.36
+    65.025
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.012,
-   "chg": -0.08,
+   "price": 99.105,
+   "chg": 0.02,
    "spark": [
     100.01,
     99.96,
@@ -114,13 +114,13 @@
     98.84,
     98.77,
     99.09,
-    99.012
+    99.105
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 99.04,
-   "chg": -3.36,
+   "price": 99.71,
+   "chg": -2.7,
    "spark": [
     83.27,
     81.25,
@@ -143,13 +143,13 @@
     93.03,
     96.05,
     102.48,
-    99.04
+    99.71
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.93,
-   "chg": -0.28,
+   "price": 4.957,
+   "chg": 0.26,
    "spark": [
     4.682,
     4.641,
@@ -172,13 +172,13 @@
     4.806,
     4.837,
     4.944,
-    4.93
+    4.957
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1618,
-   "chg": -0.13,
+   "price": 1.1602,
+   "chg": -0.27,
    "spark": [
     1.153,
     1.1535,
@@ -201,13 +201,13 @@
     1.1628,
     1.1627,
     1.1634,
-    1.1618
+    1.1602
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.353,
-   "chg": -0.16,
+   "price": 1.3527,
+   "chg": -0.18,
    "spark": [
     1.3498,
     1.3491,
@@ -230,13 +230,13 @@
     1.3547,
     1.3545,
     1.3552,
-    1.353
+    1.3527
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 153.468,
-   "chg": -0.07,
+   "price": 153.684,
+   "chg": 0.07,
    "spark": [
     159.328,
     159.426,
@@ -259,17 +259,14 @@
     153.855,
     153.478,
     153.573,
-    153.468
+    153.684
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2608.62,
-   "chg": 7.03,
+   "price": 2540.04,
+   "chg": 4.21,
    "spark": [
-    2495.49,
-    2493.25,
-    2480.86,
     2464.73,
     2471.22,
     2461.07,
@@ -314,17 +311,17 @@
     2510.05,
     2629.57,
     2607.45,
-    2608.62
+    2559.01,
+    2577.21,
+    2566.03,
+    2540.04
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78802.4,
-   "chg": 2.95,
+   "price": 77045.8,
+   "chg": 0.66,
    "spark": [
-    78785.1,
-    78749.6,
-    78395.9,
     78210.6,
     78300.0,
     78125.3,
@@ -369,7 +366,10 @@
     78019.6,
     79173.2,
     78774.3,
-    78802.4
+    77704.7,
+    77898.5,
+    77508.7,
+    77045.8
    ]
   }
  ],
@@ -423,87 +423,87 @@
    "previous": "4.3%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1789138800.518335,
+   "ts": 1789150293.515553,
+   "title": "Why is Silver Spot stock climbing today?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/why-is-silver-spot-stock-climbing-today-93CH-4898269",
+   "t": "11 Sep \u00b7 11:11 PM",
+   "ur": "Aaj salor spat stak kiyon chadh raha hai?"
+  },
+  {
+   "ts": 1789150293.515553,
+   "title": "Oil tanker rates hit record highs following Iran, US shipping attacks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks-4898157",
+   "t": "11 Sep \u00b7 11:11 PM",
+   "ur": "Eran, US jahaz raani par hamlon ke bad il tinkar ke narkh rikard balandi par pohch gaye."
+  },
+  {
+   "ts": 1789150293.515553,
    "title": "Gold vs. platinum: Which metal should investors own in Q4?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-vs-platinum-which-metal-should-investors-own-in-q4-4898114",
-   "t": "11 Sep \u00b7 08:00 PM",
+   "t": "11 Sep \u00b7 11:11 PM",
    "ur": "Gold bamaqablah platinum: Q4 mein sarmaya karon ko kas dhat ki malkiyat honi chahiye?"
   },
   {
-   "ts": 1789138800.518335,
+   "ts": 1789150293.515553,
    "title": "Gold edges higher amid dip-buying following U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-drop-as-hotter-ppi-lifts-fed-hike-bets-4897138",
-   "t": "11 Sep \u00b7 08:00 PM",
+   "t": "11 Sep \u00b7 11:11 PM",
    "ur": "US inflation (mehngai) ke aed w shmar ke bad khareedari mein kami ke darmiyan Gold (sone) ke kanare baland huvay."
   },
   {
-   "ts": 1789138800.518335,
-   "title": "UBS warns September rate hike may spark a short-term gold selloff",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/ubs-warns-september-rate-hike-may-spark-a-shortterm-gold-selloff-4897695",
-   "t": "11 Sep \u00b7 08:00 PM",
-   "ur": "Ue bi es ne khabrdar kiya hai kah stambr ki rate mein azafah ek qalil madati Gold (sone) ki farokht ko janum de sakta hai."
-  },
-  {
-   "ts": 1789137332.0,
-   "title": "Swiss Franc struggles even as US Dollar gives back CPI-led gains",
+   "ts": 1789150107.0,
+   "title": "United States Dollar Index retreats from post-CPI high, all eyes on Fed",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-struggles-even-as-us-dollar-gives-back-cpi-led-gains-202609111435",
-   "t": "11 Sep \u00b7 07:35 PM",
-   "ur": "Sois farank jadojehad kar raha hai yahan tak kah US Dollar ne CPI ki qayadat wale fawaid ko waps kar diya hai."
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-retreats-from-post-cpi-high-all-eyes-on-fed-202609111808",
+   "t": "11 Sep \u00b7 11:08 PM",
+   "ur": "Ryastahaye matehdah ka Dollar andex CPI ke bad ki balandi se patchhe hat raha hai, tamam ngahen Fed par hen."
   },
   {
-   "ts": 1789136934.0,
+   "ts": 1789147880.0,
+   "title": "Gold price dodges CPI shock as US yields hand bulls lifeline",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-price-dodges-cpi-shock-as-us-yields-hand-bulls-lifeline-202609111731",
+   "t": "11 Sep \u00b7 10:31 PM",
+   "ur": "Gold (sone) ki qeemat CPI ke jhatake se bachati hai cunkah US ne hind bells ki laaif lin haasil ki hai."
+  },
+  {
+   "ts": 1789145603.0,
    "title": "Consumer outlook plunges in September as inflation outlook worsens",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
-   "t": "11 Sep \u00b7 07:28 PM",
+   "t": "11 Sep \u00b7 09:53 PM",
    "ur": "Stambr mein mahungai ka naqatah nazar kharab hone par sarfin ka naqatah nazar dob jata hai."
   },
   {
-   "ts": 1789136512.0,
-   "title": "India: Inflation pressures point to tighter bias \u2013 DBS",
+   "ts": 1789144959.0,
+   "title": "ECB rate hike gives Euro little to work with as Pound holds firm",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-inflation-pressures-point-to-tighter-bias-dbs-202609111421",
-   "t": "11 Sep \u00b7 07:21 PM",
-   "ur": "Handostan: inflation (mehngai) ka dabao saqt taasab ki taraf asharah karta hai \u2013 DBS"
+   "link": "https://www.fxstreet.com/news/ecb-rate-hike-gives-euro-little-to-work-with-as-pound-holds-firm-202609111642",
+   "t": "11 Sep \u00b7 09:42 PM",
+   "ur": "Ai si bi ki rate mein azafah uro ko kam karne ke liye bahat kam dita hai jisa kah pound ki mazbooti hai."
   },
   {
-   "ts": 1789135791.0,
-   "title": "Canadian Dollar slides with Oil prices, US CPI fails to keep US Dollar higher",
+   "ts": 1789143777.0,
+   "title": "Silver erases post-CPI slump, rebounds from three-week low",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-slides-with-oil-prices-us-cpi-fails-to-keep-us-dollar-higher-202609111409",
-   "t": "11 Sep \u00b7 07:09 PM",
-   "ur": "Til ki qeemton ke sath caniden Dollar mein kami, US CPI US Dollar ko baland rakhane mein naakam"
+   "link": "https://www.fxstreet.com/news/silver-erases-post-cpi-slump-rebounds-from-three-week-low-202609111622",
+   "t": "11 Sep \u00b7 09:22 PM",
+   "ur": "Silver (chandi) ne CPI ke bad ki kami ko mata diya, tin hafte ki kam tarin sath se wapsi hoi."
   },
   {
-   "ts": 1789134396.0,
-   "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-   "t": "11 Sep \u00b7 06:46 PM",
-   "ur": "Mahungai agist mein barqarar rahi, mamkana tur par fed ki rate sud mein azafe ki wajah se"
-  },
-  {
-   "ts": 1789131886.0,
-   "title": "Japanese Yen strengthens as US inflation fails to sustain Dollar rebound",
+   "ts": 1789143254.0,
+   "title": "Dow Jones Industrial Average rallies all session as long yields back off",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-strengthens-as-us-inflation-fails-to-sustain-dollar-rebound-202609111304",
-   "t": "11 Sep \u00b7 06:04 PM",
-   "ur": "Japani yan mazboot hota hai cunkah US inflation (mehngai) Dollar ki recovery ko barqarar rakhane mein naakam rahta hai."
-  },
-  {
-   "ts": 1789131746.0,
-   "title": "Euro steadies against US Dollar after volatile reaction to US CPI",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-steadies-against-us-dollar-after-volatile-reaction-to-us-cpi-202609111302",
-   "t": "11 Sep \u00b7 06:02 PM",
-   "ur": "Uro US CPI ke ghair mastahkam rdumal ke bad US Dollar ke maqable mein mastahkam hai."
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-rallies-all-session-as-long-yields-back-off-202609111614",
+   "t": "11 Sep \u00b7 09:14 PM",
+   "ur": "Dou joons andistril everage ne tamam sition mein riliyan nakali hen jab tak kah lamba pedawar waps aa jaye."
   }
  ],
  "sentiment": {
