@@ -1,21 +1,13 @@
 {
- "updated": "11-09-2026 04:28 PKT",
+ "updated": "11-09-2026 06:18 PKT",
  "gold": {
-  "price": 4318.81,
-  "open": 4396.53,
+  "price": 4335.77,
+  "open": 4412.87,
   "high": 4430.46,
-  "low": 4313.69,
-  "chg": -1.77,
+  "low": 4311.2,
+  "chg": -1.75,
   "src": "XAUUSD Spot",
   "spark": [
-   4385.84,
-   4376.83,
-   4373.57,
-   4362.24,
-   4334.58,
-   4343.58,
-   4345.81,
-   4355.77,
    4367.64,
    4368.13,
    4360.29,
@@ -55,14 +47,22 @@
    4316.37,
    4318.12,
    4317.51,
-   4318.81
+   4318.52,
+   4316.11,
+   4314.3,
+   4318.97,
+   4323.75,
+   4325.6,
+   4330.39,
+   4335.55,
+   4335.77
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.105,
-   "chg": -5.65,
+   "price": 64.225,
+   "chg": -5.47,
    "spark": [
     64.769,
     65.555,
@@ -85,13 +85,13 @@
     66.047,
     66.297,
     67.942,
-    64.105
+    64.225
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.09,
-   "chg": 0.32,
+   "price": 99.043,
+   "chg": 0.28,
    "spark": [
     99.82,
     100.01,
@@ -114,13 +114,13 @@
     99.16,
     98.84,
     98.77,
-    99.09
+    99.043
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 103.72,
-   "chg": 7.99,
+   "price": 102.45,
+   "chg": 6.66,
    "spark": [
     83.2,
     83.27,
@@ -143,7 +143,7 @@
     91.48,
     93.03,
     96.05,
-    103.72
+    102.45
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1612,
-   "chg": -0.19,
+   "price": 1.162,
+   "chg": -0.12,
    "spark": [
     1.153,
     1.1535,
@@ -201,13 +201,13 @@
     1.1628,
     1.1627,
     1.1634,
-    1.1612
+    1.162
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3509,
-   "chg": -0.31,
+   "price": 1.3516,
+   "chg": -0.26,
    "spark": [
     1.3498,
     1.3491,
@@ -230,13 +230,13 @@
     1.3547,
     1.3545,
     1.3552,
-    1.3509
+    1.3516
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 154.536,
-   "chg": 0.63,
+   "price": 154.303,
+   "chg": 0.48,
    "spark": [
     159.328,
     159.426,
@@ -259,16 +259,14 @@
     153.855,
     153.478,
     153.573,
-    154.536
+    154.303
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2444.76,
-   "chg": -0.93,
+   "price": 2455.32,
+   "chg": 0.74,
    "spark": [
-    2495.4,
-    2497.13,
     2494.02,
     2488.58,
     2508.4,
@@ -314,16 +312,16 @@
     2460.77,
     2459.09,
     2444.12,
-    2444.76
+    2437.29,
+    2456.12,
+    2455.32
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76744.1,
-   "chg": -1.97,
+   "price": 76870.1,
+   "chg": 0.43,
    "spark": [
-    78762.1,
-    78878.4,
     78716.0,
     78631.5,
     79153.4,
@@ -369,7 +367,9 @@
     77249.5,
     77132.4,
     76802.8,
-    76744.1
+    76542.0,
+    76883.6,
+    76870.1
    ]
   }
  ],
@@ -426,12 +426,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789082923.116921,
-   "title": "Silver tests 200 SMA at $63.53 amid double top breakdown: Live",
+   "ts": 1789089533.961553,
+   "title": "Gold steadies after sharp drop as hotter PPI lifts Fed hike bets",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
-   "t": "11 Sep \u00b7 04:28 AM",
-   "ur": "Dabl tap barik doun ke darmiyan salor 200 SMA ko $63.53 par test karta hai: laaio"
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-drop-as-hotter-ppi-lifts-fed-hike-bets-4897138",
+   "t": "11 Sep \u00b7 06:18 AM",
+   "ur": "Ties garne ke bad Gold (sona) mastahkam hai cunkah garm PPI ne Fed mein azafe ki shartin atha li hen."
+  },
+  {
+   "ts": 1789087341.0,
+   "title": "Euro flatlines above 1.1600 despite ECB hawkish hike, traders brace for US CPI data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-flatlines-above-11600-despite-ecb-hawkish-hike-traders-brace-for-us-cpi-data-202609110042",
+   "t": "11 Sep \u00b7 05:42 AM",
+   "ur": "Uro filet linez 1.1600 se oper ECB ke ties raftar azafe ke bawajud, taajron ne US CPI deta ke liye tasli kar li"
+  },
+  {
+   "ts": 1789084084.0,
+   "title": "Australian Dollar slides as US yields jump before pivotal CPI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-slides-as-us-yields-jump-before-pivotal-cpi-202609102348",
+   "t": "11 Sep \u00b7 04:48 AM",
+   "ur": "Aham CPI se pehle US pedawar ke badhane par aasterilvi Dollar salaid kar raha hai."
+  },
+  {
+   "ts": 1789083391.0,
+   "title": "Gold falls below $4,350 as rising oil prices, US PPI reinforces Fed hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-falls-below-4-350-as-rising-oil-prices-us-ppi-reinforces-fed-hike-bets-202609102336",
+   "t": "11 Sep \u00b7 04:36 AM",
+   "ur": "Til ki badhti hoi qeemton ke baas Gold (sona) $4,350 se niche gar gaya, US PPI ne fed mein azafe ki shart ko taqwet di"
   },
   {
    "ts": 1789076724.0,
@@ -447,7 +471,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/forex-today-us-dollar-rebounds-on-hot-ppi-ahead-of-us-cpi-202609101955",
    "t": "11 Sep \u00b7 12:55 AM",
-   "ur": "Farex today: US CPI se pehle garm PPI par US Dollar ki recovery"
+   "ur": "Farex today: US CPI se pehle garm PPI par US Dollar ki wapsi"
   },
   {
    "ts": 1789069398.0,
@@ -480,34 +504,10 @@
    "link": "https://www.fxstreet.com/news/gold-bulls-blink-as-hot-us-ppi-100-oil-send-yields-flying-202609101729",
    "t": "10 Sep \u00b7 10:29 PM",
    "ur": "Garm US PPI ke tur par Gold (sone) ke bel jhapak rahe hen, $100 til adta hawa pedawar bhejata hai."
-  },
-  {
-   "ts": 1789059317.0,
-   "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
-   "t": "10 Sep \u00b7 09:55 PM",
-   "ur": "Agle hafte fed ki rate sud mein azafe ka amkan bahat ziyadah ho gaya hai."
-  },
-  {
-   "ts": 1789055463.0,
-   "title": "Canadian Dollar firms as US Dollar loses momentum, Oil prices extend rally",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-trades-under-pressure-as-us-ppi-data-supports-fed-hike-bets-202609101551",
-   "t": "10 Sep \u00b7 08:51 PM",
-   "ur": "Caniden Dollar ki farmon ne US Dollar ki raftar kho di, til ki qeemton mein azafah"
-  },
-  {
-   "ts": 1789055026.0,
-   "title": "Silver slides below $65 as US PPI reinforces Fed rate-hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-slides-below-65-as-us-ppi-revives-fed-rate-hike-bets-202609101543",
-   "t": "10 Sep \u00b7 08:43 PM",
-   "ur": "US PPI ne fed ki rate mein azafe ke sharton ko taqwet dine se Silver (chandi) $65 se niche phisal gayi."
   }
  ],
  "sentiment": {
-  "value": 69,
+  "value": 56,
   "label": "Greed"
  },
  "err": null
