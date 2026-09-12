@@ -1,31 +1,13 @@
 {
- "updated": "12-09-2026 05:44 PKT",
+ "updated": "12-09-2026 10:05 PKT",
  "gold": {
-  "price": 4348.47,
-  "open": 4323.5,
+  "price": 4348.43,
+  "open": 4334.99,
   "high": 4403.8,
   "low": 4297.93,
-  "chg": 0.58,
+  "chg": 0.31,
   "src": "XAUUSD Spot",
   "spark": [
-   4385.37,
-   4383.64,
-   4393.24,
-   4391.57,
-   4396.11,
-   4384.63,
-   4376.95,
-   4369.45,
-   4372.46,
-   4360.55,
-   4371.25,
-   4374.07,
-   4366.13,
-   4364.64,
-   4362.58,
-   4362.36,
-   4363.26,
-   4366.43,
    4367.18,
    4362.09,
    4358.57,
@@ -55,14 +37,32 @@
    4348.43,
    4348.46,
    4348.42,
-   4348.47
+   4348.34,
+   4348.43,
+   4348.46,
+   4348.4,
+   4348.33,
+   4348.45,
+   4348.46,
+   4348.41,
+   4348.33,
+   4348.47,
+   4348.46,
+   4348.42,
+   4348.34,
+   4348.47,
+   4348.45,
+   4348.44,
+   4348.35,
+   4348.35,
+   4348.43
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.02,
-   "chg": 1.14,
+   "price": 64.554,
+   "chg": 0.42,
    "spark": [
     65.555,
     64.873,
@@ -85,13 +85,13 @@
     66.297,
     67.942,
     64.284,
-    65.02
+    64.554
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.095,
-   "chg": 0.01,
+   "price": 99.12,
+   "chg": 0.03,
    "spark": [
     100.01,
     99.96,
@@ -114,13 +114,13 @@
     98.84,
     98.77,
     99.09,
-    99.095
+    99.12
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 99.99,
-   "chg": -2.43,
+   "price": 100.05,
+   "chg": -2.37,
    "spark": [
     83.27,
     81.25,
@@ -143,7 +143,7 @@
     93.03,
     96.05,
     102.48,
-    99.99
+    100.05
    ]
   },
   {
@@ -264,14 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2513.6,
-   "chg": -0.1,
+   "price": 2512.38,
+   "chg": -0.15,
    "spark": [
-    2463.14,
-    2474.17,
-    2474.51,
-    2477.79,
-    2481.28,
     2479.72,
     2472.09,
     2470.68,
@@ -314,19 +309,19 @@
     2515.78,
     2511.01,
     2515.99,
-    2513.6
+    2510.52,
+    2513.4,
+    2514.02,
+    2513.11,
+    2512.12,
+    2512.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77278.9,
-   "chg": 0.09,
+   "price": 77191.6,
+   "chg": -0.02,
    "spark": [
-    78069.1,
-    78330.1,
-    78297.6,
-    78365.2,
-    78496.0,
     78395.1,
     78088.5,
     78078.7,
@@ -369,7 +364,12 @@
     77099.4,
     77127.3,
     77210.9,
-    77278.9
+    77285.7,
+    77251.0,
+    77273.8,
+    77262.0,
+    77212.6,
+    77193.0
    ]
   }
  ],
@@ -426,27 +426,35 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789173877.413374,
+   "ts": 1789189505.814158,
+   "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping-4898593",
+   "t": "12 Sep \u00b7 10:05 AM",
+   "ur": "Sudiyon ne til ki pype lin band kar di cunkah husiyon ne baheerah ahmar ki tarsel par garft mazboot kar li hai."
+  },
+  {
+   "ts": 1789189505.814158,
    "title": "Oil on track to settle above $100 a barrel after whopping 20% two-week surge",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-brent-tests-110-a-barrel-as-meast-supply-risks-grow-4897144",
-   "t": "12 Sep \u00b7 05:44 AM",
+   "t": "12 Sep \u00b7 10:05 AM",
    "ur": "Do hafton ke 20 fisad azafe ke bad til 100 Dollar fi berl se oper te karne ki raah par"
   },
   {
-   "ts": 1789173877.413374,
+   "ts": 1789189505.814158,
    "title": "Gold headed for a weekly loss of nearly 2% on surging oil, raised Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-drop-as-hotter-ppi-lifts-fed-hike-bets-4897138",
-   "t": "12 Sep \u00b7 05:44 AM",
-   "ur": "Gold (sona) badhte huvay til ki wajah se haftah war taqriban 2 fisad ke naqsan ki taraf badh gaya, fed mein azafe ki shartin badh gayin."
+   "t": "12 Sep \u00b7 10:05 AM",
+   "ur": "Gold (sona) badhte huvay til par haftah war taqriban 2 fisad ke naqsan ki taraf badh gaya, fed mein azafe ki shartin badh gayin."
   },
   {
-   "ts": 1789173877.413374,
+   "ts": 1789189505.814158,
    "title": "Silver holds $64.90 but faces $67.30 resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
-   "t": "12 Sep \u00b7 05:44 AM",
+   "t": "12 Sep \u00b7 10:05 AM",
    "ur": "Silver (chandi) $64.90 rakti hai lican ise $67.30 mazahmat ka samana hai."
   },
   {
@@ -496,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-neckline-failure-keeps-bears-in-control-202609111953",
    "t": "12 Sep \u00b7 12:53 AM",
    "ur": "Silver (chandi) ki qeemat ki forecast: nik lin ki naakami bears ko kantrol mein rakti hai."
-  },
-  {
-   "ts": 1789156341.0,
-   "title": "Forecasting the upcoming week: Fed, BoE and BoJ headline a central bank triple-header",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-fed-boe-and-boj-headline-a-central-bank-triple-header-202609111952",
-   "t": "12 Sep \u00b7 12:52 AM",
-   "ur": "Aane wale hafte ki forecast: Fed, BoE aur BoJ markazi Bank ke trpl header ki sarkhi hai."
   }
  ],
  "sentiment": {
