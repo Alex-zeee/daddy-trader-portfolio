@@ -1,21 +1,13 @@
 {
- "updated": "12-09-2026 20:54 PKT",
+ "updated": "12-09-2026 22:55 PKT",
  "gold": {
-  "price": 4348.44,
-  "open": 4366.29,
-  "high": 4372.35,
+  "price": 4348.43,
+  "open": 4358.83,
+  "high": 4359.58,
   "low": 4342.89,
-  "chg": -0.41,
+  "chg": -0.24,
   "src": "XAUUSD Spot",
   "spark": [
-   4348.45,
-   4348.44,
-   4348.35,
-   4348.35,
-   4348.44,
-   4348.46,
-   4348.36,
-   4348.34,
    4348.43,
    4348.46,
    4348.42,
@@ -55,7 +47,15 @@
    4348.34,
    4348.47,
    4348.45,
-   4348.44
+   4348.43,
+   4348.34,
+   4348.35,
+   4348.44,
+   4348.44,
+   4348.36,
+   4348.34,
+   4348.43,
+   4348.43
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2532.99,
-   "chg": 0.67,
+   "price": 2525.27,
+   "chg": 0.36,
    "spark": [
-    2447.62,
-    2465.28,
     2467.65,
     2461.93,
     2460.77,
@@ -314,16 +312,16 @@
     2534.75,
     2544.19,
     2539.11,
-    2532.99
+    2534.45,
+    2531.04,
+    2525.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77370.8,
-   "chg": 0.21,
+   "price": 77169.9,
+   "chg": -0.05,
    "spark": [
-    77159.8,
-    77289.2,
     77219.5,
     77132.7,
     77249.5,
@@ -369,7 +367,9 @@
     77318.7,
     77346.2,
     77443.9,
-    77370.8
+    77366.4,
+    77344.6,
+    77170.0
    ]
   }
  ],
@@ -426,81 +426,89 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789228470.667103,
+   "ts": 1789235701.691284,
    "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping-4898593",
-   "t": "12 Sep \u00b7 08:54 PM"
+   "t": "12 Sep \u00b7 10:55 PM",
+   "ur": "Sudiyon ne til ki pype lin band kar di cunkah husiyon ne baheerah ahmar ki tarsel par garft mazboot kar li hai."
   },
   {
-   "ts": 1789228470.667103,
+   "ts": 1789235701.691284,
    "title": "Oil on track to settle above $100 a barrel after whopping 20% two-week surge",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-brent-tests-110-a-barrel-as-meast-supply-risks-grow-4897144",
-   "t": "12 Sep \u00b7 08:54 PM"
+   "t": "12 Sep \u00b7 10:55 PM",
+   "ur": "Do hafton ke 20 fisad azafe ke bad til 100 Dollar fi berl se oper te karne ki raah par"
   },
   {
-   "ts": 1789228470.667103,
+   "ts": 1789235701.691284,
    "title": "Gold headed for a weekly loss of nearly 2% on surging oil, raised Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-sharp-drop-as-hotter-ppi-lifts-fed-hike-bets-4897138",
-   "t": "12 Sep \u00b7 08:54 PM"
+   "t": "12 Sep \u00b7 10:55 PM",
+   "ur": "Gold (sona) badhte huvay til par haftah war taqriban 2 fisad ke naqsan ki taraf badh gaya, fed mein azafe ki shartin badh gayin."
   },
   {
    "ts": 1789217355.0,
    "title": "Inflation is outpacing wage growth again, squeezing Americans\u2019 paychecks",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
-   "t": "12 Sep \u00b7 05:49 PM"
+   "t": "12 Sep \u00b7 05:49 PM",
+   "ur": "Mahungai ajrat mein azafe ko ek bar phar patchhe chhod rahi hai, amreen ki tankhwahon ko nchod rahi hai."
   },
   {
    "ts": 1789164062.0,
    "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/aud-usd-price-forecast-doji-high-guards-bulls-as-fed-bets-bite-202609112201",
-   "t": "12 Sep \u00b7 03:01 AM"
+   "t": "12 Sep \u00b7 03:01 AM",
+   "ur": "AUD/USD qeemat ki forecast: Doji high guards bulls as Fed bets bit"
   },
   {
    "ts": 1789161660.0,
    "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-downside-bias-capped-with-12705-against-us-dollar-uob-202609112121",
-   "t": "12 Sep \u00b7 02:21 AM"
+   "t": "12 Sep \u00b7 02:21 AM",
+   "ur": "Sangapor Dollar: US Dollar ke maqable mein 1.2705 ke sath niche ki taraf ka taasab - UOB"
   },
   {
    "ts": 1789160506.0,
    "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-bulls-break-08150-as-cpi-fuels-fed-bets-202609112101",
-   "t": "12 Sep \u00b7 02:01 AM"
+   "t": "12 Sep \u00b7 02:01 AM",
+   "ur": "USD/CHF qeemat ki forecast: bales 0.8150 ko todte hen cunkah CPI andhan Fed shart lagata hai"
   },
   {
    "ts": 1789159260.0,
    "title": "Taiwan Dollar: CBC seen on hold before December hike \u2013 DBS",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/taiwan-dollar-cbc-seen-on-hold-before-december-hike-dbs-202609112041",
-   "t": "12 Sep \u00b7 01:41 AM"
+   "t": "12 Sep \u00b7 01:41 AM",
+   "ur": "Taiwan Dollar: CBC dasmbr mein azafe se pehle hold par dekha gaya - DBS"
   },
   {
    "ts": 1789156560.0,
    "title": "Chinese Yuan: Bullish bias fades against dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/chinese-yuan-bullish-bias-fades-against-dollar-uob-202609111956",
-   "t": "12 Sep \u00b7 12:56 AM"
+   "t": "12 Sep \u00b7 12:56 AM",
+   "ur": "Chini uan: Dollar ke maqable mein tizi ka taasab khtam ho gaya - UOB"
   },
   {
    "ts": 1789156405.0,
    "title": "Silver Price Forecast: Neckline failure keeps bears in control",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-neckline-failure-keeps-bears-in-control-202609111953",
-   "t": "12 Sep \u00b7 12:53 AM"
+   "t": "12 Sep \u00b7 12:53 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: nik lin ki naakami bears ko kantrol mein rakti hai."
   }
  ],
  "sentiment": {
   "value": 63,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
