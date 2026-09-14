@@ -1,37 +1,13 @@
 {
- "updated": "14-09-2026 15:34 PKT",
+ "updated": "14-09-2026 21:32 PKT",
  "gold": {
-  "price": 4291.6,
+  "price": 4300.19,
   "open": 4348.36,
   "high": 4355.11,
-  "low": 4279.27,
-  "chg": -1.31,
+  "low": 4253.79,
+  "chg": -1.11,
   "src": "XAUUSD Spot",
   "spark": [
-   4338.4,
-   4341.06,
-   4336.93,
-   4338.31,
-   4334.51,
-   4346.18,
-   4336.0,
-   4337.13,
-   4339.67,
-   4330.99,
-   4337.37,
-   4338.88,
-   4353.4,
-   4349.1,
-   4352.86,
-   4346.97,
-   4331.61,
-   4334.56,
-   4334.71,
-   4329.04,
-   4330.13,
-   4330.7,
-   4331.39,
-   4325.34,
    4328.63,
    4329.41,
    4327.86,
@@ -55,14 +31,38 @@
    4285.83,
    4288.31,
    4291.02,
-   4291.6
+   4294.05,
+   4295.68,
+   4291.81,
+   4296.28,
+   4293.99,
+   4284.9,
+   4294.34,
+   4286.68,
+   4285.37,
+   4271.65,
+   4266.5,
+   4271.21,
+   4271.82,
+   4272.0,
+   4277.78,
+   4268.27,
+   4273.64,
+   4275.18,
+   4279.11,
+   4283.37,
+   4294.69,
+   4289.26,
+   4295.78,
+   4301.04,
+   4300.19
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.245,
-   "chg": -2.03,
+   "price": 63.905,
+   "chg": -1.01,
    "spark": [
     64.988,
     66.121,
@@ -84,13 +84,13 @@
     67.942,
     64.284,
     64.554,
-    63.245
+    63.905
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.57,
-   "chg": 0.45,
+   "price": 99.465,
+   "chg": 0.35,
    "spark": [
     99.67,
     99.64,
@@ -112,13 +112,13 @@
     98.77,
     99.09,
     99.12,
-    99.57
+    99.465
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 102.62,
-   "chg": 2.57,
+   "price": 102.64,
+   "chg": 2.59,
    "spark": [
     82.4,
     84.5,
@@ -140,16 +140,14 @@
     96.05,
     102.48,
     100.05,
-    102.62
+    102.64
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.975,
-   "chg": 0.63,
+   "price": 4.947,
+   "chg": -0.56,
    "spark": [
-    4.682,
-    4.641,
     4.696,
     4.724,
     4.706,
@@ -169,13 +167,14 @@
     4.806,
     4.837,
     4.944,
-    4.975
+    4.975,
+    4.947
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1543,
-   "chg": -0.57,
+   "price": 1.1554,
+   "chg": -0.48,
    "spark": [
     1.1535,
     1.1574,
@@ -198,13 +197,13 @@
     1.1627,
     1.1634,
     1.161,
-    1.1543
+    1.1554
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3487,
-   "chg": -0.17,
+   "price": 1.3495,
+   "chg": -0.1,
    "spark": [
     1.3491,
     1.3547,
@@ -227,13 +226,13 @@
     1.3545,
     1.3552,
     1.3509,
-    1.3487
+    1.3495
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 154.599,
-   "chg": 0.08,
+   "price": 154.396,
+   "chg": -0.06,
    "spark": [
     159.426,
     159.223,
@@ -256,20 +255,14 @@
     153.478,
     153.573,
     154.482,
-    154.599
+    154.396
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2514.79,
-   "chg": 1.57,
+   "price": 2525.38,
+   "chg": 2.0,
    "spark": [
-    2535.53,
-    2534.75,
-    2544.19,
-    2539.11,
-    2534.45,
-    2531.04,
     2525.35,
     2521.93,
     2519.03,
@@ -311,20 +304,20 @@
     2522.02,
     2517.61,
     2522.42,
-    2514.73
+    2512.01,
+    2508.06,
+    2504.25,
+    2500.18,
+    2500.73,
+    2507.62,
+    2525.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77911.1,
-   "chg": 1.45,
+   "price": 78697.5,
+   "chg": 2.47,
    "spark": [
-    77337.7,
-    77318.7,
-    77346.2,
-    77443.9,
-    77366.4,
-    77344.6,
     77194.6,
     77124.4,
     77104.6,
@@ -366,7 +359,13 @@
     77850.0,
     77702.8,
     78114.3,
-    77911.1
+    77867.4,
+    77742.0,
+    77660.6,
+    78135.3,
+    78490.8,
+    78553.6,
+    78694.6
    ]
   }
  ],
@@ -439,89 +438,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789382079.875914,
-   "title": "Silver tests 200 SMA at $64.08 amid double top risk: Live levels",
+   "ts": 1789403554.488589,
+   "title": "Gold slips as firm inflation bolsters Fed hike bets",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "14 Sep \u00b7 03:34 PM",
-   "ur": "Salor 200 SMA ka test $64.08 par dabl tap rask ke darmiyan karta hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-slips-as-hotter-us-inflation-lifts-fed-hike-bets-oil-stokes-price-pressures-4898789",
+   "t": "14 Sep \u00b7 09:32 PM"
   },
   {
-   "ts": 1789382079.875914,
-   "title": "Gold clings to $4,355 confluence support: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-clings-to-4355-confluence-support-live-levels-93CH-4898868",
-   "t": "14 Sep \u00b7 03:34 PM",
-   "ur": "Gold (sona) $4,355 sangam sport se chimta hawa hai."
-  },
-  {
-   "ts": 1789380642.0,
-   "title": "USD/CAD Price Forecast: US Dollar gains momentum and targets 1.3940 area",
+   "ts": 1789402933.0,
+   "title": "The Dollar Index climbs on Fed hike bets and stalls at its usual ceiling",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/usd-cad-price-forecast-us-dollar-gains-momentum-and-targets-13940-area-202609141010",
-   "t": "14 Sep \u00b7 03:10 PM",
-   "ur": "USD/CAD qeemat ki forecast: US Dollar ne raftar haasil ki aur 1.3940 alaqe ko nashana banaya"
+   "link": "https://www.fxstreet.com/news/the-dollar-index-climbs-on-fed-hike-bets-and-stalls-at-its-usual-ceiling-202609141622",
+   "t": "14 Sep \u00b7 09:22 PM"
   },
   {
-   "ts": 1789380340.0,
-   "title": "British Pound: Downside pressure persists against US Dollar - UOB",
+   "ts": 1789401464.0,
+   "title": "Dow Jones Industrial Average loses another round to rising bond yields",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-downside-pressure-persists-against-us-dollar-uob-202609141005",
-   "t": "14 Sep \u00b7 03:05 PM",
-   "ur": "Bartanvi pound: US Dollar - UOB ke khalaf manfi dabao barqarar hai."
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-loses-another-round-to-rising-bond-yields-202609141557",
+   "t": "14 Sep \u00b7 08:57 PM"
   },
   {
-   "ts": 1789379024.0,
-   "title": "Japanese Yen: BoJ guidance crucial for further gains against US Dollar \u2013 OCBC",
+   "ts": 1789399706.0,
+   "title": "Australian Dollar slides to monthly low as Fed hike odds firm",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-boj-guidance-crucial-for-further-gains-against-us-dollar-ocbc-202609140943",
-   "t": "14 Sep \u00b7 02:43 PM",
-   "ur": "Japani yan: US Dollar - OCBC ke maqable mein mazid fawaid ke liye BoJ rahnumi aham hai."
+   "link": "https://www.fxstreet.com/news/australian-dollar-slides-to-monthly-low-as-fed-hike-odds-firm-202609141528",
+   "t": "14 Sep \u00b7 08:28 PM"
   },
   {
-   "ts": 1789378322.0,
-   "title": "Swiss Franc nears yearly lows as Fed rate hike bets boost US Dollar",
+   "ts": 1789398959.0,
+   "title": "Federal Reserve: Forward guidance impact \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-nears-yearly-lows-as-fed-rate-hike-bets-boost-us-dollar-202609140932",
-   "t": "14 Sep \u00b7 02:32 PM",
-   "ur": "Sois farank salana kam tarin sath ke qarib pohch gaya hai cunkah fed ki rate mein azafe ki shart US Dollar ko badha rahi hai."
+   "link": "https://www.fxstreet.com/news/federal-reserve-forward-guidance-impact-commerzbank-202609141515",
+   "t": "14 Sep \u00b7 08:15 PM"
   },
   {
-   "ts": 1789378218.0,
-   "title": "Silver price today: Silver falls, according to FXStreet data",
+   "ts": 1789397532.0,
+   "title": "Euro: Support seen near 1.15 against US Dollar \u2013 Scotiabank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609140930",
-   "t": "14 Sep \u00b7 02:30 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
+   "link": "https://www.fxstreet.com/news/euro-support-seen-near-115-against-us-dollar-scotiabank-202609141452",
+   "t": "14 Sep \u00b7 07:52 PM"
   },
   {
-   "ts": 1789377340.0,
-   "title": "Euro advances against Japanese Yen despite BoJ rate hike expectations",
+   "ts": 1789396951.0,
+   "title": "Japanese Yen: Further gains favored against US Dollar - BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-advances-against-japanese-yen-despite-boj-rate-hike-expectations-202609140915",
-   "t": "14 Sep \u00b7 02:15 PM",
-   "ur": "BoJ rate mein azafe ki toqaat ke bawajud uro japani yan ke maqable mein aage badh raha hai."
+   "link": "https://www.fxstreet.com/news/japanese-yen-further-gains-favored-against-us-dollar-bbh-202609141442",
+   "t": "14 Sep \u00b7 07:42 PM"
   },
   {
-   "ts": 1789377052.0,
-   "title": "Japanese Yen weakens as rising risk aversion lifts US Dollar",
+   "ts": 1789396828.0,
+   "title": "US 10-year yield crosses 5% rubicon as Fed hike looks locked",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-rising-risk-aversion-lifts-us-dollar-202609140910",
-   "t": "14 Sep \u00b7 02:10 PM",
-   "ur": "Japani yan kamazor pad raha hai cunkah badhte huvay khatre se bachane ki wajah se US Dollar ki qeemat badh rahi hai."
+   "link": "https://www.fxstreet.com/news/us-10-year-yield-crosses-5-rubicon-as-fed-hike-looks-locked-202609141440",
+   "t": "14 Sep \u00b7 07:40 PM"
   },
   {
-   "ts": 1789377021.0,
-   "title": "Euro: Further downside favoured against US Dollar - ING",
+   "ts": 1789396414.0,
+   "title": "Euro tumbles to one-month low as Fed rate hike bets dominate",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-further-downside-favoured-against-us-dollar-ing-202609140910",
-   "t": "14 Sep \u00b7 02:10 PM",
-   "ur": "Uro: US Dollar ke maqable mein mazid kami pasandi - ING"
+   "link": "https://www.fxstreet.com/news/euro-tumbles-to-one-month-low-as-fed-rate-hike-bets-dominate-202609141433",
+   "t": "14 Sep \u00b7 07:33 PM"
+  },
+  {
+   "ts": 1789396373.0,
+   "title": "Canada: Contained inflation pressures support steady BoC \u2013 RBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canada-contained-inflation-pressures-support-steady-boc-rbc-202609141432",
+   "t": "14 Sep \u00b7 07:32 PM"
   }
  ],
  "sentiment": {
   "value": 57,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
