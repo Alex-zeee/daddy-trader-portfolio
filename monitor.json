@@ -1,35 +1,13 @@
 {
- "updated": "14-09-2026 10:10 PKT",
+ "updated": "14-09-2026 15:34 PKT",
  "gold": {
-  "price": 4330.32,
+  "price": 4291.6,
   "open": 4348.36,
   "high": 4355.11,
-  "low": 4322.78,
-  "chg": -0.42,
+  "low": 4279.27,
+  "chg": -1.31,
   "src": "XAUUSD Spot",
   "spark": [
-   4348.34,
-   4348.42,
-   4348.46,
-   4348.41,
-   4348.34,
-   4348.43,
-   4348.46,
-   4348.4,
-   4348.33,
-   4348.45,
-   4348.46,
-   4348.41,
-   4348.34,
-   4348.47,
-   4348.46,
-   4348.43,
-   4348.34,
-   4348.37,
-   4348.33,
-   4333.23,
-   4336.28,
-   4333.92,
    4338.4,
    4341.06,
    4336.93,
@@ -55,14 +33,36 @@
    4331.39,
    4325.34,
    4328.63,
-   4330.32
+   4329.41,
+   4327.86,
+   4328.32,
+   4336.49,
+   4327.61,
+   4330.96,
+   4326.11,
+   4322.12,
+   4321.26,
+   4318.67,
+   4319.29,
+   4310.45,
+   4314.77,
+   4312.28,
+   4311.29,
+   4306.27,
+   4305.84,
+   4285.3,
+   4284.1,
+   4285.83,
+   4288.31,
+   4291.02,
+   4291.6
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.455,
-   "chg": -0.15,
+   "price": 63.245,
+   "chg": -2.03,
    "spark": [
     64.988,
     66.121,
@@ -84,13 +84,13 @@
     67.942,
     64.284,
     64.554,
-    64.455
+    63.245
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.346,
-   "chg": 0.23,
+   "price": 99.57,
+   "chg": 0.45,
    "spark": [
     99.67,
     99.64,
@@ -112,13 +112,13 @@
     98.77,
     99.09,
     99.12,
-    99.346
+    99.57
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 102.71,
-   "chg": 2.66,
+   "price": 102.62,
+   "chg": 2.57,
    "spark": [
     82.4,
     84.5,
@@ -140,7 +140,7 @@
     96.05,
     102.48,
     100.05,
-    102.71
+    102.62
    ]
   },
   {
@@ -174,8 +174,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1567,
-   "chg": -0.37,
+   "price": 1.1543,
+   "chg": -0.57,
    "spark": [
     1.1535,
     1.1574,
@@ -198,13 +198,13 @@
     1.1627,
     1.1634,
     1.161,
-    1.1567
+    1.1543
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3503,
-   "chg": -0.05,
+   "price": 1.3487,
+   "chg": -0.17,
    "spark": [
     1.3491,
     1.3547,
@@ -227,13 +227,13 @@
     1.3545,
     1.3552,
     1.3509,
-    1.3503
+    1.3487
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 154.024,
-   "chg": -0.3,
+   "price": 154.599,
+   "chg": 0.08,
    "spark": [
     159.426,
     159.223,
@@ -256,19 +256,14 @@
     153.478,
     153.573,
     154.482,
-    154.024
+    154.599
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2510.86,
-   "chg": 1.41,
+   "price": 2514.79,
+   "chg": 1.57,
    "spark": [
-    2519.25,
-    2523.63,
-    2533.06,
-    2530.45,
-    2532.81,
     2535.53,
     2534.75,
     2544.19,
@@ -311,19 +306,19 @@
     2509.94,
     2511.82,
     2513.67,
-    2510.86
+    2515.1,
+    2513.54,
+    2522.02,
+    2517.61,
+    2522.42,
+    2514.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77540.8,
-   "chg": 0.96,
+   "price": 77911.1,
+   "chg": 1.45,
    "spark": [
-    77279.1,
-    77253.8,
-    77340.4,
-    77329.1,
-    77310.7,
     77337.7,
     77318.7,
     77346.2,
@@ -366,7 +361,12 @@
     77565.8,
     77560.2,
     77655.4,
-    77540.8
+    77577.4,
+    77553.0,
+    77850.0,
+    77702.8,
+    78114.3,
+    77911.1
    ]
   }
  ],
@@ -439,81 +439,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789362630.319776,
-   "title": "Hormuz shipping traffic remains below 10-day average at weekend, data shows",
+   "ts": 1789382079.875914,
+   "title": "Silver tests 200 SMA at $64.08 amid double top risk: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/hormuz-shipping-traffic-remains-below-10day-average-at-weekend-data-shows-4898814",
-   "t": "14 Sep \u00b7 10:10 AM"
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
+   "t": "14 Sep \u00b7 03:34 PM",
+   "ur": "Salor 200 SMA ka test $64.08 par dabl tap rask ke darmiyan karta hai."
   },
   {
-   "ts": 1789362630.319776,
-   "title": "Gold slips as hotter US inflation lifts Fed hike bets, oil stokes price pressures",
+   "ts": 1789382079.875914,
+   "title": "Gold clings to $4,355 confluence support: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-as-hotter-us-inflation-lifts-fed-hike-bets-oil-stokes-price-pressures-4898789",
-   "t": "14 Sep \u00b7 10:10 AM"
+   "link": "https://www.investing.com/news/commodities-news/gold-clings-to-4355-confluence-support-live-levels-93CH-4898868",
+   "t": "14 Sep \u00b7 03:34 PM",
+   "ur": "Gold (sona) $4,355 sangam sport se chimta hawa hai."
   },
   {
-   "ts": 1789362630.319776,
-   "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping-4898593",
-   "t": "14 Sep \u00b7 10:10 AM"
-  },
-  {
-   "ts": 1789361536.0,
-   "title": "Gold flat lines above $4,300 as firmer USD caps upside amid hawkish central bank bets",
+   "ts": 1789380642.0,
+   "title": "USD/CAD Price Forecast: US Dollar gains momentum and targets 1.3940 area",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-flat-lines-above-4-300-as-firmer-usd-caps-upside-amid-hawkish-central-bank-bets-202609140452",
-   "t": "14 Sep \u00b7 09:52 AM"
+   "link": "https://www.fxstreet.com/news/usd-cad-price-forecast-us-dollar-gains-momentum-and-targets-13940-area-202609141010",
+   "t": "14 Sep \u00b7 03:10 PM",
+   "ur": "USD/CAD qeemat ki forecast: US Dollar ne raftar haasil ki aur 1.3940 alaqe ko nashana banaya"
   },
   {
-   "ts": 1789361185.0,
-   "title": "EUR/USD Price Forecast: Slides to four-week low as hawkish Fed bets accelerate",
+   "ts": 1789380340.0,
+   "title": "British Pound: Downside pressure persists against US Dollar - UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-slides-to-four-week-low-as-hawkish-fed-bets-accelerate-202609140446",
-   "t": "14 Sep \u00b7 09:46 AM"
+   "link": "https://www.fxstreet.com/news/british-pound-downside-pressure-persists-against-us-dollar-uob-202609141005",
+   "t": "14 Sep \u00b7 03:05 PM",
+   "ur": "Bartanvi pound: US Dollar - UOB ke khalaf manfi dabao barqarar hai."
   },
   {
-   "ts": 1789360507.0,
-   "title": "India Gold price today: Gold falls, according to FXStreet data",
+   "ts": 1789379024.0,
+   "title": "Japanese Yen: BoJ guidance crucial for further gains against US Dollar \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202609140435",
-   "t": "14 Sep \u00b7 09:35 AM"
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-guidance-crucial-for-further-gains-against-us-dollar-ocbc-202609140943",
+   "t": "14 Sep \u00b7 02:43 PM",
+   "ur": "Japani yan: US Dollar - OCBC ke maqable mein mazid fawaid ke liye BoJ rahnumi aham hai."
   },
   {
-   "ts": 1789355391.0,
-   "title": "United States Dollar Index rises to near 99.50 as Fed rate hike bets increase",
+   "ts": 1789378322.0,
+   "title": "Swiss Franc nears yearly lows as Fed rate hike bets boost US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-rises-to-near-9950-as-fed-rate-hike-bets-increase-202609140309",
-   "t": "14 Sep \u00b7 08:09 AM"
+   "link": "https://www.fxstreet.com/news/swiss-franc-nears-yearly-lows-as-fed-rate-hike-bets-boost-us-dollar-202609140932",
+   "t": "14 Sep \u00b7 02:32 PM",
+   "ur": "Sois farank salana kam tarin sath ke qarib pohch gaya hai cunkah fed ki rate mein azafe ki shart US Dollar ko badha rahi hai."
   },
   {
-   "ts": 1789354641.0,
-   "title": "New Zealand Dollar weakens below 0.5800 on RBNZ dovish signals",
+   "ts": 1789378218.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-weakens-below-05800-on-rbnz-dovish-signals-202609140257",
-   "t": "14 Sep \u00b7 07:57 AM"
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202609140930",
+   "t": "14 Sep \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   },
   {
-   "ts": 1789353110.0,
-   "title": "Silver Price Forecast: XAG/USD bears have the upper hand below $64.75-$64.85 confluence",
+   "ts": 1789377340.0,
+   "title": "Euro advances against Japanese Yen despite BoJ rate hike expectations",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-bears-have-the-upper-hand-below-6475-6485-confluence-202609140231",
-   "t": "14 Sep \u00b7 07:31 AM"
+   "link": "https://www.fxstreet.com/news/euro-advances-against-japanese-yen-despite-boj-rate-hike-expectations-202609140915",
+   "t": "14 Sep \u00b7 02:15 PM",
+   "ur": "BoJ rate mein azafe ki toqaat ke bawajud uro japani yan ke maqable mein aage badh raha hai."
   },
   {
-   "ts": 1789351830.0,
-   "title": "Canadian Dollar gains support from higher oil prices amid Saudi pipeline disruptions",
+   "ts": 1789377052.0,
+   "title": "Japanese Yen weakens as rising risk aversion lifts US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-support-from-higher-oil-prices-amid-saudi-pipeline-disruptions-202609140210",
-   "t": "14 Sep \u00b7 07:10 AM"
+   "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-rising-risk-aversion-lifts-us-dollar-202609140910",
+   "t": "14 Sep \u00b7 02:10 PM",
+   "ur": "Japani yan kamazor pad raha hai cunkah badhte huvay khatre se bachane ki wajah se US Dollar ki qeemat badh rahi hai."
+  },
+  {
+   "ts": 1789377021.0,
+   "title": "Euro: Further downside favoured against US Dollar - ING",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-further-downside-favoured-against-us-dollar-ing-202609140910",
+   "t": "14 Sep \u00b7 02:10 PM",
+   "ur": "Uro: US Dollar ke maqable mein mazid kami pasandi - ING"
   }
  ],
  "sentiment": {
   "value": 57,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
