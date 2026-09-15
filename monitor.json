@@ -1,22 +1,13 @@
 {
- "updated": "15-09-2026 04:26 PKT",
+ "updated": "15-09-2026 06:37 PKT",
  "gold": {
-  "price": 4290.42,
-  "open": 4337.58,
+  "price": 4301.28,
+  "open": 4339.8,
   "high": 4355.11,
   "low": 4253.79,
-  "chg": -1.09,
+  "chg": -0.89,
   "src": "XAUUSD Spot",
   "spark": [
-   4293.99,
-   4284.9,
-   4294.34,
-   4286.68,
-   4285.37,
-   4271.65,
-   4266.5,
-   4271.21,
-   4271.82,
    4272.0,
    4277.78,
    4268.27,
@@ -55,14 +46,23 @@
    4295.31,
    4294.61,
    4293.43,
-   4290.42
+   4289.75,
+   4289.52,
+   4288.58,
+   4286.11,
+   4287.3,
+   4292.98,
+   4293.29,
+   4298.55,
+   4301.09,
+   4301.28
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.685,
-   "chg": -1.35,
+   "price": 63.935,
+   "chg": -0.96,
    "spark": [
     64.988,
     66.121,
@@ -84,13 +84,13 @@
     67.942,
     64.284,
     64.554,
-    63.685
+    63.935
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.467,
-   "chg": 0.35,
+   "price": 99.585,
+   "chg": 0.47,
    "spark": [
     99.67,
     99.64,
@@ -112,13 +112,13 @@
     98.77,
     99.09,
     99.12,
-    99.467
+    99.585
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 101.99,
-   "chg": 1.94,
+   "price": 102.49,
+   "chg": 2.44,
    "spark": [
     82.4,
     84.5,
@@ -140,7 +140,7 @@
     96.05,
     102.48,
     100.05,
-    101.99
+    102.49
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1554,
-   "chg": -0.34,
+   "price": 1.1542,
+   "chg": -0.45,
    "spark": [
     1.1574,
     1.1583,
@@ -197,13 +197,13 @@
     1.1634,
     1.161,
     1.1594,
-    1.1554
+    1.1542
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3503,
-   "chg": -0.17,
+   "price": 1.3488,
+   "chg": -0.28,
    "spark": [
     1.3547,
     1.355,
@@ -226,13 +226,13 @@
     1.3552,
     1.3509,
     1.3526,
-    1.3503
+    1.3488
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 154.362,
-   "chg": 0.61,
+   "price": 154.752,
+   "chg": 0.87,
    "spark": [
     159.223,
     159.34,
@@ -255,16 +255,14 @@
     153.573,
     154.482,
     153.424,
-    154.362
+    154.752
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2525.55,
-   "chg": 2.0,
+   "price": 2512.9,
+   "chg": -0.09,
    "spark": [
-    2524.66,
-    2525.28,
     2521.48,
     2520.19,
     2519.5,
@@ -310,16 +308,16 @@
     2570.19,
     2546.96,
     2532.93,
-    2525.55
+    2515.81,
+    2515.59,
+    2512.9
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78415.7,
-   "chg": 2.1,
+   "price": 77924.9,
+   "chg": -0.33,
    "spark": [
-    77257.0,
-    77300.7,
     77265.9,
     77177.2,
     77191.1,
@@ -365,7 +363,9 @@
     79090.0,
     78750.0,
     78541.0,
-    78415.7
+    78193.1,
+    77944.3,
+    77924.9
    ]
   }
  ],
@@ -438,12 +438,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789428391.147345,
+   "ts": 1789436255.313434,
    "title": "Gold dips amid rising dollar as Fed rate hike bets ramp up to near certainty",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-as-hotter-us-inflation-lifts-fed-hike-bets-oil-stokes-price-pressures-4898789",
-   "t": "15 Sep \u00b7 04:26 AM",
+   "t": "15 Sep \u00b7 06:37 AM",
    "ur": "Badhte huvay Dollar ke darmiyan Gold (sona) garta hai cunkah fed ki rate mein azafe ki shart qarib qarib tak pohch jati hai."
+  },
+  {
+   "ts": 1789434771.0,
+   "title": "Canadian Dollar consolidates near 1.3900 as oil gains offset bullish USD ahead of Fed",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-consolidates-near-13900-as-oil-gains-offset-bullish-usd-ahead-of-fed-202609150112",
+   "t": "15 Sep \u00b7 06:12 AM",
+   "ur": "Caniden Dollar 1.3900 ke qarib mastahkam hota hai cunkah til ke azafe ne fed se aage tizi USD ko afset kiya"
+  },
+  {
+   "ts": 1789432897.0,
+   "title": "Japanese Yen weakens as Fed rate hike looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-fed-rate-hike-looms-202609150041",
+   "t": "15 Sep \u00b7 05:41 AM",
+   "ur": "Fed ki rate mein azafe ki wajah se japani yan kamazor ho raha hai."
   },
   {
    "ts": 1789427676.0,
@@ -500,26 +516,10 @@
    "link": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
    "t": "15 Sep \u00b7 12:47 AM",
    "ur": "Voton ki ganti: warsh ko ek saqt jang ka samana hai cunkah fed ne rate sud mein matoqa azafe ke liye commer kas li"
-  },
-  {
-   "ts": 1789414191.0,
-   "title": "Forex Today: US Dollar firms ahead of UK jobs and a midweek Fed decision",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-ahead-of-uk-jobs-and-a-midweek-fed-decision-202609141929",
-   "t": "15 Sep \u00b7 12:29 AM",
-   "ur": "Farex today: US Dollar ki farmin bartaniya ki malazmaton aur wast haftah Fed ke fisale se aage hen."
-  },
-  {
-   "ts": 1789413956.0,
-   "title": "Silver Price Forecast: Neckline rejection keeps $60 in sight",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-neckline-rejection-keeps-60-in-sight-202609141925",
-   "t": "15 Sep \u00b7 12:25 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: nik lin mastard $60 nazar mein rakta hai."
   }
  ],
  "sentiment": {
-  "value": 57,
+  "value": 69,
   "label": "Greed"
  },
  "err": null
