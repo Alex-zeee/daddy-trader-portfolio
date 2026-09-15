@@ -1,25 +1,13 @@
 {
- "updated": "15-09-2026 21:54 PKT",
+ "updated": "16-09-2026 00:53 PKT",
  "gold": {
-  "price": 4297.75,
-  "open": 4315.29,
+  "price": 4298.88,
+  "open": 4284.96,
   "high": 4317.6,
   "low": 4260.03,
-  "chg": -0.41,
+  "chg": 0.32,
   "src": "XAUUSD Spot",
   "spark": [
-   4300.89,
-   4298.06,
-   4295.88,
-   4291.59,
-   4289.43,
-   4289.51,
-   4289.52,
-   4294.93,
-   4288.34,
-   4291.07,
-   4283.29,
-   4279.6,
    4266.72,
    4272.44,
    4268.41,
@@ -55,14 +43,26 @@
    4287.3,
    4295.1,
    4295.79,
-   4297.75
+   4296.76,
+   4297.48,
+   4296.05,
+   4293.33,
+   4295.04,
+   4304.03,
+   4304.19,
+   4305.43,
+   4307.46,
+   4301.65,
+   4301.53,
+   4297.47,
+   4298.88
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.935,
-   "chg": 0.66,
+   "price": 64.165,
+   "chg": 1.03,
    "spark": [
     66.121,
     63.941,
@@ -84,12 +84,12 @@
     64.284,
     64.554,
     63.513,
-    63.935
+    64.165
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.633,
+   "price": 99.63,
    "chg": 0.17,
    "spark": [
     99.64,
@@ -112,13 +112,13 @@
     99.09,
     99.12,
     99.46,
-    99.633
+    99.63
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 106.0,
-   "chg": 4.55,
+   "price": 105.68,
+   "chg": 4.23,
    "spark": [
     84.5,
     84.94,
@@ -140,13 +140,13 @@
     102.48,
     100.05,
     101.39,
-    106.0
+    105.68
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.0,
-   "chg": 0.79,
+   "price": 4.996,
+   "chg": 0.71,
    "spark": [
     4.724,
     4.706,
@@ -168,13 +168,13 @@
     4.944,
     4.975,
     4.961,
-    5.0
+    4.996
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1546,
-   "chg": -0.41,
+   "price": 1.1545,
+   "chg": -0.42,
    "spark": [
     1.1574,
     1.1583,
@@ -197,13 +197,13 @@
     1.1634,
     1.161,
     1.1594,
-    1.1546
+    1.1545
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3479,
-   "chg": -0.35,
+   "price": 1.3476,
+   "chg": -0.37,
    "spark": [
     1.3547,
     1.355,
@@ -226,13 +226,13 @@
     1.3552,
     1.3509,
     1.3526,
-    1.3479
+    1.3476
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 155.045,
-   "chg": 1.06,
+   "price": 155.112,
+   "chg": 1.1,
    "spark": [
     159.223,
     159.34,
@@ -255,17 +255,14 @@
     153.573,
     154.482,
     153.424,
-    155.045
+    155.112
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2422.43,
-   "chg": -3.69,
+   "price": 2407.52,
+   "chg": -4.28,
    "spark": [
-    2504.17,
-    2508.72,
-    2505.11,
     2511.96,
     2508.01,
     2474.5,
@@ -310,17 +307,17 @@
     2452.66,
     2406.5,
     2423.4,
-    2422.43
+    2420.93,
+    2439.08,
+    2401.15,
+    2407.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76402.5,
-   "chg": -2.28,
+   "price": 75933.2,
+   "chg": -2.88,
    "spark": [
-    77298.9,
-    77316.6,
-    77253.8,
     77311.5,
     77278.3,
     76680.3,
@@ -365,19 +362,14 @@
     76575.8,
     75892.9,
     76469.0,
-    76402.5
+    76336.5,
+    76919.7,
+    75935.6,
+    75935.7
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1789480800.0,
-   "t": "Tue 15 Sep \u00b7 07:00 PM",
-   "title": "Treasury Sec Bessent Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1789561800.0,
    "t": "Wed 16 Sep \u00b7 05:30 PM",
@@ -446,28 +438,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789491243.192269,
-   "title": "Gold weakens amid pressure from growing Fed rate hike bets",
+   "ts": 1789502005.394075,
+   "title": "Silver trapped in $63-$65 range with MACD crossover: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4300-as-oil-disruption-lifts-fed-hike-bets-4900741",
-   "t": "15 Sep \u00b7 09:54 PM",
-   "ur": "Fed ki rate mein azafe ke badhte huvay dabao ke darmiyan Gold (sona) kamazor ho gaya."
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
+   "t": "16 Sep \u00b7 12:53 AM",
+   "ur": "MACD karas over ke sath Silver (chandi) $63-$65 ki had mein phans gayi."
   },
   {
-   "ts": 1789491243.192269,
-   "title": "Corn futures fall on stronger dollar and improved crop ratings",
+   "ts": 1789502005.394075,
+   "title": "Gold bear flag below $4,372 resistance: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/corn-futures-fall-on-stronger-dollar-and-improved-crop-ratings-93CH-4901917",
-   "t": "15 Sep \u00b7 09:54 PM",
-   "ur": "Karn futurs mazboot Dollar aur behtar fasl ki darjah bandi par garte hen."
+   "link": "https://www.investing.com/news/commodities-news/gold-clings-to-4355-confluence-support-live-levels-93CH-4898868",
+   "t": "16 Sep \u00b7 12:53 AM",
+   "ur": "$4,372 mazahmat se niche Gold (sone) ke bears ka parcham"
   },
   {
-   "ts": 1789491243.192269,
-   "title": "Wheat futures fall on stronger dollar and diplomacy hopes",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/wheat-futures-fall-on-stronger-dollar-and-diplomacy-hopes-93CH-4901914",
-   "t": "15 Sep \u00b7 09:54 PM",
-   "ur": "Gandam ka mastaqbl mazboot Dollar aur safart kari ki amidon par gara hai."
+   "ts": 1789501176.0,
+   "title": "Forex Today: US Dollar firms as markets brace for Fed rate decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-firms-as-markets-brace-for-fed-rate-decision-202609151939",
+   "t": "16 Sep \u00b7 12:39 AM",
+   "ur": "Farex today: US Dollar ki farmin batur market fed ret ke fisale ke liye tyar hen."
+  },
+  {
+   "ts": 1789499520.0,
+   "title": "Singapore Dollar: Downtrend seen limited against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-downtrend-seen-limited-against-us-dollar-uob-202609151912",
+   "t": "16 Sep \u00b7 12:12 AM",
+   "ur": "Sangapor Dollar: US Dollar - UOB ke maqable mein kami ka rjahan muhadud dekha gaya."
+  },
+  {
+   "ts": 1789498195.0,
+   "title": "Japanese Yen slips as Oil lifts yields ahead of the Fed",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-slips-as-oil-lifts-yields-ahead-of-the-fed-202609151849",
+   "t": "15 Sep \u00b7 11:49 PM",
+   "ur": "Japani yan phisalta hai cunkah til ki pedawar Fed se aage badh jati hai."
+  },
+  {
+   "ts": 1789496048.0,
+   "title": "100 threshold: United States Dollar Index faces make-or-break Fed decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/100-threshold-united-states-dollar-index-faces-make-or-break-fed-decision-202609151814",
+   "t": "15 Sep \u00b7 11:14 PM",
+   "ur": "100 ki had: ryastahaye matehdah ke Dollar andex ko Fed ke mek ap yaa barik fisale ka samana hai."
+  },
+  {
+   "ts": 1789495933.0,
+   "title": "Gold bulls hit 100-day SMA wall as US yields bite",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-bulls-hit-100-day-sma-wall-as-us-yields-bite-202609151812",
+   "t": "15 Sep \u00b7 11:12 PM",
+   "ur": "Gold (sone) ke bel 100 dan ke es em aye ki dewar se takara gaye cunkah US pedawar kat rahi hai."
+  },
+  {
+   "ts": 1789492456.0,
+   "title": "Canadian Dollar remains vulnerable aas Fed takes centre stage",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-vulnerable-aas-fed-takes-centre-stage-202609151714",
+   "t": "15 Sep \u00b7 10:14 PM",
+   "ur": "Caniden Dollar badastor kamazor hai cunkah fed markazi marhale mein hai."
+  },
+  {
+   "ts": 1789491566.0,
+   "title": "Silver attempts cautious rebound ahead of closely watched Fed decision",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-attempts-cautious-rebound-ahead-of-closely-watched-fed-decision-202609151659",
+   "t": "15 Sep \u00b7 09:59 PM",
+   "ur": "Fed ke fisale se pehle Silver (chandi) ne muhatat saht mandi lotne ki koshash ki."
   },
   {
    "ts": 1789489469.0,
@@ -476,54 +516,6 @@
    "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-slides-as-yields-beat-the-fed-to-tomorrows-hike-202609151624",
    "t": "15 Sep \u00b7 09:24 PM",
    "ur": "Dou joons ki sanati ost salaid hoi cunkah pedawar ne fed ko kal ke azafe se shkist di"
-  },
-  {
-   "ts": 1789488293.0,
-   "title": "British Pound wilts as Oil shock sends US yields past 5%",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-wilts-as-oil-shock-sends-us-yields-past-5-202609151604",
-   "t": "15 Sep \u00b7 09:04 PM",
-   "ur": "Bartanvi pound marjha gaya cunkah til ke jhatake se US pedawar 5 fisad se tajaws kar gayi"
-  },
-  {
-   "ts": 1789486289.0,
-   "title": "Euro stays neutral against Pound ahead of UK inflation data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-stays-neutral-against-pound-ahead-of-uk-inflation-data-202609151531",
-   "t": "15 Sep \u00b7 08:31 PM",
-   "ur": "Uro bartaniya ke inflation (mehngai) ke aed w shmar se pehle pound ke khalaf ghair janbadar rahta hai."
-  },
-  {
-   "ts": 1789484787.0,
-   "title": "Japanese Yen: Weak as markets price BoJ hike against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-weak-as-markets-price-boj-hike-against-us-dollar-scotiabank-202609151506",
-   "t": "15 Sep \u00b7 08:06 PM",
-   "ur": "Japani yan: US Dollar ke maqable bazaron ki qeemat BoJ mein azafe ke baas kamazor - Scotiabank"
-  },
-  {
-   "ts": 1789483831.0,
-   "title": "British Pound: Further weakness eyed toward 1.3410 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-further-weakness-eyed-toward-13410-against-us-dollar-uob-202609151450",
-   "t": "15 Sep \u00b7 07:50 PM",
-   "ur": "Bartanvi pound: US Dollar ke maqable mein mazid kamazori 1.3410 ki taraf hai - UOB"
-  },
-  {
-   "ts": 1789483810.0,
-   "title": "Australian Dollar continues recent slide ahead of Fed decision",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-continues-recent-slide-ahead-of-fed-decision-202609151450",
-   "t": "15 Sep \u00b7 07:50 PM",
-   "ur": "Aasterilvi Dollar fed ke fisale se pehle haaliya salaid ko jari rakhe huvay hai."
-  },
-  {
-   "ts": 1789482319.0,
-   "title": "Euro: Support holds near 1.15 against US Dollar \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-support-holds-near-115-against-us-dollar-scotiabank-202609151425",
-   "t": "15 Sep \u00b7 07:25 PM",
-   "ur": "Uro: US Dollar - Scotiabank ke maqable mein sport 1.15 ke qarib hai."
   }
  ],
  "sentiment": {
