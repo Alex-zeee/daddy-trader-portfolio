@@ -1,22 +1,13 @@
 {
- "updated": "17-09-2026 02:27 PKT",
+ "updated": "17-09-2026 04:42 PKT",
  "gold": {
-  "price": 4263.52,
-  "open": 4294.0,
+  "price": 4270.97,
+  "open": 4284.76,
   "high": 4359.58,
   "low": 4238.37,
-  "chg": -0.71,
+  "chg": -0.32,
   "src": "XAUUSD Spot",
   "spark": [
-   4336.38,
-   4338.92,
-   4342.13,
-   4347.77,
-   4348.79,
-   4348.99,
-   4348.31,
-   4351.24,
-   4350.8,
    4342.69,
    4343.68,
    4338.79,
@@ -55,14 +46,23 @@
    4263.24,
    4264.07,
    4263.33,
-   4263.52
+   4263.84,
+   4263.28,
+   4263.45,
+   4261.69,
+   4262.38,
+   4273.23,
+   4270.38,
+   4261.88,
+   4271.61,
+   4270.97
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.42,
-   "chg": 0.29,
+   "price": 63.585,
+   "chg": 0.55,
    "spark": [
     66.121,
     63.941,
@@ -85,13 +85,13 @@
     64.554,
     63.513,
     63.236,
-    63.42
+    63.585
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.325,
-   "chg": 0.68,
+   "price": 100.34,
+   "chg": 0.69,
    "spark": [
     99.64,
     99.65,
@@ -114,13 +114,13 @@
     99.12,
     99.46,
     99.65,
-    100.325
+    100.34
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 102.02,
-   "chg": -3.6,
+   "price": 101.98,
+   "chg": -3.64,
    "spark": [
     84.5,
     84.94,
@@ -143,7 +143,7 @@
     100.05,
     101.39,
     105.83,
-    102.02
+    101.98
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1473,
-   "chg": -0.65,
+   "price": 1.1472,
+   "chg": -0.57,
    "spark": [
-    1.1583,
     1.1579,
     1.1674,
     1.1688,
@@ -201,15 +200,15 @@
     1.161,
     1.1594,
     1.1549,
-    1.1473
+    1.1538,
+    1.1472
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3381,
-   "chg": -0.89,
+   "price": 1.3384,
+   "chg": -0.67,
    "spark": [
-    1.355,
     1.3537,
     1.36,
     1.3643,
@@ -230,15 +229,15 @@
     1.3509,
     1.3526,
     1.3501,
-    1.3381
+    1.3473,
+    1.3384
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.188,
-   "chg": 1.17,
+   "price": 156.156,
+   "chg": 0.57,
    "spark": [
-    159.34,
     159.55,
     158.276,
     158.883,
@@ -259,16 +258,15 @@
     154.482,
     153.424,
     154.385,
-    156.188
+    155.266,
+    156.156
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2407.12,
-   "chg": 0.43,
+   "price": 2416.43,
+   "chg": 0.82,
    "spark": [
-    2532.93,
-    2515.81,
     2515.59,
     2515.05,
     2511.9,
@@ -314,16 +312,16 @@
     2395.68,
     2406.5,
     2408.87,
-    2407.12
+    2403.02,
+    2390.39,
+    2416.43
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76027.8,
-   "chg": 0.59,
+   "price": 76113.0,
+   "chg": 0.7,
    "spark": [
-    78541.0,
-    78193.1,
     77944.3,
     77897.4,
     77870.9,
@@ -369,19 +367,13 @@
     75559.5,
     76012.4,
     76105.6,
-    76027.7
+    75910.5,
+    75615.7,
+    76113.0
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1789583400.0,
-   "t": "Wed 16 Sep \u00b7 11:30 PM",
-   "title": "FOMC Press Conference",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1789648200.0,
    "t": "Thu 17 Sep \u00b7 05:30 PM",
@@ -402,11 +394,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789594076.954844,
+   "ts": 1789602161.034246,
    "title": "Silver breaks 50% Fib support at $63: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "17 Sep \u00b7 02:27 AM"
+   "t": "17 Sep \u00b7 04:42 AM"
+  },
+  {
+   "ts": 1789601130.0,
+   "title": "Gold falls to near $4,250 after Fed delivers rate hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-falls-to-near-4-250-after-fed-delivers-rate-hike-202609162325",
+   "t": "17 Sep \u00b7 04:25 AM"
+  },
+  {
+   "ts": 1789597169.0,
+   "title": "The Pound drops below its long-run average as the Fed's rate passes Britain's",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-pound-drops-below-its-long-run-average-as-the-feds-rate-passes-britains-202609162219",
+   "t": "17 Sep \u00b7 03:19 AM"
+  },
+  {
+   "ts": 1789596080.0,
+   "title": "The Euro's losing streak runs on as the Fed matches the ECB's rate hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-euros-losing-streak-runs-on-as-the-fed-matches-the-ecbs-rate-hike-202609162201",
+   "t": "17 Sep \u00b7 03:01 AM"
   },
   {
    "ts": 1789593506.0,
@@ -449,27 +462,6 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-slides-as-hawkish-fed-lifts-us-dollar-and-treasury-yields-202609161916",
    "t": "17 Sep \u00b7 12:16 AM"
-  },
-  {
-   "ts": 1789585222.0,
-   "title": "Federal Reserve Chair Warsh: Inflation trends were not passing the test",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/federal-reserve-chair-warsh-inflation-trends-were-not-passing-the-test-202609161900",
-   "t": "17 Sep \u00b7 12:00 AM"
-  },
-  {
-   "ts": 1789585113.0,
-   "title": "Fed raises 2026 interest rate forecast to 4.1%, lifts PCE inflation projections",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/fed-raises-2026-interest-rate-forecast-to-41-lifts-pce-inflation-projections-202609161858",
-   "t": "16 Sep \u00b7 11:58 PM"
-  },
-  {
-   "ts": 1789584100.0,
-   "title": "The Canadian Dollar slips to a summer low on the Fed's rate hike",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/fed-hike-sends-the-loonie-to-a-six-week-low-202609161841",
-   "t": "16 Sep \u00b7 11:41 PM"
   }
  ],
  "sentiment": {
