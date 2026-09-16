@@ -1,31 +1,13 @@
 {
- "updated": "16-09-2026 14:56 PKT",
+ "updated": "16-09-2026 19:27 PKT",
  "gold": {
-  "price": 4335.56,
-  "open": 4268.66,
-  "high": 4340.22,
-  "low": 4268.66,
-  "chg": 1.57,
+  "price": 4332.87,
+  "open": 4284.07,
+  "high": 4359.58,
+  "low": 4275.7,
+  "chg": 1.14,
   "src": "XAUUSD Spot",
   "spark": [
-   4294.02,
-   4298.06,
-   4295.17,
-   4290.42,
-   4286.95,
-   4283.01,
-   4284.94,
-   4281.95,
-   4282.74,
-   4283.68,
-   4283.94,
-   4277.03,
-   4286.14,
-   4291.66,
-   4288.84,
-   4281.52,
-   4292.98,
-   4299.39,
    4312.88,
    4320.27,
    4336.91,
@@ -55,14 +37,32 @@
    4331.89,
    4330.25,
    4336.38,
-   4335.56
+   4338.92,
+   4342.13,
+   4347.77,
+   4348.79,
+   4348.99,
+   4348.31,
+   4351.24,
+   4350.8,
+   4342.69,
+   4343.68,
+   4338.79,
+   4344.17,
+   4346.26,
+   4355.91,
+   4354.73,
+   4343.35,
+   4337.48,
+   4337.98,
+   4332.87
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.99,
-   "chg": 2.77,
+   "price": 64.81,
+   "chg": 2.49,
    "spark": [
     66.121,
     63.941,
@@ -85,13 +85,13 @@
     64.554,
     63.513,
     63.236,
-    64.99
+    64.81
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 99.648,
-   "chg": -0.0,
+   "price": 99.712,
+   "chg": 0.06,
    "spark": [
     99.64,
     99.65,
@@ -114,13 +114,13 @@
     99.12,
     99.46,
     99.65,
-    99.648
+    99.712
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 104.16,
-   "chg": -1.58,
+   "price": 103.35,
+   "chg": -2.34,
    "spark": [
     84.5,
     84.94,
@@ -143,13 +143,13 @@
     100.05,
     101.39,
     105.83,
-    104.16
+    103.35
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.996,
-   "chg": 0.71,
+   "price": 4.971,
+   "chg": -0.5,
    "spark": [
     4.724,
     4.706,
@@ -171,13 +171,14 @@
     4.944,
     4.975,
     4.961,
-    4.996
+    4.996,
+    4.971
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1543,
-   "chg": -0.05,
+   "price": 1.1541,
+   "chg": -0.07,
    "spark": [
     1.1583,
     1.1579,
@@ -200,13 +201,13 @@
     1.161,
     1.1594,
     1.1549,
-    1.1543
+    1.1541
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.347,
-   "chg": -0.23,
+   "price": 1.3455,
+   "chg": -0.34,
    "spark": [
     1.355,
     1.3537,
@@ -229,13 +230,13 @@
     1.3509,
     1.3526,
     1.3501,
-    1.347
+    1.3455
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 155.135,
-   "chg": 0.49,
+   "price": 155.15,
+   "chg": 0.5,
    "spark": [
     159.34,
     159.55,
@@ -258,19 +259,14 @@
     154.482,
     153.424,
     154.385,
-    155.135
+    155.15
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2403.95,
-   "chg": 0.3,
+   "price": 2391.44,
+   "chg": -0.22,
    "spark": [
-    2512.01,
-    2508.06,
-    2504.25,
-    2500.18,
-    2500.73,
     2507.62,
     2529.17,
     2532.96,
@@ -313,19 +309,19 @@
     2404.53,
     2395.08,
     2401.2,
-    2403.95
+    2403.96,
+    2404.05,
+    2420.43,
+    2404.78,
+    2391.99,
+    2391.44
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75899.9,
-   "chg": 0.42,
+   "price": 75662.5,
+   "chg": 0.1,
    "spark": [
-    77867.4,
-    77742.0,
-    77660.6,
-    78135.3,
-    78490.8,
     78553.6,
     78759.8,
     78931.6,
@@ -368,7 +364,12 @@
     75950.0,
     75704.0,
     75670.9,
-    75899.9
+    75920.0,
+    75901.5,
+    76179.9,
+    75900.0,
+    75579.7,
+    75662.5
    ]
   }
  ],
@@ -441,81 +442,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789552581.980115,
-   "title": "Silver stuck in $63-$66.25 range awaiting breakout: Live levels",
+   "ts": 1789568848.045351,
+   "title": "Gold rebounds as oil prices ease ahead of key Fed decision",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "16 Sep \u00b7 02:56 PM"
+   "link": "https://www.investing.com/news/commodities-news/gold-slips-ahead-of-fed-decision-as-oil-yields-keep-ratehike-bets-elevated-4902839",
+   "t": "16 Sep \u00b7 07:27 PM",
+   "ur": "Fed ke kalidi fisale se qabl til ki qeemton mein narmi ke baas Gold (sone) ki recovery"
   },
   {
-   "ts": 1789552006.0,
-   "title": "Australian Dollar treads water against Japanese Yen ahead of BoJ rate hike",
+   "ts": 1789567200.0,
+   "title": "Federal Reserve set to raise interest rate after five meetings on hold",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-treads-water-against-japanese-yen-ahead-of-boj-rate-hike-202609160946",
-   "t": "16 Sep \u00b7 02:46 PM"
+   "link": "https://www.fxstreet.com/news/federal-reserve-set-to-raise-interest-rate-after-five-meetings-on-hold-202609161400",
+   "t": "16 Sep \u00b7 07:00 PM",
+   "ur": "Faderl resero ne panch ajalason ke aneqad ke bad rate sud mein azafah kiya hai."
   },
   {
-   "ts": 1789551188.0,
-   "title": "Silver price today: Silver rises, according to FXStreet data",
+   "ts": 1789566351.0,
+   "title": "Euro trades cautiously against US Dollar ahead of expected Fed rate hike",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202609160933",
-   "t": "16 Sep \u00b7 02:33 PM"
+   "link": "https://www.fxstreet.com/news/euro-trades-cautiously-against-us-dollar-ahead-of-expected-fed-rate-hike-202609161345",
+   "t": "16 Sep \u00b7 06:45 PM",
+   "ur": "Fed ki rate mein matoqa azafe se pehle uro US Dollar ke maqable mein ahtyat se tajart karta hai."
   },
   {
-   "ts": 1789550610.0,
-   "title": "US Dollar: Higher yields and oil support \u2013 MUFG",
+   "ts": 1789566098.0,
+   "title": "Silver price rebounds ahead of expected Fed rate hike, Warsh press conference",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-higher-yields-and-oil-support-mufg-202609160923",
-   "t": "16 Sep \u00b7 02:23 PM"
+   "link": "https://www.fxstreet.com/news/silver-price-rebounds-ahead-of-expected-fed-rate-hike-warsh-press-conference-202609161341",
+   "t": "16 Sep \u00b7 06:41 PM",
+   "ur": "Fed ki rate mein matoqa azafe se qabl Silver (chandi) ki qeemat mein tizi, warsh paris kanfarns"
   },
   {
-   "ts": 1789549931.0,
-   "title": "Japanese Yen: Limited losses within 153.30\u2013156.30 band against US Dollar \u2013 UOB",
+   "ts": 1789565894.0,
+   "title": "US Dollar: Fed pricing creates asymmetric risks \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-limited-losses-within-15330-15630-band-against-us-dollar-uob-202609160912",
-   "t": "16 Sep \u00b7 02:12 PM"
+   "link": "https://www.fxstreet.com/news/us-dollar-fed-pricing-creates-asymmetric-risks-bbh-202609161338",
+   "t": "16 Sep \u00b7 06:38 PM",
+   "ur": "US Dollar: fed qeemton ka tayin ghair mutanasab khatrat peda karta hai - BBH"
   },
   {
-   "ts": 1789549355.0,
-   "title": "GBP/USD Price Forecast: Fails near 1.3500 as bears eye 200-SMA ahead of Fed decision",
+   "ts": 1789561755.0,
+   "title": "US Dollar: Modestly bearish path under gridlock \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gbp-usd-price-forecast-fails-near-13500-as-bears-eye-200-sma-ahead-of-fed-decision-202609160902",
-   "t": "16 Sep \u00b7 02:02 PM"
+   "link": "https://www.fxstreet.com/news/us-dollar-modestly-bearish-path-under-gridlock-td-securities-202609161229",
+   "t": "16 Sep \u00b7 05:29 PM",
+   "ur": "US Dollar: gard laak ke taht mamoli mandi ka raastah - TD securitez"
   },
   {
-   "ts": 1789549267.0,
-   "title": "Euro: 1.150 target nears on Fed risk against US Dollar \u2013 ING",
+   "ts": 1789559709.0,
+   "title": "Canadian Dollar tests monthly lows against US Dollar ahead of Fed decision",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-1150-target-nears-on-fed-risk-against-us-dollar-ing-202609160901",
-   "t": "16 Sep \u00b7 02:01 PM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-tests-monthly-lows-against-us-dollar-ahead-of-fed-decision-202609161155",
+   "t": "16 Sep \u00b7 04:55 PM",
+   "ur": "Fed ke fisale se pehle caniden Dollar US Dollar ke maqable mein mahana nchali sath ka amtahan le raha hai."
   },
   {
-   "ts": 1789548500.0,
-   "title": "USD/JPY Price Forecast: Retreats from 155.50 with Fed\u2019s policy in focus",
+   "ts": 1789559274.0,
+   "title": "Australian Dollar holds its ground ahead of highly anticipated Fed decision",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/usd-jpy-price-forecast-retreats-from-15550-with-feds-policy-in-focus-202609160848",
-   "t": "16 Sep \u00b7 01:48 PM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-its-ground-ahead-of-highly-anticipated-fed-decision-202609161147",
+   "t": "16 Sep \u00b7 04:47 PM",
+   "ur": "Aasterilvi Dollar anthi matoqa Fed fisale se pehle apani garound ko barqarar rakta hai."
   },
   {
-   "ts": 1789548445.0,
-   "title": "Equities: Fed focus and energy shock \u2013 Deutsche Bank",
+   "ts": 1789559085.0,
+   "title": "US Dollar: Fed path and credibility in focus \u2013 Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/equities-fed-focus-and-energy-shock-deutsche-bank-202609160847",
-   "t": "16 Sep \u00b7 01:47 PM"
+   "link": "https://www.fxstreet.com/news/us-dollar-fed-path-and-credibility-in-focus-commerzbank-202609161144",
+   "t": "16 Sep \u00b7 04:44 PM",
+   "ur": "US Dollar: fox mein fed path aur sakh - kamers Bank"
   },
   {
-   "ts": 1789547963.0,
-   "title": "Euro gains against Canadian Dollar as oil prices retreat on rising US crude inventories",
+   "ts": 1789558258.0,
+   "title": "New Zealand Dollar: Growth risks temper RBNZ pricing \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-gains-against-canadian-dollar-as-oil-prices-retreat-on-rising-us-crude-inventories-202609160839",
-   "t": "16 Sep \u00b7 01:39 PM"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-growth-risks-temper-rbnz-pricing-ing-202609161130",
+   "t": "16 Sep \u00b7 04:30 PM",
+   "ur": "Niyozi lind Dollar: namo ka khatrah RBNZ qeemton ka tayin - ING"
   }
  ],
  "sentiment": {
   "value": 51,
   "label": "Neutral"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
