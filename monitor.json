@@ -1,21 +1,13 @@
 {
- "updated": "17-09-2026 04:42 PKT",
+ "updated": "17-09-2026 06:41 PKT",
  "gold": {
-  "price": 4270.97,
-  "open": 4284.76,
+  "price": 4312.56,
+  "open": 4289.24,
   "high": 4359.58,
   "low": 4238.37,
-  "chg": -0.32,
+  "chg": 0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   4342.69,
-   4343.68,
-   4338.79,
-   4344.17,
-   4346.26,
-   4355.91,
-   4354.73,
-   4343.35,
    4337.48,
    4337.98,
    4336.29,
@@ -55,14 +47,22 @@
    4270.38,
    4261.88,
    4271.61,
-   4270.97
+   4273.4,
+   4272.92,
+   4283.51,
+   4285.96,
+   4290.2,
+   4276.58,
+   4295.43,
+   4308.8,
+   4312.56
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 63.585,
-   "chg": 0.55,
+   "price": 64.395,
+   "chg": 1.83,
    "spark": [
     66.121,
     63.941,
@@ -85,13 +85,13 @@
     64.554,
     63.513,
     63.236,
-    63.585
+    64.395
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.34,
-   "chg": 0.69,
+   "price": 100.303,
+   "chg": 0.66,
    "spark": [
     99.64,
     99.65,
@@ -114,13 +114,13 @@
     99.12,
     99.46,
     99.65,
-    100.34
+    100.303
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 101.98,
-   "chg": -3.64,
+   "price": 102.2,
+   "chg": -3.43,
    "spark": [
     84.5,
     84.94,
@@ -143,7 +143,7 @@
     100.05,
     101.39,
     105.83,
-    101.98
+    102.2
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1472,
-   "chg": -0.57,
+   "price": 1.1461,
+   "chg": -0.66,
    "spark": [
     1.1579,
     1.1674,
@@ -201,13 +201,13 @@
     1.1594,
     1.1549,
     1.1538,
-    1.1472
+    1.1461
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3384,
-   "chg": -0.67,
+   "price": 1.3371,
+   "chg": -0.76,
    "spark": [
     1.3537,
     1.36,
@@ -230,13 +230,13 @@
     1.3526,
     1.3501,
     1.3473,
-    1.3384
+    1.3371
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.156,
-   "chg": 0.57,
+   "price": 156.128,
+   "chg": 0.56,
    "spark": [
     159.55,
     158.276,
@@ -259,16 +259,14 @@
     153.424,
     154.385,
     155.266,
-    156.156
+    156.128
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2416.43,
-   "chg": 0.82,
+   "price": 2428.42,
+   "chg": 0.49,
    "spark": [
-    2515.59,
-    2515.05,
     2511.9,
     2497.98,
     2490.54,
@@ -314,16 +312,16 @@
     2408.87,
     2403.02,
     2390.39,
-    2416.43
+    2416.61,
+    2417.29,
+    2428.42
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76113.0,
-   "chg": 0.7,
+   "price": 76445.7,
+   "chg": 0.39,
    "spark": [
-    77944.3,
-    77897.4,
     77870.9,
     77657.0,
     77552.6,
@@ -369,7 +367,9 @@
     76105.6,
     75910.5,
     75615.7,
-    76113.0
+    76146.1,
+    76276.2,
+    76445.7
    ]
   }
  ],
@@ -394,81 +394,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789602161.034246,
+   "ts": 1789609306.493391,
    "title": "Silver breaks 50% Fib support at $63: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "17 Sep \u00b7 04:42 AM"
+   "t": "17 Sep \u00b7 06:41 AM",
+   "ur": "Silver (chandi) ne 50% Fib sport ko $63 par tod diya."
+  },
+  {
+   "ts": 1789607990.0,
+   "title": "Australian Dollar holds gains near 0.7100 despite Fed rate hike, IMF urges RBA to stay hawkish",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
+   "t": "17 Sep \u00b7 06:19 AM",
+   "ur": "Fed ki rate mein azafe ke bawajud aasterilvi Dollar ne 0.7100 ke qarib faidah athaya, i em eff ne aar bi aye se ajiz rahne ki taakid ki"
+  },
+  {
+   "ts": 1789607098.0,
+   "title": "British Pound languishes near late July lows as hawkish Fed underpins USD ahead of BoE",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-languishes-near-late-july-lows-as-hawkish-fed-underpins-usd-ahead-of-boe-202609170104",
+   "t": "17 Sep \u00b7 06:04 AM",
+   "ur": "Bartanvi pound joli ke awakhar ki kam tarin sath ke qarib gar gaya cunkah hakish fed ne BoE se aage USD ko kam kiya"
+  },
+  {
+   "ts": 1789603588.0,
+   "title": "New Zealand Dollar remains weak below 0.5750 despite better-than-expected GDP data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-weak-below-05750-despite-better-than-expected-gdp-data-202609170006",
+   "t": "17 Sep \u00b7 05:06 AM",
+   "ur": "Toqa se behtar ji di pi deta ke bawajud niyozi lind Dollar 0.5750 se niche kamazor hai."
   },
   {
    "ts": 1789601130.0,
    "title": "Gold falls to near $4,250 after Fed delivers rate hike",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-falls-to-near-4-250-after-fed-delivers-rate-hike-202609162325",
-   "t": "17 Sep \u00b7 04:25 AM"
+   "t": "17 Sep \u00b7 04:25 AM",
+   "ur": "Fed ki rate mein azafe ke bad Gold (sona) $4,250 ke qarib gar gaya."
   },
   {
    "ts": 1789597169.0,
    "title": "The Pound drops below its long-run average as the Fed's rate passes Britain's",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-pound-drops-below-its-long-run-average-as-the-feds-rate-passes-britains-202609162219",
-   "t": "17 Sep \u00b7 03:19 AM"
+   "t": "17 Sep \u00b7 03:19 AM",
+   "ur": "Pound apani tavel madati ost se niche garta hai cunkah fed ki rate bartaniya ki rate se guzar jati hai."
   },
   {
    "ts": 1789596080.0,
    "title": "The Euro's losing streak runs on as the Fed matches the ECB's rate hike",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-euros-losing-streak-runs-on-as-the-fed-matches-the-ecbs-rate-hike-202609162201",
-   "t": "17 Sep \u00b7 03:01 AM"
+   "t": "17 Sep \u00b7 03:01 AM",
+   "ur": "Uro ke harne ka salsalah jari hai cunkah fed ECB ki rate mein azafe se mel khata hai"
   },
   {
    "ts": 1789593506.0,
    "title": "The Japanese Yen gives back more of its rally as the Fed raises rates",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-japanese-yen-gives-back-more-of-its-rally-as-the-fed-raises-rates-202609162118",
-   "t": "17 Sep \u00b7 02:18 AM"
+   "t": "17 Sep \u00b7 02:18 AM",
+   "ur": "Japani yan apani rili ka ziyadah hissa waps dita hai cunkah fed shrahin badhata hai."
   },
   {
    "ts": 1789592666.0,
    "title": "Trump demands 1% rates hours after the Fed raised them",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/trump-demands-1-rates-hours-after-the-fed-raised-them-202609162104",
-   "t": "17 Sep \u00b7 02:04 AM"
+   "t": "17 Sep \u00b7 02:04 AM",
+   "ur": "Trmp ne fed ki taraf se an mein azafe ke chand ghantay bad 1% sharahon ka matalbah kiya."
   },
   {
    "ts": 1789592478.0,
    "title": "New Zealand Dollar sinks toward its July low after the Fed hikes",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/new-zealand-dollar-sinks-toward-its-july-low-after-the-fed-hikes-202609162101",
-   "t": "17 Sep \u00b7 02:01 AM"
-  },
-  {
-   "ts": 1789592182.0,
-   "title": "The Australian Dollar continues to slide as the Fed enters hike country",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-australian-dollar-continues-to-slide-as-the-fed-enters-hike-country-202609162056",
-   "t": "17 Sep \u00b7 01:56 AM"
-  },
-  {
-   "ts": 1789587788.0,
-   "title": "US Federal Reserve sends Gold to fresh one-month lows",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-federal-reserve-sends-gold-to-fresh-one-month-lows-202609161943",
-   "t": "17 Sep \u00b7 12:43 AM"
-  },
-  {
-   "ts": 1789586167.0,
-   "title": "Silver slides as hawkish Fed lifts US Dollar and Treasury yields",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-slides-as-hawkish-fed-lifts-us-dollar-and-treasury-yields-202609161916",
-   "t": "17 Sep \u00b7 12:16 AM"
+   "t": "17 Sep \u00b7 02:01 AM",
+   "ur": "Fed mein azafe ke bad niyozi lind Dollar joli ki kam tarin sath par dob gaya."
   }
  ],
  "sentiment": {
-  "value": 51,
+  "value": 50,
   "label": "Neutral"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
