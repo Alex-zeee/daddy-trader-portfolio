@@ -1,33 +1,13 @@
 {
- "updated": "17-09-2026 06:41 PKT",
+ "updated": "17-09-2026 11:38 PKT",
  "gold": {
-  "price": 4312.56,
-  "open": 4289.24,
+  "price": 4310.02,
+  "open": 4325.31,
   "high": 4359.58,
   "low": 4238.37,
-  "chg": 0.54,
+  "chg": -0.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4337.48,
-   4337.98,
-   4336.29,
-   4342.86,
-   4353.65,
-   4353.98,
-   4346.49,
-   4350.17,
-   4352.65,
-   4350.36,
-   4344.65,
-   4347.18,
-   4347.15,
-   4342.68,
-   4346.28,
-   4344.99,
-   4355.03,
-   4310.33,
-   4314.68,
-   4306.6,
    4268.29,
    4240.69,
    4249.17,
@@ -55,16 +35,35 @@
    4276.58,
    4295.43,
    4308.8,
-   4312.56
+   4310.95,
+   4299.68,
+   4280.81,
+   4291.07,
+   4290.59,
+   4279.3,
+   4282.78,
+   4286.37,
+   4295.62,
+   4296.86,
+   4293.27,
+   4292.46,
+   4295.54,
+   4297.62,
+   4295.76,
+   4287.87,
+   4296.13,
+   4303.14,
+   4309.65,
+   4310.27,
+   4310.02
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.395,
-   "chg": 1.83,
+   "price": 64.25,
+   "chg": -0.06,
    "spark": [
-    66.121,
     63.941,
     65.734,
     68.026,
@@ -85,15 +84,15 @@
     64.554,
     63.513,
     63.236,
-    64.395
+    64.288,
+    64.25
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.303,
-   "chg": 0.66,
+   "price": 100.173,
+   "chg": -0.14,
    "spark": [
-    99.64,
     99.65,
     98.83,
     98.9,
@@ -114,15 +113,15 @@
     99.12,
     99.46,
     99.65,
-    100.303
+    100.31,
+    100.173
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 102.2,
-   "chg": -3.43,
+   "price": 100.96,
+   "chg": -1.44,
    "spark": [
-    84.5,
     84.94,
     85.83,
     87.83,
@@ -143,7 +142,8 @@
     100.05,
     101.39,
     105.83,
-    102.2
+    102.43,
+    100.96
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1461,
-   "chg": -0.66,
+   "price": 1.148,
+   "chg": -0.5,
    "spark": [
     1.1579,
     1.1674,
@@ -201,13 +201,13 @@
     1.1594,
     1.1549,
     1.1538,
-    1.1461
+    1.148
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3371,
-   "chg": -0.76,
+   "price": 1.3391,
+   "chg": -0.61,
    "spark": [
     1.3537,
     1.36,
@@ -230,13 +230,13 @@
     1.3526,
     1.3501,
     1.3473,
-    1.3371
+    1.3391
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.128,
-   "chg": 0.56,
+   "price": 155.603,
+   "chg": 0.22,
    "spark": [
     159.55,
     158.276,
@@ -259,19 +259,14 @@
     153.424,
     154.385,
     155.266,
-    156.128
+    155.603
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2428.42,
-   "chg": 0.49,
+   "price": 2441.85,
+   "chg": 1.05,
    "spark": [
-    2511.9,
-    2497.98,
-    2490.54,
-    2495.92,
-    2485.0,
     2473.05,
     2476.35,
     2473.41,
@@ -314,19 +309,19 @@
     2390.39,
     2416.61,
     2417.29,
-    2428.42
+    2425.52,
+    2426.68,
+    2433.61,
+    2440.08,
+    2434.67,
+    2441.85
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76445.7,
-   "chg": 0.39,
+   "price": 76480.9,
+   "chg": 0.44,
    "spark": [
-    77870.9,
-    77657.0,
-    77552.6,
-    77607.2,
-    77249.0,
     76885.5,
     76959.9,
     76952.0,
@@ -369,7 +364,12 @@
     75615.7,
     76146.1,
     76276.2,
-    76445.7
+    76304.4,
+    76303.1,
+    76368.8,
+    76464.4,
+    76255.2,
+    76488.3
    ]
   }
  ],
@@ -394,84 +394,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789609306.493391,
-   "title": "Silver breaks 50% Fib support at $63: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "17 Sep \u00b7 06:41 AM",
-   "ur": "Silver (chandi) ne 50% Fib sport ko $63 par tod diya."
+   "ts": 1789626499.0,
+   "title": "British Pound: Oversold Sterling still seen weaker against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/british-pound-oversold-sterling-still-seen-weaker-against-us-dollar-uob-202609170628",
+   "t": "17 Sep \u00b7 11:28 AM",
+   "ur": "Bartanvi pound: oversold sterling ab bhi US Dollar - UOB ke maqable mein kamazor nazar aaraha hai."
   },
   {
-   "ts": 1789607990.0,
-   "title": "Australian Dollar holds gains near 0.7100 despite Fed rate hike, IMF urges RBA to stay hawkish",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-gains-near-07100-despite-fed-rate-hike-imf-urges-rba-to-stay-hawkish-202609170119",
-   "t": "17 Sep \u00b7 06:19 AM",
-   "ur": "Fed ki rate mein azafe ke bawajud aasterilvi Dollar ne 0.7100 ke qarib faidah athaya, i em eff ne aar bi aye se ajiz rahne ki taakid ki"
+   "ts": 1789622423.0,
+   "title": "Bank of England set to defy Fed\u2019s rate-hike lead, despite rising inflation",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+   "t": "17 Sep \u00b7 10:20 AM",
+   "ur": "Bank af anglind badhti hoi inflation (mehngai) ke bawajud, fed ki rate mein azafe ki bartari ko mastard karne ke liye tyar hai."
   },
   {
-   "ts": 1789607098.0,
-   "title": "British Pound languishes near late July lows as hawkish Fed underpins USD ahead of BoE",
+   "ts": 1789622391.0,
+   "title": "Indian Rupee gains ground despite fears of more Fed interest rate hikes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-languishes-near-late-july-lows-as-hawkish-fed-underpins-usd-ahead-of-boe-202609170104",
-   "t": "17 Sep \u00b7 06:04 AM",
-   "ur": "Bartanvi pound joli ke awakhar ki kam tarin sath ke qarib gar gaya cunkah hakish fed ne BoE se aage USD ko kam kiya"
+   "link": "https://www.fxstreet.com/news/indian-rupee-gains-ground-despite-fears-of-more-fed-interest-rate-hikes-202609170519",
+   "t": "17 Sep \u00b7 10:19 AM",
+   "ur": "Fed ki rate sud mein mazid azafe ke khadshe ke bawajud handostani ropiya mazboot ho raha hai."
   },
   {
-   "ts": 1789603588.0,
-   "title": "New Zealand Dollar remains weak below 0.5750 despite better-than-expected GDP data",
+   "ts": 1789621849.0,
+   "title": "Swiss Franc remains near 16-month lows against US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-remains-weak-below-05750-despite-better-than-expected-gdp-data-202609170006",
-   "t": "17 Sep \u00b7 05:06 AM",
-   "ur": "Toqa se behtar ji di pi deta ke bawajud niyozi lind Dollar 0.5750 se niche kamazor hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-remains-near-16-month-lows-against-us-dollar-202609170510",
+   "t": "17 Sep \u00b7 10:10 AM",
+   "ur": "Sois farank US Dollar ke maqable mein 16 mah ki kam tarin sath par barqarar hai."
   },
   {
-   "ts": 1789601130.0,
-   "title": "Gold falls to near $4,250 after Fed delivers rate hike",
+   "ts": 1789621270.0,
+   "title": "US 10-Year Treasury Yield nears 5% after Fed rate hike, Middle East tensions raise inflation fears",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-falls-to-near-4-250-after-fed-delivers-rate-hike-202609162325",
-   "t": "17 Sep \u00b7 04:25 AM",
-   "ur": "Fed ki rate mein azafe ke bad Gold (sona) $4,250 ke qarib gar gaya."
+   "link": "https://www.fxstreet.com/news/us-10-year-treasury-yield-nears-5-after-fed-rate-hike-middle-east-tensions-raise-inflation-fears-202609170501",
+   "t": "17 Sep \u00b7 10:01 AM",
+   "ur": "Fed ki rate mein azafe ke bad US 10 salah treasurei ki pedawar 5 fisad ke qarib pohch gayi, masharq wasta ke tanao ne inflation (mehngai) ka khadshah badhaya"
   },
   {
-   "ts": 1789597169.0,
-   "title": "The Pound drops below its long-run average as the Fed's rate passes Britain's",
+   "ts": 1789620664.0,
+   "title": "Asian stocks edge higher as hawkish Fed, elevated yields and geopolitical cap upside",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-pound-drops-below-its-long-run-average-as-the-feds-rate-passes-britains-202609162219",
-   "t": "17 Sep \u00b7 03:19 AM",
-   "ur": "Pound apani tavel madati ost se niche garta hai cunkah fed ki rate bartaniya ki rate se guzar jati hai."
+   "link": "https://www.fxstreet.com/news/asian-stocks-edge-higher-as-hawkish-fed-elevated-yields-and-geopolitical-cap-upside-202609170451",
+   "t": "17 Sep \u00b7 09:51 AM",
+   "ur": "Hakish fed, baland pedawar aur jio poletecl cap oper ki wajah se asiai stak mein azafah"
   },
   {
-   "ts": 1789596080.0,
-   "title": "The Euro's losing streak runs on as the Fed matches the ECB's rate hike",
+   "ts": 1789619724.0,
+   "title": "India Gold price today: Gold rises, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-euros-losing-streak-runs-on-as-the-fed-matches-the-ecbs-rate-hike-202609162201",
-   "t": "17 Sep \u00b7 03:01 AM",
-   "ur": "Uro ke harne ka salsalah jari hai cunkah fed ECB ki rate mein azafe se mel khata hai"
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202609170435",
+   "t": "17 Sep \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
   },
   {
-   "ts": 1789593506.0,
-   "title": "The Japanese Yen gives back more of its rally as the Fed raises rates",
+   "ts": 1789616899.0,
+   "title": "Gold retakes $4,300 amid modest USD pullback but hawkish Fed caps upside",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-japanese-yen-gives-back-more-of-its-rally-as-the-fed-raises-rates-202609162118",
-   "t": "17 Sep \u00b7 02:18 AM",
-   "ur": "Japani yan apani rili ka ziyadah hissa waps dita hai cunkah fed shrahin badhata hai."
+   "link": "https://www.fxstreet.com/news/gold-stalls-recovery-from-six-week-low-as-usd-preserves-post-fed-gains-amid-iran-risks-202609170348",
+   "t": "17 Sep \u00b7 08:48 AM",
+   "ur": "US Dollar ki mamoli wapsi ke darmiyan Gold (sone) ne $4,300 dubarah haasil kar liya lican fed ki taraf se cap oper"
   },
   {
-   "ts": 1789592666.0,
-   "title": "Trump demands 1% rates hours after the Fed raised them",
+   "ts": 1789615329.0,
+   "title": "Fed Policy Monitor: Hiking bias and curve reaction \u2013 NBC Economics and Strategy",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/trump-demands-1-rates-hours-after-the-fed-raised-them-202609162104",
-   "t": "17 Sep \u00b7 02:04 AM",
-   "ur": "Trmp ne fed ki taraf se an mein azafe ke chand ghantay bad 1% sharahon ka matalbah kiya."
+   "link": "https://www.fxstreet.com/news/fed-policy-monitor-hiking-bias-and-curve-reaction-nbc-economics-and-strategy-202609170322",
+   "t": "17 Sep \u00b7 08:22 AM",
+   "ur": "Fed palisi manater: hicang taasab aur manhani rdumal - NBC aqtasadiyat aur hakmat amali"
   },
   {
-   "ts": 1789592478.0,
-   "title": "New Zealand Dollar sinks toward its July low after the Fed hikes",
+   "ts": 1789615218.0,
+   "title": "United States rates: Yields seen contained, steepeners favoured \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-sinks-toward-its-july-low-after-the-fed-hikes-202609162101",
-   "t": "17 Sep \u00b7 02:01 AM",
-   "ur": "Fed mein azafe ke bad niyozi lind Dollar joli ki kam tarin sath par dob gaya."
+   "link": "https://www.fxstreet.com/news/us-rates-yields-seen-contained-steepeners-favoured-td-securities-202609170320",
+   "t": "17 Sep \u00b7 08:20 AM",
+   "ur": "Ryastahaye matehdah ke narkh: pedawar par mashtamil dekha gaya, stapinners ko pasand kiya gaya - TD securitez"
   }
  ],
  "sentiment": {
