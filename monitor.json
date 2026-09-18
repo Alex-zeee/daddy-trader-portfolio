@@ -1,22 +1,13 @@
 {
- "updated": "19-09-2026 00:46 PKT",
+ "updated": "19-09-2026 02:59 PKT",
  "gold": {
-  "price": 4381.29,
-  "open": 4344.98,
+  "price": 4380.12,
+  "open": 4341.26,
   "high": 4399.22,
   "low": 4335.01,
-  "chg": 0.84,
+  "chg": 0.9,
   "src": "XAUUSD Spot",
   "spark": [
-   4394.03,
-   4394.81,
-   4389.61,
-   4385.65,
-   4393.0,
-   4396.0,
-   4387.67,
-   4378.42,
-   4377.08,
    4378.62,
    4380.52,
    4380.75,
@@ -55,14 +46,23 @@
    4381.41,
    4384.1,
    4380.63,
-   4381.29
+   4381.29,
+   4379.06,
+   4382.97,
+   4381.47,
+   4380.72,
+   4377.25,
+   4380.11,
+   4380.02,
+   4380.04,
+   4380.12
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.945,
-   "chg": 2.25,
+   "price": 66.785,
+   "chg": 2.01,
    "spark": [
     65.734,
     68.026,
@@ -85,13 +85,13 @@
     63.236,
     64.288,
     65.47,
-    66.945
+    66.785
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.199,
-   "chg": -0.02,
+   "price": 100.215,
+   "chg": -0.0,
    "spark": [
     98.83,
     98.9,
@@ -114,13 +114,13 @@
     99.65,
     100.31,
     100.22,
-    100.199
+    100.215
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 95.64,
-   "chg": -6.15,
+   "price": 95.47,
+   "chg": -6.32,
    "spark": [
     85.83,
     87.83,
@@ -143,7 +143,7 @@
     105.83,
     102.43,
     101.91,
-    95.64
+    95.47
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.149,
-   "chg": 0.18,
+   "price": 1.1489,
+   "chg": 0.17,
    "spark": [
     1.1674,
     1.1688,
@@ -201,13 +201,13 @@
     1.1549,
     1.1538,
     1.147,
-    1.149
+    1.1489
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3395,
-   "chg": 0.09,
+   "price": 1.3394,
+   "chg": 0.08,
    "spark": [
     1.36,
     1.3643,
@@ -230,13 +230,13 @@
     1.3501,
     1.3473,
     1.3383,
-    1.3395
+    1.3394
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.734,
-   "chg": 0.46,
+   "price": 156.855,
+   "chg": 0.54,
    "spark": [
     158.276,
     158.883,
@@ -259,16 +259,14 @@
     154.385,
     155.266,
     156.014,
-    156.734
+    156.855
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2636.53,
-   "chg": 7.82,
+   "price": 2626.14,
+   "chg": 7.4,
    "spark": [
-    2408.87,
-    2403.02,
     2390.39,
     2416.61,
     2417.29,
@@ -314,16 +312,16 @@
     2596.21,
     2606.41,
     2612.11,
-    2636.53
+    2636.73,
+    2631.25,
+    2626.14
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81179.6,
-   "chg": 6.32,
+   "price": 81219.2,
+   "chg": 6.37,
    "spark": [
-    76105.6,
-    75910.5,
     75615.7,
     76146.1,
     76276.2,
@@ -369,7 +367,9 @@
     80822.9,
     80988.9,
     80907.7,
-    81179.6
+    81190.7,
+    81096.6,
+    81219.2
    ]
   }
  ],
@@ -426,36 +426,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789760777.791488,
-   "title": "Silver stalls at $68.00 resistance with bull trap risk: Live",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "19 Sep \u00b7 12:46 AM",
-   "ur": "Bel trip ke khatre ke sath $68.00 mazahmat par salor rak gaya hai: laaio"
-  },
-  {
-   "ts": 1789760777.791488,
-   "title": "Gold consolidates between $4,393 and $4,435: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-clings-to-4355-confluence-support-live-levels-93CH-4898868",
-   "t": "19 Sep \u00b7 12:46 AM",
-   "ur": "Gold (sona) $4,393 aur $4,435 ke darmiyan mastahkam hai."
-  },
-  {
-   "ts": 1789760777.791488,
+   "ts": 1789768756.223248,
    "title": "US Treasury\u2019s Bessent plans to discuss AI and rare earths with China\u2019s He, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-plans-to-discuss-ai-and-rare-earths-with-chinas-he-source-says-4907786",
-   "t": "19 Sep \u00b7 12:46 AM",
+   "t": "19 Sep \u00b7 02:59 AM",
    "ur": "Zaria ka kahana hai kah US treasurei ka bessent chin ke hi ke sath aye i aur naayab zaminon par bat chiyat karne ka aradah rakta hai"
   },
   {
-   "ts": 1789760777.791488,
-   "title": "Venezuela, opposition faction weighing deal to move $4 billion in gold to US from UK, sources say",
+   "ts": 1789768756.223248,
+   "title": "Gold heads for slight weekly gain as decline in oil prices offset Fed rate hike",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/venezuela-nears-deal-to-move-4-billion-gold-reserve-to-new-york-ft-says-4906665",
-   "t": "19 Sep \u00b7 12:46 AM",
-   "ur": "Zarai ka kahana hai kah vinzwela, hazab akhtalaf ka dhadaa 4 balin Dollar ka Gold (sona) bartaniya se amrikah mantaql karne ka samzta hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
+   "t": "19 Sep \u00b7 02:59 AM",
+   "ur": "Til ki qeemton mein kami fed ki rate mein azafe ko pora karne ke baas Gold (sona) mamoli haftah war azafe ki taraf badh raha hai."
+  },
+  {
+   "ts": 1789768756.223248,
+   "title": "Silver stalls at $68.00 resistance with bull trap risk: Live",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
+   "t": "19 Sep \u00b7 02:59 AM",
+   "ur": "Bel trip ke khatre ke sath $68.00 mazahmat par salor rak gaya hai: laaio"
+  },
+  {
+   "ts": 1789768140.0,
+   "title": "Singapore Dollar: Strong NODX but USD still drives USD/SGD \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-strong-nodx-but-usd-still-drives-usd-sgd-ocbc-202609182149",
+   "t": "19 Sep \u00b7 02:49 AM",
+   "ur": "Sangapor Dollar: mazboot NODX lican USD phar bhi USD/SGD ko chalata hai - OCBC"
+  },
+  {
+   "ts": 1789763880.0,
+   "title": "Singapore Dollar: Range trade persists against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/singapore-dollar-range-trade-persists-against-us-dollar-uob-202609182038",
+   "t": "19 Sep \u00b7 01:38 AM",
+   "ur": "Sangapor Dollar: rinj tred US Dollar - UOB ke khalaf barqarar hai."
   },
   {
    "ts": 1789758192.0,
@@ -496,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/swiss-franc-gains-against-us-dollar-but-fed-snb-divergence-weighs-202609181736",
    "t": "18 Sep \u00b7 10:36 PM",
    "ur": "Sois farank US Dollar ke maqable mein badhta hai, lican Fed-SNB dyurjan ka wazin hai."
-  },
-  {
-   "ts": 1789752339.0,
-   "title": "Dollar Index nudges to a fresh high and slips back as Japan raises rates",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dollar-index-nudges-to-a-fresh-high-and-slips-back-as-japan-raises-rates-202609181725",
-   "t": "18 Sep \u00b7 10:25 PM",
-   "ur": "Dollar andex taazah balandi ki taraf jhak jata hai aur japan ki janb se sharahon mein azafe ke sath hi patchhe hat jata hai."
   }
  ],
  "sentiment": {
