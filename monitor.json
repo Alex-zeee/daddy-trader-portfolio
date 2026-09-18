@@ -1,30 +1,13 @@
 {
- "updated": "18-09-2026 14:41 PKT",
+ "updated": "18-09-2026 18:48 PKT",
  "gold": {
-  "price": 4385.65,
-  "open": 4309.9,
+  "price": 4355.84,
+  "open": 4365.92,
   "high": 4399.22,
-  "low": 4305.19,
-  "chg": 1.76,
+  "low": 4335.01,
+  "chg": -0.23,
   "src": "XAUUSD Spot",
   "spark": [
-   4341.78,
-   4344.79,
-   4343.97,
-   4345.44,
-   4344.08,
-   4345.41,
-   4345.05,
-   4343.77,
-   4345.99,
-   4354.72,
-   4352.91,
-   4358.48,
-   4355.22,
-   4358.78,
-   4359.53,
-   4348.73,
-   4349.99,
    4350.57,
    4352.96,
    4351.28,
@@ -55,14 +38,31 @@
    4393.0,
    4396.0,
    4387.67,
-   4385.65
+   4378.42,
+   4377.08,
+   4378.62,
+   4380.52,
+   4380.75,
+   4381.19,
+   4387.18,
+   4379.63,
+   4376.04,
+   4378.26,
+   4373.43,
+   4357.35,
+   4369.92,
+   4367.28,
+   4372.18,
+   4366.51,
+   4353.93,
+   4355.84
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.695,
-   "chg": 3.4,
+   "price": 67.015,
+   "chg": 2.36,
    "spark": [
     65.734,
     68.026,
@@ -85,13 +85,13 @@
     63.236,
     64.288,
     65.47,
-    67.695
+    67.015
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.369,
-   "chg": 0.15,
+   "price": 100.499,
+   "chg": 0.28,
    "spark": [
     98.83,
     98.9,
@@ -114,13 +114,13 @@
     99.65,
     100.31,
     100.22,
-    100.369
+    100.499
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 95.83,
-   "chg": -5.97,
+   "price": 97.56,
+   "chg": -4.27,
    "spark": [
     85.83,
     87.83,
@@ -143,15 +143,14 @@
     105.83,
     102.43,
     101.91,
-    95.83
+    97.56
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.947,
-   "chg": -1.18,
+   "price": 4.988,
+   "chg": 0.83,
    "spark": [
-    4.706,
     4.653,
     4.696,
     4.738,
@@ -172,13 +171,14 @@
     4.961,
     4.996,
     5.006,
-    4.947
+    4.947,
+    4.988
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1488,
-   "chg": 0.16,
+   "price": 1.1469,
+   "chg": -0.01,
    "spark": [
     1.1674,
     1.1688,
@@ -201,13 +201,13 @@
     1.1549,
     1.1538,
     1.147,
-    1.1488
+    1.1469
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3366,
-   "chg": -0.13,
+   "price": 1.3347,
+   "chg": -0.27,
    "spark": [
     1.36,
     1.3643,
@@ -230,13 +230,13 @@
     1.3501,
     1.3473,
     1.3383,
-    1.3366
+    1.3347
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.96,
-   "chg": 1.25,
+   "price": 157.83,
+   "chg": 1.16,
    "spark": [
     158.276,
     158.883,
@@ -259,18 +259,14 @@
     154.385,
     155.266,
     156.014,
-    157.96
+    157.83
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2500.63,
-   "chg": 2.27,
+   "price": 2545.08,
+   "chg": 4.08,
    "spark": [
-    2404.05,
-    2420.43,
-    2404.78,
-    2391.99,
     2388.07,
     2391.09,
     2390.21,
@@ -314,18 +310,18 @@
     2485.17,
     2487.85,
     2503.21,
-    2500.63
+    2505.81,
+    2511.46,
+    2505.82,
+    2500.0,
+    2545.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77967.6,
-   "chg": 2.11,
+   "price": 79787.5,
+   "chg": 4.5,
    "spark": [
-    75901.5,
-    76179.9,
-    75900.0,
-    75579.7,
     75624.7,
     75732.9,
     75703.2,
@@ -369,7 +365,11 @@
     77537.4,
     77727.4,
     78196.1,
-    77967.6
+    78145.2,
+    78222.4,
+    77993.0,
+    77978.7,
+    79785.7
    ]
   }
  ],
@@ -426,84 +426,84 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789724464.901649,
+   "ts": 1789739324.512237,
+   "title": "What Fed rate hikes mean for gold prices in 2027, according to Goldman",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/what-fed-rate-hikes-mean-for-gold-prices-in-2027-according-to-goldman-4907014",
+   "t": "18 Sep \u00b7 06:48 PM",
+   "ur": "Golldomin ke matabiq, 2027 mein Gold (sone) ki qeemton ke liye fed ki rate mein azafe ka kiya mutalab hai."
+  },
+  {
+   "ts": 1789739324.512237,
    "title": "Venezuela nears deal to move $4 billion gold reserve to New York, FT says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/venezuela-nears-deal-to-move-4-billion-gold-reserve-to-new-york-ft-says-4906665",
-   "t": "18 Sep \u00b7 02:41 PM",
+   "t": "18 Sep \u00b7 06:48 PM",
    "ur": "Eff ti ka kahana hai kah vinzwela 4 balin Dollar ke Gold (sone) ke zakhair ko niyoyark mantaql karne ke maahide ke qarib hai."
   },
   {
-   "ts": 1789724464.901649,
-   "title": "Gold prices on pace weekly gain as oil prices dip",
+   "ts": 1789739324.512237,
+   "title": "Gold prices on pace for weekly gain as oil prices dip",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
-   "t": "18 Sep \u00b7 02:41 PM",
-   "ur": "Til ki qeemton mein kami se Gold (sone) ki qeemton mein haftah war azafah"
+   "t": "18 Sep \u00b7 06:48 PM",
+   "ur": "Til ki qeemton mein kami ke sath haftah war azafe ke liye Gold (sone) ki qeemton mein tizi"
   },
   {
-   "ts": 1789724464.901649,
-   "title": "Silver tests $67.94 Fibonacci resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "18 Sep \u00b7 02:41 PM",
-   "ur": "Silver (chandi) $67.94 faboniki mazahmat ko janchti hai."
-  },
-  {
-   "ts": 1789724307.0,
-   "title": "Australian Dollar: Short-term range but path still lower against US Dollar \u2013 UOB",
+   "ts": 1789739043.0,
+   "title": "Euro heads for weekly loss against US Dollar on hawkish Fed outlook",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-short-term-range-but-path-still-lower-against-us-dollar-uob-202609180938",
-   "t": "18 Sep \u00b7 02:38 PM",
-   "ur": "Aasterilin Dollar: qalil madati rinj lican raastah abhi bhi US Dollar - UOB ke maqable mein kam hai."
+   "link": "https://www.fxstreet.com/news/euro-heads-for-weekly-loss-against-us-dollar-on-hawkish-fed-outlook-202609181344",
+   "t": "18 Sep \u00b7 06:44 PM",
+   "ur": "Uro US Dollar ke maqable mein haftah war khasare ki taraf badh raha hai."
   },
   {
-   "ts": 1789723420.0,
-   "title": "US Dollar: Post-FOMC consolidation and data focus \u2013 OCBC",
+   "ts": 1789738141.0,
+   "title": "Japanese Yen: BoJ hike fails to lift JPY against US Dollar \u2013 Danske Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-post-fomc-consolidation-and-data-focus-ocbc-202609180923",
-   "t": "18 Sep \u00b7 02:23 PM",
-   "ur": "US Dollar: post FOMC kansolidation aur deta fox \u2013 OCBC"
+   "link": "https://www.fxstreet.com/news/japanese-yen-boj-hike-fails-to-lift-jpy-against-us-dollar-danske-bank-202609181329",
+   "t": "18 Sep \u00b7 06:29 PM",
+   "ur": "Japani yan: BoJ mein azafah US Dollar ke maqable JPY ko athane mein naakam raha - danske Bank"
   },
   {
-   "ts": 1789722473.0,
-   "title": "Euro: Hawkish ECB offers limited support against US Dollar - ING",
+   "ts": 1789735418.0,
+   "title": "New Zealand Dollar falls as hawkish Fed stance supports US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-hawkish-ecb-offers-limited-support-against-us-dollar-ing-202609180907",
-   "t": "18 Sep \u00b7 02:07 PM",
-   "ur": "Uro: Hawkish ECB US Dollar - ING ke khalaf muhadud taaaun ki peshkash karta hai."
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-falls-as-hawkish-fed-stance-supports-us-dollar-202609181243",
+   "t": "18 Sep \u00b7 05:43 PM",
+   "ur": "Niyozi lind Dollar ki qeemat gar rahi hai cunkah fed ke saqt moqf US Dollar ki support karte hen."
   },
   {
-   "ts": 1789721693.0,
-   "title": "United States Dollar Index tests late July high, near 100.35 on hawkish Fed stance",
+   "ts": 1789734807.0,
+   "title": "Federal Reserve: Further hikes supported by resilient economy \u2013 Nordea",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-tests-late-july-high-near-10035-on-hawkish-fed-stance-202609180854",
-   "t": "18 Sep \u00b7 01:54 PM",
-   "ur": "Ryastahaye matehdah ka Dollar andex joli ke aakhar mein unchi sath par, 100.35 ke qarib fed ke saqt moqf par"
+   "link": "https://www.fxstreet.com/news/federal-reserve-further-hikes-supported-by-resilient-economy-nordea-202609181233",
+   "t": "18 Sep \u00b7 05:33 PM",
+   "ur": "Faderl resero: lachakdar misht ke zaria mazid azafe ki support - Nordea"
   },
   {
-   "ts": 1789719972.0,
-   "title": "Swiss Franc: Consolidation holds below 0.8300 against US Dollar \u2013 UOB",
+   "ts": 1789733435.0,
+   "title": "Japanese Yen: Cautious BoJ tilt weighs on JPY against US Dollar \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-consolidation-holds-below-08300-against-us-dollar-uob-202609180826",
-   "t": "18 Sep \u00b7 01:26 PM",
-   "ur": "Sois farank: US Dollar ke maqable mein istehkam 0.8300 se niche hai - UOB"
+   "link": "https://www.fxstreet.com/news/japanese-yen-cautious-boj-tilt-weighs-on-jpy-against-us-dollar-bbh-202609181210",
+   "t": "18 Sep \u00b7 05:10 PM",
+   "ur": "Japani yan: muhatat BoJ jhakao JPY par US Dollar ke maqable mein wazin rakta hai - BBH"
   },
   {
-   "ts": 1789719156.0,
-   "title": "Euro flattens against US Dollar as traders look beyond ECB-Fed hawkish decisions",
+   "ts": 1789732881.0,
+   "title": "Silver Price Forecast: XAG/USD extends recovery above $67.00 as yields fall",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-flattens-against-us-dollar-as-traders-look-beyond-ecb-fed-hawkish-decisions-202609180812",
-   "t": "18 Sep \u00b7 01:12 PM",
-   "ur": "Uro US Dollar ke maqable mein chapta hai cunkah taajr ECB-Fed ke aqibat nandesh fisalon se pare nazar aate hen"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-extends-recovery-above-6700-as-yields-fall-202609181201",
+   "t": "18 Sep \u00b7 05:01 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD ne rikori ko $67.00 se oper badha diya cunkah pedawar mein kami i"
   },
   {
-   "ts": 1789717434.0,
-   "title": "Dow Jones futures rise as 10-year US yield slides, tech rally resumes",
+   "ts": 1789731742.0,
+   "title": "US Dollar: Oil drives Dollar upside risks \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-rise-as-10-year-us-yield-slides-tech-rally-resumes-202609180743",
-   "t": "18 Sep \u00b7 12:43 PM",
-   "ur": "Dou joons future mein 10 salah US pedawar mein azafah, tek rili dubarah sharo"
+   "link": "https://www.fxstreet.com/news/us-dollar-oil-drives-dollar-upside-risks-ing-202609181142",
+   "t": "18 Sep \u00b7 04:42 PM",
+   "ur": "US Dollar: til Dollar ko alta khatrat laata hai - ING"
   }
  ],
  "sentiment": {
