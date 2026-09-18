@@ -1,21 +1,13 @@
 {
- "updated": "19-09-2026 02:59 PKT",
+ "updated": "19-09-2026 04:51 PKT",
  "gold": {
-  "price": 4380.12,
-  "open": 4341.26,
+  "price": 4380.11,
+  "open": 4346.1,
   "high": 4399.22,
   "low": 4335.01,
-  "chg": 0.9,
+  "chg": 0.78,
   "src": "XAUUSD Spot",
   "spark": [
-   4378.62,
-   4380.52,
-   4380.75,
-   4381.19,
-   4387.18,
-   4379.63,
-   4376.04,
-   4378.26,
    4373.43,
    4357.35,
    4369.92,
@@ -55,7 +47,15 @@
    4380.11,
    4380.02,
    4380.04,
-   4380.12
+   4380.12,
+   4380.13,
+   4380.12,
+   4380.01,
+   4380.12,
+   4380.14,
+   4380.09,
+   4380.01,
+   4380.11
   ]
  },
  "markets": [
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2626.14,
-   "chg": 7.4,
+   "price": 2611.0,
+   "chg": 6.78,
    "spark": [
-    2390.39,
-    2416.61,
     2417.29,
     2425.52,
     2426.68,
@@ -314,16 +312,16 @@
     2612.11,
     2636.73,
     2631.25,
-    2626.14
+    2626.08,
+    2619.61,
+    2611.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81219.2,
-   "chg": 6.37,
+   "price": 80905.3,
+   "chg": 5.96,
    "spark": [
-    75615.7,
-    76146.1,
     76276.2,
     76304.4,
     76303.1,
@@ -369,7 +367,9 @@
     80907.7,
     81190.7,
     81096.6,
-    81219.2
+    81219.2,
+    81114.0,
+    80905.3
    ]
   }
  ],
@@ -426,28 +426,44 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789768756.223248,
+   "ts": 1789775494.115784,
    "title": "US Treasury\u2019s Bessent plans to discuss AI and rare earths with China\u2019s He, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-plans-to-discuss-ai-and-rare-earths-with-chinas-he-source-says-4907786",
-   "t": "19 Sep \u00b7 02:59 AM",
+   "t": "19 Sep \u00b7 04:51 AM",
    "ur": "Zaria ka kahana hai kah US treasurei ka bessent chin ke hi ke sath aye i aur naayab zaminon par bat chiyat karne ka aradah rakta hai"
   },
   {
-   "ts": 1789768756.223248,
+   "ts": 1789775494.115784,
    "title": "Gold heads for slight weekly gain as decline in oil prices offset Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
-   "t": "19 Sep \u00b7 02:59 AM",
+   "t": "19 Sep \u00b7 04:51 AM",
    "ur": "Til ki qeemton mein kami fed ki rate mein azafe ko pora karne ke baas Gold (sona) mamoli haftah war azafe ki taraf badh raha hai."
   },
   {
-   "ts": 1789768756.223248,
+   "ts": 1789775494.115784,
    "title": "Silver stalls at $68.00 resistance with bull trap risk: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "19 Sep \u00b7 02:59 AM",
+   "t": "19 Sep \u00b7 04:51 AM",
    "ur": "Bel trip ke khatre ke sath $68.00 mazahmat par salor rak gaya hai: laaio"
+  },
+  {
+   "ts": 1789774320.0,
+   "title": "Taiwan Dollar: CBC holds rates but flags inflation risks \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/taiwan-dollar-cbc-holds-rates-but-flags-inflation-risks-commerzbank-202609182332",
+   "t": "19 Sep \u00b7 04:32 AM",
+   "ur": "Taiwan Dollar: CBC shrahin rakta hai lican inflation (mehngai) ke khatrat ko jhanda dita hai - kamrzabink"
+  },
+  {
+   "ts": 1789774020.0,
+   "title": "South Korean Won: Foreign equity flows keep KRW heavy against US Dollar \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/south-korean-won-foreign-equity-flows-keep-krw-heavy-against-us-dollar-ocbc-202609182327",
+   "t": "19 Sep \u00b7 04:27 AM",
+   "ur": "South Korea ki wan: ghair malki ekoti bahao KRW ko US Dollar ke maqable mein bhari rakta hai - OCBC"
   },
   {
    "ts": 1789768140.0,
@@ -488,22 +504,6 @@
    "link": "https://www.fxstreet.com/news/silver-price-forecast-mild-bullish-bias-holds-but-trend-strength-stays-weak-202609181757",
    "t": "18 Sep \u00b7 10:57 PM",
    "ur": "Silver (chandi) ki qeemat ki forecast: halki tizi ka taasab barqarar hai, lican rjahan ki tqt kamazor rahti hai."
-  },
-  {
-   "ts": 1789753461.0,
-   "title": "Gold reclaims its footing as Oil retreat blunts Fed shock",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-reclaims-its-footing-as-oil-retreat-blunts-fed-shock-202609181744",
-   "t": "18 Sep \u00b7 10:44 PM",
-   "ur": "Il rateret ne fed ke jhatake ko khtam karte huvay gold apani mazil ko dubarah haasil kar liya."
-  },
-  {
-   "ts": 1789753018.0,
-   "title": "Swiss Franc gains against US Dollar, but Fed-SNB divergence weighs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-gains-against-us-dollar-but-fed-snb-divergence-weighs-202609181736",
-   "t": "18 Sep \u00b7 10:36 PM",
-   "ur": "Sois farank US Dollar ke maqable mein badhta hai, lican Fed-SNB dyurjan ka wazin hai."
   }
  ],
  "sentiment": {
