@@ -1,33 +1,13 @@
 {
- "updated": "19-09-2026 11:45 PKT",
+ "updated": "19-09-2026 16:39 PKT",
  "gold": {
-  "price": 4380.08,
-  "open": 4395.74,
-  "high": 4399.22,
+  "price": 4380.13,
+  "open": 4376.41,
+  "high": 4396.79,
   "low": 4342.92,
-  "chg": -0.36,
+  "chg": 0.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4381.41,
-   4384.1,
-   4380.63,
-   4381.29,
-   4379.06,
-   4382.97,
-   4381.47,
-   4380.72,
-   4377.25,
-   4380.11,
-   4380.02,
-   4380.04,
-   4380.12,
-   4380.13,
-   4380.12,
-   4380.01,
-   4380.12,
-   4380.14,
-   4380.09,
-   4380.01,
    4380.12,
    4380.15,
    4380.08,
@@ -55,7 +35,27 @@
    4380.01,
    4380.12,
    4380.15,
-   4380.08
+   4380.08,
+   4380.01,
+   4380.13,
+   4380.14,
+   4380.09,
+   4380.01,
+   4380.02,
+   4380.14,
+   4380.11,
+   4380.01,
+   4380.02,
+   4380.12,
+   4380.12,
+   4380.12,
+   4380.02,
+   4380.11,
+   4380.13,
+   4380.1,
+   4380.01,
+   4380.1,
+   4380.13
   ]
  },
  "markets": [
@@ -206,10 +206,9 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3394,
-   "chg": 0.08,
+   "price": 1.3393,
+   "chg": 0.26,
    "spark": [
-    1.36,
     1.3643,
     1.3654,
     1.3638,
@@ -230,7 +229,8 @@
     1.3501,
     1.3473,
     1.3383,
-    1.3394
+    1.3358,
+    1.3393
    ]
   },
   {
@@ -264,14 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2628.04,
-   "chg": 0.64,
+   "price": 2639.08,
+   "chg": 1.06,
    "spark": [
-    2442.24,
-    2442.93,
-    2436.58,
-    2433.18,
-    2440.56,
     2457.96,
     2460.11,
     2459.39,
@@ -314,19 +309,19 @@
     2619.1,
     2619.01,
     2627.25,
-    2628.04
+    2626.41,
+    2626.22,
+    2644.36,
+    2640.13,
+    2637.4,
+    2639.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81047.2,
-   "chg": 0.21,
+   "price": 81247.0,
+   "chg": 0.46,
    "spark": [
-    76385.6,
-    76493.9,
-    76400.0,
-    76337.1,
-    76406.9,
     76662.3,
     76612.4,
     76432.2,
@@ -369,7 +364,12 @@
     81104.5,
     81001.5,
     81022.5,
-    81047.2
+    81024.8,
+    81067.1,
+    81291.7,
+    81299.0,
+    81192.7,
+    81247.0
    ]
   }
  ],
@@ -426,81 +426,89 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789800350.535591,
+   "ts": 1789817996.692291,
    "title": "US Treasury\u2019s Bessent to discuss AI, rare earths with China\u2019s He, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-plans-to-discuss-ai-and-rare-earths-with-chinas-he-source-says-4907786",
-   "t": "19 Sep \u00b7 11:45 AM"
+   "t": "19 Sep \u00b7 04:39 PM",
+   "ur": "Makhaz ka kahana hai kah US treasurei ki bessent chin ke hi ke sath aye i, naayab zaminon par bat chiyat kare gi"
   },
   {
-   "ts": 1789800350.535591,
+   "ts": 1789817996.692291,
    "title": "Gold heads for slight weekly gain as decline in oil prices offset Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
-   "t": "19 Sep \u00b7 11:45 AM"
-  },
-  {
-   "ts": 1789800350.535591,
-   "title": "Silver stalls at $68.00 resistance with bull trap risk: Live",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "19 Sep \u00b7 11:45 AM"
+   "t": "19 Sep \u00b7 04:39 PM",
+   "ur": "Til ki qeemton mein kami fed ki rate mein azafe ko pora karne ke baas Gold (sona) mamoli haftah war azafe ki taraf badh raha hai."
   },
   {
    "ts": 1789775700.0,
    "title": "Taiwan Dollar: Mildly hawkish CBC but flows drive \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/taiwan-dollar-mildly-hawkish-cbc-but-flows-drive-ocbc-202609182355",
-   "t": "19 Sep \u00b7 04:55 AM"
+   "t": "19 Sep \u00b7 04:55 AM",
+   "ur": "Taiwan Dollar: halka halka si bi si lican filo daraio \u2013 OCBC"
   },
   {
    "ts": 1789774320.0,
    "title": "Taiwan Dollar: CBC holds rates but flags inflation risks \u2013 Commerzbank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/taiwan-dollar-cbc-holds-rates-but-flags-inflation-risks-commerzbank-202609182332",
-   "t": "19 Sep \u00b7 04:32 AM"
+   "t": "19 Sep \u00b7 04:32 AM",
+   "ur": "Taiwan Dollar: CBC shrahin rakta hai lican inflation (mehngai) ke khatrat ko jhanda dita hai - kamrzabink"
   },
   {
    "ts": 1789774020.0,
    "title": "South Korean Won: Foreign equity flows keep KRW heavy against US Dollar \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-foreign-equity-flows-keep-krw-heavy-against-us-dollar-ocbc-202609182327",
-   "t": "19 Sep \u00b7 04:27 AM"
+   "t": "19 Sep \u00b7 04:27 AM",
+   "ur": "South Korea ki wan: ghair malki ekoti bahao KRW ko US Dollar ke maqable mein bhari rakta hai - OCBC"
   },
   {
    "ts": 1789768140.0,
    "title": "Singapore Dollar: Strong NODX but USD still drives USD/SGD \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-strong-nodx-but-usd-still-drives-usd-sgd-ocbc-202609182149",
-   "t": "19 Sep \u00b7 02:49 AM"
+   "t": "19 Sep \u00b7 02:49 AM",
+   "ur": "Sangapor Dollar: mazboot NODX lican USD phar bhi USD/SGD ko chalata hai - OCBC"
   },
   {
    "ts": 1789763880.0,
    "title": "Singapore Dollar: Range trade persists against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-range-trade-persists-against-us-dollar-uob-202609182038",
-   "t": "19 Sep \u00b7 01:38 AM"
+   "t": "19 Sep \u00b7 01:38 AM",
+   "ur": "Sangapor Dollar: rinj tred US Dollar - UOB ke khalaf barqarar hai."
   },
   {
    "ts": 1789758192.0,
    "title": "10-year Treasury yield rises back to 5% as global tightening wave pushes",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-10-year-back-at-5-as-global-tightening-wave-pushes-202609181903",
-   "t": "19 Sep \u00b7 12:03 AM"
+   "t": "19 Sep \u00b7 12:03 AM",
+   "ur": "10 salah treasurei pedawar waps badh kar 5 fisad ho gayi cunkah alimi saqti ki lahr dhakil rahi hai"
   },
   {
    "ts": 1789757075.0,
    "title": "Euro: Stabilization after FOMC volatility \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-stabilization-after-fomc-volatility-scotiabank-202609181844",
-   "t": "18 Sep \u00b7 11:44 PM"
+   "t": "18 Sep \u00b7 11:44 PM",
+   "ur": "Uro: FOMC atar chadhao ke bad istehkam \u2013 Scotiabank"
+  },
+  {
+   "ts": 1789754271.0,
+   "title": "Silver Price Forecast: Mild bullish bias holds, but trend strength stays weak",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-mild-bullish-bias-holds-but-trend-strength-stays-weak-202609181757",
+   "t": "18 Sep \u00b7 10:57 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: halki tizi ka taasab barqarar hai, lican rjahan ki tqt kamazor rahti hai."
   }
  ],
  "sentiment": {
   "value": 71,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
