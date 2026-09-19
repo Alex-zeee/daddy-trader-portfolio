@@ -1,21 +1,13 @@
 {
- "updated": "19-09-2026 04:51 PKT",
+ "updated": "19-09-2026 06:50 PKT",
  "gold": {
   "price": 4380.11,
-  "open": 4346.1,
+  "open": 4349.75,
   "high": 4399.22,
   "low": 4335.01,
-  "chg": 0.78,
+  "chg": 0.7,
   "src": "XAUUSD Spot",
   "spark": [
-   4373.43,
-   4357.35,
-   4369.92,
-   4367.28,
-   4372.18,
-   4366.51,
-   4353.93,
-   4349.67,
    4354.91,
    4345.32,
    4351.48,
@@ -54,6 +46,14 @@
    4380.12,
    4380.14,
    4380.09,
+   4380.01,
+   4380.12,
+   4380.15,
+   4380.08,
+   4380.01,
+   4380.13,
+   4380.14,
+   4380.1,
    4380.01,
    4380.11
   ]
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2611.0,
-   "chg": 6.78,
+   "price": 2618.63,
+   "chg": 0.28,
    "spark": [
-    2417.29,
-    2425.52,
     2426.68,
     2433.61,
     2440.08,
@@ -314,16 +312,16 @@
     2631.25,
     2626.08,
     2619.61,
-    2611.0
+    2611.32,
+    2625.86,
+    2618.63
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80905.3,
-   "chg": 5.96,
+   "price": 81343.3,
+   "chg": 0.58,
    "spark": [
-    76276.2,
-    76304.4,
     76303.1,
     76368.8,
     76464.4,
@@ -369,7 +367,9 @@
     81096.6,
     81219.2,
     81114.0,
-    80905.3
+    80878.1,
+    81647.0,
+    81343.3
    ]
   }
  ],
@@ -426,28 +426,36 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789775494.115784,
-   "title": "US Treasury\u2019s Bessent plans to discuss AI and rare earths with China\u2019s He, source says",
+   "ts": 1789782629.105229,
+   "title": "US Treasury\u2019s Bessent to discuss AI, trade, rare earths with China\u2019s He, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-plans-to-discuss-ai-and-rare-earths-with-chinas-he-source-says-4907786",
-   "t": "19 Sep \u00b7 04:51 AM",
-   "ur": "Zaria ka kahana hai kah US treasurei ka bessent chin ke hi ke sath aye i aur naayab zaminon par bat chiyat karne ka aradah rakta hai"
+   "t": "19 Sep \u00b7 06:50 AM",
+   "ur": "Zarai ka kahana hai kah US treasurei ka bessent chin ke hi ke sath aye i, tajart, naayab zaminon par bat chiyat kare ga"
   },
   {
-   "ts": 1789775494.115784,
+   "ts": 1789782629.105229,
    "title": "Gold heads for slight weekly gain as decline in oil prices offset Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
-   "t": "19 Sep \u00b7 04:51 AM",
+   "t": "19 Sep \u00b7 06:50 AM",
    "ur": "Til ki qeemton mein kami fed ki rate mein azafe ko pora karne ke baas Gold (sona) mamoli haftah war azafe ki taraf badh raha hai."
   },
   {
-   "ts": 1789775494.115784,
+   "ts": 1789782629.105229,
    "title": "Silver stalls at $68.00 resistance with bull trap risk: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-200-sma-at-6408-amid-double-top-risk-live-levels-93CH-4898870",
-   "t": "19 Sep \u00b7 04:51 AM",
+   "t": "19 Sep \u00b7 06:50 AM",
    "ur": "Bel trip ke khatre ke sath $68.00 mazahmat par salor rak gaya hai: laaio"
+  },
+  {
+   "ts": 1789775700.0,
+   "title": "Taiwan Dollar: Mildly hawkish CBC but flows drive \u2013 OCBC",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/taiwan-dollar-mildly-hawkish-cbc-but-flows-drive-ocbc-202609182355",
+   "t": "19 Sep \u00b7 04:55 AM",
+   "ur": "Taiwan Dollar: halka halka si bi si lican filo daraio \u2013 OCBC"
   },
   {
    "ts": 1789774320.0,
@@ -463,7 +471,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-foreign-equity-flows-keep-krw-heavy-against-us-dollar-ocbc-202609182327",
    "t": "19 Sep \u00b7 04:27 AM",
-   "ur": "South Korea ki wan: ghair malki ekoti bahao KRW ko US Dollar ke maqable mein bhari rakta hai - OCBC"
+   "ur": "South Korea ki Won: ghair malki ekoti bahao KRW ko US Dollar ke maqable mein bhari rakta hai - OCBC"
   },
   {
    "ts": 1789768140.0,
@@ -496,18 +504,10 @@
    "link": "https://www.fxstreet.com/news/euro-stabilization-after-fomc-volatility-scotiabank-202609181844",
    "t": "18 Sep \u00b7 11:44 PM",
    "ur": "Uro: FOMC atar chadhao ke bad istehkam \u2013 Scotiabank"
-  },
-  {
-   "ts": 1789754271.0,
-   "title": "Silver Price Forecast: Mild bullish bias holds, but trend strength stays weak",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-mild-bullish-bias-holds-but-trend-strength-stays-weak-202609181757",
-   "t": "18 Sep \u00b7 10:57 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: halki tizi ka taasab barqarar hai, lican rjahan ki tqt kamazor rahti hai."
   }
  ],
  "sentiment": {
-  "value": 56,
+  "value": 71,
   "label": "Greed"
  },
  "err": null
