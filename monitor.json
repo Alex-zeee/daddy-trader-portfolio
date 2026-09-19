@@ -1,26 +1,13 @@
 {
- "updated": "19-09-2026 16:39 PKT",
+ "updated": "19-09-2026 19:46 PKT",
  "gold": {
-  "price": 4380.13,
-  "open": 4376.41,
+  "price": 4380.01,
+  "open": 4356.73,
   "high": 4396.79,
-  "low": 4342.92,
-  "chg": 0.08,
+  "low": 4348.2,
+  "chg": 0.53,
   "src": "XAUUSD Spot",
   "spark": [
-   4380.12,
-   4380.15,
-   4380.08,
-   4380.01,
-   4380.13,
-   4380.14,
-   4380.1,
-   4380.01,
-   4380.14,
-   4380.14,
-   4380.11,
-   4380.01,
-   4380.16,
    4380.13,
    4380.12,
    4380.02,
@@ -55,7 +42,20 @@
    4380.1,
    4380.01,
    4380.1,
-   4380.13
+   4380.14,
+   4380.08,
+   4380.01,
+   4380.12,
+   4380.14,
+   4380.08,
+   4380.01,
+   4380.14,
+   4380.14,
+   4380.1,
+   4380.02,
+   4380.15,
+   4380.13,
+   4380.01
   ]
  },
  "markets": [
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1489,
-   "chg": 0.17,
+   "price": 1.149,
+   "chg": 0.18,
    "spark": [
     1.1674,
     1.1688,
@@ -201,7 +201,7 @@
     1.1549,
     1.1538,
     1.147,
-    1.1489
+    1.149
    ]
   },
   {
@@ -264,12 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2639.08,
-   "chg": 1.06,
+   "price": 2638.05,
+   "chg": 1.02,
    "spark": [
-    2457.96,
-    2460.11,
-    2459.39,
     2468.17,
     2468.23,
     2460.73,
@@ -314,17 +311,17 @@
     2644.36,
     2640.13,
     2637.4,
-    2639.08
+    2638.74,
+    2641.31,
+    2637.82,
+    2638.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81247.0,
-   "chg": 0.46,
+   "price": 81502.7,
+   "chg": 0.77,
    "spark": [
-    76662.3,
-    76612.4,
-    76432.2,
     76695.3,
     76683.1,
     76604.1,
@@ -369,7 +366,10 @@
     81291.7,
     81299.0,
     81192.7,
-    81247.0
+    81283.2,
+    81310.1,
+    81321.2,
+    81507.9
    ]
   }
  ],
@@ -426,20 +426,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1789817996.692291,
+   "ts": 1789829190.491189,
    "title": "US Treasury\u2019s Bessent to discuss AI, rare earths with China\u2019s He, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-plans-to-discuss-ai-and-rare-earths-with-chinas-he-source-says-4907786",
-   "t": "19 Sep \u00b7 04:39 PM",
+   "t": "19 Sep \u00b7 07:46 PM",
    "ur": "Makhaz ka kahana hai kah US treasurei ki bessent chin ke hi ke sath aye i, naayab zaminon par bat chiyat kare gi"
   },
   {
-   "ts": 1789817996.692291,
+   "ts": 1789829190.491189,
    "title": "Gold heads for slight weekly gain as decline in oil prices offset Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
-   "t": "19 Sep \u00b7 04:39 PM",
+   "t": "19 Sep \u00b7 07:46 PM",
    "ur": "Til ki qeemton mein kami fed ki rate mein azafe ko pora karne ke baas Gold (sona) mamoli haftah war azafe ki taraf badh raha hai."
+  },
+  {
+   "ts": 1789822249.0,
+   "title": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
+   "t": "19 Sep \u00b7 05:50 PM",
+   "ur": "Thos misht ke bawajud sarfin ke jazbat dmp mein hen. golldomin sex ne 'kam khushi' ko jam dar tehraya"
   },
   {
    "ts": 1789775700.0,
@@ -496,14 +504,6 @@
    "link": "https://www.fxstreet.com/news/euro-stabilization-after-fomc-volatility-scotiabank-202609181844",
    "t": "18 Sep \u00b7 11:44 PM",
    "ur": "Uro: FOMC atar chadhao ke bad istehkam \u2013 Scotiabank"
-  },
-  {
-   "ts": 1789754271.0,
-   "title": "Silver Price Forecast: Mild bullish bias holds, but trend strength stays weak",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-mild-bullish-bias-holds-but-trend-strength-stays-weak-202609181757",
-   "t": "18 Sep \u00b7 10:57 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: halki tizi ka taasab barqarar hai, lican rjahan ki tqt kamazor rahti hai."
   }
  ],
  "sentiment": {
