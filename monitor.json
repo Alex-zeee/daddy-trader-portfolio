@@ -1,37 +1,41 @@
 {
- "updated": "20-09-2026 06:35 PKT",
+ "updated": "20-09-2026 11:58 PKT",
  "gold": {
-  "price": 4380.14,
-  "open": 4380.05,
+  "price": 4380.03,
+  "open": 4380.04,
   "high": 4380.25,
   "low": 4379.97,
-  "chg": 0.0,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
+   4380.09,
+   4380.01,
+   4380.14,
+   4380.14,
+   4380.11,
+   4380.02,
+   4380.04,
+   4380.13,
+   4380.12,
+   4380.03,
+   4380.03,
+   4380.12,
+   4380.13,
    4380.1,
+   4380.02,
+   4380.1,
+   4380.14,
+   4380.09,
+   4380.01,
+   4380.12,
+   4380.14,
+   4380.08,
+   4380.01,
+   4380.13,
+   4380.14,
+   4380.09,
    4380.02,
    4380.15,
-   4380.13,
-   4380.12,
-   4380.03,
-   4380.03,
-   4380.12,
-   4380.13,
-   4380.04,
-   4380.02,
-   4380.11,
-   4380.14,
-   4380.09,
-   4380.01,
-   4380.11,
-   4380.14,
-   4380.08,
-   4380.01,
-   4380.13,
-   4380.14,
-   4380.09,
-   4380.01,
-   4380.14,
    4380.14,
    4380.11,
    4380.02,
@@ -39,32 +43,27 @@
    4380.13,
    4380.12,
    4380.03,
-   4380.03,
-   4380.12,
+   4380.02,
+   4380.11,
    4380.13,
    4380.1,
    4380.02,
-   4380.1,
+   4380.11,
    4380.14,
-   4380.09,
+   4380.08,
    4380.01,
    4380.12,
    4380.14,
    4380.08,
-   4380.01,
-   4380.13,
-   4380.14,
-   4380.09,
-   4380.14
+   4380.03
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.556,
-   "chg": 1.66,
+   "price": 67.149,
+   "chg": 2.56,
    "spark": [
-    65.734,
     68.026,
     69.466,
     68.541,
@@ -85,7 +84,7 @@
     63.236,
     64.288,
     65.47,
-    66.556
+    67.149
    ]
   },
   {
@@ -93,7 +92,6 @@
    "price": 100.22,
    "chg": 0.0,
    "spark": [
-    98.83,
     98.9,
     98.8,
     99.0,
@@ -119,10 +117,9 @@
   },
   {
    "name": "Oil WTI",
-   "price": 100.3,
-   "chg": -1.58,
+   "price": 96.08,
+   "chg": -5.72,
    "spark": [
-    85.83,
     87.83,
     87.06,
     85.01,
@@ -143,7 +140,7 @@
     105.83,
     102.43,
     101.91,
-    100.3
+    96.08
    ]
   },
   {
@@ -264,14 +261,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2617.48,
-   "chg": -0.55,
+   "price": 2574.01,
+   "chg": -2.2,
    "spark": [
-    2460.6,
-    2476.65,
-    2479.88,
-    2478.31,
-    2485.17,
     2487.85,
     2503.21,
     2505.81,
@@ -314,19 +306,19 @@
     2630.03,
     2631.55,
     2626.69,
-    2617.48
+    2618.61,
+    2573.35,
+    2586.99,
+    2578.65,
+    2577.39,
+    2574.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81041.3,
-   "chg": -0.24,
+   "price": 80290.6,
+   "chg": -1.16,
    "spark": [
-    76912.9,
-    77303.0,
-    77489.1,
-    77428.3,
-    77537.4,
     77727.4,
     78196.1,
     78145.2,
@@ -369,146 +361,119 @@
     81230.8,
     81226.5,
     81265.1,
-    81041.3
+    81072.3,
+    80302.4,
+    80463.0,
+    80400.7,
+    80460.0,
+    80290.6
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1789581600.0,
-   "t": "Wed 16 Sep \u00b7 11:00 PM",
-   "title": "Federal Funds Rate",
-   "impact": "High",
-   "forecast": "4.00%",
-   "previous": "3.75%"
-  },
-  {
-   "ts": 1789581600.0,
-   "t": "Wed 16 Sep \u00b7 11:00 PM",
-   "title": "FOMC Economic Projections",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1789581600.0,
-   "t": "Wed 16 Sep \u00b7 11:00 PM",
-   "title": "FOMC Statement",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1789583400.0,
-   "t": "Wed 16 Sep \u00b7 11:30 PM",
-   "title": "FOMC Press Conference",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1789648200.0,
-   "t": "Thu 17 Sep \u00b7 05:30 PM",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "Medium",
-   "forecast": "31.3",
-   "previous": "47.4"
-  },
-  {
-   "ts": 1789648200.0,
-   "t": "Thu 17 Sep \u00b7 05:30 PM",
+   "ts": 1790253000.0,
+   "t": "Thu 24 Sep \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "207K",
-   "previous": "206K"
+   "forecast": "201K",
+   "previous": "196K"
+  },
+  {
+   "ts": 1790344800.0,
+   "t": "Fri 25 Sep \u00b7 07:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "47.5",
+   "previous": "47.8"
+  },
+  {
+   "ts": 1790344800.0,
+   "t": "Fri 25 Sep \u00b7 07:00 PM",
+   "title": "Revised UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.6%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789868159.597519,
+   "ts": 1789887511.646418,
    "title": "US Treasury\u2019s Bessent to discuss AI, rare earths with China\u2019s He, source says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-plans-to-discuss-ai-and-rare-earths-with-chinas-he-source-says-4907786",
-   "t": "20 Sep \u00b7 06:35 AM",
-   "ur": "Makhaz ka kahana hai kah US treasurei ki bessent chin ke hi ke sath aye i, naayab zaminon par bat chiyat kare gi"
+   "t": "20 Sep \u00b7 11:58 AM"
   },
   {
-   "ts": 1789868159.597519,
+   "ts": 1789887511.646418,
    "title": "Gold heads for slight weekly gain as decline in oil prices offset Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-lower-oil-treasury-yields-ease-inflation-pressure-4906609",
-   "t": "20 Sep \u00b7 06:35 AM",
-   "ur": "Til ki qeemton mein kami fed ki rate mein azafe ko pora karne ke baas Gold (sona) mamoli haftah war azafe ki taraf badh raha hai."
+   "t": "20 Sep \u00b7 11:58 AM"
   },
   {
    "ts": 1789822249.0,
    "title": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
-   "t": "19 Sep \u00b7 05:50 PM",
-   "ur": "Thos misht ke bawajud sarfin ke jazbat dmp mein hen. golldomin sex ne 'kam khushi' ko jam dar tehraya"
+   "t": "19 Sep \u00b7 05:50 PM"
   },
   {
    "ts": 1789775700.0,
    "title": "Taiwan Dollar: Mildly hawkish CBC but flows drive \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/taiwan-dollar-mildly-hawkish-cbc-but-flows-drive-ocbc-202609182355",
-   "t": "19 Sep \u00b7 04:55 AM",
-   "ur": "Taiwan Dollar: halka halka si bi si lican filo daraio \u2013 OCBC"
+   "t": "19 Sep \u00b7 04:55 AM"
   },
   {
    "ts": 1789774320.0,
    "title": "Taiwan Dollar: CBC holds rates but flags inflation risks \u2013 Commerzbank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/taiwan-dollar-cbc-holds-rates-but-flags-inflation-risks-commerzbank-202609182332",
-   "t": "19 Sep \u00b7 04:32 AM",
-   "ur": "Taiwan Dollar: CBC shrahin rakta hai lican inflation (mehngai) ke khatrat ko jhanda dita hai - kamrzabink"
+   "t": "19 Sep \u00b7 04:32 AM"
   },
   {
    "ts": 1789774020.0,
    "title": "South Korean Won: Foreign equity flows keep KRW heavy against US Dollar \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/south-korean-won-foreign-equity-flows-keep-krw-heavy-against-us-dollar-ocbc-202609182327",
-   "t": "19 Sep \u00b7 04:27 AM",
-   "ur": "South Korea ki Won: ghair malki ekoti bahao KRW ko US Dollar ke maqable mein bhari rakta hai - OCBC"
+   "t": "19 Sep \u00b7 04:27 AM"
   },
   {
    "ts": 1789768140.0,
    "title": "Singapore Dollar: Strong NODX but USD still drives USD/SGD \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-strong-nodx-but-usd-still-drives-usd-sgd-ocbc-202609182149",
-   "t": "19 Sep \u00b7 02:49 AM",
-   "ur": "Sangapor Dollar: mazboot NODX lican USD phar bhi USD/SGD ko chalata hai - OCBC"
+   "t": "19 Sep \u00b7 02:49 AM"
   },
   {
    "ts": 1789763880.0,
    "title": "Singapore Dollar: Range trade persists against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-range-trade-persists-against-us-dollar-uob-202609182038",
-   "t": "19 Sep \u00b7 01:38 AM",
-   "ur": "Sangapor Dollar: rinj tred US Dollar - UOB ke khalaf barqarar hai."
+   "t": "19 Sep \u00b7 01:38 AM"
   },
   {
    "ts": 1789758192.0,
    "title": "10-year Treasury yield rises back to 5% as global tightening wave pushes",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-10-year-back-at-5-as-global-tightening-wave-pushes-202609181903",
-   "t": "19 Sep \u00b7 12:03 AM",
-   "ur": "10 salah treasurei pedawar waps badh kar 5 fisad ho gayi cunkah alimi saqti ki lahr dhakil rahi hai"
+   "t": "19 Sep \u00b7 12:03 AM"
   },
   {
    "ts": 1789757075.0,
    "title": "Euro: Stabilization after FOMC volatility \u2013 Scotiabank",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-stabilization-after-fomc-volatility-scotiabank-202609181844",
-   "t": "18 Sep \u00b7 11:44 PM",
-   "ur": "Uro: FOMC atar chadhao ke bad istehkam \u2013 Scotiabank"
+   "t": "18 Sep \u00b7 11:44 PM"
   }
  ],
  "sentiment": {
   "value": 71,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
