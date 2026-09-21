@@ -1,36 +1,13 @@
 {
- "updated": "21-09-2026 15:54 PKT",
+ "updated": "21-09-2026 21:40 PKT",
  "gold": {
-  "price": 4348.08,
+  "price": 4350.37,
   "open": 4380.04,
   "high": 4384.53,
-  "low": 4339.79,
-  "chg": -0.73,
+  "low": 4321.23,
+  "chg": -0.68,
   "src": "XAUUSD Spot",
   "spark": [
-   4372.83,
-   4373.99,
-   4372.43,
-   4371.8,
-   4364.68,
-   4369.49,
-   4371.66,
-   4364.56,
-   4380.1,
-   4377.07,
-   4378.32,
-   4377.4,
-   4371.68,
-   4368.36,
-   4368.33,
-   4364.31,
-   4363.25,
-   4360.43,
-   4368.15,
-   4358.5,
-   4361.54,
-   4363.38,
-   4363.09,
    4356.18,
    4355.84,
    4357.77,
@@ -55,14 +32,37 @@
    4352.29,
    4351.65,
    4349.57,
-   4348.08
+   4345.11,
+   4347.73,
+   4354.08,
+   4364.88,
+   4368.38,
+   4369.38,
+   4352.28,
+   4360.55,
+   4361.45,
+   4363.87,
+   4364.86,
+   4349.92,
+   4348.33,
+   4339.76,
+   4341.71,
+   4335.05,
+   4337.33,
+   4349.33,
+   4350.72,
+   4349.46,
+   4347.73,
+   4351.93,
+   4351.07,
+   4350.37
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 66.53,
-   "chg": -0.04,
+   "price": 66.75,
+   "chg": 0.29,
    "spark": [
     69.466,
     68.541,
@@ -84,13 +84,13 @@
     64.288,
     65.47,
     66.556,
-    66.53
+    66.75
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.283,
-   "chg": 0.06,
+   "price": 100.383,
+   "chg": 0.16,
    "spark": [
     98.8,
     99.0,
@@ -112,13 +112,13 @@
     100.31,
     100.22,
     100.22,
-    100.283
+    100.383
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 93.09,
-   "chg": -7.19,
+   "price": 91.79,
+   "chg": -8.48,
    "spark": [
     87.06,
     85.01,
@@ -140,16 +140,14 @@
     102.43,
     101.91,
     100.3,
-    93.09
+    91.79
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.998,
-   "chg": 1.03,
+   "price": 4.959,
+   "chg": -0.78,
    "spark": [
-    4.653,
-    4.696,
     4.738,
     4.704,
     4.639,
@@ -169,13 +167,14 @@
     4.996,
     5.006,
     4.947,
-    4.998
+    4.998,
+    4.959
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1485,
-   "chg": 0.08,
+   "price": 1.1474,
+   "chg": -0.01,
    "spark": [
     1.1688,
     1.1682,
@@ -198,13 +197,13 @@
     1.1538,
     1.147,
     1.1476,
-    1.1485
+    1.1474
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3382,
-   "chg": 0.18,
+   "price": 1.3375,
+   "chg": 0.13,
    "spark": [
     1.3643,
     1.3654,
@@ -227,13 +226,13 @@
     1.3473,
     1.3383,
     1.3358,
-    1.3382
+    1.3375
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.199,
-   "chg": 0.69,
+   "price": 157.391,
+   "chg": 0.81,
    "spark": [
     158.883,
     158.904,
@@ -256,20 +255,14 @@
     155.266,
     156.014,
     156.129,
-    157.199
+    157.391
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2713.21,
-   "chg": 2.59,
+   "price": 2750.59,
+   "chg": 4.01,
    "spark": [
-    2638.74,
-    2641.31,
-    2637.82,
-    2638.2,
-    2640.08,
-    2649.63,
     2644.78,
     2638.31,
     2633.97,
@@ -311,20 +304,20 @@
     2661.1,
     2696.09,
     2719.97,
-    2713.21
+    2715.21,
+    2724.79,
+    2734.33,
+    2731.32,
+    2736.32,
+    2755.5,
+    2750.59
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84205.9,
-   "chg": 3.75,
+   "price": 85641.0,
+   "chg": 5.52,
    "spark": [
-    81283.2,
-    81310.1,
-    81321.2,
-    81552.4,
-    81608.6,
-    81811.2,
     81438.0,
     81414.4,
     81341.4,
@@ -366,7 +359,13 @@
     81704.8,
     83747.0,
     84639.0,
-    84205.9
+    84420.9,
+    84870.7,
+    85303.8,
+    85453.1,
+    85823.6,
+    85927.9,
+    85641.0
    ]
   }
  ],
@@ -399,84 +398,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1789988058.342582,
-   "title": "European gas slides; ECB warns of quicker inflation impact",
+   "ts": 1790008801.141389,
+   "title": "Gold declines amid firmer dollar, bets on more Fed rate hike",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/european-gas-slides-ecb-warns-of-quicker-inflation-impact-4908399",
-   "t": "21 Sep \u00b7 03:54 PM",
-   "ur": "Uripi gis salaids; ai si bi ne inflation (mehngai) ke ties tar asarat se khabrdar kiya hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-prices-flat-with-focus-on-uschina-talks-iran-conflict-4908220",
+   "t": "21 Sep \u00b7 09:40 PM",
+   "ur": "Mazboot Dollar ke darmiyan Gold (sone) mein kami, fed ki rate mein mazid azafe par shart"
   },
   {
-   "ts": 1789988058.342582,
-   "title": "Silver consolidates at $66.40 in breakout coil: Live levels",
+   "ts": 1790008801.141389,
+   "title": "Bernstein unveils new gold price forecast for 2030",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-consolidates-at-6640-in-breakout-coil-live-levels-93CH-4908353",
-   "t": "21 Sep \u00b7 03:54 PM",
-   "ur": "Barik oat koile mein Silver (chandi) $66.40 par mastahkam hoti hai."
+   "link": "https://www.investing.com/news/commodities-news/bernstein-unveils-new-gold-price-forecast-for-2030-4908919",
+   "t": "21 Sep \u00b7 09:40 PM",
+   "ur": "Barnstin ne 2030 ke liye Gold (sone) ki qeemat ki nayi forecast ki naqab kashai ki."
   },
   {
-   "ts": 1789987484.0,
-   "title": "Australian Dollar edges higher on renewed RBA hike bets ahead of Bullock, jobs data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-on-renewed-rba-hike-bets-ahead-of-bullock-jobs-data-202609211044",
-   "t": "21 Sep \u00b7 03:44 PM",
-   "ur": "Bel, malazmaton ke aed w shmar se aage aar bi aye mein azafe ki tajadid ki shart par aasterilvi Dollar ki qeemat badh gayi"
+   "ts": 1790008801.141389,
+   "title": "Silver outlook: Can near-term risks overshadow the medium-term thesis?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-outlook-can-nearterm-risks-overshadow-the-mediumterm-thesis-93CH-4908913",
+   "t": "21 Sep \u00b7 09:40 PM",
+   "ur": "Salor oat lak: kiya qarib almadat khatrat darmiyani madat ke maqale ko zir kar sakte hen?"
   },
   {
-   "ts": 1789987364.0,
-   "title": "Gold Price Forecast: Struggles to hold above 20-day EMA",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-struggles-to-hold-above-20-day-ema-202609211042",
-   "t": "21 Sep \u00b7 03:42 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: 20 dan ke EMA se oper rakhane ke liye jadojehad"
+   "ts": 1790008801.141389,
+   "title": "UBS expects silver to benefit from gold\u2019s supportive backdrop",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/ubs-expects-silver-to-benefit-from-golds-supportive-backdrop-4908870",
+   "t": "21 Sep \u00b7 09:40 PM",
+   "ur": "UBS ko toqa hai kah Silver (chandi) Gold (sone) ke maaun pas manazr se faidah athaye gi."
   },
   {
-   "ts": 1789983125.0,
-   "title": "Silver price today: Silver broadly unchanged, according to FXStreet data",
+   "ts": 1790008274.0,
+   "title": "British Pound loses grip on 1.34 as Fed hawks stay in charge",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-broadly-unchanged-according-to-fxstreet-data-202609210932",
-   "t": "21 Sep \u00b7 02:32 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: FXStreet deta ke matabiq, Silver (chandi) mein koi tabadili nihen hoi."
+   "link": "https://www.fxstreet.com/news/british-pound-loses-grip-on-134-as-fed-hawks-stay-in-charge-202609211631",
+   "t": "21 Sep \u00b7 09:31 PM",
+   "ur": "Bartanvi pound 1.34 par garft kho dita hai cunkah fed hox ancharj rahte hen."
   },
   {
-   "ts": 1789982777.0,
-   "title": "Australian Dollar rises vs Japanese Yen on diverging RBA, BoJ policy outlooks",
+   "ts": 1790003050.0,
+   "title": "Japanese Yen: Intervention risk high as 160 seen possible against US Dollar \u2013 ING",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rises-vs-japanese-yen-on-diverging-rba-boj-policy-outlooks-202609210926",
-   "t": "21 Sep \u00b7 02:26 PM",
-   "ur": "RBA, BoJ palisi ke naqatah nazar ko hatane par aasterilvi Dollar bamaqablah japani yan badh gaya"
+   "link": "https://www.fxstreet.com/news/japanese-yen-intervention-risk-high-as-160-seen-possible-against-us-dollar-ing-202609211504",
+   "t": "21 Sep \u00b7 08:04 PM",
+   "ur": "Japani yan: US Dollar - ING ke maqable mein madakhalt ka khatrah 160 tak mamkan hai."
   },
   {
-   "ts": 1789982748.0,
-   "title": "US Dollar: Post-FOMC gains face higher hurdle \u2013 OCBC",
+   "ts": 1790002761.0,
+   "title": "Japanese Yen slides as Fed hawkishness, intervention fears grow",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-post-fomc-gains-face-higher-hurdle-ocbc-202609210925",
-   "t": "21 Sep \u00b7 02:25 PM",
-   "ur": "US Dollar: FOMC ke bad ke fawaid ko ziyadah rakaut ka samana hai - OCBC"
+   "link": "https://www.fxstreet.com/news/apanese-yen-slides-as-fed-hawkishness-intervention-fears-grow-202609211459",
+   "t": "21 Sep \u00b7 07:59 PM",
+   "ur": "Japani yan fed ki be raah ravi ki wajah se phisal raha hai, madakhalt ke khadshat badh rahe hen."
   },
   {
-   "ts": 1789980825.0,
-   "title": "Euro holds gains against Canadian Dollar amid lower oil prices",
+   "ts": 1790001875.0,
+   "title": "Euro struggles against US Dollar as hawkish Fed outlook weighs",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-holds-gains-against-canadian-dollar-amid-lower-oil-prices-202609210853",
-   "t": "21 Sep \u00b7 01:53 PM",
-   "ur": "Til ki kam qeemton ke darmiyan uro caniden Dollar ke maqable mein azafah hawa hai."
+   "link": "https://www.fxstreet.com/news/euro-struggles-against-us-dollar-as-hawkish-fed-outlook-weighs-202609211444",
+   "t": "21 Sep \u00b7 07:44 PM",
+   "ur": "Uro US Dollar ke khalaf jadojehad kar raha hai cunkah fed oat lak ka wazin hai."
   },
   {
-   "ts": 1789979208.0,
-   "title": "US Dollar: Gradual upside after hawkish Fed hike \u2013 HSBC",
+   "ts": 1789997952.0,
+   "title": "Indian Rupee: AI imports add pressure against US Dollar \u2013 Standard Chartered",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-gradual-upside-after-hawkish-fed-hike-hsbc-202609210826",
-   "t": "21 Sep \u00b7 01:26 PM",
-   "ur": "US Dollar: fed mein zabardast azafe ke bad btadarage alta - HSBC"
+   "link": "https://www.fxstreet.com/news/indian-rupee-ai-imports-add-pressure-against-us-dollar-standard-chartered-202609211339",
+   "t": "21 Sep \u00b7 06:39 PM",
+   "ur": "Handostani ropiya: AI ki daraamadat US Dollar ke maqable mein dabao badhati hen - stindrd charter"
   },
   {
-   "ts": 1789978871.0,
-   "title": "Japanese Yen holds losses below 157.00 US Dollar with intervention fears growing",
+   "ts": 1789996495.0,
+   "title": "Gold: CTA whipsaws but support holds \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-holds-losses-below-15700-us-dollar-with-intervention-fears-growing-202609210821",
-   "t": "21 Sep \u00b7 01:21 PM",
-   "ur": "Japani yan ka naqsan 157.00 US Dollar se kam hai jas mein madakhalt ke khadshat badh rahe hen"
+   "link": "https://www.fxstreet.com/news/gold-cta-whipsaws-but-support-holds-td-securities-202609211314",
+   "t": "21 Sep \u00b7 06:14 PM",
+   "ur": "Gold: CTA whipsaws lican sport holds - TD Securities"
   }
  ],
  "sentiment": {
