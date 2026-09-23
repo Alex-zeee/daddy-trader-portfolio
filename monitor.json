@@ -1,23 +1,13 @@
 {
- "updated": "23-09-2026 03:31 PKT",
+ "updated": "23-09-2026 05:54 PKT",
  "gold": {
-  "price": 4364.45,
-  "open": 4351.52,
-  "high": 4375.41,
+  "price": 4358.79,
+  "open": 4358.42,
+  "high": 4370.44,
   "low": 4290.38,
-  "chg": 0.3,
+  "chg": 0.01,
   "src": "XAUUSD Spot",
   "spark": [
-   4333.61,
-   4324.57,
-   4313.2,
-   4316.72,
-   4318.47,
-   4321.7,
-   4322.39,
-   4335.02,
-   4336.93,
-   4336.88,
    4340.39,
    4330.9,
    4341.33,
@@ -55,14 +45,24 @@
    4355.26,
    4360.29,
    4363.85,
-   4364.45
+   4364.45,
+   4365.31,
+   4361.89,
+   4361.05,
+   4363.07,
+   4364.51,
+   4364.26,
+   4365.67,
+   4359.73,
+   4359.0,
+   4358.79
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 67.755,
-   "chg": 2.93,
+   "price": 67.885,
+   "chg": 3.13,
    "spark": [
     68.541,
     68.636,
@@ -84,13 +84,13 @@
     65.47,
     66.556,
     65.825,
-    67.755
+    67.885
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.541,
-   "chg": 0.11,
+   "price": 100.56,
+   "chg": 0.13,
    "spark": [
     99.0,
     98.92,
@@ -112,13 +112,13 @@
     100.22,
     100.22,
     100.43,
-    100.541
+    100.56
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.66,
-   "chg": -6.39,
+   "price": 90.02,
+   "chg": -6.01,
    "spark": [
     85.01,
     82.36,
@@ -140,7 +140,7 @@
     101.91,
     100.3,
     95.78,
-    89.66
+    90.02
    ]
   },
   {
@@ -173,10 +173,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1451,
-   "chg": -0.25,
+   "price": 1.1452,
+   "chg": -0.11,
    "spark": [
-    1.1682,
     1.1668,
     1.1675,
     1.1655,
@@ -197,15 +196,15 @@
     1.147,
     1.1476,
     1.148,
-    1.1451
+    1.1465,
+    1.1452
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3346,
-   "chg": -0.32,
+   "price": 1.334,
+   "chg": -0.23,
    "spark": [
-    1.3654,
     1.3638,
     1.3647,
     1.3597,
@@ -226,15 +225,15 @@
     1.3383,
     1.3358,
     1.3389,
-    1.3346
+    1.3371,
+    1.334
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.453,
-   "chg": 0.26,
+   "price": 157.503,
+   "chg": 0.09,
    "spark": [
-    158.904,
     159.139,
     159.223,
     159.255,
@@ -255,16 +254,15 @@
     156.014,
     156.129,
     157.046,
-    157.453
+    157.369,
+    157.503
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2746.81,
-   "chg": -1.03,
+   "price": 2761.68,
+   "chg": 0.3,
    "spark": [
-    2645.06,
-    2689.1,
     2649.53,
     2661.02,
     2665.34,
@@ -310,16 +308,16 @@
     2751.69,
     2751.45,
     2747.5,
-    2746.98
+    2752.91,
+    2753.25,
+    2761.89
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 86176.5,
-   "chg": -0.49,
+   "price": 86461.1,
+   "chg": 0.3,
    "spark": [
-    81164.0,
-    81606.2,
     80980.6,
     81297.1,
     81409.3,
@@ -365,7 +363,9 @@
     86212.9,
     86280.8,
     86184.1,
-    86176.5
+    86117.1,
+    86196.7,
+    86461.1
    ]
   }
  ],
@@ -398,20 +398,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790116264.558806,
+   "ts": 1790124883.294154,
    "title": "Gold slightly higher as slide in oil prices counters drag from firmer dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-oil-slide-eases-inflation-fears-trump-signals-iran-talks-4909810",
-   "t": "23 Sep \u00b7 03:31 AM",
-   "ur": "Til ki qeemton mein kami ki wajah se Gold (sona) qadare baland ho gaya hai cunkah Dollar mazboot hone se"
+   "t": "23 Sep \u00b7 05:54 AM",
+   "ur": "Til ki qeemton mein kami ki wajah se Gold (sona) qadare ziyadah hai cunkah Dollar mazboot hone se"
   },
   {
-   "ts": 1790116264.558806,
-   "title": "Silver stuck in $66-$68 range as momentum fades: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-consolidates-at-6640-in-breakout-coil-live-levels-93CH-4908353",
-   "t": "23 Sep \u00b7 03:31 AM",
-   "ur": "Silver (chandi) $66-$68 ki had mein phans gayi cunkah raftar khtam hoti hai."
+   "ts": 1790119379.0,
+   "title": "Gold recovers above $4,350 on US\u2013Iran diplomacy hopes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-recovers-above-4-350-on-us-iran-diplomacy-hopes-202609222322",
+   "t": "23 Sep \u00b7 04:22 AM",
+   "ur": "Amrikah-eran safart kari ki amidon par Gold (sona) $4,350 se oper bahal hawa."
+  },
+  {
+   "ts": 1790117678.0,
+   "title": "The New Zealand Dollar dips to a new low and bounces as Crude Oil gets cheaper",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-new-zealand-dollar-dips-to-a-new-low-and-bounces-as-crude-oil-gets-cheaper-202609222254",
+   "t": "23 Sep \u00b7 03:54 AM",
+   "ur": "Kham til sasta hone se niyozi lind Dollar ki qeemat nayi kam tarin sath par gar gayi"
+  },
+  {
+   "ts": 1790117361.0,
+   "title": "Australian Dollar remains subdued as Fed and RBA hawks collide",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-subdued-as-fed-and-rba-hawks-collide-202609222249",
+   "t": "23 Sep \u00b7 03:49 AM",
+   "ur": "Fed aur aar bi aye hox ke takarane se aasterilvi Dollar dab gaya hai."
   },
   {
    "ts": 1790115556.0,
@@ -427,7 +443,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-british-pound-sets-a-new-september-low-as-fed-officials-argue-for-more-202609222204",
    "t": "23 Sep \u00b7 03:04 AM",
-   "ur": "Bartanvi pound stambr mein ek nayi kam tarin sath te karta hai cunkah fed hakam mazid ke liye bahas karte hen."
+   "ur": "Bartanvi pound stambr mein ek nayi kam tarin sath te karta hai jisa kah fed hakam mazid ke liye istadilal karte hen."
   },
   {
    "ts": 1790111520.0,
@@ -460,27 +476,11 @@
    "link": "https://www.fxstreet.com/news/gold-losses-altitude-as-peace-hopes-meet-hawkish-fed-bets-202609221936",
    "t": "23 Sep \u00b7 12:36 AM",
    "ur": "Gold (sona) unchai ko kho dita hai cunkah aman ki amidin haki fed ki sharton ko pora karti hen."
-  },
-  {
-   "ts": 1790099942.0,
-   "title": "US Dollar Index pushes higher on the case for another Fed increase",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-pushes-higher-on-the-case-for-another-fed-increase-202609221759",
-   "t": "22 Sep \u00b7 10:59 PM",
-   "ur": "US Dollar andex ek aur fed azafe ke mamle par uncha dhakil raha hai."
-  },
-  {
-   "ts": 1790097342.0,
-   "title": "Fed\u2019s Barkin backs rate hike, stays unsure on more increases",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-barkin-backs-rate-hike-stays-unsure-on-more-increases-202609221715",
-   "t": "22 Sep \u00b7 10:15 PM",
-   "ur": "Fed's Barkin rate mein azafe ki support karta hai, mazid azafe par ghair yaqeeni rahta hai."
   }
  ],
  "sentiment": {
-  "value": 78,
-  "label": "Extreme Greed"
+  "value": 71,
+  "label": "Greed"
  },
  "err": null
 }
