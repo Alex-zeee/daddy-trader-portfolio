@@ -1,29 +1,13 @@
 {
- "updated": "23-09-2026 19:58 PKT",
+ "updated": "23-09-2026 23:47 PKT",
  "gold": {
-  "price": 4294.47,
-  "open": 4326.54,
+  "price": 4283.41,
+  "open": 4352.61,
   "high": 4370.44,
-  "low": 4278.79,
-  "chg": -0.74,
+  "low": 4270.73,
+  "chg": -1.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4339.46,
-   4338.65,
-   4341.3,
-   4343.86,
-   4346.61,
-   4345.1,
-   4345.1,
-   4344.98,
-   4343.83,
-   4341.41,
-   4331.46,
-   4334.54,
-   4330.18,
-   4329.47,
-   4333.69,
-   4331.37,
    4325.63,
    4324.7,
    4322.92,
@@ -55,14 +39,30 @@
    4284.5,
    4279.06,
    4287.25,
-   4294.47
+   4292.57,
+   4294.79,
+   4286.02,
+   4283.36,
+   4282.25,
+   4283.62,
+   4284.45,
+   4287.12,
+   4285.46,
+   4279.08,
+   4282.07,
+   4287.6,
+   4293.18,
+   4289.5,
+   4284.94,
+   4285.34,
+   4283.41
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 65.08,
-   "chg": -1.29,
+   "price": 65.035,
+   "chg": -1.36,
    "spark": [
     68.541,
     68.636,
@@ -85,13 +85,13 @@
     66.556,
     65.825,
     65.932,
-    65.08
+    65.035
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.062,
-   "chg": 0.63,
+   "price": 101.11,
+   "chg": 0.68,
    "spark": [
     99.0,
     98.92,
@@ -113,13 +113,13 @@
     100.22,
     100.22,
     100.43,
-    101.062
+    101.11
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.91,
-   "chg": -2.83,
+   "price": 92.67,
+   "chg": -2.03,
    "spark": [
     85.01,
     82.36,
@@ -142,13 +142,13 @@
     100.3,
     95.78,
     94.59,
-    91.91
+    92.67
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.062,
-   "chg": 1.99,
+   "price": 5.122,
+   "chg": 3.2,
    "spark": [
     4.704,
     4.639,
@@ -170,13 +170,13 @@
     4.947,
     4.998,
     4.963,
-    5.062
+    5.122
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1404,
-   "chg": -0.53,
+   "price": 1.1386,
+   "chg": -0.69,
    "spark": [
     1.1668,
     1.1675,
@@ -199,13 +199,13 @@
     1.1476,
     1.148,
     1.1465,
-    1.1404
+    1.1386
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3264,
-   "chg": -0.8,
+   "price": 1.324,
+   "chg": -0.98,
    "spark": [
     1.3638,
     1.3647,
@@ -228,13 +228,13 @@
     1.3358,
     1.3389,
     1.3371,
-    1.3264
+    1.324
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.21,
-   "chg": 0.53,
+   "price": 158.295,
+   "chg": 0.59,
    "spark": [
     159.139,
     159.223,
@@ -257,18 +257,14 @@
     156.129,
     157.046,
     157.369,
-    158.21
+    158.295
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2677.27,
-   "chg": -2.77,
+   "price": 2662.98,
+   "chg": -3.29,
    "spark": [
-    2755.5,
-    2754.63,
-    2743.04,
-    2758.1,
     2762.09,
     2784.46,
     2768.0,
@@ -312,18 +308,18 @@
     2727.4,
     2721.23,
     2715.18,
-    2676.96
+    2675.44,
+    2655.96,
+    2660.25,
+    2667.78,
+    2662.98
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84508.6,
-   "chg": -1.96,
+   "price": 84203.8,
+   "chg": -2.32,
    "spark": [
-    85927.9,
-    85961.3,
-    85898.3,
-    86063.3,
     86489.3,
     86988.2,
     86560.0,
@@ -367,7 +363,11 @@
     85640.0,
     85476.7,
     85775.1,
-    84508.6
+    84517.1,
+    83996.0,
+    84015.5,
+    84311.2,
+    84203.8
    ]
   }
  ],
@@ -400,12 +400,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790175506.734789,
+   "ts": 1790189272.338341,
    "title": "Gold, silver, platinum and palladium outlook after the metals pullback",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-silver-platinum-and-palladium-outlook-after-the-metals-pullback-93CH-4912952",
-   "t": "23 Sep \u00b7 07:58 PM",
+   "t": "23 Sep \u00b7 11:47 PM",
    "ur": "Dhaton ke pl bek ke bad Gold (sona), Silver (chandi), platinum aur peledem oat lak"
+  },
+  {
+   "ts": 1790188659.0,
+   "title": "Gold buckles as 5% yields and Fed hawks take control",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-buckles-as-5-yields-and-fed-hawks-take-control-202609231837",
+   "t": "23 Sep \u00b7 11:37 PM",
+   "ur": "5% pedawar ke tur par Gold (sone) ke bakse aur fed hox kantrol le lite hen."
+  },
+  {
+   "ts": 1790187821.0,
+   "title": "Silver Price Forecast: Fed hawks knock XAG/USD toward $64 support",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-fed-hawks-knock-xag-usd-toward-64-support-202609231823",
+   "t": "23 Sep \u00b7 11:23 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: fed hox ne XAG/USD ko $64 ki support ki taraf dastak di."
+  },
+  {
+   "ts": 1790186972.0,
+   "title": "Forex Today: Australia\u2019s jobs report comes to the fore",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-australias-jobs-report-comes-to-the-fore-202609231809",
+   "t": "23 Sep \u00b7 11:09 PM",
+   "ur": "Farex today: aasteriliya ki malazmaton ki rport manazr am par aa gayi."
+  },
+  {
+   "ts": 1790186917.0,
+   "title": "Japanese Yen declines as upbeat US PMI lifts the US Dollar and yields",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/japanese-yen-declines-as-upbeat-us-pmi-lifts-the-us-dollar-yields-202609231808",
+   "t": "23 Sep \u00b7 11:08 PM",
+   "ur": "Japani yan mein kami waqa hoi hai cunkah hawasalah afza US PMI ne US Dollar aur pedawar mein azafah kiya hai"
+  },
+  {
+   "ts": 1790180392.0,
+   "title": "US 10-year yield hits a 19-year high as Fed Governor Barr backs hikes",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-10-year-yield-hits-a-19-year-high-as-fed-governor-barr-backs-hikes-202609231619",
+   "t": "23 Sep \u00b7 09:19 PM",
+   "ur": "US 10 salah pedawar 19 sal ki baland tarin sath par pohch gayi cunkah fed gornar bar ne azafe ki support ki"
+  },
+  {
+   "ts": 1790179615.0,
+   "title": "Dow Jones Industrial Average keeps sliding as yields climb on a strong PMI",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-keeps-sliding-as-yields-climb-on-a-strong-pmi-202609231606",
+   "t": "23 Sep \u00b7 09:06 PM",
+   "ur": "Dou joons andistril everage maslsal phisal rahi hai cunkah pedawar mazboot PMI par chadhti hai"
+  },
+  {
+   "ts": 1790179477.0,
+   "title": "New Zealand Dollar tumbles as strong US PMI data lifts USD",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-tumbles-as-strong-us-pmi-data-lifts-usd-202609231604",
+   "t": "23 Sep \u00b7 09:04 PM",
+   "ur": "Niyozi lind Dollar garta hai cunkah mazboot US PMI deta USD athata hai."
+  },
+  {
+   "ts": 1790175657.0,
+   "title": "Euro slides as strong US PMI data lifts Fed rate hike bets",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/euro-slides-as-strong-us-pmi-data-lifts-fed-rate-hike-bets-202609231500",
+   "t": "23 Sep \u00b7 08:00 PM",
+   "ur": "Mazboot US PMI deta ne Fed ki rate mein azafe ki shart ko athate huvay uro salaid kar diya."
   },
   {
    "ts": 1790175265.0,
@@ -414,70 +478,6 @@
    "link": "https://www.fxstreet.com/news/brazil-growth-outlook-and-inflation-risks-societe-generale-202609231454",
    "t": "23 Sep \u00b7 07:54 PM",
    "ur": "Barazil: garoth oat lak aur inflation (mehngai) ke khatrat - socit janerl"
-  },
-  {
-   "ts": 1790174596.0,
-   "title": "Fed's Barr: Further rate hikes needed for timely return to 2% inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-barr-further-rate-hikes-needed-for-timely-return-to-2-inflation-202609231443",
-   "t": "23 Sep \u00b7 07:43 PM",
-   "ur": "Fed's Barr: 2% inflation (mehngai) ki baroqat wapsi ke liye mazid rate mein azafe ki zarort hai."
-  },
-  {
-   "ts": 1790174412.0,
-   "title": "Australian Dollar tumbles amid stronger US PMIs, softer Australian data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-tumbles-amid-stronger-us-pmis-softer-australian-data-202609231440",
-   "t": "23 Sep \u00b7 07:40 PM",
-   "ur": "Mazboot US PMIs, narm aasterilvi deta ke darmiyan aasterilvi Dollar garta hai."
-  },
-  {
-   "ts": 1790171217.0,
-   "title": "Canadian Dollar: Bearish trend targets 1.4125 \u2013 Scotiabank",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-bearish-trend-targets-14125-scotiabank-202609231346",
-   "t": "23 Sep \u00b7 06:46 PM",
-   "ur": "Caniden Dollar: mandi ke rjahan ka target 1.4125 - Scotiabank"
-  },
-  {
-   "ts": 1790169472.0,
-   "title": "Oil rebounds above $90: Why is the Canadian Dollar still falling?",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/oil-rebounds-above-90-why-is-the-canadian-dollar-still-falling-202609231317",
-   "t": "23 Sep \u00b7 06:17 PM",
-   "ur": "Til $90 se oper: caniden Dollar ab bhi kiyon gar raha hai?"
-  },
-  {
-   "ts": 1790168968.0,
-   "title": "Euro: Downside bias toward 1.1400 against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-downside-bias-toward-11400-against-us-dollar-uob-202609231309",
-   "t": "23 Sep \u00b7 06:09 PM",
-   "ur": "Uro: US Dollar ke maqable mein 1.1400 ki taraf manfi taasab - UOB"
-  },
-  {
-   "ts": 1790167992.0,
-   "title": "Gold: Next leg higher toward $5,000 \u2013 TD Securities",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-next-leg-higher-toward-5-000-td-securities-202609231253",
-   "t": "23 Sep \u00b7 05:53 PM",
-   "ur": "Gold: agli tang $5,000 ki taraf ziyadah - TD securitez"
-  },
-  {
-   "ts": 1790165944.0,
-   "title": "Silver Price Forecast: Daily range holds, but 4-hour chart turns bearish",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-daily-range-holds-but-4-hour-chart-turns-bearish-202609231219",
-   "t": "23 Sep \u00b7 05:19 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: rozana ki had barqarar hai, lican 4 ghantay ka chart mandi ka shkar hai."
-  },
-  {
-   "ts": 1790165754.0,
-   "title": "US Dollar: Growth edge narrative supports gains \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-growth-edge-narrative-supports-gains-bbh-202609231215",
-   "t": "23 Sep \u00b7 05:15 PM",
-   "ur": "US Dollar: garoth age biyaniya fawaid ki support karta hai - BBH"
   }
  ],
  "sentiment": {
