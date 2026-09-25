@@ -1,30 +1,13 @@
 {
- "updated": "25-09-2026 19:34 PKT",
+ "updated": "25-09-2026 23:51 PKT",
  "gold": {
-  "price": 4263.44,
-  "open": 4255.02,
+  "price": 4294.99,
+  "open": 4274.09,
   "high": 4315.6,
-  "low": 4243.32,
-  "chg": 0.2,
+  "low": 4254.78,
+  "chg": 0.49,
   "src": "XAUUSD Spot",
   "spark": [
-   4283.74,
-   4283.29,
-   4278.92,
-   4275.51,
-   4270.82,
-   4269.39,
-   4271.71,
-   4273.41,
-   4263.18,
-   4257.69,
-   4265.13,
-   4272.76,
-   4267.49,
-   4274.48,
-   4276.09,
-   4277.38,
-   4278.55,
    4276.36,
    4274.24,
    4277.45,
@@ -55,14 +38,31 @@
    4277.57,
    4266.45,
    4268.42,
-   4263.44
+   4271.49,
+   4277.72,
+   4278.04,
+   4280.17,
+   4276.62,
+   4286.54,
+   4290.13,
+   4291.42,
+   4288.22,
+   4286.2,
+   4292.69,
+   4287.33,
+   4286.66,
+   4282.76,
+   4284.45,
+   4285.55,
+   4291.08,
+   4294.99
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.25,
-   "chg": 1.25,
+   "price": 64.81,
+   "chg": 2.13,
    "spark": [
     67.99,
     69.429,
@@ -85,13 +85,13 @@
     65.932,
     64.382,
     63.457,
-    64.25
+    64.81
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 100.982,
-   "chg": -0.3,
+   "price": 100.994,
+   "chg": -0.29,
    "spark": [
     99.17,
     99.16,
@@ -114,13 +114,13 @@
     100.6,
     101.1,
     101.29,
-    100.982
+    100.994
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 93.74,
-   "chg": -0.92,
+   "price": 92.22,
+   "chg": -2.53,
    "spark": [
     82.23,
     83.53,
@@ -143,13 +143,13 @@
     94.59,
     92.16,
     94.61,
-    93.74
+    92.22
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.215,
-   "chg": 1.03,
+   "price": 5.194,
+   "chg": 0.62,
    "spark": [
     4.664,
     4.672,
@@ -172,13 +172,13 @@
     4.968,
     5.114,
     5.162,
-    5.215
+    5.194
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1403,
-   "chg": 0.18,
+   "price": 1.1404,
+   "chg": 0.19,
    "spark": [
     1.1655,
     1.1656,
@@ -201,13 +201,13 @@
     1.1465,
     1.1448,
     1.1382,
-    1.1403
+    1.1404
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3245,
-   "chg": 0.03,
+   "price": 1.3252,
+   "chg": 0.08,
    "spark": [
     1.3597,
     1.3597,
@@ -230,13 +230,13 @@
     1.3371,
     1.3343,
     1.3242,
-    1.3245
+    1.3252
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.392,
-   "chg": -0.55,
+   "price": 157.138,
+   "chg": -0.71,
    "spark": [
     159.255,
     159.321,
@@ -259,18 +259,14 @@
     157.369,
     157.464,
     158.265,
-    157.392
+    157.138
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2694.09,
-   "chg": 0.26,
+   "price": 2692.38,
+   "chg": 0.19,
    "spark": [
-    2655.96,
-    2660.25,
-    2667.78,
-    2668.48,
     2678.29,
     2670.94,
     2677.0,
@@ -314,18 +310,18 @@
     2716.81,
     2716.92,
     2694.62,
-    2694.11
+    2695.39,
+    2686.33,
+    2682.69,
+    2685.24,
+    2692.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83862.6,
-   "chg": -0.61,
+   "price": 83922.3,
+   "chg": -0.54,
    "spark": [
-    83996.0,
-    84015.5,
-    84311.2,
-    84308.9,
     84500.0,
     84232.8,
     84409.1,
@@ -369,11 +365,47 @@
     84574.5,
     84443.8,
     83909.4,
-    83862.6
+    84001.9,
+    83777.5,
+    83732.6,
+    83765.4,
+    83922.3
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1790085300.0,
+   "t": "Tue 22 Sep \u00b7 06:55 PM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1790253000.0,
+   "t": "Thu 24 Sep \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "201K",
+   "previous": "196K"
+  },
+  {
+   "ts": 1790259300.0,
+   "t": "Thu 24 Sep \u00b7 07:15 PM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1790294100.0,
+   "t": "Fri 25 Sep \u00b7 04:55 AM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
   {
    "ts": 1790344800.0,
    "t": "Fri 25 Sep \u00b7 07:00 PM",
@@ -391,87 +423,87 @@
    "previous": "4.6%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1790346869.623669,
+   "ts": 1790362301.751653,
    "title": "Gold on track for weekly loss as Fed hike bets rise, dollar weighs",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-set-for-weekly-loss-as-oil-fuels-fed-hike-bets-4916501",
-   "t": "25 Sep \u00b7 07:34 PM",
+   "t": "25 Sep \u00b7 11:51 PM",
    "ur": "Gold (sona) haftah war naqsan ke raaste par hai cunkah fed mein azafe ki shart mein azafah, Dollar ka wazin"
   },
   {
-   "ts": 1790346832.0,
-   "title": "Australian Dollar: RBA hike expectations shape outlook \u2013 ING",
+   "ts": 1790361242.0,
+   "title": "ECB\u2019s Vujcic warns energy shock could keep inflation hot",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rba-hike-expectations-shape-outlook-ing-202609251433",
-   "t": "25 Sep \u00b7 07:33 PM",
-   "ur": "Aasterilvi Dollar: aar bi aye mein azafe ki toqaat ka naqatah nazar - ING"
+   "link": "https://www.fxstreet.com/news/ecbs-vujcic-warns-energy-shock-could-keep-inflation-hot-202609251834",
+   "t": "25 Sep \u00b7 11:34 PM",
+   "ur": "ECB ke Vujcic ne khabrdar kiya hai kah tawanai ka jhataka mahungai ko garm rakh sakta hai."
   },
   {
-   "ts": 1790345855.0,
-   "title": "US Dollar: Yields support Greenback strength \u2013 OCBC",
+   "ts": 1790360571.0,
+   "title": "Asian FX: Higher yields and Oil weigh \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-yields-support-greenback-strength-ocbc-202609251417",
-   "t": "25 Sep \u00b7 07:17 PM",
-   "ur": "US Dollar: pedawar garin bek ki tqt ko sport karti hai - OCBC"
+   "link": "https://www.fxstreet.com/news/asian-fx-higher-yields-and-oil-weigh-ocbc-202609251822",
+   "t": "25 Sep \u00b7 11:22 PM",
+   "ur": "Asiai FX: ziyadah pedawar aur til ka wazin - OCBC"
   },
   {
-   "ts": 1790345822.0,
-   "title": "Australian Dollar rebounds from 0.7000 as US Dollar eases after strong week",
+   "ts": 1790360103.0,
+   "title": "Fed\u2019s Hammack warns inflation mindset is the biggest risk",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-rebounds-from-07000-as-us-dollar-eases-after-strong-week-202609251417",
-   "t": "25 Sep \u00b7 07:17 PM",
-   "ur": "Aasterilvi Dollar 0.7000 se waps aa gaya cunkah US Dollar mazboot hafte ke bad kam hawa"
+   "link": "https://www.fxstreet.com/news/feds-hammack-warns-inflation-mindset-is-the-biggest-risk-202609251815",
+   "t": "25 Sep \u00b7 11:15 PM",
+   "ur": "Fed's Hammack ne khabrdar kiya hai kah inflation (mehngai) ki zhaniyat sab se bada khatrah hai."
   },
   {
-   "ts": 1790344099.0,
-   "title": "Here's what happens to the economy when Treasury yields soar like they are now",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
-   "t": "25 Sep \u00b7 06:48 PM",
-   "ur": "Misht ka kiya hota hai jab treasurei ki pedawar is tarah badh jati hai jise wah ab hai."
+   "ts": 1790359540.0,
+   "title": "Silver Price Forecast: XAG/USD lacks direction as RSI, ADX signal weak momentum",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-lacks-direction-as-rsi-adx-signal-weak-momentum-202609251805",
+   "t": "25 Sep \u00b7 11:05 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD mein RSI, ADX skigl kamazor raftar ke tur par samat ka faqdan hai"
   },
   {
-   "ts": 1790344067.0,
-   "title": "Japanese Yen: Pressure persists toward 159.60 against US Dollar - UOB",
+   "ts": 1790359113.0,
+   "title": "Gold finds a pulse as WTI slump takes the edge off US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-pressure-persists-toward-15960-against-us-dollar-uob-202609251347",
-   "t": "25 Sep \u00b7 06:47 PM",
-   "ur": "Japani yan: US Dollar ke maqable mein 159.60 ki taraf dabao barqarar hai - UOB"
+   "link": "https://www.fxstreet.com/news/gold-finds-a-pulse-as-wti-slump-takes-the-edge-off-us-dollar-202609251758",
+   "t": "25 Sep \u00b7 10:58 PM",
+   "ur": "Gold (sone) ko ek nabz malti hai cunkah dabliyo ti i ki mandi ne US Dollar par bartari haasil ki hai."
   },
   {
-   "ts": 1790343395.0,
-   "title": "Euro: Credibility restored supports Dollar \u2013 Commerzbank",
+   "ts": 1790358195.0,
+   "title": "Swiss Franc remains under pressure as Fed-SNB interest rate gap widens",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-credibility-restored-supports-dollar-commerzbank-202609251336",
-   "t": "25 Sep \u00b7 06:36 PM",
-   "ur": "Uro: sakh ki recovery Dollar - kamers Bank ko sport karti hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-remains-under-pressure-as-fed-snb-interest-rate-gap-widens-202609251743",
+   "t": "25 Sep \u00b7 10:43 PM",
+   "ur": "Fed-SNB sud ki rate mein farq badhane se sois farank dabao mein rahta hai."
   },
   {
-   "ts": 1790343077.0,
-   "title": "Canadian Dollar set for third weekly decline despite pullback in US Dollar",
+   "ts": 1790357919.0,
+   "title": "Swiss Franc: Further losses seem capped against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-set-for-second-weekly-decline-despite-pullback-in-us-dollar-202609251331",
-   "t": "25 Sep \u00b7 06:31 PM",
-   "ur": "US Dollar mein wapsi ke bawajud caniden Dollar tisri haftah war kami ke liye tyar hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-further-losses-seem-capped-against-us-dollar-uob-202609251738",
+   "t": "25 Sep \u00b7 10:38 PM",
+   "ur": "Sois farank: US Dollar - UOB ke maqable mein mazid naqsanat muhadud nazar aate hen."
   },
   {
-   "ts": 1790342177.0,
-   "title": "Indian Rupee: RBI interventions cap losses against US Dollar \u2013 Societe Generale",
+   "ts": 1790355486.0,
+   "title": "New Zealand Dollar holds steady as US Dollar retreats",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indian-rupee-rbi-interventions-cap-losses-against-us-dollar-societe-generale-202609251316",
-   "t": "25 Sep \u00b7 06:16 PM",
-   "ur": "Handostani ropiya: aar bi i ki madakhalt US Dollar ke khalaf naqsanat ko kam karti hai - sociti janerl"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-holds-steady-as-us-dollar-retreats-202609251658",
+   "t": "25 Sep \u00b7 09:58 PM",
+   "ur": "US Dollar ke patchhe hatte hi niyozi lind Dollar mastahkam hai."
   },
   {
-   "ts": 1790341535.0,
-   "title": "US Dollar: Back-end yields support USD consolidation \u2013 ING",
+   "ts": 1790350590.0,
+   "title": "British Pound finds relief as USD pauses, but inflation risks linger",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-back-end-yields-support-usd-consolidation-ing-202609251305",
-   "t": "25 Sep \u00b7 06:05 PM",
-   "ur": "US Dollar: patchhe ki pedawar USD ke istehkam ki support karti hai - ING"
+   "link": "https://www.fxstreet.com/news/british-pound-finds-relief-as-usd-pauses-but-inflation-risks-linger-202609251536",
+   "t": "25 Sep \u00b7 08:36 PM",
+   "ur": "US Dollar ke toqf ke sath hi bartanvi pound ko rilif malta hai, lican inflation (mehngai) ka khatrah barqarar rahta hai."
   }
  ],
  "sentiment": {
