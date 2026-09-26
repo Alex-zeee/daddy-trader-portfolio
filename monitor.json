@@ -1,22 +1,13 @@
 {
- "updated": "26-09-2026 02:53 PKT",
+ "updated": "26-09-2026 05:12 PKT",
  "gold": {
-  "price": 4286.2,
-  "open": 4278.51,
+  "price": 4286.14,
+  "open": 4266.72,
   "high": 4315.6,
   "low": 4254.78,
-  "chg": 0.18,
+  "chg": 0.46,
   "src": "XAUUSD Spot",
   "spark": [
-   4305.26,
-   4308.06,
-   4305.04,
-   4310.64,
-   4313.08,
-   4306.17,
-   4300.6,
-   4304.88,
-   4299.72,
    4308.97,
    4298.25,
    4299.0,
@@ -55,7 +46,16 @@
    4286.22,
    4286.2,
    4286.12,
-   4286.2
+   4286.14,
+   4286.24,
+   4286.2,
+   4286.12,
+   4286.21,
+   4286.24,
+   4286.18,
+   4286.11,
+   4286.22,
+   4286.14
   ]
  },
  "markets": [
@@ -264,12 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2681.61,
-   "chg": -0.21,
+   "price": 2691.04,
+   "chg": -0.01,
    "spark": [
-    2689.44,
-    2683.99,
-    2682.18,
     2674.39,
     2684.88,
     2675.82,
@@ -314,17 +311,17 @@
     2692.85,
     2692.5,
     2684.3,
-    2681.61
+    2681.32,
+    2691.34,
+    2691.35,
+    2691.04
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83838.0,
-   "chg": -0.64,
+   "price": 84049.4,
+   "chg": -0.05,
    "spark": [
-    84555.5,
-    84384.6,
-    84305.8,
     84089.8,
     84344.3,
     83923.3,
@@ -369,7 +366,10 @@
     83952.6,
     84008.8,
     83863.6,
-    83838.0
+    83789.6,
+    84064.1,
+    84090.5,
+    84049.4
    ]
   }
  ],
@@ -426,19 +426,19 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1790373194.25283,
+   "ts": 1790381576.78861,
    "title": "Gold slips 2% for the week amid rise in dollar and yields, boost to Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-set-for-weekly-loss-as-oil-fuels-fed-hike-bets-4916501",
-   "t": "26 Sep \u00b7 02:53 AM",
+   "t": "26 Sep \u00b7 05:12 AM",
    "ur": "Dollar aur pedawar mein azafe ke darmiyan hafte ke liye Gold (sona) 2 fisad gar gaya, fed mein azafe ki shart ko farog"
   },
   {
-   "ts": 1790373194.25283,
+   "ts": 1790381576.78861,
    "title": "Gold faces 3:1 short setup below key resistance: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-wedged-in-43004450-range-live-breakout-levels-93CH-4908346",
-   "t": "26 Sep \u00b7 02:53 AM",
+   "t": "26 Sep \u00b7 05:12 AM",
    "ur": "Gold (sone) ko kalidi mazahmat ke niche 3:1 mukhtasr set ap ka samana hai."
   },
   {
@@ -507,7 +507,7 @@
   }
  ],
  "sentiment": {
-  "value": 71,
+  "value": 74,
   "label": "Greed"
  },
  "err": null
