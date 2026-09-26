@@ -1,30 +1,13 @@
 {
- "updated": "26-09-2026 14:35 PKT",
+ "updated": "26-09-2026 18:52 PKT",
  "gold": {
-  "price": 4286.12,
-  "open": 4293.52,
-  "high": 4315.6,
+  "price": 4286.22,
+  "open": 4277.53,
+  "high": 4298.3,
   "low": 4254.78,
-  "chg": -0.17,
+  "chg": 0.2,
   "src": "XAUUSD Spot",
   "spark": [
-   4286.14,
-   4286.24,
-   4286.2,
-   4286.12,
-   4286.21,
-   4286.24,
-   4286.18,
-   4286.11,
-   4286.22,
-   4286.24,
-   4286.18,
-   4286.12,
-   4286.24,
-   4286.24,
-   4286.2,
-   4286.12,
-   4286.14,
    4286.23,
    4286.21,
    4286.13,
@@ -55,7 +38,24 @@
    4286.13,
    4286.13,
    4286.21,
-   4286.12
+   4286.23,
+   4286.14,
+   4286.12,
+   4286.2,
+   4286.24,
+   4286.19,
+   4286.11,
+   4286.22,
+   4286.24,
+   4286.18,
+   4286.11,
+   4286.23,
+   4286.24,
+   4286.19,
+   4286.11,
+   4286.24,
+   4286.23,
+   4286.22
   ]
  },
  "markets": [
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.14,
-   "chg": 0.22,
+   "price": 1.1401,
+   "chg": 0.23,
    "spark": [
     1.1656,
     1.1589,
@@ -201,7 +201,7 @@
     1.1448,
     1.1382,
     1.1375,
-    1.14
+    1.1401
    ]
   },
   {
@@ -264,13 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2681.23,
-   "chg": -0.38,
+   "price": 2684.38,
+   "chg": -0.26,
    "spark": [
-    2647.6,
-    2646.67,
-    2648.1,
-    2669.22,
     2657.05,
     2682.74,
     2686.35,
@@ -314,18 +310,18 @@
     2685.21,
     2690.48,
     2690.18,
-    2681.23
+    2681.78,
+    2686.73,
+    2688.99,
+    2688.25,
+    2684.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84021.1,
-   "chg": -0.08,
+   "price": 83912.7,
+   "chg": -0.21,
    "spark": [
-    83494.4,
-    83461.7,
-    83579.0,
-    84230.5,
     83653.6,
     84395.8,
     84478.1,
@@ -369,7 +365,11 @@
     83883.1,
     84100.6,
     84195.2,
-    84021.1
+    84002.4,
+    84164.7,
+    84164.6,
+    84046.2,
+    83912.7
    ]
   }
  ],
@@ -426,20 +426,12 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1790415348.508572,
+   "ts": 1790430755.377915,
    "title": "Gold slips 2% for the week amid rise in dollar and yields, boost to Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-set-for-weekly-loss-as-oil-fuels-fed-hike-bets-4916501",
-   "t": "26 Sep \u00b7 02:35 PM",
+   "t": "26 Sep \u00b7 06:52 PM",
    "ur": "Dollar aur pedawar mein azafe ke darmiyan hafte ke liye Gold (sona) 2 fisad gar gaya, fed mein azafe ki shart ko farog"
-  },
-  {
-   "ts": 1790415348.508572,
-   "title": "Gold faces 3:1 short setup below key resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-wedged-in-43004450-range-live-breakout-levels-93CH-4908346",
-   "t": "26 Sep \u00b7 02:35 PM",
-   "ur": "Gold (sone) ko kalidi mazahmat ke niche 3:1 mukhtasr set ap ka samana hai."
   },
   {
    "ts": 1790367767.0,
@@ -504,6 +496,14 @@
    "link": "https://www.fxstreet.com/news/gold-finds-a-pulse-as-wti-slump-takes-the-edge-off-us-dollar-202609251758",
    "t": "25 Sep \u00b7 10:58 PM",
    "ur": "Gold (sone) ko ek nabz malti hai cunkah dabliyo ti i ki mandi ne US Dollar par bartari haasil ki hai."
+  },
+  {
+   "ts": 1790358195.0,
+   "title": "Swiss Franc remains under pressure as Fed-SNB interest rate gap widens",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-remains-under-pressure-as-fed-snb-interest-rate-gap-widens-202609251743",
+   "t": "25 Sep \u00b7 10:43 PM",
+   "ur": "Fed-SNB rate sud mein farq badhane se sois farank dabao mein hai."
   }
  ],
  "sentiment": {
