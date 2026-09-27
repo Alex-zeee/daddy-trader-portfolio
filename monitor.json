@@ -1,22 +1,13 @@
 {
- "updated": "27-09-2026 03:24 PKT",
+ "updated": "27-09-2026 05:43 PKT",
  "gold": {
-  "price": 4286.11,
-  "open": 4286.14,
+  "price": 4286.2,
+  "open": 4286.15,
   "high": 4286.34,
   "low": 4286.08,
-  "chg": -0.0,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4286.24,
-   4286.19,
-   4286.11,
-   4286.22,
-   4286.24,
-   4286.18,
-   4286.11,
-   4286.23,
-   4286.24,
    4286.19,
    4286.11,
    4286.24,
@@ -55,7 +46,16 @@
    4286.12,
    4286.2,
    4286.24,
-   4286.11
+   4286.19,
+   4286.11,
+   4286.21,
+   4286.24,
+   4286.17,
+   4286.11,
+   4286.23,
+   4286.24,
+   4286.19,
+   4286.2
   ]
  },
  "markets": [
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3246,
-   "chg": 0.27,
+   "price": 1.3253,
+   "chg": 0.32,
    "spark": [
     1.3597,
     1.354,
@@ -230,7 +230,7 @@
     1.3343,
     1.3242,
     1.3211,
-    1.3246
+    1.3253
    ]
   },
   {
@@ -264,11 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2688.18,
-   "chg": -0.12,
+   "price": 2694.16,
+   "chg": -0.05,
    "spark": [
-    2687.24,
-    2689.4,
     2688.71,
     2675.93,
     2678.1,
@@ -314,16 +312,16 @@
     2684.01,
     2676.31,
     2685.7,
-    2688.18
+    2688.41,
+    2695.35,
+    2694.16
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84283.0,
-   "chg": 0.23,
+   "price": 84327.1,
+   "chg": -0.12,
    "spark": [
-    84380.0,
-    84566.5,
     84589.8,
     84198.5,
     84211.2,
@@ -369,7 +367,9 @@
     84007.9,
     84014.4,
     84140.2,
-    84285.8
+    84264.4,
+    84426.7,
+    84327.1
    ]
   }
  ],
@@ -425,14 +425,6 @@
  ],
  "cal_mode": "past",
  "news": [
-  {
-   "ts": 1790461451.772763,
-   "title": "Gold slips 2% for the week amid rise in dollar and yields, boost to Fed hike bets",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-edges-lower-set-for-weekly-loss-as-oil-fuels-fed-hike-bets-4916501",
-   "t": "27 Sep \u00b7 03:24 AM",
-   "ur": "Dollar aur pedawar mein azafe ke darmiyan hafte ke liye Gold (sona) 2 fisad gar gaya, fed mein azafe ki shart ko farog"
-  },
   {
    "ts": 1790367767.0,
    "title": "US Treasury yields rise as 30-year bond hits 22-year high",
@@ -504,10 +496,18 @@
    "link": "https://www.fxstreet.com/news/swiss-franc-remains-under-pressure-as-fed-snb-interest-rate-gap-widens-202609251743",
    "t": "25 Sep \u00b7 10:43 PM",
    "ur": "Fed-SNB sud ki rate mein farq badhane se sois farank dabao mein rahta hai."
+  },
+  {
+   "ts": 1790357919.0,
+   "title": "Swiss Franc: Further losses seem capped against US Dollar \u2013 UOB",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/swiss-franc-further-losses-seem-capped-against-us-dollar-uob-202609251738",
+   "t": "25 Sep \u00b7 10:38 PM",
+   "ur": "Sois farank: US Dollar - UOB ke maqable mein mazid naqsanat muhadud nazar aate hen."
   }
  ],
  "sentiment": {
-  "value": 74,
+  "value": 70,
   "label": "Greed"
  },
  "err": null
