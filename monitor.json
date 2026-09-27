@@ -1,25 +1,13 @@
 {
- "updated": "28-09-2026 00:05 PKT",
+ "updated": "28-09-2026 03:04 PKT",
  "gold": {
-  "price": 4286.25,
+  "price": 4265.99,
   "open": 4286.14,
-  "high": 4286.51,
-  "low": 4286.07,
-  "chg": 0.0,
+  "high": 4287.41,
+  "low": 4265.48,
+  "chg": -0.47,
   "src": "XAUUSD Spot",
   "spark": [
-   4286.23,
-   4286.21,
-   4286.12,
-   4286.13,
-   4286.22,
-   4286.22,
-   4286.14,
-   4286.12,
-   4286.21,
-   4286.23,
-   4286.19,
-   4286.11,
    4286.21,
    4286.24,
    4286.18,
@@ -55,7 +43,19 @@
    4286.12,
    4286.24,
    4286.23,
-   4286.25
+   4286.2,
+   4286.13,
+   4286.14,
+   4286.23,
+   4286.2,
+   4286.14,
+   4286.13,
+   4286.21,
+   4286.22,
+   4286.18,
+   4286.24,
+   4287.34,
+   4265.99
   ]
  },
  "markets": [
@@ -174,8 +174,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1401,
-   "chg": 0.23,
+   "price": 1.139,
+   "chg": 0.13,
    "spark": [
     1.1656,
     1.1589,
@@ -198,13 +198,13 @@
     1.1448,
     1.1382,
     1.1375,
-    1.1401
+    1.139
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3253,
-   "chg": 0.32,
+   "price": 1.3233,
+   "chg": 0.17,
    "spark": [
     1.3597,
     1.354,
@@ -227,13 +227,13 @@
     1.3343,
     1.3242,
     1.3211,
-    1.3253
+    1.3233
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.185,
-   "chg": -1.02,
+   "price": 157.42,
+   "chg": -0.88,
    "spark": [
     159.321,
     160.122,
@@ -256,17 +256,14 @@
     157.464,
     158.265,
     158.811,
-    157.185
+    157.42
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2693.86,
-   "chg": -0.06,
+   "price": 2675.93,
+   "chg": -0.72,
    "spark": [
-    2684.3,
-    2681.32,
-    2691.34,
     2691.35,
     2686.72,
     2692.23,
@@ -311,17 +308,17 @@
     2686.02,
     2690.73,
     2697.64,
-    2693.86
+    2690.93,
+    2685.67,
+    2683.66,
+    2675.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84721.0,
-   "chg": 0.35,
+   "price": 84436.3,
+   "chg": 0.01,
    "spark": [
-    83863.6,
-    83789.6,
-    84064.1,
     84090.5,
     83896.5,
     84066.8,
@@ -366,7 +363,10 @@
     84409.8,
     84543.0,
     84791.9,
-    84721.0
+    84716.5,
+    84529.1,
+    84659.9,
+    84436.3
    ]
   }
  ],
@@ -459,77 +459,85 @@
    "title": "US Treasury yields rise as 30-year bond hits 22-year high",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-treasury-yields-rise-as-30-year-yield-hits-22-year-high-202609252022",
-   "t": "26 Sep \u00b7 01:22 AM"
+   "t": "26 Sep \u00b7 01:22 AM",
+   "ur": "30 salah band 22 sal ki baland tarin sath par pohchane ke bad US treasurei ki pedawar mein azafah hawa."
   },
   {
    "ts": 1790362832.0,
    "title": "Fed\u2019s Hammack says policy still isn\u2019t restrictive despite high inflation",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/feds-hammack-says-policy-still-isnt-restrictive-despite-high-inflation-202609251900",
-   "t": "26 Sep \u00b7 12:00 AM"
+   "t": "26 Sep \u00b7 12:00 AM",
+   "ur": "Fed's Hammack ka kahana hai kah aali inflation (mehngai) ke bawajud palisi ab bhi muhadud nihen hai."
   },
   {
    "ts": 1790362484.0,
    "title": "Singapore Dollar: Consolidation near lows against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/singapore-dollar-consolidation-near-lows-against-us-dollar-uob-202609251854",
-   "t": "25 Sep \u00b7 11:54 PM"
+   "t": "25 Sep \u00b7 11:54 PM",
+   "ur": "Sangapor Dollar: US Dollar ke maqable mein istehkam kam hone ke qarib \u2013 UOB"
   },
   {
    "ts": 1790361242.0,
    "title": "ECB\u2019s Vujcic warns energy shock could keep inflation hot",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/ecbs-vujcic-warns-energy-shock-could-keep-inflation-hot-202609251834",
-   "t": "25 Sep \u00b7 11:34 PM"
+   "t": "25 Sep \u00b7 11:34 PM",
+   "ur": "ECB ke Vujcic ne khabrdar kiya hai kah tawanai ka jhataka mahungai ko garm rakh sakta hai."
   },
   {
    "ts": 1790360571.0,
    "title": "Asian FX: Higher yields and Oil weigh \u2013 OCBC",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/asian-fx-higher-yields-and-oil-weigh-ocbc-202609251822",
-   "t": "25 Sep \u00b7 11:22 PM"
+   "t": "25 Sep \u00b7 11:22 PM",
+   "ur": "Asiai FX: ziyadah pedawar aur til ka wazin - OCBC"
   },
   {
    "ts": 1790360103.0,
    "title": "Fed\u2019s Hammack warns inflation mindset is the biggest risk",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/feds-hammack-warns-inflation-mindset-is-the-biggest-risk-202609251815",
-   "t": "25 Sep \u00b7 11:15 PM"
+   "t": "25 Sep \u00b7 11:15 PM",
+   "ur": "Fed's Hammack ne khabrdar kiya hai kah inflation (mehngai) ki zhaniyat sab se bada khatrah hai."
   },
   {
    "ts": 1790359540.0,
    "title": "Silver Price Forecast: XAG/USD lacks direction as RSI, ADX signal weak momentum",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-lacks-direction-as-rsi-adx-signal-weak-momentum-202609251805",
-   "t": "25 Sep \u00b7 11:05 PM"
+   "t": "25 Sep \u00b7 11:05 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD mein RSI, ADX skigl kamazor raftar ke tur par samat ka faqdan hai"
   },
   {
    "ts": 1790359113.0,
    "title": "Gold finds a pulse as WTI slump takes the edge off US Dollar",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-finds-a-pulse-as-wti-slump-takes-the-edge-off-us-dollar-202609251758",
-   "t": "25 Sep \u00b7 10:58 PM"
+   "t": "25 Sep \u00b7 10:58 PM",
+   "ur": "Gold (sone) ko ek nabz malti hai cunkah dabliyo ti i ki mandi ne US Dollar par bartari haasil ki hai."
   },
   {
    "ts": 1790358195.0,
    "title": "Swiss Franc remains under pressure as Fed-SNB interest rate gap widens",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-remains-under-pressure-as-fed-snb-interest-rate-gap-widens-202609251743",
-   "t": "25 Sep \u00b7 10:43 PM"
+   "t": "25 Sep \u00b7 10:43 PM",
+   "ur": "Fed-SNB sud ki rate mein farq badhane se sois farank dabao mein rahta hai."
   },
   {
    "ts": 1790357919.0,
    "title": "Swiss Franc: Further losses seem capped against US Dollar \u2013 UOB",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-further-losses-seem-capped-against-us-dollar-uob-202609251738",
-   "t": "25 Sep \u00b7 10:38 PM"
+   "t": "25 Sep \u00b7 10:38 PM",
+   "ur": "Sois farank: US Dollar - UOB ke maqable mein mazid naqsanat muhadud nazar aate hen."
   }
  ],
  "sentiment": {
   "value": 70,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
