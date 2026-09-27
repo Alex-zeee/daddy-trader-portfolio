@@ -1,34 +1,13 @@
 {
- "updated": "27-09-2026 05:43 PKT",
+ "updated": "27-09-2026 10:46 PKT",
  "gold": {
-  "price": 4286.2,
-  "open": 4286.15,
+  "price": 4286.21,
+  "open": 4286.14,
   "high": 4286.34,
   "low": 4286.08,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4286.19,
-   4286.11,
-   4286.24,
-   4286.23,
-   4286.21,
-   4286.12,
-   4286.13,
-   4286.22,
-   4286.22,
-   4286.13,
-   4286.12,
-   4286.21,
-   4286.23,
-   4286.19,
-   4286.11,
-   4286.2,
-   4286.24,
-   4286.18,
-   4286.11,
-   4286.22,
-   4286.24,
    4286.18,
    4286.11,
    4286.23,
@@ -55,16 +34,36 @@
    4286.23,
    4286.24,
    4286.19,
-   4286.2
+   4286.11,
+   4286.24,
+   4286.23,
+   4286.21,
+   4286.12,
+   4286.14,
+   4286.22,
+   4286.22,
+   4286.13,
+   4286.13,
+   4286.21,
+   4286.23,
+   4286.2,
+   4286.12,
+   4286.2,
+   4286.24,
+   4286.18,
+   4286.11,
+   4286.22,
+   4286.24,
+   4286.18,
+   4286.21
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.245,
-   "chg": 1.24,
+   "price": 64.801,
+   "chg": 2.12,
    "spark": [
-    67.99,
     69.429,
     66.995,
     66.221,
@@ -85,7 +84,7 @@
     65.932,
     64.382,
     63.457,
-    64.245
+    64.801
    ]
   },
   {
@@ -93,7 +92,6 @@
    "price": 100.97,
    "chg": -0.32,
    "spark": [
-    99.17,
     99.16,
     99.7,
     99.43,
@@ -122,7 +120,6 @@
    "price": 92.41,
    "chg": -2.33,
    "spark": [
-    82.23,
     83.53,
     83.4,
     85.76,
@@ -264,14 +261,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2694.16,
-   "chg": -0.05,
+   "price": 2706.22,
+   "chg": 0.4,
    "spark": [
-    2688.71,
-    2675.93,
-    2678.1,
-    2679.59,
-    2679.53,
     2673.99,
     2671.23,
     2690.56,
@@ -314,19 +306,19 @@
     2685.7,
     2688.41,
     2695.35,
-    2694.16
+    2692.91,
+    2701.03,
+    2697.53,
+    2695.96,
+    2691.64,
+    2706.22
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84327.1,
-   "chg": -0.12,
+   "price": 84532.8,
+   "chg": 0.13,
    "spark": [
-    84589.8,
-    84198.5,
-    84211.2,
-    84192.7,
-    84177.3,
     84024.0,
     84024.2,
     84403.4,
@@ -369,61 +361,98 @@
     84140.2,
     84264.4,
     84426.7,
-    84327.1
+    84291.6,
+    84475.1,
+    84437.5,
+    84380.0,
+    84317.4,
+    84532.7
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1790085300.0,
-   "t": "Tue 22 Sep \u00b7 06:55 PM",
-   "title": "President Trump Speaks",
+   "ts": 1790690400.0,
+   "t": "Tue 29 Sep \u00b7 07:00 PM",
+   "title": "CB Consumer Confidence",
    "impact": "Medium",
-   "forecast": "",
-   "previous": ""
+   "forecast": "90.1",
+   "previous": "89.4"
   },
   {
-   "ts": 1790253000.0,
-   "t": "Thu 24 Sep \u00b7 05:30 PM",
+   "ts": 1790690400.0,
+   "t": "Tue 29 Sep \u00b7 07:00 PM",
+   "title": "JOLTS Job Openings",
+   "impact": "Medium",
+   "forecast": "7.23M",
+   "previous": "7.27M"
+  },
+  {
+   "ts": 1790770500.0,
+   "t": "Wed 30 Sep \u00b7 05:15 PM",
+   "title": "ADP Non-Farm Employment Change",
+   "impact": "Medium",
+   "forecast": "70K",
+   "previous": "38K"
+  },
+  {
+   "ts": 1790771400.0,
+   "t": "Wed 30 Sep \u00b7 05:30 PM",
+   "title": "Core PCE Price Index m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "ts": 1790771400.0,
+   "t": "Wed 30 Sep \u00b7 05:30 PM",
+   "title": "Final GDP q/q",
+   "impact": "High",
+   "forecast": "1.5%",
+   "previous": "1.5%"
+  },
+  {
+   "ts": 1790771400.0,
+   "t": "Wed 30 Sep \u00b7 05:30 PM",
+   "title": "Final GDP Price Index q/q",
+   "impact": "Medium",
+   "forecast": "6.4%",
+   "previous": "6.4%"
+  },
+  {
+   "ts": 1790857800.0,
+   "t": "Thu 01 Oct \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "201K",
-   "previous": "196K"
+   "forecast": "199K",
+   "previous": "197K"
   },
   {
-   "ts": 1790259300.0,
-   "t": "Thu 24 Sep \u00b7 07:15 PM",
-   "title": "President Trump Speaks",
+   "ts": 1790863200.0,
+   "t": "Thu 01 Oct \u00b7 07:00 PM",
+   "title": "FOMC Member Waller Speaks",
    "impact": "Medium",
    "forecast": "",
    "previous": ""
   },
   {
-   "ts": 1790294100.0,
-   "t": "Fri 25 Sep \u00b7 04:55 AM",
-   "title": "President Trump Speaks",
+   "ts": 1790863200.0,
+   "t": "Thu 01 Oct \u00b7 07:00 PM",
+   "title": "ISM Manufacturing PMI",
    "impact": "Medium",
-   "forecast": "",
-   "previous": ""
+   "forecast": "55.0",
+   "previous": "54.6"
   },
   {
-   "ts": 1790344800.0,
-   "t": "Fri 25 Sep \u00b7 07:00 PM",
-   "title": "Revised UoM Consumer Sentiment",
-   "impact": "Medium",
-   "forecast": "47.4",
-   "previous": "47.8"
-  },
-  {
-   "ts": 1790344800.0,
-   "t": "Fri 25 Sep \u00b7 07:00 PM",
-   "title": "Revised UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.6%"
+   "ts": 1790944200.0,
+   "t": "Fri 02 Oct \u00b7 05:30 PM",
+   "title": "Average Hourly Earnings m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.3%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
    "ts": 1790367767.0,
@@ -495,7 +524,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/swiss-franc-remains-under-pressure-as-fed-snb-interest-rate-gap-widens-202609251743",
    "t": "25 Sep \u00b7 10:43 PM",
-   "ur": "Fed-SNB sud ki rate mein farq badhane se sois farank dabao mein rahta hai."
+   "ur": "Fed-SNB rate sud mein farq badhane se sois farank dabao mein hai."
   },
   {
    "ts": 1790357919.0,
