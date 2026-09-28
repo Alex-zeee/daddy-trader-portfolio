@@ -1,23 +1,13 @@
 {
- "updated": "28-09-2026 03:04 PKT",
+ "updated": "28-09-2026 05:39 PKT",
  "gold": {
-  "price": 4265.99,
+  "price": 4237.72,
   "open": 4286.14,
   "high": 4287.41,
-  "low": 4265.48,
-  "chg": -0.47,
+  "low": 4231.73,
+  "chg": -1.13,
   "src": "XAUUSD Spot",
   "spark": [
-   4286.21,
-   4286.24,
-   4286.18,
-   4286.11,
-   4286.22,
-   4286.24,
-   4286.18,
-   4286.11,
-   4286.24,
-   4286.24,
    4286.2,
    4286.12,
    4286.14,
@@ -55,14 +45,24 @@
    4286.18,
    4286.24,
    4287.34,
-   4265.99
+   4269.65,
+   4269.92,
+   4262.66,
+   4259.8,
+   4264.85,
+   4264.73,
+   4260.97,
+   4260.22,
+   4255.6,
+   4251.94,
+   4237.72
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 64.801,
-   "chg": 2.12,
+   "price": 64.0,
+   "chg": -0.38,
    "spark": [
     69.429,
     66.995,
@@ -84,7 +84,8 @@
     65.932,
     64.382,
     63.457,
-    64.801
+    64.245,
+    64.0
    ]
   },
   {
@@ -117,8 +118,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 92.41,
-   "chg": -2.33,
+   "price": 93.46,
+   "chg": 1.14,
    "spark": [
     83.53,
     83.4,
@@ -140,7 +141,8 @@
     94.59,
     92.16,
     94.61,
-    92.41
+    92.41,
+    93.46
    ]
   },
   {
@@ -174,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.139,
-   "chg": 0.13,
+   "price": 1.1383,
+   "chg": 0.07,
    "spark": [
     1.1656,
     1.1589,
@@ -198,13 +200,13 @@
     1.1448,
     1.1382,
     1.1375,
-    1.139
+    1.1383
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3233,
-   "chg": 0.17,
+   "price": 1.3232,
+   "chg": 0.16,
    "spark": [
     1.3597,
     1.354,
@@ -227,13 +229,13 @@
     1.3343,
     1.3242,
     1.3211,
-    1.3233
+    1.3232
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.42,
-   "chg": -0.88,
+   "price": 157.767,
+   "chg": -0.66,
    "spark": [
     159.321,
     160.122,
@@ -256,16 +258,14 @@
     157.464,
     158.265,
     158.811,
-    157.42
+    157.767
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2675.93,
-   "chg": -0.72,
+   "price": 2676.73,
+   "chg": -0.42,
    "spark": [
-    2691.35,
-    2686.72,
     2692.23,
     2690.3,
     2687.45,
@@ -311,16 +311,16 @@
     2690.93,
     2685.67,
     2683.66,
-    2675.93
+    2674.78,
+    2688.02,
+    2676.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84436.3,
-   "chg": 0.01,
+   "price": 84288.4,
+   "chg": -0.18,
    "spark": [
-    84090.5,
-    83896.5,
     84066.8,
     84001.4,
     83935.5,
@@ -366,7 +366,9 @@
     84716.5,
     84529.1,
     84659.9,
-    84436.3
+    84171.3,
+    84444.2,
+    84288.4
    ]
   }
  ],
@@ -455,6 +457,14 @@
  "cal_mode": "upcoming",
  "news": [
   {
+   "ts": 1790551413.0,
+   "title": "Australian Dollar softens to near 0.7000 on hawkish Fed signals, RBA rate decision looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-softens-to-near-07000-on-hawkish-fed-signals-rba-rate-decision-looms-202609272323",
+   "t": "28 Sep \u00b7 04:23 AM",
+   "ur": "Aasterilvi Dollar ki qadar 0.7000 ke qarib ho gayi"
+  },
+  {
    "ts": 1790367767.0,
    "title": "US Treasury yields rise as 30-year bond hits 22-year high",
    "src": "FXStreet",
@@ -525,18 +535,10 @@
    "link": "https://www.fxstreet.com/news/swiss-franc-remains-under-pressure-as-fed-snb-interest-rate-gap-widens-202609251743",
    "t": "25 Sep \u00b7 10:43 PM",
    "ur": "Fed-SNB sud ki rate mein farq badhane se sois farank dabao mein rahta hai."
-  },
-  {
-   "ts": 1790357919.0,
-   "title": "Swiss Franc: Further losses seem capped against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-further-losses-seem-capped-against-us-dollar-uob-202609251738",
-   "t": "25 Sep \u00b7 10:38 PM",
-   "ur": "Sois farank: US Dollar - UOB ke maqable mein mazid naqsanat muhadud nazar aate hen."
   }
  ],
  "sentiment": {
-  "value": 70,
+  "value": 74,
   "label": "Greed"
  },
  "err": null
