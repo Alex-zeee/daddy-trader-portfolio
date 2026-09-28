@@ -1,38 +1,13 @@
 {
- "updated": "28-09-2026 10:49 PKT",
+ "updated": "28-09-2026 17:07 PKT",
  "gold": {
-  "price": 4183.63,
+  "price": 4157.68,
   "open": 4286.14,
   "high": 4287.41,
-  "low": 4180.4,
-  "chg": -2.39,
+  "low": 4139.69,
+  "chg": -3.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4286.19,
-   4286.12,
-   4286.24,
-   4286.23,
-   4286.2,
-   4286.13,
-   4286.14,
-   4286.23,
-   4286.2,
-   4286.14,
-   4286.13,
-   4286.21,
-   4286.22,
-   4286.18,
-   4286.24,
-   4287.34,
-   4269.65,
-   4269.92,
-   4262.66,
-   4259.8,
-   4264.85,
-   4264.73,
-   4260.97,
-   4260.22,
-   4255.6,
    4251.94,
    4236.02,
    4230.06,
@@ -55,14 +30,39 @@
    4192.54,
    4191.76,
    4183.12,
-   4183.63
+   4180.87,
+   4179.36,
+   4169.89,
+   4174.59,
+   4164.5,
+   4161.46,
+   4160.55,
+   4154.22,
+   4151.7,
+   4152.0,
+   4146.19,
+   4150.21,
+   4145.4,
+   4142.67,
+   4145.11,
+   4150.62,
+   4156.06,
+   4155.09,
+   4157.15,
+   4156.78,
+   4156.56,
+   4149.64,
+   4155.29,
+   4151.46,
+   4149.71,
+   4157.68
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 62.005,
-   "chg": -3.49,
+   "price": 61.645,
+   "chg": -4.05,
    "spark": [
     66.995,
     66.221,
@@ -84,13 +84,13 @@
     64.382,
     63.457,
     64.245,
-    62.005
+    61.645
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.106,
-   "chg": 0.13,
+   "price": 101.124,
+   "chg": 0.15,
    "spark": [
     99.7,
     99.43,
@@ -112,13 +112,13 @@
     101.1,
     101.29,
     100.97,
-    101.106
+    101.124
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 94.45,
-   "chg": 2.21,
+   "price": 95.79,
+   "chg": 3.66,
    "spark": [
     83.4,
     85.76,
@@ -140,7 +140,7 @@
     92.16,
     94.61,
     92.41,
-    94.45
+    95.79
    ]
   },
   {
@@ -174,8 +174,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1386,
-   "chg": 0.1,
+   "price": 1.1383,
+   "chg": 0.07,
    "spark": [
     1.1656,
     1.1589,
@@ -198,13 +198,13 @@
     1.1448,
     1.1382,
     1.1375,
-    1.1386
+    1.1383
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.324,
-   "chg": 0.22,
+   "price": 1.3267,
+   "chg": 0.43,
    "spark": [
     1.3597,
     1.354,
@@ -227,13 +227,13 @@
     1.3343,
     1.3242,
     1.3211,
-    1.324
+    1.3267
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.729,
-   "chg": -0.68,
+   "price": 156.876,
+   "chg": -1.22,
    "spark": [
     159.321,
     160.122,
@@ -256,21 +256,14 @@
     157.464,
     158.265,
     158.811,
-    157.729
+    156.876
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2649.78,
-   "chg": -1.42,
+   "price": 2686.86,
+   "chg": -0.04,
    "spark": [
-    2685.21,
-    2690.48,
-    2690.18,
-    2681.78,
-    2686.73,
-    2688.99,
-    2688.25,
     2686.59,
     2688.45,
     2692.44,
@@ -311,21 +304,21 @@
     2652.74,
     2651.76,
     2658.43,
-    2649.78
+    2651.01,
+    2649.09,
+    2642.97,
+    2649.74,
+    2640.14,
+    2655.33,
+    2668.07,
+    2686.86
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83112.2,
-   "chg": -1.58,
+   "price": 83404.1,
+   "chg": -1.23,
    "spark": [
-    83883.1,
-    84100.6,
-    84195.2,
-    84002.4,
-    84164.7,
-    84164.6,
-    84046.2,
     83935.3,
     84011.2,
     84142.9,
@@ -366,7 +359,14 @@
     83386.6,
     83319.8,
     83479.4,
-    83112.2
+    83170.3,
+    83134.9,
+    82931.3,
+    82923.5,
+    82632.9,
+    82920.4,
+    83062.3,
+    83404.1
    ]
   }
  ],
@@ -455,84 +455,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790574585.764096,
-   "title": "Gold falls below $4,300 as oil, Fed hike bets keep pressure on bullion",
+   "ts": 1790597243.001002,
+   "title": "Copper falls to lowest in over a week on China data, dollar",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/copper-falls-to-lowest-in-over-a-week-on-china-data-dollar-93CH-4919752",
+   "t": "28 Sep \u00b7 05:07 PM",
+   "ur": "Chin ke aed w shmar, Dollar par taanba ek hafte ke duran kam tarin sath par aa gaya."
+  },
+  {
+   "ts": 1790597243.001002,
+   "title": "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-4300-as-oil-fed-hike-bets-keep-pressure-on-bullion-4919230",
-   "t": "28 Sep \u00b7 10:49 AM",
-   "ur": "Gold (sona) til ke tur par $4,300 se niche garta hai, fed mein azafe ki shart balin par dabao rakti hai."
+   "t": "28 Sep \u00b7 05:07 PM",
+   "ur": "Gold (sona) til ke tur par $4,200 se niche gar gaya, fed mein azafe ki shart balin par wazin rakti hai."
   },
   {
-   "ts": 1790570657.0,
-   "title": "India Gold price today: Gold falls, according to FXStreet data",
+   "ts": 1790594423.0,
+   "title": "British Pound gains as several BoE members warn of upside inflation risks",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202609280444",
-   "t": "28 Sep \u00b7 09:44 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
+   "link": "https://www.fxstreet.com/news/british-pound-gains-as-several-boe-members-warn-of-upside-inflation-risks-202609281120",
+   "t": "28 Sep \u00b7 04:20 PM",
+   "ur": "Bartanvi pound mein azafah hawa cunkah kai BoE mambran ne inflation (mehngai) ke khatrat se khabrdar kiya hai."
   },
   {
-   "ts": 1790566195.0,
-   "title": "Swiss Franc hits fresh low since May 2025, near 0.8300 vs USD amid Fed-SNB divergence",
+   "ts": 1790594244.0,
+   "title": "Oil: Higher prices drive yields and Dollar \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-hits-fresh-low-since-may-2025-near-08300-vs-usd-amid-fed-snb-divergence-202609280329",
-   "t": "28 Sep \u00b7 08:29 AM",
-   "ur": "Sois farank mayi 2025 ke bad taazah tarin nchali sath par hai, Fed-SNB ke anharaf ke darmiyan 0.8300 bamaqablah USD ke qarib"
+   "link": "https://www.fxstreet.com/news/oil-higher-prices-drive-yields-and-dollar-mufg-202609281117",
+   "t": "28 Sep \u00b7 04:17 PM",
+   "ur": "Til: ziyadah qeemtin pedawar ko badhati hen aur Dollar \u2013 MUFG"
   },
   {
-   "ts": 1790565729.0,
-   "title": "Silver Price Forecast: XAG/USD falls to near $62.00 amid Fed rate hike odds",
+   "ts": 1790593987.0,
+   "title": "US Treasuries: Yields hit multi-year highs \u2013 Deutsche Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6200-amid-fed-rate-hike-odds-202609280322",
-   "t": "28 Sep \u00b7 08:22 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: fed ki rate mein azafe ki mashaklat ke darmiyan XAG/USD $62.00 ke qarib gar gaya"
+   "link": "https://www.fxstreet.com/news/us-treasuries-yields-hit-multi-year-highs-deutsche-bank-202609281113",
+   "t": "28 Sep \u00b7 04:13 PM",
+   "ur": "US treasureies: pedawar kai sal ki balandiyon par pohch gayi - deoche Bank"
   },
   {
-   "ts": 1790565676.0,
-   "title": "United States Dollar Index trades flat at the start of the US NFP week",
+   "ts": 1790593434.0,
+   "title": "Gold slides 3% as Fed rate hike bets, rising Treasury yields weigh",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-trades-flat-at-the-start-of-the-us-nfp-week-202609280321",
-   "t": "28 Sep \u00b7 08:21 AM",
-   "ur": "US an eff pi hafte ke aaghaz par US Dollar andex filet tred kar raha hai."
+   "link": "https://www.fxstreet.com/news/gold-slides-nearly-3-as-fed-hike-bets-rising-treasury-yields-weigh-202609281103",
+   "t": "28 Sep \u00b7 04:03 PM",
+   "ur": "Fed ki rate mein azafe ki shart, treasurei ki badhti hoi pedawar ke wazin mein Gold (sone) ki qeemat mein 3 fisad kami"
   },
   {
-   "ts": 1790565033.0,
-   "title": "Gold seems vulnerable below $4,200, lowest since August 5 as Fed hike bets rise",
+   "ts": 1790593415.0,
+   "title": "Silver price plunges as elevated US yields, firm Dollar pressure XAG/USD",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/breaking-gold-weakens-below-4-200-lowest-since-august-5-202609280310",
-   "t": "28 Sep \u00b7 08:10 AM",
-   "ur": "Gold (sona) $4,200 se niche kamazor lagta hai, jo kah 5 agist ke bad sab se kam hai cunkah fed mein azafe ki shart mein azafah"
+   "link": "https://www.fxstreet.com/news/silver-price-plunges-as-elevated-us-yields-firm-dollar-pressure-xag-usd-202609281103",
+   "t": "28 Sep \u00b7 04:03 PM",
+   "ur": "Silver (chandi) ki qeemat US pedawar mein azafe, Dollar ke dabao XAG/USD ke tur par garti hai."
   },
   {
-   "ts": 1790563414.0,
-   "title": "New Zealand Dollar strengthens above 0.5650 on US-China truce extension",
+   "ts": 1790591533.0,
+   "title": "US Dollar: Support from yields and growth \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-strengthens-above-05650-on-us-china-truce-extension-202609280243",
-   "t": "28 Sep \u00b7 07:43 AM",
-   "ur": "Amrikah chin jang bandi ki tosi par niyozi lind Dollar 0.5650 se oper mazboot"
+   "link": "https://www.fxstreet.com/news/us-dollar-support-from-yields-and-growth-bbh-202609281032",
+   "t": "28 Sep \u00b7 03:32 PM",
+   "ur": "US Dollar: pedawar aur namo se taaaun - BBH"
   },
   {
-   "ts": 1790561817.0,
-   "title": "Canadian Dollar falls as US-Canada rate gap seen widening further",
+   "ts": 1790590763.0,
+   "title": "BoE\u2019s Ramsden warns upside inflation risks may spur rate hikes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-falls-as-us-canada-rate-gap-seen-widening-further-202609280216",
-   "t": "28 Sep \u00b7 07:16 AM",
-   "ur": "Caniden Dollar garta hai cunkah US-canida ki rate ka farq mazid wasi hota hawa dekha jata hai."
+   "link": "https://www.fxstreet.com/news/boes-ramsden-warns-upside-inflation-risks-may-spur-rate-hikes-202609281019",
+   "t": "28 Sep \u00b7 03:19 PM",
+   "ur": "BoE ke Ramsden ne khabrdar kiya hai kah inflation (mehngai) ke khatrat rate mein azafe ko badha sakte hen."
   },
   {
-   "ts": 1790560089.0,
-   "title": "Gold tumbles to near $4,200 as hawkish Fed signals and stronger US Dollar pressure bullion",
+   "ts": 1790589528.0,
+   "title": "US Dollar Index: Strongest G10 currency performance \u2013 Deutsche Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-tumbles-to-near-4-200-as-hawkish-fed-signals-and-stronger-us-dollar-pressure-bullion-202609280148",
-   "t": "28 Sep \u00b7 06:48 AM",
-   "ur": "Gold (sona) gar kar 4,200 Dollar ke qarib pohch gaya cunkah fed ashare aur US Dollar ke dabao ke mazboot balin"
-  },
-  {
-   "ts": 1790558351.0,
-   "title": "British Pound gains as US Dollar weakens despite hawkish Fed, geopolitical tensions",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-gains-as-us-dollar-weakens-despite-hawkish-fed-geopolitical-tensions-202609280119",
-   "t": "28 Sep \u00b7 06:19 AM",
-   "ur": "Bartanvi pound mein azafah hawa hai cunkah US Dollar ke kamazor fed, jio poletecl tanao ke bawajud"
+   "link": "https://www.fxstreet.com/news/us-dollar-index-strongest-g10-currency-performance-deutsche-bank-202609280958",
+   "t": "28 Sep \u00b7 02:58 PM",
+   "ur": "US Dollar andex: G10 karnsi ki mazboot tarin karkardgi - deoche Bank"
   }
  ],
  "sentiment": {
