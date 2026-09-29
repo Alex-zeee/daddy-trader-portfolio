@@ -1,27 +1,13 @@
 {
- "updated": "30-09-2026 01:14 PKT",
+ "updated": "30-09-2026 04:43 PKT",
  "gold": {
-  "price": 4172.63,
-  "open": 4119.66,
-  "high": 4177.98,
-  "low": 4111.8,
-  "chg": 1.29,
+  "price": 4179.71,
+  "open": 4127.69,
+  "high": 4184.8,
+  "low": 4112.09,
+  "chg": 1.26,
   "src": "XAUUSD Spot",
   "spark": [
-   4140.8,
-   4139.68,
-   4137.89,
-   4140.93,
-   4141.74,
-   4144.95,
-   4145.57,
-   4149.6,
-   4147.97,
-   4148.87,
-   4154.42,
-   4154.23,
-   4160.73,
-   4151.58,
    4153.46,
    4152.5,
    4151.78,
@@ -55,14 +41,28 @@
    4170.65,
    4172.23,
    4173.54,
-   4172.63
+   4173.0,
+   4173.6,
+   4184.27,
+   4182.0,
+   4182.82,
+   4182.87,
+   4182.87,
+   4182.8,
+   4181.81,
+   4181.02,
+   4178.02,
+   4178.78,
+   4181.97,
+   4181.74,
+   4179.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.775,
-   "chg": 0.91,
+   "price": 61.85,
+   "chg": 1.03,
    "spark": [
     66.221,
     64.618,
@@ -84,12 +84,12 @@
     63.457,
     64.245,
     61.22,
-    61.775
+    61.85
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.409,
+   "price": 101.408,
    "chg": 0.21,
    "spark": [
     99.43,
@@ -112,13 +112,13 @@
     101.29,
     100.97,
     101.2,
-    101.409
+    101.408
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.04,
-   "chg": -3.84,
+   "price": 89.17,
+   "chg": -3.7,
    "spark": [
     85.76,
     90.22,
@@ -140,7 +140,7 @@
     94.61,
     92.41,
     92.6,
-    89.04
+    89.17
    ]
   },
   {
@@ -173,10 +173,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1339,
-   "chg": -0.34,
+   "price": 1.1344,
+   "chg": -0.25,
    "spark": [
-    1.1589,
     1.1618,
     1.1596,
     1.1585,
@@ -197,15 +196,15 @@
     1.1382,
     1.1375,
     1.1378,
-    1.1339
+    1.1373,
+    1.1344
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3228,
-   "chg": -0.01,
+   "price": 1.3229,
+   "chg": -0.19,
    "spark": [
-    1.354,
     1.355,
     1.3515,
     1.3484,
@@ -226,15 +225,15 @@
     1.3242,
     1.3211,
     1.3229,
-    1.3228
+    1.3254,
+    1.3229
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.359,
-   "chg": -0.07,
+   "price": 157.398,
+   "chg": 0.02,
    "spark": [
-    160.122,
     159.747,
     160.196,
     158.923,
@@ -255,17 +254,15 @@
     158.265,
     158.811,
     157.463,
-    157.359
+    157.361,
+    157.398
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2689.51,
-   "chg": 0.08,
+   "price": 2675.58,
+   "chg": -0.44,
    "spark": [
-    2683.66,
-    2674.78,
-    2688.02,
     2673.01,
     2657.25,
     2652.74,
@@ -310,17 +307,17 @@
     2672.76,
     2694.99,
     2688.82,
-    2689.24
+    2688.58,
+    2678.25,
+    2680.45,
+    2675.58
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83540.4,
-   "chg": 0.09,
+   "price": 83626.1,
+   "chg": 0.2,
    "spark": [
-    84659.9,
-    84171.3,
-    84444.2,
     84126.6,
     83683.8,
     83386.6,
@@ -365,7 +362,10 @@
     83053.6,
     83609.7,
     83564.9,
-    83540.4
+    83586.4,
+    83472.5,
+    83576.5,
+    83626.1
    ]
   }
  ],
@@ -454,20 +454,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790712861.364178,
+   "ts": 1790725392.966694,
+   "title": "Gold brushes off firmer dollar, rebounds amid let up in oil prices and yields",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-sevenweek-low-after-4-plunge-as-fed-hike-bets-rise-4921480",
+   "t": "30 Sep \u00b7 04:43 AM",
+   "ur": "Til ki qeemton aur pedawar mein kami ke darmiyan Gold (sona) mazboot Dollar ko dur karta hai."
+  },
+  {
+   "ts": 1790725392.966694,
    "title": "Silver tests Fibonacci support at $61.17 after steep drop: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-sma-200-and-ichimoku-cloud-live-levels-93CH-4919471",
-   "t": "30 Sep \u00b7 01:14 AM",
+   "t": "30 Sep \u00b7 04:43 AM",
    "ur": "Silver (chandi) ne faboniki sport ko 61.17 Dollar mein zabardast garaut ke bad test kiya: laaio"
   },
   {
-   "ts": 1790712861.364178,
-   "title": "Gold bears eye $4,143 retest below key resistance: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4200-with-rsi-at-286-live-levels-93CH-4919469",
-   "t": "30 Sep \u00b7 01:14 AM",
-   "ur": "Gold bears ka target hai $4,143 kalidi mazahmat ke niche dubarah test karin."
+   "ts": 1790724670.0,
+   "title": "Gold rebounds from eight-week low as traders weigh Fed rate path",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-rebounds-from-eight-week-low-as-traders-weigh-fed-rate-path-202609292331",
+   "t": "30 Sep \u00b7 04:31 AM",
+   "ur": "Gold (sona) auth hafton ki kam tarin sath se waps aa gaya hai cunkah taajron ne Fed ki rate ke raaste ko wazin kiya hai."
+  },
+  {
+   "ts": 1790724385.0,
+   "title": "Australian Dollar cracks 0.70 as Bullock dulls RBA hike, CPI looms",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-cracks-070-as-bullock-dulls-rba-hike-cpi-looms-202609292326",
+   "t": "30 Sep \u00b7 04:26 AM",
+   "ur": "Aasterilvi Dollar mein 0.70 ki kami hoi cunkah bel ne RBA mein azafe ko sast kar diya, CPI mein azafah"
+  },
+  {
+   "ts": 1790722949.0,
+   "title": "The New Zealand Dollar breaks lower after Australia's rate hike",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-new-zealand-dollar-breaks-lower-after-australias-rate-hike-202609292302",
+   "t": "30 Sep \u00b7 04:02 AM",
+   "ur": "Aasteriliya ke narkhon mein azafe ke bad niyozi lind Dollar ki qadar kam hogayi"
   },
   {
    "ts": 1790711861.0,
@@ -475,7 +499,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-springs-from-4-110-as-oil-rout-eases-inflation-heat-202609291957",
    "t": "30 Sep \u00b7 12:57 AM",
-   "ur": "Gold (sona) 4,110 Dollar se badhta hai cunkah til ke raaste mahungai ki garmi ko kam karte hen."
+   "ur": "Gold (sona) $4,110 se badhta hai cunkah til ke raaste mahungai ki garmi ko kam karte hen."
   },
   {
    "ts": 1790711012.0,
@@ -508,30 +532,6 @@
    "link": "https://www.fxstreet.com/news/feds-williams-says-no-rush-after-september-hike-202609291822",
    "t": "29 Sep \u00b7 11:22 PM",
    "ur": "Fed ke walims ka kahana hai kah stambr mein azafe ke bad koi jaldi nihen."
-  },
-  {
-   "ts": 1790705557.0,
-   "title": "Fed\u2019s Goolsbee: Persistent inflation is like \u201cplaying with fire\u201d",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-goolsbee-says-persistent-inflation-is-like-playing-with-fire-202609291812",
-   "t": "29 Sep \u00b7 11:12 PM",
-   "ur": "Fed's Goolsbee: maslsal inflation (mehngai) \"aag se khelne\" ke mutaradaf hai"
-  },
-  {
-   "ts": 1790705219.0,
-   "title": "Forex Today: Focus shifts to US PCE, ADP, inflation in OZ and Chinese PMIs",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-focus-shifts-to-us-pce-adp-inflation-in-oz-and-chinese-pmis-202609291806",
-   "t": "29 Sep \u00b7 11:06 PM",
-   "ur": "Farex today: US PCE, ADP, OZ mein inflation (mehngai) aur chini PMIs par tojah markoz"
-  },
-  {
-   "ts": 1790704085.0,
-   "title": "Fed\u2019s Musalem says policy still accommodative as demand fuels inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/musalem-says-fed-must-explain-decisions-without-policy-pledges-202609291748",
-   "t": "29 Sep \u00b7 10:48 PM",
-   "ur": "Fed's Musalem ka kahana hai kah palisi ab bhi mawafaq hai cunkah mang mahungai ko badhati hai."
   }
  ],
  "sentiment": {
