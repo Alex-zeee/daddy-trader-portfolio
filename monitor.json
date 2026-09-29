@@ -1,39 +1,13 @@
 {
- "updated": "29-09-2026 14:09 PKT",
+ "updated": "29-09-2026 20:45 PKT",
  "gold": {
-  "price": 4141.13,
-  "open": 4142.58,
-  "high": 4171.19,
+  "price": 4154.8,
+  "open": 4121.13,
+  "high": 4175.71,
   "low": 4111.8,
-  "chg": -0.04,
+  "chg": 0.82,
   "src": "XAUUSD Spot",
   "spark": [
-   4115.34,
-   4115.29,
-   4114.52,
-   4121.87,
-   4126.28,
-   4124.55,
-   4121.67,
-   4123.84,
-   4128.36,
-   4127.8,
-   4126.75,
-   4122.52,
-   4121.86,
-   4121.63,
-   4120.37,
-   4123.64,
-   4130.6,
-   4132.14,
-   4135.89,
-   4132.24,
-   4134.15,
-   4136.51,
-   4139.15,
-   4135.37,
-   4139.22,
-   4139.0,
    4132.77,
    4131.77,
    4129.52,
@@ -55,14 +29,40 @@
    4140.8,
    4139.68,
    4137.89,
-   4141.13
+   4140.93,
+   4141.74,
+   4144.95,
+   4145.57,
+   4149.6,
+   4147.97,
+   4148.87,
+   4154.42,
+   4154.23,
+   4160.73,
+   4151.58,
+   4153.46,
+   4152.5,
+   4151.78,
+   4155.56,
+   4149.12,
+   4157.13,
+   4156.23,
+   4157.6,
+   4158.37,
+   4166.26,
+   4172.91,
+   4169.62,
+   4172.0,
+   4161.85,
+   4150.22,
+   4154.8
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.005,
-   "chg": -0.35,
+   "price": 61.25,
+   "chg": 0.05,
    "spark": [
     66.221,
     64.618,
@@ -84,13 +84,13 @@
     63.457,
     64.245,
     61.22,
-    61.005
+    61.25
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.368,
-   "chg": 0.17,
+   "price": 101.481,
+   "chg": 0.28,
    "spark": [
     99.43,
     99.67,
@@ -112,13 +112,13 @@
     101.29,
     100.97,
     101.2,
-    101.368
+    101.481
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 92.67,
-   "chg": 0.08,
+   "price": 91.46,
+   "chg": -1.23,
    "spark": [
     85.76,
     90.22,
@@ -140,15 +140,14 @@
     94.61,
     92.41,
     92.6,
-    92.67
+    91.46
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.24,
-   "chg": 1.08,
+   "price": 5.289,
+   "chg": 0.94,
    "spark": [
-    4.72,
     4.758,
     4.796,
     4.796,
@@ -168,13 +167,14 @@
     5.114,
     5.162,
     5.184,
-    5.24
+    5.24,
+    5.289
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1348,
-   "chg": -0.26,
+   "price": 1.1337,
+   "chg": -0.36,
    "spark": [
     1.1589,
     1.1618,
@@ -197,13 +197,13 @@
     1.1382,
     1.1375,
     1.1378,
-    1.1348
+    1.1337
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3232,
-   "chg": 0.02,
+   "price": 1.3204,
+   "chg": -0.19,
    "spark": [
     1.354,
     1.355,
@@ -226,13 +226,13 @@
     1.3242,
     1.3211,
     1.3229,
-    1.3232
+    1.3204
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.386,
-   "chg": -0.05,
+   "price": 157.538,
+   "chg": 0.05,
    "spark": [
     160.122,
     159.747,
@@ -255,20 +255,14 @@
     158.265,
     158.811,
     157.463,
-    157.386
+    157.538
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2703.56,
-   "chg": 0.6,
+   "price": 2681.62,
+   "chg": -0.22,
    "spark": [
-    2709.82,
-    2709.31,
-    2707.06,
-    2709.26,
-    2687.98,
-    2689.3,
     2686.02,
     2690.73,
     2697.64,
@@ -310,20 +304,20 @@
     2705.43,
     2711.15,
     2707.62,
-    2703.56
+    2716.46,
+    2713.73,
+    2731.41,
+    2736.42,
+    2726.48,
+    2710.09,
+    2681.89
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83751.5,
-   "chg": 0.35,
+   "price": 83184.0,
+   "chg": -0.33,
    "spark": [
-    84866.5,
-    84875.6,
-    84778.7,
-    85015.3,
-    84517.7,
-    84450.1,
     84409.8,
     84543.0,
     84791.9,
@@ -365,7 +359,13 @@
     83971.3,
     83951.3,
     83846.4,
-    83751.5
+    84222.8,
+    83999.2,
+    84324.2,
+    84305.6,
+    84189.9,
+    83722.5,
+    83184.0
    ]
   }
  ],
@@ -454,81 +454,89 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790672972.229545,
-   "title": "Silver flashes bearish warning near $61.24: Live levels",
+   "ts": 1790696703.298317,
+   "title": "Wells Fargo lowers gold price target amid rate concerns",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-sma-200-and-ichimoku-cloud-live-levels-93CH-4919471",
-   "t": "29 Sep \u00b7 02:09 PM"
+   "link": "https://www.investing.com/news/commodities-news/wells-fargo-lowers-gold-price-target-amid-rate-concerns-4923021",
+   "t": "29 Sep \u00b7 08:45 PM",
+   "ur": "Wells fargo ne rate ke khadshat ke darmiyan Gold (sone) ki qeemat ka target kam kiya."
   },
   {
-   "ts": 1790672972.229545,
-   "title": "Gold nears oversold at $4,175 in fierce downtrend: Live levels",
+   "ts": 1790696703.298317,
+   "title": "Gold edges higher after 4% plunge as fresh U.S. data looms large",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4200-with-rsi-at-286-live-levels-93CH-4919469",
-   "t": "29 Sep \u00b7 02:09 PM"
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-sevenweek-low-after-4-plunge-as-fed-hike-bets-rise-4921480",
+   "t": "29 Sep \u00b7 08:45 PM",
+   "ur": "4% dobane ke bad Gold (sone) ke kanare baland ho gaye hen cunkah taazah US deta bade ho raha hai."
   },
   {
-   "ts": 1790672111.0,
-   "title": "Australian Dollar sticks to cautious RBA-led losses; struggles near two-week low vs Yen",
+   "ts": 1790696633.0,
+   "title": "Euro falls to three-month low as hawkish Fed outlook weighs",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-sticks-to-cautious-rba-led-losses-struggles-near-two-week-low-vs-yen-202609290855",
-   "t": "29 Sep \u00b7 01:55 PM"
+   "link": "https://www.fxstreet.com/news/euro-falls-to-three-month-low-as-hawkish-fed-outlook-weighs-202609291543",
+   "t": "29 Sep \u00b7 08:43 PM",
+   "ur": "Uro tin mah ki kam tarin sath par garta hai cunkah fed oat lak ke wazin mein azafah hota hai."
   },
   {
-   "ts": 1790671731.0,
-   "title": "Dow Jones futures remain mixed as Fed rate hike concerns weigh on markets",
+   "ts": 1790694378.0,
+   "title": "Canadian Dollar: Rates reaction follows GDP \u2013 TD Securities",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-futures-remain-mixed-as-fed-rate-hike-concerns-weigh-on-markets-202609290848",
-   "t": "29 Sep \u00b7 01:48 PM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-rates-reaction-follows-gdp-td-securities-202609291506",
+   "t": "29 Sep \u00b7 08:06 PM",
+   "ur": "Caniden Dollar: qeemton ka rd amal GDP - TD Securities ke bad hota hai."
   },
   {
-   "ts": 1790671027.0,
-   "title": "US Dollar stays fundamentally supported \u2013 Scotiabank",
+   "ts": 1790693375.0,
+   "title": "Australian Dollar falls below 0.7000 as RBA hike fails to convince bulls",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-stays-fundamentally-supported-scotiabank-202609290837",
-   "t": "29 Sep \u00b7 01:37 PM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-falls-below-07000-as-rba-hike-fails-to-convince-bulls-202609291449",
+   "t": "29 Sep \u00b7 07:49 PM",
+   "ur": "Aasterilvi Dollar 0.7000 se niche gar gaya cunkah RBA mein azafah belon ko raazi karne mein naakam raha"
   },
   {
-   "ts": 1790669770.0,
-   "title": "Euro softens against Canadian Dollar amid ECB caution, oil strength",
+   "ts": 1790692464.0,
+   "title": "Canadian Dollar remains under pressure after flat GDP reading",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-softens-against-canadian-dollar-amid-ecb-caution-oil-strength-202609290816",
-   "t": "29 Sep \u00b7 01:16 PM"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-remains-under-pressure-after-flat-gdp-reading-202609291434",
+   "t": "29 Sep \u00b7 07:34 PM",
+   "ur": "Filet ji di pi padhane ke bad caniden Dollar dabao mein hai."
   },
   {
-   "ts": 1790668890.0,
-   "title": "Gold: Downside risks with key supports in focus \u2013 OCBC",
+   "ts": 1790686819.0,
+   "title": "Bund yields: Short-covering seen shallow \u2013 Societe Generale",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-downside-risks-with-key-supports-in-focus-ocbc-202609290801",
-   "t": "29 Sep \u00b7 01:01 PM"
+   "link": "https://www.fxstreet.com/news/bund-yields-short-covering-seen-shallow-societe-generale-202609291300",
+   "t": "29 Sep \u00b7 06:00 PM",
+   "ur": "Band ki pedawar: shart koring athali nazar aati hai - sociti janerl"
   },
   {
-   "ts": 1790668037.0,
-   "title": "USD Rates: Bill financing costs rise with Fed hikes \u2013 DBS",
+   "ts": 1790683192.0,
+   "title": "Silver Price Forecasts: XAG/USD holds below $ 61.00 amid US Dollar strength",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/usd-rates-bill-financing-costs-rise-with-fed-hikes-dbs-202609290747",
-   "t": "29 Sep \u00b7 12:47 PM"
+   "link": "https://www.fxstreet.com/news/silver-price-forecasts-xag-usd-holds-below-6100-amid-us-dollar-strength-202609291159",
+   "t": "29 Sep \u00b7 04:59 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD US Dollar ki tqt ke darmiyan $61.00 se niche hai"
   },
   {
-   "ts": 1790667291.0,
-   "title": "US Treasuries: Yields near multi-decade highs \u2013 Deutsche Bank",
+   "ts": 1790682229.0,
+   "title": "Singapore Dollar: MAS tightening expectations support resilience \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-treasuries-yields-near-multi-decade-highs-deutsche-bank-202609290734",
-   "t": "29 Sep \u00b7 12:34 PM"
+   "link": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-expectations-support-resilience-ocbc-202609291143",
+   "t": "29 Sep \u00b7 04:43 PM",
+   "ur": "Sangapor Dollar: MAS ki saqt toqaat lachak ki support karti hen - OCBC"
   },
   {
-   "ts": 1790667215.0,
-   "title": "USD: Data risks support Dollar gains \u2013 ING",
+   "ts": 1790681920.0,
+   "title": "Australian Dollar: RBA hike to support AUD/USD \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/usd-data-risks-support-dollar-gains-ing-202609290733",
-   "t": "29 Sep \u00b7 12:33 PM"
+   "link": "https://www.fxstreet.com/news/australian-dollar-rba-hike-to-support-aud-usd-bbh-202609291138",
+   "t": "29 Sep \u00b7 04:38 PM",
+   "ur": "Aasterilin Dollar: AUD/USD - BBH ki support ke liye RBA mein azafah"
   }
  ],
  "sentiment": {
   "value": 73,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
