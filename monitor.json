@@ -1,32 +1,13 @@
 {
- "updated": "30-09-2026 20:25 PKT",
+ "updated": "01-10-2026 01:09 PKT",
  "gold": {
-  "price": 4157.4,
-  "open": 4151.18,
+  "price": 4154.51,
+  "open": 4173.31,
   "high": 4220.15,
-  "low": 4142.2,
-  "chg": 0.15,
+  "low": 4147.23,
+  "chg": -0.45,
   "src": "XAUUSD Spot",
   "spark": [
-   4176.06,
-   4173.33,
-   4172.99,
-   4178.11,
-   4182.23,
-   4178.52,
-   4172.98,
-   4173.45,
-   4176.94,
-   4178.14,
-   4182.97,
-   4181.59,
-   4181.56,
-   4194.52,
-   4194.59,
-   4195.25,
-   4196.18,
-   4192.69,
-   4195.19,
    4198.76,
    4199.39,
    4193.35,
@@ -55,14 +36,33 @@
    4171.69,
    4167.51,
    4164.29,
-   4157.4
+   4154.24,
+   4156.48,
+   4155.49,
+   4159.71,
+   4159.96,
+   4160.55,
+   4157.58,
+   4155.7,
+   4153.03,
+   4151.98,
+   4151.38,
+   4149.52,
+   4153.99,
+   4152.45,
+   4151.09,
+   4148.8,
+   4154.55,
+   4150.94,
+   4153.81,
+   4154.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.81,
-   "chg": 0.23,
+   "price": 60.705,
+   "chg": 0.06,
    "spark": [
     66.221,
     64.618,
@@ -85,13 +85,13 @@
     64.245,
     61.22,
     60.668,
-    60.81
+    60.705
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.257,
-   "chg": -0.11,
+   "price": 101.502,
+   "chg": 0.13,
    "spark": [
     99.43,
     99.67,
@@ -114,13 +114,13 @@
     100.97,
     101.2,
     101.37,
-    101.257
+    101.502
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.52,
-   "chg": 2.39,
+   "price": 90.55,
+   "chg": 1.31,
    "spark": [
     85.76,
     90.22,
@@ -143,13 +143,13 @@
     92.41,
     92.6,
     89.38,
-    91.52
+    90.55
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.276,
-   "chg": 0.4,
+   "price": 5.293,
+   "chg": 0.72,
    "spark": [
     4.758,
     4.796,
@@ -172,13 +172,13 @@
     5.184,
     5.24,
     5.255,
-    5.276
+    5.293
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1358,
-   "chg": -0.12,
+   "price": 1.133,
+   "chg": -0.37,
    "spark": [
     1.1618,
     1.1596,
@@ -201,13 +201,13 @@
     1.1375,
     1.1378,
     1.1373,
-    1.1358
+    1.133
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3273,
-   "chg": 0.14,
+   "price": 1.3262,
+   "chg": 0.06,
    "spark": [
     1.355,
     1.3515,
@@ -230,13 +230,13 @@
     1.3211,
     1.3229,
     1.3254,
-    1.3273
+    1.3262
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.223,
-   "chg": -0.09,
+   "price": 157.451,
+   "chg": 0.06,
    "spark": [
     159.747,
     160.196,
@@ -259,19 +259,14 @@
     158.811,
     157.463,
     157.361,
-    157.223
+    157.451
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2671.49,
-   "chg": -0.19,
+   "price": 2670.86,
+   "chg": -0.22,
    "spark": [
-    2685.99,
-    2694.46,
-    2698.51,
-    2672.43,
-    2681.62,
     2673.04,
     2686.53,
     2687.45,
@@ -314,19 +309,19 @@
     2729.97,
     2708.62,
     2676.99,
-    2671.49
+    2681.89,
+    2693.94,
+    2681.42,
+    2678.24,
+    2669.0,
+    2670.86
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83690.6,
-   "chg": 0.07,
+   "price": 83556.5,
+   "chg": -0.09,
    "spark": [
-    83700.1,
-    83844.8,
-    84013.9,
-    83350.2,
-    83502.9,
     83178.1,
     83510.9,
     83462.7,
@@ -369,35 +364,16 @@
     85261.7,
     84604.2,
     83763.1,
-    83690.6
+    84084.9,
+    84303.1,
+    83987.1,
+    83917.8,
+    83551.4,
+    83556.5
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1790771400.0,
-   "t": "Wed 30 Sep \u00b7 05:30 PM",
-   "title": "Core PCE Price Index m/m",
-   "impact": "High",
-   "forecast": "0.3%",
-   "previous": "0.2%"
-  },
-  {
-   "ts": 1790771400.0,
-   "t": "Wed 30 Sep \u00b7 05:30 PM",
-   "title": "Final GDP q/q",
-   "impact": "High",
-   "forecast": "1.5%",
-   "previous": "1.5%"
-  },
-  {
-   "ts": 1790771400.0,
-   "t": "Wed 30 Sep \u00b7 05:30 PM",
-   "title": "Final GDP Price Index q/q",
-   "impact": "Medium",
-   "forecast": "6.4%",
-   "previous": "6.4%"
-  },
   {
    "ts": 1790796600.0,
    "t": "Thu 01 Oct \u00b7 12:30 AM",
@@ -453,86 +429,102 @@
    "impact": "High",
    "forecast": "90K",
    "previous": "162K"
+  },
+  {
+   "ts": 1790944200.0,
+   "t": "Fri 02 Oct \u00b7 05:30 PM",
+   "title": "Unemployment Rate",
+   "impact": "High",
+   "forecast": "4.1%",
+   "previous": "4.1%"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790781927.645488,
-   "title": "Gold on pace for monthly drop as U.S. inflation data looms",
+   "ts": 1790798950.637206,
+   "title": "Silver clings above $60.00 in brutal downtrend: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-16-gain-as-oil-drop-offsets-elevated-treasury-yields-4923962",
-   "t": "30 Sep \u00b7 08:25 PM"
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-sma-200-and-ichimoku-cloud-live-levels-93CH-4919471",
+   "t": "01 Oct \u00b7 01:09 AM",
+   "ur": "Safakana kami ke rjahan mein Silver (chandi) $60.00 se oper chapki hoi hai."
+  },
+  {
+   "ts": 1790798950.637206,
+   "title": "Gold balances at $4,183 with breakdown or rally imminent: Live",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4200-with-rsi-at-286-live-levels-93CH-4919469",
+   "t": "01 Oct \u00b7 01:09 AM",
+   "ur": "Gold (sone) ka belnas $4,183 ke sath kharabi yaa rili aasnan: laaio"
+  },
+  {
+   "ts": 1790793022.0,
+   "title": "Forex Today: Fedspeak, Jobless Claims and ISM data steal the show",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/forex-today-fedspeak-claims-and-the-ism-data-steal-the-show-202609301830",
+   "t": "30 Sep \u00b7 11:30 PM",
+   "ur": "Farex today: fed spack, berozgari ke daway aur ISM deta sho chori karte hen."
+  },
+  {
+   "ts": 1790791363.0,
+   "title": "Gold can\u2019t catch a PCE break as long US yields keep climbing",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-cant-catch-a-pce-break-as-long-us-yields-keep-climbing-202609301802",
+   "t": "30 Sep \u00b7 11:02 PM",
+   "ur": "Gold (sona) PCE ka waqafah nihen pakad sakta jab tak kah US pedawar mein azafah hota rahta hai."
+  },
+  {
+   "ts": 1790785145.0,
+   "title": "ECB\u2019s Schnabel says yields surge could cool inflation pressures",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/ecbs-schnabel-says-yield-surge-could-cool-inflation-pressures-202609301619",
+   "t": "30 Sep \u00b7 09:19 PM",
+   "ur": "Ai si bi ke shanabel ka kahana hai kah pedawar mein azafah inflation (mehngai) ke dabao ko thanda kar sakta hai."
+  },
+  {
+   "ts": 1790783136.0,
+   "title": "Australian Dollar reverses post-PCE rebound as US Dollar recovers",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-reverses-post-pce-rebound-as-us-dollar-recovers-202609301545",
+   "t": "30 Sep \u00b7 08:45 PM",
+   "ur": "US Dollar ki recovery ke sath hi aasterilvi Dollar PCE ke bad ki recovery ko tabadil kar dita hai."
+  },
+  {
+   "ts": 1790781963.0,
+   "title": "Silver Price Forecast: XAG/USD remains vulnerable near $60",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-remains-vulnerable-near-60-202609301526",
+   "t": "30 Sep \u00b7 08:26 PM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $60 ke qarib kamazor hai."
   },
   {
    "ts": 1790781684.0,
-   "title": "The British Pound catches second wind as soft PCE knocks Fed hike bets",
+   "title": "British Pound catches second wind as soft PCE knocks Fed hike bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-british-pound-catches-second-wind-as-soft-pce-knocks-fed-hike-bets-202609301521",
-   "t": "30 Sep \u00b7 08:21 PM"
+   "t": "30 Sep \u00b7 08:21 PM",
+   "ur": "Bartanvi pound ne dosari hawa pakad li jab narm PCE ne Fed mein azafe ki shart ko dastak diya."
   },
   {
    "ts": 1790777424.0,
    "title": "Japanese Yen advances as US PCE shifts Fed rate hike bets toward December",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/japanese-yen-advances-as-us-pce-shifts-fed-rate-hike-bets-toward-december-202609301410",
-   "t": "30 Sep \u00b7 07:10 PM"
+   "t": "30 Sep \u00b7 07:10 PM",
+   "ur": "US pi si ai ne fed ret mein azafe ki shart ko dasmbr ki taraf mantaql karte huvay japani yan tarqi kar raha hai."
   },
   {
    "ts": 1790777297.0,
    "title": "Euro finds support as softer US PCE data prompts traders to trim Fed rate-hike bets",
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/euro-finds-support-as-softer-us-pce-data-prompts-traders-to-trim-fed-rate-hike-bets-202609301408",
-   "t": "30 Sep \u00b7 07:08 PM"
-  },
-  {
-   "ts": 1790774164.0,
-   "title": "Canadian Dollar gains as US inflation cools Fed October rate hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-gains-as-us-inflation-cools-fed-october-rate-hike-bets-202609301316",
-   "t": "30 Sep \u00b7 06:16 PM"
-  },
-  {
-   "ts": 1790769939.0,
-   "title": "Germany annual CPI inflation rises to 3.3% in September",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/germany-annual-cpi-inflation-rises-to-33-in-september-202609301205",
-   "t": "30 Sep \u00b7 05:05 PM"
-  },
-  {
-   "ts": 1790768010.0,
-   "title": "What is driving the US Dollar to multi-month highs against the Euro as PCE data approaches?",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/what-is-driving-the-us-dollar-to-multi-month-highs-against-the-euro-as-pce-data-approaches-202609301133",
-   "t": "30 Sep \u00b7 04:33 PM"
-  },
-  {
-   "ts": 1790767363.0,
-   "title": "Australian Dollar: Softer CPI keeps RBA pricing in check \u2013 BBH",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-softer-cpi-keeps-rba-pricing-in-check-bbh-202609301122",
-   "t": "30 Sep \u00b7 04:22 PM"
-  },
-  {
-   "ts": 1790766251.0,
-   "title": "Gold loses momentum as the initial reaction to softer US PCE inflation fades",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-struggles-for-direction-ahead-of-feds-preferred-pce-inflation-data-202609301104",
-   "t": "30 Sep \u00b7 04:04 PM"
-  },
-  {
-   "ts": 1790765320.0,
-   "title": "Australian Dollar clings to early recovery near 0.6970, US data takes centre stage",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-clings-to-early-recovery-near-06970-us-data-takes-centre-stage-202609301048",
-   "t": "30 Sep \u00b7 03:48 PM"
+   "t": "30 Sep \u00b7 07:08 PM",
+   "ur": "Uro ko support malti hai cunkah narm US pi si ai deta taajron ko fed ki rate mein azafe ki shart ko tarashne ka asharah karta hai"
   }
  ],
  "sentiment": {
   "value": 71,
   "label": "Greed"
  },
- "err": [
-  "translate: 10/10 failed"
- ]
+ "err": null
 }
