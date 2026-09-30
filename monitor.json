@@ -1,27 +1,13 @@
 {
- "updated": "01-10-2026 01:09 PKT",
+ "updated": "01-10-2026 04:44 PKT",
  "gold": {
-  "price": 4154.51,
-  "open": 4173.31,
+  "price": 4154.97,
+  "open": 4180.09,
   "high": 4220.15,
   "low": 4147.23,
-  "chg": -0.45,
+  "chg": -0.6,
   "src": "XAUUSD Spot",
   "spark": [
-   4198.76,
-   4199.39,
-   4193.35,
-   4188.19,
-   4187.74,
-   4187.72,
-   4188.48,
-   4188.36,
-   4188.13,
-   4184.77,
-   4185.67,
-   4180.06,
-   4183.94,
-   4188.42,
    4184.68,
    4192.69,
    4191.37,
@@ -55,14 +41,28 @@
    4154.55,
    4150.94,
    4153.81,
-   4154.51
+   4156.25,
+   4157.44,
+   4159.1,
+   4156.46,
+   4157.45,
+   4157.46,
+   4157.46,
+   4157.46,
+   4155.81,
+   4155.77,
+   4155.1,
+   4153.89,
+   4152.35,
+   4154.53,
+   4154.97
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.705,
-   "chg": 0.06,
+   "price": 60.615,
+   "chg": -0.09,
    "spark": [
     66.221,
     64.618,
@@ -85,13 +85,13 @@
     64.245,
     61.22,
     60.668,
-    60.705
+    60.615
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.502,
-   "chg": 0.13,
+   "price": 101.465,
+   "chg": 0.09,
    "spark": [
     99.43,
     99.67,
@@ -114,13 +114,13 @@
     100.97,
     101.2,
     101.37,
-    101.502
+    101.465
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.55,
-   "chg": 1.31,
+   "price": 90.09,
+   "chg": 0.79,
    "spark": [
     85.76,
     90.22,
@@ -143,7 +143,7 @@
     92.41,
     92.6,
     89.38,
-    90.55
+    90.09
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.133,
-   "chg": -0.37,
+   "price": 1.1333,
+   "chg": -0.07,
    "spark": [
-    1.1618,
     1.1596,
     1.1585,
     1.1628,
@@ -201,15 +200,15 @@
     1.1375,
     1.1378,
     1.1373,
-    1.133
+    1.1341,
+    1.1333
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3262,
-   "chg": 0.06,
+   "price": 1.3265,
+   "chg": 0.24,
    "spark": [
-    1.355,
     1.3515,
     1.3484,
     1.3532,
@@ -230,15 +229,15 @@
     1.3211,
     1.3229,
     1.3254,
-    1.3262
+    1.3233,
+    1.3265
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.451,
-   "chg": 0.06,
+   "price": 157.484,
+   "chg": 0.05,
    "spark": [
-    159.747,
     160.196,
     158.923,
     155.66,
@@ -259,17 +258,15 @@
     158.811,
     157.463,
     157.361,
-    157.451
+    157.404,
+    157.484
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2670.86,
-   "chg": -0.22,
+   "price": 2687.45,
+   "chg": 0.4,
    "spark": [
-    2673.04,
-    2686.53,
-    2687.45,
     2676.1,
     2664.37,
     2656.59,
@@ -314,17 +311,17 @@
     2681.42,
     2678.24,
     2669.0,
-    2670.86
+    2681.18,
+    2683.09,
+    2685.38,
+    2687.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83556.5,
+   "price": 83560.7,
    "chg": -0.09,
    "spark": [
-    83178.1,
-    83510.9,
-    83462.7,
     83149.0,
     83029.2,
     82936.4,
@@ -369,19 +366,14 @@
     83987.1,
     83917.8,
     83551.4,
-    83556.5
+    83621.5,
+    83707.8,
+    83633.1,
+    83560.7
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1790796600.0,
-   "t": "Thu 01 Oct \u00b7 12:30 AM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1790805600.0,
    "t": "Thu 01 Oct \u00b7 03:00 AM",
@@ -442,20 +434,60 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790798950.637206,
-   "title": "Silver clings above $60.00 in brutal downtrend: Live levels",
+   "ts": 1790811878.955385,
+   "title": "Gold prices to snap two-month winning streak with a September loss of more than 6%",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-sma-200-and-ichimoku-cloud-live-levels-93CH-4919471",
-   "t": "01 Oct \u00b7 01:09 AM",
-   "ur": "Safakana kami ke rjahan mein Silver (chandi) $60.00 se oper chapki hoi hai."
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-16-gain-as-oil-drop-offsets-elevated-treasury-yields-4923962",
+   "t": "01 Oct \u00b7 04:44 AM",
+   "ur": "Gold (sone) ki qeemtin stambr mein 6 fisad se ziyadah ke naqsan ke sath do mah ki jit ka salsalah khtam kar din gi"
   },
   {
-   "ts": 1790798950.637206,
-   "title": "Gold balances at $4,183 with breakdown or rally imminent: Live",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4200-with-rsi-at-286-live-levels-93CH-4919469",
-   "t": "01 Oct \u00b7 01:09 AM",
-   "ur": "Gold (sone) ka belnas $4,183 ke sath kharabi yaa rili aasnan: laaio"
+   "ts": 1790811074.0,
+   "title": "The Euro slips as Europe's biggest economies report hotter inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-euro-slips-as-europes-biggest-economies-report-hotter-inflation-202609302331",
+   "t": "01 Oct \u00b7 04:31 AM",
+   "ur": "Urip ki sab se badi mishton ke garm inflation (mehngai) ki atla ke sath uro phisal gaya."
+  },
+  {
+   "ts": 1790811058.0,
+   "title": "Gold falls to near $4,150 as higher Treasury yields, oil prices outweigh softer PCE inflation",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-falls-to-near-4-150-as-higher-treasury-yields-oil-prices-outweigh-softer-pce-inflation-202609302330",
+   "t": "01 Oct \u00b7 04:30 AM",
+   "ur": "Gold (sona) $4,150 ke qarib gar gaya cunkah treasury ki ziyadah pedawar, til ki qeemtin narm PCE inflation (mehngai) se kahin ziyadah hen"
+  },
+  {
+   "ts": 1790810891.0,
+   "title": "Dow Jones Industrial Average fades a soft-inflation bounce as yields climb",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-fades-a-soft-inflation-bounce-as-yields-climb-202609302328",
+   "t": "01 Oct \u00b7 04:28 AM",
+   "ur": "Pedawar mein azafe ke sath hi dou joons andistril everage narm mahungai ke achal ko khtam karta hai"
+  },
+  {
+   "ts": 1790808020.0,
+   "title": "Aussie Dollar slips below 0.70 as Bullock dovishness trumps soft PCE",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/aussie-dollar-slips-below-070-as-bullock-dovishness-trumps-soft-pce-202609302240",
+   "t": "01 Oct \u00b7 03:40 AM",
+   "ur": "Aasterilvi Dollar 0.70 se niche phisal gaya cunkah belon ki badamashi ne narm pi si ai ko patchhe chhod diya"
+  },
+  {
+   "ts": 1790806204.0,
+   "title": "Fed\u2019s Kashkari questions policy tightness as economy stays strong",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-kashkari-questions-policy-tightness-as-economy-stays-strong-202609302210",
+   "t": "01 Oct \u00b7 03:10 AM",
+   "ur": "Fed's Kashkari palisi ki saqti par swal athata hai cunkah misht mazboot rahti hai."
+  },
+  {
+   "ts": 1790799614.0,
+   "title": "Fed\u2019s Cook says inflation has stayed too high for too long",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/feds-cook-says-inflation-has-stayed-too-high-for-too-long-202609302020",
+   "t": "01 Oct \u00b7 01:20 AM",
+   "ur": "Fed kak ka kahana hai kah inflation (mehngai) bahat ziyadah arse se bahat ziyadah hai."
   },
   {
    "ts": 1790793022.0,
@@ -480,46 +512,6 @@
    "link": "https://www.fxstreet.com/news/ecbs-schnabel-says-yield-surge-could-cool-inflation-pressures-202609301619",
    "t": "30 Sep \u00b7 09:19 PM",
    "ur": "Ai si bi ke shanabel ka kahana hai kah pedawar mein azafah inflation (mehngai) ke dabao ko thanda kar sakta hai."
-  },
-  {
-   "ts": 1790783136.0,
-   "title": "Australian Dollar reverses post-PCE rebound as US Dollar recovers",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-reverses-post-pce-rebound-as-us-dollar-recovers-202609301545",
-   "t": "30 Sep \u00b7 08:45 PM",
-   "ur": "US Dollar ki recovery ke sath hi aasterilvi Dollar PCE ke bad ki recovery ko tabadil kar dita hai."
-  },
-  {
-   "ts": 1790781963.0,
-   "title": "Silver Price Forecast: XAG/USD remains vulnerable near $60",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-remains-vulnerable-near-60-202609301526",
-   "t": "30 Sep \u00b7 08:26 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $60 ke qarib kamazor hai."
-  },
-  {
-   "ts": 1790781684.0,
-   "title": "British Pound catches second wind as soft PCE knocks Fed hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/the-british-pound-catches-second-wind-as-soft-pce-knocks-fed-hike-bets-202609301521",
-   "t": "30 Sep \u00b7 08:21 PM",
-   "ur": "Bartanvi pound ne dosari hawa pakad li jab narm PCE ne Fed mein azafe ki shart ko dastak diya."
-  },
-  {
-   "ts": 1790777424.0,
-   "title": "Japanese Yen advances as US PCE shifts Fed rate hike bets toward December",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-advances-as-us-pce-shifts-fed-rate-hike-bets-toward-december-202609301410",
-   "t": "30 Sep \u00b7 07:10 PM",
-   "ur": "US pi si ai ne fed ret mein azafe ki shart ko dasmbr ki taraf mantaql karte huvay japani yan tarqi kar raha hai."
-  },
-  {
-   "ts": 1790777297.0,
-   "title": "Euro finds support as softer US PCE data prompts traders to trim Fed rate-hike bets",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-finds-support-as-softer-us-pce-data-prompts-traders-to-trim-fed-rate-hike-bets-202609301408",
-   "t": "30 Sep \u00b7 07:08 PM",
-   "ur": "Uro ko support malti hai cunkah narm US pi si ai deta taajron ko fed ki rate mein azafe ki shart ko tarashne ka asharah karta hai"
   }
  ],
  "sentiment": {
