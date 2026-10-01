@@ -1,24 +1,13 @@
 {
- "updated": "01-10-2026 04:44 PKT",
+ "updated": "01-10-2026 07:26 PKT",
  "gold": {
-  "price": 4154.97,
-  "open": 4180.09,
+  "price": 4153.28,
+  "open": 4176.63,
   "high": 4220.15,
-  "low": 4147.23,
-  "chg": -0.6,
+  "low": 4139.78,
+  "chg": -0.56,
   "src": "XAUUSD Spot",
   "spark": [
-   4184.68,
-   4192.69,
-   4191.37,
-   4210.44,
-   4206.62,
-   4202.54,
-   4194.31,
-   4183.49,
-   4178.57,
-   4181.5,
-   4171.15,
    4171.69,
    4167.51,
    4164.29,
@@ -55,14 +44,25 @@
    4153.89,
    4152.35,
    4154.53,
-   4154.97
+   4154.81,
+   4156.19,
+   4152.38,
+   4145.28,
+   4143.72,
+   4145.81,
+   4160.51,
+   4161.24,
+   4161.84,
+   4158.43,
+   4155.19,
+   4153.28
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.615,
-   "chg": -0.09,
+   "price": 61.165,
+   "chg": 0.82,
    "spark": [
     66.221,
     64.618,
@@ -85,13 +85,13 @@
     64.245,
     61.22,
     60.668,
-    60.615
+    61.165
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.465,
-   "chg": 0.09,
+   "price": 101.583,
+   "chg": 0.21,
    "spark": [
     99.43,
     99.67,
@@ -114,13 +114,13 @@
     100.97,
     101.2,
     101.37,
-    101.465
+    101.583
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.09,
-   "chg": 0.79,
+   "price": 90.28,
+   "chg": 1.01,
    "spark": [
     85.76,
     90.22,
@@ -143,7 +143,7 @@
     92.41,
     92.6,
     89.38,
-    90.09
+    90.28
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1333,
-   "chg": -0.07,
+   "price": 1.1328,
+   "chg": -0.12,
    "spark": [
     1.1596,
     1.1585,
@@ -201,13 +201,13 @@
     1.1378,
     1.1373,
     1.1341,
-    1.1333
+    1.1328
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3265,
-   "chg": 0.24,
+   "price": 1.3256,
+   "chg": 0.18,
    "spark": [
     1.3515,
     1.3484,
@@ -230,13 +230,13 @@
     1.3229,
     1.3254,
     1.3233,
-    1.3265
+    1.3256
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.484,
-   "chg": 0.05,
+   "price": 158.087,
+   "chg": 0.43,
    "spark": [
     160.196,
     158.923,
@@ -259,17 +259,14 @@
     157.463,
     157.361,
     157.404,
-    157.484
+    158.087
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2687.45,
-   "chg": 0.4,
+   "price": 2683.2,
+   "chg": -0.03,
    "spark": [
-    2676.1,
-    2664.37,
-    2656.59,
     2663.71,
     2666.69,
     2675.35,
@@ -314,17 +311,17 @@
     2681.18,
     2683.09,
     2685.38,
-    2687.45
+    2684.11,
+    2682.91,
+    2688.15,
+    2683.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83560.7,
-   "chg": -0.09,
+   "price": 83378.7,
+   "chg": -0.22,
    "spark": [
-    83149.0,
-    83029.2,
-    82936.4,
     83035.7,
     83170.5,
     83399.0,
@@ -369,19 +366,14 @@
     83621.5,
     83707.8,
     83633.1,
-    83560.7
+    83564.7,
+    83449.8,
+    83454.6,
+    83378.7
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1790805600.0,
-   "t": "Thu 01 Oct \u00b7 03:00 AM",
-   "title": "FOMC Member Kashkari Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1790857800.0,
    "t": "Thu 01 Oct \u00b7 05:30 PM",
@@ -434,12 +426,76 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790811878.955385,
+   "ts": 1790821614.058927,
+   "title": "Gold little changed after 6% September slide as softer U.S. PCE cuts Fed hike bets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-little-changed-after-6-september-slide-as-softer-us-pce-cuts-fed-hike-bets-4926166",
+   "t": "01 Oct \u00b7 07:26 AM",
+   "ur": "6% stambr ki salaid ke bad Gold (sona) thoda sa tabadil hawa cunkah narm US pi si ai ne fed mein azafe ki shart ko kam kiya"
+  },
+  {
+   "ts": 1790821614.058927,
    "title": "Gold prices to snap two-month winning streak with a September loss of more than 6%",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-after-16-gain-as-oil-drop-offsets-elevated-treasury-yields-4923962",
-   "t": "01 Oct \u00b7 04:44 AM",
+   "t": "01 Oct \u00b7 07:26 AM",
    "ur": "Gold (sone) ki qeemtin stambr mein 6 fisad se ziyadah ke naqsan ke sath do mah ki jit ka salsalah khtam kar din gi"
+  },
+  {
+   "ts": 1790821534.0,
+   "title": "Fed path shaped by firm inflation \u2013 Societe Generale",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/fed-path-shaped-by-firm-inflation-societe-generale-202610010225",
+   "t": "01 Oct \u00b7 07:25 AM",
+   "ur": "Fed path jo mazboot inflation (mehngai) ki shakl mein hai - sociti janerl"
+  },
+  {
+   "ts": 1790821361.0,
+   "title": "US Dollar: Fed outlook supported by robust data \u2013 TD Securities",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-dollar-fed-outlook-supported-by-robust-data-td-securities-202610010222",
+   "t": "01 Oct \u00b7 07:22 AM",
+   "ur": "US Dollar: mazboot deta - TD securitez ke zariye sport shdah fed oat lak"
+  },
+  {
+   "ts": 1790821069.0,
+   "title": "Australian Dollar remains stronger against Japanese Yen following Trade Balance data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-remains-stronger-against-japanese-yen-following-trade-balance-data-202610010217",
+   "t": "01 Oct \u00b7 07:17 AM",
+   "ur": "Tajarti tawazin ke aed w shmar ke bad aasterilvi Dollar japani yan ke maqable mein mazboot hai."
+  },
+  {
+   "ts": 1790819844.0,
+   "title": "Australian Dollar declines below 0.6959 as Trade Surplus shrinks sharply",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-declines-below-06959-as-trade-surplus-shrinks-sharply-202610010157",
+   "t": "01 Oct \u00b7 06:57 AM",
+   "ur": "Aasterilvi Dollar 0.6959 se niche garta hai cunkah tajarti sarpples tizi se sakadta hai"
+  },
+  {
+   "ts": 1790818089.0,
+   "title": "Canadian Dollar seems vulnerable near two-month low as USD maintains bullish undertone",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/canadian-dollar-seems-vulnerable-near-two-month-low-as-usd-maintains-bullish-undertone-202610010128",
+   "t": "01 Oct \u00b7 06:28 AM",
+   "ur": "Caniden Dollar do mah ki kam tarin sath ke qarib lag raha hai cunkah USD mein tizi ke asarat barqarar hen."
+  },
+  {
+   "ts": 1790812800.0,
+   "title": "The Japanese Yen spikes on softer US inflation and gives the gain back",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-japanese-yen-spikes-on-softer-us-inflation-and-gives-the-gain-back-202610010000",
+   "t": "01 Oct \u00b7 05:00 AM",
+   "ur": "Japani yan narm US inflation (mehngai) ko badhata hai aur faidah waps dita hai."
+  },
+  {
+   "ts": 1790811900.0,
+   "title": "The New Zealand Dollar edges lower as US yields outweigh China's beats",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/the-new-zealand-dollar-edges-lower-as-us-yields-outweigh-chinas-beats-202609302345",
+   "t": "01 Oct \u00b7 04:45 AM",
+   "ur": "Niyozi lind Dollar ki qeemat kam ho gayi cunkah US pedawar chin ki dhadkanon se ziyadah hai"
   },
   {
    "ts": 1790811074.0,
@@ -447,75 +503,11 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/the-euro-slips-as-europes-biggest-economies-report-hotter-inflation-202609302331",
    "t": "01 Oct \u00b7 04:31 AM",
-   "ur": "Urip ki sab se badi mishton ke garm inflation (mehngai) ki atla ke sath uro phisal gaya."
-  },
-  {
-   "ts": 1790811058.0,
-   "title": "Gold falls to near $4,150 as higher Treasury yields, oil prices outweigh softer PCE inflation",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-falls-to-near-4-150-as-higher-treasury-yields-oil-prices-outweigh-softer-pce-inflation-202609302330",
-   "t": "01 Oct \u00b7 04:30 AM",
-   "ur": "Gold (sona) $4,150 ke qarib gar gaya cunkah treasury ki ziyadah pedawar, til ki qeemtin narm PCE inflation (mehngai) se kahin ziyadah hen"
-  },
-  {
-   "ts": 1790810891.0,
-   "title": "Dow Jones Industrial Average fades a soft-inflation bounce as yields climb",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-fades-a-soft-inflation-bounce-as-yields-climb-202609302328",
-   "t": "01 Oct \u00b7 04:28 AM",
-   "ur": "Pedawar mein azafe ke sath hi dou joons andistril everage narm mahungai ke achal ko khtam karta hai"
-  },
-  {
-   "ts": 1790808020.0,
-   "title": "Aussie Dollar slips below 0.70 as Bullock dovishness trumps soft PCE",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/aussie-dollar-slips-below-070-as-bullock-dovishness-trumps-soft-pce-202609302240",
-   "t": "01 Oct \u00b7 03:40 AM",
-   "ur": "Aasterilvi Dollar 0.70 se niche phisal gaya cunkah belon ki badamashi ne narm pi si ai ko patchhe chhod diya"
-  },
-  {
-   "ts": 1790806204.0,
-   "title": "Fed\u2019s Kashkari questions policy tightness as economy stays strong",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-kashkari-questions-policy-tightness-as-economy-stays-strong-202609302210",
-   "t": "01 Oct \u00b7 03:10 AM",
-   "ur": "Fed's Kashkari palisi ki saqti par swal athata hai cunkah misht mazboot rahti hai."
-  },
-  {
-   "ts": 1790799614.0,
-   "title": "Fed\u2019s Cook says inflation has stayed too high for too long",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-cook-says-inflation-has-stayed-too-high-for-too-long-202609302020",
-   "t": "01 Oct \u00b7 01:20 AM",
-   "ur": "Fed kak ka kahana hai kah inflation (mehngai) bahat ziyadah arse se bahat ziyadah hai."
-  },
-  {
-   "ts": 1790793022.0,
-   "title": "Forex Today: Fedspeak, Jobless Claims and ISM data steal the show",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-fedspeak-claims-and-the-ism-data-steal-the-show-202609301830",
-   "t": "30 Sep \u00b7 11:30 PM",
-   "ur": "Farex today: fed spack, berozgari ke daway aur ISM deta sho chori karte hen."
-  },
-  {
-   "ts": 1790791363.0,
-   "title": "Gold can\u2019t catch a PCE break as long US yields keep climbing",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-cant-catch-a-pce-break-as-long-us-yields-keep-climbing-202609301802",
-   "t": "30 Sep \u00b7 11:02 PM",
-   "ur": "Gold (sona) PCE ka waqafah nihen pakad sakta jab tak kah US pedawar mein azafah hota rahta hai."
-  },
-  {
-   "ts": 1790785145.0,
-   "title": "ECB\u2019s Schnabel says yields surge could cool inflation pressures",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/ecbs-schnabel-says-yield-surge-could-cool-inflation-pressures-202609301619",
-   "t": "30 Sep \u00b7 09:19 PM",
-   "ur": "Ai si bi ke shanabel ka kahana hai kah pedawar mein azafah inflation (mehngai) ke dabao ko thanda kar sakta hai."
+   "ur": "Uro phisal raha hai cunkah urip ki sab se badi mishtin garm inflation (mehngai) ki atla diti hen."
   }
  ],
  "sentiment": {
-  "value": 71,
+  "value": 74,
   "label": "Greed"
  },
  "err": null
