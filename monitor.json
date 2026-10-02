@@ -1,38 +1,13 @@
 {
- "updated": "02-10-2026 11:13 PKT",
+ "updated": "02-10-2026 17:30 PKT",
  "gold": {
-  "price": 4193.72,
-  "open": 4191.66,
+  "price": 4182.05,
+  "open": 4177.69,
   "high": 4196.22,
   "low": 4134.45,
-  "chg": 0.05,
+  "chg": 0.1,
   "src": "XAUUSD Spot",
   "spark": [
-   4173.43,
-   4178.03,
-   4176.95,
-   4176.85,
-   4176.56,
-   4175.31,
-   4175.8,
-   4177.81,
-   4175.67,
-   4173.43,
-   4177.45,
-   4178.59,
-   4178.88,
-   4178.83,
-   4178.94,
-   4172.82,
-   4172.12,
-   4175.97,
-   4178.92,
-   4179.05,
-   4180.91,
-   4177.52,
-   4182.31,
-   4169.69,
-   4166.26,
    4160.74,
    4158.76,
    4139.61,
@@ -55,14 +30,39 @@
    4186.79,
    4190.27,
    4186.65,
-   4193.72
+   4195.69,
+   4190.47,
+   4180.7,
+   4178.04,
+   4185.31,
+   4185.29,
+   4182.13,
+   4192.18,
+   4188.6,
+   4184.44,
+   4182.17,
+   4185.22,
+   4187.81,
+   4185.66,
+   4184.57,
+   4184.67,
+   4169.68,
+   4173.79,
+   4180.73,
+   4181.54,
+   4185.42,
+   4181.81,
+   4179.98,
+   4183.03,
+   4176.83,
+   4182.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.66,
-   "chg": 1.54,
+   "price": 61.265,
+   "chg": 0.89,
    "spark": [
     64.723,
     66.973,
@@ -85,13 +85,13 @@
     60.668,
     60.098,
     60.725,
-    61.66
+    61.265
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.907,
-   "chg": -0.19,
+   "price": 102.092,
+   "chg": -0.01,
    "spark": [
     99.56,
     99.0,
@@ -114,13 +114,13 @@
     101.37,
     101.45,
     102.1,
-    101.907
+    102.092
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 92.61,
-   "chg": -0.28,
+   "price": 89.71,
+   "chg": -3.4,
    "spark": [
     91.01,
     91.3,
@@ -143,7 +143,7 @@
     89.38,
     90.42,
     92.87,
-    92.61
+    89.71
    ]
   },
   {
@@ -151,7 +151,6 @@
    "price": 5.237,
    "chg": -1.06,
    "spark": [
-    4.796,
     4.796,
     4.762,
     4.784,
@@ -177,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1261,
-   "chg": -0.58,
+   "price": 1.1257,
+   "chg": -0.62,
    "spark": [
     1.1585,
     1.1628,
@@ -201,13 +200,13 @@
     1.1373,
     1.1341,
     1.1327,
-    1.1261
+    1.1257
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3216,
-   "chg": -0.36,
+   "price": 1.3237,
+   "chg": -0.21,
    "spark": [
     1.3484,
     1.3532,
@@ -230,13 +229,13 @@
     1.3254,
     1.3233,
     1.3264,
-    1.3216
+    1.3237
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.561,
-   "chg": 0.0,
+   "price": 157.232,
+   "chg": -0.21,
    "spark": [
     158.923,
     155.66,
@@ -259,20 +258,14 @@
     157.361,
     157.404,
     157.558,
-    157.561
+    157.232
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2725.14,
-   "chg": 0.72,
+   "price": 2755.55,
+   "chg": 1.85,
    "spark": [
-    2673.63,
-    2669.98,
-    2687.57,
-    2694.35,
-    2696.38,
-    2729.97,
     2708.62,
     2676.99,
     2681.89,
@@ -314,20 +307,20 @@
     2718.69,
     2741.96,
     2719.38,
-    2725.14
+    2728.49,
+    2736.99,
+    2752.82,
+    2746.37,
+    2742.73,
+    2746.04,
+    2755.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 85952.7,
-   "chg": 1.3,
+   "price": 86899.6,
+   "chg": 2.42,
    "spark": [
-    83259.1,
-    83029.9,
-    83598.0,
-    83882.1,
-    83878.9,
-    85261.7,
     84604.2,
     83763.1,
     84084.9,
@@ -369,7 +362,13 @@
     85480.6,
     86628.3,
     85969.5,
-    85952.7
+    85963.1,
+    86071.5,
+    86225.4,
+    86349.7,
+    86275.7,
+    86407.9,
+    86903.4
    ]
   }
  ],
@@ -402,84 +401,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1790921601.721842,
-   "title": "Gold steadies as stronger dollar, higher yields weigh; U.S. jobs data awaited",
+   "ts": 1790944253.108062,
+   "title": "Who would be exposed if U.S. bans diesel exports? Goldman weighs in",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/who-would-be-exposed-if-us-bans-diesel-exports-goldman-weighs-in-4929619",
+   "t": "02 Oct \u00b7 05:30 PM",
+   "ur": "Agar amrikah esel ki exports par pabandi lagata hai to kon be naqab hoga? gold mein ka wazin hai."
+  },
+  {
+   "ts": 1790944253.108062,
+   "title": "Morning Bid: Yield to worst",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/morning-bid-yield-to-worst-4929468",
+   "t": "02 Oct \u00b7 05:30 PM",
+   "ur": "Sabah ki boli: sab se ziyadah naqsan"
+  },
+  {
+   "ts": 1790944253.108062,
+   "title": "Gold steadies ahead of key U.S. jobs data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-stronger-dollar-higher-yields-weigh-us-jobs-data-awaited-4928890",
-   "t": "02 Oct \u00b7 11:13 AM",
-   "ur": "Gold (sona) mazboot Dollar ke tur par mastahkam, ziyadah pedawar ka wazin; US malazmaton ke aed w shmar ka antezar hai."
+   "t": "02 Oct \u00b7 05:30 PM",
+   "ur": "Gold (sona) US malazmaton ke aham aed w shmar se aage hai."
   },
   {
-   "ts": 1790921601.721842,
-   "title": "Gold ekes out slight gain as U.S. Treasury bond rally offsets surge in oil",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-little-changed-after-6-september-slide-as-softer-us-pce-cuts-fed-hike-bets-4926166",
-   "t": "02 Oct \u00b7 11:13 AM",
-   "ur": "US treasurei band rili til mein azafe ke bad Gold (sone) mein mamoli azafah hawa"
-  },
-  {
-   "ts": 1790921590.0,
-   "title": "US Dollar Index Price Forecast: Hawkish Fed pricing backs more upside above 102.20",
+   "ts": 1790941988.0,
+   "title": "Euro hits fresh two-month lows against British Pound after hot Eurozone inflation data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-hawkish-fed-pricing-backs-more-upside-above-10220-202610020613",
-   "t": "02 Oct \u00b7 11:13 AM",
-   "ur": "US Dollar andex ki qeemat ki forecast: hakish fed ki qeemtin 102.20 se ziyadah oper ki taraf badh rahi hen"
+   "link": "https://www.fxstreet.com/news/euro-hits-fresh-two-month-lows-against-british-pound-after-hot-eurozone-inflation-data-202610021153",
+   "t": "02 Oct \u00b7 04:53 PM",
+   "ur": "Garm urozon inflation (mehngai) ke aed w shmar ke bad uro bartanvi pound ke maqable mein taazah tarin do mah ki kam tarin sath par hai."
   },
   {
-   "ts": 1790920832.0,
-   "title": "Japanese Yen rises due to hot Tokyo CPI, dovish Fed bets",
+   "ts": 1790941143.0,
+   "title": "Australian Dollar trades higher against US Dollar ahead of US NFP data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-rises-due-to-hot-tokyo-cpi-dovish-fed-bets-202610020600",
-   "t": "02 Oct \u00b7 11:00 AM",
-   "ur": "Japani yan garm tokiyo CPI ki wajah se badh raha hai, fed ki qeemton mein azafah"
+   "link": "https://www.fxstreet.com/news/australian-dollar-trades-higher-against-us-dollar-ahead-of-us-nfp-data-202610021139",
+   "t": "02 Oct \u00b7 04:39 PM",
+   "ur": "Aasterilvi Dollar US NFP deta se pehle US Dollar ke maqable mein ziyadah tajart karta hai."
   },
   {
-   "ts": 1790920305.0,
-   "title": "New Zealand Dollar rebounds ahead of US jobs data, election uncertainty lingers",
+   "ts": 1790940293.0,
+   "title": "Swiss Franc emerges as a safe-haven as global bonds sell off",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rebounds-ahead-of-us-jobs-data-election-uncertainty-lingers-202610020551",
-   "t": "02 Oct \u00b7 10:51 AM",
-   "ur": "Niyozi lind Dollar US malazmaton ke aed w shmar se aage badh raha hai, antakhabi ghair yaqeeni surtahal barqarar hai."
+   "link": "https://www.fxstreet.com/news/swiss-franc-emerges-as-a-safe-haven-as-global-bonds-sell-off-202610021124",
+   "t": "02 Oct \u00b7 04:24 PM",
+   "ur": "Sois farank ek mahfooz panah gah ke tur par abharta hai jab alimi bands farokht hote hen."
   },
   {
-   "ts": 1790918665.0,
-   "title": "Silver price forecast: XAG/USD rises to near $61.40 as US yields retreat, NFP eyed",
+   "ts": 1790936165.0,
+   "title": "Euro-area Inflation: Headline pressures rise \u2013 Nordea",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-rises-to-near-6140-as-us-yields-retreat-nfp-eyed-202610020524",
-   "t": "02 Oct \u00b7 10:24 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD badh kar $61.40 ke qarib pohch gaya cunkah US pedawar patchhe hat gayi, NFP ki nazar"
+   "link": "https://www.fxstreet.com/news/euro-area-inflation-headline-pressures-rise-nordea-202610021016",
+   "t": "02 Oct \u00b7 03:16 PM",
+   "ur": "Uro erya anfalation: hed lin pareshar mein azafah - naurdiya."
   },
   {
-   "ts": 1790917484.0,
-   "title": "Indonesian Rupiah strengthens as US Dollar weakens on easing Fed rate hike bets",
+   "ts": 1790935938.0,
+   "title": "US Dollar: Uptrend intact as NFP looms \u2013 BBH",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/indonesian-rupiah-strengthens-as-us-dollar-weakens-on-easing-fed-rate-hike-bets-202610020504",
-   "t": "02 Oct \u00b7 10:04 AM",
-   "ur": "Andonatio ka ropiya mazboot ho raha hai cunkah US Dollar fed ki rate mein azafe ke sharton mein narmi par kamazor hai."
+   "link": "https://www.fxstreet.com/news/us-dollar-uptrend-intact-as-nfp-looms-bbh-202610021012",
+   "t": "02 Oct \u00b7 03:12 PM",
+   "ur": "US Dollar: NFP ke badhte hi oper ka rjahan barqarar hai - BBH"
   },
   {
-   "ts": 1790916496.0,
-   "title": "EUR/USD Price Forecast: Next move hinges on US NFP data",
+   "ts": 1790934391.0,
+   "title": "Euro trims daily gains as Eurozone inflation accelerates above expectations",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-next-move-hinges-on-us-nfp-data-202610020448",
-   "t": "02 Oct \u00b7 09:48 AM",
-   "ur": "EUR/USD qeemat ki forecast: agla aqdam US NFP deta par manehsr hai."
+   "link": "https://www.fxstreet.com/news/euro-trims-daily-gains-as-eurozone-inflation-accelerates-above-expectations-202610020946",
+   "t": "02 Oct \u00b7 02:46 PM",
+   "ur": "Uro rozana ke fawaid ko kam karta hai cunkah uro zon ki inflation (mehngai) toqaat se ziyadah ties hoti hai."
   },
   {
-   "ts": 1790915808.0,
-   "title": "India Gold price today: Gold rises, according to FXStreet data",
+   "ts": 1790933533.0,
+   "title": "Silver price today: Silver rises, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-rises-according-to-fxstreet-data-202610020436",
-   "t": "02 Oct \u00b7 09:36 AM",
-   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) badhta hai."
-  },
-  {
-   "ts": 1790915560.0,
-   "title": "Swiss Franc gains as US Dollar eases amid easing Fed rate hike odds",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-gains-as-us-dollar-eases-amid-easing-fed-rate-hike-odds-202610020432",
-   "t": "02 Oct \u00b7 09:32 AM",
-   "ur": "Sois farank mein azafah hawa cunkah fed ki rate mein azafe ki mashaklat ko kam karne ke darmiyan US Dollar mein narmi"
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202610020932",
+   "t": "02 Oct \u00b7 02:32 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
   }
  ],
  "sentiment": {
