@@ -1,30 +1,13 @@
 {
- "updated": "02-10-2026 23:01 PKT",
+ "updated": "03-10-2026 03:09 PKT",
  "gold": {
-  "price": 4133.8,
-  "open": 4168.48,
+  "price": 4137.69,
+  "open": 4173.13,
   "high": 4225.65,
   "low": 4125.92,
-  "chg": -0.83,
+  "chg": -0.85,
   "src": "XAUUSD Spot",
   "spark": [
-   4195.69,
-   4190.47,
-   4180.7,
-   4178.04,
-   4185.31,
-   4185.29,
-   4182.13,
-   4192.18,
-   4188.6,
-   4184.44,
-   4182.17,
-   4185.22,
-   4187.81,
-   4185.66,
-   4184.57,
-   4184.67,
-   4169.68,
    4173.79,
    4180.73,
    4181.54,
@@ -55,14 +38,31 @@
    4136.65,
    4132.85,
    4137.4,
-   4133.8
+   4133.8,
+   4140.53,
+   4139.83,
+   4142.55,
+   4145.1,
+   4146.93,
+   4148.33,
+   4144.16,
+   4146.33,
+   4142.9,
+   4143.04,
+   4138.88,
+   4141.53,
+   4137.54,
+   4137.53,
+   4137.62,
+   4137.63,
+   4137.69
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.525,
-   "chg": -0.33,
+   "price": 60.71,
+   "chg": -0.02,
    "spark": [
     64.723,
     66.973,
@@ -85,13 +85,13 @@
     60.668,
     60.098,
     60.725,
-    60.525
+    60.71
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.917,
-   "chg": -0.18,
+   "price": 101.924,
+   "chg": -0.17,
    "spark": [
     99.56,
     99.0,
@@ -114,13 +114,13 @@
     101.37,
     101.45,
     102.1,
-    101.917
+    101.924
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.37,
-   "chg": -1.62,
+   "price": 91.26,
+   "chg": -1.73,
    "spark": [
     91.01,
     91.3,
@@ -143,13 +143,13 @@
     89.38,
     90.42,
     92.87,
-    91.37
+    91.26
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.285,
-   "chg": 0.92,
+   "price": 5.277,
+   "chg": 0.76,
    "spark": [
     4.796,
     4.762,
@@ -172,13 +172,13 @@
     5.255,
     5.293,
     5.237,
-    5.285
+    5.277
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1259,
-   "chg": -0.6,
+   "price": 1.1257,
+   "chg": -0.62,
    "spark": [
     1.1585,
     1.1628,
@@ -201,13 +201,13 @@
     1.1373,
     1.1341,
     1.1327,
-    1.1259
+    1.1257
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3239,
-   "chg": -0.19,
+   "price": 1.324,
+   "chg": -0.18,
    "spark": [
     1.3484,
     1.3532,
@@ -230,13 +230,13 @@
     1.3254,
     1.3233,
     1.3264,
-    1.3239
+    1.324
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.805,
-   "chg": 0.16,
+   "price": 157.83,
+   "chg": 0.17,
    "spark": [
     158.923,
     155.66,
@@ -259,18 +259,14 @@
     157.361,
     157.404,
     157.558,
-    157.805
+    157.83
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2687.05,
-   "chg": -0.69,
+   "price": 2663.16,
+   "chg": -1.57,
    "spark": [
-    2669.0,
-    2681.18,
-    2683.09,
-    2685.38,
     2684.11,
     2682.91,
     2688.15,
@@ -314,18 +310,18 @@
     2696.94,
     2689.46,
     2683.74,
-    2687.05
+    2664.53,
+    2667.79,
+    2661.2,
+    2665.02,
+    2663.16
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84826.6,
-   "chg": -0.03,
+   "price": 84461.7,
+   "chg": -0.46,
    "spark": [
-    83551.4,
-    83621.5,
-    83707.8,
-    83633.1,
     83564.7,
     83449.8,
     83454.6,
@@ -369,7 +365,11 @@
     85318.9,
     85142.6,
     84765.5,
-    84826.6
+    84240.6,
+    84300.1,
+    84439.3,
+    84506.9,
+    84461.6
    ]
   }
  ],
@@ -426,20 +426,36 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1790964080.185609,
-   "title": "Gold advances after softer-than-expected U.S. jobs data",
+   "ts": 1790978942.557483,
+   "title": "Gold set for fifth negative week in six amid surging dollar, Treasury bond rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-stronger-dollar-higher-yields-weigh-us-jobs-data-awaited-4928890",
-   "t": "02 Oct \u00b7 11:01 PM",
-   "ur": "Toqa se ziyadah narm US malazmaton ke aed w shmar ke bad Gold (sone) ki tarqi"
+   "t": "03 Oct \u00b7 03:09 AM",
+   "ur": "Badhte huvay Dollar, treasurei band rot ke darmiyan Gold (sona) panchon manfi hafte mein chh mein te hawa."
   },
   {
-   "ts": 1790964080.185609,
-   "title": "Who would be exposed if U.S. bans diesel exports? Goldman weighs in",
+   "ts": 1790978942.557483,
+   "title": "Silver holds $60 support with bullish divergence: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/who-would-be-exposed-if-us-bans-diesel-exports-goldman-weighs-in-4929619",
-   "t": "02 Oct \u00b7 11:01 PM",
-   "ur": "Agar amrikah esel ki exports par pabandi lagata hai to kon be naqab hoga? gold mein ka wazin hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-breaks-below-sma-200-and-ichimoku-cloud-live-levels-93CH-4919471",
+   "t": "03 Oct \u00b7 03:09 AM",
+   "ur": "Silver (chandi) ko tizi ke anharaf ke sath $60 ki support haasil hai."
+  },
+  {
+   "ts": 1790977931.0,
+   "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-bears-crowd-60-after-six-percent-weekly-rout-202610022152",
+   "t": "03 Oct \u00b7 02:52 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: chh fisad haftah war rot ke bad bears $60 ka hajom hai."
+  },
+  {
+   "ts": 1790964187.0,
+   "title": "Gold fails at $4,200 despite NFP miss as US yields climb",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-fails-at-4-200-despite-nfp-miss-as-us-yields-climb-202610021803",
+   "t": "02 Oct \u00b7 11:03 PM",
+   "ur": "NFP ki kami ke bawajud Gold (sona) $4,200 par naakam ho gaya cunkah US pedawar mein azafah hota hai."
   },
   {
    "ts": 1790963287.0,
@@ -487,23 +503,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-fomc-minutes-to-offer-limited-fresh-clues-td-securities-202610021435",
    "t": "02 Oct \u00b7 07:35 PM",
-   "ur": "US Dollar: FOMC manton mein muhadud taazah ashare pesh karne ke liye - TD securitez"
-  },
-  {
-   "ts": 1790951514.0,
-   "title": "Japanese Yen gives back post-NFP gains despite US Dollar weakness",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-gives-back-post-nfp-gains-despite-us-dollar-weakness-202610021431",
-   "t": "02 Oct \u00b7 07:31 PM",
-   "ur": "Japani yan US Dollar ki kamazori ke bawajud NFP ke bad ke fawaid waps karta hai."
-  },
-  {
-   "ts": 1790950994.0,
-   "title": "US labour market: Softer jobs ease Fed hike risk \u2013 ABN Amro",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-labour-market-softer-jobs-ease-fed-hike-risk-abn-amro-202610021423",
-   "t": "02 Oct \u00b7 07:23 PM",
-   "ur": "US libr market: narm malazmatin fed mein azafe ke khatre ko kam karti hen - ABN amro"
+   "ur": "US Dollar: FOMC mants muhadud taazah ashare pesh karne ke liye - TD securitez"
   }
  ],
  "sentiment": {
