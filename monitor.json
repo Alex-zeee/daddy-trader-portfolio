@@ -1,22 +1,13 @@
 {
- "updated": "04-10-2026 02:46 PKT",
+ "updated": "04-10-2026 05:09 PKT",
  "gold": {
-  "price": 4137.52,
+  "price": 4137.63,
   "open": 4137.55,
-  "high": 4138.05,
+  "high": 4137.74,
   "low": 4137.45,
-  "chg": -0.0,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4137.62,
-   4137.63,
-   4137.58,
-   4137.51,
-   4137.61,
-   4137.63,
-   4137.56,
-   4137.5,
-   4137.61,
    4137.63,
    4137.58,
    4137.51,
@@ -55,7 +46,16 @@
    4137.53,
    4137.52,
    4137.6,
-   4137.52
+   4137.62,
+   4137.59,
+   4137.51,
+   4137.6,
+   4137.63,
+   4137.57,
+   4137.51,
+   4137.61,
+   4137.63,
+   4137.63
   ]
  },
  "markets": [
@@ -141,6 +141,35 @@
     90.42,
     92.87,
     91.11
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 5.277,
+   "chg": 0.76,
+   "spark": [
+    4.796,
+    4.762,
+    4.784,
+    4.806,
+    4.837,
+    4.944,
+    4.975,
+    4.961,
+    4.996,
+    5.006,
+    4.947,
+    4.998,
+    4.963,
+    4.968,
+    5.114,
+    5.162,
+    5.184,
+    5.24,
+    5.255,
+    5.293,
+    5.237,
+    5.277
    ]
   },
   {
@@ -232,12 +261,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2686.02,
-   "chg": 0.67,
+   "price": 2686.76,
+   "chg": -0.01,
    "spark": [
-    2702.13,
-    2705.61,
-    2707.57,
     2715.04,
     2720.05,
     2718.69,
@@ -282,17 +308,17 @@
     2684.9,
     2684.99,
     2686.26,
-    2686.02
+    2684.99,
+    2686.17,
+    2687.02,
+    2686.77
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84718.4,
-   "chg": 0.25,
+   "price": 84794.0,
+   "chg": 0.06,
    "spark": [
-    84717.3,
-    84849.1,
-    84764.3,
     84883.2,
     85163.1,
     85480.6,
@@ -337,7 +363,10 @@
     84931.7,
     84835.5,
     84739.1,
-    84718.4
+    84703.5,
+    84756.1,
+    84740.0,
+    84794.0
    ]
   }
  ],
@@ -394,12 +423,12 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1791063997.126169,
+   "ts": 1791072598.48691,
    "title": "Gold set for fifth negative week in six amid surging dollar, Treasury bond rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-stronger-dollar-higher-yields-weigh-us-jobs-data-awaited-4928890",
-   "t": "04 Oct \u00b7 02:46 AM",
-   "ur": "Badhte huvay Dollar, treasurei band ke rot ke darmiyan Gold (sona) panchon manfi hafte mein chh mein te hawa."
+   "t": "04 Oct \u00b7 05:09 AM",
+   "ur": "Badhte huvay Dollar, treasurei band rot ke darmiyan Gold (sona) panchon manfi hafte mein chh mein te hawa."
   },
   {
    "ts": 1790977931.0,
@@ -463,7 +492,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/us-dollar-fomc-minutes-to-offer-limited-fresh-clues-td-securities-202610021435",
    "t": "02 Oct \u00b7 07:35 PM",
-   "ur": "US Dollar: FOMC manton mein muhadud taazah ashare pesh karne ke liye - TD securitez"
+   "ur": "US Dollar: FOMC mants muhadud taazah ashare pesh karne ke liye - TD securitez"
   },
   {
    "ts": 1790951514.0,
@@ -475,7 +504,7 @@
   }
  ],
  "sentiment": {
-  "value": 67,
+  "value": 65,
   "label": "Greed"
  },
  "err": null
