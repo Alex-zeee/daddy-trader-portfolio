@@ -1,36 +1,13 @@
 {
- "updated": "04-10-2026 10:45 PKT",
+ "updated": "04-10-2026 16:24 PKT",
  "gold": {
   "price": 4137.63,
-  "open": 4137.55,
-  "high": 4137.74,
-  "low": 4137.45,
+  "open": 4137.53,
+  "high": 4137.72,
+  "low": 4137.47,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4137.57,
-   4137.5,
-   4137.62,
-   4137.63,
-   4137.58,
-   4137.51,
-   4137.63,
-   4137.62,
-   4137.6,
-   4137.52,
-   4137.53,
-   4137.61,
-   4137.61,
-   4137.53,
-   4137.52,
-   4137.6,
-   4137.62,
-   4137.59,
-   4137.51,
-   4137.6,
-   4137.63,
-   4137.57,
-   4137.51,
    4137.61,
    4137.63,
    4137.58,
@@ -55,6 +32,29 @@
    4137.6,
    4137.63,
    4137.57,
+   4137.51,
+   4137.62,
+   4137.63,
+   4137.58,
+   4137.51,
+   4137.63,
+   4137.63,
+   4137.6,
+   4137.52,
+   4137.53,
+   4137.62,
+   4137.61,
+   4137.53,
+   4137.52,
+   4137.61,
+   4137.62,
+   4137.6,
+   4137.51,
+   4137.59,
+   4137.63,
+   4137.58,
+   4137.51,
+   4137.61,
    4137.63
   ]
  },
@@ -228,16 +228,39 @@
    ]
   },
   {
-   "name": "Ethereum",
-   "price": 2696.08,
-   "chg": 0.34,
+   "name": "USD/JPY",
+   "price": 157.83,
+   "chg": -0.06,
    "spark": [
-    2728.49,
-    2736.99,
-    2752.82,
-    2746.37,
-    2742.73,
-    2746.04,
+    155.66,
+    156.197,
+    153.855,
+    153.478,
+    153.573,
+    154.482,
+    153.424,
+    154.385,
+    155.266,
+    156.014,
+    156.129,
+    157.046,
+    157.369,
+    157.464,
+    158.265,
+    158.811,
+    157.463,
+    157.361,
+    157.404,
+    157.558,
+    157.927,
+    157.83
+   ]
+  },
+  {
+   "name": "Ethereum",
+   "price": 2702.87,
+   "chg": 0.59,
+   "spark": [
     2755.0,
     2743.93,
     2708.64,
@@ -279,20 +302,20 @@
     2692.47,
     2694.22,
     2691.86,
-    2696.08
+    2694.58,
+    2695.95,
+    2705.24,
+    2700.08,
+    2700.98,
+    2701.23,
+    2702.87
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84914.5,
-   "chg": 0.21,
+   "price": 85277.9,
+   "chg": 0.63,
    "spark": [
-    85963.1,
-    86071.5,
-    86225.4,
-    86349.7,
-    86275.7,
-    86407.9,
     86800.1,
     86563.1,
     85670.0,
@@ -334,7 +357,13 @@
     84797.4,
     84833.0,
     84805.6,
-    84914.5
+    84898.8,
+    85017.3,
+    85095.4,
+    85087.0,
+    85222.3,
+    85255.9,
+    85277.9
    ]
   }
  ],
@@ -383,14 +412,6 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791092721.034483,
-   "title": "Gold set for fifth negative week in six amid surging dollar, Treasury bond rout",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-stronger-dollar-higher-yields-weigh-us-jobs-data-awaited-4928890",
-   "t": "04 Oct \u00b7 10:45 AM",
-   "ur": "Badhte huvay Dollar, treasurei band rot ke darmiyan Gold (sona) panchon manfi hafte mein chh mein te hawa."
-  },
-  {
    "ts": 1790977931.0,
    "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
    "src": "FXStreet",
@@ -404,7 +425,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/gold-fails-at-4-200-despite-nfp-miss-as-us-yields-climb-202610021803",
    "t": "02 Oct \u00b7 11:03 PM",
-   "ur": "NFP ki kami ke bawajud Gold (sona) $4,200 par naakam ho gaya cunkah US pedawar mein azafah hota hai."
+   "ur": "NFP ki kami ke bawajud Gold (sona) $4,200 par naakam ho gaya cunkah US pedawar mein azafah"
   },
   {
    "ts": 1790963287.0,
@@ -436,7 +457,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/british-pound-rebounds-as-nfp-knocks-out-october-fed-hike-bets-202610021556",
    "t": "02 Oct \u00b7 08:56 PM",
-   "ur": "NFP ne aktobar Fed mein azafe ki shart ko naak oat karte huvay bartanvi pound ki recovery"
+   "ur": "NFP ne aktobar fed mein azafe ki shart ko naak oat karte huvay bartanvi pound ki recovery"
   },
   {
    "ts": 1790953343.0,
@@ -461,6 +482,14 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-gives-back-post-nfp-gains-despite-us-dollar-weakness-202610021431",
    "t": "02 Oct \u00b7 07:31 PM",
    "ur": "Japani yan US Dollar ki kamazori ke bawajud NFP ke bad ke fawaid waps karta hai."
+  },
+  {
+   "ts": 1790950994.0,
+   "title": "US labour market: Softer jobs ease Fed hike risk \u2013 ABN Amro",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/us-labour-market-softer-jobs-ease-fed-hike-risk-abn-amro-202610021423",
+   "t": "02 Oct \u00b7 07:23 PM",
+   "ur": "US libr market: narm malazmatin fed mein azafe ke khatre ko kam karti hen - ABN amro"
   }
  ],
  "sentiment": {
