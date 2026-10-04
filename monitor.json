@@ -1,5 +1,5 @@
 {
- "updated": "04-10-2026 05:09 PKT",
+ "updated": "04-10-2026 10:45 PKT",
  "gold": {
   "price": 4137.63,
   "open": 4137.55,
@@ -8,28 +8,6 @@
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4137.63,
-   4137.58,
-   4137.51,
-   4137.63,
-   4137.62,
-   4137.59,
-   4137.51,
-   4137.53,
-   4137.61,
-   4137.61,
-   4137.52,
-   4137.52,
-   4137.6,
-   4137.62,
-   4137.59,
-   4137.51,
-   4137.59,
-   4137.63,
-   4137.58,
-   4137.5,
-   4137.6,
-   4137.63,
    4137.57,
    4137.5,
    4137.62,
@@ -55,16 +33,37 @@
    4137.51,
    4137.61,
    4137.63,
+   4137.58,
+   4137.51,
+   4137.63,
+   4137.63,
+   4137.59,
+   4137.51,
+   4137.64,
+   4137.62,
+   4137.61,
+   4137.52,
+   4137.53,
+   4137.61,
+   4137.62,
+   4137.53,
+   4137.52,
+   4137.6,
+   4137.63,
+   4137.58,
+   4137.51,
+   4137.6,
+   4137.63,
+   4137.57,
    4137.63
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.977,
-   "chg": -1.23,
+   "price": 60.415,
+   "chg": -0.51,
    "spark": [
-    66.973,
     66.047,
     66.297,
     67.942,
@@ -84,7 +83,7 @@
     60.668,
     60.098,
     60.725,
-    59.977
+    60.415
    ]
   },
   {
@@ -92,7 +91,6 @@
    "price": 101.93,
    "chg": -0.17,
    "spark": [
-    99.0,
     99.16,
     98.84,
     98.77,
@@ -120,7 +118,6 @@
    "price": 91.11,
    "chg": -1.9,
    "spark": [
-    91.3,
     91.48,
     93.03,
     96.05,
@@ -231,44 +228,10 @@
    ]
   },
   {
-   "name": "USD/JPY",
-   "price": 157.83,
-   "chg": -0.06,
-   "spark": [
-    155.66,
-    156.197,
-    153.855,
-    153.478,
-    153.573,
-    154.482,
-    153.424,
-    154.385,
-    155.266,
-    156.014,
-    156.129,
-    157.046,
-    157.369,
-    157.464,
-    158.265,
-    158.811,
-    157.463,
-    157.361,
-    157.404,
-    157.558,
-    157.927,
-    157.83
-   ]
-  },
-  {
    "name": "Ethereum",
-   "price": 2686.76,
-   "chg": -0.01,
+   "price": 2696.08,
+   "chg": 0.34,
    "spark": [
-    2715.04,
-    2720.05,
-    2718.69,
-    2741.96,
-    2719.38,
     2728.49,
     2736.99,
     2752.82,
@@ -311,19 +274,19 @@
     2684.99,
     2686.17,
     2687.02,
-    2686.77
+    2692.93,
+    2694.3,
+    2692.47,
+    2694.22,
+    2691.86,
+    2696.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84794.0,
-   "chg": 0.06,
+   "price": 84914.5,
+   "chg": 0.21,
    "spark": [
-    84883.2,
-    85163.1,
-    85480.6,
-    86628.3,
-    85969.5,
     85963.1,
     86071.5,
     86225.4,
@@ -366,68 +329,65 @@
     84703.5,
     84756.1,
     84740.0,
-    84794.0
+    84784.4,
+    84799.4,
+    84797.4,
+    84833.0,
+    84805.6,
+    84914.5
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1790857800.0,
-   "t": "Thu 01 Oct \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
+   "ts": 1791208800.0,
+   "t": "Mon 05 Oct \u00b7 07:00 PM",
+   "title": "ISM Services PMI",
    "impact": "Medium",
-   "forecast": "201K",
-   "previous": "197K"
+   "forecast": "55.1",
+   "previous": "55.4"
   },
   {
-   "ts": 1790863200.0,
-   "t": "Thu 01 Oct \u00b7 07:00 PM",
-   "title": "FOMC Member Waller Speaks",
-   "impact": "Medium",
+   "ts": 1791396000.0,
+   "t": "Wed 07 Oct \u00b7 11:00 PM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
    "forecast": "",
    "previous": ""
   },
   {
-   "ts": 1790863200.0,
-   "t": "Thu 01 Oct \u00b7 07:00 PM",
-   "title": "ISM Manufacturing PMI",
+   "ts": 1791462600.0,
+   "t": "Thu 08 Oct \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "54.8",
-   "previous": "54.6"
+   "forecast": "200K",
+   "previous": "197K"
   },
   {
-   "ts": 1790944200.0,
-   "t": "Fri 02 Oct \u00b7 05:30 PM",
-   "title": "Average Hourly Earnings m/m",
-   "impact": "High",
-   "forecast": "0.3%",
-   "previous": "0.3%"
+   "ts": 1791554400.0,
+   "t": "Fri 09 Oct \u00b7 07:00 PM",
+   "title": "Prelim UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "47.6",
+   "previous": "47.8"
   },
   {
-   "ts": 1790944200.0,
-   "t": "Fri 02 Oct \u00b7 05:30 PM",
-   "title": "Non-Farm Employment Change",
-   "impact": "High",
-   "forecast": "89K",
-   "previous": "162K"
-  },
-  {
-   "ts": 1790944200.0,
-   "t": "Fri 02 Oct \u00b7 05:30 PM",
-   "title": "Unemployment Rate",
-   "impact": "High",
-   "forecast": "4.1%",
-   "previous": "4.1%"
+   "ts": 1791554400.0,
+   "t": "Fri 09 Oct \u00b7 07:00 PM",
+   "title": "Prelim UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.6%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791072598.48691,
+   "ts": 1791092721.034483,
    "title": "Gold set for fifth negative week in six amid surging dollar, Treasury bond rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-as-stronger-dollar-higher-yields-weigh-us-jobs-data-awaited-4928890",
-   "t": "04 Oct \u00b7 05:09 AM",
+   "t": "04 Oct \u00b7 10:45 AM",
    "ur": "Badhte huvay Dollar, treasurei band rot ke darmiyan Gold (sona) panchon manfi hafte mein chh mein te hawa."
   },
   {
