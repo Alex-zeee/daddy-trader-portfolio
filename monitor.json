@@ -1,24 +1,13 @@
 {
- "updated": "05-10-2026 03:02 PKT",
+ "updated": "05-10-2026 05:52 PKT",
  "gold": {
-  "price": 4142.77,
+  "price": 4156.3,
   "open": 4137.54,
-  "high": 4143.19,
-  "low": 4135.84,
-  "chg": 0.13,
+  "high": 4156.97,
+  "low": 4130.37,
+  "chg": 0.45,
   "src": "XAUUSD Spot",
   "spark": [
-   4137.63,
-   4137.58,
-   4137.51,
-   4137.61,
-   4137.63,
-   4137.57,
-   4137.51,
-   4137.62,
-   4137.63,
-   4137.59,
-   4137.51,
    4137.63,
    4137.62,
    4137.6,
@@ -55,14 +44,25 @@
    4138.72,
    4142.99,
    4142.81,
-   4142.77
+   4142.3,
+   4140.92,
+   4142.59,
+   4147.82,
+   4145.05,
+   4145.85,
+   4144.52,
+   4142.54,
+   4148.92,
+   4155.32,
+   4152.77,
+   4156.3
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.415,
-   "chg": -0.51,
+   "price": 61.43,
+   "chg": 2.42,
    "spark": [
     66.047,
     66.297,
@@ -83,13 +83,14 @@
     60.668,
     60.098,
     60.725,
-    60.415
+    59.977,
+    61.43
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.93,
-   "chg": -0.17,
+   "price": 101.955,
+   "chg": 0.02,
    "spark": [
     99.16,
     98.84,
@@ -110,13 +111,14 @@
     101.37,
     101.45,
     102.1,
-    101.93
+    101.93,
+    101.955
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.11,
-   "chg": -1.9,
+   "price": 90.71,
+   "chg": -0.44,
    "spark": [
     91.48,
     93.03,
@@ -137,7 +139,8 @@
     89.38,
     90.42,
     92.87,
-    91.11
+    91.11,
+    90.71
    ]
   },
   {
@@ -171,10 +174,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.126,
-   "chg": 0.09,
+   "price": 1.1246,
+   "chg": -0.03,
    "spark": [
-    1.1628,
     1.1614,
     1.1628,
     1.1627,
@@ -195,15 +197,14 @@
     1.1341,
     1.1327,
     1.125,
-    1.126
+    1.1246
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3241,
-   "chg": 0.31,
+   "price": 1.3238,
+   "chg": 0.29,
    "spark": [
-    1.3532,
     1.3517,
     1.3547,
     1.3545,
@@ -224,15 +225,14 @@
     1.3233,
     1.3264,
     1.32,
-    1.3241
+    1.3238
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.898,
-   "chg": -0.02,
+   "price": 157.825,
+   "chg": -0.06,
    "spark": [
-    155.66,
     156.197,
     153.855,
     153.478,
@@ -253,16 +253,14 @@
     157.404,
     157.558,
     157.927,
-    157.898
+    157.825
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2708.78,
-   "chg": 0.81,
+   "price": 2728.19,
+   "chg": 0.08,
    "spark": [
-    2668.1,
-    2675.97,
     2679.31,
     2676.71,
     2681.63,
@@ -308,16 +306,16 @@
     2701.24,
     2705.53,
     2701.9,
-    2708.79
+    2730.7,
+    2726.49,
+    2728.19
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 86049.2,
-   "chg": 1.54,
+   "price": 86589.1,
+   "chg": 0.1,
    "spark": [
-    84503.7,
-    84635.4,
     84624.1,
     84588.2,
     84684.3,
@@ -363,7 +361,9 @@
     85412.8,
     85817.8,
     85844.6,
-    86049.2
+    86423.2,
+    86510.4,
+    86589.1
    ]
   }
  ],
@@ -411,6 +411,14 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1791156106.0,
+   "title": "Australian Dollar drifts higher above 0.6950 on soft US jobs data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-drifts-higher-above-06950-on-soft-us-jobs-data-202610042321",
+   "t": "05 Oct \u00b7 04:21 AM",
+   "ur": "Narm US malazmaton ke aed w shmar par aasterilvi Dollar 0.6950 se oper badhta hai."
+  },
   {
    "ts": 1790977931.0,
    "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
@@ -482,18 +490,10 @@
    "link": "https://www.fxstreet.com/news/japanese-yen-gives-back-post-nfp-gains-despite-us-dollar-weakness-202610021431",
    "t": "02 Oct \u00b7 07:31 PM",
    "ur": "Japani yan US Dollar ki kamazori ke bawajud NFP ke bad ke fawaid waps karta hai."
-  },
-  {
-   "ts": 1790950994.0,
-   "title": "US labour market: Softer jobs ease Fed hike risk \u2013 ABN Amro",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-labour-market-softer-jobs-ease-fed-hike-risk-abn-amro-202610021423",
-   "t": "02 Oct \u00b7 07:23 PM",
-   "ur": "US libr market: narm malazmatin fed mein azafe ke khatre ko kam karti hen - ABN amro"
   }
  ],
  "sentiment": {
-  "value": 65,
+  "value": 70,
   "label": "Greed"
  },
  "err": null
