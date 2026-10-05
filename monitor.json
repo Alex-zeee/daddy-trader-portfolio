@@ -1,35 +1,13 @@
 {
- "updated": "05-10-2026 05:52 PKT",
+ "updated": "05-10-2026 11:21 PKT",
  "gold": {
-  "price": 4156.3,
+  "price": 4152.16,
   "open": 4137.54,
-  "high": 4156.97,
-  "low": 4130.37,
-  "chg": 0.45,
+  "high": 4161.98,
+  "low": 4126.08,
+  "chg": 0.35,
   "src": "XAUUSD Spot",
   "spark": [
-   4137.63,
-   4137.62,
-   4137.6,
-   4137.52,
-   4137.53,
-   4137.61,
-   4137.61,
-   4137.53,
-   4137.52,
-   4137.6,
-   4137.62,
-   4137.59,
-   4137.51,
-   4137.6,
-   4137.63,
-   4137.57,
-   4137.51,
-   4137.61,
-   4137.63,
-   4137.58,
-   4137.53,
-   4137.65,
    4137.56,
    4137.6,
    4137.53,
@@ -55,16 +33,37 @@
    4148.92,
    4155.32,
    4152.77,
-   4156.3
+   4156.31,
+   4157.26,
+   4154.96,
+   4153.06,
+   4161.24,
+   4160.96,
+   4159.97,
+   4153.53,
+   4142.83,
+   4137.95,
+   4143.92,
+   4142.92,
+   4144.71,
+   4138.16,
+   4127.97,
+   4133.54,
+   4131.68,
+   4138.18,
+   4137.65,
+   4138.12,
+   4134.4,
+   4151.24,
+   4152.16
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.43,
-   "chg": 2.42,
+   "price": 61.63,
+   "chg": 2.76,
    "spark": [
-    66.047,
     66.297,
     67.942,
     64.284,
@@ -84,15 +83,14 @@
     60.098,
     60.725,
     59.977,
-    61.43
+    61.63
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.955,
-   "chg": 0.02,
+   "price": 102.291,
+   "chg": 0.35,
    "spark": [
-    99.16,
     98.84,
     98.77,
     99.09,
@@ -112,15 +110,14 @@
     101.45,
     102.1,
     101.93,
-    101.955
+    102.291
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.71,
-   "chg": -0.44,
+   "price": 89.76,
+   "chg": -1.48,
    "spark": [
-    91.48,
     93.03,
     96.05,
     102.48,
@@ -140,7 +137,7 @@
     90.42,
     92.87,
     91.11,
-    90.71
+    89.76
    ]
   },
   {
@@ -174,8 +171,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1246,
-   "chg": -0.03,
+   "price": 1.1197,
+   "chg": -0.47,
    "spark": [
     1.1614,
     1.1628,
@@ -197,13 +194,13 @@
     1.1341,
     1.1327,
     1.125,
-    1.1246
+    1.1197
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3238,
-   "chg": 0.29,
+   "price": 1.3214,
+   "chg": 0.11,
    "spark": [
     1.3517,
     1.3547,
@@ -225,13 +222,13 @@
     1.3233,
     1.3264,
     1.32,
-    1.3238
+    1.3214
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.825,
-   "chg": -0.06,
+   "price": 157.803,
+   "chg": -0.08,
    "spark": [
     156.197,
     153.855,
@@ -253,20 +250,14 @@
     157.404,
     157.558,
     157.927,
-    157.825
+    157.803
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2728.19,
-   "chg": 0.08,
+   "price": 2713.49,
+   "chg": -0.46,
    "spark": [
-    2679.31,
-    2676.71,
-    2681.63,
-    2675.67,
-    2677.35,
-    2679.56,
     2680.9,
     2683.18,
     2680.11,
@@ -308,20 +299,20 @@
     2701.9,
     2730.7,
     2726.49,
-    2728.19
+    2728.83,
+    2724.52,
+    2730.42,
+    2715.51,
+    2701.73,
+    2705.54,
+    2713.49
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 86589.1,
-   "chg": 0.1,
+   "price": 85960.0,
+   "chg": -0.63,
    "spark": [
-    84624.1,
-    84588.2,
-    84684.3,
-    84569.0,
-    84634.7,
-    84559.2,
     84542.0,
     84606.4,
     84578.6,
@@ -363,7 +354,13 @@
     85844.6,
     86423.2,
     86510.4,
-    86589.1
+    86630.1,
+    86595.8,
+    86513.2,
+    86052.3,
+    85505.1,
+    85740.9,
+    85960.0
    ]
   }
  ],
@@ -412,84 +409,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791156106.0,
-   "title": "Australian Dollar drifts higher above 0.6950 on soft US jobs data",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-drifts-higher-above-06950-on-soft-us-jobs-data-202610042321",
-   "t": "05 Oct \u00b7 04:21 AM",
-   "ur": "Narm US malazmaton ke aed w shmar par aasterilvi Dollar 0.6950 se oper badhta hai."
+   "ts": 1791181268.909008,
+   "title": "Gold edges higher after weekly slide as weak jobs data ease Fed hike bets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-edges-higher-after-weekly-slide-as-weak-jobs-data-ease-fed-hike-bets-4930980",
+   "t": "05 Oct \u00b7 11:21 AM",
+   "ur": "Haftah war salaid ke bad Gold (sone) ki qeemtin baland ho jati hen cunkah kamazor malazmaton ke aed w shmar fed mein azafe ki shart ko aasan banate hen."
   },
   {
-   "ts": 1790977931.0,
-   "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-bears-crowd-60-after-six-percent-weekly-rout-202610022152",
-   "t": "03 Oct \u00b7 02:52 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: chh fisad haftah war rot ke bad bears $60 ka hajom hai."
+   "ts": 1791176401.0,
+   "title": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html",
+   "t": "05 Oct \u00b7 10:00 AM",
+   "ur": "2029 ka aham naktah: magharbi aabadi sakadna sharo kar rahi hai, awami maliyat par dabao dal raha hai"
   },
   {
-   "ts": 1790964187.0,
-   "title": "Gold fails at $4,200 despite NFP miss as US yields climb",
+   "ts": 1791175394.0,
+   "title": "Gold flat lines below $4,150 as rallying USD offsets receding Fed hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-fails-at-4-200-despite-nfp-miss-as-us-yields-climb-202610021803",
-   "t": "02 Oct \u00b7 11:03 PM",
-   "ur": "NFP ki kami ke bawajud Gold (sona) $4,200 par naakam ho gaya cunkah US pedawar mein azafah hota hai."
+   "link": "https://www.fxstreet.com/news/gold-bulls-remain-on-the-sidelines-as-usd-rallies-to-fresh-ytd-peak-202610050443",
+   "t": "05 Oct \u00b7 09:43 AM",
+   "ur": "Fed mein azafe ki sharton ko kam karne wale USD afsets ki riling ke tur par $4,150 se niche Gold (sone) ki filet linin"
   },
   {
-   "ts": 1790963287.0,
-   "title": "Fed\u2019s Goolsbee says inflation now outweighs labor concerns",
+   "ts": 1791174927.0,
+   "title": "India Gold price today: Gold falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-goolsbee-says-inflation-now-outweighs-labor-concerns-202610021748",
-   "t": "02 Oct \u00b7 10:48 PM",
-   "ur": "Fed's Goolsbee ka kahana hai kah inflation (mehngai) ab mazduron ke khadshat se kahin ziyadah hai."
+   "link": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202610050435",
+   "t": "05 Oct \u00b7 09:35 AM",
+   "ur": "Handostan mein aaj Gold (sone) ki qeemat: FXStreet deta ke matabiq, Gold (sona) gara hai."
   },
   {
-   "ts": 1790957657.0,
-   "title": "New Zealand Dollar rebounds after sharp US employment disappointment",
+   "ts": 1791173204.0,
+   "title": "Swiss Franc weakens as safe-haven demand lifts US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-rebounds-after-sharp-us-employment-disappointment-202610021614",
-   "t": "02 Oct \u00b7 09:14 PM",
-   "ur": "US malazmat mein shadeed mayusi ke bad niyozi lind Dollar ki qadar mein tizi"
+   "link": "https://www.fxstreet.com/news/swiss-franc-weakens-as-safe-haven-demand-lifts-us-dollar-202610050406",
+   "t": "05 Oct \u00b7 09:06 AM",
+   "ur": "Sois farank kamazor ho gaya cunkah mahfooz panah gahon ki talab mein US Dollar mein azafah hawa."
   },
   {
-   "ts": 1790957222.0,
-   "title": "US payrolls miss at 29K and the Dollar Index drops below 102.00",
+   "ts": 1791170266.0,
+   "title": "US economy: Mixed labour and inflation picture \u2013 NBC Economics and Strategy",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-payrolls-miss-at-29k-and-the-dollar-index-drops-below-10200-202610021607",
-   "t": "02 Oct \u00b7 09:07 PM",
-   "ur": "US pay roles 29K par chhot jate hen aur Dollar andex 102.00 se niche gar jata hai."
+   "link": "https://www.fxstreet.com/news/us-economy-mixed-labour-and-inflation-picture-nbc-economics-and-strategy-202610050317",
+   "t": "05 Oct \u00b7 08:17 AM",
+   "ur": "US misht: mukhaloot muhant aur inflation (mehngai) ki tasver \u2013 NBC akanamix and stereteji"
   },
   {
-   "ts": 1790956569.0,
-   "title": "British Pound rebounds as NFP knocks out October Fed hike bets",
+   "ts": 1791170080.0,
+   "title": "Silver Price Forecast: XAG/USD gains near $61.00 as Fed rate hike odds decline",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-rebounds-as-nfp-knocks-out-october-fed-hike-bets-202610021556",
-   "t": "02 Oct \u00b7 08:56 PM",
-   "ur": "NFP ne aktobar Fed mein azafe ki shart ko naak oat karte huvay bartanvi pound ki recovery"
+   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-gains-near-6100-as-fed-rate-hike-odds-decline-202610050314",
+   "t": "05 Oct \u00b7 08:14 AM",
+   "ur": "Silver (chandi) ki qeemat ki forecast: fed ki rate mein azafe ki mashaklat mein kami ke sath XAG/USD $61.00 ke qarib badh gaya"
   },
   {
-   "ts": 1790953343.0,
-   "title": "US Dollar: Fading rallies as Fed pricing peaks \u2013 TD Securities",
+   "ts": 1791169046.0,
+   "title": "United States Dollar Index\u00a0gathers strength above 102.00 on safe-haven flows",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fading-rallies-as-fed-pricing-peaks-td-securities-202610021502",
-   "t": "02 Oct \u00b7 08:02 PM",
-   "ur": "US Dollar: fed ki qeemton mein azafe ke sath hi mati hoi riliyan - TD securitez"
+   "link": "https://www.fxstreet.com/news/united-states-dollar-index-gathers-strength-above-10200-on-safe-haven-flows-202610050257",
+   "t": "05 Oct \u00b7 07:57 AM",
+   "ur": "Ryastahaye matehdah ka Dollar andex mahfooz panah gahon ke bahao par 102.00 se oper ki tqt jama karta hai"
   },
   {
-   "ts": 1790951704.0,
-   "title": "US Dollar: FOMC minutes to offer limited fresh clues \u2013 TD Securities",
+   "ts": 1791168509.0,
+   "title": "New Zealand Dollar flirts with YTD low, below 0.5900 amid resurgent USD demand",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fomc-minutes-to-offer-limited-fresh-clues-td-securities-202610021435",
-   "t": "02 Oct \u00b7 07:35 PM",
-   "ur": "US Dollar: FOMC mants muhadud taazah ashare pesh karne ke liye - TD securitez"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-flirts-with-ytd-low-below-05900-amid-resurgent-usd-demand-202610050248",
+   "t": "05 Oct \u00b7 07:48 AM",
+   "ur": "Niyozi lind Dollar YTD kam, 0.5900 se niche US Dollar ki dubarah mang ke darmiyan chhed chhad karta hai"
   },
   {
-   "ts": 1790951514.0,
-   "title": "Japanese Yen gives back post-NFP gains despite US Dollar weakness",
+   "ts": 1791166410.0,
+   "title": "Gold holds gains above $4,150 as traders trim bets on Fed rate hikes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-gives-back-post-nfp-gains-despite-us-dollar-weakness-202610021431",
-   "t": "02 Oct \u00b7 07:31 PM",
-   "ur": "Japani yan US Dollar ki kamazori ke bawajud NFP ke bad ke fawaid waps karta hai."
+   "link": "https://www.fxstreet.com/news/gold-holds-gains-above-4-150-as-traders-trim-bets-on-fed-rate-hikes-202610050213",
+   "t": "05 Oct \u00b7 07:13 AM",
+   "ur": "Gold (sona) $4,150 se oper ka faidah rakta hai cunkah taajron ne Fed ki rate mein azafe par shartin kam ki hen."
   }
  ],
  "sentiment": {
