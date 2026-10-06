@@ -1,30 +1,13 @@
 {
- "updated": "06-10-2026 02:58 PKT",
+ "updated": "06-10-2026 07:02 PKT",
  "gold": {
-  "price": 4139.93,
-  "open": 4142.73,
+  "price": 4130.93,
+  "open": 4160.2,
   "high": 4170.6,
   "low": 4125.41,
-  "chg": -0.07,
+  "chg": -0.7,
   "src": "XAUUSD Spot",
   "spark": [
-   4156.69,
-   4158.67,
-   4158.3,
-   4162.22,
-   4161.11,
-   4165.24,
-   4155.46,
-   4155.32,
-   4158.5,
-   4161.01,
-   4161.46,
-   4157.39,
-   4151.02,
-   4152.18,
-   4139.89,
-   4135.93,
-   4141.91,
    4138.68,
    4141.2,
    4147.73,
@@ -55,14 +38,31 @@
    4140.1,
    4139.98,
    4140.0,
-   4139.93
+   4139.6,
+   4142.93,
+   4142.57,
+   4144.48,
+   4141.0,
+   4138.73,
+   4140.64,
+   4137.25,
+   4134.03,
+   4136.28,
+   4141.28,
+   4136.28,
+   4147.56,
+   4149.0,
+   4137.37,
+   4133.17,
+   4131.37,
+   4130.93
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.4,
-   "chg": 2.37,
+   "price": 61.09,
+   "chg": 1.86,
    "spark": [
     66.297,
     67.942,
@@ -83,13 +83,13 @@
     60.098,
     60.725,
     59.977,
-    61.4
+    61.09
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.119,
-   "chg": 0.19,
+   "price": 102.115,
+   "chg": 0.18,
    "spark": [
     98.84,
     98.77,
@@ -110,13 +110,13 @@
     101.45,
     102.1,
     101.93,
-    102.119
+    102.115
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.3,
-   "chg": -1.99,
+   "price": 89.51,
+   "chg": -1.76,
    "spark": [
     93.03,
     96.05,
@@ -137,7 +137,7 @@
     90.42,
     92.87,
     91.11,
-    89.3
+    89.51
    ]
   },
   {
@@ -169,8 +169,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1225,
-   "chg": -0.22,
+   "price": 1.1222,
+   "chg": -0.29,
    "spark": [
     1.1614,
     1.1628,
@@ -192,13 +192,14 @@
     1.1341,
     1.1327,
     1.125,
-    1.1225
+    1.1255,
+    1.1222
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3222,
-   "chg": 0.17,
+   "chg": -0.15,
    "spark": [
     1.3517,
     1.3547,
@@ -220,13 +221,14 @@
     1.3233,
     1.3264,
     1.32,
+    1.3243,
     1.3222
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.967,
-   "chg": 0.03,
+   "price": 157.899,
+   "chg": 0.1,
    "spark": [
     156.197,
     153.855,
@@ -248,19 +250,15 @@
     157.404,
     157.558,
     157.927,
-    157.967
+    157.734,
+    157.899
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2718.37,
-   "chg": -0.28,
+   "price": 2705.24,
+   "chg": -0.17,
    "spark": [
-    2686.17,
-    2687.02,
-    2692.93,
-    2694.3,
-    2692.47,
     2694.22,
     2691.86,
     2694.58,
@@ -303,19 +301,19 @@
     2710.06,
     2708.53,
     2712.08,
-    2718.37
+    2717.68,
+    2715.77,
+    2709.39,
+    2718.0,
+    2707.07,
+    2705.06
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 85950.1,
-   "chg": -0.64,
+   "price": 85567.4,
+   "chg": -0.21,
    "spark": [
-    84756.1,
-    84740.0,
-    84784.4,
-    84799.4,
-    84797.4,
     84833.0,
     84805.6,
     84898.8,
@@ -358,7 +356,12 @@
     85650.0,
     85730.2,
     85769.4,
-    85950.1
+    85930.4,
+    85923.3,
+    85751.5,
+    85901.7,
+    85660.1,
+    85567.4
    ]
   }
  ],
@@ -407,88 +410,88 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791237526.082195,
+   "ts": 1791252147.864356,
+   "title": "Gold holds near $4,140 as dollar, yields offset lower Fed hike expectations",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4140-as-dollar-yields-offset-lower-fed-hike-expectations-4933176",
+   "t": "06 Oct \u00b7 07:02 AM",
+   "ur": "Gold (sona) Dollar ke tur par $4,140 ke qarib rakta hai, fed mein azafe ki kam toqaat ko pora karta hai."
+  },
+  {
+   "ts": 1791252147.864356,
    "title": "Gold prices mostly flat as firmer dollar and Treasury bond rout offset by oil dip",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-higher-after-weekly-slide-as-weak-jobs-data-ease-fed-hike-bets-4930980",
-   "t": "06 Oct \u00b7 02:58 AM",
+   "t": "06 Oct \u00b7 07:02 AM",
    "ur": "Gold (sone) ki qeemtin ziyadah tar mastahkam Dollar aur treasurei band ke rot ki wajah se til ki kami ki wajah se hen."
   },
   {
-   "ts": 1791237526.082195,
+   "ts": 1791252147.864356,
    "title": "Silver consolidates near $61.54 with bear flag 80% complete: Live",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-bounces-at-6165-but-macro-downtrend-looms-live-levels-93CH-4931129",
-   "t": "06 Oct \u00b7 02:58 AM",
+   "t": "06 Oct \u00b7 07:02 AM",
    "ur": "Silver (chandi) $61.54 ke qarib mastahkam hai bears ke jhanday ke sath 80% makmal: laaio"
   },
   {
-   "ts": 1791229744.0,
-   "title": "Singapore Dollar: MAS seen very slightly tightening \u2013 Standard Chartered",
+   "ts": 1791249801.0,
+   "title": "Australian Dollar holds steady amid soft consumer sentiment",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-mas-seen-very-slightly-tightening-standard-chartered-202610051949",
-   "t": "06 Oct \u00b7 12:49 AM",
-   "ur": "Sangapor Dollar: MAS ko bahat thoda saqt dekha gaya - stindrd charter"
+   "link": "https://www.fxstreet.com/news/australian-dollar-holds-steady-amid-soft-consumer-sentiment-202610060123",
+   "t": "06 Oct \u00b7 06:23 AM",
+   "ur": "Aasterilvi Dollar sarfin ke narm jazbat ke darmiyan mastahkam hai."
   },
   {
-   "ts": 1791228206.0,
-   "title": "Silver Price Forecast: XAG/USD builds base above $60, eyes $64",
+   "ts": 1791249074.0,
+   "title": "Canadian Dollar seems vulnerable near April 2025 lows amid weak oil prices, bullish USD",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-builds-base-above-60-eyes-64-202610051923",
-   "t": "06 Oct \u00b7 12:23 AM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: XAG/USD $60 se oper ki baniyad banata hai, aankhen $64"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-seems-vulnerable-near-april-2025-lows-amid-weak-oil-prices-bullish-usd-202610060111",
+   "t": "06 Oct \u00b7 06:11 AM",
+   "ur": "Til ki kamazor qeemton, tizi USD ke darmiyan caniden Dollar april 2025 ki kam tarin sath ke qarib kamazor dikhai de raha hai"
   },
   {
-   "ts": 1791227322.0,
-   "title": "Chinese Yuan: Sideways with firmer bias against US Dollar - UOB",
+   "ts": 1791242908.0,
+   "title": "Gold holds steady below $4,150 amid elevated US yields",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/chinese-yuan-sideways-with-firmer-bias-against-us-dollar-uob-202610051908",
-   "t": "06 Oct \u00b7 12:08 AM",
-   "ur": "Chini uan: US Dollar ke khalaf saqt taasab ke sath sath - UOB"
+   "link": "https://www.fxstreet.com/news/gold-holds-steady-below-4-150-amid-elevated-us-yields-202610052328",
+   "t": "06 Oct \u00b7 04:28 AM",
+   "ur": "Baland US pedawar ke darmiyan Gold (sona) $4,150 se niche mastahkam hai."
   },
   {
-   "ts": 1791226771.0,
-   "title": "Gold stalls below $4,150 as rising US yields offset Fed relief",
+   "ts": 1791242327.0,
+   "title": "Australian Dollar defies rising yields as AUD/USD closes in on 0.70",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-stalls-below-4-150-as-rising-us-yields-offset-fed-relief-202610051859",
-   "t": "05 Oct \u00b7 11:59 PM",
-   "ur": "Gold (sona) rak gaya hai $4,150 se niche cunkah badhti hoi US pedawar fed rilif ko pora karti hai"
+   "link": "https://www.fxstreet.com/news/australian-dollar-defies-rising-yields-as-aud-usd-closes-in-on-070-202610052318",
+   "t": "06 Oct \u00b7 04:18 AM",
+   "ur": "AUD/USD 0.70 par band hone par aasterilvi Dollar ne badhti hoi pedawar ko mastard kar diya"
   },
   {
-   "ts": 1791225818.0,
-   "title": "Markets just priced out rate hikes on financial stress. This chart shows why 2022-23 says they\u2019ll be wrong",
+   "ts": 1791241200.0,
+   "title": "The New Zealand Dollar holds near its lows while business confidence jumps",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/markets-just-priced-out-rate-hikes-on-financial-stress-this-chart-shows-why-2022-23-says-theyll-be-wrong-202610051843",
-   "t": "05 Oct \u00b7 11:43 PM",
-   "ur": "Marketon ne sarf maliyati dabao par rate mein azafe ki qeemton ka tayin kiya. ya chart zaahar karta hai kah 2022-23 kiyon kahata hai kah wah ghalat hon ge."
+   "link": "https://www.fxstreet.com/news/the-new-zealand-dollar-holds-near-its-lows-while-business-confidence-jumps-202610052300",
+   "t": "06 Oct \u00b7 04:00 AM",
+   "ur": "Niyozi lind ka Dollar apani kam tarin sath par hai jabakah karobari etimad mein azafah ho raha hai."
   },
   {
-   "ts": 1791224783.0,
-   "title": "Japanese Yen weakens as wide yield gap supports US Dollar",
+   "ts": 1791239489.0,
+   "title": "US Treasury yields scale multi-year highs as inflation fears return",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-wide-yield-gap-supports-us-dollar-202610051826",
-   "t": "05 Oct \u00b7 11:26 PM",
-   "ur": "Japani yan kamazor ho raha hai cunkah pedawar mein wasi farq US Dollar ki support karta hai."
+   "link": "https://www.fxstreet.com/news/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231",
+   "t": "06 Oct \u00b7 03:31 AM",
+   "ur": "US treasurei ne kai salon ki unchai ko pemana haasil kiya cunkah inflation (mehngai) ki wapsi ka khadshah hai."
   },
   {
-   "ts": 1791224648.0,
-   "title": "Forex Today: PMIs in Europe and Fedspeak will do the rounds",
+   "ts": 1791239190.0,
+   "title": "The Pound flatlines as Treasury yields climb to another high",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/forex-today-pmis-in-europe-and-fedspeak-will-do-the-rounds-202610051824",
-   "t": "05 Oct \u00b7 11:24 PM",
-   "ur": "Farex today: urip aur fed spack mein PMIs chaker lagain ge."
-  },
-  {
-   "ts": 1791218174.0,
-   "title": "British Pound slides as France fiscal shock lifts the US Dollar",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-slides-as-france-fiscal-shock-lifts-the-us-dollar-202610051636",
-   "t": "05 Oct \u00b7 09:36 PM",
-   "ur": "Farans ke maliyati jhatake ne US Dollar ko athate huvay bartanvi pound ki qeemat mein kami waqa hoi."
+   "link": "https://www.fxstreet.com/news/the-pound-flatlines-as-treasury-yields-climb-to-another-high-202610052226",
+   "t": "06 Oct \u00b7 03:26 AM",
+   "ur": "Treasurei ki pedawar ke tur par pound filet linez ek aur unchai par chadh jata hai."
   }
  ],
  "sentiment": {
-  "value": 70,
+  "value": 73,
   "label": "Greed"
  },
  "err": null
