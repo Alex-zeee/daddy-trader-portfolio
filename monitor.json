@@ -1,41 +1,13 @@
 {
- "updated": "07-10-2026 08:29 PKT",
+ "updated": "07-10-2026 15:28 PKT",
  "gold": {
-  "price": 4143.84,
-  "open": 4126.67,
+  "price": 4117.34,
+  "open": 4154.12,
   "high": 4183.93,
-  "low": 4114.89,
-  "chg": 0.42,
+  "low": 4113.83,
+  "chg": -0.89,
   "src": "XAUUSD Spot",
   "spark": [
-   4167.92,
-   4164.84,
-   4161.32,
-   4160.93,
-   4158.96,
-   4156.23,
-   4162.36,
-   4160.04,
-   4165.04,
-   4165.53,
-   4168.29,
-   4168.92,
-   4170.22,
-   4176.54,
-   4176.3,
-   4172.66,
-   4169.7,
-   4169.39,
-   4168.36,
-   4163.97,
-   4163.1,
-   4164.33,
-   4164.36,
-   4164.4,
-   4164.41,
-   4164.64,
-   4167.11,
-   4167.51,
    4163.25,
    4162.77,
    4165.16,
@@ -55,14 +27,42 @@
    4147.93,
    4142.29,
    4139.69,
-   4143.84
+   4142.9,
+   4145.7,
+   4143.57,
+   4143.52,
+   4142.23,
+   4137.99,
+   4136.99,
+   4134.81,
+   4133.63,
+   4136.68,
+   4132.75,
+   4134.46,
+   4130.43,
+   4134.1,
+   4134.31,
+   4132.78,
+   4135.44,
+   4137.61,
+   4129.2,
+   4132.32,
+   4126.96,
+   4126.91,
+   4123.23,
+   4121.94,
+   4121.75,
+   4119.23,
+   4119.07,
+   4115.16,
+   4117.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.03,
-   "chg": 0.26,
+   "price": 60.33,
+   "chg": -1.37,
    "spark": [
     66.297,
     67.942,
@@ -84,13 +84,14 @@
     60.725,
     59.977,
     60.869,
-    61.03
+    61.168,
+    60.33
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.026,
-   "chg": -0.14,
+   "price": 102.306,
+   "chg": 0.47,
    "spark": [
     98.84,
     98.77,
@@ -112,13 +113,14 @@
     102.1,
     101.93,
     102.17,
-    102.026
+    101.83,
+    102.306
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.19,
-   "chg": 0.85,
+   "price": 90.07,
+   "chg": 0.7,
    "spark": [
     93.03,
     96.05,
@@ -140,7 +142,8 @@
     92.87,
     91.11,
     89.43,
-    90.19
+    89.44,
+    90.07
    ]
   },
   {
@@ -173,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1241,
-   "chg": 0.21,
+   "price": 1.1194,
+   "chg": -0.2,
    "spark": [
     1.1628,
     1.1627,
@@ -197,13 +200,13 @@
     1.125,
     1.1255,
     1.1217,
-    1.1241
+    1.1194
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3255,
-   "chg": 0.28,
+   "price": 1.3226,
+   "chg": 0.06,
    "spark": [
     1.3547,
     1.3545,
@@ -226,13 +229,13 @@
     1.32,
     1.3243,
     1.3219,
-    1.3255
+    1.3226
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.399,
-   "chg": 0.28,
+   "price": 158.29,
+   "chg": 0.21,
    "spark": [
     153.855,
     153.478,
@@ -255,21 +258,14 @@
     157.927,
     157.734,
     157.963,
-    158.399
+    158.29
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2607.46,
-   "chg": -3.33,
+   "price": 2587.85,
+   "chg": -4.05,
    "spark": [
-    2701.73,
-    2705.54,
-    2725.2,
-    2724.39,
-    2720.53,
-    2716.8,
-    2717.04,
     2717.84,
     2710.59,
     2722.88,
@@ -310,21 +306,21 @@
     2696.33,
     2656.61,
     2611.58,
-    2607.46
+    2610.62,
+    2609.96,
+    2621.36,
+    2617.93,
+    2615.15,
+    2609.41,
+    2596.69,
+    2587.85
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83949.4,
-   "chg": -1.86,
+   "price": 83886.2,
+   "chg": -1.94,
    "spark": [
-    85505.1,
-    85740.9,
-    86238.1,
-    86232.0,
-    86200.8,
-    85958.2,
-    86095.3,
     86193.1,
     85876.3,
     86393.4,
@@ -365,11 +361,26 @@
     85532.3,
     84371.7,
     83842.1,
-    83949.4
+    84126.1,
+    84075.2,
+    84307.3,
+    84204.6,
+    84105.1,
+    83926.8,
+    83784.0,
+    83886.2
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1791392400.0,
+   "t": "Wed 07 Oct \u00b7 10:00 PM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  },
   {
    "ts": 1791396000.0,
    "t": "Wed 07 Oct \u00b7 11:00 PM",
@@ -414,84 +425,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791343761.366216,
-   "title": "Gold holds gains as oil flows recover, Treasury yields ease",
+   "ts": 1791368930.971123,
+   "title": "Gold slips as dollar firms; Fed minutes awaited",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-gains-as-oil-flows-recover-treasury-yields-ease-4935492",
-   "t": "07 Oct \u00b7 08:29 AM",
-   "ur": "Til ke bahao ki recovery ke sath hi Gold (sone) mein azafah hota hai, treasurei ki pedawar mein aasani hoti hai."
+   "t": "07 Oct \u00b7 03:28 PM",
+   "ur": "Dollar ki farmon ke tur par Gold (sone) ki qeemat mein kami; fed mant ka antezar hai."
   },
   {
-   "ts": 1791343761.366216,
-   "title": "US judge authorizes fund to subpoena New York Fed for documents related to Radiant World",
+   "ts": 1791368930.971123,
+   "title": "Silver hovers at $60 support as breakdown risk grows: Live",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/us-judge-authorizes-fund-to-subpoena-new-york-fed-for-documents-related-to-radiant-world-4935428",
-   "t": "07 Oct \u00b7 08:29 AM",
-   "ur": "US jaj ne redeant warld se matalq dastavezat ke liye niyoyark fed ko pesh karne ke liye fand ki ajazt di."
+   "link": "https://www.investing.com/news/commodities-news/silver-bounces-at-6165-but-macro-downtrend-looms-live-levels-93CH-4931129",
+   "t": "07 Oct \u00b7 03:28 PM",
+   "ur": "Barik doun ka khatrah badhane ke sath hi Silver (chandi) $60 ki support par mandala rahi hai: laaio"
   },
   {
-   "ts": 1791343761.366216,
-   "title": "Gold up slightly as dollar eases and bonds catch a bid, but gains capped by oil",
+   "ts": 1791368930.971123,
+   "title": "Gold compresses above $4,150 support in descending triangle: Live",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4140-as-dollar-yields-offset-lower-fed-hike-expectations-4933176",
-   "t": "07 Oct \u00b7 08:29 AM",
-   "ur": "Dollar mein narmi aur bands ki boli lagane se Gold (sona) qadare badh gaya, lican til ki wajah se faidah muhadud"
+   "link": "https://www.investing.com/news/commodities-news/gold-consolidates-near-4143-support-live-levels-93CH-4931126",
+   "t": "07 Oct \u00b7 03:28 PM",
+   "ur": "Nazoli masls mein $4,150 sport se oper gold kampris karta hai: laaio"
   },
   {
-   "ts": 1791343761.366216,
-   "title": "Trump says his administration is thinking about suspending federal gas tax",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/trump-says-his-administration-is-thinking-about-suspending-federal-gas-tax-4935121",
-   "t": "07 Oct \u00b7 08:29 AM",
-   "ur": "Trmp ka kahana hai kah an ki antezamia faderl gis tax ko matal karne ke bare mein soch rahi hai."
-  },
-  {
-   "ts": 1791343434.0,
-   "title": "New Zealand Dollar resumes decline against US Dollar ahead of FOMC minutes",
+   "ts": 1791367671.0,
+   "title": "Japanese Yen: Downside risks build against US Dollar near 158.50 \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-resumes-decline-against-us-dollar-ahead-of-fomc-minutes-202610070323",
-   "t": "07 Oct \u00b7 08:23 AM",
-   "ur": "Niyozi lind Dollar ne FOMC mant se pehle US Dollar ke maqable mein dubarah kami sharo kardi"
+   "link": "https://www.fxstreet.com/news/japanese-yen-downside-risks-build-against-us-dollar-near-15850-mufg-202610071007",
+   "t": "07 Oct \u00b7 03:07 PM",
+   "ur": "Japani yan: 158.50 - MUFG ke qarib US Dollar ke maqable mein manfi khatrat badh rahe hen"
   },
   {
-   "ts": 1791342368.0,
-   "title": "Australian Dollar holds losses below 0.7000 ahead of FOMC Minutes",
+   "ts": 1791367239.0,
+   "title": "US Dollar: Near-term upside questioned \u2013 OCBC",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-holds-losses-below-07000-ahead-of-fomc-minutes-202610070306",
-   "t": "07 Oct \u00b7 08:06 AM",
-   "ur": "Aasterilvi Dollar FOMC mants se pehle 0.7000 se niche naqsanat rakta hai."
+   "link": "https://www.fxstreet.com/news/us-dollar-near-term-upside-questioned-ocbc-202610071000",
+   "t": "07 Oct \u00b7 03:00 PM",
+   "ur": "US Dollar: qarib almadat alta swal - OCBC"
   },
   {
-   "ts": 1791340472.0,
-   "title": "United States Dollar Index retakes 102.00 as bulls eye YTD peak ahead of FOMC Minutes",
+   "ts": 1791366414.0,
+   "title": "Gold Price Forecast: XAU/USD retraces gains and nears two-month lows at $4,104",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/united-states-dollar-index-retakes-10200-as-bulls-eye-ytd-peak-ahead-of-fomc-minutes-202610070234",
-   "t": "07 Oct \u00b7 07:34 AM",
-   "ur": "Unaited states Dollar andex ne 102.00 ko dubarah haasil kiya cunkah FOMC mants se pehle bel ka target hai YTD choti"
+   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-retraces-gains-and-nears-two-month-lows-at-4-104-202610070946",
+   "t": "07 Oct \u00b7 02:46 PM",
+   "ur": "Gold (sone) ki qeemat ki forecast: XAU/USD manafa ko patchhe chhotya hai aur $4,104 par do mah ki kam tarin sath ke qarib hai"
   },
   {
-   "ts": 1791339768.0,
-   "title": "British Pound weakens as US Dollar advances ahead of FOMC Meeting Minutes",
+   "ts": 1791365456.0,
+   "title": "Silver price today: Silver falls, according to FXStreet data",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-weakens-as-us-dollar-advances-ahead-of-fomc-meeting-minutes-202610070222",
-   "t": "07 Oct \u00b7 07:22 AM",
-   "ur": "Bartanvi pound kamazor ho raha hai cunkah US Dollar FOMC matong mants se aage badh raha hai."
+   "link": "https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202610070930",
+   "t": "07 Oct \u00b7 02:30 PM",
+   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) garti hai, FXStreet deta ke matabiq"
   },
   {
-   "ts": 1791338586.0,
-   "title": "Japanese Yen softens as BoJ rate hike expectations recede, FOMC Minutes loom",
+   "ts": 1791365215.0,
+   "title": "Australian Dollar: Neutral outlook inside tight range against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-softens-as-boj-rate-hike-expectations-recede-fomc-minutes-loom-202610070203",
-   "t": "07 Oct \u00b7 07:03 AM",
-   "ur": "BoJ rate mein azafe ki toqaat kam hone par japani yan narm ho gaya, FOMC mants kam ho gaye"
+   "link": "https://www.fxstreet.com/news/australian-dollar-neutral-outlook-inside-tight-range-against-us-dollar-uob-202610070926",
+   "t": "07 Oct \u00b7 02:26 PM",
+   "ur": "Aasterilin Dollar: US Dollar - UOB ke khalaf saqt had ke andar ghair janbadar naqatah nazar"
   },
   {
-   "ts": 1791338102.0,
-   "title": "Canadian Dollar edges lower on reviving USD demand; recovering oil prices limit losses",
+   "ts": 1791364587.0,
+   "title": "Euro: OAT repricing keeps downside bias against US Dollar \u2013 MUFG",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-edges-lower-on-reviving-usd-demand-recovering-oil-prices-limit-losses-202610070155",
-   "t": "07 Oct \u00b7 06:55 AM",
-   "ur": "US Dollar ki talab ko bahal karne par caniden Dollar ki qeemat kam hogayi. til ki qeemton mein recovery naqsanat ko muhadud karti hai."
+   "link": "https://www.fxstreet.com/news/euro-oat-repricing-keeps-downside-bias-against-us-dollar-mufg-202610070916",
+   "t": "07 Oct \u00b7 02:16 PM",
+   "ur": "Uro: OAT ki qeemat ka tayin US Dollar - MUFG ke khalaf manfi taasab ko barqarar rakta hai."
+  },
+  {
+   "ts": 1791363920.0,
+   "title": "Polish Zloty: NBP cautious as inflation overshoots \u2013 Commerzbank",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/polish-zloty-nbp-cautious-as-inflation-overshoots-commerzbank-202610070905",
+   "t": "07 Oct \u00b7 02:05 PM",
+   "ur": "Polsh zaloti: an bi pi mahungai ke had se ziyadah hone par muhatat - kamers Bank"
   }
  ],
  "sentiment": {
