@@ -1,36 +1,13 @@
 {
- "updated": "11-10-2026 05:57 PKT",
+ "updated": "11-10-2026 11:43 PKT",
  "gold": {
   "price": 4195.78,
   "open": 4195.82,
-  "high": 4196.02,
+  "high": 4196.01,
   "low": 4195.73,
   "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4195.89,
-   4195.89,
-   4195.8,
-   4195.79,
-   4195.87,
-   4195.9,
-   4195.86,
-   4195.78,
-   4195.87,
-   4195.9,
-   4195.84,
-   4195.78,
-   4195.88,
-   4195.9,
-   4195.85,
-   4195.78,
-   4195.9,
-   4195.9,
-   4195.86,
-   4195.78,
-   4195.91,
-   4195.89,
-   4195.88,
    4195.79,
    4195.8,
    4195.88,
@@ -55,16 +32,38 @@
    4195.79,
    4195.81,
    4195.89,
+   4195.88,
+   4195.8,
+   4195.79,
+   4195.88,
+   4195.89,
+   4195.87,
+   4195.78,
+   4195.87,
+   4195.9,
+   4195.85,
+   4195.78,
+   4195.88,
+   4195.9,
+   4195.84,
+   4195.78,
+   4195.89,
+   4195.9,
+   4195.86,
+   4195.78,
+   4195.91,
+   4195.9,
+   4195.87,
+   4195.79,
    4195.78
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.67,
-   "chg": 2.72,
+   "price": 61.048,
+   "chg": 3.36,
    "spark": [
-    64.284,
     64.554,
     63.513,
     63.236,
@@ -85,7 +84,7 @@
     61.168,
     59.899,
     59.064,
-    60.67
+    61.048
    ]
   },
   {
@@ -93,7 +92,6 @@
    "price": 102.21,
    "chg": 0.07,
    "spark": [
-    99.09,
     99.12,
     99.46,
     99.65,
@@ -122,7 +120,6 @@
    "price": 91.85,
    "chg": 0.39,
    "spark": [
-    102.48,
     100.05,
     101.39,
     105.83,
@@ -264,15 +261,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2501.88,
-   "chg": -0.09,
+   "price": 2502.47,
+   "chg": -0.07,
    "spark": [
-    2480.38,
-    2487.77,
-    2491.61,
-    2485.27,
-    2489.29,
-    2497.58,
     2502.79,
     2503.78,
     2500.31,
@@ -314,20 +305,20 @@
     2507.31,
     2507.78,
     2504.09,
-    2501.88
+    2501.59,
+    2508.07,
+    2508.5,
+    2497.2,
+    2504.85,
+    2501.59,
+    2502.47
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 82884.2,
-   "chg": -0.03,
+   "price": 83048.7,
+   "chg": 0.16,
    "spark": [
-    81916.5,
-    82052.0,
-    82357.0,
-    82186.0,
-    82294.4,
-    82508.6,
     82589.6,
     82631.6,
     82585.6,
@@ -369,68 +360,106 @@
     82967.4,
     83015.8,
     82912.7,
-    82884.2
+    82880.9,
+    82953.8,
+    83010.5,
+    82736.6,
+    82940.2,
+    82966.1,
+    83048.7
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1791392400.0,
-   "t": "Wed 07 Oct \u00b7 10:00 PM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1791396000.0,
-   "t": "Wed 07 Oct \u00b7 11:00 PM",
-   "title": "FOMC Meeting Minutes",
+   "ts": 1791981000.0,
+   "t": "Wed 14 Oct \u00b7 05:30 PM",
+   "title": "Core CPI m/m",
    "impact": "High",
-   "forecast": "",
-   "previous": ""
+   "forecast": "0.2%",
+   "previous": "0.3%"
   },
   {
-   "ts": 1791448200.0,
-   "t": "Thu 08 Oct \u00b7 01:30 PM",
-   "title": "FOMC Member Waller Speaks",
+   "ts": 1791981000.0,
+   "t": "Wed 14 Oct \u00b7 05:30 PM",
+   "title": "Core CPI y/y",
+   "impact": "High",
+   "forecast": "2.5%",
+   "previous": "2.4%"
+  },
+  {
+   "ts": 1791981000.0,
+   "t": "Wed 14 Oct \u00b7 05:30 PM",
+   "title": "CPI m/m",
+   "impact": "High",
+   "forecast": "0.6%",
+   "previous": "0.4%"
+  },
+  {
+   "ts": 1791981000.0,
+   "t": "Wed 14 Oct \u00b7 05:30 PM",
+   "title": "CPI y/y",
+   "impact": "High",
+   "forecast": "3.6%",
+   "previous": "3.4%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Core PPI m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Core Retail Sales m/m",
+   "impact": "High",
+   "forecast": "0.5%",
+   "previous": "1.4%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "PPI m/m",
+   "impact": "High",
+   "forecast": "0.5%",
+   "previous": "0.4%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Retail Sales m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "1.2%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Philly Fed Manufacturing Index",
    "impact": "Medium",
-   "forecast": "",
-   "previous": ""
+   "forecast": "26.5",
+   "previous": "37.8"
   },
   {
-   "ts": 1791462600.0,
-   "t": "Thu 08 Oct \u00b7 05:30 PM",
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "200K",
+   "forecast": "195K",
    "previous": "197K"
-  },
-  {
-   "ts": 1791554400.0,
-   "t": "Fri 09 Oct \u00b7 07:00 PM",
-   "title": "Prelim UoM Consumer Sentiment",
-   "impact": "Medium",
-   "forecast": "47.5",
-   "previous": "47.8"
-  },
-  {
-   "ts": 1791554400.0,
-   "t": "Fri 09 Oct \u00b7 07:00 PM",
-   "title": "Prelim UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.6%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791680272.378492,
+   "ts": 1791701035.342543,
    "title": "Gold prices hit one-week high, investors eye Fed rate trajectory",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-on-softer-dollar-easing-yields-fed-outlook-in-focus-4940135",
-   "t": "11 Oct \u00b7 05:57 AM"
+   "t": "11 Oct \u00b7 11:43 AM"
   },
   {
    "ts": 1791584292.0,
