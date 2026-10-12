@@ -1,39 +1,13 @@
 {
- "updated": "12-10-2026 21:59 PKT",
+ "updated": "13-10-2026 04:29 PKT",
  "gold": {
-  "price": 4164.71,
-  "open": 4195.81,
+  "price": 4172.84,
+  "open": 4196.58,
   "high": 4216.21,
   "low": 4156.45,
-  "chg": -0.74,
+  "chg": -0.57,
   "src": "XAUUSD Spot",
   "spark": [
-   4188.41,
-   4184.34,
-   4187.8,
-   4190.53,
-   4186.81,
-   4182.3,
-   4186.12,
-   4185.13,
-   4186.37,
-   4185.08,
-   4185.31,
-   4180.88,
-   4177.35,
-   4176.46,
-   4179.1,
-   4174.12,
-   4177.77,
-   4176.24,
-   4170.62,
-   4171.84,
-   4173.62,
-   4179.04,
-   4178.99,
-   4177.37,
-   4173.19,
-   4171.71,
    4172.28,
    4168.83,
    4172.25,
@@ -55,14 +29,40 @@
    4165.36,
    4163.17,
    4161.52,
-   4164.71
+   4165.41,
+   4167.79,
+   4167.82,
+   4169.36,
+   4170.31,
+   4171.83,
+   4172.21,
+   4168.69,
+   4167.76,
+   4165.78,
+   4165.23,
+   4165.87,
+   4169.42,
+   4169.8,
+   4170.68,
+   4170.02,
+   4171.73,
+   4171.79,
+   4171.78,
+   4171.76,
+   4171.68,
+   4172.62,
+   4173.45,
+   4171.99,
+   4169.19,
+   4167.83,
+   4172.84
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.48,
-   "chg": -0.31,
+   "price": 60.55,
+   "chg": -0.2,
    "spark": [
     63.513,
     63.236,
@@ -84,13 +84,13 @@
     59.899,
     59.064,
     60.67,
-    60.48
+    60.55
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.584,
-   "chg": 0.37,
+   "price": 102.572,
+   "chg": 0.35,
    "spark": [
     99.46,
     99.65,
@@ -112,13 +112,13 @@
     102.24,
     102.14,
     102.21,
-    102.584
+    102.572
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 93.79,
-   "chg": 2.11,
+   "price": 93.33,
+   "chg": 1.61,
    "spark": [
     101.39,
     105.83,
@@ -140,7 +140,7 @@
     88.28,
     91.49,
     91.85,
-    93.79
+    93.33
    ]
   },
   {
@@ -229,8 +229,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.654,
-   "chg": 0.37,
+   "price": 158.532,
+   "chg": 0.3,
    "spark": [
     153.424,
     154.385,
@@ -252,21 +252,14 @@
     158.296,
     158.06,
     158.063,
-    158.654
+    158.532
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2512.26,
-   "chg": -0.87,
+   "price": 2457.65,
+   "chg": -3.03,
    "spark": [
-    2505.71,
-    2509.48,
-    2510.93,
-    2506.11,
-    2507.31,
-    2507.78,
-    2504.09,
     2501.59,
     2508.07,
     2508.5,
@@ -307,21 +300,21 @@
     2539.22,
     2521.07,
     2527.57,
-    2512.58
+    2510.52,
+    2509.08,
+    2510.64,
+    2518.27,
+    2516.37,
+    2487.7,
+    2463.37,
+    2457.65
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 82453.2,
-   "chg": -1.46,
+   "price": 81944.4,
+   "chg": -2.07,
    "spark": [
-    83034.9,
-    82949.1,
-    82994.9,
-    82958.9,
-    82967.4,
-    83015.8,
-    82912.7,
     82880.9,
     82953.8,
     83010.5,
@@ -362,7 +355,14 @@
     82882.5,
     82499.0,
     82641.1,
-    82453.2
+    82401.6,
+    82410.0,
+    82338.6,
+    82755.7,
+    82990.1,
+    82473.5,
+    82055.2,
+    81944.4
    ]
   }
  ],
@@ -412,7 +412,7 @@
    "t": "Thu 15 Oct \u00b7 05:30 PM",
    "title": "Core Retail Sales m/m",
    "impact": "High",
-   "forecast": "0.5%",
+   "forecast": "0.6%",
    "previous": "1.4%"
   },
   {
@@ -420,7 +420,7 @@
    "t": "Thu 15 Oct \u00b7 05:30 PM",
    "title": "PPI m/m",
    "impact": "High",
-   "forecast": "0.5%",
+   "forecast": "0.6%",
    "previous": "0.4%"
   },
   {
@@ -436,7 +436,7 @@
    "t": "Thu 15 Oct \u00b7 05:30 PM",
    "title": "Philly Fed Manufacturing Index",
    "impact": "Medium",
-   "forecast": "26.5",
+   "forecast": "28.2",
    "previous": "37.8"
   },
   {
@@ -444,91 +444,91 @@
    "t": "Thu 15 Oct \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "195K",
+   "forecast": "199K",
    "previous": "197K"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791824366.681694,
-   "title": "Gold dips as dollar firms, traders weigh energy truce, Mideast risks",
+   "ts": 1791847784.667176,
+   "title": "Gold prices muted amid firmer dollar and rising oil, ahead of CPI this week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-edges-higher-near-4200-as-traders-weigh-energy-truce-mideast-risks-4942969",
-   "t": "12 Oct \u00b7 09:59 PM",
-   "ur": "Dollar ki farmon ke tur par Gold (sone) mein kami, taajron ne tawanai ki jang bandi, masharq wasti ke khatrat ka wazin kiya."
+   "t": "13 Oct \u00b7 04:29 AM",
+   "ur": "Is hafte CPI se pehle, mazboot Dollar aur badhti hoi til ke darmiyan Gold (sone) ki qeemtin khamosh hogayin."
   },
   {
-   "ts": 1791820462.0,
-   "title": "Dollar Index hits an 18-month high as the energy ceasefire fails",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dollar-index-hits-an-18-month-high-as-the-energy-ceasefire-fails-202610121554",
-   "t": "12 Oct \u00b7 08:54 PM",
-   "ur": "Tawanai ki jang bandi naakam hone par Dollar andex 18 mah ki baland tarin sath par hai."
+   "ts": 1791847784.667176,
+   "title": "Silver consolidates in bearish flag near $60.42: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
+   "t": "13 Oct \u00b7 04:29 AM",
+   "ur": "Silver (chandi) $60.42 ke qarib mandi wale jhanday mein mastahkam hai."
   },
   {
-   "ts": 1791816869.0,
-   "title": "India: Rising inflation pressures challenge RBI \u2013 Societe Generale",
+   "ts": 1791847131.0,
+   "title": "Gold tumbles below $4,200 on higher oil prices, firmer US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/india-rising-inflation-pressures-challenge-rbi-societe-generale-202610121454",
-   "t": "12 Oct \u00b7 07:54 PM",
-   "ur": "Handostan: mahungai ke badhte huvay dabao ne aar bi i ko challenj kiya - sociti janerl"
+   "link": "https://www.fxstreet.com/news/gold-tumbles-below-4-200-on-higher-oil-prices-firmer-us-dollar-202610122318",
+   "t": "13 Oct \u00b7 04:18 AM",
+   "ur": "Til ki unchi qeemton, US Dollar ki mazbooti par Gold (sona) $4,200 se niche gar gaya."
   },
   {
-   "ts": 1791814196.0,
-   "title": "Australian Dollar retreats as Fed hawkish stance, Iran tensions boost US Dollar",
+   "ts": 1791843733.0,
+   "title": "Euro collapses below 1.12 as Fed hawkish rhetoric lifts the US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-retreats-as-fed-hawkish-stance-iran-tensions-boost-us-dollar-202610121409",
-   "t": "12 Oct \u00b7 07:09 PM",
-   "ur": "Aasterilvi Dollar fed haki ke moqf ke tur par patchhe hat gaya, eran kasheedgi ne US Dollar ko farog diya"
+   "link": "https://www.fxstreet.com/news/euro-collapses-below-112-as-fed-hawkish-rhetoric-lifts-the-us-dollar-202610122222",
+   "t": "13 Oct \u00b7 03:22 AM",
+   "ur": "Uro 1.12 se niche garta hai cunkah fed hakish biyanat ne US Dollar ko athaya"
   },
   {
-   "ts": 1791809069.0,
-   "title": "New Zealand Dollar retreats toward 17-month low on Oil-driven risk aversion",
+   "ts": 1791843503.0,
+   "title": "The British Pound drifts back to its floor as Crude Oil lifts the Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-retreats-toward-17-month-low-on-oil-driven-risk-aversion-202610121244",
-   "t": "12 Oct \u00b7 05:44 PM",
-   "ur": "Til se chalne wale khatre se bachane par niyozi lind Dollar 17 mah ki kam tarin sath ki taraf patchhe hat gaya"
+   "link": "https://www.fxstreet.com/news/the-british-pound-drifts-back-to-its-floor-as-crude-oil-lifts-the-dollar-202610122218",
+   "t": "13 Oct \u00b7 03:18 AM",
+   "ur": "Bartanvi pound apani mazil par waps chala jata hai cunkah kham til Dollar ko athata hai."
   },
   {
-   "ts": 1791808734.0,
-   "title": "US Dollar: Geopolitics support extends gains \u2013 ING",
+   "ts": 1791841829.0,
+   "title": "Fed\u2019s Hammack sees thriving economy, backs further rate hikes",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-geopolitics-support-extends-gains-ing-202610121238",
-   "t": "12 Oct \u00b7 05:38 PM",
-   "ur": "US Dollar: jio poletex sport fawaid ko badhata hai - ING"
+   "link": "https://www.fxstreet.com/news/feds-hammack-sees-thriving-economy-backs-further-rate-hikes-202610122150",
+   "t": "13 Oct \u00b7 02:50 AM",
+   "ur": "Fed's Hammack farog pazir misht ko dekhta hai, rate mein mazid azafe ki support karta hai."
   },
   {
-   "ts": 1791808517.0,
-   "title": "Canadian Dollar struggles as Fed and BoC policy outlooks diverge",
+   "ts": 1791834300.0,
+   "title": "Chinese Yuan: Building upside momentum toward 6.6800 against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/canadian-dollar-struggles-as-fed-and-boc-policy-outlooks-diverge-202610121235",
-   "t": "12 Oct \u00b7 05:35 PM",
-   "ur": "Fed aur bi au si palisi ke naqatah nazar mukhtalf hone par caniden Dollar jadojehad kar raha hai."
+   "link": "https://www.fxstreet.com/news/chinese-yuan-building-upside-momentum-toward-66800-against-us-dollar-uob-202610121945",
+   "t": "13 Oct \u00b7 12:45 AM",
+   "ur": "Chini uan: US Dollar ke maqable mein 6.6800 ki taraf oper ki raftar badhana - UOB"
   },
   {
-   "ts": 1791806232.0,
-   "title": "Bank of Canada: Policy path steady with cautious inflation stance \u2013 TD Securities",
+   "ts": 1791833682.0,
+   "title": "Forex Today: US Dollar hits 17-month high, RBA minutes and Fed speaking up next",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/bank-of-canada-policy-path-steady-with-cautious-inflation-stance-td-securities-202610121157",
-   "t": "12 Oct \u00b7 04:57 PM",
-   "ur": "Bank af canida: mahungai ke muhatat moqf ke sath palisi ka raastah mastahkam - TD securitez"
+   "link": "https://www.fxstreet.com/news/fx-today-us-dollar-hits-17-month-high-rba-minutes-and-fed-speaking-up-next-202610121934",
+   "t": "13 Oct \u00b7 12:34 AM",
+   "ur": "Farex today: US Dollar 17 mah ki baland tarin sath par pohch gaya, aar bi aye mant aur fed agli bat kar raha hai"
   },
   {
-   "ts": 1791805450.0,
-   "title": "New Zealand Dollar approaches YTD lows amid a subdued risk appetite",
+   "ts": 1791832084.0,
+   "title": "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/new-zealand-dollar-approaches-ytd-lows-amid-a-subdued-risk-appetite-202610121144",
-   "t": "12 Oct \u00b7 04:44 PM",
-   "ur": "Khatre ki kam bhok ke darmiyan niyozi lind Dollar YTD ki kam tarin sath par pohch gaya."
+   "link": "https://www.fxstreet.com/news/gold-tumbles-as-oil-shock-fuels-us-dollar-rally-and-fed-hike-bets-202610121908",
+   "t": "13 Oct \u00b7 12:08 AM",
+   "ur": "Til ke jhatake ne US Dollar ki rili aur fed mein azafe ki shart ko andhan dite huvay Gold (sona) gar gaya."
   },
   {
-   "ts": 1791804574.0,
-   "title": "Gold struggles below $4,200 amid stronger US Dollar, US CPI in focus",
+   "ts": 1791831060.0,
+   "title": "South Korean Won: Uptrend seen resuming against US Dollar \u2013 Societe Generale",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-fails-to-sustain-a-break-above-4-200-us-cpi-in-focus-202610121129",
-   "t": "12 Oct \u00b7 04:29 PM",
-   "ur": "Mazboot US Dollar ke darmiyan Gold (sona) $4,200 se niche jadojehad kar raha hai, US CPI fox mein hai."
+   "link": "https://www.fxstreet.com/news/south-korean-won-uptrend-seen-resuming-against-us-dollar-societe-generale-202610121851",
+   "t": "12 Oct \u00b7 11:51 PM",
+   "ur": "South Korea ki Won: US Dollar ke maqable mein oper ka rjahan dubarah sharo hota hawa dekha gaya - sociti janerl"
   }
  ],
  "sentiment": {
