@@ -1,38 +1,13 @@
 {
- "updated": "12-10-2026 06:17 PKT",
+ "updated": "12-10-2026 12:31 PKT",
  "gold": {
-  "price": 4203.58,
+  "price": 4185.4,
   "open": 4195.81,
   "high": 4216.21,
-  "low": 4184.15,
-  "chg": 0.19,
+  "low": 4179.9,
+  "chg": -0.25,
   "src": "XAUUSD Spot",
   "spark": [
-   4195.81,
-   4195.79,
-   4195.87,
-   4195.9,
-   4195.86,
-   4195.78,
-   4195.87,
-   4195.9,
-   4195.84,
-   4195.78,
-   4195.89,
-   4195.9,
-   4195.85,
-   4195.78,
-   4195.9,
-   4195.9,
-   4195.87,
-   4195.79,
-   4195.89,
-   4195.9,
-   4195.89,
-   4195.81,
-   4195.81,
-   4195.89,
-   4195.9,
    4195.85,
    4195.79,
    4195.88,
@@ -55,16 +30,40 @@
    4209.18,
    4207.26,
    4206.2,
-   4203.58
+   4209.35,
+   4203.45,
+   4212.27,
+   4213.23,
+   4212.19,
+   4211.74,
+   4204.9,
+   4204.31,
+   4202.44,
+   4205.52,
+   4202.75,
+   4198.43,
+   4201.07,
+   4198.04,
+   4195.98,
+   4188.41,
+   4184.34,
+   4187.8,
+   4190.53,
+   4186.81,
+   4182.3,
+   4186.12,
+   4185.13,
+   4186.37,
+   4185.08,
+   4185.4
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 61.55,
-   "chg": 1.45,
+   "price": 61.175,
+   "chg": 0.83,
    "spark": [
-    64.554,
     63.513,
     63.236,
     64.288,
@@ -85,15 +84,14 @@
     59.899,
     59.064,
     60.67,
-    61.55
+    61.175
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.108,
-   "chg": -0.1,
+   "price": 102.226,
+   "chg": 0.02,
    "spark": [
-    99.12,
     99.46,
     99.65,
     100.31,
@@ -114,15 +112,14 @@
     102.24,
     102.14,
     102.21,
-    102.108
+    102.226
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.94,
-   "chg": -2.08,
+   "price": 91.23,
+   "chg": -0.68,
    "spark": [
-    100.05,
     101.39,
     105.83,
     102.43,
@@ -143,7 +140,7 @@
     88.28,
     91.49,
     91.85,
-    89.94
+    91.23
    ]
   },
   {
@@ -177,8 +174,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1218,
-   "chg": 0.05,
+   "price": 1.1207,
+   "chg": -0.05,
    "spark": [
     1.1594,
     1.1549,
@@ -200,13 +197,13 @@
     1.1254,
     1.1201,
     1.1213,
-    1.1218
+    1.1207
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3252,
-   "chg": 0.17,
+   "price": 1.3244,
+   "chg": 0.11,
    "spark": [
     1.3526,
     1.3501,
@@ -228,13 +225,13 @@
     1.3267,
     1.3215,
     1.3229,
-    1.3252
+    1.3244
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.128,
-   "chg": 0.04,
+   "price": 158.411,
+   "chg": 0.22,
    "spark": [
     153.424,
     154.385,
@@ -256,20 +253,14 @@
     158.296,
     158.06,
     158.063,
-    158.128
+    158.411
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2542.22,
-   "chg": 0.31,
+   "price": 2567.02,
+   "chg": 1.29,
    "spark": [
-    2490.83,
-    2488.95,
-    2492.91,
-    2495.71,
-    2491.25,
-    2493.2,
     2493.6,
     2494.84,
     2493.77,
@@ -311,20 +302,20 @@
     2530.95,
     2534.19,
     2543.82,
-    2542.22
+    2539.12,
+    2544.67,
+    2543.92,
+    2564.04,
+    2562.23,
+    2568.54,
+    2567.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83800.9,
-   "chg": 0.15,
+   "price": 83981.3,
+   "chg": 0.37,
    "spark": [
-    82552.6,
-    82521.5,
-    82613.4,
-    82774.0,
-    82667.9,
-    82720.5,
     82768.2,
     82781.0,
     82784.4,
@@ -366,7 +357,13 @@
     83559.1,
     83675.6,
     83870.9,
-    83800.9
+    83573.7,
+    83738.3,
+    83513.2,
+    84041.4,
+    83930.4,
+    84128.6,
+    83981.3
    ]
   }
  ],
@@ -455,89 +452,81 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791762254.0,
-   "title": "Australian Dollar edges higher to near 0.7000 on weak US Sentiment",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-to-near-07000-on-weak-us-sentiment-202610112344",
-   "t": "12 Oct \u00b7 04:44 AM",
-   "ur": "Kamazor US jazbat par aasterilvi Dollar 0.7000 ke qarib pohch gaya."
+   "ts": 1791790281.603887,
+   "title": "Silver tests $61.70-$62.20 resistance in macro downtrend: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
+   "t": "12 Oct \u00b7 12:31 PM"
   },
   {
-   "ts": 1791584292.0,
-   "title": "Aussie extends weekly gains as Fed pause bets offset hawkish rhetoric",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/aussie-extends-weekly-gains-as-fed-pause-bets-offset-hawkish-rhetoric-202610092218",
-   "t": "10 Oct \u00b7 03:18 AM",
-   "ur": "Aasteriliya ne haftah war manafa ko badhaya cunkah Fed ke toqf ke sharton ne hakish bayan bazi ko afset kiya."
+   "ts": 1791790281.603887,
+   "title": "Gold rejects at $4,245 resistance on 5h chart: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rejects-at-4245-resistance-on-5h-chart-live-levels-93CH-4943295",
+   "t": "12 Oct \u00b7 12:31 PM"
   },
   {
-   "ts": 1791577860.0,
-   "title": "Singapore Dollar: Range trading persists against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-range-trading-persists-against-us-dollar-uob-202610092031",
-   "t": "10 Oct \u00b7 01:31 AM",
-   "ur": "Sangapor Dollar: rinj treading US Dollar - UOB ke khalaf barqarar hai."
+   "ts": 1791790281.603887,
+   "title": "Gold edges higher near $4,200 as traders weigh energy truce, Mideast risks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-edges-higher-near-4200-as-traders-weigh-energy-truce-mideast-risks-4942969",
+   "t": "12 Oct \u00b7 12:31 PM"
   },
   {
-   "ts": 1791575340.0,
-   "title": "Taiwan Dollar: Trade strength but losses capped against US Dollar \u2013 Commerzbank",
+   "ts": 1791788957.0,
+   "title": "Indian Rupee: RBI measures support gains against US Dollar - Commerzbank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/taiwan-dollar-trade-strength-but-losses-capped-against-us-dollar-commerzbank-202610091949",
-   "t": "10 Oct \u00b7 12:49 AM",
-   "ur": "Taiwan Dollar: tajarti tqt lican naqsanat US Dollar ke maqable mein muhadud - kamers Bank"
+   "link": "https://www.fxstreet.com/news/indian-rupee-rbi-measures-support-gains-against-us-dollar-commerzbank-202610120709",
+   "t": "12 Oct \u00b7 12:09 PM"
   },
   {
-   "ts": 1791573033.0,
-   "title": "Dollar Index stalls under its high as the Fed's hawks repeat themselves",
+   "ts": 1791788098.0,
+   "title": "Forex Today: US Dollar softens amid hopes of Russia-Ukraine energy ceasefire",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/dollar-index-stalls-under-its-high-as-the-feds-hawks-repeat-themselves-202610091910",
-   "t": "10 Oct \u00b7 12:10 AM",
-   "ur": "Dollar andex rak gaya hai apani unchai ke niche cunkah fed ke hox khud ko dahrate hen."
+   "link": "https://www.fxstreet.com/news/forex-today-us-dollar-softens-amid-hopes-russia-ukraine-energy-ceasefire-202610120654",
+   "t": "12 Oct \u00b7 11:54 AM"
   },
   {
-   "ts": 1791571237.0,
-   "title": "Silver Price Forecast: Bullish engulfing pattern puts $64 in sight",
+   "ts": 1791787699.0,
+   "title": "British Pound: Range-bound trading within a tight band against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-forecast-bullish-engulfing-pattern-puts-64-in-sight-202610091840",
-   "t": "09 Oct \u00b7 11:40 PM",
-   "ur": "Silver (chandi) ki qeemat ki forecast: tizi ki lapet mein aane wala patern $64 ko nazar mein rakta hai."
+   "link": "https://www.fxstreet.com/news/british-pound-range-bound-trading-within-a-tight-band-against-us-dollar-uob-202610120648",
+   "t": "12 Oct \u00b7 11:48 AM"
   },
   {
-   "ts": 1791570420.0,
-   "title": "Singapore Dollar: MAS tightening but gains constrained \u2013 OCBC",
+   "ts": 1791786893.0,
+   "title": "USD/CAD Price Forecast: US Dollar eases within range in a quiet session",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/singapore-dollar-mas-tightening-but-gains-constrained-ocbc-202610091827",
-   "t": "09 Oct \u00b7 11:27 PM",
-   "ur": "Sangapor Dollar: MAS saqt lican faidah muhadud - OCBC"
+   "link": "https://www.fxstreet.com/news/usd-cad-price-forecast-us-dollar-eases-within-range-in-a-quiet-session-202610120634",
+   "t": "12 Oct \u00b7 11:34 AM"
   },
   {
-   "ts": 1791569089.0,
-   "title": "Gold reclaims $4,200 as weak US sentiment revives bullion demand",
+   "ts": 1791786825.0,
+   "title": "Equities: Stable oil and yields support stock gains - Danske Bank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-reclaims-4-200-as-weak-us-sentiment-revives-bullion-demand-202610091804",
-   "t": "09 Oct \u00b7 11:04 PM",
-   "ur": "Gold (sona) $4,200 ka dubarah dawa karta hai cunkah kamazor US jazbat ne balin ki talab ko bahal kiya hai."
+   "link": "https://www.fxstreet.com/news/equities-stable-oil-and-yields-support-stock-gains-danske-bank-202610120633",
+   "t": "12 Oct \u00b7 11:33 AM"
   },
   {
-   "ts": 1791568328.0,
-   "title": "Japanese Yen struggles as wide US-Japan yield gap weighs",
+   "ts": 1791785433.0,
+   "title": "Euro: Downside risks toward 1.1145 against US Dollar \u2013 UOB",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/japanese-yen-struggles-as-wide-us-japan-yield-gap-weighs-202610091752",
-   "t": "09 Oct \u00b7 10:52 PM",
-   "ur": "Japani yan jadojehad kar raha hai cunkah amrikah-japan ki pedawar ke wasi farq ka wazin hai."
+   "link": "https://www.fxstreet.com/news/euro-downside-risks-toward-11145-against-us-dollar-uob-202610120610",
+   "t": "12 Oct \u00b7 11:10 AM"
   },
   {
-   "ts": 1791560692.0,
-   "title": "Euro struggles as French fiscal concerns and firm US Dollar dominate",
+   "ts": 1791784312.0,
+   "title": "USD/JPY Price Forecast: Likely find direction in this US CPI week",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-struggles-as-french-fiscal-concerns-and-firm-us-dollar-dominate-202610091544",
-   "t": "09 Oct \u00b7 08:44 PM",
-   "ur": "Faransesi maliyati khadshat aur US Dollar ki mazbooti ke baas uro jadojehad kar raha hai."
+   "link": "https://www.fxstreet.com/news/usd-jpy-price-forecast-likely-find-direction-in-this-us-cpi-week-202610120551",
+   "t": "12 Oct \u00b7 10:51 AM"
   }
  ],
  "sentiment": {
   "value": 69,
   "label": "Greed"
  },
- "err": null
+ "err": [
+  "translate: 10/10 failed"
+ ]
 }
