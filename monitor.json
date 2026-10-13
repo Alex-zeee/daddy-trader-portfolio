@@ -1,41 +1,13 @@
 {
- "updated": "13-10-2026 16:07 PKT",
+ "updated": "13-10-2026 23:13 PKT",
  "gold": {
-  "price": 4183.61,
-  "open": 4173.09,
+  "price": 4159.76,
+  "open": 4171.69,
   "high": 4200.45,
-  "low": 4150.52,
-  "chg": 0.25,
+  "low": 4147.48,
+  "chg": -0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   4172.36,
-   4173.56,
-   4171.44,
-   4161.68,
-   4164.03,
-   4162.17,
-   4154.79,
-   4166.02,
-   4156.14,
-   4155.92,
-   4167.18,
-   4168.17,
-   4169.3,
-   4172.37,
-   4178.79,
-   4177.98,
-   4182.05,
-   4182.02,
-   4188.01,
-   4188.2,
-   4190.48,
-   4193.4,
-   4195.11,
-   4198.29,
-   4195.25,
-   4191.21,
-   4193.21,
-   4191.42,
    4186.45,
    4186.98,
    4191.18,
@@ -55,14 +27,42 @@
    4182.46,
    4180.79,
    4181.73,
-   4183.61
+   4184.36,
+   4184.08,
+   4187.01,
+   4186.32,
+   4187.55,
+   4187.27,
+   4189.29,
+   4179.11,
+   4176.71,
+   4185.29,
+   4179.24,
+   4170.45,
+   4167.68,
+   4167.28,
+   4168.81,
+   4168.35,
+   4166.56,
+   4161.83,
+   4160.26,
+   4159.18,
+   4159.84,
+   4155.81,
+   4158.61,
+   4153.08,
+   4156.58,
+   4157.06,
+   4156.13,
+   4148.36,
+   4159.76
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 60.535,
-   "chg": 0.66,
+   "price": 59.3,
+   "chg": -1.4,
    "spark": [
     63.513,
     63.236,
@@ -85,13 +85,13 @@
     59.064,
     60.67,
     60.141,
-    60.535
+    59.3
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.311,
-   "chg": -0.26,
+   "price": 102.241,
+   "chg": -0.33,
    "spark": [
     99.46,
     99.65,
@@ -114,13 +114,13 @@
     102.14,
     102.21,
     102.58,
-    102.311
+    102.241
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.85,
-   "chg": -2.02,
+   "price": 94.15,
+   "chg": 0.44,
    "spark": [
     101.39,
     105.83,
@@ -143,13 +143,13 @@
     91.49,
     91.85,
     93.74,
-    91.85
+    94.15
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.24,
-   "chg": -0.08,
+   "price": 5.221,
+   "chg": -0.36,
    "spark": [
     4.961,
     4.996,
@@ -171,13 +171,14 @@
     5.277,
     5.231,
     5.244,
-    5.24
+    5.24,
+    5.221
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1192,
-   "chg": -0.19,
+   "price": 1.1204,
+   "chg": -0.08,
    "spark": [
     1.1594,
     1.1549,
@@ -199,13 +200,13 @@
     1.1254,
     1.1201,
     1.1213,
-    1.1192
+    1.1204
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3246,
-   "chg": 0.12,
+   "price": 1.3258,
+   "chg": 0.22,
    "spark": [
     1.3526,
     1.3501,
@@ -227,13 +228,13 @@
     1.3267,
     1.3215,
     1.3229,
-    1.3246
+    1.3258
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.039,
-   "chg": -0.02,
+   "price": 158.27,
+   "chg": 0.13,
    "spark": [
     153.424,
     154.385,
@@ -255,21 +256,14 @@
     158.296,
     158.06,
     158.063,
-    158.039
+    158.27
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2490.29,
-   "chg": 1.89,
+   "price": 2504.77,
+   "chg": 2.49,
    "spark": [
-    2502.76,
-    2500.47,
-    2505.51,
-    2533.16,
-    2548.36,
-    2534.99,
-    2532.02,
     2534.1,
     2535.43,
     2526.76,
@@ -310,21 +304,21 @@
     2515.58,
     2511.55,
     2495.3,
-    2490.4
+    2497.43,
+    2502.18,
+    2500.02,
+    2513.79,
+    2513.68,
+    2510.26,
+    2498.27,
+    2504.77
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83088.3,
-   "chg": 1.65,
+   "price": 83130.6,
+   "chg": 1.7,
    "spark": [
-    83030.3,
-    82999.1,
-    83038.9,
-    83801.5,
-    83829.2,
-    83750.1,
-    83590.9,
     83576.3,
     83580.1,
     83436.8,
@@ -365,7 +359,14 @@
     83487.5,
     83523.5,
     83234.2,
-    83088.3
+    83253.5,
+    83246.4,
+    83169.1,
+    83424.0,
+    83338.2,
+    83300.1,
+    82999.1,
+    83133.6
    ]
   }
  ],
@@ -454,84 +455,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791889631.396091,
+   "ts": 1791915218.298914,
    "title": "Gold inches up as oil dips, traders look ahead to U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-near-4160-as-middle-east-tensions-fuel-ratehike-concerns-4945298",
-   "t": "13 Oct \u00b7 04:07 PM",
+   "t": "13 Oct \u00b7 11:13 PM",
    "ur": "Til mein kami ke sath hi Gold (sona) anch badh gaya, taajr US inflation (mehngai) ke aed w shmar ke mantezar hen."
   },
   {
-   "ts": 1791887775.0,
-   "title": "Swiss Franc: Range consolidation persists against US Dollar \u2013 UOB",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-range-consolidation-persists-against-us-dollar-uob-202610131036",
-   "t": "13 Oct \u00b7 03:36 PM",
-   "ur": "Sois farank: US Dollar - UOB ke maqable mein rinj kansolidation barqarar hai."
+   "ts": 1791914757.0,
+   "title": "The latest inflation data is expected to show price increases are accelerating",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+   "t": "13 Oct \u00b7 11:05 PM",
+   "ur": "Mahungai ke taazah tarin aed w shmar se toqa ki ja rahi hai kah qeemton mein azafah tizi se ho raha hai."
   },
   {
-   "ts": 1791886162.0,
-   "title": "Swiss Franc's recovery stalls despite broad-based US Dollar weakness",
+   "ts": 1791911570.0,
+   "title": "New Zealand Dollar recovers on weaker US Dollar, softer Oil ahead key US CPI",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-francs-recovery-stalls-despite-broad-based-us-dollar-weakness-202610131009",
-   "t": "13 Oct \u00b7 03:09 PM",
-   "ur": "Wasi albaniyad US Dollar ki kamazori ke bawajud sois farank ki recovery rak gaya hai"
+   "link": "https://www.fxstreet.com/news/new-zealand-dollar-recovers-on-weaker-us-dollar-softer-oil-ahead-key-us-cpi-202610131712",
+   "t": "13 Oct \u00b7 10:12 PM",
+   "ur": "Kamazor US Dollar par niyozi lind Dollar ki recovery, aham US CPI ke aage narm til"
   },
   {
-   "ts": 1791884623.0,
-   "title": "US Dollar: Overbought signals but no clear catalyst \u2013 ING",
+   "ts": 1791911304.0,
+   "title": "Canadian Dollar recovers as softer US Dollar offers relief ahead of US CPI",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-overbought-signals-but-no-clear-catalyst-ing-202610130943",
-   "t": "13 Oct \u00b7 02:43 PM",
-   "ur": "US Dollar: zarort se ziyadah khareedari ke ashare lican koi wazh ataprirk nihen - ING"
+   "link": "https://www.fxstreet.com/news/canadian-dollar-recovers-as-softer-us-dollar-offers-relief-ahead-of-us-cpi-202610131708",
+   "t": "13 Oct \u00b7 10:08 PM",
+   "ur": "Caniden Dollar ki recovery ki wajah se US CPI se pehle narm US Dollar ne rilif pesh kiya."
   },
   {
-   "ts": 1791883838.0,
-   "title": "Silver price today: Silver rises, according to FXStreet data",
+   "ts": 1791907462.0,
+   "title": "Dollar Index slips from its 18-month high before US CPI",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202610130930",
-   "t": "13 Oct \u00b7 02:30 PM",
-   "ur": "Silver (chandi) ki qeemat aaj: Silver (chandi) mein azafah, FXStreet deta ke matabiq"
+   "link": "https://www.fxstreet.com/news/dollar-index-slips-from-its-18-month-high-before-us-cpi-202610131604",
+   "t": "13 Oct \u00b7 09:04 PM",
+   "ur": "US CPI se pehle Dollar andex apani 18 mah ki baland tarin sath se khisak gaya."
   },
   {
-   "ts": 1791883735.0,
-   "title": "Gold Price Forecast: XAU/USD retraces losses as US yields and Oil prices ease",
+   "ts": 1791905982.0,
+   "title": "British Pound finds fresh momentum as BoE hawks set stage for US CPI",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/gold-price-forecast-xau-usd-retraces-losses-as-us-yields-and-oil-prices-ease-202610130928",
-   "t": "13 Oct \u00b7 02:28 PM",
-   "ur": "Gold (sone) ki qeemat ki forecast: US pedawar aur til ki qeemton mein narmi ke sath XAU/USD naqsanat ka patah lagata hai"
+   "link": "https://www.fxstreet.com/news/british-pound-finds-fresh-momentum-as-boe-hawks-set-stage-for-us-cpi-202610131539",
+   "t": "13 Oct \u00b7 08:39 PM",
+   "ur": "Bartanvi pound ko nayi raftar malti hai cunkah BoE hox ne US CPI ke liye marhalah te kiya hai."
   },
   {
-   "ts": 1791882121.0,
-   "title": "Euro strengthens against Canadian Dollar as German HICP inflation accelerates, oil eases",
+   "ts": 1791905541.0,
+   "title": "Neither a breakout nor a reversal: What OCBC, Commerzbank and ING expect from the US Dollar",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/euro-strengthens-against-canadian-dollar-as-german-hicp-inflation-accelerates-oil-eases-202610130902",
-   "t": "13 Oct \u00b7 02:02 PM",
-   "ur": "Uro caniden Dollar ke maqable mein mazboot hawa cunkah jarman HICP inflation (mehngai) mein tizi, til mein narmi"
+   "link": "https://www.fxstreet.com/news/neither-a-breakout-nor-a-reversal-what-ocbc-commerzbank-and-ing-expect-from-the-us-dollar-202610131532",
+   "t": "13 Oct \u00b7 08:32 PM",
+   "ur": "Na koi barik oat aur na hi alt: OCBC, Commerzbank aur ING US Dollar se kiya toqa ruktey hen"
   },
   {
-   "ts": 1791881961.0,
-   "title": "Australian Dollar: High rates support Aussie against US Dollar - MUFG",
+   "ts": 1791904598.0,
+   "title": "Taiwan Dollar: Monetary tightening and housing recovery \u2013 DBS",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/australian-dollar-high-rates-support-aussie-against-us-dollar-mufg-202610130859",
-   "t": "13 Oct \u00b7 01:59 PM",
-   "ur": "Aasterilvi Dollar: aali shrahin US Dollar - MUFG ke maqable mein aasteriliya ki support karti hen."
+   "link": "https://www.fxstreet.com/news/taiwan-dollar-monetary-tightening-and-housing-recovery-dbs-202610131516",
+   "t": "13 Oct \u00b7 08:16 PM",
+   "ur": "Taiwan Dollar: maliyati saqti aur houseng rikori - DBS"
   },
   {
-   "ts": 1791881023.0,
-   "title": "British Pound gains as BoE\u2019s Greene favors proactive approach on hot UK inflation",
+   "ts": 1791904159.0,
+   "title": "Euro finds support from softer US Dollar, French fiscal risks linger",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/british-pound-gains-as-boes-greene-favors-proactive-approach-on-hot-uk-inflation-202610130843",
-   "t": "13 Oct \u00b7 01:43 PM",
-   "ur": "Bartanvi pound mein azafah hawa cunkah BoE ke garin bartaniya ki garm inflation (mehngai) par faal naqatah nazar ke haami hen."
+   "link": "https://www.fxstreet.com/news/euro-finds-support-from-softer-us-dollar-french-fiscal-risks-linger-202610131509",
+   "t": "13 Oct \u00b7 08:09 PM",
+   "ur": "Uro ko narm US Dollar se support malti hai, faransesi maliyati khatrat barqarar hen."
   },
   {
-   "ts": 1791880138.0,
-   "title": "Fed\u2019s Waller: Trump is a threat to Fed independence",
+   "ts": 1791901437.0,
+   "title": "Canadian Dollar: Modest gains against US Dollar - Scotiabank",
    "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/feds-waller-trump-is-a-threat-to-fed-independence-202610130828",
-   "t": "13 Oct \u00b7 01:28 PM",
-   "ur": "Fed waler: trmp fed ki aazadi ke liye khatrah hai."
+   "link": "https://www.fxstreet.com/news/canadian-dollar-modest-gains-against-us-dollar-scotiabank-202610131423",
+   "t": "13 Oct \u00b7 07:23 PM",
+   "ur": "Caniden Dollar: US Dollar ke maqable mein mamoli faidah - Scotiabank"
   }
  ],
  "sentiment": {
