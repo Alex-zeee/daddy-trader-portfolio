@@ -1,27 +1,13 @@
 {
- "updated": "14-10-2026 22:05 PKT",
+ "updated": "15-10-2026 01:39 PKT",
  "gold": {
-  "price": 4081.82,
-  "open": 4156.39,
+  "price": 4099.87,
+  "open": 4158.77,
   "high": 4172.83,
   "low": 4073.82,
-  "chg": -1.79,
+  "chg": -1.42,
   "src": "XAUUSD Spot",
   "spark": [
-   4157.5,
-   4157.63,
-   4149.43,
-   4161.29,
-   4154.23,
-   4151.6,
-   4147.04,
-   4148.69,
-   4145.44,
-   4146.18,
-   4149.75,
-   4153.2,
-   4151.16,
-   4144.32,
    4142.23,
    4143.44,
    4142.38,
@@ -55,14 +41,28 @@
    4079.92,
    4081.87,
    4083.06,
-   4081.82
+   4080.27,
+   4085.59,
+   4086.59,
+   4083.74,
+   4090.24,
+   4094.48,
+   4093.97,
+   4096.84,
+   4097.21,
+   4103.54,
+   4100.84,
+   4101.66,
+   4100.47,
+   4099.96,
+   4099.87
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.785,
-   "chg": -5.71,
+   "price": 55.73,
+   "chg": -5.8,
    "spark": [
     63.236,
     64.288,
@@ -85,13 +85,13 @@
     60.67,
     60.141,
     59.161,
-    55.785
+    55.73
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.837,
-   "chg": 0.64,
+   "price": 102.543,
+   "chg": 0.36,
    "spark": [
     99.65,
     100.31,
@@ -114,13 +114,13 @@
     102.21,
     102.58,
     102.18,
-    102.837
+    102.543
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 95.79,
-   "chg": 1.75,
+   "price": 95.03,
+   "chg": 0.95,
    "spark": [
     105.83,
     102.43,
@@ -143,13 +143,13 @@
     91.85,
     93.74,
     94.14,
-    95.79
+    95.03
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.236,
-   "chg": 0.36,
+   "price": 5.19,
+   "chg": -0.52,
    "spark": [
     4.996,
     5.006,
@@ -172,13 +172,13 @@
     5.244,
     5.24,
     5.217,
-    5.236
+    5.19
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1127,
-   "chg": -0.3,
+   "price": 1.1159,
+   "chg": -0.01,
    "spark": [
     1.1549,
     1.1538,
@@ -201,13 +201,13 @@
     1.1213,
     1.1205,
     1.116,
-    1.1127
+    1.1159
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3156,
-   "chg": -0.4,
+   "price": 1.3189,
+   "chg": -0.16,
    "spark": [
     1.3501,
     1.3473,
@@ -230,13 +230,13 @@
     1.3229,
     1.3242,
     1.321,
-    1.3156
+    1.3189
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.767,
-   "chg": 0.16,
+   "price": 158.317,
+   "chg": -0.13,
    "spark": [
     154.385,
     155.266,
@@ -259,17 +259,14 @@
     158.063,
     158.203,
     158.52,
-    158.767
+    158.317
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2450.54,
-   "chg": -1.82,
+   "price": 2419.32,
+   "chg": -3.07,
    "spark": [
-    2510.64,
-    2518.27,
-    2516.37,
     2487.7,
     2463.37,
     2444.1,
@@ -314,17 +311,17 @@
     2432.23,
     2427.38,
     2446.29,
-    2450.55
+    2429.31,
+    2428.85,
+    2427.71,
+    2419.32
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81997.8,
-   "chg": -1.33,
+   "price": 81732.4,
+   "chg": -1.65,
    "spark": [
-    82338.6,
-    82755.7,
-    82990.1,
     82473.5,
     82055.2,
     81737.1,
@@ -369,7 +366,10 @@
     81870.9,
     81546.6,
     81928.3,
-    81997.8
+    81500.6,
+    81619.7,
+    81735.3,
+    81732.4
    ]
   }
  ],
@@ -434,27 +434,27 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791997522.588451,
-   "title": "Gold dips as accelerating U.S. inflation spurs Fed rate hike bets",
+   "ts": 1792010375.961258,
+   "title": "Silver crashes below $58.80 support at $55.81: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-twoday-slide-as-fed-signals-one-more-hike-us-cpi-in-focus-4947854",
-   "t": "14 Oct \u00b7 10:05 PM",
-   "ur": "US inflation (mehngai) mein tizi se Gold (sone) ki kami fed ki rate mein azafe ki shart ko matehrk karti hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
+   "t": "15 Oct \u00b7 01:39 AM",
+   "ur": "Silver (chandi) $58.80 ki support se niche $55.81 par gar kar tabah hogayi"
   },
   {
-   "ts": 1791997522.588451,
-   "title": "Morning Bid: Trillion dollar trade",
+   "ts": 1792010375.961258,
+   "title": "Gold tests $4,095 support after bear flag breakdown: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/morning-bid-trillion-dollar-trade-4948648",
-   "t": "14 Oct \u00b7 10:05 PM",
-   "ur": "Sabah ki boli: trilin Dollar ki tajart"
+   "link": "https://www.investing.com/news/commodities-news/gold-rejects-at-4245-resistance-on-5h-chart-live-levels-93CH-4943295",
+   "t": "15 Oct \u00b7 01:39 AM",
+   "ur": "Bears ke jhanday ke totne ke bad gold ne $4,095 ki support ki janch ki."
   },
   {
-   "ts": 1791996558.0,
+   "ts": 1791998423.0,
    "title": "How high inflation became a 'fact of life' in the U.S.",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-   "t": "14 Oct \u00b7 09:49 PM",
+   "t": "14 Oct \u00b7 10:20 PM",
    "ur": "Ktani baland inflation (mehngai) amrikah mein 'zandgi ki haqeeqat' ban gayi"
   },
   {
