@@ -1,24 +1,13 @@
 {
- "updated": "14-10-2026 03:42 PKT",
+ "updated": "14-10-2026 06:23 PKT",
  "gold": {
-  "price": 4159.48,
-  "open": 4172.19,
+  "price": 4152.73,
+  "open": 4156.6,
   "high": 4200.45,
   "low": 4147.48,
-  "chg": -0.3,
+  "chg": -0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   4181.73,
-   4184.36,
-   4184.08,
-   4187.01,
-   4186.32,
-   4187.55,
-   4187.27,
-   4189.29,
-   4179.11,
-   4176.71,
-   4185.29,
    4179.24,
    4170.45,
    4167.68,
@@ -55,14 +44,25 @@
    4160.29,
    4161.15,
    4160.69,
-   4159.48
+   4160.29,
+   4161.53,
+   4157.74,
+   4156.31,
+   4156.73,
+   4154.92,
+   4162.62,
+   4160.09,
+   4155.29,
+   4157.97,
+   4153.01,
+   4152.73
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 59.37,
-   "chg": -1.28,
+   "price": 59.175,
+   "chg": -1.61,
    "spark": [
     63.513,
     63.236,
@@ -85,13 +85,13 @@
     59.064,
     60.67,
     60.141,
-    59.37
+    59.175
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.215,
-   "chg": -0.36,
+   "price": 102.168,
+   "chg": -0.4,
    "spark": [
     99.46,
     99.65,
@@ -114,13 +114,13 @@
     102.14,
     102.21,
     102.58,
-    102.215
+    102.168
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 94.68,
-   "chg": 1.0,
+   "price": 95.25,
+   "chg": 1.61,
    "spark": [
     101.39,
     105.83,
@@ -143,7 +143,7 @@
     91.49,
     91.85,
     93.74,
-    94.68
+    95.25
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1202,
-   "chg": -0.02,
+   "price": 1.1206,
+   "chg": 0.41,
    "spark": [
-    1.1594,
     1.1549,
     1.1538,
     1.147,
@@ -201,15 +200,15 @@
     1.1201,
     1.1213,
     1.1205,
-    1.1202
+    1.116,
+    1.1206
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3255,
-   "chg": 0.1,
+   "price": 1.3261,
+   "chg": 0.39,
    "spark": [
-    1.3526,
     1.3501,
     1.3473,
     1.3383,
@@ -230,15 +229,15 @@
     1.3215,
     1.3229,
     1.3242,
-    1.3255
+    1.321,
+    1.3261
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.351,
-   "chg": 0.09,
+   "price": 158.464,
+   "chg": -0.04,
    "spark": [
-    153.424,
     154.385,
     155.266,
     156.014,
@@ -259,17 +258,15 @@
     158.06,
     158.063,
     158.203,
-    158.351
+    158.52,
+    158.464
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2510.1,
-   "chg": 2.7,
+   "price": 2503.51,
+   "chg": 0.3,
    "spark": [
-    2534.19,
-    2543.82,
-    2539.12,
     2544.67,
     2543.92,
     2564.04,
@@ -314,17 +311,17 @@
     2505.29,
     2508.41,
     2509.89,
-    2510.1
+    2508.69,
+    2495.97,
+    2505.27,
+    2503.5
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83436.2,
-   "chg": 2.08,
+   "price": 83286.9,
+   "chg": 0.22,
    "spark": [
-    83675.6,
-    83870.9,
-    83573.7,
     83738.3,
     83513.2,
     84041.4,
@@ -369,7 +366,10 @@
     83203.3,
     83343.5,
     83459.2,
-    83436.2
+    83453.0,
+    83101.2,
+    83339.2,
+    83295.0
    ]
   }
  ],
@@ -458,20 +458,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1791931362.676084,
+   "ts": 1791941018.611885,
+   "title": "Iran shifting tactics to step up attacks on shipping before US\u00a0vote, officials say",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/iran-shifting-tactics-to-step-up-attacks-on-shipping-before-usvote-officials-say-4947753",
+   "t": "14 Oct \u00b7 06:23 AM",
+   "ur": "Hakam ka kahana hai kah eran US wating se qabl jahaz raani par hamle ties karne ke liye hakmat amali tabadil kar raha hai."
+  },
+  {
+   "ts": 1791941018.611885,
    "title": "Gold prices mixed amid weaker dollar and subdued oil, focus now on U.S. CPI data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slips-near-4160-as-middle-east-tensions-fuel-ratehike-concerns-4945298",
-   "t": "14 Oct \u00b7 03:42 AM",
+   "t": "14 Oct \u00b7 06:23 AM",
    "ur": "Kamazor Dollar aur kam til ke darmiyan Gold (sone) ki qeemtin mali jali, ab US CPI deta par tojah din."
   },
   {
-   "ts": 1791931362.676084,
-   "title": "Silver compresses at $59.50 with key support at $58.70: Live",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
-   "t": "14 Oct \u00b7 03:42 AM",
-   "ur": "Silver (chandi) $58.70 par kalidi sport ke sath $59.50 par kampris karti hai: laaio"
+   "ts": 1791934453.0,
+   "title": "Australian Dollar climbs as Fed\u2019s Williams push the brakes on rates",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/australian-dollar-climbs-as-feds-williams-push-the-brakes-on-rates-202610132334",
+   "t": "14 Oct \u00b7 04:34 AM",
+   "ur": "Aasterilvi Dollar chadhta hai cunkah fed ke walims ne sharahon par barik laga di hai."
+  },
+  {
+   "ts": 1791933685.0,
+   "title": "Gold declines to near $4,150 ahead of US CPI inflation data",
+   "src": "FXStreet",
+   "link": "https://www.fxstreet.com/news/gold-declines-to-near-4-150-ahead-of-us-cpi-inflation-data-202610132321",
+   "t": "14 Oct \u00b7 04:21 AM",
+   "ur": "US CPI inflation (mehngai) ke aed w shmar se pehle Gold (sona) taqriban 4,150 Dollar tak gar gaya."
   },
   {
    "ts": 1791929836.0,
@@ -479,7 +495,7 @@
    "src": "FXStreet",
    "link": "https://www.fxstreet.com/news/mexican-peso-buckles-as-fed-inflation-fears-overshadow-dovish-williams-202610132217",
    "t": "14 Oct \u00b7 03:17 AM",
-   "ur": "Mexican peso jhak jata hai cunkah fed inflation (mehngai) ka khuf dvish walims ko chha jata hai."
+   "ur": "Mexican peso jhak jata hai cunkah fed inflation (mehngai) ne dvish walims ko chhaya hawa hai."
   },
   {
    "ts": 1791927288.0,
@@ -520,26 +536,10 @@
    "link": "https://www.fxstreet.com/news/singapore-dollar-priced-in-mas-move-limits-gains-against-us-dollar-ocbc-202610131923",
    "t": "14 Oct \u00b7 12:23 AM",
    "ur": "Sangapor Dollar: pariced an MAS aqdam US Dollar ke maqable mein haasilat ko muhadud karta hai - OCBC"
-  },
-  {
-   "ts": 1791917868.0,
-   "title": "US Dollar: Fed pricing leg looks stretched \u2013 Societe Generale",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/us-dollar-fed-pricing-leg-looks-stretched-societe-generale-202610131857",
-   "t": "13 Oct \u00b7 11:57 PM",
-   "ur": "US Dollar: fed pariceng tang pheli hoi nazar aati hai - socit janerl"
-  },
-  {
-   "ts": 1791917794.0,
-   "title": "Swiss Franc strengthens on dovish Fed rhetoric as US CPI looms",
-   "src": "FXStreet",
-   "link": "https://www.fxstreet.com/news/swiss-franc-strengthens-on-dovish-feds-rhetoric-us-cpi-looms-202610131856",
-   "t": "13 Oct \u00b7 11:56 PM",
-   "ur": "Sois farank dvish fed bayan bazi par mazboot hota hai jisa kah US CPI mein azafah hota hai."
   }
  ],
  "sentiment": {
-  "value": 57,
+  "value": 62,
   "label": "Greed"
  },
  "err": null
