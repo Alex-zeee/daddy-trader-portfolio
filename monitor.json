@@ -1,22 +1,13 @@
 {
- "updated": "15-10-2026 04:25 PKT",
+ "updated": "15-10-2026 06:35 PKT",
  "gold": {
-  "price": 4104.25,
-  "open": 4156.06,
+  "price": 4147.61,
+  "open": 4148.46,
   "high": 4172.83,
   "low": 4073.82,
-  "chg": -1.25,
+  "chg": -0.02,
   "src": "XAUUSD Spot",
   "spark": [
-   4139.38,
-   4141.29,
-   4148.78,
-   4153.89,
-   4088.55,
-   4099.72,
-   4083.07,
-   4089.31,
-   4099.76,
    4089.36,
    4092.11,
    4094.82,
@@ -55,14 +46,23 @@
    4110.51,
    4106.32,
    4103.23,
-   4104.25
+   4102.57,
+   4104.76,
+   4112.33,
+   4126.91,
+   4138.8,
+   4142.79,
+   4139.11,
+   4143.12,
+   4143.87,
+   4147.61
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.75,
-   "chg": -5.77,
+   "price": 56.38,
+   "chg": -4.7,
    "spark": [
     63.236,
     64.288,
@@ -85,13 +85,13 @@
     60.67,
     60.141,
     59.161,
-    55.75
+    56.38
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.528,
-   "chg": 0.34,
+   "price": 102.066,
+   "chg": -0.11,
    "spark": [
     99.65,
     100.31,
@@ -114,13 +114,13 @@
     102.21,
     102.58,
     102.18,
-    102.528
+    102.066
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 94.79,
-   "chg": 0.69,
+   "price": 94.07,
+   "chg": -0.07,
    "spark": [
     105.83,
     102.43,
@@ -143,7 +143,7 @@
     91.85,
     93.74,
     94.14,
-    94.79
+    94.07
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1183,
-   "chg": -0.19,
+   "price": 1.1212,
+   "chg": 0.07,
    "spark": [
     1.1538,
     1.147,
@@ -201,13 +201,13 @@
     1.1205,
     1.116,
     1.1204,
-    1.1183
+    1.1212
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3214,
-   "chg": -0.33,
+   "price": 1.3236,
+   "chg": -0.16,
    "spark": [
     1.3473,
     1.3383,
@@ -230,13 +230,13 @@
     1.3242,
     1.321,
     1.3257,
-    1.3214
+    1.3236
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.061,
-   "chg": -0.16,
+   "price": 157.634,
+   "chg": -0.43,
    "spark": [
     155.266,
     156.014,
@@ -259,16 +259,14 @@
     158.203,
     158.52,
     158.322,
-    158.061
+    157.634
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2417.0,
-   "chg": -3.16,
+   "price": 2415.18,
+   "chg": -0.14,
    "spark": [
-    2418.71,
-    2461.51,
     2488.6,
     2505.93,
     2515.11,
@@ -314,16 +312,16 @@
     2413.95,
     2417.3,
     2415.98,
-    2417.0
+    2418.61,
+    2415.66,
+    2415.18
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81473.0,
-   "chg": -1.96,
+   "price": 81660.2,
+   "chg": 0.1,
    "spark": [
-    81343.7,
-    82345.3,
     82831.0,
     83221.5,
     83347.9,
@@ -369,7 +367,9 @@
     81677.8,
     81672.1,
     81559.6,
-    81473.0
+    81576.4,
+    81541.4,
+    81660.2
    ]
   }
  ],
@@ -434,27 +434,35 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792020357.73884,
+   "ts": 1792028149.638743,
+   "title": "Oil edges lower after hot U.S. CPI; IEA meeting in focus",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-edges-lower-after-hot-us-cpi-iea-meeting-in-focus-4950316",
+   "t": "15 Oct \u00b7 06:35 AM",
+   "ur": "Garm US CPI ke bad til ke kanare niche IEA matong fox mein hai."
+  },
+  {
+   "ts": 1792028149.638743,
    "title": "Spot gold slips 1.5% as hot CPI report boosts Fed October rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-twoday-slide-as-fed-signals-one-more-hike-us-cpi-in-focus-4947854",
-   "t": "15 Oct \u00b7 04:25 AM",
+   "t": "15 Oct \u00b7 06:35 AM",
    "ur": "Spat gold mein 1.5% ki kami hoi cunkah garm CPI rport ne fed aktobar ki rate mein azafe ki toqaat ko badhaya"
   },
   {
-   "ts": 1792020357.73884,
+   "ts": 1792028149.638743,
    "title": "Silver crashes below $58.80 support at $55.81: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
-   "t": "15 Oct \u00b7 04:25 AM",
+   "t": "15 Oct \u00b7 06:35 AM",
    "ur": "Silver (chandi) $58.80 ki support se niche $55.81 par gar kar tabah hogayi"
   },
   {
-   "ts": 1792020357.73884,
+   "ts": 1792028149.638743,
    "title": "Gold tests $4,095 support after bear flag breakdown: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rejects-at-4245-resistance-on-5h-chart-live-levels-93CH-4943295",
-   "t": "15 Oct \u00b7 04:25 AM",
+   "t": "15 Oct \u00b7 06:35 AM",
    "ur": "Bears ke jhanday ke totne ke bad gold ne $4,095 ki support ki janch ki."
   },
   {
@@ -499,8 +507,8 @@
   }
  ],
  "sentiment": {
-  "value": 62,
-  "label": "Greed"
+  "value": 53,
+  "label": "Neutral"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden"
