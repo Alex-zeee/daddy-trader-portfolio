@@ -1,26 +1,13 @@
 {
- "updated": "16-10-2026 00:30 PKT",
+ "updated": "16-10-2026 03:39 PKT",
  "gold": {
-  "price": 4161.63,
-  "open": 4103.38,
-  "high": 4168.92,
-  "low": 4096.85,
-  "chg": 1.42,
+  "price": 4167.4,
+  "open": 4110.07,
+  "high": 4177.81,
+  "low": 4100.21,
+  "chg": 1.39,
   "src": "XAUUSD Spot",
   "spark": [
-   4142.68,
-   4145.53,
-   4152.62,
-   4155.64,
-   4151.08,
-   4151.43,
-   4157.02,
-   4159.3,
-   4158.98,
-   4158.13,
-   4155.62,
-   4154.32,
-   4153.66,
    4154.42,
    4158.03,
    4158.23,
@@ -55,14 +42,27 @@
    4157.44,
    4157.29,
    4160.83,
-   4161.63
+   4161.63,
+   4168.05,
+   4175.13,
+   4173.21,
+   4170.54,
+   4170.44,
+   4170.88,
+   4170.94,
+   4170.95,
+   4170.97,
+   4171.78,
+   4171.76,
+   4167.42,
+   4167.4
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.36,
-   "chg": 3.26,
+   "price": 57.515,
+   "chg": 3.54,
    "spark": [
     64.288,
     65.47,
@@ -85,13 +85,13 @@
     60.141,
     59.161,
     55.55,
-    57.36
+    57.515
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.095,
-   "chg": -0.44,
+   "price": 102.004,
+   "chg": -0.53,
    "spark": [
     100.31,
     100.22,
@@ -114,13 +114,13 @@
     102.58,
     102.18,
     102.55,
-    102.095
+    102.004
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 96.18,
-   "chg": 1.15,
+   "price": 96.14,
+   "chg": 1.1,
    "spark": [
     102.43,
     101.91,
@@ -143,7 +143,7 @@
     93.74,
     94.14,
     95.09,
-    96.18
+    96.14
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1208,
-   "chg": 0.03,
+   "price": 1.1216,
+   "chg": 0.1,
    "spark": [
     1.1538,
     1.147,
@@ -201,13 +201,13 @@
     1.1205,
     1.116,
     1.1204,
-    1.1208
+    1.1216
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3265,
-   "chg": 0.06,
+   "price": 1.3273,
+   "chg": 0.12,
    "spark": [
     1.3473,
     1.3383,
@@ -230,13 +230,13 @@
     1.3242,
     1.321,
     1.3257,
-    1.3265
+    1.3273
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.143,
-   "chg": -0.11,
+   "price": 158.099,
+   "chg": -0.14,
    "spark": [
     155.266,
     156.014,
@@ -259,17 +259,14 @@
     158.203,
     158.52,
     158.322,
-    158.143
+    158.099
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2451.14,
-   "chg": 1.34,
+   "price": 2457.26,
+   "chg": 1.6,
    "spark": [
-    2508.41,
-    2509.89,
-    2508.69,
     2495.97,
     2505.27,
     2503.98,
@@ -314,17 +311,17 @@
     2431.49,
     2443.78,
     2448.89,
-    2451.14
+    2450.37,
+    2451.91,
+    2458.83,
+    2457.25
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 82350.6,
-   "chg": 0.95,
+   "price": 82389.2,
+   "chg": 1.0,
    "spark": [
-    83343.5,
-    83459.2,
-    83453.0,
     83101.2,
     83339.2,
     83247.8,
@@ -369,7 +366,10 @@
     82017.5,
     82341.2,
     82320.0,
-    82345.2
+    82296.6,
+    82010.3,
+    82333.3,
+    82389.2
    ]
   }
  ],
@@ -386,11 +386,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792092640.160305,
-   "title": "Gold rebounds as yields dip, dollar softens despite hot U.S. inflation data",
+   "ts": 1792103987.421612,
+   "title": "Gold prices climb as U.S. bond rally weighs on dollar, overshadows hot PPI report",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-after-inflationdriven-selloff-as-fed-ratehike-bets-rise-4950379",
-   "t": "16 Oct \u00b7 12:30 AM"
+   "t": "16 Oct \u00b7 03:39 AM"
+  },
+  {
+   "ts": 1792103987.421612,
+   "title": "Silver bears hold firm at $57.39 near key resistance: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
+   "t": "16 Oct \u00b7 03:39 AM"
   },
   {
    "ts": 1792078679.0,
@@ -455,6 +462,6 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 9/9 failed"
+  "translate: 10/10 failed"
  ]
 }
