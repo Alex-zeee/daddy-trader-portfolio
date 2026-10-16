@@ -1,35 +1,13 @@
 {
- "updated": "16-10-2026 23:01 PKT",
+ "updated": "17-10-2026 04:32 PKT",
  "gold": {
-  "price": 4164.05,
-  "open": 4155.65,
+  "price": 4164.71,
+  "open": 4157.95,
   "high": 4198.87,
   "low": 4147.48,
-  "chg": 0.2,
+  "chg": 0.16,
   "src": "XAUUSD Spot",
   "spark": [
-   4174.78,
-   4178.56,
-   4177.15,
-   4185.76,
-   4187.8,
-   4183.96,
-   4188.04,
-   4180.36,
-   4184.0,
-   4185.61,
-   4188.65,
-   4190.14,
-   4184.91,
-   4180.82,
-   4177.72,
-   4182.3,
-   4184.69,
-   4181.83,
-   4175.0,
-   4175.53,
-   4181.98,
-   4178.18,
    4171.87,
    4174.83,
    4178.31,
@@ -55,14 +33,36 @@
    4159.52,
    4164.72,
    4163.39,
-   4164.05
+   4164.39,
+   4159.85,
+   4159.11,
+   4159.68,
+   4164.84,
+   4167.04,
+   4169.54,
+   4168.17,
+   4167.2,
+   4169.03,
+   4168.66,
+   4165.63,
+   4164.64,
+   4164.75,
+   4164.76,
+   4164.7,
+   4164.64,
+   4164.76,
+   4164.76,
+   4164.72,
+   4164.61,
+   4164.61,
+   4164.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.305,
-   "chg": 0.82,
+   "price": 57.135,
+   "chg": 0.52,
    "spark": [
     65.47,
     66.556,
@@ -85,13 +85,13 @@
     59.161,
     55.55,
     56.837,
-    57.305
+    57.135
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.877,
-   "chg": -0.12,
+   "price": 101.779,
+   "chg": -0.22,
    "spark": [
     100.22,
     100.22,
@@ -114,13 +114,13 @@
     102.18,
     102.55,
     102.0,
-    101.877
+    101.779
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 98.7,
-   "chg": 0.75,
+   "price": 99.04,
+   "chg": 1.09,
    "spark": [
     101.91,
     100.3,
@@ -143,13 +143,13 @@
     94.14,
     95.09,
     97.97,
-    98.7
+    99.04
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.102,
-   "chg": 0.26,
+   "price": 5.098,
+   "chg": 0.18,
    "spark": [
     4.947,
     4.998,
@@ -172,13 +172,13 @@
     5.217,
     5.19,
     5.089,
-    5.102
+    5.098
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1231,
-   "chg": 0.32,
+   "price": 1.1244,
+   "chg": 0.43,
    "spark": [
     1.147,
     1.1476,
@@ -201,15 +201,14 @@
     1.116,
     1.1204,
     1.1195,
-    1.1231
+    1.1244
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3314,
-   "chg": 0.63,
+   "price": 1.333,
+   "chg": 0.43,
    "spark": [
-    1.3383,
     1.3358,
     1.3389,
     1.3371,
@@ -230,13 +229,14 @@
     1.321,
     1.3257,
     1.323,
-    1.3314
+    1.3273,
+    1.333
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.056,
-   "chg": 0.06,
+   "price": 157.987,
+   "chg": 0.02,
    "spark": [
     156.014,
     156.129,
@@ -259,19 +259,14 @@
     158.52,
     158.322,
     157.957,
-    158.056
+    157.987
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2407.16,
-   "chg": -1.3,
+   "price": 2419.25,
+   "chg": -0.81,
    "spark": [
-    2427.71,
-    2413.95,
-    2417.3,
-    2415.98,
-    2418.61,
     2415.66,
     2410.37,
     2376.88,
@@ -314,19 +309,19 @@
     2428.21,
     2428.5,
     2408.7,
-    2407.16
+    2403.2,
+    2409.52,
+    2412.58,
+    2412.95,
+    2422.02,
+    2419.25
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81100.7,
-   "chg": -1.26,
+   "price": 81518.6,
+   "chg": -0.75,
    "spark": [
-    81735.3,
-    81677.8,
-    81672.1,
-    81559.6,
-    81576.4,
     81541.4,
     81537.2,
     81411.4,
@@ -369,7 +364,12 @@
     81248.3,
     81332.6,
     81089.6,
-    81100.7
+    81022.6,
+    81468.8,
+    81617.6,
+    81563.1,
+    81666.9,
+    81518.6
    ]
   }
  ],
@@ -426,20 +426,28 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1792173719.865766,
-   "title": "Gold inches higher as dollar softens, investors eye Fed rate outlook",
+   "ts": 1792193537.827037,
+   "title": "Gold prices slip for the week as oil gains offset weaker dollar, U.S. bond rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4160-as-stock-selloff-drives-bond-rally-treasury-yields-fall-4952940",
-   "t": "16 Oct \u00b7 11:01 PM",
-   "ur": "Dollar ke narm hone ke sath hi Gold (sona) anch baland hawa, sarmaya karon ki nazar fed ret oat lak par hai."
+   "t": "17 Oct \u00b7 04:32 AM",
+   "ur": "Hafte ke liye Gold (sone) ki qeemton mein kami hoi cunkah til ke azafe se kamazor Dollar, US band ki rili ko pora kiya gaya."
   },
   {
-   "ts": 1792173719.865766,
-   "title": "Morning Bid: Tipping Point",
+   "ts": 1792193537.827037,
+   "title": "Silver pinched below resistance at $57.19: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/morning-bid-tipping-point-4953827",
-   "t": "16 Oct \u00b7 11:01 PM",
-   "ur": "Sabah ki boli: taping point"
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
+   "t": "17 Oct \u00b7 04:32 AM",
+   "ur": "Silver (chandi) mazahmat se niche $57.19 par band hoi."
+  },
+  {
+   "ts": 1792189985.0,
+   "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+   "t": "17 Oct \u00b7 03:33 AM",
+   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
   },
   {
    "ts": 1792168051.0,
@@ -464,14 +472,6 @@
    "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
    "t": "15 Oct \u00b7 06:42 PM",
    "ur": "US treasurei ne IMF qarz ki warning aur 'garbad' forecast ko mastard kar diya."
-  },
-  {
-   "ts": 1792066275.0,
-   "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-   "t": "15 Oct \u00b7 05:11 PM",
-   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
   },
   {
    "ts": 1791998423.0,
