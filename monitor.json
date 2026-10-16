@@ -1,31 +1,13 @@
 {
- "updated": "16-10-2026 10:00 PKT",
+ "updated": "16-10-2026 14:31 PKT",
  "gold": {
-  "price": 4172.75,
-  "open": 4146.68,
-  "high": 4187.24,
-  "low": 4131.93,
-  "chg": 0.63,
+  "price": 4184.91,
+  "open": 4159.02,
+  "high": 4191.47,
+  "low": 4136.33,
+  "chg": 0.62,
   "src": "XAUUSD Spot",
   "spark": [
-   4148.98,
-   4149.15,
-   4153.51,
-   4152.59,
-   4155.48,
-   4158.26,
-   4157.44,
-   4157.29,
-   4160.83,
-   4161.63,
-   4168.05,
-   4175.13,
-   4173.21,
-   4170.54,
-   4170.44,
-   4170.88,
-   4170.94,
-   4170.95,
    4170.97,
    4171.78,
    4171.76,
@@ -55,14 +37,32 @@
    4176.24,
    4179.34,
    4174.6,
-   4172.75
+   4172.6,
+   4171.46,
+   4172.51,
+   4172.31,
+   4175.25,
+   4171.78,
+   4174.78,
+   4178.56,
+   4177.15,
+   4185.76,
+   4187.8,
+   4183.96,
+   4188.04,
+   4180.36,
+   4184.0,
+   4185.61,
+   4188.65,
+   4190.14,
+   4184.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.91,
-   "chg": 1.89,
+   "price": 58.1,
+   "chg": 2.22,
    "spark": [
     65.47,
     66.556,
@@ -85,13 +85,13 @@
     59.161,
     55.55,
     56.837,
-    57.91
+    58.1
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.898,
-   "chg": -0.1,
+   "price": 101.681,
+   "chg": -0.31,
    "spark": [
     100.22,
     100.22,
@@ -114,13 +114,13 @@
     102.18,
     102.55,
     102.0,
-    101.898
+    101.681
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 95.92,
-   "chg": -2.09,
+   "price": 95.36,
+   "chg": -2.66,
    "spark": [
     101.91,
     100.3,
@@ -143,7 +143,7 @@
     94.14,
     95.09,
     97.97,
-    95.92
+    95.36
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1232,
-   "chg": 0.33,
+   "price": 1.1256,
+   "chg": 0.55,
    "spark": [
     1.147,
     1.1476,
@@ -201,13 +201,13 @@
     1.116,
     1.1204,
     1.1195,
-    1.1232
+    1.1256
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3304,
-   "chg": 0.56,
+   "price": 1.3333,
+   "chg": 0.78,
    "spark": [
     1.3383,
     1.3358,
@@ -230,13 +230,13 @@
     1.321,
     1.3257,
     1.323,
-    1.3304
+    1.3333
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.823,
-   "chg": -0.08,
+   "price": 157.934,
+   "chg": -0.01,
    "spark": [
     156.014,
     156.129,
@@ -259,18 +259,14 @@
     158.52,
     158.322,
     157.957,
-    157.823
+    157.934
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2441.58,
-   "chg": 0.11,
+   "price": 2450.28,
+   "chg": 0.46,
    "spark": [
-    2502.44,
-    2508.72,
-    2503.68,
-    2494.42,
     2504.94,
     2502.17,
     2473.72,
@@ -314,18 +310,18 @@
     2436.34,
     2436.93,
     2441.35,
-    2441.58
+    2444.47,
+    2446.8,
+    2452.04,
+    2455.55,
+    2450.28
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 82068.0,
-   "chg": -0.08,
+   "price": 82076.2,
+   "chg": -0.07,
    "spark": [
-    83349.5,
-    83489.5,
-    83353.1,
-    83163.2,
     83390.1,
     83390.9,
     82645.9,
@@ -369,11 +365,55 @@
     81940.6,
     82015.9,
     82049.8,
-    82067.9
+    82060.0,
+    82080.4,
+    82183.7,
+    82150.1,
+    82076.2
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Core Retail Sales m/m",
+   "impact": "High",
+   "forecast": "0.6%",
+   "previous": "1.4%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "PPI m/m",
+   "impact": "High",
+   "forecast": "0.6%",
+   "previous": "0.4%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Retail Sales m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "1.2%"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Philly Fed Manufacturing Index",
+   "impact": "Medium",
+   "forecast": "28.2",
+   "previous": "37.8"
+  },
+  {
+   "ts": 1792067400.0,
+   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "199K",
+   "previous": "197K"
+  },
   {
    "ts": 1792121400.0,
    "t": "Fri 16 Oct \u00b7 08:30 AM",
@@ -383,77 +423,87 @@
    "previous": ""
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1792126805.667955,
-   "title": "Gold steadies near $4,160 as stock selloff drives bond rally, Treasury yields fall",
+   "ts": 1792143080.272967,
+   "title": "Gold battles $4,200 resistance amid bear flag signal: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4160-as-stock-selloff-drives-bond-rally-treasury-yields-fall-4952940",
-   "t": "16 Oct \u00b7 10:00 AM"
+   "link": "https://www.investing.com/news/commodities-news/gold-rejects-at-4245-resistance-on-5h-chart-live-levels-93CH-4943295",
+   "t": "16 Oct \u00b7 02:31 PM",
+   "ur": "Gold (sone) ne bears ke jhanday ke skigl ke darmiyan $4,200 ki mazahmat ka maqablah kiya."
   },
   {
-   "ts": 1792126805.667955,
-   "title": "Gold prices climb as U.S. bond rally weighs on dollar, overshadows hot PPI report",
+   "ts": 1792143080.272967,
+   "title": "Silver hits resistance at $58.50-$59.00 cluster: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-after-inflationdriven-selloff-as-fed-ratehike-bets-rise-4950379",
-   "t": "16 Oct \u00b7 10:00 AM"
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-61706220-resistance-in-macro-downtrend-live-levels-93CH-4943300",
+   "t": "16 Oct \u00b7 02:31 PM",
+   "ur": "Silver (chandi) ki mazahmat $58.50-$59.00 kalster par hai."
   },
   {
    "ts": 1792078679.0,
    "title": "Economists: Hot PPI shows Fed's work is not done",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
-   "t": "15 Oct \u00b7 08:37 PM"
+   "t": "15 Oct \u00b7 08:37 PM",
+   "ur": "Maharin aqtasadiyat: garm PPI zaahar karta hai kah fed ka kam nihen hawa hai."
   },
   {
    "ts": 1792071752.0,
    "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
-   "t": "15 Oct \u00b7 06:42 PM"
+   "t": "15 Oct \u00b7 06:42 PM",
+   "ur": "US treasurei ne IMF qarz ki warning aur 'garbad' forecast ko mastard kar diya."
   },
   {
    "ts": 1792066275.0,
    "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-   "t": "15 Oct \u00b7 05:11 PM"
+   "t": "15 Oct \u00b7 05:11 PM",
+   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
   },
   {
    "ts": 1791998423.0,
    "title": "How high inflation became a 'fact of life' in the U.S.",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-   "t": "14 Oct \u00b7 10:20 PM"
+   "t": "14 Oct \u00b7 10:20 PM",
+   "ur": "Ktani baland inflation (mehngai) amrikah mein 'zandgi ki haqeeqat' ban gayi"
   },
   {
    "ts": 1791951868.0,
    "title": "'Godzilla El Ni\u00f1o' is wreaking havoc with Philippine central bank's inflation forecasts",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
-   "t": "14 Oct \u00b7 09:24 AM"
+   "t": "14 Oct \u00b7 09:24 AM",
+   "ur": "'godsila al nino' filpin ke markazi Bank ki inflation (mehngai) ki forecast ke sath tabahi macha raha hai"
   },
   {
    "ts": 1791914757.0,
    "title": "The latest inflation data is expected to show price increases are accelerating",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-   "t": "13 Oct \u00b7 11:05 PM"
+   "t": "13 Oct \u00b7 11:05 PM",
+   "ur": "Mahungai ke taazah tarin aed w shmar se toqa ki ja rahi hai kah qeemton mein azafah tizi se ho raha hai."
   },
   {
    "ts": 1791867247.0,
    "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
-   "t": "13 Oct \u00b7 09:54 AM"
+   "t": "13 Oct \u00b7 09:54 AM",
+   "ur": "I em eff ne mutanbah kiya hai kah qarz ke tur par band ki pedawar mein 'be tartibi' azafah hoskta hai, inflation (mehngai) ke khatrat badh jate hen"
   },
   {
    "ts": 1791802164.0,
    "title": "India\u2019s retail inflation jumps to 5.54% in September, above estimates",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
-   "t": "12 Oct \u00b7 03:49 PM"
+   "t": "12 Oct \u00b7 03:49 PM",
+   "ur": "Handostan ki khurdah inflation (mehngai) stambr mein 5.54 fisad tak pohch gayi, takhameenon se ziyadah"
   }
  ],
  "sentiment": {
@@ -461,7 +511,6 @@
   "label": "Greed"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 10/10 failed"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
