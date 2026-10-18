@@ -1,31 +1,13 @@
 {
- "updated": "18-10-2026 05:58 PKT",
+ "updated": "18-10-2026 10:21 PKT",
  "gold": {
-  "price": 4164.76,
+  "price": 4164.64,
   "open": 4164.67,
-  "high": 4164.87,
+  "high": 4164.86,
   "low": 4164.58,
-  "chg": 0.0,
+  "chg": -0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4164.74,
-   4164.76,
-   4164.72,
-   4164.65,
-   4164.73,
-   4164.77,
-   4164.71,
-   4164.64,
-   4164.75,
-   4164.77,
-   4164.71,
-   4164.64,
-   4164.76,
-   4164.76,
-   4164.73,
-   4164.65,
-   4164.67,
-   4164.76,
    4164.74,
    4164.66,
    4164.66,
@@ -55,16 +37,33 @@
    4164.66,
    4164.65,
    4164.74,
-   4164.76
+   4164.76,
+   4164.73,
+   4164.65,
+   4164.73,
+   4164.76,
+   4164.71,
+   4164.64,
+   4164.74,
+   4164.76,
+   4164.7,
+   4164.64,
+   4164.76,
+   4164.76,
+   4164.72,
+   4164.64,
+   4164.77,
+   4164.76,
+   4164.74,
+   4164.64
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.995,
-   "chg": 0.28,
+   "price": 57.305,
+   "chg": 0.82,
    "spark": [
-    65.47,
     66.556,
     65.825,
     65.932,
@@ -85,7 +84,7 @@
     59.161,
     55.55,
     56.837,
-    56.995
+    57.305
    ]
   },
   {
@@ -93,7 +92,6 @@
    "price": 101.84,
    "chg": -0.16,
    "spark": [
-    100.22,
     100.22,
     100.43,
     100.6,
@@ -119,10 +117,9 @@
   },
   {
    "name": "Oil WTI",
-   "price": 101.41,
-   "chg": 3.51,
+   "price": 99.02,
+   "chg": 1.07,
    "spark": [
-    101.91,
     100.3,
     95.78,
     94.59,
@@ -143,7 +140,7 @@
     94.14,
     95.09,
     97.97,
-    101.41
+    99.02
    ]
   },
   {
@@ -264,14 +261,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2402.62,
-   "chg": 0.12,
+   "price": 2413.27,
+   "chg": 0.56,
    "spark": [
-    2430.21,
-    2436.34,
-    2436.93,
-    2441.35,
-    2444.47,
     2446.8,
     2452.04,
     2455.55,
@@ -314,19 +306,19 @@
     2377.89,
     2390.17,
     2399.7,
-    2402.62
+    2402.63,
+    2404.93,
+    2413.93,
+    2422.39,
+    2412.95,
+    2413.27
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81434.7,
-   "chg": 0.06,
+   "price": 81728.6,
+   "chg": 0.43,
    "spark": [
-    81993.1,
-    81940.6,
-    82015.9,
-    82049.8,
-    82060.0,
     82080.4,
     82183.7,
     82150.1,
@@ -369,68 +361,65 @@
     81032.5,
     81253.4,
     81382.0,
-    81434.7
+    81432.9,
+    81556.0,
+    81710.0,
+    81851.2,
+    81694.2,
+    81728.6
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1792067400.0,
-   "t": "Thu 15 Oct \u00b7 05:30 PM",
-   "title": "Core Retail Sales m/m",
-   "impact": "High",
-   "forecast": "0.6%",
-   "previous": "1.4%"
-  },
-  {
-   "ts": 1792067400.0,
-   "t": "Thu 15 Oct \u00b7 05:30 PM",
-   "title": "PPI m/m",
-   "impact": "High",
-   "forecast": "0.6%",
-   "previous": "0.4%"
-  },
-  {
-   "ts": 1792067400.0,
-   "t": "Thu 15 Oct \u00b7 05:30 PM",
-   "title": "Retail Sales m/m",
-   "impact": "High",
-   "forecast": "0.3%",
-   "previous": "1.2%"
-  },
-  {
-   "ts": 1792067400.0,
-   "t": "Thu 15 Oct \u00b7 05:30 PM",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "Medium",
-   "forecast": "28.2",
-   "previous": "37.8"
-  },
-  {
-   "ts": 1792067400.0,
-   "t": "Thu 15 Oct \u00b7 05:30 PM",
+   "ts": 1792672200.0,
+   "t": "Thu 22 Oct \u00b7 05:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "199K",
-   "previous": "197K"
+   "forecast": "200K",
+   "previous": "199K"
   },
   {
-   "ts": 1792121400.0,
-   "t": "Fri 16 Oct \u00b7 08:30 AM",
-   "title": "Fed Chairman Warsh Speaks",
-   "impact": "High",
+   "ts": 1792763100.0,
+   "t": "Fri 23 Oct \u00b7 06:45 PM",
+   "title": "Flash Manufacturing PMI",
+   "impact": "Medium",
+   "forecast": "55.5",
+   "previous": "57.0"
+  },
+  {
+   "ts": 1792763100.0,
+   "t": "Fri 23 Oct \u00b7 06:45 PM",
+   "title": "Flash Services PMI",
+   "impact": "Medium",
+   "forecast": "58.0",
+   "previous": "58.7"
+  },
+  {
+   "ts": 1792764000.0,
+   "t": "Fri 23 Oct \u00b7 07:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "46.3",
+   "previous": "46.3"
+  },
+  {
+   "ts": 1792764000.0,
+   "t": "Fri 23 Oct \u00b7 07:00 PM",
+   "title": "Revised UoM Inflation Expectations",
+   "impact": "Medium",
    "forecast": "",
-   "previous": ""
+   "previous": "4.7%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792285102.947584,
+   "ts": 1792300884.265783,
    "title": "Gold prices slip for the week as oil gains offset weaker dollar, U.S. bond rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4160-as-stock-selloff-drives-bond-rally-treasury-yields-fall-4952940",
-   "t": "18 Oct \u00b7 05:58 AM",
+   "t": "18 Oct \u00b7 10:21 AM",
    "ur": "Hafte ke liye Gold (sone) ki qeemton mein kami hoi cunkah til ke azafe se kamazor Dollar, US band ki rili ko pora kiya gaya."
   },
   {
@@ -472,14 +461,6 @@
    "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
    "t": "14 Oct \u00b7 10:20 PM",
    "ur": "Ktani baland inflation (mehngai) amrikah mein 'zandgi ki haqeeqat' ban gayi"
-  },
-  {
-   "ts": 1791951868.0,
-   "title": "'Godzilla El Ni\u00f1o' is wreaking havoc with Philippine central bank's inflation forecasts",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
-   "t": "14 Oct \u00b7 09:24 AM",
-   "ur": "'godsila al nino' filpin ke markazi Bank ki inflation (mehngai) ki forecast ke sath tabahi macha raha hai"
   }
  ],
  "sentiment": {
