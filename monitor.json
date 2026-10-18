@@ -1,21 +1,13 @@
 {
- "updated": "19-10-2026 02:27 PKT",
+ "updated": "19-10-2026 04:25 PKT",
  "gold": {
-  "price": 4165.49,
+  "price": 4181.49,
   "open": 4164.67,
-  "high": 4170.14,
-  "low": 4164.58,
-  "chg": 0.02,
+  "high": 4181.83,
+  "low": 4160.95,
+  "chg": 0.4,
   "src": "XAUUSD Spot",
   "spark": [
-   4164.64,
-   4164.76,
-   4164.76,
-   4164.73,
-   4164.65,
-   4164.67,
-   4164.75,
-   4164.74,
    4164.66,
    4164.66,
    4164.74,
@@ -55,14 +47,22 @@
    4165.59,
    4165.77,
    4165.47,
-   4165.49
+   4165.57,
+   4165.54,
+   4165.52,
+   4174.31,
+   4177.24,
+   4176.59,
+   4175.53,
+   4174.87,
+   4181.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.305,
-   "chg": 0.82,
+   "price": 57.39,
+   "chg": 0.69,
    "spark": [
     66.556,
     65.825,
@@ -84,13 +84,14 @@
     59.161,
     55.55,
     56.837,
-    57.305
+    56.995,
+    57.39
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.84,
-   "chg": -0.16,
+   "price": 101.915,
+   "chg": 0.07,
    "spark": [
     100.22,
     100.43,
@@ -112,13 +113,14 @@
     102.18,
     102.55,
     102.0,
-    101.84
+    101.84,
+    101.915
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 99.02,
-   "chg": 1.07,
+   "price": 98.11,
+   "chg": -3.25,
    "spark": [
     100.3,
     95.78,
@@ -140,7 +142,8 @@
     94.14,
     95.09,
     97.97,
-    99.02
+    101.41,
+    98.11
    ]
   },
   {
@@ -174,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1187,
-   "chg": -0.23,
+   "price": 1.1218,
+   "chg": 0.05,
    "spark": [
-    1.1476,
     1.148,
     1.1465,
     1.1448,
@@ -198,15 +200,14 @@
     1.1204,
     1.1195,
     1.1213,
-    1.1187
+    1.1218
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3309,
-   "chg": 0.27,
+   "price": 1.3327,
+   "chg": 0.41,
    "spark": [
-    1.3358,
     1.3389,
     1.3371,
     1.3343,
@@ -227,15 +228,14 @@
     1.3257,
     1.323,
     1.3273,
-    1.3309
+    1.3327
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.057,
-   "chg": -0.05,
+   "price": 157.845,
+   "chg": -0.19,
    "spark": [
-    156.129,
     157.046,
     157.369,
     157.464,
@@ -256,16 +256,14 @@
     158.322,
     157.957,
     158.143,
-    158.057
+    157.845
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2357.17,
-   "chg": -1.78,
+   "price": 2398.69,
+   "chg": -0.05,
    "spark": [
-    2422.02,
-    2420.22,
     2419.79,
     2416.54,
     2419.33,
@@ -311,16 +309,16 @@
     2365.26,
     2335.36,
     2348.47,
-    2357.17
+    2368.24,
+    2392.93,
+    2398.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80887.9,
-   "chg": -0.61,
+   "price": 81786.2,
+   "chg": 0.5,
    "spark": [
-    81666.9,
-    81500.8,
     81441.0,
     81412.2,
     81363.6,
@@ -366,7 +364,9 @@
     81094.1,
     80778.2,
     80867.5,
-    80887.9
+    81121.2,
+    81664.2,
+    81786.2
    ]
   }
  ],
@@ -415,44 +415,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792358839.053584,
+   "ts": 1792365925.51108,
    "title": "Gold prices slip for the week as oil gains offset weaker dollar, U.S. bond rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4160-as-stock-selloff-drives-bond-rally-treasury-yields-fall-4952940",
-   "t": "19 Oct \u00b7 02:27 AM",
-   "ur": "Hafte ke liye Gold (sone) ki qeemton mein kami hoi cunkah til ke azafe se kamazor Dollar, US band ki rili ko pora kiya gaya."
+   "t": "19 Oct \u00b7 04:25 AM"
   },
   {
    "ts": 1792189985.0,
    "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-   "t": "17 Oct \u00b7 03:33 AM",
-   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
+   "t": "17 Oct \u00b7 03:33 AM"
   },
   {
    "ts": 1792168051.0,
    "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
-   "t": "16 Oct \u00b7 09:27 PM",
-   "ur": "Tajaziya: har koi toqa karta hai kah fed aktobar mein shrahin barqarar rakhe ga. cun warsh ham sab ko heeran kar sakte hen."
+   "t": "16 Oct \u00b7 09:27 PM"
   },
   {
    "ts": 1792078679.0,
    "title": "Economists: Hot PPI shows Fed's work is not done",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
-   "t": "15 Oct \u00b7 08:37 PM",
-   "ur": "Maharin aqtasadiyat: garm PPI zaahar karta hai kah fed ka kam nihen hawa hai."
+   "t": "15 Oct \u00b7 08:37 PM"
   },
   {
    "ts": 1792071752.0,
    "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
-   "t": "15 Oct \u00b7 06:42 PM",
-   "ur": "US treasurei ne IMF qarz ki warning aur 'garbad' forecast ko mastard kar diya."
+   "t": "15 Oct \u00b7 06:42 PM"
   }
  ],
  "sentiment": {
@@ -460,6 +455,7 @@
   "label": "Neutral"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "translate: 5/5 failed"
  ]
 }
