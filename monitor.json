@@ -1,20 +1,13 @@
 {
- "updated": "18-10-2026 04:05 PKT",
+ "updated": "18-10-2026 05:58 PKT",
  "gold": {
-  "price": 4164.66,
+  "price": 4164.76,
   "open": 4164.67,
   "high": 4164.87,
   "low": 4164.58,
-  "chg": -0.0,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4164.74,
-   4164.65,
-   4164.66,
-   4164.75,
-   4164.75,
-   4164.67,
-   4164.65,
    4164.74,
    4164.76,
    4164.72,
@@ -55,7 +48,14 @@
    4164.77,
    4164.76,
    4164.73,
-   4164.66
+   4164.65,
+   4164.67,
+   4164.75,
+   4164.74,
+   4164.66,
+   4164.65,
+   4164.74,
+   4164.76
   ]
  },
  "markets": [
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.333,
-   "chg": 0.43,
+   "price": 1.3329,
+   "chg": 0.42,
    "spark": [
     1.3358,
     1.3389,
@@ -230,7 +230,7 @@
     1.3257,
     1.323,
     1.3273,
-    1.333
+    1.3329
    ]
   },
   {
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2390.96,
-   "chg": -1.21,
+   "price": 2402.62,
+   "chg": 0.12,
    "spark": [
-    2438.41,
     2430.21,
     2436.34,
     2436.93,
@@ -314,15 +313,15 @@
     2418.82,
     2377.89,
     2390.17,
-    2390.96
+    2399.7,
+    2402.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81265.5,
-   "chg": -0.29,
+   "price": 81434.7,
+   "chg": 0.06,
    "spark": [
-    82234.9,
     81993.1,
     81940.6,
     82015.9,
@@ -369,7 +368,8 @@
     81537.5,
     81032.5,
     81253.4,
-    81265.7
+    81382.0,
+    81434.7
    ]
   }
  ],
@@ -426,11 +426,11 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1792278314.356602,
+   "ts": 1792285102.947584,
    "title": "Gold prices slip for the week as oil gains offset weaker dollar, U.S. bond rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4160-as-stock-selloff-drives-bond-rally-treasury-yields-fall-4952940",
-   "t": "18 Oct \u00b7 04:05 AM",
+   "t": "18 Oct \u00b7 05:58 AM",
    "ur": "Hafte ke liye Gold (sone) ki qeemton mein kami hoi cunkah til ke azafe se kamazor Dollar, US band ki rili ko pora kiya gaya."
   },
   {
@@ -483,8 +483,8 @@
   }
  ],
  "sentiment": {
-  "value": 55,
-  "label": "Greed"
+  "value": 53,
+  "label": "Neutral"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden"
