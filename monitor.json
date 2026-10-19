@@ -1,42 +1,13 @@
 {
- "updated": "19-10-2026 11:22 PKT",
+ "updated": "19-10-2026 18:42 PKT",
  "gold": {
-  "price": 4178.71,
+  "price": 4155.71,
   "open": 4164.67,
-  "high": 4188.1,
-  "low": 4160.95,
-  "chg": 0.34,
+  "high": 4190.13,
+  "low": 4155.41,
+  "chg": -0.22,
   "src": "XAUUSD Spot",
   "spark": [
-   4165.54,
-   4165.47,
-   4165.59,
-   4165.6,
-   4165.57,
-   4165.48,
-   4165.47,
-   4165.58,
-   4165.59,
-   4165.77,
-   4165.47,
-   4165.57,
-   4165.54,
-   4165.52,
-   4174.31,
-   4177.24,
-   4176.59,
-   4175.53,
-   4174.87,
-   4183.77,
-   4182.39,
-   4184.1,
-   4183.18,
-   4175.84,
-   4173.28,
-   4172.35,
-   4171.23,
-   4168.01,
-   4171.96,
    4173.31,
    4182.21,
    4171.47,
@@ -55,14 +26,43 @@
    4184.81,
    4184.59,
    4178.31,
-   4178.71
+   4175.58,
+   4176.18,
+   4185.84,
+   4184.75,
+   4186.52,
+   4182.91,
+   4174.67,
+   4178.68,
+   4177.94,
+   4168.92,
+   4170.58,
+   4170.74,
+   4169.13,
+   4168.47,
+   4167.37,
+   4167.69,
+   4167.06,
+   4168.25,
+   4169.63,
+   4172.44,
+   4169.28,
+   4169.93,
+   4163.35,
+   4165.69,
+   4166.32,
+   4164.0,
+   4161.32,
+   4164.36,
+   4161.77,
+   4155.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.915,
-   "chg": 1.61,
+   "price": 57.66,
+   "chg": 1.17,
    "spark": [
     65.825,
     65.932,
@@ -84,13 +84,13 @@
     55.55,
     56.837,
     56.995,
-    57.915
+    57.66
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.865,
-   "chg": 0.02,
+   "price": 101.854,
+   "chg": 0.01,
    "spark": [
     100.43,
     100.6,
@@ -112,13 +112,13 @@
     102.55,
     102.0,
     101.84,
-    101.865
+    101.854
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 97.27,
-   "chg": -4.08,
+   "price": 97.18,
+   "chg": -4.17,
    "spark": [
     95.78,
     94.59,
@@ -140,16 +140,14 @@
     95.09,
     97.97,
     101.41,
-    97.27
+    97.18
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.098,
-   "chg": 0.18,
+   "price": 5.106,
+   "chg": 0.16,
    "spark": [
-    4.947,
-    4.998,
     4.963,
     4.968,
     5.114,
@@ -169,13 +167,14 @@
     5.217,
     5.19,
     5.089,
-    5.098
+    5.098,
+    5.106
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1223,
-   "chg": 0.09,
+   "price": 1.1222,
+   "chg": 0.08,
    "spark": [
     1.148,
     1.1465,
@@ -197,13 +196,13 @@
     1.1204,
     1.1195,
     1.1213,
-    1.1223
+    1.1222
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3327,
-   "chg": 0.41,
+   "price": 1.3322,
+   "chg": 0.37,
    "spark": [
     1.3389,
     1.3371,
@@ -225,13 +224,13 @@
     1.3257,
     1.323,
     1.3273,
-    1.3327
+    1.3322
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.049,
-   "chg": -0.06,
+   "price": 158.362,
+   "chg": 0.14,
    "spark": [
     157.046,
     157.369,
@@ -253,21 +252,14 @@
     158.322,
     157.957,
     158.143,
-    158.049
+    158.362
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2430.01,
-   "chg": 0.93,
+   "price": 2408.29,
+   "chg": 0.03,
    "spark": [
-    2431.4,
-    2432.73,
-    2433.7,
-    2435.66,
-    2430.77,
-    2423.76,
-    2420.51,
     2424.61,
     2407.32,
     2400.79,
@@ -308,21 +300,21 @@
     2421.72,
     2425.97,
     2428.64,
-    2430.01
+    2428.1,
+    2427.94,
+    2433.14,
+    2434.7,
+    2423.91,
+    2417.4,
+    2421.33,
+    2408.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 82661.4,
-   "chg": 0.8,
+   "price": 82188.9,
+   "chg": 0.23,
    "spark": [
-    81619.3,
-    81604.4,
-    81493.0,
-    81527.2,
-    81466.0,
-    81410.3,
-    81383.9,
     81478.9,
     81240.9,
     81141.7,
@@ -363,7 +355,14 @@
     82423.4,
     82681.2,
     82661.7,
-    82661.4
+    82750.8,
+    82641.0,
+    82734.5,
+    82675.1,
+    82338.0,
+    82262.8,
+    82507.6,
+    82188.9
    ]
   }
  ],
@@ -412,39 +411,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792390967.830808,
-   "title": "Gold rises as Warsh remarks temper Fed hike bets, futures top $4,200",
+   "ts": 1792417378.807575,
+   "title": "Gold inches higher with Fed rate outlook in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-warsh-remarks-curb-fed-hike-bets-4956185",
-   "t": "19 Oct \u00b7 11:22 AM"
+   "t": "19 Oct \u00b7 06:42 PM",
+   "ur": "Fox mein fed ret oat lak ke sath Gold (sona) anch ziyadah hai."
   },
   {
    "ts": 1792189985.0,
    "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-   "t": "17 Oct \u00b7 03:33 AM"
+   "t": "17 Oct \u00b7 03:33 AM",
+   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
   },
   {
    "ts": 1792168051.0,
    "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
-   "t": "16 Oct \u00b7 09:27 PM"
+   "t": "16 Oct \u00b7 09:27 PM",
+   "ur": "Tajaziya: har koi toqa karta hai kah fed aktobar mein shrahin barqarar rakhe ga. cun warsh ham sab ko heeran kar sakte hen."
   },
   {
    "ts": 1792078679.0,
    "title": "Economists: Hot PPI shows Fed's work is not done",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
-   "t": "15 Oct \u00b7 08:37 PM"
-  },
-  {
-   "ts": 1792071752.0,
-   "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
-   "t": "15 Oct \u00b7 06:42 PM"
+   "t": "15 Oct \u00b7 08:37 PM",
+   "ur": "Maharin aqtasadiyat: garm PPI zaahar karta hai kah fed ka kam nihen hawa hai."
   }
  ],
  "sentiment": {
@@ -452,7 +448,6 @@
   "label": "Greed"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 5/5 failed"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
