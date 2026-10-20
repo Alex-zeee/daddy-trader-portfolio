@@ -1,24 +1,13 @@
 {
- "updated": "20-10-2026 03:59 PKT",
+ "updated": "20-10-2026 06:35 PKT",
  "gold": {
-  "price": 4136.82,
-  "open": 4175.85,
+  "price": 4123.22,
+  "open": 4170.9,
   "high": 4190.13,
-  "low": 4136.33,
-  "chg": -0.93,
+  "low": 4115.57,
+  "chg": -1.14,
   "src": "XAUUSD Spot",
   "spark": [
-   4172.44,
-   4169.28,
-   4169.93,
-   4163.35,
-   4165.69,
-   4166.32,
-   4164.0,
-   4161.32,
-   4164.36,
-   4161.77,
-   4151.34,
    4154.4,
    4144.1,
    4148.38,
@@ -55,14 +44,25 @@
    4142.17,
    4141.61,
    4137.25,
-   4136.82
+   4136.53,
+   4133.62,
+   4134.97,
+   4135.08,
+   4133.29,
+   4137.48,
+   4135.58,
+   4135.69,
+   4131.14,
+   4122.58,
+   4117.58,
+   4123.22
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.065,
-   "chg": 0.12,
+   "price": 56.645,
+   "chg": -0.61,
    "spark": [
     65.825,
     65.932,
@@ -84,13 +84,13 @@
     55.55,
     56.837,
     56.995,
-    57.065
+    56.645
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.973,
-   "chg": 0.13,
+   "price": 101.927,
+   "chg": 0.09,
    "spark": [
     100.43,
     100.6,
@@ -112,13 +112,13 @@
     102.55,
     102.0,
     101.84,
-    101.973
+    101.927
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 98.28,
-   "chg": -3.09,
+   "price": 98.83,
+   "chg": -2.54,
    "spark": [
     95.78,
     94.59,
@@ -140,7 +140,7 @@
     95.09,
     97.97,
     101.41,
-    98.28
+    98.83
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1216,
-   "chg": 0.02,
+   "price": 1.1218,
+   "chg": -0.06,
    "spark": [
     1.148,
     1.1465,
@@ -196,13 +196,14 @@
     1.1204,
     1.1195,
     1.1213,
-    1.1216
+    1.1225,
+    1.1218
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3307,
-   "chg": 0.25,
+   "price": 1.3314,
+   "chg": -0.16,
    "spark": [
     1.3389,
     1.3371,
@@ -224,13 +225,14 @@
     1.3257,
     1.323,
     1.3273,
-    1.3307
+    1.3336,
+    1.3314
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.52,
-   "chg": 0.24,
+   "price": 158.566,
+   "chg": 0.48,
    "spark": [
     157.046,
     157.369,
@@ -252,17 +254,15 @@
     158.322,
     157.957,
     158.143,
-    158.52
+    157.806,
+    158.566
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2404.05,
-   "chg": -0.14,
+   "price": 2393.49,
+   "chg": -0.5,
    "spark": [
-    2399.7,
-    2402.63,
-    2404.93,
     2413.93,
     2422.39,
     2412.95,
@@ -307,17 +307,17 @@
     2392.63,
     2398.24,
     2399.57,
-    2404.05
+    2404.07,
+    2405.43,
+    2398.96,
+    2393.49
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81965.1,
-   "chg": -0.04,
+   "price": 81523.3,
+   "chg": -0.39,
    "spark": [
-    81382.0,
-    81432.9,
-    81556.0,
     81710.0,
     81851.2,
     81694.2,
@@ -362,7 +362,10 @@
     81772.2,
     81912.5,
     81938.1,
-    81965.1
+    81965.0,
+    81843.7,
+    81632.9,
+    81523.3
    ]
   }
  ],
@@ -411,28 +414,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792450759.003213,
+   "ts": 1792460103.23766,
+   "title": "14 dead, 7 injured in Colombia illegal gold mine collapse",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/14-dead-7-injured-in-colombia-illegal-gold-mine-collapse-4958516",
+   "t": "20 Oct \u00b7 06:35 AM",
+   "ur": "Kolmubiya mein Gold (sone) ki ghair qaanoni kan manahdam hone se 14 afrad halak, 7 zakhami"
+  },
+  {
+   "ts": 1792460103.23766,
    "title": "Gold slips amid stronger dollar, bond sell-off, and a pullback in losses in oil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-warsh-remarks-curb-fed-hike-bets-4956185",
-   "t": "20 Oct \u00b7 03:59 AM",
-   "ur": "Mazboot Dollar, bands ki farokht, aur til mein khasare mein wapsi ke darmiyan Gold (sona) phisal gaya."
+   "t": "20 Oct \u00b7 06:35 AM",
+   "ur": "Mazboot Dollar, band ki farokht, aur til mein khasare mein wapsi ke darmiyan Gold (sona) phisal gaya."
   },
   {
-   "ts": 1792450759.003213,
+   "ts": 1792460103.23766,
    "title": "Silver bear flag at $57.34 tests breakdown support: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-bear-flag-at-5860-resistance-live-levels-93CH-4956490",
-   "t": "20 Oct \u00b7 03:59 AM",
+   "t": "20 Oct \u00b7 06:35 AM",
    "ur": "Salor bare fileg $57.34 test barik doun sport par hai."
-  },
-  {
-   "ts": 1792450759.003213,
-   "title": "Gold pinned at $4,163 in tight consolidation: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-stuck-below-4225-resistance-as-adx-signals-chop-live-levels-93CH-4956488",
-   "t": "20 Oct \u00b7 03:59 AM",
-   "ur": "Gold (sona) saqt istehkam mein $4,163 par band hawa."
   },
   {
    "ts": 1792189985.0,
@@ -452,7 +455,7 @@
   }
  ],
  "sentiment": {
-  "value": 59,
+  "value": 55,
   "label": "Greed"
  },
  "err": [
