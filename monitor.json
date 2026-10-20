@@ -1,33 +1,13 @@
 {
- "updated": "20-10-2026 06:35 PKT",
+ "updated": "20-10-2026 11:34 PKT",
  "gold": {
-  "price": 4123.22,
-  "open": 4170.9,
+  "price": 4128.03,
+  "open": 4176.35,
   "high": 4190.13,
   "low": 4115.57,
-  "chg": -1.14,
+  "chg": -1.16,
   "src": "XAUUSD Spot",
   "spark": [
-   4154.4,
-   4144.1,
-   4148.38,
-   4146.74,
-   4145.76,
-   4147.46,
-   4148.41,
-   4144.42,
-   4141.93,
-   4144.74,
-   4143.63,
-   4141.25,
-   4140.99,
-   4137.71,
-   4140.0,
-   4145.18,
-   4144.6,
-   4147.37,
-   4145.16,
-   4145.89,
    4146.73,
    4144.56,
    4142.37,
@@ -55,14 +35,34 @@
    4131.14,
    4122.58,
    4117.58,
-   4123.22
+   4127.36,
+   4129.63,
+   4133.58,
+   4139.29,
+   4132.68,
+   4138.95,
+   4143.1,
+   4141.27,
+   4145.95,
+   4146.37,
+   4145.37,
+   4143.63,
+   4142.39,
+   4143.91,
+   4138.65,
+   4134.75,
+   4132.64,
+   4121.58,
+   4119.19,
+   4129.28,
+   4128.03
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 56.645,
-   "chg": -0.61,
+   "price": 57.56,
+   "chg": 1.03,
    "spark": [
     65.825,
     65.932,
@@ -84,13 +84,14 @@
     55.55,
     56.837,
     56.995,
-    56.645
+    56.974,
+    57.56
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.927,
-   "chg": 0.09,
+   "price": 101.772,
+   "chg": -0.2,
    "spark": [
     100.43,
     100.6,
@@ -112,13 +113,14 @@
     102.55,
     102.0,
     101.84,
-    101.927
+    101.98,
+    101.772
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 98.83,
-   "chg": -2.54,
+   "price": 98.66,
+   "chg": -4.82,
    "spark": [
     95.78,
     94.59,
@@ -140,7 +142,8 @@
     95.09,
     97.97,
     101.41,
-    98.83
+    103.66,
+    98.66
    ]
   },
   {
@@ -173,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1218,
-   "chg": -0.06,
+   "price": 1.1233,
+   "chg": 0.07,
    "spark": [
     1.148,
     1.1465,
@@ -197,13 +200,13 @@
     1.1195,
     1.1213,
     1.1225,
-    1.1218
+    1.1233
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3314,
-   "chg": -0.16,
+   "price": 1.3355,
+   "chg": 0.14,
    "spark": [
     1.3389,
     1.3371,
@@ -226,13 +229,13 @@
     1.323,
     1.3273,
     1.3336,
-    1.3314
+    1.3355
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.566,
-   "chg": 0.48,
+   "price": 158.11,
+   "chg": 0.19,
    "spark": [
     157.046,
     157.369,
@@ -255,19 +258,14 @@
     157.957,
     158.143,
     157.806,
-    158.566
+    158.11
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2393.49,
-   "chg": -0.5,
+   "price": 2396.21,
+   "chg": -0.38,
    "spark": [
-    2413.93,
-    2422.39,
-    2412.95,
-    2408.48,
-    2408.62,
     2405.68,
     2407.97,
     2421.62,
@@ -310,19 +308,19 @@
     2404.07,
     2405.43,
     2398.96,
-    2393.49
+    2396.1,
+    2397.63,
+    2411.94,
+    2409.58,
+    2393.88,
+    2396.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81523.3,
-   "chg": -0.39,
+   "price": 81734.9,
+   "chg": -0.13,
    "spark": [
-    81710.0,
-    81851.2,
-    81694.2,
-    81629.1,
-    81609.8,
     81576.9,
     81636.0,
     82045.1,
@@ -365,7 +363,12 @@
     81965.0,
     81843.7,
     81632.9,
-    81523.3
+    81690.9,
+    81676.5,
+    82015.7,
+    81988.5,
+    81617.6,
+    81734.9
    ]
   }
  ],
@@ -414,28 +417,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792460103.23766,
+   "ts": 1792478065.616119,
+   "title": "How safe havens stack up as tech, energy and France fears grip markets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/how-safe-havens-stack-up-as-tech-energy-and-france-fears-grip-markets-4958749",
+   "t": "20 Oct \u00b7 11:34 AM",
+   "ur": "Tek, anergi aur farans ki garft marketon ke khuf se mahfooz panah gahen kas tarah jama hen."
+  },
+  {
+   "ts": 1792478065.616119,
+   "title": "Gold dips as oil prices fuel inflation fears, Fed outlook in focus",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-dips-as-oil-prices-fuel-inflation-fears-fed-outlook-in-focus-4958694",
+   "t": "20 Oct \u00b7 11:34 AM",
+   "ur": "Til ki qeemton mein azafe se mahungai ke khadshe ke baas Gold (sone) mein kami, fed oat lak tojah mein"
+  },
+  {
+   "ts": 1792478065.616119,
    "title": "14 dead, 7 injured in Colombia illegal gold mine collapse",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/14-dead-7-injured-in-colombia-illegal-gold-mine-collapse-4958516",
-   "t": "20 Oct \u00b7 06:35 AM",
+   "t": "20 Oct \u00b7 11:34 AM",
    "ur": "Kolmubiya mein Gold (sone) ki ghair qaanoni kan manahdam hone se 14 afrad halak, 7 zakhami"
   },
   {
-   "ts": 1792460103.23766,
+   "ts": 1792478065.616119,
    "title": "Gold slips amid stronger dollar, bond sell-off, and a pullback in losses in oil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rises-as-warsh-remarks-curb-fed-hike-bets-4956185",
-   "t": "20 Oct \u00b7 06:35 AM",
+   "t": "20 Oct \u00b7 11:34 AM",
    "ur": "Mazboot Dollar, band ki farokht, aur til mein khasare mein wapsi ke darmiyan Gold (sona) phisal gaya."
-  },
-  {
-   "ts": 1792460103.23766,
-   "title": "Silver bear flag at $57.34 tests breakdown support: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-bear-flag-at-5860-resistance-live-levels-93CH-4956490",
-   "t": "20 Oct \u00b7 06:35 AM",
-   "ur": "Salor bare fileg $57.34 test barik doun sport par hai."
   },
   {
    "ts": 1792189985.0,
