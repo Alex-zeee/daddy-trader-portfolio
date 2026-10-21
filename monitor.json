@@ -1,34 +1,13 @@
 {
- "updated": "21-10-2026 06:30 PKT",
+ "updated": "21-10-2026 11:32 PKT",
  "gold": {
-  "price": 4116.74,
-  "open": 4116.5,
+  "price": 4118.14,
+  "open": 4132.38,
   "high": 4155.9,
   "low": 4106.88,
-  "chg": 0.01,
+  "chg": -0.34,
   "src": "XAUUSD Spot",
   "spark": [
-   4129.45,
-   4128.36,
-   4130.13,
-   4152.45,
-   4150.32,
-   4142.57,
-   4135.18,
-   4135.65,
-   4135.57,
-   4131.63,
-   4127.55,
-   4124.55,
-   4125.75,
-   4121.93,
-   4119.08,
-   4123.67,
-   4123.17,
-   4123.62,
-   4125.96,
-   4124.61,
-   4121.96,
    4122.93,
    4121.68,
    4123.05,
@@ -55,16 +34,36 @@
    4118.38,
    4117.5,
    4111.79,
-   4116.74
+   4116.74,
+   4117.2,
+   4119.68,
+   4118.65,
+   4116.08,
+   4114.18,
+   4117.56,
+   4114.82,
+   4119.35,
+   4120.46,
+   4117.87,
+   4121.49,
+   4116.86,
+   4116.41,
+   4115.29,
+   4119.78,
+   4127.74,
+   4116.26,
+   4118.56,
+   4116.52,
+   4113.24,
+   4118.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.66,
-   "chg": 1.2,
+   "price": 57.35,
+   "chg": -0.62,
    "spark": [
-    65.825,
     65.932,
     64.382,
     63.457,
@@ -85,15 +84,15 @@
     56.837,
     56.995,
     56.974,
-    57.66
+    57.706,
+    57.35
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.794,
-   "chg": -0.18,
+   "price": 101.808,
+   "chg": 0.08,
    "spark": [
-    100.43,
     100.6,
     101.1,
     101.29,
@@ -114,15 +113,15 @@
     102.0,
     101.84,
     101.98,
-    101.794
+    101.73,
+    101.808
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 98.98,
-   "chg": -4.51,
+   "price": 99.24,
+   "chg": -2.51,
    "spark": [
-    95.78,
     94.59,
     92.16,
     94.61,
@@ -143,7 +142,8 @@
     97.97,
     101.41,
     103.66,
-    98.98
+    101.79,
+    99.24
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1231,
-   "chg": 0.13,
+   "price": 1.1226,
+   "chg": 0.09,
    "spark": [
     1.1465,
     1.1448,
@@ -201,13 +201,13 @@
     1.1213,
     1.1225,
     1.1216,
-    1.1231
+    1.1226
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3375,
-   "chg": 0.5,
+   "price": 1.3376,
+   "chg": 0.51,
    "spark": [
     1.3371,
     1.3343,
@@ -230,13 +230,13 @@
     1.3273,
     1.3336,
     1.3308,
-    1.3375
+    1.3376
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.33,
-   "chg": -0.12,
+   "price": 158.125,
+   "chg": -0.25,
    "spark": [
     157.369,
     157.464,
@@ -259,19 +259,14 @@
     158.143,
     157.806,
     158.523,
-    158.33
+    158.125
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2449.93,
-   "chg": 0.14,
+   "price": 2440.99,
+   "chg": -0.23,
    "spark": [
-    2424.09,
-    2421.72,
-    2425.97,
-    2428.64,
-    2428.1,
     2427.94,
     2433.14,
     2434.7,
@@ -314,19 +309,19 @@
     2453.64,
     2446.73,
     2450.42,
-    2449.93
+    2452.95,
+    2445.75,
+    2441.56,
+    2442.19,
+    2436.28,
+    2440.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 82879.9,
-   "chg": -0.07,
+   "price": 82748.5,
+   "chg": -0.23,
    "spark": [
-    82618.8,
-    82423.4,
-    82681.2,
-    82661.7,
-    82750.8,
     82641.0,
     82734.5,
     82675.1,
@@ -369,7 +364,12 @@
     83017.8,
     82936.1,
     82935.8,
-    82880.0
+    82908.1,
+    82714.0,
+    82637.1,
+    82715.4,
+    82579.1,
+    82749.4
    ]
   }
  ],
@@ -418,12 +418,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792546247.012857,
+   "ts": 1792564377.796073,
+   "title": "Gold falls near $4,110 as Iran peace hopes fade, Fed rate outlook clouds demand",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4110-as-iran-peace-hopes-fade-fed-rate-outlook-clouds-demand-4961463",
+   "t": "21 Oct \u00b7 11:32 AM",
+   "ur": "Gold (sona) $4,110 ke qarib gar gaya cunkah eran mein aman ki amidin khtam hogayin, fed ret oat lak badilon ki mang"
+  },
+  {
+   "ts": 1792564377.796073,
    "title": "Gold slips in volatile session, as choppy moves in oil outweigh weaker dollar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-dips-as-oil-prices-fuel-inflation-fears-fed-outlook-in-focus-4958694",
-   "t": "21 Oct \u00b7 06:30 AM",
+   "t": "21 Oct \u00b7 11:32 AM",
    "ur": "Ghair mastahkam sition mein Gold (sona) phisal jata hai, cunkah til mein kati hoi harktin kamazor Dollar se ziyadah hoti hen."
+  },
+  {
+   "ts": 1792564227.0,
+   "title": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+   "t": "21 Oct \u00b7 11:30 AM",
+   "ur": "Uk inflation (mehngai) 3.5% tak pohch gaya - rate mein azafe ki toqaat ko badhata hai."
   },
   {
    "ts": 1792524523.0,
