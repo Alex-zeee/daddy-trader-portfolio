@@ -1,33 +1,13 @@
 {
- "updated": "21-10-2026 17:21 PKT",
+ "updated": "21-10-2026 22:24 PKT",
  "gold": {
-  "price": 4137.22,
-  "open": 4122.37,
-  "high": 4155.9,
+  "price": 4131.85,
+  "open": 4123.79,
+  "high": 4142.03,
   "low": 4106.88,
-  "chg": 0.36,
+  "chg": 0.2,
   "src": "XAUUSD Spot",
   "spark": [
-   4118.38,
-   4117.5,
-   4111.79,
-   4116.74,
-   4117.2,
-   4119.68,
-   4118.65,
-   4116.08,
-   4114.18,
-   4117.56,
-   4114.82,
-   4119.35,
-   4120.46,
-   4117.87,
-   4121.49,
-   4116.86,
-   4116.41,
-   4115.29,
-   4119.78,
-   4127.74,
    4116.26,
    4118.56,
    4116.52,
@@ -55,14 +35,34 @@
    4140.39,
    4140.38,
    4136.86,
-   4137.22
+   4131.98,
+   4126.46,
+   4129.31,
+   4136.2,
+   4138.05,
+   4137.54,
+   4130.3,
+   4128.43,
+   4135.07,
+   4130.17,
+   4131.35,
+   4127.27,
+   4138.53,
+   4132.17,
+   4132.3,
+   4131.48,
+   4133.04,
+   4133.17,
+   4131.91,
+   4132.05,
+   4131.85
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.745,
-   "chg": 0.07,
+   "price": 57.7,
+   "chg": -0.01,
    "spark": [
     65.932,
     64.382,
@@ -85,13 +85,13 @@
     56.995,
     56.974,
     57.706,
-    57.745
+    57.7
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.661,
-   "chg": -0.07,
+   "price": 101.678,
+   "chg": -0.05,
    "spark": [
     100.6,
     101.1,
@@ -114,13 +114,13 @@
     101.84,
     101.98,
     101.73,
-    101.661
+    101.678
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 98.36,
-   "chg": -3.37,
+   "price": 96.58,
+   "chg": -5.12,
    "spark": [
     94.59,
     92.16,
@@ -143,15 +143,14 @@
     101.41,
     103.66,
     101.79,
-    98.36
+    96.58
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.117,
-   "chg": -0.37,
+   "price": 5.104,
+   "chg": -0.25,
    "spark": [
-    4.963,
     4.968,
     5.114,
     5.162,
@@ -172,13 +171,14 @@
     5.089,
     5.098,
     5.136,
-    5.117
+    5.117,
+    5.104
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1236,
-   "chg": 0.18,
+   "price": 1.1238,
+   "chg": 0.2,
    "spark": [
     1.1465,
     1.1448,
@@ -201,13 +201,13 @@
     1.1213,
     1.1225,
     1.1216,
-    1.1236
+    1.1238
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3401,
-   "chg": 0.7,
+   "price": 1.3399,
+   "chg": 0.68,
    "spark": [
     1.3371,
     1.3343,
@@ -230,13 +230,13 @@
     1.3273,
     1.3336,
     1.3308,
-    1.3401
+    1.3399
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.877,
-   "chg": -0.41,
+   "price": 158.095,
+   "chg": -0.27,
    "spark": [
     157.369,
     157.464,
@@ -259,19 +259,14 @@
     158.143,
     157.806,
     158.523,
-    157.877
+    158.095
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2465.63,
-   "chg": 0.78,
+   "price": 2510.0,
+   "chg": 2.59,
    "spark": [
-    2397.68,
-    2408.31,
-    2391.41,
-    2399.78,
-    2395.15,
     2398.29,
     2392.63,
     2398.24,
@@ -314,19 +309,19 @@
     2453.03,
     2454.41,
     2466.33,
-    2465.63
+    2465.88,
+    2470.29,
+    2494.41,
+    2510.39,
+    2508.04,
+    2510.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 83450.2,
-   "chg": 0.62,
+   "price": 84485.8,
+   "chg": 1.87,
    "spark": [
-    82030.1,
-    82185.6,
-    81847.0,
-    81885.4,
-    81830.8,
     81867.3,
     81772.2,
     81912.5,
@@ -369,7 +364,12 @@
     83330.8,
     83300.1,
     83400.1,
-    83450.2
+    83398.3,
+    83724.7,
+    84496.7,
+    84468.7,
+    84490.1,
+    84485.8
    ]
   }
  ],
@@ -418,20 +418,12 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792585289.486787,
-   "title": "Gold inches down amid higher oil prices; Fed rate outlook in focus",
+   "ts": 1792603481.52892,
+   "title": "Gold turns higher as oil prices dip, investors eye Fed rate outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4110-as-iran-peace-hopes-fade-fed-rate-outlook-clouds-demand-4961463",
-   "t": "21 Oct \u00b7 05:21 PM",
-   "ur": "Til ki unchi qeemton ke darmiyan Gold (sona) anch niche fox mein fed ret oat lak"
-  },
-  {
-   "ts": 1792585289.486787,
-   "title": "European gas rallies on Persian gulf disruption pressure; Hot UK Inflation dents",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/european-gas-rallies-on-persian-gulf-disruption-pressure-hot-uk-inflation-dents-4961886",
-   "t": "21 Oct \u00b7 05:21 PM",
-   "ur": "Khullige fars ke khall ke dabao par uripi gis ki riliyan; garm, shahut angies UK inflation (mehngai) ke dents"
+   "t": "21 Oct \u00b7 10:24 PM",
+   "ur": "Til ki qeemton mein kami ke sath hi Gold (sona) baland ho jata hai, sarmaya karon ki nazarin fed ret oat lak par hai."
   },
   {
    "ts": 1792581658.0,
