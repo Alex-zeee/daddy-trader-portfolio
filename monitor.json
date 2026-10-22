@@ -1,33 +1,13 @@
 {
- "updated": "22-10-2026 17:26 PKT",
+ "updated": "22-10-2026 22:24 PKT",
  "gold": {
-  "price": 4068.16,
-  "open": 4131.79,
+  "price": 4046.22,
+  "open": 4131.43,
   "high": 4142.67,
-  "low": 4057.2,
-  "chg": -1.54,
+  "low": 4034.8,
+  "chg": -2.06,
   "src": "XAUUSD Spot",
   "spark": [
-   4117.12,
-   4114.3,
-   4115.85,
-   4114.15,
-   4112.09,
-   4115.08,
-   4111.48,
-   4117.84,
-   4117.66,
-   4117.57,
-   4108.32,
-   4094.87,
-   4092.81,
-   4090.32,
-   4091.47,
-   4090.05,
-   4090.89,
-   4091.92,
-   4089.4,
-   4088.36,
    4081.85,
    4086.9,
    4099.39,
@@ -55,14 +35,34 @@
    4065.04,
    4057.55,
    4076.13,
-   4068.16
+   4073.05,
+   4083.62,
+   4086.1,
+   4079.61,
+   4076.38,
+   4063.24,
+   4056.05,
+   4050.78,
+   4049.47,
+   4058.52,
+   4062.69,
+   4056.98,
+   4053.21,
+   4050.69,
+   4051.73,
+   4047.74,
+   4049.05,
+   4041.47,
+   4037.52,
+   4039.71,
+   4046.22
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 55.94,
-   "chg": -2.58,
+   "price": 54.845,
+   "chg": -4.49,
    "spark": [
     64.382,
     63.457,
@@ -85,13 +85,13 @@
     56.974,
     57.706,
     57.422,
-    55.94
+    54.845
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.734,
-   "chg": -0.05,
+   "price": 101.567,
+   "chg": -0.21,
    "spark": [
     101.1,
     101.29,
@@ -114,13 +114,13 @@
     101.98,
     101.73,
     101.78,
-    101.734
+    101.567
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 99.49,
-   "chg": 2.41,
+   "price": 99.21,
+   "chg": 2.12,
    "spark": [
     92.16,
     94.61,
@@ -143,15 +143,14 @@
     103.66,
     101.79,
     97.15,
-    99.49
+    99.21
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.146,
-   "chg": 0.57,
+   "price": 4.971,
+   "chg": -3.4,
    "spark": [
-    4.968,
     5.114,
     5.162,
     5.184,
@@ -172,13 +171,14 @@
     5.098,
     5.136,
     5.117,
-    5.146
+    5.146,
+    4.971
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1211,
-   "chg": -0.14,
+   "price": 1.1231,
+   "chg": 0.04,
    "spark": [
     1.1448,
     1.1382,
@@ -201,13 +201,13 @@
     1.1225,
     1.1216,
     1.1227,
-    1.1211
+    1.1231
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3373,
-   "chg": -0.0,
+   "price": 1.3406,
+   "chg": 0.24,
    "spark": [
     1.3343,
     1.3242,
@@ -230,13 +230,13 @@
     1.3336,
     1.3308,
     1.3373,
-    1.3373
+    1.3406
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.151,
-   "chg": -0.71,
+   "price": 156.948,
+   "chg": -0.83,
    "spark": [
     157.464,
     158.265,
@@ -259,19 +259,14 @@
     157.806,
     158.523,
     158.268,
-    157.151
+    156.948
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2401.66,
-   "chg": -2.84,
+   "price": 2380.2,
+   "chg": -3.71,
    "spark": [
-    2408.17,
-    2469.68,
-    2438.48,
-    2449.24,
-    2448.08,
     2435.89,
     2434.64,
     2446.16,
@@ -314,19 +309,19 @@
     2405.27,
     2403.55,
     2397.74,
-    2401.66
+    2398.62,
+    2407.79,
+    2411.38,
+    2396.16,
+    2377.42,
+    2380.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81719.0,
-   "chg": -2.74,
+   "price": 81258.3,
+   "chg": -3.29,
    "spark": [
-    82035.6,
-    83186.0,
-    82514.0,
-    82681.5,
-    82723.5,
     82437.3,
     82494.6,
     82745.7,
@@ -369,19 +364,16 @@
     81854.6,
     81946.9,
     81658.0,
-    81719.0
+    81606.0,
+    81614.7,
+    81791.0,
+    81581.6,
+    81174.6,
+    81258.4
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1792672200.0,
-   "t": "Thu 22 Oct \u00b7 05:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "200K",
-   "previous": "199K"
-  },
   {
    "ts": 1792763100.0,
    "t": "Fri 23 Oct \u00b7 06:45 PM",
@@ -418,32 +410,28 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792671963.639289,
+   "ts": 1792689840.995284,
    "title": "Gold slides as Middle East tensions fuel oil price jump, inflation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4115-as-saudi-attacks-fuel-inflation-fed-outlook-in-focus-4964496",
-   "t": "22 Oct \u00b7 05:26 PM"
-  },
-  {
-   "ts": 1792671963.639289,
-   "title": "Silver breaks below $56.13 in bear flag: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-tests-bear-flag-at-5860-resistance-live-levels-93CH-4956490",
-   "t": "22 Oct \u00b7 05:26 PM"
+   "t": "22 Oct \u00b7 10:24 PM",
+   "ur": "Masharq wasta mein kasheedgi ke baas til ki qeemton mein azafah, mahungai ke khadshe ke baas Gold (sona) gar gaya."
   },
   {
    "ts": 1792581658.0,
    "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-   "t": "21 Oct \u00b7 04:20 PM"
+   "t": "21 Oct \u00b7 04:20 PM",
+   "ur": "Houseng antabahi alamat ko chamka raha hai jas tarah fed sud ki rate mein mazid azafe ka wazin karta hai."
   },
   {
    "ts": 1792569010.0,
    "title": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
-   "t": "21 Oct \u00b7 12:50 PM"
+   "t": "21 Oct \u00b7 12:50 PM",
+   "ur": "Uk inflation (mehngai) 3.5% tak pohch gaya - rate mein azafe ki toqaat ko badhata hai."
   }
  ],
  "sentiment": {
@@ -451,7 +439,6 @@
   "label": "Greed"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 4/4 failed"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
