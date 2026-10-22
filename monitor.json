@@ -1,22 +1,13 @@
 {
- "updated": "22-10-2026 04:37 PKT",
+ "updated": "22-10-2026 06:49 PKT",
  "gold": {
-  "price": 4122.77,
-  "open": 4116.15,
+  "price": 4112.5,
+  "open": 4120.0,
   "high": 4142.67,
-  "low": 4106.88,
-  "chg": 0.16,
+  "low": 4107.11,
+  "chg": -0.18,
   "src": "XAUUSD Spot",
   "spark": [
-   4140.38,
-   4136.86,
-   4131.98,
-   4126.46,
-   4129.31,
-   4136.2,
-   4138.05,
-   4137.54,
-   4130.3,
    4128.43,
    4135.07,
    4130.17,
@@ -55,14 +46,23 @@
    4131.91,
    4127.85,
    4126.87,
-   4122.77
+   4124.97,
+   4125.61,
+   4121.74,
+   4119.23,
+   4117.12,
+   4114.3,
+   4115.85,
+   4114.15,
+   4112.09,
+   4112.5
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 57.71,
-   "chg": 0.01,
+   "price": 57.255,
+   "chg": -0.78,
    "spark": [
     65.932,
     64.382,
@@ -85,13 +85,13 @@
     56.995,
     56.974,
     57.706,
-    57.71
+    57.255
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.691,
-   "chg": -0.04,
+   "price": 101.716,
+   "chg": -0.01,
    "spark": [
     100.6,
     101.1,
@@ -114,13 +114,13 @@
     101.84,
     101.98,
     101.73,
-    101.691
+    101.716
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 97.93,
-   "chg": -3.79,
+   "price": 98.21,
+   "chg": -3.52,
    "spark": [
     94.59,
     92.16,
@@ -143,7 +143,7 @@
     101.41,
     103.66,
     101.79,
-    97.93
+    98.21
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1237,
-   "chg": 0.09,
+   "price": 1.1232,
+   "chg": 0.05,
    "spark": [
     1.1448,
     1.1382,
@@ -201,13 +201,13 @@
     1.1225,
     1.1216,
     1.1227,
-    1.1237
+    1.1232
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3396,
-   "chg": 0.17,
+   "price": 1.3388,
+   "chg": 0.11,
    "spark": [
     1.3343,
     1.3242,
@@ -230,13 +230,13 @@
     1.3336,
     1.3308,
     1.3373,
-    1.3396
+    1.3388
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.114,
-   "chg": -0.1,
+   "price": 158.075,
+   "chg": -0.12,
    "spark": [
     157.464,
     158.265,
@@ -259,16 +259,14 @@
     157.806,
     158.523,
     158.268,
-    158.114
+    158.075
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2476.23,
-   "chg": 1.21,
+   "price": 2454.71,
+   "chg": -0.7,
    "spark": [
-    2398.96,
-    2396.1,
     2397.63,
     2411.94,
     2409.58,
@@ -314,16 +312,16 @@
     2490.65,
     2497.48,
     2482.63,
-    2476.23
+    2471.7,
+    2472.2,
+    2454.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 84254.7,
-   "chg": 1.59,
+   "price": 83621.2,
+   "chg": -0.48,
    "spark": [
-    81632.9,
-    81690.9,
     81676.5,
     82015.7,
     81988.5,
@@ -369,7 +367,9 @@
     84621.9,
     84784.1,
     84388.6,
-    84254.7
+    84022.5,
+    84150.1,
+    83621.2
    ]
   }
  ],
@@ -418,11 +418,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792625870.739866,
+   "ts": 1792633766.788693,
+   "title": "Gold falls near $4,115 as Saudi attacks fuel inflation, Fed outlook in focus",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4115-as-saudi-attacks-fuel-inflation-fed-outlook-in-focus-4964496",
+   "t": "22 Oct \u00b7 06:49 AM"
+  },
+  {
+   "ts": 1792633766.788693,
    "title": "Gold prices tick up slightly amid small moves in the dollar and an advance in oil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4110-as-iran-peace-hopes-fade-fed-rate-outlook-clouds-demand-4961463",
-   "t": "22 Oct \u00b7 04:37 AM"
+   "t": "22 Oct \u00b7 06:49 AM"
   },
   {
    "ts": 1792581658.0,
@@ -440,11 +447,11 @@
   }
  ],
  "sentiment": {
-  "value": 63,
+  "value": 68,
   "label": "Greed"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 3/3 failed"
+  "translate: 4/4 failed"
  ]
 }
