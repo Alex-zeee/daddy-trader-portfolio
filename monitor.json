@@ -1,25 +1,13 @@
 {
- "updated": "23-10-2026 01:38 PKT",
+ "updated": "23-10-2026 04:35 PKT",
  "gold": {
-  "price": 4022.35,
-  "open": 4136.5,
-  "high": 4142.67,
+  "price": 4025.16,
+  "open": 4124.77,
+  "high": 4127.63,
   "low": 4020.47,
-  "chg": -2.76,
+  "chg": -2.41,
   "src": "XAUUSD Spot",
   "spark": [
-   4083.25,
-   4087.35,
-   4083.89,
-   4086.5,
-   4086.11,
-   4087.62,
-   4092.17,
-   4087.31,
-   4079.46,
-   4073.98,
-   4062.86,
-   4065.04,
    4057.55,
    4076.13,
    4073.05,
@@ -55,14 +43,26 @@
    4026.14,
    4023.75,
    4021.94,
-   4022.35
+   4023.47,
+   4024.59,
+   4024.32,
+   4024.29,
+   4024.16,
+   4025.12,
+   4028.37,
+   4029.87,
+   4032.25,
+   4027.76,
+   4025.94,
+   4027.97,
+   4025.16
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.615,
-   "chg": -4.89,
+   "price": 54.63,
+   "chg": -4.86,
    "spark": [
     64.382,
     63.457,
@@ -85,13 +85,13 @@
     56.974,
     57.706,
     57.422,
-    54.615
+    54.63
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.648,
-   "chg": -0.13,
+   "price": 101.617,
+   "chg": -0.16,
    "spark": [
     101.1,
     101.29,
@@ -114,13 +114,13 @@
     101.98,
     101.73,
     101.78,
-    101.648
+    101.617
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 99.07,
-   "chg": 1.98,
+   "price": 99.33,
+   "chg": 2.24,
    "spark": [
     92.16,
     94.61,
@@ -143,7 +143,7 @@
     103.66,
     101.79,
     97.15,
-    99.07
+    99.33
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1217,
+   "price": 1.1225,
    "chg": -0.09,
    "spark": [
-    1.1448,
     1.1382,
     1.1375,
     1.1378,
@@ -201,44 +200,15 @@
     1.1225,
     1.1216,
     1.1227,
-    1.1217
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3398,
-   "chg": 0.18,
-   "spark": [
-    1.3343,
-    1.3242,
-    1.3211,
-    1.3229,
-    1.3254,
-    1.3233,
-    1.3264,
-    1.32,
-    1.3243,
-    1.3219,
-    1.3267,
-    1.3215,
-    1.3229,
-    1.3242,
-    1.321,
-    1.3257,
-    1.323,
-    1.3273,
-    1.3336,
-    1.3308,
-    1.3373,
-    1.3398
+    1.1235,
+    1.1225
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.812,
-   "chg": -0.92,
+   "price": 156.575,
+   "chg": -0.98,
    "spark": [
-    157.464,
     158.265,
     158.811,
     157.463,
@@ -259,17 +229,15 @@
     157.806,
     158.523,
     158.268,
-    156.812
+    158.132,
+    156.575
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2378.87,
-   "chg": -3.77,
+   "price": 2379.07,
+   "chg": -3.76,
    "spark": [
-    2454.71,
-    2453.64,
-    2446.73,
     2450.42,
     2452.95,
     2445.75,
@@ -314,17 +282,17 @@
     2377.06,
     2381.63,
     2384.14,
-    2378.87
+    2380.07,
+    2390.58,
+    2382.42,
+    2379.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81211.3,
-   "chg": -3.35,
+   "price": 81220.1,
+   "chg": -3.34,
    "spark": [
-    82879.2,
-    83017.8,
-    82936.1,
     82935.8,
     82908.1,
     82714.0,
@@ -369,7 +337,10 @@
     81102.4,
     81275.8,
     81404.5,
-    81211.3
+    81181.3,
+    81381.4,
+    81246.2,
+    81220.1
    ]
   }
  ],
@@ -410,20 +381,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792701490.058078,
+   "ts": 1792712100.228292,
+   "title": "Spot gold hits three-month low amid risk-off moves, climb in oil prices",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4115-as-saudi-attacks-fuel-inflation-fed-outlook-in-focus-4964496",
+   "t": "23 Oct \u00b7 04:35 AM",
+   "ur": "Til ki qeemton mein azafe, rask af chalon ke darmiyan spat gold tin mah ki kam tarin sath par hai."
+  },
+  {
+   "ts": 1792712100.228292,
    "title": "Silver plunges to $54.655 new low, oversold but risky: Live levels",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-tests-bear-flag-at-5860-resistance-live-levels-93CH-4956490",
-   "t": "23 Oct \u00b7 01:38 AM",
+   "t": "23 Oct \u00b7 04:35 AM",
    "ur": "Silver (chandi) gar kar $54.655 nayi kam, ziyadah farokht hoi lican khatranak hai."
-  },
-  {
-   "ts": 1792701490.058078,
-   "title": "Gold oversold at $4,043 after breakdown below $4,130: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-stuck-below-4225-resistance-as-adx-signals-chop-live-levels-93CH-4956488",
-   "t": "23 Oct \u00b7 01:38 AM",
-   "ur": "Gold (sona) $4,130 se \u200b\u200bniche totne ke bad $4,043 par farokht hawa."
   },
   {
    "ts": 1792581658.0,
