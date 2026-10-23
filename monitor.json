@@ -1,35 +1,13 @@
 {
- "updated": "23-10-2026 11:37 PKT",
+ "updated": "23-10-2026 17:04 PKT",
  "gold": {
-  "price": 4014.25,
-  "open": 4090.54,
-  "high": 4101.39,
+  "price": 4023.69,
+  "open": 4075.74,
+  "high": 4091.89,
   "low": 3987.72,
-  "chg": -1.87,
+  "chg": -1.28,
   "src": "XAUUSD Spot",
   "spark": [
-   4030.85,
-   4029.48,
-   4027.34,
-   4022.98,
-   4026.14,
-   4023.75,
-   4021.94,
-   4023.47,
-   4024.59,
-   4024.32,
-   4024.29,
-   4024.16,
-   4025.12,
-   4028.37,
-   4029.87,
-   4032.25,
-   4027.76,
-   4025.94,
-   4027.97,
-   4025.29,
-   4023.79,
-   4024.28,
    4018.93,
    4018.53,
    4031.6,
@@ -55,14 +33,36 @@
    4023.59,
    4017.84,
    4014.77,
-   4014.25
+   4015.07,
+   4013.76,
+   4014.14,
+   4016.33,
+   4019.71,
+   4011.56,
+   4012.58,
+   4016.38,
+   4020.38,
+   4022.97,
+   4025.55,
+   4027.1,
+   4022.78,
+   4023.42,
+   4023.62,
+   4023.05,
+   4023.66,
+   4022.05,
+   4029.02,
+   4025.85,
+   4026.03,
+   4024.52,
+   4023.69
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.2,
-   "chg": -1.03,
+   "price": 53.96,
+   "chg": -1.47,
    "spark": [
     63.457,
     64.245,
@@ -85,13 +85,13 @@
     57.706,
     57.422,
     54.764,
-    54.2
+    53.96
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.655,
-   "chg": 0.04,
+   "price": 101.814,
+   "chg": 0.2,
    "spark": [
     101.29,
     100.97,
@@ -114,13 +114,13 @@
     101.73,
     101.78,
     101.61,
-    101.655
+    101.814
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 100.86,
-   "chg": 1.4,
+   "price": 100.8,
+   "chg": 1.34,
    "spark": [
     94.61,
     92.41,
@@ -143,7 +143,7 @@
     101.79,
     97.15,
     99.47,
-    100.86
+    100.8
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1216,
-   "chg": -0.17,
+   "price": 1.1192,
+   "chg": -0.38,
    "spark": [
     1.1382,
     1.1375,
@@ -201,13 +201,13 @@
     1.1216,
     1.1227,
     1.1235,
-    1.1216
+    1.1192
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3391,
-   "chg": -0.04,
+   "price": 1.3367,
+   "chg": -0.22,
    "spark": [
     1.3242,
     1.3211,
@@ -230,13 +230,13 @@
     1.3308,
     1.3373,
     1.3396,
-    1.3391
+    1.3367
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.057,
-   "chg": -0.68,
+   "price": 156.849,
+   "chg": -0.81,
    "spark": [
     158.265,
     158.811,
@@ -259,20 +259,14 @@
     158.523,
     158.268,
     158.132,
-    157.057
+    156.849
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2401.62,
-   "chg": 0.64,
+   "price": 2397.86,
+   "chg": 0.48,
    "spark": [
-    2453.33,
-    2450.66,
-    2453.03,
-    2454.41,
-    2466.33,
-    2465.88,
     2470.29,
     2494.41,
     2510.39,
@@ -314,20 +308,20 @@
     2407.88,
     2390.84,
     2400.84,
-    2401.62
+    2406.68,
+    2397.85,
+    2403.26,
+    2395.94,
+    2394.65,
+    2400.15,
+    2397.86
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81721.0,
-   "chg": 0.5,
+   "price": 81586.2,
+   "chg": 0.33,
    "spark": [
-    83053.1,
-    83151.9,
-    83330.8,
-    83300.1,
-    83400.1,
-    83398.3,
     83724.7,
     84496.7,
     84468.7,
@@ -369,7 +363,13 @@
     81775.3,
     81472.1,
     81728.5,
-    81721.0
+    81779.2,
+    81449.9,
+    81656.4,
+    81554.2,
+    81588.2,
+    81621.5,
+    81586.2
    ]
   }
  ],
@@ -410,32 +410,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792737473.805374,
-   "title": "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop",
+   "ts": 1792757049.138558,
+   "title": "UBS sees dip buyers stepping in to support gold at this level",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hits-3mth-low-as-oil-rally-fuels-rate-concerns-set-for-weekly-drop-4967928",
-   "t": "23 Oct \u00b7 11:37 AM"
+   "link": "https://www.investing.com/news/commodities-news/ubs-sees-dip-buyers-stepping-in-to-support-gold-at-this-level-4968750",
+   "t": "23 Oct \u00b7 05:04 PM",
+   "ur": "UBS is sath par Gold (sone) ko sport karne ke liye ddip khareedaron ko qadam athate huvay dekhta hai."
   },
   {
-   "ts": 1792737473.805374,
-   "title": "Spot gold hits three-month low amid risk-off moves, climb in oil prices",
+   "ts": 1792757049.138558,
+   "title": "Gold on track for sharp weekly drop as oil price surge fuels rate concerns",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4115-as-saudi-attacks-fuel-inflation-fed-outlook-in-focus-4964496",
-   "t": "23 Oct \u00b7 11:37 AM"
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-3mth-low-as-oil-rally-fuels-rate-concerns-set-for-weekly-drop-4967928",
+   "t": "23 Oct \u00b7 05:04 PM",
+   "ur": "Til ki qeemat mein azafe ke andhan ki rate ke khadshat ke baas Gold (sona) tizi se haftah war garaut ke raaste par hai."
+  },
+  {
+   "ts": 1792757049.138558,
+   "title": "Silver breaks $56 support at 5-month low: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-tests-bear-flag-at-5860-resistance-live-levels-93CH-4956490",
+   "t": "23 Oct \u00b7 05:04 PM",
+   "ur": "Silver (chandi) ne 5 mah ki kam tarin sath par $56 ki support ko tod diya."
   },
   {
    "ts": 1792581658.0,
    "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-   "t": "21 Oct \u00b7 04:20 PM"
+   "t": "21 Oct \u00b7 04:20 PM",
+   "ur": "Houseng antabahi alamat ko chamka raha hai jas tarah fed sud ki rate mein mazid azafe ka wazin karta hai."
   },
   {
    "ts": 1792569010.0,
    "title": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
-   "t": "21 Oct \u00b7 12:50 PM"
+   "t": "21 Oct \u00b7 12:50 PM",
+   "ur": "Uk inflation (mehngai) 3.5% tak pohch gaya - rate mein azafe ki toqaat ko badhata hai."
   }
  ],
  "sentiment": {
@@ -443,7 +455,6 @@
   "label": "Neutral"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 4/4 failed"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
