@@ -1,32 +1,13 @@
 {
- "updated": "23-10-2026 06:55 PKT",
+ "updated": "23-10-2026 11:37 PKT",
  "gold": {
-  "price": 4001.9,
-  "open": 4114.57,
-  "high": 4124.22,
-  "low": 4000.8,
-  "chg": -2.74,
+  "price": 4014.25,
+  "open": 4090.54,
+  "high": 4101.39,
+  "low": 3987.72,
+  "chg": -1.87,
   "src": "XAUUSD Spot",
   "spark": [
-   4050.78,
-   4049.47,
-   4058.52,
-   4062.69,
-   4056.98,
-   4053.21,
-   4050.69,
-   4051.73,
-   4047.74,
-   4049.05,
-   4041.47,
-   4037.52,
-   4039.71,
-   4044.35,
-   4045.1,
-   4046.35,
-   4038.24,
-   4036.73,
-   4033.09,
    4030.85,
    4029.48,
    4027.34,
@@ -55,16 +36,34 @@
    4012.44,
    4014.26,
    4012.07,
-   4001.9
+   3994.9,
+   4010.02,
+   4014.42,
+   4018.76,
+   4018.11,
+   4015.35,
+   4018.77,
+   4015.48,
+   4016.07,
+   4010.69,
+   4006.4,
+   4004.89,
+   4005.07,
+   4014.5,
+   4010.24,
+   4025.01,
+   4023.59,
+   4017.84,
+   4014.77,
+   4014.25
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.175,
-   "chg": -5.65,
+   "price": 54.2,
+   "chg": -1.03,
    "spark": [
-    64.382,
     63.457,
     64.245,
     61.22,
@@ -85,15 +84,15 @@
     56.974,
     57.706,
     57.422,
-    54.175
+    54.764,
+    54.2
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.602,
-   "chg": -0.17,
+   "price": 101.655,
+   "chg": 0.04,
    "spark": [
-    101.1,
     101.29,
     100.97,
     101.2,
@@ -114,15 +113,15 @@
     101.98,
     101.73,
     101.78,
-    101.602
+    101.61,
+    101.655
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 99.9,
-   "chg": 2.83,
+   "price": 100.86,
+   "chg": 1.4,
    "spark": [
-    92.16,
     94.61,
     92.41,
     92.6,
@@ -143,7 +142,8 @@
     103.66,
     101.79,
     97.15,
-    99.9
+    99.47,
+    100.86
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3397,
-   "chg": 0.01,
+   "price": 1.3391,
+   "chg": -0.04,
    "spark": [
     1.3242,
     1.3211,
@@ -230,13 +230,13 @@
     1.3308,
     1.3373,
     1.3396,
-    1.3397
+    1.3391
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.767,
-   "chg": -0.86,
+   "price": 157.057,
+   "chg": -0.68,
    "spark": [
     158.265,
     158.811,
@@ -259,19 +259,14 @@
     158.523,
     158.268,
     158.132,
-    156.767
+    157.057
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2392.59,
-   "chg": 0.26,
+   "price": 2401.62,
+   "chg": 0.64,
    "spark": [
-    2445.75,
-    2441.56,
-    2442.19,
-    2436.28,
-    2437.14,
     2453.33,
     2450.66,
     2453.03,
@@ -314,19 +309,19 @@
     2382.42,
     2386.08,
     2392.07,
-    2392.59
+    2390.18,
+    2412.8,
+    2407.88,
+    2390.84,
+    2400.84,
+    2401.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 81370.5,
-   "chg": 0.07,
+   "price": 81721.0,
+   "chg": 0.5,
    "spark": [
-    82714.0,
-    82637.1,
-    82715.4,
-    82579.1,
-    82688.6,
     83053.1,
     83151.9,
     83330.8,
@@ -369,7 +364,12 @@
     81246.2,
     81315.9,
     81354.6,
-    81370.5
+    81242.6,
+    81856.8,
+    81775.3,
+    81472.1,
+    81728.5,
+    81721.0
    ]
   }
  ],
@@ -410,28 +410,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792720504.066037,
+   "ts": 1792737473.805374,
+   "title": "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hits-3mth-low-as-oil-rally-fuels-rate-concerns-set-for-weekly-drop-4967928",
+   "t": "23 Oct \u00b7 11:37 AM"
+  },
+  {
+   "ts": 1792737473.805374,
    "title": "Spot gold hits three-month low amid risk-off moves, climb in oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-near-4115-as-saudi-attacks-fuel-inflation-fed-outlook-in-focus-4964496",
-   "t": "23 Oct \u00b7 06:55 AM",
-   "ur": "Til ki qeemton mein azafe, rask af aqdamat ke darmiyan spat gold tin mah ki kam tarin sath par hai."
+   "t": "23 Oct \u00b7 11:37 AM"
   },
   {
    "ts": 1792581658.0,
    "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-   "t": "21 Oct \u00b7 04:20 PM",
-   "ur": "Houseng antabahi alamat ko chamka raha hai jas tarah fed sud ki rate mein mazid azafe ka wazin karta hai."
+   "t": "21 Oct \u00b7 04:20 PM"
   },
   {
    "ts": 1792569010.0,
    "title": "UK inflation jumps to 3.5% \u2014 cementing rate hike expectations",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
-   "t": "21 Oct \u00b7 12:50 PM",
-   "ur": "Uk inflation (mehngai) 3.5% tak pohch gaya - rate mein azafe ki toqaat ko badhata hai."
+   "t": "21 Oct \u00b7 12:50 PM"
   }
  ],
  "sentiment": {
@@ -439,6 +443,7 @@
   "label": "Neutral"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "translate: 4/4 failed"
  ]
 }
