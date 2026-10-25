@@ -78,21 +78,24 @@ SYMBOLS = {
 }
 
 ERRORS = []
+LAST_ERR = {}
 
 
-def http_get(url, tries=4):
+def http_get(url, tries=3):
     for k in range(tries):
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=40) as r:
+            with urllib.request.urlopen(req, timeout=20) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return b""
+            LAST_ERR["e"] = "HTTP %s" % e.code
             time.sleep(1.5 * (k + 1))
-        except Exception:
+        except Exception as e:
+            LAST_ERR["e"] = repr(e)[:150]
             time.sleep(1.5 * (k + 1))
-    ERRORS.append("download fail: " + url)
+    ERRORS.append("download fail: %s (%s)" % (url, LAST_ERR.get("e")))
     return None
 
 
@@ -254,8 +257,18 @@ def collect(code, start, now):
                 raw.extend(bars)
             h += timedelta(hours=1)
 
-    for d in days:
+    fails = 0
+    for i, d in enumerate(days):
+        if i and d.day == 1:
+            print("  %s %s..." % (code, d.strftime("%Y-%m")), flush=True)
         bars = day_candles(duka, d)
+        if bars is None:
+            fails += 1
+            if fails >= 8:
+                print("  %s: download baar baar fail, chhor diya (%s)" % (code, LAST_ERR.get("e")), flush=True)
+                return raw
+            continue
+        fails = 0
         if bars:
             raw.extend(bars)
         elif today - d <= timedelta(days=2):
@@ -323,8 +336,28 @@ def update_symbol(code, idx, now, backfill):
     return code, info, "%d naye bars" % len(bars)
 
 
+def probe():
+    """Shuru mein ek file test karo, taake masla foran log mein nazar aaye."""
+    d = datetime.now(UTC) - timedelta(days=3)
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    url = "%s/EURUSD/%04d/%02d/%02d/BID_candles_min_1.bi5" % (FEED, d.year, d.month - 1, d.day)
+    raw = http_get(url)
+    if raw is None:
+        print("TEST FAIL:", url, LAST_ERR.get("e"), flush=True)
+        sys.exit(1)
+    data = unlzma(raw)
+    print("TEST:", url, "bytes", len(raw), "->", len(data), flush=True)
+    if len(data) >= 24:
+        print("TEST first record:", struct.unpack(">IIIIIf", data[:24]), flush=True)
+    else:
+        print("TEST: data khaali hai (galat URL ya format?)", flush=True)
+        sys.exit(1)
+
+
 def main():
     backfill = "--backfill" in sys.argv
+    probe()
     only = [a for a in sys.argv[1:] if not a.startswith("--")]
     now = datetime.now(UTC)
     idx = load_index()
