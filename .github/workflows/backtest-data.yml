@@ -23,6 +23,8 @@ jobs:
     timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -41,7 +43,8 @@ jobs:
           if git diff --cached --quiet; then echo "Kuch naya nahi"; exit 0; fi
           git commit -q -m "backtest data update"
           for i in 1 2 3 4 5; do
-            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
             sleep $((i * 7))
           done
           echo "Push nahi ho saka"; exit 1
