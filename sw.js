@@ -1,8 +1,9 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v4';
+const CACHE = 'daddytrader-v5';
 const ASSETS = [
   './',
   './index.html',
+  './backtest.html',
   './logo.webp',
   './favicon.png',
   './profile.webp',
