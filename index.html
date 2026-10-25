@@ -858,10 +858,23 @@ section h2::after{content:'';display:block;width:64px;height:3px;margin-top:12px
 .nx-meta{display:block;color:#ffb02e;font-size:.6rem;letter-spacing:.08em;font-weight:700}
 @media(max-width:980px){.newsx-grid{grid-template-columns:1fr}}
 </style>
+<style>
+/* V6: hero buttons card ke left side, upar neeche ek column mein */
+@media (min-width:1180px){
+  header.hero{ padding-left:232px; }
+  header.hero .hero-actions{
+    position:absolute; right:calc(100% + 22px); top:50%; transform:translateY(-50%);
+    flex-direction:column; flex-wrap:nowrap; width:190px; gap:14px; margin:0; z-index:2;
+  }
+  header.hero .hero-actions .btn{ display:block; width:100%; text-align:center; padding:13px 10px; font-size:14px; white-space:nowrap; }
+}
+@media (min-width:901px) and (max-width:1179px){
+  header.hero .hero-actions{ max-width:52%; }
+}
+</style>
 </head>
 <body>
 
-<div id="tape"><div class="tape-track" id="tape-track"><span class="tape-live">● LIVE MARKET</span><span class="tape-item">Loading live prices…</span></div></div>
 
 <nav>
   <div class="wrap">
