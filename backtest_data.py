@@ -10,8 +10,12 @@ Dukascopy ke public historical datafeed se forex, metals, indices aur oil ka
 CSV line: unix_seconds,open,high,low,close,volume
 
 Chalane ka tareeqa:
-  python backtest_data.py            # sirf naya data jodo (har 30 min)
-  python backtest_data.py --backfill # pehli dafa poora purana data
+  python backtest_data.py            # naya data + thora purana (har 30 min, ~40 min tak)
+  python backtest_data.py --backfill # zyada der tak purana data bharo
+
+Har run pehle har symbol ka naya data laata hai, phir waqt bache to peeche ki
+taraf purana data thora thora bharta hai. Is tarah Dukascopy dheema bhi ho to
+website par naya data foran aa jata hai aur purana waqt ke saath poora hota hai.
 """
 import concurrent.futures as cf
 import csv
@@ -33,7 +37,8 @@ FEED = "https://datafeed.dukascopy.com/datafeed"
 UA = {"User-Agent": "Mozilla/5.0 (DaddyTrader BackBar data robot)"}
 M1_MONTHS = 2      # kitne mahine 1-minute data rakhna hai
 M5_MONTHS = 12     # kitne mahine 5-minute data rakhna hai
-WORKERS = 6
+WORKERS = int(os.environ.get("WORKERS", "1"))  # ek waqt mein kitne downloads (Dukascopy zyada par timeout deta hai)
+CHUNK_DAYS = 12    # har baari purane data ke kitne din
 
 # code: (dukascopy id, naam, category, display decimals, andaaza price)
 SYMBOLS = {
@@ -81,20 +86,28 @@ ERRORS = []
 LAST_ERR = {}
 
 
+STATS = {"req": 0, "fail": 0, "sec": 0.0}
+
+
 def http_get(url, tries=3):
     for k in range(tries):
+        t0 = time.time()
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=20) as r:
-                return r.read()
+            with urllib.request.urlopen(req, timeout=15) as r:
+                data = r.read()
+            STATS["req"] += 1
+            STATS["sec"] += time.time() - t0
+            return data
         except urllib.error.HTTPError as e:
             if e.code == 404:
+                STATS["req"] += 1
                 return b""
             LAST_ERR["e"] = "HTTP %s" % e.code
-            time.sleep(1.5 * (k + 1))
         except Exception as e:
             LAST_ERR["e"] = repr(e)[:150]
-            time.sleep(1.5 * (k + 1))
+        STATS["fail"] += 1
+        time.sleep(2 * (k + 1))
     ERRORS.append("download fail: %s (%s)" % (url, LAST_ERR.get("e")))
     return None
 
@@ -238,65 +251,93 @@ def save_index(idx):
         json.dump(idx, f, separators=(",", ":"))
 
 
-def collect(code, start, now):
-    """start se ab tak ka 1-minute raw data (points)."""
+class OutOfTime(Exception):
+    pass
+
+
+START = time.time()
+BUDGET = 40 * 60
+
+
+def time_left():
+    return BUDGET - (time.time() - START)
+
+
+def utc_day(ts_or_dt):
+    d = ts_or_dt if isinstance(ts_or_dt, datetime) else datetime.fromtimestamp(ts_or_dt, UTC)
+    return datetime(d.year, d.month, d.day, tzinfo=UTC)
+
+
+def target_start(now):
+    y, m = now.year, now.month - (M5_MONTHS - 1)
+    while m <= 0:
+        y, m = y - 1, m + 12
+    return datetime(y, m, 1, tzinfo=UTC)
+
+
+def fetch_forward(code, start, now):
+    """start se ab tak (din ki files + aaj ke ghante ticks se)."""
     duka = SYMBOLS[code][0]
-    raw = []
-    today = datetime(now.year, now.month, now.day, tzinfo=UTC)
-    day = datetime(start.year, start.month, start.day, tzinfo=UTC)
-    days = []
-    while day < today:
-        if day.weekday() != 5:  # Saturday ko market band
-            days.append(day)
-        day += timedelta(days=1)
-    def ticks_range(h0, h1):
+    raw, fails = [], 0
+    today = utc_day(now)
+    day = utc_day(start)
+
+    def ticks(h0, h1):
         h = datetime(h0.year, h0.month, h0.day, h0.hour, tzinfo=UTC)
-        while h < h1:
+        while h < h1 and time_left() > 0:
             bars = hour_ticks_to_m1(duka, h)
             if bars:
                 raw.extend(bars)
             h += timedelta(hours=1)
 
-    fails = 0
-    for i, d in enumerate(days):
-        if i and d.day == 1:
-            print("  %s %s..." % (code, d.strftime("%Y-%m")), flush=True)
-        bars = day_candles(duka, d)
-        if bars is None:
-            fails += 1
-            if fails >= 8:
-                print("  %s: download baar baar fail, chhor diya (%s)" % (code, LAST_ERR.get("e")), flush=True)
-                return raw
-            continue
-        fails = 0
-        if bars:
-            raw.extend(bars)
-        elif today - d <= timedelta(days=2):
-            # din wali file abhi nahi bani: us din ke ghante ticks se banao
-            ticks_range(max(start, d), d + timedelta(days=1))
-    # aaj ke mukammal ghante ticks se
-    last_full = datetime(now.year, now.month, now.day, now.hour, tzinfo=UTC)
-    ticks_range(max(start, today), last_full)
-    return raw
+    while day < today and time_left() > 0:
+        if day.weekday() != 5:
+            bars = day_candles(duka, day)
+            if bars is None:
+                fails += 1
+                if fails >= 6:
+                    return raw, False
+            elif bars:
+                fails = 0
+                raw.extend(bars)
+            elif today - day <= timedelta(days=2):
+                ticks(max(start, day), day + timedelta(days=1))
+        day += timedelta(days=1)
+    ticks(max(start, today), datetime(now.year, now.month, now.day, now.hour, tzinfo=UTC))
+    return raw, True
 
 
-def update_symbol(code, idx, now, backfill):
+def fetch_backward(code, frm, until):
+    """frm (pehle se mojood sab se purana din) se peeche, CHUNK_DAYS din tak.
+    Lautata hai: raw bars, naya 'from' din (jahan tak mukammal ho gaya)."""
+    duka = SYMBOLS[code][0]
+    raw, fails = [], 0
+    oldest_ok = frm
+    day = frm - timedelta(days=1)
+    stop = max(until, frm - timedelta(days=CHUNK_DAYS))
+    while day >= stop and time_left() > 0:
+        if day.weekday() != 5:
+            bars = day_candles(duka, day)
+            if bars is None:
+                fails += 1
+                if fails >= 4:
+                    break
+                day -= timedelta(days=1)
+                continue  # ye din chhoot gaya: 'from' isse aage nahi badhega
+            if bars:
+                raw.extend(bars)
+        if fails == 0:
+            oldest_ok = day
+        day -= timedelta(days=1)
+    return raw, oldest_ok
+
+
+def store(code, info, raw, now):
+    """raw points ko asal price bana kar month files mein jodo; info update karo."""
     duka, name, cat, dec, expect = SYMBOLS[code]
-    info = idx["symbols"].get(code, {})
-    last = info.get("last", 0)
-    if backfill or not last:
-        y, m = now.year, now.month - (M5_MONTHS - 1)
-        while m <= 0:
-            y, m = y - 1, m + 12
-        start = datetime(y, m, 1, tzinfo=UTC)
-    else:
-        start = datetime.fromtimestamp(last, UTC) - timedelta(hours=2)
-    raw = collect(code, start, now)
-    if not raw:
-        return code, info, "koi naya data nahi"
-    div = scale_for(raw, expect)
+    div = info.get("div") or scale_for(raw, expect)
     if not div:
-        return code, info, "scale nahi mila"
+        return info
     raw.sort(key=lambda b: b[0])
     bars = [(b[0], b[1] / div, b[2] / div, b[3] / div, b[4] / div, b[5]) for b in raw]
     keep_m1 = set(months_back(M1_MONTHS, now))
@@ -313,27 +354,79 @@ def update_symbol(code, idx, now, backfill):
             m5 = merge(read_month(code, "m5", key), to_m5(mb))
         if key in keep_m5:
             write_month(code, "m5", key, m5, dec)
-    # purani files hatao
     for res, keep in (("m1", keep_m1), ("m5", keep_m5)):
         d = sym_dir(code, res)
         if os.path.isdir(d):
             for fn in os.listdir(d):
                 if fn.endswith(".csv") and fn[:-4] not in keep:
                     os.remove(os.path.join(d, fn))
+
     def listed(res):
         d = sym_dir(code, res)
         return sorted(fn[:-4] for fn in os.listdir(d) if fn.endswith(".csv")) if os.path.isdir(d) else []
-    newest = max(last, bars[-1][0])
+
     m5_list = listed("m5")
+    if not m5_list:
+        return info
     recent = []
     for key in m5_list[-2:]:
         recent.extend(read_month(code, "m5", key))
-    price = recent[-1][4] if recent else bars[-1][4]
+    newest = recent[-1][0]
+    price = recent[-1][4]
     ago = [b for b in recent if b[0] <= newest - 86400]
     chg = round((price - ago[-1][4]) / ago[-1][4] * 100, 2) if ago and ago[-1][4] else None
-    info = {"name": name, "cat": cat, "dec": dec, "m1": listed("m1"), "m5": m5_list,
-            "last": newest, "price": round(price, dec), "chg": chg, "div": div}
-    return code, info, "%d naye bars" % len(bars)
+    out = dict(info)
+    out.update({"name": name, "cat": cat, "dec": dec, "m1": listed("m1"), "m5": m5_list,
+                "last": newest, "price": round(price, dec), "chg": chg, "div": div})
+    return out
+
+
+def step_forward(code, info, now):
+    last = info.get("last", 0)
+    if last:
+        start = datetime.fromtimestamp(last, UTC) - timedelta(hours=2)
+    else:
+        start = utc_day(now) - timedelta(days=4)  # naya symbol: pehle aakhri kuch din
+    raw, ok = fetch_forward(code, start, now)
+    if raw:
+        info = store(code, info, raw, now)
+        if "from" not in info:
+            info["from"] = int(utc_day(start).timestamp())
+    msg = "%d naye bars%s" % (len(raw), "" if ok else " (kuch downloads fail)")
+    return info, msg
+
+
+def step_backward(code, info, now):
+    frm = datetime.fromtimestamp(info["from"], UTC)
+    raw, oldest = fetch_backward(code, frm, target_start(now))
+    if raw:
+        info = store(code, info, raw, now)
+    info = dict(info)
+    info["from"] = int(oldest.timestamp())
+    return info, "purana data ab %s se" % oldest.strftime("%Y-%m-%d")
+
+
+def needs_back(info, now):
+    return "from" in info and info.get("last") and info["from"] > target_start(now).timestamp()
+
+
+def run_round(idx, codes, fn, now, label):
+    with cf.ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        futs = {ex.submit(fn, c, dict(idx["symbols"].get(c, {})), now): c for c in codes}
+        for f in cf.as_completed(futs):
+            c = futs[f]
+            try:
+                info, msg = f.result()
+                if info:
+                    idx["symbols"][c] = info
+                print("%s %s: %s" % (label, c, msg), flush=True)
+            except Exception as e:
+                ERRORS.append("%s %s" % (c, repr(e)[:200]))
+                print("ERROR", c, repr(e)[:200], flush=True)
+    save_index(idx)
+    r = STATS["req"] or 1
+    print("   [%d downloads, %d fail, avg %.1fs, %d min baqi]" % (
+        STATS["req"], STATS["fail"], STATS["sec"] / r, max(0, time_left()) // 60), flush=True)
 
 
 def probe():
@@ -342,39 +435,42 @@ def probe():
     while d.weekday() >= 5:
         d -= timedelta(days=1)
     url = "%s/EURUSD/%04d/%02d/%02d/BID_candles_min_1.bi5" % (FEED, d.year, d.month - 1, d.day)
+    t0 = time.time()
     raw = http_get(url)
     if raw is None:
-        print("TEST FAIL:", url, LAST_ERR.get("e"), flush=True)
-        sys.exit(1)
+        print("TEST: download fail (%s) - phir bhi koshish jaari" % LAST_ERR.get("e"), flush=True)
+        return
     data = unlzma(raw)
-    print("TEST:", url, "bytes", len(raw), "->", len(data), flush=True)
-    if len(data) >= 24:
-        print("TEST first record:", struct.unpack(">IIIIIf", data[:24]), flush=True)
-    else:
+    print("TEST: %s bytes %d -> %d (%.1fs)" % (url, len(raw), len(data), time.time() - t0), flush=True)
+    if len(data) < 24:
         print("TEST: data khaali hai (galat URL ya format?)", flush=True)
         sys.exit(1)
 
 
 def main():
+    global BUDGET
     backfill = "--backfill" in sys.argv
-    probe()
     only = [a for a in sys.argv[1:] if not a.startswith("--")]
+    BUDGET = float(os.environ.get("BUDGET_MIN", "200" if backfill else "40")) * 60
+    probe()
     now = datetime.now(UTC)
     idx = load_index()
-    codes = only or list(SYMBOLS)
-    with cf.ThreadPoolExecutor(max_workers=WORKERS if backfill else 8) as ex:
-        futs = [ex.submit(update_symbol, c, idx, now, backfill) for c in codes]
-        for f in cf.as_completed(futs):
-            try:
-                code, info, msg = f.result()
-                if info:
-                    idx["symbols"][code] = info
-                print(code, msg, flush=True)
-            except Exception as e:
-                ERRORS.append(repr(e)[:200])
-                print("ERROR", repr(e)[:200], flush=True)
-    idx["updated"] = int(now.timestamp())
     idx["order"] = list(SYMBOLS)
+    codes = only or list(SYMBOLS)
+    # 1) har symbol ka naya data
+    run_round(idx, codes, step_forward, now, "NAYA")
+    # 2) waqt bache to purana data, round-robin
+    while time_left() > 60:
+        todo = [c for c in codes if needs_back(idx["symbols"].get(c, {}), now)]
+        if not todo:
+            print("Sab symbols ka poora purana data aa gaya.", flush=True)
+            break
+        before = {c: idx["symbols"][c]["from"] for c in todo}
+        run_round(idx, todo, step_backward, now, "PURANA")
+        if all(idx["symbols"][c]["from"] == before[c] for c in todo):
+            print("Is round mein koi taraqqi nahi hui (downloads fail), agli dafa phir koshish.", flush=True)
+            break
+    idx["updated"] = int(now.timestamp())
     save_index(idx)
     if ERRORS:
         print("\n%d errors (pehle 20):" % len(ERRORS))
