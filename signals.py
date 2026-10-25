@@ -1,18 +1,18 @@
-"""Daddy Trader auto-signal bot v6 — Liquidity to Liquidity.
-Rule (Ali ka system, pure price action):
-  BUY : price neeche wali liquidity (swing low) SWEEP kare aur wohi candle
-        pichli red candle ke OPEN se UPAR close ho (engulf close-back).
-        SL sweep wick ke neeche. TP = agla UPAR wala liquidity pool,
-        magar sirf tab jab kam az kam 1:2 milta ho.
-  SELL: bilkul ulta.
-Har 15 min scan. Koi indicator filter nahin.
+"""Daddy Trader auto-signal bot v7 — ICT Model 1.
+Rule (ict_engine.py mein poori tafseel):
+  H1 FVG (HTF POI) ko price tap kare -> M5 par BOS (displacement ke saath)
+  -> usi move ka FVG -> price wapas FVG mein aaye to entry.
+  SL sweep/tap wale extreme ke peeche. TP agli liquidity (kam az kam 1:2).
+  Sirf Asia, London aur New York sessions mein.
+Har 15 min scan, M5 candles.
 """
 import json
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
 import pandas as pd
-import yfinance as yf
+
+import ict_engine
 
 UA = {"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                      "AppleWebKit/537.36 Chrome/126 Safari/537.36")}
@@ -21,7 +21,9 @@ PKT = timezone(timedelta(hours=5))
 MIN_RR = 2.0
 MAX_SIGNALS = 8
 EXPIRE_HOURS = 12
-LOOKBACK = 120
+LOOKBACK = 1000          # M5 candles (~3.5 din) — H1 FVG aur pichle din ke levels ke liye
+LIVE_MODELS = ("M1",)
+NEW_WINDOW_MIN = 75      # itne minute ke andar bana signal hi naya mana jaye
 
 
 def _clean(df):
@@ -51,7 +53,7 @@ def _twelvedata():
     if not key:
         raise RuntimeError("TD_KEY missing")
     url = ("https://api.twelvedata.com/time_series?symbol=XAU/USD"
-           "&interval=15min&outputsize=300&timezone=UTC&apikey=" + key)
+           "&interval=5min&outputsize=1000&timezone=UTC&apikey=" + key)
     data = json.loads(_get(url))
     vals = data.get("values")
     if not vals:
@@ -69,8 +71,8 @@ def _twelvedata():
 def _dukascopy():
     # Asli spot XAU/USD (Swiss feed)
     url = ("https://freeserv.dukascopy.com/2.0/index.php?path=chart%2Fjson3"
-           "&instrument=XAU%2FUSD&offer_side=B&interval=15MIN"
-           "&limit=480&time_direction=N&jsonp=")
+           "&instrument=XAU%2FUSD&offer_side=B&interval=5MIN"
+           "&limit=1000&time_direction=N&jsonp=")
     txt = _get(url, {"Referer": "https://freeserv.dukascopy.com/2.0/"})
     txt = txt[txt.find("["): txt.rfind("]") + 1]
     rows = json.loads(txt)
@@ -85,7 +87,7 @@ def _dukascopy():
 
 def _kraken():
     # PAXG/USD — gold token, spot ke bohat qareeb
-    txt = _get("https://api.kraken.com/0/public/OHLC?pair=PAXGUSD&interval=15")
+    txt = _get("https://api.kraken.com/0/public/OHLC?pair=PAXGUSD&interval=5")
     data = json.loads(txt)
     res = data.get("result", {})
     key = next((k for k in res if k != "last"), None)
@@ -100,7 +102,7 @@ def _kraken():
 
 
 def _binance(base):
-    url = (base + "/api/v3/klines?symbol=PAXGUSDT&interval=15m&limit=480")
+    url = (base + "/api/v3/klines?symbol=PAXGUSDT&interval=5m&limit=1000")
     rows = json.loads(_get(url))
     df = pd.DataFrame(
         {"Open": [float(x[1]) for x in rows],
@@ -197,70 +199,29 @@ def liquidity_map(c, price):
     return {"above": above, "below": below}
 
 
-SWEEP_W = 3      # sweep window: aakhri 3 candles mein se koi bhi sweep kar sakti hai
+def to_m15(df):
+    return df.resample("15min", label="left", closed="left").agg(
+        {"Open": "first", "High": "max", "Low": "min", "Close": "last"}).dropna()
 
 
-def detect_signal(df):
-    c = df.iloc[:-1]                      # sirf closed candles
-    if len(c) < 40:
+def detect_signal(df, existing):
+    """ICT engine ko M5 closed candles par chalao; sirf taaza (naya) signal lo."""
+    c = df.iloc[:-1]                      # aakhri candle abhi bani nahi
+    sigs, _ = ict_engine.run(c, models=LIVE_MODELS)
+    if not sigs:
         return None
-    b = c.iloc[-1]                        # aakhri closed candle (engulf/close-back)
-    a = c.iloc[-2]
-    ts = c.index[-1]
-    atr = float(b["atr"]) if b["atr"] == b["atr"] else 0
-    pad = 0.25 * atr
-    min_risk = max(2.0, 0.25 * atr)       # $1 wale spread-khaane wale SL reject
-    n = len(c)
-    w0 = n - SWEEP_W                      # window start index
-    # swings sirf window se PEHLE ke (warna sweep khud ko hi level bana leta)
-    highs, lows = find_swings(c.iloc[:w0])
-    H, L = c["High"].values, c["Low"].values
-    win_low = float(L[w0:].min())
-    win_high = float(H[w0:].max())
-
-    # BUY: pichhli 1-3 candles mein sell-side liquidity sweep hui,
-    #      aur b (green) engulf kar ke level ke UPAR close-back de
-    if b["Close"] > b["Open"] and a["Close"] < a["Open"] and float(b["Close"]) > float(a["Open"]):
-        swept = None
-        for i, p in lows:
-            if i <= w0 - 2 and win_low < p and float(b["Close"]) > p:
-                mids = L[i+3:w0]
-                if len(mids) == 0 or mids.min() > p:      # window se pehle intact tha
-                    if swept is None or p > swept:
-                        swept = p
-        if swept is not None:
-            entry = round(float(b["Close"]), 2)
-            sl = round(win_low - pad, 2)
-            risk = entry - sl
-            if risk >= min_risk:
-                pools = [p for _, p in highs if p > entry + MIN_RR * risk]
-                if pools:
-                    tp = round(min(pools), 2)             # nazdeeki pool jo 1:2 de
-                    return _sig(ts, "BUY", entry, sl, tp, swept)
-
-    # SELL: pichhli 1-3 candles mein buy-side liquidity sweep hui,
-    #       aur b (red) engulf kar ke level ke NEECHE close-back de
-    if b["Close"] < b["Open"] and a["Close"] > a["Open"] and float(b["Close"]) < float(a["Open"]):
-        swept = None
-        for i, p in highs:
-            if i <= w0 - 2 and win_high > p and float(b["Close"]) < p:
-                mids = H[i+3:w0]
-                if len(mids) == 0 or mids.max() < p:
-                    if swept is None or p < swept:
-                        swept = p
-        if swept is not None:
-            entry = round(float(b["Close"]), 2)
-            sl = round(win_high + pad, 2)
-            risk = sl - entry
-            if risk >= min_risk:
-                pools = [p for _, p in lows if p < entry - MIN_RR * risk]
-                if pools:
-                    tp = round(max(pools), 2)
-                    return _sig(ts, "SELL", entry, sl, tp, swept)
-    return None
+    s = sigs[-1]
+    ts = s["ts"]
+    now = datetime.now(timezone.utc)
+    if (now - ts.to_pydatetime()) > timedelta(minutes=NEW_WINDOW_MIN):
+        return None
+    if any(x.get("ts") == ts.isoformat() for x in existing):
+        return None
+    note = "ICT {}: {}".format(ict_engine.MODEL_NAMES[s["model"]], s["why"])
+    return _sig(ts, s["type"], s["entry"], s["sl"], s["tp"], note)
 
 
-def _sig(ts, typ, entry, sl, tp, swept):
+def _sig(ts, typ, entry, sl, tp, note):
     return {
         "ts": ts.isoformat(),
         "date": ts.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
@@ -270,8 +231,7 @@ def _sig(ts, typ, entry, sl, tp, swept):
         "sl": sl,
         "tp": tp,
         "status": "Active",
-        "note": ("Auto: liquidity sweep @ " + str(round(swept, 2)) +
-                 " + engulf close-back — target next liquidity (min 1:2)"),
+        "note": note,
     }
 
 
@@ -348,16 +308,14 @@ def main():
 
     df, src = fetch_gold()
     if df is not None:
-        df = add_indicators(df)
         df = df.iloc[-LOOKBACK:]
         update_statuses(sigs, df)
-        new_sig = detect_signal(df)
-        if new_sig and not any(s.get("ts") == new_sig["ts"] for s in sigs):
+        new_sig = detect_signal(df, sigs)
+        if new_sig:
             sigs.append(new_sig)
-        else:
-            new_sig = None
-        bias = market_bias(df)
-        liq = liquidity_map(df.iloc[:-1], float(df.iloc[-2]["Close"]))
+        m15 = add_indicators(to_m15(df))
+        bias = market_bias(m15)
+        liq = liquidity_map(m15.iloc[:-1], float(m15.iloc[-2]["Close"]))
     now = datetime.now(timezone.utc)
 
     def fresh(s):
