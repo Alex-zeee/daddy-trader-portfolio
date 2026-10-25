@@ -19,16 +19,17 @@ website par naya data foran aa jata hai aur purana waqt ke saath poora hota hai.
 """
 import concurrent.futures as cf
 import csv
+import http.client
 import io
 import json
 import lzma
 import math
 import os
+import socket
 import struct
 import sys
+import threading
 import time
-import urllib.error
-import urllib.request
 from datetime import datetime, timedelta, timezone
 
 UTC = timezone.utc
@@ -87,25 +88,72 @@ LAST_ERR = {}
 
 
 STATS = {"req": 0, "fail": 0, "sec": 0.0}
+HOST = FEED.split("/")[2]
+_orig_getaddrinfo = socket.getaddrinfo
+_tls = threading.local()
+
+
+def pick_server():
+    """Dukascopy ke kai server address hain; kuch GitHub se jawab nahi dete.
+    Har address ko test karo aur sab se tez wala pakka kar do."""
+    try:
+        infos = _orig_getaddrinfo(HOST, 443, socket.AF_INET, socket.SOCK_STREAM)
+    except Exception as e:
+        print("DNS fail:", repr(e)[:100], flush=True)
+        return
+    ips = list(dict.fromkeys(i[4][0] for i in infos))
+    best = None
+    for ip in ips:
+        t0 = time.time()
+        try:
+            socket.create_connection((ip, 443), timeout=6).close()
+            dt = time.time() - t0
+            print("  server %s ok (%.2fs)" % (ip, dt), flush=True)
+            if best is None or dt < best[1]:
+                best = (ip, dt)
+        except Exception as e:
+            print("  server %s band (%s)" % (ip, type(e).__name__), flush=True)
+    if best:
+        ip = best[0]
+
+        def gai(host, *a, **k):
+            return _orig_getaddrinfo(ip if host == HOST else host, *a, **k)
+        socket.getaddrinfo = gai
+        print("Server chuna: %s" % ip, flush=True)
+
+
+def _conn():
+    c = getattr(_tls, "c", None)
+    if c is None:
+        c = http.client.HTTPSConnection(HOST, timeout=15)
+        _tls.c = c
+    return c
 
 
 def http_get(url, tries=3):
+    path = url.split(HOST, 1)[1]
     for k in range(tries):
         t0 = time.time()
+        c = _conn()
         try:
-            req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=15) as r:
-                data = r.read()
+            c.request("GET", path, headers=UA)
+            r = c.getresponse()
+            data = r.read()
+            if r.status == 404:
+                STATS["req"] += 1
+                return b""
+            if r.status != 200:
+                raise IOError("HTTP %d" % r.status)
             STATS["req"] += 1
             STATS["sec"] += time.time() - t0
             return data
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                STATS["req"] += 1
-                return b""
-            LAST_ERR["e"] = "HTTP %s" % e.code
         except Exception as e:
             LAST_ERR["e"] = repr(e)[:150]
+            try:
+                c.close()
+            except Exception:
+                pass
+            _tls.c = None
         STATS["fail"] += 1
         time.sleep(2 * (k + 1))
     ERRORS.append("download fail: %s (%s)" % (url, LAST_ERR.get("e")))
@@ -452,6 +500,7 @@ def main():
     backfill = "--backfill" in sys.argv
     only = [a for a in sys.argv[1:] if not a.startswith("--")]
     BUDGET = float(os.environ.get("BUDGET_MIN", "200" if backfill else "40")) * 60
+    pick_server()
     probe()
     now = datetime.now(UTC)
     idx = load_index()
