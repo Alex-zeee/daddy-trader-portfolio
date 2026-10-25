@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Backtest — Daddy Trader</title>
-<meta name="description" content="Daddy Trader BackBar: free bar replay backtesting chart for Gold (XAUUSD) aur doosre symbols.">
+<meta name="description" content="Daddy Trader BackBar: free bar replay backtesting chart — Forex, Gold, Indices, Oil aur Crypto.">
 <meta name="theme-color" content="#0e3b2e">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="manifest" href="manifest.json">
@@ -307,6 +307,15 @@ td { font-variant-numeric: tabular-nums; }
 .srch svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); }
 .srch .inp { padding-left: 36px; }
 .ind-list { display: flex; flex-direction: column; margin: 0 -18px; }
+.cat-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.cat-tabs button { border: 1px solid var(--line-2); background: transparent; border-radius: 16px; padding: 4px 12px; color: var(--fg-2); cursor: pointer; font-size: 12px; }
+.cat-tabs button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.sym-list { display: flex; flex-direction: column; margin: 0 -18px; }
+.sym-row { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 9px 18px; border: 0; border-bottom: 1px solid var(--line); background: transparent; text-align: left; cursor: pointer; color: var(--fg); }
+.sym-row:hover, .sym-row:focus-visible { background: var(--hover); }
+.sym-row b { font-weight: 600; }
+.sym-row span { color: var(--fg-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sym-row small { color: var(--muted); font-size: 11px; white-space: nowrap; }
 .ind-item { border: 0; background: transparent; text-align: left; padding: 9px 18px; cursor: pointer; display: flex; align-items: center; gap: 10px; }
 .ind-item:hover { background: var(--hover); }
 .ind-item small { color: var(--muted); margin-left: auto; }
@@ -495,17 +504,17 @@ td { font-variant-numeric: tabular-nums; }
             </div>
             <div class="grid2">
               <div class="fld">
-                <label class="chk" for="tkSlOn"><input type="checkbox" id="tkSlOn">Stop Loss ($)</label>
+                <label class="chk" for="tkSlOn"><input type="checkbox" id="tkSlOn">Stop Loss (<span id="tkSlU">price</span>)</label>
                 <input class="inp" type="number" id="tkSl" min="0" step="0.1" aria-label="Stop loss dollar door">
                 <span class="hint" id="tkSlHint"></span>
               </div>
               <div class="fld">
-                <label class="chk" for="tkTpOn"><input type="checkbox" id="tkTpOn">Take Profit ($)</label>
+                <label class="chk" for="tkTpOn"><input type="checkbox" id="tkTpOn">Take Profit (<span id="tkTpU">price</span>)</label>
                 <input class="inp" type="number" id="tkTp" min="0" step="0.1" aria-label="Take profit dollar door">
                 <span class="hint" id="tkTpHint"></span>
               </div>
             </div>
-            <p class="note" id="tkNote">SL aur TP entry price se dollar mein door hain. Chart par in ki lines kheench kar badal sakte hain.</p>
+            <p class="note" id="tkNote">SL aur TP entry price se kitni door hon. Forex mein pips, baqi mein price. Chart par in ki lines kheench kar bhi badal sakte hain.</p>
           </div>
           <div class="kv">
             <span>Balance</span><b id="kvBal">–</b>
@@ -580,7 +589,7 @@ td { font-variant-numeric: tabular-nums; }
       </div>
       <div data-spane="trading" hidden>
         <div class="row"><label for="setBal">Shuru ka balance ($)</label><input class="inp num" type="number" id="setBal" min="0" step="100"></div>
-        <div class="row"><label for="setContract">Contract size (1 lot)</label><input class="inp num" type="number" id="setContract" min="0.0001" step="1"></div>
+        <div class="row"><label for="setContract">Contract size (sirf upload kiye data ke liye)</label><input class="inp num" type="number" id="setContract" min="0.0001" step="1"></div>
         <div class="row"><label for="setSpread">Spread ($)</label><input class="inp num" type="number" id="setSpread" min="0" step="0.01"></div>
         <div class="row"><label for="setComm">Commission har lot ($)</label><input class="inp num" type="number" id="setComm" min="0" step="0.5"></div>
         <p class="note">Gold (XAUUSD) mein 1 lot = 100 oz hota hai, is liye $1 ka move 1 lot par $100 banta hai.</p>
@@ -596,6 +605,17 @@ td { font-variant-numeric: tabular-nums; }
     <div class="dlg-tabs" role="tablist" id="mDrawTabs"></div>
     <div class="dlg-body" id="drawSetBody"></div>
     <div class="dlg-foot"><button class="btn" type="button" data-close>Cancel</button><button class="btn primary" type="button" id="drawSetOk">Ok</button></div>
+  </div>
+</div>
+
+<div class="modal" id="mSym" hidden>
+  <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="mSymT">
+    <div class="dlg-head"><span id="mSymT">Symbol Search</span><button class="tb icon x" type="button" data-close aria-label="Band karein"><svg class="i" viewBox="0 0 20 20"><path d="M5 5l10 10M15 5L5 15"/></svg></button></div>
+    <div class="dlg-body" style="gap:12px">
+      <div class="srch"><svg class="i" viewBox="0 0 20 20"><circle cx="9" cy="9" r="5.5"/><path d="M13 13l4 4"/></svg><input class="inp" id="symSearch" type="search" placeholder="Symbol ya naam likhein, jaise EURUSD ya Gold" autocomplete="off"></div>
+      <div class="cat-tabs" id="symCats" role="group" aria-label="Category"></div>
+      <div class="sym-list" id="symList"></div>
+    </div>
   </div>
 </div>
 
@@ -1105,7 +1125,7 @@ td { font-variant-numeric: tabular-nums; }
 
   /* ================= legend ================= */
   const SYM_DESC = { XAUUSD: "Gold Spot / U.S. Dollar", XAGUSD: "Silver / U.S. Dollar", EURUSD: "Euro / U.S. Dollar", GBPUSD: "British Pound / U.S. Dollar", USDJPY: "U.S. Dollar / Japanese Yen", USDCHF: "U.S. Dollar / Swiss Franc", AUDUSD: "Australian Dollar / U.S. Dollar", NZDUSD: "New Zealand Dollar / U.S. Dollar", USDCAD: "U.S. Dollar / Canadian Dollar", GBPJPY: "British Pound / Japanese Yen", EURJPY: "Euro / Japanese Yen", EURGBP: "Euro / British Pound", BTCUSD: "Bitcoin / U.S. Dollar", ETHUSD: "Ethereum / U.S. Dollar", US30: "Dow Jones Industrial Average", NAS100: "Nasdaq 100", USTEC: "Nasdaq 100", US500: "S&P 500", SPX500: "S&P 500", UKOIL: "Brent Crude Oil", USOIL: "WTI Crude Oil", XTIUSD: "WTI Crude Oil", XBRUSD: "Brent Crude Oil" };
-  function symDesc(sym) { const u = String(sym).toUpperCase(); if (SYM_DESC[u]) return SYM_DESC[u]; const k = Object.keys(SYM_DESC).find((x) => u.startsWith(x)); return k ? SYM_DESC[k] : sym; }
+  function symDesc(sym) { const me = typeof MK !== "undefined" && MK.list.find((x) => x.code === sym); if (me) return me.name; const u = String(sym).toUpperCase(); if (SYM_DESC[u]) return SYM_DESC[u]; const k = Object.keys(SYM_DESC).find((x) => u.startsWith(x)); return k ? SYM_DESC[k] : sym; }
   const TF_LEG = { M1: "1", M5: "5", M15: "15", M30: "30", H1: "1h", H4: "4h", D1: "1D" };
   const legend = $("#legend");
   function renderLegend() {
@@ -1139,7 +1159,7 @@ td { font-variant-numeric: tabular-nums; }
     if (!$("#lgSym") || !S.agg.length) return;
     let i = S.hoverIdx != null && S.hoverIdx >= 0 && S.hoverIdx < S.agg.length ? S.hoverIdx : S.agg.length - 1;
     const b = S.agg[i], pb = S.agg[i - 1];
-    $("#lgSym").textContent = symDesc(S.symbol) + " · " + TF_LEG[CFG.tf] + " · " + (S.isSample ? "Sample" : "MT5");
+    $("#lgSym").textContent = symDesc(S.symbol) + " · " + TF_LEG[CFG.tf] + " · " + (S.srcLabel || (S.isSample ? "Sample" : "MT5"));
     const cls = b.close >= b.open ? "lg-v up" : "lg-v down";
     ["O", "H", "L", "C"].forEach((k, j) => { const el = $("#lg" + k); el.textContent = fmtPx([b.open, b.high, b.low, b.close][j]); el.className = cls; });
     if (pb) { const ch = b.close - pb.close; const el = $("#lgChg"); el.textContent = (ch >= 0 ? "+" : "−") + fmtPx(Math.abs(ch)) + " (" + (ch >= 0 ? "+" : "−") + Math.abs(ch / pb.close * 100).toFixed(2) + "%)"; el.className = cls; }
@@ -1718,7 +1738,7 @@ td { font-variant-numeric: tabular-nums; }
     frect(L, Math.min(ay, yS), W, Math.abs(yS - ay), hexA(st.stopColor, st.fillOpacity));
     sl(L, ay, L + W, ay, TH.muted, 1, 0);
     const entry = d.pts[0].p, reward = Math.abs(d.tp - entry), risk = Math.abs(entry - d.sl);
-    const lots = d.lots != null ? d.lots : (num($("#tkLots").value) || 0), k = lots * CFG.contract;
+    const lots = d.lots != null ? d.lots : (num($("#tkLots").value) || 0), k = lots * pv();
     const pct = (v) => (v / entry * 100).toFixed(2) + "%";
     tag("Target: " + fmtPx(reward) + " (" + pct(reward) + ")  " + fmtMoney(reward * k, true), cx, yT + (yT < ay ? -13 : 13), st.profitColor, "#fff", "center");
     tag("Stop: " + fmtPx(risk) + " (" + pct(risk) + ")  " + fmtMoney(-risk * k, true), cx, yS + (yS > ay ? 13 : -13), st.stopColor, "#fff", "center");
@@ -1949,7 +1969,7 @@ td { font-variant-numeric: tabular-nums; }
         if (t[f] == null) return;
         const yy = py(t[f]);
         sl(0, yy, pane.w, yy, c2, 1, 1);
-        const money = (t[f] - t.entry) * (t.side === "buy" ? 1 : -1) * t.lots * CFG.contract;
+        const money = (t[f] - t.entry) * (t.side === "buy" ? 1 : -1) * t.lots * pv();
         const rr = tag(lbl + "  " + fmtPx(t[f]) + "   " + fmtMoney(money, true), lx + 40, yy, c2, "#fff", "left");
         const xx = tag("✕", rr.x + rr.w + 2, yy, TH.panel, TH.fg, "left");
         D.hits.push({ kind: "line", t, field: f, y: yy }, { kind: "btn", t, action: "rm-" + f, r: xx });
@@ -2478,7 +2498,8 @@ td { font-variant-numeric: tabular-nums; }
       const d = newDrawing(t, [P]);
       if (t === "long" || t === "short") {
         const dir = t === "long" ? 1 : -1;
-        const slD = num($("#tkSl").value) > 0 ? num($("#tkSl").value) : 5, tpD = num($("#tkTp").value) > 0 ? num($("#tkTp").value) : 10;
+        const pip = instr().pip, ds = defaultStops();
+        const slD = (num($("#tkSl").value) > 0 ? num($("#tkSl").value) : ds[0]) * pip, tpD = (num($("#tkTp").value) > 0 ? num($("#tkTp").value) : ds[1]) * pip;
         Object.assign(d, { endT: l2t(t2l(P.t) + 30), sl: P.p - dir * slD, tp: P.p + dir * tpD });
       }
       addDrawing(d); afterCreate(d);
@@ -2679,7 +2700,35 @@ td { font-variant-numeric: tabular-nums; }
   const TK = { type: "market" };
   const dirOf = (t) => (t.side === "buy" ? 1 : -1);
   function markPx(t) { return t.side === "buy" ? bid() : ask(); }
-  function livePnl(t) { return (markPx(t) - t.entry) * dirOf(t) * t.lots * CFG.contract; }
+  function livePnl(t) { return (markPx(t) - t.entry) * dirOf(t) * t.lots * pv(); }
+  const IDX_QUOTE = { US30: "USD", NAS100: "USD", SPX500: "USD", GER40: "EUR", UK100: "GBP", JP225: "JPY" };
+  function instr() {
+    const src = S.src || {}, code = String(S.symbol || "");
+    if (src.kind !== "repo" && src.kind !== "binance") return { cat: "custom", contract: CFG.contract, quote: "USD", pip: 1, unit: "price" };
+    const e = MK.list.find((x) => x.code === code) || {};
+    if (e.cat === "forex") { const q = code.slice(3); return { cat: "forex", contract: 100000, quote: q, pip: q === "JPY" ? 0.01 : 0.0001, unit: "pips" }; }
+    if (e.cat === "metals") return { cat: "metals", contract: code.startsWith("XAG") ? 5000 : 100, quote: "USD", pip: 1, unit: "price" };
+    if (e.cat === "indices") return { cat: "indices", contract: 1, quote: IDX_QUOTE[code] || "USD", pip: 1, unit: "price" };
+    if (e.cat === "energy") return { cat: "energy", contract: 1000, quote: "USD", pip: 1, unit: "price" };
+    return { cat: "crypto", contract: 1, quote: "USD", pip: 1, unit: "price" };
+  }
+  function quoteUSD(q) {
+    if (!q || q === "USD") return 1;
+    if (S.symbol === "USD" + q && S.base.length) return 1 / bid();
+    const sy = MK.index && MK.index.symbols;
+    if (sy) { if (sy[q + "USD"] && sy[q + "USD"].price) return sy[q + "USD"].price; if (sy["USD" + q] && sy["USD" + q].price) return 1 / sy["USD" + q].price; }
+    return 1;
+  }
+  function pv() { const i = instr(); return i.contract * quoteUSD(i.quote); }
+  function defaultStops() {
+    const i = instr(), p = S.base.length ? bid() : 0;
+    if (i.cat === "forex") return [20, 40];
+    if (i.cat === "metals") return S.symbol.startsWith("XAG") ? [0.2, 0.4] : [5, 10];
+    if (i.cat === "indices") return [20, 40];
+    if (i.cat === "energy") return [0.5, 1];
+    if (i.cat === "crypto") { const d = decFor(p * 0.005); return [+(p * 0.005).toFixed(d), +(p * 0.01).toFixed(d)]; }
+    return [CFG.slD, CFG.tpD];
+  }
   function curTime() { return curBar().time; }
   function tkVals() {
     return { lots: num($("#tkLots").value), slOn: $("#tkSlOn").checked, tpOn: $("#tkTpOn").checked, slD: num($("#tkSl").value), tpD: num($("#tkTp").value) };
@@ -2690,7 +2739,8 @@ td { font-variant-numeric: tabular-nums; }
     if (!v.lots || v.lots <= 0) { toast("Lot size sahi likhein, jaise 0.10"); return; }
     if (v.slOn && !(v.slD > 0)) { toast("Stop Loss ki door dollar mein likhein, ya SL band karein."); return; }
     if (v.tpOn && !(v.tpD > 0)) { toast("Take Profit ki door dollar mein likhein, ya TP band karein."); return; }
-    const base = { id: S.nextTrade++, side, lots: v.lots, slD: v.slOn ? v.slD : null, tpD: v.tpOn ? v.tpD : null, placed: curTime(), sl: null, tp: null };
+    const pip = instr().pip;
+    const base = { id: S.nextTrade++, side, lots: v.lots, slD: v.slOn ? v.slD * pip : null, tpD: v.tpOn ? v.tpD * pip : null, placed: curTime(), sl: null, tp: null };
     if (TK.type === "market") {
       const t = Object.assign(base, { orderType: "market" });
       fill(t, side === "buy" ? ask() : bid(), curTime());
@@ -2717,7 +2767,7 @@ td { font-variant-numeric: tabular-nums; }
   }
   function closeTrade(t, px, reason, time) {
     t.status = "closed"; t.exit = px; t.exitTime = time; t.reason = reason;
-    t.pnl = (px - t.entry) * dirOf(t) * t.lots * CFG.contract - CFG.commission * t.lots;
+    t.pnl = (px - t.entry) * dirOf(t) * t.lots * pv() - CFG.commission * t.lots;
   }
   function processBar(b, idx) {
     const sp = CFG.spread;
@@ -2795,10 +2845,11 @@ td { font-variant-numeric: tabular-nums; }
     setT("#stBal", fmtMoney(s.balance)); setT("#stEq", fmtMoney(s.equity)); setT("#stPl", fmtMoney(s.floating, true), sgn(s.floating));
     setT("#kvBal", fmtMoney(s.balance)); setT("#kvEq", fmtMoney(s.equity)); setT("#kvPl", fmtMoney(s.floating, true), sgn(s.floating)); setT("#kvNet", fmtMoney(s.realized, true), sgn(s.realized));
     $("#tkBid").textContent = fmtPx(bid()); $("#tkAsk").textContent = fmtPx(ask());
-    const v = tkVals(), k = (v.lots || 0) * CFG.contract;
-    $("#tkLotHint").textContent = "$1 move = " + fmtMoney(k);
-    $("#tkSlHint").textContent = v.slOn && v.slD > 0 ? "≈ " + fmtMoney(v.slD * k) + " risk" : "";
-    $("#tkTpHint").textContent = v.tpOn && v.tpD > 0 ? "≈ " + fmtMoney(v.tpD * k) + " profit" : "";
+    const v = tkVals(), ins = instr(), k = (v.lots || 0) * pv();
+    $("#tkLotHint").textContent = ins.unit === "pips" ? "1 pip = " + fmtMoney(k * ins.pip) : "1.00 price move = " + fmtMoney(k);
+    $("#tkSlHint").textContent = v.slOn && v.slD > 0 ? "≈ " + fmtMoney(v.slD * ins.pip * k) + " risk" : "";
+    $("#tkTpHint").textContent = v.tpOn && v.tpD > 0 ? "≈ " + fmtMoney(v.tpD * ins.pip * k) + " profit" : "";
+    $("#tkSlU").textContent = $("#tkTpU").textContent = ins.unit === "pips" ? "pips" : "price";
     $("#tkSl").disabled = !v.slOn; $("#tkTp").disabled = !v.tpOn;
     $("#tkPriceHint").textContent = TK.type === "market" ? "" : "Abhi: Bid " + fmtPx(bid()) + " · Ask " + fmtPx(ask());
     const pend = S.trades.filter((t) => t.status === "pending");
@@ -2913,21 +2964,37 @@ td { font-variant-numeric: tabular-nums; }
     CFG.slOn = v.slOn; CFG.tpOn = v.tpOn; saveCfg(); refreshUI();
   }));
 
-  /* watchlist (saved data) */
+  /* watchlist */
   let wlCache = [];
+  function chgHtml(c) { return c == null || !isFinite(c) ? "" : '<small class="' + sgn(c) + '">' + (c >= 0 ? "+" : "") + Number(c).toFixed(2) + "%</small>"; }
   async function renderWatch() {
     try { wlCache = await dbList(); } catch (e) { wlCache = []; }
-    const rows = [{ name: "sample", symbol: "XAUUSD", baseSec: 300, count: 0, sample: true }].concat(wlCache.sort((a, b) => a.symbol.localeCompare(b.symbol)));
-    $("#wlList").innerHTML = rows.map((m) => {
-      const active = m.name === S.setName;
-      const sub = m.sample ? "Sample, naqli data" : (TFS.find((t) => t[2] === m.baseSec) || [0, Math.round(m.baseSec / 60) + "m"])[1] + " · " + m.count.toLocaleString("en-US") + " candles · " + fmtTime(m.from).slice(0, 10) + " se " + fmtTime(m.to).slice(0, 10);
-      const last = m.sample ? "" : fmtPxD(m.last, m.decimals);
-      const chg = !m.sample && m.prev ? ((m.last - m.prev) / m.prev * 100) : null;
-      return '<div class="wl-row' + (active ? " active" : "") + '" role="button" tabindex="0" data-set="' + esc(m.name) + '"><div><b>' + esc(m.symbol) + "</b><small>" + esc(sub) + '</small></div><div class="r">' + last + (chg != null ? '<small class="' + sgn(chg) + '">' + (chg >= 0 ? "+" : "") + chg.toFixed(2) + "%</small>" : "") + "</div>" +
-        (m.sample ? "<span></span>" : '<button class="wl-del" type="button" data-del="' + esc(m.name) + '" title="Ye data delete karein" aria-label="Delete">' + svg(IC.trash) + "</button>") + "</div>";
-    }).join("");
+    let h = "";
+    const groups = {};
+    MK.list.forEach((x) => { (groups[x.cat] = groups[x.cat] || []).push(x); });
+    Object.keys(CAT_NAME).forEach((cat) => {
+      if (!groups[cat]) return;
+      h += '<div class="ot-title">' + esc(CAT_NAME[cat]) + "</div>";
+      h += groups[cat].map((x) => {
+        const tk = MK.ticker[x.code] || {}, price = x.src === "binance" ? tk.price : x.price, chg = x.src === "binance" ? tk.chg : x.chg;
+        const active = S.src && S.src.code === x.code && (S.src.kind === "repo" || S.src.kind === "binance");
+        return '<div class="wl-row' + (active ? " active" : "") + '" role="button" tabindex="0" data-code="' + esc(x.code) + '"><div><b>' + esc(x.code) + "</b><small>" + esc(x.name) + '</small></div><div class="r">' + (price != null ? fmtPxD(price, x.dec || decFor(price)) : "–") + chgHtml(chg) + "</div><span></span></div>";
+      }).join("");
+    });
+    const mine = wlCache.slice().sort((a, b) => a.symbol.localeCompare(b.symbol));
+    if (mine.length || !MK.list.length) {
+      h += '<div class="ot-title">' + CAT_NAME.mine + "</div>";
+      if (!MK.list.length) h += '<div class="wl-row' + (S.setName === "sample" ? " active" : "") + '" role="button" tabindex="0" data-set="sample"><div><b>XAUUSD</b><small>Sample, naqli data</small></div><div class="r"></div><span></span></div>';
+      h += mine.map((m) => {
+        const sub = (TFS.find((t) => t[2] === m.baseSec) || [0, Math.round(m.baseSec / 60) + "m"])[1] + " · " + m.count.toLocaleString("en-US") + " candles · " + fmtTime(m.from).slice(0, 10) + " se " + fmtTime(m.to).slice(0, 10);
+        const chg = m.prev ? ((m.last - m.prev) / m.prev * 100) : null;
+        return '<div class="wl-row' + (m.name === S.setName ? " active" : "") + '" role="button" tabindex="0" data-set="' + esc(m.name) + '"><div><b>' + esc(m.symbol) + "</b><small>" + esc(sub) + '</small></div><div class="r">' + fmtPxD(m.last, m.decimals) + chgHtml(chg) + "</div>" +
+          '<button class="wl-del" type="button" data-del="' + esc(m.name) + '" title="Ye data delete karein" aria-label="Delete">' + svg(IC.trash) + "</button></div>";
+      }).join("");
+    }
+    $("#wlList").innerHTML = h;
   }
-  function fmtPxD(p, d) { return isFinite(p) ? Number(p).toFixed(d || 2) : "–"; }
+  function fmtPxD(p, d) { return isFinite(p) ? Number(p).toLocaleString("en-US", { minimumFractionDigits: d == null ? 2 : d, maximumFractionDigits: d == null ? 2 : d }) : "–"; }
   $("#wlList").addEventListener("click", async (e) => {
     const del = e.target.closest("[data-del]");
     if (del) {
@@ -2935,25 +3002,26 @@ td { font-variant-numeric: tabular-nums; }
       const name = del.dataset.del;
       if (del.dataset.confirm !== "1") { del.dataset.confirm = "1"; del.style.color = "var(--down)"; toast("Delete karne ke liye dobara click karein."); setTimeout(() => { if (del.isConnected) { del.dataset.confirm = ""; del.style.color = ""; } }, 3000); return; }
       try { await dbDelete(name); } catch (err) { toast("Delete nahi ho saka."); return; }
-      if (name === S.setName) loadSample();
+      if (name === S.setName) { if (!(await openSymbol("XAUUSD"))) loadSample(); }
       toast("Data delete ho gaya.");
       renderWatch();
       return;
     }
+    const c = e.target.closest("[data-code]"); if (c) { openSymbol(c.dataset.code); return; }
     const row = e.target.closest("[data-set]"); if (!row) return;
     openSet(row.dataset.set);
   });
-  $("#wlList").addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.dataset.set) openSet(e.target.dataset.set); });
+  $("#wlList").addEventListener("keydown", (e) => { if (e.key !== "Enter") return; if (e.target.dataset.code) openSymbol(e.target.dataset.code); else if (e.target.dataset.set) openSet(e.target.dataset.set); });
   async function openSet(name) {
     if (name === S.setName) return;
     if (name === "sample") { loadSample(); renderWatch(); return; }
-    const meta = wlCache.find((m) => m.name === name);
+    let meta = wlCache.find((m) => m.name === name);
+    if (!meta) { try { wlCache = await dbList(); meta = wlCache.find((m) => m.name === name); } catch (e) { meta = null; } }
     toast("Data load ho raha hai…", 1500);
     try {
       const bars = await dbBars(name);
       if (!bars || !meta) throw new Error("missing");
       loadData(bars, meta.baseSec, meta.decimals, meta.symbol, false, name);
-      renderWatch();
     } catch (err) { toast("Ye data khul nahi saka. CSV dobara upload karein."); }
   }
 
@@ -3097,14 +3165,18 @@ td { font-variant-numeric: tabular-nums; }
   });
 
   /* timeframe */
-  function tfAllowed(tf) { const s = TFSEC[tf]; return s >= S.baseSec && s % S.baseSec === 0; }
+  function tfAllowed(tf) { if (S.src && (S.src.kind === "repo" || S.src.kind === "binance")) return true; const s = TFSEC[tf]; return s >= S.baseSec && s % S.baseSec === 0; }
+  function needsReload(a, b) { if (!S.src) return false; if (S.src.kind === "binance") return a !== b; if (S.src.kind === "repo") return (a === "M1") !== (b === "M1"); return false; }
   function renderTf() {
     $("#tfFav").innerHTML = FAV_TF.map((tf) => '<button class="tb" type="button" data-tf="' + tf + '" aria-pressed="' + (tf === CFG.tf) + '"' + (tfAllowed(tf) ? "" : ' disabled title="Is ke liye chhote timeframe ka data upload karein"') + ">" + TFLBL[tf] + "</button>").join("");
   }
-  function setTf(tf) {
-    if (!tfAllowed(tf)) return;
+  async function setTf(tf) {
+    if (!tfAllowed(tf)) return false;
+    const prev = CFG.tf;
     CFG.tf = tf; saveCfg(); renderTf();
+    if (needsReload(prev, tf)) { await openSymbol(S.src.code, { keep: true }); return true; }
     rebuild(); ts().scrollToRealTime();
+    return true;
   }
   $("#tfFav").addEventListener("click", (e) => { const b = e.target.closest("[data-tf]"); if (b) setTf(b.dataset.tf); });
   $("#tfMore").addEventListener("click", (e) => {
@@ -3209,18 +3281,19 @@ td { font-variant-numeric: tabular-nums; }
   });
   $("#undoBtn").addEventListener("click", undo);
   $("#redoBtn").addEventListener("click", redo);
-  $("#symBtn").addEventListener("click", () => setRView("watch"));
+  $("#symBtn").addEventListener("click", () => openSymSearch(""));
   $("#mt5Help").addEventListener("click", () => openModal("mHelp"));
 
   /* ================= range bar (TradingView style) ================= */
   const RANGES = [["1D", 1, "M1"], ["5D", 5, "M5"], ["1M", 30, "M30"], ["3M", 91, "H1"], ["6M", 182, "H4"], ["YTD", "ytd", "D1"], ["1Y", 365, "D1"], ["5Y", 1826, "D1"], ["All", "all", "D1"]];
   $("#rgBtns").innerHTML = RANGES.map((r, i) => '<button class="tb' + (i > 4 && i < 8 ? " rg-hide" : "") + '" type="button" data-rg="' + i + '">' + r[0] + "</button>").join("");
-  $("#rgBtns").addEventListener("click", (e) => {
+  $("#rgBtns").addEventListener("click", async (e) => {
     const b = e.target.closest("[data-rg]"); if (!b || !S.agg.length) return;
     const [, days, want] = RANGES[+b.dataset.rg];
     let tf = want;
     if (!tfAllowed(tf)) { const ok = TFS.filter((t) => tfAllowed(t[0]) && t[2] >= TFSEC[want]); tf = ok.length ? ok[0][0] : (TFS.filter((t) => tfAllowed(t[0])).pop() || [CFG.tf])[0]; }
-    if (tf !== CFG.tf) { CFG.tf = tf; saveCfg(); renderTf(); rebuild(); }
+    if (tf !== CFG.tf) await setTf(tf);
+    if (!S.agg.length) return;
     const n = S.agg.length, last = S.agg[n - 1].time;
     let from = days === "all" ? S.agg[0].time : days === "ytd" ? Date.UTC(new Date(last * 1000).getUTCFullYear(), 0, 1) / 1000 : last - days * 86400;
     let lo = 0, hi = n - 1; while (lo < hi) { const m = (lo + hi) >> 1; if (S.agg[m].time < from) lo = m + 1; else hi = m; }
@@ -3262,9 +3335,175 @@ td { font-variant-numeric: tabular-nums; }
     closeModal("mGoto");
   });
 
+  /* ================= market data: website ka apna data + Binance live ================= */
+  const DATA_BASE = /github\.io$/.test(location.hostname) ? "data/" : "https://alex-zeee.github.io/daddy-trader-portfolio/data/";
+  const CRYPTO = [["BTCUSDT", "Bitcoin / TetherUS"], ["ETHUSDT", "Ethereum / TetherUS"], ["SOLUSDT", "Solana / TetherUS"], ["XRPUSDT", "XRP / TetherUS"], ["BNBUSDT", "BNB / TetherUS"], ["DOGEUSDT", "Dogecoin / TetherUS"], ["ADAUSDT", "Cardano / TetherUS"], ["LTCUSDT", "Litecoin / TetherUS"], ["AVAXUSDT", "Avalanche / TetherUS"], ["LINKUSDT", "Chainlink / TetherUS"], ["TRXUSDT", "TRON / TetherUS"], ["DOTUSDT", "Polkadot / TetherUS"]];
+  const CAT_NAME = { forex: "Forex", metals: "Metals", indices: "Indices", energy: "Energy", crypto: "Crypto", mine: "Mera data" };
+  const MK = { index: null, list: [], ticker: {}, ws: null, poll: null, reqId: 0, tickTimer: null };
+  const BN = "https://data-api.binance.vision/api/v3/";
+  const BN_INT = { M1: "1m", M5: "5m", M15: "15m", M30: "30m", H1: "1h", H4: "4h", D1: "1d" };
+  function decFor(price) { const a = Math.abs(price || 0); return a >= 10 ? 2 : a >= 1 ? 4 : a >= 0.01 ? 5 : 8; }
+  function buildList() {
+    const list = [], idx = MK.index;
+    if (idx && idx.symbols) (idx.order || Object.keys(idx.symbols)).forEach((code) => { const x = idx.symbols[code]; if (x && x.m5 && x.m5.length) list.push({ code, name: x.name, cat: x.cat, src: "repo", dec: x.dec, price: x.price, chg: x.chg }); });
+    CRYPTO.forEach(([code, name]) => list.push({ code, name, cat: "crypto", src: "binance" }));
+    MK.list = list;
+  }
+  async function loadIndex() {
+    try { const r = await fetch(DATA_BASE + "index.json?t=" + Math.floor(Date.now() / 60000)); if (!r.ok) throw new Error(r.status); MK.index = await r.json(); }
+    catch (e) { MK.index = MK.index || null; }
+    buildList();
+  }
+  function parseRows(text) {
+    const out = [];
+    for (const line of text.split("\n")) { if (!line) continue; const p = line.split(","); if (p.length < 5) continue; out.push({ time: +p[0], open: +p[1], high: +p[2], low: +p[3], close: +p[4], vol: +p[5] || 0 }); }
+    return out;
+  }
+  function dedupe(bars) { bars.sort((a, b) => a.time - b.time); const out = []; for (const b of bars) { if (out.length && out[out.length - 1].time === b.time) out[out.length - 1] = b; else out.push(b); } return out; }
+  async function fetchRepoBars(code, res) {
+    const x = MK.index.symbols[code], months = x[res] || [];
+    const texts = await Promise.all(months.map((m) => fetch(DATA_BASE + "fx/" + code + "/" + res + "/" + m + ".csv?t=" + (x.last || 0)).then((r) => (r.ok ? r.text() : ""))));
+    const bars = [];
+    texts.forEach((t) => { for (const b of parseRows(t)) bars.push(b); });
+    return dedupe(bars);
+  }
+  async function fetchBinance(code, tf, pages) {
+    let end = null, all = [];
+    for (let p = 0; p < pages; p++) {
+      const r = await fetch(BN + "klines?symbol=" + code + "&interval=" + BN_INT[tf] + "&limit=1000" + (end ? "&endTime=" + end : ""));
+      if (!r.ok) throw new Error("binance " + r.status);
+      const rows = await r.json();
+      if (!rows.length) break;
+      all = rows.map((k) => ({ time: k[0] / 1000, open: +k[1], high: +k[2], low: +k[3], close: +k[4], vol: +k[5] })).concat(all);
+      end = rows[0][0] - 1;
+      if (rows.length < 1000) break;
+    }
+    return dedupe(all);
+  }
+  function showLoading(on, code) { const b = $("#banner"); if (on) { b.textContent = code + " ka data load ho raha hai…"; b.hidden = false; } else if (!S.selecting) b.hidden = true; }
+  async function openSymbol(code, opts) {
+    opts = opts || {};
+    const e = MK.list.find((x) => x.code === code);
+    if (!e) return false;
+    const req = ++MK.reqId;
+    stopLive();
+    showLoading(true, code);
+    try {
+      let bars, baseSec, dec, label;
+      if (e.src === "repo") {
+        const res = CFG.tf === "M1" ? "m1" : "m5";
+        bars = await fetchRepoBars(code, res); baseSec = res === "m1" ? 60 : 300; dec = e.dec; label = "Dukascopy";
+      } else {
+        bars = await fetchBinance(code, CFG.tf, CFG.tf === "M1" || CFG.tf === "M5" ? 5 : 3); baseSec = TFSEC[CFG.tf]; dec = decFor(bars.length ? bars[bars.length - 1].close : 1); label = "Binance";
+      }
+      if (req !== MK.reqId) return false;
+      if (!bars.length) throw new Error("empty");
+      loadData(bars, baseSec, dec, code, false, "mk:" + code, { src: { kind: e.src, code }, label, keep: opts.keep, symKey: code });
+      startLive(e);
+      return true;
+    } catch (err) {
+      if (req === MK.reqId) toast(code + " ka data abhi load nahi ho saka. Thori der baad dobara koshish karein.");
+      return false;
+    } finally { if (req === MK.reqId) showLoading(false); }
+  }
+  function stopLive() {
+    if (MK.ws) { const w = MK.ws; MK.ws = null; try { w.close(); } catch (e) { /* ignore */ } }
+    clearInterval(MK.poll); MK.poll = null;
+  }
+  function startLive(e) {
+    if (e.src === "binance") {
+      try {
+        const ws = new WebSocket("wss://data-stream.binance.vision/ws/" + e.code.toLowerCase() + "@kline_" + BN_INT[CFG.tf]);
+        ws.onmessage = (m) => { try { const k = JSON.parse(m.data).k; if (k && MK.ws === ws) liveBar({ time: k.t / 1000, open: +k.o, high: +k.h, low: +k.l, close: +k.c, vol: +k.v }); } catch (er) { /* skip */ } };
+        ws.onclose = () => { if (MK.ws === ws) { MK.ws = null; setTimeout(() => { if (!MK.ws && S.src && S.src.code === e.code && S.src.kind === "binance") startLive(e); }, 5000); } };
+        MK.ws = ws;
+      } catch (er) { /* live optional */ }
+    } else MK.poll = setInterval(() => pollRepo(e.code), 5 * 60 * 1000);
+  }
+  async function pollRepo(code) {
+    if (!S.src || S.src.code !== code || S.src.kind !== "repo") return;
+    const old = MK.index && MK.index.symbols[code] ? MK.index.symbols[code].last : 0;
+    await loadIndex();
+    const x = MK.index && MK.index.symbols[code];
+    if (!x || x.last <= old || !S.base.length) return;
+    const res = S.baseSec === 60 ? "m1" : "m5", months = x[res] || [];
+    if (!months.length) return;
+    try {
+      const t = await (await fetch(DATA_BASE + "fx/" + code + "/" + res + "/" + months[months.length - 1] + ".csv?t=" + x.last)).text();
+      const lastT = S.base[S.base.length - 1].time;
+      parseRows(t).filter((b) => b.time >= lastT).forEach(liveBar);
+      if (CFG.rview === "watch") renderWatch();
+    } catch (e) { /* agli dafa */ }
+  }
+  function liveBar(b) {
+    const n = S.base.length; if (!n || !mainSeries) return;
+    const last = S.base[n - 1];
+    if (b.time < last.time) return;
+    if (b.time === last.time) Object.assign(last, b); else S.base.push(b);
+    if (S.replay || S.selecting) return;
+    const bt = bucket(S.base[S.base.length - 1].time);
+    if (S.agg.length && S.agg[S.agg.length - 1].time >= bt) { S.agg.pop(); S.ha.pop(); }
+    let i = S.base.length - 1;
+    while (i > 0 && S.base[i - 1].time >= bt) i--;
+    for (let j = i; j < S.base.length; j++) addToAgg(S.base[j]);
+    const k = S.agg.length - 1;
+    haStep(k);
+    mainSeries.update(mainPoint(k));
+    indicatorsStep();
+    processBar(S.base[S.base.length - 1], S.base.length - 1);
+    if (S.hoverIdx == null) updateLegend();
+    scheduleUI();
+  }
+  async function refreshTicker() {
+    try {
+      const codes = CRYPTO.map((c) => c[0]);
+      const r = await fetch(BN + "ticker/24hr?symbols=" + encodeURIComponent(JSON.stringify(codes)));
+      if (!r.ok) return;
+      (await r.json()).forEach((t) => { MK.ticker[t.symbol] = { price: +t.lastPrice, chg: +t.priceChangePercent }; });
+      if (CFG.rview === "watch") renderWatch();
+    } catch (e) { /* optional */ }
+  }
+
+  /* symbol search (TradingView jaisa) */
+  let symCat = "all";
+  async function openSymSearch(q) {
+    try { wlCache = await dbList(); } catch (e) { wlCache = wlCache || []; }
+    const cats = [["all", "All"]].concat(Object.keys(CAT_NAME).filter((c) => c === "mine" ? wlCache.length : MK.list.some((x) => x.cat === c)).map((c) => [c, CAT_NAME[c]]));
+    $("#symCats").innerHTML = cats.map(([k, n]) => '<button type="button" data-cat="' + k + '" aria-pressed="' + (symCat === k) + '">' + esc(n) + "</button>").join("");
+    $("#symSearch").value = q || "";
+    renderSymList();
+    openModal("mSym");
+    setTimeout(() => { const i = $("#symSearch"); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }, 0);
+  }
+  function renderSymList() {
+    const q = $("#symSearch").value.trim().toLowerCase();
+    let items = MK.list.map((x) => ({ key: x.code, code: x.code, name: x.name, cat: x.cat, srcName: x.src === "binance" ? "Binance" : "Dukascopy" }));
+    items = items.concat(wlCache.map((m) => ({ key: "upload:" + m.name, code: m.symbol, name: "Aap ka upload kiya data (" + ((TFS.find((t) => t[2] === m.baseSec) || [0, Math.round(m.baseSec / 60) + "m"])[1]) + ")", cat: "mine", srcName: "MT5" })));
+    if (!MK.list.length) items.unshift({ key: "sample", code: "XAUUSD", name: "Sample, naqli data", cat: "mine", srcName: "Sample" });
+    items = items.filter((x) => (symCat === "all" || x.cat === symCat) && (!q || x.code.toLowerCase().includes(q) || x.name.toLowerCase().includes(q)));
+    $("#symList").innerHTML = items.length ? items.map((x) => '<button class="sym-row" type="button" data-key="' + esc(x.key) + '"><b>' + esc(x.code) + "</b><span>" + esc(x.name) + "</span><small>" + esc(CAT_NAME[x.cat] || x.cat) + " · " + esc(x.srcName) + "</small></button>").join("")
+      : '<div class="empty">Koi symbol nahi mila.</div>';
+  }
+  $("#symSearch").addEventListener("input", renderSymList);
+  $("#symSearch").addEventListener("keydown", (e) => { if (e.key === "Enter") { const f = $("#symList .sym-row"); if (f) f.click(); } });
+  $("#symCats").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; symCat = b.dataset.cat; $$("#symCats button").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); renderSymList(); });
+  $("#symList").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-key]"); if (!b) return;
+    closeModal("mSym");
+    const k = b.dataset.key;
+    if (k === "sample") loadSample();
+    else if (k.startsWith("upload:")) openSet(k.slice(7));
+    else openSymbol(k);
+  });
+
   /* ================= loading data ================= */
-  function loadData(bars, baseSec, decimals, symbol, isSample, setName) {
+  function loadData(bars, baseSec, decimals, symbol, isSample, setName, opts) {
+    opts = opts || {};
+    const keep = opts.keep && S.replay && S.base.length ? { time: curTime(), trades: S.trades, nextTrade: S.nextTrade } : null;
     pause();
+    if (!opts.src) stopLive();
+    S.src = opts.src || { kind: isSample ? "sample" : "upload", code: symbol };
+    S.srcLabel = opts.label || (isSample ? "Sample" : "MT5");
     S.base = bars; S.baseSec = baseSec; S.decimals = decimals; S.symbol = symbol; S.isSample = isSample; S.setName = setName;
     S.trades = []; S.nextTrade = 1; S.replay = false; S.selecting = false; S.cursor = bars.length - 1; S.hoverIdx = null;
     area.classList.remove("selecting"); $("#banner").hidden = true; $("#replayBar").hidden = true; $("#replayBtn").setAttribute("aria-pressed", "false");
@@ -3272,13 +3511,26 @@ td { font-variant-numeric: tabular-nums; }
     mainSeries.applyOptions({ priceFormat: priceFmt() });
     IND.list.forEach((ind) => { if (!DEFS[ind.type].fmt) ind.series.forEach((s) => s.applyOptions({ priceFormat: priceFmt() })); });
     if (!tfAllowed(CFG.tf)) { const ok = TFS.filter((t) => tfAllowed(t[0])); CFG.tf = ok.length ? (ok.find((t) => t[2] >= 900) || ok[0])[0] : "D1"; }
-    CFG.lastSet = setName; saveCfg();
+    CFG.lastSet = setName; CFG.sym = opts.symKey || (isSample ? "sample" : "upload:" + setName); saveCfg();
     renderTf();
     loadDrawings(setName);
+    if (keep) {
+      S.replay = true;
+      $("#replayBtn").setAttribute("aria-pressed", "true"); $("#replayBar").hidden = false;
+      S.cursor = Math.max(0, lastBaseBefore(keep.time + 1));
+      S.trades = keep.trades.map((t) => { if (t.openTime != null) t.openIdx = Math.max(0, lastBaseBefore(t.openTime + 1)); return t; });
+      S.nextTrade = keep.nextTrade;
+    }
     rebuild();
     const n = S.agg.length;
     ts().setVisibleLogicalRange({ from: Math.max(0, n - 160), to: n + 12 });
     $("#tkPrice").step = String(Math.pow(10, -decimals));
+    const ik = instr().cat + ":" + (instr().cat === "metals" || instr().cat === "crypto" ? S.symbol : "");
+    if (ik !== S.lastInstrKey) {
+      if (S.lastInstrKey !== undefined || (S.src.kind === "repo" || S.src.kind === "binance")) { const ds = defaultStops(); $("#tkSl").value = ds[0]; $("#tkTp").value = ds[1]; }
+      S.lastInstrKey = ik;
+    }
+    if (CFG.rview === "watch") renderWatch();
     scheduleUI();
   }
   function loadSample() { loadData(sampleData(), 300, 2, "XAUUSD", true, "sample"); }
@@ -3418,6 +3670,7 @@ td { font-variant-numeric: tabular-nums; }
       if (S.selecting) { cancelSelect(); return; }
     }
     if (drawKey(e)) return;
+    if (/^[a-z0-9]$/i.test(k) && !e.ctrlKey && !e.metaKey && !e.altKey && $$(".modal").every((m) => m.hidden)) { e.preventDefault(); openSymSearch(k.toUpperCase()); return; }
     if (S.replay && k === "ArrowRight" && !e.ctrlKey) { e.preventDefault(); pause(); step(); return; }
     if (S.replay && k === " " && !e.target.closest("button")) { e.preventDefault(); S.playing ? pause() : play(); }
   });
@@ -3436,19 +3689,27 @@ td { font-variant-numeric: tabular-nums; }
   setBottomOpen(CFG.bottomOpen);
   setBottomTab(CFG.bottomTab, true);
   setRView(CFG.rview);
-  const wantSet = CFG.lastSet;
+  const want = CFG.sym || (CFG.lastSet && CFG.lastSet !== "sample" ? (String(CFG.lastSet).startsWith("mk:") ? CFG.lastSet.slice(3) : "upload:" + CFG.lastSet) : "XAUUSD");
   loadSample();
   initAuth();
-  (async function restore() {
-    if (!wantSet || wantSet === "sample") return;
-    try {
-      const metas = await dbList();
-      wlCache = metas;
-      const meta = metas.find((m) => m.name === wantSet);
-      if (!meta) return;
-      const bars = await dbBars(meta.name);
-      if (bars && bars.length) { loadData(bars, meta.baseSec, meta.decimals, meta.symbol, false, meta.name); if (CFG.rview === "watch") renderWatch(); }
-    } catch (e) { /* stay on sample */ }
+  (async function start() {
+    await loadIndex();
+    refreshTicker();
+    MK.tickTimer = setInterval(() => { if (CFG.rview === "watch") refreshTicker(); }, 60000);
+    if (CFG.rview === "watch") renderWatch();
+    if (String(want).startsWith("upload:")) {
+      try {
+        const name = want.slice(7), metas = await dbList();
+        wlCache = metas;
+        const meta = metas.find((m) => m.name === name);
+        const bars = meta ? await dbBars(meta.name) : null;
+        if (bars && bars.length) { loadData(bars, meta.baseSec, meta.decimals, meta.symbol, false, meta.name); return; }
+      } catch (e) { /* neeche Gold khulega */ }
+      await openSymbol("XAUUSD");
+      return;
+    }
+    if (want === "sample") return;
+    if (!(await openSymbol(want)) && want !== "XAUUSD") await openSymbol("XAUUSD");
   })();
 })();
 </script>
