@@ -1,8 +1,9 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v5';
+const CACHE = 'daddytrader-v6';
 const ASSETS = [
   './',
   './index.html',
+  './fundamental.html',
   './backtest.html',
   './logo.webp',
   './favicon.png',
@@ -38,6 +39,8 @@ self.addEventListener('notificationclick', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = e.request.url;
   if (e.request.method !== 'GET') return;
+  // doosri jagah ki requests (jaise laptop wali Alexa 127.0.0.1) ko hath na lagao
+  if (!url.startsWith(self.location.origin)) return;
   // HTML pages + data: ALWAYS network first (fresh), fallback cache for offline
   const isData = url.includes('signals.json') || url.includes('monitor.json') || url.includes('clients.json');
   const isPage = e.request.mode === 'navigate' ||
