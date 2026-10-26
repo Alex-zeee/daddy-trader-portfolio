@@ -522,7 +522,8 @@
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition, rec = null, listening = false;
   var actx = null, recState = null, forceRec = false;
   var IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  function useRecorder() { return forceRec || IOS || !SR; }
+  var MOBILE = IOS || /Android|Mobi|Tablet|Silk|Kindle|Opera Mini|SamsungBrowser/i.test(navigator.userAgent) || (window.matchMedia && matchMedia('(pointer:coarse)').matches);
+  function useRecorder() { return forceRec || MOBILE || !SR; }   // har mobile par ek hi pakka tareeqa
 
   // awaaz record kar ke Gemini se likhwana — har phone/browser par chalta hai
   function encodeWav(chunks, inRate) {
