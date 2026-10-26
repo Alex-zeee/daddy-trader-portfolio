@@ -1,30 +1,13 @@
 {
- "updated": "26-10-2026 22:18 PKT",
+ "updated": "27-10-2026 02:42 PKT",
  "gold": {
-  "price": 4027.14,
-  "open": 3993.62,
+  "price": 4017.14,
+  "open": 3993.7,
   "high": 4029.98,
   "low": 3977.58,
-  "chg": 0.84,
+  "chg": 0.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4010.82,
-   4011.38,
-   4008.21,
-   4005.2,
-   4007.06,
-   4008.0,
-   4006.08,
-   4008.47,
-   4008.83,
-   4010.06,
-   4014.52,
-   4015.14,
-   4016.0,
-   4017.83,
-   4015.98,
-   4016.55,
-   4019.28,
    4017.95,
    4016.74,
    4014.57,
@@ -55,14 +38,31 @@
    4019.85,
    4020.04,
    4029.63,
-   4027.14
+   4024.91,
+   4020.64,
+   4021.77,
+   4020.29,
+   4019.31,
+   4014.86,
+   4012.36,
+   4010.2,
+   4012.27,
+   4012.84,
+   4013.44,
+   4013.12,
+   4013.46,
+   4014.21,
+   4017.27,
+   4017.15,
+   4017.08,
+   4017.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.28,
-   "chg": 1.06,
+   "price": 54.035,
+   "chg": 0.6,
    "spark": [
     61.22,
     60.668,
@@ -84,13 +84,13 @@
     57.422,
     54.764,
     53.711,
-    54.28
+    54.035
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.963,
-   "chg": 0.15,
+   "price": 102.008,
+   "chg": 0.19,
    "spark": [
     101.2,
     101.37,
@@ -112,13 +112,13 @@
     101.78,
     101.61,
     101.81,
-    101.963
+    102.008
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 102.42,
-   "chg": -0.82,
+   "price": 101.25,
+   "chg": -1.96,
    "spark": [
     92.6,
     89.38,
@@ -140,7 +140,7 @@
     97.15,
     99.47,
     103.27,
-    102.42
+    101.25
    ]
   },
   {
@@ -173,8 +173,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1197,
-   "chg": -0.22,
+   "price": 1.1179,
+   "chg": -0.37,
    "spark": [
     1.1378,
     1.1373,
@@ -196,13 +196,13 @@
     1.1227,
     1.1235,
     1.1221,
-    1.1197
+    1.1179
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3356,
-   "chg": -0.36,
+   "price": 1.3342,
+   "chg": -0.46,
    "spark": [
     1.3229,
     1.3254,
@@ -224,13 +224,13 @@
     1.3373,
     1.3396,
     1.3404,
-    1.3356
+    1.3342
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.417,
-   "chg": 0.59,
+   "price": 157.432,
+   "chg": 0.6,
    "spark": [
     157.463,
     157.361,
@@ -252,18 +252,14 @@
     158.268,
     158.132,
     156.494,
-    157.417
+    157.432
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2332.54,
-   "chg": 0.25,
+   "price": 2311.98,
+   "chg": -0.63,
    "spark": [
-    2335.12,
-    2336.67,
-    2343.66,
-    2337.19,
     2343.26,
     2355.56,
     2357.38,
@@ -307,18 +303,18 @@
     2323.41,
     2324.08,
     2318.01,
-    2332.25
+    2322.48,
+    2310.73,
+    2314.33,
+    2302.75,
+    2311.98
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80417.7,
-   "chg": 0.46,
+   "price": 79989.0,
+   "chg": -0.07,
    "spark": [
-    80428.9,
-    80375.8,
-    80405.1,
-    80308.7,
     80495.8,
     80771.9,
     80780.0,
@@ -362,7 +358,11 @@
     80263.0,
     80283.6,
     80120.1,
-    80413.9
+    80220.7,
+    79873.2,
+    79887.6,
+    79718.8,
+    79989.0
    ]
   }
  ],
@@ -372,7 +372,7 @@
    "t": "Tue 27 Oct \u00b7 07:00 PM",
    "title": "CB Consumer Confidence",
    "impact": "Medium",
-   "forecast": "80.7",
+   "forecast": "81.2",
    "previous": "81.9"
   },
   {
@@ -420,7 +420,7 @@
    "t": "Thu 29 Oct \u00b7 05:30 PM",
    "title": "Advance GDP Price Index q/q",
    "impact": "Medium",
-   "forecast": "3.5%",
+   "forecast": "3.3%",
    "previous": "6.2%"
   },
   {
@@ -443,12 +443,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793035129.292297,
-   "title": "Gold gains as easing oil prices soothe inflation jitters",
+   "ts": 1793050958.727451,
+   "title": "Gold jumps as easing oil prices eases inflation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-3mth-low-as-elevated-oil-prices-weigh-fed-meet-eyed-4971362",
-   "t": "26 Oct \u00b7 10:18 PM",
-   "ur": "Til ki qeemton mein narmi ke tur par Gold (sone) mein azafah mahungai ke jhatake ko kam karta hai."
+   "t": "27 Oct \u00b7 02:42 AM",
+   "ur": "Til ki qeemton mein narmi se mahungai ke khadshat ko kam karne ke bad Gold (sone) ki qeemat mein azafah hawa."
+  },
+  {
+   "ts": 1793050958.727451,
+   "title": "Silver consolidates in Bear Flag near lows: Hourly levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
+   "t": "27 Oct \u00b7 02:42 AM",
+   "ur": "Silver (chandi) bare fileg mein kam ho rahi hai: fi ghanta ki sath"
+  },
+  {
+   "ts": 1793050958.727451,
+   "title": "Gold consolidates in bear flag near key support: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
+   "t": "27 Oct \u00b7 02:42 AM",
+   "ur": "Kalidi sport ke qarib bears ke jhanday mein Gold (sona) mazboot ho jata hai."
+  },
+  {
+   "ts": 1793039631.0,
+   "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+   "t": "26 Oct \u00b7 11:33 PM",
+   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
   }
  ],
  "sentiment": {
