@@ -1,22 +1,13 @@
 {
- "updated": "26-10-2026 03:07 PKT",
+ "updated": "26-10-2026 05:16 PKT",
  "gold": {
-  "price": 3998.68,
+  "price": 3989.18,
   "open": 3993.62,
-  "high": 4000.8,
-  "low": 3990.5,
-  "chg": 0.13,
+  "high": 4003.86,
+  "low": 3981.41,
+  "chg": -0.11,
   "src": "XAUUSD Spot",
   "spark": [
-   3993.69,
-   3993.69,
-   3993.61,
-   3993.6,
-   3993.68,
-   3993.7,
-   3993.66,
-   3993.59,
-   3993.68,
    3993.71,
    3993.65,
    3993.59,
@@ -55,14 +46,23 @@
    3993.49,
    3993.64,
    3993.7,
-   3998.68
+   3993.26,
+   3998.88,
+   4002.34,
+   4001.02,
+   3998.13,
+   3998.4,
+   3998.56,
+   3997.97,
+   3991.23,
+   3989.18
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.949,
-   "chg": -1.49,
+   "price": 53.905,
+   "chg": 0.36,
    "spark": [
     64.245,
     61.22,
@@ -84,13 +84,14 @@
     57.706,
     57.422,
     54.764,
-    53.949
+    53.711,
+    53.905
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.81,
-   "chg": 0.2,
+   "price": 101.697,
+   "chg": -0.11,
    "spark": [
     100.97,
     101.2,
@@ -112,13 +113,14 @@
     101.73,
     101.78,
     101.61,
-    101.81
+    101.81,
+    101.697
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 103.27,
-   "chg": 3.82,
+   "price": 102.06,
+   "chg": -1.17,
    "spark": [
     92.41,
     92.6,
@@ -140,7 +142,8 @@
     101.79,
     97.15,
     99.47,
-    103.27
+    103.27,
+    102.06
    ]
   },
   {
@@ -174,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1215,
-   "chg": -0.06,
+   "price": 1.122,
+   "chg": -0.02,
    "spark": [
-    1.1375,
     1.1378,
     1.1373,
     1.1341,
@@ -198,15 +200,14 @@
     1.1227,
     1.1235,
     1.1221,
-    1.1215
+    1.122
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.337,
-   "chg": -0.25,
+   "price": 1.3376,
+   "chg": -0.21,
    "spark": [
-    1.3211,
     1.3229,
     1.3254,
     1.3233,
@@ -227,15 +228,14 @@
     1.3373,
     1.3396,
     1.3404,
-    1.337
+    1.3376
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.989,
-   "chg": 0.32,
+   "price": 157.005,
+   "chg": 0.33,
    "spark": [
-    158.811,
     157.463,
     157.361,
     157.404,
@@ -256,16 +256,14 @@
     158.268,
     158.132,
     156.494,
-    156.989
+    157.005
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2341.09,
-   "chg": -0.62,
+   "price": 2328.24,
+   "chg": 0.07,
    "spark": [
-    2384.52,
-    2371.45,
     2379.11,
     2381.59,
     2379.78,
@@ -311,16 +309,16 @@
     2348.08,
     2343.76,
     2329.47,
-    2341.09
+    2339.35,
+    2326.5,
+    2328.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80433.6,
-   "chg": -0.42,
+   "price": 80046.6,
+   "chg": -0.0,
    "spark": [
-    81086.2,
-    80529.9,
     80824.5,
     80891.2,
     80870.3,
@@ -366,7 +364,9 @@
     80462.4,
     80390.2,
     80181.8,
-    80433.6
+    80357.9,
+    80048.5,
+    80046.6
    ]
   }
  ],
@@ -447,16 +447,24 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792966046.537897,
+   "ts": 1792973805.199797,
+   "title": "Goldman lists 3 factors that support long commodities positions",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-lists-3-factors-that-support-long-commodities-positions-4971269",
+   "t": "26 Oct \u00b7 05:16 AM",
+   "ur": "Golldomin 3 awamil ki faharist dita hai jo tavel ashiya ki pozationon ki support karte hen."
+  },
+  {
+   "ts": 1792973805.199797,
    "title": "Can silver recover from its latest sell-off? UBS weighs in",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/can-silver-recover-from-its-latest-selloff-ubs-weighs-in-4970956",
-   "t": "26 Oct \u00b7 03:07 AM",
+   "t": "26 Oct \u00b7 05:16 AM",
    "ur": "Kiya Silver (chandi) apani taazah tarin farokht se bahal ho sakti hai? UBS ka wazin hai."
   }
  ],
  "sentiment": {
-  "value": 54,
+  "value": 50,
   "label": "Neutral"
  },
  "err": [
