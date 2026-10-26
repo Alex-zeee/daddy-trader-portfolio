@@ -1,36 +1,13 @@
 {
- "updated": "26-10-2026 10:02 PKT",
+ "updated": "26-10-2026 16:01 PKT",
  "gold": {
-  "price": 4015.98,
+  "price": 4015.13,
   "open": 3993.62,
-  "high": 4016.87,
+  "high": 4022.2,
   "low": 3977.58,
-  "chg": 0.56,
+  "chg": 0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   3993.59,
-   3993.67,
-   3993.7,
-   3993.66,
-   3993.59,
-   3993.68,
-   3993.71,
-   3993.64,
-   3993.63,
-   3993.7,
-   3993.81,
-   3993.83,
-   3993.77,
-   3993.71,
-   3993.48,
-   3993.69,
-   3993.49,
-   3993.64,
-   3993.7,
-   3993.26,
-   3998.88,
-   4002.34,
-   4001.02,
    3998.13,
    3998.4,
    3998.56,
@@ -55,14 +32,37 @@
    4010.75,
    4013.1,
    4015.35,
-   4015.98
+   4014.88,
+   4015.44,
+   4010.82,
+   4011.38,
+   4008.21,
+   4005.2,
+   4007.06,
+   4008.0,
+   4006.08,
+   4008.47,
+   4008.83,
+   4010.06,
+   4014.52,
+   4015.14,
+   4016.0,
+   4017.83,
+   4015.98,
+   4016.55,
+   4019.28,
+   4017.95,
+   4016.74,
+   4014.57,
+   4012.36,
+   4015.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.28,
-   "chg": 1.06,
+   "price": 53.96,
+   "chg": 0.46,
    "spark": [
     61.22,
     60.668,
@@ -84,13 +84,13 @@
     57.422,
     54.764,
     53.711,
-    54.28
+    53.96
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.651,
-   "chg": -0.16,
+   "price": 101.864,
+   "chg": 0.05,
    "spark": [
     101.2,
     101.37,
@@ -112,13 +112,13 @@
     101.78,
     101.61,
     101.81,
-    101.651
+    101.864
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 100.96,
-   "chg": -2.24,
+   "price": 101.01,
+   "chg": -2.19,
    "spark": [
     92.6,
     89.38,
@@ -140,7 +140,7 @@
     97.15,
     99.47,
     103.27,
-    100.96
+    101.01
    ]
   },
   {
@@ -174,8 +174,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1223,
-   "chg": 0.02,
+   "price": 1.1202,
+   "chg": -0.17,
    "spark": [
     1.1378,
     1.1373,
@@ -197,13 +197,13 @@
     1.1227,
     1.1235,
     1.1221,
-    1.1223
+    1.1202
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.338,
-   "chg": -0.18,
+   "price": 1.3351,
+   "chg": -0.39,
    "spark": [
     1.3229,
     1.3254,
@@ -225,13 +225,13 @@
     1.3373,
     1.3396,
     1.3404,
-    1.338
+    1.3351
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 156.95,
-   "chg": 0.29,
+   "price": 157.317,
+   "chg": 0.53,
    "spark": [
     157.463,
     157.361,
@@ -253,20 +253,14 @@
     158.268,
     158.132,
     156.494,
-    156.95
+    157.317
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2319.7,
-   "chg": -0.3,
+   "price": 2323.73,
+   "chg": -0.12,
    "spark": [
-    2375.72,
-    2371.92,
-    2366.3,
-    2364.32,
-    2366.99,
-    2362.56,
     2366.25,
     2365.11,
     2339.84,
@@ -308,20 +302,20 @@
     2301.99,
     2299.93,
     2318.53,
-    2319.7
+    2323.89,
+    2317.12,
+    2315.22,
+    2322.45,
+    2332.91,
+    2324.95,
+    2323.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80000.1,
-   "chg": -0.06,
+   "price": 80233.2,
+   "chg": 0.23,
    "spark": [
-    80681.7,
-    80636.2,
-    80603.9,
-    80519.9,
-    80560.4,
-    80486.5,
     80673.5,
     80580.5,
     80104.6,
@@ -363,7 +357,13 @@
     79480.2,
     79489.6,
     80017.2,
-    80000.1
+    80144.7,
+    80000.0,
+    79920.1,
+    80123.9,
+    80428.3,
+    80251.3,
+    80233.2
    ]
   }
  ],
@@ -444,28 +444,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1792990937.597192,
-   "title": "Gold steadies near 3-mth low as elevated oil prices weigh; Fed meet eyed",
+   "ts": 1793012467.847321,
+   "title": "Gold breaks below $4,000 in descending channel: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-3mth-low-as-elevated-oil-prices-weigh-fed-meet-eyed-4971362",
-   "t": "26 Oct \u00b7 10:02 AM",
-   "ur": "Til ki baland qeemton ke wazin ki wajah se Gold (sona) 3 mah ki kam tarin sath ke qarib khada hai. fed se malaqat ki"
+   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
+   "t": "26 Oct \u00b7 04:01 PM",
+   "ur": "Nazoli chinl mein Gold (sona) $4,000 se niche tot gaya."
   },
   {
-   "ts": 1792990937.597192,
-   "title": "Goldman lists 3 factors that support long commodities positions",
+   "ts": 1793012467.847321,
+   "title": "Silver in freefall below all MAs, doji hints at exhaustion: Live",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-lists-3-factors-that-support-long-commodities-positions-4971269",
-   "t": "26 Oct \u00b7 10:02 AM",
-   "ur": "Golldomin 3 awamil ki faharist dita hai jo tavel ashiya ki pozationon ki support karte hen."
-  },
-  {
-   "ts": 1792990937.597192,
-   "title": "Can silver recover from its latest sell-off? UBS weighs in",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/can-silver-recover-from-its-latest-selloff-ubs-weighs-in-4970956",
-   "t": "26 Oct \u00b7 10:02 AM",
-   "ur": "Kiya Silver (chandi) apani taazah tarin farokht se bahal ho sakti hai? UBS ka wazin hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
+   "t": "26 Oct \u00b7 04:01 PM",
+   "ur": "Tamam MAs se niche fari fal mein Silver (chandi), dogi thakn ka asharah: laaio"
   }
  ],
  "sentiment": {
