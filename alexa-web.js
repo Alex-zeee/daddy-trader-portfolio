@@ -7,12 +7,13 @@
 
   // ---------------- settings ----------------
   var KEY = ["eZA", "4ZN52", "0dQ-Z", "Qq_lk", "vWaBS", "tQl8D", "0V3aM", "u7zB3", "mRrn1", "8RN6J", "AQ.Ab"].reverse().join('');
-  var MODELS = ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite', 'gemini-3.5-flash', 'gemini-flash-latest'];
+  var MODELS = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-latest', 'gemini-3.1-flash-lite'];
   var TTS_MODELS = ['gemini-3.8-flash-lite-tts', 'gemini-3.1-flash-tts-preview', 'gemini-2.5-flash-preview-tts'];
   var TTS_VOICE = 'Kore';
   var TITLE = 'Sir';
   var G = 'https://generativelanguage.googleapis.com/v1beta/models/';
   var HIST_KEY = 'alexa_web_hist_v1', MUTE_KEY = 'alexa_web_mute';
+  var startModel = 0;   // jo model pichli dafa chala, wahi pehle
 
   // ---------------- small helpers ----------------
   function $(id) { return document.getElementById(id); }
@@ -404,7 +405,7 @@
 
   function brain(history, onStep) {
     var contents = history.map(function (m) { return { role: m.role, parts: [{ text: m.text }] }; });
-    var mi = 0, think = true, busy = 0;
+    var mi = startModel, think = true, busy = 0;
     function round_(depth) {
       if (depth > 6) return Promise.resolve('SHOW: Maaf kijiye ' + TITLE + ', jawab banane mein der ho gayi. Dobara poochiye.\nSPEAK: معاف کیجیے سر، دوبارہ پوچھیے۔');
       var model = MODELS[mi];
@@ -415,7 +416,7 @@
           if (st !== 200) {
             var msg = (j.error && j.error.message) || ('HTTP ' + st);
             if (st === 400 && /thinking/i.test(msg) && think) { think = false; return round_(depth); }
-            if ((st === 503 || st === 500) && busy < 2) { busy++; return sleep(1200 * busy).then(function () { return round_(depth); }); }
+            if ((st === 503 || st === 500) && mi + 1 >= MODELS.length && busy < 2) { busy++; return sleep(1200 * busy).then(function () { return round_(depth); }); }
             if ((st === 429 || st === 404 || st >= 500 || st === 0) && mi + 1 < MODELS.length) { mi++; busy = 0; think = true; return round_(depth); }
             if (st === 429) throw new Error('limit');
             if (st === 400 || st === 403) throw new Error('key: ' + msg);
@@ -423,6 +424,7 @@
           }
           var cand = (j.candidates || [])[0];
           if (!cand) throw new Error('khaali jawab');
+          startModel = mi;
           var content = cand.content || { role: 'model', parts: [] }, parts = content.parts || [];
           var calls = parts.filter(function (p) { return p.functionCall; }).map(function (p) { return p.functionCall; });
           var text = parts.filter(function (p) { return p.text && !p.thought; }).map(function (p) { return p.text; }).join('');
@@ -433,7 +435,7 @@
             if (onStep) onStep(c.name);
             var p = t ? Promise.resolve().then(function () { return t.fn(c.args || {}); }) : Promise.resolve({ ok: false, error: 'aisa tool nahi' });
             return p.catch(function (e) { return { ok: false, error: String((e && e.message) || e).slice(0, 200) }; })
-              .then(function (r) { return { functionResponse: { name: c.name, response: { result: r } } }; });
+              .then(function (r) { var fr = { name: c.name, response: { result: r } }; if (c.id) fr.id = c.id; return { functionResponse: fr }; });
           })).then(function (resp) { contents.push({ role: 'user', parts: resp }); return round_(depth + 1); });
         });
     }
