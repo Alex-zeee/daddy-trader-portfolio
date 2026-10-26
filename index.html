@@ -20,19 +20,19 @@
     --dock-h:84px;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:'Poppins',system-ui,sans-serif;overflow:hidden}
+  html,body{margin:0;height:100%;max-width:100%;overflow-x:hidden;background:var(--bg);color:var(--fg);font-family:'Poppins',system-ui,sans-serif;overflow:hidden}
 
   /* ===== Alexa area ===== */
-  #stage{position:fixed;inset:0 0 var(--dock-h) 0;background:var(--bg)}
+  #stage{position:fixed;inset:0 0 calc(var(--dock-h) + env(safe-area-inset-bottom)) 0;background:var(--bg)}
   #alexaFrame{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;background:var(--bg);opacity:0;transition:opacity .5s}
   #stage.live #alexaFrame{opacity:1}
   #stage.live #webAlexa{display:none}
 
   /* ===== website wali Alexa ===== */
   #webAlexa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
-    padding:22px 16px 12px;gap:10px;overflow:hidden;
+    padding:calc(22px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right)) 12px calc(16px + env(safe-area-inset-left));gap:10px;overflow:hidden;
     background:radial-gradient(60% 45% at 50% 22%,rgba(60,174,119,.16),transparent 70%),var(--bg)}
-  .wa-tools{position:absolute;top:12px;right:12px;display:flex;gap:8px;z-index:2}
+  .wa-tools{position:absolute;top:calc(12px + env(safe-area-inset-top));right:12px;display:flex;gap:8px;z-index:2}
   .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(8,18,13,.7);color:var(--emerald-hi);
     display:grid;place-items:center;cursor:pointer;padding:0}
   .icon-btn:hover{border-color:var(--emerald)}
@@ -120,7 +120,7 @@
 
   #waForm{flex:none;width:100%;max-width:680px;display:flex;gap:8px;align-items:center}
   #waInput{flex:1;min-width:0;height:48px;border-radius:999px;border:1px solid var(--line);background:rgba(8,18,13,.85);color:var(--fg);
-    padding:0 18px;font:500 15px 'Poppins',sans-serif;outline:none}
+    padding:0 18px;font:500 16px 'Poppins',sans-serif;outline:none}
   #waInput:focus{border-color:var(--emerald)}
   #waInput::placeholder{color:var(--muted)}
   .round{flex:none;width:48px;height:48px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;color:#06120c}
@@ -129,7 +129,7 @@
   #waSend{background:linear-gradient(135deg,var(--gold-hi),var(--gold))}
 
   /* ===== 2 buttons dock ===== */
-  #dock{position:fixed;left:0;right:0;bottom:0;height:var(--dock-h);display:flex;align-items:center;justify-content:center;gap:16px;
+  #dock{position:fixed;left:0;right:0;bottom:0;height:calc(var(--dock-h) + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:center;gap:16px;
     padding:0 16px env(safe-area-inset-bottom);background:linear-gradient(180deg,rgba(3,8,6,.92),#030806);
     border-top:1px solid var(--line);z-index:10}
   .btn{flex:0 1 300px;display:flex;align-items:center;gap:12px;height:60px;padding:0 18px;border-radius:18px;
@@ -150,15 +150,15 @@
 
   @media (max-width:560px){
     :root{--dock-h:76px}
-    #dock{gap:10px;padding:0 10px env(safe-area-inset-bottom)}
+    #dock{gap:10px;padding:0 12px env(safe-area-inset-bottom)}
     .btn{height:54px;padding:0 12px;gap:9px;border-radius:15px;flex:1 1 0}
     .ic{width:34px;height:34px;border-radius:10px}
     .txt strong{font-size:15px}
     .txt small{display:none}
     .name{font-size:28px}
-    .orb{width:min(56vw,230px)}
+    .orb{width:min(54vw,220px);margin-top:18px}
     .wa-tools{left:10px;right:auto;flex-direction:column}
-    #webAlexa{padding-top:14px;gap:8px}
+    #webAlexa{padding-top:calc(30px + env(safe-area-inset-top));gap:8px}
     .wa-line{font-size:14px}
   }
   @media (prefers-reduced-motion:reduce){.btn,.btn::after{transition:none}}
