@@ -1,39 +1,13 @@
 {
- "updated": "26-10-2026 16:01 PKT",
+ "updated": "26-10-2026 22:18 PKT",
  "gold": {
-  "price": 4015.13,
+  "price": 4027.14,
   "open": 3993.62,
-  "high": 4022.2,
+  "high": 4029.98,
   "low": 3977.58,
-  "chg": 0.54,
+  "chg": 0.84,
   "src": "XAUUSD Spot",
   "spark": [
-   3998.13,
-   3998.4,
-   3998.56,
-   3997.97,
-   3991.23,
-   3988.94,
-   3989.05,
-   3987.05,
-   3994.96,
-   3989.33,
-   3988.03,
-   3987.88,
-   3994.57,
-   3993.86,
-   3994.77,
-   3998.33,
-   4013.79,
-   4012.55,
-   4010.14,
-   4008.51,
-   4008.84,
-   4010.75,
-   4013.1,
-   4015.35,
-   4014.88,
-   4015.44,
    4010.82,
    4011.38,
    4008.21,
@@ -55,14 +29,40 @@
    4016.74,
    4014.57,
    4012.36,
-   4015.13
+   4015.13,
+   4011.23,
+   4014.22,
+   4015.02,
+   4016.51,
+   4016.69,
+   4021.81,
+   4019.74,
+   4016.46,
+   4012.73,
+   4007.4,
+   4001.25,
+   3989.18,
+   4006.24,
+   4007.93,
+   4022.67,
+   4026.24,
+   4021.52,
+   4018.01,
+   4017.9,
+   4018.1,
+   4017.77,
+   4019.92,
+   4019.85,
+   4020.04,
+   4029.63,
+   4027.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.96,
-   "chg": 0.46,
+   "price": 54.28,
+   "chg": 1.06,
    "spark": [
     61.22,
     60.668,
@@ -84,13 +84,13 @@
     57.422,
     54.764,
     53.711,
-    53.96
+    54.28
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.864,
-   "chg": 0.05,
+   "price": 101.963,
+   "chg": 0.15,
    "spark": [
     101.2,
     101.37,
@@ -112,13 +112,13 @@
     101.78,
     101.61,
     101.81,
-    101.864
+    101.963
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 101.01,
-   "chg": -2.19,
+   "price": 102.42,
+   "chg": -0.82,
    "spark": [
     92.6,
     89.38,
@@ -140,16 +140,14 @@
     97.15,
     99.47,
     103.27,
-    101.01
+    102.42
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.988,
-   "chg": 0.71,
+   "price": 4.986,
+   "chg": -0.04,
    "spark": [
-    5.162,
-    5.184,
     5.24,
     5.255,
     5.293,
@@ -169,13 +167,14 @@
     5.117,
     5.146,
     4.953,
-    4.988
+    4.988,
+    4.986
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1202,
-   "chg": -0.17,
+   "price": 1.1197,
+   "chg": -0.22,
    "spark": [
     1.1378,
     1.1373,
@@ -197,13 +196,13 @@
     1.1227,
     1.1235,
     1.1221,
-    1.1202
+    1.1197
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3351,
-   "chg": -0.39,
+   "price": 1.3356,
+   "chg": -0.36,
    "spark": [
     1.3229,
     1.3254,
@@ -225,13 +224,13 @@
     1.3373,
     1.3396,
     1.3404,
-    1.3351
+    1.3356
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.317,
-   "chg": 0.53,
+   "price": 157.417,
+   "chg": 0.59,
    "spark": [
     157.463,
     157.361,
@@ -253,20 +252,14 @@
     158.268,
     158.132,
     156.494,
-    157.317
+    157.417
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2323.73,
-   "chg": -0.12,
+   "price": 2332.54,
+   "chg": 0.25,
    "spark": [
-    2366.25,
-    2365.11,
-    2339.84,
-    2303.3,
-    2315.44,
-    2320.21,
     2335.12,
     2336.67,
     2343.66,
@@ -308,20 +301,20 @@
     2322.45,
     2332.91,
     2324.95,
-    2323.73
+    2330.47,
+    2320.73,
+    2298.88,
+    2323.41,
+    2324.08,
+    2318.01,
+    2332.25
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80233.2,
-   "chg": 0.23,
+   "price": 80417.7,
+   "chg": 0.46,
    "spark": [
-    80673.5,
-    80580.5,
-    80104.6,
-    79700.1,
-    80114.5,
-    80164.2,
     80428.9,
     80375.8,
     80405.1,
@@ -363,7 +356,13 @@
     80123.9,
     80428.3,
     80251.3,
-    80233.2
+    80281.8,
+    80215.3,
+    79565.2,
+    80263.0,
+    80283.6,
+    80120.1,
+    80413.9
    ]
   }
  ],
@@ -373,7 +372,7 @@
    "t": "Tue 27 Oct \u00b7 07:00 PM",
    "title": "CB Consumer Confidence",
    "impact": "Medium",
-   "forecast": "80.5",
+   "forecast": "80.7",
    "previous": "81.9"
   },
   {
@@ -444,20 +443,12 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793012467.847321,
-   "title": "Gold breaks below $4,000 in descending channel: Live levels",
+   "ts": 1793035129.292297,
+   "title": "Gold gains as easing oil prices soothe inflation jitters",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
-   "t": "26 Oct \u00b7 04:01 PM",
-   "ur": "Nazoli chinl mein Gold (sona) $4,000 se niche tot gaya."
-  },
-  {
-   "ts": 1793012467.847321,
-   "title": "Silver in freefall below all MAs, doji hints at exhaustion: Live",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
-   "t": "26 Oct \u00b7 04:01 PM",
-   "ur": "Tamam MAs se niche fari fal mein Silver (chandi), dogi thakn ka asharah: laaio"
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-3mth-low-as-elevated-oil-prices-weigh-fed-meet-eyed-4971362",
+   "t": "26 Oct \u00b7 10:18 PM",
+   "ur": "Til ki qeemton mein narmi ke tur par Gold (sone) mein azafah mahungai ke jhatake ko kam karta hai."
   }
  ],
  "sentiment": {
