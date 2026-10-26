@@ -452,7 +452,22 @@
   }
 
   // ---------------- voice out ----------------
-  var audio = null, speaking = false;
+  var audio = null, speaking = false, player = null;
+  function silentWav() {
+    var n = 800, buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf), i;
+    function ws(o, t) { for (var k = 0; k < t.length; k++) v.setUint8(o + k, t.charCodeAt(k)); }
+    ws(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); ws(8, 'WAVE'); ws(12, 'fmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, 8000, true); v.setUint32(28, 16000, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); ws(36, 'data'); v.setUint32(40, n * 2, true);
+    var b = '', u = new Uint8Array(buf); for (i = 0; i < u.length; i++) b += String.fromCharCode(u[i]);
+    return 'data:audio/wav;base64,' + btoa(b);
+  }
+  function unlockAudio() {   // iPhone sirf tap ke waqt awaaz chalane ki ijazat deta hai — usi waqt player tayyar kar lo
+    try {
+      if (!player) { player = new Audio(); player.setAttribute('playsinline', ''); }
+      if (!player.dataset.ok) { player.src = silentWav(); var pp = player.play(); if (pp && pp.catch) pp.catch(function () {}); player.dataset.ok = '1'; }
+    } catch (e) {}
+    try { if (!actx) { var AC = window.AudioContext || window.webkitAudioContext; if (AC) actx = new AC(); } if (actx && actx.state === 'suspended') actx.resume(); } catch (e) {}
+  }
   function pcmToWav(b64, rate) {
     var bin = atob(b64), len = bin.length, buf = new ArrayBuffer(44 + len), v = new DataView(buf);
     function ws(o, s) { for (var i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); }
@@ -462,7 +477,7 @@
     return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
   }
   function stopSpeak() {
-    try { if (audio) { audio.pause(); audio = null; } } catch (e) {}
+    try { if (audio) { audio.pause(); if (audio !== player) audio = null; } } catch (e) {}
     try { window.speechSynthesis && speechSynthesis.cancel(); } catch (e) {}
     speaking = false; setState('idle');
   }
@@ -496,7 +511,7 @@
     return tryTts().then(function (src) {
       if (!speaking) return;
       return new Promise(function (res) {
-        audio = new Audio(src);
+        audio = player || new Audio(); audio.src = src;
         audio.onended = audio.onerror = function () { res(); };
         var pl = audio.play(); if (pl && pl.catch) pl.catch(function () { res(); });
       });
@@ -505,8 +520,90 @@
 
   // ---------------- voice in ----------------
   var SR = window.SpeechRecognition || window.webkitSpeechRecognition, rec = null, listening = false;
+  var actx = null, recState = null, forceRec = false;
+  var IOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  function useRecorder() { return forceRec || IOS || !SR; }
+
+  // awaaz record kar ke Gemini se likhwana — har phone/browser par chalta hai
+  function encodeWav(chunks, inRate) {
+    var total = 0, i, j; for (i = 0; i < chunks.length; i++) total += chunks[i].length;
+    var ratio = inRate / 16000, outLen = Math.floor(total / ratio), out = new Int16Array(outLen), all = new Float32Array(total), off = 0;
+    for (i = 0; i < chunks.length; i++) { all.set(chunks[i], off); off += chunks[i].length; }
+    for (j = 0; j < outLen; j++) { var x = all[Math.floor(j * ratio)]; x = Math.max(-1, Math.min(1, x)); out[j] = x < 0 ? x * 0x8000 : x * 0x7fff; }
+    var buf = new ArrayBuffer(44 + outLen * 2), v = new DataView(buf);
+    function ws(o, t) { for (var k = 0; k < t.length; k++) v.setUint8(o + k, t.charCodeAt(k)); }
+    ws(0, 'RIFF'); v.setUint32(4, 36 + outLen * 2, true); ws(8, 'WAVE'); ws(12, 'fmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, 16000, true); v.setUint32(28, 32000, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); ws(36, 'data'); v.setUint32(40, outLen * 2, true);
+    new Int16Array(buf, 44).set(out);
+    var u = new Uint8Array(buf), b = '', step = 0x8000;
+    for (i = 0; i < u.length; i += step) b += String.fromCharCode.apply(null, u.subarray(i, i + step));
+    return btoa(b);
+  }
+  function transcribe(b64) {
+    var models = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-latest'], mi = 0;
+    var prompt = 'Is audio mein jo bola gaya hai use bilkul waisa hi likh do. Urdu, Punjabi ya Saraiki ho to Roman Urdu mein likho (jaise WhatsApp par), English ho to English mein. Sirf bola hua jumla likho, aur kuch nahi. Agar kuch bola hi nahi gaya ya samajh nahi aaya to sirf ye likho: (khamoshi)';
+    function go() {
+      var m = models[mi];
+      return gemini(m, { contents: [{ role: 'user', parts: [{ inline_data: { mime_type: 'audio/wav', data: b64 } }, { text: prompt }] }], generationConfig: genConfig(m, true) }, 25000)
+        .then(function (r) {
+          if (r.status !== 200) { if (mi + 1 < models.length) { mi++; return go(); } throw new Error(r.status === 429 ? 'limit' : 'stt'); }
+          var parts = (((r.j.candidates || [])[0] || {}).content || {}).parts || [];
+          return parts.filter(function (p) { return p.text && !p.thought; }).map(function (p) { return p.text; }).join('').trim();
+        }, function () { if (mi + 1 < models.length) { mi++; return go(); } throw new Error('net'); });
+    }
+    return go();
+  }
+  function recStop() { if (recState) recState.finish(); }
+  function recListen() {
+    if (recState) { recStop(); return; }
+    if (busyAsk) return;
+    stopSpeak();
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { setStatus('Is browser mein mic nahi mil raha.'); return; }
+    var st = recState = { chunks: [], heard: false, done: false };
+    listening = true; setState('listening'); setStatus('Sun rahi hoon… bol kar ruk jayein');
+    navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } }).then(function (stream) {
+      if (st.done) { stream.getTracks().forEach(function (t) { t.stop(); }); return; }
+      if (!actx) { var AC = window.AudioContext || window.webkitAudioContext; actx = new AC(); }
+      if (actx.state === 'suspended') actx.resume();
+      var src = actx.createMediaStreamSource(stream), proc = actx.createScriptProcessor(4096, 1, 1), mute = actx.createGain();
+      mute.gain.value = 0; src.connect(proc); proc.connect(mute); mute.connect(actx.destination);
+      var t0 = Date.now(), lastVoice = 0, noise = 0.004;
+      proc.onaudioprocess = function (e) {
+        if (st.done) return;
+        var d = e.inputBuffer.getChannelData(0), sum = 0, k;
+        for (k = 0; k < d.length; k++) sum += d[k] * d[k];
+        var rms = Math.sqrt(sum / d.length), now = Date.now();
+        st.chunks.push(new Float32Array(d));
+        if (!st.heard && now - t0 < 600) noise = Math.max(noise, rms * 1.3);
+        if (rms > Math.max(0.012, noise * 2.2)) { st.heard = true; lastVoice = now; }
+        if ((st.heard && now - lastVoice > 1300) || now - t0 > 15000 || (!st.heard && now - t0 > 7000)) st.finish();
+      };
+      st.cleanup = function () { try { proc.disconnect(); src.disconnect(); mute.disconnect(); } catch (e) {} stream.getTracks().forEach(function (t) { t.stop(); }); };
+      st.rate = actx.sampleRate;
+    }).catch(function () {
+      st.done = true; recState = null; listening = false; setState('idle');
+      setStatus('Mic ki ijazat nahi mili — Settings mein is website ko mic Allow karein.');
+    });
+    st.finish = function () {
+      if (st.done) return; st.done = true; recState = null; listening = false;
+      if (st.cleanup) st.cleanup();
+      if (!st.heard || !st.chunks.length) { setState('idle'); setStatus('Kuch sunai nahi diya — logo dabayein aur bolein.'); return; }
+      setState('thinking'); setStatus('Samajh rahi hoon…');
+      var b64 = encodeWav(st.chunks, st.rate || 48000);
+      transcribe(b64).then(function (txt) {
+        txt = String(txt || '').replace(/^["'\s]+|["'\s]+$/g, '');
+        if (!txt || /khamoshi/i.test(txt)) { setState('idle'); setStatus('Awaaz saaf nahi aayi — dobara bolein.'); return; }
+        $('waInput').value = txt; setState('idle'); ask(txt);
+      }).catch(function (e) {
+        setState('idle');
+        setStatus(String(e && e.message) === 'limit' ? 'Google ki free limit poori ho gayi — thori der baad.' : 'Raabta nahi ho saka — internet check karein.');
+      });
+    };
+  }
+
   function listen() {
-    if (!SR) { setStatus('Is browser mein mic se baat nahi hoti — Chrome istemal karein, ya neeche likh dein.'); return; }
+    unlockAudio();
+    if (useRecorder()) return recListen();
     if (listening) { try { rec.stop(); } catch (e) {} return; }
     stopSpeak();
     rec = new SR(); rec.lang = 'ur-PK'; rec.interimResults = true; rec.maxAlternatives = 1;
@@ -516,7 +613,7 @@
       var s = ''; for (var i = e.resultIndex; i < e.results.length; i++) { if (e.results[i].isFinal) finalTxt += e.results[i][0].transcript; else s += e.results[i][0].transcript; }
       $('waInput').value = (finalTxt + s).trim();
     };
-    rec.onerror = function (e) { if (e.error === 'not-allowed') setStatus('Mic ki ijazat nahi mili — browser mein mic Allow karein.'); };
+    rec.onerror = function (e) { if (e.error === 'not-allowed') setStatus('Mic ki ijazat nahi mili — browser mein mic Allow karein.'); else if (/language|service|network|audio-capture/.test(e.error || '')) { forceRec = true; rec.onend = function () { listening = false; recListen(); }; } };
     rec.onend = function () { listening = false; setState('idle'); var t = (finalTxt || $('waInput').value || '').trim(); if (t) ask(t); else setStatus(hint()); };
     try { rec.start(); } catch (e) {}
   }
@@ -575,7 +672,7 @@
     setStatus(hint());
     $('waOrb').addEventListener('click', listen);
     $('waMic').addEventListener('click', listen);
-    $('waForm').addEventListener('submit', function (e) { e.preventDefault(); ask($('waInput').value); });
+    $('waForm').addEventListener('submit', function (e) { e.preventDefault(); unlockAudio(); ask($('waInput').value); });
     var mute = $('waMute');
     function paintMute() { var m = sget(MUTE_KEY) === '1'; mute.setAttribute('aria-pressed', m ? 'true' : 'false'); mute.title = m ? 'Awaaz band hai' : 'Awaaz on hai'; }
     mute.addEventListener('click', function () { sset(MUTE_KEY, sget(MUTE_KEY) === '1' ? '0' : '1'); if (sget(MUTE_KEY) === '1') stopSpeak(); paintMute(); });
