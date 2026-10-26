@@ -27,6 +27,10 @@
   #alexaFrame{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;background:var(--bg);opacity:0;transition:opacity .5s}
   #stage.live #alexaFrame{opacity:1}
   #stage.live #webAlexa{display:none}
+  /* sirf logo: likhne wala hissa band, logo beech mein (bolne ke liye logo dabayein) */
+  #webAlexa.logo-only{justify-content:center;padding-top:calc(max(env(safe-area-inset-top),24px) + 20px)}
+  #webAlexa.logo-only .wa-tools,#webAlexa.logo-only .name,#webAlexa.logo-only .status,#webAlexa.logo-only #waLog,#webAlexa.logo-only #waForm{display:none}
+  #webAlexa.logo-only .orb{width:min(64vw,70vh,560px);margin:0}
 
   /* ===== website wali Alexa ===== */
   #webAlexa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
@@ -171,7 +175,7 @@
   <iframe id="alexaFrame" title="Alexa"
     allow="microphone; camera; autoplay; fullscreen; display-capture; clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"></iframe>
 
-  <section id="webAlexa" aria-label="Alexa">
+  <section id="webAlexa" class="logo-only" aria-label="Alexa">
     <div class="wa-tools">
       <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
         <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
