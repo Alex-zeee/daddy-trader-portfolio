@@ -32,10 +32,11 @@
   #offline{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
     text-align:center;padding:24px 16px;gap:14px;
     background:radial-gradient(60% 50% at 50% 42%,rgba(60,174,119,.16),transparent 70%),var(--bg)}
-  .orb{width:160px;height:160px;border-radius:50%;position:relative;margin-bottom:10px;
-    background:radial-gradient(circle at 38% 32%,var(--gold-hi),var(--gold) 22%,var(--emerald) 58%,#08251a 82%);
-    box-shadow:0 0 60px rgba(60,174,119,.45),0 0 140px rgba(245,197,66,.18),inset 0 0 30px rgba(0,0,0,.35);
+  .orb{width:180px;height:180px;border-radius:50%;position:relative;margin-bottom:10px;
+    background:#fff;display:grid;place-items:center;
+    box-shadow:0 0 0 4px rgba(143,227,181,.55),0 0 60px rgba(60,174,119,.45),0 0 140px rgba(245,197,66,.18);
     animation:breathe 3.2s ease-in-out infinite}
+  .orb img{width:84%;height:auto;display:block}
   .orb::before,.orb::after{content:"";position:absolute;inset:-18px;border-radius:50%;border:1px solid rgba(143,227,181,.28);animation:ring 3.2s ease-out infinite}
   .orb::after{animation-delay:1.6s}
   @keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
@@ -77,7 +78,7 @@
     .txt strong{font-size:15px}
     .txt small{display:none}
     .name{font-size:32px}
-    .orb{width:120px;height:120px}
+    .orb{width:140px;height:140px}
   }
   @media (prefers-reduced-motion:reduce){.orb,.orb::before,.orb::after{animation:none}.btn,.btn::after{transition:none}}
 </style>
@@ -90,7 +91,7 @@
     allow="microphone; camera; autoplay; fullscreen; display-capture; clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"></iframe>
 
   <section id="offline" class="checking" aria-live="polite">
-    <div class="orb" aria-hidden="true"></div>
+    <div class="orb"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /></div>
     <h1 class="name">ALEXA</h1>
     <p class="status" id="status">Alexa se raabta ho raha hai…</p>
     <button class="retry" id="retry" type="button" hidden>Dobara check karein</button>
