@@ -539,12 +539,12 @@
     for (i = 0; i < u.length; i += step) b += String.fromCharCode.apply(null, u.subarray(i, i + step));
     return btoa(b);
   }
-  function transcribe(b64) {
+  function transcribe(b64, mime) {
     var models = ['gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-flash-latest'], mi = 0;
     var prompt = 'Is audio mein jo bola gaya hai use bilkul waisa hi likh do. Urdu, Punjabi ya Saraiki ho to Roman Urdu mein likho (jaise WhatsApp par), English ho to English mein. Sirf bola hua jumla likho, aur kuch nahi. Agar kuch bola hi nahi gaya ya samajh nahi aaya to sirf ye likho: (khamoshi)';
     function go() {
       var m = models[mi];
-      return gemini(m, { contents: [{ role: 'user', parts: [{ inline_data: { mime_type: 'audio/wav', data: b64 } }, { text: prompt }] }], generationConfig: genConfig(m, true) }, 25000)
+      return gemini(m, { contents: [{ role: 'user', parts: [{ inline_data: { mime_type: mime || 'audio/wav', data: b64 } }, { text: prompt }] }], generationConfig: genConfig(m, true) }, 25000)
         .then(function (r) {
           if (r.status !== 200) { if (mi + 1 < models.length) { mi++; return go(); } throw new Error(r.status === 429 ? 'limit' : 'stt'); }
           var parts = (((r.j.candidates || [])[0] || {}).content || {}).parts || [];
@@ -569,7 +569,8 @@
       mute.gain.value = 0; src.connect(proc); proc.connect(mute); mute.connect(actx.destination);
       var t0 = Date.now(), lastVoice = 0, noise = 0.004;
       proc.onaudioprocess = function (e) {
-        if (st.done) return;
+        if (st.done || st.mr) return;
+        st.got = true;
         var d = e.inputBuffer.getChannelData(0), sum = 0, k;
         for (k = 0; k < d.length; k++) sum += d[k] * d[k];
         var rms = Math.sqrt(sum / d.length), now = Date.now();
@@ -580,17 +581,45 @@
       };
       st.cleanup = function () { try { proc.disconnect(); src.disconnect(); mute.disconnect(); } catch (e) {} stream.getTracks().forEach(function (t) { t.stop(); }); };
       st.rate = actx.sampleRate;
+      setTimeout(function () {     // iPhone kabhi kabhi audio data nahi deta — tab doosra tareeqa
+        if (st.done || st.got || !window.MediaRecorder) return;
+        try { proc.disconnect(); src.disconnect(); mute.disconnect(); } catch (e) {}
+        var mr; try { mr = new MediaRecorder(stream); } catch (e) { return; }
+        st.mr = mr; st.parts = []; st.heard = true;
+        mr.ondataavailable = function (ev) { if (ev.data && ev.data.size) st.parts.push(ev.data); };
+        mr.onstop = function () { st.mrDone && st.mrDone(); };
+        mr.start();
+        setStatus('Bolein… baat khatam ho to logo dobara dabayein');
+        st.mrTimer = setTimeout(function () { st.finish(); }, 8000);
+      }, 1500);
     }).catch(function () {
       st.done = true; recState = null; listening = false; setState('idle');
       setStatus('Mic ki ijazat nahi mili — Settings mein is website ko mic Allow karein.');
     });
     st.finish = function () {
       if (st.done) return; st.done = true; recState = null; listening = false;
+      if (st.mr) {
+        clearTimeout(st.mrTimer);
+        setState('thinking'); setStatus('Samajh rahi hoon…');
+        st.mrDone = function () {
+          if (st.cleanup) st.cleanup();
+          var mime = (st.mr.mimeType || 'audio/mp4').split(';')[0], blob = new Blob(st.parts, { type: mime });
+          function raw() { var fr = new FileReader(); fr.onload = function () { afterAudio(String(fr.result).split(',')[1] || '', mime); }; fr.readAsDataURL(blob); }
+          // pehle WAV mein badlo (Google ke liye sab se pakka), na ho sake to waisa hi bhej do
+          blob.arrayBuffer().then(function (ab) {
+            return new Promise(function (ok, no) { var pr = actx.decodeAudioData(ab, ok, no); if (pr && pr.then) pr.then(ok, no); });
+          }).then(function (buf) { afterAudio(encodeWav([buf.getChannelData(0)], buf.sampleRate), 'audio/wav'); }, raw);
+        };
+        try { st.mr.stop(); } catch (e) { st.mrDone(); }
+        return;
+      }
       if (st.cleanup) st.cleanup();
       if (!st.heard || !st.chunks.length) { setState('idle'); setStatus('Kuch sunai nahi diya — logo dabayein aur bolein.'); return; }
       setState('thinking'); setStatus('Samajh rahi hoon…');
-      var b64 = encodeWav(st.chunks, st.rate || 48000);
-      transcribe(b64).then(function (txt) {
+      afterAudio(encodeWav(st.chunks, st.rate || 48000), 'audio/wav');
+    };
+    function afterAudio(b64, mime) {
+      transcribe(b64, mime).then(function (txt) {
         txt = String(txt || '').replace(/^["'\s]+|["'\s]+$/g, '');
         if (!txt || /khamoshi/i.test(txt)) { setState('idle'); setStatus('Awaaz saaf nahi aayi — dobara bolein.'); return; }
         $('waInput').value = txt; setState('idle'); ask(txt);
@@ -648,7 +677,7 @@
         hist.push({ role: 'model', text: 'SHOW: ' + r.show });
         hist = hist.slice(-20); sset(HIST_KEY, JSON.stringify(hist));
         addLine('alexa', r.show);
-        setStatus(hint());
+        setStatus($('webAlexa') && $('webAlexa').classList.contains('logo-only') ? r.show : hint());
         var nav = pendingNav; pendingNav = null;
         return speak(r.speak).then(function () { if (nav) location.href = nav; });
       })
