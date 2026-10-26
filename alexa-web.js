@@ -555,20 +555,21 @@
     return go();
   }
   function recStop() { if (recState) recState.finish(); }
-  function recListen() {
+  function recListen(auto) {
     if (recState) { recStop(); return; }
     if (busyAsk) return;
     stopSpeak();
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { setStatus('Is browser mein mic nahi mil raha.'); return; }
-    var st = recState = { chunks: [], heard: false, done: false };
-    listening = true; setState('listening'); setStatus('Sun rahi hoon… bol kar ruk jayein');
+    var st = recState = { chunks: [], heard: false, done: false, auto: !!auto };
+    listening = true; setState('listening'); setStatus('Ek second…');
     navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } }).then(function (stream) {
       if (st.done) { stream.getTracks().forEach(function (t) { t.stop(); }); return; }
       if (!actx) { var AC = window.AudioContext || window.webkitAudioContext; actx = new AC(); }
       if (actx.state === 'suspended') actx.resume();
       var src = actx.createMediaStreamSource(stream), proc = actx.createScriptProcessor(4096, 1, 1), mute = actx.createGain();
       mute.gain.value = 0; src.connect(proc); proc.connect(mute); mute.connect(actx.destination);
-      var t0 = Date.now(), lastVoice = 0, noise = 0.004;
+      var t0 = Date.now(), lastVoice = 0, minRms = 1, loud = 0;
+      setStatus('Ab bolein… main sun rahi hoon');
       proc.onaudioprocess = function (e) {
         if (st.done || st.mr) return;
         st.got = true;
@@ -576,9 +577,10 @@
         for (k = 0; k < d.length; k++) sum += d[k] * d[k];
         var rms = Math.sqrt(sum / d.length), now = Date.now();
         st.chunks.push(new Float32Array(d));
-        if (!st.heard && now - t0 < 600) noise = Math.max(noise, rms * 1.3);
-        if (rms > Math.max(0.012, noise * 2.2)) { st.heard = true; lastVoice = now; }
-        if ((st.heard && now - lastVoice > 1300) || now - t0 > 15000 || (!st.heard && now - t0 > 7000)) st.finish();
+        if (rms > 0.0005) minRms = Math.min(minRms, rms);                 // kamre ki khamoshi ka andaza
+        loud = rms > Math.max(0.008, minRms * 3.5) ? loud + 1 : 0;
+        if (loud >= 2) { st.heard = true; lastVoice = now; }
+        if ((st.heard && now - lastVoice > 1700) || now - t0 > 15000 || (!st.heard && now - t0 > 8000)) st.finish();
       };
       st.cleanup = function () { try { proc.disconnect(); src.disconnect(); mute.disconnect(); } catch (e) {} stream.getTracks().forEach(function (t) { t.stop(); }); };
       st.rate = actx.sampleRate;
@@ -615,14 +617,15 @@
         return;
       }
       if (st.cleanup) st.cleanup();
-      if (!st.heard || !st.chunks.length) { setState('idle'); setStatus('Kuch sunai nahi diya — logo dabayein aur bolein.'); return; }
+      if (st.auto && !st.heard) { setState('idle'); setStatus('Logo dabayein aur bolein.'); return; }   // jawab ke baad khud suna, kisi ne kuch nahi bola
+      if (!st.chunks.length || st.chunks.length * 4096 < (st.rate || 48000) * 0.6) { setState('idle'); setStatus('Logo dabayein aur bolein.'); return; }
       setState('thinking'); setStatus('Samajh rahi hoon…');
       afterAudio(encodeWav(st.chunks, st.rate || 48000), 'audio/wav');
     };
     function afterAudio(b64, mime) {
       transcribe(b64, mime).then(function (txt) {
         txt = String(txt || '').replace(/^["'\s]+|["'\s]+$/g, '');
-        if (!txt || /khamoshi/i.test(txt)) { setState('idle'); setStatus('Awaaz saaf nahi aayi — dobara bolein.'); return; }
+        if (!txt || /khamoshi/i.test(txt)) { setState('idle'); setStatus('Aap ki awaaz mujh tak nahi pohanchi — logo dabayein aur phone ke qareeb bolein.'); return; }
         $('waInput').value = txt; setState('idle'); ask(txt);
       }).catch(function (e) {
         setState('idle');
@@ -680,7 +683,10 @@
         addLine('alexa', r.show);
         setStatus($('webAlexa') && $('webAlexa').classList.contains('logo-only') ? r.show : hint());
         var nav = pendingNav; pendingNav = null;
-        return speak(r.speak).then(function () { if (nav) location.href = nav; });
+        return speak(r.speak).then(function () {
+          if (nav) { location.href = nav; return; }
+          if (useRecorder()) setTimeout(function () { if (!busyAsk && !recState && !speaking) recListen(true); }, 400);   // jawab ke baad khud dobara sunna
+        });
       })
       .catch(function (e) {
         hist.pop();
