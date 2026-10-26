@@ -1,5 +1,5 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v7';
+const CACHE = 'daddytrader-v8';
 const ASSETS = [
   './',
   './index.html',

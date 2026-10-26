@@ -26,29 +26,57 @@
   #stage{position:fixed;inset:0 0 var(--dock-h) 0;background:var(--bg)}
   #alexaFrame{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;background:var(--bg);opacity:0;transition:opacity .5s}
   #stage.live #alexaFrame{opacity:1}
-  #stage.live #offline{display:none}
+  #stage.live #webAlexa{display:none}
 
-  /* offline / loading screen */
-  #offline{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
-    text-align:center;padding:24px 16px;gap:14px;
-    background:radial-gradient(60% 50% at 50% 42%,rgba(60,174,119,.16),transparent 70%),var(--bg)}
-  .orb{width:180px;height:180px;border-radius:50%;position:relative;margin-bottom:10px;
+  /* ===== website wali Alexa ===== */
+  #webAlexa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    padding:22px 16px 12px;gap:10px;overflow:hidden;
+    background:radial-gradient(60% 45% at 50% 22%,rgba(60,174,119,.16),transparent 70%),var(--bg)}
+  .wa-tools{position:absolute;top:12px;right:12px;display:flex;gap:8px;z-index:2}
+  .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(8,18,13,.7);color:var(--emerald-hi);
+    display:grid;place-items:center;cursor:pointer;padding:0}
+  .icon-btn:hover{border-color:var(--emerald)}
+  .icon-btn svg{width:18px;height:18px}
+  #waMute .off{display:none}
+  #waMute[aria-pressed="true"] .on{display:none}
+  #waMute[aria-pressed="true"] .off{display:block}
+  #waMute[aria-pressed="true"]{color:var(--muted)}
+
+  .orb{flex:none;width:150px;height:150px;border-radius:50%;position:relative;margin:8px 0 4px;border:0;padding:0;cursor:pointer;
     background:#fff;display:grid;place-items:center;
     box-shadow:0 0 0 4px rgba(143,227,181,.55),0 0 60px rgba(60,174,119,.45),0 0 140px rgba(245,197,66,.18);
-    animation:breathe 3.2s ease-in-out infinite}
-  .orb img{width:84%;height:auto;display:block}
-  .orb::before,.orb::after{content:"";position:absolute;inset:-18px;border-radius:50%;border:1px solid rgba(143,227,181,.28);animation:ring 3.2s ease-out infinite}
+    animation:breathe 3.2s ease-in-out infinite;transition:box-shadow .3s}
+  .orb img{width:84%;height:auto;display:block;pointer-events:none}
+  .orb::before,.orb::after{content:"";position:absolute;inset:-16px;border-radius:50%;border:1px solid rgba(143,227,181,.28);animation:ring 3.2s ease-out infinite;pointer-events:none}
   .orb::after{animation-delay:1.6s}
-  @keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
-  @keyframes ring{0%{transform:scale(.9);opacity:.9}100%{transform:scale(1.45);opacity:0}}
-  .name{font-size:42px;font-weight:800;letter-spacing:.32em;margin:0;padding-left:.32em;
+  .orb[data-state="listening"]{box-shadow:0 0 0 5px var(--emerald-hi),0 0 70px rgba(60,174,119,.8)}
+  .orb[data-state="listening"]::before,.orb[data-state="listening"]::after{border-color:var(--emerald-hi);animation-duration:1.2s}
+  .orb[data-state="thinking"]{animation:none}
+  .orb[data-state="thinking"]::before{inset:-10px;border:3px solid transparent;border-top-color:var(--gold);border-right-color:var(--gold-hi);animation:spin .9s linear infinite;opacity:1}
+  .orb[data-state="speaking"]{animation:talk .5s ease-in-out infinite alternate;box-shadow:0 0 0 4px var(--gold-hi),0 0 70px rgba(245,197,66,.45)}
+  @keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+  @keyframes ring{0%{transform:scale(.9);opacity:.9}100%{transform:scale(1.4);opacity:0}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes talk{from{transform:scale(1)}to{transform:scale(1.06)}}
+  .name{font-size:36px;font-weight:800;letter-spacing:.32em;margin:0;padding-left:.32em;line-height:1.1;
     background:linear-gradient(90deg,var(--emerald-hi),var(--gold-hi));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .status{margin:0;font-size:15px;color:var(--muted);max-width:430px;line-height:1.6}
-  .status b{color:var(--gold-hi);font-weight:600}
-  .retry{margin-top:6px;padding:10px 22px;border-radius:999px;border:1px solid var(--line);background:rgba(8,18,13,.7);
-    color:var(--emerald-hi);font:600 14px 'Poppins',sans-serif;cursor:pointer}
-  .retry:hover{border-color:var(--emerald)}
-  #offline.checking .status{opacity:.75}
+  .status{margin:0;font-size:13px;color:var(--muted);text-align:center;min-height:1.4em}
+
+  #waLog{flex:1 1 auto;min-height:0;width:100%;max-width:680px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding:6px 2px;
+    scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+  .wa-line{max-width:88%;padding:10px 14px;border-radius:16px;font-size:15px;line-height:1.55;white-space:pre-wrap;word-wrap:break-word}
+  .wa-line.alexa{align-self:flex-start;background:rgba(8,18,13,.78);border:1px solid var(--line);color:var(--fg);border-bottom-left-radius:5px}
+  .wa-line.you{align-self:flex-end;background:linear-gradient(135deg,rgba(60,174,119,.28),rgba(60,174,119,.16));color:var(--fg);border-bottom-right-radius:5px}
+
+  #waForm{flex:none;width:100%;max-width:680px;display:flex;gap:8px;align-items:center}
+  #waInput{flex:1;min-width:0;height:48px;border-radius:999px;border:1px solid var(--line);background:rgba(8,18,13,.85);color:var(--fg);
+    padding:0 18px;font:500 15px 'Poppins',sans-serif;outline:none}
+  #waInput:focus{border-color:var(--emerald)}
+  #waInput::placeholder{color:var(--muted)}
+  .round{flex:none;width:48px;height:48px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;color:#06120c}
+  .round svg{width:22px;height:22px}
+  #waMic{background:linear-gradient(135deg,var(--emerald-hi),var(--emerald))}
+  #waSend{background:linear-gradient(135deg,var(--gold-hi),var(--gold))}
 
   /* ===== 2 buttons dock ===== */
   #dock{position:fixed;left:0;right:0;bottom:0;height:var(--dock-h);display:flex;align-items:center;justify-content:center;gap:16px;
@@ -77,10 +105,12 @@
     .ic{width:34px;height:34px;border-radius:10px}
     .txt strong{font-size:15px}
     .txt small{display:none}
-    .name{font-size:32px}
-    .orb{width:140px;height:140px}
+    .name{font-size:28px}
+    .orb{width:112px;height:112px}
+    #webAlexa{padding-top:14px;gap:8px}
+    .wa-line{font-size:14px}
   }
-  @media (prefers-reduced-motion:reduce){.orb,.orb::before,.orb::after{animation:none}.btn,.btn::after{transition:none}}
+  @media (prefers-reduced-motion:reduce){.orb,.orb::after{animation:none}.btn,.btn::after{transition:none}}
 </style>
 </head>
 <body>
@@ -90,11 +120,29 @@
   <iframe id="alexaFrame" title="Alexa"
     allow="microphone; camera; autoplay; fullscreen; display-capture; clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"></iframe>
 
-  <section id="offline" class="checking" aria-live="polite">
-    <div class="orb"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /></div>
+  <section id="webAlexa" aria-label="Alexa">
+    <div class="wa-tools">
+      <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
+        <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
+        <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+      </button>
+      <button class="icon-btn" id="waClear" type="button" title="Nayi baat shuru karein">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+      </button>
+    </div>
+    <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="Alexa se bolein"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /></button>
     <h1 class="name">ALEXA</h1>
-    <p class="status" id="status">Alexa se raabta ho raha hai…</p>
-    <button class="retry" id="retry" type="button" hidden>Dobara check karein</button>
+    <p class="status" id="waStatus" aria-live="polite"></p>
+    <div id="waLog" aria-live="polite"></div>
+    <form id="waForm" autocomplete="off">
+      <input id="waInput" type="text" placeholder="Alexa se poochiye… (jaise: gold ka analysis karo)" enterkeyhint="send" />
+      <button class="round" id="waMic" type="button" aria-label="Bol kar poochiye">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
+      </button>
+      <button class="round" id="waSend" type="submit" aria-label="Bhejein">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
   </section>
 </main>
 
@@ -109,16 +157,14 @@
   </a>
 </nav>
 
+<script src="alexa-web.js?v=1"></script>
 <script>
 (function(){
-  // Alexa aap ke laptop par is pate par chalti hai (alexa.py)
+  // Laptop wali Alexa (alexa.py) on ho to wohi dikhe, warna website wali Alexa
   var ALEXA = 'http://127.0.0.1:8765/';
   var stage = document.getElementById('stage');
   var frame = document.getElementById('alexaFrame');
-  var box = document.getElementById('offline');
-  var statusEl = document.getElementById('status');
-  var retryBtn = document.getElementById('retry');
-  var live = false, timer = null;
+  var live = false;
 
   function ping(){
     var ctrl = ('AbortController' in window) ? new AbortController() : null;
@@ -127,37 +173,21 @@
       .then(function(){ clearTimeout(t); return true; })
       .catch(function(){ clearTimeout(t); return false; });
   }
-
-  function showOffline(){
-    live = false;
-    stage.classList.remove('live');
-    box.classList.remove('checking');
-    statusEl.innerHTML = 'Alexa abhi is computer par <b>on nahi hai</b>.<br>Laptop par Alexa (start.bat) chalayein — woh khud yahan aa jayegi. Neeche wale buttons hamesha kaam karte hain.';
-    retryBtn.hidden = false;
-  }
-
-  function showLive(){
-    if (!live){
-      live = true;
-      frame.src = ALEXA + '?v=' + Date.now();
-    }
-  }
   frame.addEventListener('load', function(){ if (live) stage.classList.add('live'); });
 
   function check(){
-    ping().then(function(ok){ ok ? showLive() : showOffline(); });
+    ping().then(function(ok){
+      if (ok && !live){
+        if (window.AlexaWeb && AlexaWeb.busy()) return;      // website wali Alexa baat kar rahi ho to us ke baad
+        if (window.AlexaWeb) AlexaWeb.stop();
+        live = true; frame.src = ALEXA + '?v=' + Date.now();
+      } else if (!ok && live){
+        live = false; stage.classList.remove('live'); frame.removeAttribute('src');
+      }
+    });
   }
-
-  retryBtn.addEventListener('click', function(){
-    box.classList.add('checking');
-    statusEl.textContent = 'Alexa se raabta ho raha hai…';
-    retryBtn.hidden = true;
-    check();
-  });
-
   check();
-  // har 6 second baad dekhte raho: Alexa on hui to khud aa jaye, band hui to message dikhe
-  timer = setInterval(check, 6000);
+  setInterval(check, 6000);
 })();
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function(){});
