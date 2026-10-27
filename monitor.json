@@ -1,30 +1,13 @@
 {
- "updated": "27-10-2026 21:32 PKT",
+ "updated": "28-10-2026 01:57 PKT",
  "gold": {
-  "price": 4057.48,
-  "open": 4019.47,
-  "high": 4064.38,
+  "price": 4060.94,
+  "open": 4017.04,
+  "high": 4065.54,
   "low": 3988.99,
-  "chg": 0.95,
+  "chg": 1.09,
   "src": "XAUUSD Spot",
   "spark": [
-   4011.19,
-   4008.47,
-   4006.13,
-   4006.55,
-   4010.88,
-   4010.33,
-   4002.52,
-   4001.15,
-   4000.88,
-   4005.42,
-   4005.18,
-   4004.72,
-   3997.6,
-   3998.62,
-   3993.36,
-   3992.65,
-   3993.51,
    3998.31,
    3996.38,
    3998.04,
@@ -55,14 +38,31 @@
    4063.56,
    4060.4,
    4057.33,
-   4057.48
+   4059.25,
+   4058.8,
+   4059.58,
+   4060.95,
+   4063.43,
+   4056.95,
+   4058.28,
+   4055.65,
+   4054.35,
+   4056.83,
+   4060.32,
+   4060.9,
+   4063.58,
+   4062.29,
+   4061.87,
+   4058.85,
+   4059.97,
+   4060.94
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.45,
-   "chg": 0.63,
+   "price": 54.51,
+   "chg": 0.74,
    "spark": [
     61.22,
     60.668,
@@ -85,13 +85,13 @@
     54.764,
     53.711,
     54.108,
-    54.45
+    54.51
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.269,
-   "chg": 0.3,
+   "price": 102.387,
+   "chg": 0.42,
    "spark": [
     101.2,
     101.37,
@@ -114,13 +114,13 @@
     101.61,
     101.81,
     101.96,
-    102.269
+    102.387
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 100.1,
-   "chg": -1.63,
+   "price": 100.24,
+   "chg": -1.49,
    "spark": [
     92.6,
     89.38,
@@ -143,13 +143,13 @@
     99.47,
     103.27,
     101.76,
-    100.1
+    100.24
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.995,
-   "chg": 0.18,
+   "price": 4.993,
+   "chg": 0.14,
    "spark": [
     5.24,
     5.255,
@@ -172,13 +172,13 @@
     4.953,
     4.988,
     4.986,
-    4.995
+    4.993
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1147,
-   "chg": -0.63,
+   "price": 1.1127,
+   "chg": -0.81,
    "spark": [
     1.1378,
     1.1373,
@@ -201,13 +201,13 @@
     1.1235,
     1.1221,
     1.1218,
-    1.1147
+    1.1127
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3308,
-   "chg": -0.52,
+   "price": 1.3306,
+   "chg": -0.54,
    "spark": [
     1.3229,
     1.3254,
@@ -230,13 +230,13 @@
     1.3396,
     1.3404,
     1.3378,
-    1.3308
+    1.3306
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.86,
-   "chg": 0.66,
+   "price": 157.942,
+   "chg": 0.71,
    "spark": [
     157.463,
     157.361,
@@ -259,18 +259,14 @@
     158.132,
     156.494,
     156.83,
-    157.86
+    157.942
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2348.72,
-   "chg": 1.22,
+   "price": 2341.36,
+   "chg": 0.9,
    "spark": [
-    2355.72,
-    2352.5,
-    2348.08,
-    2343.76,
     2329.47,
     2339.35,
     2326.5,
@@ -314,18 +310,18 @@
     2318.41,
     2331.27,
     2343.53,
-    2348.72
+    2347.93,
+    2343.24,
+    2341.09,
+    2344.84,
+    2341.36
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80525.1,
-   "chg": 0.65,
+   "price": 80663.2,
+   "chg": 0.83,
    "spark": [
-    80689.0,
-    80567.2,
-    80462.4,
-    80390.2,
     80181.8,
     80357.9,
     80048.5,
@@ -369,19 +365,15 @@
     79918.9,
     80233.9,
     80435.2,
-    80523.1
+    80541.1,
+    80400.3,
+    80514.8,
+    80707.0,
+    80663.2
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1793109600.0,
-   "t": "Tue 27 Oct \u00b7 07:00 PM",
-   "title": "CB Consumer Confidence",
-   "impact": "Medium",
-   "forecast": "81.2",
-   "previous": "81.9"
-  },
   {
    "ts": 1793210400.0,
    "t": "Wed 28 Oct \u00b7 11:00 PM",
@@ -450,12 +442,20 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793118764.910787,
-   "title": "Gold climbs ahead of Fed decision; Iran diplomacy hopes in focus",
+   "ts": 1793134627.904817,
+   "title": "Silver tests key support at $52.73 in downtrend: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-near-4010-as-traders-await-fed-decision-iran-diplomacy-offers-hope-4974024",
-   "t": "27 Oct \u00b7 09:32 PM",
-   "ur": "Fed ke fisale se pehle Gold (sona) badhta hai. eran ki safart kari par tojah markoz karne ki amid hai."
+   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
+   "t": "28 Oct \u00b7 01:57 AM",
+   "ur": "Silver (chandi) doun trind mein $52.73 par kalidi sport ka test kar rahi hai."
+  },
+  {
+   "ts": 1793134627.904817,
+   "title": "Gold bounces into major resistance near $4,116: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
+   "t": "28 Oct \u00b7 01:57 AM",
+   "ur": "Gold (sona) $4,116 ke qarib badi mazahmat mein achal raha hai."
   },
   {
    "ts": 1793116260.0,
