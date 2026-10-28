@@ -1,37 +1,13 @@
 {
- "updated": "28-10-2026 10:31 PKT",
+ "updated": "28-10-2026 16:36 PKT",
  "gold": {
-  "price": 4033.67,
-  "open": 4007.38,
+  "price": 4048.0,
+  "open": 4009.46,
   "high": 4070.17,
-  "low": 3988.99,
-  "chg": 0.66,
+  "low": 4009.14,
+  "chg": 0.96,
   "src": "XAUUSD Spot",
   "spark": [
-   4056.95,
-   4058.28,
-   4055.65,
-   4054.35,
-   4056.83,
-   4060.32,
-   4060.9,
-   4063.58,
-   4062.29,
-   4061.87,
-   4058.85,
-   4059.97,
-   4060.32,
-   4060.6,
-   4060.64,
-   4060.57,
-   4057.81,
-   4060.3,
-   4063.17,
-   4064.27,
-   4062.88,
-   4062.39,
-   4061.09,
-   4060.14,
    4062.92,
    4067.74,
    4061.23,
@@ -55,14 +31,38 @@
    4036.69,
    4036.66,
    4034.07,
-   4033.67
+   4034.63,
+   4030.28,
+   4029.02,
+   4034.2,
+   4030.33,
+   4030.53,
+   4035.08,
+   4037.06,
+   4038.32,
+   4043.59,
+   4046.64,
+   4050.5,
+   4053.55,
+   4054.1,
+   4051.33,
+   4051.52,
+   4055.32,
+   4054.51,
+   4048.67,
+   4047.48,
+   4047.5,
+   4044.69,
+   4045.91,
+   4047.53,
+   4048.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 54.025,
-   "chg": -0.49,
+   "price": 53.825,
+   "chg": -0.86,
    "spark": [
     60.668,
     60.098,
@@ -85,13 +85,13 @@
     53.711,
     54.108,
     54.293,
-    54.025
+    53.825
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.416,
-   "chg": 0.09,
+   "price": 102.384,
+   "chg": 0.06,
    "spark": [
     101.37,
     101.45,
@@ -114,13 +114,13 @@
     101.81,
     101.96,
     102.32,
-    102.416
+    102.384
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 101.32,
-   "chg": 1.42,
+   "price": 101.65,
+   "chg": 1.75,
    "spark": [
     89.38,
     90.42,
@@ -143,7 +143,7 @@
     103.27,
     101.76,
     99.9,
-    101.32
+    101.65
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1121,
-   "chg": -0.47,
+   "price": 1.113,
+   "chg": -0.4,
    "spark": [
     1.1373,
     1.1341,
@@ -201,13 +201,13 @@
     1.1221,
     1.1218,
     1.1174,
-    1.1121
+    1.113
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3292,
-   "chg": -0.4,
+   "price": 1.3289,
+   "chg": -0.42,
    "spark": [
     1.3254,
     1.3233,
@@ -230,13 +230,13 @@
     1.3404,
     1.3378,
     1.3345,
-    1.3292
+    1.3289
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.812,
-   "chg": 0.18,
+   "price": 157.887,
+   "chg": 0.23,
    "spark": [
     157.361,
     157.404,
@@ -259,20 +259,14 @@
     156.494,
     156.83,
     157.528,
-    157.812
+    157.887
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2353.09,
-   "chg": 0.25,
+   "price": 2362.36,
+   "chg": 0.65,
    "spark": [
-    2317.12,
-    2315.22,
-    2322.45,
-    2332.91,
-    2324.95,
-    2330.47,
     2320.73,
     2298.88,
     2323.41,
@@ -314,20 +308,20 @@
     2353.72,
     2356.81,
     2352.27,
-    2353.09
+    2348.48,
+    2348.19,
+    2357.73,
+    2369.5,
+    2370.0,
+    2365.54,
+    2362.36
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80832.2,
-   "chg": 0.04,
+   "price": 81303.2,
+   "chg": 0.62,
    "spark": [
-    80000.0,
-    79920.1,
-    80123.9,
-    80428.3,
-    80251.3,
-    80281.8,
     80215.3,
     79565.2,
     80263.0,
@@ -369,7 +363,13 @@
     80835.4,
     81022.3,
     80877.3,
-    80832.2
+    80776.9,
+    80751.1,
+    80960.7,
+    81364.8,
+    81431.7,
+    81374.1,
+    81299.2
    ]
   }
  ],
@@ -442,28 +442,12 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793165488.982177,
-   "title": "Gold falls toward $4,040 as dollar edges higher ahead of Fed decision",
+   "ts": 1793187415.346014,
+   "title": "Gold retreats as dollar firms slightly ahead of Fed decision",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-above-4000-as-traders-await-fed-decision-pce-data-4977316",
-   "t": "28 Oct \u00b7 10:31 AM",
-   "ur": "Gold (sona) $4,040 ki taraf garta hai cunkah fed ke fisale se pehle Dollar ke kanare baland hote hen."
-  },
-  {
-   "ts": 1793165488.982177,
-   "title": "Gold rises ahead of Fed decision as decline in oil offsets stronger dollar",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-near-4010-as-traders-await-fed-decision-iran-diplomacy-offers-hope-4974024",
-   "t": "28 Oct \u00b7 10:31 AM",
-   "ur": "Fed ke fisale se pehle Gold (sona) badhta hai cunkah til mein kami Dollar ko mazboot karti hai."
-  },
-  {
-   "ts": 1793165488.982177,
-   "title": "Silver tests key support at $52.73 in downtrend: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
-   "t": "28 Oct \u00b7 10:31 AM",
-   "ur": "Silver (chandi) doun trind mein $52.73 par kalidi sport ka test kar rahi hai."
+   "t": "28 Oct \u00b7 04:36 PM",
+   "ur": "Gold (sona) fed ke fisale se qadare aage Dollar farmon ke tur par patchhe hat gaya."
   },
   {
    "ts": 1793116260.0,
