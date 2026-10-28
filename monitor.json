@@ -1,30 +1,13 @@
 {
- "updated": "28-10-2026 22:21 PKT",
+ "updated": "29-10-2026 02:46 PKT",
  "gold": {
-  "price": 4040.42,
-  "open": 4061.01,
-  "high": 4070.17,
+  "price": 4067.64,
+  "open": 4060.51,
+  "high": 4081.97,
   "low": 4028.01,
-  "chg": -0.51,
+  "chg": 0.18,
   "src": "XAUUSD Spot",
   "spark": [
-   4034.63,
-   4030.28,
-   4029.02,
-   4034.2,
-   4030.33,
-   4030.53,
-   4035.08,
-   4037.06,
-   4038.32,
-   4043.59,
-   4046.64,
-   4050.5,
-   4053.55,
-   4054.1,
-   4051.33,
-   4051.52,
-   4055.32,
    4054.51,
    4048.67,
    4047.48,
@@ -55,14 +38,31 @@
    4040.49,
    4044.24,
    4041.64,
-   4040.42
+   4038.99,
+   4038.67,
+   4041.01,
+   4033.17,
+   4037.06,
+   4067.33,
+   4041.47,
+   4048.88,
+   4053.34,
+   4058.23,
+   4070.21,
+   4070.31,
+   4058.39,
+   4068.46,
+   4067.54,
+   4067.75,
+   4067.74,
+   4067.64
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.765,
-   "chg": -0.97,
+   "price": 54.04,
+   "chg": -0.47,
    "spark": [
     60.668,
     60.098,
@@ -85,13 +85,42 @@
     53.711,
     54.108,
     54.293,
-    53.765
+    54.04
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 102.13,
+   "chg": -0.19,
+   "spark": [
+    101.37,
+    101.45,
+    102.1,
+    101.93,
+    102.17,
+    101.83,
+    102.24,
+    102.14,
+    102.21,
+    102.58,
+    102.18,
+    102.55,
+    102.0,
+    101.84,
+    101.98,
+    101.73,
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.13
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 102.79,
-   "chg": 2.89,
+   "price": 101.94,
+   "chg": 2.04,
    "spark": [
     89.38,
     90.42,
@@ -114,13 +143,13 @@
     103.27,
     101.76,
     99.9,
-    102.79
+    101.94
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.02,
-   "chg": 0.54,
+   "price": 5.045,
+   "chg": 1.04,
    "spark": [
     5.255,
     5.293,
@@ -143,13 +172,13 @@
     4.988,
     4.986,
     4.993,
-    5.02
+    5.045
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1151,
-   "chg": -0.21,
+   "price": 1.1159,
+   "chg": -0.13,
    "spark": [
     1.1373,
     1.1341,
@@ -172,13 +201,42 @@
     1.1221,
     1.1218,
     1.1174,
-    1.1151
+    1.1159
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3324,
+   "chg": -0.16,
+   "spark": [
+    1.3254,
+    1.3233,
+    1.3264,
+    1.32,
+    1.3243,
+    1.3219,
+    1.3267,
+    1.3215,
+    1.3229,
+    1.3242,
+    1.321,
+    1.3257,
+    1.323,
+    1.3273,
+    1.3336,
+    1.3308,
+    1.3373,
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3324
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.187,
-   "chg": 0.42,
+   "price": 157.765,
+   "chg": 0.15,
    "spark": [
     157.361,
     157.404,
@@ -201,18 +259,14 @@
     156.494,
     156.83,
     157.528,
-    158.187
+    157.765
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2331.89,
-   "chg": -0.65,
+   "price": 2360.91,
+   "chg": 0.59,
    "spark": [
-    2310.73,
-    2314.33,
-    2302.75,
-    2307.78,
     2309.99,
     2320.45,
     2323.18,
@@ -256,18 +310,18 @@
     2329.9,
     2331.59,
     2332.47,
-    2331.89
+    2341.9,
+    2352.94,
+    2369.31,
+    2358.78,
+    2360.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80496.7,
-   "chg": -0.38,
+   "price": 81214.4,
+   "chg": 0.51,
    "spark": [
-    79873.2,
-    79887.6,
-    79718.8,
-    79976.0,
     79862.7,
     80001.9,
     80087.2,
@@ -311,35 +365,15 @@
     80487.6,
     80418.6,
     80500.5,
-    80496.7
+    80772.2,
+    80944.7,
+    81523.8,
+    81261.7,
+    81214.4
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1793210400.0,
-   "t": "Wed 28 Oct \u00b7 11:00 PM",
-   "title": "Federal Funds Rate",
-   "impact": "High",
-   "forecast": "4.00%",
-   "previous": "4.00%"
-  },
-  {
-   "ts": 1793210400.0,
-   "t": "Wed 28 Oct \u00b7 11:00 PM",
-   "title": "FOMC Statement",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1793212200.0,
-   "t": "Wed 28 Oct \u00b7 11:30 PM",
-   "title": "FOMC Press Conference",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
   {
    "ts": 1793277000.0,
    "t": "Thu 29 Oct \u00b7 05:30 PM",
@@ -384,12 +418,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793208101.757233,
-   "title": "Gold retreats as dollar firms slightly ahead of Fed decision",
+   "ts": 1793223970.412765,
+   "title": "Gold rises as dollar weakens after Fed holds rates steady as largely expected",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-above-4000-as-traders-await-fed-decision-pce-data-4977316",
-   "t": "28 Oct \u00b7 10:21 PM",
-   "ur": "Gold (sona) fed ke fisale se qadare aage Dollar farmon ke tur par patchhe hat gaya."
+   "t": "29 Oct \u00b7 02:46 AM",
+   "ur": "Fed ki janb se toqa ke matabiq shrahin mastahkam rakhane ke bad Dollar ke kamazor hone par Gold (sona) badhta hai."
+  },
+  {
+   "ts": 1793223970.412765,
+   "title": "Silver bear flag active near $53.59 resistance: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
+   "t": "29 Oct \u00b7 02:46 AM",
+   "ur": "Salor bare fileg $53.59 mazahmat ke qarib faal hai."
+  },
+  {
+   "ts": 1793223106.0,
+   "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+   "t": "29 Oct \u00b7 02:31 AM",
+   "ur": "Fed ret ke fisale aur warsh nus kanfarns ke panch aham nakat ya hen."
+  },
+  {
+   "ts": 1793221597.0,
+   "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+   "t": "29 Oct \u00b7 02:06 AM",
+   "ur": "Bessent ka kahana hai kah 'zarori nihen hai' agar fed dubarah azafah karta hai to ya ek ghalati hai."
   },
   {
    "ts": 1793116260.0,
