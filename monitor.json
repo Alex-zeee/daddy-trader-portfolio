@@ -1,37 +1,13 @@
 {
- "updated": "29-10-2026 06:20 PKT",
+ "updated": "29-10-2026 12:17 PKT",
  "gold": {
-  "price": 4054.73,
-  "open": 4059.7,
+  "price": 4033.47,
+  "open": 4036.71,
   "high": 4081.97,
-  "low": 4028.01,
-  "chg": -0.12,
+  "low": 4023.17,
+  "chg": -0.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4048.69,
-   4048.69,
-   4047.95,
-   4044.24,
-   4043.2,
-   4041.8,
-   4044.19,
-   4045.55,
-   4045.48,
-   4041.85,
-   4038.48,
-   4040.35,
-   4040.49,
-   4044.24,
-   4041.64,
-   4038.99,
-   4038.67,
-   4041.01,
-   4033.17,
-   4037.06,
-   4067.33,
-   4041.47,
-   4048.88,
-   4053.34,
    4058.23,
    4070.21,
    4070.31,
@@ -55,16 +31,39 @@
    4039.43,
    4037.5,
    4053.94,
-   4054.73
+   4065.31,
+   4055.35,
+   4062.83,
+   4050.8,
+   4047.94,
+   4044.57,
+   4049.49,
+   4038.88,
+   4040.67,
+   4043.74,
+   4039.49,
+   4036.3,
+   4036.24,
+   4041.35,
+   4038.03,
+   4045.66,
+   4042.28,
+   4037.23,
+   4025.15,
+   4025.31,
+   4026.42,
+   4031.09,
+   4034.81,
+   4033.93,
+   4033.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.9,
-   "chg": -0.72,
+   "price": 52.975,
+   "chg": -0.9,
    "spark": [
-    60.668,
     60.098,
     60.725,
     59.977,
@@ -85,15 +84,15 @@
     53.711,
     54.108,
     54.293,
-    53.9
+    53.457,
+    52.975
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.256,
-   "chg": -0.06,
+   "price": 102.223,
+   "chg": 0.03,
    "spark": [
-    101.37,
     101.45,
     102.1,
     101.93,
@@ -114,15 +113,15 @@
     101.81,
     101.96,
     102.32,
-    102.256
+    102.19,
+    102.223
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 101.95,
-   "chg": 2.05,
+   "price": 101.52,
+   "chg": -1.23,
    "spark": [
-    89.38,
     90.42,
     92.87,
     91.11,
@@ -143,7 +142,8 @@
     103.27,
     101.76,
     99.9,
-    101.95
+    102.78,
+    101.52
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.115,
-   "chg": 0.18,
+   "price": 1.1142,
+   "chg": 0.11,
    "spark": [
     1.1341,
     1.1327,
@@ -201,13 +201,13 @@
     1.1218,
     1.1174,
     1.113,
-    1.115
+    1.1142
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3325,
-   "chg": 0.14,
+   "price": 1.3317,
+   "chg": 0.08,
    "spark": [
     1.3233,
     1.3264,
@@ -230,13 +230,13 @@
     1.3378,
     1.3345,
     1.3306,
-    1.3325
+    1.3317
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.876,
-   "chg": -0.07,
+   "price": 157.854,
+   "chg": -0.09,
    "spark": [
     157.404,
     157.558,
@@ -259,20 +259,14 @@
     156.83,
     157.528,
     157.993,
-    157.876
+    157.854
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2342.38,
-   "chg": -0.63,
+   "price": 2305.72,
+   "chg": -2.19,
    "spark": [
-    2310.31,
-    2311.02,
-    2309.94,
-    2312.57,
-    2301.91,
-    2310.75,
     2309.36,
     2309.17,
     2312.17,
@@ -314,20 +308,20 @@
     2358.54,
     2357.22,
     2351.65,
-    2342.38
+    2311.52,
+    2308.43,
+    2306.33,
+    2318.45,
+    2319.94,
+    2310.51,
+    2305.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80817.6,
-   "chg": -0.58,
+   "price": 79807.2,
+   "chg": -1.82,
    "spark": [
-    79683.5,
-    79682.1,
-    79614.7,
-    79850.3,
-    79526.3,
-    79662.9,
     79731.2,
     79632.5,
     79826.0,
@@ -369,7 +363,13 @@
     81247.2,
     81287.1,
     81010.8,
-    80817.6
+    79923.8,
+    79859.2,
+    79738.3,
+    80150.9,
+    80124.5,
+    79856.5,
+    79807.2
    ]
   }
  ],
@@ -418,11 +418,19 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793236803.136793,
+   "ts": 1793258226.105154,
+   "title": "Gold falls toward $4,040 as Fed outlook leaves traders awaiting inflation data",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-slips-after-fed-holds-rates-pce-inflation-data-in-focus-4981309",
+   "t": "29 Oct \u00b7 12:17 PM",
+   "ur": "Gold (sona) $4,040 ki taraf garta hai cunkah fed oat lak taajron ko inflation (mehngai) ke aed w shmar ka antezar kar raha hai"
+  },
+  {
+   "ts": 1793258226.105154,
    "title": "Gold rises as dollar weakens after Fed holds rates steady as largely expected",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-above-4000-as-traders-await-fed-decision-pce-data-4977316",
-   "t": "29 Oct \u00b7 06:20 AM",
+   "t": "29 Oct \u00b7 12:17 PM",
    "ur": "Fed ki janb se toqa ke matabiq shrahin mastahkam rakhane ke bad Dollar ke kamazor hone par Gold (sona) badhta hai."
   },
   {
@@ -439,7 +447,7 @@
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
    "t": "29 Oct \u00b7 02:06 AM",
-   "ur": "Bessent ka kahana hai kah 'zarori nihen hai' agar fed dubarah azafah karta hai to ya ek ghalati hai."
+   "ur": "Bessent ka kahana hai kah 'zarori nihen kah' agar fed dubarah azafah karta hai to ya ek ghalati hai."
   },
   {
    "ts": 1793116260.0,
@@ -447,7 +455,7 @@
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
    "t": "27 Oct \u00b7 08:51 PM",
-   "ur": "Fed ki rate mein azafah aa raha hai, lican is hafte nihen: CNBC sarway"
+   "ur": "Fed ret mein azafah aa raha hai, lican is hafte nihen: CNBC sarway"
   },
   {
    "ts": 1793039631.0,
