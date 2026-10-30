@@ -1,38 +1,13 @@
 {
- "updated": "30-10-2026 07:55 PKT",
+ "updated": "30-10-2026 14:08 PKT",
  "gold": {
-  "price": 3998.16,
-  "open": 4049.29,
-  "high": 4049.29,
-  "low": 3996.48,
-  "chg": -1.26,
+  "price": 3993.32,
+  "open": 4031.94,
+  "high": 4040.54,
+  "low": 3965.89,
+  "chg": -0.96,
   "src": "XAUUSD Spot",
   "spark": [
-   4024.67,
-   4023.17,
-   4024.07,
-   4025.67,
-   4011.78,
-   4014.18,
-   4016.13,
-   4018.15,
-   4022.07,
-   4021.0,
-   4013.95,
-   4007.99,
-   4009.68,
-   4007.5,
-   4009.32,
-   4011.24,
-   4010.76,
-   4017.52,
-   4019.38,
-   4022.12,
-   4027.92,
-   4024.94,
-   4023.63,
-   4021.63,
-   4021.53,
    4021.61,
    4021.61,
    4021.83,
@@ -55,16 +30,40 @@
    4012.19,
    4004.74,
    4002.07,
-   3998.16
+   3997.67,
+   3993.48,
+   4000.55,
+   3992.92,
+   3994.01,
+   3991.61,
+   3992.55,
+   3991.41,
+   3996.99,
+   4000.04,
+   4005.54,
+   4003.32,
+   3991.57,
+   3987.55,
+   3991.37,
+   3987.01,
+   3981.99,
+   3983.8,
+   3985.61,
+   3981.57,
+   3973.15,
+   3981.44,
+   3986.19,
+   3987.46,
+   3998.61,
+   3993.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.505,
-   "chg": -3.65,
+   "price": 51.025,
+   "chg": -2.23,
    "spark": [
-    60.098,
     60.725,
     59.977,
     60.869,
@@ -85,15 +84,15 @@
     54.108,
     54.293,
     53.457,
-    51.505
+    52.191,
+    51.025
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.73,
-   "chg": -0.45,
+   "price": 101.699,
+   "chg": -0.33,
    "spark": [
-    101.45,
     102.1,
     101.93,
     102.17,
@@ -114,15 +113,15 @@
     101.96,
     102.32,
     102.19,
-    101.73
+    102.04,
+    101.699
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 103.51,
-   "chg": 0.71,
+   "price": 103.61,
+   "chg": 1.58,
    "spark": [
-    90.42,
     92.87,
     91.11,
     89.43,
@@ -143,7 +142,8 @@
     101.76,
     99.9,
     102.78,
-    103.51
+    102.0,
+    103.61
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1199,
-   "chg": 0.39,
+   "price": 1.1197,
+   "chg": 0.37,
    "spark": [
     1.1327,
     1.125,
@@ -201,13 +201,13 @@
     1.1174,
     1.113,
     1.1156,
-    1.1199
+    1.1197
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3397,
-   "chg": 0.51,
+   "price": 1.3418,
+   "chg": 0.68,
    "spark": [
     1.3264,
     1.32,
@@ -230,13 +230,13 @@
     1.3345,
     1.3306,
     1.3328,
-    1.3397
+    1.3418
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.48,
-   "chg": -0.22,
+   "price": 157.377,
+   "chg": -0.29,
    "spark": [
     157.558,
     157.927,
@@ -259,7 +259,117 @@
     157.528,
     157.993,
     157.833,
-    157.48
+    157.377
+   ]
+  },
+  {
+   "name": "Ethereum",
+   "price": 2219.26,
+   "chg": -1.32,
+   "spark": [
+    2365.54,
+    2359.01,
+    2336.53,
+    2332.59,
+    2329.9,
+    2331.59,
+    2332.47,
+    2341.9,
+    2352.94,
+    2369.31,
+    2358.78,
+    2362.39,
+    2358.54,
+    2357.22,
+    2351.65,
+    2311.52,
+    2308.43,
+    2306.33,
+    2318.45,
+    2319.94,
+    2310.51,
+    2307.45,
+    2316.31,
+    2318.41,
+    2325.94,
+    2322.07,
+    2319.98,
+    2324.58,
+    2342.28,
+    2366.14,
+    2350.39,
+    2338.63,
+    2328.71,
+    2334.59,
+    2255.62,
+    2271.43,
+    2271.89,
+    2249.01,
+    2218.42,
+    2191.21,
+    2207.31,
+    2232.94,
+    2238.58,
+    2234.69,
+    2249.99,
+    2235.0,
+    2225.36,
+    2219.26
+   ]
+  },
+  {
+   "name": "Bitcoin",
+   "price": 77637.5,
+   "chg": -0.21,
+   "spark": [
+    81374.1,
+    81207.5,
+    80620.8,
+    80616.3,
+    80487.6,
+    80418.6,
+    80500.5,
+    80772.2,
+    80944.7,
+    81523.8,
+    81261.7,
+    81279.9,
+    81247.2,
+    81287.1,
+    81010.8,
+    79923.8,
+    79859.2,
+    79738.3,
+    80150.9,
+    80124.5,
+    79856.5,
+    79746.7,
+    79950.4,
+    80099.9,
+    80189.1,
+    80061.0,
+    79944.5,
+    80196.6,
+    81065.3,
+    81683.4,
+    81174.8,
+    80790.7,
+    80767.9,
+    80744.1,
+    78759.2,
+    78908.7,
+    78880.7,
+    77800.0,
+    77071.2,
+    76641.9,
+    76947.4,
+    78052.1,
+    78070.4,
+    78385.0,
+    78480.0,
+    78041.2,
+    77887.9,
+    77643.9
    ]
   }
  ],
@@ -276,60 +386,53 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793328913.201505,
-   "title": "Gold hovers near $4,000 as PCE inflation, oil risks revive Fed hike concerns",
+   "ts": 1793351310.87346,
+   "title": "Silver in freefall below all MAs: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-4000-as-pce-inflation-oil-risks-revive-fed-hike-concerns-4985685",
-   "t": "30 Oct \u00b7 07:55 AM",
-   "ur": "Pi si ai inflation (mehngai) ke tur par Gold (sona) $4,000 ke qarib mandala raha hai, til ke khatrat ne fed mein azafe ke khadshat ko bahal kiya"
+   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
+   "t": "30 Oct \u00b7 02:08 PM"
   },
   {
-   "ts": 1793328913.201505,
-   "title": "Gold dips, with spot prices just above $4k, as U.S. data hints at more rate hikes",
+   "ts": 1793351310.87346,
+   "title": "Gold tests critical $3,989 support in strong downtrend: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-slips-after-fed-holds-rates-pce-inflation-data-in-focus-4981309",
-   "t": "30 Oct \u00b7 07:55 AM",
-   "ur": "Gold (sone) mein kami, spat qeemton ke sath $4k se kach oper, jisa kah US deta mazid rate mein azafe ka asharah dita hai"
+   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
+   "t": "30 Oct \u00b7 02:08 PM"
   },
   {
    "ts": 1793297191.0,
    "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-   "t": "29 Oct \u00b7 11:06 PM",
-   "ur": "Tisri sah mahi mein US ji di pi mein toqa se behtar 3.4 fisad azafah hawa cunkah stambr mein inflation (mehngai) mein tizi aati hai"
+   "t": "29 Oct \u00b7 11:06 PM"
   },
   {
    "ts": 1793223106.0,
    "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-   "t": "29 Oct \u00b7 02:31 AM",
-   "ur": "Fed ret ke fisale aur warsh nus kanfarns ke panch aham nakat ya hen."
+   "t": "29 Oct \u00b7 02:31 AM"
   },
   {
    "ts": 1793221597.0,
    "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
-   "t": "29 Oct \u00b7 02:06 AM",
-   "ur": "Bessent ka kahana hai kah 'zarori nihen kah' agar fed dubarah azafah karta hai to ya ek ghalati hai."
+   "t": "29 Oct \u00b7 02:06 AM"
   },
   {
    "ts": 1793116260.0,
    "title": "Fed rate hikes are coming, but not this week: CNBC survey",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-   "t": "27 Oct \u00b7 08:51 PM",
-   "ur": "Fed ret mein azafah aa raha hai, lican is hafte nihen: CNBC sarway"
+   "t": "27 Oct \u00b7 08:51 PM"
   },
   {
    "ts": 1793039631.0,
    "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-   "t": "26 Oct \u00b7 11:33 PM",
-   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
+   "t": "26 Oct \u00b7 11:33 PM"
   }
  ],
  "sentiment": {
@@ -337,6 +440,7 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "translate: 7/7 failed"
  ]
 }
