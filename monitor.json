@@ -1,40 +1,13 @@
 {
- "updated": "30-10-2026 14:08 PKT",
+ "updated": "30-10-2026 20:51 PKT",
  "gold": {
-  "price": 3993.32,
-  "open": 4031.94,
-  "high": 4040.54,
-  "low": 3965.89,
-  "chg": -0.96,
+  "price": 3897.66,
+  "open": 4025.11,
+  "high": 4030.8,
+  "low": 3893.32,
+  "chg": -3.17,
   "src": "XAUUSD Spot",
   "spark": [
-   4021.61,
-   4021.61,
-   4021.83,
-   4022.16,
-   4018.21,
-   4022.1,
-   4024.18,
-   4013.82,
-   4015.44,
-   4011.77,
-   4007.69,
-   4008.65,
-   4012.5,
-   4016.9,
-   4008.33,
-   3998.97,
-   4011.75,
-   3997.32,
-   4007.82,
-   4012.19,
-   4004.74,
-   4002.07,
-   3997.67,
-   3993.48,
-   4000.55,
-   3992.92,
-   3994.01,
    3991.61,
    3992.55,
    3991.41,
@@ -55,14 +28,41 @@
    3986.19,
    3987.46,
    3998.61,
-   3993.32
+   3992.25,
+   3990.54,
+   3990.21,
+   3991.95,
+   3983.27,
+   3981.9,
+   3979.6,
+   3978.36,
+   3976.88,
+   3973.66,
+   3971.19,
+   3966.75,
+   3962.01,
+   3965.07,
+   3956.19,
+   3955.22,
+   3945.74,
+   3941.75,
+   3927.49,
+   3922.68,
+   3906.57,
+   3904.81,
+   3912.94,
+   3917.34,
+   3911.1,
+   3907.28,
+   3899.81,
+   3897.66
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.025,
-   "chg": -2.23,
+   "price": 49.27,
+   "chg": -5.6,
    "spark": [
     60.725,
     59.977,
@@ -85,13 +85,13 @@
     54.293,
     53.457,
     52.191,
-    51.025
+    49.27
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.699,
-   "chg": -0.33,
+   "price": 101.911,
+   "chg": -0.13,
    "spark": [
     102.1,
     101.93,
@@ -114,13 +114,13 @@
     102.32,
     102.19,
     102.04,
-    101.699
+    101.911
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 103.61,
-   "chg": 1.58,
+   "price": 104.09,
+   "chg": 2.05,
    "spark": [
     92.87,
     91.11,
@@ -143,15 +143,14 @@
     99.9,
     102.78,
     102.0,
-    103.61
+    104.09
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.989,
-   "chg": -1.11,
+   "price": 4.943,
+   "chg": -0.92,
    "spark": [
-    5.293,
     5.237,
     5.277,
     5.311,
@@ -172,13 +171,14 @@
     4.986,
     4.993,
     5.045,
-    4.989
+    4.989,
+    4.943
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1197,
-   "chg": 0.37,
+   "price": 1.1162,
+   "chg": 0.06,
    "spark": [
     1.1327,
     1.125,
@@ -201,13 +201,13 @@
     1.1174,
     1.113,
     1.1156,
-    1.1197
+    1.1162
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3418,
-   "chg": 0.68,
+   "price": 1.3392,
+   "chg": 0.48,
    "spark": [
     1.3264,
     1.32,
@@ -230,13 +230,13 @@
     1.3345,
     1.3306,
     1.3328,
-    1.3418
+    1.3392
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.377,
-   "chg": -0.29,
+   "price": 157.297,
+   "chg": -0.34,
    "spark": [
     157.558,
     157.927,
@@ -259,20 +259,14 @@
     157.528,
     157.993,
     157.833,
-    157.377
+    157.297
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2219.26,
-   "chg": -1.32,
+   "price": 2227.69,
+   "chg": -0.94,
    "spark": [
-    2365.54,
-    2359.01,
-    2336.53,
-    2332.59,
-    2329.9,
-    2331.59,
     2332.47,
     2341.9,
     2352.94,
@@ -314,20 +308,20 @@
     2249.99,
     2235.0,
     2225.36,
-    2219.26
+    2226.67,
+    2246.49,
+    2232.89,
+    2231.05,
+    2222.42,
+    2234.07,
+    2227.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77637.5,
-   "chg": -0.21,
+   "price": 77469.9,
+   "chg": -0.42,
    "spark": [
-    81374.1,
-    81207.5,
-    80620.8,
-    80616.3,
-    80487.6,
-    80418.6,
     80500.5,
     80772.2,
     80944.7,
@@ -369,11 +363,57 @@
     78480.0,
     78041.2,
     77887.9,
-    77643.9
+    77566.1,
+    77707.1,
+    77261.9,
+    77326.4,
+    77007.9,
+    77090.0,
+    77487.2
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1793212200.0,
+   "t": "Wed 28 Oct \u00b7 11:30 PM",
+   "title": "FOMC Press Conference",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1793277000.0,
+   "t": "Thu 29 Oct \u00b7 05:30 PM",
+   "title": "Advance GDP q/q",
+   "impact": "High",
+   "forecast": "3.2%",
+   "previous": "1.5%"
+  },
+  {
+   "ts": 1793277000.0,
+   "t": "Thu 29 Oct \u00b7 05:30 PM",
+   "title": "Core PCE Price Index m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "ts": 1793277000.0,
+   "t": "Thu 29 Oct \u00b7 05:30 PM",
+   "title": "Advance GDP Price Index q/q",
+   "impact": "Medium",
+   "forecast": "3.2%",
+   "previous": "6.2%"
+  },
+  {
+   "ts": 1793277000.0,
+   "t": "Thu 29 Oct \u00b7 05:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "198K",
+   "previous": "194K"
+  },
   {
    "ts": 1793363400.0,
    "t": "Fri 30 Oct \u00b7 05:30 PM",
@@ -383,56 +423,55 @@
    "previous": "0.9%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1793351310.87346,
-   "title": "Silver in freefall below all MAs: Live levels",
+   "ts": 1793375501.011069,
+   "title": "Gold falls below $4,000 as inflation concerns keep bullion under pressure",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-in-freefall-below-all-mas-doji-hints-at-exhaustion-live-93CH-4971502",
-   "t": "30 Oct \u00b7 02:08 PM"
-  },
-  {
-   "ts": 1793351310.87346,
-   "title": "Gold tests critical $3,989 support in strong downtrend: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
-   "t": "30 Oct \u00b7 02:08 PM"
+   "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-4000-as-pce-inflation-oil-risks-revive-fed-hike-concerns-4985685",
+   "t": "30 Oct \u00b7 08:51 PM",
+   "ur": "Gold (sona) $4,000 se niche garta hai cunkah inflation (mehngai) ke khadshat balin ko dabao mein ruktey hen."
   },
   {
    "ts": 1793297191.0,
    "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-   "t": "29 Oct \u00b7 11:06 PM"
+   "t": "29 Oct \u00b7 11:06 PM",
+   "ur": "Tisri sah mahi mein US ji di pi mein toqa se behtar 3.4 fisad azafah hawa cunkah stambr mein inflation (mehngai) mein tizi aati hai"
   },
   {
    "ts": 1793223106.0,
    "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-   "t": "29 Oct \u00b7 02:31 AM"
+   "t": "29 Oct \u00b7 02:31 AM",
+   "ur": "Fed ret ke fisale aur warsh nus kanfarns ke panch aham nakat ya hen."
   },
   {
    "ts": 1793221597.0,
    "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
-   "t": "29 Oct \u00b7 02:06 AM"
+   "t": "29 Oct \u00b7 02:06 AM",
+   "ur": "Bessent ka kahana hai kah 'zarori nihen hai' agar fed dubarah azafah karta hai to ya ek ghalati hai."
   },
   {
    "ts": 1793116260.0,
    "title": "Fed rate hikes are coming, but not this week: CNBC survey",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-   "t": "27 Oct \u00b7 08:51 PM"
+   "t": "27 Oct \u00b7 08:51 PM",
+   "ur": "Fed ret mein azafah aa raha hai, lican is hafte nihen: CNBC sarway"
   },
   {
    "ts": 1793039631.0,
    "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-   "t": "26 Oct \u00b7 11:33 PM"
+   "t": "26 Oct \u00b7 11:33 PM",
+   "ur": "Tajaziya: kiyon 2 trilin Dollar ka khasarah aur 5% treasurei pedawar amrikah ke liye sab se bada mashi challenj ban rahe hen"
   }
  ],
  "sentiment": {
@@ -440,7 +479,6 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "translate: 7/7 failed"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
