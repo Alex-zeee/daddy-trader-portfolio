@@ -1,38 +1,13 @@
 {
- "updated": "01-11-2026 05:39 PKT",
+ "updated": "01-11-2026 11:48 PKT",
  "gold": {
-  "price": 3875.42,
+  "price": 3875.45,
   "open": 3875.35,
   "high": 3875.54,
   "low": 3875.29,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   3875.35,
-   3875.34,
-   3875.42,
-   3875.44,
-   3875.41,
-   3875.33,
-   3875.41,
-   3875.44,
-   3875.39,
-   3875.33,
-   3875.42,
-   3875.44,
-   3875.39,
-   3875.33,
-   3875.44,
-   3875.44,
-   3875.4,
-   3875.33,
-   3875.45,
-   3875.44,
-   3875.42,
-   3875.34,
-   3875.35,
-   3875.43,
-   3875.43,
    3875.35,
    3875.34,
    3875.42,
@@ -55,14 +30,39 @@
    3875.44,
    3875.42,
    3875.35,
-   3875.42
+   3875.35,
+   3875.43,
+   3875.43,
+   3875.36,
+   3875.34,
+   3875.41,
+   3875.44,
+   3875.4,
+   3875.33,
+   3875.42,
+   3875.45,
+   3875.39,
+   3875.33,
+   3875.43,
+   3875.45,
+   3875.4,
+   3875.33,
+   3875.45,
+   3875.44,
+   3875.42,
+   3875.34,
+   3875.35,
+   3875.43,
+   3875.43,
+   3875.35,
+   3875.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 49.097,
-   "chg": -5.93,
+   "price": 49.276,
+   "chg": -5.59,
    "spark": [
     60.725,
     59.977,
@@ -85,7 +85,7 @@
     54.293,
     53.457,
     52.191,
-    49.097
+    49.276
    ]
   },
   {
@@ -264,15 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2255.89,
-   "chg": 0.16,
+   "price": 2265.74,
+   "chg": 0.59,
    "spark": [
-    2191.21,
-    2207.31,
-    2232.94,
-    2238.58,
-    2234.69,
-    2249.99,
     2235.0,
     2225.36,
     2226.67,
@@ -314,20 +308,20 @@
     2252.68,
     2251.34,
     2252.5,
-    2255.89
+    2259.37,
+    2267.18,
+    2262.11,
+    2264.87,
+    2263.58,
+    2265.85,
+    2265.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77522.9,
-   "chg": 0.11,
+   "price": 77806.9,
+   "chg": 0.48,
    "spark": [
-    76641.9,
-    76947.4,
-    78052.1,
-    78070.4,
-    78385.0,
-    78480.0,
     78041.2,
     77887.9,
     77566.1,
@@ -369,77 +363,107 @@
     77521.3,
     77401.0,
     77437.0,
-    77522.9
+    77556.7,
+    77595.8,
+    77604.8,
+    77660.8,
+    77690.1,
+    77771.2,
+    77806.9
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1793212200.0,
-   "t": "Wed 28 Oct \u00b7 11:30 PM",
-   "title": "FOMC Press Conference",
+   "ts": 1793631600.0,
+   "t": "Mon 02 Nov \u00b7 08:00 PM",
+   "title": "ISM Manufacturing PMI",
+   "impact": "Medium",
+   "forecast": "54.7",
+   "previous": "54.5"
+  },
+  {
+   "ts": 1793718000.0,
+   "t": "Tue 03 Nov \u00b7 08:00 PM",
+   "title": "JOLTS Job Openings",
+   "impact": "Medium",
+   "forecast": "7.11M",
+   "previous": "7.08M"
+  },
+  {
+   "ts": 1793718960.0,
+   "t": "Tue 03 Nov \u00b7 08:16 PM",
+   "title": "Congressional Elections",
    "impact": "High",
    "forecast": "",
    "previous": ""
   },
   {
-   "ts": 1793277000.0,
-   "t": "Thu 29 Oct \u00b7 05:30 PM",
-   "title": "Advance GDP q/q",
-   "impact": "High",
-   "forecast": "3.2%",
-   "previous": "1.5%"
-  },
-  {
-   "ts": 1793277000.0,
-   "t": "Thu 29 Oct \u00b7 05:30 PM",
-   "title": "Core PCE Price Index m/m",
-   "impact": "High",
-   "forecast": "0.3%",
-   "previous": "0.2%"
-  },
-  {
-   "ts": 1793277000.0,
-   "t": "Thu 29 Oct \u00b7 05:30 PM",
-   "title": "Advance GDP Price Index q/q",
+   "ts": 1793804400.0,
+   "t": "Wed 04 Nov \u00b7 08:00 PM",
+   "title": "ISM Services PMI",
    "impact": "Medium",
-   "forecast": "3.2%",
-   "previous": "6.2%"
+   "forecast": "54.9",
+   "previous": "54.9"
   },
   {
-   "ts": 1793277000.0,
-   "t": "Thu 29 Oct \u00b7 05:30 PM",
+   "ts": 1793885400.0,
+   "t": "Thu 05 Nov \u00b7 06:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "198K",
+   "forecast": "197K",
    "previous": "194K"
   },
   {
-   "ts": 1793363400.0,
-   "t": "Fri 30 Oct \u00b7 05:30 PM",
-   "title": "Employment Cost Index q/q",
+   "ts": 1793971800.0,
+   "t": "Fri 06 Nov \u00b7 06:30 PM",
+   "title": "Average Hourly Earnings m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.1%"
+  },
+  {
+   "ts": 1793971800.0,
+   "t": "Fri 06 Nov \u00b7 06:30 PM",
+   "title": "Non-Farm Employment Change",
+   "impact": "High",
+   "forecast": "63K",
+   "previous": "29K"
+  },
+  {
+   "ts": 1793971800.0,
+   "t": "Fri 06 Nov \u00b7 06:30 PM",
+   "title": "Unemployment Rate",
+   "impact": "High",
+   "forecast": "4.2%",
+   "previous": "4.2%"
+  },
+  {
+   "ts": 1793977200.0,
+   "t": "Fri 06 Nov \u00b7 08:00 PM",
+   "title": "Prelim UoM Consumer Sentiment",
    "impact": "Medium",
-   "forecast": "0.8%",
-   "previous": "0.9%"
+   "forecast": "47.8",
+   "previous": "46.3"
+  },
+  {
+   "ts": 1793977200.0,
+   "t": "Fri 06 Nov \u00b7 08:00 PM",
+   "title": "Prelim UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.7%"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793493546.079777,
+   "ts": 1793515731.642918,
    "title": "Gold slides in October, spot prices dip under $4k, hit their lowest in over a year",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-4000-as-pce-inflation-oil-risks-revive-fed-hike-concerns-4985685",
-   "t": "01 Nov \u00b7 05:39 AM",
+   "t": "01 Nov \u00b7 11:48 AM",
    "ur": "Aktobar mein Gold (sone) ki salaideng, spat ki qeemtin $4k se niche gar gayin, jo ek sal ke duran apani kam tarin sath par pohch gayin."
-  },
-  {
-   "ts": 1793493546.079777,
-   "title": "Gold breaks all supports in bearish impulse: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-breaks-below-4000-in-descending-channel-live-levels-93CH-4971505",
-   "t": "01 Nov \u00b7 05:39 AM",
-   "ur": "Gold (sona) mandi ke taslsal mein tamam sport ko tod dita hai."
   },
   {
    "ts": 1793297191.0,
@@ -455,7 +479,7 @@
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
    "t": "29 Oct \u00b7 02:31 AM",
-   "ur": "Fed ret ke fisale aur warsh nus kanfarns ke panch aham nakat ya hen."
+   "ur": "Yahan fed ret ke fisale aur warsh nus kanfarns ke panch aham nakat hen."
   },
   {
    "ts": 1793221597.0,
