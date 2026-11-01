@@ -1,25 +1,13 @@
 {
- "updated": "01-11-2026 23:38 PKT",
+ "updated": "02-11-2026 02:43 PKT",
  "gold": {
-  "price": 3875.45,
+  "price": 3875.44,
   "open": 3875.36,
-  "high": 3875.53,
-  "low": 3875.3,
+  "high": 3875.55,
+  "low": 3875.29,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   3875.34,
-   3875.42,
-   3875.44,
-   3875.41,
-   3875.34,
-   3875.41,
-   3875.44,
-   3875.4,
-   3875.33,
-   3875.43,
-   3875.45,
-   3875.39,
    3875.33,
    3875.44,
    3875.44,
@@ -55,7 +43,19 @@
    3875.42,
    3875.34,
    3875.35,
-   3875.45
+   3875.43,
+   3875.43,
+   3875.36,
+   3875.35,
+   3875.4,
+   3875.43,
+   3875.41,
+   3875.34,
+   3875.42,
+   3875.45,
+   3875.39,
+   3875.32,
+   3875.44
   ]
  },
  "markets": [
@@ -264,12 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2263.66,
-   "chg": 0.5,
+   "price": 2262.84,
+   "chg": 0.46,
    "spark": [
-    2235.81,
-    2235.74,
-    2234.54,
     2232.1,
     2241.37,
     2246.13,
@@ -314,17 +311,17 @@
     2263.63,
     2266.67,
     2261.82,
-    2263.66
+    2260.85,
+    2256.51,
+    2261.06,
+    2262.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77851.2,
-   "chg": 0.53,
+   "price": 77839.3,
+   "chg": 0.52,
    "spark": [
-    76777.8,
-    76777.5,
-    76568.2,
     76798.6,
     77204.3,
     77399.8,
@@ -369,7 +366,10 @@
     77875.3,
     78028.8,
     77862.7,
-    77851.2
+    77775.1,
+    77692.0,
+    77795.8,
+    77839.3
    ]
   }
  ],
@@ -464,22 +464,6 @@
    "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
    "t": "29 Oct \u00b7 11:06 PM",
    "ur": "Tisri sah mahi mein US ji di pi mein toqa se behtar 3.4 fisad azafah hawa cunkah stambr mein inflation (mehngai) mein tizi aati hai"
-  },
-  {
-   "ts": 1793223106.0,
-   "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-   "t": "29 Oct \u00b7 02:31 AM",
-   "ur": "Fed ret ke fisale aur warsh nus kanfarns ke panch aham nakat ya hen."
-  },
-  {
-   "ts": 1793221597.0,
-   "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
-   "t": "29 Oct \u00b7 02:06 AM",
-   "ur": "Bessent ka kahana hai kah 'zarori nihen hai' agar fed dubarah azafah karta hai to ya ek ghalati hai."
   }
  ],
  "sentiment": {
@@ -487,6 +471,9 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "ghmodels openai/gpt-4.1-mini: Expecting value: line 1 column 1 (char 0)",
+  "ghmodels openai/gpt-4o-mini: Expecting value: line 1 column 1 (char 0)",
+  "ghmodels openai/gpt-4.1: Expecting value: line 1 column 1 (char 0)"
  ]
 }
