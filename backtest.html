@@ -101,6 +101,26 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .lgroup:hover .larrow, .larrow:focus-visible { opacity: 1; }
 .larrow:hover { color: var(--fg); }
 .lsep { flex: none; width: 30px; height: 1px; background: var(--line); margin: 4px 0; }
+.lefttools, .favbar { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+/* favorite drawing tools (TradingView jaisa) */
+.mrow { display: flex; align-items: center; }
+.mrow .mi { flex: 1; min-width: 0; }
+.fav-star { flex: none; width: 28px; height: 28px; margin-right: 6px; border: 0; border-radius: 4px; background: transparent; color: var(--muted); display: grid; place-items: center; cursor: pointer; padding: 0; opacity: 0; }
+.mrow:hover .fav-star, .fav-star:focus-visible, .fav-star.on { opacity: 1; }
+.fav-star:hover { background: var(--hover); color: #f5c542; }
+.fav-star.on { color: #f5c542; }
+.fav-star svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
+.fav-star.on svg { fill: currentColor; }
+.favbar { position: absolute; left: 8px; bottom: 44px; z-index: 5; display: flex; align-items: center; gap: 1px; background: var(--dlg); border: 1px solid var(--line); border-radius: 6px; padding: 3px; box-shadow: var(--shadow); max-width: calc(100% - 16px); overflow-x: auto; scrollbar-width: none; }
+.favbar::-webkit-scrollbar { display: none; }
+.favbar[hidden] { display: none; }
+.favbar button { flex: none; width: 34px; height: 34px; border: 0; border-radius: 4px; background: transparent; color: var(--fg); display: grid; place-items: center; cursor: pointer; padding: 0; }
+.favbar button:hover { background: var(--hover); }
+.favbar button[aria-pressed="true"] { color: var(--accent); background: var(--accent-soft); }
+.dtb .dtb-grip, .favbar .dtb-grip { width: 18px; min-width: 18px; padding: 0; color: var(--muted); cursor: move; touch-action: none; }
+.dtb .dtb-grip svg, .favbar .dtb-grip svg { width: 8px; height: 18px; fill: currentColor; stroke: none; }
+.favbar { touch-action: pan-x; }
+.favbar button svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.15; stroke-linecap: round; stroke-linejoin: round; }
 
 .center { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
 .chart-panel { flex: 1; min-height: 0; display: flex; flex-direction: column; border-radius: 6px; overflow: hidden; background: var(--chart-bg); }
@@ -356,6 +376,17 @@ td { font-variant-numeric: tabular-nums; }
   .rangebar .rg-hide { display: none; }
   .acct-strip { display: none; }
 }
+/* ungli se chalne wali screens (mobile/tablet): tool lists ke arrow bade aur hamesha nazar aayein */
+@media (pointer: coarse) {
+  .lefttools { width: 50px; }
+  .ltool { width: 34px; }
+  .larrow { width: 14px; opacity: 1; }
+  .larrow svg { width: 9px; height: 9px; }
+  .fav-star { opacity: 1; width: 36px; height: 36px; }
+  .favbar button { width: 40px; height: 40px; }
+  .dtb .dtb-grip, .favbar .dtb-grip { width: 26px; min-width: 26px; }
+  .mi { padding-top: 10px; padding-bottom: 10px; }
+}
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
@@ -410,6 +441,7 @@ td { font-variant-numeric: tabular-nums; }
         <canvas id="drawCanvas" aria-hidden="true"></canvas>
         <div class="legend" id="legend"></div>
         <div class="dtb" id="selBar" hidden role="toolbar" aria-label="Drawing toolbar"></div>
+        <div class="favbar" id="favBar" hidden role="toolbar" aria-label="Favorite drawing tools"></div>
         <div class="banner" id="banner" hidden></div>
         <div class="replay-bar" id="replayBar" hidden>
           <button class="tb" id="rbSelect" type="button" title="Replay ki shuruaat ki candle chunein">
@@ -2018,7 +2050,7 @@ td { font-variant-numeric: tabular-nums; }
   function geoHit(geo, x, y, T) {
     for (const g of geo || []) {
       if (g.k === "s" && distSeg(x, y, g.x1, g.y1, g.x2, g.y2) <= T) return true;
-      if (g.k === "r" && x >= g.x - 2 && x <= g.x + g.w + 2 && y >= g.y - 2 && y <= g.y + g.h + 2) return true;
+      if (g.k === "r") { const m = T > 6 ? 8 : 2; if (x >= g.x - m && x <= g.x + g.w + m && y >= g.y - m && y <= g.y + g.h + m) return true; }
       if (g.k === "p" && pip(x, y, g.pts)) return true;
       if (g.k === "e") { const dx = (x - g.cx) / g.rx, dy = (y - g.cy) / g.ry, dd = Math.sqrt(dx * dx + dy * dy); if (g.fill ? dd <= 1.03 : Math.abs(dd - 1) * Math.min(g.rx, g.ry) <= T) return true; }
     }
@@ -2026,17 +2058,25 @@ td { font-variant-numeric: tabular-nums; }
   }
   function hitDrawing(x, y) {
     if (D.hidden) return null;
+    const HT = D.coarse ? 22 : 8, LT = D.coarse ? 14 : 6;   // ungli (touch) par point/line pakarna aasan
+    const sel = D.sel;
+    if (sel && !sel.hiddenOne && visibleOnTf(sel)) {
+      let best = null, bd = HT;
+      for (const h of sel._hp || []) { const dd = Math.hypot(x - h[1], y - h[2]); if (dd <= bd) { bd = dd; best = h; } }
+      if (best) return { d: sel, handle: best[0] };
+    }
     for (let i = D.list.length - 1; i >= 0; i--) {
       const d = D.list[i];
       if (d.hiddenOne || !visibleOnTf(d)) continue;
-      if (d === D.sel || d === D.hover) for (const h of d._hp || []) if (Math.hypot(x - h[1], y - h[2]) <= 8) return { d, handle: h[0] };
-      if (geoHit(d._geo, x, y, 6)) return { d, handle: null };
+      if (d === D.hover && d !== sel) for (const h of d._hp || []) if (Math.hypot(x - h[1], y - h[2]) <= HT) return { d, handle: h[0] };
+      if (geoHit(d._geo, x, y, LT)) return { d, handle: null };
     }
     return null;
   }
   function hitTrade(x, y) {
-    for (const h of D.hits) if (h.kind === "btn" && x >= h.r.x && x <= h.r.x + h.r.w && y >= h.r.y && y <= h.r.y + h.r.h) return h;
-    for (const h of D.hits) if (h.kind === "line" && Math.abs(y - h.y) <= 5) return h;
+    const pad = D.coarse ? 6 : 0, lt = D.coarse ? 14 : 5;
+    for (const h of D.hits) if (h.kind === "btn" && x >= h.r.x - pad && x <= h.r.x + h.r.w + pad && y >= h.r.y - pad && y <= h.r.y + h.r.h + pad) return h;
+    for (const h of D.hits) if (h.kind === "line" && Math.abs(y - h.y) <= lt) return h;
     return null;
   }
 
@@ -2102,7 +2142,8 @@ td { font-variant-numeric: tabular-nums; }
     unlock: '<rect x="7" y="13" width="14" height="10" rx="1.5"/><path d="M10 13V9.5a4 4 0 0 1 7.6-1.7"/>',
     eye: '<path d="M3 14s4-7 11-7 11 7 11 7-4 7-11 7S3 14 3 14z"/><circle cx="14" cy="14" r="3"/>',
     eyeOff: '<path d="M3 14s4-7 11-7 11 7 11 7-4 7-11 7S3 14 3 14z"/><circle cx="14" cy="14" r="3"/><path d="M5 23L23 5"/>',
-    trash: '<path d="M6 8h16M11 8V5.5h6V8M8.5 8l1 15h9l1-15M12 12v7M16 12v7"/>'
+    trash: '<path d="M6 8h16M11 8V5.5h6V8M8.5 8l1 15h9l1-15M12 12v7M16 12v7"/>',
+    star: '<path d="M14 5l2.7 5.6 6.1.9-4.4 4.3 1 6.1L14 19l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>'
   };
   function curIcon(g) { return g.id === "icons" ? '<span style="font-size:20px;line-height:1">' + D.emoji + "</span>" : ico(D.gcur[g.id]); }
   function renderLeftTools() {
@@ -2118,6 +2159,7 @@ td { font-variant-numeric: tabular-nums; }
     h += '<span class="lsep"></span>';
     h += '<div class="lgroup"><button class="ltool" type="button" data-tool1="ruler" aria-pressed="' + (D.tool === "ruler") + '" title="Measure (Shift + click)" aria-label="Measure">' + ico("ruler") + '</button><span class="lpad"></span></div>';
     h += '<div class="lgroup"><button class="ltool" type="button" data-tool1="zoom" aria-pressed="' + (D.tool === "zoom") + '" title="Zoom In: chart par hissa kheenchein" aria-label="Zoom in">' + ico("zoom") + '</button><span class="lpad"></span></div>';
+    h += '<div class="lgroup"><button class="ltool" type="button" data-act="favbar" aria-pressed="' + favVisible() + '" title="Favorite tools (kisi bhi tool ki list mein star dabayein)" aria-label="Favorite tools">' + SVG28(IC28.star) + '</button><span class="lpad"></span></div>';
     h += '<span class="lsep"></span>';
     h += '<div class="lgroup"><button class="ltool" type="button" data-act="magnet" aria-pressed="' + (CFG.magnet !== "off") + '" title="Magnet mode" aria-label="Magnet mode">' + SVG28(CFG.magnet === "strong" ? IC28.magnetStrong : IC28.magnet) + '</button><button class="larrow" type="button" data-flyout="magnet" aria-label="Magnet options">' + caretSvg + "</button></div>";
     h += '<div class="lgroup"><button class="ltool" type="button" data-act="stay" aria-pressed="' + !!CFG.stayDraw + '" title="Stay in drawing mode" aria-label="Stay in drawing mode">' + SVG28(IC28.stay) + '</button><span class="lpad"></span></div>';
@@ -2125,8 +2167,19 @@ td { font-variant-numeric: tabular-nums; }
     h += '<div class="lgroup"><button class="ltool" type="button" data-act="hide" aria-pressed="' + (D.hidden || D.hideInds || D.hideTrades) + '" title="Hide all drawings" aria-label="Hide">' + SVG28(D.hidden ? IC28.eyeOff : IC28.eye) + '</button><button class="larrow" type="button" data-flyout="hide" aria-label="Hide options">' + caretSvg + "</button></div>";
     h += '<div class="lgroup"><button class="ltool" type="button" data-act="remove" title="Remove drawings" aria-label="Remove drawings">' + SVG28(IC28.trash) + '</button><button class="larrow" type="button" data-flyout="remove" aria-label="Remove options">' + caretSvg + "</button></div>";
     leftTools.innerHTML = h;
+    renderFavBar();
   }
+  let lpTimer = null, lpFired = false;   // ungli se tool ko daba kar rakhein to us ki poori list khulti hai
+  leftTools.addEventListener("pointerdown", (e) => {
+    lpFired = false; clearTimeout(lpTimer);
+    const b = e.target.closest(".ltool[data-group]");
+    if (!b || e.pointerType === "mouse") return;
+    lpTimer = setTimeout(() => { const a = b.parentElement.querySelector("[data-flyout]"); if (a) { lpFired = true; openFlyout(b.dataset.group, a); } }, 450);
+  });
+  ["pointerup", "pointercancel", "pointerleave"].forEach((t) => leftTools.addEventListener(t, () => clearTimeout(lpTimer)));
+  leftTools.addEventListener("contextmenu", (e) => e.preventDefault());
   leftTools.addEventListener("click", (e) => {
+    if (lpFired) { lpFired = false; return; }
     const fly = e.target.closest("[data-flyout]");
     if (fly) { openFlyout(fly.dataset.flyout, fly); return; }
     const b = e.target.closest("button"); if (!b) return;
@@ -2143,6 +2196,10 @@ td { font-variant-numeric: tabular-nums; }
     else if (act === "lock") { D.locked = !D.locked; toast(D.locked ? "Saari drawings lock ho gayi." : "Drawings unlock ho gayi."); }
     else if (act === "hide") { const any = D.hidden; D.hidden = !any; if (D.hidden) select(null); }
     else if (act === "remove") clearAll();
+    else if (act === "favbar") {
+      if (!favList().length) { toast("Kisi bhi tool ki list kholein aur us ke saath wala ☆ star dabayein. Wo tool yahan favorites mein aa jayega.", 5000); return; }
+      CFG.favShow = CFG.favShow === false; saveCfg();
+    }
     renderLeftTools();
   });
   function openFlyout(gid, anchor) {
@@ -2178,13 +2235,78 @@ td { font-variant-numeric: tabular-nums; }
     }
     const html = g.sections.map(([title, ids]) => (title ? '<div class="mhead">' + esc(title) + "</div>" : "") + ids.map((id) => {
       const t = TOOLS[id], on = gid === "cursor" ? D.tool === "cursor" && D.cursorStyle === id : D.tool === id;
-      return '<button class="mi" type="button" role="menuitemradio" aria-checked="' + on + '" data-pick="' + id + '">' + ico(id, 28) + esc(t.name) + (t.key ? "<kbd>" + t.key + "</kbd>" : "") + "</button>";
+      const item = '<button class="mi" type="button" role="menuitemradio" aria-checked="' + on + '" data-pick="' + id + '">' + ico(id, 28) + esc(t.name) + (t.key ? "<kbd>" + t.key + "</kbd>" : "") + "</button>";
+      return gid === "cursor" ? item : '<div class="mrow">' + item + starBtn(id) + "</div>";
     }).join("")).join("");
     openMenu(x, y, html, (btn) => {
       const id = btn.dataset.pick; D.gcur[gid] = id;
       if (gid === "cursor") { D.cursorStyle = id; setTool("cursor"); } else setTool(id);
     });
   }
+  /* ---------- favorite drawing tools (TradingView jaisa) ---------- */
+  const STAR_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.9-4.2 4.1 1 5.8L12 17l-5.2 2.7 1-5.8-4.2-4.1 5.8-.9z"/></svg>';
+  const GRIP_SVG = '<button type="button" class="dtb-grip" title="Toolbar hilayein" aria-label="Toolbar hilayein"><svg viewBox="0 0 8 18" width="8" height="18" aria-hidden="true"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></button>';
+  function favList() { return (Array.isArray(CFG.favTools) ? CFG.favTools : []).filter((id) => TOOLS[id]); }
+  function isFav(id) { return favList().includes(id); }
+  function favVisible() { return favList().length > 0 && CFG.favShow !== false; }
+  function groupOf(id) { const g = GROUPS.find((x) => x.sections.some((s) => s[1].includes(id))); return g ? g.id : null; }
+  function starBtn(id) { const on = isFav(id); return '<button class="fav-star' + (on ? " on" : "") + '" type="button" data-fav="' + id + '" aria-pressed="' + on + '" title="' + (on ? "Favorites se hatayein" : "Favorites mein daalein") + '" aria-label="' + esc(TOOLS[id].name) + ' favorite">' + STAR_SVG + "</button>"; }
+  function toggleFav(id) {
+    if (!TOOLS[id]) return;
+    const on = !isFav(id);
+    CFG.favTools = on ? favList().concat(id) : favList().filter((x) => x !== id);
+    if (on) CFG.favShow = true;
+    saveCfg(); renderLeftTools();
+    toast(TOOLS[id].name + (on ? " favorites mein aa gaya." : " favorites se hat gaya."));
+  }
+  document.addEventListener("click", (e) => {
+    const s = e.target.closest(".fav-star"); if (!s) return;
+    e.preventDefault();
+    toggleFav(s.dataset.fav);
+    const on = isFav(s.dataset.fav);
+    s.classList.toggle("on", on); s.setAttribute("aria-pressed", String(on)); s.title = on ? "Favorites se hatayein" : "Favorites mein daalein";
+  });
+  function placeFavBar() {
+    const fb = $("#favBar"); if (!fb || fb.hidden) return;
+    const p = CFG.favPos;
+    if (!p) { fb.style.left = "8px"; fb.style.top = ""; fb.style.bottom = "44px"; return; }
+    fb.style.bottom = "auto";
+    fb.style.left = Math.max(0, Math.min(p.x, area.clientWidth - fb.offsetWidth)) + "px";
+    fb.style.top = Math.max(0, Math.min(p.y, area.clientHeight - fb.offsetHeight)) + "px";
+  }
+  function renderFavBar() {
+    const fb = $("#favBar"); if (!fb) return;
+    const list = favList(), show = favVisible();
+    fb.hidden = !show;
+    if (!show) return;
+    const sig = list.join(",");
+    if (fb.dataset.sig !== sig) {
+      fb.innerHTML = GRIP_SVG + list.map((id) => '<button type="button" data-ftool="' + id + '" title="' + esc(TOOLS[id].name) + '" aria-label="' + esc(TOOLS[id].name) + '">' + ico(id, 24) + "</button>").join("");
+      fb.dataset.sig = sig;
+    }
+    $$("[data-ftool]", fb).forEach((b) => b.setAttribute("aria-pressed", String(D.tool === b.dataset.ftool)));
+    placeFavBar();
+  }
+  (function favBarEvents() {
+    const fb = $("#favBar"); let st = null;
+    fb.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-ftool]"); if (!b) return;
+      const id = b.dataset.ftool, g = groupOf(id);   // grip par click se kuch nahi hota
+      if (g) D.gcur[g] = id;
+      setTool(D.tool === id ? "cursor" : id);
+    });
+    fb.addEventListener("pointerdown", (e) => {
+      if (!e.target.closest(".dtb-grip")) return;
+      const r = fb.getBoundingClientRect(), ar = area.getBoundingClientRect();
+      st = { dx: e.clientX - r.left, dy: e.clientY - r.top, ar };
+      try { fb.setPointerCapture(e.pointerId); } catch (er) { /* optional */ }
+      e.preventDefault();
+    });
+    fb.addEventListener("pointermove", (e) => { if (!st) return; CFG.favPos = { x: e.clientX - st.ar.left - st.dx, y: e.clientY - st.ar.top - st.dy }; placeFavBar(); });
+    const end = () => { if (!st) return; st = null; CFG.favPos = { x: parseFloat(fb.style.left) || 0, y: parseFloat(fb.style.top) || 0 }; saveCfg(); };
+    fb.addEventListener("pointerup", end); fb.addEventListener("pointercancel", end);
+    try { new ResizeObserver(() => placeFavBar()).observe(area); } catch (er) { /* optional */ }
+  })();
   function setIndsHidden(v) {
     D.hideInds = v;
     IND.list.forEach((ind) => ind.series.forEach((s) => s.applyOptions({ visible: !v && !ind.hidden })));
@@ -2213,7 +2335,7 @@ td { font-variant-numeric: tabular-nums; }
   const PEN = '<path d="M5 19l1.5-4.5L16 5l3 3-9.5 9.5z"/>';
   const FILL = '<path d="M6 12l6-6 7 7-6 6z"/><path d="M19 15c1 1.6 1.5 2.6 1.5 3.2a1.5 1.5 0 0 1-3 0c0-.6.5-1.6 1.5-3.2z"/>';
   selBar.innerHTML =
-    '<span class="dtb-grip" title="Toolbar hilayein" aria-hidden="true"><svg viewBox="0 0 8 18" width="8" height="18"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></span>' +
+    '<button type="button" class="dtb-grip" title="Toolbar hilayein" aria-label="Toolbar hilayein"><svg viewBox="0 0 8 18" width="8" height="18" aria-hidden="true"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></button>' +
     '<button type="button" data-pop="color" title="Line ka rang" aria-label="Line ka rang"><svg viewBox="0 0 24 24" width="20" height="20">' + PEN + '</svg><i class="cbar" data-bar="color"></i></button>' +
     '<button type="button" data-pop="fill" title="Background ka rang" aria-label="Background ka rang"><svg viewBox="0 0 24 24" width="20" height="20">' + FILL + '</svg><i class="cbar" data-bar="fill"></i></button>' +
     '<button type="button" data-pop="textColor" title="Text ka rang" aria-label="Text ka rang"><b class="tglyph">T</b><i class="cbar" data-bar="textColor"></i></button>' +
@@ -2336,7 +2458,7 @@ td { font-variant-numeric: tabular-nums; }
     });
   }
   area.addEventListener("contextmenu", (e) => {
-    if (!S.agg.length) return;
+    if (!S.agg.length || e.target.closest(".favbar, .dtb")) return;
     const p = pos(e);
     if (!inPane(p)) return;
     e.preventDefault();
@@ -2505,15 +2627,19 @@ td { font-variant-numeric: tabular-nums; }
       addDrawing(d); afterCreate(d);
       return;
     }
-    if (!D.draft) { D.draft = newDrawing(t, [P, { t: P.t, p: P.p }]); D.downAt = p; return; }
+    if (!D.draft) {
+      D.draft = newDrawing(t, [P, { t: P.t, p: P.p }]); D.downAt = p;
+      if (T.n < 0 && D.coarse) toast("Point lagate jayein. Khatam karne ke liye aakhri point par dobara tap karein.", 4500);
+      return;
+    }
     const pts = D.draft.pts;
     pts[pts.length - 1] = P;
     if (T.n > 0 && pts.length >= T.n) { commitDraft(); return; }
     if (T.n < 0 && pts.length > 2) {
       const f = pts[0];
-      if (t === "polyline" && Math.hypot(tx(f.t) - p.x, py(f.p) - p.y) < 9) { pts.pop(); commitDraft(); return; }
+      if (t === "polyline" && Math.hypot(tx(f.t) - p.x, py(f.p) - p.y) < (D.coarse ? 22 : 9)) { pts.pop(); commitDraft(); return; }
       const prev = pts[pts.length - 2];
-      if (Math.hypot(tx(prev.t) - p.x, py(prev.p) - p.y) < 4) { pts.pop(); commitDraft(); return; }
+      if (Math.hypot(tx(prev.t) - p.x, py(prev.p) - p.y) < (D.coarse ? 18 : 4)) { pts.pop(); commitDraft(); return; }
     }
     pts.push({ t: P.t, p: P.p });
   }
@@ -2574,9 +2700,10 @@ td { font-variant-numeric: tabular-nums; }
   function swallow(e) { D.swallow = true; e.stopPropagation(); e.preventDefault(); }
   area.addEventListener("pointerdown", (e) => {
     D.swallow = false;
+    D.coarse = e.pointerType !== "mouse";
     if (!S.agg.length || !mainSeries) return;
     if (e.pointerType === "mouse" && e.button !== 0) return;
-    if (e.target.closest(".dtb, .text-editor, .banner, .replay-bar, .legend button")) return;
+    if (e.target.closest(".dtb, .favbar, .text-editor, .banner, .replay-bar, .legend button")) return;
     const p = pos(e);
     if (!inPane(p)) return;
     if (S.selecting) { swallow(e); pickReplayStart(p); return; }
@@ -2605,6 +2732,7 @@ td { font-variant-numeric: tabular-nums; }
     if (type === "touchstart" && e.cancelable) e.preventDefault();
   }, { capture: true, passive: false }));
   area.addEventListener("pointermove", (e) => {
+    if (e.pointerType === "mouse") D.coarse = false;
     const p = pos(e);
     S.mouse = p;
     if (D.drag) return;
@@ -2648,7 +2776,7 @@ td { font-variant-numeric: tabular-nums; }
   });
   window.addEventListener("pointercancel", () => { D.drag = null; D.downAt = null; D.swallow = false; D.zoom = null; });
   area.addEventListener("dblclick", (e) => {
-    if (S.selecting) return;
+    if (S.selecting || e.target.closest(".favbar, .dtb")) return;
     if (D.draft && TOOLS[D.draft.type].n < 0) {
       e.stopPropagation(); e.preventDefault();
       const pts = D.draft.pts;
@@ -3690,7 +3818,7 @@ td { font-variant-numeric: tabular-nums; }
   setBottomTab(CFG.bottomTab, true);
   setRView(CFG.rview);
   const want = CFG.sym || (CFG.lastSet && CFG.lastSet !== "sample" ? (String(CFG.lastSet).startsWith("mk:") ? CFG.lastSet.slice(3) : "upload:" + CFG.lastSet) : "XAUUSD");
-  loadSample();
+  { const keepSym = CFG.sym, keepSet = CFG.lastSet; loadSample(); CFG.sym = keepSym; CFG.lastSet = keepSet; saveCfg(); }   // sirf intezar ke liye: naqli data ko yaad na rakho
   initAuth();
   (async function start() {
     await loadIndex();
@@ -3708,7 +3836,7 @@ td { font-variant-numeric: tabular-nums; }
       await openSymbol("XAUUSD");
       return;
     }
-    if (want === "sample") return;
+    if (want === "sample" && !MK.list.length) return;   // asli data mil raha ho to naqli (Sample) par na atke
     if (!(await openSymbol(want)) && want !== "XAUUSD") await openSymbol("XAUUSD");
   })();
 })();

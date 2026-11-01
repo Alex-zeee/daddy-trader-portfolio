@@ -1,5 +1,5 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v8';
+const CACHE = 'daddytrader-v9';
 const ASSETS = [
   './',
   './index.html',
@@ -41,6 +41,8 @@ self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   // doosri jagah ki requests (jaise laptop wali Alexa 127.0.0.1) ko hath na lagao
   if (!url.startsWith(self.location.origin)) return;
+  // backtest ka market data (har 30 minute naya) cache mein jama na karo, warna phone/laptop ki storage bharti rehti hai
+  if (url.includes('/data/')) return;
   // HTML pages + data: ALWAYS network first (fresh), fallback cache for offline
   const isData = url.includes('signals.json') || url.includes('monitor.json') || url.includes('clients.json');
   const isPage = e.request.mode === 'navigate' ||
