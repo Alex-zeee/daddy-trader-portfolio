@@ -131,7 +131,7 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .rangebar .clock { font-size: 13px; color: var(--fg); font-variant-numeric: tabular-nums; }
 .chart-area { position: relative; flex: 1; min-height: 0; background: var(--chart-bg); }
 #chart { position: absolute; inset: 0; }
-#drawCanvas { position: absolute; inset: 0; pointer-events: none; z-index: 3; }
+#drawCanvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 3; }
 .chart-area.tool-on, .chart-area.tool-on * { touch-action: none; }
 .chart-area.tool-on canvas, .chart-area.selecting canvas { cursor: crosshair !important; }
 .chart-area.arrow-cursor canvas { cursor: default !important; }
@@ -204,6 +204,8 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .chart-area.cur-arrow canvas { cursor: default !important; }
 .chart-area.cur-dot canvas { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Ccircle cx='6' cy='6' r='2.5' fill='%23888'/%3E%3C/svg%3E") 6 6, crosshair !important; }
 .chart-area.cur-eraser canvas { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22'%3E%3Cpath d='M3 16l8-8 6 6-5 5H6z' fill='%23fff' stroke='%23333'/%3E%3C/svg%3E") 4 18, pointer !important; }
+.finish-btn { position: absolute; top: 52px; left: 50%; transform: translateX(-50%); z-index: 7; border: 0; border-radius: 18px; background: var(--accent); color: #fff; font-weight: 600; padding: 9px 18px; box-shadow: var(--shadow); cursor: pointer; }
+.finish-btn[hidden] { display: none; }
 .banner { position: absolute; top: 8px; left: 50%; transform: translateX(-50%); z-index: 6; background: var(--accent); color: #fff; padding: 6px 12px; border-radius: 4px; font-weight: 500; max-width: calc(100% - 20px); text-align: center; }
 .replay-bar { position: absolute; left: 50%; bottom: 40px; transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 2px; background: var(--dlg); border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow); padding: 4px; max-width: calc(100% - 16px); overflow-x: auto; scrollbar-width: none; }
 .replay-bar select { height: 30px; background: transparent; border: 0; border-radius: 4px; padding: 0 4px; cursor: pointer; }
@@ -361,7 +363,7 @@ td { font-variant-numeric: tabular-nums; }
 .gate { position: fixed; inset: 0; z-index: 60; background: var(--bg); display: grid; place-items: center; padding: 16px; }
 .gate .dlg { width: min(400px, 100%); }
 .gate-brand { display: flex; align-items: center; gap: 10px; justify-content: center; margin-bottom: 4px; }
-.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 6px; font-size: 13px; z-index: 70; max-width: min(520px, calc(100vw - 32px)); text-align: center; box-shadow: var(--shadow); }
+.toast { pointer-events: none; position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 6px; font-size: 13px; z-index: 70; max-width: min(520px, calc(100vw - 32px)); text-align: center; box-shadow: var(--shadow); }
 .credit a { color: var(--muted); }
 
 @media (max-width: 760px) {
@@ -443,6 +445,7 @@ td { font-variant-numeric: tabular-nums; }
         <div class="dtb" id="selBar" hidden role="toolbar" aria-label="Drawing toolbar"></div>
         <div class="favbar" id="favBar" hidden role="toolbar" aria-label="Favorite drawing tools"></div>
         <div class="banner" id="banner" hidden></div>
+        <button class="finish-btn" id="finishBtn" type="button" hidden>✓ Drawing mukammal karein</button>
         <div class="replay-bar" id="replayBar" hidden>
           <button class="tb" id="rbSelect" type="button" title="Replay ki shuruaat ki candle chunein">
             <svg class="i" viewBox="0 0 20 20"><path d="M10 2v16"/><path d="M6 6l-3 4 3 4M14 6l3 4-3 4"/></svg>
@@ -2034,10 +2037,24 @@ td { font-variant-numeric: tabular-nums; }
       const r = { type: "datepricerange", pts: D.ruler.pts, style: defStyle("datepricerange") };
       try { drawOne(r, pane, false, false); } catch (err) { /* ignore */ }
     }
+    if (D.aim) {   // ungli ke upar + nishaan
+      const a = D.aim.a, P = ptAt(a), ax = D.draft || D.ruler ? a.x : (isFinite(P.t) ? tx(P.t) : a.x), ay = isFinite(P.p) ? py(P.p) : a.y;
+      sl(0, ay, pane.w, ay, hexA(TH.fg, 0.55), 1, 1); sl(ax, 0, ax, pane.h, hexA(TH.fg, 0.55), 1, 1);
+      ctx.beginPath(); ctx.arc(ax, ay, 9, 0, 7); ctx.strokeStyle = TH.accent; ctx.lineWidth = 2; ctx.stroke();
+      ctx.beginPath(); ctx.arc(ax, ay, 2.5, 0, 7); ctx.fillStyle = TH.accent; ctx.fill();
+      tag(fmtPx(P.p), pane.w - 2, ay, TH.accent, "#fff", "right");
+    }
     if (D.zoom) { const z = D.zoom; ctx.fillStyle = hexA(TH.accent, 0.12); ctx.fillRect(Math.min(z.a.x, z.b.x), 0, Math.abs(z.b.x - z.a.x), pane.h); ctx.strokeStyle = TH.accent; ctx.lineWidth = 1; ctx.strokeRect(Math.min(z.a.x, z.b.x) + 0.5, 0.5, Math.abs(z.b.x - z.a.x), pane.h - 1); }
     try { drawTrades(pane); } catch (err) { D.hits = []; }
   }
-  (function loop() { render(); requestAnimationFrame(loop); })();
+  const finishBtn = $("#finishBtn");
+  finishBtn.addEventListener("click", () => { finishMulti(); });
+  (function loop() {
+    render();
+    const want = !!(D.draft && TOOLS[D.draft.type] && TOOLS[D.draft.type].n < 0 && D.coarse && D.draft.pts.length > 2);
+    if (finishBtn.hidden === want) finishBtn.hidden = !want;
+    requestAnimationFrame(loop);
+  })();
 
   /* ---------- hit testing ---------- */
   function distSeg(px, pY, x1, y1, x2, y2) {
@@ -2050,31 +2067,34 @@ td { font-variant-numeric: tabular-nums; }
   function geoHit(geo, x, y, T) {
     for (const g of geo || []) {
       if (g.k === "s" && distSeg(x, y, g.x1, g.y1, g.x2, g.y2) <= T) return true;
-      if (g.k === "r") { const m = T > 6 ? 8 : 2; if (x >= g.x - m && x <= g.x + g.w + m && y >= g.y - m && y <= g.y + g.h + m) return true; }
-      if (g.k === "p" && pip(x, y, g.pts)) return true;
-      if (g.k === "e") { const dx = (x - g.cx) / g.rx, dy = (y - g.cy) / g.ry, dd = Math.sqrt(dx * dx + dy * dy); if (g.fill ? dd <= 1.03 : Math.abs(dd - 1) * Math.min(g.rx, g.ry) <= T) return true; }
+      if (g.k === "r") { const m = T > 6 ? 12 : 2; if (x >= g.x - m && x <= g.x + g.w + m && y >= g.y - m && y <= g.y + g.h + m) return true; }
+      if (g.k === "p") {
+        if (pip(x, y, g.pts)) return true;
+        if (T > 6) for (let i = 0, j = g.pts.length - 1; i < g.pts.length; j = i++) if (distSeg(x, y, g.pts[j].x, g.pts[j].y, g.pts[i].x, g.pts[i].y) <= T) return true;   // ungli: kinare ke paas bhi
+      }
+      if (g.k === "e") { const dx = (x - g.cx) / g.rx, dy = (y - g.cy) / g.ry, dd = Math.sqrt(dx * dx + dy * dy); if (g.fill ? dd <= 1.03 + (T > 6 ? T / Math.max(4, Math.min(g.rx, g.ry)) : 0) : Math.abs(dd - 1) * Math.min(g.rx, g.ry) <= T) return true; }
     }
     return false;
   }
   function hitDrawing(x, y) {
     if (D.hidden) return null;
-    const HT = D.coarse ? 22 : 8, LT = D.coarse ? 14 : 6;   // ungli (touch) par point/line pakarna aasan
+    const HT = D.coarse ? 28 : 8, LT = D.coarse ? 20 : 6;   // ungli (touch) par point/line pakarna aasan
     const sel = D.sel;
     if (sel && !sel.hiddenOne && visibleOnTf(sel)) {
       let best = null, bd = HT;
       for (const h of sel._hp || []) { const dd = Math.hypot(x - h[1], y - h[2]); if (dd <= bd) { bd = dd; best = h; } }
-      if (best) return { d: sel, handle: best[0] };
+      if (best) return { d: sel, handle: best[0], hx: best[1], hy: best[2] };
     }
     for (let i = D.list.length - 1; i >= 0; i--) {
       const d = D.list[i];
       if (d.hiddenOne || !visibleOnTf(d)) continue;
-      if (d === D.hover && d !== sel) for (const h of d._hp || []) if (Math.hypot(x - h[1], y - h[2]) <= HT) return { d, handle: h[0] };
+      if (d === D.hover && d !== sel) for (const h of d._hp || []) if (Math.hypot(x - h[1], y - h[2]) <= HT) return { d, handle: h[0], hx: h[1], hy: h[2] };
       if (geoHit(d._geo, x, y, LT)) return { d, handle: null };
     }
     return null;
   }
   function hitTrade(x, y) {
-    const pad = D.coarse ? 6 : 0, lt = D.coarse ? 14 : 5;
+    const pad = D.coarse ? 8 : 0, lt = D.coarse ? 18 : 5;
     for (const h of D.hits) if (h.kind === "btn" && x >= h.r.x - pad && x <= h.r.x + h.r.w + pad && y >= h.r.y - pad && y <= h.r.y + h.r.h + pad) return h;
     for (const h of D.hits) if (h.kind === "line" && Math.abs(y - h.y) <= lt) return h;
     return null;
@@ -2605,6 +2625,9 @@ td { font-variant-numeric: tabular-nums; }
   }
 
   /* ---------- creating ---------- */
+  const AIM_UP = 64;   // + nishaan ungli se itna upar (px)
+  function aimTool(t) { return t !== "zoom" && TOOLS[t] && TOOLS[t].n !== 0; }
+  function aimAt(p) { const s = paneSize(); return { x: Math.max(0, Math.min(s.w, p.x)), y: Math.max(2, Math.min(s.h, p.y - AIM_UP)) }; }
   function placePoint(p) {
     const t = D.tool, T = TOOLS[t];
     const P = ptAt(p);
@@ -2629,7 +2652,7 @@ td { font-variant-numeric: tabular-nums; }
     }
     if (!D.draft) {
       D.draft = newDrawing(t, [P, { t: P.t, p: P.p }]); D.downAt = p;
-      if (T.n < 0 && D.coarse) toast("Point lagate jayein. Khatam karne ke liye aakhri point par dobara tap karein.", 4500);
+      if (T.n < 0 && D.coarse) toast("Point lagate jayein. Khatam karne ke liye upar wala ✓ button dabayein.", 4500);
       return;
     }
     const pts = D.draft.pts;
@@ -2664,6 +2687,7 @@ td { font-variant-numeric: tabular-nums; }
   }
   function dragTo(p) {
     const g = D.drag;
+    if (g.off) p = { x: p.x + g.off.x, y: p.y + g.off.y };
     if (g.trade) { dragTrade(g, p); return; }
     const d = g.d, o = g.orig;
     const lNow = rawLogical(p.x);
@@ -2703,18 +2727,27 @@ td { font-variant-numeric: tabular-nums; }
     D.coarse = e.pointerType !== "mouse";
     if (!S.agg.length || !mainSeries) return;
     if (e.pointerType === "mouse" && e.button !== 0) return;
-    if (e.target.closest(".dtb, .favbar, .text-editor, .banner, .replay-bar, .legend button")) return;
+    if (e.target.closest(".dtb, .favbar, .finish-btn, .text-editor, .banner, .replay-bar, .legend button")) return;
     const p = pos(e);
     if (!inPane(p)) return;
     if (S.selecting) { swallow(e); pickReplayStart(p); return; }
     if (D.ruler && D.ruler.done && D.tool === "cursor") { D.ruler = null; }
     if (D.tool === "cursor" && e.shiftKey) { swallow(e); D.tool = "ruler"; placePoint(p); return; }
-    if (D.tool !== "cursor") { swallow(e); placePoint(p); return; }
+    if (D.tool !== "cursor") {
+      swallow(e);
+      if (D.coarse && aimTool(D.tool)) {
+        D.aim = { a: aimAt(p) }; S.mouse = D.aim.a;
+        if (D.ruler && !D.ruler.done) D.ruler.pts[1] = ptAt(D.aim.a); else if (D.draft) moveDraft(D.aim.a);
+        if (!CFG.aimHelp) { CFG.aimHelp = 1; saveCfg(); toast("Ungli ke upar + nishaan aata hai. Ungli hila kar + ko sahi jagah le jayein, phir ungli uthayein. Point wahin lagega.", 6000); }
+        return;
+      }
+      placePoint(p); return;
+    }
     const th = hitTrade(p.x, p.y);
     if (th) {
       swallow(e);
       if (th.kind === "btn") tradeButton(th);
-      else D.drag = { trade: true, t: th.t, field: th.field, moved: false };
+      else D.drag = { trade: true, t: th.t, field: th.field, moved: false, off: { x: 0, y: th.y - p.y } };
       return;
     }
     const h = hitDrawing(p.x, p.y);
@@ -2723,7 +2756,8 @@ td { font-variant-numeric: tabular-nums; }
       if (D.cursorStyle === "eraser") { removeDrawing(h.d); return; }
       select(h.d);
       if (D.locked || h.d.locked) return;
-      D.drag = { d: h.d, handle: h.handle, l0: rawLogical(p.x), p0: yp(p.y), orig: JSON.parse(JSON.stringify(h.d, drawReplacer)), snap: JSON.stringify(D.list, drawReplacer), moved: false };
+      D.drag = { d: h.d, handle: h.handle, l0: rawLogical(p.x), p0: yp(p.y), orig: JSON.parse(JSON.stringify(h.d, drawReplacer)), snap: JSON.stringify(D.list, drawReplacer), moved: false,
+        off: h.handle != null && h.hx != null ? { x: h.hx - p.x, y: h.hy - p.y } : null };   // point ungli ke neeche nahi koodta, apni jagah se hilta hai
     } else if (D.sel) select(null);
   }, true);
   ["mousedown", "touchstart"].forEach((type) => area.addEventListener(type, (e) => {
@@ -2735,6 +2769,11 @@ td { font-variant-numeric: tabular-nums; }
     if (e.pointerType === "mouse") D.coarse = false;
     const p = pos(e);
     S.mouse = p;
+    if (D.aim) {
+      D.aim.a = aimAt(p); S.mouse = D.aim.a;
+      if (D.ruler && !D.ruler.done) D.ruler.pts[1] = ptAt(D.aim.a); else if (D.draft) moveDraft(D.aim.a);
+      return;
+    }
     if (D.drag) return;
     if (D.zoom) { D.zoom.b = p; return; }
     if (D.ruler && !D.ruler.done) { D.ruler.pts[1] = ptAt(p); return; }
@@ -2750,6 +2789,13 @@ td { font-variant-numeric: tabular-nums; }
   area.addEventListener("pointerleave", () => { S.mouse = null; D.hover = null; });
   window.addEventListener("pointermove", (e) => { if (D.drag) dragTo(pos(e)); });
   window.addEventListener("pointerup", (e) => {
+    if (D.aim) {
+      const a = D.aim.a; D.aim = null;
+      if (D.tool !== "cursor") placePoint(a);
+      D.downAt = null; S.mouse = null;
+      setTimeout(() => { D.swallow = false; }, 0);
+      return;
+    }
     if (D.drag) {
       if (D.drag.trade) { if (D.drag.moved) scheduleUI(); }
       else if (D.drag.moved) { saveDrawings(); renderObjects(); }
@@ -2774,7 +2820,7 @@ td { font-variant-numeric: tabular-nums; }
     D.downAt = null;
     setTimeout(() => { D.swallow = false; }, 0);
   });
-  window.addEventListener("pointercancel", () => { D.drag = null; D.downAt = null; D.swallow = false; D.zoom = null; });
+  window.addEventListener("pointercancel", () => { D.drag = null; D.downAt = null; D.swallow = false; D.zoom = null; D.aim = null; });
   area.addEventListener("dblclick", (e) => {
     if (S.selecting || e.target.closest(".favbar, .dtb")) return;
     if (D.draft && TOOLS[D.draft.type].n < 0) {
