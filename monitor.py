@@ -307,10 +307,18 @@ def github_roman(titles):
         }).encode()
         req = urllib.request.Request(
             "https://models.github.ai/inference/chat/completions", data=body, method="POST",
-            headers={"Authorization": "Bearer " + GH_TOKEN, "Accept": "application/json",
-                     "Content-Type": "application/json"})
+            headers={"Authorization": "Bearer " + GH_TOKEN,
+                     "Accept": "application/vnd.github+json",
+                     "X-GitHub-Api-Version": "2022-11-28",
+                     "Content-Type": "application/json",
+                     "User-Agent": "daddy-trader-monitor"})
+        raw = b""
         try:
-            resp = json.loads(urllib.request.urlopen(req, timeout=40).read())
+            raw = urllib.request.urlopen(req, timeout=40).read()
+            if raw[:2] == b"\x1f\x8b":
+                import gzip
+                raw = gzip.decompress(raw)
+            resp = json.loads(raw.decode("utf-8", "replace"))
             txt = resp["choices"][0]["message"]["content"]
             m = re.search(r"\[.*\]", txt, re.S)
             arr = json.loads(m.group(0)) if m else None
@@ -322,7 +330,7 @@ def github_roman(titles):
             if e.code == 429:      # aaj ki free limit khatam — Google wala tareeqa chalega
                 return None
         except Exception as e:
-            errs.append("ghmodels %s: %s" % (model, e))
+            errs.append("ghmodels %s: %s | %r" % (model, e, raw[:160]))
     return None
 
 # pichli dafa ke AI tarjume dobara use karo
