@@ -1,14 +1,13 @@
 {
- "updated": "02-11-2026 02:43 PKT",
+ "updated": "02-11-2026 02:47 PKT",
  "gold": {
-  "price": 3875.44,
+  "price": 3875.39,
   "open": 3875.36,
   "high": 3875.55,
   "low": 3875.29,
   "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   3875.33,
    3875.44,
    3875.44,
    3875.41,
@@ -55,7 +54,8 @@
    3875.45,
    3875.39,
    3875.32,
-   3875.44
+   3875.43,
+   3875.39
   ]
  },
  "markets": [
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 2262.84,
-   "chg": 0.46,
+   "price": 2263.05,
+   "chg": 0.47,
    "spark": [
     2232.1,
     2241.37,
@@ -314,13 +314,13 @@
     2260.85,
     2256.51,
     2261.06,
-    2262.84
+    2263.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77839.3,
-   "chg": 0.52,
+   "price": 77844.5,
+   "chg": 0.53,
    "spark": [
     76798.6,
     77204.3,
@@ -369,7 +369,7 @@
     77775.1,
     77692.0,
     77795.8,
-    77839.3
+    77844.5
    ]
   }
  ],
@@ -472,8 +472,8 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "ghmodels openai/gpt-4.1-mini: Expecting value: line 1 column 1 (char 0)",
-  "ghmodels openai/gpt-4o-mini: Expecting value: line 1 column 1 (char 0)",
-  "ghmodels openai/gpt-4.1: Expecting value: line 1 column 1 (char 0)"
+  "ghmodels openai/gpt-4.1-mini: Expecting value: line 1 column 1 (char 0) | b'OK\\r\\n'",
+  "ghmodels openai/gpt-4o-mini: Expecting value: line 1 column 1 (char 0) | b'OK\\r\\n'",
+  "ghmodels openai/gpt-4.1: Expecting value: line 1 column 1 (char 0) | b'OK\\r\\n'"
  ]
 }
