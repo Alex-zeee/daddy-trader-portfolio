@@ -1,6 +1,6 @@
 # Daddy Trader — Gold Market Monitor data collector
 # Runs every 15 min via GitHub Actions. Writes monitor.json (deep market data, no API keys).
-import json, re, urllib.request, datetime, email.utils
+import json, re, urllib.request, urllib.error, datetime, email.utils
 import xml.etree.ElementTree as ET
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -243,8 +243,118 @@ def polish(r):
     r = re.sub(r"\s+", " ", r).strip()
     return (r[:1].upper() + r[1:]) if r else r
 
+# ---------- 4c. Natural Roman Urdu with AI (MUFT) ----------
+# Pehle GitHub Models (bilkul free, GitHub Actions ka apna GITHUB_TOKEN, koi key nahi chahiye).
+# Agar kabhi ANTHROPIC_API_KEY secret laga diya jaye tou Claude use hota hai.
+# Har headline sirf ek dafa translate hoti hai (pichli monitor.json se cache).
+AI_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+AI_MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5").strip()
+
+AI_PROMPT = (
+    "You translate English financial news headlines into natural Roman Urdu, exactly the way "
+    "a Pakistani Gold trader would type it to a friend on WhatsApp.\n"
+    "Rules:\n"
+    "- Write Urdu in English letters only (Roman Urdu). Never use Urdu or Hindi script.\n"
+    "- Use simple everyday spelling: hai, hain, mein, ki, ka, ke, aur, se, nahi, kya, bhi, abhi, "
+    "zyada, kam, barh gayi, gir gaya, umeed, faisla, bayan, qeemat.\n"
+    "- Keep trading and finance terms in English as traders say them: Gold, Silver, Dollar, Fed, "
+    "interest rate, rate cut, rate hike, inflation, CPI, PPI, GDP, NFP, jobs data, yields, "
+    "Treasury, support, resistance, bullish, bearish, rally, sell-off, record high, ECB, BoJ.\n"
+    "- Keep names, numbers, % and $ exactly as given (e.g. Powell, Bessent, Warsh, 3.4%, $4,000).\n"
+    "- Translate the meaning, not word by word. One short sentence, max about 25 words.\n"
+    "- Do not add opinions, advice or anything not in the headline.\n"
+    "Return ONLY a JSON array of strings, one translation per headline, same order, nothing else."
+)
+
+def claude_roman(titles):
+    if not AI_KEY or not titles:
+        return None
+    body = json.dumps({
+        "model": AI_MODEL,
+        "max_tokens": 1500,
+        "system": AI_PROMPT,
+        "messages": [{"role": "user", "content":
+                      "Headlines:\n" + "\n".join("%d. %s" % (i + 1, t) for i, t in enumerate(titles))}],
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages", data=body, method="POST",
+        headers={"x-api-key": AI_KEY, "anthropic-version": "2023-06-01",
+                 "content-type": "application/json"})
+    try:
+        resp = json.loads(urllib.request.urlopen(req, timeout=40).read())
+        txt = "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
+        m = re.search(r"\[.*\]", txt, re.S)
+        arr = json.loads(m.group(0)) if m else None
+        if isinstance(arr, list) and len(arr) == len(titles) and all(isinstance(x, str) for x in arr):
+            return [re.sub(r"\s+", " ", x).strip() for x in arr]
+        errs.append("claude: unexpected reply")
+    except Exception as e:
+        errs.append("claude: %s" % e)
+    return None
+
+GH_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+GH_MODELS = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1"]
+
+def github_roman(titles):
+    if not GH_TOKEN or not titles:
+        return None
+    user = "Headlines:\n" + "\n".join("%d. %s" % (i + 1, t) for i, t in enumerate(titles))
+    for model in GH_MODELS:
+        body = json.dumps({
+            "model": model, "temperature": 0.3, "max_tokens": 1500,
+            "messages": [{"role": "system", "content": AI_PROMPT},
+                         {"role": "user", "content": user}],
+        }).encode()
+        req = urllib.request.Request(
+            "https://models.github.ai/inference/chat/completions", data=body, method="POST",
+            headers={"Authorization": "Bearer " + GH_TOKEN, "Accept": "application/json",
+                     "Content-Type": "application/json"})
+        try:
+            resp = json.loads(urllib.request.urlopen(req, timeout=40).read())
+            txt = resp["choices"][0]["message"]["content"]
+            m = re.search(r"\[.*\]", txt, re.S)
+            arr = json.loads(m.group(0)) if m else None
+            if isinstance(arr, list) and len(arr) == len(titles) and all(isinstance(x, str) for x in arr):
+                return [re.sub(r"\s+", " ", x).strip() for x in arr]
+            errs.append("ghmodels %s: unexpected reply" % model)
+        except urllib.error.HTTPError as e:
+            errs.append("ghmodels %s: HTTP %s" % (model, e.code))
+            if e.code == 429:      # aaj ki free limit khatam — Google wala tareeqa chalega
+                return None
+        except Exception as e:
+            errs.append("ghmodels %s: %s" % (model, e))
+    return None
+
+# pichli dafa ke AI tarjume dobara use karo
+ai_cache = {}
+try:
+    with open("monitor.json") as fh:
+        for n in (json.load(fh).get("news") or []):
+            if n.get("ur_by") in ("claude", "ai") and n.get("ur"):
+                ai_cache[n["title"]] = (n["ur"], n["ur_by"])
+except Exception:
+    pass
+
+need = []
+for n in out["news"]:
+    if n["title"] in ai_cache:
+        n["ur"], n["ur_by"] = ai_cache[n["title"]]
+    else:
+        need.append(n)
+if need:
+    titles = [n["title"] for n in need]
+    res, by = claude_roman(titles), "claude"
+    if not res:
+        res, by = github_roman(titles), "ai"
+    if res:
+        for n, r in zip(need, res):
+            n["ur"], n["ur_by"] = r[:240], by
+
+# Claude na mile (key nahi / error) tou purana Google wala tareeqa
 tr_fail = 0
 for n in out["news"]:
+    if n.get("ur_by") in ("claude", "ai"):
+        continue
     en = n["title"]
     for pat, rep in EN_SIMPLIFY:
         en = re.sub(pat, rep, en)
