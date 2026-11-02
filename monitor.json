@@ -1,14 +1,13 @@
 {
- "updated": "02-11-2026 10:08 PKT",
+ "updated": "02-11-2026 10:26 PKT",
  "gold": {
-  "price": 3905.8,
+  "price": 3907.25,
   "open": 3875.36,
   "high": 3915.02,
   "low": 3866.02,
-  "chg": 0.79,
+  "chg": 0.82,
   "src": "XAUUSD Spot",
   "spark": [
-   3875.36,
    3875.44,
    3875.42,
    3875.34,
@@ -55,14 +54,15 @@
    3904.49,
    3901.39,
    3900.64,
-   3905.8
+   3906.1,
+   3907.25
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 49.097,
-   "chg": -5.93,
+   "price": 50.24,
+   "chg": 2.33,
    "spark": [
     59.977,
     60.869,
@@ -84,13 +84,14 @@
     54.293,
     53.457,
     52.191,
-    49.097
+    49.097,
+    50.24
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.88,
-   "chg": -0.16,
+   "price": 101.829,
+   "chg": -0.05,
    "spark": [
     101.93,
     102.17,
@@ -112,13 +113,14 @@
     102.32,
     102.19,
     102.04,
-    101.88
+    101.88,
+    101.829
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 104.12,
-   "chg": 2.08,
+   "price": 100.53,
+   "chg": -3.45,
    "spark": [
     91.11,
     89.43,
@@ -140,7 +142,8 @@
     99.9,
     102.78,
     102.0,
-    104.12
+    104.12,
+    100.53
    ]
   },
   {
@@ -174,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1183,
-   "chg": 0.0,
+   "price": 1.1187,
+   "chg": 0.04,
    "spark": [
     1.125,
     1.1255,
@@ -198,13 +201,13 @@
     1.113,
     1.1156,
     1.1183,
-    1.1183
+    1.1187
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3398,
-   "chg": 0.14,
+   "price": 1.3401,
+   "chg": 0.17,
    "spark": [
     1.32,
     1.3243,
@@ -227,13 +230,13 @@
     1.3306,
     1.3328,
     1.3379,
-    1.3398
+    1.3401
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.802,
-   "chg": -0.0,
+   "price": 157.69,
+   "chg": -0.07,
    "spark": [
     157.927,
     157.734,
@@ -256,13 +259,13 @@
     157.993,
     157.833,
     157.804,
-    157.802
+    157.69
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2290.48,
-   "chg": 0.8,
+   "price": 2286.62,
+   "chg": 0.63,
    "spark": [
     2242.51,
     2239.71,
@@ -311,13 +314,13 @@
     2292.49,
     2306.14,
     2289.96,
-    2290.48
+    2286.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 78305.3,
-   "chg": 0.08,
+   "price": 78229.4,
+   "chg": -0.01,
    "spark": [
     77251.2,
     77196.8,
@@ -366,7 +369,7 @@
     78339.8,
     78515.3,
     78294.7,
-    78305.4
+    78229.4
    ]
   }
  ],
@@ -455,12 +458,13 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793596121.140663,
+   "ts": 1793597167.701998,
    "title": "Gold rebounds above $3,900 as dip buyers return after October rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-toward-3900-as-dip-buyers-emerge-iran-risks-persist-4989797",
-   "t": "02 Nov \u00b7 10:08 AM",
-   "ur": "Aktobar ke rot ke bad khareedaron ki wapsi ke bad Gold (sone) ki qeemat $3,900 se oper hai."
+   "t": "02 Nov \u00b7 10:26 AM",
+   "ur": "October ki girawat ke baad dip buyers ke anay se Gold $3,900 se oopar rebound ho gaya hai",
+   "ur_by": "ai"
   },
   {
    "ts": 1793297191.0,
@@ -468,7 +472,8 @@
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
    "t": "29 Oct \u00b7 11:06 PM",
-   "ur": "Tisri sah mahi mein US ji di pi mein toqa se behtar 3.4 fisad azafah hawa cunkah stambr mein inflation (mehngai) mein tizi aati hai"
+   "ur": "September ki inflation barhne ke bawajood 3rd quarter ki U.S. GDP 3.4% behtar aayi hai",
+   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -477,9 +482,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "ghmodels openai/gpt-4.1-mini @models.github.ai -> https://models.github.ai/inference/chat/completions: Expecting value: line 1 column 1 (char 0) | b'OK\\r\\n'",
-  "ghmodels openai/gpt-4o-mini @models.github.ai -> https://models.github.ai/inference/chat/completions: Expecting value: line 1 column 1 (char 0) | b'OK\\r\\n'",
-  "ghmodels gpt-4o-mini @models.inference.ai.azure.com -> https://models.inference.ai.azure.com/chat/completions: <urlopen error [Errno -2] Name or service not known> | b''",
-  "ghmodels gpt-4o @models.inference.ai.azure.com -> https://models.inference.ai.azure.com/chat/completions: <urlopen error [Errno -2] Name or service not known> | b''"
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
