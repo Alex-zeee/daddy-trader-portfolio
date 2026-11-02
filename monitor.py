@@ -244,8 +244,8 @@ def polish(r):
     return (r[:1].upper() + r[1:]) if r else r
 
 # ---------- 4c. Natural Roman Urdu with AI (MUFT) ----------
-# Pehle GitHub Models (bilkul free, GitHub Actions ka apna GITHUB_TOKEN, koi key nahi chahiye).
-# Agar kabhi ANTHROPIC_API_KEY secret laga diya jaye tou Claude use hota hai.
+# GEMINI_API_KEY secret laga ho tou Google Gemini (free tier) natural Roman Urdu likhta hai.
+# ANTHROPIC_API_KEY laga ho tou pehle Claude. Dono na hon tou purana Google translate.
 # Har headline sirf ek dafa translate hoti hai (pichli monitor.json se cache).
 AI_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 AI_MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5").strip()
@@ -292,65 +292,40 @@ def claude_roman(titles):
         errs.append("claude: %s" % e)
     return None
 
-GH_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
-# (endpoint, model) — pehle naya GitHub Models address, phir purana Azure wala (dono free, GITHUB_TOKEN se)
-GH_TRIES = [
-    ("https://models.github.ai/inference/chat/completions", "openai/gpt-4.1-mini"),
-    ("https://models.github.ai/inference/chat/completions", "openai/gpt-4o-mini"),
-    ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o-mini"),
-    ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o"),
-]
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+# Google AI Studio ka FREE tier (card nahi chahiye). Pehla model na mile tou agla.
+GEMINI_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"]
 
-class _KeepPost(urllib.request.HTTPRedirectHandler):
-    # redirect par bhi POST hi rahe (default urllib POST ko GET bana deta hai)
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        return urllib.request.Request(newurl, data=req.data, headers=dict(req.header_items()),
-                                      method="POST")
-
-_gh_opener = urllib.request.build_opener(_KeepPost())
-
-def github_roman(titles):
-    if not GH_TOKEN or not titles:
+def gemini_roman(titles):
+    if not GEMINI_KEY or not titles:
         return None
     user = "Headlines:\n" + "\n".join("%d. %s" % (i + 1, t) for i, t in enumerate(titles))
-    for url, model in GH_TRIES:
+    for model in GEMINI_MODELS:
         body = json.dumps({
-            "model": model, "temperature": 0.3, "max_tokens": 1500,
-            "messages": [{"role": "system", "content": AI_PROMPT},
-                         {"role": "user", "content": user}],
+            "systemInstruction": {"parts": [{"text": AI_PROMPT}]},
+            "contents": [{"role": "user", "parts": [{"text": user}]}],
+            "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1500,
+                                 "responseMimeType": "application/json"},
         }).encode()
-        req = urllib.request.Request(url, data=body, method="POST", headers={
-            "Authorization": "Bearer " + GH_TOKEN,
-            "Accept": "application/json",
-            "X-GitHub-Api-Version": "2022-11-28",
-            "Content-Type": "application/json",
-            "User-Agent": "daddy-trader-monitor"})
-        raw, final = b"", url
+        req = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model,
+            data=body, method="POST",
+            headers={"x-goog-api-key": GEMINI_KEY, "Content-Type": "application/json"})
         try:
-            r = _gh_opener.open(req, timeout=40)
-            final = r.geturl()
-            raw = r.read()
-            if raw[:2] == b"\x1f\x8b":
-                import gzip
-                raw = gzip.decompress(raw)
-            resp = json.loads(raw.decode("utf-8", "replace"))
-            txt = resp["choices"][0]["message"]["content"]
+            resp = json.loads(urllib.request.urlopen(req, timeout=40).read())
+            txt = "".join(p.get("text", "") for c in resp.get("candidates", [])[:1]
+                          for p in c.get("content", {}).get("parts", []))
             m = re.search(r"\[.*\]", txt, re.S)
             arr = json.loads(m.group(0)) if m else None
             if isinstance(arr, list) and len(arr) == len(titles) and all(isinstance(x, str) for x in arr):
                 return [re.sub(r"\s+", " ", x).strip() for x in arr]
-            errs.append("ghmodels %s: unexpected reply" % model)
+            errs.append("gemini %s: unexpected reply" % model)
         except urllib.error.HTTPError as e:
-            body_txt = b""
-            try:
-                body_txt = e.read()[:160]
-            except Exception:
-                pass
-            errs.append("ghmodels %s @%s: HTTP %s %r" % (model, url.split("/")[2], e.code, body_txt))
-            if e.code == 429:      # aaj ki free limit khatam — Google wala tareeqa chalega
+            errs.append("gemini %s: HTTP %s" % (model, e.code))
+            if e.code in (429, 401, 403):   # limit khatam / key ghalat — Google translate chalega
                 return None
         except Exception as e:
-            errs.append("ghmodels %s @%s -> %s: %s | %r" % (model, url.split("/")[2], final, e, raw[:120]))
+            errs.append("gemini %s: %s" % (model, e))
     return None
 
 # pichli dafa ke AI tarjume dobara use karo
@@ -373,7 +348,7 @@ if need:
     titles = [n["title"] for n in need]
     res, by = claude_roman(titles), "claude"
     if not res:
-        res, by = github_roman(titles), "ai"
+        res, by = gemini_roman(titles), "ai"
     if res:
         for n, r in zip(need, res):
             n["ur"], n["ur_by"] = r[:240], by
