@@ -293,28 +293,43 @@ def claude_roman(titles):
     return None
 
 GH_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
-GH_MODELS = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1"]
+# (endpoint, model) — pehle naya GitHub Models address, phir purana Azure wala (dono free, GITHUB_TOKEN se)
+GH_TRIES = [
+    ("https://models.github.ai/inference/chat/completions", "openai/gpt-4.1-mini"),
+    ("https://models.github.ai/inference/chat/completions", "openai/gpt-4o-mini"),
+    ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o-mini"),
+    ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o"),
+]
+
+class _KeepPost(urllib.request.HTTPRedirectHandler):
+    # redirect par bhi POST hi rahe (default urllib POST ko GET bana deta hai)
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return urllib.request.Request(newurl, data=req.data, headers=dict(req.header_items()),
+                                      method="POST")
+
+_gh_opener = urllib.request.build_opener(_KeepPost())
 
 def github_roman(titles):
     if not GH_TOKEN or not titles:
         return None
     user = "Headlines:\n" + "\n".join("%d. %s" % (i + 1, t) for i, t in enumerate(titles))
-    for model in GH_MODELS:
+    for url, model in GH_TRIES:
         body = json.dumps({
             "model": model, "temperature": 0.3, "max_tokens": 1500,
             "messages": [{"role": "system", "content": AI_PROMPT},
                          {"role": "user", "content": user}],
         }).encode()
-        req = urllib.request.Request(
-            "https://models.github.ai/inference/chat/completions", data=body, method="POST",
-            headers={"Authorization": "Bearer " + GH_TOKEN,
-                     "Accept": "application/vnd.github+json",
-                     "X-GitHub-Api-Version": "2022-11-28",
-                     "Content-Type": "application/json",
-                     "User-Agent": "daddy-trader-monitor"})
-        raw = b""
+        req = urllib.request.Request(url, data=body, method="POST", headers={
+            "Authorization": "Bearer " + GH_TOKEN,
+            "Accept": "application/json",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "Content-Type": "application/json",
+            "User-Agent": "daddy-trader-monitor"})
+        raw, final = b"", url
         try:
-            raw = urllib.request.urlopen(req, timeout=40).read()
+            r = _gh_opener.open(req, timeout=40)
+            final = r.geturl()
+            raw = r.read()
             if raw[:2] == b"\x1f\x8b":
                 import gzip
                 raw = gzip.decompress(raw)
@@ -326,11 +341,16 @@ def github_roman(titles):
                 return [re.sub(r"\s+", " ", x).strip() for x in arr]
             errs.append("ghmodels %s: unexpected reply" % model)
         except urllib.error.HTTPError as e:
-            errs.append("ghmodels %s: HTTP %s" % (model, e.code))
+            body_txt = b""
+            try:
+                body_txt = e.read()[:160]
+            except Exception:
+                pass
+            errs.append("ghmodels %s @%s: HTTP %s %r" % (model, url.split("/")[2], e.code, body_txt))
             if e.code == 429:      # aaj ki free limit khatam — Google wala tareeqa chalega
                 return None
         except Exception as e:
-            errs.append("ghmodels %s: %s | %r" % (model, e, raw[:160]))
+            errs.append("ghmodels %s @%s -> %s: %s | %r" % (model, url.split("/")[2], final, e, raw[:120]))
     return None
 
 # pichli dafa ke AI tarjume dobara use karo
