@@ -1,40 +1,13 @@
 {
- "updated": "03-11-2026 06:05 PKT",
+ "updated": "03-11-2026 12:52 PKT",
  "gold": {
-  "price": 3953.11,
-  "open": 3910.8,
+  "price": 3912.33,
+  "open": 3903.43,
   "high": 3969.99,
   "low": 3890.69,
-  "chg": 1.08,
+  "chg": 0.23,
   "src": "XAUUSD Spot",
   "spark": [
-   3907.09,
-   3945.99,
-   3945.83,
-   3944.66,
-   3947.72,
-   3957.09,
-   3965.85,
-   3957.04,
-   3956.74,
-   3959.31,
-   3957.18,
-   3961.11,
-   3964.68,
-   3968.63,
-   3967.57,
-   3967.86,
-   3960.26,
-   3957.72,
-   3956.94,
-   3963.91,
-   3959.82,
-   3954.19,
-   3954.24,
-   3954.43,
-   3951.49,
-   3944.09,
-   3944.31,
    3941.84,
    3940.89,
    3943.82,
@@ -55,16 +28,42 @@
    3958.94,
    3951.59,
    3959.94,
-   3953.11
+   3953.82,
+   3955.2,
+   3947.36,
+   3950.02,
+   3947.38,
+   3946.19,
+   3944.9,
+   3950.6,
+   3942.2,
+   3936.74,
+   3928.49,
+   3926.77,
+   3928.45,
+   3927.44,
+   3923.49,
+   3924.74,
+   3929.22,
+   3924.03,
+   3927.25,
+   3918.73,
+   3921.09,
+   3918.33,
+   3920.08,
+   3912.27,
+   3910.86,
+   3911.46,
+   3909.46,
+   3912.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 50.8,
-   "chg": 3.47,
+   "price": 49.09,
+   "chg": -3.21,
    "spark": [
-    59.977,
     60.869,
     61.168,
     59.899,
@@ -85,15 +84,15 @@
     53.457,
     52.191,
     49.097,
-    50.8
+    50.72,
+    49.09
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.784,
-   "chg": -0.09,
+   "price": 101.668,
+   "chg": -0.08,
    "spark": [
-    101.93,
     102.17,
     101.83,
     102.24,
@@ -114,15 +113,15 @@
     102.19,
     102.04,
     101.88,
-    101.784
+    101.75,
+    101.668
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 96.46,
-   "chg": -7.36,
+   "price": 98.06,
+   "chg": 1.66,
    "spark": [
-    91.11,
     89.43,
     89.44,
     88.28,
@@ -143,7 +142,8 @@
     102.78,
     102.0,
     104.12,
-    96.46
+    96.46,
+    98.06
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1191,
-   "chg": 0.3,
+   "price": 1.1202,
+   "chg": 0.4,
    "spark": [
     1.1255,
     1.1217,
@@ -201,13 +201,13 @@
     1.1156,
     1.1183,
     1.1157,
-    1.1191
+    1.1202
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3409,
-   "chg": 0.17,
+   "price": 1.3421,
+   "chg": 0.26,
    "spark": [
     1.3243,
     1.3219,
@@ -230,13 +230,13 @@
     1.3328,
     1.3379,
     1.3386,
-    1.3409
+    1.3421
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.895,
-   "chg": 0.14,
+   "price": 157.828,
+   "chg": 0.1,
    "spark": [
     157.734,
     157.963,
@@ -259,20 +259,14 @@
     157.833,
     157.804,
     157.677,
-    157.895
+    157.828
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2258.45,
-   "chg": 0.4,
+   "price": 2255.2,
+   "chg": 0.26,
    "spark": [
-    2262.11,
-    2264.87,
-    2263.58,
-    2265.85,
-    2266.68,
-    2267.22,
     2272.96,
     2267.56,
     2266.9,
@@ -314,20 +308,20 @@
     2253.05,
     2249.46,
     2254.52,
-    2258.2
+    2254.87,
+    2248.08,
+    2249.61,
+    2253.62,
+    2244.4,
+    2242.25,
+    2255.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77095.3,
-   "chg": 0.55,
+   "price": 76742.0,
+   "chg": 0.09,
    "spark": [
-    77604.8,
-    77660.8,
-    77690.1,
-    77771.2,
-    77889.5,
-    77823.2,
     78135.2,
     77987.0,
     77897.2,
@@ -369,7 +363,13 @@
     76782.9,
     76675.8,
     77013.8,
-    77095.3
+    76987.3,
+    76587.7,
+    76804.1,
+    76815.2,
+    76520.2,
+    76453.2,
+    76742.0
    ]
   }
  ],
@@ -450,12 +450,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793667931.79316,
-   "title": "Gold boosted by weaker dollar and slump in oil ahead of U.S. midterm elections",
+   "ts": 1793692350.180355,
+   "title": "Silver tests oversold lows in strong downtrend: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-toward-3900-as-dip-buyers-emerge-iran-risks-persist-4989797",
-   "t": "03 Nov \u00b7 06:05 AM",
-   "ur": "U.S. midterm elections se pehle weak dollar aur oil ki mandi ki wajah se Gold barh gaya hai.",
+   "link": "https://www.investing.com/news/commodities-news/silver-in-steep-downtrend-tests-key-support-at-4889-live-93CH-4990028",
+   "t": "03 Nov \u00b7 12:52 PM",
+   "ur": "Silver mazeed gir gaya hai aur oversold lows test kar raha hai, live levels dekh lo",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1793692350.180355,
+   "title": "Gold consolidates in downtrend, eyes $3,980 resistance: Live levels",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-in-oversold-freefall-tests-key-support-live-levels-93CH-4990025",
+   "t": "03 Nov \u00b7 12:52 PM",
+   "ur": "Gold abhi downtrend mein consolidate ho raha hai aur $3,980 ki resistance par nazar hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1793692350.180355,
+   "title": "Gold holds near $3,950 as Iran peace hopes ease oil, U.S. vote in focus",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3950-as-iran-peace-hopes-ease-oil-us-vote-in-focus-4993318",
+   "t": "03 Nov \u00b7 12:52 PM",
+   "ur": "Iran peace ki umeed se oil kam ho gaya aur U.S. vote ki waja se Gold $3,950 ke paas ruk gaya hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1793677580.0,
+   "title": "Australia hikes rates to 18-year high to fight inflation",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+   "t": "03 Nov \u00b7 08:46 AM",
+   "ur": "Inflation ko rokne ke liye Australia ne interest rate barhakar 18-year high par kar diye hain",
    "ur_by": "ai"
   }
  ],
@@ -465,7 +492,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-flash-latest: HTTP 503",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
