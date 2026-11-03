@@ -138,6 +138,9 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .chart-area.over-draw canvas { cursor: move !important; }
 .chart-area.over-line canvas { cursor: ns-resize !important; }
 .chart-area.over-btn canvas { cursor: pointer !important; }
+.chart-area.over-ew canvas { cursor: ew-resize !important; }
+.chart-area.over-ns canvas { cursor: ns-resize !important; }
+.msep { height: 1px; background: var(--line); margin: 4px 0; }
 .chart-area.dragging-file { outline: 2px dashed var(--accent); outline-offset: -6px; }
 
 .legend { position: absolute; top: 6px; left: 8px; z-index: 4; pointer-events: none; display: flex; flex-direction: column; gap: 1px; max-width: calc(100% - 90px); }
@@ -994,7 +997,7 @@ td { font-variant-numeric: tabular-nums; }
     chart.applyOptions({
       layout: { background: { type: "solid", color: TH.bg }, textColor: cssVar("--axis"), fontFamily: cssVar("--font"), fontSize: 12, panes: { separatorColor: TH.line, separatorHoverColor: hexA(TH.accent, 0.2) } },
       grid: { vertLines: { color: TH.grid, style: dotted, visible: CFG.gridV }, horzLines: { color: TH.grid, style: dotted, visible: CFG.gridH } },
-      rightPriceScale: { borderVisible: false, mode: scaleMode() },
+      rightPriceScale: { borderVisible: false, mode: scaleMode(), invertScale: !!CFG.invert },
       timeScale: { borderVisible: false },
       crosshair: { vertLine: { labelBackgroundColor: cssVar("--cross-label"), color: cssVar("--cross") }, horzLine: { labelBackgroundColor: cssVar("--cross-label"), color: cssVar("--cross") } }
     });
@@ -1006,7 +1009,7 @@ td { font-variant-numeric: tabular-nums; }
     IND.list.forEach((ind) => { if (DEFS[ind.type].pointColor) setIndData(ind); });
     refreshMarkers();
   }
-  function scaleMode() { return CFG.pct ? LWC.PriceScaleMode.Percentage : CFG.log ? LWC.PriceScaleMode.Logarithmic : LWC.PriceScaleMode.Normal; }
+  function scaleMode() { return CFG.pct ? LWC.PriceScaleMode.Percentage : CFG.idx ? LWC.PriceScaleMode.IndexedTo100 : CFG.log ? LWC.PriceScaleMode.Logarithmic : LWC.PriceScaleMode.Normal; }
 
   /* ================= aggregation ================= */
   function bucket(t) { const s = TFSEC[CFG.tf]; return Math.floor(t / s) * s; }
@@ -1487,10 +1490,10 @@ td { font-variant-numeric: tabular-nums; }
     rec({ k: "r", x: bx, y: by, w, h });
     return { x: bx, y: by, w, h };
   }
-  function drawHandle(x, y, color, filled) {
+  function drawHandle(x, y, color, filled, square) {
     if (!isFinite(x) || !isFinite(y)) return;
     ctx.fillStyle = filled ? color : TH.bg; ctx.strokeStyle = color; ctx.lineWidth = 1.5;
-    ctx.beginPath(); ctx.arc(x, y, 5, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); if (square) ctx.rect(x - 4.5, y - 4.5, 9, 9); else ctx.arc(x, y, 5, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
   }
   function arrowHead(x, y, ang, color, size) {
     const L = size || 10;
@@ -1873,7 +1876,8 @@ td { font-variant-numeric: tabular-nums; }
     if (st.showFill) frect(L, T, R - L, H, o.fillC);
     srect(L, T, R - L, H, o.col, o.w, o.ls);
     if (d.text) textBox(d.text.split("\n"), (L + R) / 2, T + H / 2, st, { align: "center", valign: "middle", pad: 2 });
-    d._hp = [["p0", A.x, A.y], ["p1", B.x, B.y], ["c2", A.x, B.y], ["c3", B.x, A.y]];
+    const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2;
+    d._hp = [["p0", A.x, A.y], ["p1", B.x, B.y], ["c2", A.x, B.y], ["c3", B.x, A.y], ["eL", Math.min(A.x, B.x), my], ["eR", Math.max(A.x, B.x), my], ["eT", mx, Math.min(A.y, B.y)], ["eB", mx, Math.max(A.y, B.y)]];
   };
   DRAW.circle = (d, P, st, pane, o) => {
     if (P.length < 2) return; const r = Math.hypot(P[1].x - P[0].x, P[1].y - P[0].y);
@@ -1967,7 +1971,7 @@ td { font-variant-numeric: tabular-nums; }
     REC = d._geo;
     ctx.save(); ctx.beginPath(); ctx.rect(0, 0, pane.w, pane.h); ctx.clip();
     try { DRAW[d.type](d, P, st, pane, o); } finally { ctx.restore(); REC = null; }
-    if (sel || hov) d._hp.forEach((h) => drawHandle(h[1], h[2], TH.accent, false));
+    if (sel || hov) d._hp.forEach((h) => drawHandle(h[1], h[2], TH.accent, false, h[0].charAt(0) === "e"));
     if (sel || d._axAlways) axisTags(d, pane, sel);
   }
   function axisTags(d, pane, sel) {
@@ -2289,7 +2293,7 @@ td { font-variant-numeric: tabular-nums; }
   function placeFavBar() {
     const fb = $("#favBar"); if (!fb || fb.hidden) return;
     const p = CFG.favPos;
-    if (!p) { fb.style.left = "8px"; fb.style.top = ""; fb.style.bottom = "44px"; return; }
+    if (!p) { fb.style.left = Math.max(8, (paneSize().w - fb.offsetWidth) / 2) + "px"; fb.style.top = ""; fb.style.bottom = "44px"; return; }
     fb.style.bottom = "auto";
     fb.style.left = Math.max(0, Math.min(p.x, area.clientWidth - fb.offsetWidth)) + "px";
     fb.style.top = Math.max(0, Math.min(p.y, area.clientHeight - fb.offsetHeight)) + "px";
@@ -2345,7 +2349,7 @@ td { font-variant-numeric: tabular-nums; }
     D.zoom = null;
     D.tool = t;
     area.classList.toggle("tool-on", t !== "cursor");
-    area.classList.remove("over-draw", "over-line", "over-btn");
+    area.classList.remove("over-draw", "over-line", "over-btn", "over-ew", "over-ns");
     applyCursor();
     renderLeftTools();
   }
@@ -2480,6 +2484,8 @@ td { font-variant-numeric: tabular-nums; }
   area.addEventListener("contextmenu", (e) => {
     if (!S.agg.length || e.target.closest(".favbar, .dtb")) return;
     const p = pos(e);
+    const ps0 = paneSize();
+    if (p.x > ps0.w && p.y >= 0 && p.y <= ps0.h) { e.preventDefault(); openPriceMenu(e.clientX, e.clientY); return; }
     if (!inPane(p)) return;
     e.preventDefault();
     if (D.draft) { finishMulti(); return; }
@@ -2496,7 +2502,7 @@ td { font-variant-numeric: tabular-nums; }
     });
   });
   function pasteClip() { if (!D.clip) return; const c = JSON.parse(JSON.stringify(D.clip)); c.id = D.nextId++; c.pts = c.pts.map((q) => ({ t: l2t(t2l(q.t) + 3), p: q.p })); if (c.endT != null) c.endT = l2t(t2l(c.endT) + 3); addDrawing(c); D.clip = JSON.parse(JSON.stringify(c, drawReplacer)); }
-  function resetView() { const n = S.agg.length; try { chart.priceScale("right").applyOptions({ autoScale: true }); } catch (e) { /* optional */ } ts().setVisibleLogicalRange({ from: Math.max(0, n - 160), to: n + 12 }); }
+  function resetView() { const n = S.agg.length; try { chart.priceScale("right").applyOptions({ autoScale: true }); } catch (e) { /* optional */ } ts().setVisibleLogicalRange({ from: Math.max(0, n - 160), to: n + 12 }); syncAutoBtn(); }
 
   /* ---------- drawing settings dialog ---------- */
   let dlg = null;
@@ -2708,6 +2714,10 @@ td { font-variant-numeric: tabular-nums; }
       d[h] = above ? Math.max(v, d.pts[0].p + tick) : Math.min(v, d.pts[0].p - tick);
     } else if (h === "end") {
       const t = l2t(Math.round(lNow)); if (t > d.pts[0].t) d.endT = t;
+    } else if (h === "eL" || h === "eR" || h === "eT" || h === "eB") {   // rectangle ki ek side
+      const P = ptAt(p), a = o.pts[0], b = o.pts[1];
+      if (h === "eL" || h === "eR") { const iL = tx(a.t) <= tx(b.t) ? 0 : 1, i = h === "eL" ? iL : 1 - iL; d.pts[i] = { t: P.t, p: d.pts[i].p }; }
+      else { const iT = py(a.p) <= py(b.p) ? 0 : 1, i = h === "eT" ? iT : 1 - iT; d.pts[i] = { t: d.pts[i].t, p: P.p }; }
     } else if (h === "c2" || h === "c3") {
       const P = ptAt(p);
       if (h === "c2") { d.pts[0] = { t: P.t, p: d.pts[0].p }; d.pts[1] = { t: d.pts[1].t, p: P.p }; }
@@ -2758,7 +2768,7 @@ td { font-variant-numeric: tabular-nums; }
       if (D.locked || h.d.locked) return;
       D.drag = { d: h.d, handle: h.handle, l0: rawLogical(p.x), p0: yp(p.y), orig: JSON.parse(JSON.stringify(h.d, drawReplacer)), snap: JSON.stringify(D.list, drawReplacer), moved: false,
         off: h.handle != null && h.hx != null ? { x: h.hx - p.x, y: h.hy - p.y } : null };   // point ungli ke neeche nahi koodta, apni jagah se hilta hai
-    } else if (D.sel) select(null);
+    } else { if (D.sel) select(null); D.vpan = { y0: p.y, r0: null }; }
   }, true);
   ["mousedown", "touchstart"].forEach((type) => area.addEventListener(type, (e) => {
     if (!D.swallow) return;
@@ -2782,13 +2792,35 @@ td { font-variant-numeric: tabular-nums; }
       const ip = inPane(p), th = ip ? hitTrade(p.x, p.y) : null, hd = ip && !th ? hitDrawing(p.x, p.y) : null;
       area.classList.toggle("over-btn", !!(th && th.kind === "btn"));
       area.classList.toggle("over-line", !!(th && th.kind === "line"));
-      area.classList.toggle("over-draw", !!hd && D.cursorStyle !== "eraser");
+      const eh = hd && hd.handle && hd.handle.charAt(0) === "e" ? hd.handle : "";
+      area.classList.toggle("over-ew", eh === "eL" || eh === "eR");
+      area.classList.toggle("over-ns", eh === "eT" || eh === "eB");
+      area.classList.toggle("over-draw", !!hd && !eh && D.cursorStyle !== "eraser");
       D.hover = hd ? hd.d : null;
     }
   });
   area.addEventListener("pointerleave", () => { S.mouse = null; D.hover = null; });
-  window.addEventListener("pointermove", (e) => { if (D.drag) dragTo(pos(e)); });
+  window.addEventListener("pointermove", (e) => { if (D.drag) dragTo(pos(e)); else if (D.vpan) vpanMove(pos(e)); });
+  // chart ko upar/neeche khenchna: pehli dafa "auto" band kar ke chart ko saath le jata hai, phir chart khud dono taraf chalta hai
+  function vpanMove(p) {
+    const v = D.vpan; let ps;
+    try { ps = chart.priceScale("right"); } catch (e) { D.vpan = null; return; }
+    if (!v.r0) {
+      if (Math.abs(p.y - v.y0) < 5) return;
+      const o = ps.options();
+      if (o.autoScale === false) { D.vpan = null; return; }
+      if ((o.mode || 0) !== 0 || o.invertScale || typeof ps.getVisibleRange !== "function") { ps.applyOptions({ autoScale: false }); D.vpan = null; syncAutoBtn(); return; }
+      const r = ps.getVisibleRange();
+      if (!r || !isFinite(r.from) || !isFinite(r.to)) { D.vpan = null; return; }
+      v.r0 = r; v.ppp = (r.to - r.from) / Math.max(1, paneSize().h); v.y0 = p.y;
+    }
+    const dp = (p.y - v.y0) * v.ppp;
+    try { ps.setVisibleRange({ from: v.r0.from + dp, to: v.r0.to + dp }); } catch (e) { D.vpan = null; }
+    syncAutoBtn();
+  }
   window.addEventListener("pointerup", (e) => {
+    if (D.vpan) D.vpan = null;
+    setTimeout(syncAutoBtn, 0);
     if (D.aim) {
       const a = D.aim.a; D.aim = null;
       if (D.tool !== "cursor") placePoint(a);
@@ -2820,7 +2852,8 @@ td { font-variant-numeric: tabular-nums; }
     D.downAt = null;
     setTimeout(() => { D.swallow = false; }, 0);
   });
-  window.addEventListener("pointercancel", () => { D.drag = null; D.downAt = null; D.swallow = false; D.zoom = null; D.aim = null; });
+  window.addEventListener("pointercancel", () => { D.drag = null; D.downAt = null; D.swallow = false; D.zoom = null; D.aim = null; D.vpan = null; });
+  area.addEventListener("dblclick", () => setTimeout(syncAutoBtn, 0));
   area.addEventListener("dblclick", (e) => {
     if (S.selecting || e.target.closest(".favbar, .dtb")) return;
     if (D.draft && TOOLS[D.draft.type].n < 0) {
@@ -3487,9 +3520,28 @@ td { font-variant-numeric: tabular-nums; }
     });
   });
   function syncScaleBtns() { $("#pctBtn").setAttribute("aria-pressed", String(!!CFG.pct)); $("#logBtn").setAttribute("aria-pressed", String(!!CFG.log)); }
-  $("#pctBtn").addEventListener("click", () => { CFG.pct = !CFG.pct; if (CFG.pct) CFG.log = false; saveCfg(); chart.applyOptions({ rightPriceScale: { mode: scaleMode() } }); syncScaleBtns(); });
-  $("#logBtn").addEventListener("click", () => { CFG.log = !CFG.log; if (CFG.log) CFG.pct = false; saveCfg(); chart.applyOptions({ rightPriceScale: { mode: scaleMode() } }); syncScaleBtns(); });
-  $("#autoBtn").addEventListener("click", () => { try { chart.priceScale("right").applyOptions({ autoScale: true }); } catch (e) { /* optional */ } $("#autoBtn").setAttribute("aria-pressed", "true"); });
+  $("#pctBtn").addEventListener("click", () => { CFG.pct = !CFG.pct; if (CFG.pct) { CFG.log = false; CFG.idx = false; } saveCfg(); chart.applyOptions({ rightPriceScale: { mode: scaleMode() } }); syncScaleBtns(); });
+  $("#logBtn").addEventListener("click", () => { CFG.log = !CFG.log; if (CFG.log) { CFG.pct = false; CFG.idx = false; } saveCfg(); chart.applyOptions({ rightPriceScale: { mode: scaleMode() } }); syncScaleBtns(); });
+  $("#autoBtn").addEventListener("click", () => { try { chart.priceScale("right").applyOptions({ autoScale: true }); } catch (e) { /* optional */ } syncAutoBtn(); });
+  function syncAutoBtn() { let on = true; try { on = chart.priceScale("right").options().autoScale !== false; } catch (e) { /* optional */ } $("#autoBtn").setAttribute("aria-pressed", String(on)); }
+  function setScaleMode(k) { CFG.pct = k === "pct"; CFG.idx = k === "idx"; CFG.log = k === "log"; saveCfg(); chart.applyOptions({ rightPriceScale: { mode: scaleMode() } }); syncScaleBtns(); }
+  /* price scale ka menu (TradingView jaisa): price wali patti par right-click / daba kar rakhein */
+  function openPriceMenu(x, y) {
+    let o = {}; try { o = chart.priceScale("right").options(); } catch (e) { /* optional */ }
+    const auto = o.autoScale !== false, m = o.mode || 0, CHK = '<path d="M5 11.5l4 4 8-9"/>';
+    const it = (k, label, on, kbd) => '<button class="mi" type="button" role="menuitemcheckbox" aria-checked="' + !!on + '" data-pm="' + k + '">' + svg(on ? CHK : "") + label + (kbd ? "<kbd>" + kbd + "</kbd>" : "") + "</button>";
+    openMenu(x, y, it("auto", "Auto (chart screen par fit)", auto) + it("invert", "Invert scale", !!o.invertScale) + '<div class="msep"></div>' +
+      it("normal", "Regular", m === 0) + it("pct", "Percent", m === 2) + it("idx", "Indexed to 100", m === 3) + it("log", "Logarithmic", m === 1) + '<div class="msep"></div>' +
+      it("reset", "Reset chart view", false, "Alt+R") + it("settings", "More settings…", false), (b) => {
+      const k = b.dataset.pm;
+      if (k === "auto") { try { chart.priceScale("right").applyOptions({ autoScale: !auto }); } catch (e) { /* optional */ } }
+      else if (k === "invert") { CFG.invert = !o.invertScale; saveCfg(); chart.applyOptions({ rightPriceScale: { invertScale: CFG.invert } }); }
+      else if (k === "normal" || k === "pct" || k === "idx" || k === "log") setScaleMode(k);
+      else if (k === "reset") resetView();
+      else if (k === "settings") $("#settingsBtn").click();
+      syncAutoBtn();
+    });
+  }
   syncScaleBtns();
   $("#gotoBtn").addEventListener("click", () => {
     if (!S.agg.length) return;

@@ -1,5 +1,5 @@
 /* Daddy Trader PWA service worker */
-const CACHE = 'daddytrader-v9';
+const CACHE = 'daddytrader-v10';
 const ASSETS = [
   './',
   './index.html',
@@ -58,20 +58,22 @@ self.addEventListener('fetch', (e) => {
     );
     return;
   }
-  // HTML pages: stale-while-revalidate — cache se FORAN dikhao,
-  // background mein naya version le kar cache update karo (agli dafa naya milta hai)
+  // HTML pages: pehle internet se taaza version (naya update foran nazar aaye);
+  // internet na ho ya 5 second mein jawab na aaye to save kiya hua version
   if (isPage) {
+    const net = fetch(e.request.url, { cache: 'no-cache', credentials: 'same-origin' }).then(res => {
+      if (res.ok) {
+        const copy = res.clone();
+        caches.open(CACHE).then(c => c.put(e.request, copy));
+      }
+      return res;
+    });
+    net.catch(() => {});
+    const slow = new Promise(r => setTimeout(r, 5000)).then(() => caches.match(e.request));
     e.respondWith(
-      caches.match(e.request).then(hit => {
-        const netFetch = fetch(e.request).then(res => {
-          if (res.ok) {
-            const copy = res.clone();
-            caches.open(CACHE).then(c => c.put(e.request, copy));
-          }
-          return res;
-        }).catch(() => hit);
-        return hit || netFetch;
-      })
+      Promise.race([net.catch(() => caches.match(e.request)), slow.then(hit => hit || net)])
+        .then(res => res || net)
+        .catch(() => caches.match(e.request))
     );
     return;
   }
