@@ -1,40 +1,13 @@
 {
- "updated": "02-11-2026 23:21 PKT",
+ "updated": "03-11-2026 06:05 PKT",
  "gold": {
-  "price": 3962.48,
-  "open": 3875.36,
+  "price": 3953.11,
+  "open": 3910.8,
   "high": 3969.99,
-  "low": 3866.02,
-  "chg": 2.25,
+  "low": 3890.69,
+  "chg": 1.08,
   "src": "XAUUSD Spot",
   "spark": [
-   3905.84,
-   3907.06,
-   3906.65,
-   3906.1,
-   3900.67,
-   3903.43,
-   3897.79,
-   3894.12,
-   3897.94,
-   3897.58,
-   3902.42,
-   3900.18,
-   3901.2,
-   3898.98,
-   3896.74,
-   3896.32,
-   3896.83,
-   3899.04,
-   3900.36,
-   3904.37,
-   3905.03,
-   3901.58,
-   3905.64,
-   3903.17,
-   3902.3,
-   3901.4,
-   3900.68,
    3907.09,
    3945.99,
    3945.83,
@@ -55,14 +28,41 @@
    3957.72,
    3956.94,
    3963.91,
-   3962.48
+   3959.82,
+   3954.19,
+   3954.24,
+   3954.43,
+   3951.49,
+   3944.09,
+   3944.31,
+   3941.84,
+   3940.89,
+   3943.82,
+   3946.08,
+   3947.44,
+   3947.14,
+   3947.92,
+   3946.68,
+   3946.82,
+   3946.91,
+   3946.98,
+   3946.91,
+   3943.27,
+   3944.11,
+   3946.9,
+   3947.85,
+   3949.53,
+   3958.94,
+   3951.59,
+   3959.94,
+   3953.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.01,
-   "chg": 3.9,
+   "price": 50.8,
+   "chg": 3.47,
    "spark": [
     59.977,
     60.869,
@@ -85,13 +85,13 @@
     53.457,
     52.191,
     49.097,
-    51.01
+    50.8
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.674,
-   "chg": -0.2,
+   "price": 101.784,
+   "chg": -0.09,
    "spark": [
     101.93,
     102.17,
@@ -114,13 +114,13 @@
     102.19,
     102.04,
     101.88,
-    101.674
+    101.784
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 95.39,
-   "chg": -8.38,
+   "price": 96.46,
+   "chg": -7.36,
    "spark": [
     91.11,
     89.43,
@@ -143,13 +143,13 @@
     102.78,
     102.0,
     104.12,
-    95.39
+    96.46
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.874,
-   "chg": -1.12,
+   "price": 4.894,
+   "chg": -0.71,
    "spark": [
     5.277,
     5.311,
@@ -172,15 +172,14 @@
     5.045,
     4.989,
     4.929,
-    4.874
+    4.894
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1202,
-   "chg": 0.17,
+   "price": 1.1191,
+   "chg": 0.3,
    "spark": [
-    1.125,
     1.1255,
     1.1217,
     1.1254,
@@ -201,15 +200,44 @@
     1.113,
     1.1156,
     1.1183,
-    1.1202
+    1.1157,
+    1.1191
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3409,
+   "chg": 0.17,
+   "spark": [
+    1.3243,
+    1.3219,
+    1.3267,
+    1.3215,
+    1.3229,
+    1.3242,
+    1.321,
+    1.3257,
+    1.323,
+    1.3273,
+    1.3336,
+    1.3308,
+    1.3373,
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.3409
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.845,
-   "chg": 0.03,
+   "price": 157.895,
+   "chg": 0.14,
    "spark": [
-    157.927,
     157.734,
     157.963,
     158.296,
@@ -230,21 +258,15 @@
     157.993,
     157.833,
     157.804,
-    157.845
+    157.677,
+    157.895
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2252.56,
-   "chg": -0.87,
+   "price": 2258.45,
+   "chg": 0.4,
    "spark": [
-    2250.73,
-    2250.59,
-    2252.68,
-    2251.34,
-    2252.5,
-    2259.37,
-    2267.18,
     2262.11,
     2264.87,
     2263.58,
@@ -285,21 +307,21 @@
     2270.29,
     2266.22,
     2256.29,
-    2252.5
+    2250.3,
+    2250.39,
+    2244.7,
+    2254.33,
+    2253.05,
+    2249.46,
+    2254.52,
+    2258.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 77022.6,
-   "chg": -1.55,
+   "price": 77095.3,
+   "chg": 0.55,
    "spark": [
-    77432.8,
-    77418.7,
-    77521.3,
-    77401.0,
-    77437.0,
-    77556.7,
-    77595.8,
     77604.8,
     77660.8,
     77690.1,
@@ -340,7 +362,14 @@
     77403.9,
     77386.2,
     77050.1,
-    77022.6
+    76889.3,
+    76957.8,
+    76630.5,
+    76699.5,
+    76782.9,
+    76675.8,
+    77013.8,
+    77095.3
    ]
   }
  ],
@@ -350,7 +379,7 @@
    "t": "Tue 03 Nov \u00b7 08:00 PM",
    "title": "JOLTS Job Openings",
    "impact": "Medium",
-   "forecast": "7.11M",
+   "forecast": "7.15M",
    "previous": "7.08M"
   },
   {
@@ -366,7 +395,7 @@
    "t": "Wed 04 Nov \u00b7 08:00 PM",
    "title": "ISM Services PMI",
    "impact": "Medium",
-   "forecast": "54.9",
+   "forecast": "54.8",
    "previous": "54.9"
   },
   {
@@ -390,7 +419,7 @@
    "t": "Fri 06 Nov \u00b7 06:30 PM",
    "title": "Non-Farm Employment Change",
    "impact": "High",
-   "forecast": "63K",
+   "forecast": "65K",
    "previous": "29K"
   },
   {
@@ -406,7 +435,7 @@
    "t": "Fri 06 Nov \u00b7 08:00 PM",
    "title": "Prelim UoM Consumer Sentiment",
    "impact": "Medium",
-   "forecast": "47.8",
+   "forecast": "48.1",
    "previous": "46.3"
   },
   {
@@ -421,31 +450,22 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793643679.534913,
-   "title": "Gold gains above $3,900 as dip buyers return after October rout",
+   "ts": 1793667931.79316,
+   "title": "Gold boosted by weaker dollar and slump in oil ahead of U.S. midterm elections",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-toward-3900-as-dip-buyers-emerge-iran-risks-persist-4989797",
-   "t": "02 Nov \u00b7 11:21 PM",
-   "ur": "Gold oper ja kar $3,900 se oper ho gaya hai kyunke October ki tezi ke baad buyers phir se aa gaye hain.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1793643679.534913,
-   "title": "Goldman hikes oil prices forecast on high supply disruption risks",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-hikes-oil-prices-forecast-on-high-supply-disruption-risks-4990063",
-   "t": "02 Nov \u00b7 11:21 PM",
-   "ur": "Goldman ne supply disruption ke darr se oil prices ki forecast barhadi hai",
+   "t": "03 Nov \u00b7 06:05 AM",
+   "ur": "U.S. midterm elections se pehle weak dollar aur oil ki mandi ki wajah se Gold barh gaya hai.",
    "ur_by": "ai"
   }
  ],
  "sentiment": {
-  "value": 37,
+  "value": 26,
   "label": "Fear"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-flash-latest: The read operation timed out",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
