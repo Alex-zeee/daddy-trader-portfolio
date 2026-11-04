@@ -1,38 +1,13 @@
 {
- "updated": "04-11-2026 06:20 PKT",
+ "updated": "04-11-2026 12:37 PKT",
  "gold": {
-  "price": 3949.34,
-  "open": 3953.72,
-  "high": 3969.2,
+  "price": 4025.23,
+  "open": 3909.71,
+  "high": 4028.85,
   "low": 3896.21,
-  "chg": -0.11,
+  "chg": 2.95,
   "src": "XAUUSD Spot",
   "spark": [
-   3965.03,
-   3965.29,
-   3949.34,
-   3942.35,
-   3946.31,
-   3944.78,
-   3937.69,
-   3925.67,
-   3936.55,
-   3937.03,
-   3936.12,
-   3935.4,
-   3931.54,
-   3926.46,
-   3929.15,
-   3928.31,
-   3929.1,
-   3932.81,
-   3932.99,
-   3931.2,
-   3928.83,
-   3928.48,
-   3925.97,
-   3925.18,
-   3924.09,
    3919.2,
    3919.07,
    3921.81,
@@ -55,16 +30,40 @@
    3925.87,
    3932.1,
    3940.08,
-   3949.34
+   3953.65,
+   3964.27,
+   3946.98,
+   3940.44,
+   3938.28,
+   3939.03,
+   3936.83,
+   3934.91,
+   3939.88,
+   3938.77,
+   3935.76,
+   3948.92,
+   3940.24,
+   3945.97,
+   3954.46,
+   3947.26,
+   3957.08,
+   3982.93,
+   4000.32,
+   4004.26,
+   4014.99,
+   4016.97,
+   4024.25,
+   4020.18,
+   4023.08,
+   4025.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 49.475,
-   "chg": -2.45,
+   "price": 51.8,
+   "chg": 4.46,
    "spark": [
-    60.869,
     61.168,
     59.899,
     59.064,
@@ -85,15 +84,15 @@
     52.191,
     49.097,
     50.72,
-    49.475
+    49.587,
+    51.8
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.57,
-   "chg": -0.18,
+   "price": 101.454,
+   "chg": -0.41,
    "spark": [
-    102.17,
     101.83,
     102.24,
     102.14,
@@ -114,15 +113,15 @@
     102.04,
     101.88,
     101.75,
-    101.57
+    101.87,
+    101.454
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 96.74,
-   "chg": 0.29,
+   "price": 96.67,
+   "chg": 0.6,
    "spark": [
-    89.43,
     89.44,
     88.28,
     91.49,
@@ -143,7 +142,8 @@
     102.0,
     104.12,
     96.46,
-    96.74
+    96.09,
+    96.67
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1244,
-   "chg": 0.46,
+   "price": 1.1241,
+   "chg": 0.44,
    "spark": [
     1.1217,
     1.1254,
@@ -201,13 +201,13 @@
     1.1183,
     1.1157,
     1.1192,
-    1.1244
+    1.1241
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3457,
-   "chg": 0.35,
+   "price": 1.3479,
+   "chg": 0.51,
    "spark": [
     1.3219,
     1.3267,
@@ -230,13 +230,13 @@
     1.3379,
     1.3386,
     1.341,
-    1.3457
+    1.3479
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.121,
-   "chg": 0.13,
+   "price": 158.074,
+   "chg": 0.1,
    "spark": [
     157.963,
     158.296,
@@ -259,20 +259,14 @@
     157.804,
     157.677,
     157.915,
-    158.121
+    158.074
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2261.23,
-   "chg": -0.46,
+   "price": 2299.93,
+   "chg": 1.24,
    "spark": [
-    2292.49,
-    2306.14,
-    2289.96,
-    2288.72,
-    2282.63,
-    2282.06,
     2294.74,
     2288.04,
     2283.91,
@@ -314,20 +308,20 @@
     2290.46,
     2271.45,
     2271.39,
-    2261.07
+    2260.76,
+    2240.97,
+    2245.85,
+    2276.18,
+    2289.65,
+    2294.33,
+    2299.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 76830.4,
-   "chg": -0.65,
+   "price": 78074.2,
+   "chg": 0.96,
    "spark": [
-    78339.8,
-    78515.3,
-    78294.7,
-    78250.3,
-    78044.8,
-    77991.1,
     78127.7,
     77967.2,
     77862.7,
@@ -369,7 +363,13 @@
     77786.4,
     77331.7,
     77126.5,
-    76830.4
+    76925.1,
+    76040.8,
+    76373.5,
+    77279.2,
+    77630.1,
+    77884.4,
+    78074.2
    ]
   }
  ],
@@ -434,21 +434,30 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793755210.102869,
-   "title": "Gold holds near $3,930 as Iran talks, U.S. midterms shape outlook",
+   "ts": 1793777837.659393,
+   "title": "Silver bounces in downtrend, tests SuperTrend resistance: Live",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3930-as-iran-talks-us-midterms-shape-outlook-4997059",
-   "t": "04 Nov \u00b7 06:20 AM",
-   "ur": "Iran talks aur US midterms ki wajah se Gold $3,930 ke paas stable hai",
+   "link": "https://www.investing.com/news/commodities-news/silver-in-steep-downtrend-tests-key-support-at-4889-live-93CH-4990028",
+   "t": "04 Nov \u00b7 12:37 PM",
+   "ur": "Silver downtrend mein bounce kar ke SuperTrend resistance test kar raha hai: Live",
    "ur_by": "ai"
   },
   {
-   "ts": 1793755210.102869,
-   "title": "Gold down amid firmer dollar, strong U.S. economic data; eyes on midterm elections",
+   "ts": 1793777837.659393,
+   "title": "Gold tests 23.6% Fib after double bottom breakout: Live levels",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3950-as-iran-peace-hopes-ease-oil-us-vote-in-focus-4993318",
-   "t": "04 Nov \u00b7 06:20 AM",
-   "ur": "Dollar mazboot honay aur achi US economic data se Gold gir gaya, nazar midterm elections par hai",
+   "link": "https://www.investing.com/news/commodities-news/gold-in-oversold-freefall-tests-key-support-live-levels-93CH-4990025",
+   "t": "04 Nov \u00b7 12:37 PM",
+   "ur": "Gold double bottom breakout ke baad 23.6% Fib test kar raha hai: Live levels",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1793777837.659393,
+   "title": "Gold jumps above $3,975 as dollar retreats, Iran diplomacy in focus",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-3930-as-iran-talks-us-midterms-shape-outlook-4997059",
+   "t": "04 Nov \u00b7 12:37 PM",
+   "ur": "Dollar weak hone aur Iran diplomacy ki wajah se Gold $3,975 se oopar jump kar gaya",
    "ur_by": "ai"
   },
   {
@@ -476,7 +485,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-flash-latest: HTTP 503",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
