@@ -1,46 +1,13 @@
 {
- "updated": "05-11-2026 13:28 PKT",
+ "updated": "05-11-2026 21:38 PKT",
  "gold": {
-  "price": 4124.44,
-  "open": 4030.24,
+  "price": 4116.49,
+  "open": 4060.45,
   "high": 4147.6,
-  "low": 4027.21,
-  "chg": 2.34,
+  "low": 4055.48,
+  "chg": 1.38,
   "src": "XAUUSD Spot",
   "spark": [
-   4061.03,
-   4062.85,
-   4065.4,
-   4061.27,
-   4059.38,
-   4060.57,
-   4063.6,
-   4064.2,
-   4061.17,
-   4063.22,
-   4059.22,
-   4064.77,
-   4064.54,
-   4065.17,
-   4064.57,
-   4078.75,
-   4090.54,
-   4092.21,
-   4108.97,
-   4101.04,
-   4124.95,
-   4127.06,
-   4131.86,
-   4125.65,
-   4131.05,
-   4129.59,
-   4137.15,
-   4134.19,
-   4139.17,
-   4141.71,
-   4140.2,
-   4134.47,
-   4143.4,
    4140.43,
    4133.49,
    4123.97,
@@ -55,14 +22,47 @@
    4120.29,
    4123.84,
    4128.87,
-   4124.44
+   4123.23,
+   4125.44,
+   4126.3,
+   4132.89,
+   4129.92,
+   4123.97,
+   4123.96,
+   4125.81,
+   4124.44,
+   4127.39,
+   4131.53,
+   4130.3,
+   4134.58,
+   4135.95,
+   4134.21,
+   4128.29,
+   4125.92,
+   4120.73,
+   4121.06,
+   4119.37,
+   4117.0,
+   4121.29,
+   4126.27,
+   4124.56,
+   4121.37,
+   4101.62,
+   4110.41,
+   4112.58,
+   4098.92,
+   4102.57,
+   4082.9,
+   4094.47,
+   4114.75,
+   4116.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.73,
-   "chg": 1.17,
+   "price": 52.525,
+   "chg": 0.78,
    "spark": [
     59.899,
     59.064,
@@ -85,13 +85,13 @@
     50.72,
     49.587,
     52.12,
-    52.73
+    52.525
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.385,
-   "chg": -0.12,
+   "price": 101.541,
+   "chg": 0.03,
    "spark": [
     102.24,
     102.14,
@@ -114,13 +114,13 @@
     101.75,
     101.87,
     101.51,
-    101.385
+    101.541
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.91,
-   "chg": -0.24,
+   "price": 90.43,
+   "chg": 2.62,
    "spark": [
     88.28,
     91.49,
@@ -143,15 +143,14 @@
     96.46,
     96.09,
     88.12,
-    87.91
+    90.43
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.894,
-   "chg": -1.17,
+   "price": 4.841,
+   "chg": -1.08,
    "spark": [
-    5.269,
     5.277,
     5.231,
     5.244,
@@ -172,13 +171,14 @@
     4.929,
     4.894,
     4.952,
-    4.894
+    4.894,
+    4.841
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1247,
-   "chg": 0.36,
+   "price": 1.123,
+   "chg": 0.2,
    "spark": [
     1.1254,
     1.1201,
@@ -201,13 +201,13 @@
     1.1157,
     1.1192,
     1.1207,
-    1.1247
+    1.123
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3478,
-   "chg": 0.33,
+   "price": 1.3473,
+   "chg": 0.29,
    "spark": [
     1.3267,
     1.3215,
@@ -230,13 +230,13 @@
     1.3386,
     1.341,
     1.3434,
-    1.3478
+    1.3473
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.203,
-   "chg": -0.17,
+   "price": 157.891,
+   "chg": -0.36,
    "spark": [
     158.296,
     158.06,
@@ -259,22 +259,14 @@
     157.677,
     157.915,
     158.469,
-    158.203
+    157.891
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2424.31,
-   "chg": 0.08,
+   "price": 2268.81,
+   "chg": -6.34,
    "spark": [
-    2264.53,
-    2268.71,
-    2263.29,
-    2278.31,
-    2282.64,
-    2283.79,
-    2296.13,
-    2294.94,
     2293.64,
     2290.25,
     2284.28,
@@ -314,22 +306,22 @@
     2416.72,
     2427.64,
     2414.26,
-    2424.31
+    2418.3,
+    2418.09,
+    2416.01,
+    2418.46,
+    2391.18,
+    2385.53,
+    2341.25,
+    2248.94,
+    2269.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 80533.9,
-   "chg": 0.12,
+   "price": 76692.5,
+   "chg": -4.66,
    "spark": [
-    76941.9,
-    77010.0,
-    76975.2,
-    77288.9,
-    77270.9,
-    77254.9,
-    77578.6,
-    77636.0,
     77552.7,
     77497.0,
     77522.2,
@@ -369,19 +361,19 @@
     80318.3,
     80564.6,
     80301.9,
-    80533.9
+    80435.0,
+    80387.8,
+    80193.3,
+    80295.5,
+    79586.0,
+    79582.1,
+    78195.3,
+    75902.2,
+    76692.5
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1793885400.0,
-   "t": "Thu 05 Nov \u00b7 06:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "197K",
-   "previous": "194K"
-  },
   {
    "ts": 1793971800.0,
    "t": "Fri 06 Nov \u00b7 06:30 PM",
@@ -426,21 +418,21 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793867323.84164,
-   "title": "Gold approaches SMA(200) resistance at $4,195: Live levels",
+   "ts": 1793896708.42978,
+   "title": "Gold gains as dollar steadies, Treasury yields dip amid U.S. midterms fallout",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-in-oversold-freefall-tests-key-support-live-levels-93CH-4990025",
-   "t": "05 Nov \u00b7 01:28 PM",
-   "ur": "Gold $4,195 par SMA(200) resistance ko touch kar raha hai: live levels",
+   "link": "https://www.investing.com/news/commodities-news/gold-extends-rally-above-4100-as-dollar-treasury-yields-fall-after-us-vote-5002012",
+   "t": "05 Nov \u00b7 09:38 PM",
+   "ur": "Gold barh gaya hai kyunke dollar steady hai aur U.S. midterms ke baad Treasury yields dip ho gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1793867323.84164,
-   "title": "Silver tests confluence resistance in macro downtrend: Live levels",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/silver-in-steep-downtrend-tests-key-support-at-4889-live-93CH-4990028",
-   "t": "05 Nov \u00b7 01:28 PM",
-   "ur": "Macro downtrend mein Silver apna confluence resistance test kar rahi hai: live levels",
+   "ts": 1793894507.0,
+   "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+   "t": "05 Nov \u00b7 09:01 PM",
+   "ur": "Bank of England ne Iran war ke baad pehli baar interest rate hike kar diya hai, aur warning di hai ke inflation 5% ke kareeb ho jaye gi.",
    "ur_by": "ai"
   },
   {
@@ -477,7 +469,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-flash-latest: The read operation timed out",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
