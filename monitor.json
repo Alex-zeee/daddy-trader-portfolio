@@ -1,30 +1,13 @@
 {
- "updated": "06-11-2026 03:17 PKT",
+ "updated": "06-11-2026 07:36 PKT",
  "gold": {
-  "price": 4089.11,
-  "open": 4064.11,
+  "price": 4064.75,
+  "open": 4131.5,
   "high": 4147.6,
-  "low": 4058.44,
-  "chg": 0.62,
+  "low": 4057.86,
+  "chg": -1.62,
   "src": "XAUUSD Spot",
   "spark": [
-   4127.39,
-   4131.53,
-   4130.3,
-   4134.58,
-   4135.95,
-   4134.21,
-   4128.29,
-   4125.92,
-   4120.73,
-   4121.06,
-   4119.37,
-   4117.0,
-   4121.29,
-   4126.27,
-   4124.56,
-   4121.37,
-   4101.62,
    4110.41,
    4112.58,
    4098.92,
@@ -55,14 +38,31 @@
    4088.1,
    4089.34,
    4089.22,
-   4089.11
+   4089.21,
+   4088.64,
+   4088.65,
+   4087.44,
+   4094.63,
+   4096.56,
+   4086.56,
+   4097.06,
+   4101.48,
+   4100.08,
+   4093.03,
+   4094.04,
+   4066.37,
+   4069.82,
+   4060.52,
+   4069.63,
+   4070.04,
+   4064.75
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.83,
-   "chg": -0.56,
+   "price": 52.095,
+   "chg": -0.05,
    "spark": [
     59.899,
     59.064,
@@ -85,13 +85,13 @@
     50.72,
     49.587,
     52.12,
-    51.83
+    52.095
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.584,
-   "chg": 0.07,
+   "price": 101.657,
+   "chg": 0.14,
    "spark": [
     102.24,
     102.14,
@@ -114,13 +114,13 @@
     101.75,
     101.87,
     101.51,
-    101.584
+    101.657
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 91.2,
-   "chg": 3.5,
+   "price": 91.6,
+   "chg": 3.95,
    "spark": [
     88.28,
     91.49,
@@ -143,7 +143,7 @@
     96.46,
     96.09,
     88.12,
-    91.2
+    91.6
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1223,
-   "chg": 0.14,
+   "price": 1.1213,
+   "chg": -0.19,
    "spark": [
-    1.1254,
     1.1201,
     1.1213,
     1.1205,
@@ -201,15 +200,15 @@
     1.1157,
     1.1192,
     1.1207,
-    1.1223
+    1.1235,
+    1.1213
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3451,
-   "chg": 0.12,
+   "price": 1.3448,
+   "chg": -0.22,
    "spark": [
-    1.3267,
     1.3215,
     1.3229,
     1.3242,
@@ -230,47 +229,15 @@
     1.3386,
     1.341,
     1.3434,
-    1.3451
-   ]
-  },
-  {
-   "name": "USD/JPY",
-   "price": 157.625,
-   "chg": -0.53,
-   "spark": [
-    158.296,
-    158.06,
-    158.063,
-    158.203,
-    158.52,
-    158.322,
-    157.957,
-    158.143,
-    157.806,
-    158.523,
-    158.268,
-    158.132,
-    156.494,
-    156.83,
-    157.528,
-    157.993,
-    157.833,
-    157.804,
-    157.677,
-    157.915,
-    158.469,
-    157.625
+    1.3477,
+    1.3448
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2237.76,
-   "chg": -7.62,
+   "price": 2236.65,
+   "chg": 0.07,
    "spark": [
-    2271.45,
-    2271.39,
-    2260.76,
-    2240.97,
     2245.85,
     2276.18,
     2289.65,
@@ -314,18 +281,18 @@
     2258.08,
     2246.77,
     2225.94,
-    2237.76
+    2226.89,
+    2235.01,
+    2243.84,
+    2237.52,
+    2236.65
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75953.9,
-   "chg": -5.58,
+   "price": 75958.0,
+   "chg": -0.03,
    "spark": [
-    77331.7,
-    77126.5,
-    76925.1,
-    76040.8,
     76373.5,
     77279.2,
     77630.1,
@@ -369,7 +336,11 @@
     76246.5,
     76098.2,
     75725.9,
-    75953.9
+    75600.7,
+    75979.9,
+    76221.3,
+    76015.3,
+    75958.0
    ]
   }
  ],
@@ -418,12 +389,21 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1793917021.12589,
-   "title": "Gold gains as dollar steadies, Treasury yields dip amid U.S. midterms fallout",
+   "ts": 1793932608.31226,
+   "title": "Gold heads for best week since August as U.S. political shift lifts bonds",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
+   "t": "06 Nov \u00b7 07:36 AM",
+   "ur": "Gold ki weekly performance August ke baad se sab se achi ja rahi hai kyunke US mein political shift ki wajah se bonds barh gaye hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1793932608.31226,
+   "title": "Gold prices climb as tech rout on Wall Street keeps the dollar subdued",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rally-above-4100-as-dollar-treasury-yields-fall-after-us-vote-5002012",
-   "t": "06 Nov \u00b7 03:17 AM",
-   "ur": "Gold barh gaya hai kyunke dollar steady hai aur U.S. midterms ke baad Treasury yields dip ho gayi hain.",
+   "t": "06 Nov \u00b7 07:36 AM",
+   "ur": "Wall Street par tech stocks girne ki wajah se dollar kamzor hai, jis se Gold ki qeematon mein izafa ho raha hai.",
    "ur_by": "ai"
   },
   {
@@ -473,8 +453,8 @@
   }
  ],
  "sentiment": {
-  "value": 50,
-  "label": "Neutral"
+  "value": 28,
+  "label": "Fear"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
