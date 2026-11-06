@@ -1,33 +1,13 @@
 {
- "updated": "06-11-2026 21:58 PKT",
+ "updated": "07-11-2026 02:55 PKT",
  "gold": {
-  "price": 4067.37,
-  "open": 4127.02,
-  "high": 4127.29,
+  "price": 4069.33,
+  "open": 4089.11,
+  "high": 4106.97,
   "low": 4028.59,
-  "chg": -1.45,
+  "chg": -0.48,
   "src": "XAUUSD Spot",
   "spark": [
-   4047.48,
-   4039.73,
-   4040.96,
-   4039.16,
-   4046.12,
-   4046.15,
-   4048.36,
-   4049.3,
-   4045.95,
-   4044.75,
-   4046.45,
-   4056.13,
-   4054.87,
-   4065.18,
-   4072.58,
-   4075.2,
-   4080.01,
-   4077.3,
-   4072.47,
-   4073.54,
    4070.93,
    4067.78,
    4069.13,
@@ -55,14 +35,34 @@
    4063.31,
    4062.16,
    4058.91,
-   4067.37
+   4068.03,
+   4060.92,
+   4059.87,
+   4054.0,
+   4060.36,
+   4060.34,
+   4063.41,
+   4068.32,
+   4076.6,
+   4072.44,
+   4065.0,
+   4064.49,
+   4063.33,
+   4064.24,
+   4063.87,
+   4062.49,
+   4067.37,
+   4066.22,
+   4063.53,
+   4065.61,
+   4069.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.03,
-   "chg": -0.39,
+   "price": 51.93,
+   "chg": -0.58,
    "spark": [
     59.064,
     60.67,
@@ -85,13 +85,13 @@
     49.587,
     52.12,
     52.233,
-    52.03
+    51.93
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.172,
-   "chg": 0.61,
+   "price": 102.298,
+   "chg": 0.74,
    "spark": [
     102.14,
     102.21,
@@ -114,13 +114,13 @@
     101.87,
     101.51,
     101.55,
-    102.172
+    102.298
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.19,
-   "chg": -0.36,
+   "price": 90.46,
+   "chg": -0.07,
    "spark": [
     91.49,
     91.85,
@@ -143,13 +143,13 @@
     96.09,
     88.12,
     90.52,
-    90.19
+    90.46
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.857,
-   "chg": 0.41,
+   "price": 4.859,
+   "chg": 0.45,
    "spark": [
     5.231,
     5.244,
@@ -172,13 +172,13 @@
     4.952,
     4.894,
     4.837,
-    4.857
+    4.859
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1157,
-   "chg": -0.69,
+   "price": 1.1141,
+   "chg": -0.84,
    "spark": [
     1.1201,
     1.1213,
@@ -201,13 +201,13 @@
     1.1192,
     1.1207,
     1.1235,
-    1.1157
+    1.1141
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3371,
-   "chg": -0.78,
+   "price": 1.3349,
+   "chg": -0.95,
    "spark": [
     1.3215,
     1.3229,
@@ -230,13 +230,13 @@
     1.341,
     1.3434,
     1.3477,
-    1.3371
+    1.3349
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.237,
-   "chg": -0.08,
+   "price": 158.553,
+   "chg": 0.12,
    "spark": [
     158.06,
     158.063,
@@ -259,19 +259,14 @@
     157.915,
     158.469,
     158.357,
-    158.237
+    158.553
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2234.11,
-   "chg": -0.04,
+   "price": 2231.47,
+   "chg": -0.16,
    "spark": [
-    2422.63,
-    2421.06,
-    2404.1,
-    2418.61,
-    2416.36,
     2434.02,
     2423.16,
     2419.38,
@@ -314,19 +309,19 @@
     2233.73,
     2226.13,
     2227.99,
-    2234.11
+    2232.66,
+    2224.84,
+    2228.09,
+    2232.5,
+    2226.01,
+    2231.47
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75890.2,
-   "chg": -0.12,
+   "price": 75771.1,
+   "chg": -0.27,
    "spark": [
-    80349.1,
-    80280.8,
-    79913.4,
-    80056.7,
-    80162.6,
     80645.5,
     80440.8,
     80479.5,
@@ -369,11 +364,48 @@
     75796.1,
     75430.4,
     75767.3,
-    75890.2
+    75916.6,
+    75694.3,
+    75687.2,
+    75774.1,
+    75772.4,
+    75771.1
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1793885400.0,
+   "t": "Thu 05 Nov \u00b7 06:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "197K",
+   "previous": "194K"
+  },
+  {
+   "ts": 1793971800.0,
+   "t": "Fri 06 Nov \u00b7 06:30 PM",
+   "title": "Average Hourly Earnings m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.1%"
+  },
+  {
+   "ts": 1793971800.0,
+   "t": "Fri 06 Nov \u00b7 06:30 PM",
+   "title": "Non-Farm Employment Change",
+   "impact": "High",
+   "forecast": "65K",
+   "previous": "29K"
+  },
+  {
+   "ts": 1793971800.0,
+   "t": "Fri 06 Nov \u00b7 06:30 PM",
+   "title": "Unemployment Rate",
+   "impact": "High",
+   "forecast": "4.2%",
+   "previous": "4.2%"
+  },
   {
    "ts": 1793977200.0,
    "t": "Fri 06 Nov \u00b7 08:00 PM",
@@ -391,23 +423,23 @@
    "previous": "4.7%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1793984324.977792,
-   "title": "Gold slips following hotter-than-expected jobs report, but on pace for weekly gain",
+   "ts": 1794002123.220939,
+   "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
-   "t": "06 Nov \u00b7 09:58 PM",
-   "ur": "Jobs data expected se zyada hot anay ki wajah se Gold thora down hua hai, lakin weekly gain ki taraf ja raha hai.",
+   "t": "07 Nov \u00b7 02:55 AM",
+   "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1793984324.977792,
+   "ts": 1794002123.220939,
    "title": "Goldman lowers year-end gold price forecast on hawkish Fed shift",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-lowers-yearend-gold-price-forecast-on-hawkish-fed-shift-5006662",
-   "t": "06 Nov \u00b7 09:58 PM",
+   "t": "07 Nov \u00b7 02:55 AM",
    "ur": "Fed ke hawkish shift ki wajah se Goldman ne year-end Gold price forecast kam kar di hai",
    "ur_by": "ai"
   },
