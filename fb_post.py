@@ -1,6 +1,8 @@
-"""Daddy Trader — signal ka card Facebook page par post karna (Meta Graph API).
+"""Daddy Trader — tasveer aur likhai Facebook page ke sahi album mein post karna (Meta Graph API).
 
-wa_post.py har naye signal / TP HIT / SL HIT par ise card ki tasveer aur likhai deta hai.
+- wa_post.py: har naye signal / TP HIT / SL HIT ka card  -> "Daddy Trader Signals" album
+- motivation_post.py: rozana ki motivation tasveer        -> "Daddy Trader Motivation" album
+Album mein daali tasveer page ki timeline par bhi nazar aati hai.
 
 GitHub Secret (Settings -> Secrets -> Actions):
   FB_PAGE_TOKEN  Daddy Trader page ka Page access token (kabhi expire na hone wala)
@@ -13,21 +15,41 @@ TOKEN = os.environ.get("FB_PAGE_TOKEN", "").strip()
 # Page token ke saath "me" khud Daddy Trader page hi hota hai
 PAGE = os.environ.get("FB_PAGE_ID", "").strip() or "me"
 
+# album ka naam (page par jo likha hai) aur us ki ID (naam na mile to ye)
+ALBUMS = {
+    "signals": ("Daddy Trader Signals", "122201334686860036"),
+    "motivation": ("Daddy Trader Motivation", "122201334482860036"),
+}
+
 
 def _send(req):
     with urllib.request.urlopen(req, timeout=90) as r:
         return json.loads(r.read() or b"{}")
 
 
-def photo(png, message):
+def album_id(kind):
+    name, fallback = ALBUMS[kind]
+    try:
+        url = GRAPH + "/" + PAGE + "/albums?" + urllib.parse.urlencode(
+            {"fields": "id,name", "limit": 100, "access_token": TOKEN})
+        for a in _send(urllib.request.Request(url)).get("data", []):
+            if str(a.get("name", "")).strip().lower() == name.lower():
+                return a["id"]
+    except Exception as e:
+        print("facebook: album list nahi mili", e)
+    return fallback
+
+
+def photo(img, message, target, filename, ctype):
     b = uuid.uuid4().hex
     body = b""
-    for k, v in (("message", message), ("access_token", TOKEN)):
+    # album mein "caption", page par "message" — dono bhej dete hain
+    for k, v in (("caption", message), ("message", message), ("access_token", TOKEN)):
         body += ('--%s\r\nContent-Disposition: form-data; name="%s"\r\n\r\n%s\r\n' % (b, k, v)).encode()
-    body += ('--%s\r\nContent-Disposition: form-data; name="source"; filename="daddy-trader-signal.png"\r\n'
-             'Content-Type: image/png\r\n\r\n' % b).encode() + png + b"\r\n"
+    body += ('--%s\r\nContent-Disposition: form-data; name="source"; filename="%s"\r\n'
+             'Content-Type: %s\r\n\r\n' % (b, filename, ctype)).encode() + img + b"\r\n"
     body += ("--%s--\r\n" % b).encode()
-    req = urllib.request.Request(GRAPH + "/" + PAGE + "/photos", data=body, method="POST",
+    req = urllib.request.Request(GRAPH + "/" + target + "/photos", data=body, method="POST",
                                  headers={"content-type": "multipart/form-data; boundary=" + b})
     return _send(req)
 
@@ -37,24 +59,28 @@ def text(message):
     return _send(urllib.request.Request(GRAPH + "/" + PAGE + "/feed", data=data, method="POST"))
 
 
-def post(png, message):
-    """Card ke saath post; card na ho ya na jaye to sirf likhai."""
+def _err(e):
+    if isinstance(e, urllib.error.HTTPError):
+        return "%s %s" % (e.code, e.read()[:300])
+    return str(e)
+
+
+def post(img, message, album="signals", filename="daddy-trader-signal.png", ctype="image/png"):
+    """Tasveer album mein; album na chale to page par; tasveer na jaye to sirf likhai."""
     if not TOKEN:
         return
     message = message.replace("*", "")  # WhatsApp wale bold nishan Facebook par nahi chahiye
-    if png:
-        try:
-            res = photo(png, message)
-            print("facebook: posted card", res.get("post_id") or res.get("id"))
-            return
-        except urllib.error.HTTPError as e:
-            print("facebook: card error", e.code, e.read()[:300], "- ab sirf likhai")
-        except Exception as e:
-            print("facebook: card error", e, "- ab sirf likhai")
+    if img:
+        targets = ([album_id(album)] if album in ALBUMS else []) + [PAGE]
+        for t in targets:
+            try:
+                res = photo(img, message, t, filename, ctype)
+                print("facebook: posted", "album " + album if t != PAGE else "page", res.get("post_id") or res.get("id"))
+                return
+            except Exception as e:
+                print("facebook: tasveer error (%s):" % ("album" if t != PAGE else "page"), _err(e))
     try:
         res = text(message)
-        print("facebook: posted", res.get("id"))
-    except urllib.error.HTTPError as e:
-        print("facebook: error", e.code, e.read()[:300])
+        print("facebook: posted text", res.get("id"))
     except Exception as e:
-        print("facebook: error", e)
+        print("facebook: error", _err(e))
