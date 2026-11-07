@@ -1,0 +1,31 @@
+name: Daily Motivation
+# Roz shaam ~7 baje (Pakistan) Facebook page ke "Daddy Trader Motivation" album mein nayi post.
+# Haath se chalayen (Run workflow) to sirf tasveer banti hai; post tab hi hoga jab "post" mein yes likhein.
+on:
+  schedule:
+    - cron: "50 13 * * *"
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "Facebook par post karna hai? (yes / no)"
+        default: "no"
+permissions:
+  contents: read
+jobs:
+  motivation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q pillow numpy
+      - run: sudo apt-get install -y -qq fonts-inter fonts-texgyre >/dev/null 2>&1 || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter fonts-texgyre >/dev/null 2>&1) || true
+      - run: python motivation_post.py
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.post != 'yes') && '1' || '0' }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: motivation-today
+          path: motivation-today.jpg
