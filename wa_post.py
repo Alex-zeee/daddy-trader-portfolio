@@ -3,6 +3,7 @@
 signals.py naya signal ya TP/SL nateeja `.wa_events.json` mein likhta hai.
 Ye script unhein channel par post karti hai. Har message ke saath card
 (tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
+Yehi card aur likhai Facebook page par bhi jaati hai (fb_post.py, FB_PAGE_TOKEN ho to).
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -100,12 +101,12 @@ def text(ev):
 
 
 def card(ev):
-    """Signal / TP HIT / SL HIT ka card (PNG) data-URI ki shakal mein; na bane to None."""
+    """Signal / TP HIT / SL HIT ka card (PNG bytes); na bane to None."""
     try:
         import signal_card
-        return "data:image/png;base64," + base64.b64encode(signal_card.make(ev["sig"], ev.get("kind", "new"))).decode()
+        return signal_card.make(ev["sig"], ev.get("kind", "new"))
     except Exception as e:
-        print("whatsapp: card nahi bana", e)
+        print("card nahi bana", e)
         return None
 
 
@@ -137,8 +138,14 @@ def main():
     except Exception:
         events = []
     os.remove(EVENTS)
-    if not TOKEN or not events:
-        print("whatsapp: token nahi ya koi event nahi — skip")
+    try:
+        import fb_post
+    except Exception as e:
+        print("facebook: fb_post.py load nahi hua", e)
+        fb_post = None
+    fb = bool(fb_post and fb_post.TOKEN)
+    if not events or (not TOKEN and not fb):
+        print("whatsapp/facebook: token nahi ya koi event nahi — skip")
         return
     global CHANNEL
     try:
@@ -149,9 +156,14 @@ def main():
         print("whatsapp: channel dhoondne mein error", e)
     # pehle channel, phir Ali ke apne number par copy
     targets = ([CHANNEL] if CHANNEL else []) + [n + "@s.whatsapp.net" for n in NOTIFY if n.isdigit()]
+    if not TOKEN:
+        targets = []
     first = True
     for ev in events:
-        media = card(ev)
+        png = card(ev)
+        media = "data:image/png;base64," + base64.b64encode(png).decode() if png else None
+        if fb:
+            fb_post.post(png, text(ev))
         for to in targets:
             if not first:
                 time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
