@@ -1,0 +1,11 @@
+{
+  // Daddy Trader — Gold signal bot (har 5 minute)
+  "name": "daddytrader-signals",
+  "main": "index.js",
+  "compatibility_date": "2026-09-01",
+  "triggers": { "crons": ["*/5 * * * *"] },
+  // KV khud ban jayega (Wrangler 4.45+): signals yahan rehte hain
+  "kv_namespaces": [{ "binding": "SIG" }],
+  "vars": { "NTFY_TOPIC": "daddytrader-ali-signals" },
+  "observability": { "enabled": true }
+}
