@@ -285,6 +285,7 @@ def main():
     bias = None
     liq = None
     new_sig = None
+    wa_events = []
     now0 = datetime.now(timezone.utc)
 
     if market_closed(now0):
@@ -309,7 +310,13 @@ def main():
     df, src = fetch_gold()
     if df is not None:
         df = df.iloc[-LOOKBACK:]
+        before = {s.get("ts"): s.get("status") for s in sigs}
         update_statuses(sigs, df)
+        # WhatsApp channel ke liye: jo signal abhi TP ya SL hit hua
+        for s in sigs:
+            st = s.get("status")
+            if before.get(s.get("ts")) == "Active" and st in ("TP Hit", "SL Hit"):
+                wa_events.append({"kind": "tp" if st == "TP Hit" else "sl", "sig": s})
         new_sig = detect_signal(df, sigs)
         if new_sig:
             sigs.append(new_sig)
@@ -343,6 +350,11 @@ def main():
             new_sig["sl"], new_sig["tp"], new_sig["note"]))
         with open(".new_signal", "w") as f:
             f.write(msg)
+        wa_events.append({"kind": "new", "sig": new_sig})
+    if wa_events:
+        # wa_post.py inhein WhatsApp channel par bhejta hai
+        with open(".wa_events.json", "w") as f:
+            json.dump(wa_events, f)
     print("signals:", len(sigs), "| new:", bool(new_sig), "| liq:", liq)
 
 
