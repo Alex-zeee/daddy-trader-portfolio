@@ -5,7 +5,7 @@ Ye script unhein channel par post karti hai.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
-  WA_CHANNEL_ID  channel ki ID, jaise 120363xxxxxxxxxx@newsletter (na ho to khud dhoond leti hai)
+  WA_CHANNEL_ID  channel ki ID (na ho to DADDY TRADER channel)
   WA_NOTIFY_TO   jin numbers par signal ki copy jaye, comma se alag (na ho to Ali ka apna number)
 Token na ho to script chup chaap kuch nahi karti, baqi bot chalta rehta hai.
 """
@@ -13,7 +13,8 @@ import json, os, sys, time, urllib.request, urllib.error
 
 API = "https://gate.whapi.cloud"
 TOKEN = os.environ.get("WHAPI_TOKEN", "").strip()
-CHANNEL = os.environ.get("WA_CHANNEL_ID", "").strip()
+# "DADDY TRADER" channel (maalik: 0347 0713257)
+CHANNEL = os.environ.get("WA_CHANNEL_ID", "").strip() or "120363435117880289@newsletter"
 NOTIFY = [n.strip().lstrip("+") for n in (os.environ.get("WA_NOTIFY_TO", "").strip() or "923470713257").split(",") if n.strip()]
 EVENTS = ".wa_events.json"
 
@@ -34,9 +35,9 @@ def find_channel():
     res = call("GET", "/newsletters?count=100")
     items = res.get("newsletters") if isinstance(res, dict) else res
     items = items or []
+    # sirf wahi channel jis ka maalik/admin ye number ho — kisi aur ke channel par kabhi nahi
     own = [n for n in items if str(n.get("role", "")).lower() in ("owner", "admin")]
-    pick = (own or items or [None])[0]
-    return pick.get("id") if pick else ""
+    return own[0].get("id") if own else ""
 
 
 def money(v):
