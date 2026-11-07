@@ -1,66 +1,137 @@
 <!doctype html>
-<html lang="ur">
+<html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET18EHG8XJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-ET18EHG8XJ');
 </script>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Alexa — Daddy Trader</title>
-<meta name="description" content="Daddy Trader — Alexa AI market analysis, Gold (XAUUSD) fundamentals, live signals aur free BackBar backtesting, sab aik jagah." />
+<title>Daddy Trader — ALEXA AI, Gold signals &amp; BackBar replay</title>
+<meta name="description" content="Daddy Trader — ALEXA AI market analysis, live Gold (XAUUSD) signals, fundamental news and free BackBar backtesting, all in one place." />
 <link rel="canonical" href="https://alex-zeee.github.io/daddy-trader-portfolio/" />
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="apple-touch-icon" href="icon-192.png" />
 <link rel="manifest" href="manifest.json" />
-<meta name="theme-color" content="#030806" />
+<meta name="theme-color" content="#0b0b0b" />
+<meta property="og:title" content="Daddy Trader — ALEXA AI, Gold signals & BackBar replay" />
+<meta property="og:description" content="Ask ALEXA about Gold, follow live ICT signals and practise bar by bar in BackBar — free." />
+<meta property="og:image" content="https://alex-zeee.github.io/daddy-trader-portfolio/icon-512.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <style>
   :root{
-    --bg:#030806; --fg:#eef3ef; --muted:#84968b; --line:rgba(130,210,165,.16);
-    --emerald:#3cae77; --emerald-hi:#8fe3b5; --gold:#f5c542; --gold-hi:#ffe08a; --gold-deep:#b8860b;
-    --dock-h:84px;
+    --page:#06070a; --paper:#0b0d14; --card:#10131d; --raise:#141826;
+    --line:#1c2030; --line2:#2a3044; --bracket:#2a3044;
+    --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
+    --gold:#f5c542; --gold-hi:#ffe08a; --gold-deep:#b8860b; --emerald:#3cae77; --emerald-hi:#8fe3b5;
+    --live:#22c55e; --buy:#3fbf86; --sell:#ff5d5d;
+    --sans:"Manrope","Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    --wrap:1240px; --gut:clamp(16px,3vw,28px);
   }
   *{box-sizing:border-box}
-  html,body{margin:0;height:100%;max-width:100%;overflow-x:hidden;background:var(--bg);color:var(--fg);font-family:'Poppins',system-ui,sans-serif;overflow:hidden}
+  html{scroll-behavior:smooth;scroll-padding-top:84px}
+  body{margin:0;min-height:100vh;overflow-x:hidden;color:var(--ink);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;
+    background-color:var(--page);background-image:radial-gradient(900px 520px at 8% -8%,rgba(52,211,153,.07),transparent 62%),radial-gradient(820px 600px at 100% 0%,rgba(245,184,46,.06),transparent 62%);background-attachment:fixed}
+  a{color:inherit}
+  img,svg{display:block;max-width:100%}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .skip{position:absolute;left:12px;top:-60px;z-index:50;padding:10px 14px;background:var(--ink);color:var(--page);font-weight:700;text-decoration:none}
+  .skip:focus{top:12px}
 
-  /* ===== Alexa area ===== */
-  #stage{position:fixed;inset:0 0 calc(var(--dock-h) + env(safe-area-inset-bottom)) 0;background:var(--bg)}
-  #alexaFrame{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;background:var(--bg);opacity:0;transition:opacity .5s}
-  #stage.live #alexaFrame{opacity:1}
-  #stage.live #webAlexa{display:none}
-  /* sirf logo: likhne wala hissa band, logo beech mein (bolne ke liye logo dabayein) */
-  #webAlexa.logo-only{justify-content:center;padding-top:calc(max(env(safe-area-inset-top),24px) + 20px)}
-  #webAlexa.logo-only .wa-tools,#webAlexa.logo-only .name,#webAlexa.logo-only #waLog,#webAlexa.logo-only #waForm{display:none}
-  #webAlexa.logo-only .status{margin-top:16px;font-size:15px;line-height:1.55;color:var(--emerald-hi);max-width:560px;max-height:32vh;overflow-y:auto;padding:0 10px}
-  #webAlexa.logo-only .orb{width:min(64vw,70vh,560px);margin:0}
+  /* corner brackets (Ink look) */
+  .br{position:relative}
+  .br::before{content:"";position:absolute;inset:-6px;pointer-events:none;
+    background:
+      linear-gradient(var(--bracket),var(--bracket)) left top/12px 1.5px no-repeat,linear-gradient(var(--bracket),var(--bracket)) left top/1.5px 12px no-repeat,
+      linear-gradient(var(--bracket),var(--bracket)) right top/12px 1.5px no-repeat,linear-gradient(var(--bracket),var(--bracket)) right top/1.5px 12px no-repeat,
+      linear-gradient(var(--bracket),var(--bracket)) left bottom/12px 1.5px no-repeat,linear-gradient(var(--bracket),var(--bracket)) left bottom/1.5px 12px no-repeat,
+      linear-gradient(var(--bracket),var(--bracket)) right bottom/12px 1.5px no-repeat,linear-gradient(var(--bracket),var(--bracket)) right bottom/1.5px 12px no-repeat}
 
-  /* ===== website wali Alexa ===== */
-  #webAlexa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
-    padding:calc(22px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right)) 12px calc(16px + env(safe-area-inset-left));gap:10px;overflow:hidden;
-    background:radial-gradient(60% 45% at 50% 22%,rgba(60,174,119,.16),transparent 70%),var(--bg)}
-  .wa-tools{position:absolute;top:calc(12px + env(safe-area-inset-top));right:12px;display:flex;gap:8px;z-index:2}
-  .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(8,18,13,.7);color:var(--emerald-hi);
-    display:grid;place-items:center;cursor:pointer;padding:0}
+  /* ===== buttons ===== */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:13px;font:700 14.5px var(--sans);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background .15s,border-color .15s,color .15s}
+  .btn.solid{background:var(--ink);color:#0b0b0b}
+  .btn.solid:hover{background:#ffffff}
+  .btn.ghost{border-color:var(--line2);color:var(--ink);background:#10131d}
+  .btn.ghost:hover{border-color:var(--soft)}
+  .btn.gold{background:linear-gradient(135deg,var(--gold-hi),#f5b82e 60%,#d9961a);color:#140f02;box-shadow:0 10px 26px -12px rgba(245,184,46,.7)}
+  .btn svg{width:17px;height:17px}
+
+  /* ===== header ===== */
+  .top{position:sticky;top:0;z-index:30;background:rgba(6,7,10,.82);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .top .wrap{display:flex;align-items:center;gap:20px;min-height:68px}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:.26em;white-space:nowrap}
+  .brand i{width:10px;height:10px;border-radius:50%;background:var(--live);box-shadow:0 0 0 4px rgba(34,197,94,.15)}
+  .px{display:inline-flex;align-items:center;gap:8px;padding:6px 11px;border-radius:10px;border:1px solid var(--line);background:var(--card);font:500 12px var(--mono);white-space:nowrap}
+  .px span{color:var(--muted)} .px b{font-weight:600} .px .up{color:var(--buy)} .px .dn{color:var(--sell)}
+  .px[hidden]{display:none}
+  .nav{display:flex;align-items:center;gap:6px 22px;margin-left:auto}
+  .nav a{color:var(--soft);text-decoration:none;font-size:14px;font-weight:500;padding:10px 2px;white-space:nowrap}
+  .nav a:hover,.nav a[aria-current="page"]{color:#fff}
+  .nav-cta{display:flex;gap:10px}
+  .nav-cta .btn{min-height:42px;padding:0 16px;font-size:14px}
+  .menu-btn{display:none;flex:none;margin-left:auto;width:44px;height:44px;border-radius:12px;border:1px solid var(--line2);background:transparent;color:var(--ink);cursor:pointer;place-items:center;padding:0}
+  .menu-btn svg{width:20px;height:20px}
+  @media (max-width:1180px){
+    .menu-btn{display:grid}
+    .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;margin:0;padding:8px var(--gut) 18px;background:#0a0c12;border-bottom:1px solid var(--line)}
+    .nav.open{display:flex}
+    .nav a{padding:13px 0;border-bottom:1px solid var(--line);font-size:16px}
+    .nav-cta{padding-top:14px}
+    .nav-cta .btn{flex:1;min-height:48px}
+  }
+  @media (max-width:420px){ .px span{display:none} .top .wrap{gap:10px} .brand{letter-spacing:.16em;font-size:12.5px} .px{padding:5px 8px} }
+  @media (max-width:360px){ .px em{display:none} }
+
+  main{display:flex;flex-direction:column;gap:28px;padding:28px 0 0}
+  .sheet{background:linear-gradient(180deg,#0c0f17,#090b11);border:1px solid #171b28;border-radius:32px}
+  .sec{padding:clamp(28px,4vw,52px) clamp(18px,4vw,52px)}
+  .h2{margin:0;font-size:clamp(26px,3.2vw,38px);line-height:1.1;letter-spacing:-.03em;font-weight:800;max-width:22ch}
+  .lead{margin:12px 0 0;max-width:60ch;color:#a9a9a9;font-size:16px}
+  .sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 32px;margin-bottom:30px}
+  .more{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:12px;border:1px solid var(--line2);background:#10131d;color:var(--ink);font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}
+  .more:hover{border-color:#f5b82e;color:#f5b82e}
+
+  /* ===== hero ===== */
+  .hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(28px,4vw,56px);align-items:center;padding:clamp(30px,4.5vw,64px) clamp(18px,4vw,52px)}
+  .hero h1{margin:0;font-size:clamp(38px,5.4vw,70px);line-height:1.02;letter-spacing:-.045em;font-weight:800;max-width:15ch}
+  .hero .lead{font-size:clamp(16px,1.4vw,18px);margin-top:20px;max-width:52ch}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .facts{display:flex;flex-wrap:wrap;gap:0;margin-top:34px;border-top:1px solid var(--line)}
+  .facts[hidden]{display:none}
+  .fact{padding:16px 26px 0 0;margin-right:26px;border-right:1px solid var(--line)}
+  .fact:last-child{border-right:0;margin-right:0}
+  .fact small{display:block;color:var(--muted);font-size:12.5px}
+  .fact b{display:block;margin-top:2px;font:600 clamp(17px,1.7vw,21px) var(--mono);letter-spacing:-.02em}
+  .fact .up{color:var(--buy)} .fact .dn{color:var(--sell)}
+
+  /* ALEXA panel — purana ALEXA look */
+  #webAlexa{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:10px;padding:46px clamp(16px,2.6vw,28px) 22px;border:1px solid #173024;border-radius:28px;box-shadow:0 30px 60px -30px rgba(0,0,0,.85);
+    background:radial-gradient(70% 50% at 50% 28%,rgba(60,174,119,.17),transparent 72%),#050806}
+  #webAlexa::before{--bracket:#2f5a40}
+  .wa-tools{position:absolute;top:12px;right:12px;display:flex;gap:8px;z-index:2}
+  .wa-full{position:absolute;top:12px;left:12px;border-radius:11px;z-index:2;display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 12px;border:1px solid rgba(130,210,165,.16);
+    background:rgba(8,18,13,.7);color:var(--emerald-hi);font-size:12.5px;font-weight:600;text-decoration:none}
+  .wa-full:hover{border-color:var(--emerald)}
+  .wa-full svg{width:14px;height:14px}
+  .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid rgba(130,210,165,.16);background:rgba(8,18,13,.7);color:var(--emerald-hi);display:grid;place-items:center;cursor:pointer;padding:0}
   .icon-btn:hover{border-color:var(--emerald)}
-  .icon-btn svg{width:18px;height:18px}
+  .icon-btn svg{width:17px;height:17px}
   #waMute .off{display:none}
   #waMute[aria-pressed="true"] .on{display:none}
   #waMute[aria-pressed="true"] .off{display:block}
   #waMute[aria-pressed="true"]{color:var(--muted)}
-
-  /* logo — bilkul laptop wali Alexa jaisa */
-  .orb{flex:none;position:relative;width:clamp(240px,min(44vw,54vh),540px);aspect-ratio:660/490;margin:6px 0 2px;border:0;padding:0;cursor:pointer;
-    background:none;display:grid;place-items:center;border-radius:12px;
+  .orb{flex:none;position:relative;width:min(100%,400px);aspect-ratio:660/490;margin:4px 0 0;border:0;padding:0;cursor:pointer;background:none;display:grid;place-items:center;border-radius:12px;
     --dt-bull-a:#2f8a5d;--dt-bull-b:#3cae77;--dt-up:#36a86f;--dt-dn:#ff4b51;--dt-g1:#fff1b8;--dt-g2:#f5c542;--dt-g3:#d49b17;--dt-g4:#ffdd80;--dt-g5:#b8860b}
-  .orb > img{width:62%;height:auto;border-radius:50%;background:#fff;padding:6%;box-shadow:0 0 40px rgba(60,174,119,.4)}
+  .orb > img{width:58%;height:auto;border-radius:50%;background:#fff;padding:6%;box-shadow:0 0 40px rgba(60,174,119,.4)}
   .orb.has-logo > img{display:none}
   #waLogo{display:block;width:100%}
   .orb .dtl{width:100%;height:auto;transition:filter .15s linear;filter:drop-shadow(0 0 5px rgba(245,197,66,.45)) drop-shadow(0 0 16px rgba(245,197,66,.18))}
@@ -116,147 +187,417 @@
   .dtl.gl .dt-lt,.dtl.gl .dt-tl{fill:rgba(245,197,66,.10);stroke-linejoin:round}
   .dtl.gl .dt-lt{stroke-width:2.2}.dtl.gl .dt-tl{stroke-width:1.7}
   .orb .dt-tag rect{fill:rgba(20,16,4,.88);stroke:rgba(245,197,66,.75);stroke-width:1.2}
-  .orb .dt-tag text{font-family:'Poppins',sans-serif;font-weight:700;font-size:20px;fill:var(--gold-hi)}
+  .orb .dt-tag text{font-family:var(--sans);font-weight:700;font-size:20px;fill:var(--gold-hi)}
   @media (prefers-reduced-motion:reduce){.dtl *{animation:none!important}.dtl .dt-bull-line,.dtl .dt-trend,.dtl .dt-trend-glow{opacity:0}}
-  @keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
-  @keyframes ring{0%{transform:scale(.9);opacity:.9}100%{transform:scale(1.4);opacity:0}}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  @keyframes talk{from{transform:scale(1)}to{transform:scale(1.06)}}
-  .name{font-size:36px;font-weight:800;letter-spacing:.32em;margin:0;padding-left:.32em;line-height:1.1;
+  .name{margin:0;font-size:30px;font-weight:800;letter-spacing:.32em;padding-left:.32em;line-height:1.1;
     background:linear-gradient(90deg,var(--emerald-hi),var(--gold-hi));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .status{margin:0;font-size:13px;color:var(--muted);text-align:center;min-height:1.4em}
-
-  #waLog{flex:1 1 auto;min-height:0;width:100%;max-width:680px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding:6px 2px;
-    scrollbar-width:thin;scrollbar-color:var(--line) transparent}
-  .wa-line{max-width:88%;padding:10px 14px;border-radius:16px;font-size:15px;line-height:1.55;white-space:pre-wrap;word-wrap:break-word}
-  .wa-line.alexa{align-self:flex-start;background:rgba(8,18,13,.78);border:1px solid var(--line);color:var(--fg);border-bottom-left-radius:5px}
-  .wa-line.you{align-self:flex-end;background:linear-gradient(135deg,rgba(60,174,119,.28),rgba(60,174,119,.16));color:var(--fg);border-bottom-right-radius:5px}
-
-  #waForm{flex:none;width:100%;max-width:680px;display:flex;gap:8px;align-items:center}
-  #waInput{flex:1;min-width:0;height:48px;border-radius:999px;border:1px solid var(--line);background:rgba(8,18,13,.85);color:var(--fg);
-    padding:0 18px;font:500 16px 'Poppins',sans-serif;outline:none}
+  .status{margin:0;min-height:1.6em;max-width:46ch;max-height:9.5em;overflow-y:auto;text-align:center;font-size:15px;line-height:1.55;color:var(--emerald-hi)}
+  #waLog{display:none}
+  .wa-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:6px}
+  .wa-chips button{min-height:38px;padding:0 13px;border-radius:11px;border:1px solid rgba(130,210,165,.2);background:rgba(8,18,13,.6);color:#cfe6d8;font:600 13px var(--sans);cursor:pointer}
+  .wa-chips button:hover{border-color:var(--emerald);color:#fff}
+  #waForm{width:100%;display:flex;gap:8px;align-items:center;margin-top:8px}
+  #waInput{flex:1;min-width:0;height:48px;border-radius:999px;border:1px solid rgba(130,210,165,.18);background:rgba(8,18,13,.85);color:var(--ink);padding:0 18px;font:500 16px var(--sans);outline:none}
   #waInput:focus{border-color:var(--emerald)}
-  #waInput::placeholder{color:var(--muted)}
+  #waInput::placeholder{color:#7f9488}
   .round{flex:none;width:48px;height:48px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;color:#06120c}
-  .round svg{width:22px;height:22px}
+  .round svg{width:21px;height:21px}
   #waMic{background:linear-gradient(135deg,var(--emerald-hi),var(--emerald))}
   #waSend{background:linear-gradient(135deg,var(--gold-hi),var(--gold))}
 
-  /* ===== 2 buttons dock ===== */
-  #dock{position:fixed;left:0;right:0;bottom:0;height:calc(var(--dock-h) + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:center;gap:16px;
-    padding:0 16px env(safe-area-inset-bottom);background:linear-gradient(180deg,rgba(3,8,6,.92),#030806);
-    border-top:1px solid var(--line);z-index:10}
-  .btn{flex:0 1 300px;display:flex;align-items:center;gap:12px;height:60px;padding:0 18px;border-radius:18px;
-    text-decoration:none;color:#06120c;position:relative;overflow:hidden;
-    transition:transform .18s ease, box-shadow .18s ease}
-  .btn::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);
-    transform:translateX(-120%);transition:transform .6s ease}
-  .btn:hover{transform:translateY(-3px)}
-  .btn:hover::after{transform:translateX(120%)}
-  .btn:active{transform:translateY(0) scale(.98)}
-  .btn.fund{background:linear-gradient(135deg,var(--emerald-hi),var(--emerald));box-shadow:0 8px 26px rgba(60,174,119,.35)}
-  .btn.back{background:linear-gradient(135deg,var(--gold-hi),var(--gold) 55%,var(--gold-deep));box-shadow:0 8px 26px rgba(245,197,66,.28)}
-  .ic{width:40px;height:40px;flex:none;border-radius:12px;display:grid;place-items:center;background:rgba(3,8,6,.16)}
-  .ic svg{width:22px;height:22px}
-  .txt{display:flex;flex-direction:column;line-height:1.15;min-width:0}
-  .txt strong{font-size:17px;font-weight:700}
-  .txt small{font-size:12px;font-weight:500;opacity:.78;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  /* ===== signals ===== */
+  .sig-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:24px}
+  .sig-grid > .wide{grid-column:1/-1}
+  .sig-empty{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px;align-items:stretch}
+  @media (max-width:860px){.sig-empty{grid-template-columns:minmax(0,1fr)}}
+  .sig-meta{margin:18px 0 0;color:var(--muted);font-size:13px}
+  .sig-sub{grid-column:1/-1;margin:14px 0 0;font-size:18px;font-weight:800;letter-spacing:-.015em}
+  .sig-alert{align-self:flex-start;display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:12px;color:#f5b82e;font-weight:700;font-size:14px;text-decoration:none;border:1px solid rgba(245,184,46,.6);background:rgba(245,184,46,.08)}
+  .sig-alert:hover{background:rgba(245,184,46,.16)}
 
-  @media (max-width:560px){
-    :root{--dock-h:76px}
-    #dock{gap:10px;padding:0 12px env(safe-area-inset-bottom)}
-    .btn{height:54px;padding:0 12px;gap:9px;border-radius:15px;flex:1 1 0}
-    .ic{width:34px;height:34px;border-radius:10px}
-    .txt strong{font-size:15px}
-    .txt small{display:none}
-    .name{font-size:28px}
-    .orb{width:min(54vw,220px);margin-top:18px}
-    .wa-tools{left:10px;right:auto;flex-direction:column}
-    #webAlexa{padding-top:calc(30px + env(safe-area-inset-top));gap:8px}
-    .wa-line{font-size:14px}
+  /* ===== pillars (same card style as the signal cards) ===== */
+  .pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+  .pillar{display:flex;flex-direction:column;overflow:hidden;border-radius:28px;text-decoration:none;color:var(--ink);
+    background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 30px 60px -30px rgba(0,0,0,.85);transition:transform .25s ease,border-color .25s ease}
+  .pillar:hover{transform:translateY(-3px);border-color:#2a3046}
+  .p-head{display:flex;align-items:center;gap:13px;padding:18px 20px 16px;border-bottom:1px solid #1f2434}
+  .p-ico{flex:none;width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:var(--ic);background:color-mix(in srgb,var(--ic) 13%,#141826);border:1px solid color-mix(in srgb,var(--ic) 45%,transparent)}
+  .p-ico svg{width:22px;height:22px}
+  .p-head h3{margin:0;font-size:18px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
+  .p-head small{display:block;margin-top:2px;color:#8a90a2;font-size:12.5px}
+  .p-pill{margin-left:auto;flex:none;padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:800;letter-spacing:.06em;color:var(--ic);background:color-mix(in srgb,var(--ic) 10%,transparent);border:1px solid color-mix(in srgb,var(--ic) 40%,transparent)}
+  .pillar .vis{height:168px;position:relative;overflow:hidden;padding:16px 20px 0}
+  .pillar .txt{padding:14px 20px 20px;display:flex;flex-direction:column;flex:1}
+  .pillar p{margin:0 0 16px;color:#9aa0b1;font-size:14.5px}
+  .pillar .go{margin-top:auto;align-self:flex-start;padding:8px 14px;border-radius:11px;font-weight:700;font-size:13.5px;color:#f5b82e;border:1px solid rgba(245,184,46,.6);background:rgba(245,184,46,.08)}
+  .bub{max-width:88%;padding:9px 12px;border-radius:14px;font-size:13px;line-height:1.45;border:1px solid #252a3a}
+  .bub.you{margin-left:auto;background:var(--ink);color:#0b0b0b;border-color:var(--ink)}
+  .bub.ax{margin-top:10px;background:#0b1712;border-color:#1b3a2b;color:#d6eadd}
+  .bub small{display:block;font-size:11px;opacity:.7;margin-bottom:2px}
+  .spark-wrap{display:flex;flex-direction:column;height:100%}
+  .spark-head{display:flex;justify-content:space-between;align-items:baseline;font:600 13px var(--mono)}
+  .spark-head span{color:var(--muted);font-family:var(--sans);font-weight:500}
+  .spark{flex:1;margin:8px -20px 0;min-height:60px;width:calc(100% + 40px)}
+  .news-line{margin:8px 0 12px;font-size:12.5px;line-height:1.4;color:#b8b8b8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* ===== steps ===== */
+  .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line)}
+  .step{padding:26px 26px 6px 0;margin-right:26px;border-right:1px solid var(--line)}
+  .step:last-child{border-right:0;margin-right:0}
+  .step .n{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;font-size:22px;font-weight:800;color:#f5b82e;background:rgba(245,184,46,.10);border:1px solid rgba(245,184,46,.45)}
+  .step h3{margin:14px 0 6px;font-size:19px;font-weight:800;letter-spacing:-.015em}
+  .step p{margin:0;color:#a2a2a2;font-size:14.5px;max-width:34ch}
+
+  /* ===== community ===== */
+  .comm{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,56px);align-items:start}
+  .links{list-style:none;margin:0;padding:6px 18px;border-radius:28px;border:1px solid #1f2434;background:linear-gradient(180deg,#121625,#0c0f1a)}
+  .links li:last-child a{border-bottom:0}
+  .links a{display:flex;align-items:center;gap:16px;padding:15px 4px;border-bottom:1px solid #1f2434;text-decoration:none;transition:background .15s}
+  .links a:hover b{color:#f5b82e}
+  .links .ico{flex:none;width:44px;height:44px;border-radius:13px;display:grid;place-items:center;border:1px solid var(--line2);background:#161a27;color:var(--ink)}
+  .links .ico svg{width:19px;height:19px}
+  .links b{display:block;font-size:16px;font-weight:700}
+  .links small{display:block;color:var(--muted);font-size:13px}
+  .links .arr{margin-left:auto;color:var(--muted)}
+  .academy{margin-top:26px;padding:24px;border-radius:28px;border:1px solid rgba(245,184,46,.45);background:radial-gradient(120% 90% at 0% 0%,rgba(245,184,46,.14),transparent 60%),linear-gradient(180deg,#121625,#0c0f1a);box-shadow:0 30px 60px -32px rgba(245,184,46,.35)}
+  .academy h3{margin:0;font-size:20px;font-weight:800;letter-spacing:-.015em}
+  .academy p{margin:6px 0 16px;color:#b5b5b5;font-size:14.5px}
+
+  /* ===== footer ===== */
+  .foot{margin-top:28px;border-top:1px solid var(--line);background:#07080c}
+  .foot .wrap{padding-top:36px;padding-bottom:calc(36px + env(safe-area-inset-bottom))}
+  .risk{padding:16px 18px;border-radius:18px;border:1px solid #4a2230;background:#160c12;color:#e7c9c3;font-size:14px;line-height:1.6}
+  .foot-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px 28px;margin-top:22px;color:var(--muted);font-size:13.5px}
+  .foot-row nav{display:flex;flex-wrap:wrap;gap:8px 20px}
+  .foot-row a{color:var(--soft);text-decoration:none}
+  .foot-row a:hover{color:#fff}
+
+  @media (max-width:980px){
+    .hero{grid-template-columns:minmax(0,1fr)}
+    .hero h1{max-width:18ch}
+    .pillars{grid-template-columns:minmax(0,1fr)}
+
+    .comm{grid-template-columns:minmax(0,1fr)}
   }
-  @media (prefers-reduced-motion:reduce){.btn,.btn::after{transition:none}}
+  @media (max-width:720px){
+    main{gap:20px;padding-top:16px}
+    .pillar .vis{height:150px}
+    .steps{grid-template-columns:minmax(0,1fr)}
+    .step{border-right:0;margin-right:0;padding:22px 0;border-bottom:1px solid var(--line)}
+    .step:last-child{border-bottom:0}
+    .fact{padding-right:16px;margin-right:16px}
+    .name{font-size:24px}
+    #webAlexa{padding-top:58px}
+    .hero-cta .btn{flex:1 1 220px}
+  }
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-<main id="stage">
-  <!-- Alexa jo aap ke laptop par chal rahi hai, wahi yahan dikhti hai -->
-  <iframe id="alexaFrame" title="Alexa"
-    allow="microphone; camera; autoplay; fullscreen; display-capture; clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"></iframe>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Daddy Trader home"><i aria-hidden="true"></i>DADDY TRADER</a>
+    <span class="px" id="goldChip" hidden><span>XAU/USD</span><b id="goldPx">—</b><em id="goldChg" style="font-style:normal"></em></span>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="siteNav" aria-label="Main">
+      <a href="./" aria-current="page">Home</a>
+      <a href="alexa.html">ALEXA AI</a>
+      <a href="fundamental.html">Fundamental &amp; Signals</a>
+      <a href="backtest.html">BackBar Replay</a>
+      <a href="#community">Community</a>
+      <div class="nav-cta">
+        <a class="btn ghost" href="#community">Join Signals</a>
+        <a class="btn solid" href="alexa.html">Launch ALEXA</a>
+      </div>
+    </nav>
+  </div>
+</header>
 
-  <section id="webAlexa" class="logo-only" aria-label="Alexa">
-    <div class="wa-tools">
-      <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
-        <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
-        <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
-      </button>
-      <button class="icon-btn" id="waClear" type="button" title="Nayi baat shuru karein">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
-      </button>
+<main id="main" class="wrap">
+
+  <!-- Hero -->
+  <section class="sheet hero" aria-labelledby="hero-h">
+    <div>
+      <h1 id="hero-h">Smart trading intelligence, powered by AI and fundamental analysis</h1>
+      <p class="lead">Ask ALEXA about Gold in Roman Urdu or English, follow live ICT signals from the Daddy Trader robot, and practise your strategy bar by bar in BackBar — free.</p>
+      <div class="hero-cta">
+        <a class="btn gold" href="alexa.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+          Start chatting with ALEXA</a>
+        <a class="btn ghost" href="backtest.html">Explore the BackBar tool</a>
+      </div>
+      <div class="facts" id="facts" hidden>
+        <div class="fact"><small>Gold now</small><b id="fPx">—</b></div>
+        <div class="fact"><small>Today</small><b id="fChg">—</b></div>
+        <div class="fact"><small>Market mood</small><b id="fMood">—</b></div>
+      </div>
     </div>
-    <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="Alexa se bolein"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
-    <h1 class="name">ALEXA</h1>
-    <p class="status" id="waStatus" aria-live="polite"></p>
-    <div id="waLog" aria-live="polite"></div>
-    <form id="waForm" autocomplete="off">
-      <input id="waInput" type="text" placeholder="Alexa se poochiye… (jaise: gold ka analysis karo)" enterkeyhint="send" />
-      <button class="round" id="waMic" type="button" aria-label="Bol kar poochiye">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
-      </button>
-      <button class="round" id="waSend" type="submit" aria-label="Bhejein">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
-      </button>
-    </form>
+
+    <div id="stage">
+      <section id="webAlexa" class="logo-only" aria-label="ALEXA">
+        <a class="wa-full" href="alexa.html" title="ALEXA full screen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Full screen</a>
+        <div class="wa-tools">
+          <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
+            <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
+            <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+          </button>
+          <button class="icon-btn" id="waClear" type="button" title="Nayi baat shuru karein">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+          </button>
+        </div>
+        <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="ALEXA se bolein"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
+        <h2 class="name">ALEXA</h2>
+        <p class="status" id="waStatus" aria-live="polite"></p>
+        <div id="waLog" aria-hidden="true"></div>
+        <div class="wa-chips" aria-label="Jaldi sawal">
+          <button type="button" data-ask="Gold ka aaj ka trend kya hai?">Gold ka trend</button>
+          <button type="button" data-ask="Aaj Gold ki sab se bari khabrein kya hain?">Aaj ki khabrein</button>
+          <button type="button" data-ask="Is hafte ke important economic events kaun se hain?">Economic events</button>
+          <button type="button" data-ask="Daddy Trader ka koi signal chal raha hai?">Koi signal hai?</button>
+        </div>
+        <form id="waForm" autocomplete="off">
+          <label class="sr" for="waInput">ALEXA se poochiye</label>
+          <input id="waInput" type="text" placeholder="ALEXA se poochiye… (jaise: gold ka analysis karo)" enterkeyhint="send" />
+          <button class="round" id="waMic" type="button" aria-label="Bol kar poochiye">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
+          </button>
+          <button class="round" id="waSend" type="submit" aria-label="Bhejein">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+      </section>
+    </div>
+  </section>
+
+  <!-- Live signals -->
+  <section class="sheet sec" id="signals" aria-labelledby="sig-h">
+    <div class="sec-head">
+      <div>
+        <h2 class="h2" id="sig-h">Live Gold signals</h2>
+        <p class="lead">Every signal shows its entry, stop loss and take profit, with Gold’s latest moves on the chart so you can see where price is right now.</p>
+      </div>
+      <a class="more" href="fundamental.html#signals">See all signals</a>
+    </div>
+    <div class="sig-grid" id="sigGrid" aria-live="polite"><p class="wide" style="margin:0;color:var(--muted)">Loading signals…</p></div>
+    <p class="sig-meta" id="sigMeta"></p>
+  </section>
+
+  <!-- Three tools -->
+  <section class="sheet sec" aria-labelledby="tools-h">
+    <div class="sec-head">
+      <div>
+        <h2 class="h2" id="tools-h">Three tools, one place</h2>
+        <p class="lead">Everything Daddy Trader builds for Gold traders, free to use.</p>
+      </div>
+    </div>
+    <div class="pillars">
+      <a class="pillar" href="alexa.html" style="--ic:#34d399">
+        <div class="p-head">
+          <span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span>
+          <div><h3>ALEXA AI</h3><small>Voice assistant for Gold</small></div>
+          <span class="p-pill">AI</span>
+        </div>
+        <div class="vis" aria-hidden="true">
+          <div class="bub you">Gold ka aaj ka trend kya hai?</div>
+          <div class="bub ax"><small>ALEXA</small>Ji Sir, main taaza qeemat, aaj ki khabrein aur calendar dekh kar mukhtasar bata deti hoon.</div>
+        </div>
+        <div class="txt">
+          <p>Speak or type in Roman Urdu or English and get market analysis, news and the calendar in plain words.</p>
+          <span class="go">Open ALEXA</span>
+        </div>
+      </a>
+      <a class="pillar" href="fundamental.html" style="--ic:#f5b82e">
+        <div class="p-head">
+          <span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l5-5 4 4 8-8"/><path d="M15 8h5v5"/></svg></span>
+          <div><h3>Fundamental &amp; Signals</h3><small>News, calendar and robot signals</small></div>
+          <span class="p-pill">LIVE</span>
+        </div>
+        <div class="vis" aria-hidden="true">
+          <div class="spark-wrap">
+            <div class="spark-head"><span>Gold, recent moves</span><b id="spPx"></b></div>
+            <svg class="spark" id="spark" viewBox="0 0 300 90" preserveAspectRatio="none"></svg>
+          </div>
+        </div>
+        <div class="txt">
+          <p class="news-line" id="newsLine">Gold news in simple Roman Urdu, the economic calendar and every robot signal with its result.</p>
+          <span class="go">Open Fundamental</span>
+        </div>
+      </a>
+      <a class="pillar" href="backtest.html" style="--ic:#60a5fa">
+        <div class="p-head">
+          <span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M17 4v16"/><rect x="5" y="8" width="4" height="7" rx="1"/><rect x="15" y="6" width="4" height="9" rx="1"/></svg></span>
+          <div><h3>BackBar Replay</h3><small>38 markets, bar by bar</small></div>
+          <span class="p-pill">FREE</span>
+        </div>
+        <div class="vis" aria-hidden="true" style="padding:12px 0 0"><svg id="miniCandles" viewBox="0 0 300 140" preserveAspectRatio="none" style="width:100%;height:100%"></svg></div>
+        <div class="txt">
+          <p>Replay Gold, Silver, Forex pairs, indices and oil candle by candle and test your strategy without risking money.</p>
+          <span class="go">Open BackBar</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="sheet sec" aria-labelledby="how-h">
+    <div class="sec-head"><h2 class="h2" id="how-h">How it works</h2></div>
+    <ol class="steps" style="list-style:none;margin:0;padding:0">
+      <li class="step"><div class="n" aria-hidden="true">1</div><h3>Ask ALEXA</h3><p>Ask about Gold’s trend, today’s news or upcoming events. ALEXA answers in plain words.</p></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><h3>Follow the signal</h3><p>When the robot finds a real ICT setup, the signal card appears with entry, stop loss and take profit.</p></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><h3>Practise in BackBar</h3><p>Replay past charts bar by bar and build the confidence to take trades your own way.</p></li>
+    </ol>
+  </section>
+
+  <!-- Community -->
+  <section class="sheet sec comm" id="community" aria-labelledby="comm-h">
+    <div>
+      <h2 class="h2" id="comm-h">Join the Daddy Trader community</h2>
+      <p class="lead">Get signal alerts on your phone, watch the analysis videos and talk to Ali directly on WhatsApp.</p>
+      <div class="academy">
+        <h3>Daddy Trader Academy</h3>
+        <p>Learn price action, liquidity and Smart Money Concepts — Basic, Advanced and Premium courses.</p>
+        <a class="btn gold" href="fundamental.html#academy">See the courses</a>
+      </div>
+    </div>
+    <ul class="links">
+      <li><a href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20join%20Daddy%20Trader." target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"/></svg></span>
+        <span><b>WhatsApp</b><small>Message Ali directly</small></span><span class="arr" aria-hidden="true">↗</span></a></li>
+      <li><a href="https://ntfy.sh/daddytrader-ali-signals" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+        <span><b>Signal alerts</b><small>Free phone notifications through ntfy</small></span><span class="arr" aria-hidden="true">↗</span></a></li>
+      <li><a href="https://www.youtube.com/channel/UC6ricjZ0YekuomDSunyDGSw" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></span>
+        <span><b>YouTube</b><small>Gold analysis videos</small></span><span class="arr" aria-hidden="true">↗</span></a></li>
+      <li><a href="https://www.tiktok.com/@daddytrader_0" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V6l11-2v12"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg></span>
+        <span><b>TikTok</b><small>Short trading clips</small></span><span class="arr" aria-hidden="true">↗</span></a></li>
+      <li><a href="https://www.facebook.com/DaddyTraderAcademy" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6.5 6.5 0 0 0-4-6"/></svg></span>
+        <span><b>Facebook</b><small>Daddy Trader Academy page</small></span><span class="arr" aria-hidden="true">↗</span></a></li>
+      <li><a href="https://www.binance.com/en/square/profile/daddytrader" target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l4 4-4 4-4-4zM5 10l2 2-2 2-2-2zM19 10l2 2-2 2-2-2zM12 13l4 4-4 4-4-4z"/></svg></span>
+        <span><b>Binance Square</b><small>Market posts and ideas</small></span><span class="arr" aria-hidden="true">↗</span></a></li>
+    </ul>
   </section>
 </main>
 
-<nav id="dock" aria-label="Website sections">
-  <a class="btn fund" href="fundamental.html">
-    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/><circle cx="19" cy="8" r="1.4" fill="currentColor"/></svg></span>
-    <span class="txt"><strong>Fundamental</strong><small>Daddy Trader — news &amp; signals</small></span>
-  </a>
-  <a class="btn back" href="backtest.html">
-    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4v16"/><rect x="4" y="8" width="4" height="7" rx="1"/><path d="M13 3v18"/><rect x="11" y="6" width="4" height="9" rx="1"/><path d="M20 6v13"/><rect x="18" y="10" width="4" height="6" rx="1"/></svg></span>
-    <span class="txt"><strong>Backtest</strong><small>BackBar — chart replay</small></span>
-  </a>
-</nav>
+<footer class="foot">
+  <div class="wrap">
+    <p class="risk"><b>Risk disclaimer:</b> Trading Forex, commodities and financial derivatives involves significant financial risk. Market analysis and signals on this website are for educational purposes only and are not financial advice.</p>
+    <div class="foot-row">
+      <span>© <span id="yr">2026</span> Daddy Trader · M. Ali Alvi, Dera Ismail Khan</span>
+      <nav aria-label="Footer">
+        <a href="alexa.html">ALEXA AI</a>
+        <a href="fundamental.html">Fundamental &amp; Signals</a>
+        <a href="backtest.html">BackBar Replay</a>
+        <a href="fundamental.html#academy">Academy</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
 
+<script src="signal-cards.js?v=2"></script>
 <script src="alexa-web.js?v=7"></script>
 <script src="alexa-logo.js?v=1"></script>
 <script>
 (function(){
-  // Laptop wali Alexa (alexa.py) on ho to wohi dikhe, warna website wali Alexa
-  var ALEXA = 'http://127.0.0.1:8765/';
-  var stage = document.getElementById('stage');
-  var frame = document.getElementById('alexaFrame');
-  var live = false;
+  function $(id){ return document.getElementById(id); }
+  function esc(v){ return String(v == null ? '' : v).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  var yr = $('yr'); if (yr) yr.textContent = new Date().getFullYear();
 
-  function ping(){
-    var ctrl = ('AbortController' in window) ? new AbortController() : null;
-    var t = setTimeout(function(){ if (ctrl) ctrl.abort(); }, 2500);
-    return fetch(ALEXA + 'ui/ping', { mode:'no-cors', cache:'no-store', signal: ctrl ? ctrl.signal : undefined })
-      .then(function(){ clearTimeout(t); return true; })
-      .catch(function(){ clearTimeout(t); return false; });
-  }
-  frame.addEventListener('load', function(){ if (live) stage.classList.add('live'); });
+  // ---- mobile menu ----
+  var mb = $('menuBtn'), nav = $('siteNav');
+  function closeMenu(){ nav.classList.remove('open'); mb.setAttribute('aria-expanded','false'); }
+  mb.addEventListener('click', function(){ var o = nav.classList.toggle('open'); mb.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+  nav.addEventListener('click', function(e){ if (e.target.closest('a')) closeMenu(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeMenu(); });
 
-  function check(){
-    ping().then(function(ok){
-      if (ok && !live){
-        if (window.AlexaWeb && AlexaWeb.busy()) return;      // website wali Alexa baat kar rahi ho to us ke baad
-        if (window.AlexaWeb) AlexaWeb.stop();
-        live = true; frame.src = ALEXA + '?v=' + Date.now();
-      } else if (!ok && live){
-        live = false; stage.classList.remove('live'); frame.removeAttribute('src');
-      }
-    });
+  // ---- ALEXA: jaldi sawal wale buttons ----
+  Array.prototype.forEach.call(document.querySelectorAll('[data-ask]'), function(b){
+    b.addEventListener('click', function(){ if (window.AlexaWeb) AlexaWeb.ask(b.getAttribute('data-ask')); });
+  });
+  // Space se bolna sirf tab jab ALEXA screen par nazar aa rahi ho (warna Space se page scroll ho)
+  var alexaVisible = true;
+  if ('IntersectionObserver' in window){
+    new IntersectionObserver(function(es){ alexaVisible = es[0].isIntersecting; }, { threshold: .35 }).observe($('webAlexa'));
   }
-  check();
-  setInterval(check, 6000);
+  document.addEventListener('keydown', function(e){
+    if (e.code === 'Space' && !alexaVisible) e.stopImmediatePropagation();
+  }, true);
+
+  // ---- Gold ki live qeemat (monitor.json) ----
+  function fmt(n){ return (+n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  window.DTSig.loadPrice().then(function(m){
+    if (!m || !m.gold) return;
+    var g = m.gold, up = +g.chg >= 0;
+    var chg = (up ? '▲ +' : '▼ ') + Math.abs(+g.chg).toFixed(2) + '%';
+    $('goldPx').textContent = fmt(g.price);
+    $('goldChg').textContent = chg; $('goldChg').className = up ? 'up' : 'dn';
+    $('goldChip').hidden = false;
+    $('fPx').textContent = fmt(g.price);
+    $('fChg').textContent = (up ? '+' : '−') + Math.abs(+g.chg).toFixed(2) + '%'; $('fChg').className = up ? 'up' : 'dn';
+    if (m.sentiment) $('fMood').textContent = m.sentiment.label; else $('fMood').parentNode.remove();
+    $('facts').hidden = false;
+    // chhota chart
+    var sp = (g.spark || []).map(Number).filter(isFinite);
+    if (sp.length > 2){
+      var lo = Math.min.apply(null, sp), hi = Math.max.apply(null, sp), rg = (hi - lo) || 1;
+      var pts = sp.map(function(v, i){ return [ (i / (sp.length - 1) * 300).toFixed(1), (84 - (v - lo) / rg * 76).toFixed(1) ]; });
+      var line = pts.map(function(p, i){ return (i ? 'L' : 'M') + p[0] + ' ' + p[1]; }).join(' ');
+      var col = sp[sp.length - 1] >= sp[0] ? '#3fbf86' : '#ff5d5d';
+      col = '#f5b82e';
+      $('spark').innerHTML = '<defs><linearGradient id="spg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="' + col + '" stop-opacity=".4"/><stop offset="1" stop-color="' + col + '" stop-opacity="0"/></linearGradient></defs>' +
+        '<path d="' + line + ' L300 90 L0 90 Z" fill="url(#spg)"/><path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="2.2" vector-effect="non-scaling-stroke"/>';
+      $('spPx').textContent = fmt(g.price);
+    }
+    var n = (m.news || [])[0];
+    if (n) $('newsLine').textContent = n.ur || n.title || '';
+  });
+
+  // ---- BackBar wali chhoti candles ----
+  (function(){
+    var svg = $('miniCandles'); if (!svg) return;
+    var out = '', c = 70, w = 300 / 26;
+    for (var i = 0; i < 26; i++){
+      var o = c; c = Math.max(22, Math.min(118, o + Math.sin(i * 1.7) * 13 - Math.cos(i * .5) * 6 - 1.4));
+      var h = Math.min(o, c) - 4 - Math.abs(Math.sin(i * 2.3)) * 8, l = Math.max(o, c) + 4 + Math.abs(Math.cos(i * 1.9)) * 8;
+      var up = c < o, x = i * w + w / 2, col = up ? '#3fbf86' : '#ff5d5d', op = i > 19 ? .22 : 1;
+      out += '<g opacity="' + op + '"><line x1="' + x.toFixed(1) + '" x2="' + x.toFixed(1) + '" y1="' + h.toFixed(1) + '" y2="' + l.toFixed(1) + '" stroke="' + col + '" stroke-width="1.4"/>' +
+        '<rect x="' + (x - w * .32).toFixed(1) + '" y="' + Math.min(o, c).toFixed(1) + '" width="' + (w * .64).toFixed(1) + '" height="' + Math.max(1.5, Math.abs(o - c)).toFixed(1) + '" fill="' + col + '"/></g>';
+    }
+    var cx = 19.5 * w + w / 2;
+    out += '<line x1="' + cx.toFixed(1) + '" x2="' + cx.toFixed(1) + '" y1="0" y2="140" stroke="#8d8d8d" stroke-dasharray="4 4"/>';
+    svg.innerHTML = out;
+  })();
+
+  // ---- signals ----
+  var ALERT = '<a class="sig-alert" href="https://ntfy.sh/daddytrader-ali-signals" target="_blank" rel="noopener">Get signal alerts on your phone</a>';
+  fetch('signals.json?t=' + Date.now()).then(function(r){ return r.json(); }).then(function(d){
+    var sigs = (d.signals || []).slice().reverse();
+    var box = $('sigGrid'), html = '';
+    var latest = sigs.slice(0, 2);
+    if (latest.length) html = latest.map(function(s){ return DTSig.card(s); }).join('');
+    else html = '<div class="sig-empty">' + DTSig.gold() + DTSig.empty({ extra: ALERT }) + '</div>';
+    // TP hit wale trades — har ek ka alag sunehra card
+    var seen = {}; latest.forEach(function(s){ if (s.id) seen[s.id] = 1; });
+    var hits = (d.tp_hits || []).filter(function(h){ return !seen[h.id]; }).slice().reverse().slice(0, 2);
+    if (hits.length) html += '<h3 class="sig-sub">Targets hit</h3>' + hits.map(function(h){ return DTSig.hit(h); }).join('');
+    box.innerHTML = html;
+    DTSig.refresh();
+    if (d.updated) $('sigMeta').textContent = 'Last robot scan: ' + d.updated;
+  }).catch(function(){
+    $('sigGrid').innerHTML = '<p class="wide" style="margin:0;color:var(--muted)">Signals could not load. Check your internet and refresh the page.</p>';
+  });
+
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function(){});
 })();
-
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function(){});
 </script>
 </body>
 </html>

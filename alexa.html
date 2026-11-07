@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ur">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET18EHG8XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ET18EHG8XJ');
+</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>ALEXA AI — Daddy Trader</title>
+<meta name="description" content="Daddy Trader — Alexa AI market analysis, Gold (XAUUSD) fundamentals, live signals aur free BackBar backtesting, sab aik jagah." />
+<link rel="canonical" href="https://alex-zeee.github.io/daddy-trader-portfolio/alexa.html" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#030806" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#030806; --fg:#eef3ef; --muted:#84968b; --line:rgba(130,210,165,.16);
+    --emerald:#3cae77; --emerald-hi:#8fe3b5; --gold:#f5c542; --gold-hi:#ffe08a; --gold-deep:#b8860b;
+    --dock-h:84px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;max-width:100%;overflow-x:hidden;background:var(--bg);color:var(--fg);font-family:'Poppins',system-ui,sans-serif;overflow:hidden}
+
+  /* ===== Alexa area ===== */
+  #stage{position:fixed;inset:0 0 calc(var(--dock-h) + env(safe-area-inset-bottom)) 0;background:var(--bg)}
+  #alexaFrame{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;background:var(--bg);opacity:0;transition:opacity .5s}
+  #stage.live #alexaFrame{opacity:1}
+  #stage.live #webAlexa{display:none}
+  /* sirf logo: likhne wala hissa band, logo beech mein (bolne ke liye logo dabayein) */
+  #webAlexa.logo-only{justify-content:center;padding-top:calc(max(env(safe-area-inset-top),24px) + 20px)}
+  #webAlexa.logo-only .wa-tools,#webAlexa.logo-only .name,#webAlexa.logo-only #waLog,#webAlexa.logo-only #waForm{display:none}
+  #webAlexa.logo-only .status{margin-top:16px;font-size:15px;line-height:1.55;color:var(--emerald-hi);max-width:560px;max-height:32vh;overflow-y:auto;padding:0 10px}
+  #webAlexa.logo-only .orb{width:min(64vw,70vh,560px);margin:0}
+
+  /* ===== website wali Alexa ===== */
+  #webAlexa{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+    padding:calc(22px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right)) 12px calc(16px + env(safe-area-inset-left));gap:10px;overflow:hidden;
+    background:radial-gradient(60% 45% at 50% 22%,rgba(60,174,119,.16),transparent 70%),var(--bg)}
+  .wa-tools{position:absolute;top:calc(12px + env(safe-area-inset-top));right:12px;display:flex;gap:8px;z-index:2}
+  .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:rgba(8,18,13,.7);color:var(--emerald-hi);
+    display:grid;place-items:center;cursor:pointer;padding:0}
+  .icon-btn:hover{border-color:var(--emerald)}
+  .wa-home{position:absolute;top:calc(12px + env(safe-area-inset-top));left:12px;z-index:2;text-decoration:none}
+  .icon-btn svg{width:18px;height:18px}
+  #waMute .off{display:none}
+  #waMute[aria-pressed="true"] .on{display:none}
+  #waMute[aria-pressed="true"] .off{display:block}
+  #waMute[aria-pressed="true"]{color:var(--muted)}
+
+  /* logo — bilkul laptop wali Alexa jaisa */
+  .orb{flex:none;position:relative;width:clamp(240px,min(44vw,54vh),540px);aspect-ratio:660/490;margin:6px 0 2px;border:0;padding:0;cursor:pointer;
+    background:none;display:grid;place-items:center;border-radius:12px;
+    --dt-bull-a:#2f8a5d;--dt-bull-b:#3cae77;--dt-up:#36a86f;--dt-dn:#ff4b51;--dt-g1:#fff1b8;--dt-g2:#f5c542;--dt-g3:#d49b17;--dt-g4:#ffdd80;--dt-g5:#b8860b}
+  .orb > img{width:62%;height:auto;border-radius:50%;background:#fff;padding:6%;box-shadow:0 0 40px rgba(60,174,119,.4)}
+  .orb.has-logo > img{display:none}
+  #waLogo{display:block;width:100%}
+  .orb .dtl{width:100%;height:auto;transition:filter .15s linear;filter:drop-shadow(0 0 5px rgba(245,197,66,.45)) drop-shadow(0 0 16px rgba(245,197,66,.18))}
+  .orb[data-state="speaking"] .dtl{filter:drop-shadow(0 0 12px rgba(245,197,66,.7)) drop-shadow(0 0 24px rgba(245,197,66,.25))}
+  .orb[data-state="listening"] .dtl{filter:drop-shadow(0 0 6px rgba(245,197,66,.5)) drop-shadow(0 0 16px rgba(60,174,119,.6))}
+  .orb[data-state="thinking"] .dtl{animation:thinkGlow 1.1s ease-in-out infinite}
+  @keyframes thinkGlow{50%{filter:drop-shadow(0 0 10px rgba(245,197,66,.65)) drop-shadow(0 0 22px rgba(60,174,119,.3))}}
+  .dtl{overflow:visible;display:block}
+  .dtl .dt-bull-line{fill:none;stroke:var(--dt-bull-b);stroke-width:1.6;stroke-dasharray:1 1;opacity:0}
+  .dtl .dt-shine,.dtl .dt-gshine{opacity:0}
+  .dtl .dt-eye{opacity:0;transform-box:fill-box;transform-origin:center}
+  .dtl .dt-wick{stroke-width:1.7;stroke-linecap:round}
+  .dtl .dt-up .dt-wick{stroke:var(--dt-up)} .dtl .dt-up .dt-body{fill:var(--dt-up)}
+  .dtl .dt-dn .dt-wick{stroke:var(--dt-dn)} .dtl .dt-dn .dt-body{fill:var(--dt-dn)}
+  .dtl .dt-cd,.dtl .dt-lt,.dtl .dt-tl{transform-box:fill-box;transform-origin:50% 100%}
+  .dtl .dt-trend,.dtl .dt-trend-glow{fill:none;stroke-linecap:round;stroke-dasharray:.05 .95;stroke-dashoffset:.05;opacity:0}
+  .dtl .dt-trend{stroke:#fff;stroke-width:1.6}
+  .dtl .dt-trend-glow{stroke:var(--dt-bull-b);stroke-width:7}
+  .dtl .dt-pline{stroke:var(--dt-up);stroke-width:1;stroke-dasharray:2 3;opacity:.8}
+  .dtl.play .dt-bull-line{animation:dtDraw 1.3s cubic-bezier(.6,0,.3,1) both,dtOut .6s 1.5s ease both}
+  .dtl.play .dt-wipe{transform-box:fill-box;transform-origin:0 50%;animation:dtWipe 1.1s .7s cubic-bezier(.7,0,.2,1) both}
+  .dtl.play .dt-cd{animation:dtRise .55s calc(1.1s + var(--i)*75ms) cubic-bezier(.2,.9,.25,1.25) both}
+  .dtl.play .dt-cd.dt-dn{animation:dtRise .55s calc(1.1s + var(--i)*75ms) cubic-bezier(.2,.9,.25,1.25) both,dtRed .9s calc(1.5s + var(--i)*75ms) ease}
+  .dtl.play .dt-lt{animation:dtDrop .7s calc(2.2s + var(--i)*90ms) cubic-bezier(.2,1.4,.4,1) both}
+  .dtl.play .dt-tl{animation:dtSpread .9s calc(2.75s + var(--i)*45ms) cubic-bezier(.2,.8,.2,1) both}
+  .dtl.play .dt-pline{animation:dtFade .6s 3.1s both}
+  .dtl.idle .dt-shine{animation:dtShine 7s 1s ease-in-out infinite}
+  .dtl.idle .dt-gshine{animation:dtGShine 6s 2.5s ease-in-out infinite}
+  .dtl.idle .dt-eye{animation:dtEye 9s 1.6s ease-in-out infinite}
+  .dtl.idle .dt-trend,.dtl.idle .dt-trend-glow{animation:dtTravel 5.5s .4s linear infinite}
+  @keyframes dtDraw{from{stroke-dashoffset:1;opacity:1}to{stroke-dashoffset:0;opacity:1}}
+  @keyframes dtOut{from{opacity:1}to{opacity:0}}
+  @keyframes dtWipe{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes dtRise{from{transform:scaleY(0);opacity:0}60%{opacity:1}to{transform:scaleY(1);opacity:1}}
+  @keyframes dtRed{0%,100%{filter:none}35%{filter:drop-shadow(0 0 6px var(--dt-dn))}}
+  @keyframes dtDrop{from{transform:translateY(-38px) scale(.9);opacity:0}to{transform:none;opacity:1}}
+  @keyframes dtSpread{from{transform:translateX(var(--s));opacity:0;filter:blur(4px)}to{transform:none;opacity:1;filter:none}}
+  @keyframes dtFade{from{opacity:0}to{opacity:.8}}
+  @keyframes dtShine{0%{transform:translateX(0);opacity:0}8%{opacity:1}38%{transform:translateX(520px);opacity:1}40%,100%{transform:translateX(520px);opacity:0}}
+  @keyframes dtGShine{0%{transform:skewX(-20deg) translateX(0);opacity:0}6%{opacity:1}34%{transform:skewX(-20deg) translateX(480px);opacity:1}36%,100%{transform:skewX(-20deg) translateX(480px);opacity:0}}
+  @keyframes dtEye{0%,62%,100%{opacity:0;transform:scale(.4)}66%{opacity:1;transform:scale(1.25)}72%{opacity:.85;transform:scale(1)}80%{opacity:0;transform:scale(.6)}}
+  @keyframes dtTravel{0%{stroke-dashoffset:.05;opacity:0}6%{opacity:.95}88%{opacity:.95}100%{stroke-dashoffset:-.95;opacity:0}}
+  .dtl .dt-eyefill{display:none}
+  .dtl.gl .dt-bull-fill{fill:rgba(245,197,66,.07);stroke-width:2.6;stroke-linejoin:round}
+  .dtl.gl .dt-bull-line{stroke:#f5c542}
+  .dtl.gl .dt-shine{display:none}
+  .dtl.gl .dt-up .dt-body{fill:rgba(245,197,66,.12);stroke:#f5c542;stroke-width:1.9}
+  .dtl.gl .dt-up .dt-wick{stroke:#f5c542}
+  .dtl.gl .dt-dn .dt-body{fill:rgba(255,75,81,.12);stroke:var(--dt-dn);stroke-width:1.9}
+  .dtl.gl .dt-pline{stroke:#f5c542}
+  .dtl.gl .dt-trend-glow{stroke:#f5c542}
+  .dtl.gl .dt-eye{display:none}
+  .dtl.gl .dt-lt,.dtl.gl .dt-tl{fill:rgba(245,197,66,.10);stroke-linejoin:round}
+  .dtl.gl .dt-lt{stroke-width:2.2}.dtl.gl .dt-tl{stroke-width:1.7}
+  .orb .dt-tag rect{fill:rgba(20,16,4,.88);stroke:rgba(245,197,66,.75);stroke-width:1.2}
+  .orb .dt-tag text{font-family:'Poppins',sans-serif;font-weight:700;font-size:20px;fill:var(--gold-hi)}
+  @media (prefers-reduced-motion:reduce){.dtl *{animation:none!important}.dtl .dt-bull-line,.dtl .dt-trend,.dtl .dt-trend-glow{opacity:0}}
+  @keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+  @keyframes ring{0%{transform:scale(.9);opacity:.9}100%{transform:scale(1.4);opacity:0}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes talk{from{transform:scale(1)}to{transform:scale(1.06)}}
+  .name{font-size:36px;font-weight:800;letter-spacing:.32em;margin:0;padding-left:.32em;line-height:1.1;
+    background:linear-gradient(90deg,var(--emerald-hi),var(--gold-hi));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .status{margin:0;font-size:13px;color:var(--muted);text-align:center;min-height:1.4em}
+
+  #waLog{flex:1 1 auto;min-height:0;width:100%;max-width:680px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding:6px 2px;
+    scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+  .wa-line{max-width:88%;padding:10px 14px;border-radius:16px;font-size:15px;line-height:1.55;white-space:pre-wrap;word-wrap:break-word}
+  .wa-line.alexa{align-self:flex-start;background:rgba(8,18,13,.78);border:1px solid var(--line);color:var(--fg);border-bottom-left-radius:5px}
+  .wa-line.you{align-self:flex-end;background:linear-gradient(135deg,rgba(60,174,119,.28),rgba(60,174,119,.16));color:var(--fg);border-bottom-right-radius:5px}
+
+  #waForm{flex:none;width:100%;max-width:680px;display:flex;gap:8px;align-items:center}
+  #waInput{flex:1;min-width:0;height:48px;border-radius:999px;border:1px solid var(--line);background:rgba(8,18,13,.85);color:var(--fg);
+    padding:0 18px;font:500 16px 'Poppins',sans-serif;outline:none}
+  #waInput:focus{border-color:var(--emerald)}
+  #waInput::placeholder{color:var(--muted)}
+  .round{flex:none;width:48px;height:48px;border-radius:50%;border:0;display:grid;place-items:center;cursor:pointer;color:#06120c}
+  .round svg{width:22px;height:22px}
+  #waMic{background:linear-gradient(135deg,var(--emerald-hi),var(--emerald))}
+  #waSend{background:linear-gradient(135deg,var(--gold-hi),var(--gold))}
+
+  /* ===== 2 buttons dock ===== */
+  #dock{position:fixed;left:0;right:0;bottom:0;height:calc(var(--dock-h) + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:center;gap:16px;
+    padding:0 16px env(safe-area-inset-bottom);background:linear-gradient(180deg,rgba(3,8,6,.92),#030806);
+    border-top:1px solid var(--line);z-index:10}
+  .btn{flex:0 1 300px;display:flex;align-items:center;gap:12px;height:60px;padding:0 18px;border-radius:18px;
+    text-decoration:none;color:#06120c;position:relative;overflow:hidden;
+    transition:transform .18s ease, box-shadow .18s ease}
+  .btn::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);
+    transform:translateX(-120%);transition:transform .6s ease}
+  .btn:hover{transform:translateY(-3px)}
+  .btn:hover::after{transform:translateX(120%)}
+  .btn:active{transform:translateY(0) scale(.98)}
+  .btn.fund{background:linear-gradient(135deg,var(--emerald-hi),var(--emerald));box-shadow:0 8px 26px rgba(60,174,119,.35)}
+  .btn.back{background:linear-gradient(135deg,var(--gold-hi),var(--gold) 55%,var(--gold-deep));box-shadow:0 8px 26px rgba(245,197,66,.28)}
+  .ic{width:40px;height:40px;flex:none;border-radius:12px;display:grid;place-items:center;background:rgba(3,8,6,.16)}
+  .ic svg{width:22px;height:22px}
+  .txt{display:flex;flex-direction:column;line-height:1.15;min-width:0}
+  .txt strong{font-size:17px;font-weight:700}
+  .txt small{font-size:12px;font-weight:500;opacity:.78;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  @media (max-width:560px){
+    :root{--dock-h:76px}
+    #dock{gap:10px;padding:0 12px env(safe-area-inset-bottom)}
+    .btn{height:54px;padding:0 12px;gap:9px;border-radius:15px;flex:1 1 0}
+    .ic{width:34px;height:34px;border-radius:10px}
+    .txt strong{font-size:15px}
+    .txt small{display:none}
+    .name{font-size:28px}
+    .orb{width:min(54vw,220px);margin-top:18px}
+    .wa-tools{left:10px;right:auto;flex-direction:column;top:calc(58px + env(safe-area-inset-top))}
+    .wa-home{left:10px}
+    #webAlexa{padding-top:calc(30px + env(safe-area-inset-top));gap:8px}
+    .wa-line{font-size:14px}
+  }
+  @media (prefers-reduced-motion:reduce){.btn,.btn::after{transition:none}}
+</style>
+</head>
+<body>
+
+<main id="stage">
+  <!-- Alexa jo aap ke laptop par chal rahi hai, wahi yahan dikhti hai -->
+  <iframe id="alexaFrame" title="Alexa"
+    allow="microphone; camera; autoplay; fullscreen; display-capture; clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"></iframe>
+
+  <section id="webAlexa" class="logo-only" aria-label="Alexa">
+    <a class="icon-btn wa-home" href="./" title="Home" aria-label="Home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></a>
+    <div class="wa-tools">
+      <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
+        <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
+        <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+      </button>
+      <button class="icon-btn" id="waClear" type="button" title="Nayi baat shuru karein">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+      </button>
+    </div>
+    <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="Alexa se bolein"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
+    <h1 class="name">ALEXA</h1>
+    <p class="status" id="waStatus" aria-live="polite"></p>
+    <div id="waLog" aria-live="polite"></div>
+    <form id="waForm" autocomplete="off">
+      <input id="waInput" type="text" placeholder="Alexa se poochiye… (jaise: gold ka analysis karo)" enterkeyhint="send" />
+      <button class="round" id="waMic" type="button" aria-label="Bol kar poochiye">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
+      </button>
+      <button class="round" id="waSend" type="submit" aria-label="Bhejein">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
+  </section>
+</main>
+
+<nav id="dock" aria-label="Website sections">
+  <a class="btn fund" href="fundamental.html">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/><circle cx="19" cy="8" r="1.4" fill="currentColor"/></svg></span>
+    <span class="txt"><strong>Fundamental</strong><small>Daddy Trader — news &amp; signals</small></span>
+  </a>
+  <a class="btn back" href="backtest.html">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4v16"/><rect x="4" y="8" width="4" height="7" rx="1"/><path d="M13 3v18"/><rect x="11" y="6" width="4" height="9" rx="1"/><path d="M20 6v13"/><rect x="18" y="10" width="4" height="6" rx="1"/></svg></span>
+    <span class="txt"><strong>Backtest</strong><small>BackBar — chart replay</small></span>
+  </a>
+</nav>
+
+<script src="alexa-web.js?v=7"></script>
+<script src="alexa-logo.js?v=1"></script>
+<script>
+(function(){
+  // Laptop wali Alexa (alexa.py) on ho to wohi dikhe, warna website wali Alexa
+  var ALEXA = 'http://127.0.0.1:8765/';
+  var stage = document.getElementById('stage');
+  var frame = document.getElementById('alexaFrame');
+  var live = false;
+
+  function ping(){
+    var ctrl = ('AbortController' in window) ? new AbortController() : null;
+    var t = setTimeout(function(){ if (ctrl) ctrl.abort(); }, 2500);
+    return fetch(ALEXA + 'ui/ping', { mode:'no-cors', cache:'no-store', signal: ctrl ? ctrl.signal : undefined })
+      .then(function(){ clearTimeout(t); return true; })
+      .catch(function(){ clearTimeout(t); return false; });
+  }
+  frame.addEventListener('load', function(){ if (live) stage.classList.add('live'); });
+
+  function check(){
+    ping().then(function(ok){
+      if (ok && !live){
+        if (window.AlexaWeb && AlexaWeb.busy()) return;      // website wali Alexa baat kar rahi ho to us ke baad
+        if (window.AlexaWeb) AlexaWeb.stop();
+        live = true; frame.src = ALEXA + '?v=' + Date.now();
+      } else if (!ok && live){
+        live = false; stage.classList.remove('live'); frame.removeAttribute('src');
+      }
+    });
+  }
+  check();
+  setInterval(check, 6000);
+})();
+
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function(){});
+</script>
+</body>
+</html>

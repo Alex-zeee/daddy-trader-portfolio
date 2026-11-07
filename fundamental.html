@@ -167,7 +167,7 @@ section{padding:120px 0}
 .reveal.in{opacity:1;transform:none}
 
 /* ---------- signals ---------- */
-.signal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.signal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,400px),1fr));gap:24px}
 .sig-card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:26px;font-family:var(--sans)}
 .sig-card b,.sig-card .sig-pair,.sig-card .sig-type,.sig-card .sig-status,.sig-card .scan-live{font-family:var(--sans)!important}
 .sig-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
@@ -619,7 +619,7 @@ html[data-theme="dark"] .imp-med{color:#e5c158}
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-right">
-      <a class="nav-alexa" href="./" title="Back to Alexa"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span>Alexa</span></a>
+      <a class="nav-alexa" href="./" title="Daddy Trader home"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span>Home</span></a>
       <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch to light mode"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
       <a class="btn solid nav-cta" href="#academy">Join</a>
     </div>
@@ -1054,6 +1054,7 @@ html[data-theme="dark"] .imp-med{color:#e5c158}
   </div>
 </footer>
 
+<script src="signal-cards.js?v=2"></script>
 <script>
   /* ============================================================
      APNI SETTINGS YAHAN BADLO (Urdu guide):
@@ -1259,27 +1260,20 @@ html[data-theme="dark"] .imp-med{color:#e5c158}
           '</div>';
       }
       if (sigs.length){
-        html += sigs.map(s => {
-          const t = s.type === 'SELL' ? 'sell' : 'buy';
-          const st = String(s.status || '').toLowerCase();
-          const sc = st.includes('tp') ? 'tp' : st.includes('sl') ? 'sl' : (st.includes('close') || st.includes('expir')) ? 'closed' : 'active';
-          return '<div class="sig-card">' +
-            '<div class="sig-top"><span class="sig-pair">' + s.pair + '</span>' +
-            '<span class="sig-type ' + t + '">' + s.type + '</span></div>' +
-            '<div class="sig-nums">' +
-            '<div><b>' + s.entry + '</b><span>Entry</span></div>' +
-            '<div><b>' + s.sl + '</b><span>SL</span></div>' +
-            '<div><b>' + s.tp + '</b><span>TP</span></div></div>' +
-            '<span class="sig-status ' + sc + '">' + (s.status || 'Active') + '</span>' +
-            (s.note ? '<p class="sig-note">' + s.note + '</p>' : '') +
-            '<span class="sig-date">' + (s.date || '') + '</span>' +
-            '</div>';
-        }).join('');
+        html += sigs.map(s => window.DTSig ? DTSig.card(s) : '').join('');
+      }
+      // TP hit wale har trade ka alag sunehra card (date + time ke saath)
+      const shown = new Set(sigs.filter(s => /tp/i.test(s.status || '')).map(s => s.id).filter(Boolean));
+      const hits = (data.tp_hits || []).filter(h => !shown.has(h.id)).slice().reverse();
+      if (hits.length && window.DTSig){
+        html += '<p class="sig-date" style="grid-column:1/-1;margin:14px 0 0;font-size:15px;color:var(--ib-ink,inherit)"><b>Targets hit</b></p>' +
+          hits.map(h => DTSig.hit(h)).join('');
       }
       if (data.updated){
         html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Last robot scan: ' + data.updated + (data.src ? ' · Feed: ' + data.src : '') + '</p>';
       }
       board.innerHTML = html;
+      if (window.DTSig) DTSig.refresh();
 
       // browser notification jab naya signal aaye (tab/app khula ho)
       try{
@@ -1300,6 +1294,7 @@ html[data-theme="dark"] .imp-med{color:#e5c158}
     }
   }
   loadSignals();
+  if (window.DTSig) DTSig.loadPrice();
   setInterval(loadSignals, 60000);
 
   // Trading sessions clock (PKT = UTC+5)
