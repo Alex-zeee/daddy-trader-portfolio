@@ -1,7 +1,8 @@
 """Daddy Trader — signals ko WhatsApp channel par bhejna (Whapi.Cloud ke zariye).
 
 signals.py naya signal ya TP/SL nateeja `.wa_events.json` mein likhta hai.
-Ye script unhein channel par post karti hai.
+Ye script unhein channel par post karti hai. Naye signal ke saath us ka card
+(tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -9,7 +10,7 @@ GitHub Secrets (Settings -> Secrets -> Actions):
   WA_NOTIFY_TO   jin numbers par signal ki copy jaye, comma se alag (na ho to Ali ka apna number)
 Token na ho to script chup chaap kuch nahi karti, baqi bot chalta rehta hai.
 """
-import json, os, sys, time, urllib.request, urllib.error
+import base64, json, os, sys, time, urllib.request, urllib.error
 
 API = "https://gate.whapi.cloud"
 TOKEN = os.environ.get("WHAPI_TOKEN", "").strip()
@@ -26,7 +27,7 @@ def call(method, path, body=None):
         "content-type": "application/json",
         "authorization": "Bearer " + TOKEN,
     })
-    with urllib.request.urlopen(req, timeout=30) as r:
+    with urllib.request.urlopen(req, timeout=90) as r:
         return json.loads(r.read() or b"{}")
 
 
@@ -98,6 +99,38 @@ def text(ev):
     return "\n".join(lines)
 
 
+def card(ev):
+    """Naye signal ka card (PNG) data-URI ki shakal mein; na bane to None."""
+    if ev.get("kind") != "new":
+        return None
+    try:
+        import signal_card
+        return "data:image/png;base64," + base64.b64encode(signal_card.make(ev["sig"])).decode()
+    except Exception as e:
+        print("whatsapp: card nahi bana", e)
+        return None
+
+
+def send(to, ev, media):
+    who = "channel" if to == CHANNEL else "number"
+    if media:
+        try:
+            call("POST", "/messages/image", {"to": to, "media": media, "caption": text(ev)})
+            print("whatsapp: posted card", ev["kind"], "->", who)
+            return
+        except urllib.error.HTTPError as e:
+            print("whatsapp: card error", e.code, e.read()[:300], "- ab sirf likhai")
+        except Exception as e:
+            print("whatsapp: card error", e, "- ab sirf likhai")
+    try:
+        call("POST", "/messages/text", {"to": to, "body": text(ev)})
+        print("whatsapp: posted", ev["kind"], "->", who)
+    except urllib.error.HTTPError as e:
+        print("whatsapp: error", e.code, e.read()[:300])
+    except Exception as e:
+        print("whatsapp: error", e)
+
+
 def main():
     if not os.path.exists(EVENTS):
         return
@@ -120,17 +153,12 @@ def main():
     targets = ([CHANNEL] if CHANNEL else []) + [n + "@s.whatsapp.net" for n in NOTIFY if n.isdigit()]
     first = True
     for ev in events:
+        media = card(ev)
         for to in targets:
             if not first:
                 time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
             first = False
-            try:
-                call("POST", "/messages/text", {"to": to, "body": text(ev)})
-                print("whatsapp: posted", ev["kind"], "->", "channel" if to == CHANNEL else "number")
-            except urllib.error.HTTPError as e:
-                print("whatsapp: error", e.code, e.read()[:300])
-            except Exception as e:
-                print("whatsapp: error", e)
+            send(to, ev, media)
 
 
 if __name__ == "__main__":
