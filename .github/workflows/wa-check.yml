@@ -22,6 +22,13 @@
      "run": "pip install -q pillow\nsudo apt-get install -y -qq fonts-inter >/dev/null 2>&1 || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter >/dev/null 2>&1) || true\npython3 -c \"import signal_card as c;print('font:', c.font(35).path);b=c.make({'pair':'XAUUSD','type':'BUY','entry':4060.2,'sl':4054,'tp':4078.8});open('signal-card-test.png','wb').write(b);print('card bytes:', len(b))\"\n"
     },
     {
+     "name": "Check Facebook page token (kuch post nahi karta)",
+     "env": {
+      "FB_PAGE_TOKEN": "${{ secrets.FB_PAGE_TOKEN }}"
+     },
+     "run": "python3 - <<'PY'\nimport json, os, urllib.request, urllib.error\nt = os.environ.get(\"FB_PAGE_TOKEN\", \"\").strip()\nprint(\"facebook token length:\", len(t))\nif t:\n    G = \"https://graph.facebook.com/v25.0/\"\n    def get(u):\n        try:\n            return json.load(urllib.request.urlopen(G + u, timeout=30))\n        except urllib.error.HTTPError as e:\n            return json.loads(e.read() or b\"{}\")\n    me = get(\"me?fields=id,name&access_token=\" + t)\n    print(\"page:\", me.get(\"name\"), \"| id:\", me.get(\"id\"), \"| error:\", (me.get(\"error\") or {}).get(\"message\"))\n    dbg = (get(\"debug_token?input_token=\" + t + \"&access_token=\" + t).get(\"data\") or {})\n    print(\"type:\", dbg.get(\"type\"), \"| valid:\", dbg.get(\"is_valid\"), \"| expires_at:\", dbg.get(\"expires_at\"), \"(0 = kabhi nahi)\")\n    print(\"permissions:\", \", \".join(dbg.get(\"scopes\") or []))\nPY\n"
+    },
+    {
      "uses": "actions/upload-artifact@v4",
      "with": {
       "name": "signal-card-test",
