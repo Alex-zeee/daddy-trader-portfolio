@@ -74,8 +74,6 @@ def text(ev):
         ]
         if rr(s):
             lines.append("Risk : reward {}".format(rr(s)))
-        if s.get("note"):
-            lines += ["", str(s["note"])]
         if s.get("date"):
             lines += ["", "🕒 " + str(s["date"])]
     elif k == "tp":
@@ -96,7 +94,7 @@ def text(ev):
         ]
         if s.get("date"):
             lines.append("Signal: " + str(s["date"]))
-    lines += ["", "Live: https://daddytrader.live", "⚠️ Sirf taleem ke liye, financial advice nahi."]
+    lines += ["", "Live: https://daddytrader.live"]
     return "\n".join(lines)
 
 
