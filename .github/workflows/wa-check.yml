@@ -1,0 +1,20 @@
+{
+ "name": "WhatsApp check",
+ "on": {
+  "workflow_dispatch": {}
+ },
+ "jobs": {
+  "check": {
+   "runs-on": "ubuntu-latest",
+   "steps": [
+    {
+     "name": "Check Whapi token and channel",
+     "env": {
+      "WHAPI_TOKEN": "${{ secrets.WHAPI_TOKEN }}"
+     },
+     "run": "echo \"token length: ${#WHAPI_TOKEN}\"\ncode=$(curl -s -o health.json -w \"%{http_code}\" -H \"Authorization: Bearer $WHAPI_TOKEN\" -H \"accept: application/json\" https://gate.whapi.cloud/health)\necho \"whapi health http: $code\"\npython3 -c \"import json;d=json.load(open('health.json'));print('whapi status:', (d.get('status') or {}).get('text') if isinstance(d.get('status'),dict) else d.get('status'), '| error:', d.get('error'))\" || cat health.json | head -c 300\ncode2=$(curl -s -o nl.json -w \"%{http_code}\" -H \"Authorization: Bearer $WHAPI_TOKEN\" -H \"accept: application/json\" \"https://gate.whapi.cloud/newsletters?count=100\")\necho \"channels http: $code2\"\npython3 -c \"import json;d=json.load(open('nl.json'));it=d.get('newsletters') if isinstance(d,dict) else d;it=it or [];print('channels found:', len(it));[print(' -', n.get('id'), '|', n.get('name'), '| role:', n.get('role')) for n in it]\" || head -c 300 nl.json\n"
+    }
+   ]
+  }
+ }
+}
