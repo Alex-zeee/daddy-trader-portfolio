@@ -1,6 +1,7 @@
 """Daddy Trader — har naye signal ki tasveer (card) banana.
 
 signal-card-bg.jpg (khaali card) par signal ki likhai safed, bold aur saaf likhi jaati hai.
+Naye signal, TP HIT aur SL HIT — teeno ke liye yehi card.
 Nateeja PNG bytes, jo wa_post.py WhatsApp par bhejta hai.
 
 Khud chala kar dekhna:  python signal_card.py   ->  signal-card-test.png
@@ -45,23 +46,36 @@ def rr(s):
         return ""
 
 
-def make(sig):
-    """Signal (signals.json wali ek entry) se card ki PNG bytes."""
+def make(sig, kind="new"):
+    """Signal (signals.json wali ek entry) se card ki PNG bytes.
+    kind: "new" naya signal, "tp" take profit poora hua, "sl" stop loss laga."""
     img = Image.open(BG).convert("RGB")
     d = ImageDraw.Draw(img)
     f_pair, f_line = font(35), font(33)
 
     pair = pair_name(sig.get("pair"))
     title = "{} {}".format(pair, str(sig.get("type", "")).upper()).strip()
-    lines = [
-        "Entry: " + money(sig.get("entry")),
-        "Stop loss: " + money(sig.get("sl")),
-        "Take profit: " + money(sig.get("tp")),
-    ]
-    if rr(sig):
-        lines.append("Risk : reward " + rr(sig))
+    status = []
+    if kind == "tp":
+        status = ["TP HIT"]
+        lines = ["Entry: " + money(sig.get("entry")), "Take profit: " + money(sig.get("tp"))]
+        if rr(sig):
+            lines.append("Risk : reward " + rr(sig))
+    elif kind == "sl":
+        status = ["SL HIT"]
+        lines = ["Entry: " + money(sig.get("entry")), "Stop loss: " + money(sig.get("sl"))]
+    else:
+        lines = [
+            "Entry: " + money(sig.get("entry")),
+            "Stop loss: " + money(sig.get("sl")),
+            "Take profit: " + money(sig.get("tp")),
+        ]
+        if rr(sig):
+            lines.append("Risk : reward " + rr(sig))
 
-    rows = [("dot", "", None, 40), ("pair", title, f_pair, 58)] + [("line", t, f_line, 46) for t in lines]
+    rows = [("dot", "", None, 40), ("pair", title, f_pair, 58)]
+    rows += [("line", t, f_pair, 58) for t in status]
+    rows += [("line", t, f_line, 46) for t in lines]
     block = sum(r[3] for r in rows) - 6
     y = (Y0 + Y1) / 2 - block / 2
     left = X0 + 70
@@ -91,6 +105,8 @@ def make(sig):
 
 if __name__ == "__main__":
     demo = {"pair": "XAUUSD", "type": "BUY", "entry": 4060.20, "sl": 4054.00, "tp": 4078.80}
-    with open("signal-card-test.png", "wb") as fh:
-        fh.write(make(demo))
-    print("signal-card-test.png bana diya")
+    for k in ("new", "tp", "sl"):
+        name = "signal-card-test.png" if k == "new" else "signal-card-test-%s.png" % k
+        with open(name, "wb") as fh:
+            fh.write(make(demo, k))
+        print(name, "bana diya")

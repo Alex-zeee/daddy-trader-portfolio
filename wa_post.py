@@ -1,7 +1,7 @@
 """Daddy Trader — signals ko WhatsApp channel par bhejna (Whapi.Cloud ke zariye).
 
 signals.py naya signal ya TP/SL nateeja `.wa_events.json` mein likhta hai.
-Ye script unhein channel par post karti hai. Naye signal ke saath us ka card
+Ye script unhein channel par post karti hai. Har message ke saath card
 (tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
@@ -100,12 +100,10 @@ def text(ev):
 
 
 def card(ev):
-    """Naye signal ka card (PNG) data-URI ki shakal mein; na bane to None."""
-    if ev.get("kind") != "new":
-        return None
+    """Signal / TP HIT / SL HIT ka card (PNG) data-URI ki shakal mein; na bane to None."""
     try:
         import signal_card
-        return "data:image/png;base64," + base64.b64encode(signal_card.make(ev["sig"])).decode()
+        return "data:image/png;base64," + base64.b64encode(signal_card.make(ev["sig"], ev.get("kind", "new"))).decode()
     except Exception as e:
         print("whatsapp: card nahi bana", e)
         return None
