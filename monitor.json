@@ -1,28 +1,13 @@
 {
- "updated": "07-11-2026 23:45 PKT",
+ "updated": "08-11-2026 03:23 PKT",
  "gold": {
   "price": 4066.06,
-  "open": 4068.89,
-  "high": 4078.14,
-  "low": 4059.39,
-  "chg": -0.07,
+  "open": 4065.99,
+  "high": 4066.86,
+  "low": 4065.88,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4066.05,
-   4066.07,
-   4065.99,
-   4065.97,
-   4066.04,
-   4066.07,
-   4066.03,
-   4065.95,
-   4066.04,
-   4066.07,
-   4066.03,
-   4065.96,
-   4066.06,
-   4066.07,
-   4066.03,
    4065.96,
    4066.08,
    4066.08,
@@ -55,6 +40,21 @@
    4065.96,
    4065.98,
    4066.06,
+   4066.06,
+   4065.97,
+   4065.97,
+   4066.05,
+   4066.07,
+   4066.04,
+   4065.96,
+   4066.04,
+   4066.07,
+   4066.02,
+   4065.95,
+   4066.06,
+   4066.08,
+   4066.02,
+   4065.95,
    4066.06
   ]
  },
@@ -264,13 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 2233.79,
-   "chg": -0.07,
+   "price": 2231.45,
+   "chg": -0.18,
    "spark": [
-    2258.08,
-    2246.77,
-    2225.94,
-    2226.89,
     2235.01,
     2243.84,
     2237.52,
@@ -314,18 +310,18 @@
     2234.4,
     2230.66,
     2232.81,
-    2233.78
+    2233.96,
+    2232.3,
+    2225.89,
+    2229.47,
+    2231.45
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75717.3,
-   "chg": -0.03,
+   "price": 75687.2,
+   "chg": -0.07,
    "spark": [
-    76246.5,
-    76098.2,
-    75725.9,
-    75600.7,
     75979.9,
     76221.3,
     76015.3,
@@ -369,7 +365,11 @@
     75667.1,
     75640.8,
     75740.3,
-    75717.3
+    75691.3,
+    75690.1,
+    75584.2,
+    75638.4,
+    75687.2
    ]
   }
  ],
@@ -426,21 +426,21 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1794077153.350326,
-   "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
+   "ts": 1794090222.235143,
+   "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
-   "t": "07 Nov \u00b7 11:45 PM",
-   "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
+   "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
+   "t": "08 Nov \u00b7 03:23 AM",
+   "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794077153.350326,
-   "title": "Goldman lowers year-end gold price forecast on hawkish Fed shift",
+   "ts": 1794090222.235143,
+   "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-lowers-yearend-gold-price-forecast-on-hawkish-fed-shift-5006662",
-   "t": "07 Nov \u00b7 11:45 PM",
-   "ur": "Fed ke hawkish shift ki wajah se Goldman ne year-end Gold price forecast kam kar di hai",
+   "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
+   "t": "08 Nov \u00b7 03:23 AM",
+   "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
    "ur_by": "ai"
   },
   {
@@ -469,15 +469,6 @@
    "t": "04 Nov \u00b7 03:47 PM",
    "ur": "Euro zone ki inflation 3 saal mein pehli baar 4% ho gayi hai aur interest rate hike ki umeed hai",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1793733321.0,
-   "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-   "t": "04 Nov \u00b7 12:15 AM",
-   "ur": "Payrolls report se pehle labor market ke liye positive sign mein September mein job openings mein barri gain aayi hai",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -485,6 +476,8 @@
   "label": "Extreme Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
