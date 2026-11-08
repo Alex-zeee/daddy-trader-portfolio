@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TikTok connect — Daddy Trader</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<style>
+  :root{--bg:#030806;--fg:#eef3ef;--muted:#9fb0a6;--accent:#8fe3b5;--gold:#ffe08a;--bad:#ff8f8f}
+  body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:grid;place-items:center;min-height:100vh}
+  main{max-width:520px;padding:32px 20px;text-align:center}
+  h1{font-size:24px;color:var(--gold);margin:0 0 12px}
+  #msg{font-size:18px}
+  .ok{color:var(--accent)} .bad{color:var(--bad)}
+  .muted{color:var(--muted);font-size:14px;margin-top:18px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Daddy Trader &times; TikTok</h1>
+  <p id="msg">TikTok account jod rahe hain&hellip;</p>
+  <p class="muted">Ye page Daddy Trader ke robot ko aap ke TikTok account par post karne ki ijazat deta hai.</p>
+</main>
+<script>
+// TikTok login ke baad yahan wapas aata hai (?code=...&state=...). Code robot (Cloudflare worker) ko bhejte hain.
+const WORKER = "https://daddytrader-tiktok.blankweb1.workers.dev";
+const msg = document.getElementById("msg");
+const q = new URLSearchParams(location.search);
+function show(text, cls) { msg.textContent = text; msg.className = cls || ""; }
+if (q.get("error")) {
+  show("TikTok ne ijazat nahi di: " + (q.get("error_description") || q.get("error")), "bad");
+} else if (!q.get("code")) {
+  show("Yahan koi TikTok code nahi aaya.", "bad");
+} else {
+  fetch(WORKER + "/exchange", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ code: q.get("code"), state: q.get("state") || "" }),
+  })
+    .then((r) => r.json())
+    .then((d) => {
+      if (d.ok) show("✅ TikTok jud gaya" + (d.name ? " (" + d.name + ")" : "") + ". Ab ye page band kar dein.", "ok");
+      else show("Jodne mein masla: " + (d.error || "nahi pata"), "bad");
+    })
+    .catch((e) => show("Robot tak pohanch nahi hui: " + e, "bad"));
+  history.replaceState(null, "", location.pathname);
+}
+</script>
+</body>
+</html>
