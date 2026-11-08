@@ -1,7 +1,7 @@
 """Daddy Trader — rozana ek motivation post Facebook page ke "Daddy Trader Motivation" album mein.
 
 Cloudflare ghari (trigger-worker) roz shaam 7:01 baje (Pakistan) motivation.yml chalati hai;
-GitHub ka apna schedule backup hai. Aik din mein sirf aik post hoti hai.
+GitHub ka apna schedule backup hai. 12 ghante mein sirf aik post hoti hai.
 Har din agla jumla aur agla andaaz; tasveer har dafa nayi banti hai.
 
 Khud chala kar dekhna (post nahi hota):  DRY_RUN=1 python motivation_post.py  ->  motivation-today.jpg
@@ -20,18 +20,20 @@ def today():
     return datetime.datetime.now(PK).date()
 
 
-def already_posted_today():
-    """Aaj (Pakistan waqt) album mein post ja chuki ho to True, taake do dafa post na ho."""
+def posted_recently(hours=12):
+    """Pichle 12 ghante mein robot ki motivation post album mein ja chuki ho to True (do dafa post na ho).
+    Sirf robot ki post ginte hain (caption mein #DaddyTrader), album ki cover tasveer nahi."""
     try:
         aid = fb_post.album_id("motivation")
         url = fb_post.GRAPH + "/" + aid + "/photos?" + urllib.parse.urlencode(
-            {"fields": "created_time", "limit": 5, "access_token": fb_post.TOKEN})
+            {"fields": "created_time,name", "limit": 10, "access_token": fb_post.TOKEN})
+        now = datetime.datetime.now(datetime.timezone.utc)
         for ph in fb_post._send(urllib.request.Request(url)).get("data", []):
             t = datetime.datetime.strptime(ph["created_time"], "%Y-%m-%dT%H:%M:%S%z")
-            if t.astimezone(PK).date() == today():
+            if "#DaddyTrader" in ph.get("name", "") and now - t < datetime.timedelta(hours=hours):
                 return True
     except Exception as e:
-        print("facebook: aaj ki post check nahi ho saki", e)
+        print("facebook: pichli post check nahi ho saki", e)
     return False
 
 
@@ -55,8 +57,8 @@ def main():
     if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and not 18 <= now.hour <= 23:
         print("GitHub schedule late chala (%s) — post nahi kiya" % now.strftime("%H:%M"))
         return
-    if already_posted_today():
-        print("aaj ki motivation post pehle hi ja chuki hai — dobara nahi")
+    if posted_recently():
+        print("pichle 12 ghante mein motivation post ja chuki hai — dobara nahi")
         return
     fb_post.post(img, cap, album="motivation", filename="daddy-trader-motivation.jpg", ctype="image/jpeg")
 
