@@ -1,0 +1,32 @@
+name: Manual Post
+# post-now/ folder ki tasveerein + caption.txt ko Facebook ("Daddy Trader Signals" album)
+# aur WhatsApp (channel + Ali ka number) par bhejta hai. Sirf haath se chalta hai.
+on:
+  workflow_dispatch:
+    inputs:
+      facebook:
+        description: "Facebook par bhejna hai? (yes / no)"
+        default: "yes"
+      whatsapp:
+        description: "WhatsApp channel aur number par bhejna hai? (yes / no)"
+        default: "yes"
+permissions:
+  contents: read
+concurrency:
+  group: manual-post
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python manual_post.py
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+          WA_CHANNEL_ID: ${{ secrets.WA_CHANNEL_ID }}
+          FACEBOOK: ${{ github.event.inputs.facebook }}
+          WHATSAPP: ${{ github.event.inputs.whatsapp }}
