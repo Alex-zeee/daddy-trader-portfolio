@@ -114,13 +114,6 @@ CHANNEL = "https://whatsapp.com/channel/0029Vb8tas7BFLga0KUzOI0A"
 TAGS = "#DaddyTrader #XAUUSD #GoldTrading #TradingMindset #ForexPakistan #TradingDiscipline"
 
 
-def caption(p):
-    return "\n".join([
-        p["en"],
-        p["ur"],
-        "",
-        "📲 Free XAUUSD signals — WhatsApp channel join karein: " + CHANNEL,
-        "🌐 daddytrader.live",
-        "",
-        TAGS,
-    ])
+def caption(p, platform="facebook"):
+    import links
+    return links.caption("\n".join([p["en"], p["ur"], "", TAGS]), platform)

@@ -3,7 +3,8 @@
 signals.py naya signal ya TP/SL nateeja `.wa_events.json` mein likhta hai.
 Ye script unhein channel par post karti hai. Har message ke saath card
 (tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
-Yehi card aur likhai Facebook page par bhi jaati hai (fb_post.py, FB_PAGE_TOKEN ho to).
+Yehi card Facebook page par bhi jaata hai (fb_post.py, FB_PAGE_TOKEN ho to).
+Neeche ke link links.py se: WhatsApp par website/Facebook/TikTok, Facebook par channel/website/TikTok.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -12,6 +13,8 @@ GitHub Secrets (Settings -> Secrets -> Actions):
 Token na ho to script chup chaap kuch nahi karti, baqi bot chalta rehta hai.
 """
 import base64, json, os, sys, time, urllib.request, urllib.error
+
+import links
 
 API = "https://gate.whapi.cloud"
 TOKEN = os.environ.get("WHAPI_TOKEN", "").strip()
@@ -64,7 +67,7 @@ def rr(s):
         return ""
 
 
-def text(ev):
+def text(ev, platform="whatsapp"):
     s, k = ev["sig"], ev["kind"]
     p, t = pair(s.get("pair")), str(s.get("type", "")).upper()
     if k == "new":
@@ -98,7 +101,7 @@ def text(ev):
         ]
         if s.get("date"):
             lines.append("Signal: " + str(s["date"]))
-    lines += ["", "Live: https://daddytrader.live"]
+    lines += ["", links.footer(platform)]
     return "\n".join(lines)
 
 
@@ -165,7 +168,7 @@ def main():
         png = card(ev)
         media = "data:image/png;base64," + base64.b64encode(png).decode() if png else None
         if fb:
-            fb_post.post(png, text(ev))
+            fb_post.post(png, text(ev, "facebook"))
         for to in targets:
             if not first:
                 time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
