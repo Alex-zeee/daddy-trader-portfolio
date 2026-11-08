@@ -27,6 +27,8 @@ def call(method, path, body=None):
         "accept": "application/json",
         "content-type": "application/json",
         "authorization": "Bearer " + TOKEN,
+        # Whapi ke aage Cloudflare hai: Python ka default naam (Python-urllib) wahan block hota hai (Error 1010)
+        "user-agent": "Mozilla/5.0 (compatible; DaddyTraderBot/1.0; +https://daddytrader.live)",
     })
     with urllib.request.urlopen(req, timeout=90) as r:
         return json.loads(r.read() or b"{}")
