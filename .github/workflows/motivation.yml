@@ -1,5 +1,6 @@
 name: Daily Motivation
-# Roz shaam ~7 baje (Pakistan) Facebook page ke "Daddy Trader Motivation" album mein nayi post.
+# Roz shaam 7:01 baje (Pakistan) Facebook page ke "Daddy Trader Motivation" album mein nayi post.
+# Waqt par Cloudflare ghari (trigger-worker) chalati hai (post: yes); neeche wala schedule sirf backup hai.
 # Haath se chalayen (Run workflow) to sirf tasveer banti hai; post tab hi hoga jab "post" mein yes likhein.
 on:
   schedule:
@@ -11,6 +12,9 @@ on:
         default: "no"
 permissions:
   contents: read
+concurrency:
+  group: motivation
+  cancel-in-progress: false
 jobs:
   motivation:
     runs-on: ubuntu-latest
