@@ -4,7 +4,8 @@ signals.py naya signal ya TP/SL nateeja `.wa_events.json` mein likhta hai.
 Ye script unhein channel par post karti hai. Har message ke saath card
 (tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
 Yehi card Facebook page par bhi jaata hai (fb_post.py, FB_PAGE_TOKEN ho to).
-Neeche ke link links.py se: WhatsApp par website/Facebook/TikTok, Facebook par channel/website/TikTok.
+WhatsApp par card ke neeche sirf link (website, Facebook, TikTok); card na bane to poori likhai + link.
+Facebook par likhai + link (WhatsApp channel, website, TikTok). Link links.py mein hain.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -119,7 +120,8 @@ def send(to, ev, media):
     who = "channel" if to == CHANNEL else "number"
     if media:
         try:
-            call("POST", "/messages/image", {"to": to, "media": media, "caption": text(ev)})
+            # card par signal pehle se likha hai: neeche sirf link (website, Facebook, TikTok)
+            call("POST", "/messages/image", {"to": to, "media": media, "caption": links.footer("whatsapp")})
             print("whatsapp: posted card", ev["kind"], "->", who)
             return
         except urllib.error.HTTPError as e:

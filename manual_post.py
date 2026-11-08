@@ -3,12 +3,11 @@
 Facebook page ke "Daddy Trader Signals" album, WhatsApp channel aur Ali ke number par jati hai.
 Chalana: GitHub -> Actions -> "Manual Post" -> Run workflow.
 Likhai (caption) pehli tasveer ke saath jati hai; baqi tasveerein us ke baad.
-Neeche ke link khud lagte hain (links.py): Facebook par channel/website/TikTok, WhatsApp par website/Facebook/TikTok.
+Haath wali post mein link khud nahi lagte; jo likhai caption.txt mein ho wahi jati hai.
 """
 import base64, glob, os, sys, time
 
 import fb_post
-import links
 import wa_post
 
 DIR = "post-now"
@@ -32,7 +31,7 @@ def main():
         if not fb_post.TOKEN:
             print("facebook token nahi — skip")
         for i, (name, ctype, img) in enumerate(data if fb_post.TOKEN else []):
-            fb_post.post(img, links.caption(cap, "facebook") if i == 0 else "", album="signals", filename=name, ctype=ctype)
+            fb_post.post(img, cap if i == 0 else "", album="signals", filename=name, ctype=ctype)
 
     if os.environ.get("WHATSAPP", "yes").strip().lower() == "yes":
         if not wa_post.TOKEN:
@@ -47,8 +46,8 @@ def main():
                     time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
                 first = False
                 body = {"to": to, "media": "data:%s;base64,%s" % (ctype, base64.b64encode(img).decode())}
-                if i == 0:
-                    body["caption"] = links.caption(cap, "whatsapp")
+                if i == 0 and cap:
+                    body["caption"] = cap
                 try:
                     wa_post.call("POST", "/messages/image", body)
                     print("whatsapp: posted", name, "->", who)
