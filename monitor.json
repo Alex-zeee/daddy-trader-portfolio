@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 00:16 PKT",
+ "updated": "09-11-2026 00:31 PKT",
  "gold": {
-  "price": 4069.51,
+  "price": 4066.03,
   "open": 4065.98,
   "high": 4070.6,
   "low": 4065.22,
-  "chg": 0.09,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   4065.96,
    4066.04,
    4066.07,
    4066.03,
@@ -55,7 +54,8 @@
    4069.82,
    4069.82,
    4070.36,
-   4069.51
+   4065.98,
+   4066.03
   ]
  },
  "markets": [
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1147,
-   "chg": -0.72,
+   "price": 1.1142,
+   "chg": -0.77,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1147
+    1.1142
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3354,
-   "chg": -0.76,
+   "price": 1.3351,
+   "chg": -0.78,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3354
+    1.3351
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.321,
-   "chg": 0.52,
+   "price": 158.363,
+   "chg": 0.55,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    158.321
+    158.363
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2229.91,
-   "chg": -0.3,
+   "price": 2231.33,
+   "chg": -0.24,
    "spark": [
     2226.01,
     2238.49,
@@ -314,13 +314,13 @@
     2227.9,
     2227.82,
     2233.36,
-    2229.9
+    2231.33
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75765.9,
-   "chg": 0.02,
+   "price": 75820.0,
+   "chg": 0.09,
    "spark": [
     75772.4,
     75820.2,
@@ -369,7 +369,7 @@
     75679.1,
     75671.8,
     75845.6,
-    75765.9
+    75820.0
    ]
   }
  ],
@@ -426,38 +426,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794165405.319705,
+   "ts": 1794166305.906564,
    "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-5010296",
-   "t": "09 Nov \u00b7 12:16 AM",
+   "t": "09 Nov \u00b7 12:31 AM",
    "ur": "US ne Iraq se kaha hai ke Iran ke sath zyada tar border crossings band kardein, Iraqi FM ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794165405.319705,
+   "ts": 1794166305.906564,
    "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
-   "t": "09 Nov \u00b7 12:16 AM",
+   "t": "09 Nov \u00b7 12:31 AM",
    "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794165405.319705,
+   "ts": 1794166305.906564,
    "title": "Brent posts worst week since April 2020 amid post-midterms hopes for Iran detente",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-fresh-tanker-attacks-but-heads-for-steep-weekly-loss-5006219",
-   "t": "09 Nov \u00b7 12:16 AM",
+   "t": "09 Nov \u00b7 12:31 AM",
    "ur": "Iran ke sath mamlaat theek hone ki umeed par Brent crude ka April 2020 ke baad sab se bura hafta raha.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794165405.319705,
+   "ts": 1794166305.906564,
    "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
-   "t": "09 Nov \u00b7 12:16 AM",
+   "t": "09 Nov \u00b7 12:31 AM",
    "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
    "ur_by": "ai"
   },
@@ -521,8 +521,6 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 503",
-  "gemini gemini-2.5-flash: HTTP 404"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
