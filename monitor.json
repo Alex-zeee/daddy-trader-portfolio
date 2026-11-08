@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 03:01 PKT",
+ "updated": "09-11-2026 03:16 PKT",
  "gold": {
-  "price": 4066.06,
+  "price": 4066.25,
   "open": 4065.98,
   "high": 4070.6,
   "low": 4065.22,
-  "chg": 0.0,
+  "chg": 0.01,
   "src": "XAUUSD Spot",
   "spark": [
-   4066.03,
    4065.96,
    4066.08,
    4066.07,
@@ -55,7 +54,8 @@
    4066.06,
    4066.12,
    4066.04,
-   4066.06
+   4066.31,
+   4066.25
   ]
  },
  "markets": [
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.115,
-   "chg": -0.7,
+   "price": 1.1142,
+   "chg": -0.77,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.115
+    1.1142
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3339,
-   "chg": -0.87,
+   "price": 1.3355,
+   "chg": -0.75,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3339
+    1.3355
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.335,
-   "chg": 0.53,
+   "price": 158.345,
+   "chg": 0.54,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    158.335
+    158.345
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2133.04,
-   "chg": -4.63,
+   "price": 2126.73,
+   "chg": -4.91,
    "spark": [
     2235.43,
     2236.92,
@@ -314,13 +314,13 @@
     2229.36,
     2223.95,
     2125.0,
-    2132.41
+    2126.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74375.8,
-   "chg": -1.81,
+   "price": 74447.5,
+   "chg": -1.72,
    "spark": [
     75741.6,
     75797.7,
@@ -369,7 +369,7 @@
     75827.8,
     75652.4,
     74089.8,
-    74375.8
+    74451.1
    ]
   }
  ],
@@ -426,39 +426,57 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794175304.716112,
+   "ts": 1794176208.50198,
    "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-5010296",
-   "t": "09 Nov \u00b7 03:01 AM",
+   "t": "09 Nov \u00b7 03:16 AM",
    "ur": "US ne Iraq se kaha hai ke Iran ke sath zyada tar border crossings band kardein, Iraqi FM ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794175304.716112,
+   "ts": 1794176208.50198,
    "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
-   "t": "09 Nov \u00b7 03:01 AM",
+   "t": "09 Nov \u00b7 03:16 AM",
    "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794175304.716112,
+   "ts": 1794176208.50198,
    "title": "Brent posts worst week since April 2020 amid post-midterms hopes for Iran detente",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-fresh-tanker-attacks-but-heads-for-steep-weekly-loss-5006219",
-   "t": "09 Nov \u00b7 03:01 AM",
+   "t": "09 Nov \u00b7 03:16 AM",
    "ur": "Iran ke sath mamlaat theek hone ki umeed par Brent crude ka April 2020 ke baad sab se bura hafta raha.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794175304.716112,
+   "ts": 1794176208.50198,
    "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
-   "t": "09 Nov \u00b7 03:01 AM",
+   "t": "09 Nov \u00b7 03:16 AM",
    "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794174156.0,
+   "title": "Suspected Iranian drone strike halts Iraq gas field, cuts two thirds of Kurdistan power",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/suspected-iranian-drone-strike-halts-iraq-gas-field-cuts-two-thirds-of-kurdistan-power/",
+   "t": "09 Nov \u00b7 02:42 AM",
+   "ur": "Iraq ke gas field pe suspected Iranian drone attack ke baad Kurdistan ki do tihai power cut ho gayi hai.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794173184.0,
+   "title": "Weekend: Trump says new Iran strikes \u2018highly unlikely\u2019 five times (but three carriers stay ready)",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/weekend-trump-says-new-iran-strikes-highly-unlikely-five-times-but-three-carriers-stay-ready/",
+   "t": "09 Nov \u00b7 02:26 AM",
+   "ur": "Weekend pe Trump ne kaha ke new Iran strikes 'highly unlikely' hain, par teen carriers ready rakhe hain.",
    "ur_by": "ai"
   },
   {
@@ -496,24 +514,6 @@
    "t": "06 Nov \u00b7 11:07 PM",
    "ur": "Fed ki Daly ka kehna hai ke jobs report achi khabar hai.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1793981194.0,
-   "title": "Iran reviewing proposals to curb nuclear program - report",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/iran-reviewing-proposals-to-curb-nuclear-program-report/",
-   "t": "06 Nov \u00b7 09:06 PM",
-   "ur": "Report ke mutabiq Iran apne nuclear program ko mehdood karne ki proposals ka jaiza le raha hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1793976244.0,
-   "title": "Iran responds positively to latest mediator proposal - report",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/iran-responds-positively-to-latest-mediator-proposal-report/",
-   "t": "06 Nov \u00b7 07:44 PM",
-   "ur": "Report ke mutabiq Iran ne mediator ki taza proposal par positive jawab diya hai.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
