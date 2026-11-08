@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 00:06 PKT",
+ "updated": "09-11-2026 00:16 PKT",
  "gold": {
-  "price": 4070.29,
+  "price": 4069.51,
   "open": 4065.98,
-  "high": 4070.34,
+  "high": 4070.6,
   "low": 4065.22,
-  "chg": 0.11,
+  "chg": 0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   4065.98,
    4065.96,
    4066.04,
    4066.07,
@@ -55,7 +54,8 @@
    4069.7,
    4069.82,
    4069.82,
-   4070.29
+   4070.36,
+   4069.51
   ]
  },
  "markets": [
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1142,
-   "chg": -0.77,
+   "price": 1.1147,
+   "chg": -0.72,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1142
+    1.1147
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3347,
-   "chg": -0.81,
+   "price": 1.3354,
+   "chg": -0.76,
    "spark": [
     1.3229,
     1.3242,
@@ -230,7 +230,7 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3347
+    1.3354
    ]
   },
   {
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 2230.83,
-   "chg": -0.26,
+   "price": 2229.91,
+   "chg": -0.3,
    "spark": [
     2226.01,
     2238.49,
@@ -314,13 +314,13 @@
     2227.9,
     2227.82,
     2233.36,
-    2230.82
+    2229.9
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75791.3,
-   "chg": 0.05,
+   "price": 75765.9,
+   "chg": 0.02,
    "spark": [
     75772.4,
     75820.2,
@@ -369,7 +369,7 @@
     75679.1,
     75671.8,
     75845.6,
-    75791.3
+    75765.9
    ]
   }
  ],
@@ -426,29 +426,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794164800.983867,
+   "ts": 1794165405.319705,
+   "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-5010296",
+   "t": "09 Nov \u00b7 12:16 AM",
+   "ur": "US ne Iraq se kaha hai ke Iran ke sath zyada tar border crossings band kardein, Iraqi FM ka kehna hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794165405.319705,
    "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
-   "t": "09 Nov \u00b7 12:06 AM",
+   "t": "09 Nov \u00b7 12:16 AM",
    "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794164800.983867,
+   "ts": 1794165405.319705,
    "title": "Brent posts worst week since April 2020 amid post-midterms hopes for Iran detente",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-fresh-tanker-attacks-but-heads-for-steep-weekly-loss-5006219",
-   "t": "09 Nov \u00b7 12:06 AM",
+   "t": "09 Nov \u00b7 12:16 AM",
    "ur": "Iran ke sath mamlaat theek hone ki umeed par Brent crude ka April 2020 ke baad sab se bura hafta raha.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794164800.983867,
+   "ts": 1794165405.319705,
    "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
-   "t": "09 Nov \u00b7 12:06 AM",
+   "t": "09 Nov \u00b7 12:16 AM",
    "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
    "ur_by": "ai"
   },
@@ -505,15 +514,6 @@
    "t": "06 Nov \u00b7 07:44 PM",
    "ur": "Report ke mutabiq Iran ne mediator ki taza proposal par positive jawab diya hai.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1793974979.0,
-   "title": "USD moves higher after the US jobs report. What levels are in play now?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/usd-moves-higher-after-the-us-jobs-report-what-levels-are-in-play-now/",
-   "t": "06 Nov \u00b7 07:22 PM",
-   "ur": "US jobs report ke baad USD ooper chala gaya, ab kon se levels dekhne wale hain?",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
