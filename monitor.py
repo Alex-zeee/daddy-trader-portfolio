@@ -135,7 +135,7 @@ out["calendar"] = upcoming[:10] if upcoming else allev[-6:]
 out["cal_mode"] = "upcoming" if upcoming else "past"
 
 # ---------- 4. Gold-related news (free RSS feeds, keyword filtered) ----------
-KEY = re.compile(r"gold|xau|silver|precious|bullion|fed|fomc|powell|dollar|dxy|"
+KEY = re.compile(r"gold|xau|silver|precious|bullion|fed|fomc|powell|us dollar|u\.s\. dollar|usd|greenback|dxy|"
                  r"inflation|cpi|ppi|nfp|payroll|jobs report|rate cut|rate hike|"
                  r"yield|treasury|safe.haven|tariff|geopolit|iran|non-farm", re.I)
 # sab se tez pehle: investingLive (pehle ForexLive) aur Federal Reserve ki apni feed

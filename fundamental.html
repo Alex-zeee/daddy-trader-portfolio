@@ -1362,13 +1362,19 @@ html[data-theme="dark"] .imp-med{color:#e5c158}
     if (s < 86400) return Math.round(s / 3600) + 'h ago';
     return Math.round(s / 86400) + 'd ago';
   }
+  const NEWS_API = 'https://daddytrader-news.blankweb1.workers.dev/news';
   async function loadMonitor(){
     try{
       const r = await fetch('monitor.json?ts=' + Date.now(), {cache: 'no-store'});
       if (!r.ok) return;
       const d = await r.json();
+      // tez news: Cloudflare news robot (khabar 1-2 minute mein); na chale to monitor.json wali news
+      try {
+        const nr = await fetch(NEWS_API + '?t=' + Math.floor(Date.now() / 30000), {cache: 'no-store', signal: AbortSignal.timeout(9000)});
+        if (nr.ok){ const nj = await nr.json(); if (nj.news && nj.news.length) d.news = nj.news; }
+      } catch(e){}
       const up = document.getElementById('mon-updated');
-      if (up) up.textContent = d.updated ? ('Auto-updates every 15 minutes · Last update: ' + d.updated) : '';
+      if (up) up.textContent = d.updated ? ('News refreshes every minute · Market data every 15 minutes · Last update: ' + d.updated) : '';
 
       // gold hero card
       const g = d.gold, gc = document.getElementById('gold-card');
