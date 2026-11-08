@@ -5,7 +5,7 @@ Ye script unhein channel par post karti hai. Har message ke saath card
 (tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
 Yehi card Facebook page par bhi jaata hai (fb_post.py, FB_PAGE_TOKEN ho to).
 WhatsApp par card ke neeche sirf link (website, Facebook, TikTok); card na bane to poori likhai + link.
-Facebook par likhai + link (WhatsApp channel, website, TikTok). Link links.py mein hain.
+Facebook par bhi card ke neeche sirf link (WhatsApp channel, website, TikTok). Link links.py mein hain.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -170,7 +170,8 @@ def main():
         png = card(ev)
         media = "data:image/png;base64," + base64.b64encode(png).decode() if png else None
         if fb:
-            fb_post.post(png, text(ev, "facebook"))
+            # card par signal likha hai: neeche sirf link; card na bane to poori likhai + link
+            fb_post.post(png, links.footer("facebook") if png else text(ev, "facebook"))
         for to in targets:
             if not first:
                 time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
