@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 00:01 PKT",
+ "updated": "10-11-2026 00:16 PKT",
  "gold": {
-  "price": 4104.32,
-  "open": 4070.33,
+  "price": 4103.3,
+  "open": 4065.88,
   "high": 4133.7,
   "low": 4054.86,
-  "chg": 0.84,
+  "chg": 0.92,
   "src": "XAUUSD Spot",
   "spark": [
-   4100.32,
    4095.22,
    4084.69,
    4090.44,
@@ -55,14 +54,15 @@
    4105.18,
    4105.8,
    4105.58,
-   4104.32
+   4102.8,
+   4103.3
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.825,
-   "chg": 1.97,
+   "price": 52.835,
+   "chg": 1.99,
    "spark": [
     60.67,
     60.141,
@@ -85,12 +85,12 @@
     52.12,
     52.233,
     51.803,
-    52.825
+    52.835
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.82,
+   "price": 101.815,
    "chg": -0.47,
    "spark": [
     102.21,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.82
+    101.815
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.67,
-   "chg": -3.48,
+   "price": 87.5,
+   "chg": -3.67,
    "spark": [
     91.85,
     93.74,
@@ -143,13 +143,13 @@
     88.12,
     90.52,
     90.83,
-    87.67
+    87.5
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.876,
-   "chg": 0.35,
+   "price": 4.882,
+   "chg": 0.47,
    "spark": [
     5.244,
     5.24,
@@ -172,7 +172,7 @@
     4.894,
     4.837,
     4.859,
-    4.876
+    4.882
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.05,
-   "chg": 0.35,
+   "price": 158.002,
+   "chg": 0.32,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    158.05
+    158.002
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2123.79,
-   "chg": -0.05,
+   "price": 2121.36,
+   "chg": -0.16,
    "spark": [
     2225.89,
     2229.47,
@@ -314,13 +314,13 @@
     2131.29,
     2123.48,
     2123.69,
-    2123.79
+    2121.36
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74630.8,
-   "chg": -0.15,
+   "price": 74587.3,
+   "chg": -0.21,
    "spark": [
     75584.2,
     75638.4,
@@ -369,7 +369,7 @@
     74979.9,
     74696.7,
     74598.1,
-    74630.8
+    74587.3
    ]
   }
  ],
@@ -426,30 +426,57 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794250905.457664,
+   "ts": 1794251806.286173,
    "title": "Oil falls almost 5% as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 12:01 AM",
+   "t": "10 Nov \u00b7 12:16 AM",
    "ur": "Trump ke Iran par restraint ke ishare se Oil qareeb 5% gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794250905.457664,
+   "ts": 1794251806.286173,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 12:01 AM",
+   "t": "10 Nov \u00b7 12:16 AM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794250905.457664,
+   "ts": 1794251806.286173,
    "title": "European gas edges higher as Hormuz Shipping hits offset Trump\u2019s pause on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-edges-higher-as-hormuz-shipping-hits-offset-trumps-pause-on-iran-5011016",
-   "t": "10 Nov \u00b7 12:01 AM",
+   "t": "10 Nov \u00b7 12:16 AM",
    "ur": "Hormuz shipping issues ki wajah se European gas mein thori tezi aayi hai, Trump ke Iran par pause ke bawajood.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794248919.0,
+   "title": "NZDUSD buyers are starting to take back control after reaching the lowest level since April 2025",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/nzdusd-buyers-are-starting-to-take-back-control-after-reaching-the-lowest-level-since-april-2025/",
+   "t": "09 Nov \u00b7 11:28 PM",
+   "ur": "NZDUSD ke buyers ne April 2025 ke lowest level se girne ke baad market phir se control mein lena shuru kar di hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794248647.0,
+   "title": "Fed's Barkin: Jobs report was 'healthy' but firms still see low-hire, low-fire economy",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/fed-s-barkin-jobs-report-was-healthy-but-firms-still-see-low-hire-low-fire-economy/",
+   "t": "09 Nov \u00b7 11:24 PM",
+   "ur": "Fed ke Barkin ka bayan ke jobs report healthy thi lekin companies mein abhi bhi low-hire aur low-fire ka scene hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794248016.0,
+   "title": "U.S. Treasury sells $58 billion of 3 year notes at a high yield of 4.627%",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/u-s-treasury-sells-58-billion-of-3-year-notes-at-a-high-yield-of-4-627/",
+   "t": "09 Nov \u00b7 11:13 PM",
+   "ur": "U.S. Treasury ne $58 billion ke 3 year notes 4.627% ke high yield par beche hain",
    "ur_by": "ai"
   },
   {
@@ -487,33 +514,6 @@
    "t": "09 Nov \u00b7 06:33 PM",
    "ur": "Morning kickstart! Stock futures up hain aur Bitcoin 200-day moving average ke paas hai, jabke USD aur oil down hain.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794229993.0,
-   "title": "Oil falls further on report that Trump asked Iraqi PM to bring Iran proposals to end the war",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/oil-falls-further-on-report-that-trump-asked-iraqi-pm-to-bring-iran-proposals-to-end-the-war/",
-   "t": "09 Nov \u00b7 06:13 PM",
-   "ur": "Oil mazeed gir gaya is khabar par ke Trump ne Iraqi PM se kaha hai ke war khatam karne ke liye Iran ke proposals laye.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794227940.0,
-   "title": "investingLive European news wrap: Markets await fresh US-Iran developments, US CPI data",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-european-news-wrap-markets-await-fresh-us-iran-developments-us-cpi-data/",
-   "t": "09 Nov \u00b7 05:39 PM",
-   "ur": "European markets update: Sab ki nazar US-Iran developments aur US CPI data par hai",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794224750.0,
-   "title": "Solana remains skewed to the downside amid negative macro backdrop as US CPI looms",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/solana-remains-skewed-to-the-downside-amid-negative-macro-backdrop-as-us-cpi-looms/",
-   "t": "09 Nov \u00b7 04:45 PM",
-   "ur": "US CPI data se pehle negative macro backdrop ki wajah se Solana abhi bhi downside pe hai.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
