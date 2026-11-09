@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 06:46 PKT",
+ "updated": "09-11-2026 07:01 PKT",
  "gold": {
-  "price": 4123.55,
+  "price": 4122.73,
   "open": 4065.99,
-  "high": 4124.73,
+  "high": 4126.68,
   "low": 4054.86,
-  "chg": 1.42,
+  "chg": 1.4,
   "src": "XAUUSD Spot",
   "spark": [
-   4066.04,
    4068.87,
    4068.97,
    4068.99,
@@ -55,14 +54,15 @@
    4107.29,
    4108.62,
    4122.59,
-   4123.55
+   4122.88,
+   4122.73
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.955,
-   "chg": 2.22,
+   "price": 53.31,
+   "chg": 2.91,
    "spark": [
     60.67,
     60.141,
@@ -85,12 +85,12 @@
     52.12,
     52.233,
     51.803,
-    52.955
+    53.31
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.162,
+   "price": 102.165,
    "chg": -0.13,
    "spark": [
     102.21,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    102.162
+    102.165
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.48,
-   "chg": -0.39,
+   "price": 90.31,
+   "chg": -0.57,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    90.48
+    90.31
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1154,
-   "chg": -0.66,
+   "price": 1.1159,
+   "chg": -0.61,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,42 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1154
+    1.1159
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3372,
+   "chg": -0.62,
+   "spark": [
+    1.3229,
+    1.3242,
+    1.321,
+    1.3257,
+    1.323,
+    1.3273,
+    1.3336,
+    1.3308,
+    1.3373,
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.3372
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.235,
-   "chg": 0.47,
+   "price": 158.219,
+   "chg": 0.46,
    "spark": [
     158.063,
     158.203,
@@ -230,15 +259,14 @@
     158.469,
     158.357,
     157.498,
-    158.235
+    158.219
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2138.26,
-   "chg": 0.63,
+   "price": 2140.0,
+   "chg": 0.71,
    "spark": [
-    2244.02,
     2242.28,
     2241.23,
     2246.01,
@@ -285,15 +313,15 @@
     2126.86,
     2124.05,
     2141.26,
-    2138.48
+    2139.71,
+    2140.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75020.2,
-   "chg": 0.37,
+   "price": 75086.8,
+   "chg": 0.46,
    "spark": [
-    75943.2,
     75803.8,
     75804.9,
     75933.9,
@@ -340,7 +368,8 @@
     74387.1,
     74737.9,
     75141.3,
-    75020.2
+    75064.0,
+    75086.8
    ]
   }
  ],
@@ -397,48 +426,66 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794188813.220027,
+   "ts": 1794189711.472281,
+   "title": "Trump to meet Qatar\u2019s prime minister as Iran diplomacy faces hurdles",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/trump-to-meet-qatars-prime-minister-as-iran-diplomacy-faces-hurdles-5010408",
+   "t": "09 Nov \u00b7 07:01 AM",
+   "ur": "Trump ki Qatar ke PM se meeting honi hai kyunke Iran diplomacy mein rukawatein aa rahi hain",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794189711.472281,
    "title": "Gold rebounds above $4,100 as traders await U.S. inflation data after jobs beat",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "09 Nov \u00b7 06:46 AM",
+   "t": "09 Nov \u00b7 07:01 AM",
    "ur": "Gold dubara $4,100 se oopar chala gaya hai kyunke traders jobs data behtar aanay ke baad ab U.S. inflation data ka wait kar rahe hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794188813.220027,
+   "ts": 1794189711.472281,
    "title": "Oil prices dip as Trump says new Iran attacks \u2018unlikely\u2019 if talks progress",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "09 Nov \u00b7 06:46 AM",
+   "t": "09 Nov \u00b7 07:01 AM",
    "ur": "Trump kehta hai agar talks agey barhin toh naye Iran attacks ki umeed kam hai, jis se Oil prices halki neechay aagayin.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794188813.220027,
+   "ts": 1794189711.472281,
    "title": "Oil falls on open as Trump says fresh Iran attacks \u2019unlikely\u2019",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 06:46 AM",
+   "t": "09 Nov \u00b7 07:01 AM",
    "ur": "Trump kehte hain ke Iran par mazeed attacks ki umeed nahi, jis se Oil market open hote hi gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794188813.220027,
+   "ts": 1794189711.472281,
    "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-5010296",
-   "t": "09 Nov \u00b7 06:46 AM",
+   "t": "09 Nov \u00b7 07:01 AM",
    "ur": "US ne Iraq se kaha hai ke Iran ke sath zyada tar border crossings band kardein, Iraqi FM ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794188813.220027,
+   "ts": 1794189711.472281,
    "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
-   "t": "09 Nov \u00b7 06:46 AM",
+   "t": "09 Nov \u00b7 07:01 AM",
    "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794188411.0,
+   "title": "China wholesale inflation hits over four-year high as consumer measure slows",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+   "t": "09 Nov \u00b7 06:40 AM",
+   "ur": "China ki wholesale inflation 4 saal ki tareen buland tareen satah par pahunch gayi hai jabke consumer measure slow ho gaya hai",
    "ur_by": "ai"
   },
   {
@@ -466,24 +513,6 @@
    "link": "https://investinglive.com/news/trump-eyes-xi-putin-meeting-at-apec-on-iran-war-says-he-d-certainly-take-huang/",
    "t": "09 Nov \u00b7 04:56 AM",
    "ur": "Trump Iran war par APEC mein Xi aur Putin se meeting chahte hain, aur kaha ke woh Huang ko zaroor sath le kar chalenge.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794181520.0,
-   "title": "Recap - BOJ\u2019s Ueda sees inflation near 2% but flags upside risks as energy costs bite",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/recap-boj-s-ueda-sees-inflation-near-2-but-flags-upside-risks-as-energy-costs-bite/",
-   "t": "09 Nov \u00b7 04:45 AM",
-   "ur": "BOJ ke Ueda inflation 2% ke qareeb dekh rahe hain, magar energy costs barhne se mazeed ooper jane ka risk bhi bataya.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794179235.0,
-   "title": "China October inflation preview: CPI seen near 0.8%, PPI above 5%",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/china-october-inflation-preview-cpi-seen-near-0-8-ppi-above-5/",
-   "t": "09 Nov \u00b7 04:07 AM",
-   "ur": "China October inflation preview: CPI 0.8% ke qareeb aur PPI 5% se ooper rehne ki umeed hai.",
    "ur_by": "ai"
   }
  ],
