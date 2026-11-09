@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 16:46 PKT",
+ "updated": "09-11-2026 17:01 PKT",
  "gold": {
-  "price": 4112.58,
+  "price": 4109.83,
   "open": 4065.99,
   "high": 4133.7,
   "low": 4054.86,
-  "chg": 1.15,
+  "chg": 1.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4071.95,
    4073.01,
    4100.41,
    4104.34,
@@ -55,14 +54,15 @@
    4101.79,
    4106.43,
    4112.65,
-   4112.58
+   4109.24,
+   4109.83
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.78,
-   "chg": 1.89,
+   "price": 52.785,
+   "chg": 1.9,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    52.78
+    52.785
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.83,
-   "chg": -0.46,
+   "price": 101.838,
+   "chg": -0.45,
    "spark": [
     102.21,
     102.58,
@@ -114,7 +114,36 @@
     101.51,
     101.55,
     102.3,
-    101.83
+    101.838
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 88.11,
+   "chg": -2.99,
+   "spark": [
+    91.85,
+    93.74,
+    94.14,
+    95.09,
+    97.97,
+    101.41,
+    103.66,
+    101.79,
+    97.15,
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    88.11
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1197,
-   "chg": -0.28,
+   "price": 1.1192,
+   "chg": -0.32,
    "spark": [
     1.1213,
     1.1205,
@@ -172,42 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1197
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3423,
-   "chg": -0.25,
-   "spark": [
-    1.3229,
-    1.3242,
-    1.321,
-    1.3257,
-    1.323,
-    1.3273,
-    1.3336,
-    1.3308,
-    1.3373,
-    1.3396,
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.3423
+    1.1192
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.905,
-   "chg": 0.26,
+   "price": 157.947,
+   "chg": 0.29,
    "spark": [
     158.063,
     158.203,
@@ -230,15 +230,14 @@
     158.469,
     158.357,
     157.498,
-    157.905
+    157.947
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2117.71,
-   "chg": -0.33,
+   "price": 2111.17,
+   "chg": -0.64,
    "spark": [
-    2239.09,
     2242.61,
     2244.0,
     2234.4,
@@ -285,15 +284,15 @@
     2120.51,
     2106.16,
     2105.55,
-    2117.86
+    2110.5,
+    2111.17
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74431.5,
-   "chg": -0.42,
+   "price": 74290.6,
+   "chg": -0.6,
    "spark": [
-    75802.3,
     75839.9,
     75852.7,
     75667.1,
@@ -340,7 +339,8 @@
     74459.6,
     74191.0,
     74052.0,
-    74431.5
+    74271.4,
+    74290.6
    ]
   }
  ],
@@ -397,39 +397,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794224806.339889,
+   "ts": 1794225703.748953,
+   "title": "European gas edges higher as Hormuz Shipping hits offset Trump\u2019s pause on Iran",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/european-gas-edges-higher-as-hormuz-shipping-hits-offset-trumps-pause-on-iran-5011016",
+   "t": "09 Nov \u00b7 05:01 PM",
+   "ur": "Hormuz shipping issues ki wajah se European gas mein thori tezi aayi hai, Trump ke Iran par pause ke bawajood.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794225703.748953,
    "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 04:46 PM",
+   "t": "09 Nov \u00b7 05:01 PM",
    "ur": "Trump ki taraf se Iran par restraint ka ishara milne aur fresh shipping attacks ke baad Oil gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794224806.339889,
+   "ts": 1794225703.748953,
    "title": "Iran defends two-day proposal for peace talks after US rejects conditions",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-defends-twoday-proposal-for-peace-talks-after-us-rejects-conditions-5010885",
-   "t": "09 Nov \u00b7 04:46 PM",
+   "t": "09 Nov \u00b7 05:01 PM",
    "ur": "Iran ne US ki conditions reject honay ke baad peace talks ke 2-day proposal ko defend kiya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794224806.339889,
+   "ts": 1794225703.748953,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "09 Nov \u00b7 04:46 PM",
+   "t": "09 Nov \u00b7 05:01 PM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794224806.339889,
-   "title": "Trump to meet Qatar\u2019s prime minister as Iran diplomacy faces hurdles",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/trump-to-meet-qatars-prime-minister-as-iran-diplomacy-faces-hurdles-5010408",
-   "t": "09 Nov \u00b7 04:46 PM",
-   "ur": "Trump ki Qatar ke PM se meeting honi hai kyunke Iran diplomacy mein rukawatein aa rahi hain",
    "ur_by": "ai"
   },
   {
@@ -492,6 +492,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
