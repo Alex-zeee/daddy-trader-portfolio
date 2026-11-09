@@ -1,15 +1,13 @@
 {
- "updated": "09-11-2026 23:01 PKT",
+ "updated": "09-11-2026 23:31 PKT",
  "gold": {
-  "price": 4102.03,
+  "price": 4106.06,
   "open": 4069.73,
   "high": 4133.7,
   "low": 4054.86,
-  "chg": 0.79,
+  "chg": 0.89,
   "src": "XAUUSD Spot",
   "spark": [
-   4117.41,
-   4111.19,
    4107.89,
    4103.86,
    4100.32,
@@ -55,14 +53,16 @@
    4105.33,
    4102.93,
    4102.27,
-   4102.03
+   4104.12,
+   4105.18,
+   4106.06
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.615,
-   "chg": 1.57,
+   "price": 52.655,
+   "chg": 1.64,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,42 @@
     52.12,
     52.233,
     51.803,
-    52.615
+    52.655
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 101.825,
+   "chg": -0.46,
+   "spark": [
+    102.21,
+    102.58,
+    102.18,
+    102.55,
+    102.0,
+    101.84,
+    101.98,
+    101.73,
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.825
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.51,
-   "chg": -3.66,
+   "price": 87.68,
+   "chg": -3.47,
    "spark": [
     91.85,
     93.74,
@@ -114,13 +143,13 @@
     88.12,
     90.52,
     90.83,
-    87.51
+    87.68
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.876,
-   "chg": 0.35,
+   "price": 4.874,
+   "chg": 0.31,
    "spark": [
     5.244,
     5.24,
@@ -143,13 +172,13 @@
     4.894,
     4.837,
     4.859,
-    4.876
+    4.874
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1206,
-   "chg": -0.2,
+   "price": 1.121,
+   "chg": -0.17,
    "spark": [
     1.1213,
     1.1205,
@@ -172,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1206
+    1.121
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.342,
-   "chg": -0.27,
+   "price": 1.3426,
+   "chg": -0.22,
    "spark": [
     1.3229,
     1.3242,
@@ -201,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.342
+    1.3426
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.047,
-   "chg": 0.35,
+   "price": 158.021,
+   "chg": 0.33,
    "spark": [
     158.063,
     158.203,
@@ -230,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    158.047
+    158.021
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2122.64,
-   "chg": -0.1,
+   "price": 2121.7,
+   "chg": -0.15,
    "spark": [
     2232.3,
     2225.89,
@@ -285,13 +314,13 @@
     2145.02,
     2131.29,
     2123.48,
-    2122.64
+    2121.7
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74672.0,
-   "chg": -0.09,
+   "price": 74547.7,
+   "chg": -0.26,
    "spark": [
     75690.1,
     75584.2,
@@ -340,7 +369,7 @@
     75437.8,
     74979.9,
     74696.7,
-    74672.0
+    74547.6
    ]
   }
  ],
@@ -397,29 +426,29 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794247311.199313,
+   "ts": 1794249107.724502,
    "title": "Oil falls almost 5% as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 11:01 PM",
+   "t": "09 Nov \u00b7 11:31 PM",
    "ur": "Trump ke Iran par restraint ke ishare se Oil qareeb 5% gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794247311.199313,
+   "ts": 1794249107.724502,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "09 Nov \u00b7 11:01 PM",
+   "t": "09 Nov \u00b7 11:31 PM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794247311.199313,
+   "ts": 1794249107.724502,
    "title": "European gas edges higher as Hormuz Shipping hits offset Trump\u2019s pause on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-edges-higher-as-hormuz-shipping-hits-offset-trumps-pause-on-iran-5011016",
-   "t": "09 Nov \u00b7 11:01 PM",
+   "t": "09 Nov \u00b7 11:31 PM",
    "ur": "Hormuz shipping issues ki wajah se European gas mein thori tezi aayi hai, Trump ke Iran par pause ke bawajood.",
    "ur_by": "ai"
   },
@@ -492,8 +521,6 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 503",
-  "gemini gemini-2.5-flash: HTTP 404"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
