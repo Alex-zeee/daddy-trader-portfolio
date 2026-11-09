@@ -1,11 +1,11 @@
 {
- "updated": "10-11-2026 01:01 PKT",
+ "updated": "10-11-2026 01:03 PKT",
  "gold": {
-  "price": 4136.16,
+  "price": 4139.0,
   "open": 4065.99,
-  "high": 4138.39,
+  "high": 4139.24,
   "low": 4054.86,
-  "chg": 1.73,
+  "chg": 1.8,
   "src": "XAUUSD Spot",
   "spark": [
    4095.36,
@@ -55,14 +55,14 @@
    4111.67,
    4131.4,
    4134.03,
-   4136.16
+   4139.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.44,
-   "chg": 3.16,
+   "price": 53.335,
+   "chg": 2.96,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    53.44
+    53.335
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.652,
-   "chg": -0.63,
+   "price": 101.671,
+   "chg": -0.61,
    "spark": [
     102.21,
     102.58,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.652
+    101.671
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.5,
-   "chg": -5.87,
+   "price": 85.58,
+   "chg": -5.78,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    85.5
+    85.58
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1225,
-   "chg": -0.03,
+   "price": 1.1223,
+   "chg": -0.04,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1225
+    1.1223
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3439,
-   "chg": -0.12,
+   "chg": -0.13,
    "spark": [
     1.3229,
     1.3242,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 157.765,
-   "chg": 0.17,
+   "price": 157.806,
+   "chg": 0.2,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    157.765
+    157.806
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2126.53,
-   "chg": 0.08,
+   "price": 2123.96,
+   "chg": -0.04,
    "spark": [
     2229.47,
     2231.41,
@@ -314,13 +314,13 @@
     2123.48,
     2123.69,
     2126.19,
-    2126.53
+    2123.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74820.4,
-   "chg": 0.1,
+   "price": 74740.3,
+   "chg": -0.0,
    "spark": [
     75638.4,
     75669.8,
@@ -369,7 +369,7 @@
     74696.7,
     74598.1,
     74789.5,
-    74820.5
+    74740.3
    ]
   }
  ],
@@ -426,30 +426,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794254508.609327,
+   "ts": 1794254629.330728,
    "title": "Oil falls almost 5% as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 01:01 AM",
+   "t": "10 Nov \u00b7 01:03 AM",
    "ur": "Trump ke Iran par restraint ke ishare se Oil qareeb 5% gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794254508.609327,
+   "ts": 1794254629.330728,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 01:01 AM",
+   "t": "10 Nov \u00b7 01:03 AM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794254508.609327,
+   "ts": 1794254629.330728,
    "title": "European gas edges higher as Hormuz Shipping hits offset Trump\u2019s pause on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-edges-higher-as-hormuz-shipping-hits-offset-trumps-pause-on-iran-5011016",
-   "t": "10 Nov \u00b7 01:01 AM",
+   "t": "10 Nov \u00b7 01:03 AM",
    "ur": "Hormuz shipping issues ki wajah se European gas mein thori tezi aayi hai, Trump ke Iran par pause ke bawajood.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794253371.0,
+   "title": "Stock markets hit fresh highs on Iran headlines",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/stock-markets-hit-fresh-highs-on-iran-headlines/",
+   "t": "10 Nov \u00b7 12:42 AM",
+   "ur": "Iran ki khabron par stock markets nay new highs hit kar liye hain",
    "ur_by": "ai"
   },
   {
@@ -505,15 +514,6 @@
    "t": "09 Nov \u00b7 08:30 PM",
    "ur": "Fed ke Goolsbee ka kehna hai ke services sector mein inflation ab barhni shuru ho gayi hai",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794231224.0,
-   "title": "Morning Kickstart. Stock futures climb as Bitcoin nears its 200-day moving average. USD/oil lower.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/morning-kickstart-stock-futures-climb-as-bitcoin-nears-its-200-day-moving-average-usd-is-lower/",
-   "t": "09 Nov \u00b7 06:33 PM",
-   "ur": "Morning kickstart! Stock futures up hain aur Bitcoin 200-day moving average ke paas hai, jabke USD aur oil down hain.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
