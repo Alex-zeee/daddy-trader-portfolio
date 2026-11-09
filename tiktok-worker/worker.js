@@ -6,7 +6,8 @@
 //   /post      GitHub robot (sirf Alex-zeee/daddy-trader-portfolio, GitHub OIDC se pehchan) card bhejta hai
 //   /img/...   TikTok yahin se tasveer uthata hai (2 ghante baad khud mit jati hai)
 // Bindings: TT (KV namespace). Secrets: TT_CLIENT_KEY, TT_CLIENT_SECRET. Var (ikhtiyari): TT_PRIVACY
-// TikTok approval se pehle har post sirf "SELF_ONLY" (private) hoti hai; approval ke baad TT_PRIVACY = PUBLIC_TO_EVERYONE.
+// Aam tor par card TikTok inbox mein draft ban kar jata hai (MEDIA_UPLOAD): notification aati hai, aap khud Post dabate hain.
+// TikTok audit pass ho jaye to Var TT_MODE = DIRECT_POST (seedha post) aur TT_PRIVACY = PUBLIC_TO_EVERYONE.
 
 const SELF = "https://daddytrader-tiktok.blankweb1.workers.dev";
 const REDIRECT = "https://daddytrader.live/tiktok-callback.html";
@@ -111,24 +112,24 @@ async function post(env, b) {
     urls.push(SELF + "/img/" + id + ".jpg");
   }
   if (!urls.length) return { ok: false, error: "koi tasveer nahi" };
-  const ci = await tt(env, "/post/publish/creator_info/query/", {});
-  const opts = (ci.data && ci.data.privacy_level_options) || [];
-  const want = env.TT_PRIVACY || "SELF_ONLY";
-  const privacy = opts.includes(want) ? want : opts.includes("SELF_ONLY") ? "SELF_ONLY" : opts[0] || "SELF_ONLY";
+  const direct = env.TT_MODE === "DIRECT_POST";
+  const post_info = { title: String(b.title || "").slice(0, 90), description: String(b.description || "").slice(0, 4000) };
+  let privacy = "draft";
+  if (direct) {
+    const ci = await tt(env, "/post/publish/creator_info/query/", {});
+    const opts = (ci.data && ci.data.privacy_level_options) || [];
+    const want = env.TT_PRIVACY || "SELF_ONLY";
+    privacy = opts.includes(want) ? want : opts.includes("SELF_ONLY") ? "SELF_ONLY" : opts[0] || "SELF_ONLY";
+    Object.assign(post_info, { privacy_level: privacy, disable_comment: false, auto_add_music: true });
+  }
   const init = await tt(env, "/post/publish/content/init/", {
-    post_info: {
-      title: String(b.title || "").slice(0, 90),
-      description: String(b.description || "").slice(0, 4000),
-      disable_comment: false,
-      privacy_level: privacy,
-      auto_add_music: true,
-    },
+    post_info,
     source_info: { source: "PULL_FROM_URL", photo_cover_index: 0, photo_images: urls },
-    post_mode: "DIRECT_POST",
+    post_mode: direct ? "DIRECT_POST" : "MEDIA_UPLOAD",
     media_type: "PHOTO",
   });
   const ok = !!(init.error && init.error.code === "ok");
-  return { ok, publish_id: init.data && init.data.publish_id, privacy, error: ok ? undefined : init.error || ci.error };
+  return { ok, publish_id: init.data && init.data.publish_id, privacy, error: ok ? undefined : init.error };
 }
 
 export default {
