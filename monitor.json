@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 06:01 PKT",
+ "updated": "09-11-2026 06:16 PKT",
  "gold": {
-  "price": 4104.89,
+  "price": 4106.89,
   "open": 4065.99,
-  "high": 4105.09,
+  "high": 4110.66,
   "low": 4054.86,
-  "chg": 0.96,
+  "chg": 1.01,
   "src": "XAUUSD Spot",
   "spark": [
-   4066.07,
    4066.04,
    4065.96,
    4066.04,
@@ -55,14 +54,15 @@
    4073.01,
    4100.41,
    4104.34,
-   4104.89
+   4107.29,
+   4106.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.55,
-   "chg": 1.44,
+   "price": 53.0,
+   "chg": 2.31,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    52.55
+    53.0
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.226,
-   "chg": -0.07,
+   "price": 102.217,
+   "chg": -0.08,
    "spark": [
     102.21,
     102.58,
@@ -114,7 +114,36 @@
     101.51,
     101.55,
     102.3,
-    102.226
+    102.217
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 90.37,
+   "chg": -0.51,
+   "spark": [
+    91.85,
+    93.74,
+    94.14,
+    95.09,
+    97.97,
+    101.41,
+    103.66,
+    101.79,
+    97.15,
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    90.37
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1152,
-   "chg": -0.68,
+   "price": 1.1158,
+   "chg": -0.62,
    "spark": [
     1.1213,
     1.1205,
@@ -172,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1152
+    1.1158
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3364,
-   "chg": -0.68,
+   "price": 1.3371,
+   "chg": -0.63,
    "spark": [
     1.3229,
     1.3242,
@@ -201,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3364
+    1.3371
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.297,
-   "chg": 0.51,
+   "price": 158.246,
+   "chg": 0.47,
    "spark": [
     158.063,
     158.203,
@@ -230,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    158.297
+    158.246
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2145.4,
-   "chg": 0.97,
+   "price": 2128.84,
+   "chg": 0.19,
    "spark": [
     2244.02,
     2242.28,
@@ -285,13 +314,13 @@
     2126.86,
     2124.05,
     2141.26,
-    2145.4
+    2128.84
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75288.5,
-   "chg": 0.73,
+   "price": 74891.2,
+   "chg": 0.2,
    "spark": [
     75943.2,
     75803.8,
@@ -340,7 +369,7 @@
     74387.1,
     74737.9,
     75141.3,
-    75285.0
+    74891.2
    ]
   }
  ],
@@ -397,39 +426,57 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794186103.095884,
+   "ts": 1794187010.013211,
    "title": "Oil prices dip as Trump says new Iran attacks \u2018unlikely\u2019 if talks progress",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "09 Nov \u00b7 06:01 AM",
+   "t": "09 Nov \u00b7 06:16 AM",
    "ur": "Trump kehta hai agar talks agey barhin toh naye Iran attacks ki umeed kam hai, jis se Oil prices halki neechay aagayin.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794186103.095884,
+   "ts": 1794187010.013211,
    "title": "Oil falls on open as Trump says fresh Iran attacks \u2019unlikely\u2019",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 06:01 AM",
+   "t": "09 Nov \u00b7 06:16 AM",
    "ur": "Trump kehte hain ke Iran par mazeed attacks ki umeed nahi, jis se Oil market open hote hi gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794186103.095884,
+   "ts": 1794187010.013211,
    "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-5010296",
-   "t": "09 Nov \u00b7 06:01 AM",
+   "t": "09 Nov \u00b7 06:16 AM",
    "ur": "US ne Iraq se kaha hai ke Iran ke sath zyada tar border crossings band kardein, Iraqi FM ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794186103.095884,
+   "ts": 1794187010.013211,
    "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
-   "t": "09 Nov \u00b7 06:01 AM",
+   "t": "09 Nov \u00b7 06:16 AM",
    "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794186009.0,
+   "title": "Gold ticks higher on softer oil, but Fed\u2019s 80% December hike odds cap gain",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-ticks-higher-on-softer-oil-but-fed-s-80-december-hike-odds-cap-gain/",
+   "t": "09 Nov \u00b7 06:00 AM",
+   "ur": "Oil kam honay se Gold thora up gaya hai, lekin Fed ke 80% December hike odds ki wajah se gain limit mein hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794183926.0,
+   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6799 \u2013 Reuters estimate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6799-reuters-estimate/",
+   "t": "09 Nov \u00b7 05:25 AM",
+   "ur": "Reuters estimate ke mutabiq PBOC USD/CNY reference rate 6.6799 set kare ga",
    "ur_by": "ai"
   },
   {
@@ -467,24 +514,6 @@
    "t": "09 Nov \u00b7 03:34 AM",
    "ur": "RBA ki Hunter ne warn kiya hai ke AI ki wajah se assets ki qeematon mein sharp change aa sakta hai kyunke boom se inflation barh rahi hai.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794176310.0,
-   "title": "Rubio says Iran talks not productive as Tehran\u2019s demands are unacceptable",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/rubio-says-iran-talks-not-productive-as-tehran-s-demands-are-unacceptable/",
-   "t": "09 Nov \u00b7 03:18 AM",
-   "ur": "Rubio ka kehna hai ke Iran ke sath talks productive nahi rahin kyunke Tehran ki demands accept karne wali nahi hain.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794174156.0,
-   "title": "Suspected Iranian drone strike halts Iraq gas field, cuts two thirds of Kurdistan power",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/suspected-iranian-drone-strike-halts-iraq-gas-field-cuts-two-thirds-of-kurdistan-power/",
-   "t": "09 Nov \u00b7 02:42 AM",
-   "ur": "Iraq ke gas field pe suspected Iranian drone attack ke baad Kurdistan ki do tihai power cut ho gayi hai.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -492,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
