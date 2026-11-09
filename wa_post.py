@@ -6,6 +6,7 @@ Ye script unhein channel par post karti hai. Har message ke saath card
 Yehi card Facebook page par bhi jaata hai (fb_post.py, FB_PAGE_TOKEN ho to).
 WhatsApp par card ke neeche sirf link (website, Facebook, TikTok); card na bane to poori likhai + link.
 Facebook par bhi card ke neeche sirf link (WhatsApp channel, website, TikTok). Link links.py mein hain.
+TikTok par bhi yehi card (tiktok_post.py), neeche Facebook, website aur channel ka link.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -151,6 +152,11 @@ def main():
         print("facebook: fb_post.py load nahi hua", e)
         fb_post = None
     fb = bool(fb_post and fb_post.TOKEN)
+    try:
+        import tiktok_post
+    except Exception as e:
+        print("tiktok: tiktok_post.py load nahi hua", e)
+        tiktok_post = None
     if not events or (not TOKEN and not fb):
         print("whatsapp/facebook: token nahi ya koi event nahi — skip")
         return
@@ -172,6 +178,9 @@ def main():
         if fb:
             # card par signal likha hai: neeche sirf link; card na bane to poori likhai + link
             fb_post.post(png, links.footer("facebook") if png else text(ev, "facebook"))
+        if png and tiktok_post:
+            # TikTok par bhi card, neeche sirf link (Facebook, website, WhatsApp channel)
+            tiktok_post.post([png])
         for to in targets:
             if not first:
                 time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
