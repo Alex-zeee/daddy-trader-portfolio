@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 03:46 PKT",
+ "updated": "10-11-2026 04:01 PKT",
  "gold": {
-  "price": 4140.47,
-  "open": 4067.48,
+  "price": 4138.67,
+  "open": 4068.77,
   "high": 4149.01,
   "low": 4054.86,
-  "chg": 1.79,
+  "chg": 1.72,
   "src": "XAUUSD Spot",
   "spark": [
-   4101.79,
    4106.43,
    4112.65,
    4109.24,
@@ -55,7 +54,8 @@
    4140.4,
    4140.71,
    4140.44,
-   4140.47
+   4140.78,
+   4138.67
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 101.682,
-   "chg": -0.6,
+   "price": 101.695,
+   "chg": -0.59,
    "spark": [
     102.21,
     102.58,
@@ -114,7 +114,36 @@
     101.51,
     101.55,
     102.3,
-    101.682
+    101.695
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 86.38,
+   "chg": -4.9,
+   "spark": [
+    91.85,
+    93.74,
+    94.14,
+    95.09,
+    97.97,
+    101.41,
+    103.66,
+    101.79,
+    97.15,
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.38
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1222,
-   "chg": -0.05,
+   "price": 1.1227,
+   "chg": -0.01,
    "spark": [
     1.1213,
     1.1205,
@@ -172,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1222
+    1.1227
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3437,
-   "chg": -0.14,
+   "price": 1.3442,
+   "chg": -0.1,
    "spark": [
     1.3229,
     1.3242,
@@ -201,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3437
+    1.3442
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.888,
-   "chg": 0.25,
+   "price": 157.906,
+   "chg": 0.26,
    "spark": [
     158.063,
     158.203,
@@ -230,15 +259,14 @@
     158.469,
     158.357,
     157.498,
-    157.888
+    157.906
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2131.49,
-   "chg": 0.31,
+   "price": 2132.6,
+   "chg": 0.37,
    "spark": [
-    2236.88,
     2233.53,
     2230.97,
     2233.22,
@@ -285,15 +313,15 @@
     2126.19,
     2127.82,
     2127.02,
-    2131.49
+    2133.33,
+    2132.6
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75150.5,
-   "chg": 0.55,
+   "price": 75164.3,
+   "chg": 0.56,
    "spark": [
-    75753.9,
     75688.0,
     75639.9,
     75676.3,
@@ -340,7 +368,8 @@
     74789.5,
     74770.7,
     74934.5,
-    75151.2
+    75195.3,
+    75164.3
    ]
   }
  ],
@@ -397,30 +426,30 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794264402.301168,
+   "ts": 1794265306.482617,
+   "title": "Gold rises almost 2% amid sliding dollar, slumping oil prices a day ahead of CPI",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
+   "t": "10 Nov \u00b7 04:01 AM",
+   "ur": "CPI data se aik din pehle dollar aur oil prices girne ki wajah se Gold taqreeban 2% barh gaya hai.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794265306.482617,
    "title": "Oil prices slide amid Trump\u2019s restraint on Iran strikes, Qatar mediation efforts",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "10 Nov \u00b7 03:46 AM",
+   "t": "10 Nov \u00b7 04:01 AM",
    "ur": "Trump ki Iran strikes par rok aur Qatar ki mediation ki wajah se oil prices gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794264402.301168,
+   "ts": 1794265306.482617,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 03:46 AM",
+   "t": "10 Nov \u00b7 04:01 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794264402.301168,
-   "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 03:46 AM",
-   "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
    "ur_by": "ai"
   },
   {
@@ -492,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
