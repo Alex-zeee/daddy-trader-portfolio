@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 19:01 PKT",
+ "updated": "09-11-2026 19:16 PKT",
  "gold": {
-  "price": 4125.56,
-  "open": 4065.99,
+  "price": 4124.17,
+  "open": 4068.9,
   "high": 4133.7,
   "low": 4054.86,
-  "chg": 1.47,
+  "chg": 1.36,
   "src": "XAUUSD Spot",
   "spark": [
-   4130.37,
    4129.93,
    4120.1,
    4116.78,
@@ -55,14 +54,15 @@
    4125.56,
    4120.7,
    4125.24,
-   4125.56
+   4122.72,
+   4124.17
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.845,
-   "chg": 2.01,
+   "price": 52.66,
+   "chg": 1.65,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    52.845
+    52.66
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.845,
-   "chg": -0.44,
+   "price": 101.843,
+   "chg": -0.45,
    "spark": [
     102.21,
     102.58,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.845
+    101.843
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.76,
-   "chg": -4.48,
+   "price": 87.12,
+   "chg": -4.08,
    "spark": [
     91.85,
     93.74,
@@ -143,13 +143,13 @@
     88.12,
     90.52,
     90.83,
-    86.76
+    87.12
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.843,
-   "chg": -0.33,
+   "price": 4.837,
+   "chg": -0.45,
    "spark": [
     5.244,
     5.24,
@@ -172,13 +172,13 @@
     4.894,
     4.837,
     4.859,
-    4.843
+    4.837
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1201,
-   "chg": -0.25,
+   "price": 1.1202,
+   "chg": -0.23,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1201
+    1.1202
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3417,
-   "chg": -0.29,
+   "price": 1.3419,
+   "chg": -0.28,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3417
+    1.3419
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.905,
-   "chg": 0.26,
+   "price": 157.949,
+   "chg": 0.29,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    157.905
+    157.949
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2120.23,
-   "chg": -0.22,
+   "price": 2119.32,
+   "chg": -0.26,
    "spark": [
     2234.4,
     2230.66,
@@ -314,13 +314,13 @@
     2110.5,
     2119.65,
     2123.0,
-    2120.23
+    2119.33
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74532.2,
-   "chg": -0.28,
+   "price": 74515.8,
+   "chg": -0.3,
    "spark": [
     75667.1,
     75640.8,
@@ -369,7 +369,7 @@
     74271.4,
     74820.3,
     74626.0,
-    74532.2
+    74517.5
    ]
   }
  ],
@@ -426,39 +426,57 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794232907.690169,
+   "ts": 1794233806.643773,
    "title": "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 07:01 PM",
+   "t": "09 Nov \u00b7 07:16 PM",
    "ur": "Oil gir gaya hai kyunke Trump ne new shipping attacks ke bawajood Iran par restraint ka ishara diya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794232907.690169,
+   "ts": 1794233806.643773,
    "title": "European gas edges higher as Hormuz Shipping hits offset Trump\u2019s pause on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-edges-higher-as-hormuz-shipping-hits-offset-trumps-pause-on-iran-5011016",
-   "t": "09 Nov \u00b7 07:01 PM",
+   "t": "09 Nov \u00b7 07:16 PM",
    "ur": "Hormuz shipping issues ki wajah se European gas mein thori tezi aayi hai, Trump ke Iran par pause ke bawajood.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794232907.690169,
+   "ts": 1794233806.643773,
    "title": "Iran defends two-day proposal for peace talks after US rejects conditions",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-defends-twoday-proposal-for-peace-talks-after-us-rejects-conditions-5010885",
-   "t": "09 Nov \u00b7 07:01 PM",
+   "t": "09 Nov \u00b7 07:16 PM",
    "ur": "Iran ne US ki conditions reject honay ke baad peace talks ke 2-day proposal ko defend kiya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794232907.690169,
+   "ts": 1794233806.643773,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "09 Nov \u00b7 07:01 PM",
+   "t": "09 Nov \u00b7 07:16 PM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794231224.0,
+   "title": "Morning Kickstart. Stock futures climb as Bitcoin nears its 200-day moving average. USD/oil lower.",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/morning-kickstart-stock-futures-climb-as-bitcoin-nears-its-200-day-moving-average-usd-is-lower/",
+   "t": "09 Nov \u00b7 06:33 PM",
+   "ur": "Morning kickstart! Stock futures up hain aur Bitcoin 200-day moving average ke paas hai, jabke USD aur oil down hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794229993.0,
+   "title": "Oil falls further on report that Trump asked Iraqi PM to bring Iran proposals to end the war",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/oil-falls-further-on-report-that-trump-asked-iraqi-pm-to-bring-iran-proposals-to-end-the-war/",
+   "t": "09 Nov \u00b7 06:13 PM",
+   "ur": "Oil mazeed gir gaya is khabar par ke Trump ne Iraqi PM se kaha hai ke war khatam karne ke liye Iran ke proposals laye.",
    "ur_by": "ai"
   },
   {
@@ -496,24 +514,6 @@
    "t": "09 Nov \u00b7 03:41 PM",
    "ur": "Gold futures $81 rally ke baad $51 gir gaye, kya buyers $4,115 wapas le saktay hain?",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794217428.0,
-   "title": "Ethereum remains vulnerable to further downside as traders brace for US CPI and Iran developments",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/ethereum-remains-vulnerable-to-further-downside-as-traders-brace-for-us-cpi-and-iran-developments/",
-   "t": "09 Nov \u00b7 02:43 PM",
-   "ur": "Ethereum par mazeed girne ka khatra hai kyunke traders US CPI aur Iran ki situation ka wait kar rahe hain",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794213948.0,
-   "title": "Gold remains skewed to the upside amid favourable macro backdrop, with US-Iran and CPI in focus",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-remains-skewed-to-the-upside-amid-favourable-macro-backdrop-with-us-iran-and-cpi-in-focus/",
-   "t": "09 Nov \u00b7 01:45 PM",
-   "ur": "Favourable macro backdrop aur US-Iran aur CPI ki focus ki wajah se Gold bullish side par hai.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
