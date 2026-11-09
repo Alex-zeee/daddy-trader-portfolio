@@ -17,6 +17,10 @@ Models:
   UNICORN: breaker block aur FVG overlap -> overlap mein entry
   SB     : Silver Bullet — 03-04 ya 10-11 NY ki window mein bana FVG
   TS     : Turtle Soup — PDH/PDL/session level ka false breakout, close wapas andar
+  CISD   : liquidity hunt (PDH/PDL ya session high/low sweep) -> CISD: candle us
+           series ke Open ke paar close kare jo price ko sweep tak le gayi thi
+           (mazboot body >= 0.8 ATR). SELL sirf premium, BUY sirf discount
+           (pichle din ke beech wale level se). Entry CISD candle ke close par.
 SL hamesha sweep/swing ke peeche. TP agli liquidity (kam az kam 1:2), warna 1:2.
 """
 from bisect import bisect_left
@@ -36,6 +40,7 @@ MODEL_NAMES = {
     "UNICORN": "Unicorn (Breaker + FVG)",
     "SB": "Silver Bullet",
     "TS": "Turtle Soup",
+    "CISD": "Liquidity Hunt + CISD",
 }
 
 P = {
@@ -48,6 +53,7 @@ P = {
     "pad_atr": 0.15,       # SL ke peeche thori jagah
     "min_risk": 1.5,       # $ — is se chhota SL spread mein kat jata hai
     "max_risk_atr": 6.0,
+    "cisd_disp": 0.8,      # CISD candle ki body >= 0.8 ATR
 }
 
 
@@ -413,7 +419,83 @@ def run(df, models=MODELS, start=0):
                     add_pend({"dir": dirn, "sl": sl, "made": i, "life": 8,
                               "ctx": {"fvg": [lo, hi, j], "sb_i": i}},
                              model="SB", entry=entry, why="Silver Bullet FVG")
+    if "CISD" in models:
+        out += run_cisd(d, lv, start)
+        out.sort(key=lambda s: s["i"])
     return out, d
+
+
+def _cisd_level(O, C, eb, dirn, lo_bound):
+    """SELL: extreme tak le jane wali bullish candles ki series ka pehla Open. BUY: ulta."""
+    up = dirn == "SELL"
+    k = eb
+    while k > lo_bound and not ((C[k] > O[k]) if up else (C[k] < O[k])):
+        k -= 1
+    first = k
+    while first - 1 > lo_bound and ((C[first - 1] > O[first - 1]) if up else (C[first - 1] < O[first - 1])):
+        first -= 1
+    return O[first], first
+
+
+def run_cisd(d, lv, start=0):
+    """Liquidity hunt + CISD model (M5)."""
+    O, H, L, C = (d[k].values for k in ("Open", "High", "Low", "Close"))
+    ATR, SESS = d["atr"].values, d["sess"].values
+    out, sweeps, used = [], [], set()
+    for i in range(20, len(d)):
+        atr = ATR[i]
+        if atr != atr or atr <= 0 or not SESS[i]:
+            continue
+        pad = P["pad_atr"] * atr
+        for side, dirn in (("high", "SELL"), ("low", "BUY")):
+            for p, name, _ in lv.external(i, side):
+                key = (round(p, 2), side)
+                if key in used:
+                    continue
+                prev_ok = (H[i - 1] < p) if side == "high" else (L[i - 1] > p)
+                hit = (H[i] > p) if side == "high" else (L[i] < p)
+                if hit and prev_ok:
+                    used.add(key)
+                    sweeps.append({"dir": dirn, "lvl": p, "name": name, "bar": i, "eb": i,
+                                   "ext": H[i] if side == "high" else L[i]})
+        keep = []
+        for w in sweeps:
+            if i - w["bar"] > P["sweep_life"]:
+                continue
+            dirn = w["dir"]
+            if i > w["bar"]:
+                if dirn == "SELL" and H[i] > w["ext"]:
+                    w["ext"], w["eb"] = H[i], i
+                if dirn == "BUY" and L[i] < w["ext"]:
+                    w["ext"], w["eb"] = L[i], i
+            if i == w["eb"]:
+                keep.append(w)
+                continue
+            lvl, first = _cisd_level(O, C, w["eb"], dirn, w["eb"] - 30)
+            if not (C[i] < lvl if dirn == "SELL" else C[i] > lvl):
+                keep.append(w)
+                continue
+            # CISD ho gaya: ab filter, phir sweep khatam
+            if abs(C[i] - O[i]) < P["cisd_disp"] * atr:
+                continue
+            mid = (lv.pdh[i] + lv.pdl[i]) / 2
+            if mid == mid and ((dirn == "SELL" and w["ext"] < mid) or (dirn == "BUY" and w["ext"] > mid)):
+                continue
+            if i < start:
+                continue
+            entry = C[i]
+            sl = w["ext"] + pad if dirn == "SELL" else w["ext"] - pad
+            risk = abs(entry - sl)
+            if risk < P["min_risk"] or risk > P["max_risk_atr"] * atr:
+                continue
+            tp, tpk = pick_tp(lv, i, dirn, entry, sl)
+            out.append({"model": "CISD", "type": dirn, "entry": round(entry, 2), "sl": round(sl, 2),
+                        "tp": tp, "tpk": tpk, "i": i, "ts": d.index[i],
+                        "why": "{} liquidity hunt -> CISD".format(w["name"]),
+                        "ctx": {"lvl": w["lvl"], "lvl_name": w["name"], "sweep_i": w["bar"],
+                                "ext": w["ext"], "ext_i": w["eb"], "cisd": lvl, "cisd_i": first}})
+        sweeps = keep
+    return out
 
 
 def simulate(sigs, d, spread=0.30, expire_h=12, one_at_a_time=True):

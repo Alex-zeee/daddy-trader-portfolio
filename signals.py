@@ -1,8 +1,9 @@
-"""Daddy Trader auto-signal bot v7 — ICT Model 1.
-Rule (ict_engine.py mein poori tafseel):
-  H1 FVG (HTF POI) ko price tap kare -> M5 par BOS (displacement ke saath)
-  -> usi move ka FVG -> price wapas FVG mein aaye to entry.
-  SL sweep/tap wale extreme ke peeche. TP agli liquidity (kam az kam 1:2).
+"""Daddy Trader auto-signal bot v8 — ICT rules (ict_engine.py mein poori tafseel):
+  M1     : H1 FVG tap -> M5 BOS -> FVG mein entry
+  2022   : PDH/PDL ya session high/low ka sweep -> MSS -> FVG mein entry
+  UNICORN: breaker block aur FVG ka overlap
+  CISD   : liquidity hunt (sweep) -> CISD (mazboot close) -> entry
+  SL sweep/swing ke peeche. TP agli liquidity (kam az kam 1:2).
   Sirf Asia, London aur New York sessions mein.
 Har 15 min scan, M5 candles.
 """
@@ -22,7 +23,7 @@ MIN_RR = 2.0
 MAX_SIGNALS = 8
 EXPIRE_HOURS = 12
 LOOKBACK = 1000          # M5 candles (~3.5 din) — H1 FVG aur pichle din ke levels ke liye
-LIVE_MODELS = ("M1",)
+LIVE_MODELS = ("M1", "2022", "UNICORN", "CISD")   # 11 mahine test: ~5 signal/hafta
 NEW_WINDOW_MIN = 75      # itne minute ke andar bana signal hi naya mana jaye
 
 
