@@ -1,15 +1,13 @@
 {
- "updated": "09-11-2026 22:01 PKT",
+ "updated": "09-11-2026 22:31 PKT",
  "gold": {
-  "price": 4110.54,
+  "price": 4105.67,
   "open": 4069.73,
   "high": 4133.7,
   "low": 4054.86,
-  "chg": 1.0,
+  "chg": 0.88,
   "src": "XAUUSD Spot",
   "spark": [
-   4121.7,
-   4123.5,
    4123.53,
    4119.5,
    4117.41,
@@ -55,14 +53,16 @@
    4114.58,
    4116.18,
    4109.72,
-   4110.54
+   4105.98,
+   4105.33,
+   4105.67
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.59,
-   "chg": 1.52,
+   "price": 52.71,
+   "chg": 1.75,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,42 @@
     52.12,
     52.233,
     51.803,
-    52.59
+    52.71
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 101.807,
+   "chg": -0.48,
+   "spark": [
+    102.21,
+    102.58,
+    102.18,
+    102.55,
+    102.0,
+    101.84,
+    101.98,
+    101.73,
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.807
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 87.89,
-   "chg": -3.24,
+   "price": 87.76,
+   "chg": -3.38,
    "spark": [
     91.85,
     93.74,
@@ -114,13 +143,13 @@
     88.12,
     90.52,
     90.83,
-    87.89
+    87.76
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.876,
-   "chg": 0.35,
+   "price": 4.884,
+   "chg": 0.51,
    "spark": [
     5.244,
     5.24,
@@ -143,42 +172,13 @@
     4.894,
     4.837,
     4.859,
-    4.876
-   ]
-  },
-  {
-   "name": "EUR/USD",
-   "price": 1.1208,
-   "chg": -0.18,
-   "spark": [
-    1.1213,
-    1.1205,
-    1.116,
-    1.1204,
-    1.1195,
-    1.1213,
-    1.1225,
-    1.1216,
-    1.1227,
-    1.1235,
-    1.1221,
-    1.1218,
-    1.1174,
-    1.113,
-    1.1156,
-    1.1183,
-    1.1157,
-    1.1192,
-    1.1207,
-    1.1235,
-    1.1228,
-    1.1208
+    4.884
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3422,
-   "chg": -0.26,
+   "price": 1.3426,
+   "chg": -0.22,
    "spark": [
     1.3229,
     1.3242,
@@ -201,13 +201,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3422
+    1.3426
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.964,
-   "chg": 0.3,
+   "price": 157.952,
+   "chg": 0.29,
    "spark": [
     158.063,
     158.203,
@@ -230,13 +230,13 @@
     158.469,
     158.357,
     157.498,
-    157.964
+    157.952
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2129.7,
-   "chg": 0.23,
+   "price": 2123.05,
+   "chg": -0.08,
    "spark": [
     2233.96,
     2232.3,
@@ -285,13 +285,13 @@
     2126.57,
     2145.02,
     2131.29,
-    2129.7
+    2123.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74950.9,
-   "chg": 0.28,
+   "price": 74736.4,
+   "chg": -0.01,
    "spark": [
     75691.3,
     75690.1,
@@ -340,7 +340,7 @@
     74803.1,
     75437.8,
     74979.9,
-    74950.9
+    74736.4
    ]
   }
  ],
@@ -397,30 +397,48 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794243713.282605,
+   "ts": 1794245507.354934,
    "title": "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 10:01 PM",
+   "t": "09 Nov \u00b7 10:31 PM",
    "ur": "Oil gir gaya hai kyunke Trump ne new shipping attacks ke bawajood Iran par restraint ka ishara diya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794243713.282605,
+   "ts": 1794245507.354934,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "09 Nov \u00b7 10:01 PM",
+   "t": "09 Nov \u00b7 10:31 PM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794243713.282605,
+   "ts": 1794245507.354934,
    "title": "European gas edges higher as Hormuz Shipping hits offset Trump\u2019s pause on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-edges-higher-as-hormuz-shipping-hits-offset-trumps-pause-on-iran-5011016",
-   "t": "09 Nov \u00b7 10:01 PM",
+   "t": "09 Nov \u00b7 10:31 PM",
    "ur": "Hormuz shipping issues ki wajah se European gas mein thori tezi aayi hai, Trump ke Iran par pause ke bawajood.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794242531.0,
+   "title": "USDCAD trades back near unchanged as buyers return",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/usdcad-trades-back-near-unchanged-as-buyers-return/",
+   "t": "09 Nov \u00b7 09:42 PM",
+   "ur": "USDCAD phir se unchanged ke qareeb trade kar raha hai kyunke buyers wapis aa gaye hain",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794240720.0,
+   "title": "NY Fed October survey shows 1, 3 and 5 year inflation expectations unchanged",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/ny-fed-october-survey-shows-1-3-and-5-year-inflation-expectations-unchanged/",
+   "t": "09 Nov \u00b7 09:12 PM",
+   "ur": "NY Fed ki October survey ke mutabiq 1, 3 aur 5 saal ki inflation expectations unchanged rahe hain",
    "ur_by": "ai"
   },
   {
@@ -467,24 +485,6 @@
    "t": "09 Nov \u00b7 04:45 PM",
    "ur": "US CPI data se pehle negative macro backdrop ki wajah se Solana abhi bhi downside pe hai.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794221998.0,
-   "title": "Crude oil is caught between hopes of a US-Iran deal and escalation risks. What's next?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/crude-oil-is-caught-between-hopes-of-a-us-iran-deal-and-escalation-risks-what-s-next/",
-   "t": "09 Nov \u00b7 03:59 PM",
-   "ur": "Crude oil US-Iran deal ki umeed aur escalation risks ke beech phansa hai, agla move kya hoga?",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794220865.0,
-   "title": "Gold futures rallied $81, then gave back $51. Can buyers reclaim $4,115?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-futures-rallied-81-then-gave-back-51-can-buyers-reclaim-4-115/",
-   "t": "09 Nov \u00b7 03:41 PM",
-   "ur": "Gold futures $81 rally ke baad $51 gir gaye, kya buyers $4,115 wapas le saktay hain?",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -492,6 +492,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
