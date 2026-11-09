@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 02:01 PKT",
+ "updated": "10-11-2026 02:16 PKT",
  "gold": {
-  "price": 4142.63,
-  "open": 4066.0,
+  "price": 4137.75,
+  "open": 4066.07,
   "high": 4149.01,
   "low": 4054.86,
-  "chg": 1.88,
+  "chg": 1.76,
   "src": "XAUUSD Spot",
   "spark": [
-   4091.77,
    4095.93,
    4097.44,
    4098.9,
@@ -55,14 +54,15 @@
    4147.4,
    4139.24,
    4142.02,
-   4142.63
+   4138.18,
+   4137.75
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.3,
-   "chg": 2.89,
+   "price": 53.34,
+   "chg": 2.97,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    53.3
+    53.34
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.69,
-   "chg": -0.6,
+   "price": 101.677,
+   "chg": -0.61,
    "spark": [
     102.21,
     102.58,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.69
+    101.677
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.91,
-   "chg": -4.32,
+   "price": 86.94,
+   "chg": -4.28,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    86.91
+    86.94
    ]
   },
   {
@@ -206,7 +206,7 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3443,
+   "price": 1.3442,
    "chg": -0.1,
    "spark": [
     1.3229,
@@ -230,20 +230,37 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3443
+    1.3442
    ]
   },
   {
-   "name": "Ethereum",
-   "price": 2127.28,
-   "chg": 0.12,
-   "spark": []
-  },
-  {
-   "name": "Bitcoin",
-   "price": 74735.8,
-   "chg": -0.01,
-   "spark": []
+   "name": "USD/JPY",
+   "price": 157.921,
+   "chg": 0.27,
+   "spark": [
+    158.063,
+    158.203,
+    158.52,
+    158.322,
+    157.957,
+    158.143,
+    157.806,
+    158.523,
+    158.268,
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    157.921
+   ]
   }
  ],
  "calendar": [
@@ -299,21 +316,30 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794258114.07903,
+   "ts": 1794259005.244976,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 02:01 AM",
+   "t": "10 Nov \u00b7 02:16 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794258114.07903,
+   "ts": 1794259005.244976,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 02:01 AM",
+   "t": "10 Nov \u00b7 02:16 AM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794258235.0,
+   "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+   "t": "10 Nov \u00b7 02:03 AM",
+   "ur": "Mangal ko October ki inflation ka ahem report aana hai, dekhte hain kya banta hai.",
    "ur_by": "ai"
   },
   {
@@ -378,15 +404,6 @@
    "t": "09 Nov \u00b7 08:30 PM",
    "ur": "Fed ke Goolsbee ka kehna hai ke services sector mein inflation ab barhni shuru ho gayi hai",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794231224.0,
-   "title": "Morning Kickstart. Stock futures climb as Bitcoin nears its 200-day moving average. USD/oil lower.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/morning-kickstart-stock-futures-climb-as-bitcoin-nears-its-200-day-moving-average-usd-is-lower/",
-   "t": "09 Nov \u00b7 06:33 PM",
-   "ur": "Morning Kickstart: Bitcoin ke 200-day moving average ke qareeb pohanchne par stock futures barh gaye, jabke USD aur oil down hain.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -394,6 +411,7 @@
   "label": "Fear"
  },
  "err": [
+  "kraken: HTTP Error 503: Service Unavailable",
   "FXStreet: HTTP Error 403: Forbidden",
   "gemini gemini-flash-latest: The read operation timed out",
   "gemini gemini-2.5-flash: HTTP 404"
