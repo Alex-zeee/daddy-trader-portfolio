@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 05:01 PKT",
+ "updated": "09-11-2026 05:16 PKT",
  "gold": {
-  "price": 4056.78,
+  "price": 4074.02,
   "open": 4065.99,
-  "high": 4074.37,
+  "high": 4075.16,
   "low": 4054.86,
-  "chg": -0.23,
+  "chg": 0.2,
   "src": "XAUUSD Spot",
   "spark": [
-   4066.06,
    4065.98,
    4065.97,
    4066.05,
@@ -55,14 +54,15 @@
    4068.09,
    4064.81,
    4055.05,
-   4056.78
+   4071.95,
+   4074.02
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.77,
-   "chg": -0.06,
+   "price": 51.91,
+   "chg": 0.21,
    "spark": [
     60.67,
     60.141,
@@ -85,12 +85,12 @@
     52.12,
     52.233,
     51.803,
-    51.77
+    51.91
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.22,
+   "price": 102.216,
    "chg": -0.08,
    "spark": [
     102.21,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    102.22
+    102.216
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.39,
-   "chg": -0.48,
+   "price": 90.17,
+   "chg": -0.73,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    90.39
+    90.17
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1152,
-   "chg": -0.68,
+   "price": 1.1153,
+   "chg": -0.67,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1152
+    1.1153
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3362,
-   "chg": -0.7,
+   "price": 1.3365,
+   "chg": -0.68,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3362
+    1.3365
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.243,
-   "chg": 0.47,
+   "price": 158.219,
+   "chg": 0.46,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    158.243
+    158.219
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2120.03,
-   "chg": -0.22,
+   "price": 2138.67,
+   "chg": 0.65,
    "spark": [
     2243.63,
     2244.02,
@@ -314,13 +314,13 @@
     2125.0,
     2126.86,
     2124.05,
-    2119.16
+    2138.67
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74575.5,
-   "chg": -0.22,
+   "price": 75056.0,
+   "chg": 0.42,
    "spark": [
     75942.4,
     75943.2,
@@ -369,7 +369,7 @@
     74089.8,
     74387.1,
     74737.9,
-    74575.5
+    75056.0
    ]
   }
  ],
@@ -426,39 +426,66 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794182500.255529,
+   "ts": 1794183404.737572,
    "title": "US asks Iraq to shut most Iran border crossings, Iraqi foreign minister says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-asks-iraq-to-shut-most-iran-border-crossings-iraqi-foreign-minister-says-5010296",
-   "t": "09 Nov \u00b7 05:01 AM",
+   "t": "09 Nov \u00b7 05:16 AM",
    "ur": "US ne Iraq se kaha hai ke Iran ke sath zyada tar border crossings band kardein, Iraqi FM ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794182500.255529,
+   "ts": 1794183404.737572,
    "title": "Why gold is losing its shine: Goldman breaks down the recent sell-off",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-gold-is-losing-its-shine-goldman-breaks-down-the-recent-selloff-5010022",
-   "t": "09 Nov \u00b7 05:01 AM",
+   "t": "09 Nov \u00b7 05:16 AM",
    "ur": "Goldman ne bata diya ke Gold mein itni sell-off kyun aa rahi hai aur iska shine kyun kam ho raha hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794182500.255529,
+   "ts": 1794183404.737572,
    "title": "Brent posts worst week since April 2020 amid post-midterms hopes for Iran detente",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-fresh-tanker-attacks-but-heads-for-steep-weekly-loss-5006219",
-   "t": "09 Nov \u00b7 05:01 AM",
+   "t": "09 Nov \u00b7 05:16 AM",
    "ur": "Iran ke sath mamlaat theek hone ki umeed par Brent crude ka April 2020 ke baad sab se bura hafta raha.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794182500.255529,
+   "ts": 1794183404.737572,
    "title": "Gold prices fall as blowout U.S. jobs report boosts Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
-   "t": "09 Nov \u00b7 05:01 AM",
+   "t": "09 Nov \u00b7 05:16 AM",
    "ur": "Strong US jobs data ki wajah se Fed rate hike ki umeed barh gayi hai, jis se Gold prices gir gaye hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794182186.0,
+   "title": "Trump eyes Xi, Putin meeting at APEC on Iran war, says he\u2019d \u2018certainly take\u2019 Huang",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/trump-eyes-xi-putin-meeting-at-apec-on-iran-war-says-he-d-certainly-take-huang/",
+   "t": "09 Nov \u00b7 04:56 AM",
+   "ur": "Trump Iran war par APEC mein Xi aur Putin se meeting chahte hain, aur kaha ke woh Huang ko zaroor sath le kar chalenge.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794181520.0,
+   "title": "Recap - BOJ\u2019s Ueda sees inflation near 2% but flags upside risks as energy costs bite",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/recap-boj-s-ueda-sees-inflation-near-2-but-flags-upside-risks-as-energy-costs-bite/",
+   "t": "09 Nov \u00b7 04:45 AM",
+   "ur": "BOJ ke Ueda inflation 2% ke qareeb dekh rahe hain, magar energy costs barhne se mazeed ooper jane ka risk bhi bataya.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794179235.0,
+   "title": "China October inflation preview: CPI seen near 0.8%, PPI above 5%",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/china-october-inflation-preview-cpi-seen-near-0-8-ppi-above-5/",
+   "t": "09 Nov \u00b7 04:07 AM",
+   "ur": "China October inflation preview: CPI 0.8% ke qareeb aur PPI 5% se ooper rehne ki umeed hai.",
    "ur_by": "ai"
   },
   {
@@ -486,33 +513,6 @@
    "link": "https://investinglive.com/commodities/suspected-iranian-drone-strike-halts-iraq-gas-field-cuts-two-thirds-of-kurdistan-power/",
    "t": "09 Nov \u00b7 02:42 AM",
    "ur": "Iraq ke gas field pe suspected Iranian drone attack ke baad Kurdistan ki do tihai power cut ho gayi hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794173184.0,
-   "title": "Weekend: Trump says new Iran strikes \u2018highly unlikely\u2019 five times (but three carriers stay ready)",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/weekend-trump-says-new-iran-strikes-highly-unlikely-five-times-but-three-carriers-stay-ready/",
-   "t": "09 Nov \u00b7 02:26 AM",
-   "ur": "Weekend pe Trump ne kaha ke new Iran strikes 'highly unlikely' hain, par teen carriers ready rakhe hain.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794024521.0,
-   "title": "Gold analysis: Buyers keep defending $4,040. Is $4,140 the next target?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-analysis-buyers-keep-defending-4-040-is-4-140-the-next-target/",
-   "t": "07 Nov \u00b7 09:08 AM",
-   "ur": "Gold analysis: Buyers $4,040 ko defend kar rahe hain, kya ab agla target $4,140 hai?",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794001959.0,
-   "title": "investingLive Americas market news wrap: Non-farm payrolls beat estimates",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-americas-market-news-wrap-non-farm-payrolls-beat-estimates/",
-   "t": "07 Nov \u00b7 02:52 AM",
-   "ur": "Americas market news: Non-farm payrolls data umeed se behtar aya hai.",
    "ur_by": "ai"
   }
  ],
