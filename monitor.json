@@ -1,14 +1,13 @@
 {
- "updated": "09-11-2026 15:16 PKT",
+ "updated": "09-11-2026 15:31 PKT",
  "gold": {
-  "price": 4099.15,
+  "price": 4096.48,
   "open": 4065.99,
   "high": 4133.7,
   "low": 4054.86,
-  "chg": 0.82,
+  "chg": 0.75,
   "src": "XAUUSD Spot",
   "spark": [
-   4067.32,
    4066.85,
    4069.43,
    4068.09,
@@ -55,14 +54,15 @@
    4095.93,
    4097.44,
    4098.9,
-   4099.15
+   4097.3,
+   4096.48
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.585,
-   "chg": 1.51,
+   "price": 52.615,
+   "chg": 1.57,
    "spark": [
     60.67,
     60.141,
@@ -85,12 +85,12 @@
     52.12,
     52.233,
     51.803,
-    52.585
+    52.615
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.833,
+   "price": 101.83,
    "chg": -0.46,
    "spark": [
     102.21,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.833
+    101.83
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 90.34,
-   "chg": -0.54,
+   "price": 90.0,
+   "chg": -0.91,
    "spark": [
     91.85,
     93.74,
@@ -143,42 +143,13 @@
     88.12,
     90.52,
     90.83,
-    90.34
-   ]
-  },
-  {
-   "name": "US 10Y Yield",
-   "price": 4.859,
-   "chg": 0.45,
-   "spark": [
-    5.231,
-    5.244,
-    5.24,
-    5.217,
-    5.19,
-    5.089,
-    5.098,
-    5.136,
-    5.117,
-    5.146,
-    4.953,
-    4.988,
-    4.986,
-    4.993,
-    5.045,
-    4.989,
-    4.929,
-    4.894,
-    4.952,
-    4.894,
-    4.837,
-    4.859
+    90.0
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1198,
-   "chg": -0.27,
+   "price": 1.1197,
+   "chg": -0.28,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +172,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1198
+    1.1197
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.342,
-   "chg": -0.27,
+   "price": 1.3423,
+   "chg": -0.25,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +201,42 @@
     1.3434,
     1.3477,
     1.3456,
-    1.342
+    1.3423
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 157.965,
+   "chg": 0.3,
+   "spark": [
+    158.063,
+    158.203,
+    158.52,
+    158.322,
+    157.957,
+    158.143,
+    157.806,
+    158.523,
+    158.268,
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    157.965
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2098.69,
-   "chg": -1.23,
+   "price": 2103.76,
+   "chg": -0.99,
    "spark": [
     2242.3,
     2239.09,
@@ -285,13 +285,13 @@
     2090.93,
     2120.51,
     2106.16,
-    2098.69
+    2103.76
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74060.0,
-   "chg": -0.91,
+   "price": 74135.3,
+   "chg": -0.81,
    "spark": [
     75886.2,
     75802.3,
@@ -340,7 +340,7 @@
     73777.0,
     74459.6,
     74191.0,
-    74060.0
+    74135.3
    ]
   }
  ],
@@ -397,57 +397,48 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794219404.449357,
+   "ts": 1794220305.792124,
    "title": "Iran defends two-day proposal for peace talks after US rejects conditions",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-defends-twoday-proposal-for-peace-talks-after-us-rejects-conditions-5010885",
-   "t": "09 Nov \u00b7 03:16 PM",
+   "t": "09 Nov \u00b7 03:31 PM",
    "ur": "Iran ne US ki conditions reject honay ke baad peace talks ke 2-day proposal ko defend kiya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794219404.449357,
+   "ts": 1794220305.792124,
    "title": "China extends suspensions of 24% tariff on US goods, port fees on US ships for two months",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-24-tariff-on-us-imports-for-two-months-5010427",
-   "t": "09 Nov \u00b7 03:16 PM",
+   "t": "09 Nov \u00b7 03:31 PM",
    "ur": "China ne US goods par 24% tariff aur US ships ki port fees ki suspension mazeed do maheenay ke liye barha di hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794219404.449357,
+   "ts": 1794220305.792124,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "09 Nov \u00b7 03:16 PM",
+   "t": "09 Nov \u00b7 03:31 PM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794219404.449357,
+   "ts": 1794220305.792124,
    "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "09 Nov \u00b7 03:16 PM",
+   "t": "09 Nov \u00b7 03:31 PM",
    "ur": "Trump ki taraf se Iran par restraint ka ishara milne aur fresh shipping attacks ke baad Oil gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794219404.449357,
+   "ts": 1794220305.792124,
    "title": "Trump to meet Qatar\u2019s prime minister as Iran diplomacy faces hurdles",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-to-meet-qatars-prime-minister-as-iran-diplomacy-faces-hurdles-5010408",
-   "t": "09 Nov \u00b7 03:16 PM",
+   "t": "09 Nov \u00b7 03:31 PM",
    "ur": "Trump ki Qatar ke PM se meeting honi hai kyunke Iran diplomacy mein rukawatein aa rahi hain",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794217428.0,
-   "title": "Ethereum remains vulnerable to further downside as traders brace for US CPI and Iran developments",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/ethereum-remains-vulnerable-to-further-downside-as-traders-brace-for-us-cpi-and-iran-developments/",
-   "t": "09 Nov \u00b7 02:43 PM",
-   "ur": "Ethereum ki market mein abhi mazeed girawat ka khatra hai kyunke traders US CPI aur Iran ki situation ka wait kar rahe hain",
    "ur_by": "ai"
   },
   {
@@ -485,6 +476,15 @@
    "t": "09 Nov \u00b7 07:40 AM",
    "ur": "China ne APEC se pehle US goods par 24% tariff ki suspension barha di aur 10% levy rakhi hai",
    "ur_by": "ai"
+  },
+  {
+   "ts": 1794190042.0,
+   "title": "Goldman\u2019s AI memory basket plunges 51% from peak, JPMorgan sees earnings buffer for now",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/goldman-s-ai-memory-basket-plunges-51-from-peak-jpmorgan-sees-earnings-buffer-for-now/",
+   "t": "09 Nov \u00b7 07:07 AM",
+   "ur": "Goldman ka AI memory basket peak se 51% gir gaya hai, lekin JPMorgan ko abhi earnings buffer ki umeed hai.",
+   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -493,7 +493,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-flash-latest: The read operation timed out",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
