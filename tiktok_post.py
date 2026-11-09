@@ -2,7 +2,8 @@
 
 GitHub robot apni pehchan GitHub ke OIDC token se karata hai (workflow mein permissions: id-token: write),
 is liye yahan koi chabi/password nahi rakhna padta. TikTok ki chabi Cloudflare worker ke paas hai.
-TikTok ki approval se pehle har post sirf aap ko nazar aati hai (private).
+Card aap ke TikTok inbox mein draft ban kar jata hai: TikTok notification deta hai, aap khud "Post" dabate hain
+(TikTok bina audit ke seedhi public post nahi karne deta).
 
   python tiktok_post.py test   -> post-now/ folder ki tasveerein TikTok par (test ke liye)
 """
@@ -88,5 +89,5 @@ if __name__ == "__main__" and sys.argv[1:2] == ["test"]:
             st = status(res["publish_id"])
             s = (st.get("data") or {}).get("status")
             print("tiktok status:", s or st)
-            if s in ("PUBLISH_COMPLETE", "FAILED"):
+            if s in ("PUBLISH_COMPLETE", "FAILED", "SEND_TO_USER_INBOX"):
                 break
