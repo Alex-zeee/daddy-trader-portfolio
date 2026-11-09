@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 04:01 PKT",
+ "updated": "10-11-2026 04:16 PKT",
  "gold": {
-  "price": 4138.67,
-  "open": 4068.77,
+  "price": 4144.39,
+  "open": 4068.1,
   "high": 4149.01,
   "low": 4054.86,
-  "chg": 1.72,
+  "chg": 1.88,
   "src": "XAUUSD Spot",
   "spark": [
-   4106.43,
    4112.65,
    4109.24,
    4108.8,
@@ -55,14 +54,15 @@
    4140.71,
    4140.44,
    4140.78,
-   4138.67
+   4145.56,
+   4144.39
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.455,
-   "chg": 3.19,
+   "price": 53.41,
+   "chg": 3.1,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    53.455
+    53.41
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.695,
-   "chg": -0.59,
+   "price": 101.679,
+   "chg": -0.61,
    "spark": [
     102.21,
     102.58,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.695
+    101.679
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.38,
-   "chg": -4.9,
+   "price": 86.36,
+   "chg": -4.92,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    86.38
+    86.36
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3442,
-   "chg": -0.1,
+   "price": 1.3441,
+   "chg": -0.11,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3442
+    1.3441
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.906,
-   "chg": 0.26,
+   "price": 157.944,
+   "chg": 0.28,
    "spark": [
     158.063,
     158.203,
@@ -259,13 +259,13 @@
     158.469,
     158.357,
     157.498,
-    157.906
+    157.944
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2132.6,
-   "chg": 0.37,
+   "price": 2130.28,
+   "chg": 0.26,
    "spark": [
     2233.53,
     2230.97,
@@ -314,13 +314,13 @@
     2127.82,
     2127.02,
     2133.33,
-    2132.6
+    2130.28
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75164.3,
-   "chg": 0.56,
+   "price": 75084.4,
+   "chg": 0.46,
    "spark": [
     75688.0,
     75639.9,
@@ -369,7 +369,7 @@
     74770.7,
     74934.5,
     75195.3,
-    75164.3
+    75084.4
    ]
   }
  ],
@@ -426,29 +426,29 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794265306.482617,
+   "ts": 1794266204.935284,
    "title": "Gold rises almost 2% amid sliding dollar, slumping oil prices a day ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 04:01 AM",
+   "t": "10 Nov \u00b7 04:16 AM",
    "ur": "CPI data se aik din pehle dollar aur oil prices girne ki wajah se Gold taqreeban 2% barh gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794265306.482617,
+   "ts": 1794266204.935284,
    "title": "Oil prices slide amid Trump\u2019s restraint on Iran strikes, Qatar mediation efforts",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "10 Nov \u00b7 04:01 AM",
+   "t": "10 Nov \u00b7 04:16 AM",
    "ur": "Trump ki Iran strikes par rok aur Qatar ki mediation ki wajah se oil prices gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794265306.482617,
+   "ts": 1794266204.935284,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 04:01 AM",
+   "t": "10 Nov \u00b7 04:16 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
    "ur_by": "ai"
   },
@@ -521,8 +521,6 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
-  "gemini gemini-2.5-flash: HTTP 404"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
