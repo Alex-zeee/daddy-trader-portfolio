@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 02:46 PKT",
+ "updated": "10-11-2026 03:01 PKT",
  "gold": {
-  "price": 4134.27,
-  "open": 4066.0,
+  "price": 4140.51,
+  "open": 4066.22,
   "high": 4149.01,
   "low": 4054.86,
-  "chg": 1.68,
+  "chg": 1.83,
   "src": "XAUUSD Spot",
   "spark": [
-   4098.9,
    4097.3,
    4097.12,
    4099.07,
@@ -55,14 +54,15 @@
    4138.18,
    4140.19,
    4135.09,
-   4134.27
+   4141.35,
+   4140.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.37,
-   "chg": 3.02,
+   "price": 53.525,
+   "chg": 3.32,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    53.37
+    53.525
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.683,
-   "chg": -0.6,
+   "price": 101.671,
+   "chg": -0.61,
    "spark": [
     102.21,
     102.58,
@@ -114,13 +114,13 @@
     101.51,
     101.55,
     102.3,
-    101.683
+    101.671
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.75,
-   "chg": -4.49,
+   "price": 86.33,
+   "chg": -4.95,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    86.75
+    86.33
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1226,
-   "chg": -0.02,
+   "price": 1.1227,
+   "chg": -0.01,
    "spark": [
     1.1213,
     1.1205,
@@ -201,13 +201,13 @@
     1.1207,
     1.1235,
     1.1228,
-    1.1226
+    1.1227
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.344,
-   "chg": -0.12,
+   "price": 1.3443,
+   "chg": -0.1,
    "spark": [
     1.3229,
     1.3242,
@@ -230,13 +230,13 @@
     1.3434,
     1.3477,
     1.3456,
-    1.344
+    1.3443
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.914,
-   "chg": 0.26,
+   "price": 157.866,
+   "chg": 0.23,
    "spark": [
     158.063,
     158.203,
@@ -259,15 +259,14 @@
     158.469,
     158.357,
     157.498,
-    157.914
+    157.866
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2124.67,
-   "chg": -0.01,
+   "price": 2126.24,
+   "chg": 0.07,
    "spark": [
-    2231.41,
     2236.88,
     2233.53,
     2230.97,
@@ -314,15 +313,15 @@
     2123.69,
     2126.19,
     2127.82,
-    2124.67
+    2127.02,
+    2126.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74772.1,
-   "chg": 0.04,
+   "price": 74929.9,
+   "chg": 0.25,
    "spark": [
-    75669.8,
     75753.9,
     75688.0,
     75639.9,
@@ -369,7 +368,8 @@
     74598.1,
     74789.5,
     74770.7,
-    74772.1
+    74934.5,
+    74929.9
    ]
   }
  ],
@@ -426,21 +426,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794260808.538417,
+   "ts": 1794261704.9085,
+   "title": "Oil prices slide amid Trump\u2019s restraint on Iran strikes, Qatar mediation efforts",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
+   "t": "10 Nov \u00b7 03:01 AM",
+   "ur": "Trump ki Iran strikes par rok aur Qatar ki mediation ki wajah se oil prices gir gayin",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794261704.9085,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 02:46 AM",
+   "t": "10 Nov \u00b7 03:01 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794260808.538417,
+   "ts": 1794261704.9085,
    "title": "Gold rebounds as weaker dollar offsets bets on December Fed rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 02:46 AM",
+   "t": "10 Nov \u00b7 03:01 AM",
    "ur": "Dollar kamzor hone ki wajah se Gold wapas oopar aa gaya hai, halankikin December Fed rate hike ki umeedain abhi bhi hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794261150.0,
+   "title": "3 unexpected reasons why the October jobs report was so strong",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+   "t": "10 Nov \u00b7 02:52 AM",
+   "ur": "October jobs report itni strong kyun aayi, iski 3 unexpected wajah samne aa gayi hain",
    "ur_by": "ai"
   },
   {
@@ -496,24 +514,6 @@
    "t": "09 Nov \u00b7 09:42 PM",
    "ur": "USDCAD phir se unchanged ke qareeb trade kar raha hai kyunke buyers wapis aa gaye hain",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794240720.0,
-   "title": "NY Fed October survey shows 1, 3 and 5 year inflation expectations unchanged",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/ny-fed-october-survey-shows-1-3-and-5-year-inflation-expectations-unchanged/",
-   "t": "09 Nov \u00b7 09:12 PM",
-   "ur": "NY Fed ki October survey ke mutabiq 1, 3 aur 5 saal ki inflation expectations unchanged rahe hain",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794238240.0,
-   "title": "Fed's Goolsbee: Starting to see inflation kicking up in services",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/fed-s-goolsbee-starting-to-see-inflation-kicking-up-in-services/",
-   "t": "09 Nov \u00b7 08:30 PM",
-   "ur": "Fed ke Goolsbee ka kehna hai ke services sector mein inflation ab barhni shuru ho gayi hai",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
