@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 04:46 PKT",
+ "updated": "10-11-2026 05:01 PKT",
  "gold": {
-  "price": 4138.79,
-  "open": 4055.55,
+  "price": 4139.26,
+  "open": 4071.87,
   "high": 4149.01,
-  "low": 4055.55,
-  "chg": 2.05,
+  "low": 4064.64,
+  "chg": 1.66,
   "src": "XAUUSD Spot",
   "spark": [
-   4108.8,
    4114.1,
    4116.53,
    4123.24,
@@ -55,7 +54,8 @@
    4145.56,
    4143.88,
    4138.0,
-   4138.79
+   4137.13,
+   4139.26
   ]
  },
  "markets": [
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 86.49,
-   "chg": -4.78,
+   "price": 86.46,
+   "chg": -4.81,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    86.49
+    86.46
    ]
   },
   {
@@ -178,9 +178,8 @@
   {
    "name": "EUR/USD",
    "price": 1.1226,
-   "chg": -0.02,
+   "chg": 0.7,
    "spark": [
-    1.1213,
     1.1205,
     1.116,
     1.1204,
@@ -201,15 +200,15 @@
     1.1207,
     1.1235,
     1.1228,
+    1.1147,
     1.1226
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3442,
-   "chg": -0.1,
+   "price": 1.3441,
+   "chg": 0.6,
    "spark": [
-    1.3229,
     1.3242,
     1.321,
     1.3257,
@@ -230,15 +229,15 @@
     1.3434,
     1.3477,
     1.3456,
-    1.3442
+    1.336,
+    1.3441
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.987,
-   "chg": 0.31,
+   "price": 157.995,
+   "chg": -0.19,
    "spark": [
-    158.063,
     158.203,
     158.52,
     158.322,
@@ -259,15 +258,15 @@
     158.469,
     158.357,
     157.498,
-    157.987
+    158.292,
+    157.995
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2130.81,
-   "chg": 0.28,
+   "price": 2131.76,
+   "chg": -0.02,
    "spark": [
-    2233.53,
     2230.97,
     2233.22,
     2234.65,
@@ -314,15 +313,15 @@
     2127.82,
     2127.02,
     2133.33,
-    2130.81
+    2132.65,
+    2131.76
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75144.1,
-   "chg": 0.54,
+   "price": 75207.8,
+   "chg": -0.06,
    "spark": [
-    75688.0,
     75639.9,
     75676.3,
     75806.3,
@@ -369,7 +368,8 @@
     74770.7,
     74934.5,
     75195.3,
-    75140.4
+    75253.1,
+    75207.8
    ]
   }
  ],
@@ -426,29 +426,29 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794268003.359992,
+   "ts": 1794268910.311197,
    "title": "Gold rises almost 2% amid sliding dollar, slumping oil prices a day ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 04:46 AM",
+   "t": "10 Nov \u00b7 05:01 AM",
    "ur": "CPI data se aik din pehle dollar aur oil prices girne ki wajah se Gold taqreeban 2% barh gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794268003.359992,
+   "ts": 1794268910.311197,
    "title": "Oil prices slide amid Trump\u2019s restraint on Iran strikes, Qatar mediation efforts",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "10 Nov \u00b7 04:46 AM",
+   "t": "10 Nov \u00b7 05:01 AM",
    "ur": "Trump ki Iran strikes par rok aur Qatar ki mediation ki wajah se oil prices gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794268003.359992,
+   "ts": 1794268910.311197,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 04:46 AM",
+   "t": "10 Nov \u00b7 05:01 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
    "ur_by": "ai"
   },
@@ -517,7 +517,7 @@
   }
  ],
  "sentiment": {
-  "value": 29,
+  "value": 32,
   "label": "Fear"
  },
  "err": [
