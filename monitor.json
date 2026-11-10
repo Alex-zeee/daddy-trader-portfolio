@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 05:01 PKT",
+ "updated": "10-11-2026 05:16 PKT",
  "gold": {
-  "price": 4139.26,
-  "open": 4071.87,
+  "price": 4136.95,
+  "open": 4072.22,
   "high": 4149.01,
-  "low": 4064.64,
-  "chg": 1.66,
+  "low": 4070.54,
+  "chg": 1.59,
   "src": "XAUUSD Spot",
   "spark": [
-   4114.1,
    4116.53,
    4123.24,
    4119.04,
@@ -55,14 +54,15 @@
    4143.88,
    4138.0,
    4137.13,
-   4139.26
+   4134.18,
+   4136.95
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.455,
-   "chg": 3.19,
+   "price": 53.385,
+   "chg": 3.05,
    "spark": [
     60.67,
     60.141,
@@ -85,7 +85,7 @@
     52.12,
     52.233,
     51.803,
-    53.455
+    53.385
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 86.46,
-   "chg": -4.81,
+   "price": 86.44,
+   "chg": -4.83,
    "spark": [
     91.85,
     93.74,
@@ -143,7 +143,7 @@
     88.12,
     90.52,
     90.83,
-    86.46
+    86.44
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1226,
-   "chg": 0.7,
+   "price": 1.1221,
+   "chg": 0.66,
    "spark": [
     1.1205,
     1.116,
@@ -201,13 +201,13 @@
     1.1235,
     1.1228,
     1.1147,
-    1.1226
+    1.1221
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3441,
-   "chg": 0.6,
+   "price": 1.3439,
+   "chg": 0.59,
    "spark": [
     1.3242,
     1.321,
@@ -230,13 +230,13 @@
     1.3477,
     1.3456,
     1.336,
-    1.3441
+    1.3439
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 157.995,
-   "chg": -0.19,
+   "price": 158.07,
+   "chg": -0.14,
    "spark": [
     158.203,
     158.52,
@@ -259,13 +259,13 @@
     158.357,
     157.498,
     158.292,
-    157.995
+    158.07
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2131.76,
-   "chg": -0.02,
+   "price": 2130.08,
+   "chg": -0.1,
    "spark": [
     2230.97,
     2233.22,
@@ -314,13 +314,13 @@
     2127.02,
     2133.33,
     2132.65,
-    2131.76
+    2130.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75207.8,
-   "chg": -0.06,
+   "price": 75174.8,
+   "chg": -0.1,
    "spark": [
     75639.9,
     75676.3,
@@ -369,7 +369,7 @@
     74934.5,
     75195.3,
     75253.1,
-    75207.8
+    75174.8
    ]
   }
  ],
@@ -426,31 +426,45 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794268910.311197,
+   "ts": 1794269805.175212,
    "title": "Gold rises almost 2% amid sliding dollar, slumping oil prices a day ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 05:01 AM",
+   "t": "10 Nov \u00b7 05:16 AM",
    "ur": "CPI data se aik din pehle dollar aur oil prices girne ki wajah se Gold taqreeban 2% barh gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794268910.311197,
+   "ts": 1794269805.175212,
    "title": "Oil prices slide amid Trump\u2019s restraint on Iran strikes, Qatar mediation efforts",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "10 Nov \u00b7 05:01 AM",
+   "t": "10 Nov \u00b7 05:16 AM",
    "ur": "Trump ki Iran strikes par rok aur Qatar ki mediation ki wajah se oil prices gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794268910.311197,
+   "ts": 1794269805.175212,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 05:01 AM",
+   "t": "10 Nov \u00b7 05:16 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
    "ur_by": "ai"
+  },
+  {
+   "ts": 1794267558.0,
+   "title": "US CPI preview: 43-day shutdown leaves no official annual rate as monthly pace seen easing",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/us-cpi-preview-43-day-shutdown-leaves-no-official-annual-rate-as-monthly-pace-seen-easing/",
+   "t": "10 Nov \u00b7 04:39 AM"
+  },
+  {
+   "ts": 1794266349.0,
+   "title": "BlackRock: an AI spending slowdown in 2027 would hurt markets but could also lower yields",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stock-market-update/blackrock-an-ai-spending-slowdown-in-2027-would-hurt-markets-but-could-also-lower-yields/",
+   "t": "10 Nov \u00b7 04:19 AM"
   },
   {
    "ts": 1794263499.0,
@@ -496,24 +510,6 @@
    "t": "10 Nov \u00b7 02:03 AM",
    "ur": "Americas market update: Iran ke baray mein positive khabron aur tech sector mein rebound ki wajah se risk appetite barh gayi hai.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794258235.0,
-   "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-   "t": "10 Nov \u00b7 02:03 AM",
-   "ur": "Mangal ko October ki inflation ka ahem report aana hai, dekhte hain kya banta hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794253371.0,
-   "title": "Stock markets hit fresh highs on Iran headlines",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/stock-markets-hit-fresh-highs-on-iran-headlines/",
-   "t": "10 Nov \u00b7 12:42 AM",
-   "ur": "Iran ki khabron par stock markets nay new highs hit kar liye hain",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -521,6 +517,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 429",
+  "translate: 2/10 failed"
  ]
 }
