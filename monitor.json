@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 14:16 PKT",
+ "updated": "10-11-2026 14:31 PKT",
  "gold": {
-  "price": 4094.6,
-  "open": 4092.51,
+  "price": 4090.75,
+  "open": 4095.71,
   "high": 4149.01,
   "low": 4087.53,
-  "chg": 0.05,
+  "chg": -0.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4135.09,
    4141.35,
    4140.4,
    4140.71,
@@ -55,14 +54,15 @@
    4116.84,
    4114.12,
    4096.5,
-   4094.6
+   4091.32,
+   4090.75
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.585,
-   "chg": 0.04,
+   "price": 52.54,
+   "chg": -0.05,
    "spark": [
     60.141,
     59.161,
@@ -85,13 +85,13 @@
     52.233,
     51.803,
     52.564,
-    52.585
+    52.54
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.598,
-   "chg": -0.05,
+   "price": 101.64,
+   "chg": -0.01,
    "spark": [
     102.58,
     102.18,
@@ -114,13 +114,13 @@
     101.55,
     102.3,
     101.65,
-    101.598
+    101.64
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.99,
-   "chg": -2.14,
+   "price": 84.92,
+   "chg": -2.22,
    "spark": [
     93.74,
     94.14,
@@ -143,7 +143,7 @@
     90.52,
     90.83,
     86.85,
-    84.99
+    84.92
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.119,
-   "chg": -0.11,
+   "price": 158.032,
+   "chg": -0.16,
    "spark": [
     158.203,
     158.52,
@@ -259,13 +259,13 @@
     158.357,
     157.498,
     158.292,
-    158.119
+    158.032
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2101.79,
-   "chg": -1.42,
+   "price": 2101.64,
+   "chg": -1.43,
    "spark": [
     2233.16,
     2237.44,
@@ -314,13 +314,13 @@
     2115.12,
     2113.36,
     2115.53,
-    2101.79
+    2101.65
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74299.4,
-   "chg": -1.27,
+   "price": 74351.0,
+   "chg": -1.2,
    "spark": [
     75793.8,
     75871.7,
@@ -369,7 +369,7 @@
     74551.4,
     74747.7,
     74619.7,
-    74299.4
+    74351.0
    ]
   }
  ],
@@ -426,48 +426,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794302209.210425,
+   "ts": 1794303107.834652,
    "title": "Oil falls as Trump downplays prospect of escalation with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran-5013892",
-   "t": "10 Nov \u00b7 02:16 PM",
+   "t": "10 Nov \u00b7 02:31 PM",
    "ur": "Trump ki taraf se Iran ke sath escalation kam hone ki umeed par Oil gir gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794302209.210425,
+   "ts": 1794303107.834652,
    "title": "Gold slips as investors await U.S. inflation data for Fed rate clues",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4130-as-oil-retreat-eases-inflation-concerns-5013846",
-   "t": "10 Nov \u00b7 02:16 PM",
+   "t": "10 Nov \u00b7 02:31 PM",
    "ur": "Gold thora gir gaya hai kyunke investors ko Fed ke rate cuts ka andaza laganay ke liye U.S. inflation data ka intezaar hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794302209.210425,
+   "ts": 1794303107.834652,
    "title": "Oil prices dip 1% amid Iran peace hopes, improving supplies",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-amid-iran-peace-hopes-improving-supplies-5013753",
-   "t": "10 Nov \u00b7 02:16 PM",
+   "t": "10 Nov \u00b7 02:31 PM",
    "ur": "Iran peace hopes ki wajah se aur supply behtar hone par Oil prices 1% dip ho gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794302209.210425,
+   "ts": 1794303107.834652,
    "title": "Gold rises almost 2% amid sliding dollar, slumping oil prices a day ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 02:16 PM",
+   "t": "10 Nov \u00b7 02:31 PM",
    "ur": "CPI data se aik din pehle dollar aur oil prices girne ki wajah se Gold taqreeban 2% barh gaya hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794299045.0,
-   "title": "Gold holds near recent highs as markets await US CPI and Iran breakthrough",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-holds-near-recent-highs-as-markets-await-us-cpi-and-iran-breakthrough/",
-   "t": "10 Nov \u00b7 01:24 PM",
-   "ur": "Gold apnay recent highs ke qareeb hold kar raha hai kyunke market ko US CPI aur Iran breakthrough ka intezaar hai",
    "ur_by": "ai"
   },
   {
@@ -514,6 +505,13 @@
    "t": "10 Nov \u00b7 06:16 AM",
    "ur": "PBOC ne USD/CNY ka central rate 6.7167 set kiya hai jabke estimate 6.6655 tha.",
    "ur_by": "ai"
+  },
+  {
+   "ts": 1794271692.0,
+   "title": "The view from China: CITIC sees Iran war risk \u2018bounded\u2019 as blockade outlasts US midterms",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/the-view-from-china-citic-sees-iran-war-risk-bounded-as-blockade-outlasts-us-midterms/",
+   "t": "10 Nov \u00b7 05:48 AM"
   }
  ],
  "sentiment": {
@@ -523,6 +521,8 @@
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
   "gemini gemini-flash-latest: HTTP 503",
-  "gemini gemini-2.5-flash: HTTP 404"
+  "gemini gemini-2.5-flash: HTTP 404",
+  "gemini gemini-flash-lite-latest: HTTP 503",
+  "translate: 1/10 failed"
  ]
 }
