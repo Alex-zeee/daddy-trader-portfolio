@@ -1,0 +1,30 @@
+name: News Post
+# USD news se pehle "NEWS SELL" ya "NEWS BUY" ka card Facebook aur WhatsApp par. Sirf haath se chalta hai.
+on:
+  workflow_dispatch:
+    inputs:
+      side:
+        description: "sell ya buy"
+        required: true
+        type: choice
+        options: [sell, buy]
+permissions:
+  contents: read
+concurrency:
+  group: news-post
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q pillow; sudo apt-get install -y -qq fonts-inter >/dev/null 2>&1 || true
+      - run: python news_post.py
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+          WA_CHANNEL_ID: ${{ secrets.WA_CHANNEL_ID }}
+          SIDE: ${{ github.event.inputs.side }}
