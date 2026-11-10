@@ -13,6 +13,9 @@ import links
 import signal_card as sc
 
 
+COLOR = {"BUY": (56, 189, 248), "SELL": (239, 48, 48)}   # BUY aasmani neela, SELL laal
+
+
 def make(side):
     """side: "SELL" ya "BUY" -> card ki PNG bytes."""
     text = "NEWS " + side
@@ -28,7 +31,7 @@ def make(side):
     cx = x + w / 2
     d.ellipse((cx - dot / 2, y, cx + dot / 2, y + dot), fill=sc.ORANGE)
     d.ellipse((cx - dot / 2 + 5, y + 4, cx + dot / 2 - 9, y + dot / 2 - 2), fill=sc.SHINE)
-    d.text((round(x), round(y + dot + gap - box[1])), text, font=f, fill=sc.WHITE)
+    d.text((round(x), round(y + dot + gap - box[1])), text, font=f, fill=COLOR[side])
     out = io.BytesIO()
     img.save(out, "PNG", optimize=True)
     return out.getvalue()
