@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 06:01 PKT",
+ "updated": "10-11-2026 06:16 PKT",
  "gold": {
-  "price": 4124.44,
-  "open": 4107.85,
+  "price": 4131.81,
+  "open": 4109.76,
   "high": 4149.01,
   "low": 4083.16,
-  "chg": 0.4,
+  "chg": 0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   4125.56,
    4120.7,
    4125.24,
    4122.72,
@@ -55,14 +54,15 @@
    4126.75,
    4126.53,
    4122.63,
-   4124.44
+   4132.95,
+   4131.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 53.09,
-   "chg": 2.48,
+   "price": 53.645,
+   "chg": 3.56,
    "spark": [
     60.67,
     60.141,
@@ -85,13 +85,13 @@
     52.12,
     52.233,
     51.803,
-    53.09
+    53.645
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 101.715,
-   "chg": -0.57,
+   "price": 101.684,
+   "chg": -0.6,
    "spark": [
     102.21,
     102.58,
@@ -114,7 +114,36 @@
     101.51,
     101.55,
     102.3,
-    101.715
+    101.684
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 86.48,
+   "chg": -4.79,
+   "spark": [
+    91.85,
+    93.74,
+    94.14,
+    95.09,
+    97.97,
+    101.41,
+    103.66,
+    101.79,
+    97.15,
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.48
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1225,
-   "chg": 0.69,
+   "price": 1.1227,
+   "chg": 0.72,
    "spark": [
     1.1205,
     1.116,
@@ -172,13 +201,13 @@
     1.1235,
     1.1228,
     1.1147,
-    1.1225
+    1.1227
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3439,
-   "chg": 0.59,
+   "price": 1.3445,
+   "chg": 0.63,
    "spark": [
     1.3242,
     1.321,
@@ -201,13 +230,13 @@
     1.3477,
     1.3456,
     1.336,
-    1.3439
+    1.3445
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.053,
-   "chg": -0.15,
+   "price": 157.97,
+   "chg": -0.2,
    "spark": [
     158.203,
     158.52,
@@ -230,13 +259,13 @@
     158.357,
     157.498,
     158.292,
-    158.053
+    157.97
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2128.9,
-   "chg": -0.15,
+   "price": 2125.65,
+   "chg": -0.3,
    "spark": [
     2233.22,
     2234.65,
@@ -285,13 +314,13 @@
     2133.33,
     2132.65,
     2123.4,
-    2128.9
+    2125.65
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 75122.9,
-   "chg": -0.17,
+   "price": 75021.6,
+   "chg": -0.31,
    "spark": [
     75676.3,
     75806.3,
@@ -340,7 +369,7 @@
     75195.3,
     75253.1,
     74982.8,
-    75122.9
+    75038.6
    ]
   }
  ],
@@ -397,39 +426,57 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794272512.351552,
+   "ts": 1794273403.482823,
    "title": "Oil prices dip amid Iran peace hopes, improving supplies",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-amid-iran-peace-hopes-improving-supplies-5013753",
-   "t": "10 Nov \u00b7 06:01 AM",
+   "t": "10 Nov \u00b7 06:16 AM",
    "ur": "Iran peace ki umeed aur supply behtar hone se oil prices halki neeche aayin.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794272512.351552,
+   "ts": 1794273403.482823,
    "title": "Gold rises almost 2% amid sliding dollar, slumping oil prices a day ahead of CPI",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-above-4100-as-traders-await-us-inflation-data-after-jobs-beat-5010397",
-   "t": "10 Nov \u00b7 06:01 AM",
+   "t": "10 Nov \u00b7 06:16 AM",
    "ur": "CPI data se aik din pehle dollar aur oil prices girne ki wajah se Gold taqreeban 2% barh gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794272512.351552,
+   "ts": 1794273403.482823,
    "title": "Oil prices slide amid Trump\u2019s restraint on Iran strikes, Qatar mediation efforts",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-5010370",
-   "t": "10 Nov \u00b7 06:01 AM",
+   "t": "10 Nov \u00b7 06:16 AM",
    "ur": "Trump ki Iran strikes par rok aur Qatar ki mediation ki wajah se oil prices gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794272512.351552,
+   "ts": 1794273403.482823,
    "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
-   "t": "10 Nov \u00b7 06:01 AM",
+   "t": "10 Nov \u00b7 06:16 AM",
    "ur": "Trump ke Iran par restraint ka signal dene ke baad oil post settlement trade mein $7 se zyada gir gaya.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794271692.0,
+   "title": "The view from China: CITIC sees Iran war risk \u2018bounded\u2019 as blockade outlasts US midterms",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/the-view-from-china-citic-sees-iran-war-risk-bounded-as-blockade-outlasts-us-midterms/",
+   "t": "10 Nov \u00b7 05:48 AM",
+   "ur": "China ka view: CITIC kehta hai ke Iran war ka risk bounded hai aur blockade US midterms tak chal sakti hai.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794270563.0,
+   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6655 \u2013 Reuters estimate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6655-reuters-estimate/",
+   "t": "10 Nov \u00b7 05:29 AM",
+   "ur": "PBOC ki umeed hai ke USD/CNY reference rate 6.6655 set karega, Reuters ka estimate hai.",
    "ur_by": "ai"
   },
   {
@@ -467,24 +514,6 @@
    "t": "10 Nov \u00b7 03:23 AM",
    "ur": "October ki jobs report itni strong honay ki 3 unexpected wajoohat samnay aa gayi hain",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794262822.0,
-   "title": "Iran tells US to stop \u2018fake news\u2019 on talks, demands it accept seven conditions to end war",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/iran-tells-us-to-stop-fake-news-on-talks-demands-it-accept-seven-conditions-to-end-war/",
-   "t": "10 Nov \u00b7 03:20 AM",
-   "ur": "Iran ne US ko talks par fake news roknay ko kaha hai aur war khatam karne ke liye 7 conditions maannay ka demand kiya hai",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794260702.0,
-   "title": "Trump says renewed Iran strikes \u2018quite unlikely\u2019 as Gulf allies back blockade status quo",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/trump-says-renewed-iran-strikes-quite-unlikely-as-gulf-allies-back-blockade-status-quo/",
-   "t": "10 Nov \u00b7 02:45 AM",
-   "ur": "Trump kahta hai ke Iran par dobara hamlay ki umeed bohat kam hai, Gulf allies ne status quo support kar diya hai.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -492,6 +521,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
