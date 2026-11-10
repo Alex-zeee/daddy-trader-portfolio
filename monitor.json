@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 21:31 PKT",
+ "updated": "10-11-2026 21:46 PKT",
  "gold": {
-  "price": 4024.58,
-  "open": 4115.76,
+  "price": 4021.81,
+  "open": 4109.19,
   "high": 4149.01,
-  "low": 4024.14,
-  "chg": -2.22,
+  "low": 4019.58,
+  "chg": -2.13,
   "src": "XAUUSD Spot",
   "spark": [
-   4115.75,
    4114.96,
    4120.89,
    4125.27,
@@ -55,14 +54,15 @@
    4044.15,
    4037.73,
    4024.98,
-   4024.58
+   4019.83,
+   4021.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.285,
-   "chg": -2.43,
+   "price": 51.305,
+   "chg": -2.4,
    "spark": [
     60.141,
     59.161,
@@ -85,13 +85,13 @@
     52.233,
     51.803,
     52.564,
-    51.285
+    51.305
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.355,
-   "chg": 0.69,
+   "price": 102.397,
+   "chg": 0.73,
    "spark": [
     102.58,
     102.18,
@@ -114,13 +114,13 @@
     101.55,
     102.3,
     101.65,
-    102.355
+    102.397
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.63,
-   "chg": -0.25,
+   "price": 86.35,
+   "chg": -0.58,
    "spark": [
     93.74,
     94.14,
@@ -143,13 +143,13 @@
     90.52,
     90.83,
     86.85,
-    86.63
+    86.35
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.994,
-   "chg": 2.67,
+   "price": 5.0,
+   "chg": 2.8,
    "spark": [
     5.24,
     5.217,
@@ -172,13 +172,13 @@
     4.837,
     4.859,
     4.864,
-    4.994
+    5.0
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1153,
-   "chg": 0.05,
+   "price": 1.1152,
+   "chg": 0.04,
    "spark": [
     1.1205,
     1.116,
@@ -201,13 +201,13 @@
     1.1235,
     1.1228,
     1.1147,
-    1.1153
+    1.1152
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3322,
-   "chg": -0.28,
+   "price": 1.3318,
+   "chg": -0.32,
    "spark": [
     1.3242,
     1.321,
@@ -230,12 +230,12 @@
     1.3477,
     1.3456,
     1.336,
-    1.3322
+    1.3318
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.792,
+   "price": 158.798,
    "chg": 0.32,
    "spark": [
     158.203,
@@ -259,13 +259,13 @@
     158.357,
     157.498,
     158.292,
-    158.792
+    158.798
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2021.46,
-   "chg": -5.19,
+   "price": 2019.0,
+   "chg": -5.31,
    "spark": [
     2227.82,
     2233.36,
@@ -314,13 +314,13 @@
     2063.61,
     2080.43,
     2022.19,
-    2020.91
+    2018.99
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 73078.0,
-   "chg": -2.89,
+   "price": 72963.9,
+   "chg": -3.04,
    "spark": [
     75671.8,
     75845.6,
@@ -369,7 +369,7 @@
     73661.3,
     74313.5,
     73143.1,
-    73078.0
+    72984.2
    ]
   }
  ],
@@ -402,54 +402,56 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794328311.022244,
+   "ts": 1794329207.981087,
    "title": "Rubio says no need for major combat operations against Iran given US economic campaign",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/rubio-says-no-need-for-major-combat-operations-on-iran-given-us-economic-campaign-5015946",
-   "t": "10 Nov \u00b7 09:31 PM",
-   "ur": "Robiyo ka kahana hai kah US aqtasadi mahum ke pesh nazar eran ke khalaf badi jangi karwaion ki zarort nihen hai."
+   "t": "10 Nov \u00b7 09:46 PM",
+   "ur": "Rubio kahta hai ke US ki economic campaign ki wajah se Iran ke khilaf baray combat ops ki zaroorat nahi hai",
+   "ur_by": "ai"
   },
   {
-   "ts": 1794328311.022244,
+   "ts": 1794329207.981087,
    "title": "Oil prices hit two-month lows as US downplays further Iran strikes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran-5013892",
-   "t": "10 Nov \u00b7 09:31 PM",
-   "ur": "Til ki qeemtin do mah ki kam tarin sath par pohch gayin cunkah amrikah ki janb se eran par mazid hamlon ko kam kiya gaya."
+   "t": "10 Nov \u00b7 09:46 PM",
+   "ur": "US ki taraf se mazeed Iran strikes kam honay ki umeed par oil prices 2 month low par aa gayin",
+   "ur_by": "ai"
   },
   {
-   "ts": 1794328311.022244,
+   "ts": 1794329207.981087,
    "title": "Oil prices dip below $90 as Trump comments fuel Iran peace hopes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-amid-iran-peace-hopes-improving-supplies-5013753",
-   "t": "10 Nov \u00b7 09:31 PM",
+   "t": "10 Nov \u00b7 09:46 PM",
    "ur": "Trump ke bayan se Iran peace ki umeed barhney par oil prices $90 se neechay gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794328311.022244,
+   "ts": 1794329207.981087,
    "title": "Gold slumps after firm U.S. inflation data, hawkish comments from Fed\u2019s Waller",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4130-as-oil-retreat-eases-inflation-concerns-5013846",
-   "t": "10 Nov \u00b7 09:31 PM",
+   "t": "10 Nov \u00b7 09:46 PM",
    "ur": "Strong US inflation data aur Fed ke Waller ki hawkish baton ke baad Gold slump ho gaya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794328311.022244,
+   "ts": 1794329207.981087,
    "title": "Vanishing vessels and missing sailors: The Iran war\u2019s human cost at sea",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/vanishing-vessels-and-missing-sailors-the-iran-wars-human-cost-at-sea-5014523",
-   "t": "10 Nov \u00b7 09:31 PM",
+   "t": "10 Nov \u00b7 09:46 PM",
    "ur": "Jahaz gayab aur sailor missing: Samandar mein Iran war ka human cost",
    "ur_by": "ai"
   },
   {
-   "ts": 1794326689.0,
+   "ts": 1794328762.0,
    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-   "t": "10 Nov \u00b7 09:04 PM",
+   "t": "10 Nov \u00b7 09:39 PM",
    "ur": "October mein consumer prices 0.4% barh gayi hain jo umeed se zyada hain, jis se Fed ki inflation ke khilaf jang mushkil ho gayi hai",
    "ur_by": "ai"
   },
@@ -497,7 +499,6 @@
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
   "gemini gemini-flash-latest: HTTP 503",
-  "gemini gemini-2.5-flash: HTTP 404",
-  "gemini gemini-flash-lite-latest: HTTP 503"
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
