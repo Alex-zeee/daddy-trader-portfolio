@@ -1,14 +1,13 @@
 {
- "updated": "10-11-2026 19:46 PKT",
+ "updated": "10-11-2026 20:01 PKT",
  "gold": {
-  "price": 4043.57,
-  "open": 4122.42,
+  "price": 4035.45,
+  "open": 4117.15,
   "high": 4149.01,
-  "low": 4036.0,
-  "chg": -1.91,
+  "low": 4029.7,
+  "chg": -1.98,
   "src": "XAUUSD Spot",
   "spark": [
-   4113.64,
    4116.59,
    4110.23,
    4110.87,
@@ -55,14 +54,15 @@
    4052.93,
    4048.69,
    4041.24,
-   4043.57
+   4038.07,
+   4035.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.77,
-   "chg": -1.51,
+   "price": 51.69,
+   "chg": -1.66,
    "spark": [
     60.141,
     59.161,
@@ -85,13 +85,13 @@
     52.233,
     51.803,
     52.564,
-    51.77
+    51.69
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.058,
-   "chg": 0.4,
+   "price": 102.079,
+   "chg": 0.42,
    "spark": [
     102.58,
     102.18,
@@ -114,13 +114,13 @@
     101.55,
     102.3,
     101.65,
-    102.058
+    102.079
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.71,
-   "chg": -2.46,
+   "price": 85.38,
+   "chg": -1.69,
    "spark": [
     93.74,
     94.14,
@@ -143,13 +143,13 @@
     90.52,
     90.83,
     86.85,
-    84.71
+    85.38
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.971,
-   "chg": 2.2,
+   "price": 4.987,
+   "chg": 2.53,
    "spark": [
     5.24,
     5.217,
@@ -172,13 +172,13 @@
     4.837,
     4.859,
     4.864,
-    4.971
+    4.987
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1187,
-   "chg": 0.36,
+   "price": 1.1184,
+   "chg": 0.33,
    "spark": [
     1.1205,
     1.116,
@@ -201,13 +201,13 @@
     1.1235,
     1.1228,
     1.1147,
-    1.1187
+    1.1184
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3384,
-   "chg": 0.18,
+   "price": 1.3379,
+   "chg": 0.14,
    "spark": [
     1.3242,
     1.321,
@@ -230,13 +230,13 @@
     1.3477,
     1.3456,
     1.336,
-    1.3384
+    1.3379
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.645,
-   "chg": 0.22,
+   "price": 158.656,
+   "chg": 0.23,
    "spark": [
     158.203,
     158.52,
@@ -259,15 +259,14 @@
     158.357,
     157.498,
     158.292,
-    158.645
+    158.656
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2073.13,
-   "chg": -2.77,
+   "price": 2090.64,
+   "chg": -1.95,
    "spark": [
-    2239.12,
     2227.9,
     2227.82,
     2233.36,
@@ -314,15 +313,15 @@
     2091.4,
     2096.74,
     2063.61,
-    2073.12
+    2080.43,
+    2090.64
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74066.3,
-   "chg": -1.58,
+   "price": 74624.7,
+   "chg": -0.84,
    "spark": [
-    75971.7,
     75679.1,
     75671.8,
     75845.6,
@@ -369,7 +368,8 @@
     74313.3,
     74296.9,
     73661.3,
-    74066.3
+    74313.5,
+    74624.6
    ]
   }
  ],
@@ -418,66 +418,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794322008.441976,
+   "ts": 1794322911.616145,
    "title": "Rubio says no need for major combat operations on Iran given US economic campaign",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/rubio-says-no-need-for-major-combat-operations-on-iran-given-us-economic-campaign-5015946",
-   "t": "10 Nov \u00b7 07:46 PM",
+   "t": "10 Nov \u00b7 08:01 PM",
    "ur": "Rubio kahta hai ke US ki economic campaign ki wajah se Iran mein baray combat operations ki koi zaroorat nahi",
    "ur_by": "ai"
   },
   {
-   "ts": 1794322008.441976,
+   "ts": 1794322911.616145,
    "title": "Oil falls as Trump downplays prospect of escalation with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran-5013892",
-   "t": "10 Nov \u00b7 07:46 PM",
+   "t": "10 Nov \u00b7 08:01 PM",
    "ur": "Oil price gir gaya kyunke Trump ne Iran ke sath escalation ka imkan kam kar diya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794322008.441976,
+   "ts": 1794322911.616145,
    "title": "Vanishing vessels and missing sailors: The Iran war\u2019s human cost at sea",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/vanishing-vessels-and-missing-sailors-the-iran-wars-human-cost-at-sea-5014523",
-   "t": "10 Nov \u00b7 07:46 PM",
+   "t": "10 Nov \u00b7 08:01 PM",
    "ur": "Jahaz gayab aur sailor missing: Samandar mein Iran war ka human cost",
    "ur_by": "ai"
   },
   {
-   "ts": 1794322008.441976,
+   "ts": 1794322911.616145,
    "title": "Gold slips as investors assess hawkish Fed comments, await U.S. inflation data",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-4130-as-oil-retreat-eases-inflation-concerns-5013846",
-   "t": "10 Nov \u00b7 07:46 PM",
+   "t": "10 Nov \u00b7 08:01 PM",
    "ur": "Fed ki hawkish baaton aur US inflation data ke wait ki wajah se Gold thora neeche aa gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794322008.441976,
+   "ts": 1794322911.616145,
    "title": "European gas prices hit 1-month lows as Trump pauses Iran strikes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-prices-hit-1month-lows-as-trump-pauses-iran-strikes-5014587",
-   "t": "10 Nov \u00b7 07:46 PM",
+   "t": "10 Nov \u00b7 08:01 PM",
    "ur": "Trump ke Iran par strikes roknay se European gas prices 1-month low par aa gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794322008.441976,
+   "ts": 1794322911.616145,
    "title": "Oil prices dip below $90 as Trump comments fuel Iran peace hopes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-amid-iran-peace-hopes-improving-supplies-5013753",
-   "t": "10 Nov \u00b7 07:46 PM",
+   "t": "10 Nov \u00b7 08:01 PM",
    "ur": "Trump ke bayan se Iran peace ki umeed barhney par oil prices $90 se neechay gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794321637.0,
+   "ts": 1794322203.0,
    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-   "t": "10 Nov \u00b7 07:40 PM",
+   "t": "10 Nov \u00b7 07:50 PM",
    "ur": "October mein consumer prices 0.4% barh gayi hain jo umeed se zyada hain, jis se Fed ki inflation ke khilaf jang mushkil ho gayi hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794317406.0,
+   "title": "US October core CPI +0.3% vs +0.2% expected",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/us-october-core-cpi-vs-0-2-expected/",
+   "t": "10 Nov \u00b7 06:30 PM",
+   "ur": "US October core CPI 0.3% aya hai jabke 0.2% ki umeed thi",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794316876.0,
+   "title": "Morning Kickstart. Oil slides as Waller puts a half-point hike in play. Markets brace for CPI",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/morning-kickstart-oil-slides-as-waller-puts-a-half-point-hike-in-play-markets-brace-for-cpi/",
+   "t": "10 Nov \u00b7 06:21 PM",
+   "ur": "Morning Kickstart: Waller ki half-point hike ki baat se oil gir gaya aur markets CPI ka wait kar rahi hain",
    "ur_by": "ai"
   },
   {
@@ -488,24 +506,6 @@
    "t": "10 Nov \u00b7 05:39 PM",
    "ur": "European news: Fed ke Waller ne December mein 50 bps hike ki baat kar di hai",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794308150.0,
-   "title": "Crude oil loses ground on renewed US-Iran deal hopes, but a concrete breakthrough isn't in sight yet",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/crude-oil-loses-ground-on-renewed-us-iran-deal-hopes-but-a-concrete-breakthrough-isn-t-in-sight-yet/",
-   "t": "10 Nov \u00b7 03:55 PM",
-   "ur": "US-Iran deal ki umeedon ki wajah se crude oil gir gaya hai, par abhi tak koi solid breakthrough nahi aaya",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794306263.0,
-   "title": "Bitcoin stays under pressure ahead of the US CPI report as Waller raises prospect of a 50 bps hike",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/bitcoin-stays-under-pressure-ahead-of-the-us-cpi-report-as-waller-raises-prospect-of-a-50-bps-hike/",
-   "t": "10 Nov \u00b7 03:24 PM",
-   "ur": "US CPI report se pehle Bitcoin pressure mein hai kyunke Waller ne 50 bps hike ka ishara diya hai",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -514,7 +514,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-flash-latest: HTTP 503",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
