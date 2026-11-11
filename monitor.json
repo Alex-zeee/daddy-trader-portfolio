@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 03:46 PKT",
+ "updated": "12-11-2026 04:01 PKT",
  "gold": {
-  "price": 3987.78,
-  "open": 4031.65,
+  "price": 3990.04,
+  "open": 4033.61,
   "high": 4066.53,
   "low": 3982.17,
-  "chg": -1.09,
+  "chg": -1.08,
   "src": "XAUUSD Spot",
   "spark": [
-   4053.55,
    4053.68,
    4048.02,
    4046.26,
@@ -55,7 +54,8 @@
    3987.67,
    3987.75,
    3987.84,
-   3987.78
+   3987.6,
+   3990.04
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 102.905,
-   "chg": 0.66,
+   "price": 102.919,
+   "chg": 0.67,
    "spark": [
     102.18,
     102.55,
@@ -114,7 +114,7 @@
     102.3,
     101.65,
     102.23,
-    102.905
+    102.919
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1093,
-   "chg": -1.16,
+   "price": 1.1098,
+   "chg": -1.11,
    "spark": [
     1.116,
     1.1204,
@@ -201,13 +201,13 @@
     1.1228,
     1.1147,
     1.1222,
-    1.1093
+    1.1098
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3268,
-   "chg": -1.29,
+   "price": 1.328,
+   "chg": -1.21,
    "spark": [
     1.321,
     1.3257,
@@ -230,13 +230,13 @@
     1.3456,
     1.336,
     1.3442,
-    1.3268
+    1.328
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.692,
-   "chg": 1.08,
+   "price": 159.679,
+   "chg": 1.07,
    "spark": [
     158.52,
     158.322,
@@ -259,15 +259,14 @@
     157.498,
     158.292,
     157.983,
-    159.692
+    159.679
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2056.74,
-   "chg": 0.3,
+   "price": 2054.61,
+   "chg": 0.19,
    "spark": [
-    2132.65,
     2123.4,
     2123.18,
     2120.38,
@@ -314,15 +313,15 @@
     2075.24,
     2078.86,
     2067.84,
-    2056.74
+    2054.69,
+    2054.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74029.5,
-   "chg": 0.45,
+   "price": 73843.8,
+   "chg": 0.2,
    "spark": [
-    75253.1,
     74982.8,
     74976.9,
     74765.6,
@@ -369,7 +368,8 @@
     74334.9,
     74590.6,
     74308.1,
-    74029.0
+    73854.9,
+    73843.8
    ]
   }
  ],
@@ -402,29 +402,29 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794437208.018737,
+   "ts": 1794438108.383028,
    "title": "Gold drops for a second straight session on boost to Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 03:46 AM",
+   "t": "12 Nov \u00b7 04:01 AM",
    "ur": "Fed ke rate hike expectations barhne ki wajah se Gold \u0932\u0917\u093e\u0924\u093e\u0930 doosre session mein bhi gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794437208.018737,
+   "ts": 1794438108.383028,
    "title": "European wheat futures climb amid stalled shipping talks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-wheat-futures-climb-amid-stalled-shipping-talks-93CH-5019806",
-   "t": "12 Nov \u00b7 03:46 AM",
+   "t": "12 Nov \u00b7 04:01 AM",
    "ur": "European wheat futures shipping talks rukne ki wajah se barh gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794437208.018737,
+   "ts": 1794438108.383028,
    "title": "Oil up 1% as Iran official says country will keep enriched nuclear material",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
-   "t": "12 Nov \u00b7 03:46 AM",
+   "t": "12 Nov \u00b7 04:01 AM",
    "ur": "Iran ke official ke bayan ke baad ke mulk enriched nuclear material rakhega, Oil 1% up ho gaya hai.",
    "ur_by": "ai"
   },
@@ -497,8 +497,6 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 503",
-  "gemini gemini-2.5-flash: HTTP 404"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
