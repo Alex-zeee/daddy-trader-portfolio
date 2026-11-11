@@ -1,16 +1,13 @@
 {
- "updated": "12-11-2026 01:16 PKT",
+ "updated": "12-11-2026 02:01 PKT",
  "gold": {
-  "price": 3986.33,
-  "open": 4035.16,
+  "price": 3986.34,
+  "open": 4031.31,
   "high": 4066.53,
   "low": 3982.17,
-  "chg": -1.21,
+  "chg": -1.12,
   "src": "XAUUSD Spot",
   "spark": [
-   4059.6,
-   4057.8,
-   4054.78,
    4049.19,
    4049.92,
    4050.17,
@@ -55,14 +52,17 @@
    3987.11,
    3987.03,
    3986.88,
-   3986.33
+   3987.38,
+   3986.62,
+   3985.5,
+   3986.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.76,
-   "chg": 1.29,
+   "price": 51.815,
+   "chg": 1.4,
    "spark": [
     59.161,
     55.55,
@@ -85,13 +85,13 @@
     51.803,
     52.564,
     51.101,
-    51.76
+    51.815
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.898,
-   "chg": 0.65,
+   "price": 102.908,
+   "chg": 0.66,
    "spark": [
     102.18,
     102.55,
@@ -114,13 +114,13 @@
     102.3,
     101.65,
     102.23,
-    102.898
+    102.908
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.31,
-   "chg": 0.31,
+   "price": 86.39,
+   "chg": 0.41,
    "spark": [
     94.14,
     95.09,
@@ -143,7 +143,7 @@
     90.83,
     86.85,
     86.04,
-    86.31
+    86.39
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1096,
-   "chg": -1.12,
+   "price": 1.1091,
+   "chg": -1.17,
    "spark": [
     1.116,
     1.1204,
@@ -201,13 +201,13 @@
     1.1228,
     1.1147,
     1.1222,
-    1.1096
+    1.1091
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3279,
-   "chg": -1.21,
+   "price": 1.3275,
+   "chg": -1.24,
    "spark": [
     1.321,
     1.3257,
@@ -230,12 +230,12 @@
     1.3456,
     1.336,
     1.3442,
-    1.3279
+    1.3275
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.852,
+   "price": 159.847,
    "chg": 1.18,
    "spark": [
     158.52,
@@ -259,15 +259,14 @@
     157.498,
     158.292,
     157.983,
-    159.852
+    159.847
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2080.3,
-   "chg": 1.45,
+   "price": 2076.38,
+   "chg": 1.25,
    "spark": [
-    2127.02,
     2133.33,
     2132.65,
     2123.4,
@@ -314,15 +313,15 @@
     2089.01,
     2081.56,
     2075.24,
-    2080.3
+    2078.86,
+    2076.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74516.2,
-   "chg": 1.11,
+   "price": 74507.9,
+   "chg": 1.1,
    "spark": [
-    74934.5,
     75195.3,
     75253.1,
     74982.8,
@@ -369,7 +368,8 @@
     74446.8,
     74418.5,
     74334.9,
-    74516.1
+    74590.6,
+    74507.9
    ]
   }
  ],
@@ -402,39 +402,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794428206.351864,
+   "ts": 1794430911.077365,
+   "title": "European wheat futures climb amid stalled shipping talks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/european-wheat-futures-climb-amid-stalled-shipping-talks-93CH-5019806",
+   "t": "12 Nov \u00b7 02:01 AM",
+   "ur": "European wheat futures shipping talks rukne ki wajah se barh gayi hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794430911.077365,
+   "title": "Oil up 1% as Iran official says country will keep enriched nuclear material",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
+   "t": "12 Nov \u00b7 02:01 AM",
+   "ur": "Iran ke official ke bayan ke baad ke mulk enriched nuclear material rakhega, Oil 1% up ho gaya hai.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794430911.077365,
    "title": "Iran attacks shipping navigation systems on Oman\u2019s Didamar\u00a0island, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-attacks-shipping-navigation-systems-on-omans-didamarisland-sources-say-5019671",
-   "t": "12 Nov \u00b7 01:16 AM",
+   "t": "12 Nov \u00b7 02:01 AM",
    "ur": "Sources ka kehna hai ke Iran ne Oman ki Didamar island par shipping navigation systems par attack kiya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794428206.351864,
+   "ts": 1794430911.077365,
    "title": "Iran tells COP31 it wants compensation for environmental damage from US-Israeli strikes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-tells-cop31-it-wants-compensation-for-environmental-damage-from-usisraeli-strikes-5019661",
-   "t": "12 Nov \u00b7 01:16 AM",
+   "t": "12 Nov \u00b7 02:01 AM",
    "ur": "Iran ne COP31 mein kaha hai ke US-Israeli strikes ke environmental damage ka compensation chahiye",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794428206.351864,
-   "title": "Oil up 2% as Iran official says country will keep enriched nuclear material",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
-   "t": "12 Nov \u00b7 01:16 AM",
-   "ur": "Oil 2% barh gaya jab Iran ke official ne kaha ke mulk enriched nuclear material nahi chorega",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794428206.351864,
-   "title": "Gold steadies after selloff as central-bank demand offsets Fed rate hike concerns",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 01:16 AM",
-   "ur": "Selloff ke baad Gold sambhal gaya hai kyunke central-bank demand ne Fed rate hike ki tension ko cover kar liya.",
    "ur_by": "ai"
   },
   {
