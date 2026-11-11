@@ -1,14 +1,13 @@
 {
- "updated": "11-11-2026 22:46 PKT",
+ "updated": "11-11-2026 23:01 PKT",
  "gold": {
-  "price": 4001.1,
-  "open": 4018.37,
+  "price": 3993.5,
+  "open": 4017.75,
   "high": 4066.53,
-  "low": 3998.86,
-  "chg": -0.43,
+  "low": 3993.29,
+  "chg": -0.6,
   "src": "XAUUSD Spot",
   "spark": [
-   4057.02,
    4054.5,
    4054.31,
    4062.43,
@@ -55,14 +54,15 @@
    3999.89,
    4003.54,
    4001.18,
-   4001.1
+   3993.54,
+   3993.5
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 52.165,
-   "chg": 2.08,
+   "price": 52.035,
+   "chg": 1.83,
    "spark": [
     59.161,
     55.55,
@@ -85,13 +85,13 @@
     51.803,
     52.564,
     51.101,
-    52.165
+    52.035
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.92,
-   "chg": 0.67,
+   "price": 102.922,
+   "chg": 0.68,
    "spark": [
     102.18,
     102.55,
@@ -114,13 +114,13 @@
     102.3,
     101.65,
     102.23,
-    102.92
+    102.922
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.85,
-   "chg": 0.94,
+   "price": 86.92,
+   "chg": 1.02,
    "spark": [
     94.14,
     95.09,
@@ -143,7 +143,7 @@
     90.83,
     86.85,
     86.04,
-    86.85
+    86.92
    ]
   },
   {
@@ -205,9 +205,38 @@
    ]
   },
   {
+   "name": "GBP/USD",
+   "price": 1.3277,
+   "chg": -1.23,
+   "spark": [
+    1.321,
+    1.3257,
+    1.323,
+    1.3273,
+    1.3336,
+    1.3308,
+    1.3373,
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3277
+   ]
+  },
+  {
    "name": "USD/JPY",
-   "price": 159.835,
-   "chg": 1.17,
+   "price": 159.856,
+   "chg": 1.19,
    "spark": [
     158.52,
     158.322,
@@ -230,15 +259,14 @@
     157.498,
     158.292,
     157.983,
-    159.835
+    159.856
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2091.31,
-   "chg": 1.98,
+   "price": 2087.11,
+   "chg": 1.78,
    "spark": [
-    2123.69,
     2126.19,
     2127.82,
     2127.02,
@@ -285,15 +313,15 @@
     2052.26,
     2072.83,
     2075.67,
-    2091.31
+    2089.01,
+    2087.11
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 74497.5,
-   "chg": 1.08,
+   "price": 74377.3,
+   "chg": 0.92,
    "spark": [
-    74598.1,
     74789.5,
     74770.7,
     74934.5,
@@ -340,7 +368,8 @@
     73487.1,
     73905.9,
     74190.7,
-    74497.5
+    74446.8,
+    74373.2
    ]
   }
  ],
@@ -373,57 +402,48 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794419205.992134,
-   "title": "Oil up 1% after Iran says no nuclear material will leave the country",
+   "ts": 1794420103.15855,
+   "title": "Iran tells COP31 it wants compensation for environmental damage from US-Israeli strikes",
    "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
-   "t": "11 Nov \u00b7 10:46 PM",
-   "ur": "Iran ke is bayan ke baad ke koi nuclear material mulk se bahar nahi jayega, Oil 1% barh gaya.",
+   "link": "https://www.investing.com/news/commodities-news/iran-tells-cop31-it-wants-compensation-for-environmental-damage-from-usisraeli-strikes-5019661",
+   "t": "11 Nov \u00b7 11:01 PM",
+   "ur": "Iran ne COP31 mein kaha hai ke US-Israeli strikes ke environmental damage ka compensation chahiye",
    "ur_by": "ai"
   },
   {
-   "ts": 1794419205.992134,
+   "ts": 1794420103.15855,
+   "title": "Oil up 2% as Iran official says country will keep enriched nuclear material",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
+   "t": "11 Nov \u00b7 11:01 PM",
+   "ur": "Oil 2% barh gaya jab Iran ke official ne kaha ke mulk enriched nuclear material nahi chorega",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794420103.15855,
    "title": "Gold steadies after selloff as central-bank demand offsets Fed rate hike concerns",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "11 Nov \u00b7 10:46 PM",
+   "t": "11 Nov \u00b7 11:01 PM",
    "ur": "Selloff ke baad Gold sambhal gaya hai kyunke central-bank demand ne Fed rate hike ki tension ko cover kar liya.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794419205.992134,
+   "ts": 1794420103.15855,
    "title": "Gold mining stocks rise as bullion climbs after inflation-driven slide",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-mining-stocks-rise-as-bullion-climbs-after-inflationdriven-slide-5018880",
-   "t": "11 Nov \u00b7 10:46 PM",
+   "t": "11 Nov \u00b7 11:01 PM",
    "ur": "Inflation ki wajah se girne ke baad Gold upar gaya toh mining stocks bhi barh gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794419205.992134,
+   "ts": 1794420103.15855,
    "title": "Morning Bid: Jumbo Fed hike hits radar",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-jumbo-fed-hike-hits-radar-5018434",
-   "t": "11 Nov \u00b7 10:46 PM",
+   "t": "11 Nov \u00b7 11:01 PM",
    "ur": "Morning Bid: Fed ka bara rate hike radar par aa gaya hai",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794419205.992134,
-   "title": "European gas rebounds on Strait of Hormuz shipping risks",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/european-gas-rebounds-on-strait-of-hormuz-shipping-risks-5018041",
-   "t": "11 Nov \u00b7 10:46 PM",
-   "ur": "Strait of Hormuz mein shipping risks ki wajah se European gas rebound kar gayi hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794415678.0,
-   "title": "Iran\u2019s Ghalibaf: Peace is our priority if Washington accepts our conditions",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/iran-s-ghalibaf-peace-is-our-priority-if-washington-accepts-our-conditions/",
-   "t": "11 Nov \u00b7 09:47 PM",
-   "ur": "Iran ke Ghalibaf ka bayan: agar Washington shartein maan le toh peace hamari priority hai",
    "ur_by": "ai"
   },
   {
@@ -461,6 +481,15 @@
    "t": "11 Nov \u00b7 05:44 PM",
    "ur": "European session wrap: Stocks rally, dollar climb ho gaya hai jabke bond market CPI ke baad quiet rahi",
    "ur_by": "ai"
+  },
+  {
+   "ts": 1794393770.0,
+   "title": "Crude oil rebounds as expectations for an imminent deal fade amid the lack of US-Iran progress",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/crude-oil-rebounds-as-expectations-for-an-imminent-deal-fade-amid-the-lack-of-us-iran-progress/",
+   "t": "11 Nov \u00b7 03:42 PM",
+   "ur": "Crude oil phir ooper agaya kyunke US-Iran progress na hone ki wajah se imminent deal ki umeed khatam ho rahi hai",
+   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -468,6 +497,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
