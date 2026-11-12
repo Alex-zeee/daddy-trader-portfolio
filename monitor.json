@@ -1,14 +1,13 @@
 {
- "updated": "13-11-2026 03:31 PKT",
+ "updated": "13-11-2026 03:46 PKT",
  "gold": {
-  "price": 3876.77,
-  "open": 3987.77,
+  "price": 3876.85,
+  "open": 3987.66,
   "high": 4000.94,
   "low": 3853.27,
   "chg": -2.78,
   "src": "XAUUSD Spot",
   "spark": [
-   3953.76,
    3949.94,
    3947.83,
    3945.27,
@@ -55,7 +54,8 @@
    3877.48,
    3876.9,
    3876.88,
-   3876.77
+   3876.76,
+   3876.85
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 103.195,
-   "chg": 0.28,
+   "price": 103.185,
+   "chg": 0.27,
    "spark": [
     102.55,
     102.0,
@@ -114,7 +114,7 @@
     101.65,
     102.23,
     102.91,
-    103.195
+    103.185
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3238,
-   "chg": -0.83,
+   "price": 1.3237,
+   "chg": -0.84,
    "spark": [
     1.3257,
     1.323,
@@ -230,12 +230,12 @@
     1.336,
     1.3442,
     1.3349,
-    1.3238
+    1.3237
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.814,
+   "price": 159.822,
    "chg": 0.7,
    "spark": [
     158.322,
@@ -259,13 +259,13 @@
     158.292,
     157.983,
     158.705,
-    159.814
+    159.822
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2011.32,
-   "chg": -2.06,
+   "price": 2009.33,
+   "chg": -2.16,
    "spark": [
     2051.0,
     2047.23,
@@ -314,13 +314,13 @@
     2015.23,
     2014.0,
     2014.89,
-    2011.32
+    2009.33
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71407.4,
-   "chg": -3.41,
+   "price": 71335.4,
+   "chg": -3.51,
    "spark": [
     73700.3,
     73444.0,
@@ -369,7 +369,7 @@
     71601.8,
     71360.1,
     71476.1,
-    71407.4
+    71335.5
    ]
   }
  ],
@@ -394,38 +394,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794522701.322604,
+   "ts": 1794523609.580215,
    "title": "Gold falls about 3% amid extended rise in the dollar on surging Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "13 Nov \u00b7 03:31 AM",
+   "t": "13 Nov \u00b7 03:46 AM",
    "ur": "Dollar mazboot honay aur Fed rate hike ki umeedon ki wajah se Gold taqreeban 3% gir gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794522701.322604,
+   "ts": 1794523609.580215,
    "title": "White House set to extend Jones Act shipping waiver, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/white-house-set-to-extend-set-to-extend-jones-act-waiver-sources-say-5022759",
-   "t": "13 Nov \u00b7 03:31 AM",
+   "t": "13 Nov \u00b7 03:46 AM",
    "ur": "White House Jones Act shipping waiver barhanay ki tayari mein hai, sources ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794522701.322604,
+   "ts": 1794523609.580215,
    "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
-   "t": "13 Nov \u00b7 03:31 AM",
+   "t": "13 Nov \u00b7 03:46 AM",
    "ur": "Iran ka kehna hai ke Strait of Hormuz mein dhamakon ki wajah se char tankers hit huwe hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794522701.322604,
+   "ts": 1794523609.580215,
    "title": "Oil prices jump as Trump says U.S. does not need deal with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "13 Nov \u00b7 03:31 AM",
+   "t": "13 Nov \u00b7 03:46 AM",
    "ur": "Trump ke yeh kehne ke US ko Iran ke sath deal ki zarorat nahi, oil prices jump kar gayin",
    "ur_by": "ai"
   },
@@ -480,7 +480,8 @@
    "src": "Federal Reserve",
    "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
    "t": "12 Nov \u00b7 10:45 PM",
-   "ur": "Faderl resero ne 2027 mein faderl open market kameti ke ajalason ke nazarsani shdah aarzi shedol ka aalan kiya"
+   "ur": "Fed ne 2027 ki FOMC meetings ka naya tentative schedule announce kar diya hai.",
+   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -489,6 +490,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: HTTP 429"
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
