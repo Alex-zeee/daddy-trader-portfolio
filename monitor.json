@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 21:32 PKT",
+ "updated": "12-11-2026 21:46 PKT",
  "gold": {
-  "price": 3873.52,
-  "open": 3999.54,
+  "price": 3871.22,
+  "open": 4000.16,
   "high": 4007.2,
   "low": 3853.27,
-  "chg": -3.15,
+  "chg": -3.22,
   "src": "XAUUSD Spot",
   "spark": [
-   3975.03,
    3973.05,
    3970.93,
    3971.11,
@@ -55,14 +54,15 @@
    3868.79,
    3875.06,
    3875.69,
-   3873.52
+   3871.02,
+   3871.22
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 50.155,
-   "chg": -3.33,
+   "price": 49.9,
+   "chg": -3.82,
    "spark": [
     55.55,
     56.837,
@@ -85,7 +85,7 @@
     52.564,
     51.101,
     51.881,
-    50.155
+    49.9
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 86.88,
-   "chg": 0.4,
+   "price": 87.08,
+   "chg": 0.64,
    "spark": [
     95.09,
     97.97,
@@ -143,13 +143,13 @@
     86.85,
     86.04,
     86.53,
-    86.88
+    87.08
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.068,
-   "chg": 1.4,
+   "price": 5.08,
+   "chg": 1.64,
    "spark": [
     5.19,
     5.089,
@@ -172,13 +172,42 @@
     4.864,
     4.983,
     4.998,
-    5.068
+    5.08
+   ]
+  },
+  {
+   "name": "EUR/USD",
+   "price": 1.1059,
+   "chg": -0.98,
+   "spark": [
+    1.1204,
+    1.1195,
+    1.1213,
+    1.1225,
+    1.1216,
+    1.1227,
+    1.1235,
+    1.1221,
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1059
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3232,
-   "chg": -0.87,
+   "price": 1.3239,
+   "chg": -0.82,
    "spark": [
     1.3257,
     1.323,
@@ -201,13 +230,13 @@
     1.336,
     1.3442,
     1.3349,
-    1.3232
+    1.3239
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.988,
-   "chg": 0.81,
+   "price": 159.654,
+   "chg": 0.6,
    "spark": [
     158.322,
     157.957,
@@ -230,13 +259,13 @@
     158.292,
     157.983,
     158.705,
-    159.988
+    159.654
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2008.55,
-   "chg": -2.2,
+   "price": 2001.47,
+   "chg": -2.54,
    "spark": [
     2026.74,
     2041.97,
@@ -285,13 +314,13 @@
     2010.15,
     2003.14,
     2006.67,
-    2008.3
+    2001.47
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71660.7,
-   "chg": -3.07,
+   "price": 71568.0,
+   "chg": -3.19,
    "spark": [
     73209.8,
     73401.8,
@@ -340,7 +369,7 @@
     72416.5,
     71555.6,
     71630.5,
-    71656.3
+    71568.0
    ]
   }
  ],
@@ -365,47 +394,56 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794501131.59203,
+   "ts": 1794502007.698481,
+   "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
+   "t": "12 Nov \u00b7 09:46 PM",
+   "ur": "Iran ka kehna hai ke Strait of Hormuz mein 4 tankers par blast hue hain",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794502007.698481,
    "title": "Oil prices rise as geopolitical risks offset rising crude output",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171",
-   "t": "12 Nov \u00b7 09:32 PM",
+   "t": "12 Nov \u00b7 09:46 PM",
    "ur": "Geopolitical risks ki wajah se crude output barhnay ke bawajood oil prices barh gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794501131.59203,
+   "ts": 1794502007.698481,
    "title": "Gold slumps as hawkish Fed bets keep bullion under pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "12 Nov \u00b7 09:32 PM",
+   "t": "12 Nov \u00b7 09:46 PM",
    "ur": "Fed ke hawkish bets ki wajah se Gold gir gaya hai aur bullion par pressure barh gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794501131.59203,
+   "ts": 1794502007.698481,
    "title": "Oil prices jump as Trump says U.S. does not need deal with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "12 Nov \u00b7 09:32 PM",
+   "t": "12 Nov \u00b7 09:46 PM",
    "ur": "Trump ke yeh kehnay par ke US ko Iran ke sath deal nahi chahiye, oil prices jump kar gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794501131.59203,
+   "ts": 1794502007.698481,
    "title": "Oil prices rise amid mixed messaging on Iran peace efforts, Hormuz ship attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
-   "t": "12 Nov \u00b7 09:32 PM",
+   "t": "12 Nov \u00b7 09:46 PM",
    "ur": "Iran peace efforts aur Hormuz ship attacks ki mixed khabron ki wajah se oil prices barh gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794501131.59203,
+   "ts": 1794502007.698481,
    "title": "Gold drops for a second straight session on boost to Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 09:32 PM",
+   "t": "12 Nov \u00b7 09:46 PM",
    "ur": "Fed ke rate hike expectations barhne ki wajah se Gold \u0932\u0917\u093e\u0924\u093e\u0930 doosre session mein bhi gir gaya",
    "ur_by": "ai"
   },
@@ -444,15 +482,6 @@
    "t": "12 Nov \u00b7 05:43 PM",
    "ur": "European session wrap: Gold gir gaya aur Nvidia ki wajah se US futures down hone ki wajah se equities mixed rahi.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794484299.0,
-   "title": "Zcash tumbles as hawkish Fed repricing weighs on the crypto market; focus remains on the Fed and US-Iran negotiations",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/zcash-tumbles-as-hawkish-fed-repricing-weighs-on-the-crypto-market-focus-remains-on-the-fed-and-us-iran-negotiations/",
-   "t": "12 Nov \u00b7 04:51 PM",
-   "ur": "Hawkish Fed repricing ki wajah se Zcash gir gaya hai, ab sab ki nazar Fed aur US-Iran talks par hai",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -460,6 +489,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
