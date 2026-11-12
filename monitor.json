@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 12:01 PKT",
+ "updated": "12-11-2026 12:16 PKT",
  "gold": {
-  "price": 3966.63,
-  "open": 4062.19,
-  "high": 4066.53,
-  "low": 3964.61,
-  "chg": -2.35,
+  "price": 3961.52,
+  "open": 4064.35,
+  "high": 4065.87,
+  "low": 3960.4,
+  "chg": -2.53,
   "src": "XAUUSD Spot",
   "spark": [
-   3986.04,
    3987.11,
    3987.03,
    3986.88,
@@ -55,14 +54,15 @@
    3977.47,
    3971.98,
    3966.34,
-   3966.63
+   3960.58,
+   3961.52
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.33,
-   "chg": -1.06,
+   "price": 51.29,
+   "chg": -1.14,
    "spark": [
     55.55,
     56.837,
@@ -85,13 +85,13 @@
     52.564,
     51.101,
     51.881,
-    51.33
+    51.29
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.035,
-   "chg": 0.12,
+   "price": 103.005,
+   "chg": 0.09,
    "spark": [
     102.55,
     102.0,
@@ -114,7 +114,36 @@
     101.65,
     102.23,
     102.91,
-    103.035
+    103.005
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 86.69,
+   "chg": 0.18,
+   "spark": [
+    95.09,
+    97.97,
+    101.41,
+    103.66,
+    101.79,
+    97.15,
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.85,
+    86.04,
+    86.53,
+    86.69
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1078,
-   "chg": -0.82,
+   "price": 1.1079,
+   "chg": -0.8,
    "spark": [
     1.1204,
     1.1195,
@@ -172,7 +201,7 @@
     1.1147,
     1.1222,
     1.1169,
-    1.1078
+    1.1079
    ]
   },
   {
@@ -206,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.81,
-   "chg": 0.7,
+   "price": 159.843,
+   "chg": 0.72,
    "spark": [
     158.322,
     157.957,
@@ -230,13 +259,13 @@
     158.292,
     157.983,
     158.705,
-    159.81
+    159.843
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2045.71,
-   "chg": -0.39,
+   "price": 2043.9,
+   "chg": -0.48,
    "spark": [
     2115.53,
     2102.0,
@@ -285,13 +314,13 @@
     2047.86,
     2044.0,
     2042.34,
-    2045.71
+    2043.9
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 73531.6,
-   "chg": -0.54,
+   "price": 73358.1,
+   "chg": -0.77,
    "spark": [
     74619.7,
     74413.3,
@@ -340,7 +369,7 @@
     73642.1,
     73494.2,
     73432.6,
-    73531.6
+    73358.1
    ]
   }
  ],
@@ -373,58 +402,74 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794466917.757341,
+   "ts": 1794467804.964742,
    "title": "Gold slips below $4,000 as hawkish Fed bets keep bullion under pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "12 Nov \u00b7 12:01 PM",
+   "t": "12 Nov \u00b7 12:16 PM",
    "ur": "Gold $4,000 se neechay gir gaya hai kyunke Fed ki hawkish bets ki wajah se bullion par pressure hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794466917.757341,
+   "ts": 1794467804.964742,
    "title": "Oil falls over $1 on easing geopolitical fears and oversupply worries",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171",
-   "t": "12 Nov \u00b7 12:01 PM",
+   "t": "12 Nov \u00b7 12:16 PM",
    "ur": "Geopolitical tension kam honay aur oversupply ki fikar se Oil $1 se zyada gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794466917.757341,
+   "ts": 1794467804.964742,
    "title": "Oil prices dip 1% on report of more U.S.-Iran diplomacy plans",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "12 Nov \u00b7 12:01 PM",
+   "t": "12 Nov \u00b7 12:16 PM",
    "ur": "US-Iran diplomacy plans ki khabron ki wajah se Oil prices 1% dip ho gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794466917.757341,
+   "ts": 1794467804.964742,
    "title": "Oil prices rise amid mixed messaging on Iran peace efforts, Hormuz ship attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
-   "t": "12 Nov \u00b7 12:01 PM",
+   "t": "12 Nov \u00b7 12:16 PM",
    "ur": "Iran peace efforts aur Hormuz ship attacks ki mixed khabron ki wajah se oil prices barh gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794466917.757341,
+   "ts": 1794467804.964742,
    "title": "Gold drops for a second straight session on boost to Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 12:01 PM",
+   "t": "12 Nov \u00b7 12:16 PM",
    "ur": "Fed ke rate hike expectations barhne ki wajah se Gold \u0932\u0917\u093e\u0924\u093e\u0930 doosre session mein bhi gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794466917.757341,
+   "ts": 1794467804.964742,
    "title": "European wheat futures climb amid stalled shipping talks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-wheat-futures-climb-amid-stalled-shipping-talks-93CH-5019806",
-   "t": "12 Nov \u00b7 12:01 PM",
+   "t": "12 Nov \u00b7 12:16 PM",
    "ur": "European wheat futures shipping talks rukne ki wajah se barh gayi hain.",
    "ur_by": "ai"
+  },
+  {
+   "ts": 1794464537.0,
+   "title": "BOJ policymaker Asada urges caution on further rate hikes even as December move remains firmly in play",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/boj-policymaker-asada-urges-caution-on-further-rate-hikes-even-as-december-move-remains-firmly-in-play/",
+   "t": "12 Nov \u00b7 11:22 AM",
+   "ur": "BOJ palisi saz asada ne mazid sharahon mein azafe par ahtyat ki taakid ki yahan tak kah dasmbr ka aqdam mazbooti se khel mein rahta hai."
+  },
+  {
+   "ts": 1794463322.0,
+   "title": "AUD/USD faces a make-or-break test as dollar bulls turn up the heat",
+   "src": "investingLive",
+   "link": "https://investinglive.com/forex/aud-usd-faces-a-make-or-break-test-as-dollar-bulls-turn-up-the-heat/",
+   "t": "12 Nov \u00b7 11:02 AM",
+   "ur": "AUD/USD ko mek ap yaa barik test ka samana karna padta hai cunkah Dollar ke bel garmi ko badha dite hen."
   },
   {
    "ts": 1794452978.0,
@@ -443,24 +488,6 @@
    "t": "12 Nov \u00b7 08:02 AM",
    "ur": "ANZ ka kehna hai ke RBA hike bets kam ho gayi hain, lekin 3.7% core inflation usay cautious rakhegi",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794452056.0,
-   "title": "Deutsche Bank sees 3 straight Fed hikes after hot CPI, adding a January move",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/deutsche-bank-sees-3-straight-fed-hikes-after-hot-cpi-adding-a-january-move/",
-   "t": "12 Nov \u00b7 07:54 AM",
-   "ur": "Deutsche Bank ki umeed hai ke hot CPI ke baad Fed lagataar 3 hikes karega, jismein January ka move bhi shamil hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794446118.0,
-   "title": "PBOC sets USD/ CNY reference rate for today at 6.7174 (vs. estimate at 6.6797)",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7174-vs-estimate-at-6-6797/",
-   "t": "12 Nov \u00b7 06:15 AM",
-   "ur": "PBOC ne aaj ke liye USD/ CNY reference rate 6.7174 set kiya hai jabke estimate 6.6797 tha.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -468,6 +495,9 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404",
+  "gemini gemini-flash-lite-latest: HTTP 503"
  ]
 }
