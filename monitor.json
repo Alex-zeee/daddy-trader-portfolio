@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 23:16 PKT",
+ "updated": "12-11-2026 23:31 PKT",
  "gold": {
-  "price": 3880.67,
-  "open": 3992.43,
+  "price": 3880.73,
+  "open": 3990.9,
   "high": 4000.94,
   "low": 3853.27,
-  "chg": -2.8,
+  "chg": -2.76,
   "src": "XAUUSD Spot",
   "spark": [
-   3971.98,
    3966.34,
    3960.58,
    3960.29,
@@ -55,14 +54,15 @@
    3873.7,
    3872.57,
    3883.78,
-   3880.67
+   3881.36,
+   3880.73
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 50.06,
-   "chg": -3.51,
+   "price": 50.115,
+   "chg": -3.4,
    "spark": [
     55.55,
     56.837,
@@ -85,13 +85,13 @@
     52.564,
     51.101,
     51.881,
-    50.06
+    50.115
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.226,
-   "chg": 0.31,
+   "price": 103.185,
+   "chg": 0.27,
    "spark": [
     102.55,
     102.0,
@@ -114,13 +114,13 @@
     101.65,
     102.23,
     102.91,
-    103.226
+    103.185
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.23,
-   "chg": 1.96,
+   "price": 88.24,
+   "chg": 1.98,
    "spark": [
     95.09,
     97.97,
@@ -143,13 +143,13 @@
     86.85,
     86.04,
     86.53,
-    88.23
+    88.24
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.109,
-   "chg": 2.22,
+   "price": 5.113,
+   "chg": 2.3,
    "spark": [
     5.19,
     5.089,
@@ -172,13 +172,13 @@
     4.864,
     4.983,
     4.998,
-    5.109
+    5.113
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1055,
-   "chg": -1.02,
+   "price": 1.1056,
+   "chg": -1.01,
    "spark": [
     1.1204,
     1.1195,
@@ -201,13 +201,13 @@
     1.1147,
     1.1222,
     1.1169,
-    1.1055
+    1.1056
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.323,
-   "chg": -0.89,
+   "price": 1.3232,
+   "chg": -0.87,
    "spark": [
     1.3257,
     1.323,
@@ -230,13 +230,13 @@
     1.336,
     1.3442,
     1.3349,
-    1.323
+    1.3232
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.79,
-   "chg": 0.68,
+   "price": 159.796,
+   "chg": 0.69,
    "spark": [
     158.322,
     157.957,
@@ -259,13 +259,13 @@
     158.292,
     157.983,
     158.705,
-    159.79
+    159.796
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2015.39,
-   "chg": -1.87,
+   "price": 2019.35,
+   "chg": -1.67,
    "spark": [
     2042.5,
     2056.97,
@@ -314,13 +314,13 @@
     2006.67,
     2005.4,
     2014.8,
-    2015.39
+    2019.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71831.9,
-   "chg": -2.84,
+   "price": 71881.1,
+   "chg": -2.77,
    "spark": [
     73387.2,
     73674.4,
@@ -369,7 +369,7 @@
     71630.5,
     71680.0,
     71834.1,
-    71831.9
+    71881.1
    ]
   }
  ],
@@ -393,6 +393,60 @@
  ],
  "cal_mode": "upcoming",
  "news": [
+  {
+   "ts": 1794508302.41311,
+   "title": "White House set to extend Jones Act shipping waiver, sources say",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/white-house-set-to-extend-set-to-extend-jones-act-waiver-sources-say-5022759",
+   "t": "12 Nov \u00b7 11:31 PM",
+   "ur": "White House Jones Act shipping waiver barhanay ki tayari mein hai, sources ka kehna hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794508302.41311,
+   "title": "Oil gains over $1 on Strait of Hormuz shipping disruptions, Russia tensions",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171",
+   "t": "12 Nov \u00b7 11:31 PM",
+   "ur": "Strait of Hormuz mein shipping ki rukawaton aur Russia ki tensions ki wajah se oil $1 se zyada barh gaya",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794508302.41311,
+   "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
+   "t": "12 Nov \u00b7 11:31 PM",
+   "ur": "Iran ka kehna hai ke Strait of Hormuz mein dhamakon ki wajah se char tankers hit huwe hain",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794508302.41311,
+   "title": "Gold slumps as hawkish Fed bets keep bullion under pressure",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
+   "t": "12 Nov \u00b7 11:31 PM",
+   "ur": "Hawkish Fed bets ki wajah se gold slump ho gaya aur bullion par pressure hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794508302.41311,
+   "title": "Oil prices jump as Trump says U.S. does not need deal with Iran",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
+   "t": "12 Nov \u00b7 11:31 PM",
+   "ur": "Trump ke yeh kehne ke US ko Iran ke sath deal ki zarorat nahi, oil prices jump kar gayin",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794508302.41311,
+   "title": "Oil prices rise amid mixed messaging on Iran peace efforts, Hormuz ship attacks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
+   "t": "12 Nov \u00b7 11:31 PM",
+   "ur": "Iran peace efforts par mixed messages aur Hormuz ship attacks ki wajah se oil prices barh gayi hain",
+   "ur_by": "ai"
+  },
   {
    "ts": 1794506327.0,
    "title": "Gold tumbles $112 as sellers break below the late-October/early-November low",
@@ -428,60 +482,6 @@
    "t": "12 Nov \u00b7 09:03 PM",
    "ur": "Treasury yields barhnay ki wajah se Dollar mazeed oopar chala gaya hai",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794491241.0,
-   "title": "Fed's Hammack: We need to move to restrictive mon pol to lower inflation",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/fed-s-hammack-we-need-to-move-to-restrictive-mon-pol-to-lower-inflation/",
-   "t": "12 Nov \u00b7 06:47 PM",
-   "ur": "Fed ki Hammack ka kehna hai ke inflation kam karne ke liye humein restrictive mon pol ki taraf jana hoga.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794489703.0,
-   "title": "Morning Kickstart: Yields climb as Nvidia slides below key support. USD mixed.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/morning-kickstart-yields-climb-as-nvidia-slides-below-key-support-usd-mixed/",
-   "t": "12 Nov \u00b7 06:21 PM",
-   "ur": "Morning Kickstart: Nvidia ke key support se neechay girne par yields barh gayi hain aur USD mixed hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794489439.0,
-   "title": "Trump: We don\u2019t need a deal with Iran",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/trump-we-don-t-need-a-deal-with-iran/",
-   "t": "12 Nov \u00b7 06:17 PM",
-   "ur": "Trump ka kehna hai ke hamein Iran ke sath kisi deal ki zaroorat nahi hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794487403.0,
-   "title": "investingLive European session wrap: Gold stumbles, equities mixed as Nvidia drags US futures down",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-european-fx-news-wrap-12-nov/",
-   "t": "12 Nov \u00b7 05:43 PM",
-   "ur": "European session mein Gold gira aur equities mixed rahin, jabke Nvidia ki wajah se US futures neeche aye.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794484299.0,
-   "title": "Zcash tumbles as hawkish Fed repricing weighs on the crypto market; focus remains on the Fed and US-Iran negotiations",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/zcash-tumbles-as-hawkish-fed-repricing-weighs-on-the-crypto-market-focus-remains-on-the-fed-and-us-iran-negotiations/",
-   "t": "12 Nov \u00b7 04:51 PM",
-   "ur": "Hawkish Fed ki umeedon se crypto market par dabao aya aur Zcash gir gaya, focus abhi Fed aur US-Iran negotiations par hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794482292.0,
-   "title": "Connecting the dots: Why falling oil prices might not deliver the inflation relief everyone expects",
-   "src": "investingLive",
-   "link": "https://investinglive.com/education/connecting-the-dots-why-falling-oil-prices-might-not-deliver-the-inflation-relief-everyone-expects/",
-   "t": "12 Nov \u00b7 04:18 PM",
-   "ur": "Oil prices girne ke bawajood shayad inflation mein utna relief na mile jitni sabko umeed hai.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -490,6 +490,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "Investing.com: not well-formed (invalid token): line 78, column 0"
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
