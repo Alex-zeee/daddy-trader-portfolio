@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 05:01 PKT",
+ "updated": "12-11-2026 05:16 PKT",
  "gold": {
-  "price": 3978.6,
-  "open": 4041.15,
+  "price": 3973.19,
+  "open": 4038.11,
   "high": 4066.53,
-  "low": 3978.31,
-  "chg": -1.55,
+  "low": 3969.04,
+  "chg": -1.61,
   "src": "XAUUSD Spot",
   "spark": [
-   4043.59,
    4042.22,
    4042.9,
    4043.19,
@@ -55,14 +54,15 @@
    3982.32,
    3981.6,
    3979.68,
-   3978.6
+   3974.71,
+   3973.19
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.325,
-   "chg": 0.44,
+   "price": 51.31,
+   "chg": 0.41,
    "spark": [
     59.161,
     55.55,
@@ -85,7 +85,7 @@
     51.803,
     52.564,
     51.101,
-    51.325
+    51.31
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 86.22,
-   "chg": 0.21,
+   "price": 86.24,
+   "chg": 0.23,
    "spark": [
     94.14,
     95.09,
@@ -143,13 +143,42 @@
     90.83,
     86.85,
     86.04,
-    86.22
+    86.24
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.998,
+   "chg": 0.3,
+   "spark": [
+    5.217,
+    5.19,
+    5.089,
+    5.098,
+    5.136,
+    5.117,
+    5.146,
+    4.953,
+    4.988,
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1099,
-   "chg": -0.63,
+   "price": 1.1098,
+   "chg": -0.64,
    "spark": [
     1.1204,
     1.1195,
@@ -172,13 +201,13 @@
     1.1147,
     1.1222,
     1.1169,
-    1.1099
+    1.1098
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3278,
-   "chg": -0.53,
+   "price": 1.3276,
+   "chg": -0.55,
    "spark": [
     1.3257,
     1.323,
@@ -201,13 +230,13 @@
     1.336,
     1.3442,
     1.3349,
-    1.3278
+    1.3276
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.682,
-   "chg": 0.62,
+   "price": 159.61,
+   "chg": 0.57,
    "spark": [
     158.322,
     157.957,
@@ -230,13 +259,13 @@
     158.292,
     157.983,
     158.705,
-    159.682
+    159.61
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2055.39,
-   "chg": 0.08,
+   "price": 2053.78,
+   "chg": 0.0,
    "spark": [
     2123.18,
     2120.38,
@@ -285,13 +314,13 @@
     2067.84,
     2054.69,
     2053.48,
-    2055.36
+    2053.78
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 73976.9,
-   "chg": 0.07,
+   "price": 73894.4,
+   "chg": -0.05,
    "spark": [
     74976.9,
     74765.6,
@@ -340,7 +369,7 @@
     74308.1,
     73854.9,
     73928.4,
-    73976.9
+    73894.4
    ]
   }
  ],
@@ -373,39 +402,48 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794441708.551394,
+   "ts": 1794442611.589451,
+   "title": "Oil prices dip on report of more U.S.-Iran diplomacy plans",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
+   "t": "12 Nov \u00b7 05:16 AM",
+   "ur": "U.S.-Iran diplomacy plans ki report ke baad Oil prices halki see dip ho gayi hain.",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794442611.589451,
    "title": "Oil prices rise amid mixed messaging on Iran peace efforts, Hormuz ship attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
-   "t": "12 Nov \u00b7 05:01 AM",
+   "t": "12 Nov \u00b7 05:16 AM",
    "ur": "Iran peace efforts aur Hormuz ship attacks ki mixed khabron ki wajah se oil prices barh gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794441708.551394,
+   "ts": 1794442611.589451,
    "title": "Gold drops for a second straight session on boost to Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 05:01 AM",
+   "t": "12 Nov \u00b7 05:16 AM",
    "ur": "Fed ke rate hike expectations barhne ki wajah se Gold \u0932\u0917\u093e\u0924\u093e\u0930 doosre session mein bhi gir gaya",
    "ur_by": "ai"
   },
   {
-   "ts": 1794441708.551394,
+   "ts": 1794442611.589451,
    "title": "European wheat futures climb amid stalled shipping talks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-wheat-futures-climb-amid-stalled-shipping-talks-93CH-5019806",
-   "t": "12 Nov \u00b7 05:01 AM",
+   "t": "12 Nov \u00b7 05:16 AM",
    "ur": "European wheat futures shipping talks rukne ki wajah se barh gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794441708.551394,
-   "title": "Oil up 1% as Iran official says country will keep enriched nuclear material",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-rises-from-twomonth-low-as-hormuz-shipping-attacks-offset-iran-truce-hopes-5017512",
-   "t": "12 Nov \u00b7 05:01 AM",
-   "ur": "Iran ke official ke bayan ke baad ke mulk enriched nuclear material rakhega, Oil 1% up ho gaya hai.",
+   "ts": 1794440990.0,
+   "title": "UBS sees limited support for a 50bp Fed hike in December despite hot October CPI",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/ubs-sees-limited-support-for-a-50bp-fed-hike-in-december-despite-hot-october-cpi/",
+   "t": "12 Nov \u00b7 04:49 AM",
+   "ur": "October CPI hot honay ke bawajood UBS December mein 50bp Fed rate hike ki zyada umeed nahi laga raha.",
    "ur_by": "ai"
   },
   {
@@ -452,15 +490,6 @@
    "t": "11 Nov \u00b7 06:16 PM",
    "ur": "Morning Kickstart: hot CPI ke baad USD aur AI stocks mein rebound dekhne ko mila. Veterans ko un ki service ke liye shukriya",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794401069.0,
-   "title": "investingLive European session wrap: Stocks rally, dollar climbs as bond market sits out post-CPI action",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-european-session-wrap-stocks-rally-dollar-climbs-as-bond-market-sits-out-post-cpi-action/",
-   "t": "11 Nov \u00b7 05:44 PM",
-   "ur": "European session wrap: Stocks rally, dollar climb ho gaya hai jabke bond market CPI ke baad quiet rahi",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -468,6 +497,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
