@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 21:16 PKT",
+ "updated": "12-11-2026 21:32 PKT",
  "gold": {
-  "price": 3876.74,
-  "open": 4002.87,
+  "price": 3873.52,
+  "open": 3999.54,
   "high": 4007.2,
   "low": 3853.27,
   "chg": -3.15,
   "src": "XAUUSD Spot",
   "spark": [
-   3975.01,
    3975.03,
    3973.05,
    3970.93,
@@ -55,14 +54,15 @@
    3864.67,
    3868.79,
    3875.06,
-   3876.74
+   3875.69,
+   3873.52
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 50.255,
-   "chg": -3.13,
+   "price": 50.155,
+   "chg": -3.33,
    "spark": [
     55.55,
     56.837,
@@ -85,13 +85,13 @@
     52.564,
     51.101,
     51.881,
-    50.255
+    50.155
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.153,
-   "chg": 0.24,
+   "price": 103.169,
+   "chg": 0.25,
    "spark": [
     102.55,
     102.0,
@@ -114,13 +114,13 @@
     101.65,
     102.23,
     102.91,
-    103.153
+    103.169
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.75,
-   "chg": 0.25,
+   "price": 86.88,
+   "chg": 0.4,
    "spark": [
     95.09,
     97.97,
@@ -143,13 +143,13 @@
     86.85,
     86.04,
     86.53,
-    86.75
+    86.88
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.07,
-   "chg": 1.44,
+   "price": 5.068,
+   "chg": 1.4,
    "spark": [
     5.19,
     5.089,
@@ -172,42 +172,13 @@
     4.864,
     4.983,
     4.998,
-    5.07
-   ]
-  },
-  {
-   "name": "EUR/USD",
-   "price": 1.1068,
-   "chg": -0.9,
-   "spark": [
-    1.1204,
-    1.1195,
-    1.1213,
-    1.1225,
-    1.1216,
-    1.1227,
-    1.1235,
-    1.1221,
-    1.1218,
-    1.1174,
-    1.113,
-    1.1156,
-    1.1183,
-    1.1157,
-    1.1192,
-    1.1207,
-    1.1235,
-    1.1228,
-    1.1147,
-    1.1222,
-    1.1169,
-    1.1068
+    5.068
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3239,
-   "chg": -0.82,
+   "price": 1.3232,
+   "chg": -0.87,
    "spark": [
     1.3257,
     1.323,
@@ -230,13 +201,13 @@
     1.336,
     1.3442,
     1.3349,
-    1.3239
+    1.3232
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.914,
-   "chg": 0.76,
+   "price": 159.988,
+   "chg": 0.81,
    "spark": [
     158.322,
     157.957,
@@ -259,13 +230,13 @@
     158.292,
     157.983,
     158.705,
-    159.914
+    159.988
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2011.23,
-   "chg": -2.07,
+   "price": 2008.55,
+   "chg": -2.2,
    "spark": [
     2026.74,
     2041.97,
@@ -314,13 +285,13 @@
     2010.15,
     2003.14,
     2006.67,
-    2011.23
+    2008.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71809.8,
-   "chg": -2.87,
+   "price": 71660.7,
+   "chg": -3.07,
    "spark": [
     73209.8,
     73401.8,
@@ -369,19 +340,11 @@
     72416.5,
     71555.6,
     71630.5,
-    71809.8
+    71656.3
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1794490200.0,
-   "t": "Thu 12 Nov \u00b7 06:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "194K",
-   "previous": "189K"
-  },
   {
    "ts": 1794576600.0,
    "t": "Fri 13 Nov \u00b7 06:30 PM",
@@ -402,47 +365,47 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794500207.67577,
+   "ts": 1794501131.59203,
    "title": "Oil prices rise as geopolitical risks offset rising crude output",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171",
-   "t": "12 Nov \u00b7 09:16 PM",
+   "t": "12 Nov \u00b7 09:32 PM",
    "ur": "Geopolitical risks ki wajah se crude output barhnay ke bawajood oil prices barh gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794500207.67577,
+   "ts": 1794501131.59203,
    "title": "Gold slumps as hawkish Fed bets keep bullion under pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "12 Nov \u00b7 09:16 PM",
+   "t": "12 Nov \u00b7 09:32 PM",
    "ur": "Fed ke hawkish bets ki wajah se Gold gir gaya hai aur bullion par pressure barh gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794500207.67577,
+   "ts": 1794501131.59203,
    "title": "Oil prices jump as Trump says U.S. does not need deal with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "12 Nov \u00b7 09:16 PM",
+   "t": "12 Nov \u00b7 09:32 PM",
    "ur": "Trump ke yeh kehnay par ke US ko Iran ke sath deal nahi chahiye, oil prices jump kar gayi hain.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794500207.67577,
+   "ts": 1794501131.59203,
    "title": "Oil prices rise amid mixed messaging on Iran peace efforts, Hormuz ship attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
-   "t": "12 Nov \u00b7 09:16 PM",
+   "t": "12 Nov \u00b7 09:32 PM",
    "ur": "Iran peace efforts aur Hormuz ship attacks ki mixed khabron ki wajah se oil prices barh gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794500207.67577,
+   "ts": 1794501131.59203,
    "title": "Gold drops for a second straight session on boost to Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 09:16 PM",
+   "t": "12 Nov \u00b7 09:32 PM",
    "ur": "Fed ke rate hike expectations barhne ki wajah se Gold \u0932\u0917\u093e\u0924\u093e\u0930 doosre session mein bhi gir gaya",
    "ur_by": "ai"
   },
