@@ -1,14 +1,13 @@
 {
- "updated": "12-11-2026 16:16 PKT",
+ "updated": "12-11-2026 16:31 PKT",
  "gold": {
-  "price": 3948.75,
-  "open": 4053.98,
-  "high": 4053.98,
+  "price": 3947.36,
+  "open": 4048.46,
+  "high": 4050.88,
   "low": 3924.01,
-  "chg": -2.6,
+  "chg": -2.5,
   "src": "XAUUSD Spot",
   "spark": [
-   3981.6,
    3979.68,
    3974.71,
    3982.1,
@@ -55,14 +54,15 @@
    3952.22,
    3953.76,
    3949.94,
-   3948.75
+   3947.83,
+   3947.36
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 51.22,
-   "chg": -1.27,
+   "price": 51.1,
+   "chg": -1.51,
    "spark": [
     55.55,
     56.837,
@@ -85,13 +85,13 @@
     52.564,
     51.101,
     51.881,
-    51.22
+    51.1
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 102.843,
-   "chg": -0.07,
+   "price": 102.879,
+   "chg": -0.03,
    "spark": [
     102.55,
     102.0,
@@ -114,13 +114,13 @@
     101.65,
     102.23,
     102.91,
-    102.843
+    102.879
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.71,
-   "chg": -0.95,
+   "price": 85.83,
+   "chg": -0.81,
    "spark": [
     95.09,
     97.97,
@@ -143,7 +143,7 @@
     86.85,
     86.04,
     86.53,
-    85.71
+    85.83
    ]
   },
   {
@@ -176,9 +176,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1093,
+   "chg": -0.68,
+   "spark": [
+    1.1204,
+    1.1195,
+    1.1213,
+    1.1225,
+    1.1216,
+    1.1227,
+    1.1235,
+    1.1221,
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1093
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3274,
-   "chg": -0.56,
+   "price": 1.3267,
+   "chg": -0.61,
    "spark": [
     1.3257,
     1.323,
@@ -201,13 +230,13 @@
     1.336,
     1.3442,
     1.3349,
-    1.3274
+    1.3267
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.651,
-   "chg": 0.6,
+   "price": 159.679,
+   "chg": 0.61,
    "spark": [
     158.322,
     157.957,
@@ -230,13 +259,13 @@
     158.292,
     157.983,
     158.705,
-    159.651
+    159.679
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2040.33,
-   "chg": -0.65,
+   "price": 2030.86,
+   "chg": -1.11,
    "spark": [
     2096.74,
     2063.61,
@@ -285,13 +314,13 @@
     2047.73,
     2044.15,
     2042.18,
-    2040.33
+    2031.47
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 73273.3,
-   "chg": -0.89,
+   "price": 73120.4,
+   "chg": -1.09,
    "spark": [
     74296.9,
     73661.3,
@@ -340,7 +369,7 @@
     73504.6,
     73406.4,
     73372.1,
-    73273.3
+    73120.5
    ]
   }
  ],
@@ -373,48 +402,66 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794482202.753402,
+   "ts": 1794483103.986715,
    "title": "Gold slips below $4,000 as hawkish Fed bets keep bullion under pressure",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "12 Nov \u00b7 04:16 PM",
+   "t": "12 Nov \u00b7 04:31 PM",
    "ur": "Gold $4,000 se neechay gir gaya hai kyunke Fed ki hawkish bets ki wajah se bullion par pressure hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794482202.753402,
+   "ts": 1794483103.986715,
    "title": "Oil prices volatile amid worries over Iran peace efforts, output rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "12 Nov \u00b7 04:16 PM",
+   "t": "12 Nov \u00b7 04:31 PM",
    "ur": "Iran peace efforts aur output rebound ki waja se Oil prices mein kafi volatility hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794482202.753402,
+   "ts": 1794483103.986715,
    "title": "Oil prices edge lower as rising crude output offset geopolitical risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-drop-more-than-1-as-hopes-for-iran-ukraine-peace-talks-pressure-markets-5020171",
-   "t": "12 Nov \u00b7 04:16 PM",
+   "t": "12 Nov \u00b7 04:31 PM",
    "ur": "Geopolitical risks ki wajah se crude output barhne par oil prices thori niche aa gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794482202.753402,
+   "ts": 1794483103.986715,
    "title": "Oil prices rise amid mixed messaging on Iran peace efforts, Hormuz ship attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
-   "t": "12 Nov \u00b7 04:16 PM",
+   "t": "12 Nov \u00b7 04:31 PM",
    "ur": "Iran peace efforts aur Hormuz ship attacks ki mixed khabron ki wajah se oil prices barh gayi hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794482202.753402,
+   "ts": 1794483103.986715,
    "title": "Gold drops for a second straight session on boost to Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-   "t": "12 Nov \u00b7 04:16 PM",
+   "t": "12 Nov \u00b7 04:31 PM",
    "ur": "Fed ke rate hike expectations barhne ki wajah se Gold \u0932\u0917\u093e\u0924\u093e\u0930 doosre session mein bhi gir gaya",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794480302.0,
+   "title": "India October CPI inflation rises to 6.09%, food inflation accelerates to 8.94%",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/india-october-cpi-inflation-rises-to-6-09-food-inflation-accelerates-to-8-94/",
+   "t": "12 Nov \u00b7 03:45 PM",
+   "ur": "India ka October CPI inflation barh kar 6.09% ho gaya, aur food inflation bhi 8.94% ho gayi",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794478267.0,
+   "title": "Chart of the day: USD/JPY nears 160.00 as technical warning signs raise Japan intervention risks",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/chart-of-the-day-usd-jpy-nears-160-00-as-technical-warning-signs-raise-japan-intervention-risks/",
+   "t": "12 Nov \u00b7 03:11 PM",
+   "ur": "USD/JPY 160.00 ke qareeb aa gaya hai, technical warning signs ki wajah se Japan ki intervention ka risk barh gaya hai",
    "ur_by": "ai"
   },
   {
@@ -443,24 +490,6 @@
    "t": "12 Nov \u00b7 01:08 PM",
    "ur": "Gold price ka aik bara test hone wala hai kyunke $4,000 ka level toot gaya hai aur weekly support nazdeek hai.",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794466841.0,
-   "title": "UK September GDP beats expectations as resilient growth keeps BOE December rate hike on track",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/uk-september-gdp-beats-expectations-as-resilient-growth-keeps-boe-december-rate-hike-on-track/",
-   "t": "12 Nov \u00b7 12:00 PM",
-   "ur": "UK ki September GDP expectations se behtar aayi hai aur strong growth ki wajah se BOE ka December mein rate hike ka plan track par hai.",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794466823.0,
-   "title": "UK Q3 GDP meets estimates as resilient growth gives BOE more room to tackle inflation",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/uk-q3-gdp-meets-estimates-as-resilient-growth-gives-boe-more-room-to-tackle-inflation/",
-   "t": "12 Nov \u00b7 12:00 PM",
-   "ur": "UK ki Q3 GDP estimates ke mutabiq aayi hai aur solid growth se BOE ko inflation control karne mein zyada asani hogi.",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -468,6 +497,8 @@
   "label": "Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
