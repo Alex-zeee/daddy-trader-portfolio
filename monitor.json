@@ -1,14 +1,13 @@
 {
- "updated": "13-11-2026 04:46 PKT",
+ "updated": "13-11-2026 05:01 PKT",
  "gold": {
-  "price": 3879.71,
-  "open": 3980.32,
+  "price": 3880.76,
+  "open": 3974.27,
   "high": 4000.94,
   "low": 3853.27,
-  "chg": -2.53,
+  "chg": -2.35,
   "src": "XAUUSD Spot",
   "spark": [
-   3943.28,
    3940.95,
    3936.57,
    3936.18,
@@ -55,10 +54,40 @@
    3875.86,
    3876.98,
    3878.12,
-   3879.71
+   3881.29,
+   3880.76
   ]
  },
  "markets": [
+  {
+   "name": "Silver (fut)",
+   "price": 50.01,
+   "chg": -3.61,
+   "spark": [
+    55.55,
+    56.837,
+    56.995,
+    56.974,
+    57.706,
+    57.422,
+    54.764,
+    53.711,
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    50.01
+   ]
+  },
   {
    "name": "Dollar Index",
    "price": 103.17,
@@ -90,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 88.81,
-   "chg": 2.63,
+   "price": 88.78,
+   "chg": 2.6,
    "spark": [
     95.09,
     97.97,
@@ -114,7 +143,7 @@
     86.85,
     86.04,
     86.53,
-    88.81
+    88.78
    ]
   },
   {
@@ -148,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1053,
-   "chg": -1.03,
+   "price": 1.1051,
+   "chg": -0.4,
    "spark": [
-    1.1204,
     1.1195,
     1.1213,
     1.1225,
@@ -172,15 +200,15 @@
     1.1147,
     1.1222,
     1.1169,
-    1.1053
+    1.1095,
+    1.1051
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3232,
-   "chg": -0.87,
+   "price": 1.323,
+   "chg": -0.35,
    "spark": [
-    1.3257,
     1.323,
     1.3273,
     1.3336,
@@ -201,15 +229,15 @@
     1.336,
     1.3442,
     1.3349,
-    1.3232
+    1.3277,
+    1.323
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.851,
-   "chg": 0.72,
+   "price": 159.897,
+   "chg": 0.1,
    "spark": [
-    158.322,
     157.957,
     158.143,
     157.806,
@@ -230,15 +258,15 @@
     158.292,
     157.983,
     158.705,
-    159.851
+    159.734,
+    159.897
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2015.11,
-   "chg": -1.88,
+   "price": 2017.08,
+   "chg": -0.0,
    "spark": [
-    2047.23,
     2050.98,
     2055.89,
     2060.05,
@@ -285,15 +313,15 @@
     2014.0,
     2014.89,
     2011.76,
-    2015.11
+    2017.15,
+    2017.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 71251.1,
-   "chg": -3.62,
+   "price": 71383.4,
+   "chg": 0.02,
    "spark": [
-    73444.0,
     73498.3,
     73544.1,
     73671.9,
@@ -340,7 +368,8 @@
     71360.1,
     71476.1,
     71336.1,
-    71251.1
+    71370.7,
+    71383.4
    ]
   }
  ],
@@ -365,38 +394,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794527207.148002,
+   "ts": 1794528107.669965,
    "title": "Brent climbs over 3% as Trump says U.S. does not need deal with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "13 Nov \u00b7 04:46 AM",
+   "t": "13 Nov \u00b7 05:01 AM",
    "ur": "Brent oil 3% se zyada barh gaya jab Trump ne kaha ke US ko Iran ke sath kisi deal ki zaroorat nahi hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794527207.148002,
+   "ts": 1794528107.669965,
    "title": "Gold falls about 3% amid extended rise in the dollar on surging Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "13 Nov \u00b7 04:46 AM",
+   "t": "13 Nov \u00b7 05:01 AM",
    "ur": "Dollar mazboot honay aur Fed rate hike ki umeedon ki wajah se Gold taqreeban 3% gir gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794527207.148002,
+   "ts": 1794528107.669965,
    "title": "White House set to extend Jones Act shipping waiver, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/white-house-set-to-extend-set-to-extend-jones-act-waiver-sources-say-5022759",
-   "t": "13 Nov \u00b7 04:46 AM",
+   "t": "13 Nov \u00b7 05:01 AM",
    "ur": "White House Jones Act shipping waiver barhanay ki tayari mein hai, sources ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794527207.148002,
+   "ts": 1794528107.669965,
    "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
-   "t": "13 Nov \u00b7 04:46 AM",
+   "t": "13 Nov \u00b7 05:01 AM",
    "ur": "Iran ka kehna hai ke Strait of Hormuz mein dhamakon ki wajah se char tankers hit huwe hain",
    "ur_by": "ai"
   },
@@ -456,12 +485,10 @@
   }
  ],
  "sentiment": {
-  "value": 28,
-  "label": "Fear"
+  "value": 20,
+  "label": "Extreme Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
-  "gemini gemini-2.5-flash: HTTP 404"
+  "FXStreet: HTTP Error 403: Forbidden"
  ]
 }
