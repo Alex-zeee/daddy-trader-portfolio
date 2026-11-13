@@ -1,14 +1,13 @@
 {
- "updated": "13-11-2026 06:14 PKT",
+ "updated": "13-11-2026 06:16 PKT",
  "gold": {
-  "price": 3887.8,
-  "open": 3997.45,
-  "high": 4000.94,
+  "price": 3886.38,
+  "open": 3994.04,
+  "high": 3995.21,
   "low": 3853.27,
-  "chg": -2.74,
+  "chg": -2.7,
   "src": "XAUUSD Spot",
   "spark": [
-   3905.04,
    3908.58,
    3890.58,
    3890.06,
@@ -55,14 +54,15 @@
    3883.52,
    3886.97,
    3886.46,
-   3887.8
+   3889.19,
+   3886.38
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 50.105,
-   "chg": -3.42,
+   "price": 50.055,
+   "chg": -3.52,
    "spark": [
     55.55,
     56.837,
@@ -85,13 +85,13 @@
     52.564,
     51.101,
     51.881,
-    50.105
+    50.055
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.173,
-   "chg": 0.26,
+   "price": 103.171,
+   "chg": 0.25,
    "spark": [
     102.55,
     102.0,
@@ -114,13 +114,13 @@
     101.65,
     102.23,
     102.91,
-    103.173
+    103.171
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.54,
-   "chg": 2.32,
+   "price": 88.5,
+   "chg": 2.28,
    "spark": [
     95.09,
     97.97,
@@ -143,7 +143,7 @@
     86.85,
     86.04,
     86.53,
-    88.54
+    88.5
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1058,
-   "chg": -0.33,
+   "price": 1.1062,
+   "chg": -0.3,
    "spark": [
     1.1195,
     1.1213,
@@ -201,13 +201,13 @@
     1.1222,
     1.1169,
     1.1095,
-    1.1058
+    1.1062
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3235,
-   "chg": -0.32,
+   "price": 1.3237,
+   "chg": -0.3,
    "spark": [
     1.323,
     1.3273,
@@ -230,13 +230,13 @@
     1.3442,
     1.3349,
     1.3277,
-    1.3235
+    1.3237
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.904,
-   "chg": 0.11,
+   "price": 159.872,
+   "chg": 0.09,
    "spark": [
     157.957,
     158.143,
@@ -259,13 +259,13 @@
     157.983,
     158.705,
     159.734,
-    159.904
+    159.872
    ]
   },
   {
    "name": "Ethereum",
-   "price": 2006.55,
-   "chg": -0.53,
+   "price": 2008.99,
+   "chg": -0.41,
    "spark": [
     2055.89,
     2060.05,
@@ -314,13 +314,13 @@
     2011.76,
     2017.15,
     2008.97,
-    2006.55
+    2008.99
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 70816.0,
-   "chg": -0.78,
+   "price": 70921.0,
+   "chg": -0.63,
    "spark": [
     73544.1,
     73671.9,
@@ -369,7 +369,7 @@
     71336.1,
     71370.7,
     71041.1,
-    70827.9
+    70921.0
    ]
   }
  ],
@@ -394,47 +394,56 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794532485.419448,
+   "ts": 1794532601.511955,
+   "title": "Gold languishes near 13-month low as $96 oil fuels bets on bigger Fed hikes",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
+   "t": "13 Nov \u00b7 06:16 AM",
+   "ur": "Gold 13 month low ke qareeb ruk gaya hai kyunke $96 oil ne barhay Fed hikes ki bets ko fuel de diya hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794532601.511955,
    "title": "Oil prices hold gains as Trump sidelines Vance from Iran diplomacy",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "13 Nov \u00b7 06:14 AM",
+   "t": "13 Nov \u00b7 06:16 AM",
    "ur": "Trump ke Iran diplomacy se Vance ko hatane ke baad Oil prices mazeed barqarar hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794532485.419448,
+   "ts": 1794532601.511955,
    "title": "Brent climbs over 3% as Trump says U.S. does not need deal with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "13 Nov \u00b7 06:14 AM",
+   "t": "13 Nov \u00b7 06:16 AM",
    "ur": "Brent oil 3% se zyada barh gaya jab Trump ne kaha ke US ko Iran ke sath kisi deal ki zaroorat nahi hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794532485.419448,
+   "ts": 1794532601.511955,
    "title": "Gold falls about 3% amid extended rise in the dollar on surging Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "13 Nov \u00b7 06:14 AM",
+   "t": "13 Nov \u00b7 06:16 AM",
    "ur": "Dollar mazboot honay aur Fed rate hike ki umeedon ki wajah se Gold taqreeban 3% gir gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794532485.419448,
+   "ts": 1794532601.511955,
    "title": "White House set to extend Jones Act shipping waiver, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/white-house-set-to-extend-set-to-extend-jones-act-waiver-sources-say-5022759",
-   "t": "13 Nov \u00b7 06:14 AM",
+   "t": "13 Nov \u00b7 06:16 AM",
    "ur": "White House Jones Act shipping waiver barhanay ki tayari mein hai, sources ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794532485.419448,
+   "ts": 1794532601.511955,
    "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
-   "t": "13 Nov \u00b7 06:14 AM",
+   "t": "13 Nov \u00b7 06:16 AM",
    "ur": "Iran ka kehna hai ke Strait of Hormuz mein dhamakon ki wajah se char tankers hit huwe hain",
    "ur_by": "ai"
   },
@@ -472,15 +481,6 @@
    "link": "https://investinglive.com/central-banks/us-treasury-bought-yen-in-july-its-first-intervention-since-1998-as-yen-nears-160-again/",
    "t": "13 Nov \u00b7 04:43 AM",
    "ur": "Yen 160 ke qareeb aane par US Treasury ne July mein yen kharida, 1998 ke baad pehli intervention",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794525149.0,
-   "title": "BlackRock sees gold support intact despite near 30% drop from record, expects milder gains",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/blackrock-sees-gold-support-intact-despite-near-30-drop-from-record-expects-milder-gains/",
-   "t": "13 Nov \u00b7 04:12 AM",
-   "ur": "BlackRock ka kehna hai ke record se taqreeban 30% drop ke bawajood Gold ka support intact hai aur aage chal kar mild gains ki umeed hai",
    "ur_by": "ai"
   }
  ],
