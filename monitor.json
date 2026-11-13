@@ -1,14 +1,13 @@
 {
- "updated": "14-11-2026 03:46 PKT",
+ "updated": "14-11-2026 04:01 PKT",
  "gold": {
-  "price": 3874.52,
-  "open": 3877.05,
+  "price": 3874.48,
+  "open": 3875.85,
   "high": 3923.92,
   "low": 3868.62,
-  "chg": -0.07,
+  "chg": -0.04,
   "src": "XAUUSD Spot",
   "spark": [
-   3891.39,
    3887.99,
    3889.81,
    3895.37,
@@ -55,7 +54,8 @@
    3874.84,
    3874.5,
    3874.42,
-   3874.52
+   3874.42,
+   3874.48
   ]
  },
  "markets": [
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1930.81,
-   "chg": -4.28,
+   "price": 1923.99,
+   "chg": -4.62,
    "spark": [
-    2053.48,
     2059.52,
     2048.87,
     2055.49,
@@ -314,15 +313,15 @@
     1951.94,
     1946.16,
     1926.45,
-    1930.81
+    1921.66,
+    1923.92
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 68365.6,
-   "chg": -4.21,
+   "price": 68191.5,
+   "chg": -4.45,
    "spark": [
-    73928.4,
     73989.1,
     73627.6,
     73710.6,
@@ -369,7 +368,8 @@
     68993.0,
     68844.4,
     68322.6,
-    68365.6
+    68189.2,
+    68191.5
    ]
   }
  ],
@@ -426,48 +426,48 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1794610001.249856,
+   "ts": 1794610914.333173,
+   "title": "Oil prices fall over 2% for the week amid easing fears of fresh U.S.-Iran fighting",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
+   "t": "14 Nov \u00b7 04:01 AM",
+   "ur": "US-Iran fighting ka dar kam honay ki wajah se is haftay Oil prices 2% se zyada gir gayin",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794610914.333173,
    "title": "Spot gold posts worst week since March amid jump in Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "t": "14 Nov \u00b7 03:46 AM",
+   "t": "14 Nov \u00b7 04:01 AM",
    "ur": "Fed ke rate hike expectations barhney ki wajah se Gold ne March ke baad se sab se kharab week record kiya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610001.249856,
+   "ts": 1794610914.333173,
    "title": "Oil market positioning risks: surplus, shipping attacks, and spillover into rates and equities",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/stock-market-news/oil-market-positioning-risks-surplus-shipping-attacks-and-spillover-into-rates-and-equities-93CH-5026424",
-   "t": "14 Nov \u00b7 03:46 AM",
+   "t": "14 Nov \u00b7 04:01 AM",
    "ur": "Oil market mein surplus aur shipping attacks ki wajah se rates aur equities par risk barh gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610001.249856,
+   "ts": 1794610914.333173,
    "title": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-extends-shipping-law-waiver-90-days-to-allow-freer-movement-of-oil-commodities-5026364",
-   "t": "14 Nov \u00b7 03:46 AM",
+   "t": "14 Nov \u00b7 04:01 AM",
    "ur": "US ne oil aur commodities ki movement asan rakhne ke liye shipping law waiver 90 days barha diya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610001.249856,
+   "ts": 1794610914.333173,
    "title": "Baltic dry bulk shipping index falls on weaker capesize rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/baltic-dry-bulk-shipping-index-falls-on-weaker-capesize-rates-93CH-5026166",
-   "t": "14 Nov \u00b7 03:46 AM",
+   "t": "14 Nov \u00b7 04:01 AM",
    "ur": "Capesize rates kam honay ki wajah se Baltic dry bulk shipping index gir gaya hai",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794610001.249856,
-   "title": "US Treasury\u2019s Bessent says he is optimistic on trade deals with Canada, Mexico",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-says-he-is-optimistic-on-trade-deals-with-canada-mexico-5025718",
-   "t": "14 Nov \u00b7 03:46 AM",
-   "ur": "US Treasury ke Bessent ne kaha hai ke unhein Canada aur Mexico ke sath trade deals ki poori umeed hai",
    "ur_by": "ai"
   },
   {
@@ -521,6 +521,8 @@
   "label": "Extreme Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
