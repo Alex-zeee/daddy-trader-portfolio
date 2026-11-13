@@ -1,14 +1,13 @@
 {
- "updated": "14-11-2026 00:16 PKT",
+ "updated": "14-11-2026 00:31 PKT",
  "gold": {
-  "price": 3878.88,
-  "open": 3878.71,
+  "price": 3877.81,
+  "open": 3884.64,
   "high": 3923.92,
   "low": 3868.62,
-  "chg": 0.0,
+  "chg": -0.18,
   "src": "XAUUSD Spot",
   "spark": [
-   3898.36,
    3899.77,
    3897.1,
    3892.7,
@@ -55,14 +54,15 @@
    3880.72,
    3881.53,
    3879.53,
-   3878.88
+   3877.78,
+   3877.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 49.0,
-   "chg": -1.95,
+   "price": 48.965,
+   "chg": -2.02,
    "spark": [
     56.837,
     56.995,
@@ -85,12 +85,12 @@
     51.101,
     51.881,
     49.972,
-    49.0
+    48.965
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.388,
+   "price": 103.387,
    "chg": 0.21,
    "spark": [
     102.0,
@@ -114,13 +114,13 @@
     102.23,
     102.91,
     103.17,
-    103.388
+    103.387
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.64,
-   "chg": -0.11,
+   "price": 88.61,
+   "chg": -0.15,
    "spark": [
     97.97,
     101.41,
@@ -143,13 +143,13 @@
     86.04,
     86.53,
     88.74,
-    88.64
+    88.61
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.145,
-   "chg": 0.82,
+   "price": 5.149,
+   "chg": 0.9,
    "spark": [
     5.089,
     5.098,
@@ -172,13 +172,13 @@
     4.983,
     4.998,
     5.103,
-    5.145
+    5.149
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1031,
-   "chg": -0.57,
+   "price": 1.103,
+   "chg": -0.59,
    "spark": [
     1.1195,
     1.1213,
@@ -201,13 +201,13 @@
     1.1222,
     1.1169,
     1.1095,
-    1.1031
+    1.103
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3212,
-   "chg": -0.48,
+   "price": 1.3214,
+   "chg": -0.47,
    "spark": [
     1.323,
     1.3273,
@@ -230,13 +230,42 @@
     1.3442,
     1.3349,
     1.3277,
-    1.3212
+    1.3214
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 159.74,
+   "chg": 0.0,
+   "spark": [
+    157.957,
+    158.143,
+    157.806,
+    158.523,
+    158.268,
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.74
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1947.6,
-   "chg": -3.45,
+   "price": 1947.23,
+   "chg": -3.47,
    "spark": [
     2078.86,
     2067.84,
@@ -285,13 +314,13 @@
     1926.26,
     1936.62,
     1942.9,
-    1947.6
+    1947.23
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 68986.1,
-   "chg": -3.34,
+   "price": 68954.5,
+   "chg": -3.39,
    "spark": [
     74590.6,
     74308.1,
@@ -340,7 +369,7 @@
     68632.0,
     68879.6,
     68925.4,
-    68986.1
+    68954.5
    ]
   }
  ],
@@ -397,56 +426,65 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1794597406.146703,
+   "ts": 1794598308.392625,
+   "title": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-extends-shipping-law-waiver-90-days-to-allow-freer-movement-of-oil-commodities-5026364",
+   "t": "14 Nov \u00b7 12:31 AM",
+   "ur": "US ne oil aur commodities ki movement asan rakhne ke liye shipping law waiver 90 days barha diya hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794598308.392625,
    "title": "Baltic dry bulk shipping index falls on weaker capesize rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/baltic-dry-bulk-shipping-index-falls-on-weaker-capesize-rates-93CH-5026166",
-   "t": "14 Nov \u00b7 12:16 AM",
+   "t": "14 Nov \u00b7 12:31 AM",
    "ur": "Capesize rates kam honay ki wajah se Baltic dry bulk shipping index gir gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794597406.146703,
+   "ts": 1794598308.392625,
    "title": "Gold inches up, but remains on pace for weekly losses",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "t": "14 Nov \u00b7 12:16 AM",
+   "t": "14 Nov \u00b7 12:31 AM",
    "ur": "Gold thora oper gaya hai lakin weekly loss ki taraf ja raha hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794597406.146703,
+   "ts": 1794598308.392625,
    "title": "US Treasury\u2019s Bessent says he is optimistic on trade deals with Canada, Mexico",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-treasurys-bessent-says-he-is-optimistic-on-trade-deals-with-canada-mexico-5025718",
-   "t": "14 Nov \u00b7 12:16 AM",
+   "t": "14 Nov \u00b7 12:31 AM",
    "ur": "US Treasury ke Bessent ne kaha hai ke unhein Canada aur Mexico ke sath trade deals ki poori umeed hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794597406.146703,
+   "ts": 1794598308.392625,
    "title": "US denies Iran\u2019s claim that it attacked early-warning radar in Bahrain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-guards-say-they-targeted-a-us-earlywarning-radar-in-bahrain-5024146",
-   "t": "14 Nov \u00b7 12:16 AM",
+   "t": "14 Nov \u00b7 12:31 AM",
    "ur": "US ne Iran ka yeh dawa kharij kar diya hai ke us ne Bahrain mein early-warning radar par attack kiya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794597406.146703,
+   "ts": 1794598308.392625,
    "title": "Oil set for second weekly loss amid easing fears of fresh U.S.-Iran fighting",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "14 Nov \u00b7 12:16 AM",
+   "t": "14 Nov \u00b7 12:31 AM",
    "ur": "Oil market mein doosra weekly loss dekhne ko mil raha hai kyunke US-Iran fight ka dar kam ho gaya hai.",
    "ur_by": "ai"
   },
   {
-   "ts": 1794597406.146703,
+   "ts": 1794598308.392625,
    "title": "Goldman cuts iron ore price target on China steel demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-cuts-iron-ore-price-target-on-china-steel-demand-93CH-5025364",
-   "t": "14 Nov \u00b7 12:16 AM",
+   "t": "14 Nov \u00b7 12:31 AM",
    "ur": "Goldman ne China ki steel demand weak honay ki waja se iron ore ka price target cut kar diya hai",
    "ur_by": "ai"
   },
@@ -476,15 +514,6 @@
    "t": "13 Nov \u00b7 08:42 PM",
    "ur": "Fed ki Collins ka kehna hai ke mazeed interest rate hike jald zaruri ho sakte hain",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794581567.0,
-   "title": "Goldman Sachs: We can explain almost the entire US inflation overshoot by tariffs and the war in Iran",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/goldman-sachs-we-can-explain-almost-the-entire-us-inflation-overshoot-by-tariffs-and-the-war-in-iran/",
-   "t": "13 Nov \u00b7 07:52 PM",
-   "ur": "Goldman Sachs: US inflation barhney ki waja tariffs aur Iran ki war hai",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -492,6 +521,8 @@
   "label": "Extreme Fear"
  },
  "err": [
-  "FXStreet: HTTP Error 403: Forbidden"
+  "FXStreet: HTTP Error 403: Forbidden",
+  "gemini gemini-flash-latest: HTTP 503",
+  "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
