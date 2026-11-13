@@ -1,14 +1,13 @@
 {
- "updated": "13-11-2026 07:31 PKT",
+ "updated": "13-11-2026 07:46 PKT",
  "gold": {
-  "price": 3906.96,
-  "open": 3975.2,
+  "price": 3908.33,
+  "open": 3980.12,
   "high": 3985.4,
   "low": 3853.27,
-  "chg": -1.72,
+  "chg": -1.8,
   "src": "XAUUSD Spot",
   "spark": [
-   3871.2,
    3857.16,
    3854.59,
    3864.67,
@@ -55,14 +54,15 @@
    3909.83,
    3908.85,
    3906.19,
-   3906.96
+   3909.74,
+   3908.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 50.465,
-   "chg": -2.73,
+   "price": 50.585,
+   "chg": -2.5,
    "spark": [
     55.55,
     56.837,
@@ -85,13 +85,42 @@
     52.564,
     51.101,
     51.881,
-    50.465
+    50.585
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 103.162,
+   "chg": 0.24,
+   "spark": [
+    102.55,
+    102.0,
+    101.84,
+    101.98,
+    101.73,
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.162
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.43,
-   "chg": 2.2,
+   "price": 88.58,
+   "chg": 2.37,
    "spark": [
     95.09,
     97.97,
@@ -114,7 +143,7 @@
     86.85,
     86.04,
     86.53,
-    88.43
+    88.58
    ]
   },
   {
@@ -147,38 +176,9 @@
    ]
   },
   {
-   "name": "EUR/USD",
-   "price": 1.1061,
-   "chg": -0.31,
-   "spark": [
-    1.1195,
-    1.1213,
-    1.1225,
-    1.1216,
-    1.1227,
-    1.1235,
-    1.1221,
-    1.1218,
-    1.1174,
-    1.113,
-    1.1156,
-    1.1183,
-    1.1157,
-    1.1192,
-    1.1207,
-    1.1235,
-    1.1228,
-    1.1147,
-    1.1222,
-    1.1169,
-    1.1095,
-    1.1061
-   ]
-  },
-  {
    "name": "GBP/USD",
-   "price": 1.3236,
-   "chg": -0.31,
+   "price": 1.3234,
+   "chg": -0.32,
    "spark": [
     1.323,
     1.3273,
@@ -201,13 +201,13 @@
     1.3442,
     1.3349,
     1.3277,
-    1.3236
+    1.3234
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.909,
-   "chg": 0.11,
+   "price": 159.93,
+   "chg": 0.12,
    "spark": [
     157.957,
     158.143,
@@ -230,13 +230,13 @@
     157.983,
     158.705,
     159.734,
-    159.909
+    159.93
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1995.33,
-   "chg": -1.08,
+   "price": 1991.08,
+   "chg": -1.29,
    "spark": [
     2060.05,
     2061.77,
@@ -285,13 +285,13 @@
     2017.15,
     2008.97,
     2009.72,
-    1995.33
+    1991.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 70321.1,
-   "chg": -1.47,
+   "price": 70234.6,
+   "chg": -1.59,
    "spark": [
     73671.9,
     73633.1,
@@ -340,7 +340,7 @@
     71370.7,
     71041.1,
     70863.7,
-    70328.0
+    70234.6
    ]
   }
  ],
@@ -365,57 +365,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794537106.795713,
+   "ts": 1794538014.235106,
    "title": "Gold languishes near 13-month low as $96 oil fuels bets on bigger Fed hikes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "t": "13 Nov \u00b7 07:31 AM",
+   "t": "13 Nov \u00b7 07:46 AM",
    "ur": "Gold 13 month low ke qareeb ruk gaya hai kyunke $96 oil ne barhay Fed hikes ki bets ko fuel de diya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794537106.795713,
+   "ts": 1794538014.235106,
    "title": "Oil prices hold gains as Trump sidelines Vance from Iran diplomacy",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "13 Nov \u00b7 07:31 AM",
+   "t": "13 Nov \u00b7 07:46 AM",
    "ur": "Trump ke Iran diplomacy se Vance ko hatane ke baad Oil prices mazeed barqarar hain",
    "ur_by": "ai"
   },
   {
-   "ts": 1794537106.795713,
+   "ts": 1794538014.235106,
    "title": "Brent climbs over 3% as Trump says U.S. does not need deal with Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081",
-   "t": "13 Nov \u00b7 07:31 AM",
+   "t": "13 Nov \u00b7 07:46 AM",
    "ur": "Brent oil 3% se zyada barh gaya jab Trump ne kaha ke US ko Iran ke sath kisi deal ki zaroorat nahi hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794537106.795713,
+   "ts": 1794538014.235106,
    "title": "Gold falls about 3% amid extended rise in the dollar on surging Fed rate hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139",
-   "t": "13 Nov \u00b7 07:31 AM",
+   "t": "13 Nov \u00b7 07:46 AM",
    "ur": "Dollar mazboot honay aur Fed rate hike ki umeedon ki wajah se Gold taqreeban 3% gir gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794537106.795713,
+   "ts": 1794538014.235106,
    "title": "White House set to extend Jones Act shipping waiver, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/white-house-set-to-extend-set-to-extend-jones-act-waiver-sources-say-5022759",
-   "t": "13 Nov \u00b7 07:31 AM",
+   "t": "13 Nov \u00b7 07:46 AM",
    "ur": "White House Jones Act shipping waiver barhanay ki tayari mein hai, sources ka kehna hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794537106.795713,
+   "ts": 1794538014.235106,
    "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/four-tankers-struck-by-explosions-in-strait-of-hormuz-iran-says-5022725",
-   "t": "13 Nov \u00b7 07:31 AM",
+   "t": "13 Nov \u00b7 07:46 AM",
    "ur": "Iran ka kehna hai ke Strait of Hormuz mein dhamakon ki wajah se char tankers hit huwe hain",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794534007.0,
+   "title": "SMIC co-CEO sees 2026 revenue topping $12 billion as AI demand stretches chip upcycle",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/smic-co-ceo-sees-2026-revenue-topping-12-billion-as-ai-demand-stretches-chip-upcycle/",
+   "t": "13 Nov \u00b7 06:40 AM",
+   "ur": "SMIC co-CEO ka kehna hai ke AI demand ki wajah se 2026 mein revenue $12 billion se oper jaye ga",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794532957.0,
+   "title": "Gold set for $3.3bn of index fund buying in January as rebalancing flips in its favour",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-set-for-3-3bn-of-index-fund-buying-in-january-as-rebalancing-flips-in-its-favour/",
+   "t": "13 Nov \u00b7 06:22 AM",
+   "ur": "Rebalancing ki wajah se January mein Gold ko $3.3bn ki index fund buying milne ki umeed hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794532530.0,
+   "title": "PBOC sets USD/ CNY reference rate for today at 6.7152 (vs. estimate at 6.6756)",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7152-vs-estimate-at-6-6756/",
+   "t": "13 Nov \u00b7 06:15 AM",
+   "ur": "PBOC ne aaj ke liye USD/CNY reference rate 6.7152 set kiya hai",
    "ur_by": "ai"
   },
   {
@@ -426,33 +453,6 @@
    "t": "13 Nov \u00b7 05:46 AM",
    "ur": "Japan ke Katayama ne 160 ke qareeb yen ki aik tarafay movement par warning di hai aur US Treasury ke sath rabta karein ge",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794529463.0,
-   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6756 \u2013 Reuters estimate",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6756-reuters-estimate-0/",
-   "t": "13 Nov \u00b7 05:24 AM",
-   "ur": "Reuters ki estimate ke mutabiq PBOC USD/CNY reference rate 6.6756 set kar sakta hai",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794528388.0,
-   "title": "Fed\u2019s Williams says inflation stubbornly high and Fed still has work to do on policy",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/fed-s-williams-says-inflation-stubbornly-high-and-fed-still-has-work-to-do-on-policy/",
-   "t": "13 Nov \u00b7 05:06 AM",
-   "ur": "Fed ke Williams ka kehna hai ke inflation abhi bhi ziada hai aur policy par mazeed kaam baki hai",
-   "ur_by": "ai"
-  },
-  {
-   "ts": 1794527028.0,
-   "title": "US Treasury bought yen in July, its first intervention since 1998, as yen nears 160 again",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/us-treasury-bought-yen-in-july-its-first-intervention-since-1998-as-yen-nears-160-again/",
-   "t": "13 Nov \u00b7 04:43 AM",
-   "ur": "Yen ke 160 ke qareeb ponchne par US Treasury ne July mein yen kharida, 1998 ke baad ki pehli intervention",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -461,7 +461,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-flash-latest: HTTP 503",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
