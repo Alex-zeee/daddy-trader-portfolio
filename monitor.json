@@ -1,14 +1,13 @@
 {
- "updated": "14-11-2026 04:01 PKT",
+ "updated": "14-11-2026 04:16 PKT",
  "gold": {
-  "price": 3874.48,
-  "open": 3875.85,
+  "price": 3874.41,
+  "open": 3876.51,
   "high": 3923.92,
   "low": 3868.62,
-  "chg": -0.04,
+  "chg": -0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   3887.99,
    3889.81,
    3895.37,
    3895.67,
@@ -55,7 +54,8 @@
    3874.5,
    3874.42,
    3874.42,
-   3874.48
+   3874.5,
+   3874.41
   ]
  },
  "markets": [
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1923.99,
-   "chg": -4.62,
+   "price": 1916.38,
+   "chg": -5.0,
    "spark": [
     2059.52,
     2048.87,
@@ -314,13 +314,13 @@
     1946.16,
     1926.45,
     1921.66,
-    1923.92
+    1916.38
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 68191.5,
-   "chg": -4.45,
+   "price": 67890.1,
+   "chg": -4.88,
    "spark": [
     73989.1,
     73627.6,
@@ -369,7 +369,7 @@
     68844.4,
     68322.6,
     68189.2,
-    68191.5
+    67890.1
    ]
   }
  ],
@@ -426,48 +426,57 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1794610914.333173,
+   "ts": 1794611806.743702,
    "title": "Oil prices fall over 2% for the week amid easing fears of fresh U.S.-Iran fighting",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "14 Nov \u00b7 04:01 AM",
+   "t": "14 Nov \u00b7 04:16 AM",
    "ur": "US-Iran fighting ka dar kam honay ki wajah se is haftay Oil prices 2% se zyada gir gayin",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610914.333173,
+   "ts": 1794611806.743702,
    "title": "Spot gold posts worst week since March amid jump in Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "t": "14 Nov \u00b7 04:01 AM",
+   "t": "14 Nov \u00b7 04:16 AM",
    "ur": "Fed ke rate hike expectations barhney ki wajah se Gold ne March ke baad se sab se kharab week record kiya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610914.333173,
+   "ts": 1794611806.743702,
    "title": "Oil market positioning risks: surplus, shipping attacks, and spillover into rates and equities",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/stock-market-news/oil-market-positioning-risks-surplus-shipping-attacks-and-spillover-into-rates-and-equities-93CH-5026424",
-   "t": "14 Nov \u00b7 04:01 AM",
+   "t": "14 Nov \u00b7 04:16 AM",
    "ur": "Oil market mein surplus aur shipping attacks ki wajah se rates aur equities par risk barh gaya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610914.333173,
+   "ts": 1794611806.743702,
    "title": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-extends-shipping-law-waiver-90-days-to-allow-freer-movement-of-oil-commodities-5026364",
-   "t": "14 Nov \u00b7 04:01 AM",
+   "t": "14 Nov \u00b7 04:16 AM",
    "ur": "US ne oil aur commodities ki movement asan rakhne ke liye shipping law waiver 90 days barha diya hai",
    "ur_by": "ai"
   },
   {
-   "ts": 1794610914.333173,
+   "ts": 1794611806.743702,
    "title": "Baltic dry bulk shipping index falls on weaker capesize rates",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/baltic-dry-bulk-shipping-index-falls-on-weaker-capesize-rates-93CH-5026166",
-   "t": "14 Nov \u00b7 04:01 AM",
+   "t": "14 Nov \u00b7 04:16 AM",
    "ur": "Capesize rates kam honay ki wajah se Baltic dry bulk shipping index gir gaya hai",
+   "ur_by": "ai"
+  },
+  {
+   "ts": 1794607367.0,
+   "title": "investingLive Americas market news wrap: Hawkish Fed worries ebb after PPI",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hawkish-fed-worries-ebb-after-ppi/",
+   "t": "14 Nov \u00b7 03:02 AM",
+   "ur": "PPI data ke baad hawkish Fed ki fikar kam ho gayi hai",
    "ur_by": "ai"
   },
   {
@@ -505,15 +514,6 @@
    "t": "13 Nov \u00b7 08:42 PM",
    "ur": "Fed ki Collins ka kehna hai ke mazeed interest rate hike jald zaruri ho sakte hain",
    "ur_by": "ai"
-  },
-  {
-   "ts": 1794581567.0,
-   "title": "Goldman Sachs: We can explain almost the entire US inflation overshoot by tariffs and the war in Iran",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/goldman-sachs-we-can-explain-almost-the-entire-us-inflation-overshoot-by-tariffs-and-the-war-in-iran/",
-   "t": "13 Nov \u00b7 07:52 PM",
-   "ur": "Goldman Sachs ka kehna hai ke US inflation mein zyada tar izafah tariffs aur Iran war ki wajah se hai",
-   "ur_by": "ai"
   }
  ],
  "sentiment": {
@@ -522,7 +522,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "gemini gemini-flash-latest: The read operation timed out",
+  "gemini gemini-flash-latest: HTTP 503",
   "gemini gemini-2.5-flash: HTTP 404"
  ]
 }
