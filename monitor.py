@@ -372,6 +372,109 @@ for n in out["news"]:
 if tr_fail:
     errs.append("translate: %d/%d failed" % (tr_fail, len(out["news"])))
 
+
+# ---------- 4d. Article bodies — news.html reader ke liye ----------
+# Bot har news item ka poora article text utha ke monitor.json me likhta
+# hai, taake viewer site pe hi article parh sake (external site pe jaane
+# ki zaroorat nahi). Investing.com bot ko 403 deta hai (aur uski RSS me
+# summary bhi nahi hoti) — un items ka sirf title milega, poora text nahi.
+# Pichli run ki bodies link se reuse hoti hain (har dafa dobara fetch nahi).
+from html.parser import HTMLParser as _HP
+
+class _ArtParser(_HP):
+    SKIP = {"script", "style", "nav", "header", "footer", "aside", "noscript", "form", "button", "svg"}
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.article_depth = 0
+        self.main_depth = 0
+        self.skip_depth = 0
+        self.in_p = False
+        self.in_content = False
+        self.buf = []
+        self.paras = []
+    def handle_starttag(self, tag, attrs):
+        if tag == "article": self.article_depth += 1
+        elif tag == "main": self.main_depth += 1
+        if tag in self.SKIP: self.skip_depth += 1
+        if tag == "p" and self.skip_depth == 0:
+            self.in_p = True
+            self.in_content = self.article_depth > 0 or self.main_depth > 0
+            self.buf = []
+    def handle_endtag(self, tag):
+        if tag == "article": self.article_depth = max(0, self.article_depth - 1)
+        elif tag == "main": self.main_depth = max(0, self.main_depth - 1)
+        if tag in self.SKIP: self.skip_depth = max(0, self.skip_depth - 1)
+        if tag == "p" and self.in_p:
+            self.in_p = False
+            t = " ".join("".join(self.buf).split())
+            if t:
+                self.paras.append((t, self.in_content))
+    def handle_data(self, data):
+        if self.in_p and self.skip_depth == 0:
+            self.buf.append(data)
+
+_ART_JUNK = re.compile(r"cookie|subscribe|sign up|sign in|newsletter|advertisement|read more|follow us|share this|all rights reserved|terms of (use|service)|privacy policy|download the app|discover more insights", re.I)
+
+def _article_paras(html_text):
+    p = _ArtParser()
+    try:
+        p.feed(html_text)
+    except Exception:
+        return []
+    paras = p.paras
+    if any(c for _, c in paras):
+        paras = [(t, c) for t, c in paras if c]
+    out, seen = [], set()
+    for t, _ in paras:
+        if len(t) < 60:
+            continue
+        if _ART_JUNK.search(t):
+            continue
+        if t in seen:
+            continue
+        seen.add(t)
+        out.append(t[:1200])
+        if len(out) >= 14:
+            break
+    return out
+
+def _fetch_body(link):
+    try:
+        raw = get(link, t=8)
+        html_text = raw.decode("utf-8", "ignore")
+        if "Just a moment" in html_text[:2000] or "Attention Required" in html_text[:2000]:
+            return None
+        return _article_paras(html_text) or None
+    except Exception:
+        return None
+
+_prev_bodies = {}
+try:
+    with open("monitor.json") as _fh:
+        for _n in (json.load(_fh).get("news") or []):
+            if _n.get("link") and _n.get("body"):
+                _prev_bodies[_n["link"]] = _n["body"]
+except Exception:
+    pass
+_new_fetch = 0
+_no_body = 0
+for _n in out["news"]:
+    _link = _n.get("link") or ""
+    if _link in _prev_bodies:
+        _n["body"] = _prev_bodies[_link]
+        continue
+    if _new_fetch >= 8:
+        _no_body += 1
+        continue
+    _new_fetch += 1
+    _body = _fetch_body(_link)
+    if _body:
+        _n["body"] = _body
+    else:
+        _no_body += 1
+if _no_body:
+    errs.append("article: %d/%d no body" % (_no_body, len(out["news"])))
+
 # ---------- 4c. ForexFactory latest posts (Tweets section) ----------
 # X ka apna widget khaali aata hai (syndication endpoint 0 bytes) aur saare X
 # mirrors band hain, is liye bot ForexFactory ki apni RSS se unki latest posts
