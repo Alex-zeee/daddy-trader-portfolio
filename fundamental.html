@@ -610,6 +610,26 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 .nx-title{font-size:18px;font-weight:800;letter-spacing:-.01em}
 .nx-sub{font-style:normal}
 .g-price{font-weight:800}
+
+/* ===== Gold news — ForexFactory jaisi list (Hot Story + Latest Stories) ===== */
+.ff-news{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;margin-top:16px}
+.ff-list{grid-column:1;grid-row:1;background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;border-radius:28px;box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 30px 60px -30px rgba(0,0,0,.85);padding:20px 22px}
+.ff-list-head{font:600 11.5px/1.4 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.ff-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid var(--line-2);text-decoration:none;color:var(--ink)}
+.ff-row:last-child{border-bottom:0}
+.ff-num{font-family:var(--mono);font-size:11px;color:var(--soft);letter-spacing:.1em;padding-top:4px;flex:none}
+.ff-row-main{min-width:0}
+.ff-row-title{display:block;font:600 15.5px/1.45 var(--sans);letter-spacing:-.01em}
+.ff-row:hover .ff-row-title{color:var(--clay);text-decoration:underline}
+.ff-row-meta{display:block;color:var(--soft);font-size:12px;margin-top:3px}
+.ff-arrow{margin-left:auto;flex:none;width:32px;height:32px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-size:13px;color:var(--muted)}
+.ff-hot{grid-column:2;grid-row:1;display:block;text-decoration:none;color:var(--ink);background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;border-radius:28px;box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 30px 60px -30px rgba(0,0,0,.85);padding:24px;transition:transform .25s ease,border-color .25s ease}
+.ff-hot-tag{display:block;font:600 11.5px/1.4 var(--sans);letter-spacing:.2em;color:var(--clay);margin-bottom:12px}
+.ff-hot-title{display:block;font:800 22px/1.3 var(--sans);letter-spacing:-.015em;margin-bottom:10px}
+.ff-hot-sub{display:block;color:var(--muted);font-size:13.5px;line-height:1.6;margin-bottom:14px}
+.ff-hot-meta{display:block;color:var(--clay);font-size:11px;letter-spacing:.14em;font-weight:500}
+.ff-hot:hover{transform:translateY(-3px);border-color:#2a3046}
+@media (max-width:860px){.ff-news{grid-template-columns:1fr}.ff-list{grid-column:1;grid-row:2}.ff-hot{grid-column:1;grid-row:1}}
 </style>
 <link rel="stylesheet" href="theme.css" />
 </head>
@@ -648,7 +668,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       <div class="mon-card mon-wide" id="gold-card"></div>
     </div>
     <div class="sub-head"><h3>Gold <em>news</em></h3><span class="mon-tag">AUTO-FEED</span><span class="mon-tag">ROMAN URDU</span></div>
-    <div class="newsx-grid" id="newsx-box"><p class="mon-empty">Loading…</p></div>
+    <div class="ff-news" id="newsx-box"><p class="mon-empty">Loading…</p></div>
 </section>
 
 
@@ -1087,19 +1107,29 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
           '<span class="tk-meta">' + esc(n0.src) + ' · ' + (n0.ts ? ago(n0.ts) : '') + '</span></a>';
       }
 
-      // news — chhote designed cards (number + arrow + tint)
+      // news — ForexFactory jaisi list: Hot Story + Latest Stories
       const nb = document.getElementById('newsx-box');
       if (nb){
-        const tints = ['rgba(41,197,255,.18)','rgba(255,176,46,.18)','rgba(0,210,106,.15)','rgba(167,139,250,.18)'];
-        nb.innerHTML = (d.news && d.news.length)
-          ? d.news.slice(0, 6).map((n, i) =>
-              '<a class="newsx-card" style="--tint:' + tints[i % 4] + '" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
-              '<span class="nx-num">' + String(i + 1).padStart(2, '0') + '</span>' +
-              '<span class="nx-arrow">↗</span>' +
-              '<span class="nx-title">' + esc(n.ur || n.title) + '</span>' +
-              '<span class="nx-sub">' + esc(n.title) + '</span>' +
-              '<span class="nx-meta">' + esc(n.src) + (n.ts ? ' · ' + ago(n.ts) : '') + '</span></a>').join('')
-          : '<p class="mon-empty">No fresh gold headlines right now.</p>';
+        if (d.news && d.news.length){
+          const items = d.news.slice(0, 6);
+          const hot = items[0];
+          const rest = items.slice(1);
+          nb.innerHTML =
+            '<a class="ff-hot" href="' + esc(hot.link) + '" target="_blank" rel="noopener">' +
+            '<span class="ff-hot-tag"><span class="mon-dot">●</span> HOT STORY</span>' +
+            '<span class="ff-hot-title">' + esc(hot.ur || hot.title) + '</span>' +
+            '<span class="ff-hot-sub">' + esc(hot.title) + '</span>' +
+            '<span class="ff-hot-meta">' + esc(hot.src) + (hot.ts ? ' · ' + ago(hot.ts) : '') + '</span></a>' +
+            '<div class="ff-list"><p class="ff-list-head">News / Latest Stories</p>' +
+            rest.map((n, i) =>
+              '<a class="ff-row" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
+              '<span class="ff-num">' + String(i + 2).padStart(2, '0') + '</span>' +
+              '<span class="ff-row-main"><span class="ff-row-title">' + esc(n.ur || n.title) + '</span>' +
+              '<span class="ff-row-meta">From ' + esc(n.src) + (n.ts ? ' · ' + ago(n.ts) : '') + '</span></span>' +
+              '<span class="ff-arrow">↗</span></a>').join('') + '</div>';
+        } else {
+          nb.innerHTML = '<p class="mon-empty">No fresh gold headlines right now.</p>';
+        }
       }
 
       // tweets — ForexFactory ki latest posts, news card jaisi card
