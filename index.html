@@ -314,28 +314,28 @@
     <div id="stage">
       <section id="webAlexa" class="logo-only" aria-label="ALEXA">
         <div class="wa-tools">
-          <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
+          <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Sound">
             <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
             <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
           </button>
-          <button class="icon-btn" id="waClear" type="button" title="Nayi baat shuru karein">
+          <button class="icon-btn" id="waClear" type="button" title="Start a new chat">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
           </button>
         </div>
-        <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="ALEXA se bolein"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
+        <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="Talk to ALEXA"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
         <h2 class="name">ALEXA</h2>
         <p class="status" id="waStatus" aria-live="polite"></p>
         <div id="waLog" aria-hidden="true"></div>
-        <div class="wa-chips" aria-label="Jaldi sawal">
-          <button type="button" data-ask="Gold ka aaj ka trend kya hai?">Gold ka trend</button>
-          <button type="button" data-ask="Aaj Gold ki sab se bari khabrein kya hain?">Aaj ki khabrein</button>
-          <button type="button" data-ask="Is hafte ke important economic events kaun se hain?">Economic events</button>
-          <button type="button" data-ask="Daddy Trader ka koi signal chal raha hai?">Koi signal hai?</button>
+        <div class="wa-chips" aria-label="Quick questions">
+          <button type="button" data-ask="What is gold's trend today?">Gold trend</button>
+          <button type="button" data-ask="What is the biggest gold news today?">Today's news</button>
+          <button type="button" data-ask="What are the important economic events this week?">Economic events</button>
+          <button type="button" data-ask="Is there an active Daddy Trader signal?">Any signals?</button>
         </div>
         <form id="waForm" autocomplete="off">
-          <label class="sr" for="waInput">ALEXA se poochiye</label>
-          <input id="waInput" type="text" placeholder="ALEXA se poochiye… (jaise: gold ka analysis karo)" enterkeyhint="send" />
-          <button class="round" id="waMic" type="button" aria-label="Bol kar poochiye">
+          <label class="sr" for="waInput">Ask ALEXA</label>
+          <input id="waInput" type="text" placeholder="Ask ALEXA… (e.g. analyse gold)" enterkeyhint="send" />
+          <button class="round" id="waMic" type="button" aria-label="Ask by voice">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
           </button>
           <button class="round" id="waSend" type="submit" aria-label="Bhejein">
@@ -381,7 +381,7 @@
           </div>
         </div>
         <div class="txt">
-          <p class="news-line" id="newsLine">Gold news in simple Roman Urdu, the economic calendar and tweets.</p>
+          <p class="news-line" id="newsLine">Gold news, the economic calendar and tweets.</p>
           <span class="go">Open Fundamental</span>
         </div>
       </a>
@@ -499,7 +499,7 @@
       $('spPx').textContent = fmt(g.price);
     }
     var n = (m.news || [])[0];
-    if (n) $('newsLine').textContent = n.ur || n.title || '';
+    if (n) $('newsLine').textContent = n.title || '';
   });
 
   // ---- BackBar wali chhoti candles ----
