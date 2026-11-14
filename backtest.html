@@ -1,11 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET18EHG8XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ET18EHG8XJ');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Backtest — Daddy Trader</title>
+<title>Daddy Trader — BackBar Replay</title>
 <meta name="description" content="Daddy Trader BackBar: free bar replay backtesting chart — Forex, Gold, Indices, Oil aur Crypto.">
-<meta name="theme-color" content="#0e3b2e">
+<meta name="theme-color" content="#06070a">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="manifest" href="manifest.json">
 <style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
@@ -13,38 +24,31 @@
 /* Layout: full-screen trading terminal. Top toolbar, left drawing tools, chart in the middle with a bottom trading panel, right side panel + icon rail. */
 /* Colors follow TradingView's own dark and light themes */
 :root {
-  --bg: #000000;
-  --gap: #1a1a1a;
-  --panel: #000000;
-  --panel-2: #1a1a1a;
-  --dlg: #131313;
-  --hover: #2e2e2e;
-  --line: #2e2e2e;
-  --line-2: #3d3d3d;
-  --fg: #dbdbdb;
-  --fg-2: #b8b8b8;
-  --muted: #8c8c8c;
-  --axis: #c3c3c3;
-  --cross: #8c8c8c;
-  --cross-label: #2e2e2e;
-  --accent: #2962ff;
-  --accent-soft: rgba(41, 98, 255, 0.2);
-  --up: #089981;
-  --down: #f23645;
-  --up-soft: rgba(8, 153, 129, 0.16);
-  --down-soft: rgba(242, 54, 69, 0.16);
-  --chart-bg: #000000;
-  --grid: #303030;
+  --bg: #06070a;
+  --gap: #06070a;
+  --panel: #10131d;
+  --panel-2: #141826;
+  --dlg: #141826;
+  --hover: #232838;
+  --line: #1c2030;
+  --line-2: #2a3044;
+  --fg: #f3f4f7;
+  --fg-2: #c3c7d2;
+  --muted: #8a90a2;
+  --axis: #c3c7d2;
+  --cross: #8a90a2;
+  --cross-label: #06070a;
+  --accent: #f5c542;
+  --accent-soft: rgba(245, 197, 66, 0.2);
+  --up: #3fbf86;
+  --down: #ff5d5d;
+  --up-soft: rgba(63, 191, 134, 0.16);
+  --down-soft: rgba(255, 93, 93, 0.16);
+  --chart-bg: #06070a;
+  --grid: #2a3044;
   --shadow: 0 8px 28px rgba(0, 0, 0, 0.6);
-  --font: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  --font: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
   color-scheme: dark;
-}
-:root.theme-light {
-  --bg: #ffffff; --gap: #e0e3eb; --panel: #ffffff; --panel-2: #f0f3fa; --dlg: #ffffff; --hover: #f0f3fa; --line: #e0e3eb; --line-2: #c9ccd6;
-  --fg: #131722; --fg-2: #434651; --muted: #6a6d78; --axis: #131722; --cross: #9598a1; --cross-label: #131722; --accent-soft: rgba(41, 98, 255, 0.12);
-  --up-soft: rgba(8, 153, 129, 0.12); --down-soft: rgba(242, 54, 69, 0.12);
-  --chart-bg: #ffffff; --grid: #d6d9e0; --shadow: 0 8px 28px rgba(19, 23, 34, 0.18);
-  color-scheme: light;
 }
 html, body { height: 100%; }
 * { box-sizing: border-box; }
@@ -61,7 +65,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, label:focus-wit
 .topbar { flex: none; height: 42px; display: flex; align-items: center; gap: 2px; padding: 0 6px; background: var(--panel); overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
 .topbar::-webkit-scrollbar { display: none; }
 .brand { flex: none; display: flex; align-items: center; gap: 8px; padding: 0 8px 0 2px; }
-.logo { width: 28px; height: 28px; border-radius: 7px; background: var(--accent); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 12px; overflow: hidden; letter-spacing: 0.02em; }
+.logo { width: 28px; height: 28px; border-radius: 7px; background: var(--accent); color: #140f02; display: grid; place-items: center; font-weight: 700; font-size: 12px; overflow: hidden; letter-spacing: 0.02em; }
 .logo img { width: 100%; height: 100%; object-fit: cover; }
 .logo-wrap { display: inline-flex; align-items: center; height: 34px; }
 .logo-img { height: 34px; width: auto; display: block; }
@@ -80,7 +84,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, label:focus-wit
 .tf-fav .tb { padding: 0 7px; font-weight: 500; }
 .tf-fav .tb:disabled { opacity: 0.35; cursor: not-allowed; }
 .spacer { flex: 1 0 8px; }
-.acct-dot { width: 26px; height: 26px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-weight: 600; font-size: 12px; }
+.acct-dot { width: 26px; height: 26px; border-radius: 50%; background: var(--accent); color: #140f02; display: grid; place-items: center; font-weight: 600; font-size: 12px; }
 #fileInput { position: absolute; left: 0; top: 0; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 label.tb, label.btn { position: relative; overflow: hidden; }
 .mobile-only { display: none !important; }
@@ -207,9 +211,9 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .chart-area.cur-arrow canvas { cursor: default !important; }
 .chart-area.cur-dot canvas { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Ccircle cx='6' cy='6' r='2.5' fill='%23888'/%3E%3C/svg%3E") 6 6, crosshair !important; }
 .chart-area.cur-eraser canvas { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22'%3E%3Cpath d='M3 16l8-8 6 6-5 5H6z' fill='%23fff' stroke='%23333'/%3E%3C/svg%3E") 4 18, pointer !important; }
-.finish-btn { position: absolute; top: 52px; left: 50%; transform: translateX(-50%); z-index: 7; border: 0; border-radius: 18px; background: var(--accent); color: #fff; font-weight: 600; padding: 9px 18px; box-shadow: var(--shadow); cursor: pointer; }
+.finish-btn { position: absolute; top: 52px; left: 50%; transform: translateX(-50%); z-index: 7; border: 0; border-radius: 18px; background: var(--accent); color: #140f02; font-weight: 600; padding: 9px 18px; box-shadow: var(--shadow); cursor: pointer; }
 .finish-btn[hidden] { display: none; }
-.banner { position: absolute; top: 8px; left: 50%; transform: translateX(-50%); z-index: 6; background: var(--accent); color: #fff; padding: 6px 12px; border-radius: 4px; font-weight: 500; max-width: calc(100% - 20px); text-align: center; }
+.banner { position: absolute; top: 8px; left: 50%; transform: translateX(-50%); z-index: 6; background: var(--accent); color: #140f02; padding: 6px 12px; border-radius: 4px; font-weight: 500; max-width: calc(100% - 20px); text-align: center; }
 .replay-bar { position: absolute; left: 50%; bottom: 40px; transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 2px; background: var(--dlg); border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow); padding: 4px; max-width: calc(100% - 16px); overflow-x: auto; scrollbar-width: none; }
 .replay-bar select { height: 30px; background: transparent; border: 0; border-radius: 4px; padding: 0 4px; cursor: pointer; }
 .replay-bar select:hover { background: var(--hover); }
@@ -394,6 +398,7 @@ td { font-variant-numeric: tabular-nums; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
+<link rel="stylesheet" href="theme.css" />
 </head>
 <body>
 <div class="app" id="app">
@@ -614,7 +619,7 @@ td { font-variant-numeric: tabular-nums; }
         <div class="row"><label class="chk" for="setWick"><input type="checkbox" id="setWick">Wick</label></div>
       </div>
       <div data-spane="canvas" hidden>
-        <div class="row"><label for="setTheme">Theme</label><select class="inp" id="setTheme"><option value="dark">Dark</option><option value="light">Light</option></select></div>
+        <div class="row"><label for="setTheme">Theme</label><select class="inp" id="setTheme"><option value="dark">Dark</option></select></div>
         <div class="row"><label class="chk" for="setGridV"><input type="checkbox" id="setGridV">Vertical grid lines</label></div>
         <div class="row"><label class="chk" for="setGridH"><input type="checkbox" id="setGridH">Horizontal grid lines</label></div>
         <div class="row"><label for="setTz">Time zone</label><select class="inp" id="setTz">
@@ -777,11 +782,12 @@ td { font-variant-numeric: tabular-nums; }
   }
 
   /* ================= saved settings ================= */
-  const DEFAULTS = { theme: "dark", ctype: "candles", tf: "M15", up: "#089981", down: "#f23645", border: true, wick: true, gridV: true, gridH: true, tz: "UTC", log: false, magnet: false, contract: 100, spread: 0, balance: 10000, commission: 0, lots: 0.1, slOn: true, tpOn: true, slD: 5, tpD: 10, speed: 3, bottomOpen: true, rview: "trade", lastSet: "", bottomTab: "positions", pct: false };
+  const DEFAULTS = { theme: "dark", ctype: "candles", tf: "M15", up: "#3fbf86", down: "#ff5d5d", border: true, wick: true, gridV: true, gridH: true, tz: "UTC", log: false, magnet: false, contract: 100, spread: 0, balance: 10000, commission: 0, lots: 0.1, slOn: true, tpOn: true, slD: 5, tpD: 10, speed: 3, bottomOpen: true, rview: "trade", lastSet: "", bottomTab: "positions", pct: false };
   const CFG = (function () {
     let saved = null;
     try { saved = JSON.parse(localStorage.getItem("rd-settings") || "null"); } catch (e) { saved = null; }
     const c = Object.assign({}, DEFAULTS, saved || {});
+    c.theme = "dark"; // Daddy Trader master theme: Option A dark only
     if (!saved && window.innerWidth < 760) { c.bottomOpen = false; c.rview = ""; }
     return c;
   })();
