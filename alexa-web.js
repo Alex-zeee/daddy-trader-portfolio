@@ -1,6 +1,6 @@
 /* Alexa (website wali) — Daddy Trader
    Laptop wali Alexa off ho to yehi website par baat karti hai.
-   Dimagh: Google Gemini. Data: Daddy Trader ka apna data (BackBar candles, monitor.json, signals.json),
+   Dimagh: Google Gemini. Data: Daddy Trader ka apna data (Back Testing candles, monitor.json, signals.json),
    live gold/silver: gold-api.com, crypto: Binance. */
 (function () {
   'use strict';
@@ -152,7 +152,7 @@
         var m5 = [].concat.apply([], parts);
         var rows = aggregate(m5, tf).slice(-BARS[tf]);
         if (rows.length < 30) throw new Error('candles kam hain');
-        return { s: s, rows: rows, source: 'Daddy Trader BackBar data (Dukascopy), aakhri candle ' + tag(rows[rows.length - 1][0]) + ' PKT' };
+        return { s: s, rows: rows, source: 'Daddy Trader Back Testing data (Dukascopy), aakhri candle ' + tag(rows[rows.length - 1][0]) + ' PKT' };
       });
     });
   }
@@ -174,7 +174,7 @@
           return { ok: true, symbol: s.label, price: s.info.price, change_pct: s.info.chg, source: 'Daddy Trader data', as_of: tag(s.info.last) + ' PKT (live nahi mila)' };
         });
       }
-      return { ok: true, symbol: s.label, price: s.info.price, change_pct: s.info.chg, source: 'Daddy Trader BackBar data', as_of: tag(s.info.last) + ' PKT', note: 'ye live rate nahi, is waqt ka aakhri rate hai' };
+      return { ok: true, symbol: s.label, price: s.info.price, change_pct: s.info.chg, source: 'Daddy Trader Back Testing data', as_of: tag(s.info.last) + ' PKT', note: 'ye live rate nahi, is waqt ka aakhri rate hai' };
     });
   }
 
@@ -356,7 +356,7 @@
     daddy_trader_signals: { fn: signals, d: 'Daddy Trader website ka apna auto signal bot: Gold bias, RSI, liquidity upar/neeche, trade idea aur active signals.', p: {} },
     market_sessions: { fn: function () { return Promise.resolve(marketSessions()); }, d: 'Kaun se forex sessions khule hain, weekend band hai ya nahi, Pakistan ka waqt.', p: {} },
     currency_rate: { fn: currencyRate, d: 'Currency conversion rate jaise dollar to rupee (USD PKR), riyal, dirham.', p: { from: { type: 'string', description: 'USD, EUR, SAR, AED...' }, to: { type: 'string', description: 'PKR...' } } },
-    open_section: { fn: openSection, d: 'Website ka hissa kholna: "fundamental" (Daddy Trader news/signals page) ya "backtest" (BackBar chart replay).', p: { section: { type: 'string', enum: ['fundamental', 'backtest'] } }, r: ['section'] }
+    open_section: { fn: openSection, d: 'Website ka hissa kholna: "fundamental" (Daddy Trader news/signals page) ya "backtest" (Back Testing chart replay).', p: { section: { type: 'string', enum: ['fundamental', 'backtest'] } }, r: ['section'] }
   };
   function decls() {
     return Object.keys(TOOLS).map(function (n) {
@@ -386,10 +386,10 @@
       '- Internet search yahan nahi hai. Aam sawalon ka jawab apne ilm se do; agar taaza khabar chahiye (markets ke ilawa) aur tumhe pakka maloom nahi, to saaf kaho ke taaza maloomat yahan nahi mil sakti.\n' +
       '- JHOOT KABHI NAHI. Tool error de to saaf batao kya nahi hua.\n' +
       '- Agar baat adhoori ya be-maani lagay to sirf "Ji ' + t + '?" kaho.\n\n' +
-      'SHOW wali line Roman Urdu mein likho, jaisa Pakistan mein WhatsApp par likhte hain (jaise "Ji sir, gold abhi 2415 par hai").\n' +
+      'Zuban: jawab HAMESHA usi zuban mein do jis mein user ne poocha ho. User English mein poochhe to poora jawab English mein do (jaise "Yes sir, gold is at 2415 right now"); user Roman Urdu mein poochhe to Roman Urdu mein do, jaisa Pakistan mein WhatsApp par likhte hain (jaise "Ji sir, gold abhi 2415 par hai"). Sawal ki zuban ko mirror karo — khud se zuban mat badlo.\n' +
       'Aam taur par jawab 2-4 jumlon mein do. Agar user "detail mein / tafseel se / step by step" kahe ya sawal hi tafseeli ho (jaise analysis), to 8-16 jumlon mein poori tafseel do. Markdown, bullets ya emoji bilkul nahi (ye bol kar sunaya jata hai).\n\n' +
       'Aakhri jawab HAMESHA bilkul is format mein do:\nSHOW: <screen par dikhane wala jawab>\n' +
-      'SPEAK: SHOW wala bilkul wohi jawab, lekin sahi Urdu (Nastaliq) script mein — kyunke ise Urdu awaz parhegi. Angrezi alfaz Urdu mein likho jaise bole jaate hain (گولڈ، ڈالر، یورو، بٹ کوائن)۔ Numbers digits mein rehne do (2415.30) aur SPEAK mein % ki jagah فیصد likho. SHOW line mein % hi likho.';
+      'SPEAK: SHOW wala bilkul wohi jawab. Agar jawab Roman Urdu mein hai to use sahi Urdu (Nastaliq) script mein likho — kyunke ise Urdu awaz parhegi; angrezi alfaz Urdu mein likho jaise bole jaate hain (گولڈ، ڈالر، یورو، بٹ کوائن)۔ Agar jawab English mein hai to SPEAK mein bhi wahi English likho. Numbers digits mein rehne do (2415.30); Urdu jawab mein % ki jagah فیصد likho, English jawab mein % hi likho.';
   }
 
   // ---------------- Gemini ----------------
