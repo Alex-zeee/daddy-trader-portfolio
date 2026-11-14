@@ -610,7 +610,6 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 .nx-title{font-size:18px;font-weight:800;letter-spacing:-.01em}
 .nx-sub{font-style:normal}
 .g-price{font-weight:800}
-.x-feed{background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;border-radius:28px;box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 30px 60px -30px rgba(0,0,0,.85);padding:20px 22px;overflow:hidden}
 </style>
 <link rel="stylesheet" href="theme.css" />
 </head>
@@ -657,12 +656,9 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 <section class="sheet sec" id="tweets" aria-labelledby="twt-h">
     <div class="sec-head"><div>
       <h2 class="h2" id="twt-h">Tweets</h2>
-      <p class="lead">ForexFactory ke latest tweets — Gold aur Forex ki taaza khabrein, seedha X se.</p>
+      <p class="lead">ForexFactory ki latest posts — Gold aur Forex ki taaza khabrein, yahan card ban ke aati hain.</p>
     </div></div>
-    <div class="x-feed">
-      <a class="twitter-timeline" data-theme="dark" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="5" href="https://twitter.com/ForexFactory?ref_src=twsrc%5Etfw">Tweets by ForexFactory</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+    <div class="newsx-grid" id="tweets-grid"><p class="mon-empty">Loading…</p></div>
 </section>
 </main>
 
@@ -1104,6 +1100,23 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
               '<span class="nx-sub">' + esc(n.title) + '</span>' +
               '<span class="nx-meta">' + esc(n.src) + (n.ts ? ' · ' + ago(n.ts) : '') + '</span></a>').join('')
           : '<p class="mon-empty">No fresh gold headlines right now.</p>';
+      }
+
+      // tweets — ForexFactory ki latest posts, news card jaisi card
+      const tg = document.getElementById('tweets-grid');
+      if (tg){
+        const tints = ['rgba(41,197,255,.18)','rgba(255,176,46,.18)','rgba(0,210,106,.15)','rgba(167,139,250,.18)'];
+        tg.innerHTML = (d.tweets && d.tweets.length)
+          ? d.tweets.slice(0, 6).map((n, i) =>
+              '<a class="newsx-card" style="--tint:' + tints[i % 4] + '" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
+              '<span class="nx-num">' + String(i + 1).padStart(2, '0') + '</span>' +
+              '<span class="nx-arrow">\u2197</span>' +
+              '<span class="nx-title">' + esc(n.title) + '</span>' +
+              '<span class="nx-meta">' + esc(n.src || 'ForexFactory') + (n.ts ? ' \u00b7 ' + ago(n.ts) : '') + '</span></a>').join('')
+          : '<a class="newsx-card" href="https://x.com/ForexFactory" target="_blank" rel="noopener">' +
+            '<span class="nx-num">01</span><span class="nx-arrow">\u2197</span>' +
+            '<span class="nx-title">X pe @ForexFactory dekho</span>' +
+            '<span class="nx-meta">x.com \u00b7 ForexFactory</span></a>';
       }
     } catch(e){}
   }

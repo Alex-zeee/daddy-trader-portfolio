@@ -372,6 +372,49 @@ for n in out["news"]:
 if tr_fail:
     errs.append("translate: %d/%d failed" % (tr_fail, len(out["news"])))
 
+# ---------- 4c. ForexFactory latest posts (Tweets section) ----------
+# X ka apna widget khaali aata hai (syndication endpoint 0 bytes) aur saare X
+# mirrors band hain, is liye bot ForexFactory ki apni RSS se unki latest posts
+# (wohi headlines jo wo X pe tweet karte hain) monitor.json me likhta hai.
+# Page inhe news card jaisi card bana ke Tweets section me dikhata hai.
+# Koi workflow change nahi chahiye: signals.yml pehle se monitor.py chalata
+# hai aur monitor.json commit karta hai, har 15 minute.
+tweets = []
+for _ff_url in ("https://www.forexfactory.com/rss",
+                "https://www.forexfactory.com/news/rss"):
+    try:
+        root = ET.fromstring(get(_ff_url))
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            pub = item.findtext("pubDate") or ""
+            try:
+                ts = email.utils.parsedate_to_datetime(pub)
+                if ts.tzinfo is None:
+                    ts = ts.replace(tzinfo=datetime.timezone.utc)
+            except Exception:
+                ts = NOW
+            if not title or not link:
+                continue
+            if (NOW - ts).total_seconds() > 96 * 3600:
+                continue
+            tweets.append({"ts": ts.timestamp(), "title": title[:170],
+                           "src": "ForexFactory", "link": link})
+        tweets.sort(key=lambda x: -x["ts"])
+        tweets = tweets[:6]
+        break
+    except Exception as e:
+        errs.append("ff-tweets %s: %s" % (_ff_url, e))
+        tweets = []
+if not tweets:
+    # fetch fail ho tou pichli dafa wali posts rakho, section khaali na ho
+    try:
+        with open("monitor.json") as fh:
+            tweets = (json.load(fh).get("tweets") or [])[:6]
+    except Exception:
+        tweets = []
+out["tweets"] = tweets
+
 # ---------- 5. Risk sentiment (Fear & Greed) ----------
 try:
     f = json.loads(get("https://api.alternative.me/fng/?limit=1"))
