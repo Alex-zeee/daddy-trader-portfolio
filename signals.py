@@ -22,6 +22,9 @@ PKT = timezone(timedelta(hours=5))
 MIN_RR = 2.0
 MAX_SIGNALS = 8
 EXPIRE_HOURS = 12
+HISTORY_FILE = "signals-history.json"  # TP Hit ka mustaqil record — kabhi delete nahi hota
+HISTORY_MAX = 500                      # history mein zyada se zyada itne TP hits
+TP_HITS_IN_SIGNALS = 20                # signals.json mein dikhane ke liye aakhri itne TP hits
 LOOKBACK = 1000          # M5 candles (~3.5 din) — H1 FVG aur pichle din ke levels ke liye
 LIVE_MODELS = ("M1", "2022", "UNICORN", "CISD")   # 11 mahine test: ~5 signal/hafta
 NEW_WINDOW_MIN = 75      # itne minute ke andar bana signal hi naya mana jaye
@@ -224,6 +227,7 @@ def detect_signal(df, existing):
 
 def _sig(ts, typ, entry, sl, tp, note):
     return {
+        "id": ts.isoformat(),
         "ts": ts.isoformat(),
         "date": ts.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
         "pair": "XAUUSD",
@@ -244,6 +248,42 @@ def load_existing():
         return []
 
 
+def load_history():
+    """TP Hit ka mustaqil record parho (na ho to khaali list)."""
+    try:
+        with open(HISTORY_FILE) as f:
+            d = json.load(f)
+            return d.get("tp_hits", []) if isinstance(d, dict) else []
+    except Exception:
+        return []
+
+
+def save_history(hits):
+    with open(HISTORY_FILE, "w") as f:
+        json.dump({
+            "updated": datetime.now(timezone.utc).astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT"),
+            "count": len(hits),
+            "tp_hits": hits,
+        }, f, indent=1)
+
+
+def record_tp_hits(history, sigs):
+    """Jo signal ab TP Hit hai aur history mein nahi, use record karo (ts se pehchan)."""
+    seen = {h.get("ts") for h in history}
+    changed = False
+    for s in sigs:
+        if s.get("status") == "TP Hit" and s.get("ts") and s["ts"] not in seen:
+            h = dict(s)
+            h["id"] = s.get("id") or s["ts"]
+            h.setdefault("hit", h.get("date", ""))
+            history.append(h)
+            seen.add(s["ts"])
+            changed = True
+    history.sort(key=lambda h: h.get("ts", ""))
+    del history[:-HISTORY_MAX]
+    return changed
+
+
 def update_statuses(sigs, df):
     now = datetime.now(timezone.utc)
     for s in sigs:
@@ -254,17 +294,18 @@ def update_statuses(sigs, df):
         except Exception:
             continue
         after = df[df.index > t0]
-        for _, row in after.iterrows():
+        for ts_c, row in after.iterrows():
+            hit_at = ts_c.astimezone(PKT).strftime("%d-%m-%Y %H:%M PKT")
             if s["type"] == "BUY":
                 if row["Low"] <= s["sl"]:
                     s["status"] = "SL Hit"; break
                 if row["High"] >= s["tp"]:
-                    s["status"] = "TP Hit"; break
+                    s["status"] = "TP Hit"; s["hit"] = hit_at; break
             else:
                 if row["High"] >= s["sl"]:
                     s["status"] = "SL Hit"; break
                 if row["Low"] <= s["tp"]:
-                    s["status"] = "TP Hit"; break
+                    s["status"] = "TP Hit"; s["hit"] = hit_at; break
         if s["status"] == "Active" and (now - t0) > timedelta(hours=EXPIRE_HOURS):
             s["status"] = "Expired"
 
@@ -283,6 +324,7 @@ def market_closed(now_utc):
 
 def main():
     sigs = load_existing()
+    history = load_history()
     bias = None
     liq = None
     new_sig = None
@@ -302,6 +344,7 @@ def main():
             "src": None, "err": None,
             "bias": None, "liq": None, "idea": None,
             "signals": sigs,
+            "tp_hits": history[-TP_HITS_IN_SIGNALS:],
         }
         with open("signals.json", "w") as f:
             json.dump(out, f, indent=1)
@@ -318,6 +361,9 @@ def main():
             st = s.get("status")
             if before.get(s.get("ts")) == "Active" and st in ("TP Hit", "SL Hit"):
                 wa_events.append({"kind": "tp" if st == "TP Hit" else "sl", "sig": s})
+        # TP Hit ka mustaqil record: naya TP Hit history mein jama karo
+        if record_tp_hits(history, sigs):
+            save_history(history)
         new_sig = detect_signal(df, sigs)
         if new_sig:
             sigs.append(new_sig)
@@ -342,6 +388,7 @@ def main():
         "liq": liq,
         "idea": None,
         "signals": sigs,
+        "tp_hits": history[-TP_HITS_IN_SIGNALS:],
     }
     with open("signals.json", "w") as f:
         json.dump(out, f, indent=1)
