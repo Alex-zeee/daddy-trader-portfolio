@@ -1115,14 +1115,14 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
           const hot = items[0];
           const rest = items.slice(1);
           nb.innerHTML =
-            '<a class="ff-hot" href="' + esc(hot.link) + '" target="_blank" rel="noopener">' +
+            '<a class="ff-hot" href="news.html?id=' + hot.ts + '">' +
             '<span class="ff-hot-tag"><span class="mon-dot">●</span> HOT STORY</span>' +
             '<span class="ff-hot-title">' + esc(hot.ur || hot.title) + '</span>' +
             '<span class="ff-hot-sub">' + esc(hot.title) + '</span>' +
             '<span class="ff-hot-meta">' + esc(hot.src) + (hot.ts ? ' · ' + ago(hot.ts) : '') + '</span></a>' +
             '<div class="ff-list"><p class="ff-list-head">News / Latest Stories</p>' +
             rest.map((n, i) =>
-              '<a class="ff-row" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
+              '<a class="ff-row" href="news.html?id=' + n.ts + '">' +
               '<span class="ff-num">' + String(i + 2).padStart(2, '0') + '</span>' +
               '<span class="ff-row-main"><span class="ff-row-title">' + esc(n.ur || n.title) + '</span>' +
               '<span class="ff-row-meta">From ' + esc(n.src) + (n.ts ? ' · ' + ago(n.ts) : '') + '</span></span>' +
