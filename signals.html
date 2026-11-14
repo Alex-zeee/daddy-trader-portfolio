@@ -592,6 +592,30 @@ footer{border-top:0;padding:14px 0 40px;margin-top:0}
 @media (max-width:720px){section > .wrap,footer > .wrap{padding:36px 18px}.testi{padding:20px}}
 </style>
 <link rel="stylesheet" href="theme.css" />
+
+<style>
+/* ===== main-page look: sheet + signals (index.html se) ===== */
+main#top{padding:28px 0 48px}
+.sheet{background:linear-gradient(180deg,#0c0f17,#090b11);border:1px solid #171b28;border-radius:32px}
+.sec{padding:clamp(28px,4vw,52px) clamp(18px,4vw,52px)}
+.h2{margin:0;font-size:clamp(26px,3.2vw,38px);line-height:1.1;letter-spacing:-.03em;font-weight:800;max-width:22ch}
+.lead{margin:12px 0 0;max-width:60ch;color:#a9a9a9;font-size:16px}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 32px;margin-bottom:30px}
+.more{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:12px;border:1px solid var(--line2);background:#10131d;color:var(--ink);font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}
+.more:hover{border-color:#f5b82e;color:#f5b82e}
+.sig-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:24px}
+.sig-grid > .wide{grid-column:1/-1}
+.sig-empty{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px;align-items:stretch}
+@media (max-width:860px){.sig-empty{grid-template-columns:minmax(0,1fr)}}
+.sig-meta{margin:18px 0 0;color:var(--muted);font-size:13px}
+.sig-meta a{color:var(--ink)}
+.sig-sub{grid-column:1/-1;margin:14px 0 0;font-size:18px;font-weight:800;letter-spacing:-.015em}
+.sig-alert{align-self:flex-start;display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:12px;color:#f5b82e;font-weight:700;font-size:14px;text-decoration:none;border:1px solid rgba(245,184,46,.6);background:rgba(245,184,46,.08)}
+.sig-alert:hover{background:rgba(245,184,46,.16)}
+/* bias / liquidity strips bhi main-page card jaisi */
+.sig-card{background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;border-radius:28px}
+@media (max-width:720px){.sec{padding:28px 18px}}
+</style>
 </head>
 <body>
 <a class="skip" href="#signals">Skip to content</a>
@@ -615,27 +639,17 @@ footer{border-top:0;padding:14px 0 40px;margin-top:0}
   </div>
 </header>
 
-<main id="top">
-<div class="wrap" style="padding-top:44px">
-  <p class="sec-label">Signals</p>
-  <h1 class="sec-title">Live Gold <em>Signals.</em></h1>
-  <p class="sec-intro">Gold (XAUUSD) ke live ICT signals — entry, stop loss aur take profit, seedha yahan.</p>
-</div>
-
-<!-- 01 · SIGNALS -->
-<section id="signals">
-  <div class="wrap reveal">
-    <div class="sec-head"><div>
-      <p class="sec-label">01 · Live Signals</p>
-      <h2 class="sec-title">Signals, only when the <em>setup</em> is real.</h2>
-    </div>
-    <p class="sec-intro">A robot scans Gold every 15 minutes. The moment a valid setup forms, the signal appears here automatically.</p></div>
-    <div id="latest-news"></div>
-    <div id="signal-board" class="signal-grid"><p class="mon-empty">Loading signals…</p></div>
-    <p class="calc-note"><strong>Get every signal on WhatsApp:</strong> <a href="https://whatsapp.com/channel/0029Vb8tas7BFLga0KUzOI0A" target="_blank" rel="noopener">join the Daddy Trader WhatsApp channel</a> — new signals and TP/SL results are posted there automatically.</p>
-    <p class="calc-note"><strong>Want alerts even when this app is closed?</strong> Open <a href="https://ntfy.sh/daddytrader-ali-signals" target="_blank" rel="noopener">ntfy.sh/daddytrader-ali-signals</a> (signals) and <a href="https://ntfy.sh/daddytrader-ali-news" target="_blank" rel="noopener">ntfy.sh/daddytrader-ali-news</a> (gold news) in Chrome, tap Subscribe and allow notifications — or install the free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> and subscribe to <strong>daddytrader-ali-signals</strong> and <strong>daddytrader-ali-news</strong>.</p>
-    <p class="calc-note">Signals are for educational purposes only — not financial advice. Trading involves risk of loss. Always do your own research.</p>
+<main id="top" class="wrap">
+<section class="sheet sec" id="signals" aria-labelledby="sig-h">
+  <div class="sec-head"><div>
+    <h1 class="h2" id="sig-h">Live Gold signals</h1>
+    <p class="lead">Every signal shows its entry, stop loss and take profit, with Gold's latest moves on the chart so you can see where price is right now.</p>
   </div>
+  <a class="more" href="fundamental.html">Gold news &rarr;</a></div>
+  <div id="signal-board" class="sig-grid" aria-live="polite"><p class="wide" style="margin:0;color:var(--muted)">Loading signals&hellip;</p></div>
+  <p class="sig-meta"><strong>Get every signal on WhatsApp:</strong> <a href="https://whatsapp.com/channel/0029Vb8tas7BFLga0KUzOI0A" target="_blank" rel="noopener">join the Daddy Trader WhatsApp channel</a> &mdash; new signals and TP/SL results are posted there automatically.</p>
+  <p class="sig-meta"><strong>Want alerts even when this app is closed?</strong> Open <a href="https://ntfy.sh/daddytrader-ali-signals" target="_blank" rel="noopener">ntfy.sh/daddytrader-ali-signals</a> (signals) and <a href="https://ntfy.sh/daddytrader-ali-news" target="_blank" rel="noopener">ntfy.sh/daddytrader-ali-news</a> (gold news) in Chrome, tap Subscribe and allow notifications &mdash; or install the free <a href="https://ntfy.sh/app" target="_blank" rel="noopener">ntfy app</a> and subscribe to <strong>daddytrader-ali-signals</strong> and <strong>daddytrader-ali-news</strong>.</p>
+  <p class="sig-meta">Signals are for educational purposes only &mdash; not financial advice. Trading involves risk of loss. Always do your own research.</p>
 </section>
 
 </main>
@@ -872,11 +886,11 @@ footer{border-top:0;padding:14px 0 40px;margin-top:0}
       const shown = new Set(sigs.filter(s => /tp/i.test(s.status || '')).map(s => s.id).filter(Boolean));
       const hits = (data.tp_hits || []).filter(h => !shown.has(h.id)).slice().reverse();
       if (hits.length && window.DTSig){
-        html += '<p class="sig-date" style="grid-column:1/-1;margin:14px 0 0;font-size:15px;color:var(--ib-ink,inherit)"><b>Targets hit</b></p>' +
+        html += '<h3 class="sig-sub">Targets hit</h3>' +
           hits.map(h => DTSig.hit(h)).join('');
       }
       if (data.updated){
-        html += '<p class="sig-date" style="grid-column:1/-1;margin:4px 0 0">Last robot scan: ' + data.updated + (data.src ? ' · Feed: ' + data.src : '') + '</p>';
+        html += '<p class="sig-meta" style="grid-column:1/-1;margin:4px 0 0">Last robot scan: ' + data.updated + (data.src ? ' · Feed: ' + data.src : '') + '</p>';
       }
       board.innerHTML = html;
       if (window.DTSig) DTSig.refresh();
@@ -1121,7 +1135,7 @@ footer{border-top:0;padding:14px 0 40px;margin-top:0}
 
   // notification permission button
   if ('Notification' in window && Notification.permission === 'default'){
-    const sigSection = document.querySelector('#signals .wrap h2');
+    const sigSection = document.querySelector('#signals .sec-head .h2');
     if (sigSection){
       const nb = document.createElement('button');
       nb.className = 'btn ghost';
