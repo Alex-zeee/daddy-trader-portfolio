@@ -13,7 +13,7 @@
   gtag('config', 'G-3EEC31NG2R');
 </script>
 <title>Daddy Trader — Gold News</title>
-<meta name="description" content="Gold news, parhi apni hi site pe — Daddy Trader news reader. InvestingLive, CNBC, FXStreet aur Federal Reserve ki taaza gold khabrein, Roman Urdu title ke saath." />
+<meta name="description" content="Gold news, read right here on the site — the Daddy Trader news reader. Latest gold news from InvestingLive, CNBC, FXStreet and the Federal Reserve." />
 <meta name="keywords" content="M. Ali Alvi, Daddy Trader, Daddy Trader Academy, Forex trader Pakistan, Gold trading, XAUUSD analysis, Silver XAGUSD, Smart Money Concepts, SMC, Engulfing strategy, price action, MQL5 developer, MT5 Expert Advisor, MetaTrader 5, Pine Script, TradingView indicators, Python trading bot, Forex course Pakistan, trading academy Dera Ismail Khan, forex mentor, lot size calculator" />
 <meta name="author" content="M. Ali Alvi" />
 <meta name="robots" content="index, follow" />
@@ -606,7 +606,6 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 .art-back:hover{text-decoration:underline}
 .art-meta{font:600 11.5px/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--clay);margin:0 0 12px}
 #art-box .h2{font-size:clamp(24px,4vw,34px);line-height:1.25;margin:0 0 10px}
-.art-en{color:var(--muted);margin:0 0 22px}
 .art-p{font-size:16.5px;line-height:1.8;color:var(--ink);margin:0 0 16px;max-width:760px}
 .art-fallback{background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;border-radius:28px;padding:22px 24px;margin:0 0 22px;max-width:760px}
 .art-fallback p{margin:0 0 14px;color:var(--muted);line-height:1.6}
@@ -627,7 +626,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       <a href="alexa.html">ALEXA AI</a>
       <a href="fundamental.html">Fundamental</a>
       <a href="signals.html">Signals</a>
-      <a href="backtest.html">BackBar Replay</a>
+      <a href="backtest.html">Back Testing</a>
       <a href="premium.html">Premium</a>
       <a href="./#community">Community</a>
       <div class="dt-nav-cta">
@@ -643,7 +642,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
   <a class="art-back" href="fundamental.html">&larr; Gold news</a>
   <div id="art-box" aria-live="polite">
     <h1 class="h2" id="art-h">Loading&hellip;</h1>
-    <p class="lead">Khabar load ho rahi hai.</p>
+    <p class="lead">The news item is loading.</p>
   </div>
 </section>
 
@@ -661,7 +660,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       <nav aria-label="Footer">
         <a href="alexa.html">ALEXA AI</a>
         <a href="fundamental.html">Fundamental</a>
-        <a href="backtest.html">BackBar Replay</a>
+        <a href="backtest.html">Back Testing</a>
         <a href="signals.html">Signals</a>
         <a href="premium.html">Premium</a>
         <a href="privacy.html">Privacy</a>
@@ -678,30 +677,29 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
   var box = document.getElementById('art-box');
   var id = new URLSearchParams(location.search).get('id');
   if (!id) {
-    box.innerHTML = '<h2 class="h2" id="art-h">Khabar nahi mili</h2><p class="lead">Koi khabar choose nahi ki gayi. <a href="fundamental.html">Gold news pe wapas jayein</a>.</p>';
+    box.innerHTML = '<h2 class="h2" id="art-h">News not found</h2><p class="lead">No news item was selected. <a href="fundamental.html">Go back to Gold news</a>.</p>';
     return;
   }
   fetch('monitor.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){ return r.json(); }).then(function(d){
     var items = ((d.news || []).concat(d.tweets || [])), n = null;
     for (var i = 0; i < items.length; i++) { if (String(items[i].ts) === id) { n = items[i]; break; } }
     if (!n) {
-      box.innerHTML = '<h2 class="h2" id="art-h">Khabar nahi mili</h2><p class="lead">Ye khabar ab list me nahi hai (purani ho gayi hogi). <a href="fundamental.html">Gold news pe wapas jayein</a>.</p>';
+      box.innerHTML = '<h2 class="h2" id="art-h">News not found</h2><p class="lead">This news item is no longer in the list (it may have expired). <a href="fundamental.html">Go back to Gold news</a>.</p>';
       return;
     }
-    document.title = (n.ur || n.title) + ' — Daddy Trader';
+    document.title = n.title + ' — Daddy Trader';
     var h = '<p class="art-meta">' + esc(n.src) + ' &middot; ' + (n.t ? esc(n.t) : ago(n.ts)) + '</p>' +
-      '<h1 class="h2" id="art-h">' + esc(n.ur || n.title) + '</h1>' +
-      '<p class="lead art-en">' + esc(n.title) + '</p>';
+      '<h1 class="h2" id="art-h">' + esc(n.title) + '</h1>';
     if (n.body && n.body.length) {
       h += n.body.map(function(p){ return '<p class="art-p">' + esc(p) + '</p>'; }).join('');
     } else {
-      h += '<div class="art-fallback"><p><b>Poora article yahan nahi mila.</b> ' + esc(n.src) + ' ne apna page bot se band kiya hua hai, is liye uska poora text yahan nahi aa saka.</p>' +
-        '<p><a class="dt-btn dt-btn-solid" href="' + esc(n.link) + '" target="_blank" rel="noopener">Original article parhein &rarr;</a></p></div>';
+      h += '<div class="art-fallback"><p><b>The full article is not available here.</b> ' + esc(n.src) + ' has blocked its pages from bots, so the full text could not be shown here.</p>' +
+        '<p><a class="dt-btn dt-btn-solid" href="' + esc(n.link) + '" target="_blank" rel="noopener">Read the original article &rarr;</a></p></div>';
     }
-    h += '<p class="art-src">Source: ' + esc(n.src) + ' &mdash; khabar unki hai, yahan sirf parhne ke liye dikhayi gayi hai. <a href="fundamental.html">&larr; Gold news pe wapas</a></p>';
+    h += '<p class="art-src">Source: ' + esc(n.src) + ' &mdash; the news is theirs, shown here for reading only. <a href="fundamental.html">&larr; Back to Gold news</a></p>';
     box.innerHTML = h;
   }).catch(function(){
-    box.innerHTML = '<h2 class="h2" id="art-h">Khabar load nahi hui</h2><p class="lead">Connection check kar ke dobara try karein. <a href="fundamental.html">Gold news pe wapas jayein</a>.</p>';
+    box.innerHTML = '<h2 class="h2" id="art-h">News failed to load</h2><p class="lead">Check your connection and try again. <a href="fundamental.html">Go back to Gold news</a>.</p>';
   });
 })();
 </script>

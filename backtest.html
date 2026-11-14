@@ -14,8 +14,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Daddy Trader — BackBar Replay</title>
-<meta name="description" content="Daddy Trader BackBar: free bar replay backtesting chart — Forex, Gold, Indices, Oil aur Crypto.">
+<title>Daddy Trader — Back Testing</title>
+<meta name="description" content="Daddy Trader Back Testing: free bar replay backtesting chart — Forex, Gold, Indices, Oil and Crypto.">
 <meta name="theme-color" content="#06070a">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="manifest" href="manifest.json">
@@ -403,7 +403,7 @@ td { font-variant-numeric: tabular-nums; }
 <body>
 <div class="app" id="app">
   <header class="topbar" aria-label="Chart toolbar">
-    <a class="brand" href="./" title="Daddy Trader website par wapas" style="text-decoration:none;color:inherit"><span class="logo" id="brandLogo"></span><span class="brand-name" id="brandName"></span></a>
+    <a class="brand" href="./" title="Back to Daddy Trader website" style="text-decoration:none;color:inherit"><span class="logo" id="brandLogo"></span><span class="brand-name" id="brandName"></span></a>
     <span class="tsep"></span>
     <button class="tb sym-btn" id="symBtn" type="button" title="Data aur symbols">
       <svg class="i" viewBox="0 0 20 20"><circle cx="9" cy="9" r="5.5"/><path d="M13 13l4 4"/></svg>
@@ -468,7 +468,7 @@ td { font-variant-numeric: tabular-nums; }
           <span class="tsep"></span>
           <span class="rb-clock num" id="rbClock">–</span>
           <span class="tsep"></span>
-          <button class="tb" id="rbEnd" type="button" title="Replay khatam kar ke aakhri candle par jayein">
+          <button class="tb" id="rbEnd" type="button" title="End the replay and go to the last candle">
             <svg class="i" viewBox="0 0 20 20"><path d="M4 4l6 6-6 6M11 4l6 6-6 6"/></svg>
             <span class="hide-sm">Real-time</span>
           </button>
@@ -501,7 +501,7 @@ td { font-variant-numeric: tabular-nums; }
             <span>Open P/L</span><b id="stPl">–</b>
           </div>
           <a class="credit hide-sm" href="https://www.tradingview.com/" target="_blank" rel="noopener" style="font-size:11px;padding:0 8px;white-space:nowrap">Charts: TradingView Lightweight Charts™</a>
-          <button class="tb icon" id="bottomToggle" type="button" title="Panel chhota/bara karein" aria-label="Panel chhota/bara karein"><svg class="i" viewBox="0 0 20 20" id="bottomIcon"><path d="M5 8l5 5 5-5"/></svg></button>
+          <button class="tb icon" id="bottomToggle" type="button" title="Make the panel smaller/bigger" aria-label="Make the panel smaller/bigger"><svg class="i" viewBox="0 0 20 20" id="bottomIcon"><path d="M5 8l5 5 5-5"/></svg></button>
         </div>
         <div class="bbody">
           <div class="bpane" data-pane="positions"></div>
@@ -520,8 +520,8 @@ td { font-variant-numeric: tabular-nums; }
           <div class="wl-head"><span>Data / Symbol</span><span>Last</span><span></span></div>
           <div id="wlList"></div>
           <div class="wl-actions">
-            <label class="btn primary block" for="fileInput">Nayi CSV upload karein</label>
-            <button class="btn block" type="button" id="mt5Help">MT5 se data kaise nikalein?</button>
+            <label class="btn primary block" for="fileInput">Upload a new CSV</label>
+            <button class="btn block" type="button" id="mt5Help">How to export data from MT5?</button>
           </div>
         </div>
         <div class="rview" data-view="trade" hidden>
@@ -628,14 +628,14 @@ td { font-variant-numeric: tabular-nums; }
       </div>
       <div data-spane="scales" hidden>
         <div class="row"><label class="chk" for="setLog"><input type="checkbox" id="setLog">Log scale</label></div>
-        <p class="note">Data ka time wahi rehta hai jo MT5 file mein hai. Time zone sirf dikhane ke liye badalta hai.</p>
+        <p class="note">The data keeps the time from the MT5 file. The time zone only changes how it is shown.</p>
       </div>
       <div data-spane="trading" hidden>
         <div class="row"><label for="setBal">Shuru ka balance ($)</label><input class="inp num" type="number" id="setBal" min="0" step="100"></div>
-        <div class="row"><label for="setContract">Contract size (sirf upload kiye data ke liye)</label><input class="inp num" type="number" id="setContract" min="0.0001" step="1"></div>
+        <div class="row"><label for="setContract">Contract size (only for uploaded data)</label><input class="inp num" type="number" id="setContract" min="0.0001" step="1"></div>
         <div class="row"><label for="setSpread">Spread ($)</label><input class="inp num" type="number" id="setSpread" min="0" step="0.01"></div>
         <div class="row"><label for="setComm">Commission har lot ($)</label><input class="inp num" type="number" id="setComm" min="0" step="0.5"></div>
-        <p class="note">Gold (XAUUSD) mein 1 lot = 100 oz hota hai, is liye $1 ka move 1 lot par $100 banta hai.</p>
+        <p class="note">In Gold (XAUUSD), 1 lot = 100 oz, so a $1 move is $100 on 1 lot.</p>
       </div>
     </div>
     <div class="dlg-foot"><span class="note credit left" style="align-self:center"><a href="https://www.tradingview.com/" target="_blank" rel="noopener">Charts: TradingView Lightweight Charts™</a></span><button class="btn" type="button" id="setReset">Defaults</button><button class="btn primary" type="button" data-close>Ok</button></div>
@@ -678,13 +678,13 @@ td { font-variant-numeric: tabular-nums; }
     <div class="dlg-head"><span id="mHelpT">MT5 se data (CSV) nikalna</span><button class="tb icon x" type="button" data-close aria-label="Band karein"><svg class="i" viewBox="0 0 20 20"><path d="M5 5l10 10M15 5L5 15"/></svg></button></div>
     <div class="dlg-body">
       <ol class="help-steps">
-        <li>MT5 mein <code>Tools</code> → <code>Options</code> → <code>Charts</code> mein <code>Max bars in chart</code> ko <code>Unlimited</code> karein, phir MT5 dobara kholein.</li>
-        <li><code>Ctrl+U</code> dabayein, <code>Bars</code> tab kholein.</li>
-        <li>Symbol (jaise <code>XAUUSDm</code>), timeframe <code>M1</code> aur dates chunein, phir <code>Request</code> dabayein.</li>
+        <li>In MT5, set <code>Tools</code> → <code>Options</code> → <code>Charts</code> → <code>Max bars in chart</code> to <code>Unlimited</code>, then reopen MT5.</li>
+        <li>Press <code>Ctrl+U</code>, then open the <code>Bars</code> tab.</li>
+        <li>Choose the Symbol (e.g. <code>XAUUSDm</code>), timeframe <code>M1</code> and dates, then press <code>Request</code>.</li>
         <li><code>Export Bars</code> daba kar file save karein.</li>
-        <li>Yahan <b>Upload CSV</b> se wo file chunein. File ek dafa upload karne ke baad isi browser mein save rehti hai.</li>
+        <li>Choose that file here with <b>Upload CSV</b>. Once uploaded, the file stays saved in this browser.</li>
       </ol>
-      <p class="note">M1 ka 1 saal ka data theek chalta hai. Chhote timeframe se bade timeframe (5m, 15m, 1h, 4h, D) khud ban jate hain.</p>
+      <p class="note">1 year of M1 data works fine. Bigger timeframes (5m, 15m, 1h, 4h, D) are built automatically from the smaller timeframe.</p>
     </div>
   </div>
 </div>
@@ -704,7 +704,7 @@ td { font-variant-numeric: tabular-nums; }
       <div class="gate-brand" id="loginBrand" hidden></div>
       <div class="auth-tabs" role="group" aria-label="Login ya account">
         <button type="button" data-auth="login" aria-pressed="true">Login</button>
-        <button type="button" data-auth="signup" aria-pressed="false">Naya account</button>
+        <button type="button" data-auth="signup" aria-pressed="false">Create account</button>
       </div>
       <form id="authForm" class="fld" novalidate>
         <div class="fld" id="nameFld" hidden><label for="authName">Naam</label><input class="inp" id="authName" type="text" autocomplete="name"></div>
@@ -735,7 +735,7 @@ td { font-variant-numeric: tabular-nums; }
   const LOGO_DARK = "data:image/png;base64,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";
 
   /* ================= apni website ki settings ================= */
-  const BRAND = { name: "Daddy Trader BackBar", short: "DT", logo: LOGO_LIGHT, logoDark: LOGO_DARK };   // logo: image ka link ya data URL
+  const BRAND = { name: "Daddy Trader Back Testing", short: "DT", logo: LOGO_LIGHT, logoDark: LOGO_DARK };   // logo: image ka link ya data URL
   const FIREBASE_CONFIG = null;                                   // live karte waqt Firebase ka config yahan lagega
   const REQUIRE_LOGIN = true;                                     // Firebase lagne ke baad login ke baghair website nahi khulegi
 
@@ -877,7 +877,7 @@ td { font-variant-numeric: tabular-nums; }
   }
   function parseCSV(text) {
     const lines = text.split(/\r?\n/).filter((l) => l.trim());
-    if (lines.length < 2) throw new Error("file mein data nahi mila");
+    if (lines.length < 2) throw new Error("No data found in the file");
     const first = lines[0];
     const sep = first.includes("\t") ? "\t" : (first.split(";").length > first.split(",").length ? ";" : ",");
     const commaDec = sep === ";";
@@ -889,7 +889,7 @@ td { font-variant-numeric: tabular-nums; }
       const f = (...names) => head.findIndex((h) => names.includes(h));
       idx = { date: f("date", "datetime", "timestamp", "time"), time: f("time"), o: f("open", "o"), h: f("high", "h"), l: f("low", "l"), c: f("close", "c"), v: f("tickvol", "tick_volume", "volume", "vol") };
       if (idx.date === idx.time) idx.time = -1;
-      if (idx.o < 0 || idx.h < 0 || idx.l < 0 || idx.c < 0 || idx.date < 0) throw new Error("Open/High/Low/Close columns nahi mile");
+      if (idx.o < 0 || idx.h < 0 || idx.l < 0 || idx.c < 0 || idx.date < 0) throw new Error("Open/High/Low/Close columns not found");
     } else {
       const r0 = split(first);
       idx = /:/.test(r0[1]) ? { date: 0, time: 1, o: 2, h: 3, l: 4, c: 5, v: 6 } : { date: 0, time: -1, o: 1, h: 2, l: 3, c: 4, v: 5 };
@@ -906,7 +906,7 @@ td { font-variant-numeric: tabular-nums; }
       const v = idx.v >= 0 ? nm(r[idx.v]) : 0;
       out.push({ time: t, open: o, high: Math.max(h, o, c), low: Math.min(l, o, c), close: c, vol: isFinite(v) ? v : 0 });
     }
-    if (out.length < 10) throw new Error("kam az kam 10 candles chahiye");
+    if (out.length < 10) throw new Error("At least 10 candles are needed");
     out.sort((a, b) => a.time - b.time);
     const clean = [out[0]];
     for (let i = 1; i < out.length; i++) if (out[i].time !== clean[clean.length - 1].time) clean.push(out[i]);
@@ -962,7 +962,7 @@ td { font-variant-numeric: tabular-nums; }
   /* ================= chart ================= */
   const LWC = window.LightweightCharts;
   if (!LWC || !LWC.createChart || !LWC.CandlestickSeries) {
-    $("#chartArea").insertAdjacentHTML("beforeend", '<div class="load-error">Chart load nahi hua. Internet check kar ke page dobara kholein.</div>');
+    $("#chartArea").insertAdjacentHTML("beforeend", '<div class="load-error">Chart failed to load. Check your internet and reopen the page.</div>');
     return;
   }
   const area = $("#chartArea");
@@ -1187,9 +1187,9 @@ td { font-variant-numeric: tabular-nums; }
     const box = $("#lgInds"); if (!box) return;
     box.innerHTML = IND.list.map((ind) => '<div class="lg-row lg-ind' + (ind.hidden ? " off" : "") + '" data-ind="' + ind.id + '"><span class="lg-name">' + esc(ind.type === "vol" ? "Vol · Ticks" : indTitle(ind)) + "</span>" +
       ind.series.map((_, k) => '<span class="lg-v" data-k="' + k + '"' + (DEFS[ind.type].legendColor ? "" : ' style="color:' + esc(ind.colors[k]) + '"') + "></span>").join("") +
-      '<span class="acts"><button type="button" data-act="eye" title="Dikhayein / chhupayein" aria-label="Dikhayein ya chhupayein">' + svg(ind.hidden ? IC.eyeOff : IC.eye) + "</button>" +
+      '<span class="acts"><button type="button" data-act="eye" title="Dikhayein / chhupayein" aria-label="Show or hide">' + svg(ind.hidden ? IC.eyeOff : IC.eye) + "</button>" +
       (Object.keys(ind.params).length || DEFS[ind.type].outs.some((o) => o[2] !== "hist") ? '<button type="button" data-act="set" title="Settings" aria-label="Settings">' + svg(IC.gear) + "</button>" : "") +
-      '<button type="button" data-act="del" title="Hatayein" aria-label="Hatayein">' + svg(IC.x) + "</button></span></div>").join("");
+      '<button type="button" data-act="del" title="Hatayein" aria-label="Remove">' + svg(IC.x) + "</button></span></div>").join("");
     updateLegend();
   }
   legend.addEventListener("click", (e) => {
@@ -2037,7 +2037,7 @@ td { font-variant-numeric: tabular-nums; }
       const x = S.mouse.x;
       ctx.fillStyle = hexA(TH.bg, 0.55); ctx.fillRect(x, 0, pane.w - x, pane.h);
       sl(x, 0, x, pane.h, TH.accent, 1.5, 0);
-      tag("Yahan se replay", x + 6, 18, TH.accent, "#fff", "left");
+      tag("Replay from here", x + 6, 18, TH.accent, "#fff", "left");
     }
     if (!D.hidden) {
       for (const d of D.list) { if (d.hiddenOne || !visibleOnTf(d)) { d._geo = []; d._hp = []; continue; } try { drawOne(d, pane, d === D.sel, d === D.hover && d !== D.sel); } catch (err) { d._geo = []; } }
@@ -2117,12 +2117,12 @@ td { font-variant-numeric: tabular-nums; }
   function select(d) { D.sel = d; updateSelBar(); renderObjects(); }
   function removeDrawing(d) { if (!d) return; pushUndo(); D.list = D.list.filter((x) => x !== d); if (D.sel === d) D.sel = null; if (D.hover === d) D.hover = null; saveDrawings(); updateSelBar(); renderObjects(); }
   function removeSel() { removeDrawing(D.sel); }
-  function undo() { if (!D.undo.length) { toast("Undo ke liye kuch nahi."); return; } D.redo.push(JSON.stringify(D.list, drawReplacer)); D.list = JSON.parse(D.undo.pop()); D.sel = null; D.draft = null; saveDrawings(); updateSelBar(); renderObjects(); }
-  function redo() { if (!D.redo.length) { toast("Redo ke liye kuch nahi."); return; } D.undo.push(JSON.stringify(D.list, drawReplacer)); D.list = JSON.parse(D.redo.pop()); D.sel = null; saveDrawings(); updateSelBar(); renderObjects(); }
+  function undo() { if (!D.undo.length) { toast("Nothing to undo."); return; } D.redo.push(JSON.stringify(D.list, drawReplacer)); D.list = JSON.parse(D.undo.pop()); D.sel = null; D.draft = null; saveDrawings(); updateSelBar(); renderObjects(); }
+  function redo() { if (!D.redo.length) { toast("Nothing to redo."); return; } D.undo.push(JSON.stringify(D.list, drawReplacer)); D.list = JSON.parse(D.redo.pop()); D.sel = null; saveDrawings(); updateSelBar(); renderObjects(); }
   function clearAll() {
-    if (!D.list.length) { toast("Chart par koi drawing nahi hai."); return; }
+    if (!D.list.length) { toast("There are no drawings on the chart."); return; }
     pushUndo(); D.list = []; D.sel = null; saveDrawings(); updateSelBar(); renderObjects();
-    toast("Saari drawings hata di. Wapas laane ke liye Undo (Ctrl+Z) dabayein.");
+    toast("All drawings removed. Press Undo (Ctrl+Z) to bring them back.");
   }
   function normalize(d) {
     if (!d || !TOOLS[d.type] && d.type !== "measure") return null;
@@ -2222,12 +2222,12 @@ td { font-variant-numeric: tabular-nums; }
     if (b.dataset.tool1) { setTool(D.tool === b.dataset.tool1 ? "cursor" : b.dataset.tool1); return; }
     const act = b.dataset.act;
     if (act === "magnet") { CFG.magnet = CFG.magnet === "off" ? "weak" : "off"; saveCfg(); }
-    else if (act === "stay") { CFG.stayDraw = !CFG.stayDraw; saveCfg(); toast(CFG.stayDraw ? "Stay in drawing mode on: tool drawing ke baad bhi chuna rahega." : "Stay in drawing mode off."); }
+    else if (act === "stay") { CFG.stayDraw = !CFG.stayDraw; saveCfg(); toast(CFG.stayDraw ? "Stay in drawing mode on: the tool stays selected after drawing." : "Stay in drawing mode off."); }
     else if (act === "lock") { D.locked = !D.locked; toast(D.locked ? "Saari drawings lock ho gayi." : "Drawings unlock ho gayi."); }
     else if (act === "hide") { const any = D.hidden; D.hidden = !any; if (D.hidden) select(null); }
     else if (act === "remove") clearAll();
     else if (act === "favbar") {
-      if (!favList().length) { toast("Kisi bhi tool ki list kholein aur us ke saath wala ☆ star dabayein. Wo tool yahan favorites mein aa jayega.", 5000); return; }
+      if (!favList().length) { toast("Open any tool list and press the ☆ star next to it. That tool will appear here in favorites.", 5000); return; }
       CFG.favShow = CFG.favShow === false; saveCfg();
     }
     renderLeftTools();
@@ -2287,7 +2287,7 @@ td { font-variant-numeric: tabular-nums; }
     CFG.favTools = on ? favList().concat(id) : favList().filter((x) => x !== id);
     if (on) CFG.favShow = true;
     saveCfg(); renderLeftTools();
-    toast(TOOLS[id].name + (on ? " favorites mein aa gaya." : " favorites se hat gaya."));
+    toast(TOOLS[id].name + (on ? " added to favorites." : " removed from favorites."));
   }
   document.addEventListener("click", (e) => {
     const s = e.target.closest(".fav-star"); if (!s) return;
@@ -2554,7 +2554,7 @@ td { font-variant-numeric: tabular-nums; }
       }
       if (d.type === "emoji") h += '<div class="row"><span>Size</span><input class="inp num sm" type="number" data-k="fontSize" min="10" max="80" value="' + (st.fontSize || 22) + '"></div>';
       if (d.type === "arrowup" || d.type === "arrowdown") h += '<div class="row"><span>Rang</span>' + colorIn("color", st.color) + "</div>";
-      if (!h) h = '<p class="note">Is tool ki koi style setting nahi.</p>';
+      if (!h) h = '<p class="note">This tool has no style settings.</p>';
     } else if (tab === "inputs") {
       const lots = d.lots != null ? d.lots : (num($("#tkLots").value) || 0.1);
       h += '<div class="row"><span>Entry price</span><input class="inp num" type="number" step="any" data-pf="entry" value="' + fmtRaw(d.pts[0].p) + '"></div>' +
@@ -2619,7 +2619,7 @@ td { font-variant-numeric: tabular-nums; }
     const x = tx(q.t), y = py(q.p);
     const inp = document.createElement("textarea");
     inp.id = "textEditor"; inp.className = "text-editor"; inp.rows = 2;
-    inp.value = d.text || ""; inp.placeholder = "Text likh kar Enter dabayein (nayi line: Shift+Enter)";
+    inp.value = d.text || ""; inp.placeholder = "Type text and press Enter (new line: Shift+Enter)";
     inp.style.left = Math.max(4, Math.min((isFinite(x) ? x : 40), area.clientWidth - 230)) + "px";
     inp.style.top = Math.max(4, Math.min((isFinite(y) ? y : 40) - 18, area.clientHeight - 70)) + "px";
     area.appendChild(inp);
@@ -2664,7 +2664,7 @@ td { font-variant-numeric: tabular-nums; }
     }
     if (!D.draft) {
       D.draft = newDrawing(t, [P, { t: P.t, p: P.p }]); D.downAt = p;
-      if (T.n < 0 && D.coarse) toast("Point lagate jayein. Khatam karne ke liye upar wala ✓ button dabayein.", 4500);
+      if (T.n < 0 && D.coarse) toast("Keep placing points. To finish, press the ✓ button above.", 4500);
       return;
     }
     const pts = D.draft.pts;
@@ -2754,7 +2754,7 @@ td { font-variant-numeric: tabular-nums; }
       if (D.coarse && aimTool(D.tool)) {
         D.aim = { a: aimAt(p) }; S.mouse = D.aim.a;
         if (D.ruler && !D.ruler.done) D.ruler.pts[1] = ptAt(D.aim.a); else if (D.draft) moveDraft(D.aim.a);
-        if (!CFG.aimHelp) { CFG.aimHelp = 1; saveCfg(); toast("Ungli ke upar + nishaan aata hai. Ungli hila kar + ko sahi jagah le jayein, phir ungli uthayein. Point wahin lagega.", 6000); }
+        if (!CFG.aimHelp) { CFG.aimHelp = 1; saveCfg(); toast("A + mark appears above your finger. Move your finger to place the + in the right spot, then lift your finger. The point will be placed there.", 6000); }
         return;
       }
       placePoint(p); return;
@@ -2947,9 +2947,9 @@ td { font-variant-numeric: tabular-nums; }
     return { lots: num($("#tkLots").value), slOn: $("#tkSlOn").checked, tpOn: $("#tkTpOn").checked, slD: num($("#tkSl").value), tpD: num($("#tkTp").value) };
   }
   function placeOrder(side) {
-    if (S.selecting) { toast("Pehle replay ki shuruaat wali candle chunein."); return; }
+    if (S.selecting) { toast("First choose the candle where the replay starts."); return; }
     const v = tkVals();
-    if (!v.lots || v.lots <= 0) { toast("Lot size sahi likhein, jaise 0.10"); return; }
+    if (!v.lots || v.lots <= 0) { toast("Enter the lot size correctly, e.g. 0.10"); return; }
     if (v.slOn && !(v.slD > 0)) { toast("Stop Loss ki door dollar mein likhein, ya SL band karein."); return; }
     if (v.tpOn && !(v.tpD > 0)) { toast("Take Profit ki door dollar mein likhein, ya TP band karein."); return; }
     const pip = instr().pip;
@@ -2964,12 +2964,12 @@ td { font-variant-numeric: tabular-nums; }
       const a = ask(), b = bid();
       const ok = side === "buy" ? (TK.type === "limit" ? price < a : price > a) : (TK.type === "limit" ? price > b : price < b);
       if (!ok) {
-        const hint = side === "buy" ? (TK.type === "limit" ? "Buy Limit maujooda price se neeche hona chahiye." : "Buy Stop maujooda price se upar hona chahiye.") : (TK.type === "limit" ? "Sell Limit maujooda price se upar hona chahiye." : "Sell Stop maujooda price se neeche hona chahiye.");
+        const hint = side === "buy" ? (TK.type === "limit" ? "Buy Limit must be below the current price." : "Buy Stop must be above the current price.") : (TK.type === "limit" ? "Sell Limit must be above the current price." : "Sell Stop must be below the current price.");
         toast(hint); S.nextTrade--; return;
       }
       S.trades.push(Object.assign(base, { orderType: TK.type, price, status: "pending" }));
     }
-    if (!S.replay) toast("Trade lag gayi. Candles aage barhane ke liye upar Replay dabayein.");
+    if (!S.replay) toast("Trade placed. Press Replay above to move the candles forward.");
     scheduleUI();
   }
   function fill(t, px, time) {
@@ -3064,7 +3064,7 @@ td { font-variant-numeric: tabular-nums; }
     $("#tkTpHint").textContent = v.tpOn && v.tpD > 0 ? "≈ " + fmtMoney(v.tpD * ins.pip * k) + " profit" : "";
     $("#tkSlU").textContent = $("#tkTpU").textContent = ins.unit === "pips" ? "pips" : "price";
     $("#tkSl").disabled = !v.slOn; $("#tkTp").disabled = !v.tpOn;
-    $("#tkPriceHint").textContent = TK.type === "market" ? "" : "Abhi: Bid " + fmtPx(bid()) + " · Ask " + fmtPx(ask());
+    $("#tkPriceHint").textContent = TK.type === "market" ? "" : "Now: Bid " + fmtPx(bid()) + " · Ask " + fmtPx(ask());
     const pend = S.trades.filter((t) => t.status === "pending");
     $("#cntPos").textContent = s.open.length ? " " + s.open.length : "";
     $("#cntOrd").textContent = pend.length ? " " + pend.length : "";
@@ -3078,16 +3078,16 @@ td { font-variant-numeric: tabular-nums; }
     if (tab === "positions") {
       $('[data-pane="positions"]').innerHTML = s.open.length ? '<table><thead><tr><th>Symbol</th><th class="l">Side</th><th>Lots</th><th>Entry</th><th>SL</th><th>TP</th><th>Price</th><th>Profit</th><th></th></tr></thead><tbody>' +
         s.open.map((t) => { const pl = livePnl(t); return "<tr><td>" + esc(S.symbol) + '</td><td class="l"><span class="pill ' + t.side + '">' + t.side.toUpperCase() + "</span></td><td>" + t.lots + "</td><td>" + fmtPx(t.entry) + "</td><td>" + fmtPx(t.sl) + "</td><td>" + fmtPx(t.tp) + "</td><td>" + fmtPx(markPx(t)) + '</td><td class="' + sgn(pl) + '">' + fmtMoney(pl, true) + '</td><td><button class="mini" type="button" data-close="' + t.id + '">Close</button></td></tr>'; }).join("") + "</tbody></table>"
-        : '<div class="empty">Koi khuli position nahi. Right side Trading panel se Buy ya Sell karein.</div>';
+        : '<div class="empty">No open positions. Buy or sell from the Trading panel on the right.</div>';
     } else if (tab === "orders") {
       $('[data-pane="orders"]').innerHTML = pend.length ? '<table><thead><tr><th>Symbol</th><th class="l">Side</th><th class="l">Type</th><th>Lots</th><th>Price</th><th>SL ($)</th><th>TP ($)</th><th></th></tr></thead><tbody>' +
         pend.map((t) => "<tr><td>" + esc(S.symbol) + '</td><td class="l"><span class="pill ' + t.side + '">' + t.side.toUpperCase() + '</span></td><td class="l">' + t.orderType + "</td><td>" + t.lots + "</td><td>" + fmtPx(t.price) + "</td><td>" + (t.slD ?? "–") + "</td><td>" + (t.tpD ?? "–") + '</td><td><button class="mini" type="button" data-cancel="' + t.id + '">Cancel</button></td></tr>').join("") + "</tbody></table>"
-        : '<div class="empty">Koi pending order nahi.</div>';
+        : '<div class="empty">No pending orders.</div>';
     } else if (tab === "history") {
       const list = s.closed.slice().reverse();
       $('[data-pane="history"]').innerHTML = list.length ? '<table><thead><tr><th>#</th><th class="l">Side</th><th>Lots</th><th class="l">Entry time</th><th>Entry</th><th class="l">Exit time</th><th>Exit</th><th class="l">Result</th><th>Profit</th></tr></thead><tbody>' +
         list.map((t) => "<tr><td>" + t.id + '</td><td class="l"><span class="pill ' + t.side + '">' + t.side.toUpperCase() + "</span></td><td>" + t.lots + '</td><td class="l">' + fmtTime(t.openTime) + "</td><td>" + fmtPx(t.entry) + '</td><td class="l">' + fmtTime(t.exitTime) + "</td><td>" + fmtPx(t.exit) + '</td><td class="l"><span class="pill muted">' + t.reason + '</span></td><td class="' + sgn(t.pnl) + '">' + fmtMoney(t.pnl, true) + "</td></tr>").join("") + "</tbody></table>"
-        : '<div class="empty">Abhi koi band trade nahi.</div>';
+        : '<div class="empty">No closed trades yet.</div>';
     } else if (tab === "performance") {
       const n = s.closed.length;
       const tiles = [
@@ -3213,10 +3213,10 @@ td { font-variant-numeric: tabular-nums; }
     if (del) {
       e.stopPropagation();
       const name = del.dataset.del;
-      if (del.dataset.confirm !== "1") { del.dataset.confirm = "1"; del.style.color = "var(--down)"; toast("Delete karne ke liye dobara click karein."); setTimeout(() => { if (del.isConnected) { del.dataset.confirm = ""; del.style.color = ""; } }, 3000); return; }
-      try { await dbDelete(name); } catch (err) { toast("Delete nahi ho saka."); return; }
+      if (del.dataset.confirm !== "1") { del.dataset.confirm = "1"; del.style.color = "var(--down)"; toast("Click again to delete."); setTimeout(() => { if (del.isConnected) { del.dataset.confirm = ""; del.style.color = ""; } }, 3000); return; }
+      try { await dbDelete(name); } catch (err) { toast("Could not delete."); return; }
       if (name === S.setName) { if (!(await openSymbol("XAUUSD"))) loadSample(); }
-      toast("Data delete ho gaya.");
+      toast("Data deleted.");
       renderWatch();
       return;
     }
@@ -3230,21 +3230,21 @@ td { font-variant-numeric: tabular-nums; }
     if (name === "sample") { loadSample(); renderWatch(); return; }
     let meta = wlCache.find((m) => m.name === name);
     if (!meta) { try { wlCache = await dbList(); meta = wlCache.find((m) => m.name === name); } catch (e) { meta = null; } }
-    toast("Data load ho raha hai…", 1500);
+    toast("Loading data…", 1500);
     try {
       const bars = await dbBars(name);
       if (!bars || !meta) throw new Error("missing");
       loadData(bars, meta.baseSec, meta.decimals, meta.symbol, false, name);
-    } catch (err) { toast("Ye data khul nahi saka. CSV dobara upload karein."); }
+    } catch (err) { toast("This data could not be opened. Upload the CSV again."); }
   }
 
   /* object tree */
   function renderObjects() {
     if (CFG.rview !== "objects") return;
     $("#otInds").innerHTML = IND.list.length ? IND.list.map((ind) => '<div class="ot-row" data-ind="' + ind.id + '"><span class="sw" style="background:' + esc(ind.colors[0]) + '"></span><span class="name">' + esc(DEFS[ind.type].name + " (" + indTitle(ind) + ")") + "</span>" +
-      '<button type="button" data-a="eye" aria-label="Dikhayein ya chhupayein">' + svg(ind.hidden ? IC.eyeOff : IC.eye) + '</button><button type="button" data-a="del" aria-label="Hatayein">' + svg(IC.trash) + "</button></div>").join("") : '<div class="empty">Koi indicator nahi.</div>';
+      '<button type="button" data-a="eye" aria-label="Show or hide">' + svg(ind.hidden ? IC.eyeOff : IC.eye) + '</button><button type="button" data-a="del" aria-label="Remove">' + svg(IC.trash) + "</button></div>").join("") : '<div class="empty">No indicators.</div>';
     $("#otDraw").innerHTML = D.list.length ? D.list.slice().reverse().map((d) => '<div class="ot-row' + (d === D.sel ? " sel" : "") + '" data-d="' + d.id + '"><span class="sw" style="background:' + esc(d.style.color) + '"></span><span class="name">' + esc(TOOLS[d.type].name + (d.text && d.type !== "emoji" ? ": " + d.text.split("\n")[0] : d.type === "emoji" ? " " + d.text : "")) + "</span>" +
-      '<button type="button" data-a="lock" aria-label="Lock">' + svg(d.locked ? IC.lock : IC.unlock) + '</button><button type="button" data-a="eye" aria-label="Dikhayein ya chhupayein">' + svg(d.hiddenOne ? IC.eyeOff : IC.eye) + '</button><button type="button" data-a="del" aria-label="Hatayein">' + svg(IC.trash) + "</button></div>").join("") : '<div class="empty">Koi drawing nahi.</div>';
+      '<button type="button" data-a="lock" aria-label="Lock">' + svg(d.locked ? IC.lock : IC.unlock) + '</button><button type="button" data-a="eye" aria-label="Show or hide">' + svg(d.hiddenOne ? IC.eyeOff : IC.eye) + '</button><button type="button" data-a="del" aria-label="Remove">' + svg(IC.trash) + "</button></div>").join("") : '<div class="empty">No drawings.</div>';
   }
   $("#otInds").addEventListener("click", (e) => {
     const row = e.target.closest("[data-ind]"); if (!row) return;
@@ -3280,7 +3280,7 @@ td { font-variant-numeric: tabular-nums; }
   function startSelect() {
     pause(); setTool("cursor");
     S.selecting = true; area.classList.add("selecting");
-    $("#banner").textContent = "Jis candle se replay shuru karna hai us par click karein · Esc se cancel";
+    $("#banner").textContent = "Click the candle you want to start the replay from · Esc to cancel";
     $("#banner").hidden = false;
     rebuild();
   }
@@ -3308,7 +3308,7 @@ td { font-variant-numeric: tabular-nums; }
   }
   function step() {
     if (!S.replay || S.selecting) return false;
-    if (S.cursor >= S.base.length - 1) { pause(); toast("Data khatam ho gaya."); return false; }
+    if (S.cursor >= S.base.length - 1) { pause(); toast("Data finished."); return false; }
     S.cursor++;
     const b = S.base[S.cursor];
     addToAgg(b);
@@ -3323,7 +3323,7 @@ td { font-variant-numeric: tabular-nums; }
   }
   function play() {
     if (!S.replay) { setReplayMode(true); return; }
-    if (S.selecting) { toast("Pehle replay ki shuruaat wali candle chunein."); return; }
+    if (S.selecting) { toast("First choose the candle where the replay starts."); return; }
     if (S.playing) return;
     S.playing = true;
     $("#rbPlayIcon").innerHTML = '<path d="M6 4h3v12H6zM11 4h3v12h-3z"/>';
@@ -3341,7 +3341,7 @@ td { font-variant-numeric: tabular-nums; }
     pause();
     for (let i = S.cursor + 1; i < S.base.length; i++) processBar(S.base[i], i);
     setReplayMode(false);
-    toast("Replay khatam. Baqi candles par trades ka result bhi lag gaya.");
+    toast("Replay finished. Trade results were also applied to the remaining candles.");
   }
   $("#replayBtn").addEventListener("click", () => setReplayMode(!S.replay));
   $("#rbSelect").addEventListener("click", () => (S.selecting ? cancelSelect() : startSelect()));
@@ -3381,7 +3381,7 @@ td { font-variant-numeric: tabular-nums; }
   function tfAllowed(tf) { if (S.src && (S.src.kind === "repo" || S.src.kind === "binance")) return true; const s = TFSEC[tf]; return s >= S.baseSec && s % S.baseSec === 0; }
   function needsReload(a, b) { if (!S.src) return false; if (S.src.kind === "binance") return a !== b; if (S.src.kind === "repo") return (a === "M1") !== (b === "M1"); return false; }
   function renderTf() {
-    $("#tfFav").innerHTML = FAV_TF.map((tf) => '<button class="tb" type="button" data-tf="' + tf + '" aria-pressed="' + (tf === CFG.tf) + '"' + (tfAllowed(tf) ? "" : ' disabled title="Is ke liye chhote timeframe ka data upload karein"') + ">" + TFLBL[tf] + "</button>").join("");
+    $("#tfFav").innerHTML = FAV_TF.map((tf) => '<button class="tb" type="button" data-tf="' + tf + '" aria-pressed="' + (tf === CFG.tf) + '"' + (tfAllowed(tf) ? "" : ' disabled title="Upload data from a smaller timeframe for this"') + ">" + TFLBL[tf] + "</button>").join("");
   }
   async function setTf(tf) {
     if (!tfAllowed(tf)) return false;
@@ -3411,14 +3411,14 @@ td { font-variant-numeric: tabular-nums; }
   /* indicators dialog */
   function renderIndList(q) {
     q = (q || "").toLowerCase();
-    $("#indList").innerHTML = Object.entries(DEFS).filter(([k, d]) => !q || d.name.toLowerCase().includes(q) || d.short.toLowerCase().includes(q)).map(([k, d]) => '<button class="ind-item" type="button" data-add="' + k + '">' + esc(d.name) + "<small>" + esc(d.short) + "</small></button>").join("") || '<div class="empty">Kuch nahi mila.</div>';
+    $("#indList").innerHTML = Object.entries(DEFS).filter(([k, d]) => !q || d.name.toLowerCase().includes(q) || d.short.toLowerCase().includes(q)).map(([k, d]) => '<button class="ind-item" type="button" data-add="' + k + '">' + esc(d.name) + "<small>" + esc(d.short) + "</small></button>").join("") || '<div class="empty">Nothing found.</div>';
   }
   $("#indBtn").addEventListener("click", () => { $("#indSearch").value = ""; renderIndList(""); openModal("mInd"); });
   $("#indSearch").addEventListener("input", (e) => renderIndList(e.target.value));
   $("#indList").addEventListener("click", (e) => {
     const b = e.target.closest("[data-add]"); if (!b) return;
     const ind = addIndicator(b.dataset.add);
-    if (ind) { saveInds(); renderLegendInds(); renderObjects(); toast(DEFS[ind.type].name + " chart par lag gaya."); }
+    if (ind) { saveInds(); renderLegendInds(); renderObjects(); toast(DEFS[ind.type].name + " added to the chart."); }
   });
   let editInd = null;
   function openIndSettings(ind) {
@@ -3484,13 +3484,13 @@ td { font-variant-numeric: tabular-nums; }
       $("#shotImg").src = url; $("#shotDl").href = url;
       $("#shotDl").download = S.symbol + "_" + TFLBL[CFG.tf] + ".png";
       openModal("mShot");
-    } catch (e) { toast("Screenshot nahi ban saka."); }
+    } catch (e) { toast("Could not take a screenshot."); }
   });
   $("#fullBtn").addEventListener("click", () => {
     try {
       if (document.fullscreenElement) document.exitFullscreen();
-      else { const r = document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); if (r && r.catch) r.catch(() => toast("Full screen yahan allowed nahi.")); }
-    } catch (e) { toast("Full screen yahan allowed nahi."); }
+      else { const r = document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); if (r && r.catch) r.catch(() => toast("Full screen is not allowed here.")); }
+    } catch (e) { toast("Full screen is not allowed here."); }
   });
   $("#undoBtn").addEventListener("click", undo);
   $("#redoBtn").addEventListener("click", redo);
@@ -3558,10 +3558,10 @@ td { font-variant-numeric: tabular-nums; }
   $("#gotoOk").addEventListener("click", () => {
     const dv = $("#gotoDate").value, tv = $("#gotoTime").value || "00:00";
     const m = dv.match(/^(\d{4})-(\d{2})-(\d{2})$/), tm = tv.match(/^(\d{1,2}):(\d{2})/);
-    if (!m) { toast("Date sahi chunein."); return; }
+    if (!m) { toast("Choose the date correctly."); return; }
     const guess = Date.UTC(+m[1], +m[2] - 1, +m[3], tm ? +tm[1] : 0, tm ? +tm[2] : 0) / 1000, t = guess - tzOffset(guess);
     const n = S.agg.length;
-    if (t > S.agg[n - 1].time) toast(S.replay ? "Replay mein aage ki candles abhi chhupi hain." : "Is date ka data mojood nahi, aakhri candle dikha raha hoon.");
+    if (t > S.agg[n - 1].time) toast(S.replay ? "Later candles are still hidden in the replay." : "No data for this date, showing the last candle.");
     let lo = 0, hi = n - 1; while (lo < hi) { const mm = (lo + hi + 1) >> 1; if (S.agg[mm].time <= t) lo = mm; else hi = mm - 1; }
     ts().setVisibleLogicalRange({ from: lo - 60, to: lo + 60 });
     closeModal("mGoto");
@@ -3612,7 +3612,7 @@ td { font-variant-numeric: tabular-nums; }
     }
     return dedupe(all);
   }
-  function showLoading(on, code) { const b = $("#banner"); if (on) { b.textContent = code + " ka data load ho raha hai…"; b.hidden = false; } else if (!S.selecting) b.hidden = true; }
+  function showLoading(on, code) { const b = $("#banner"); if (on) { b.textContent = code + " data is loading…"; b.hidden = false; } else if (!S.selecting) b.hidden = true; }
   async function openSymbol(code, opts) {
     opts = opts || {};
     const e = MK.list.find((x) => x.code === code);
@@ -3634,7 +3634,7 @@ td { font-variant-numeric: tabular-nums; }
       startLive(e);
       return true;
     } catch (err) {
-      if (req === MK.reqId) toast(code + " ka data abhi load nahi ho saka. Thori der baad dobara koshish karein.");
+      if (req === MK.reqId) toast(code + " data could not be loaded yet. Try again in a little while.");
       return false;
     } finally { if (req === MK.reqId) showLoading(false); }
   }
@@ -3711,10 +3711,10 @@ td { font-variant-numeric: tabular-nums; }
     const q = $("#symSearch").value.trim().toLowerCase();
     let items = MK.list.map((x) => ({ key: x.code, code: x.code, name: x.name, cat: x.cat, srcName: x.src === "binance" ? "Binance" : "Dukascopy" }));
     items = items.concat(wlCache.map((m) => ({ key: "upload:" + m.name, code: m.symbol, name: "Aap ka upload kiya data (" + ((TFS.find((t) => t[2] === m.baseSec) || [0, Math.round(m.baseSec / 60) + "m"])[1]) + ")", cat: "mine", srcName: "MT5" })));
-    if (!MK.list.length) items.unshift({ key: "sample", code: "XAUUSD", name: "Sample, naqli data", cat: "mine", srcName: "Sample" });
+    if (!MK.list.length) items.unshift({ key: "sample", code: "XAUUSD", name: "Sample, demo data", cat: "mine", srcName: "Sample" });
     items = items.filter((x) => (symCat === "all" || x.cat === symCat) && (!q || x.code.toLowerCase().includes(q) || x.name.toLowerCase().includes(q)));
     $("#symList").innerHTML = items.length ? items.map((x) => '<button class="sym-row" type="button" data-key="' + esc(x.key) + '"><b>' + esc(x.code) + "</b><span>" + esc(x.name) + "</span><small>" + esc(CAT_NAME[x.cat] || x.cat) + " · " + esc(x.srcName) + "</small></button>").join("")
-      : '<div class="empty">Koi symbol nahi mila.</div>';
+      : '<div class="empty">No symbol found.</div>';
   }
   $("#symSearch").addEventListener("input", renderSymList);
   $("#symSearch").addEventListener("keydown", (e) => { if (e.key === "Enter") { const f = $("#symList .sym-row"); if (f) f.click(); } });
@@ -3768,12 +3768,12 @@ td { font-variant-numeric: tabular-nums; }
   function loadSample() { loadData(sampleData(), 300, 2, "XAUUSD", true, "sample"); }
   function handleFile(file) {
     if (!file) return;
-    toast("File parh raha hoon…", 2000);
+    toast("Reading the file…", 2000);
     const reader = new FileReader();
     reader.onload = async () => {
       let r;
       try { r = parseCSV(decodeBytes(reader.result)); }
-      catch (err) { toast("File parh nahi saki: " + err.message + ". MT5 se 'Export Bars' wali CSV upload karein.", 6000); return; }
+      catch (err) { toast("Could not read the file: " + err.message + ". Upload the 'Export Bars' CSV from MT5.", 6000); return; }
       const symbol = (file.name.split(/[_.\s-]/)[0] || "DATA").slice(0, 20);
       const name = symbol + "|" + r.baseSec;
       const last = r.bars[r.bars.length - 1], prev = r.bars[r.bars.length - 2];
@@ -3782,9 +3782,9 @@ td { font-variant-numeric: tabular-nums; }
       try { await dbSave(meta, r.bars); } catch (e) { saved = false; }
       loadData(r.bars, r.baseSec, r.decimals, symbol, false, name);
       if (CFG.rview === "watch") renderWatch();
-      toast(r.bars.length.toLocaleString("en-US") + " candles load ho gayi." + (saved ? " Data is browser mein save ho gaya, agli dafa upload nahi karna padega." : " (Is browser mein save nahi ho saka, agli dafa dobara upload karna hoga.)"), 6000);
+      toast(r.bars.length.toLocaleString("en-US") + " candles loaded." + (saved ? " Data is saved in this browser, you will not need to upload it again." : " (It could not be saved in this browser, you will need to upload it again next time.)"), 6000);
     };
-    reader.onerror = () => toast("File khul nahi saki, dobara koshish karein.");
+    reader.onerror = () => toast("The file could not be opened, try again.");
     reader.readAsArrayBuffer(file);
   }
   $("#fileInput").addEventListener("change", (e) => { handleFile(e.target.files[0]); e.target.value = ""; });
@@ -3816,7 +3816,7 @@ td { font-variant-numeric: tabular-nums; }
     AUTH.mode = m;
     $$("[data-auth]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.auth === m)));
     $("#nameFld").hidden = m !== "signup";
-    $("#authSubmit").textContent = m === "signup" ? "Account banayein" : "Login";
+    $("#authSubmit").textContent = m === "signup" ? "Create account" : "Login";
     $("#authPass").autocomplete = m === "signup" ? "new-password" : "current-password";
     authMsg("");
   }
@@ -3829,29 +3829,29 @@ td { font-variant-numeric: tabular-nums; }
     $("#mLogin").classList.toggle("gate", gateMode);
     setAuthMode(AUTH.mode);
     $("#mLogin").hidden = false;
-    if (!FIREBASE_CONFIG) authMsg("Login abhi setup nahi hua. Website live karte waqt Firebase lagaya jayega, tab ye chalega. Tab tak website baghair login ke chal rahi hai.", "err");
+    if (!FIREBASE_CONFIG) authMsg("Login is not set up yet. Firebase will be added when the website goes live, then this will work. Until then the website works without login.", "err");
     setTimeout(() => $("#authEmail").focus(), 0);
   }
   const AUTH_ERR = {
-    "auth/invalid-email": "Email sahi nahi hai.",
+    "auth/invalid-email": "The email is not correct.",
     "auth/missing-password": "Password likhein.",
-    "auth/weak-password": "Password kam az kam 6 akshar ka hona chahiye.",
-    "auth/email-already-in-use": "Is email se pehle hi account bana hua hai. Login karein.",
-    "auth/invalid-credential": "Email ya password ghalat hai.",
-    "auth/wrong-password": "Password ghalat hai.",
-    "auth/user-not-found": "Is email ka koi account nahi.",
-    "auth/too-many-requests": "Bahut dafa koshish ho gayi. Thori der baad try karein.",
+    "auth/weak-password": "The password must be at least 6 characters.",
+    "auth/email-already-in-use": "An account already exists with this email. Log in.",
+    "auth/invalid-credential": "Email or password is wrong.",
+    "auth/wrong-password": "Password is wrong.",
+    "auth/user-not-found": "No account exists for this email.",
+    "auth/too-many-requests": "Too many attempts. Try again after a while.",
     "auth/popup-closed-by-user": "Google ki window band ho gayi.",
-    "auth/unauthorized-domain": "Ye website ka domain Firebase mein add nahi hai.",
-    "auth/network-request-failed": "Internet ka masla hai, dobara koshish karein."
+    "auth/unauthorized-domain": "This website's domain is not added in Firebase.",
+    "auth/network-request-failed": "There is an internet problem, try again."
   };
-  const authErr = (e) => AUTH_ERR[e && e.code] || "Kuch ghalat ho gaya. Dobara koshish karein.";
+  const authErr = (e) => AUTH_ERR[e && e.code] || "Something went wrong. Try again.";
   $("#authForm").addEventListener("submit", async (e) => {
     e.preventDefault();
-    if (!AUTH.fb) { authMsg("Login abhi setup nahi hua.", "err"); return; }
+    if (!AUTH.fb) { authMsg("Login is not set up yet.", "err"); return; }
     const email = $("#authEmail").value.trim(), pass = $("#authPass").value;
     if (!email || !pass) { authMsg("Email aur password dono likhein.", "err"); return; }
-    authMsg("Thora intezar…");
+    authMsg("Please wait…");
     try {
       if (AUTH.mode === "signup") {
         const cred = await AUTH.fb.createUserWithEmailAndPassword(email, pass);
@@ -3862,14 +3862,14 @@ td { font-variant-numeric: tabular-nums; }
     } catch (err) { authMsg(authErr(err), "err"); }
   });
   $("#forgotBtn").addEventListener("click", async () => {
-    if (!AUTH.fb) { authMsg("Login abhi setup nahi hua.", "err"); return; }
+    if (!AUTH.fb) { authMsg("Login is not set up yet.", "err"); return; }
     const email = $("#authEmail").value.trim();
-    if (!email) { authMsg("Pehle upar apni email likhein.", "err"); return; }
+    if (!email) { authMsg("First enter your email above.", "err"); return; }
     try { await AUTH.fb.sendPasswordResetEmail(email); authMsg("Password badalne ka link aap ki email par bhej diya.", "ok"); }
     catch (err) { authMsg(authErr(err), "err"); }
   });
   $("#googleBtn").addEventListener("click", async () => {
-    if (!AUTH.fb) { authMsg("Login abhi setup nahi hua.", "err"); return; }
+    if (!AUTH.fb) { authMsg("Login is not set up yet.", "err"); return; }
     try { await AUTH.fb.signInWithPopup(new window.firebase.auth.GoogleAuthProvider()); }
     catch (err) { authMsg(authErr(err), "err"); }
   });
@@ -3887,7 +3887,7 @@ td { font-variant-numeric: tabular-nums; }
         if (u) { $("#mLogin").hidden = true; gateMode = false; }
         else if (REQUIRE_LOGIN) openLogin(true);
       });
-    } catch (e) { toast("Login system load nahi hua. Internet check karein."); }
+    } catch (e) { toast("The login system failed to load. Check your internet."); }
   }
 
   /* ================= keyboard ================= */

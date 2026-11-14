@@ -614,7 +614,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       <a href="alexa.html">ALEXA AI</a>
       <a href="fundamental.html">Fundamental</a>
       <a href="signals.html" aria-current="page">Signals</a>
-      <a href="backtest.html">BackBar Replay</a>
+      <a href="backtest.html">Back Testing</a>
       <a href="premium.html">Premium</a>
       <a href="./#community">Community</a>
       <div class="dt-nav-cta">
@@ -641,7 +641,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 <section class="sheet sec" id="tp-record" aria-labelledby="tpr-h" hidden>
   <div class="sec-head"><div>
     <h2 class="h2" id="tpr-h">TP Hit record</h2>
-    <p class="lead">Ab tak <b id="tpr-count">0</b> signals ne take profit hit kiya hai &mdash; pura record neeche hai, kabhi delete nahi hota.</p>
+    <p class="lead">So far <b id="tpr-count">0</b> signals have hit take profit &mdash; the full record is below and is never deleted.</p>
   </div></div>
   <div class="sig-grid" id="tpRecordGrid" aria-live="polite"></div>
 </section>
@@ -660,7 +660,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       <nav aria-label="Footer">
         <a href="alexa.html">ALEXA AI</a>
         <a href="fundamental.html">Fundamental</a>
-        <a href="backtest.html">BackBar Replay</a>
+        <a href="backtest.html">Back Testing</a>
         <a href="signals.html">Signals</a>
         <a href="premium.html">Premium</a>
         <a href="privacy.html">Privacy</a>
@@ -1079,13 +1079,12 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
         ln.dataset.link = n0.link;
         const lastNews = localStorage.getItem('last_news_link');
         if (n0.link !== lastNews){
-          if (lastNews) notify('📰 Gold News Update', n0.ur || n0.title);
+          if (lastNews) notify('📰 Gold News Update', n0.title);
           localStorage.setItem('last_news_link', n0.link);
         }
-        ln.innerHTML = '<a class="ticker-card' + (changed ? ' tk-anim' : '') + '" href="' + esc(n0.link) + '" target="_blank" rel="noopener">' +
+        ln.innerHTML = '<a class="ticker-card' + (changed ? ' tk-anim' : '') + '" href="news.html?id=' + n0.ts + '">' +
           '<span class="tk-tag"><span class="mon-dot">●</span> LATEST UPDATE — GOLD NEWS</span>' +
-          '<span class="tk-title">' + esc(n0.ur || n0.title) + '</span>' +
-          (n0.ur ? '<span class="tk-en">' + esc(n0.title) + '</span>' : '') +
+          '<span class="tk-title">' + esc(n0.title) + '</span>' +
           '<span class="tk-meta">' + esc(n0.src) + ' · ' + (n0.ts ? ago(n0.ts) : '') + '</span></a>';
       }
 
@@ -1098,8 +1097,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
               '<a class="newsx-card" style="--tint:' + tints[i % 4] + '" href="' + esc(n.link) + '" target="_blank" rel="noopener">' +
               '<span class="nx-num">' + String(i + 1).padStart(2, '0') + '</span>' +
               '<span class="nx-arrow">↗</span>' +
-              '<span class="nx-title">' + esc(n.ur || n.title) + '</span>' +
-              '<span class="nx-sub">' + esc(n.title) + '</span>' +
+              '<span class="nx-title">' + esc(n.title) + '</span>' +
               '<span class="nx-meta">' + esc(n.src) + (n.ts ? ' · ' + ago(n.ts) : '') + '</span></a>').join('')
           : '<p class="mon-empty">No fresh gold headlines right now.</p>';
       }
@@ -1269,7 +1267,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       '</div>' +
       '<div style="background:var(--panel);border-radius:16px;padding:18px;margin-top:14px;box-shadow:0 10px 30px rgba(19,39,32,0.07)">' +
       '<canvas id="rm-chart" width="820" height="300" style="width:100%;height:auto"></canvas></div>' +
-      '<p class="calc-note">Rule yaad rakhein: din mein 3 SL lagein to trading band. Yeh plan taleemi hisaab hai — market guarantee nahin.</p>';
+      '<p class="calc-note">Remember the rule: if 3 stop losses hit in a day, stop trading. This plan is for education only — the market guarantees nothing.</p>';
     document.getElementById('client-login').style.display = 'none';
     dash.style.display = 'block';
     drawRiskChart(document.getElementById('rm-chart'), bal, risk, rr, wr);
