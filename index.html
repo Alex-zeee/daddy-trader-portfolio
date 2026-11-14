@@ -70,7 +70,6 @@
   .top .wrap{display:flex;align-items:center;gap:20px;min-height:68px}
   .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:.26em;white-space:nowrap}
   .brand i{width:10px;height:10px;border-radius:50%;background:var(--live);box-shadow:0 0 0 4px rgba(34,197,94,.15)}
-  .px{display:inline-flex;align-items:center;gap:8px;padding:6px 11px;border-radius:10px;border:1px solid var(--line);background:var(--card);font:500 12px var(--mono);white-space:nowrap}
   .px span{color:var(--muted)} .px b{font-weight:600} .px .up{color:var(--buy)} .px .dn{color:var(--sell)}
   .px[hidden]{display:none}
   .nav{display:flex;align-items:center;gap:6px 22px;margin-left:auto}
@@ -88,7 +87,7 @@
     .nav-cta{padding-top:14px}
     .nav-cta .btn{flex:1;min-height:48px}
   }
-  @media (max-width:420px){ .px span{display:none} .top .wrap{gap:10px} .brand{letter-spacing:.16em;font-size:12.5px} .px{padding:5px 8px} }
+  @media (max-width:420px){ .top .wrap{gap:10px} .brand{letter-spacing:.16em;font-size:12.5px} }
   @media (max-width:360px){ .px em{display:none} }
 
   main{display:flex;flex-direction:column;gap:28px;padding:28px 0 0}
@@ -101,13 +100,8 @@
   .more:hover{border-color:#f5b82e;color:#f5b82e}
 
   /* ===== hero ===== */
-  .hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(28px,4vw,56px);align-items:center;padding:clamp(30px,4.5vw,64px) clamp(18px,4vw,52px)}
-  .hero h1{margin:0;font-size:clamp(38px,5.4vw,70px);line-height:1.02;letter-spacing:-.045em;font-weight:800;max-width:15ch}
-  .hero .lead{font-size:clamp(16px,1.4vw,18px);margin-top:20px;max-width:52ch}
-  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
-  .facts{display:flex;flex-wrap:wrap;gap:0;margin-top:34px;border-top:1px solid var(--line)}
-  .facts[hidden]{display:none}
-  .fact{padding:16px 26px 0 0;margin-right:26px;border-right:1px solid var(--line)}
+  .hero{display:flex;justify-content:center;padding:clamp(30px,4.5vw,64px) clamp(18px,4vw,52px)}
+  #stage{width:min(680px,100%)}
   .fact:last-child{border-right:0;margin-right:0}
   .fact small{display:block;color:var(--muted);font-size:12.5px}
   .fact b{display:block;margin-top:2px;font:600 clamp(17px,1.7vw,21px) var(--mono);letter-spacing:-.02em}
@@ -118,10 +112,6 @@
     background:radial-gradient(70% 50% at 50% 28%,rgba(60,174,119,.17),transparent 72%),#050806}
   #webAlexa::before{--bracket:#2f5a40}
   .wa-tools{position:absolute;top:12px;right:12px;display:flex;gap:8px;z-index:2}
-  .wa-full{position:absolute;top:12px;left:12px;border-radius:11px;z-index:2;display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 12px;border:1px solid rgba(130,210,165,.16);
-    background:rgba(8,18,13,.7);color:var(--emerald-hi);font-size:12.5px;font-weight:600;text-decoration:none}
-  .wa-full:hover{border-color:var(--emerald)}
-  .wa-full svg{width:14px;height:14px}
   .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid rgba(130,210,165,.16);background:rgba(8,18,13,.7);color:var(--emerald-hi);display:grid;place-items:center;cursor:pointer;padding:0}
   .icon-btn:hover{border-color:var(--emerald)}
   .icon-btn svg{width:17px;height:17px}
@@ -273,8 +263,6 @@
   .foot-row a:hover{color:#fff}
 
   @media (max-width:980px){
-    .hero{grid-template-columns:minmax(0,1fr)}
-    .hero h1{max-width:18ch}
     .pillars{grid-template-columns:minmax(0,1fr)}
 
     .comm{grid-template-columns:minmax(0,1fr)}
@@ -285,10 +273,8 @@
     .steps{grid-template-columns:minmax(0,1fr)}
     .step{border-right:0;margin-right:0;padding:22px 0;border-bottom:1px solid var(--line)}
     .step:last-child{border-bottom:0}
-    .fact{padding-right:16px;margin-right:16px}
     .name{font-size:24px}
     #webAlexa{padding-top:58px}
-    .hero-cta .btn{flex:1 1 220px}
   }
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
@@ -300,7 +286,6 @@
 <header class="top">
   <div class="wrap">
     <a class="brand" href="./" aria-label="Daddy Trader home"><i aria-hidden="true"></i>DADDY TRADER</a>
-    <span class="px" id="goldChip" hidden><span>XAU/USD</span><b id="goldPx">—</b><em id="goldChg" style="font-style:normal"></em></span>
     <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
@@ -323,26 +308,10 @@
 
   <!-- Hero -->
   <section class="sheet hero" aria-labelledby="hero-h">
-    <div>
-      <h1 id="hero-h">Smart trading intelligence, powered by AI and fundamental analysis</h1>
-      <p class="lead">Ask ALEXA about Gold in Roman Urdu or English, follow live ICT signals from the Daddy Trader robot, and practise your strategy bar by bar in BackBar — free.</p>
-      <div class="hero-cta">
-        <a class="btn gold" href="alexa.html">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
-          Start chatting with ALEXA</a>
-        <a class="btn ghost" href="backtest.html">Explore the BackBar tool</a>
-      </div>
-      <div class="facts" id="facts" hidden>
-        <div class="fact"><small>Gold now</small><b id="fPx">—</b></div>
-        <div class="fact"><small>Today</small><b id="fChg">—</b></div>
-        <div class="fact"><small>Market mood</small><b id="fMood">—</b></div>
-      </div>
-    </div>
+    <h1 id="hero-h" class="sr">Smart trading intelligence, powered by AI and fundamental analysis</h1>
 
     <div id="stage">
       <section id="webAlexa" class="logo-only" aria-label="ALEXA">
-        <a class="wa-full" href="alexa.html" title="ALEXA full screen">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Full screen</a>
         <div class="wa-tools">
           <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Awaaz">
             <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
@@ -541,15 +510,7 @@
   function fmt(n){ return (+n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   window.DTSig.loadPrice().then(function(m){
     if (!m || !m.gold) return;
-    var g = m.gold, up = +g.chg >= 0;
-    var chg = (up ? '▲ +' : '▼ ') + Math.abs(+g.chg).toFixed(2) + '%';
-    $('goldPx').textContent = fmt(g.price);
-    $('goldChg').textContent = chg; $('goldChg').className = up ? 'up' : 'dn';
-    $('goldChip').hidden = false;
-    $('fPx').textContent = fmt(g.price);
-    $('fChg').textContent = (up ? '+' : '−') + Math.abs(+g.chg).toFixed(2) + '%'; $('fChg').className = up ? 'up' : 'dn';
-    if (m.sentiment) $('fMood').textContent = m.sentiment.label; else $('fMood').parentNode.remove();
-    $('facts').hidden = false;
+    var g = m.gold;
     // chhota chart
     var sp = (g.spark || []).map(Number).filter(isFinite);
     if (sp.length > 2){
