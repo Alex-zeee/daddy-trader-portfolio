@@ -1,14 +1,13 @@
 {
- "updated": "15-11-2026 02:01 PKT",
+ "updated": "15-11-2026 02:16 PKT",
  "gold": {
-  "price": 3874.46,
-  "open": 3872.52,
+  "price": 3874.4,
+  "open": 3876.6,
   "high": 3882.14,
   "low": 3872.39,
-  "chg": 0.05,
+  "chg": -0.06,
   "src": "XAUUSD Spot",
   "spark": [
-   3874.52,
    3874.51,
    3874.49,
    3874.41,
@@ -55,7 +54,8 @@
    3874.47,
    3874.41,
    3874.52,
-   3874.46
+   3874.52,
+   3874.4
   ]
  },
  "markets": [
@@ -115,35 +115,6 @@
     102.91,
     103.17,
     103.41
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 88.56,
-   "chg": -0.2,
-   "spark": [
-    97.97,
-    101.41,
-    103.66,
-    101.79,
-    97.15,
-    99.47,
-    103.27,
-    101.76,
-    99.9,
-    102.78,
-    102.0,
-    104.12,
-    96.46,
-    96.09,
-    88.12,
-    90.52,
-    90.83,
-    86.85,
-    86.04,
-    86.53,
-    88.74,
-    88.56
    ]
   },
   {
@@ -264,8 +235,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1786.84,
-   "chg": -7.33,
+   "price": 1760.35,
+   "chg": -8.7,
    "spark": [
     2011.76,
     2017.15,
@@ -314,13 +285,13 @@
     1829.25,
     1833.75,
     1782.05,
-    1786.03
+    1761.9
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64824.7,
-   "chg": -5.0,
+   "price": 64162.2,
+   "chg": -5.97,
    "spark": [
     71336.1,
     71370.7,
@@ -369,7 +340,7 @@
     65496.3,
     65672.5,
     64707.0,
-    64824.7
+    64141.2
    ]
   }
  ],
@@ -426,32 +397,32 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1794690106.536865,
+   "ts": 1794691010.114976,
    "title": "Goldman Sachs just slashed its 2027 gold forecast. Here are the new numbers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sachs-just-slashed-its-2027-gold-forecast-here-are-the-new-numbers-5027310",
-   "t": "15 Nov \u00b7 02:01 AM"
+   "t": "15 Nov \u00b7 02:16 AM"
   },
   {
-   "ts": 1794690106.536865,
+   "ts": 1794691010.114976,
    "title": "Oil prices fall over 2% for the week amid easing fears of fresh U.S.-Iran fighting",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "15 Nov \u00b7 02:01 AM"
+   "t": "15 Nov \u00b7 02:16 AM"
   },
   {
-   "ts": 1794690106.536865,
+   "ts": 1794691010.114976,
    "title": "Spot gold posts worst week since March amid jump in Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "t": "15 Nov \u00b7 02:01 AM"
+   "t": "15 Nov \u00b7 02:16 AM"
   },
   {
-   "ts": 1794690106.536865,
+   "ts": 1794691010.114976,
    "title": "Oil market positioning risks: surplus, shipping attacks, and spillover into rates and equities",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/stock-market-news/oil-market-positioning-risks-surplus-shipping-attacks-and-spillover-into-rates-and-equities-93CH-5026424",
-   "t": "15 Nov \u00b7 02:01 AM"
+   "t": "15 Nov \u00b7 02:16 AM"
   },
   {
    "ts": 1794642175.0,
@@ -595,6 +566,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 503: Service Unavailable"
  ]
 }
