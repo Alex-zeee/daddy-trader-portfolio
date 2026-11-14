@@ -407,6 +407,50 @@ for _ff_url in ("https://www.forexfactory.com/rss",
         errs.append("ff-tweets %s: %s" % (_ff_url, e))
         tweets = []
 if not tweets:
+    # ForexFactory ki apni RSS Cloudflare se band hai (runner ko bhi HTML
+    # challenge page milta hai, XML nahi), is liye Google News se unki
+    # recent stories lo — wohi headlines jo wo X pe tweet karte hain.
+    try:
+        root = ET.fromstring(get("https://news.google.com/rss/search?q=site:forexfactory.com&hl=en-US&gl=US&ceid=US:en"))
+        seen_g = set()
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            if title.endswith(" - Forex Factory"):
+                title = title[:-len(" - Forex Factory")].strip()
+            link = (item.findtext("link") or "").strip()
+            src_el = item.find("source")
+            src = (src_el.text or "").strip() if src_el is not None else ""
+            pub = item.findtext("pubDate") or ""
+            try:
+                ts = email.utils.parsedate_to_datetime(pub)
+                if ts.tzinfo is None:
+                    ts = ts.replace(tzinfo=datetime.timezone.utc)
+            except Exception:
+                ts = NOW
+            if not title or not link or src != "Forex Factory":
+                continue
+            if (NOW - ts).total_seconds() > 96 * 3600:
+                continue
+            # forum/index pages nahi chahiye (News/Calendar page, "Gold with
+            # No Drama | Page 5139" jaisi thread, "USD/JPY" jaisa pair thread)
+            if title in ("News", "Calendar"):
+                continue
+            if re.search(r"\| Page \d+", title):
+                continue
+            if re.match(r"^[A-Z]{3}/[A-Z]{3}$", title):
+                continue
+            kk = title.lower()[:60]
+            if kk in seen_g:
+                continue
+            seen_g.add(kk)
+            tweets.append({"ts": ts.timestamp(), "title": title[:170],
+                           "src": "ForexFactory", "link": link})
+        tweets.sort(key=lambda x: -x["ts"])
+        tweets = tweets[:6]
+    except Exception as e:
+        errs.append("ff-tweets google-news: %s" % e)
+        tweets = []
+if not tweets:
     # fetch fail ho tou pichli dafa wali posts rakho, section khaali na ho
     try:
         with open("monitor.json") as fh:
