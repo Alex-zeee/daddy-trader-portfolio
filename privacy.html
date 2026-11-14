@@ -1,15 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET18EHG8XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ET18EHG8XJ');
+</script>
+
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Privacy Policy — Daddy Trader</title>
+<title>Daddy Trader — Privacy Policy</title>
 <meta name="description" content="Privacy Policy for the Daddy Trader app and website (Alexa AI assistant, Fundamental, BackBar backtesting, social posting)." />
 <link rel="icon" type="image/png" href="favicon.png" />
+<meta name="theme-color" content="#06070a" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <style>
-  :root{--bg:#030806;--fg:#eef3ef;--muted:#9fb0a6;--line:rgba(130,210,165,.18);--accent:#8fe3b5;--gold:#ffe08a}
+  :root{--bg:#06070a;--fg:#f3f4f7;--muted:#8a90a2;--line:#1c2030;--accent:#3cae77;--gold:#f5c542}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 "Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
   main{max-width:760px;margin:0 auto;padding:40px 18px 64px}
   h1{font-size:30px;margin:0 0 4px;color:var(--gold)}
   h2{font-size:19px;margin:30px 0 6px;color:var(--accent)}
@@ -19,8 +32,26 @@
   ul{padding-left:20px}
   .back{display:inline-block;margin-bottom:22px;color:var(--accent);text-decoration:none;font-weight:600}
 </style>
+<link rel="stylesheet" href="theme.css" />
 </head>
 <body>
+<header class="dt-top">
+  <div class="dt-wrap dt-top-in">
+    <a class="dt-brand" href="./" aria-label="Daddy Trader home"><i aria-hidden="true"></i>DADDY TRADER</a>
+    <button class="dt-menu-btn" id="dtMenuBtn" type="button" aria-expanded="false" aria-controls="dtSiteNav" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="dt-nav" id="dtSiteNav" aria-label="Main">
+      <a href="./">Home</a>
+      <a href="alexa.html">ALEXA AI</a>
+      <a href="fundamental.html">Fundamental &amp; Signals</a>
+      <a href="backtest.html">BackBar Replay</a>
+      <a href="./#community">Community</a>
+      <div class="dt-nav-cta">
+        <a class="dt-btn dt-btn-ghost" href="https://whatsapp.com/channel/0029Vb8tas7BFLga0KUzOI0A" target="_blank" rel="noopener">Join Signals</a>
+        <a class="dt-btn dt-btn-solid" href="alexa.html">Launch ALEXA</a>
+      </div>
+    </nav>
+  </div>
+</header>
 <main>
   <a class="back" href="./">&larr; Daddy Trader</a>
   <h1>Privacy Policy</h1>
@@ -61,5 +92,21 @@
   <h2>9. Contact</h2>
   <p>Questions about this policy: <a href="mailto:blankweb1@gmail.com">blankweb1@gmail.com</a> or WhatsApp <a href="https://wa.me/923470713257" rel="noopener">+92 347 0713257</a>.</p>
 </main>
+<footer class="dt-foot">
+  <div class="dt-wrap">
+    <p class="dt-risk"><b>Risk disclaimer:</b> Trading Forex, commodities and financial derivatives involves significant financial risk. Market analysis and signals on this website are for educational purposes only and are not financial advice.</p>
+    <div class="dt-foot-row">
+      <span>&copy; <span class="dt-yr" id="year">2026</span> Daddy Trader &middot; M. Ali Alvi, Dera Ismail Khan</span>
+      <nav aria-label="Footer">
+        <a href="alexa.html">ALEXA AI</a>
+        <a href="fundamental.html">Fundamental &amp; Signals</a>
+        <a href="backtest.html">BackBar Replay</a>
+        <a href="fundamental.html#academy">Academy</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<script src="site.js"></script>
 </body>
 </html>
