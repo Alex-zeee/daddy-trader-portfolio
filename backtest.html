@@ -2315,7 +2315,7 @@ td { font-variant-numeric: tabular-nums; }
       return;
     }
     const html = g.sections.map(([title, ids]) => (title ? '<div class="mhead">' + esc(title) + "</div>" : "") + ids.map((id) => {
-      const t = TOOLS[id], on = gid === "cursor" ? D.tool === "cursor" && D.cursorStyle === id : D.tool === id;
+      const t = TOOLS[id], on = gid === "cursor" ? D.tool === "cursor" && D.cursorStyle === id : D.gcur[gid] === id;
       const item = '<button class="mi" type="button" role="menuitemradio" aria-checked="' + on + '" data-pick="' + id + '">' + ico(id, 28) + esc(t.name) + (t.key ? "<kbd>" + t.key + "</kbd>" : "") + "</button>";
       return gid === "cursor" ? item : '<div class="mrow">' + item + starBtn(id) + "</div>";
     }).join("")).join("");
