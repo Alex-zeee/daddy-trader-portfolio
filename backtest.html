@@ -118,20 +118,20 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 
 /* main area */
 .main { position: relative; flex: 1; min-height: 0; display: flex; gap: 4px; }
-.lefttools { flex: none; width: 52px; background: var(--panel); border-radius: 0 6px 6px 0; display: flex; flex-direction: column; align-items: center; padding: 4px 0; gap: 1px; overflow-y: auto; scrollbar-width: none; }
+.lefttools { flex: none; width: 52px; background: var(--panel); border-radius: 0 6px 6px 0; display: flex; flex-direction: column; align-items: center; padding: 4px 0; gap: 2px; overflow-y: auto; scrollbar-width: none; }
 .lefttools::-webkit-scrollbar { display: none; }
 .lgroup { position: relative; display: flex; align-items: stretch; flex: none; border-radius: 4px; }
 .lgroup:hover { background: var(--hover); }
-.ltool { width: 38px; height: 38px; display: grid; place-items: center; border: 0; background: transparent; color: var(--fg); border-radius: 4px; cursor: pointer; padding: 0; }
+.ltool { width: 48px; height: 48px; display: grid; place-items: center; border: 0; background: transparent; color: var(--fg); border-radius: 4px; cursor: pointer; padding: 0; }
 .ltool:hover { background: var(--hover); }
-.ltool svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.15; stroke-linecap: round; stroke-linejoin: round; }
-.ltool[aria-pressed="true"] { color: var(--accent); }
+.ltool svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.ltool[aria-pressed="true"] { background: var(--hover); color: var(--fg); }
 .lgroup .ltool:hover { background: transparent; }
-.larrow { width: 10px; border: 0; background: transparent; color: var(--muted); cursor: pointer; padding: 0; display: grid; place-items: center; opacity: 0; border-radius: 0 4px 4px 0; }
+.larrow { position: absolute; right: 0; top: 0; bottom: 0; width: 12px; border: 0; background: transparent; color: var(--muted); cursor: pointer; padding: 0; display: grid; place-items: center; opacity: 0; border-radius: 0 4px 4px 0; }
 .larrow svg { width: 8px; height: 8px; fill: currentColor; }
 .lgroup:hover .larrow, .larrow:focus-visible { opacity: 1; }
 .larrow:hover { color: var(--fg); }
-.lsep { flex: none; width: 30px; height: 1px; background: var(--line); margin: 4px 0; }
+.lsep { flex: none; width: 40px; height: 1px; background: var(--line); margin: 4px 0; }
 .lefttools, .favbar { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
 /* favorite drawing tools (TradingView jaisa) */
 .mrow { display: flex; align-items: center; }
@@ -152,6 +152,10 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .dtb .dtb-grip svg, .favbar .dtb-grip svg { width: 8px; height: 18px; fill: currentColor; stroke: none; }
 .favbar { touch-action: pan-x; }
 .favbar button svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.15; stroke-linecap: round; stroke-linejoin: round; }
+.fav-toggle { position: absolute; left: 8px; bottom: 8px; z-index: 6; width: 28px; height: 28px; border: 0; border-radius: 4px; background: #131722; color: #ffffff; display: grid; place-items: center; cursor: pointer; padding: 0; }
+.fav-toggle:hover { background: #2a3044; }
+.fav-toggle svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linejoin: round; }
+.fav-toggle[aria-pressed="true"] svg { fill: currentColor; }
 
 .center { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
 .chart-panel { flex: 1; min-height: 0; display: flex; flex-direction: column; border-radius: 6px; overflow: hidden; background: var(--chart-bg); }
@@ -224,7 +228,6 @@ label.tb, label.btn { position: relative; overflow: hidden; }
 .wlist button span { display: inline-block; width: 40px; background: currentColor; border-radius: 1px; }
 .emoji-grid { display: grid; grid-template-columns: repeat(6, 38px); gap: 2px; padding: 4px 8px 8px; }
 .mi.em { width: 38px; height: 38px; padding: 0; justify-content: center; font-size: 20px; border-radius: 4px; }
-.lpad { width: 10px; flex: none; }
 .rowc { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .row .inp.sm, .inp.sm { width: auto; min-width: 70px; height: 30px; }
 .row input[type="range"] { width: 120px; accent-color: var(--accent); }
@@ -342,11 +345,14 @@ td { font-variant-numeric: tabular-nums; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn.primary:hover { filter: brightness(1.1); }
 .btn.block { width: 100%; }
-.menu { position: fixed; z-index: 40; min-width: 250px; background: var(--dlg); border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow); padding: 4px 0; min-width: 210px; max-height: 70vh; overflow: auto; }
+.menu { position: fixed; z-index: 40; min-width: 250px; background: var(--dlg); border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow); padding: 4px 0; max-height: 70vh; overflow: auto; }
+.menu.wide { min-width: 280px; }
 .mi { display: flex; align-items: center; gap: 10px; width: 100%; padding: 7px 14px; border: 0; background: transparent; color: var(--fg); text-align: left; cursor: pointer; white-space: nowrap; }
 .mi:hover { background: var(--hover); }
 .mi:disabled { opacity: 0.4; cursor: not-allowed; }
-.mi[aria-checked="true"] { color: var(--accent); }
+.mi[aria-checked="true"] { background: #2a3044; color: #ffffff; }
+:root.theme-light .mi[aria-checked="true"] { background: #131722; color: #ffffff; }
+.mi[aria-checked="true"] kbd { color: inherit; opacity: .75; }
 .mi svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 .mi kbd { margin-left: auto; color: var(--muted); font: 11px var(--font); }
 .mhead { padding: 6px 14px 4px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -479,6 +485,7 @@ td { font-variant-numeric: tabular-nums; }
         <div class="legend" id="legend"></div>
         <div class="dtb" id="selBar" hidden role="toolbar" aria-label="Drawing toolbar"></div>
         <div class="favbar" id="favBar" hidden role="toolbar" aria-label="Favorite drawing tools"></div>
+        <button class="fav-toggle" id="favToggle" type="button" aria-pressed="false" title="Show Favorite Drawing Tools Toolbar" aria-label="Show Favorite Drawing Tools Toolbar"><svg viewBox="0 0 28 28" width="20" height="20" aria-hidden="true"><path d="M14 5l2.7 5.6 6.1.9-4.4 4.3 1 6.1L14 19l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></button>
         <div class="banner" id="banner" hidden></div>
         <button class="finish-btn" id="finishBtn" type="button" hidden>✓ Drawing mukammal karein</button>
         <div class="replay-bar" id="replayBar" hidden>
@@ -1231,6 +1238,7 @@ td { font-variant-numeric: tabular-nums; }
     const b = e.target.closest("button[data-act]"); if (!b) return;
     const ind = IND.list.find((x) => x.id === +b.closest("[data-ind]").dataset.ind); if (!ind) return;
     if (b.dataset.act === "eye") toggleIndicator(ind);
+    else if (D.lockInds) { toast("Indicators are locked."); return; }
     else if (b.dataset.act === "set") openIndSettings(ind);
     else removeIndicator(ind);
   });
@@ -1296,7 +1304,7 @@ td { font-variant-numeric: tabular-nums; }
     arrowcur: { name: "Arrow", cursor: true, icon: K('<path d="M9 5.5v16l4.2-4 3.1 6.6 2.5-1.2-3.1-6.4 5.8-.4z"/>') },
     eraser: { name: "Eraser", cursor: true, icon: K('<path d="M6.5 18.5l9.5-9.5 5.5 5.5-6.5 6.5H9.5z"/><path d="M11 14l5.5 5.5M9.5 21h13"/>') },
 
-    trend: { name: "Trend Line", n: 2, caps: "ltxp", key: "Alt+T", icon: K('<path d="M6.5 21.5l15-15"/><circle cx="6" cy="22" r="2"/><circle cx="22" cy="6" r="2"/>') },
+    trend: { name: "Trend Line", tip: "Trendline", n: 2, caps: "ltxp", key: "Alt+T", icon: K('<path d="M6.5 21.5l15-15"/><circle cx="6" cy="22" r="2"/><circle cx="22" cy="6" r="2"/>') },
     ray: { name: "Ray", n: 2, caps: "ltxp", icon: K('<path d="M7.5 19.5L25 8"/><circle cx="6" cy="20.5" r="2"/><circle cx="15" cy="14.6" r="2"/>') },
     infoline: { name: "Info Line", n: 2, caps: "ltxp", icon: K('<path d="M6.5 22.5l10-10"/><circle cx="6" cy="23" r="2"/><circle cx="17" cy="12" r="2"/><rect x="16" y="3.5" width="9" height="5.5" rx="1"/>') },
     extended: { name: "Extended Line", n: 2, caps: "ltp", icon: K('<path d="M3 23L25 5"/><circle cx="10" cy="17.3" r="2"/><circle cx="18" cy="10.7" r="2"/>') },
@@ -1304,7 +1312,7 @@ td { font-variant-numeric: tabular-nums; }
     hline: { name: "Horizontal Line", n: 1, caps: "lt", key: "Alt+H", icon: K('<path d="M3 14h22"/><circle cx="14" cy="14" r="2"/>') },
     hray: { name: "Horizontal Ray", n: 1, caps: "lt", key: "Alt+J", icon: K('<path d="M9 14h16"/><circle cx="7" cy="14" r="2"/>') },
     vline: { name: "Vertical Line", n: 1, caps: "lt", key: "Alt+V", icon: K('<path d="M14 3v22"/><circle cx="14" cy="14" r="2"/>') },
-    crossline: { name: "Cross Line", n: 1, caps: "l", key: "Alt+C", icon: K('<path d="M14 3v22M3 14h22"/><circle cx="14" cy="14" r="2"/>') },
+    crossline: { name: "Cross Line", tip: "Crossline", n: 1, caps: "l", key: "Alt+C", icon: K('<path d="M14 3v22M3 14h22"/><circle cx="14" cy="14" r="2"/>') },
     channel: { name: "Parallel Channel", n: 3, caps: "lfx", icon: K('<path d="M4 15.5L20 5.5M8 22.5l16-10"/><circle cx="4" cy="15.5" r="1.8"/><circle cx="20" cy="5.5" r="1.8"/><circle cx="24" cy="12.5" r="1.8"/>') },
     regression: { name: "Regression Trend", n: 2, caps: "lf", icon: K('<path d="M4 18L24 9"/><path d="M4 13L24 4M4 23L24 14" stroke-dasharray="2 2"/>') },
     flattop: { name: "Flat Top/Bottom", n: 3, caps: "lf", icon: K('<path d="M4 7h20M4 22l20-8"/><circle cx="4" cy="22" r="1.8"/><circle cx="24" cy="14" r="1.8"/>') },
@@ -1312,8 +1320,9 @@ td { font-variant-numeric: tabular-nums; }
     pitchfork: { name: "Pitchfork", n: 3, caps: "lf", icon: K('<path d="M4 14h9M13 8h12M13 14h12M13 20h12M13 8v12"/><circle cx="4" cy="14" r="1.8"/>') },
     schiff: { name: "Schiff Pitchfork", n: 3, caps: "lf", icon: K('<path d="M4 17l9-3M13 8h12M13 14h12M13 20h12M13 8v12"/><circle cx="4" cy="17" r="1.8"/>') },
     modschiff: { name: "Modified Schiff Pitchfork", n: 3, caps: "lf", icon: K('<path d="M7 12l6 2M13 8h12M13 14h12M13 20h12M13 8v12"/><circle cx="7" cy="12" r="1.8"/>') },
+    insidepitch: { name: "Inside pitchfork", n: 3, caps: "lf", icon: K('<path d="M9 14h4M13 8h12M13 14h12M13 20h12M13 8v12"/><circle cx="9" cy="14" r="1.8"/>') },
 
-    fib: { name: "Fib Retracement", n: 2, caps: "fxv", key: "Alt+F", icon: K('<path d="M4 5h20M4 10h20M4 14.5h20M4 19h20M4 23h20"/><path d="M5 23L23 5" stroke-dasharray="2 2"/>') },
+    fib: { name: "Fib Retracement", tip: "Fib retracement", n: 2, caps: "fxv", key: "Alt+F", icon: K('<path d="M8 5h16M8 9.5h16M8 14h16M8 18.5h16M8 23h16"/><circle cx="5" cy="5" r="1.3" fill="currentColor" stroke="none"/><circle cx="5" cy="9.5" r="1.3" fill="currentColor" stroke="none"/><circle cx="5" cy="14" r="1.3" fill="currentColor" stroke="none"/><circle cx="5" cy="18.5" r="1.3" fill="currentColor" stroke="none"/><circle cx="5" cy="23" r="1.3" fill="currentColor" stroke="none"/>') },
     fibext: { name: "Trend-Based Fib Extension", n: 3, caps: "fxv", icon: K('<path d="M4 5h20M4 10h20M4 16h20"/><path d="M5 23l6-9 7 6" stroke-dasharray="2 2"/>') },
     fibchannel: { name: "Fib Channel", n: 3, caps: "fxv", icon: K('<path d="M4 10L24 4M4 16l20-6M4 22l20-6"/>') },
     fibtimezone: { name: "Fib Time Zone", n: 2, caps: "lv", icon: K('<path d="M5 5v18M8 5v18M11 5v18M15 5v18M22 5v18"/>') },
@@ -1323,7 +1332,7 @@ td { font-variant-numeric: tabular-nums; }
     gannbox: { name: "Gann Box", n: 2, caps: "fv", icon: K('<rect x="5" y="5" width="18" height="18"/><path d="M5 11h18M5 17h18M11 5v18M17 5v18"/>') },
     gannfan: { name: "Gann Fan", n: 2, caps: "l", icon: K('<path d="M5 23L13 5M5 23L23 5M5 23L23 13M5 23L23 19"/>') },
 
-    xabcd: { name: "XABCD Pattern", n: 5, caps: "lfc", icon: K('<path d="M4 20l5-12 5 8 5-10 5 12"/><path d="M4 20l10-4" stroke-dasharray="2 2"/>') },
+    xabcd: { name: "XABCD Pattern", tip: "XABCD pattern", n: 5, caps: "lfc", icon: K('<path d="M14 4l9 10-9 10-9-10z"/><circle cx="14" cy="4" r="1.6" fill="currentColor" stroke="none"/><circle cx="23" cy="14" r="1.6" fill="currentColor" stroke="none"/><circle cx="14" cy="24" r="1.6" fill="currentColor" stroke="none"/><circle cx="5" cy="14" r="1.6" fill="currentColor" stroke="none"/>') },
     cypher: { name: "Cypher Pattern", n: 5, caps: "lfc", icon: K('<path d="M4 18l5-10 4 6 6-9 5 14"/>') },
     abcd: { name: "ABCD Pattern", n: 4, caps: "lc", icon: K('<path d="M5 20l6-12 6 8 6-10"/><path d="M5 20l12-4" stroke-dasharray="2 2"/>') },
     trianglepat: { name: "Triangle Pattern", n: 4, caps: "lfc", icon: K('<path d="M4 7l6 14 6-10 6 7"/><path d="M4 7l20 6M10 21l14-4" stroke-dasharray="2 2"/>') },
@@ -1338,8 +1347,8 @@ td { font-variant-numeric: tabular-nums; }
     timecycles: { name: "Time Cycles", n: 2, caps: "lf", icon: K('<path d="M3 20a5.5 5.5 0 0 1 11 0a5.5 5.5 0 0 1 11 0"/>') },
     sine: { name: "Sine Line", n: 2, caps: "l", icon: K('<path d="M2 14c3-9 6-9 8 0s5 9 8 0 5-9 8 0"/>') },
 
-    long: { name: "Long Position", n: 1, caps: "", icon: K('<rect x="5" y="4" width="18" height="20" rx="1"/><path d="M5 14h18M10 10.5l4-4 4 4"/>') },
-    short: { name: "Short Position", n: 1, caps: "", icon: K('<rect x="5" y="4" width="18" height="20" rx="1"/><path d="M5 14h18M10 17.5l4 4 4-4"/>') },
+    long: { name: "Long Position", tip: "Long position", n: 1, caps: "", icon: K('<path d="M5 5v18M5 5h3M5 23h3"/><path d="M11 9h12M11 15h12M11 21h12"/><path d="M17 8l3-3 3 3"/>') },
+    short: { name: "Short Position", tip: "Short position", n: 1, caps: "", icon: K('<path d="M5 5v18M5 5h3M5 23h3"/><path d="M11 7h12M11 13h12M11 19h12"/><path d="M17 20l3 3 3-3"/>') },
     forecast: { name: "Forecast", n: 2, caps: "l", icon: K('<path d="M5 20L19 9"/><circle cx="5" cy="20" r="2"/><circle cx="20" cy="8" r="2.5"/><path d="M20 4v-1"/>') },
     avwap: { name: "Anchored VWAP", n: 1, caps: "l", icon: K('<path d="M5 20c4-1 5-8 9-9s5 3 10-5"/><circle cx="5" cy="20" r="2"/>') },
     vprofile: { name: "Fixed Range Volume Profile", n: 2, caps: "f", icon: K('<path d="M5 6h8M5 10h13M5 14h17M5 18h11M5 22h6"/>') },
@@ -1376,7 +1385,7 @@ td { font-variant-numeric: tabular-nums; }
   };
   const GROUPS = [
     { id: "cursor", sections: [["", ["cross", "dot", "arrowcur", "eraser"]]] },
-    { id: "lines", sections: [["Lines", ["trend", "ray", "infoline", "extended", "trendangle", "hline", "hray", "vline", "crossline"]], ["Channels", ["channel", "regression", "flattop", "disjoint"]], ["Pitchforks", ["pitchfork", "schiff", "modschiff"]]] },
+    { id: "lines", sections: [["Lines", ["trend", "ray", "infoline", "extended", "trendangle", "hline", "hray", "vline", "crossline"]], ["Channels", ["channel", "regression", "flattop", "disjoint"]], ["Pitchforks", ["pitchfork", "schiff", "modschiff", "insidepitch"]]] },
     { id: "fibs", sections: [["Fibonacci", ["fib", "fibext", "fibchannel", "fibtimezone", "fibfan", "fibtime", "fibcircles"]], ["Gann", ["gannbox", "gannfan"]]] },
     { id: "patterns", sections: [["Chart patterns", ["xabcd", "cypher", "abcd", "trianglepat", "headshoulders", "threedrives"]], ["Elliott waves", ["ewimpulse", "ewcorrection", "ewtriangle", "ewdouble", "ewtriple"]], ["Cycles", ["cyclic", "timecycles", "sine"]]] },
     { id: "forecast", sections: [["Forecasting", ["long", "short", "forecast"]], ["Volume-based", ["avwap", "vprofile"]], ["Measurer", ["pricerange", "daterange", "datepricerange"]]] },
@@ -1384,6 +1393,7 @@ td { font-variant-numeric: tabular-nums; }
     { id: "annot", sections: [["Text & notes", ["text", "note", "callout", "comment", "pricelabel", "pricenote", "signpost", "flag"]]] },
     { id: "icons", sections: [["Icons", ["emoji"]]] }
   ];
+  const GNAMES = { cursor: "Cursors", lines: "Trend tools", fibs: "Gann and Fibonacci tools", patterns: "Patterns", forecast: "Forecasting and measurement tools", shapes: "Geometric shapes", annot: "Annotation tools", icons: "Icons", magnet: "Magnets", lock: "Lock options", hide: "Hide options", remove: "Remove options" };
   function defStyle(type) {
     const s = { color: "#2962ff", width: 2, lineStyle: 0, opacity: 1, fill: "#2962ff", fillOpacity: 0.15, showFill: true, textColor: "#2962ff", fontSize: 14, bold: false, italic: false, extendLeft: false, extendRight: false, showPrices: false, showLabels: true, showMiddle: true, reverse: false, dev: 2 };
     const set = (o) => Object.assign(s, o);
@@ -1411,9 +1421,9 @@ td { font-variant-numeric: tabular-nums; }
   const hasCap = (d, c) => ((TOOLS[d.type] && TOOLS[d.type].caps) || "").includes(c);
   const D = {
     tool: "cursor", cursorStyle: "cross", emoji: EMOJI[0],
-    gcur: { cursor: "cross", lines: "trend", fibs: "fib", patterns: "xabcd", forecast: "long", shapes: "rect", annot: "text", icons: "emoji" },
+    gcur: { cursor: "arrowcur", lines: "trend", fibs: "fib", patterns: "xabcd", forecast: "long", shapes: "brush", annot: "text", icons: "emoji" },
     list: [], draft: null, sel: null, hover: null, drag: null, undo: [], redo: [], swallow: false, downAt: null, nextId: 1, key: "",
-    locked: false, hidden: false, hideTrades: false, hideInds: false, hits: [], ruler: null, zoom: null, clip: null, brushing: false
+    locked: false, lockInds: false, hidden: false, hideTrades: false, hideInds: false, hits: [], ruler: null, zoom: null, clip: null, brushing: false
   };
   if (CFG.magnet === true) CFG.magnet = "weak";
   if (CFG.magnet === false || CFG.magnet == null) CFG.magnet = "off";
@@ -1668,7 +1678,7 @@ td { font-variant-numeric: tabular-nums; }
     lineExt(P[2], P[3], st, o);
     if (st.showFill) fpoly([P[0], P[1], P[3], P[2]], o.fillC);
   };
-  function fork(d, P, st, pane, o, origin) {
+  function fork(d, P, st, pane, o, origin, noHandle) {
     if (P.length < 3) { if (P.length > 1) sl(P[0].x, P[0].y, P[1].x, P[1].y, o.col, o.w, o.ls); return; }
     const [, B, C] = P, A = origin, M = { x: (B.x + C.x) / 2, y: (B.y + C.y) / 2 };
     const dx = M.x - A.x, dy = M.y - A.y, len = Math.hypot(dx, dy) || 1, k = 6000 / len;
@@ -1678,11 +1688,12 @@ td { font-variant-numeric: tabular-nums; }
     sl(B.x, B.y, far(B).x, far(B).y, o.col, o.w, o.ls);
     sl(C.x, C.y, far(C).x, far(C).y, o.col, o.w, o.ls);
     sl(B.x, B.y, C.x, C.y, o.col, o.w, o.ls);
-    if (A !== P[0]) sl(P[0].x, P[0].y, A.x, A.y, o.col, 1, 1);
+    if (A !== P[0] && !noHandle) sl(P[0].x, P[0].y, A.x, A.y, o.col, 1, 1);
   }
   DRAW.pitchfork = (d, P, st, pane, o) => fork(d, P, st, pane, o, P[0]);
   DRAW.schiff = (d, P, st, pane, o) => fork(d, P, st, pane, o, P[1] ? { x: P[0].x, y: (P[0].y + P[1].y) / 2 } : P[0]);
   DRAW.modschiff = (d, P, st, pane, o) => fork(d, P, st, pane, o, P[1] ? { x: (P[0].x + P[1].x) / 2, y: (P[0].y + P[1].y) / 2 } : P[0]);
+  DRAW.insidepitch = (d, P, st, pane, o) => fork(d, P, st, pane, o, P[1] ? { x: (P[0].x + P[1].x) / 2, y: (P[0].y + P[1].y) / 2 } : P[0], true);
   function levelLabel(l, price, st, x, y, alignRight) {
     if (!st.showLabels && !st.showPrices) return;
     const t = (st.showLabels ? fmtLv(l.v) : "") + (st.showPrices ? (st.showLabels ? " (" + fmtPx(price) + ")" : fmtPx(price)) : "");
@@ -2210,27 +2221,27 @@ td { font-variant-numeric: tabular-nums; }
     trash: '<path d="M6 8h16M11 8V5.5h6V8M8.5 8l1 15h9l1-15M12 12v7M16 12v7"/>',
     star: '<path d="M14 5l2.7 5.6 6.1.9-4.4 4.3 1 6.1L14 19l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>'
   };
-  function curIcon(g) { return g.id === "icons" ? '<span style="font-size:20px;line-height:1">' + D.emoji + "</span>" : ico(D.gcur[g.id]); }
+  function curIcon(g) { return g.id === "icons" ? ico("emoji") : ico(D.gcur[g.id]); }
   function renderLeftTools() {
     let h = "";
     GROUPS.forEach((g, gi) => {
       const cur = D.gcur[g.id], t = TOOLS[cur];
       const active = g.id === "cursor" ? D.tool === "cursor" : D.tool === cur;
       const many = g.id === "icons" || g.sections.reduce((a, s) => a + s[1].length, 0) > 1;
-      h += '<div class="lgroup"><button class="ltool" type="button" data-group="' + g.id + '" aria-pressed="' + active + '" title="' + esc(t.name + (t.key ? " (" + t.key + ")" : "")) + '" aria-label="' + esc(t.name) + '">' + curIcon(g) + "</button>" +
-        (many ? '<button class="larrow" type="button" data-flyout="' + g.id + '" aria-label="Aur tools" title="Aur tools">' + caretSvg + "</button>" : '<span class="lpad"></span>') + "</div>";
+      const tip = t.tip || t.name;
+      h += '<div class="lgroup"><button class="ltool" type="button" data-group="' + g.id + '" aria-pressed="' + active + '" title="' + esc(tip + (t.key ? " (" + t.key + ")" : "")) + '" aria-label="' + esc(tip) + '">' + curIcon(g) + "</button>" +
+        (many ? '<button class="larrow" type="button" data-flyout="' + g.id + '" aria-label="' + esc(GNAMES[g.id] || "More tools") + '" title="' + esc(GNAMES[g.id] || "More tools") + '">' + caretSvg + "</button>" : "") + "</div>";
       if (gi === 0) h += '<span class="lsep"></span>';
     });
     h += '<span class="lsep"></span>';
-    h += '<div class="lgroup"><button class="ltool" type="button" data-tool1="ruler" aria-pressed="' + (D.tool === "ruler") + '" title="Measure (Shift + click)" aria-label="Measure">' + ico("ruler") + '</button><span class="lpad"></span></div>';
-    h += '<div class="lgroup"><button class="ltool" type="button" data-tool1="zoom" aria-pressed="' + (D.tool === "zoom") + '" title="Zoom In: chart par hissa kheenchein" aria-label="Zoom in">' + ico("zoom") + '</button><span class="lpad"></span></div>';
-    h += '<div class="lgroup"><button class="ltool" type="button" data-act="favbar" aria-pressed="' + favVisible() + '" title="Favorite tools (kisi bhi tool ki list mein star dabayein)" aria-label="Favorite tools">' + SVG28(IC28.star) + '</button><span class="lpad"></span></div>';
+    h += '<div class="lgroup"><button class="ltool" type="button" data-tool1="ruler" aria-pressed="' + (D.tool === "ruler") + '" title="Measure" aria-label="Measure">' + ico("ruler") + "</button></div>";
+    h += '<div class="lgroup"><button class="ltool" type="button" data-tool1="zoom" aria-pressed="' + (D.tool === "zoom") + '" title="Zoom In" aria-label="Zoom In">' + ico("zoom") + "</button></div>";
     h += '<span class="lsep"></span>';
-    h += '<div class="lgroup"><button class="ltool" type="button" data-act="magnet" aria-pressed="' + (CFG.magnet !== "off") + '" title="Magnet mode" aria-label="Magnet mode">' + SVG28(CFG.magnet === "strong" ? IC28.magnetStrong : IC28.magnet) + '</button><button class="larrow" type="button" data-flyout="magnet" aria-label="Magnet options">' + caretSvg + "</button></div>";
-    h += '<div class="lgroup"><button class="ltool" type="button" data-act="stay" aria-pressed="' + !!CFG.stayDraw + '" title="Stay in drawing mode" aria-label="Stay in drawing mode">' + SVG28(IC28.stay) + '</button><span class="lpad"></span></div>';
-    h += '<div class="lgroup"><button class="ltool" type="button" data-act="lock" aria-pressed="' + D.locked + '" title="Lock all drawings" aria-label="Lock all drawings">' + SVG28(D.locked ? IC28.lock : IC28.unlock) + '</button><span class="lpad"></span></div>';
-    h += '<div class="lgroup"><button class="ltool" type="button" data-act="hide" aria-pressed="' + (D.hidden || D.hideInds || D.hideTrades) + '" title="Hide all drawings" aria-label="Hide">' + SVG28(D.hidden ? IC28.eyeOff : IC28.eye) + '</button><button class="larrow" type="button" data-flyout="hide" aria-label="Hide options">' + caretSvg + "</button></div>";
-    h += '<div class="lgroup"><button class="ltool" type="button" data-act="remove" title="Remove drawings" aria-label="Remove drawings">' + SVG28(IC28.trash) + '</button><button class="larrow" type="button" data-flyout="remove" aria-label="Remove options">' + caretSvg + "</button></div>";
+    h += '<div class="lgroup"><button class="ltool" type="button" data-act="magnet" aria-pressed="' + (CFG.magnet !== "off") + '" title="Magnet mode" aria-label="Magnet mode">' + SVG28(CFG.magnet === "strong" ? IC28.magnetStrong : IC28.magnet) + '</button><button class="larrow" type="button" data-flyout="magnet" aria-label="Magnets" title="Magnets">' + caretSvg + "</button></div>";
+    h += '<div class="lgroup"><button class="ltool" type="button" data-act="stay" aria-pressed="' + !!CFG.stayDraw + '" title="Keep drawing" aria-label="Keep drawing">' + SVG28(IC28.stay) + "</button></div>";
+    h += '<div class="lgroup"><button class="ltool" type="button" data-act="lock" aria-pressed="' + D.locked + '" title="Lock drawings and indicators" aria-label="Lock drawings and indicators">' + SVG28(D.locked ? IC28.lock : IC28.unlock) + '</button><button class="larrow" type="button" data-flyout="lock" aria-label="Lock options" title="Lock options">' + caretSvg + "</button></div>";
+    h += '<div class="lgroup"><button class="ltool" type="button" data-act="hide" aria-pressed="' + (D.hidden || D.hideInds || D.hideTrades) + '" title="Hide all drawings" aria-label="Hide all drawings">' + SVG28(D.hidden ? IC28.eyeOff : IC28.eye) + '</button><button class="larrow" type="button" data-flyout="hide" aria-label="Hide options" title="Hide options">' + caretSvg + "</button></div>";
+    h += '<div class="lgroup"><button class="ltool" type="button" data-act="remove" title="Remove objects" aria-label="Remove objects">' + SVG28(IC28.trash) + '</button><button class="larrow" type="button" data-flyout="remove" aria-label="Remove options" title="Remove options">' + caretSvg + "</button></div>";
     leftTools.innerHTML = h;
     renderFavBar();
   }
@@ -2257,24 +2268,20 @@ td { font-variant-numeric: tabular-nums; }
     if (b.dataset.tool1) { setTool(D.tool === b.dataset.tool1 ? "cursor" : b.dataset.tool1); return; }
     const act = b.dataset.act;
     if (act === "magnet") { CFG.magnet = CFG.magnet === "off" ? "weak" : "off"; saveCfg(); }
-    else if (act === "stay") { CFG.stayDraw = !CFG.stayDraw; saveCfg(); toast(CFG.stayDraw ? "Stay in drawing mode on: the tool stays selected after drawing." : "Stay in drawing mode off."); }
-    else if (act === "lock") { D.locked = !D.locked; toast(D.locked ? "Saari drawings lock ho gayi." : "Drawings unlock ho gayi."); }
+    if (act === "stay") { CFG.stayDraw = !CFG.stayDraw; saveCfg(); toast(CFG.stayDraw ? "Keep drawing on: the tool stays selected after drawing." : "Keep drawing off."); }
+    else if (act === "lock") { D.locked = !D.locked; toast(D.locked ? "All drawings locked." : "Drawings unlocked."); }
     else if (act === "hide") { const any = D.hidden; D.hidden = !any; if (D.hidden) select(null); }
     else if (act === "remove") clearAll();
-    else if (act === "favbar") {
-      if (!favList().length) { toast("Open any tool list and press the ☆ star next to it. That tool will appear here in favorites.", 5000); return; }
-      CFG.favShow = CFG.favShow === false; saveCfg();
-    }
     renderLeftTools();
   });
   function openFlyout(gid, anchor) {
     const r = anchor.getBoundingClientRect(), x = r.right + 6, y = r.top - 4;
     if (gid === "magnet") {
-      openMenu(x, y, '<div class="mhead">Magnet</div>' + [["off", "Magnet off"], ["weak", "Weak magnet"], ["strong", "Strong magnet"]].map(([k, n]) => '<button class="mi" type="button" role="menuitemradio" aria-checked="' + (CFG.magnet === k) + '" data-m="' + k + '">' + SVG28(k === "strong" ? IC28.magnetStrong : IC28.magnet) + n + "</button>").join(""), (b) => { CFG.magnet = b.dataset.m; saveCfg(); renderLeftTools(); });
+      openMenu(x, y, '<div class="mhead">Magnets</div>' + [["off", "Magnet off"], ["weak", "Weak magnet"], ["strong", "Strong magnet"]].map(([k, n]) => '<button class="mi" type="button" role="menuitemradio" aria-checked="' + (CFG.magnet === k) + '" data-m="' + k + '">' + SVG28(k === "strong" ? IC28.magnetStrong : IC28.magnet) + n + "</button>").join(""), (b) => { CFG.magnet = b.dataset.m; saveCfg(); renderLeftTools(); });
       return;
     }
     if (gid === "hide") {
-      openMenu(x, y, '<div class="mhead">Hide</div>' + [["draw", "Hide drawings", D.hidden], ["inds", "Hide indicators", D.hideInds], ["trades", "Hide positions & orders", D.hideTrades], ["all", "Hide all", D.hidden && D.hideInds && D.hideTrades]].map(([k, n, on]) => '<button class="mi" type="button" role="menuitemcheckbox" aria-checked="' + !!on + '" data-h="' + k + '">' + SVG28(on ? IC28.eyeOff : IC28.eye) + n + "</button>").join(""), (b) => {
+      openMenu(x, y, '<div class="mhead">Hide options</div>' + [["draw", "Hide drawings", D.hidden], ["inds", "Hide indicators", D.hideInds], ["trades", "Hide positions & orders", D.hideTrades], ["all", "Hide all", D.hidden && D.hideInds && D.hideTrades]].map(([k, n, on]) => '<button class="mi" type="button" role="menuitemcheckbox" aria-checked="' + !!on + '" data-h="' + k + '">' + SVG28(on ? IC28.eyeOff : IC28.eye) + n + "</button>").join(""), (b) => {
         const k = b.dataset.h;
         if (k === "draw") D.hidden = !D.hidden;
         if (k === "inds") setIndsHidden(!D.hideInds);
@@ -2286,10 +2293,19 @@ td { font-variant-numeric: tabular-nums; }
       return;
     }
     if (gid === "remove") {
-      openMenu(x, y, '<div class="mhead">Remove</div><button class="mi" type="button" data-r="draw">' + SVG28(IC28.trash) + 'Remove drawings</button><button class="mi" type="button" data-r="inds">' + SVG28(IC28.trash) + 'Remove indicators</button><button class="mi" type="button" data-r="both">' + SVG28(IC28.trash) + "Remove drawings & indicators</button>", (b) => {
+      openMenu(x, y, '<div class="mhead">Remove options</div><button class="mi" type="button" data-r="draw">' + SVG28(IC28.trash) + 'Remove drawings</button><button class="mi" type="button" data-r="inds">' + SVG28(IC28.trash) + 'Remove indicators</button><button class="mi" type="button" data-r="both">' + SVG28(IC28.trash) + "Remove drawings & indicators</button>", (b) => {
         const k = b.dataset.r;
         if (k !== "inds") clearAll();
-        if (k !== "draw") { IND.list.slice().forEach((ind) => removeIndicator(ind)); }
+        if (k !== "draw") { if (D.lockInds) toast("Indicators are locked."); else IND.list.slice().forEach((ind) => removeIndicator(ind)); }
+      });
+      return;
+    }
+    if (gid === "lock") {
+      openMenu(x, y, '<div class="mhead">Lock options</div>' + [["draw", "Lock drawings", D.locked], ["inds", "Lock indicators", D.lockInds]].map(([k, n, on]) => '<button class="mi" type="button" role="menuitemcheckbox" aria-checked="' + !!on + '" data-l="' + k + '">' + SVG28(on ? IC28.lock : IC28.unlock) + n + "</button>").join(""), (b) => {
+        const k = b.dataset.l;
+        if (k === "draw") { D.locked = !D.locked; toast(D.locked ? "All drawings locked." : "Drawings unlocked."); }
+        if (k === "inds") { D.lockInds = !D.lockInds; toast(D.lockInds ? "Indicators locked." : "Indicators unlocked."); }
+        renderLeftTools();
       });
       return;
     }
@@ -2306,16 +2322,16 @@ td { font-variant-numeric: tabular-nums; }
     openMenu(x, y, html, (btn) => {
       const id = btn.dataset.pick; D.gcur[gid] = id;
       if (gid === "cursor") { D.cursorStyle = id; setTool("cursor"); } else setTool(id);
-    });
+    }, "wide");
   }
   /* ---------- favorite drawing tools (TradingView jaisa) ---------- */
   const STAR_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.9-4.2 4.1 1 5.8L12 17l-5.2 2.7 1-5.8-4.2-4.1 5.8-.9z"/></svg>';
-  const GRIP_SVG = '<button type="button" class="dtb-grip" title="Toolbar hilayein" aria-label="Toolbar hilayein"><svg viewBox="0 0 8 18" width="8" height="18" aria-hidden="true"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></button>';
+  const GRIP_SVG = '<button type="button" class="dtb-grip" title="Move toolbar" aria-label="Move toolbar"><svg viewBox="0 0 8 18" width="8" height="18" aria-hidden="true"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></button>';
   function favList() { return (Array.isArray(CFG.favTools) ? CFG.favTools : []).filter((id) => TOOLS[id]); }
   function isFav(id) { return favList().includes(id); }
   function favVisible() { return favList().length > 0 && CFG.favShow !== false; }
   function groupOf(id) { const g = GROUPS.find((x) => x.sections.some((s) => s[1].includes(id))); return g ? g.id : null; }
-  function starBtn(id) { const on = isFav(id); return '<button class="fav-star' + (on ? " on" : "") + '" type="button" data-fav="' + id + '" aria-pressed="' + on + '" title="' + (on ? "Favorites se hatayein" : "Favorites mein daalein") + '" aria-label="' + esc(TOOLS[id].name) + ' favorite">' + STAR_SVG + "</button>"; }
+  function starBtn(id) { const on = isFav(id); return '<button class="fav-star' + (on ? " on" : "") + '" type="button" data-fav="' + id + '" aria-pressed="' + on + '" title="' + (on ? "Remove from favorites" : "Add to favorites") + '" aria-label="' + esc(TOOLS[id].name) + ' favorite">' + STAR_SVG + "</button>"; }
   function toggleFav(id) {
     if (!TOOLS[id]) return;
     const on = !isFav(id);
@@ -2329,7 +2345,7 @@ td { font-variant-numeric: tabular-nums; }
     e.preventDefault();
     toggleFav(s.dataset.fav);
     const on = isFav(s.dataset.fav);
-    s.classList.toggle("on", on); s.setAttribute("aria-pressed", String(on)); s.title = on ? "Favorites se hatayein" : "Favorites mein daalein";
+    s.classList.toggle("on", on); s.setAttribute("aria-pressed", String(on)); s.title = on ? "Remove from favorites" : "Add to favorites";
   });
   function placeFavBar() {
     const fb = $("#favBar"); if (!fb || fb.hidden) return;
@@ -2343,6 +2359,8 @@ td { font-variant-numeric: tabular-nums; }
     const fb = $("#favBar"); if (!fb) return;
     const list = favList(), show = favVisible();
     fb.hidden = !show;
+    const tg = $("#favToggle");
+    if (tg) { tg.setAttribute("aria-pressed", String(show)); const tt = show ? "Hide Favorite Drawing Tools Toolbar" : "Show Favorite Drawing Tools Toolbar"; tg.title = tt; tg.setAttribute("aria-label", tt); }
     if (!show) return;
     const sig = list.join(",");
     if (fb.dataset.sig !== sig) {
@@ -2352,6 +2370,11 @@ td { font-variant-numeric: tabular-nums; }
     $$("[data-ftool]", fb).forEach((b) => b.setAttribute("aria-pressed", String(D.tool === b.dataset.ftool)));
     placeFavBar();
   }
+  function toggleFavBar() {
+    if (!favList().length) { toast("Open any tool list and press the ☆ star next to it. That tool will appear here in favorites.", 5000); return; }
+    CFG.favShow = CFG.favShow === false; saveCfg(); renderLeftTools();
+  }
+  $("#favToggle").addEventListener("click", toggleFavBar);
   (function favBarEvents() {
     const fb = $("#favBar"); let st = null;
     fb.addEventListener("click", (e) => {
@@ -2400,7 +2423,7 @@ td { font-variant-numeric: tabular-nums; }
   const PEN = '<path d="M5 19l1.5-4.5L16 5l3 3-9.5 9.5z"/>';
   const FILL = '<path d="M6 12l6-6 7 7-6 6z"/><path d="M19 15c1 1.6 1.5 2.6 1.5 3.2a1.5 1.5 0 0 1-3 0c0-.6.5-1.6 1.5-3.2z"/>';
   selBar.innerHTML =
-    '<button type="button" class="dtb-grip" title="Toolbar hilayein" aria-label="Toolbar hilayein"><svg viewBox="0 0 8 18" width="8" height="18" aria-hidden="true"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></button>' +
+    '<button type="button" class="dtb-grip" title="Move toolbar" aria-label="Move toolbar"><svg viewBox="0 0 8 18" width="8" height="18" aria-hidden="true"><circle cx="2" cy="4" r="1"/><circle cx="6" cy="4" r="1"/><circle cx="2" cy="9" r="1"/><circle cx="6" cy="9" r="1"/><circle cx="2" cy="14" r="1"/><circle cx="6" cy="14" r="1"/></svg></button>' +
     '<button type="button" data-pop="color" title="Line ka rang" aria-label="Line ka rang"><svg viewBox="0 0 24 24" width="20" height="20">' + PEN + '</svg><i class="cbar" data-bar="color"></i></button>' +
     '<button type="button" data-pop="fill" title="Background ka rang" aria-label="Background ka rang"><svg viewBox="0 0 24 24" width="20" height="20">' + FILL + '</svg><i class="cbar" data-bar="fill"></i></button>' +
     '<button type="button" data-pop="textColor" title="Text ka rang" aria-label="Text ka rang"><b class="tglyph">T</b><i class="cbar" data-bar="textColor"></i></button>' +
@@ -3390,10 +3413,10 @@ td { font-variant-numeric: tabular-nums; }
   /* ================= menus & dialogs ================= */
   let menuEl = null;
   function closeMenu() { if (menuEl) { menuEl.remove(); menuEl = null; } }
-  function openMenu(x, y, html, onPick) {
+  function openMenu(x, y, html, onPick, cls) {
     closeMenu();
     menuEl = document.createElement("div");
-    menuEl.className = "menu"; menuEl.setAttribute("role", "menu");
+    menuEl.className = "menu" + (cls ? " " + cls : ""); menuEl.setAttribute("role", "menu");
     menuEl.innerHTML = html;
     document.body.appendChild(menuEl);
     const r = menuEl.getBoundingClientRect();
