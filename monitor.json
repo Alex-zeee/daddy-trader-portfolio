@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 04:16 PKT",
+ "updated": "16-11-2026 04:31 PKT",
  "gold": {
-  "price": 3882.59,
+  "price": 3879.49,
   "open": 3874.43,
   "high": 3889.42,
   "low": 3874.32,
-  "chg": 0.21,
+  "chg": 0.13,
   "src": "XAUUSD Spot",
   "spark": [
-   3874.49,
    3874.52,
    3874.48,
    3874.41,
@@ -55,14 +54,15 @@
    3880.47,
    3880.55,
    3883.36,
-   3882.59
+   3881.34,
+   3879.49
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 49.121,
-   "chg": 0.18,
+   "price": 48.655,
+   "chg": -0.77,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    49.121
+    48.655
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.406,
-   "chg": -0.0,
+   "price": 103.424,
+   "chg": 0.01,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.406
+    103.424
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.56,
-   "chg": 0.0,
+   "price": 88.45,
+   "chg": -0.12,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,36 @@
     86.53,
     88.74,
     88.56,
-    88.56
+    88.45
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 5.154,
+   "chg": 1.0,
+   "spark": [
+    5.089,
+    5.098,
+    5.136,
+    5.117,
+    5.146,
+    4.953,
+    4.988,
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998,
+    5.103,
+    5.154
    ]
   },
   {
@@ -206,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.8,
-   "chg": -0.05,
+   "price": 159.776,
+   "chg": -0.06,
    "spark": [
     158.143,
     157.806,
@@ -230,13 +259,13 @@
     158.705,
     159.734,
     159.875,
-    159.8
+    159.776
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1823.31,
-   "chg": 3.12,
+   "price": 1827.69,
+   "chg": 3.37,
    "spark": [
     1930.09,
     1925.66,
@@ -285,13 +314,13 @@
     1824.86,
     1818.55,
     1826.61,
-    1823.76
+    1827.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64977.8,
-   "chg": 1.35,
+   "price": 65056.8,
+   "chg": 1.47,
    "spark": [
     68261.7,
     68211.7,
@@ -340,7 +369,7 @@
     65093.7,
     64956.2,
     65195.6,
-    64977.8
+    65056.8
    ]
   }
  ],
@@ -421,32 +450,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794784601.264762,
+   "ts": 1794785502.885446,
    "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 04:16 AM"
+   "t": "16 Nov \u00b7 04:31 AM"
   },
   {
-   "ts": 1794784601.264762,
+   "ts": 1794785502.885446,
    "title": "Goldman Sachs just slashed its 2027 gold forecast. Here are the new numbers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sachs-just-slashed-its-2027-gold-forecast-here-are-the-new-numbers-5027310",
-   "t": "16 Nov \u00b7 04:16 AM"
+   "t": "16 Nov \u00b7 04:31 AM"
   },
   {
-   "ts": 1794784601.264762,
+   "ts": 1794785502.885446,
    "title": "Oil prices fall over 2% for the week amid easing fears of fresh U.S.-Iran fighting",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "16 Nov \u00b7 04:16 AM"
+   "t": "16 Nov \u00b7 04:31 AM"
   },
   {
-   "ts": 1794784601.264762,
+   "ts": 1794785502.885446,
    "title": "Spot gold posts worst week since March amid jump in Fed rate hike expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "t": "16 Nov \u00b7 04:16 AM"
+   "t": "16 Nov \u00b7 04:31 AM"
   },
   {
    "ts": 1794780050.0,
@@ -555,6 +584,12 @@
  ],
  "tweets": [
   {
+   "ts": 1794772680.0,
+   "title": "AUD/USD Bears Tighten Their Grip Into AU Jobs, RBA Minutes",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVG5VTW9ZTVh4anB1WkNLOTVkYUhXM0dPRkNoYTNwbm1jeUh1RERMLTBOWlpmRS00RlQ5a0VBcmJFV3NITzNScTBmZ3Fxc2JFRC0yZFJ4SmZ0S1dCb0FvMEZtQnpxVkFReExJQTJHZkp4dHo0cmZuQ1JwVUwyV3I5QTZDSWFfTU5jRnFXUWhvY9IBlAFBVV95cUxNWkRpMHVwLTZ1SDZQZ2llUkllQ0ozNW9sOG0ydTJFekRTY0p1SUx0SGRFd1dwaE44UEpqaEFLVHVOcUhlUXl6ZzdFZmd3dngwdkpSNExoRXpwNnZxZ1NRdzVEQmdsbGxvak1uLXhXQ1RDalQxQmVEblNsZUhySzY5dnlqQ3JHQUFIek4zcnp1cnlQYUJL?oc=5"
+  },
+  {
    "ts": 1794770598.0,
    "title": "BusinessNZ Services Landscape",
    "src": "ForexFactory",
@@ -583,12 +618,6 @@
    "title": "Treasury has been pushing for export controls, US Treasury Secretary Bessent says",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcFRkblJvVm5vaDlpSUV5Mk4weVpwclQ0MFREMFZ6MkFmUG45YVZIbVJaVk44U1pUXzNIS3ZBU3FoNGNfVnJINUpNcGVMb2FHVTVXNGpkZTVRVm5ZdEdQTlN1aGRMbVM5SHl4NUFGWElvdFdHUlV5TnFtd083aFhyb0dzUDBfaTJvbEJNVEJ2Tm1NZG1r0gGaAUFVX3lxTE5zb0ozMDdvejFBMGRjSmkwNFhEZDF2cW1qOC1BX1BmSnJrd0V4M2M1U3hxZ3gzY0g1SmN1UHoxLXpOenNsaWlURU9UY3RUYXdGQUFKcjRobllFQ19MMF92QlNqcjNZSEVFS0dCWnB1ckdxYTk0SDNsYTUzSTVLR2c2R1FoY3pEeFNjY3JNN0d6dDh0NF9UcHoyRFE?oc=5"
-  },
-  {
-   "ts": 1794580200.0,
-   "title": "US Natural Gas Storage",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04aUJlRWtRbTM2VGczSFJZVTE0WVVRMWdzMk5pNHBUcEtKLWtidFFiRElzZktwSDhsdlk1SzRaeGpPTTN4UnZ4b3g4U0dYc0Z3b2oxSEZ0S1p6aFU1OHRTS3BpR0RyRVBJRU9sanRkXy0?oc=5"
   }
  ],
  "sentiment": {
