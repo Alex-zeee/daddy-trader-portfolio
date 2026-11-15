@@ -216,7 +216,6 @@
   .p-head h3{margin:0;font-size:18px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
   .p-head small{display:block;margin-top:2px;color:#8a90a2;font-size:12.5px}
   .p-pill{margin-left:auto;flex:none;padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:800;letter-spacing:.06em;color:var(--ic);background:color-mix(in srgb,var(--ic) 10%,transparent);border:1px solid color-mix(in srgb,var(--ic) 40%,transparent)}
-  .pillar .vis{height:168px;position:relative;overflow:hidden;padding:16px 20px 0}
   .pillar .txt{padding:14px 20px 20px;display:flex;flex-direction:column;flex:1}
   .pillar p{margin:0 0 16px;color:#9aa0b1;font-size:14.5px}
   .pillar .go{margin-top:auto;align-self:flex-start;padding:8px 14px;border-radius:11px;font-weight:700;font-size:13.5px;color:#f5b82e;border:1px solid rgba(245,184,46,.6);background:rgba(245,184,46,.08)}
@@ -224,11 +223,6 @@
   .bub.you{margin-left:auto;background:var(--ink);color:#0b0b0b;border-color:var(--ink)}
   .bub.ax{margin-top:10px;background:#0b1712;border-color:#1b3a2b;color:#d6eadd}
   .bub small{display:block;font-size:11px;opacity:.7;margin-bottom:2px}
-  .spark-wrap{display:flex;flex-direction:column;height:100%}
-  .spark-head{display:flex;justify-content:space-between;align-items:baseline;font:600 13px var(--mono)}
-  .spark-head span{color:var(--muted);font-family:var(--sans);font-weight:500}
-  .spark{flex:1;margin:8px -20px 0;min-height:60px;width:calc(100% + 40px)}
-  .news-line{margin:8px 0 12px;font-size:12.5px;line-height:1.4;color:#b8b8b8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
   /* ===== steps ===== */
   .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line)}
@@ -269,7 +263,6 @@
   }
   @media (max-width:720px){
     main{gap:20px;padding-top:16px}
-    .pillar .vis{height:150px}
     .steps{grid-template-columns:minmax(0,1fr)}
     .step{border-right:0;margin-right:0;padding:22px 0;border-bottom:1px solid var(--line)}
     .step:last-child{border-bottom:0}
@@ -374,14 +367,7 @@
           <div><h3>Fundamental</h3><small>Gold news, calendar &amp; tweets</small></div>
           <span class="p-pill">LIVE</span>
         </div>
-        <div class="vis" aria-hidden="true">
-          <div class="spark-wrap">
-            <div class="spark-head"><span>Gold, recent moves</span><b id="spPx"></b></div>
-            <svg class="spark" id="spark" viewBox="0 0 300 90" preserveAspectRatio="none"></svg>
-          </div>
-        </div>
         <div class="txt">
-          <p class="news-line" id="newsLine">Gold news, the economic calendar and tweets.</p>
           <span class="go">Open Fundamental</span>
         </div>
       </a>
@@ -481,26 +467,6 @@
     if (e.code === 'Space' && !alexaVisible) e.stopImmediatePropagation();
   }, true);
 
-  // ---- Gold ki live qeemat (monitor.json) ----
-  function fmt(n){ return (+n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
-  window.DTSig.loadPrice().then(function(m){
-    if (!m || !m.gold) return;
-    var g = m.gold;
-    // chhota chart
-    var sp = (g.spark || []).map(Number).filter(isFinite);
-    if (sp.length > 2){
-      var lo = Math.min.apply(null, sp), hi = Math.max.apply(null, sp), rg = (hi - lo) || 1;
-      var pts = sp.map(function(v, i){ return [ (i / (sp.length - 1) * 300).toFixed(1), (84 - (v - lo) / rg * 76).toFixed(1) ]; });
-      var line = pts.map(function(p, i){ return (i ? 'L' : 'M') + p[0] + ' ' + p[1]; }).join(' ');
-      var col = sp[sp.length - 1] >= sp[0] ? '#3fbf86' : '#ff5d5d';
-      col = '#f5b82e';
-      $('spark').innerHTML = '<defs><linearGradient id="spg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="' + col + '" stop-opacity=".4"/><stop offset="1" stop-color="' + col + '" stop-opacity="0"/></linearGradient></defs>' +
-        '<path d="' + line + ' L300 90 L0 90 Z" fill="url(#spg)"/><path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="2.2" vector-effect="non-scaling-stroke"/>';
-      $('spPx').textContent = fmt(g.price);
-    }
-    var n = (m.news || [])[0];
-    if (n) $('newsLine').textContent = n.title || '';
-  });
 
   // ---- Back Testing wali chhoti candles ----
   (function(){
