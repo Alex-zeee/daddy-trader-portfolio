@@ -16,7 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Daddy Trader — Back Testing</title>
 <meta name="description" content="Daddy Trader Back Testing: free bar replay backtesting chart — Forex, Gold, Indices, Oil and Crypto.">
-<meta name="theme-color" content="#06070a">
+<meta name="theme-color" content="#ffffff">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="manifest" href="manifest.json">
 <style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
@@ -49,6 +49,33 @@
   --shadow: 0 8px 28px rgba(0, 0, 0, 0.6);
   --font: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
   color-scheme: dark;
+}
+/* TradingView light theme: white chart, faint solid grid, dark text, blue accent */
+:root.theme-light {
+  --bg: #ffffff;
+  --gap: #ffffff;
+  --panel: #ffffff;
+  --panel-2: #f0f3fa;
+  --dlg: #ffffff;
+  --hover: #f0f3fa;
+  --line: #e0e3eb;
+  --line-2: #e0e3eb;
+  --fg: #131722;
+  --fg-2: #434651;
+  --muted: #6a6d78;
+  --axis: #131722;
+  --cross: #787b86;
+  --cross-label: #131722;
+  --accent: #2962ff;
+  --accent-soft: rgba(41, 98, 255, 0.12);
+  --up: #089981;
+  --down: #f23645;
+  --up-soft: rgba(8, 153, 129, 0.12);
+  --down-soft: rgba(242, 54, 69, 0.12);
+  --chart-bg: #ffffff;
+  --grid: #e1e4e8;
+  --shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+  color-scheme: light;
 }
 html, body { height: 100%; }
 * { box-sizing: border-box; }
@@ -436,7 +463,7 @@ td { font-variant-numeric: tabular-nums; }
     <button class="tb icon" id="settingsBtn" type="button" title="Chart settings" aria-label="Chart settings"><svg class="i" viewBox="0 0 20 20"><circle cx="10" cy="10" r="2.6"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.4 1.4M13.9 13.9l1.4 1.4M4.7 15.3l1.4-1.4M13.9 6.1l1.4-1.4"/></svg></button>
     <button class="tb icon hide-sm" id="fullBtn" type="button" title="Full screen" aria-label="Full screen"><svg class="i" viewBox="0 0 20 20"><path d="M3 7V3h4M13 3h4v4M17 13v4h-4M7 17H3v-4"/></svg></button>
     <button class="tb icon" id="shotBtn" type="button" title="Screenshot" aria-label="Screenshot"><svg class="i" viewBox="0 0 20 20"><path d="M3 6.5h3l1.5-2h5l1.5 2h3v9.5H3z"/><circle cx="10" cy="11" r="3"/></svg></button>
-    <button class="tb mobile-only" id="tradeToggle" type="button">Trade</button>
+    <button class="tb" id="tradeToggle" type="button">Trade</button>
     <span class="tsep"></span>
     <button class="tb" id="acctBtn" type="button" aria-label="Account"></button>
   </header>
@@ -619,7 +646,7 @@ td { font-variant-numeric: tabular-nums; }
         <div class="row"><label class="chk" for="setWick"><input type="checkbox" id="setWick">Wick</label></div>
       </div>
       <div data-spane="canvas" hidden>
-        <div class="row"><label for="setTheme">Theme</label><select class="inp" id="setTheme"><option value="dark">Dark</option></select></div>
+        <div class="row"><label for="setTheme">Theme</label><select class="inp" id="setTheme"><option value="light">Light</option><option value="dark">Dark</option></select></div>
         <div class="row"><label class="chk" for="setGridV"><input type="checkbox" id="setGridV">Vertical grid lines</label></div>
         <div class="row"><label class="chk" for="setGridH"><input type="checkbox" id="setGridH">Horizontal grid lines</label></div>
         <div class="row"><label for="setTz">Time zone</label><select class="inp" id="setTz">
@@ -744,12 +771,13 @@ td { font-variant-numeric: tabular-nums; }
   const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const pad = (n) => String(n).padStart(2, "0");
+  const h12 = (h) => ((h + 11) % 12) + 1; // 12-hour clock like TradingView
   const num = (v) => { const x = parseFloat(v); return isFinite(x) ? x : null; };
   const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-  const TFS = [["M1", "1m", 60], ["M5", "5m", 300], ["M15", "15m", 900], ["M30", "30m", 1800], ["H1", "1h", 3600], ["H4", "4h", 14400], ["D1", "1D", 86400]];
+  const TFS = [["M1", "1m", 60], ["M3", "3m", 180], ["M5", "5m", 300], ["M15", "15m", 900], ["M30", "30m", 1800], ["H1", "1h", 3600], ["H4", "4h", 14400], ["D1", "1D", 86400], ["W1", "W", 604800]];
   const TFSEC = Object.fromEntries(TFS.map((t) => [t[0], t[2]]));
   const TFLBL = Object.fromEntries(TFS.map((t) => [t[0], t[1]]));
-  const FAV_TF = ["M1", "M5", "M15", "H1", "H4", "D1"];
+  const FAV_TF = ["M1", "M3", "M5", "M15", "M30", "H1", "H4", "D1", "W1"];
   const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const svg = (p, vb) => '<svg class="i" viewBox="' + (vb || "0 0 22 22") + '" aria-hidden="true">' + p + "</svg>";
   const IC = {
@@ -782,12 +810,18 @@ td { font-variant-numeric: tabular-nums; }
   }
 
   /* ================= saved settings ================= */
-  const DEFAULTS = { theme: "dark", ctype: "candles", tf: "M15", up: "#3fbf86", down: "#ff5d5d", border: true, wick: true, gridV: true, gridH: true, tz: "UTC", log: false, magnet: false, contract: 100, spread: 0, balance: 10000, commission: 0, lots: 0.1, slOn: true, tpOn: true, slD: 5, tpD: 10, speed: 3, bottomOpen: true, rview: "trade", lastSet: "", bottomTab: "positions", pct: false };
+  const DEFAULTS = { theme: "light", ctype: "candles", tf: "M15", up: "#131722", down: "#ffffff", border: true, wick: true, gridV: true, gridH: true, tz: "UTC", log: false, magnet: false, contract: 100, spread: 0, balance: 10000, commission: 0, lots: 0.1, slOn: true, tpOn: true, slD: 5, tpD: 10, speed: 3, bottomOpen: false, rview: "", lastSet: "", bottomTab: "positions", pct: false };
   const CFG = (function () {
     let saved = null;
     try { saved = JSON.parse(localStorage.getItem("rd-settings") || "null"); } catch (e) { saved = null; }
     const c = Object.assign({}, DEFAULTS, saved || {});
-    c.theme = "dark"; // Daddy Trader master theme: Option A dark only
+    if (saved && !saved.tvLight) { // one-time move to the TradingView light look (was forced dark by Option A)
+      c.theme = "light";
+      if (c.up === "#3fbf86") c.up = "#131722";
+      if (c.down === "#ff5d5d") c.down = "#ffffff";
+      c.bottomOpen = false; c.rview = "";
+      c.tvLight = true;
+    }
     if (!saved && window.innerWidth < 760) { c.bottomOpen = false; c.rview = ""; }
     return c;
   })();
@@ -808,13 +842,13 @@ td { font-variant-numeric: tabular-nums; }
     return { y: +o.year, m: +o.month, d: +o.day, H: (+o.hour) % 24, M: +o.minute };
   }
   function fmtTime(t) { const p = parts(t); return p.y + "-" + pad(p.m) + "-" + pad(p.d) + " " + pad(p.H) + ":" + pad(p.M); }
-  function fmtCross(t) { const p = parts(t); return MON[p.m - 1] + " " + p.d + " '" + String(p.y).slice(2) + "  " + pad(p.H) + ":" + pad(p.M); }
+  function fmtCross(t) { const p = parts(t); return MON[p.m - 1] + " " + p.d + " '" + String(p.y).slice(2) + "  " + h12(p.H) + ":" + pad(p.M) + " " + (p.H < 12 ? "AM" : "PM"); }
   function fmtTick(t, type) {
     const p = parts(t);
     if (type === 0) return String(p.y);
     if (type === 1) return MON[p.m - 1];
     if (type === 2) return String(p.d);
-    return pad(p.H) + ":" + pad(p.M);
+    return h12(p.H) + ":" + pad(p.M) + " " + (p.H < 12 ? "AM" : "PM");
   }
 
   /* ================= state ================= */
@@ -981,12 +1015,13 @@ td { font-variant-numeric: tabular-nums; }
   function priceFmt() { return { type: "custom", minMove: Math.pow(10, -S.decimals), formatter: (p) => fmtPx(p) }; }
   function seriesDef() {
     const up = CFG.up, dn = CFG.down, acc = cssVar("--accent") || "#2962ff";
+    const dnEdge = String(dn || "").toLowerCase() === "#ffffff" ? "#131722" : dn; // white down candles need a dark edge on a white chart
     switch (CFG.ctype) {
-      case "bars": return [LWC.BarSeries, { upColor: up, downColor: dn, thinBars: false }];
+      case "bars": return [LWC.BarSeries, { upColor: up, downColor: dnEdge, thinBars: false }];
       case "line": return [LWC.LineSeries, { color: acc, lineWidth: 2 }];
       case "area": return [LWC.AreaSeries, { lineColor: acc, topColor: hexA(acc, 0.35), bottomColor: hexA(acc, 0), lineWidth: 2 }];
-      case "hollow": return [LWC.CandlestickSeries, { upColor: "rgba(0,0,0,0)", downColor: dn, borderUpColor: up, borderDownColor: dn, wickUpColor: up, wickDownColor: dn, borderVisible: true, wickVisible: true }];
-      default: return [LWC.CandlestickSeries, { upColor: up, downColor: dn, borderUpColor: up, borderDownColor: dn, wickUpColor: up, wickDownColor: dn, borderVisible: CFG.border, wickVisible: CFG.wick }];
+      case "hollow": return [LWC.CandlestickSeries, { upColor: "rgba(0,0,0,0)", downColor: dn, borderUpColor: up, borderDownColor: dnEdge, wickUpColor: up, wickDownColor: dnEdge, borderVisible: true, wickVisible: true }];
+      default: return [LWC.CandlestickSeries, { upColor: up, downColor: dn, borderUpColor: up, borderDownColor: dnEdge, wickUpColor: up, wickDownColor: dnEdge, borderVisible: CFG.border, wickVisible: CFG.wick }];
     }
   }
   function createMain() {
@@ -998,8 +1033,8 @@ td { font-variant-numeric: tabular-nums; }
   }
   function applyTheme() {
     document.documentElement.classList.toggle("theme-light", CFG.theme === "light");
-    Object.assign(TH, { bg: cssVar("--chart-bg"), fg: cssVar("--fg"), muted: cssVar("--muted"), line: cssVar("--line"), grid: cssVar("--grid"), accent: cssVar("--accent"), panel: cssVar("--panel"), up: CFG.up, down: CFG.down });
-    const dotted = LWC.LineStyle.SparseDotted != null ? LWC.LineStyle.SparseDotted : LWC.LineStyle.Dotted;
+    Object.assign(TH, { bg: cssVar("--chart-bg"), fg: cssVar("--fg"), muted: cssVar("--muted"), line: cssVar("--line"), grid: cssVar("--grid"), accent: cssVar("--accent"), panel: cssVar("--panel"), up: CFG.theme === "light" ? "#089981" : CFG.up, down: CFG.theme === "light" ? "#f23645" : CFG.down });
+    const dotted = CFG.theme === "light" ? LWC.LineStyle.Solid : (LWC.LineStyle.SparseDotted != null ? LWC.LineStyle.SparseDotted : LWC.LineStyle.Dotted);
     chart.applyOptions({
       layout: { background: { type: "solid", color: TH.bg }, textColor: cssVar("--axis"), fontFamily: cssVar("--font"), fontSize: 12, panes: { separatorColor: TH.line, separatorHoverColor: hexA(TH.accent, 0.2) } },
       grid: { vertLines: { color: TH.grid, style: dotted, visible: CFG.gridV }, horzLines: { color: TH.grid, style: dotted, visible: CFG.gridH } },
@@ -3452,6 +3487,11 @@ td { font-variant-numeric: tabular-nums; }
     $$("#mSet [data-spane]").forEach((p) => { p.hidden = p.dataset.spane !== b.dataset.stab; });
   }));
   function onSetting() {
+    const newTheme = $("#setTheme").value;
+    if (newTheme !== CFG.theme) { // theme switch resets candle colours to that theme's TradingView defaults
+      const d = newTheme === "light" ? { up: "#131722", down: "#ffffff" } : { up: "#3fbf86", down: "#ff5d5d" };
+      $("#setUp").value = d.up; $("#setDown").value = d.down;
+    }
     CFG.up = $("#setUp").value; CFG.down = $("#setDown").value; CFG.border = $("#setBorder").checked; CFG.wick = $("#setWick").checked;
     const tzChanged = CFG.tz !== $("#setTz").value;
     CFG.theme = $("#setTheme").value; CFG.gridV = $("#setGridV").checked; CFG.gridH = $("#setGridH").checked; CFG.tz = $("#setTz").value;
@@ -3514,7 +3554,7 @@ td { font-variant-numeric: tabular-nums; }
     $$("#rgBtns [data-rg]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
   });
   function tzLabel(t) { if (CFG.tz === "UTC") return "UTC"; const h = tzOffset(t) / 3600; return "UTC" + (h >= 0 ? "+" : "−") + (Math.abs(h) % 1 ? Math.abs(h).toFixed(1) : Math.abs(h)); }
-  function tickClock() { const now = Math.floor(Date.now() / 1000), p = parts(now); $("#clockBtn").textContent = pad(p.H) + ":" + pad(p.M) + ":" + pad(now % 60) + " " + tzLabel(now); }
+  function tickClock() { const now = Math.floor(Date.now() / 1000), p = parts(now); $("#clockBtn").textContent = h12(p.H) + ":" + pad(p.M) + ":" + pad(now % 60) + " " + (p.H < 12 ? "AM" : "PM") + " " + tzLabel(now); }
   tickClock(); setInterval(tickClock, 1000);
   const TZ_LIST = [["UTC", "UTC"], ["Asia/Karachi", "(UTC+5) Karachi"], ["Asia/Dubai", "(UTC+4) Dubai"], ["Europe/London", "London"], ["America/New_York", "New York"], ["Asia/Tokyo", "(UTC+9) Tokyo"]];
   $("#clockBtn").addEventListener("click", (e) => {
@@ -3573,7 +3613,7 @@ td { font-variant-numeric: tabular-nums; }
   const CAT_NAME = { forex: "Forex", metals: "Metals", indices: "Indices", energy: "Energy", crypto: "Crypto", mine: "Mera data" };
   const MK = { index: null, list: [], ticker: {}, ws: null, poll: null, reqId: 0, tickTimer: null };
   const BN = "https://data-api.binance.vision/api/v3/";
-  const BN_INT = { M1: "1m", M5: "5m", M15: "15m", M30: "30m", H1: "1h", H4: "4h", D1: "1d" };
+  const BN_INT = { M1: "1m", M3: "3m", M5: "5m", M15: "15m", M30: "30m", H1: "1h", H4: "4h", D1: "1d", W1: "1w" };
   function decFor(price) { const a = Math.abs(price || 0); return a >= 10 ? 2 : a >= 1 ? 4 : a >= 0.01 ? 5 : 8; }
   function buildList() {
     const list = [], idx = MK.index;
