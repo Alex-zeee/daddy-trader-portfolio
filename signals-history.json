@@ -1,6 +1,6 @@
 {
- "updated": "16-11-2026 11:01 PKT",
- "count": 4,
+ "updated": "16-11-2026 23:16 PKT",
+ "count": 5,
  "tp_hits": [
   {
    "ts": "2026-11-10T01:35:00+00:00",
@@ -53,6 +53,19 @@
    "status": "TP Hit",
    "note": "ICT Model 1 (HTF POI + BOS + FVG): H1 FVG tap -> BOS -> FVG",
    "hit": "16-11-2026 10:45 PKT"
+  },
+  {
+   "id": "2026-11-16T15:05:00+00:00",
+   "ts": "2026-11-16T15:05:00+00:00",
+   "date": "16-11-2026 20:05 PKT",
+   "pair": "XAUUSD",
+   "type": "SELL",
+   "entry": 3875.69,
+   "sl": 3888.53,
+   "tp": 3847.91,
+   "status": "TP Hit",
+   "note": "ICT Liquidity Hunt + CISD: LONDON High liquidity hunt -> CISD",
+   "hit": "16-11-2026 23:05 PKT"
   }
  ]
 }

@@ -1,13 +1,13 @@
 {
- "updated": "16-11-2026 23:01 PKT",
+ "updated": "16-11-2026 23:16 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "SELL",
   "strength": 100,
-  "price": 3857.41,
-  "rsi": 43,
+  "price": 3843.93,
+  "rsi": 21,
   "tf": "M15"
  },
  "liq": {
@@ -17,9 +17,8 @@
    3888.3
   ],
   "below": [
-   3851.78,
-   3851.53,
-   3839.21
+   3839.21,
+   3833.62
   ]
  },
  "idea": null,
@@ -71,8 +70,9 @@
    "entry": 3875.69,
    "sl": 3888.53,
    "tp": 3847.91,
-   "status": "Active",
-   "note": "ICT Liquidity Hunt + CISD: LONDON High liquidity hunt -> CISD"
+   "status": "TP Hit",
+   "note": "ICT Liquidity Hunt + CISD: LONDON High liquidity hunt -> CISD",
+   "hit": "16-11-2026 23:05 PKT"
   },
   {
    "id": "2026-11-16T15:15:00+00:00",
@@ -139,6 +139,19 @@
    "status": "TP Hit",
    "note": "ICT Model 1 (HTF POI + BOS + FVG): H1 FVG tap -> BOS -> FVG",
    "hit": "16-11-2026 10:45 PKT"
+  },
+  {
+   "id": "2026-11-16T15:05:00+00:00",
+   "ts": "2026-11-16T15:05:00+00:00",
+   "date": "16-11-2026 20:05 PKT",
+   "pair": "XAUUSD",
+   "type": "SELL",
+   "entry": 3875.69,
+   "sl": 3888.53,
+   "tp": 3847.91,
+   "status": "TP Hit",
+   "note": "ICT Liquidity Hunt + CISD: LONDON High liquidity hunt -> CISD",
+   "hit": "16-11-2026 23:05 PKT"
   }
  ]
 }
