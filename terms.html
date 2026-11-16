@@ -15,24 +15,34 @@
 <title>Daddy Trader — Terms of Service</title>
 <meta name="description" content="Terms of Service for the Daddy Trader website, app and social media content." />
 <link rel="icon" type="image/png" href="favicon.png" />
-<meta name="theme-color" content="#06070a" />
+<meta name="theme-color" content="#07080d" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <style>
-  :root{--bg:#06070a;--fg:#f3f4f7;--muted:#8a90a2;--line:#1c2030;--accent:#3cae77;--gold:#f5c542}
+  :root{--bg:#07080d;--fg:#f3f4f7;--muted:#8a90a2;--soft:#c3c7d2;--line:#1c2030;--line-2:#2a3044;--accent:#3cae77;--gold:#f5c542;--gold-hi:#ffe08a;--emerald:#3cae77;--emerald-hi:#8fe3b5;--panel:#10131d;--deep:#0c0f1a;--raise:#141826;--display:"Archivo","Manrope",sans-serif}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 "Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-  main{max-width:760px;margin:0 auto;padding:40px 18px 64px}
-  h1{font-size:30px;margin:0 0 4px;color:var(--gold)}
-  h2{font-size:19px;margin:30px 0 6px;color:var(--accent)}
+  body{margin:0;background-color:#07080d;background-image:radial-gradient(1000px 560px at 12% -10%,rgba(245,197,66,.10),transparent 60%),radial-gradient(900px 520px at 88% -6%,rgba(60,174,119,.12),transparent 60%);background-attachment:fixed;color:var(--fg);font:16px/1.7 "Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:760px;margin:24px auto 64px;padding:40px clamp(20px,4vw,44px) 56px;border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  h1{font-family:"Archivo","Manrope",sans-serif;font-size:clamp(28px,3.4vw,42px);font-weight:900;letter-spacing:-.02em;margin:0 0 4px;color:var(--fg)}
+  h2{font-family:"Archivo","Manrope",sans-serif;font-size:22px;font-weight:800;letter-spacing:-.02em;margin:30px 0 6px;color:var(--fg)}
   p,li{color:var(--fg)}
   .muted{color:var(--muted);font-size:14px}
   a{color:var(--accent)}
+  a:hover{color:var(--gold)}
   ul{padding-left:20px}
-  .back{display:inline-block;margin-bottom:22px;color:var(--accent);text-decoration:none;font-weight:600}
+  .back{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;margin-bottom:22px;color:var(--fg);text-decoration:none;font-weight:700;border:1px solid #2a3044;border-radius:14px;background:#0c0f1a}
+  .back:hover{border-color:#f5c542;color:#f5c542}
 </style>
 <link rel="stylesheet" href="theme.css" />
+<style id="modern-bold">
+  /* ===== Modern Bold ===== */
+  .grad-text{background:linear-gradient(90deg,#f5c542,#3cae77);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .card-grad{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  .btn-grad{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;padding:.95em 1.6em;border-radius:14px;border:0;background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800;font-size:15px;text-decoration:none;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease}
+  .btn-grad:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
+  .eyebrow{font:700 11.5px/1 "Archivo","Manrope",sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#c3c7d2}
+</style>
 </head>
 <body>
 <header class="dt-top">
@@ -56,7 +66,7 @@
 </header>
 <main>
   <a class="back" href="./">&larr; Daddy Trader</a>
-  <h1>Terms of Service</h1>
+  <h1><span class="grad-text">Terms</span> of Service</h1>
   <p class="muted">Daddy Trader (M. Ali Alvi) &middot; Last updated: 9 November 2026</p>
 
   <p>These terms apply to the Daddy Trader website (daddytrader.live), the Daddy Trader app and the content Daddy Trader publishes on its Facebook page, WhatsApp channel and TikTok account. By using them you agree to these terms.</p>

@@ -17,28 +17,30 @@
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="apple-touch-icon" href="icon-192.png" />
 <link rel="manifest" href="manifest.json" />
-<meta name="theme-color" content="#06070a" />
+<meta name="theme-color" content="#07080d" />
 <meta property="og:title" content="Daddy Trader — ALEXA AI, Gold signals & Back Testing" />
 <meta property="og:description" content="Ask ALEXA about Gold, follow live ICT signals and practise bar by bar in Back Testing — free." />
 <meta property="og:image" content="https://alex-zeee.github.io/daddy-trader-portfolio/icon-512.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
 <style>
   :root{
-    --page:#06070a; --paper:#0b0d14; --card:#10131d; --raise:#141826;
+    --page:#07080d; --paper:#0c0f1a; --card:#10131d; --raise:#141826;
     --line:#1c2030; --line2:#2a3044; --bracket:#2a3044;
     --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
     --gold:#f5c542; --gold-hi:#ffe08a; --gold-deep:#b8860b; --emerald:#3cae77; --emerald-hi:#8fe3b5;
     --live:#22c55e; --buy:#3fbf86; --sell:#ff5d5d;
+    --grad:linear-gradient(135deg,#f5c542,#3cae77);
     --sans:"Manrope","Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --head:"Archivo","Manrope",sans-serif;
     --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
     --wrap:1240px; --gut:clamp(16px,3vw,28px);
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth;scroll-padding-top:84px}
   body{margin:0;min-height:100vh;overflow-x:hidden;color:var(--ink);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;
-    background-color:var(--page);background-image:radial-gradient(900px 520px at 8% -8%,rgba(52,211,153,.07),transparent 62%),radial-gradient(820px 600px at 100% 0%,rgba(245,184,46,.06),transparent 62%);background-attachment:fixed}
+    background-color:#07080d;background-image:radial-gradient(1000px 560px at 12% -10%,rgba(245,197,66,.10),transparent 60%),radial-gradient(900px 520px at 88% -6%,rgba(60,174,119,.12),transparent 60%);background-attachment:fixed}
   a{color:inherit}
   img,svg{display:block;max-width:100%}
   :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
@@ -46,6 +48,11 @@
   .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
   .skip{position:absolute;left:12px;top:-60px;z-index:50;padding:10px 14px;background:var(--ink);color:var(--page);font-weight:700;text-decoration:none}
   .skip:focus{top:12px}
+
+  /* ===== Modern Bold shared pieces ===== */
+  .grad-text{background:linear-gradient(90deg,#f5c542,#3cae77);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .card-grad{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  .eyebrow{margin:0 0 10px;font:800 12px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
 
   /* corner brackets (Ink look) */
   .br{position:relative}
@@ -57,18 +64,21 @@
       linear-gradient(var(--bracket),var(--bracket)) right bottom/12px 1.5px no-repeat,linear-gradient(var(--bracket),var(--bracket)) right bottom/1.5px 12px no-repeat}
 
   /* ===== buttons ===== */
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:13px;font:700 14.5px var(--sans);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background .15s,border-color .15s,color .15s}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:13px;font:700 14.5px var(--sans);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background .15s,border-color .15s,color .15s,transform .15s,box-shadow .15s}
   .btn.solid{background:var(--ink);color:#0b0b0b}
   .btn.solid:hover{background:#ffffff}
   .btn.ghost{border-color:var(--line2);color:var(--ink);background:#10131d}
   .btn.ghost:hover{border-color:var(--soft)}
-  .btn.gold{background:linear-gradient(135deg,var(--gold-hi),#f5b82e 60%,#d9961a);color:#140f02;box-shadow:0 10px 26px -12px rgba(245,184,46,.7)}
+  .btn.gold{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800;border-radius:14px;min-height:48px;box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
+  .btn.gold:hover{transform:translateY(-2px)}
+  .btn-grad,.btn.grad{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800;border-radius:14px;min-height:48px}
+  .btn-grad:hover,.btn.grad:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
   .btn svg{width:17px;height:17px}
 
   /* ===== header ===== */
-  .top{position:sticky;top:0;z-index:30;background:rgba(6,7,10,.82);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .top{position:sticky;top:0;z-index:30;background:rgba(7,8,13,.85);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .top .wrap{display:flex;align-items:center;gap:20px;min-height:68px}
-  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:.26em;white-space:nowrap}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--head);font-weight:900;font-size:13px;letter-spacing:.26em;white-space:nowrap}
   .brand i{width:10px;height:10px;border-radius:50%;background:var(--live);box-shadow:0 0 0 4px rgba(34,197,94,.15)}
   .px span{color:var(--muted)} .px b{font-weight:600} .px .up{color:var(--buy)} .px .dn{color:var(--sell)}
   .px[hidden]{display:none}
@@ -91,21 +101,45 @@
   @media (max-width:360px){ .px em{display:none} }
 
   main{display:flex;flex-direction:column;gap:28px;padding:28px 0 0}
-  .sheet{background:linear-gradient(180deg,#0c0f17,#090b11);border:1px solid #171b28;border-radius:32px}
+  .sheet{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
   .sec{padding:clamp(28px,4vw,52px) clamp(18px,4vw,52px)}
-  .h2{margin:0;font-size:clamp(26px,3.2vw,38px);line-height:1.1;letter-spacing:-.03em;font-weight:800;max-width:22ch}
-  .lead{margin:12px 0 0;max-width:60ch;color:#a9a9a9;font-size:16px}
+  .h2{margin:0;font-family:var(--head);font-size:clamp(28px,3.4vw,42px);line-height:1.1;letter-spacing:-.02em;font-weight:800;max-width:22ch}
+  .lead{margin:12px 0 0;max-width:60ch;color:var(--soft);font-size:16px}
   .sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 32px;margin-bottom:30px}
   .more{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:12px;border:1px solid var(--line2);background:#10131d;color:var(--ink);font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}
   .more:hover{border-color:#f5b82e;color:#f5b82e}
 
   /* ===== hero ===== */
-  .hero{display:flex;justify-content:center;padding:clamp(30px,4.5vw,64px) clamp(18px,4vw,52px)}
-  #stage{width:min(680px,100%)}
-  .fact:last-child{border-right:0;margin-right:0}
-  .fact small{display:block;color:var(--muted);font-size:12.5px}
-  .fact b{display:block;margin-top:2px;font:600 clamp(17px,1.7vw,21px) var(--mono);letter-spacing:-.02em}
-  .fact .up{color:var(--buy)} .fact .dn{color:var(--sell)}
+  .hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(24px,4vw,48px);align-items:center;padding:clamp(30px,4.5vw,64px) clamp(18px,4vw,52px)}
+  .hero-h1{margin:0;font-family:var(--head);font-weight:900;font-size:clamp(40px,5.4vw,68px);line-height:1.02;letter-spacing:-.03em}
+  .hero-lead{margin:16px 0 0;max-width:52ch;color:var(--soft);font-size:17px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+  .price-card{padding:22px 22px 18px}
+  .price-top{display:flex;justify-content:space-between;gap:12px;font:600 13px var(--mono);color:var(--muted)}
+  .live-dot{color:var(--live)}
+  .price-big{margin-top:10px;font-family:var(--head);font-weight:900;font-size:clamp(34px,3.6vw,46px);letter-spacing:-.02em;line-height:1.1}
+  .price-big .cur{color:var(--gold);font-size:.6em;margin-right:2px}
+  .spark{width:100%;height:90px;margin-top:10px}
+  .price-note{margin:10px 0 0;color:var(--muted);font-size:13px}
+  .price-note a{color:var(--gold);text-decoration:none}
+  .price-note a:hover{text-decoration:underline}
+
+  /* ===== feature cards (ALEXA + Back Testing) ===== */
+  .feat-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:stretch}
+  .alexa-card{padding:8px;display:flex}
+  .alexa-card #webAlexa{border:0;box-shadow:none;border-radius:14px;width:100%}
+  .bt-card{display:flex;flex-direction:column;overflow:hidden}
+  .bt-vis{padding:16px 20px 0}
+  .bt-vis svg{width:100%;height:140px}
+  .bt-card .txt{padding:14px 20px 20px;display:flex;flex-direction:column;flex:1}
+  .bt-card p{margin:0 0 16px;color:#9aa0b1;font-size:14.5px}
+  .bt-card .btn{align-self:flex-start;margin-top:auto}
+  .p-head{display:flex;align-items:center;gap:13px;padding:18px 20px 16px;border-bottom:1px solid #1f2434}
+  .p-ico{flex:none;width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:var(--ic);background:color-mix(in srgb,var(--ic) 13%,#141826);border:1px solid color-mix(in srgb,var(--ic) 45%,transparent)}
+  .p-ico svg{width:22px;height:22px}
+  .p-head h3{margin:0;font-family:var(--head);font-size:18px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
+  .p-head small{display:block;margin-top:2px;color:#8a90a2;font-size:12.5px}
+  .p-pill{margin-left:auto;flex:none;padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:800;letter-spacing:.06em;color:var(--ic);background:color-mix(in srgb,var(--ic) 10%,transparent);border:1px solid color-mix(in srgb,var(--ic) 40%,transparent)}
 
   /* ALEXA panel — purana ALEXA look */
   #webAlexa{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;gap:10px;padding:46px clamp(16px,2.6vw,28px) 22px;border:1px solid #173024;border-radius:28px;box-shadow:0 30px 60px -30px rgba(0,0,0,.85);
@@ -201,46 +235,52 @@
   .sig-empty{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px;align-items:stretch}
   @media (max-width:860px){.sig-empty{grid-template-columns:minmax(0,1fr)}}
   .sig-meta{margin:18px 0 0;color:var(--muted);font-size:13px}
-  .sig-sub{grid-column:1/-1;margin:14px 0 0;font-size:18px;font-weight:800;letter-spacing:-.015em}
+  .sig-sub{grid-column:1/-1;margin:14px 0 0;font-family:var(--head);font-size:18px;font-weight:800;letter-spacing:-.015em}
   .sig-alert{align-self:flex-start;display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:12px;color:#f5b82e;font-weight:700;font-size:14px;text-decoration:none;border:1px solid rgba(245,184,46,.6);background:rgba(245,184,46,.08)}
   .sig-alert:hover{background:rgba(245,184,46,.16)}
 
-  /* ===== pillars (same card style as the signal cards) ===== */
-  .pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-  .pillar{display:flex;flex-direction:column;overflow:hidden;border-radius:28px;text-decoration:none;color:var(--ink);
-    background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 30px 60px -30px rgba(0,0,0,.85);transition:transform .25s ease,border-color .25s ease}
-  .pillar:hover{transform:translateY(-3px);border-color:#2a3046}
-  .p-head{display:flex;align-items:center;gap:13px;padding:18px 20px 16px;border-bottom:1px solid #1f2434}
-  .p-ico{flex:none;width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:var(--ic);background:color-mix(in srgb,var(--ic) 13%,#141826);border:1px solid color-mix(in srgb,var(--ic) 45%,transparent)}
-  .p-ico svg{width:22px;height:22px}
-  .p-head h3{margin:0;font-size:18px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
-  .p-head small{display:block;margin-top:2px;color:#8a90a2;font-size:12.5px}
-  .p-pill{margin-left:auto;flex:none;padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:800;letter-spacing:.06em;color:var(--ic);background:color-mix(in srgb,var(--ic) 10%,transparent);border:1px solid color-mix(in srgb,var(--ic) 40%,transparent)}
-  .pillar .vis{height:168px;position:relative;overflow:hidden;padding:16px 20px 0}
-  .pillar .txt{padding:14px 20px 20px;display:flex;flex-direction:column;flex:1}
-  .pillar p{margin:0 0 16px;color:#9aa0b1;font-size:14.5px}
-  .pillar .go{margin-top:auto;align-self:flex-start;padding:8px 14px;border-radius:11px;font-weight:700;font-size:13.5px;color:#f5b82e;border:1px solid rgba(245,184,46,.6);background:rgba(245,184,46,.08)}
-  .bub{max-width:88%;padding:9px 12px;border-radius:14px;font-size:13px;line-height:1.45;border:1px solid #252a3a}
-  .bub.you{margin-left:auto;background:var(--ink);color:#0b0b0b;border-color:var(--ink)}
-  .bub.ax{margin-top:10px;background:#0b1712;border-color:#1b3a2b;color:#d6eadd}
-  .bub small{display:block;font-size:11px;opacity:.7;margin-bottom:2px}
-  .spark-wrap{display:flex;flex-direction:column;height:100%}
-  .spark-head{display:flex;justify-content:space-between;align-items:baseline;font:600 13px var(--mono)}
-  .spark-head span{color:var(--muted);font-family:var(--sans);font-weight:500}
-  .spark{flex:1;margin:8px -20px 0;min-height:60px;width:calc(100% + 40px)}
-  .news-line{margin:8px 0 12px;font-size:12.5px;line-height:1.4;color:#b8b8b8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  /* ===== fundamental preview ===== */
+  .fund-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(24px,4vw,48px);align-items:start}
+  .hot-story{padding:22px;border-radius:18px;border:1px solid var(--line2);background:var(--raise)}
+  .hot-tag{display:inline-block;margin-bottom:10px;padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:800;letter-spacing:.06em;color:#f5b82e;background:rgba(245,184,46,.10);border:1px solid rgba(245,184,46,.45)}
+  .hot-story a{display:block;font-family:var(--head);font-weight:800;font-size:clamp(20px,2.2vw,26px);line-height:1.25;letter-spacing:-.01em;text-decoration:none}
+  .hot-story a:hover{color:var(--gold)}
+  .hot-meta{display:block;margin-top:10px;color:var(--muted);font-size:13px}
+  .news-rows{list-style:none;margin:18px 0 0;padding:0}
+  .news-rows li{border-top:1px solid var(--line)}
+  .news-rows a{display:flex;gap:14px;padding:14px 2px;text-decoration:none;align-items:flex-start}
+  .news-rows a:hover b{color:var(--gold)}
+  .news-rows .rn{flex:none;font-family:var(--head);font-weight:900;font-size:18px;color:var(--gold);line-height:1.4}
+  .news-rows b{display:block;font-size:15.5px;font-weight:700;line-height:1.4}
+  .news-rows small{display:block;margin-top:3px;color:var(--muted);font-size:12.5px}
+  .fund-sub{margin:0 0 6px;font-family:var(--head);font-size:18px;font-weight:800;letter-spacing:-.01em}
+  .tw-list{list-style:none;margin:0;padding:0}
+  .tw-list li{border-top:1px solid var(--line)}
+  .tw-list li:first-child{border-top:0}
+  .tw-list a{display:block;padding:13px 2px;text-decoration:none;font-size:14.5px;line-height:1.5;color:var(--soft)}
+  .tw-list a:hover{color:var(--gold)}
+
+  /* ===== academy courses ===== */
+  .courses{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+  .course{padding:26px 24px;display:flex;flex-direction:column}
+  .course h3{margin:0;font-family:var(--head);font-size:22px;font-weight:800;letter-spacing:-.01em}
+  .course .c-tag{align-self:flex-start;margin-bottom:12px;padding:5px 11px;border-radius:99px;font-size:11.5px;font-weight:800;letter-spacing:.06em;color:var(--gold);background:rgba(245,184,46,.10);border:1px solid rgba(245,184,46,.45)}
+  .course .price{margin:10px 0 2px;font-family:var(--head);font-weight:900;font-size:30px;letter-spacing:-.02em;color:var(--gold)}
+  .course .dur{color:var(--muted);font-size:14px}
+  .course p{margin:12px 0 20px;color:var(--soft);font-size:14.5px;flex:1}
+  .course .btn{align-self:flex-start;margin-top:auto}
 
   /* ===== steps ===== */
   .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line)}
   .step{padding:26px 26px 6px 0;margin-right:26px;border-right:1px solid var(--line)}
   .step:last-child{border-right:0;margin-right:0}
-  .step .n{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;font-size:22px;font-weight:800;color:#f5b82e;background:rgba(245,184,46,.10);border:1px solid rgba(245,184,46,.45)}
-  .step h3{margin:14px 0 6px;font-size:19px;font-weight:800;letter-spacing:-.015em}
+  .step .n{width:52px;height:52px;border-radius:15px;display:grid;place-items:center;font-family:var(--head);font-size:22px;font-weight:900;color:#f5b82e;background:rgba(245,184,46,.10);border:1px solid rgba(245,184,46,.45)}
+  .step h3{margin:14px 0 6px;font-family:var(--head);font-size:19px;font-weight:800;letter-spacing:-.015em}
   .step p{margin:0;color:#a2a2a2;font-size:14.5px;max-width:34ch}
 
   /* ===== community ===== */
   .comm{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,56px);align-items:start}
-  .links{list-style:none;margin:0;padding:6px 18px;border-radius:28px;border:1px solid #1f2434;background:linear-gradient(180deg,#121625,#0c0f1a)}
+  .links{list-style:none;margin:0;padding:6px 18px;border-radius:20px;border:1px solid var(--line2);background:linear-gradient(180deg,#121625,#0c0f1a)}
   .links li:last-child a{border-bottom:0}
   .links a{display:flex;align-items:center;gap:16px;padding:15px 4px;border-bottom:1px solid #1f2434;text-decoration:none;transition:background .15s}
   .links a:hover b{color:#f5b82e}
@@ -249,12 +289,9 @@
   .links b{display:block;font-size:16px;font-weight:700}
   .links small{display:block;color:var(--muted);font-size:13px}
   .links .arr{margin-left:auto;color:var(--muted)}
-  .academy{margin-top:26px;padding:24px;border-radius:28px;border:1px solid rgba(245,184,46,.45);background:radial-gradient(120% 90% at 0% 0%,rgba(245,184,46,.14),transparent 60%),linear-gradient(180deg,#121625,#0c0f1a);box-shadow:0 30px 60px -32px rgba(245,184,46,.35)}
-  .academy h3{margin:0;font-size:20px;font-weight:800;letter-spacing:-.015em}
-  .academy p{margin:6px 0 16px;color:#b5b5b5;font-size:14.5px}
 
   /* ===== footer ===== */
-  .foot{margin-top:28px;border-top:1px solid var(--line);background:#07080c}
+  .foot{margin-top:28px;border-top:1px solid var(--line);background:#07080d}
   .foot .wrap{padding-top:36px;padding-bottom:calc(36px + env(safe-area-inset-bottom))}
   .risk{padding:16px 18px;border-radius:18px;border:1px solid #4a2230;background:#160c12;color:#e7c9c3;font-size:14px;line-height:1.6}
   .foot-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px 28px;margin-top:22px;color:var(--muted);font-size:13.5px}
@@ -263,13 +300,16 @@
   .foot-row a:hover{color:#fff}
 
   @media (max-width:980px){
-    .pillars{grid-template-columns:minmax(0,1fr)}
-
+    .feat-grid{grid-template-columns:minmax(0,1fr)}
     .comm{grid-template-columns:minmax(0,1fr)}
+  }
+  @media (max-width:860px){
+    .hero{grid-template-columns:minmax(0,1fr)}
+    .fund-grid{grid-template-columns:minmax(0,1fr)}
+    .courses{grid-template-columns:minmax(0,1fr)}
   }
   @media (max-width:720px){
     main{gap:20px;padding-top:16px}
-    .pillar .vis{height:150px}
     .steps{grid-template-columns:minmax(0,1fr)}
     .step{border-right:0;margin-right:0;padding:22px 0;border-bottom:1px solid var(--line)}
     .step:last-child{border-bottom:0}
@@ -309,40 +349,20 @@
 
   <!-- Hero -->
   <section class="sheet hero" aria-labelledby="hero-h">
-    <h1 id="hero-h" class="sr">Smart trading intelligence, powered by AI and fundamental analysis</h1>
-
-    <div id="stage">
-      <section id="webAlexa" class="logo-only" aria-label="ALEXA">
-        <div class="wa-tools">
-          <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Sound">
-            <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
-            <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
-          </button>
-          <button class="icon-btn" id="waClear" type="button" title="Start a new chat">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
-          </button>
-        </div>
-        <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="Talk to ALEXA"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
-        <h2 class="name">ALEXA</h2>
-        <p class="status" id="waStatus" aria-live="polite"></p>
-        <div id="waLog" aria-hidden="true"></div>
-        <div class="wa-chips" aria-label="Quick questions">
-          <button type="button" data-ask="What is gold's trend today?">Gold trend</button>
-          <button type="button" data-ask="What is the biggest gold news today?">Today's news</button>
-          <button type="button" data-ask="What are the important economic events this week?">Economic events</button>
-          <button type="button" data-ask="Is there an active Daddy Trader signal?">Any signals?</button>
-        </div>
-        <form id="waForm" autocomplete="off">
-          <label class="sr" for="waInput">Ask ALEXA</label>
-          <input id="waInput" type="text" placeholder="Ask ALEXA… (e.g. analyse gold)" enterkeyhint="send" />
-          <button class="round" id="waMic" type="button" aria-label="Ask by voice">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
-          </button>
-          <button class="round" id="waSend" type="submit" aria-label="Bhejein">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
-          </button>
-        </form>
-      </section>
+    <div class="hero-copy">
+      <p class="eyebrow">XAUUSD · ICT Signals · ALEXA AI</p>
+      <h1 class="hero-h1" id="hero-h">Trade Gold. <span class="grad-text">Own the Move.</span></h1>
+      <p class="hero-lead">Live ICT signals, ALEXA AI market analysis and bar-by-bar Back Testing — everything you need to trade gold with a plan, not a guess.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-grad" href="#signals">See live signals</a>
+        <a class="btn ghost" href="#alexa">Ask ALEXA</a>
+      </div>
+    </div>
+    <div class="price-card card-grad">
+      <div class="price-top"><span>XAU/USD · Live</span><span class="live-dot">● LIVE</span></div>
+      <div class="price-big"><span class="cur">$</span><b id="spPx">—</b></div>
+      <svg class="spark" id="spark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <p class="price-note">Gold, recent moves · <a href="fundamental.html">Fundamental →</a></p>
     </div>
   </section>
 
@@ -350,6 +370,7 @@
   <section class="sheet sec" id="signals" aria-labelledby="sig-h">
     <div class="sec-head">
       <div>
+        <p class="eyebrow">Live Signals</p>
         <h2 class="h2" id="sig-h">Live Gold signals</h2>
         <p class="lead">Every signal shows its entry, stop loss and take profit, with Gold’s latest moves on the chart so you can see where price is right now.</p>
       </div>
@@ -359,38 +380,129 @@
     <p class="sig-meta" id="sigMeta"></p>
   </section>
 
-  <!-- Three tools -->
-  <section class="sheet sec" aria-labelledby="tools-h">
+  <!-- ALEXA + Back Testing -->
+  <section class="sheet sec" id="alexa" aria-labelledby="alexa-h">
     <div class="sec-head">
       <div>
-        <h2 class="h2" id="tools-h">Free tools</h2>
-        <p class="lead">Everything Daddy Trader builds for Gold traders, free to use.</p>
+        <p class="eyebrow">ALEXA AI · Back Testing</p>
+        <h2 class="h2" id="alexa-h">Ask ALEXA. Practise the trade.</h2>
+        <p class="lead">Talk to ALEXA about Gold’s trend and today’s news, then replay the chart bar by bar until the setup is second nature.</p>
       </div>
     </div>
-    <div class="pillars">
-      <a class="pillar" href="fundamental.html" style="--ic:#f5b82e">
-        <div class="p-head">
-          <span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l5-5 4 4 8-8"/><path d="M15 8h5v5"/></svg></span>
-          <div><h3>Fundamental</h3><small>Gold news, calendar &amp; tweets</small></div>
-          <span class="p-pill">LIVE</span>
-        </div>
-        <div class="vis" aria-hidden="true">
-          <div class="spark-wrap">
-            <div class="spark-head"><span>Gold, recent moves</span><b id="spPx"></b></div>
-            <svg class="spark" id="spark" viewBox="0 0 300 90" preserveAspectRatio="none"></svg>
+    <div class="feat-grid">
+      <div class="card-grad alexa-card">
+        <section id="webAlexa" class="logo-only" aria-label="ALEXA">
+          <div class="wa-tools">
+            <button class="icon-btn" id="waMute" type="button" aria-pressed="false" title="Sound">
+              <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
+              <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+            </button>
+            <button class="icon-btn" id="waClear" type="button" title="Start a new chat">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+            </button>
           </div>
+          <button class="orb" id="waOrb" type="button" data-state="idle" aria-label="Talk to ALEXA"><img src="logo.webp" alt="Daddy Trader logo" width="646" height="470" /><span id="waLogo"></span></button>
+          <h2 class="name">ALEXA</h2>
+          <p class="status" id="waStatus" aria-live="polite"></p>
+          <div id="waLog" aria-hidden="true"></div>
+          <div class="wa-chips" aria-label="Quick questions">
+            <button type="button" data-ask="What is gold's trend today?">Gold trend</button>
+            <button type="button" data-ask="What is the biggest gold news today?">Today's news</button>
+            <button type="button" data-ask="What are the important economic events this week?">Economic events</button>
+            <button type="button" data-ask="Is there an active Daddy Trader signal?">Any signals?</button>
+          </div>
+          <form id="waForm" autocomplete="off">
+            <label class="sr" for="waInput">Ask ALEXA</label>
+            <input id="waInput" type="text" placeholder="Ask ALEXA… (e.g. analyse gold)" enterkeyhint="send" />
+            <button class="round" id="waMic" type="button" aria-label="Ask by voice">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
+            </button>
+            <button class="round" id="waSend" type="submit" aria-label="Send">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+            </button>
+          </form>
+        </section>
+      </div>
+      <article class="card-grad bt-card" style="--ic:#3cae77">
+        <div class="p-head">
+          <span class="p-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></span>
+          <div><h3>Back Testing</h3><small>Replay charts bar by bar</small></div>
+          <span class="p-pill">FREE</span>
+        </div>
+        <div class="bt-vis" aria-hidden="true">
+          <svg id="miniCandles" viewBox="0 0 300 140" preserveAspectRatio="none"></svg>
         </div>
         <div class="txt">
-          <p class="news-line" id="newsLine">Gold news, the economic calendar and tweets.</p>
-          <span class="go">Open Fundamental</span>
+          <p>Practise every ICT setup on past gold charts — replay bar by bar, place your entry, stop loss and take profit, and build the confidence to take trades your own way.</p>
+          <a class="btn btn-grad" href="backtest.html">Open Back Testing</a>
         </div>
-      </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Fundamental preview -->
+  <section class="sheet sec" id="fundamental" aria-labelledby="fund-h">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Fundamental</p>
+        <h2 class="h2" id="fund-h">Gold news, as it happens</h2>
+        <p class="lead">The biggest gold stories and the latest from ForexFactory, updated by the robot every few minutes.</p>
+      </div>
+      <a class="more" href="fundamental.html">See all news</a>
+    </div>
+    <div class="fund-grid">
+      <div>
+        <article class="hot-story" id="hotStory"><p style="margin:0;color:var(--muted)">Loading news…</p></article>
+        <ol class="news-rows" id="newsRows"></ol>
+      </div>
+      <div>
+        <h3 class="fund-sub">Latest from ForexFactory</h3>
+        <ul class="tw-list" id="twList"><li style="color:var(--muted)">Loading tweets…</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Academy -->
+  <section class="sheet sec" id="academy" aria-labelledby="acad-h">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Premium Academy</p>
+        <h2 class="h2" id="acad-h">Learn to trade gold properly</h2>
+        <p class="lead">Price action, liquidity and Smart Money Concepts — taught by Ali, step by step. Pick your course and join on WhatsApp.</p>
+      </div>
+      <a class="more" href="premium.html">See Premium</a>
+    </div>
+    <div class="courses">
+      <article class="card-grad course">
+        <span class="c-tag">STARTER</span>
+        <h3>Basic</h3>
+        <div class="price">PKR 10,000</div>
+        <div class="dur">1 week</div>
+        <p>Price action foundations, market structure and risk basics. The perfect first step into trading gold.</p>
+        <a class="btn btn-grad" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20join%20the%20Basic%20course%20(PKR%2010%2C000%20%2F%201%20week)." target="_blank" rel="noopener">Join Basic</a>
+      </article>
+      <article class="card-grad course">
+        <span class="c-tag">MOST POPULAR</span>
+        <h3>Advanced</h3>
+        <div class="price">PKR 25,000</div>
+        <div class="dur">2 weeks</div>
+        <p>Liquidity, Smart Money Concepts and ICT entries, with live chart work on real gold setups.</p>
+        <a class="btn btn-grad" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20join%20the%20Advanced%20course%20(PKR%2025%2C000%20%2F%202%20weeks)." target="_blank" rel="noopener">Join Advanced</a>
+      </article>
+      <article class="card-grad course">
+        <span class="c-tag">FULL SYSTEM</span>
+        <h3>Premium</h3>
+        <div class="price">PKR 60,000</div>
+        <div class="dur">1 month</div>
+        <p>The full system: ICT, trading psychology, personal trade reviews and direct access to Ali.</p>
+        <a class="btn btn-grad" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20join%20the%20Premium%20course%20(PKR%2060%2C000%20%2F%201%20month)." target="_blank" rel="noopener">Join Premium</a>
+      </article>
     </div>
   </section>
 
   <!-- How it works -->
   <section class="sheet sec" aria-labelledby="how-h">
-    <div class="sec-head"><h2 class="h2" id="how-h">How it works</h2></div>
+    <div class="sec-head"><div><p class="eyebrow">How It Works</p><h2 class="h2" id="how-h">How it works</h2></div></div>
     <ol class="steps" style="list-style:none;margin:0;padding:0">
       <li class="step"><div class="n" aria-hidden="true">1</div><h3>Ask ALEXA</h3><p>Ask about Gold’s trend, today’s news or upcoming events. ALEXA answers in plain words.</p></li>
       <li class="step"><div class="n" aria-hidden="true">2</div><h3>Follow the signal</h3><p>When the robot finds a real ICT setup, the signal card appears with entry, stop loss and take profit.</p></li>
@@ -401,13 +513,9 @@
   <!-- Community -->
   <section class="sheet sec comm" id="community" aria-labelledby="comm-h">
     <div>
+      <p class="eyebrow">Community</p>
       <h2 class="h2" id="comm-h">Join the Daddy Trader community</h2>
       <p class="lead">Join the WhatsApp channel to get every Gold signal the moment the robot posts it, watch the analysis videos and talk to Ali directly.</p>
-      <div class="academy">
-        <h3>Daddy Trader Academy</h3>
-        <p>Learn price action, liquidity and Smart Money Concepts — Basic, Advanced and Premium courses.</p>
-        <a class="btn gold" href="https://wa.me/923470713257?text=Hello!%20I%20want%20to%20join%20Daddy%20Trader.">Ask about courses</a>
-      </div>
     </div>
     <ul class="links">
       <li><a href="https://whatsapp.com/channel/0029Vb8tas7BFLga0KUzOI0A" target="_blank" rel="noopener">
@@ -468,11 +576,11 @@
   nav.addEventListener('click', function(e){ if (e.target.closest('a')) closeMenu(); });
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeMenu(); });
 
-  // ---- ALEXA: jaldi sawal wale buttons ----
+  // ---- ALEXA: quick-question buttons ----
   Array.prototype.forEach.call(document.querySelectorAll('[data-ask]'), function(b){
     b.addEventListener('click', function(){ if (window.AlexaWeb) AlexaWeb.ask(b.getAttribute('data-ask')); });
   });
-  // Space se bolna sirf tab jab ALEXA screen par nazar aa rahi ho (warna Space se page scroll ho)
+  // Space to talk only when ALEXA is visible on screen (otherwise Space scrolls the page)
   var alexaVisible = true;
   if ('IntersectionObserver' in window){
     new IntersectionObserver(function(es){ alexaVisible = es[0].isIntersecting; }, { threshold: .35 }).observe($('webAlexa'));
@@ -481,12 +589,12 @@
     if (e.code === 'Space' && !alexaVisible) e.stopImmediatePropagation();
   }, true);
 
-  // ---- Gold ki live qeemat (monitor.json) ----
+  // ---- Gold live price (monitor.json) ----
   function fmt(n){ return (+n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
   window.DTSig.loadPrice().then(function(m){
     if (!m || !m.gold) return;
     var g = m.gold;
-    // chhota chart
+    // small spark chart
     var sp = (g.spark || []).map(Number).filter(isFinite);
     if (sp.length > 2){
       var lo = Math.min.apply(null, sp), hi = Math.max.apply(null, sp), rg = (hi - lo) || 1;
@@ -498,11 +606,9 @@
         '<path d="' + line + ' L300 90 L0 90 Z" fill="url(#spg)"/><path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="2.2" vector-effect="non-scaling-stroke"/>';
       $('spPx').textContent = fmt(g.price);
     }
-    var n = (m.news || [])[0];
-    if (n) $('newsLine').textContent = n.title || '';
   });
 
-  // ---- Back Testing wali chhoti candles ----
+  // ---- Back Testing mini candles ----
   (function(){
     var svg = $('miniCandles'); if (!svg) return;
     var out = '', c = 70, w = 300 / 26;
@@ -518,6 +624,29 @@
     svg.innerHTML = out;
   })();
 
+  // ---- Fundamental preview: hot story, latest stories, tweets (monitor.json) ----
+  fetch('monitor.json?t=' + Date.now()).then(function(r){ return r.json(); }).then(function(m){
+    var news = m.news || [];
+    var hot = $('hotStory'), rows = $('newsRows'), tw = $('twList');
+    if (news.length && hot){
+      var h = news[0];
+      hot.innerHTML = '<span class="hot-tag">HOT STORY</span>' +
+        '<a href="news.html?id=' + encodeURIComponent(h.ts) + '">' + esc(h.title) + '</a>' +
+        '<span class="hot-meta">From ' + esc(h.src || '') + ' · ' + esc(h.t || '') + '</span>';
+      if (rows){
+        rows.innerHTML = news.slice(1, 6).map(function(n, i){
+          return '<li><a href="news.html?id=' + encodeURIComponent(n.ts) + '"><span class="rn">' + (i + 1) + '</span><span><b>' + esc(n.title) + '</b><small>From ' + esc(n.src || '') + ' · ' + esc(n.t || '') + '</small></span></a></li>';
+        }).join('');
+      }
+    }
+    var tweets = m.tweets || [];
+    if (tweets.length && tw){
+      tw.innerHTML = tweets.slice(0, 6).map(function(t){
+        return '<li><a href="' + esc(t.link || '#') + '" target="_blank" rel="noopener">' + esc(t.title) + '</a></li>';
+      }).join('');
+    }
+  }).catch(function(){});
+
   // ---- signals ----
   var ALERT = '<a class="sig-alert" href="https://whatsapp.com/channel/0029Vb8tas7BFLga0KUzOI0A" target="_blank" rel="noopener">Join the WhatsApp channel for signals</a>';
   fetch('signals.json?t=' + Date.now()).then(function(r){ return r.json(); }).then(function(d){
@@ -526,7 +655,7 @@
     var latest = sigs.slice(0, 2);
     if (latest.length) html = latest.map(function(s){ return DTSig.card(s); }).join('');
     else html = '<div class="sig-empty">' + DTSig.gold() + DTSig.empty({ extra: ALERT }) + '</div>';
-    // TP hit wale trades — har ek ka alag sunehra card
+    // TP-hit trades — each gets its own gold card
     var seen = {}; latest.forEach(function(s){ if (s.id) seen[s.id] = 1; });
     var hits = (d.tp_hits || []).filter(function(h){ return !seen[h.id]; }).slice().reverse().slice(0, 2);
     if (hits.length) html += '<h3 class="sig-sub">Targets hit</h3>' + hits.map(function(h){ return DTSig.hit(h); }).join('');

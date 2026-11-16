@@ -21,7 +21,7 @@
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="apple-touch-icon" href="icon-192.png" />
 <link rel="manifest" href="manifest.json" />
-<meta name="theme-color" content="#06070a" />
+<meta name="theme-color" content="#07080d" />
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -77,11 +77,11 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ================= Daddy Trader — Stillwater style ================= */
 :root{
-  --bg:#06070a; --bg-2:#0b0d14; --card:#10131d; --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
+  --bg:#07080d; --bg-2:#0c0f1a; --card:#10131d; --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
   --clay:#f5c542; --clay-soft:#141826; --line:#1c2030; --line-2:#2a3044;
   --up:#3fbf86; --down:#ff5d5d;
   --serif:'Manrope', ui-sans-serif, system-ui, sans-serif;
@@ -429,7 +429,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 40px;margin-top:40px}
 <style id="ink-theme">
 /* ================= Daddy Trader — "Ink" look (hatched page, paper sheets, corner brackets) ================= */
 html{
-  --ib-page:#06070a; --ib-hatch:rgba(255,255,255,.04); --ib-paper:#0b0d14; --ib-card:#10131d; --ib-raise:#141826;
+  --ib-page:#07080d; --ib-hatch:rgba(255,255,255,.04); --ib-paper:#0b0d14; --ib-card:#10131d; --ib-raise:#141826;
   --ib-ink:#f3f4f7; --ib-soft:#c3c7d2; --ib-muted:#8a90a2; --ib-faint:#8a90a2; --ib-line:#1c2030; --ib-line-strong:#2a3044;
   --ib-bracket:#2a3044; --ib-inv:#f3f4f7; --ib-inv-ink:#06070a; --ib-live:#22c55e;
   --ib-shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -14px rgba(0,0,0,.7);
@@ -631,6 +631,66 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 @media (max-width:860px){.ff-news{grid-template-columns:1fr}.ff-list{grid-column:1;grid-row:2}.ff-hot{grid-column:1;grid-row:1}}
 </style>
 <link rel="stylesheet" href="theme.css" />
+<style id="modern-bold">
+/* ================= Daddy Trader — Modern Bold ================= */
+:root{
+  --bg:#07080d; --bg-2:#0c0f1a; --card:#10131d; --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
+  --clay:#f5c542; --clay-soft:#141826; --line:#1c2030; --line-2:#2a3044;
+  --up:#3fbf86; --down:#ff5d5d;
+  --gold:#f5c542; --gold-hi:#ffe08a; --emerald:#3cae77; --emerald-hi:#8fe3b5;
+  --live:#22c55e; --buy:#3fbf86; --sell:#ff5d5d; --panel:#10131d; --deep:#0c0f1a; --raise:#141826;
+  --grad:linear-gradient(135deg,#f5c542,#3cae77);
+  --head:"Archivo","Manrope",sans-serif;
+}
+body{background-color:#07080d;
+  background-image:radial-gradient(1000px 560px at 12% -10%, rgba(245,197,66,.10), transparent 60%),
+    radial-gradient(900px 520px at 88% -6%, rgba(60,174,119,.12), transparent 60%);
+  background-attachment:fixed}
+::selection{background:rgba(245,197,66,.35)}
+.grad-text{background:linear-gradient(90deg,#f5c542,#3cae77);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card-grad{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+.btn-grad{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800;border-radius:14px;min-height:48px}
+.btn-grad:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
+.eyebrow{font-family:"Archivo","Manrope",sans-serif!important;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--soft)}
+
+/* ---- headings ---- */
+.h2{font-family:"Archivo","Manrope",sans-serif;font-weight:900;letter-spacing:-.02em;font-size:clamp(28px,3.4vw,42px)}
+.lead{color:#c3c7d2}
+.sub-head h3{font-family:"Archivo","Manrope",sans-serif;font-weight:800;letter-spacing:-.02em;font-size:clamp(24px,3vw,32px)}
+
+/* ---- sheets + gradient-border cards ---- */
+.sheet{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+.sig-card,.mon-card,.newsx-card,.ticker-card{border:1px solid transparent!important;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box!important;border-radius:20px!important;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+.sig-card:hover,.mon-card:hover,.newsx-card:hover,.ticker-card:hover{border-color:transparent!important;transform:translateY(-3px);box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 12px 36px -14px rgba(245,197,66,.28)}
+.sig-card::before,.mon-card::before,.newsx-card::before,.ticker-card::before,.scan-card::before{display:none!important}
+.newsx-card:hover .nx-arrow{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;border-color:transparent}
+
+/* ---- buttons ---- */
+.btn{border-radius:14px}
+.btn.primary,.btn.gold,.btn.solid{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800}
+.btn.primary:hover,.btn.gold:hover,.btn.solid:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid #2a3044;border-radius:14px;font-weight:700}
+.btn.ghost:hover{border-color:#f5c542;color:#f5c542}
+.skip{border-radius:999px}
+
+/* ---- signal / monitor type ---- */
+.sig-type{border-radius:999px}
+.sig-pair{font-family:"Archivo","Manrope",sans-serif!important;font-weight:800!important}
+.scan-title{font-family:"Archivo","Manrope",sans-serif!important;font-weight:800!important}
+.nx-title{font-family:"Archivo","Manrope",sans-serif!important;font-weight:800!important;font-size:19px}
+.tk-title{font-family:"Archivo","Manrope",sans-serif!important;font-weight:800!important}
+.g-price{font-family:"Archivo","Manrope",sans-serif;font-weight:800}
+.mon-tag{border-color:rgba(245,197,66,.4);color:#f5c542}
+.wa-float{background:linear-gradient(135deg,#f5c542,#3cae77)}
+.wa-float svg{fill:#0a0f0a}
+
+/* ---- Gold news list (Hot Story + Latest Stories) ---- */
+.ff-list,.ff-hot{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+.ff-hot:hover{border-color:transparent;transform:translateY(-3px);box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 12px 36px -14px rgba(245,197,66,.28)}
+.ff-hot-title{font-family:"Archivo","Manrope",sans-serif;font-weight:800;font-size:22px;line-height:1.3;letter-spacing:-.015em}
+.ff-num{color:#f5c542}
+.ff-row:hover .ff-arrow{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;border-color:transparent}
+</style>
 </head>
 <body>
 <a class="skip" href="#signals">Skip to content</a>
@@ -659,14 +719,14 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 <!-- 02 · MONITOR -->
 <section class="sheet sec" id="monitor" aria-labelledby="mon-h">
     <div class="sec-head"><div>
-      <h1 class="h2" id="mon-h">Gold News &amp; Tweets</h1>
+      <h1 class="h2" id="mon-h"><span class="grad-text">Gold</span> News &amp; Tweets</h1>
       <p class="lead">The latest gold news and tweets from X — fundamentals only, nothing else.</p>
     </div></div>
     <p class="mon-updated" id="mon-updated">Loading live market data…</p>
     <div class="mon-grid">
       <div class="mon-card mon-wide" id="gold-card"></div>
     </div>
-    <div class="sub-head"><h3>Gold <em>news</em></h3><span class="mon-tag">AUTO-FEED</span></div>
+    <div class="sub-head"><h3><span class="grad-text">Gold</span> <em>news</em></h3><span class="mon-tag">AUTO-FEED</span></div>
     <div class="ff-news" id="newsx-box"><p class="mon-empty">Loading…</p></div>
 </section>
 
@@ -674,7 +734,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 <!-- 02 · TWEETS -->
 <section class="sheet sec" id="tweets" aria-labelledby="twt-h">
     <div class="sec-head"><div>
-      <h2 class="h2" id="twt-h">Tweets</h2>
+      <h2 class="h2" id="twt-h"><span class="grad-text">Tweets</span></h2>
       <p class="lead">ForexFactory's latest posts — gold and Forex news, shown here as cards.</p>
     </div></div>
     <div class="newsx-grid" id="tweets-grid"><p class="mon-empty">Loading…</p></div>
@@ -773,24 +833,24 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
       <input id="cz-size" type="range" min="60" max="220" value="${SITE_CONFIG.picSize}" style="width:100%"><br>
       Shape:
       <select id="cz-shape" style="width:100%">
-        <option value="circle">Circle (gol)</option>
-        <option value="square">Square (chakor)</option>
+        <option value="circle">Circle</option>
+        <option value="square">Square</option>
       </select><br><br>
-      Pic ki jagah:
+      Pic position:
       <select id="cz-pos" style="width:100%">
         <option value="about">About section</option>
-        <option value="hero">Upar (naam ke sath)</option>
-        <option value="both">Dono jagah</option>
+        <option value="hero">Top (with name)</option>
+        <option value="both">Both places</option>
       </select><br><br>
       Font:
       <select id="cz-font" style="width:100%">
         <option value="sans">Sans (modern)</option>
         <option value="mono">Mono (typewriter)</option>
-        <option value="serif">Serif (akhbari)</option>
+        <option value="serif">Serif (newspaper)</option>
       </select><br><br>
       Font size: <span id="cz-fv">${SITE_CONFIG.fontSize}</span>px<br>
       <input id="cz-fs" type="range" min="13" max="20" value="${SITE_CONFIG.fontSize}" style="width:100%"><br><br>
-      <button id="cz-copy" style="width:100%;padding:8px;background:#b4903f;color:#fff;border:none;border-radius:4px;cursor:pointer">Settings copy karo</button>
+      <button id="cz-copy" style="width:100%;padding:8px;background:#b4903f;color:#fff;border:none;border-radius:4px;cursor:pointer">Copy settings</button>
       <div id="cz-msg" style="color:#7fbfa2;margin-top:6px;font-size:11px"></div>`;
     document.body.appendChild(P);
     const cfg = {...SITE_CONFIG};
@@ -820,7 +880,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
   };`;
       navigator.clipboard.writeText(txt).then(() => {
         document.getElementById('cz-msg').textContent =
-          'Copy ho gaya! index.html mein purana SITE_CONFIG isse replace karo.';
+          'Copied! Replace the old SITE_CONFIG in index.html with this.';
       });
     });
   }
@@ -1301,7 +1361,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
     dash.innerHTML =
       '<div class="client-hero"><div><h3>' + name + ' — Personal Risk Plan</h3>' +
       '<span>Balance $' + bal.toLocaleString() + ' · Risk ' + risk + '% · RR 1:' + rr + ' · Win rate ' + Math.round(wr*100) + '%</span></div>' +
-      '<button class="btn ghost" style="border-color:rgba(255,255,255,.6);color:#fff" onclick="rmBack()">← Wapis</button></div>' +
+      '<button class="btn ghost" style="border-color:rgba(255,255,255,.6);color:#fff" onclick="rmBack()">← Back</button></div>' +
       '<div class="client-stats">' +
       '<div class="cstat"><b>$' + riskAmt.toFixed(2) + '</b><span>Risk per Trade</span></div>' +
       '<div class="cstat"><b>' + Math.max(0.01, Math.floor(lot*100)/100).toFixed(2) + '</b><span>Lot Size (Gold)</span></div>' +
