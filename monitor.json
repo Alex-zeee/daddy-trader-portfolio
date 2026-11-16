@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 13:31 PKT",
+ "updated": "16-11-2026 13:46 PKT",
  "gold": {
-  "price": 3856.16,
+  "price": 3859.83,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.47,
+  "chg": -0.38,
   "src": "XAUUSD Spot",
   "spark": [
-   3880.43,
    3880.51,
    3880.51,
    3880.43,
@@ -55,14 +54,15 @@
    3857.34,
    3854.57,
    3856.02,
-   3856.16
+   3859.16,
+   3859.83
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.37,
-   "chg": -3.39,
+   "price": 47.295,
+   "chg": -3.54,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.37
+    47.295
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.46,
-   "chg": 0.05,
+   "price": 103.438,
+   "chg": 0.03,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.46
+    103.438
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 89.05,
-   "chg": 0.55,
+   "price": 88.91,
+   "chg": 0.4,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,7 @@
     86.53,
     88.74,
     88.56,
-    89.05
+    88.91
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1017,
-   "chg": -0.3,
+   "price": 1.1025,
+   "chg": -0.22,
    "spark": [
     1.1213,
     1.1225,
@@ -201,13 +201,13 @@
     1.1169,
     1.1095,
     1.105,
-    1.1017
+    1.1025
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3204,
-   "chg": -0.2,
+   "price": 1.3217,
+   "chg": -0.11,
    "spark": [
     1.3273,
     1.3336,
@@ -230,13 +230,42 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3204
+    1.3217
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 159.4,
+   "chg": -0.3,
+   "spark": [
+    158.143,
+    157.806,
+    158.523,
+    158.268,
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.4
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1806.8,
-   "chg": -1.51,
+   "price": 1810.01,
+   "chg": -1.34,
    "spark": [
     1911.7,
     1907.55,
@@ -285,13 +314,13 @@
     1811.26,
     1815.93,
     1819.75,
-    1806.8
+    1810.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64519.1,
-   "chg": -1.22,
+   "price": 64587.9,
+   "chg": -1.11,
    "spark": [
     67340.5,
     67234.6,
@@ -340,7 +369,7 @@
     64413.2,
     64648.6,
     64915.9,
-    64519.1
+    64587.9
    ]
   }
  ],
@@ -413,18 +442,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794817907.631995,
+   "ts": 1794818808.344544,
    "title": "Gold extends slide below $3,900 as dollar strength and Fed hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 01:31 PM"
+   "t": "16 Nov \u00b7 01:46 PM"
   },
   {
-   "ts": 1794817907.631995,
+   "ts": 1794818808.344544,
    "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 01:31 PM"
+   "t": "16 Nov \u00b7 01:46 PM"
   },
   {
    "ts": 1794800843.0,
@@ -578,6 +607,12 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQk9oaTNXeFlrV09qN1NBeC1pN0s1bDR3dTZPV0hYTUxNakdteGIwUUpxN2hRT0wtSUpSWUZhTkM2TzZlU3Vnb2JGNERsaFM3TXpfblA4TFE5NW50RklwcXJpRDJ3V1F4MC0yaW9jOWNIMlk1VEU2cUY2azdoQnY0cW05QTVfN3I0ZHRNekNaVDZ1cWhtcV83Vjg2SFYwYTQ3WmloUHNCRXVCNGllcS1Z0gG0AUFVX3lxTE1TaWR6NXFfOVdPY2kwdms5RFZXUS11UTEyRHp3N1lXY1RyNDlxR0xLSnpSN0wwXzJZcmphNERIWlMxZHlidE5YMHVmajV5Um95OWxhWHppWVlxbHNDNXgxN201ZW9JM2dRSmFZbmhWeUVUNU9rMDVxVk9pLXpRTlFiLUNCVnNvRWlyODdLb1ZIRlJGWFMyN0VaSU0zRWphTGdfeUlaWkRPdnNhWWE2ZExDNnNENg?oc=5"
   },
   {
+   "ts": 1794795660.0,
+   "title": "China\u2019s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkhTRUtwQlFmY3p2dmFyR1ZXZGRSZUY2UmtwX3Z4cUVuckdsRGY3c2lCOVdsRThsVHprZThreFVVMVFnbTJIdmdIZm1mOEZxb2xxTzlQMWpueUg5WS1HOUxGQnk3VXpXQ0k3MWVnTVMtaGh0Mno4V3BjeUpFVVVwaTFMSWtxeldYTmNMX1daZFlESnFXQ0Y1cUFBV3gwQdIBowFBVV95cUxOVHI0MVJoNTh3TWM0MExwYnZjT0JyLWl5N2JhQkktVlM3Ml9kYkNCRzBKNXdQc1pGa3lDQklBRFdaRWlxY3FoTm9VbGNEam1xWjdld2RJMWg2TGpjVVlCSkZyWmp0NzFER0pqbVRhZ3B6M3AwSlRCUmY0OWM2S0R1VGRQNVBMNVBiS2w5QU1WcjVzWHkwelRDSjdodFpmV0NvMXgw?oc=5"
+  },
+  {
    "ts": 1794792240.0,
    "title": "China confirms first Xi-Trump-Putin summit on Thursday",
    "src": "ForexFactory",
@@ -588,12 +623,6 @@
    "title": "Japan's economy unexpectedly shrinks in July-September as consumption falters",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUzF6U0xCTk01Mk95ZlpQVW84Tm1VQWVFdlVfdTBLMGtmeHJ2bm9HYVJtZUJUTlhQalI4Ry1GQUMycjNEa2MyYlJtSlZJS2ZrZ2wtcVJ4ZXNKX00yWm9pT1pJYUJxV2daczFDSC1UYWJVeHNTSnNna3NQdlZ4Y1Q3Z3ozRWJHZmZuYWI3aGlVUFAzd3JsYjRCVjRaX0V1M2NkekM5Wk5FU2tHV012YkpJ0gG0AUFVX3lxTE9pUG5DMVZRMEljWTVTdE5SbzR5RVhoV1Y3SjFBQUI5Z1lGdHA1cG1iY2NEUktxWHgwWDZFYjRmdDBPemlqRnhoUW8xa0hWTWd5Y05MUWhNWFdRUndRcVhuUTgxTk5hUkZCV3lBam9kdm1rcDNEUnlSWnlhMnUtWUNDV1psVXFqSGZRVkIzRTRSV1BvTGhwYVY4azUwRVVDQWhHWVRxY19BNDZmOERZUFFtOVFyNQ?oc=5"
-  },
-  {
-   "ts": 1794776737.0,
-   "title": "Week ahead: Inflation, spending, and Fed signals | Nov 15 - 21",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVExhbmVGeG5UWW5FNVdUSFk1MXRkQ1o0aVRPNkhYa0FSaVpmM0F2WnJWSEJPT0Rma0hVLW9iV2R6TkF2MWFLRDJhUEROam5LMS1US2YzVjUxSmROVDhYd3YtZkFzRFNyMDdVNDZVOU1LN2NvUS1mYkZmc1dnRE4xYm5Ea0F5LWJmUWdIblNNWXrSAZYBQVVfeXFMTmozT3VPWVVfNVp1WUctaDA3VVZNMUFnV0h5Rl9WSGV0TUxEREwtREV3Z24xSm1DNXN1QWwwZDNOTS1DOTlGMjdwaHZVZTJxMUlxVXliR3RUOGlwTGRGdDIxNEIyaHdiZk5IOHpFQUFOdmlfdXdqc1gweHltWkhDMDZOVEs1M3hqclNhTS1nRmNpemlHbmln?oc=5"
   }
  ],
  "sentiment": {
