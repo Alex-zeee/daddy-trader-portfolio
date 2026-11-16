@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 16:31 PKT",
+ "updated": "16-11-2026 16:46 PKT",
  "gold": {
-  "price": 3874.97,
+  "price": 3872.91,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": 0.01,
+  "chg": -0.04,
   "src": "XAUUSD Spot",
   "spark": [
-   3900.5,
    3890.71,
    3888.74,
    3885.04,
@@ -55,14 +54,15 @@
    3872.95,
    3873.01,
    3873.51,
-   3874.97
+   3874.19,
+   3872.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.735,
-   "chg": -2.64,
+   "price": 47.75,
+   "chg": -2.61,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.735
+    47.75
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.549,
-   "chg": 0.13,
+   "price": 103.518,
+   "chg": 0.1,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.549
+    103.518
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.18,
-   "chg": -0.43,
+   "price": 88.2,
+   "chg": -0.41,
    "spark": [
     101.41,
     103.66,
@@ -143,13 +143,42 @@
     86.53,
     88.74,
     88.56,
-    88.18
+    88.2
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 5.154,
+   "chg": 1.0,
+   "spark": [
+    5.089,
+    5.098,
+    5.136,
+    5.117,
+    5.146,
+    4.953,
+    4.988,
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998,
+    5.103,
+    5.154
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1011,
-   "chg": -0.36,
+   "price": 1.101,
+   "chg": -0.37,
    "spark": [
     1.1213,
     1.1225,
@@ -172,13 +201,13 @@
     1.1169,
     1.1095,
     1.105,
-    1.1011
+    1.101
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3193,
-   "chg": -0.29,
+   "price": 1.3189,
+   "chg": -0.32,
    "spark": [
     1.3273,
     1.3336,
@@ -201,13 +230,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3193
+    1.3189
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.592,
-   "chg": -0.18,
+   "price": 159.63,
+   "chg": -0.15,
    "spark": [
     158.143,
     157.806,
@@ -230,13 +259,13 @@
     158.705,
     159.734,
     159.875,
-    159.592
+    159.63
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1807.82,
-   "chg": -1.46,
+   "price": 1805.23,
+   "chg": -1.6,
    "spark": [
     1898.02,
     1892.36,
@@ -285,13 +314,13 @@
     1804.26,
     1795.95,
     1807.15,
-    1807.82
+    1805.49
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64612.6,
-   "chg": -1.07,
+   "price": 64461.2,
+   "chg": -1.31,
    "spark": [
     66941.2,
     66786.2,
@@ -340,7 +369,7 @@
     64404.0,
     64270.8,
     64509.3,
-    64612.4
+    64461.3
    ]
   }
  ],
@@ -413,32 +442,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794828709.086358,
+   "ts": 1794829606.426063,
+   "title": "Gold slides to lowest level in over a year on dollar strength, Fed hike bets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
+   "t": "16 Nov \u00b7 04:46 PM"
+  },
+  {
+   "ts": 1794829606.426063,
    "title": "Silver could hit $75 an ounce next year as macro headwinds ease: BofA",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-hit-75-an-ounce-next-year-as-macro-headwinds-ease-bofa-5028953",
-   "t": "16 Nov \u00b7 04:31 PM"
+   "t": "16 Nov \u00b7 04:46 PM"
   },
   {
-   "ts": 1794828709.086358,
+   "ts": 1794829606.426063,
    "title": "European gas slips as U.S. shipping waivers override Middle East turmoil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807",
-   "t": "16 Nov \u00b7 04:31 PM"
+   "t": "16 Nov \u00b7 04:46 PM"
   },
   {
-   "ts": 1794828709.086358,
-   "title": "Gold extends slide below $3,900 as dollar strength and Fed hike bets weigh",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 04:31 PM"
-  },
-  {
-   "ts": 1794828709.086358,
+   "ts": 1794829606.426063,
    "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 04:31 PM"
+   "t": "16 Nov \u00b7 04:46 PM"
   },
   {
    "ts": 1794823856.0,
