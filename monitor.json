@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 02:16 PKT",
+ "updated": "17-11-2026 02:31 PKT",
  "gold": {
-  "price": 3852.04,
+  "price": 3853.47,
   "open": 3880.44,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.73,
+  "chg": -0.7,
   "src": "XAUUSD Spot",
   "spark": [
-   3855.82,
    3855.51,
    3863.15,
    3861.88,
@@ -55,14 +54,15 @@
    3853.16,
    3851.76,
    3852.07,
-   3852.04
+   3853.98,
+   3853.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 46.835,
-   "chg": -4.48,
+   "price": 46.915,
+   "chg": -4.32,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    46.835
+    46.915
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.614,
-   "chg": 0.2,
+   "price": 103.605,
+   "chg": 0.19,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.614
+    103.605
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.45,
-   "chg": -3.51,
+   "price": 85.38,
+   "chg": -3.59,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,7 @@
     86.53,
     88.74,
     88.56,
-    85.45
+    85.38
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0997,
-   "chg": -0.48,
+   "price": 1.1,
+   "chg": -0.46,
    "spark": [
     1.1213,
     1.1225,
@@ -201,13 +201,13 @@
     1.1169,
     1.1095,
     1.105,
-    1.0997
+    1.1
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3181,
-   "chg": -0.38,
+   "price": 1.3183,
+   "chg": -0.36,
    "spark": [
     1.3273,
     1.3336,
@@ -230,13 +230,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3181
+    1.3183
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.46,
-   "chg": -0.26,
+   "price": 159.44,
+   "chg": -0.27,
    "spark": [
     158.143,
     157.806,
@@ -259,13 +259,13 @@
     158.705,
     159.734,
     159.875,
-    159.46
+    159.44
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1817.78,
-   "chg": -0.91,
+   "price": 1823.74,
+   "chg": -0.59,
    "spark": [
     1743.67,
     1768.03,
@@ -314,13 +314,13 @@
     1819.43,
     1822.05,
     1818.92,
-    1817.78
+    1823.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64929.1,
-   "chg": -0.59,
+   "price": 65173.5,
+   "chg": -0.22,
    "spark": [
     63498.9,
     64115.1,
@@ -369,7 +369,7 @@
     64983.5,
     64996.2,
     65002.1,
-    64929.1
+    65173.5
    ]
   }
  ],
@@ -434,18 +434,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794863808.001265,
+   "ts": 1794864711.65974,
    "title": "Gold slides to lowest level in more than a year on dollar strength, Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 02:16 AM"
+   "t": "17 Nov \u00b7 02:31 AM"
   },
   {
-   "ts": 1794863808.001265,
+   "ts": 1794864711.65974,
    "title": "Iranian leaders fret over public mood as gas shortages add to war ills",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iranian-leaders-fret-over-public-mood-as-gas-shortages-add-to-war-ills-5030314",
-   "t": "17 Nov \u00b7 02:16 AM"
+   "t": "17 Nov \u00b7 02:31 AM"
   },
   {
    "ts": 1794857298.0,
@@ -622,6 +622,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
