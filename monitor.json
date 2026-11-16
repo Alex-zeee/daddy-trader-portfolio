@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 18:46 PKT",
+ "updated": "16-11-2026 19:01 PKT",
  "gold": {
-  "price": 3871.62,
+  "price": 3865.81,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.07,
+  "chg": -0.22,
   "src": "XAUUSD Spot",
   "spark": [
-   3881.85,
    3886.33,
    3880.32,
    3874.59,
@@ -55,14 +54,15 @@
    3866.16,
    3869.31,
    3866.87,
-   3871.62
+   3863.94,
+   3865.81
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.285,
-   "chg": -3.56,
+   "price": 47.205,
+   "chg": -3.72,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.285
+    47.205
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.482,
-   "chg": 0.07,
+   "price": 103.512,
+   "chg": 0.1,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,42 @@
     102.91,
     103.17,
     103.41,
-    103.482
+    103.512
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 87.51,
+   "chg": -1.19,
+   "spark": [
+    101.41,
+    103.66,
+    101.79,
+    97.15,
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.85,
+    86.04,
+    86.53,
+    88.74,
+    88.56,
+    87.51
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.141,
-   "chg": -0.25,
+   "price": 5.135,
+   "chg": -0.37,
    "spark": [
     5.098,
     5.136,
@@ -143,7 +172,7 @@
     4.998,
     5.103,
     5.154,
-    5.141
+    5.135
    ]
   },
   {
@@ -177,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3202,
-   "chg": -0.22,
+   "price": 1.32,
+   "chg": -0.23,
    "spark": [
     1.3273,
     1.3336,
@@ -201,13 +230,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3202
+    1.32
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.568,
-   "chg": -0.19,
+   "price": 159.59,
+   "chg": -0.18,
    "spark": [
     158.143,
     157.806,
@@ -230,15 +259,14 @@
     158.705,
     159.734,
     159.875,
-    159.568
+    159.59
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1806.21,
-   "chg": -1.55,
+   "price": 1800.8,
+   "chg": -1.84,
    "spark": [
-    1852.15,
     1839.76,
     1824.63,
     1842.53,
@@ -285,15 +313,15 @@
     1807.15,
     1804.41,
     1798.06,
-    1806.21
+    1801.76,
+    1800.8
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64396.6,
-   "chg": -1.41,
+   "price": 64050.5,
+   "chg": -1.94,
    "spark": [
-    65859.9,
     65686.9,
     65298.2,
     65865.3,
@@ -340,7 +368,8 @@
     64509.3,
     64376.1,
     64095.3,
-    64396.4
+    64114.3,
+    64050.5
    ]
   }
  ],
@@ -413,25 +442,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794836806.690151,
+   "ts": 1794837710.035858,
    "title": "Gold slides to lowest level in over a year on dollar strength, Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 06:46 PM"
+   "t": "16 Nov \u00b7 07:01 PM"
   },
   {
-   "ts": 1794836806.690151,
+   "ts": 1794837710.035858,
    "title": "Silver could hit $75 an ounce next year as macro headwinds ease: BofA",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-hit-75-an-ounce-next-year-as-macro-headwinds-ease-bofa-5028953",
-   "t": "16 Nov \u00b7 06:46 PM"
+   "t": "16 Nov \u00b7 07:01 PM"
   },
   {
-   "ts": 1794836806.690151,
+   "ts": 1794837710.035858,
    "title": "European gas slips as U.S. shipping waivers override Middle East turmoil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807",
-   "t": "16 Nov \u00b7 06:46 PM"
+   "t": "16 Nov \u00b7 07:01 PM"
+  },
+  {
+   "ts": 1794835813.0,
+   "title": "Canada October CPI 3.1% vs +3.2% expected",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/canada-october-cpi-3-1-vs-3-2-expected/",
+   "t": "16 Nov \u00b7 06:30 PM",
+   "body": [
+    "USD/CAD was up 16 pips to 1.4286 ahead of the data and Canadian 10-year notes were trading at a yield of 3.84%. The initial reaction has been to sell the loonie, at that's boosted USD/CAD to 1.4300 while 10s are down to 3.81%.",
+    "The Bank of Canada has taken a hawkish stance and this report raises questions on how much that's really needed. Ex-energy CPI rose 2.0% y/y and pump prices are down in November. The BOC is making the case that prices are broadening but there is weakening to, with shelter at just 1.4% y/y and cellular services -6.2%. Trim is running at 1.6% annualized over three months.",
+    "A problematic spot in Canada and the US is goods, where prices were up 4.3% y/y. Another thing hawks can point to is clothing, up 3.4% m/m on higher shipping costs. Grocery inflation also ticked up, but at 2.0% it is still below headline for a third month.",
+    "Three weeks ago the BoC hiked to 2.5%, the first move in a year, and Macklem said more may be needed. At that point swaps had about a 60% chance of another in December. Governing Council\u2019s own case for holding was that the inflation was concentrated in energy and energy-heavy services like airfares. This report is that argument, with trim moving the wrong way for a hike. December 9 just got a lot harder to justify and the next CPI report isn't until Dec 14."
+   ]
   },
   {
    "ts": 1794827172.0,
@@ -542,23 +584,6 @@
     "For the BOJ, which raised rates in June and September, economists say the miss changes little. Several argued that weak consumption is itself a symptom of high prices, which strengthens the case for further hikes, and many expect the next move as soon as December. One note cautioned, however, that if consumer weakness persists, it could widen divisions on the board and give more dovish members grounds to argue for caution.",
     "That debate gets an early test later on Monday, when hawkish board member Hajime Takata speaks at 04:00 GMT (11:00 pm ET Sunday)."
    ]
-  },
-  {
-   "ts": 1794793219.0,
-   "title": "Gold slips toward $3,876 ahead of Warsh as Fed speakers line up behind tighter policy",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-slips-toward-3-876-ahead-of-warsh-as-fed-speakers-line-up-behind-tighter-policy/",
-   "t": "16 Nov \u00b7 06:40 AM",
-   "body": [
-    "How the market reacts to Warsh will depend on tone more than detail. If he gives weight to AI as a future disinflationary force, traders could read it as a reason the Fed can stop after a few more hikes. That would offer relief to front-end Treasury yields and to gold. If he echoes Schmid\u2019s view that AI demand responds to rates, it backs a longer tightening cycle and supports the US dollar. Gold remains the most exposed asset. With ETF selling risk now flagged and $4,000 broken, a hawkish lean could extend losses quickly. For equities, his comments on AI land the day before Nvidia\u2019s results and will feed straight into how investors value the AI trade.",
-    "-- Warsh has staked part of his Fed leadership on the idea that AI can ease inflation, and on Monday he makes that case to a room of colleagues who have spent the past few days warning it is doing the opposite.",
-    "Federal Reserve Chair Kevin Warsh gives opening remarks at the Fed\u2019s Productivity and Jobs Task Force Conference on Monday at 17:00 GMT (12:00 pm ET), hosted by the San Francisco Fed. The appearance follows a run of hawkish commentary from his colleagues over the past few days, and a December rate increase is widely expected.",
-    "The forum will bring together technology executives, economists and employers to examine whether artificial intelligence will lower inflation, push prices higher or displace workers. It is the first major public event for one of five task forces Warsh set up after taking office in May. He flagged it in October, when he described the surge in AI investment as one of the factors behind higher inflation. Warsh has argued that AI could eventually help firms produce more at lower cost and ease price pressure. Some colleagues see the AI boom adding to inflation today, with the productivity gains still unproven.",
-    "That debate has been front and centre in recent days. Kansas City Fed President Jeff Schmid said inflation is uncomfortably above target and heading the wrong way, and rejected the idea that AI-driven demand is beyond the reach of higher rates. Boston Fed President Susan Collins backed a steady, gradual pace of hikes, but said the eventual rate path may end up higher than she had expected. Vice Chair Philip Jefferson said the trajectory of inflation is the most important signal for policy, and warned that higher energy prices risk a broader rise, with PCE inflation at 3.6% in September.",
-    "The Fed raised rates to a 3.75% to 4.00% range in September and held in October. Markets are fully priced for a quarter-point increase on December 8-9, with a small chance of a larger move.",
-    "Gold has taken the brunt of that hawkish shift. The metal slipped in Asian trade to around $3,876 an ounce, extending a slide of almost 7% since last Tuesday, after Goldman Sachs cut its end-2027 forecast to $4,650 from $4,800 on expectations of a further hike in March 2027.",
-    "Opening remarks at a themed conference may carry little direct policy guidance, and Warsh said in October that he does not prejudge meetings. Any comment on AI\u2019s effect on inflation, however, will be read for clues about December. Fed minutes follow on Wednesday at 19:00 GMT."
-   ]
   }
  ],
  "tweets": [
@@ -587,16 +612,16 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkhTRUtwQlFmY3p2dmFyR1ZXZGRSZUY2UmtwX3Z4cUVuckdsRGY3c2lCOVdsRThsVHprZThreFVVMVFnbTJIdmdIZm1mOEZxb2xxTzlQMWpueUg5WS1HOUxGQnk3VXpXQ0k3MWVnTVMtaGh0Mno4V3BjeUpFVVVwaTFMSWtxeldYTmNMX1daZFlESnFXQ0Y1cUFBV3gwQdIBowFBVV95cUxOVHI0MVJoNTh3TWM0MExwYnZjT0JyLWl5N2JhQkktVlM3Ml9kYkNCRzBKNXdQc1pGa3lDQklBRFdaRWlxY3FoTm9VbGNEam1xWjdld2RJMWg2TGpjVVlCSkZyWmp0NzFER0pqbVRhZ3B6M3AwSlRCUmY0OWM2S0R1VGRQNVBMNVBiS2w5QU1WcjVzWHkwelRDSjdodFpmV0NvMXgw?oc=5"
   },
   {
+   "ts": 1794794419.0,
+   "title": "Empire State Manufacturing Survey",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYjZkNEgxOGpYLXlxYnM2amxZUkNUN285dTZlQ19YMEpWOU1EbjdNTF91LWFRVzNtUXozeXVFR2xwcFNFVDVENTJwLWFNb3RpbERfOUp5RmtnYU5JWnBQNVI1RkpHSkVYR0pPX1hoZkVfaG1UTE5xMlBuTTJBS1BGeNIBhgFBVV95cUxPVFVPYXNieGxldWloRllBWE55c2Nzb1JRWmZTMTRoOHFJRndrSDJjOEJ0Vjg2WDI2alI1X1poV28ydmlfVF9KMnRfaXM2VVEtRzVWbXpSS21NTDlVZ1JFS3FIZnVMa1F0MHBEczdQVkhJaWV4S1VrSTE5QjFnVXVzdkdMcExxZw?oc=5"
+  },
+  {
    "ts": 1794792240.0,
    "title": "China confirms first Xi-Trump-Putin summit on Thursday",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV0NGRDFOWl9kVGpia3BfaEJQZUFSeVJHME9QRmEwLVN5QlVpR21xNTVVWHdXdnB3Xzh5OUFBXzI4RVJNWDNKRkxOU2JMbHlVMWJQRUFWVGRiNjY1YmxWcFJWRjVOUU9sbGcyVm11bnFaZ0pSR0pIZ1g2a0xGV0d3RmRtWHd1MnFRTFJkTWdWa3YxVW5tTk1hRUdVM1_SAaIBQVVfeXFMTXBuSC1SNU1HSENJaE5NWDJxZmU3NEFrNktLNG1QY2xDalRzcUxWSVdCbG5ualNMSnRuV1lNUFY0RXVsT3pRdlZRc0JRdWFMNXN1VmV4cWVkNXk4UEVrLS1uODBSTWFIeHI5dzZDYnJqalItUmg5LURrN25zWXJyam9Bbk96WWNyV1dHWTQ4b3NjeVVGdUFzRmUtbXdJMlpTMFFR?oc=5"
-  },
-  {
-   "ts": 1794787320.0,
-   "title": "Japan's economy unexpectedly shrinks in July-September as consumption falters",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUzF6U0xCTk01Mk95ZlpQVW84Tm1VQWVFdlVfdTBLMGtmeHJ2bm9HYVJtZUJUTlhQalI4Ry1GQUMycjNEa2MyYlJtSlZJS2ZrZ2wtcVJ4ZXNKX00yWm9pT1pJYUJxV2daczFDSC1UYWJVeHNTSnNna3NQdlZ4Y1Q3Z3ozRWJHZmZuYWI3aGlVUFAzd3JsYjRCVjRaX0V1M2NkekM5Wk5FU2tHV012YkpJ0gG0AUFVX3lxTE9pUG5DMVZRMEljWTVTdE5SbzR5RVhoV1Y3SjFBQUI5Z1lGdHA1cG1iY2NEUktxWHgwWDZFYjRmdDBPemlqRnhoUW8xa0hWTWd5Y05MUWhNWFdRUndRcVhuUTgxTk5hUkZCV3lBam9kdm1rcDNEUnlSWnlhMnUtWUNDV1psVXFqSGZRVkIzRTRSV1BvTGhwYVY4azUwRVVDQWhHWVRxY19BNDZmOERZUFFtOVFyNQ?oc=5"
   }
  ],
  "sentiment": {
