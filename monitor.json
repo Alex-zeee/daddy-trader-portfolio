@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 20:01 PKT",
+ "updated": "16-11-2026 20:16 PKT",
  "gold": {
-  "price": 3878.49,
+  "price": 3873.22,
   "open": 3879.61,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.03,
+  "chg": -0.16,
   "src": "XAUUSD Spot",
   "spark": [
-   3872.74,
    3872.02,
    3873.41,
    3871.7,
@@ -55,14 +54,15 @@
    3865.52,
    3878.34,
    3880.12,
-   3878.49
+   3871.43,
+   3873.22
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.15,
-   "chg": -3.84,
+   "price": 46.91,
+   "chg": -4.33,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.15
+    46.91
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.49,
-   "chg": 0.08,
+   "price": 103.508,
+   "chg": 0.09,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.49
+    103.508
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.9,
-   "chg": -1.87,
+   "price": 86.55,
+   "chg": -2.27,
    "spark": [
     101.41,
     103.66,
@@ -143,13 +143,13 @@
     86.53,
     88.74,
     88.56,
-    86.9
+    86.55
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.135,
-   "chg": -0.37,
+   "price": 5.121,
+   "chg": -0.64,
    "spark": [
     5.098,
     5.136,
@@ -172,13 +172,13 @@
     4.998,
     5.103,
     5.154,
-    5.135
+    5.121
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1012,
-   "chg": -0.35,
+   "price": 1.1018,
+   "chg": -0.29,
    "spark": [
     1.1213,
     1.1225,
@@ -201,13 +201,13 @@
     1.1169,
     1.1095,
     1.105,
-    1.1012
+    1.1018
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3192,
-   "chg": -0.3,
+   "price": 1.3198,
+   "chg": -0.25,
    "spark": [
     1.3273,
     1.3336,
@@ -230,13 +230,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3192
+    1.3198
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.579,
-   "chg": -0.19,
+   "price": 159.435,
+   "chg": -0.28,
    "spark": [
     158.143,
     157.806,
@@ -259,13 +259,13 @@
     158.705,
     159.734,
     159.875,
-    159.579
+    159.435
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1832.83,
-   "chg": -0.09,
+   "price": 1805.95,
+   "chg": -1.56,
    "spark": [
     1824.63,
     1842.53,
@@ -314,13 +314,13 @@
     1798.06,
     1801.76,
     1844.57,
-    1832.95
+    1805.95
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64938.0,
-   "chg": -0.58,
+   "price": 64139.6,
+   "chg": -1.8,
    "spark": [
     65298.2,
     65865.3,
@@ -369,7 +369,7 @@
     64095.3,
     64114.3,
     65100.1,
-    64929.2
+    64136.0
    ]
   }
  ],
@@ -442,25 +442,50 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794841307.493982,
+   "ts": 1794842216.452261,
+   "title": "Iranian leaders fret over public mood as gas shortages add to war ills",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/iranian-leaders-fret-over-public-mood-as-gas-shortages-add-to-war-ills-5030314",
+   "t": "16 Nov \u00b7 08:16 PM"
+  },
+  {
+   "ts": 1794842216.452261,
    "title": "Gold slides to lowest level in over a year on dollar strength, Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 08:01 PM"
+   "t": "16 Nov \u00b7 08:16 PM"
   },
   {
-   "ts": 1794841307.493982,
+   "ts": 1794842216.452261,
    "title": "Silver could hit $75 an ounce next year as macro headwinds ease: BofA",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-hit-75-an-ounce-next-year-as-macro-headwinds-ease-bofa-5028953",
-   "t": "16 Nov \u00b7 08:01 PM"
+   "t": "16 Nov \u00b7 08:16 PM"
   },
   {
-   "ts": 1794841307.493982,
+   "ts": 1794842216.452261,
    "title": "European gas slips as U.S. shipping waivers override Middle East turmoil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807",
-   "t": "16 Nov \u00b7 08:01 PM"
+   "t": "16 Nov \u00b7 08:16 PM"
+  },
+  {
+   "ts": 1794837653.0,
+   "title": "Goldman Sachs gets bearish on oil prices but doesn't see help for consumers",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/goldman-sachs-gets-bearish-on-oil-prices-but-doesn-t-see-help-for-consumers/",
+   "t": "16 Nov \u00b7 07:00 PM",
+   "body": [
+    "Goldman Sachs is out with its 2027 oil outlook and the title says it all: \u201cAdaptation.\u201d",
+    "The theme is that crude prices ran well above pre-war expectations this year, but not nearly as high as you would have guessed if you\u2019d known how long the Hormuz disruptions would last. Mideast supply and global demand both adjusted better than anyone anticipated.",
+    "The supply side is where it gets interesting. Goldman\u2019s base case has Mideast supply rising above its 2025 average next year, thanks to ship-to-ship transfers and pipeline additions, while supply growth elsewhere stalls.",
+    "The real story might be in products. Goldman sees crude normalizing but products staying well above average for three reasons:",
+    "That\u2019s a world where the headline crude price tells you less and less about what consumers and businesses are paying. Diesel at $150 is a tax on everything that moves, but it's good news for refiners. Note though that the CRAK refiners ETF has come down in the past month.",
+    "That ETF and Valero are worth watching and are both down pre-market today.",
+    "On risks, Goldman sees them on both sides. The near-term skew is to the upside from intensified shipping attacks, infrastructure damage and a recovery in the risk premium. Note too that a third US aircraft carrier arried in the Middle East this weekend, the first time there has been a trio there since 2003 when the Iraq war began. Further out, Goldman Sachs says the risk is lower prices from stronger supply, weaker demand or a fading risk premium.",
+    "The trade recommendation is long summer 2027 European gasoline as a hedge against geopolitical upside. The thinking is that gasoline output could be squeezed by further refinery strikes, heavy planned maintenance and refiners shifting yield toward diesel. They also advise traders to \u201cstay nimble and lean against large swings in risk premia.\u201d",
+    "That last line is the best advice in the note. The lesson of 2026 is that the oil market is far more resilient than the worst-case scenarios assumed, and fading the panic has been the right trade more often than not. Then again, I take the bearishness as a sign of complacency on Iran risks."
+   ]
   },
   {
    "ts": 1794835813.0,
@@ -547,43 +572,6 @@
     "On the 1 hour chart, there\u2019s not much we can add here as the sellers will have a better risk to reward setup around the downward trendline, while the buyers will need a break above it to open the door for new highs. The red lines define the average daily range for today.",
     "Today we have Fed Chair Warsh speaking. Tomorrow, we get the US Retail Sales. On Wednesday, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran stalemate."
    ]
-  },
-  {
-   "ts": 1794800843.0,
-   "title": "Goldman sees Brent at $78 by end-2027 as oil surplus returns, flags near-term upside risk",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/goldman-sees-brent-at-78-by-end-2027-as-oil-surplus-returns-flags-near-term-upside-risk/",
-   "t": "16 Nov \u00b7 08:47 AM",
-   "body": [
-    "Goldman\u2019s path implies Brent averaging nearly $8 below current levels next year, and about $18 lower by end-2027. That gives oil bears a solid medium-term anchor. In the near term, though, the market is still driven by the war. Confirmation of the IRGC\u2019s tanker-sinking claims could quickly rebuild the risk premium that Goldman expects to fade. Monday\u2019s dip suggests traders are leaning toward the surplus story for now. The diesel forecast matters for inflation. At $150 a barrel, products stay costly even as crude eases, so energy keeps feeding into the inflation concerns Fed officials raised over the weekend.",
-    "Goldman\u2019s message on oil is patience: a surplus is coming and prices should fall, but until the Gulf calms down, the risks over the next few weeks still point upward.",
-    "Goldman Sachs expects oil prices to drift lower over the next year as the market returns to surplus. It forecasts Brent crude to average $88 a barrel in 2027 and ease to $78 by December 2027, though it warned of upside risks in the near term from attacks on shipping in the Middle East, Reuters reported.",
-    "For US crude, the bank sees West Texas Intermediate averaging $78 a barrel next year and slipping to $70 by the end of 2027. Refined products should also ease but stay well above historical norms, with US wholesale diesel forecast to average $150 a barrel in 2027.",
-    "The core of the call is supply. In Goldman\u2019s base case, oil production will exceed end-use demand by 2 million barrels per day in 2027. That surplus is large enough to pull prices down from current levels, even if some war-related risk premium lingers.",
-    "The bank was careful to present the risks as running in both directions. In the near term, it said prices could rise if attacks on shipping intensify, if oil infrastructure is damaged or if the risk premium rebuilds. Over the medium term, the risk is to the downside, through stronger supply, weaker demand or a smaller risk premium than it assumes.",
-    "That near-term risk is real. Iran\u2019s Revolutionary Guards claimed over the weekend that two tankers struck mines in the Strait of Hormuz and that one of them, a supertanker carrying more than 2 million barrels, sank. There has been no independent confirmation.",
-    "Even so, prices fell on Monday on expectations of a supply surplus. Shipments through Hormuz were reported to be close to pre-war levels, and Washington eased domestic fuel movements by extending its Jones Act waiver. Brent was trading around $95.50 earlier in Asia, well above Goldman\u2019s 2027 average, which implies significant downside if the bank\u2019s surplus view plays out.",
-    "The gap between today\u2019s prices and the forecast path leaves the oil market hinging on one question: whether supply disruption in the Gulf fades or flares up again."
-   ]
-  },
-  {
-   "ts": 1794797094.0,
-   "title": "Japan economy shrinks 0.1% in Q3, first fall in 4 quarters as inflation hits households",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/japan-economy-shrinks-0-1-in-q3-first-fall-in-4-quarters-as-inflation-hits-households/",
-   "t": "16 Nov \u00b7 07:44 AM",
-   "body": [
-    "The pushback from economists matters more for markets than the headline miss. If weak consumption is read as a sign of inflation rather than a reason to pause, December hike pricing should hold. That limits any lasting yen weakness from the data, although USD/JPY near 160 remains in intervention territory. The risk lies in the board split some economists flagged. Further soft consumption data could give the doves more influence and push hike timing back, which would weigh on the yen and lift JGBs. Oil is the link in the middle. Energy-driven inflation is both hurting households and pushing the BOJ to tighten, so higher crude makes the policy dilemma worse.",
-    "Japan\u2019s shoppers are buckling under inflation, but rather than giving the BOJ a reason to pause, the squeeze on households is being read as further proof that rates need to keep rising.",
-    "Japan\u2019s economy unexpectedly contracted in the July to September quarter as rising living costs forced households to cut back on spending. Economists say the weakness is unlikely to knock the Bank of Japan off its tightening path, Reuters reported.",
-    "Gross domestic product fell an annualised 0.1%, against a median forecast of 0.3% growth, following an upwardly revised 1.7% expansion in the previous quarter. It was the first contraction in four quarters. On a quarterly basis, output slipped 0.02%, versus expectations of a 0.1% rise.",
-    "Households did most of the damage. Private consumption, which makes up more than half of economic output, fell 0.3%, slightly worse than the expected 0.2% drop. Persistent inflation, heavy rain and typhoons weighed on spending. Purchases of cars and air conditioners also fell back after a temporary boost from tax and regulatory changes in the prior quarter. Economists warned that higher prices linked to Middle East tensions will keep squeezing households\u2019 purchasing power, even as wages rise.",
-    "Trade also took away from growth. Net external demand cut 0.6 percentage point, more than the expected 0.4 point drag. Imports jumped as oil and other energy purchases recovered after Japan diversified its supply following disruption from the war in the Middle East.",
-    "Business investment was the bright spot. It rose 1.6% against a 1.5% forecast, supported by spending on labour-saving technology and AI-related projects.",
-    "Economy Minister Minoru Kiuchi said better employment and income conditions, along with policy measures, should support a gradual recovery, but stressed the need to monitor the Middle East situation closely.",
-    "For the BOJ, which raised rates in June and September, economists say the miss changes little. Several argued that weak consumption is itself a symptom of high prices, which strengthens the case for further hikes, and many expect the next move as soon as December. One note cautioned, however, that if consumer weakness persists, it could widen divisions on the board and give more dovish members grounds to argue for caution.",
-    "That debate gets an early test later on Monday, when hawkish board member Hajime Takata speaks at 04:00 GMT (11:00 pm ET Sunday)."
-   ]
   }
  ],
  "tweets": [
@@ -630,7 +618,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
