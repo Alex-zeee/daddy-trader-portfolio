@@ -21,7 +21,7 @@
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="apple-touch-icon" href="icon-192.png" />
 <link rel="manifest" href="manifest.json" />
-<meta name="theme-color" content="#06070a" />
+<meta name="theme-color" content="#07080d" />
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -62,13 +62,15 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ================= Daddy Trader — Stillwater style ================= */
 :root{
-  --bg:#06070a; --bg-2:#0b0d14; --card:#10131d; --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
+  --bg:#07080d; --bg-2:#0c0f1a; --card:#10131d; --ink:#f3f4f7; --soft:#c3c7d2; --muted:#8a90a2;
+  --gold-hi:#ffe08a; --emerald:#3cae77; --emerald-hi:#8fe3b5; --live:#22c55e; --deep:#0c0f1a; --raise:#141826;
   --clay:#f5c542; --clay-soft:#141826; --line:#1c2030; --line-2:#2a3044;
   --up:#3fbf86; --down:#ff5d5d;
+  --display:'Archivo','Manrope',sans-serif;
   --serif:'Manrope', ui-sans-serif, system-ui, sans-serif;
   --sans:'Manrope', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --mono:'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
@@ -434,7 +436,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 40px;margin-top:40px}
 <style id="ink-theme">
 /* ================= Daddy Trader — "Ink" look (hatched page, paper sheets, corner brackets) ================= */
 html{
-  --ib-page:#06070a; --ib-hatch:rgba(255,255,255,.04); --ib-paper:#0b0d14; --ib-card:#10131d; --ib-raise:#141826;
+  --ib-page:#07080d; --ib-hatch:rgba(255,255,255,.04); --ib-paper:#0b0d14; --ib-card:#10131d; --ib-raise:#141826;
   --ib-ink:#f3f4f7; --ib-soft:#c3c7d2; --ib-muted:#8a90a2; --ib-faint:#8a90a2; --ib-line:#1c2030; --ib-line-strong:#2a3044;
   --ib-bracket:#2a3044; --ib-inv:#f3f4f7; --ib-inv-ink:#06070a; --ib-live:#22c55e;
   --ib-shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -14px rgba(0,0,0,.7);
@@ -621,6 +623,36 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 .sig-card{background:linear-gradient(180deg,#121625,#0c0f1a);border:1px solid #1f2434;border-radius:28px}
 @media (max-width:720px){.sec{padding:28px 18px}}
 </style>
+<style id="modern-bold">
+  /* ===== Modern Bold ===== */
+  .grad-text{background:linear-gradient(90deg,#f5c542,#3cae77);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .card-grad{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  .btn-grad{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;padding:.95em 1.6em;border-radius:14px;border:0;background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800;font-size:15px;text-decoration:none;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease}
+  .btn-grad:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
+  .eyebrow{font:700 11.5px/1 "Archivo","Manrope",sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#c3c7d2}
+  body{background-color:#07080d;background-image:radial-gradient(1000px 560px at 12% -10%,rgba(245,197,66,.10),transparent 60%),radial-gradient(900px 520px at 88% -6%,rgba(60,174,119,.12),transparent 60%);background-attachment:fixed}
+  .sheet{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  .h2{font-family:"Archivo","Manrope",sans-serif;font-weight:900;letter-spacing:-.02em;font-size:clamp(28px,3.4vw,42px)}
+  .lead{color:#c3c7d2}
+  /* pillars: ALEXA AI + Back Testing */
+  .pillar{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  .pillar:hover{transform:translateY(-3px)}
+  .p-head h3{font-family:"Archivo","Manrope",sans-serif;font-weight:800;letter-spacing:-.02em}
+  .pillar .go{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;border:0;font-weight:800;padding:10px 16px;border-radius:12px}
+  /* academy plans: no plan cards in the body yet, but the rules are Modern Bold-ready */
+  .plan{border:1px solid transparent;background:linear-gradient(#10131d,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15)}
+  .plan::before{display:none}
+  .plan h3{font-family:"Archivo","Manrope",sans-serif;font-weight:800;letter-spacing:-.02em}
+  .plan .amt{font-family:"Archivo","Manrope",sans-serif;font-weight:900}
+  .plan .btn{width:100%;min-height:48px;border:0;border-radius:14px;background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a;font-weight:800}
+  .plan .btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(245,197,66,.5)}
+  .plan.dark{border:1px solid transparent;background:linear-gradient(#141826,#10131d) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;border-radius:20px;box-shadow:0 24px 48px -24px rgba(0,0,0,.8),0 8px 32px -16px rgba(245,197,66,.15);color:#f3f4f7}
+  .plan.dark .tag,.plan.dark .per{color:#c3c7d2}
+  .plan.dark ul{border-top-color:#2a3044}
+  .plan.dark li::before{background:#f5c542}
+  .plan.dark .btn{background:linear-gradient(135deg,#f5c542,#3cae77);color:#0a0f0a}
+  .plan .badge{border-color:rgba(245,197,66,.55);color:#f5c542}
+</style>
 </head>
 <body>
 <a class="skip" href="#signals">Skip to content</a>
@@ -648,7 +680,7 @@ main#top{display:flex;flex-direction:column;gap:28px;padding:28px 0 48px}
 <main id="top" class="wrap">
 <section class="sheet sec" id="premium" aria-labelledby="prem-h">
   <div class="sec-head"><div>
-    <h1 class="h2" id="prem-h">Premium</h1>
+    <h1 class="h2" id="prem-h"><span class="grad-text">Premium</span></h1>
     <p class="lead">Daddy Trader’s premium tools — ALEXA AI and Back Testing, in one place.</p>
   </div></div>
   <div class="pillars">

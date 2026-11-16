@@ -11,59 +11,59 @@
   if (window.DTSig) return;
 
   var CSS = [
-    '.dtc{--bg1:#121625;--bg2:#0c0f1a;--line:#1f2434;--txt:#f3f4f7;--mut:#8a90a2;--lab:#737a8e;--acc:#f5b82e;--up:#22c58b;--dn:#ff4d6d;',
+    '.dtc{--bg1:#121625;--bg2:#0c0f1a;--line:#1f2434;--txt:#f3f4f7;--mut:#8a90a2;--lab:#737a8e;--acc:#f5c542;--up:#3fbf86;--dn:#ff5d5d;',
     '  position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:28px;color:var(--txt);text-align:left;',
-    '  font-family:Manrope,Inter,system-ui,sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2));border:1px solid var(--line);',
+    '  font-family:Manrope,Inter,system-ui,sans-serif;border:1px solid transparent;background:linear-gradient(180deg,var(--bg1),var(--bg2)) padding-box,linear-gradient(135deg,rgba(245,197,66,.55),rgba(60,174,119,.55)) border-box;',
     '  box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 30px 60px -30px rgba(0,0,0,.85);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}',
-    '.dtc:hover{transform:translateY(-3px);border-color:#2a3046;box-shadow:0 1px 0 rgba(255,255,255,.05) inset,0 36px 70px -30px rgba(0,0,0,.9)}',
+    '.dtc:hover{transform:translateY(-3px);box-shadow:0 1px 0 rgba(255,255,255,.05) inset,0 36px 70px -30px rgba(0,0,0,.9),0 8px 32px -16px rgba(245,197,66,.28)}',
     '.dtc-head{display:flex;align-items:center;gap:14px;padding:20px 22px 18px;border-bottom:1px solid var(--line)}',
     '.dtc-ico{flex:none;width:52px;height:52px;border-radius:15px;display:grid;place-items:center;',
-    '  background:color-mix(in srgb,var(--ic,#f5b82e) 14%,#141826);border:1px solid color-mix(in srgb,var(--ic,#f5b82e) 45%,transparent)}',
-    '.dtc-ico b{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--ic,#f5b82e);color:#14100a;box-shadow:inset 0 -2px 0 rgba(0,0,0,.18)}',
+    '  background:color-mix(in srgb,var(--ic,#f5c542) 14%,#141826);border:1px solid color-mix(in srgb,var(--ic,#f5c542) 45%,transparent)}',
+    '.dtc-ico b{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--ic,#f5c542);color:#14100a;box-shadow:inset 0 -2px 0 rgba(0,0,0,.18)}',
     '.dtc-ico svg{width:17px;height:17px}',
     '.dtc-ttl{min-width:0;flex:1}',
     '.dtc-name{display:block;font-size:19px;font-weight:800;letter-spacing:-.01em;line-height:1.2}',
     '.dtc-sub{display:block;margin-top:3px;font-size:13px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
     '.dtc-pill{flex:none;display:inline-flex;align-items:center;gap:7px;padding:6px 12px;border-radius:99px;font-size:12.5px;font-weight:800;letter-spacing:.05em;',
-    '  color:var(--pc,#34d399);background:color-mix(in srgb,var(--pc,#34d399) 10%,transparent);border:1px solid color-mix(in srgb,var(--pc,#34d399) 40%,transparent)}',
+    '  color:var(--pc,#3cae77);background:color-mix(in srgb,var(--pc,#3cae77) 10%,transparent);border:1px solid color-mix(in srgb,var(--pc,#3cae77) 40%,transparent)}',
     '.dtc-pill i{width:6px;height:6px;border-radius:50%;background:currentColor;animation:dtcPulse 1.8s ease-out infinite}',
     '.dtc.done .dtc-pill i{animation:none}',
     '@keyframes dtcPulse{0%{box-shadow:0 0 0 0 currentColor}100%{box-shadow:0 0 0 7px transparent}}',
     '.dtc-body{padding:20px 22px 6px}',
     '.dtc-price{display:flex;align-items:center;flex-wrap:wrap;gap:12px}',
     '.dtc-price b{font-size:clamp(32px,3.4vw,40px);font-weight:800;letter-spacing:-.035em;line-height:1;font-variant-numeric:tabular-nums}',
-    '.dtc-chip{padding:5px 11px;border-radius:9px;font-size:14px;font-weight:700;color:var(--cc,#ff4d6d);',
-    '  background:color-mix(in srgb,var(--cc,#ff4d6d) 12%,transparent);border:1px solid color-mix(in srgb,var(--cc,#ff4d6d) 38%,transparent)}',
+    '.dtc-chip{padding:5px 11px;border-radius:9px;font-size:14px;font-weight:700;color:var(--cc,#ff5d5d);',
+    '  background:color-mix(in srgb,var(--cc,#ff5d5d) 12%,transparent);border:1px solid color-mix(in srgb,var(--cc,#ff5d5d) 38%,transparent)}',
     '.dtc-stats{display:flex;flex-wrap:wrap;gap:10px 30px;margin:18px 0 0}',
     '.dtc-stats dt{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--lab)}',
     '.dtc-stats dd{margin:4px 0 0;font-size:17px;font-weight:700;font-variant-numeric:tabular-nums;color:#e3e5ec}',
-    '.dtc-stats .sl{color:#ff7d93}.dtc-stats .tp{color:#4fe0a6}',
+    '.dtc-stats .sl{color:#ff8a8a}.dtc-stats .tp{color:#8fe3b5}',
     '.dtc-when{margin:10px 0 0;font-size:12.5px;color:#737a8e}',
     '.dtc-why{margin:14px 0 0;font-size:13px;line-height:1.55;color:var(--mut);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}',
     /* chart: kinare se kinare tak */
     '.dtc-chart{position:relative;height:118px;margin-top:10px}',
     '.dtc-chart svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}',
     '.dtc-lv{position:absolute;right:14px;transform:translateY(-50%);padding:2px 7px;border-radius:6px;font-size:10.5px;font-weight:800;letter-spacing:.04em;background:#0c0f1a;border:1px solid currentColor}',
-    '.dtc-lv.sl{color:#ff7d93}.dtc-lv.en{color:#e3e5ec}.dtc-lv.tp{color:#4fe0a6}',
+    '.dtc-lv.sl{color:#ff8a8a}.dtc-lv.en{color:#e3e5ec}.dtc-lv.tp{color:#8fe3b5}',
     '.dtc-nochart{height:10px}',
     '.dtc-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;padding:12px 22px 20px}',
     '.dtc-steps{display:flex;flex-wrap:wrap;gap:8px}',
     '.dtc-steps span{padding:7px 13px;border-radius:11px;font-size:13px;font-weight:700;color:var(--mut);background:#161a27;border:1px solid #252a3a}',
     '.dtc-steps span.on{color:var(--acc);border-color:color-mix(in srgb,var(--acc) 70%,transparent);background:color-mix(in srgb,var(--acc) 9%,transparent)}',
-    '.dtc-steps span.bad{color:#ff7d93;border-color:rgba(255,77,109,.6);background:rgba(255,77,109,.08)}',
+    '.dtc-steps span.bad{color:#ff8a8a;border-color:rgba(255,93,93,.6);background:rgba(255,93,93,.08)}',
     '.dtc-rr{font-size:14px;color:var(--mut);white-space:nowrap}',
     '.dtc-rr b{margin-left:6px;color:var(--acc);font-weight:800}',
     '.dtc.done .dtc-price b,.dtc.done .dtc-name{color:#b9bdc9}',
     /* TP Hit */
-    '.dtc.hit{border-color:rgba(245,184,46,.55);box-shadow:0 0 0 1px rgba(245,184,46,.12) inset,0 30px 70px -32px rgba(245,184,46,.45)}',
-    '.dtc.hit .dtc-price b{color:#4fe0a6}',
-    '.dtc-gbar{height:6px;margin:18px 22px 0;border-radius:99px;background:linear-gradient(90deg,#ff4d6d 0,#ff4d6d 25%,#22c58b 25%,#f5b82e 100%);opacity:.9}',
+    '.dtc.hit{border:1px solid transparent;background:linear-gradient(180deg,var(--bg1),var(--bg2)) padding-box,linear-gradient(135deg,#f5c542,#3cae77) border-box;box-shadow:0 0 0 1px rgba(245,197,66,.12) inset,0 30px 70px -32px rgba(245,197,66,.45)}',
+    '.dtc.hit .dtc-price b{color:#8fe3b5}',
+    '.dtc-gbar{height:6px;margin:18px 22px 0;border-radius:99px;background:linear-gradient(90deg,#ff5d5d 0,#ff5d5d 25%,#3fbf86 25%,#f5c542 100%);opacity:.9}',
     /* khaali halat */
     '.dtc-empty{display:flex;flex-direction:column;justify-content:center;gap:12px;padding:26px 24px;border-radius:28px;color:#f3f4f7;font-family:Manrope,Inter,system-ui,sans-serif;',
     '  background:linear-gradient(180deg,#121625,#0c0f1a);border:1px dashed #2a3046}',
-    '.dtc-radar{position:relative;width:58px;height:58px;border-radius:50%;border:1px solid rgba(52,211,153,.35);',
-    '  background:radial-gradient(circle,rgba(52,211,153,.35) 0 4px,transparent 5px),repeating-radial-gradient(circle,transparent 0 9px,rgba(52,211,153,.14) 9px 10px)}',
-    '.dtc-radar::after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,rgba(52,211,153,.55),transparent 70deg);animation:dtcRadar 2.6s linear infinite}',
+    '.dtc-radar{position:relative;width:58px;height:58px;border-radius:50%;border:1px solid rgba(60,174,119,.35);',
+    '  background:radial-gradient(circle,rgba(60,174,119,.35) 0 4px,transparent 5px),repeating-radial-gradient(circle,transparent 0 9px,rgba(60,174,119,.14) 9px 10px)}',
+    '.dtc-radar::after{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,rgba(60,174,119,.55),transparent 70deg);animation:dtcRadar 2.6s linear infinite}',
     '@keyframes dtcRadar{to{transform:rotate(360deg)}}',
     '.dtc-empty h3{margin:0;font-size:19px;font-weight:800;letter-spacing:-.01em}',
     '.dtc-empty p{margin:0;max-width:52ch;font-size:14px;line-height:1.6;color:#8a90a2}',
@@ -95,7 +95,7 @@
     if (st.indexOf('pend') > -1) return 'pending';
     return 'active';
   }
-  var PILL = { pending: '#f5b82e', active: '#34d399', sl: '#ff4d6d', closed: '#8a90a2', hit: '#f5b82e' };
+  var PILL = { pending: '#f5c542', active: '#3cae77', sl: '#ff5d5d', closed: '#8a90a2', hit: '#f5c542' };
 
   var ARROW_UP = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1.5l4.5 8h-9z" fill="currentColor"/></svg>';
   var ARROW_DN = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 10.5L1.5 2.5h9z" fill="currentColor"/></svg>';
@@ -126,13 +126,13 @@
     var dir = sell ? 'SELL' : 'BUY';
     return '<article class="dtc ' + k + (done ? ' done' : '') + '" aria-label="' + esc(pair(s.pair) + ' ' + dir + ' signal, ' + (s.status || '')) + '">' +
       '<div class="dtc-head">' +
-        '<span class="dtc-ico" style="--ic:' + (sell ? '#ff4d6d' : '#22c58b') + '"><b>' + (sell ? ARROW_DN : ARROW_UP) + '</b></span>' +
+        '<span class="dtc-ico" style="--ic:' + (sell ? '#ff5d5d' : '#3fbf86') + '"><b>' + (sell ? ARROW_DN : ARROW_UP) + '</b></span>' +
         '<div class="dtc-ttl"><span class="dtc-name">' + esc(pair(s.pair)) + '</span>' +
           '<span class="dtc-sub">' + esc(s.model_name || 'Daddy Trader robot') + '</span></div>' +
         '<span class="dtc-pill" style="--pc:' + PILL[k] + '"><i></i>' + esc(String(s.status || 'Active').toUpperCase()) + '</span>' +
       '</div>' +
       '<div class="dtc-body">' +
-        '<div class="dtc-price"><b>' + fmt(s.entry) + '</b><span class="dtc-chip" style="--cc:' + (sell ? '#ff4d6d' : '#22c58b') + '">' + dir + ' entry</span></div>' +
+        '<div class="dtc-price"><b>' + fmt(s.entry) + '</b><span class="dtc-chip" style="--cc:' + (sell ? '#ff5d5d' : '#3fbf86') + '">' + dir + ' entry</span></div>' +
         '<dl class="dtc-stats"><div><dt>Stop loss</dt><dd class="sl">' + fmt(s.sl) + '</dd></div><div><dt>Take profit</dt><dd class="tp">' + fmt(s.tp) + '</dd></div>' +
           (done ? '' : '<div><dt>Gold now</dt><dd class="dtc-nowv">' + (price == null ? '—' : fmt(price)) + '</dd></div>') + '</dl>' +
         (s.note ? '<p class="dtc-why">' + esc(s.note) + '</p>' : '') +
@@ -153,13 +153,13 @@
     var at = h.hit || h.closed || '';
     return '<article class="dtc hit" aria-label="' + esc(pair(h.pair) + ' ' + (sell ? 'SELL' : 'BUY') + ' — TP hit') + '">' +
       '<div class="dtc-head">' +
-        '<span class="dtc-ico" style="--ic:#f5b82e"><b>' + CHECK + '</b></span>' +
+        '<span class="dtc-ico" style="--ic:#f5c542"><b>' + CHECK + '</b></span>' +
         '<div class="dtc-ttl"><span class="dtc-name">' + esc(pair(h.pair)) + ' · ' + (sell ? 'Sell' : 'Buy') + '</span>' +
           '<span class="dtc-sub">' + esc(h.model_name || 'Daddy Trader robot') + '</span></div>' +
-        '<span class="dtc-pill" style="--pc:#f5b82e"><i></i>TP HIT</span>' +
+        '<span class="dtc-pill" style="--pc:#f5c542"><i></i>TP HIT</span>' +
       '</div>' +
       '<div class="dtc-body">' +
-        '<div class="dtc-price"><b>' + (move != null ? '+' + fmt(move) : 'TP') + '</b>' + (rr ? '<span class="dtc-chip" style="--cc:#f5b82e">1:' + rr + ' target hit</span>' : '') + '</div>' +
+        '<div class="dtc-price"><b>' + (move != null ? '+' + fmt(move) : 'TP') + '</b>' + (rr ? '<span class="dtc-chip" style="--cc:#f5c542">1:' + rr + ' target hit</span>' : '') + '</div>' +
         '<dl class="dtc-stats"><div><dt>Entry</dt><dd>' + fmt(h.entry) + '</dd></div><div><dt>Take profit</dt><dd class="tp">' + fmt(h.tp) + '</dd></div><div><dt>Stop loss</dt><dd class="sl">' + fmt(h.sl) + '</dd></div></dl>' +
       '</div>' +
       '<div class="dtc-gbar" aria-hidden="true"></div>' +
@@ -171,9 +171,9 @@
   function goldCard() {
     return '<article class="dtc dtc-gold" aria-label="Gold live price">' +
       '<div class="dtc-head">' +
-        '<span class="dtc-ico" style="--ic:#f5b82e"><b>' + BAR + '</b></span>' +
+        '<span class="dtc-ico" style="--ic:#f5c542"><b>' + BAR + '</b></span>' +
         '<div class="dtc-ttl"><span class="dtc-name">Gold</span><span class="dtc-sub">XAU · USD · spot price</span></div>' +
-        '<span class="dtc-pill" style="--pc:#34d399"><i></i>LIVE</span>' +
+        '<span class="dtc-pill" style="--pc:#3cae77"><i></i>LIVE</span>' +
       '</div>' +
       '<div class="dtc-body">' +
         '<div class="dtc-price"><b class="g-px">—</b><span class="dtc-chip g-chg" style="--cc:#8a90a2">today</span></div>' +
@@ -208,10 +208,10 @@
     var line = pts.map(function (p, i) { return (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1); }).join(' ');
     var id = 'dtcg' + (++uid);
     var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none">' +
-      '<defs><linearGradient id="' + id + '" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f5b82e" stop-opacity=".42"/><stop offset="1" stop-color="#f5b82e" stop-opacity="0"/></linearGradient></defs>' +
+      '<defs><linearGradient id="' + id + '" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f5c542" stop-opacity=".42"/><stop offset="1" stop-color="#f5c542" stop-opacity="0"/></linearGradient></defs>' +
       '<path d="' + line + ' L' + W + ' ' + H + ' L0 ' + H + ' Z" fill="url(#' + id + ')"/>';
     var labels = '', tags = [];
-    [['sl', '#ff7d93', 'SL'], ['en', '#e3e5ec', 'Entry'], ['tp', '#4fe0a6', 'TP']].forEach(function (L) {
+    [['sl', '#ff8a8a', 'SL'], ['en', '#e3e5ec', 'Entry'], ['tp', '#8fe3b5', 'TP']].forEach(function (L) {
       var v = lv[L[0]]; if (v == null) return;
       var yy = y(v);
       svg += '<line x1="0" x2="' + W + '" y1="' + yy.toFixed(1) + '" y2="' + yy.toFixed(1) + '" stroke="' + L[1] + '" stroke-width="1.2" stroke-dasharray="5 5" vector-effect="non-scaling-stroke" opacity=".85"/>';
@@ -223,13 +223,13 @@
     var over = tags.length ? tags[tags.length - 1].y - (H - 8) : 0;
     if (over > 0) tags.forEach(function (t) { t.y -= over; });
     tags.forEach(function (t) { labels += '<span class="dtc-lv ' + t.k + '" style="top:' + (t.y / H * 100).toFixed(1) + '%">' + t.t + '</span>'; });
-    svg += '<path d="' + line + '" fill="none" stroke="#f5b82e" stroke-width="2.4" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>';
+    svg += '<path d="' + line + '" fill="none" stroke="#f5c542" stroke-width="2.4" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>';
     var last = pts[pts.length - 1];
     svg += '</svg>';
     box.innerHTML = svg + labels;
     // aakhri qeemat par chamakta nuqta (HTML mein, taake gol rahe)
     var dot = document.createElement('span');
-    dot.style.cssText = 'position:absolute;width:9px;height:9px;border-radius:50%;background:#f5b82e;box-shadow:0 0 0 4px rgba(245,184,46,.22);transform:translate(-50%,-50%);left:calc(100% - 5px);top:' + (last[1] / H * 100).toFixed(1) + '%';
+    dot.style.cssText = 'position:absolute;width:9px;height:9px;border-radius:50%;background:#f5c542;box-shadow:0 0 0 4px rgba(245,197,66,.22);transform:translate(-50%,-50%);left:calc(100% - 5px);top:' + (last[1] / H * 100).toFixed(1) + '%';
     box.appendChild(dot);
   }
   function refresh() {
@@ -240,7 +240,7 @@
       c.querySelector('.g-px').textContent = '$' + fmt(gold.price);
       var ch = c.querySelector('.g-chg');
       ch.textContent = (up ? '+' : '') + (+gold.chg).toFixed(2) + '% today';
-      ch.style.setProperty('--cc', up ? '#22c58b' : '#ff4d6d');
+      ch.style.setProperty('--cc', up ? '#3fbf86' : '#ff5d5d');
       if (gold.high != null) c.querySelector('.g-hi').textContent = '$' + fmt(gold.high);
       if (gold.low != null) c.querySelector('.g-lo').textContent = '$' + fmt(gold.low);
       c.querySelector('.g-mood').textContent = mood || '—';
