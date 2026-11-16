@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 16:16 PKT",
+ "updated": "16-11-2026 16:31 PKT",
  "gold": {
-  "price": 3874.39,
+  "price": 3874.97,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.0,
+  "chg": 0.01,
   "src": "XAUUSD Spot",
   "spark": [
-   3889.75,
    3900.5,
    3890.71,
    3888.74,
@@ -55,13 +54,43 @@
    3867.24,
    3872.95,
    3873.01,
-   3874.39
+   3873.51,
+   3874.97
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 47.735,
+   "chg": -2.64,
+   "spark": [
+    56.995,
+    56.974,
+    57.706,
+    57.422,
+    54.764,
+    53.711,
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    47.735
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.547,
+   "price": 103.549,
    "chg": 0.13,
    "spark": [
     101.84,
@@ -85,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.547
+    103.549
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.48,
-   "chg": -0.09,
+   "price": 88.18,
+   "chg": -0.43,
    "spark": [
     101.41,
     103.66,
@@ -114,42 +143,13 @@
     86.53,
     88.74,
     88.56,
-    88.48
-   ]
-  },
-  {
-   "name": "US 10Y Yield",
-   "price": 5.154,
-   "chg": 1.0,
-   "spark": [
-    5.089,
-    5.098,
-    5.136,
-    5.117,
-    5.146,
-    4.953,
-    4.988,
-    4.986,
-    4.993,
-    5.045,
-    4.989,
-    4.929,
-    4.894,
-    4.952,
-    4.894,
-    4.837,
-    4.859,
-    4.864,
-    4.983,
-    4.998,
-    5.103,
-    5.154
+    88.18
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1007,
-   "chg": -0.39,
+   "price": 1.1011,
+   "chg": -0.36,
    "spark": [
     1.1213,
     1.1225,
@@ -172,13 +172,13 @@
     1.1169,
     1.1095,
     1.105,
-    1.1007
+    1.1011
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3185,
-   "chg": -0.35,
+   "price": 1.3193,
+   "chg": -0.29,
    "spark": [
     1.3273,
     1.3336,
@@ -201,13 +201,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3185
+    1.3193
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.643,
-   "chg": -0.15,
+   "price": 159.592,
+   "chg": -0.18,
    "spark": [
     158.143,
     157.806,
@@ -230,13 +230,13 @@
     158.705,
     159.734,
     159.875,
-    159.643
+    159.592
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1810.71,
-   "chg": -1.3,
+   "price": 1807.82,
+   "chg": -1.46,
    "spark": [
     1898.02,
     1892.36,
@@ -285,13 +285,13 @@
     1804.26,
     1795.95,
     1807.15,
-    1810.71
+    1807.82
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64658.4,
-   "chg": -1.0,
+   "price": 64612.6,
+   "chg": -1.07,
    "spark": [
     66941.2,
     66786.2,
@@ -340,7 +340,7 @@
     64404.0,
     64270.8,
     64509.3,
-    64658.4
+    64612.4
    ]
   }
  ],
@@ -413,32 +413,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794827813.284676,
+   "ts": 1794828709.086358,
    "title": "Silver could hit $75 an ounce next year as macro headwinds ease: BofA",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-hit-75-an-ounce-next-year-as-macro-headwinds-ease-bofa-5028953",
-   "t": "16 Nov \u00b7 04:16 PM"
+   "t": "16 Nov \u00b7 04:31 PM"
   },
   {
-   "ts": 1794827813.284676,
+   "ts": 1794828709.086358,
    "title": "European gas slips as U.S. shipping waivers override Middle East turmoil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807",
-   "t": "16 Nov \u00b7 04:16 PM"
+   "t": "16 Nov \u00b7 04:31 PM"
   },
   {
-   "ts": 1794827813.284676,
+   "ts": 1794828709.086358,
    "title": "Gold extends slide below $3,900 as dollar strength and Fed hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 04:16 PM"
+   "t": "16 Nov \u00b7 04:31 PM"
   },
   {
-   "ts": 1794827813.284676,
+   "ts": 1794828709.086358,
    "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 04:16 PM"
+   "t": "16 Nov \u00b7 04:31 PM"
   },
   {
    "ts": 1794823856.0,
@@ -553,6 +553,12 @@
  ],
  "tweets": [
   {
+   "ts": 1794810120.0,
+   "title": "Asia Outlook 2027: Growth broadens, capital gets selective",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU00wdnB1a2trNWRZQ3JIYVdUcFV0ZkVGS2JWeVdjT0xUOW4tWUFteWlLNU1CV19RVkpXR1VubzBXdlhLeGpCeDRaT3NOajlidl8xZVBKMGxObjBsOW1xdExtWDV6eVo4LVQtSnUxQkN4MTlaaFZkSGVHelRoMVpkX3ZfYW84am5keUQ1dXlKZ0ppeGd3ZnV0OXYyTzFadkXSAaQBQVVfeXFMUHExZW9LQ08yODhnTkNENWoxMFRMbjdtT2RySmRRd1JjZkhjRU94TzVPLWctQ04zXzgtdnQ2eXdOMDc0dV8zUUszdFRhLTlkS0hTbXg1X0diQVJjWTl0VUg2WWpKTndaRC1Eb0l0Z2toWkhPLVZ1S2Fuc19lMk8xdV80dmtmbEZpYlB6LXg0SWFfSldYbTYzc0FGVWU2STh1Rm9wZzk?oc=5"
+  },
+  {
    "ts": 1794798660.0,
    "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
    "src": "ForexFactory",
@@ -581,12 +587,6 @@
    "title": "Week ahead: Inflation, spending, and Fed signals | Nov 15 - 21",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVExhbmVGeG5UWW5FNVdUSFk1MXRkQ1o0aVRPNkhYa0FSaVpmM0F2WnJWSEJPT0Rma0hVLW9iV2R6TkF2MWFLRDJhUEROam5LMS1US2YzVjUxSmROVDhYd3YtZkFzRFNyMDdVNDZVOU1LN2NvUS1mYkZmc1dnRE4xYm5Ea0F5LWJmUWdIblNNWXrSAZYBQVVfeXFMTmozT3VPWVVfNVp1WUctaDA3VVZNMUFnV0h5Rl9WSGV0TUxEREwtREV3Z24xSm1DNXN1QWwwZDNOTS1DOTlGMjdwaHZVZTJxMUlxVXliR3RUOGlwTGRGdDIxNEIyaHdiZk5IOHpFQUFOdmlfdXdqc1gweHltWkhDMDZOVEs1M3hqclNhTS1nRmNpemlHbmln?oc=5"
-  },
-  {
-   "ts": 1794772680.0,
-   "title": "AUD/USD Bears Tighten Their Grip Into AU Jobs, RBA Minutes",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVG5VTW9ZTVh4anB1WkNLOTVkYUhXM0dPRkNoYTNwbm1jeUh1RERMLTBOWlpmRS00RlQ5a0VBcmJFV3NITzNScTBmZ3Fxc2JFRC0yZFJ4SmZ0S1dCb0FvMEZtQnpxVkFReExJQTJHZkp4dHo0cmZuQ1JwVUwyV3I5QTZDSWFfTU5jRnFXUWhvY9IBlAFBVV95cUxNWkRpMHVwLTZ1SDZQZ2llUkllQ0ozNW9sOG0ydTJFekRTY0p1SUx0SGRFd1dwaE44UEpqaEFLVHVOcUhlUXl6ZzdFZmd3dngwdkpSNExoRXpwNnZxZ1NRdzVEQmdsbGxvak1uLXhXQ1RDalQxQmVEblNsZUhySzY5dnlqQ3JHQUFIek4zcnp1cnlQYUJL?oc=5"
   }
  ],
  "sentiment": {
