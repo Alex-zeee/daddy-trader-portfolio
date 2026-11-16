@@ -1,20 +1,20 @@
 {
- "updated": "16-11-2026 19:31 PKT",
+ "updated": "16-11-2026 19:46 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
-  "dir": "SELL",
-  "strength": 100,
-  "price": 3865.52,
-  "rsi": 39,
+  "dir": "NEUTRAL",
+  "strength": 33,
+  "price": 3878.34,
+  "rsi": 55,
   "tf": "M15"
  },
  "liq": {
   "above": [
-   3876.26,
-   3876.4,
-   3878.52
+   3888.3,
+   3896.36,
+   3901.18
   ],
   "below": [
    3851.78,
@@ -49,6 +49,18 @@
    "status": "TP Hit",
    "note": "ICT Model 1 (HTF POI + BOS + FVG): H1 FVG tap -> BOS -> FVG",
    "hit": "16-11-2026 10:45 PKT"
+  },
+  {
+   "id": "2026-11-16T14:30:00+00:00",
+   "ts": "2026-11-16T14:30:00+00:00",
+   "date": "16-11-2026 19:30 PKT",
+   "pair": "XAUUSD",
+   "type": "BUY",
+   "entry": 3870.58,
+   "sl": 3861.16,
+   "tp": 3894.1,
+   "status": "Active",
+   "note": "ICT Liquidity Hunt + CISD: ASIA Low liquidity hunt -> CISD"
   }
  ],
  "tp_hits": [
