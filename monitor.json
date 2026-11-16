@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 06:15 PKT",
+ "updated": "16-11-2026 06:16 PKT",
  "gold": {
-  "price": 3871.51,
+  "price": 3873.03,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3865.03,
-  "chg": -0.08,
+  "chg": -0.04,
   "src": "XAUUSD Spot",
   "spark": [
-   3874.41,
    3874.51,
    3874.52,
    3874.47,
@@ -55,7 +54,8 @@
    3888.74,
    3885.04,
    3891.15,
-   3871.51
+   3876.15,
+   3873.03
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 103.414,
-   "chg": 0.0,
+   "price": 103.418,
+   "chg": 0.01,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.414
+    103.418
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.21,
-   "chg": -0.4,
+   "price": 88.29,
+   "chg": -0.3,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,7 @@
     86.53,
     88.74,
     88.56,
-    88.21
+    88.29
    ]
   },
   {
@@ -235,7 +235,7 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.756,
+   "price": 159.767,
    "chg": -0.07,
    "spark": [
     158.143,
@@ -259,13 +259,13 @@
     158.705,
     159.734,
     159.875,
-    159.756
+    159.767
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1813.35,
-   "chg": -1.16,
+   "price": 1810.77,
+   "chg": -1.3,
    "spark": [
     1909.85,
     1882.01,
@@ -314,13 +314,13 @@
     1826.61,
     1834.31,
     1813.39,
-    1813.35
+    1810.77
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64881.7,
-   "chg": -0.66,
+   "price": 64819.2,
+   "chg": -0.76,
    "spark": [
     67607.2,
     66683.5,
@@ -369,7 +369,7 @@
     65195.6,
     65314.6,
     64881.3,
-    64876.7
+    64819.2
    ]
   }
  ],
@@ -442,25 +442,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794791709.955482,
+   "ts": 1794791801.213127,
    "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 06:15 AM"
+   "t": "16 Nov \u00b7 06:16 AM"
   },
   {
-   "ts": 1794791709.955482,
+   "ts": 1794791801.213127,
    "title": "Goldman Sachs just slashed its 2027 gold forecast. Here are the new numbers",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sachs-just-slashed-its-2027-gold-forecast-here-are-the-new-numbers-5027310",
-   "t": "16 Nov \u00b7 06:15 AM"
+   "t": "16 Nov \u00b7 06:16 AM"
   },
   {
-   "ts": 1794791709.955482,
+   "ts": 1794791801.213127,
    "title": "Oil prices fall over 2% for the week amid easing fears of fresh U.S.-Iran fighting",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781",
-   "t": "16 Nov \u00b7 06:15 AM"
+   "t": "16 Nov \u00b7 06:16 AM"
   },
   {
    "ts": 1794790395.0,
@@ -628,6 +628,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 503: Service Unavailable"
  ]
 }
