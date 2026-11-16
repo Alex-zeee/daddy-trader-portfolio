@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 03:31 PKT",
+ "updated": "17-11-2026 03:46 PKT",
  "gold": {
-  "price": 3856.29,
-  "open": 3880.47,
+  "price": 3855.96,
+  "open": 3880.57,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.62,
+  "chg": -0.63,
   "src": "XAUUSD Spot",
   "spark": [
-   3872.95,
    3873.01,
    3873.51,
    3874.19,
@@ -55,7 +54,8 @@
    3856.39,
    3856.52,
    3855.99,
-   3856.29
+   3854.84,
+   3855.96
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 103.58,
-   "chg": 0.16,
+   "price": 103.585,
+   "chg": 0.17,
    "spark": [
     101.84,
     101.98,
@@ -114,7 +114,7 @@
     102.91,
     103.17,
     103.41,
-    103.58
+    103.585
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1001,
-   "chg": -0.44,
+   "price": 1.0999,
+   "chg": -0.47,
    "spark": [
     1.1213,
     1.1225,
@@ -201,12 +201,12 @@
     1.1169,
     1.1095,
     1.105,
-    1.1001
+    1.0999
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.41,
+   "price": 159.415,
    "chg": -0.29,
    "spark": [
     158.143,
@@ -230,13 +230,13 @@
     158.705,
     159.734,
     159.875,
-    159.41
+    159.415
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1831.22,
-   "chg": -0.18,
+   "price": 1830.35,
+   "chg": -0.23,
    "spark": [
     1768.03,
     1740.42,
@@ -285,13 +285,13 @@
     1822.05,
     1818.92,
     1827.86,
-    1831.22
+    1830.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65270.1,
-   "chg": -0.07,
+   "price": 65414.1,
+   "chg": 0.15,
    "spark": [
     64115.1,
     63406.7,
@@ -340,7 +340,7 @@
     64996.2,
     65002.1,
     65249.0,
-    65265.7
+    65414.1
    ]
   }
  ],
@@ -405,18 +405,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794868314.121776,
+   "ts": 1794869207.030612,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 03:31 AM"
+   "t": "17 Nov \u00b7 03:46 AM"
   },
   {
-   "ts": 1794868314.121776,
+   "ts": 1794869207.030612,
    "title": "Iranian leaders fret over public mood as gas shortages add to war ills",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iranian-leaders-fret-over-public-mood-as-gas-shortages-add-to-war-ills-5030314",
-   "t": "17 Nov \u00b7 03:31 AM"
+   "t": "17 Nov \u00b7 03:46 AM"
   },
   {
    "ts": 1794864964.0,
@@ -548,7 +548,13 @@
  ],
  "tweets": [
   {
-   "ts": 1794858038.0,
+   "ts": 1794859500.0,
+   "title": "USD/JPY, AUD/JPY: Central Bank Divergence Creates Two-Way Risk",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMzk3RVRWa1htZ19oRkJITDNJeS12NFlVOU5sYU1vN1RTcXowQ2FqVmtOeVZGaHFSdW11bzNabnlfcWtfQlRCejcwOWV5d1NhVHVVTDFiMWtKOERkdHBBRl9scC1EaWdmbFh3X1lfSnVkMlhMRkxZQlNlWW5GdVdtNkYycGNEU2pFSHdlUVpseVRtbTkwTURuN0p4MkJDRGdlMWfSAacBQVVfeXFMT0k5Q3dER2FreEdtYjU2bVNLYzQySW5FTnhyTUVJV1EwdHdrWklTaVNGQnNISGNoVUF5Q2dXNEtoaEs2UV9MblJKS1h3bkJNaEhOVURfb0RaTTZhTzVrM3F0ZUFWNjc4X2hhVFlLOXppX0RYYlVXWUZDUDhRSHJpb1Z1VkROUDJKWHl5NU4wMERQMm92cURDeTlzNXdlU243YmdTbEdxTmM?oc=5"
+  },
+  {
+   "ts": 1794857633.0,
    "title": "US Fed Chairman Warsh Speaks",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zODNLNVNWX2dZTXZ4OUFPUkZ6YVVPaEVrZEFvcExFOEhJX1dUX1NTMzVEdzA3VVZ3YThHd2d1YVgydUxUSWp0UV9GSVdvOElHRkNXeU9xLWFzeWhoMHVwTG9FOFZkMFJQYm1OMVU3bEZvd09OaUNXVWh3?oc=5"
@@ -576,12 +582,6 @@
    "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQk9oaTNXeFlrV09qN1NBeC1pN0s1bDR3dTZPV0hYTUxNakdteGIwUUpxN2hRT0wtSUpSWUZhTkM2TzZlU3Vnb2JGNERsaFM3TXpfblA4TFE5NW50RklwcXJpRDJ3V1F4MC0yaW9jOWNIMlk1VEU2cUY2azdoQnY0cW05QTVfN3I0ZHRNekNaVDZ1cWhtcV83Vjg2SFYwYTQ3WmloUHNCRXVCNGllcS1Z0gG0AUFVX3lxTE1TaWR6NXFfOVdPY2kwdms5RFZXUS11UTEyRHp3N1lXY1RyNDlxR0xLSnpSN0wwXzJZcmphNERIWlMxZHlidE5YMHVmajV5Um95OWxhWHppWVlxbHNDNXgxN201ZW9JM2dRSmFZbmhWeUVUNU9rMDVxVk9pLXpRTlFiLUNCVnNvRWlyODdLb1ZIRlJGWFMyN0VaSU0zRWphTGdfeUlaWkRPdnNhWWE2ZExDNnNENg?oc=5"
-  },
-  {
-   "ts": 1794795660.0,
-   "title": "China\u2019s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkhTRUtwQlFmY3p2dmFyR1ZXZGRSZUY2UmtwX3Z4cUVuckdsRGY3c2lCOVdsRThsVHprZThreFVVMVFnbTJIdmdIZm1mOEZxb2xxTzlQMWpueUg5WS1HOUxGQnk3VXpXQ0k3MWVnTVMtaGh0Mno4V3BjeUpFVVVwaTFMSWtxeldYTmNMX1daZFlESnFXQ0Y1cUFBV3gwQdIBowFBVV95cUxOVHI0MVJoNTh3TWM0MExwYnZjT0JyLWl5N2JhQkktVlM3Ml9kYkNCRzBKNXdQc1pGa3lDQklBRFdaRWlxY3FoTm9VbGNEam1xWjdld2RJMWg2TGpjVVlCSkZyWmp0NzFER0pqbVRhZ3B6M3AwSlRCUmY0OWM2S0R1VGRQNVBMNVBiS2w5QU1WcjVzWHkwelRDSjdodFpmV0NvMXgw?oc=5"
   }
  ],
  "sentiment": {
@@ -592,7 +592,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
