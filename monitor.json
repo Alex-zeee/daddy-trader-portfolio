@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 16:46 PKT",
+ "updated": "16-11-2026 17:01 PKT",
  "gold": {
-  "price": 3872.91,
+  "price": 3874.23,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3833.62,
-  "chg": -0.04,
+  "chg": -0.01,
   "src": "XAUUSD Spot",
   "spark": [
-   3890.71,
    3888.74,
    3885.04,
    3891.15,
@@ -55,14 +54,15 @@
    3873.01,
    3873.51,
    3874.19,
-   3872.91
+   3873.45,
+   3874.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.75,
-   "chg": -2.61,
+   "price": 47.71,
+   "chg": -2.69,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.75
+    47.71
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.518,
-   "chg": 0.1,
+   "price": 103.529,
+   "chg": 0.12,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.518
+    103.529
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 88.2,
-   "chg": -0.41,
+   "price": 87.87,
+   "chg": -0.78,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,7 @@
     86.53,
     88.74,
     88.56,
-    88.2
+    87.87
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.101,
-   "chg": -0.37,
+   "price": 1.1011,
+   "chg": -0.36,
    "spark": [
     1.1213,
     1.1225,
@@ -201,13 +201,13 @@
     1.1169,
     1.1095,
     1.105,
-    1.101
+    1.1011
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3189,
-   "chg": -0.32,
+   "price": 1.3192,
+   "chg": -0.29,
    "spark": [
     1.3273,
     1.3336,
@@ -230,13 +230,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3189
+    1.3192
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.63,
-   "chg": -0.15,
+   "price": 159.572,
+   "chg": -0.19,
    "spark": [
     158.143,
     157.806,
@@ -259,15 +259,14 @@
     158.705,
     159.734,
     159.875,
-    159.63
+    159.572
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1805.23,
-   "chg": -1.6,
+   "price": 1802.91,
+   "chg": -1.73,
    "spark": [
-    1898.02,
     1892.36,
     1852.15,
     1839.76,
@@ -314,15 +313,15 @@
     1804.26,
     1795.95,
     1807.15,
-    1805.49
+    1804.41,
+    1802.91
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64461.2,
-   "chg": -1.31,
+   "price": 64334.4,
+   "chg": -1.5,
    "spark": [
-    66941.2,
     66786.2,
     65859.9,
     65686.9,
@@ -369,7 +368,8 @@
     64404.0,
     64270.8,
     64509.3,
-    64461.3
+    64376.1,
+    64334.4
    ]
   }
  ],
@@ -442,32 +442,42 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794829606.426063,
+   "ts": 1794830513.089723,
    "title": "Gold slides to lowest level in over a year on dollar strength, Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 04:46 PM"
+   "t": "16 Nov \u00b7 05:01 PM"
   },
   {
-   "ts": 1794829606.426063,
+   "ts": 1794830513.089723,
    "title": "Silver could hit $75 an ounce next year as macro headwinds ease: BofA",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/silver-could-hit-75-an-ounce-next-year-as-macro-headwinds-ease-bofa-5028953",
-   "t": "16 Nov \u00b7 04:46 PM"
+   "t": "16 Nov \u00b7 05:01 PM"
   },
   {
-   "ts": 1794829606.426063,
+   "ts": 1794830513.089723,
    "title": "European gas slips as U.S. shipping waivers override Middle East turmoil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807",
-   "t": "16 Nov \u00b7 04:46 PM"
+   "t": "16 Nov \u00b7 05:01 PM"
   },
   {
-   "ts": 1794829606.426063,
-   "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 04:46 PM"
+   "ts": 1794827172.0,
+   "title": "Zcash needs a dovish Fed or a US-Iran breakthrough to reverse the bearish trend",
+   "src": "investingLive",
+   "link": "https://investinglive.com/cryptocurrency/zcash-needs-a-dovish-fed-or-a-us-iran-breakthrough-to-reverse-the-bearish-trend/",
+   "t": "16 Nov \u00b7 04:06 PM",
+   "body": [
+    "Zcash has come under significant selling pressure over the past few days as the broader crypto selloff, driven by hawkish Fed repricing and US-Iran tensions, weighed on risk sentiment.",
+    "The main culprit was Fed Governor Waller's very hawkish speech, in which he floated the possibility of a larger 50 bps hike at the December meeting. His remarks triggered a quick hawkish repricing, which was then exacerbated by the higher than expected US CPI data.",
+    "Moreover, Trump's statement that the US doesn't need a deal with Iran triggered a rally in oil prices, adding to concerns about inflation and tighter monetary policy.",
+    "Looking ahead, Zcash will likely remain under pressure as long as the negative macro backdrop persists. We will probably need a more dovish Fed or a US-Iran breakthrough to change the risk sentiment and trigger a rebound in Zcash.",
+    "On the daily chart, we can see that Zcash bounced near the major upward trendline after a big selloff. If we get another drop into the trendline, we can expect the buyers to step in there, with a defined risk blow the trendline, to position for a rally into the major downward trendline. The sellers, on the other hand, will want to see the price breaking lower to increase the bearish bets into the 500 level next.",
+    "On the 4 hour chart, we have a minor downward trendline defining the bearish momentum. If we get a pullback, we can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting a break below the major upward trendline. The buyers, on the other hand, will look for a break higher to pile in for a correction into the major downward trendline.",
+    "On the 1 hour chart, there\u2019s not much we can add here as the sellers will have a better risk to reward setup around the trendline, while the buyers will need a breakout to open the door for new highs. The red lines define the average daily range for today.",
+    "Today we have Fed Chair Warsh speaking. Tomorrow, we get the US Retail Sales. On Wednesday, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
+   ]
   },
   {
    "ts": 1794823856.0,
@@ -624,7 +634,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
