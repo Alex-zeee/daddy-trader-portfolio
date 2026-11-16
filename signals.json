@@ -1,13 +1,13 @@
 {
- "updated": "16-11-2026 09:01 PKT",
+ "updated": "16-11-2026 09:16 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "SELL",
   "strength": 100,
-  "price": 3873.41,
-  "rsi": 39,
+  "price": 3871.7,
+  "rsi": 40,
   "tf": "M15"
  },
  "liq": {
@@ -16,7 +16,9 @@
    3896.36,
    3901.18
   ],
-  "below": []
+  "below": [
+   3863.99
+  ]
  },
  "idea": null,
  "signals": [
@@ -31,6 +33,18 @@
    "tp": 3849.47,
    "status": "Active",
    "note": "ICT Liquidity Hunt + CISD: NY High liquidity hunt -> CISD"
+  },
+  {
+   "id": "2026-11-16T04:00:00+00:00",
+   "ts": "2026-11-16T04:00:00+00:00",
+   "date": "16-11-2026 09:00 PKT",
+   "pair": "XAUUSD",
+   "type": "SELL",
+   "entry": 3876.64,
+   "sl": 3889.12,
+   "tp": 3851.67,
+   "status": "Active",
+   "note": "ICT Model 1 (HTF POI + BOS + FVG): H1 FVG tap -> BOS -> FVG"
   }
  ],
  "tp_hits": [

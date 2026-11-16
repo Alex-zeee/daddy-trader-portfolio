@@ -1,14 +1,13 @@
 {
- "updated": "16-11-2026 09:01 PKT",
+ "updated": "16-11-2026 09:16 PKT",
  "gold": {
-  "price": 3872.95,
+  "price": 3872.51,
   "open": 3874.43,
   "high": 3901.18,
   "low": 3863.99,
-  "chg": -0.04,
+  "chg": -0.05,
   "src": "XAUUSD Spot",
   "spark": [
-   3879.66,
    3879.59,
    3879.7,
    3880.78,
@@ -55,14 +54,15 @@
    3872.74,
    3872.02,
    3873.41,
-   3872.95
+   3871.7,
+   3872.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.54,
-   "chg": -3.04,
+   "price": 47.485,
+   "chg": -3.15,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.54
+    47.485
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.437,
-   "chg": 0.03,
+   "price": 103.457,
+   "chg": 0.05,
    "spark": [
     101.84,
     101.98,
@@ -114,36 +114,7 @@
     102.91,
     103.17,
     103.41,
-    103.437
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 87.98,
-   "chg": -0.65,
-   "spark": [
-    101.41,
-    103.66,
-    101.79,
-    97.15,
-    99.47,
-    103.27,
-    101.76,
-    99.9,
-    102.78,
-    102.0,
-    104.12,
-    96.46,
-    96.09,
-    88.12,
-    90.52,
-    90.83,
-    86.85,
-    86.04,
-    86.53,
-    88.74,
-    88.56,
-    87.98
+    103.457
    ]
   },
   {
@@ -176,9 +147,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.1019,
+   "chg": -0.28,
+   "spark": [
+    1.1213,
+    1.1225,
+    1.1216,
+    1.1227,
+    1.1235,
+    1.1221,
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1019
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3207,
-   "chg": -0.19,
+   "price": 1.3205,
+   "chg": -0.2,
    "spark": [
     1.3273,
     1.3336,
@@ -201,13 +201,13 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3207
+    1.3205
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.615,
-   "chg": -0.16,
+   "price": 159.631,
+   "chg": -0.15,
    "spark": [
     158.143,
     157.806,
@@ -230,13 +230,13 @@
     158.705,
     159.734,
     159.875,
-    159.615
+    159.631
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1825.35,
-   "chg": -0.5,
+   "price": 1819.65,
+   "chg": -0.81,
    "spark": [
     1903.92,
     1903.7,
@@ -285,13 +285,13 @@
     1804.55,
     1823.98,
     1826.26,
-    1825.35
+    1819.65
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 65021.9,
-   "chg": -0.45,
+   "price": 64865.9,
+   "chg": -0.69,
    "spark": [
     67166.2,
     67314.8,
@@ -340,7 +340,7 @@
     64526.2,
     65136.5,
     65048.3,
-    65021.8
+    64865.9
    ]
   }
  ],
@@ -413,18 +413,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794801709.720461,
+   "ts": 1794802609.785633,
    "title": "Gold falls below $3,900 as December Fed hike bets build, Warsh in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "16 Nov \u00b7 09:01 AM"
+   "t": "16 Nov \u00b7 09:16 AM"
   },
   {
-   "ts": 1794801709.720461,
+   "ts": 1794802609.785633,
    "title": "Iran\u2019s navy says three tankers on fire after hitting mines in Hormuz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz-5027556",
-   "t": "16 Nov \u00b7 09:01 AM"
+   "t": "16 Nov \u00b7 09:16 AM"
+  },
+  {
+   "ts": 1794800843.0,
+   "title": "Goldman sees Brent at $78 by end-2027 as oil surplus returns, flags near-term upside risk",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/goldman-sees-brent-at-78-by-end-2027-as-oil-surplus-returns-flags-near-term-upside-risk/",
+   "t": "16 Nov \u00b7 08:47 AM",
+   "body": [
+    "Goldman\u2019s path implies Brent averaging nearly $8 below current levels next year, and about $18 lower by end-2027. That gives oil bears a solid medium-term anchor. In the near term, though, the market is still driven by the war. Confirmation of the IRGC\u2019s tanker-sinking claims could quickly rebuild the risk premium that Goldman expects to fade. Monday\u2019s dip suggests traders are leaning toward the surplus story for now. The diesel forecast matters for inflation. At $150 a barrel, products stay costly even as crude eases, so energy keeps feeding into the inflation concerns Fed officials raised over the weekend.",
+    "Goldman\u2019s message on oil is patience: a surplus is coming and prices should fall, but until the Gulf calms down, the risks over the next few weeks still point upward.",
+    "Goldman Sachs expects oil prices to drift lower over the next year as the market returns to surplus. It forecasts Brent crude to average $88 a barrel in 2027 and ease to $78 by December 2027, though it warned of upside risks in the near term from attacks on shipping in the Middle East, Reuters reported.",
+    "For US crude, the bank sees West Texas Intermediate averaging $78 a barrel next year and slipping to $70 by the end of 2027. Refined products should also ease but stay well above historical norms, with US wholesale diesel forecast to average $150 a barrel in 2027.",
+    "The core of the call is supply. In Goldman\u2019s base case, oil production will exceed end-use demand by 2 million barrels per day in 2027. That surplus is large enough to pull prices down from current levels, even if some war-related risk premium lingers.",
+    "The bank was careful to present the risks as running in both directions. In the near term, it said prices could rise if attacks on shipping intensify, if oil infrastructure is damaged or if the risk premium rebuilds. Over the medium term, the risk is to the downside, through stronger supply, weaker demand or a smaller risk premium than it assumes.",
+    "That near-term risk is real. Iran\u2019s Revolutionary Guards claimed over the weekend that two tankers struck mines in the Strait of Hormuz and that one of them, a supertanker carrying more than 2 million barrels, sank. There has been no independent confirmation.",
+    "Even so, prices fell on Monday on expectations of a supply surplus. Shipments through Hormuz were reported to be close to pre-war levels, and Washington eased domestic fuel movements by extending its Jones Act waiver. Brent was trading around $95.50 earlier in Asia, well above Goldman\u2019s 2027 average, which implies significant downside if the bank\u2019s surplus view plays out.",
+    "The gap between today\u2019s prices and the forecast path leaves the oil market hinging on one question: whether supply disruption in the Gulf fades or flares up again."
+   ]
   },
   {
    "ts": 1794797094.0,
@@ -537,23 +555,6 @@
     "Gold Gold was little changed around $3,890 an ounce, with hawkish Fed commentary over the weekend keeping a lid on gains.",
     "Bitcoin Bitcoin rose nearly 2% to around $65,300, outperforming other risk assets in early trade.",
     "What\u2019s ahead The Fed is widely expected to raise rates by a quarter point at its December 8-9 meeting. Over the weekend, Kansas City Fed President Jeff Schmid said the Fed has work to do on inflation, while Boston Fed President Susan Collins backed a steady, gradual pace of hikes. Upcoming US core PCE price data will be watched closely for confirmation. In Asia, Japan\u2019s preliminary third-quarter GDP is due shortly, followed by China\u2019s October activity data."
-   ]
-  },
-  {
-   "ts": 1794780050.0,
-   "title": "Iran says supertanker with 2 million barrels sank after Hormuz mine strike, unconfirmed",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/iran-says-supertanker-with-2-million-barrels-sank-after-hormuz-mine-strike-unconfirmed/",
-   "t": "16 Nov \u00b7 03:00 AM",
-   "body": [
-    "Oil is the main channel for this news. A claimed sinking of a fully laden supertanker in the world\u2019s most important crude chokepoint is likely to add to the risk premium in Brent and WTI when markets reopen (futures at 6pm Sunday, US Eastern time), even without independent confirmation. The bigger risk is about behaviour rather than barrels. If shipowners conclude that the US-cleared lanes and covert transits are not safe, Hormuz flows could shrink further, and freight rates and war-risk insurance costs could climb. If the claims are not confirmed, or are shown to be overstated, part of any initial jump could fade quickly, given how many similar Iranian announcements markets have already absorbed.",
-    "Iran says its mines have sunk a laden supertanker in the Gulf, a claim no one else has yet confirmed, but its warning to ships using unapproved Hormuz routes is aimed squarely at oil markets and shipowners.",
-    "Iran\u2019s Revolutionary Guards said on Sunday that two oil tankers struck naval mines while using what Tehran calls an unauthorised route through the Strait of Hormuz. They said one of them, a supertanker carrying more than 2 million barrels of crude, sank in the southern Gulf. There was no independent confirmation of either incident.",
-    "In a statement carried by Iranian state television, the IRGC Navy said both vessels had their transponders switched off. It said the second tanker was still burning, and warned other ships against what it called US-backed covert passage and deception. The Guards did not disclose the names or flags of the vessels, and there was no information on the crews.",
-    "A separate statement from Iran\u2019s regular Army Navy gave a narrower account. It described a single tanker, operating with its navigation systems off in a prohibited zone east of the strait, that hit a mine and caught fire. It said any passage not coordinated with Iran\u2019s armed forces would lead to mine strikes and fires. The two accounts differ on the number of ships, the location and whether a vessel sank, and it is unclear whether they describe the same events.",
-    "The UK Maritime Trade Operations centre said it was aware of a report from Indian shipping authorities of an attack on a tanker in the Gulf, but could not say whether it was the same incident.",
-    "The claims follow a series of similar announcements from Tehran in recent weeks, often blaming mines for ship fires in the strait. Iran has restricted traffic through the waterway and insists that vessels use routes it has authorised. The US military has said it has cleared mines from the main shipping lanes, and the US has imposed a naval blockade on Iranian ports.",
-    "If confirmed, the sinking of a fully laden supertanker would be one of the most serious shipping losses of the conflict so far, both for the crude lost and for the signal it sends to shipowners and insurers. Confirmation from shipping monitors, the identity of the vessels and any US response will decide how far the episode escalates."
    ]
   }
  ],
