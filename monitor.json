@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 05:16 PKT",
+ "updated": "17-11-2026 05:31 PKT",
  "gold": {
-  "price": 3859.53,
-  "open": 3889.21,
+  "price": 3855.92,
+  "open": 3886.04,
   "high": 3896.36,
   "low": 3833.62,
-  "chg": -0.76,
+  "chg": -0.78,
   "src": "XAUUSD Spot",
   "spark": [
-   3868.31,
    3872.16,
    3866.16,
    3869.31,
@@ -55,14 +54,15 @@
    3852.03,
    3862.82,
    3860.13,
-   3859.53
+   3856.79,
+   3855.92
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.015,
-   "chg": -4.11,
+   "price": 47.035,
+   "chg": -4.07,
    "spark": [
     56.995,
     56.974,
@@ -85,7 +85,7 @@
     51.881,
     49.972,
     49.031,
-    47.015
+    47.035
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1,
-   "chg": -0.23,
+   "price": 1.0999,
+   "chg": -0.24,
    "spark": [
     1.1225,
     1.1216,
@@ -201,13 +201,42 @@
     1.1095,
     1.105,
     1.1025,
-    1.1
+    1.0999
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3182,
+   "chg": -0.26,
+   "spark": [
+    1.3336,
+    1.3308,
+    1.3373,
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3182
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.44,
-   "chg": -0.21,
+   "price": 159.418,
+   "chg": -0.23,
    "spark": [
     157.806,
     158.523,
@@ -230,13 +259,13 @@
     159.734,
     159.875,
     159.78,
-    159.44
+    159.418
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1816.17,
-   "chg": -0.14,
+   "price": 1811.08,
+   "chg": -0.42,
    "spark": [
     1728.71,
     1815.12,
@@ -285,13 +314,13 @@
     1827.86,
     1826.65,
     1819.59,
-    1816.17
+    1811.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64581.9,
-   "chg": -0.36,
+   "price": 64453.2,
+   "chg": -0.56,
    "spark": [
     62578.9,
     64870.1,
@@ -340,7 +369,7 @@
     65249.0,
     65257.2,
     64810.6,
-    64581.9
+    64453.2
    ]
   }
  ],
@@ -405,18 +434,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794874607.701253,
+   "ts": 1794875505.442408,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 05:16 AM"
+   "t": "17 Nov \u00b7 05:31 AM"
   },
   {
-   "ts": 1794874607.701253,
+   "ts": 1794875505.442408,
    "title": "Iranian leaders fret over public mood as gas shortages add to war ills",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iranian-leaders-fret-over-public-mood-as-gas-shortages-add-to-war-ills-5030314",
-   "t": "17 Nov \u00b7 05:16 AM"
+   "t": "17 Nov \u00b7 05:31 AM"
   },
   {
    "ts": 1794871729.0,
@@ -593,6 +622,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
