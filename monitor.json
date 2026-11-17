@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 15:46 PKT",
+ "updated": "17-11-2026 16:01 PKT",
  "gold": {
-  "price": 3860.16,
-  "open": 3872.6,
+  "price": 3854.4,
+  "open": 3873.01,
   "high": 3887.6,
   "low": 3841.13,
-  "chg": -0.32,
+  "chg": -0.48,
   "src": "XAUUSD Spot",
   "spark": [
-   3852.87,
    3856.43,
    3852.03,
    3862.82,
@@ -55,14 +54,15 @@
    3855.95,
    3856.86,
    3859.53,
-   3860.16
+   3853.62,
+   3854.4
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.3,
-   "chg": 1.1,
+   "price": 47.34,
+   "chg": 1.19,
    "spark": [
     56.974,
     57.706,
@@ -85,13 +85,42 @@
     49.972,
     49.031,
     46.785,
-    47.3
+    47.34
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 103.589,
+   "chg": 0.04,
+   "spark": [
+    101.98,
+    101.73,
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.17,
+    103.41,
+    103.55,
+    103.589
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.62,
-   "chg": -0.12,
+   "price": 86.06,
+   "chg": 0.4,
    "spark": [
     103.66,
     101.79,
@@ -114,7 +143,7 @@
     88.74,
     88.56,
     85.72,
-    85.62
+    86.06
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0995,
-   "chg": -0.27,
+   "price": 1.0993,
+   "chg": -0.29,
    "spark": [
     1.1225,
     1.1216,
@@ -172,13 +201,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.0995
+    1.0993
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.319,
-   "chg": -0.2,
+   "price": 1.3191,
+   "chg": -0.19,
    "spark": [
     1.3336,
     1.3308,
@@ -201,13 +230,13 @@
     1.3277,
     1.3231,
     1.3216,
-    1.319
+    1.3191
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.068,
-   "chg": -0.45,
+   "price": 159.139,
+   "chg": -0.4,
    "spark": [
     157.806,
     158.523,
@@ -230,15 +259,14 @@
     159.734,
     159.875,
     159.78,
-    159.068
+    159.139
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1790.48,
-   "chg": -1.55,
+   "price": 1789.71,
+   "chg": -1.6,
    "spark": [
-    1822.63,
     1834.79,
     1830.01,
     1805.89,
@@ -285,15 +313,15 @@
     1831.02,
     1818.17,
     1810.46,
-    1790.48
+    1786.7,
+    1789.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64182.3,
-   "chg": -0.97,
+   "price": 64123.1,
+   "chg": -1.07,
    "spark": [
-    65322.7,
     65474.3,
     65398.5,
     64719.5,
@@ -340,7 +368,8 @@
     64676.6,
     64271.8,
     64298.1,
-    64182.3
+    64034.4,
+    64123.1
    ]
   }
  ],
@@ -405,25 +434,61 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794912407.125973,
+   "ts": 1794913304.106237,
    "title": "European gas futures climb as recovering oil exports overshadow shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-futures-climb-as-recovering-oil-exports-overshadow-shipping-attacks-5031845",
-   "t": "17 Nov \u00b7 03:46 PM"
+   "t": "17 Nov \u00b7 04:01 PM"
   },
   {
-   "ts": 1794912407.125973,
+   "ts": 1794913304.106237,
    "title": "Gold rebounds toward $3,900 after 14-month low as precious metals rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 03:46 PM"
+   "t": "17 Nov \u00b7 04:01 PM"
   },
   {
-   "ts": 1794912407.125973,
+   "ts": 1794913304.106237,
    "title": "Oman, Iran foreign ministers discuss safeguarding maritime corridors",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-5031688",
-   "t": "17 Nov \u00b7 03:46 PM"
+   "t": "17 Nov \u00b7 04:01 PM"
+  },
+  {
+   "ts": 1794911384.0,
+   "title": "Ethereum's bearish trend could extend further without a dovish Fed pivot or a US-Iran breakthrough",
+   "src": "investingLive",
+   "link": "https://investinglive.com/cryptocurrency/ethereum-s-bearish-trend-could-extend-further-without-a-dovish-fed-pivot-or-a-us-iran-breakthrough/",
+   "t": "17 Nov \u00b7 03:29 PM",
+   "body": [
+    "Ethereum has faced significant selling pressure over the past week, with a big wave of liquidations across the crypto market as the hawkish Fed repricing tightened financial conditions and weighed on risk sentiment.",
+    "The main catalyst was Fed's Waller speech, in which he also floated the possibility of a larger 50 bps hike at the December meeting. His remarks triggered a strong hawkish repricing, which was then exacerbated by the higher than expected US CPI data.",
+    "The risk sentiment deteriorated further when Trump said on Truth Social that the US doesn't need a deal with Iran, adding to inflation and growth concerns.",
+    "Looking ahead, Ethereum will likely remain under pressure as long as the negative macro backdrop persists. A more dovish Fed or a breakthrough in the US-Iran situation will likely be needed to trigger a reversal in the bearish trend.",
+    "On the daily chart, we can see that Ethereum extended the losses as the risk sentiment deteriorated last week. The price is now consolidating below the 1,870 level. The sellers will likely continue to step in around these levels, with a defined risk above the 1,870 level, to keep targeting the 1,500 level next. The buyers, on the other hand, will want to see the price rising back above the 1,870 level to start positioning for a correction into the major downward trendline.",
+    "On the 4 hour chart, we have a downward trendline defining the bearish momentum. We can expect the sellers to continue to lean on the trendline, with a defined risk above it, to keep targeting the 1,500 level. The buyers, on the other hand, will want to see the price breaking higher to pile in for a correction into the major downward trendline.",
+    "On the 1 hour chart, we have a minor upward trendline defining the recent pullback. The buyers will likely lean on the trendline, with a defined risk below it, to keep targeting a breakout. The sellers, on the other hand, will look for a break lower to increase the bearish bets into the 1,500 level next. The red lines define the average daily range for today.",
+    "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
+   ]
+  },
+  {
+   "ts": 1794911045.0,
+   "title": "Gold consolidates as growth concerns gain traction amid a falling stock market. What's next?",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-consolidates-as-growth-concerns-gain-traction-amid-a-falling-stock-market-what-s-next/",
+   "t": "17 Nov \u00b7 03:24 PM",
+   "body": [
+    "Gold is now consolidating below key resistance levels, having so far resisted pressure from another rise in real yields and the US dollar. This might be an early signal of a change in momentum, although a technical breakout might still be needed given the current headwinds.",
+    "The hawkish repricing should now be mostly over, as a rate hike in December is widely expected, while the probability of a 50 bps hike remains very slim given that the majority of Fed members favour smaller steps.",
+    "It looks like growth concerns are finally gaining traction, with the stock market erasing almost all of last week's gains and Treasury yields slowly rolling over. These concerns are likely to persist and might even intensify as long as the US-Iran situation remains unresolved, and the Fed maintains the hawkish stance.",
+    "I think that in the current context, a prolonged US-Iran stalemate or an escalation would keep inflation expectations high alongside a weakening growth outlook, creating a stagflationary environment. And this should ultimately be bullish for gold.",
+    "At the same time, if there\u2019s a breakthrough, we could see a dovish repricing on easing inflation concerns, which should also support gold in the short-term.",
+    "There are certainly strong headwinds for gold at the moment amid rising real yields and stronger US dollar, so these fundamental views will need to be paired with technicals for a confirmation of a change in momentum.",
+    "On the daily chart, we can see that gold (CFD contract) is consolidating below the key resistance zone around the 3,885 level and the major upward trendline. We can expect the sellers to continue to step in around these levels, with a defined risk above the broken trendline, to extend the drop into the 3,500 level. The buyers, on the other hand, will want to see the price rising back above the broken trendline to start piling in for a rally into the 4,700 level next.",
+    "On the 4 hour chart, we can see the price broke above the downward trendline that was defining the bearish momentum. This might be an early signal of a change in momentum. The buyers will want to see the price rising back above the broken trendline to confirm the potential reversal and pile in for a rally into the 4,700 level, with the 4,150 level as the first target. The sellers, on the other hand, will continue to step in around these levels to keep targeting new lows.",
+    "On the 1 hour chart, there\u2019s not much we can add here given the consolidation. The sellers will continue to step in around these levels to keep targeting new lows, while the buyers will need to see the price rising back above the broken trendline to start positioning for new highs. The red lines define the average daily range for today.",
+    "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
+   ]
   },
   {
    "ts": 1794894204.0,
@@ -513,33 +578,6 @@
     "Respondents also expect higher interest rates. The mean expectation for the official cash rate at the end of the December quarter was 3.05%, above the current 2.75%. That implies an expected hike at or before the RBNZ\u2019s next Monetary Policy Statement on 9 December. One-year-ahead OCR expectations rose to 3.40% from 3.21%.",
     "The rest of the survey was mixed. One-year-ahead unemployment expectations held at 5.24%, one-year wage inflation expectations rose to 2.90%, and GDP growth expectations improved. House price expectations fell sharply, with house price inflation one year ahead now seen at just 0.51%.",
     "The firmer one-year reading combined with a stable two-year anchor gives the RBNZ room to argue that expectations are under control. But the rate expectations in the survey show that respondents believe more tightening is coming. The 9 December statement will show whether the central bank agrees."
-   ]
-  },
-  {
-   "ts": 1794880512.0,
-   "title": "Two more Fed hikes, then a long pause: Goldman reads a third hot core CPI print",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/two-more-fed-hikes-then-a-long-pause-goldman-reads-a-third-hot-core-cpi-print/",
-   "t": "17 Nov \u00b7 06:55 AM",
-   "body": [
-    "A January hike is a step beyond what the market has firmly priced, so Goldman\u2019s call leans against any rally at the front end. The two-year yield\u2019s jump to near 4.86% shows how quickly expectations can move. For the dollar, a longer tightening cycle supports the policy divergence already weighing on currencies such as the yen and the Aussie. Gold is vulnerable too, since it has repeatedly fallen as Fed hike expectations rise rather than acting as a haven. Equities face the same pressure on valuations seen across AI names this month. The key test is whether Fed officials start to talk openly about January before the December meeting.",
-    "Three strong core inflation readings in a row have convinced Goldman that summer\u2019s slowdown was a blip. It now expects the Fed to hike in January as well as December before taking a long breather.",
-    "Goldman Sachs Asset Management expects the Federal Reserve to keep raising interest rates beyond December, after a third consecutive strong reading on US core inflation. It forecasts back-to-back hikes in December and January, followed by a prolonged pause.",
-    "Core consumer prices, which exclude food and energy, rose 0.3% in October. That is an annualized pace of about 3.6% and was above market expectations. Goldman said the run of three firm prints suggests the softer readings over the summer were temporary rather than the start of a sustained slowdown in inflation. Its charts show the three-month annualized rate of core inflation climbing back to around 3.7%, and the year-on-year measure has edged higher in recent months.",
-    "What concerns the asset manager most is the breadth of the increase. Strength showed up across several categories at once. One was so-called supercore inflation, which tracks services prices excluding housing and is closely watched by the Fed as a gauge of wage-driven pressures. Housing and core goods also rose. Goldman argued that such widespread gains make it harder for policymakers to dismiss the data as noise, particularly while the labor market remains resilient.",
-    "Markets have moved in the same direction. The two-year Treasury yield, the maturity most sensitive to Fed expectations, had jumped to around 4.86% as of November 11, according to Goldman\u2019s figures, a sharp recovery from a dip in October.",
-    "Goldman\u2019s base case is for consecutive hikes in December and January, followed by an extended hold. It cautioned, however, that further increases could follow if inflation proves sticky. For portfolios, the firm said it remains cautious on US interest rates, citing resilient growth and inflation momentum that reinforce the Fed\u2019s hawkish bias.",
-    "The view adds to a growing debate over how far the tightening cycle has to run. Investors will look to the next round of inflation and labor market data, and to Fed officials\u2019 comments ahead of the December 8-9 meeting, for signs of whether a January move is gaining support inside the central bank."
-   ]
-  },
-  {
-   "ts": 1794878138.0,
-   "title": "PBOC sets USD/ CNY central rate at 6.7132 (vs. estimate at 6.6715)",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-central-rate-at-vs-estimate-at-6-6715/",
-   "t": "17 Nov \u00b7 06:15 AM",
-   "body": [
-    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
    ]
   }
  ],
