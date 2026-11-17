@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 11:01 PKT",
+ "updated": "17-11-2026 11:16 PKT",
  "gold": {
-  "price": 3881.44,
-  "open": 3850.35,
+  "price": 3874.82,
+  "open": 3851.14,
   "high": 3887.6,
   "low": 3839.21,
-  "chg": 0.81,
+  "chg": 0.61,
   "src": "XAUUSD Spot",
   "spark": [
-   3850.96,
    3849.54,
    3854.86,
    3857.65,
@@ -55,14 +54,15 @@
    3882.82,
    3880.46,
    3881.0,
-   3881.44
+   3875.13,
+   3874.82
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.76,
-   "chg": 2.08,
+   "price": 47.475,
+   "chg": 1.47,
    "spark": [
     56.974,
     57.706,
@@ -85,13 +85,13 @@
     49.972,
     49.031,
     46.785,
-    47.76
+    47.475
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.44,
-   "chg": -0.11,
+   "price": 103.477,
+   "chg": -0.07,
    "spark": [
     101.98,
     101.73,
@@ -114,13 +114,13 @@
     103.17,
     103.41,
     103.55,
-    103.44
+    103.477
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.89,
-   "chg": -0.97,
+   "price": 84.99,
+   "chg": -0.85,
    "spark": [
     103.66,
     101.79,
@@ -143,7 +143,7 @@
     88.74,
     88.56,
     85.72,
-    84.89
+    84.99
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1014,
-   "chg": -0.09,
+   "price": 1.101,
+   "chg": -0.14,
    "spark": [
     1.1225,
     1.1216,
@@ -201,13 +201,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.1014
+    1.101
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3201,
-   "chg": -0.12,
+   "price": 1.3195,
+   "chg": -0.16,
    "spark": [
     1.3336,
     1.3308,
@@ -230,13 +230,13 @@
     1.3277,
     1.3231,
     1.3216,
-    1.3201
+    1.3195
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.109,
-   "chg": -0.42,
+   "price": 159.225,
+   "chg": -0.35,
    "spark": [
     157.806,
     158.523,
@@ -259,13 +259,13 @@
     159.734,
     159.875,
     159.78,
-    159.109
+    159.225
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1832.58,
-   "chg": 0.76,
+   "price": 1829.56,
+   "chg": 0.59,
    "spark": [
     1781.15,
     1810.81,
@@ -314,13 +314,13 @@
     1830.94,
     1833.38,
     1832.9,
-    1832.58
+    1829.56
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64747.8,
-   "chg": -0.1,
+   "price": 64620.3,
+   "chg": -0.3,
    "spark": [
     63980.4,
     65191.9,
@@ -369,7 +369,7 @@
     64992.2,
     64983.3,
     64751.0,
-    64747.8
+    64618.7
    ]
   }
  ],
@@ -434,25 +434,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794895302.276924,
+   "ts": 1794896205.892093,
    "title": "Oman, Iran foreign ministers discuss safeguarding maritime corridors",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-5031688",
-   "t": "17 Nov \u00b7 11:01 AM"
+   "t": "17 Nov \u00b7 11:16 AM"
   },
   {
-   "ts": 1794895302.276924,
+   "ts": 1794896205.892093,
    "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 11:01 AM"
+   "t": "17 Nov \u00b7 11:16 AM"
   },
   {
-   "ts": 1794895302.276924,
+   "ts": 1794896205.892093,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 11:01 AM"
+   "t": "17 Nov \u00b7 11:16 AM"
   },
   {
    "ts": 1794894204.0,
@@ -618,6 +618,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
