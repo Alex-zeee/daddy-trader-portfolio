@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 08:01 PKT",
+ "updated": "17-11-2026 08:16 PKT",
  "gold": {
-  "price": 3870.79,
-  "open": 3868.87,
+  "price": 3873.55,
+  "open": 3872.27,
   "high": 3887.6,
   "low": 3833.62,
-  "chg": 0.05,
+  "chg": 0.03,
   "src": "XAUUSD Spot",
   "spark": [
-   3864.83,
    3865.77,
    3859.63,
    3859.33,
@@ -55,14 +54,15 @@
    3867.3,
    3866.05,
    3868.37,
-   3870.79
+   3871.82,
+   3873.55
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.405,
-   "chg": -3.32,
+   "price": 47.435,
+   "chg": -3.26,
    "spark": [
     56.995,
     56.974,
@@ -85,13 +85,13 @@
     51.881,
     49.972,
     49.031,
-    47.405
+    47.435
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.579,
-   "chg": 0.16,
+   "price": 103.535,
+   "chg": 0.12,
    "spark": [
     101.84,
     101.98,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.579
+    103.535
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.04,
-   "chg": -3.97,
+   "price": 85.13,
+   "chg": -3.87,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,7 @@
     86.53,
     88.74,
     88.56,
-    85.04
+    85.13
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1006,
-   "chg": -0.17,
+   "price": 1.1008,
+   "chg": -0.15,
    "spark": [
     1.1225,
     1.1216,
@@ -201,13 +201,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.1006
+    1.1008
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3188,
-   "chg": -0.22,
+   "price": 1.3191,
+   "chg": -0.2,
    "spark": [
     1.3336,
     1.3308,
@@ -230,13 +230,42 @@
     1.3277,
     1.3231,
     1.3216,
-    1.3188
+    1.3191
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 159.315,
+   "chg": -0.29,
+   "spark": [
+    157.806,
+    158.523,
+    158.268,
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.78,
+    159.315
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1814.18,
-   "chg": -0.25,
+   "price": 1818.55,
+   "chg": -0.01,
    "spark": [
     1812.46,
     1799.16,
@@ -285,13 +314,13 @@
     1813.13,
     1819.12,
     1813.03,
-    1814.18
+    1818.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64505.5,
-   "chg": -0.48,
+   "price": 64607.0,
+   "chg": -0.32,
    "spark": [
     64903.5,
     64479.5,
@@ -340,7 +369,7 @@
     64566.5,
     64684.8,
     64438.0,
-    64505.5
+    64607.0
    ]
   }
  ],
@@ -405,18 +434,53 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794884504.320066,
+   "ts": 1794885408.532147,
    "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 08:01 AM"
+   "t": "17 Nov \u00b7 08:16 AM"
   },
   {
-   "ts": 1794884504.320066,
+   "ts": 1794885408.532147,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 08:01 AM"
+   "t": "17 Nov \u00b7 08:16 AM"
+  },
+  {
+   "ts": 1794883728.0,
+   "title": "More from Morgan Stanley: 8,700 S&P target and $5,250 gold lead its 2027 outlook",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stock-market-update/more-from-morgan-stanley-8-700-s-p-target-and-5-250-gold-lead-its-2027-outlook/",
+   "t": "17 Nov \u00b7 07:48 AM",
+   "body": [
+    "A firm number on the S&P 500 and a cheaper starting valuation give dip buyers something concrete to work with. That counts for more on a day when chip export curbs and Goldman\u2019s call for more Fed hikes are pulling the other way. The rates call is notable: Morgan Stanley thinks markets are too hawkish, so its view would support duration, especially in Europe and the UK. The currency forecasts point to a firmer dollar, with USD/JPY at 162 sitting right at the level that has fuelled talk of intervention from Tokyo. For commodities, the $5,250 gold target sets up a striking split with Goldman. The Brent forecast of $75 implies the war premium fading over time. That fits today\u2019s surplus narrative but depends on the Gulf calming down.",
+    "Morgan Stanley has backed its max-overweight equity call with hard numbers. It sees 8,700 on the S&P 500, a firmer dollar and gold at $5,250, and believes cheaper valuations and AI spending can carry markets through 2027.",
+    "Morgan Stanley has put numbers to its maximum overweight call on global equities. It has set an S&P 500 target of 8,700 for the end of 2027 and named gold as its top commodity pick, with a forecast of $5,250 an ounce.",
+    "As reported on Monday, the bank has moved to its most bullish stance on global stocks, arguing that the AI investment cycle remains intact. The fuller outlook adds the targets and cross-asset calls behind that view.",
+    "The bank\u2019s top-down forecast has earnings for the MSCI All Country World Index rising 13% in 2027 and 8% in 2028. Rising real rates this year have pushed the index\u2019s consensus forward price-to-earnings ratio down to 15 times. That is the lowest since 2023 and five points below its level a year ago. Morgan Stanley expects this valuation headwind to ease and possibly reverse. It is bullish on the US, Japan and Europe and equal weight on emerging markets. Its equity analysts have kept their baseline AI investment projections, and they expect the question of how chips are financed to dominate the AI funding debate in 2027.",
+    "The bank has raised corporate credit to equal weight, saying risk assets have cheapened enough to justify taking more risk. Because tail risks remain, it recommends pairing that exposure with quality. It prefers investment grade to high yield across regions, favours loans over high-yield bonds in the US and is neutral on data center debt. In rates, it sees market pricing as more hawkish than its economists expect. It favours German Bunds and UK gilts, and forecasts the 10-year US Treasury yield at 5% and the 10-year Bund at 3.10%.",
+    "Morgan Stanley expects wider gaps between US and foreign interest rates to support a modest dollar rally, with the DXY index at 105 by the fourth quarter of 2027. It sees EUR/USD falling to 1.08 as risk premium builds ahead of the French presidential election, and USD/JPY rising to 162.",
+    "Its gold forecast stands well above the market, with spot gold near $3,865. It also contrasts sharply with Goldman Sachs, which cut its end-2027 target to $4,650 this month. Morgan Stanley expects Brent crude to fall to $75 a barrel and copper to reach $12,800 a tonne, and warns that a pending US tariff decision could make copper volatile."
+   ]
+  },
+  {
+   "ts": 1794881679.0,
+   "title": "NZ 1-year inflation expectations jump to 2.9%, but the 2-year anchor barely moves",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/nz-1-year-inflation-expectations-jump-to-2-9-but-the-2-year-anchor-barely-moves/",
+   "t": "17 Nov \u00b7 07:14 AM",
+   "body": [
+    "For the RBNZ, the survey is mixed rather than alarming. The stable two-year reading lets policymakers argue that expectations remain anchored. The one-year jump and the higher OCR expectations show forecasters now firmly expect tightening. That supports pricing for a hike at the 9 December Monetary Policy Statement, and any pushback from the RBNZ would surprise. For the New Zealand dollar, near 0.55, higher rate expectations give some support, though the move in the two-year gauge is too small to be a strong driver on its own. The slump in house price expectations is a reminder that tighter policy is already biting. That may temper how far the RBNZ is willing to go.",
+    "New Zealand forecasters are bracing for higher inflation next year but still trust the RBNZ to bring it back over two years. They also expect it to raise rates to get there.",
+    "New Zealand businesses and professional forecasters lifted their near-term inflation expectations sharply in the fourth quarter, the Reserve Bank of New Zealand\u2019s latest Survey of Expectations showed on Tuesday. But the two-year measure the RBNZ watches most closely barely moved.",
+    "One-year-ahead inflation expectations rose to 2.92% from 2.60%, a jump of 32 basis points. Two-year-ahead expectations edged up to 2.36% from 2.34%. Longer-term measures eased: five-year expectations fell to 2.17% from 2.31%, and the 10-year gauge slipped to 2.13% from 2.20%.",
+    "Policymakers focus on the two-year horizon because it roughly matches how long it takes for changes in interest rates to work through the economy. If businesses expect inflation to stay high over that period, they are more likely to build it into wages and prices, which makes inflation harder to bring down. A two-year reading close to the middle of the RBNZ\u2019s 1% to 3% target band suggests expectations remain anchored, even though the short-term outlook has worsened.",
+    "The jump in the one-year measure probably reflects recent experience. Annual CPI inflation was 3.7% in the September quarter, down from 4.1% in the June quarter but still above the target range. The survey went into the field on 23 October, the day after those figures were released.",
+    "Respondents also expect higher interest rates. The mean expectation for the official cash rate at the end of the December quarter was 3.05%, above the current 2.75%. That implies an expected hike at or before the RBNZ\u2019s next Monetary Policy Statement on 9 December. One-year-ahead OCR expectations rose to 3.40% from 3.21%.",
+    "The rest of the survey was mixed. One-year-ahead unemployment expectations held at 5.24%, one-year wage inflation expectations rose to 2.90%, and GDP growth expectations improved. House price expectations fell sharply, with house price inflation one year ahead now seen at just 0.51%.",
+    "The firmer one-year reading combined with a stable two-year anchor gives the RBNZ room to argue that expectations are under control. But the rate expectations in the survey show that respondents believe more tightening is coming. The 9 December statement will show whether the central bank agrees."
+   ]
   },
   {
    "ts": 1794880512.0,
@@ -517,40 +581,6 @@
     "Bullock\u2019s warning about upside risks sits alongside that restrictive stance. The board may judge that rates are high enough for now, while still wanting to keep the option of another hike open if inflation does not ease as expected.",
     "The domestic calendar is busy for the rest of the week. Third-quarter wage price data is due on Wednesday and October employment figures on Thursday, when unemployment is expected to hold at 4.7%. Firm readings on either would test the market\u2019s conviction that the RBA has finished hiking.",
     "Bullock heading out of the office to buy half a cup of coffee."
-   ]
-  },
-  {
-   "ts": 1794871010.0,
-   "title": "Iran drawing up dirty bomb options for Washington, 7 US officials say, not seen imminent",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/iran-drawing-up-dirty-bomb-options-for-washington-7-us-officials-say-not-seen-imminent/",
-   "t": "17 Nov \u00b7 04:16 AM",
-   "body": [
-    "For oil, the report adds to the escalation risks around a conflict that is already disrupting Hormuz shipping. The planning is described as optional rather than imminent, though, so it adds to tail risk more than to near-term supply pressure. The more market-relevant point is the regional source\u2019s warning that hardliners who benefit from the war could try to wreck talks over the coming weeks. That keeps the outlook for a deal to reopen the strait fragile. A US homeland incident is a low-probability event with severe consequences. It would probably hit risk assets broadly, and more as a shock to risk appetite than as a direct supply story for crude.",
-    "US officials say Iran has drawn up specific options for a dirty bomb or chemical attack on Washington. It is not seen as imminent, but it shows how far Tehran\u2019s incentive to escalate has grown under US pressure.",
-    "New US intelligence indicates Iran is developing plans that could target senior Trump administration officials with a so-called dirty bomb or a chemical weapon in Washington, CNN reported, citing seven US officials. Sources familiar with the intelligence described the planning as an effort by Tehran to give itself options, not a sign that an attack is imminent.",
-    "Even so, two of the sources said the plotting picked up by US agencies has been very specific, including locations and targets. Officials have held several meetings over the past week on contingency plans to counter it. They remain divided over whether Iran has the capability or the people in place to carry out such a plot, or the intent to try.",
-    "The White House said the US is monitoring all potential threats but that there are currently no credible threats to the homeland. Iran\u2019s mission to the United Nations rejected what it called false and fabricated allegations, saying Tehran considers the use of chemical weapons illegitimate under any circumstances. It did not directly address the dirty bomb intelligence.",
-    "US officials see the planning as a sign that Iran is more willing to escalate as it comes under intense pressure from US strikes and an economic blockade. One source put it this way: Iran\u2019s capability has not changed, but its incentive has. According to the report, threats from Iran also led the Secret Service to move Treasury Secretary Scott Bessent into military housing last week.",
-    "A dirty bomb wraps radioactive material around a conventional explosive and is very different from a nuclear weapon. Experts say casualties would most likely come from the blast itself, though contamination could make areas unusable. Officials are separately monitoring intelligence that Iran could use chemical weapons against US troops in the Middle East. Several said troops lack adequate protective equipment or training.",
-    "The threats come as talks to end the US blockade and reopen the Strait of Hormuz remain stalled. A regional source said the next several weeks will be critical for any agreement, and warned that hardliners who have benefited from the war could try to play spoiler. One US official said Iran understands the retaliation it would face if it used such weapons. That calculation could shift, however, if Tehran comes to see the regime\u2019s survival as at stake."
-   ]
-  },
-  {
-   "ts": 1794868350.0,
-   "title": "Iran says 4th tanker hit in 24 hours as UKMTO reports Hormuz attack near Oman",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/iran-says-4th-tanker-hit-in-24-hours-as-ukmto-reports-hormuz-attack-near-oman/",
-   "t": "17 Nov \u00b7 03:32 AM",
-   "body": [
-    "For oil, an attack in the narrowest part of the Strait of Hormuz hits the main export route for Gulf crude directly. That supports the risk premium even before any supply loss is confirmed. Crude has recently held back from reacting to unverified Iranian claims, so independent confirmation of multiple strikes is the trigger to watch for a sharper move. Higher war-risk insurance premiums and owners rerouting or delaying transits would tighten effective supply even if no cargo is lost. The US force-protection build-up suggests Washington is not expecting a quick de-escalation.",
-    "An attack in the narrowest part of Hormuz has left a tanker disabled and on fire. Iran says it has now hit four in a day, and the US is pouring concrete for a long stay.",
-    "A tanker transiting the Strait of Hormuz was disabled by an attack on Monday that left it with an engine room fire, according to the UK Maritime Trade Operations (UKMTO) agency. Iran\u2019s navy claimed it had now hit four oil tankers in the past 24 hours.",
-    "UKMTO said it received a third-party report of the incident about 7 nautical miles north of Khasab, on Oman\u2019s Musandam peninsula, at 1900 GMT (2 pm ET). The crew were reported safe, but the extent of the damage and any environmental impact were not yet known. The agency advised vessels to transit with caution and report any suspicious activity while authorities investigate.",
-    "The Iranian navy\u2019s announcement of a fourth tanker strike appears to relate to the same incident. That link has not been independently confirmed, and UKMTO did not identify the vessel or say who carried out the attack. Over the weekend, Tehran also claimed that a supertanker had sunk after hitting a mine, a claim that has yet to be verified.",
-    "Khasab sits on the southern side of the strait\u2019s narrowest stretch, where the inbound and outbound shipping lanes run close to the Omani coast. An attack there goes to the heart of the main export route for Gulf crude.",
-    "The escalation at sea comes as Washington prepares for a longer confrontation. The US Army is seeking to build 17 reinforced concrete bunkers at bases in Israel, Saudi Arabia and Lebanon within 45 days. The bunkers will replace converted shipping containers that the Army says leave soldiers at risk from Iranian missile and drone fire. A third US aircraft carrier strike group has also reportedly arrived in the region, joining two already deployed.",
-    "Taken together, the tanker strikes and the US build-up in protection for its forces point to a conflict that both sides are preparing to sustain rather than wind down. For shipping, the immediate questions are whether the latest vessel can be identified and whether independent reports bear out Iran\u2019s count of four strikes. Also watch how insurers and owners respond to a fresh attack so close to Oman\u2019s coast."
    ]
   }
  ],
