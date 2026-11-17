@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 04:46 PKT",
+ "updated": "17-11-2026 05:01 PKT",
  "gold": {
-  "price": 3853.62,
-  "open": 3900.35,
-  "high": 3901.18,
+  "price": 3861.6,
+  "open": 3891.2,
+  "high": 3896.36,
   "low": 3833.62,
-  "chg": -1.2,
+  "chg": -0.76,
   "src": "XAUUSD Spot",
   "spark": [
-   3869.94,
    3873.16,
    3868.31,
    3872.16,
@@ -55,14 +54,15 @@
    3852.87,
    3856.43,
    3852.03,
-   3853.62
+   3862.82,
+   3861.6
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 46.9,
-   "chg": -4.35,
+   "price": 47.14,
+   "chg": -3.86,
    "spark": [
     56.995,
     56.974,
@@ -85,7 +85,7 @@
     51.881,
     49.972,
     49.031,
-    46.9
+    47.14
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 85.3,
-   "chg": -3.68,
+   "price": 85.28,
+   "chg": -3.7,
    "spark": [
     101.41,
     103.66,
@@ -143,7 +143,7 @@
     86.53,
     88.74,
     88.56,
-    85.3
+    85.28
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1,
-   "chg": -0.46,
+   "price": 1.1001,
+   "chg": -0.22,
    "spark": [
-    1.1213,
     1.1225,
     1.1216,
     1.1227,
@@ -201,15 +200,15 @@
     1.1169,
     1.1095,
     1.105,
-    1.1
+    1.1025,
+    1.1001
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3185,
-   "chg": -0.35,
+   "price": 1.3184,
+   "chg": -0.24,
    "spark": [
-    1.3273,
     1.3336,
     1.3308,
     1.3373,
@@ -230,15 +229,15 @@
     1.3349,
     1.3277,
     1.3231,
-    1.3185
+    1.3216,
+    1.3184
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.479,
-   "chg": -0.25,
+   "price": 159.446,
+   "chg": -0.21,
    "spark": [
-    158.143,
     157.806,
     158.523,
     158.268,
@@ -259,15 +258,15 @@
     158.705,
     159.734,
     159.875,
-    159.479
+    159.78,
+    159.446
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1816.99,
-   "chg": -0.96,
+   "price": 1818.93,
+   "chg": 0.01,
    "spark": [
-    1740.42,
     1728.71,
     1815.12,
     1818.02,
@@ -314,15 +313,15 @@
     1818.92,
     1827.86,
     1826.65,
-    1816.99
+    1819.59,
+    1818.93
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64815.4,
-   "chg": -0.76,
+   "price": 64811.6,
+   "chg": -0.0,
    "spark": [
-    63406.7,
     62578.9,
     64870.1,
     64784.3,
@@ -369,7 +368,8 @@
     65002.1,
     65249.0,
     65257.2,
-    64815.4
+    64810.6,
+    64811.6
    ]
   }
  ],
@@ -434,18 +434,53 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794872802.749368,
+   "ts": 1794873710.198694,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 04:46 AM"
+   "t": "17 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1794872802.749368,
+   "ts": 1794873710.198694,
    "title": "Iranian leaders fret over public mood as gas shortages add to war ills",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iranian-leaders-fret-over-public-mood-as-gas-shortages-add-to-war-ills-5030314",
-   "t": "17 Nov \u00b7 04:46 AM"
+   "t": "17 Nov \u00b7 05:01 AM"
+  },
+  {
+   "ts": 1794871729.0,
+   "title": "RBA\u2019s Bullock says inflation risks still skewed to upside ahead of 6-3 vote minutes",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/rba-s-bullock-says-inflation-risks-still-skewed-to-upside-ahead-of-6-3-vote-minutes/",
+   "t": "17 Nov \u00b7 04:28 AM",
+   "body": [
+    "Bullock\u2019s comment pushes back modestly against market pricing that has all but ruled out a December hike. It could offer the Australian dollar some support after it fell this week to its lowest level since late January. One line on a panel is unlikely to shift pricing on its own, so the minutes are the bigger test. Any sign that the majority on the board saw a real chance of further tightening would firm up the hawkish reading of Bullock\u2019s remarks. If the minutes play up how close the vote was, front-end rates may decide the governor\u2019s comment is a hedge, not a signal.",
+    "Bullock says inflation risks are still tilted higher. That reminds markets that a split board doesn\u2019t mean the RBA is done, just as the minutes are due to show how close the debate was.",
+    "Reserve Bank of Australia Governor Michele Bullock said on Tuesday that the risks to inflation remain tilted to the upside, Reuters reported. Her remarks come shortly before the release of minutes from the central bank\u2019s November meeting.",
+    "Speaking on a panel at the ASIC Annual Forum in Sydney, Bullock said the board\u2019s current view is that inflation risks are still skewed higher. The comment was brief, but its timing matters. Since the November decision, markets have priced out nearly all chance of a December rate rise. Her words suggest the board is not yet ready to declare its tightening campaign over.",
+    "The RBA lifted its cash rate by 25 basis points to 4.85% on 3 November, its fifth increase this year and the highest level since 2008. The vote was unusually split: six board members backed the hike and three preferred to hold at 4.60%. That division led many analysts to conclude the bank is close to the end of its cycle.",
+    "The minutes, due at 11.30am Sydney time (0030 GMT, 7.30pm ET on Monday), should shed more light on that debate. Analysts will look at how the board weighed inflation risks against a slowing economy, whether the three dissenters judged policy already restrictive enough, and how high the bar now is for a further move. The RBA\u2019s own assessment puts the cash rate slightly above the top of its range of neutral rate estimates. Its forecasts have inflation staying above 3% until late 2027.",
+    "Bullock\u2019s warning about upside risks sits alongside that restrictive stance. The board may judge that rates are high enough for now, while still wanting to keep the option of another hike open if inflation does not ease as expected.",
+    "The domestic calendar is busy for the rest of the week. Third-quarter wage price data is due on Wednesday and October employment figures on Thursday, when unemployment is expected to hold at 4.7%. Firm readings on either would test the market\u2019s conviction that the RBA has finished hiking.",
+    "Bullock heading out of the office to buy half a cup of coffee."
+   ]
+  },
+  {
+   "ts": 1794871010.0,
+   "title": "Iran drawing up dirty bomb options for Washington, 7 US officials say, not seen imminent",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/iran-drawing-up-dirty-bomb-options-for-washington-7-us-officials-say-not-seen-imminent/",
+   "t": "17 Nov \u00b7 04:16 AM",
+   "body": [
+    "For oil, the report adds to the escalation risks around a conflict that is already disrupting Hormuz shipping. The planning is described as optional rather than imminent, though, so it adds to tail risk more than to near-term supply pressure. The more market-relevant point is the regional source\u2019s warning that hardliners who benefit from the war could try to wreck talks over the coming weeks. That keeps the outlook for a deal to reopen the strait fragile. A US homeland incident is a low-probability event with severe consequences. It would probably hit risk assets broadly, and more as a shock to risk appetite than as a direct supply story for crude.",
+    "US officials say Iran has drawn up specific options for a dirty bomb or chemical attack on Washington. It is not seen as imminent, but it shows how far Tehran\u2019s incentive to escalate has grown under US pressure.",
+    "New US intelligence indicates Iran is developing plans that could target senior Trump administration officials with a so-called dirty bomb or a chemical weapon in Washington, CNN reported, citing seven US officials. Sources familiar with the intelligence described the planning as an effort by Tehran to give itself options, not a sign that an attack is imminent.",
+    "Even so, two of the sources said the plotting picked up by US agencies has been very specific, including locations and targets. Officials have held several meetings over the past week on contingency plans to counter it. They remain divided over whether Iran has the capability or the people in place to carry out such a plot, or the intent to try.",
+    "The White House said the US is monitoring all potential threats but that there are currently no credible threats to the homeland. Iran\u2019s mission to the United Nations rejected what it called false and fabricated allegations, saying Tehran considers the use of chemical weapons illegitimate under any circumstances. It did not directly address the dirty bomb intelligence.",
+    "US officials see the planning as a sign that Iran is more willing to escalate as it comes under intense pressure from US strikes and an economic blockade. One source put it this way: Iran\u2019s capability has not changed, but its incentive has. According to the report, threats from Iran also led the Secret Service to move Treasury Secretary Scott Bessent into military housing last week.",
+    "A dirty bomb wraps radioactive material around a conventional explosive and is very different from a nuclear weapon. Experts say casualties would most likely come from the blast itself, though contamination could make areas unusable. Officials are separately monitoring intelligence that Iran could use chemical weapons against US troops in the Middle East. Several said troops lack adequate protective equipment or training.",
+    "The threats come as talks to end the US blockade and reopen the Strait of Hormuz remain stalled. A regional source said the next several weeks will be critical for any agreement, and warned that hardliners who have benefited from the war could try to play spoiler. One US official said Iran understands the retaliation it would face if it used such weapons. That calculation could shift, however, if Tehran comes to see the regime\u2019s survival as at stake."
+   ]
   },
   {
    "ts": 1794868350.0,
@@ -539,36 +574,6 @@
     "The trade recommendation is long summer 2027 European gasoline as a hedge against geopolitical upside. The thinking is that gasoline output could be squeezed by further refinery strikes, heavy planned maintenance and refiners shifting yield toward diesel. They also advise traders to \u201cstay nimble and lean against large swings in risk premia.\u201d",
     "That last line is the best advice in the note. The lesson of 2026 is that the oil market is far more resilient than the worst-case scenarios assumed, and fading the panic has been the right trade more often than not. Then again, I take the bearishness as a sign of complacency on Iran risks."
    ]
-  },
-  {
-   "ts": 1794835813.0,
-   "title": "Canada October CPI 3.1% vs +3.2% expected",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/canada-october-cpi-3-1-vs-3-2-expected/",
-   "t": "16 Nov \u00b7 06:30 PM",
-   "body": [
-    "USD/CAD was up 16 pips to 1.4286 ahead of the data and Canadian 10-year notes were trading at a yield of 3.84%. The initial reaction has been to sell the loonie, at that's boosted USD/CAD to 1.4300 while 10s are down to 3.81%.",
-    "The Bank of Canada has taken a hawkish stance and this report raises questions on how much that's really needed. Ex-energy CPI rose 2.0% y/y and pump prices are down in November. The BOC is making the case that prices are broadening but there is weakening to, with shelter at just 1.4% y/y and cellular services -6.2%. Trim is running at 1.6% annualized over three months.",
-    "A problematic spot in Canada and the US is goods, where prices were up 4.3% y/y. Another thing hawks can point to is clothing, up 3.4% m/m on higher shipping costs. Grocery inflation also ticked up, but at 2.0% it is still below headline for a third month.",
-    "Three weeks ago the BoC hiked to 2.5%, the first move in a year, and Macklem said more may be needed. At that point swaps had about a 60% chance of another in December. Governing Council\u2019s own case for holding was that the inflation was concentrated in energy and energy-heavy services like airfares. This report is that argument, with trim moving the wrong way for a hike. December 9 just got a lot harder to justify and the next CPI report isn't until Dec 14."
-   ]
-  },
-  {
-   "ts": 1794827172.0,
-   "title": "Zcash needs a dovish Fed or a US-Iran breakthrough to reverse the bearish trend",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/zcash-needs-a-dovish-fed-or-a-us-iran-breakthrough-to-reverse-the-bearish-trend/",
-   "t": "16 Nov \u00b7 04:06 PM",
-   "body": [
-    "Zcash has come under significant selling pressure over the past few days as the broader crypto selloff, driven by hawkish Fed repricing and US-Iran tensions, weighed on risk sentiment.",
-    "The main culprit was Fed Governor Waller's very hawkish speech, in which he floated the possibility of a larger 50 bps hike at the December meeting. His remarks triggered a quick hawkish repricing, which was then exacerbated by the higher than expected US CPI data.",
-    "Moreover, Trump's statement that the US doesn't need a deal with Iran triggered a rally in oil prices, adding to concerns about inflation and tighter monetary policy.",
-    "Looking ahead, Zcash will likely remain under pressure as long as the negative macro backdrop persists. We will probably need a more dovish Fed or a US-Iran breakthrough to change the risk sentiment and trigger a rebound in Zcash.",
-    "On the daily chart, we can see that Zcash bounced near the major upward trendline after a big selloff. If we get another drop into the trendline, we can expect the buyers to step in there, with a defined risk blow the trendline, to position for a rally into the major downward trendline. The sellers, on the other hand, will want to see the price breaking lower to increase the bearish bets into the 500 level next.",
-    "On the 4 hour chart, we have a minor downward trendline defining the bearish momentum. If we get a pullback, we can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting a break below the major upward trendline. The buyers, on the other hand, will look for a break higher to pile in for a correction into the major downward trendline.",
-    "On the 1 hour chart, there\u2019s not much we can add here as the sellers will have a better risk to reward setup around the trendline, while the buyers will need a breakout to open the door for new highs. The red lines define the average daily range for today.",
-    "Today we have Fed Chair Warsh speaking. Tomorrow, we get the US Retail Sales. On Wednesday, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
-   ]
   }
  ],
  "tweets": [
@@ -610,7 +615,7 @@
   }
  ],
  "sentiment": {
-  "value": 10,
+  "value": 12,
   "label": "Extreme Fear"
  },
  "err": [
