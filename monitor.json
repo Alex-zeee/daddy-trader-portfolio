@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 18:01 PKT",
+ "updated": "17-11-2026 18:16 PKT",
  "gold": {
-  "price": 3861.56,
-  "open": 3866.93,
+  "price": 3858.74,
+  "open": 3869.45,
   "high": 3887.6,
   "low": 3841.13,
-  "chg": -0.14,
+  "chg": -0.28,
   "src": "XAUUSD Spot",
   "spark": [
-   3849.36,
    3869.77,
    3865.4,
    3869.05,
@@ -55,14 +54,15 @@
    3861.77,
    3858.59,
    3860.23,
-   3861.56
+   3857.41,
+   3858.74
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.83,
-   "chg": 2.23,
+   "price": 47.655,
+   "chg": 1.86,
    "spark": [
     56.974,
     57.706,
@@ -85,42 +85,13 @@
     49.972,
     49.031,
     46.785,
-    47.83
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 103.591,
-   "chg": 0.04,
-   "spark": [
-    101.98,
-    101.73,
-    101.78,
-    101.61,
-    101.81,
-    101.96,
-    102.32,
-    102.19,
-    102.04,
-    101.88,
-    101.75,
-    101.87,
-    101.51,
-    101.55,
-    102.3,
-    101.65,
-    102.23,
-    102.91,
-    103.17,
-    103.41,
-    103.55,
-    103.591
+    47.655
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.23,
-   "chg": 0.59,
+   "price": 86.36,
+   "chg": 0.75,
    "spark": [
     103.66,
     101.79,
@@ -143,7 +114,7 @@
     88.74,
     88.56,
     85.72,
-    86.23
+    86.36
    ]
   },
   {
@@ -177,8 +148,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0999,
-   "chg": -0.24,
+   "price": 1.0991,
+   "chg": -0.3,
    "spark": [
     1.1225,
     1.1216,
@@ -201,13 +172,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.0999
+    1.0991
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.32,
-   "chg": -0.13,
+   "price": 1.3192,
+   "chg": -0.19,
    "spark": [
     1.3336,
     1.3308,
@@ -230,13 +201,13 @@
     1.3277,
     1.3231,
     1.3216,
-    1.32
+    1.3192
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.286,
-   "chg": -0.31,
+   "price": 159.317,
+   "chg": -0.29,
    "spark": [
     157.806,
     158.523,
@@ -259,13 +230,13 @@
     159.734,
     159.875,
     159.78,
-    159.286
+    159.317
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1821.62,
-   "chg": 0.16,
+   "price": 1820.5,
+   "chg": 0.1,
    "spark": [
     1805.89,
     1809.77,
@@ -314,13 +285,13 @@
     1786.7,
     1820.73,
     1821.91,
-    1821.62
+    1820.5
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64973.3,
-   "chg": 0.25,
+   "price": 64972.0,
+   "chg": 0.24,
    "spark": [
     64719.5,
     64708.1,
@@ -369,7 +340,7 @@
     64034.4,
     64924.4,
     64995.4,
-    64973.3
+    64972.0
    ]
   }
  ],
@@ -434,39 +405,69 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794920505.512568,
+   "ts": 1794921415.633837,
    "title": "Gold stabilizes after hitting over one-year low",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 06:01 PM"
+   "t": "17 Nov \u00b7 06:16 PM"
   },
   {
-   "ts": 1794920505.512568,
+   "ts": 1794921415.633837,
    "title": "Here\u2019s when Goldman expects gold prices to reach $5,600/oz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/heres-when-goldman-expects-gold-prices-to-reach-5600oz-5032707",
-   "t": "17 Nov \u00b7 06:01 PM"
+   "t": "17 Nov \u00b7 06:16 PM"
   },
   {
-   "ts": 1794920505.512568,
+   "ts": 1794921415.633837,
    "title": "Trump says US taking seriously report of possible Iranian dirty bomb plot in Washington",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/tehran-denies-report-of-a-potential-iranian-plan-to-detonate-dirty-bomb-in-washington-5032621",
-   "t": "17 Nov \u00b7 06:01 PM"
+   "t": "17 Nov \u00b7 06:16 PM"
   },
   {
-   "ts": 1794920505.512568,
+   "ts": 1794921415.633837,
    "title": "European gas futures climb as recovering oil exports overshadow shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-futures-climb-as-recovering-oil-exports-overshadow-shipping-attacks-5031845",
-   "t": "17 Nov \u00b7 06:01 PM"
+   "t": "17 Nov \u00b7 06:16 PM"
   },
   {
-   "ts": 1794920505.512568,
+   "ts": 1794921415.633837,
    "title": "Oman, Iran foreign ministers discuss safeguarding maritime corridors",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-5031688",
-   "t": "17 Nov \u00b7 06:01 PM"
+   "t": "17 Nov \u00b7 06:16 PM"
+  },
+  {
+   "ts": 1794919896.0,
+   "title": "investingLive European news wrap: Risk sentiment remains tentative amid hawkish Fed and US-Iran stalemate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/investinglive-european-news-wrap-risk-sentiment-remains-tentative-amid-hawkish-fed-and-us-iran-stalemate/",
+   "t": "17 Nov \u00b7 05:51 PM",
+   "body": [
+    "The main highlight in the session was the UK labour market report. The data was generally mixed, with the unemployment rate falling to 4.6% and employment rising by a stronger than expected 156K. However, the ONS expressed concerns about survey composition, while October payrolls showed a 34K decline and vacancies continued to fall. Wage growth also moderated, with regular earnings slowing to 3.5% y/y from 3.7%, although total pay growth including bonuses eased to 3.6%. Public sector pay remained significantly stronger than private sector pay, while real regular wage growth was modest at just 0.4%.",
+    "This data didn't change anything for the Bank of England's outlook, as the central bank will likely seek further evidence that wage inflation is easing sustainably before gaining confidence in the broader inflation outlook. Markets are still pricing in an 89% probability of a rate hike in December and a cumulative 95 bps of tightening by the end of 2027.",
+    "We also got the November German ZEW survey which showed a stronger than expected improvement in economic sentiment, with the Economic Sentiment Index rising to 35.6 from 28.1 and the Expectations Index climbing to 26.5 from 18.5, while current conditions improved slightly to -33.2 but remained firmly negative. The recovery is being supported by rising manufacturing orders and lower oil prices, although the outlook remains uneven across sectors.",
+    "Government spending remains a key driver of activity, but concerns are growing over the sustainability of rising public debt. Eurozone expectations also improved, rising 8 points to 26.5, while current conditions remained weak at -14.7. The survey points to improving confidence but doesn't change the ECB outlook, with a December rate hike fully priced in and markets expecting at least one further increase next year.Lasty, Fed's Musalem delivered his usual hawkish remarks, warning of a meaningful risk that inflation will remain elevated unless the Fed acts soon, saying that several rate hikes are likely needed before spring. He argued that moving early is the best way to bring price pressures under control without damaging jobs and economic growth, while stressing that the Fed's resolve is important to maintaining confidence, as doubts could push bond yields higher. Despite the inflation concerns, Musalem remains optimistic that above-trend GDP growth can continue, noting that monetary policy and financial conditions are still providing tailwinds."
+   ]
+  },
+  {
+   "ts": 1794917174.0,
+   "title": "Solana's recovery hinges on the Fed and US-Iran breakthrough as risk sentiment remains negative",
+   "src": "investingLive",
+   "link": "https://investinglive.com/cryptocurrency/solana-s-recovery-hinges-on-the-fed-and-us-iran-breakthrough-as-risk-sentiment-remains-negative/",
+   "t": "17 Nov \u00b7 05:06 PM",
+   "body": [
+    "Solana has been under heavy selling pressure over the past week as the risk sentiment in the crypto market deteriorated amid the hawkish Fed repricing and US-Iran tensions.",
+    "The main catalyst was Fed's Waller speech, in which he opened the door for a larger 50 bps hike at the December meeting. His remarks triggered a strong hawkish repricing, which was then exacerbated by the hotter than expected US CPI data.",
+    "Then, we got Trump saying on Truth Social that the US doesn't need a deal with Iran, adding to inflation and growth concerns and putting further pressure on risk assets.",
+    "Looking ahead, the bearish trend will likely persist amid the hawkish Fed and prolonged US-Iran standoff. A more dovish Fed or a breakthrough in the US-Iran situation will likely be needed to trigger a sustained recovery and reverse the current trend.",
+    "On the daily chart, we can see that Solana extended the selloff in the past week amid the hawkish repricing and the increased US-Iran tensions. If we get a pullback, we can expect the sellers to lean on the major downward trendline, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the 125.00 level next.",
+    "On the 4 hour chart, we have a minor downward trendline defining the bearish momentum. The sellers will likely lean on the trendline, with a defined risk above it, to keep pushing into new lows. The buyers, on the other hand, will look for a break higher to pile in for a rally into new highs, with the major downward trendline as the first target.",
+    "On the 1 hour chart, we have a minor upward trendline defining the current pullback. We can expect the buyers to lean on the trendline, with a defined risk below it, to keep targeting new highs. The sellers, on the other hand, will look for a break lower to increase the bearish bets into the 60.00 level next. The red lines define the average daily range for today.",
+    "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
+   ]
   },
   {
    "ts": 1794915399.0,
@@ -521,43 +522,6 @@
     "On the 1 hour chart, there\u2019s not much we can add here given the consolidation. The sellers will continue to step in around these levels to keep targeting new lows, while the buyers will need to see the price rising back above the broken trendline to start positioning for new highs. The red lines define the average daily range for today.",
     "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
    ]
-  },
-  {
-   "ts": 1794894204.0,
-   "title": "Gold Holds Firm as US Indices Gain Ground in Q3, easyMarkets Reports",
-   "src": "investingLive",
-   "link": "https://investinglive.com/education/gold-holds-firm-as-us-indices-gain-ground-in-q3-easymarkets-reports/",
-   "t": "17 Nov \u00b7 10:43 AM",
-   "body": [
-    "Limassol, Cyprus \u2013 November 2026, Gold and US indices dominated trading volumes among easyMarkets clients during the third quarter of 2026, with US indices gaining ground as Oil became less prominent compared with the previous quarter Gold volumes remained broadly unchanged from Q2, while US indices recorded an increase. The shift coincided with a combination of macroeconomic developments and geopolitical events, with interest rate decisions and US unemployment data contributing to greater attention on US markets.",
-    "Gold maintained its position as one of the leading instruments by trading volume during Q3, while US indices recorded increased activity compared with the previous quarter. This marked a change from Q2, when Oil featured among the most actively traded instruments.",
-    "Interest rate decisions and US unemployment data were among the economic developments influencing market sentiment during the quarter. Together with geopolitical events, these factors formed part of the broader market backdrop as trading preferences shifted towards US indices.",
-    "Client positioning during Q3 reflected an optimistic outlook, according to the easyMarkets Risk team. Trading strategies included long positions in Gold and short positions in US indices, showing different views across the markets.",
-    "Clients also increased their exposure by placing larger positions per transaction this quarter. While larger positions can increase potential gains, they can also magnify potential losses, making it important for traders to understand how much they are putting at risk with each trade.",
-    "Commenting on the observations, Giannis Nikola, Chief Risk Officer at easyMarkets, said: \"We saw some interesting changes in client trading behaviour during Q3, alongside a reminder of how important it is to manage trading exposure. Taking larger positions can increase potential returns, but it also means taking on greater risk. Understanding position size and the potential impact of a trade is an important part of making informed trading decisions.\"",
-    "Interest rate decisions are expected to remain an important influence on financial markets in Q4, with monetary policy and economic developments likely to shape market conditions and trading interest in the months ahead.",
-    "easyMarkets continues to support clients with transparent trading conditions, practical risk-management tools and educational resources designed to help them better understand market exposure and make informed trading decisions.",
-    "Georgia Kyriakou Digital PR Manager, easyMarkets Email: support@easy-markets.com Tel: +357 25 828899",
-    "Founded in 2001, easyMarkets is an award-winning global online broker offering clients access to more than 275 tradable instruments across multiple asset classes. One of the first brokers to introduce an online trading experience with innovative risk-management tools, easyMarkets offers features including Guaranteed Stop Loss with No Slippage, easyTrade, multiple trading platforms, fixed spreads and dedicated client support. With a focus on transparency, accessibility and innovation, easyMarkets continues to develop its trading experience to meet the evolving needs of traders worldwide."
-   ]
-  },
-  {
-   "ts": 1794887926.0,
-   "title": "Lock in yields not seen in 25 years, PIMCO urges, while calling stocks very expensive",
-   "src": "investingLive",
-   "link": "https://investinglive.com/stocks/lock-in-yields-not-seen-in-25-years-pimco-urges-while-calling-stocks-very-expensive/",
-   "t": "17 Nov \u00b7 08:58 AM",
-   "body": [
-    "Coming from one of the world\u2019s largest bond managers, a call to lock in yields for three to five years supports demand for longer-dated government and agency debt. It also leans against the steady rise in long-end yields. The message sits alongside Morgan Stanley\u2019s view that markets are too hawkish, but against Goldman\u2019s expectation of two more Fed hikes. That divergence is likely to keep rate volatility elevated. PIMCO\u2019s warning on expensive equities and tight credit spreads suggests the big institutions are split on whether stocks or bonds offer the better risk-reward. Its base case links stability to the Middle East settling down within months. A longer energy shock would test that view.",
-    "PIMCO\u2019s message is simple: yields this high come along about once a generation. It says investors should lock them in with high-quality bonds rather than sit in cash or chase expensive stocks and tight credit.",
-    "PIMCO says bond yields near their highest levels in about 25 years offer investors a rare chance to lock in income for the next three to five years. It argues that high-quality fixed income now provides a cushion that was missing before the 2022 bond rout.",
-    "In an interview-style outlook published on November 16, Group Chief Investment Officer Dan Ivascyn and strategist Esteban Burbano said the surge in yields has been driven by the energy price shock from the Middle East conflict and a sharp rise in real, or inflation-adjusted, interest rates. Inflation expectations have risen far less.",
-    "The cushion is the core of their argument. A broad US bond market index now yields in the mid-5% range, against core inflation in the mid-2% range. That\u2019s very different from early 2021, when bonds offered almost no income buffer before inflation surged and yields jumped. PIMCO noted that investors who held active income portfolios from the yield levels of late 2023 went on to earn high-single-digit returns over three years.",
-    "The firm has shifted from favouring short-term bonds to favouring longer maturities to lock in current yields, with overall duration roughly in line with the broad US bond index. Its theme is moving up in quality. It prefers global government bonds, senior asset-backed and structured securities, and US agency mortgage-backed securities, which it says offer a yield advantage over investment-grade corporate bonds. It is underweight tightly priced, lower-quality credit and is avoiding bank loans and high-yield bonds. It is holding cash in reserve for opportunities if markets are disrupted. Outside the US, it favours high-quality markets such as Australia and the UK, along with selected emerging market rates.",
-    "PIMCO was blunt on equities. It described stocks as very expensive relative to earnings and real rates, and noted that similar valuations have tended to precede weak returns. That view contrasts sharply with Morgan Stanley\u2019s maximum overweight on global equities this week.",
-    "On cash, the authors argued that it locks in yield for only one day, and that holding cash after a large rise in rates has often proved the riskier choice. Their base case is that uncertainty lingers until the Middle East stabilises, which they expect within several months. The main risks they flag are:",
-    "PIMCO is moving up in quality, favouring government and agency bonds while avoiding high yield and bank loans."
-   ]
   }
  ],
  "tweets": [
@@ -572,12 +536,6 @@
    "title": "Two more Fed hikes, then a long pause: Goldman reads a third hot core CPI print",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX2lpd3JVQnVacGZwWWlqd0RXcGkyOE0zZVlVdWJmcjE1ZVB3QjRzdnJObkhnNS1feEhtUTVFbHJMMVFGUk9welMxZ0wwVjdvRUc1MWItSk13X2lZZ1hLSjA2dnJtUFp6UE9QSHdIUnVfWjgxUERZRUdnRUN0S0FkY2t2XznSAYoBQVVfeXFMUG1nYTgyX2RSZVpKamVqUlE2eDNqVXU1MWx3TU02UkMwdW10YlY3MHhaWklqc3JmWk9EbUNrTHRqLUc5YXpJeWUyOWJlWXVkLVI1N0J3UnBSRVFobVRYc3IwUkpFSWhmYngwQ2pnb2d5RXJNVHBDM0wzMXFGckgyWWRNUUkycDRJcjVB?oc=5"
-  },
-  {
-   "ts": 1794870208.0,
-   "title": "Forex Factory | Global markets for the smart money.",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5NcWd2U01TN3MtWlQ3V1JsalhydV9KRFlQVzB4d0hOMTdZUVp1ZVViRDRGMTEwYTFqbDdod3gySUJhSW8?oc=5"
   },
   {
    "ts": 1794858043.0,
@@ -596,6 +554,12 @@
    "title": "NZ selected price indexes: October 2026",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWVmUDNBVk5OeTBaZGdIaDVQcUROVWRxdGhCSVRsNmdXV1BvdzRoVUhMaUNvOEw0NWsxa0l3b2w1a2FlQm1ySHhfVmpLNGxySTl4Z0wtTDQ2SmRzZXl1djlZVHBNemY4c3FsNlAtOEpqRS1uOHQwS29yWEYybDJZYUU3S0JzZEXSAYwBQVVfeXFMTXc1RXotRFExaE9pZXUybE1zSVhTalNmUzBJZ011MC1fN2pKLVQzdjlIZFBQend5bmtweklKcG9Ld2F3Y3BRR3p5UzNSTFRmTUJiM0NGMlBtb0k2cjBoQmZfaEZFRDJBakVNWkEwckU0c2hfVkdhVzJnNVQ5alBKcnZPbzZPakpYMmFVMDQ?oc=5"
+  },
+  {
+   "ts": 1794837807.0,
+   "title": "Canada Consumer Price Index, October 2026",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPczJZU3pyN2JxcDRRT3V3T1FiVkNmVlhmRV9zaFFyVlZONWtYNTdfaVNkbl9YUmRaSjdvV2MxeDBxa2cxQ2VpQXNkTW92Zm95OERTV1VlZ2hMclhON2c0YWRKY2FIeHY0bWdJVDEyRURPZ2Nzb0JzTllDYWdkTE9IbjZtanFzeUJta1HSAY8BQVVfeXFMTlF2RzhNbG1hS2NXa29DSEpBejB0OGwxRG55dGh4Z3IzLU05aks3TlM4QU9XVWwyWkhBTC1hQmxMalAxNHpOT2l2RjktUGxMLTcyY3Vjc05LOWU1S0I0TDRMWERFR3VFNXVIMmhnSFprTFk4dmJ3LUk5WVNXVlBnRVZGN21nemJSUzcwTy1qaDQ?oc=5"
   }
  ],
  "sentiment": {
