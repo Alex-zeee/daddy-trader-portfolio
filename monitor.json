@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 09:01 PKT",
+ "updated": "17-11-2026 09:16 PKT",
  "gold": {
-  "price": 3870.41,
-  "open": 3871.01,
+  "price": 3870.53,
+  "open": 3872.71,
   "high": 3887.6,
   "low": 3833.62,
-  "chg": -0.02,
+  "chg": -0.06,
   "src": "XAUUSD Spot",
   "spark": [
-   3860.65,
    3859.6,
    3864.11,
    3867.15,
@@ -55,14 +54,15 @@
    3876.15,
    3873.43,
    3870.36,
-   3870.41
+   3870.38,
+   3870.53
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.355,
-   "chg": -3.42,
+   "price": 47.275,
+   "chg": -3.58,
    "spark": [
     56.995,
     56.974,
@@ -85,12 +85,12 @@
     51.881,
     49.972,
     49.031,
-    47.355
+    47.275
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.504,
+   "price": 103.508,
    "chg": 0.09,
    "spark": [
     101.84,
@@ -114,13 +114,13 @@
     102.91,
     103.17,
     103.41,
-    103.504
+    103.508
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.0,
-   "chg": -4.02,
+   "price": 84.99,
+   "chg": -4.03,
    "spark": [
     101.41,
     103.66,
@@ -143,13 +143,42 @@
     86.53,
     88.74,
     88.56,
-    85.0
+    84.99
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 5.121,
+   "chg": -0.64,
+   "spark": [
+    5.098,
+    5.136,
+    5.117,
+    5.146,
+    4.953,
+    4.988,
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998,
+    5.103,
+    5.154,
+    5.121
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1008,
-   "chg": -0.15,
+   "price": 1.1012,
+   "chg": -0.12,
    "spark": [
     1.1225,
     1.1216,
@@ -172,13 +201,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.1008
+    1.1012
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3193,
-   "chg": -0.17,
+   "price": 1.3196,
+   "chg": -0.16,
    "spark": [
     1.3336,
     1.3308,
@@ -201,13 +230,13 @@
     1.3277,
     1.3231,
     1.3216,
-    1.3193
+    1.3196
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.284,
-   "chg": -0.31,
+   "price": 159.249,
+   "chg": -0.33,
    "spark": [
     157.806,
     158.523,
@@ -230,13 +259,13 @@
     159.734,
     159.875,
     159.78,
-    159.284
+    159.249
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1831.55,
-   "chg": 0.7,
+   "price": 1826.17,
+   "chg": 0.41,
    "spark": [
     1799.16,
     1792.14,
@@ -285,13 +314,13 @@
     1819.12,
     1813.03,
     1830.94,
-    1831.56
+    1826.17
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64980.4,
-   "chg": 0.26,
+   "price": 64869.9,
+   "chg": 0.09,
    "spark": [
     64479.5,
     64438.2,
@@ -340,7 +369,7 @@
     64684.8,
     64438.0,
     64992.2,
-    64980.4
+    64869.9
    ]
   }
  ],
@@ -405,18 +434,54 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794888105.78188,
+   "ts": 1794889007.097647,
    "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 09:01 AM"
+   "t": "17 Nov \u00b7 09:16 AM"
   },
   {
-   "ts": 1794888105.78188,
+   "ts": 1794889007.097647,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 09:01 AM"
+   "t": "17 Nov \u00b7 09:16 AM"
+  },
+  {
+   "ts": 1794887926.0,
+   "title": "Lock in yields not seen in 25 years, PIMCO urges, while calling stocks very expensive",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/lock-in-yields-not-seen-in-25-years-pimco-urges-while-calling-stocks-very-expensive/",
+   "t": "17 Nov \u00b7 08:58 AM",
+   "body": [
+    "Coming from one of the world\u2019s largest bond managers, a call to lock in yields for three to five years supports demand for longer-dated government and agency debt. It also leans against the steady rise in long-end yields. The message sits alongside Morgan Stanley\u2019s view that markets are too hawkish, but against Goldman\u2019s expectation of two more Fed hikes. That divergence is likely to keep rate volatility elevated. PIMCO\u2019s warning on expensive equities and tight credit spreads suggests the big institutions are split on whether stocks or bonds offer the better risk-reward. Its base case links stability to the Middle East settling down within months. A longer energy shock would test that view.",
+    "PIMCO\u2019s message is simple: yields this high come along about once a generation. It says investors should lock them in with high-quality bonds rather than sit in cash or chase expensive stocks and tight credit.",
+    "PIMCO says bond yields near their highest levels in about 25 years offer investors a rare chance to lock in income for the next three to five years. It argues that high-quality fixed income now provides a cushion that was missing before the 2022 bond rout.",
+    "In an interview-style outlook published on November 16, Group Chief Investment Officer Dan Ivascyn and strategist Esteban Burbano said the surge in yields has been driven by the energy price shock from the Middle East conflict and a sharp rise in real, or inflation-adjusted, interest rates. Inflation expectations have risen far less.",
+    "The cushion is the core of their argument. A broad US bond market index now yields in the mid-5% range, against core inflation in the mid-2% range. That\u2019s very different from early 2021, when bonds offered almost no income buffer before inflation surged and yields jumped. PIMCO noted that investors who held active income portfolios from the yield levels of late 2023 went on to earn high-single-digit returns over three years.",
+    "The firm has shifted from favouring short-term bonds to favouring longer maturities to lock in current yields, with overall duration roughly in line with the broad US bond index. Its theme is moving up in quality. It prefers global government bonds, senior asset-backed and structured securities, and US agency mortgage-backed securities, which it says offer a yield advantage over investment-grade corporate bonds. It is underweight tightly priced, lower-quality credit and is avoiding bank loans and high-yield bonds. It is holding cash in reserve for opportunities if markets are disrupted. Outside the US, it favours high-quality markets such as Australia and the UK, along with selected emerging market rates.",
+    "PIMCO was blunt on equities. It described stocks as very expensive relative to earnings and real rates, and noted that similar valuations have tended to precede weak returns. That view contrasts sharply with Morgan Stanley\u2019s maximum overweight on global equities this week.",
+    "On cash, the authors argued that it locks in yield for only one day, and that holding cash after a large rise in rates has often proved the riskier choice. Their base case is that uncertainty lingers until the Middle East stabilises, which they expect within several months. The main risks they flag are:",
+    "PIMCO is moving up in quality, favouring government and agency bonds while avoiding high yield and bank loans."
+   ]
+  },
+  {
+   "ts": 1794886138.0,
+   "title": "Morgan Stanley bets on gold at $5,250, the boldest bank call with bullion near $3,875",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/morgan-stanley-bets-on-gold-at-5-250-the-boldest-bank-call-with-bullion-near-3-875/",
+   "t": "17 Nov \u00b7 08:28 AM",
+   "body": [
+    "For gold, the Morgan Stanley call gives bulls a powerful anchor at a time when the metal is trading near a one-year low and analysts are warning of ETF selling. It doesn\u2019t change the near-term drivers, though: the December Fed decision, Treasury yields above 5% and a dollar near its highest since April 2025 are still in control. The bank\u2019s own forecast of a firmer dollar makes the target a deliberate contrarian call that gold can decouple from rates. The test will be whether ETF flows turn positive while the Fed is still hiking. The gap of about $600 between Morgan Stanley and Goldman shows how little consensus there is on gold\u2019s 2027 path, so expect volatility.",
+    "With gold near a one-year low and bearish calls mounting, Morgan Stanley has gone the other way. It sees $5,250 by late 2027 and is betting the metal can climb through the same rate and dollar headwinds that have been dragging it down.",
+    "Morgan Stanley has named gold its top commodity pick for 2027. It forecasts the metal will reach $5,250 an ounce by the fourth quarter of next year, roughly 36% above current levels and the highest target among the major banks.",
+    "The call is part of the bank\u2019s 2027 cross-asset outlook. It comes with gold near $3,865, close to a one-year low and on course for its worst year since 2015. That puts Morgan Stanley firmly against the recent run of bearish analyst views as Treasury yields and the dollar climb.",
+    "Morgan Stanley\u2019s quarterly forecasts map a steady climb through 2027. They start at $4,850 in the first quarter and rise to $5,000, $5,100 and then $5,250 by year-end, an annual average of around $5,050. That average is roughly 9% above the market consensus. The bank\u2019s commodity team, led by strategist Amy Gower, has pointed to strong demand and gold\u2019s resilience to higher US interest rates and a stronger dollar as reasons for its view.",
+    "That second point is the boldest part of the call. Gold has fallen this year largely because markets expect the Federal Reserve to keep raising rates, which lifts yields and the dollar. Morgan Stanley\u2019s own 2027 outlook expects a modest dollar rally, so its target effectively assumes gold can climb through the very headwinds that have pushed it lower.",
+    "The gap between the major houses is unusually wide. UBS targets $5,000 for the fourth quarter of 2027, $250 below Morgan Stanley. Goldman Sachs, after cutting twice this month, sees $4,650 by end-2027 and does not expect a new record until 2028. Spot gold would need to rise about 20% just to reach Goldman\u2019s target.",
+    "For Morgan Stanley\u2019s forecast to play out, investors and central banks would need to return as buyers despite higher rates. Central bank demand has been a pillar of gold\u2019s long rally, but Poland, one of the most active buyers, has recently reached its reserve target. Flows into exchange-traded funds reversed sharply as rate expectations rose, and they would likely need to turn positive again.",
+    "The near-term picture remains difficult. Analysts have warned that ETF selling could deepen the current slide, with $3,800 the next level to watch. Morgan Stanley\u2019s target is a view on the year ahead, not a call on the next few weeks."
+   ]
   },
   {
    "ts": 1794883728.0,
@@ -520,39 +585,6 @@
     "Andreessen is hugely optimistic about the promise of AI as a technology, but believes the government won't let Americans experience its full effects. Heavy regulation in areas such as healthcare and education mean technology can't replace people's jobs in those sectors, he said.",
     "\"To the extent our economy is a free-market economy, then maybe you could see the, let's say, extremely rapid displacement scenarios people are talking about,\" Andreessen said. \"But we've mostly outlawed the kind of job transition that \u2026 both the utopians the doomers talk about.\""
    ]
-  },
-  {
-   "ts": 1794875416.0,
-   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6715 \u2013 Reuters estimate",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6715-reuters-estimate/",
-   "t": "17 Nov \u00b7 05:30 AM",
-   "body": [
-    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
-    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
-    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
-    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
-    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
-    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
-   ]
-  },
-  {
-   "ts": 1794871729.0,
-   "title": "RBA\u2019s Bullock says inflation risks still skewed to upside ahead of 6-3 vote minutes",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/rba-s-bullock-says-inflation-risks-still-skewed-to-upside-ahead-of-6-3-vote-minutes/",
-   "t": "17 Nov \u00b7 04:28 AM",
-   "body": [
-    "Bullock\u2019s comment pushes back modestly against market pricing that has all but ruled out a December hike. It could offer the Australian dollar some support after it fell this week to its lowest level since late January. One line on a panel is unlikely to shift pricing on its own, so the minutes are the bigger test. Any sign that the majority on the board saw a real chance of further tightening would firm up the hawkish reading of Bullock\u2019s remarks. If the minutes play up how close the vote was, front-end rates may decide the governor\u2019s comment is a hedge, not a signal.",
-    "Bullock says inflation risks are still tilted higher. That reminds markets that a split board doesn\u2019t mean the RBA is done, just as the minutes are due to show how close the debate was.",
-    "Reserve Bank of Australia Governor Michele Bullock said on Tuesday that the risks to inflation remain tilted to the upside, Reuters reported. Her remarks come shortly before the release of minutes from the central bank\u2019s November meeting.",
-    "Speaking on a panel at the ASIC Annual Forum in Sydney, Bullock said the board\u2019s current view is that inflation risks are still skewed higher. The comment was brief, but its timing matters. Since the November decision, markets have priced out nearly all chance of a December rate rise. Her words suggest the board is not yet ready to declare its tightening campaign over.",
-    "The RBA lifted its cash rate by 25 basis points to 4.85% on 3 November, its fifth increase this year and the highest level since 2008. The vote was unusually split: six board members backed the hike and three preferred to hold at 4.60%. That division led many analysts to conclude the bank is close to the end of its cycle.",
-    "The minutes, due at 11.30am Sydney time (0030 GMT, 7.30pm ET on Monday), should shed more light on that debate. Analysts will look at how the board weighed inflation risks against a slowing economy, whether the three dissenters judged policy already restrictive enough, and how high the bar now is for a further move. The RBA\u2019s own assessment puts the cash rate slightly above the top of its range of neutral rate estimates. Its forecasts have inflation staying above 3% until late 2027.",
-    "Bullock\u2019s warning about upside risks sits alongside that restrictive stance. The board may judge that rates are high enough for now, while still wanting to keep the option of another hike open if inflation does not ease as expected.",
-    "The domestic calendar is busy for the rest of the week. Third-quarter wage price data is due on Wednesday and October employment figures on Thursday, when unemployment is expected to hold at 4.7%. Firm readings on either would test the market\u2019s conviction that the RBA has finished hiking.",
-    "Bullock heading out of the office to buy half a cup of coffee."
-   ]
   }
  ],
  "tweets": [
@@ -567,12 +599,6 @@
    "title": "US Fed Chairman Warsh Speaks",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zODNLNVNWX2dZTXZ4OUFPUkZ6YVVPaEVrZEFvcExFOEhJX1dUX1NTMzVEdzA3VVZ3YThHd2d1YVgydUxUSWp0UV9GSVdvOElHRkNXeU9xLWFzeWhoMHVwTG9FOFZkMFJQYm1OMVU3bEZvd09OaUNXVWh3?oc=5"
-  },
-  {
-   "ts": 1794841274.0,
-   "title": "Macklem To Step Down As Bank Of Canada Governor In June",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeWRXb3FBUzRoOFZua3RiSDA2V0RDME81MnNFMWVZRlBSc01KX043b3dweEJqMVN4SUo1dDJFSlVEbkNTek5xMkpTNVc1ZjlrdFp6dkZKdU5ZUjhQX3o3Q3ktLVgzT3NsRkVNTkNOdHdDSDQtR0ZsMXVKZklxd3k2VTAySTRCeEXSAYwBQVVfeXFMTTJHM1BHbDFpVGlGc0xPUmRUQmg0MTZNUHRadGpmQ2FDQTJOd1k4Q2Y0RWZWdjNFUjB1dzc4NDN4SW8tQkdlbFZicFVfMU9TUG85SDkwS0pibHl5SlN3Y1FiVkRRNmkzWWVXQ0JDMU1mcFpmWFdOY1lsdllxVUFoeFZ5b3N0aEYxd2VJVDE?oc=5"
   },
   {
    "ts": 1794825883.0,
@@ -591,6 +617,12 @@
    "title": "Asia Outlook 2027: Growth broadens, capital gets selective",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU00wdnB1a2trNWRZQ3JIYVdUcFV0ZkVGS2JWeVdjT0xUOW4tWUFteWlLNU1CV19RVkpXR1VubzBXdlhLeGpCeDRaT3NOajlidl8xZVBKMGxObjBsOW1xdExtWDV6eVo4LVQtSnUxQkN4MTlaaFZkSGVHelRoMVpkX3ZfYW84am5keUQ1dXlKZ0ppeGd3ZnV0OXYyTzFadkXSAaQBQVVfeXFMUHExZW9LQ08yODhnTkNENWoxMFRMbjdtT2RySmRRd1JjZkhjRU94TzVPLWctQ04zXzgtdnQ2eXdOMDc0dV8zUUszdFRhLTlkS0hTbXg1X0diQVJjWTl0VUg2WWpKTndaRC1Eb0l0Z2toWkhPLVZ1S2Fuc19lMk8xdV80dmtmbEZpYlB6LXg0SWFfSldYbTYzc0FGVWU2STh1Rm9wZzk?oc=5"
+  },
+  {
+   "ts": 1794798660.0,
+   "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQk9oaTNXeFlrV09qN1NBeC1pN0s1bDR3dTZPV0hYTUxNakdteGIwUUpxN2hRT0wtSUpSWUZhTkM2TzZlU3Vnb2JGNERsaFM3TXpfblA4TFE5NW50RklwcXJpRDJ3V1F4MC0yaW9jOWNIMlk1VEU2cUY2azdoQnY0cW05QTVfN3I0ZHRNekNaVDZ1cWhtcV83Vjg2SFYwYTQ3WmloUHNCRXVCNGllcS1Z0gG0AUFVX3lxTE1TaWR6NXFfOVdPY2kwdms5RFZXUS11UTEyRHp3N1lXY1RyNDlxR0xLSnpSN0wwXzJZcmphNERIWlMxZHlidE5YMHVmajV5Um95OWxhWHppWVlxbHNDNXgxN201ZW9JM2dRSmFZbmhWeUVUNU9rMDVxVk9pLXpRTlFiLUNCVnNvRWlyODdLb1ZIRlJGWFMyN0VaSU0zRWphTGdfeUlaWkRPdnNhWWE2ZExDNnNENg?oc=5"
   }
  ],
  "sentiment": {
