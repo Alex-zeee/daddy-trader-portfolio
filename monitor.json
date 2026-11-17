@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 18:16 PKT",
+ "updated": "17-11-2026 18:31 PKT",
  "gold": {
-  "price": 3858.74,
-  "open": 3869.45,
+  "price": 3859.34,
+  "open": 3867.64,
   "high": 3887.6,
   "low": 3841.13,
-  "chg": -0.28,
+  "chg": -0.21,
   "src": "XAUUSD Spot",
   "spark": [
-   3869.77,
    3865.4,
    3869.05,
    3867.3,
@@ -55,14 +54,15 @@
    3858.59,
    3860.23,
    3857.41,
-   3858.74
+   3858.56,
+   3859.34
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.655,
-   "chg": 1.86,
+   "price": 47.46,
+   "chg": 1.44,
    "spark": [
     56.974,
     57.706,
@@ -85,13 +85,42 @@
     49.972,
     49.031,
     46.785,
-    47.655
+    47.46
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 103.658,
+   "chg": 0.1,
+   "spark": [
+    101.98,
+    101.73,
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.17,
+    103.41,
+    103.55,
+    103.658
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.36,
-   "chg": 0.75,
+   "price": 86.61,
+   "chg": 1.04,
    "spark": [
     103.66,
     101.79,
@@ -114,7 +143,7 @@
     88.74,
     88.56,
     85.72,
-    86.36
+    86.61
    ]
   },
   {
@@ -122,7 +151,6 @@
    "price": 5.121,
    "chg": -0.64,
    "spark": [
-    5.098,
     5.136,
     5.117,
     5.146,
@@ -148,8 +176,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0991,
-   "chg": -0.3,
+   "price": 1.0984,
+   "chg": -0.37,
    "spark": [
     1.1225,
     1.1216,
@@ -172,13 +200,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.0991
+    1.0984
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3192,
-   "chg": -0.19,
+   "price": 1.3187,
+   "chg": -0.23,
    "spark": [
     1.3336,
     1.3308,
@@ -201,13 +229,13 @@
     1.3277,
     1.3231,
     1.3216,
-    1.3192
+    1.3187
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.317,
-   "chg": -0.29,
+   "price": 159.4,
+   "chg": -0.24,
    "spark": [
     157.806,
     158.523,
@@ -230,13 +258,13 @@
     159.734,
     159.875,
     159.78,
-    159.317
+    159.4
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1820.5,
-   "chg": 0.1,
+   "price": 1818.68,
+   "chg": -0.0,
    "spark": [
     1805.89,
     1809.77,
@@ -285,13 +313,13 @@
     1786.7,
     1820.73,
     1821.91,
-    1820.5
+    1818.68
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64972.0,
-   "chg": 0.24,
+   "price": 64884.1,
+   "chg": 0.11,
    "spark": [
     64719.5,
     64708.1,
@@ -340,7 +368,7 @@
     64034.4,
     64924.4,
     64995.4,
-    64972.0
+    64884.1
    ]
   }
  ],
@@ -405,39 +433,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794921415.633837,
-   "title": "Gold stabilizes after hitting over one-year low",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 06:16 PM"
-  },
-  {
-   "ts": 1794921415.633837,
-   "title": "Here\u2019s when Goldman expects gold prices to reach $5,600/oz",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/heres-when-goldman-expects-gold-prices-to-reach-5600oz-5032707",
-   "t": "17 Nov \u00b7 06:16 PM"
-  },
-  {
-   "ts": 1794921415.633837,
+   "ts": 1794922307.666406,
    "title": "Trump says US taking seriously report of possible Iranian dirty bomb plot in Washington",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/tehran-denies-report-of-a-potential-iranian-plan-to-detonate-dirty-bomb-in-washington-5032621",
-   "t": "17 Nov \u00b7 06:16 PM"
+   "t": "17 Nov \u00b7 06:31 PM"
   },
   {
-   "ts": 1794921415.633837,
+   "ts": 1794922307.666406,
+   "title": "Gold stabilizes after hitting over one-year low",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
+   "t": "17 Nov \u00b7 06:31 PM"
+  },
+  {
+   "ts": 1794922307.666406,
+   "title": "Here\u2019s when Goldman expects gold prices to reach $5,600/oz",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/heres-when-goldman-expects-gold-prices-to-reach-5600oz-5032707",
+   "t": "17 Nov \u00b7 06:31 PM"
+  },
+  {
+   "ts": 1794922307.666406,
    "title": "European gas futures climb as recovering oil exports overshadow shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-futures-climb-as-recovering-oil-exports-overshadow-shipping-attacks-5031845",
-   "t": "17 Nov \u00b7 06:16 PM"
-  },
-  {
-   "ts": 1794921415.633837,
-   "title": "Oman, Iran foreign ministers discuss safeguarding maritime corridors",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-5031688",
-   "t": "17 Nov \u00b7 06:16 PM"
+   "t": "17 Nov \u00b7 06:31 PM"
   },
   {
    "ts": 1794919896.0,
@@ -522,6 +543,25 @@
     "On the 1 hour chart, there\u2019s not much we can add here given the consolidation. The sellers will continue to step in around these levels to keep targeting new lows, while the buyers will need to see the price rising back above the broken trendline to start positioning for new highs. The red lines define the average daily range for today.",
     "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
    ]
+  },
+  {
+   "ts": 1794894204.0,
+   "title": "Gold Holds Firm as US Indices Gain Ground in Q3, easyMarkets Reports",
+   "src": "investingLive",
+   "link": "https://investinglive.com/education/gold-holds-firm-as-us-indices-gain-ground-in-q3-easymarkets-reports/",
+   "t": "17 Nov \u00b7 10:43 AM",
+   "body": [
+    "Limassol, Cyprus \u2013 November 2026, Gold and US indices dominated trading volumes among easyMarkets clients during the third quarter of 2026, with US indices gaining ground as Oil became less prominent compared with the previous quarter Gold volumes remained broadly unchanged from Q2, while US indices recorded an increase. The shift coincided with a combination of macroeconomic developments and geopolitical events, with interest rate decisions and US unemployment data contributing to greater attention on US markets.",
+    "Gold maintained its position as one of the leading instruments by trading volume during Q3, while US indices recorded increased activity compared with the previous quarter. This marked a change from Q2, when Oil featured among the most actively traded instruments.",
+    "Interest rate decisions and US unemployment data were among the economic developments influencing market sentiment during the quarter. Together with geopolitical events, these factors formed part of the broader market backdrop as trading preferences shifted towards US indices.",
+    "Client positioning during Q3 reflected an optimistic outlook, according to the easyMarkets Risk team. Trading strategies included long positions in Gold and short positions in US indices, showing different views across the markets.",
+    "Clients also increased their exposure by placing larger positions per transaction this quarter. While larger positions can increase potential gains, they can also magnify potential losses, making it important for traders to understand how much they are putting at risk with each trade.",
+    "Commenting on the observations, Giannis Nikola, Chief Risk Officer at easyMarkets, said: \"We saw some interesting changes in client trading behaviour during Q3, alongside a reminder of how important it is to manage trading exposure. Taking larger positions can increase potential returns, but it also means taking on greater risk. Understanding position size and the potential impact of a trade is an important part of making informed trading decisions.\"",
+    "Interest rate decisions are expected to remain an important influence on financial markets in Q4, with monetary policy and economic developments likely to shape market conditions and trading interest in the months ahead.",
+    "easyMarkets continues to support clients with transparent trading conditions, practical risk-management tools and educational resources designed to help them better understand market exposure and make informed trading decisions.",
+    "Georgia Kyriakou Digital PR Manager, easyMarkets Email: support@easy-markets.com Tel: +357 25 828899",
+    "Founded in 2001, easyMarkets is an award-winning global online broker offering clients access to more than 275 tradable instruments across multiple asset classes. One of the first brokers to introduce an online trading experience with innovative risk-management tools, easyMarkets offers features including Guaranteed Stop Loss with No Slippage, easyTrade, multiple trading platforms, fixed spreads and dedicated client support. With a focus on transparency, accessibility and innovation, easyMarkets continues to develop its trading experience to meet the evolving needs of traders worldwide."
+   ]
   }
  ],
  "tweets": [
@@ -568,7 +608,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 5/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
