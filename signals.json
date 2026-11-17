@@ -1,20 +1,20 @@
 {
- "updated": "17-11-2026 06:31 PKT",
+ "updated": "17-11-2026 06:46 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
-  "dir": "SELL",
-  "strength": 100,
-  "price": 3849.36,
-  "rsi": 42,
+  "dir": "NEUTRAL",
+  "strength": 33,
+  "price": 3869.77,
+  "rsi": 59,
   "tf": "M15"
  },
  "liq": {
   "above": [
-   3864.44,
-   3866.92,
-   3870.87
+   3870.87,
+   3887.6,
+   3888.3
   ],
   "below": [
    3841.13,
@@ -86,6 +86,18 @@
    "tp": 3894.1,
    "status": "SL Hit",
    "note": "ICT Unicorn (Breaker + FVG): Breaker + FVG overlap"
+  },
+  {
+   "id": "2026-11-17T01:35:00+00:00",
+   "ts": "2026-11-17T01:35:00+00:00",
+   "date": "17-11-2026 06:35 PKT",
+   "pair": "XAUUSD",
+   "type": "BUY",
+   "entry": 3853.73,
+   "sl": 3842.78,
+   "tp": 3887.6,
+   "status": "Active",
+   "note": "ICT Liquidity Hunt + CISD: LONDON Low liquidity hunt -> CISD"
   }
  ],
  "tp_hits": [
