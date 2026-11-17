@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 14:46 PKT",
+ "updated": "17-11-2026 15:01 PKT",
  "gold": {
-  "price": 3867.34,
-  "open": 3854.32,
+  "price": 3866.33,
+  "open": 3863.02,
   "high": 3887.6,
   "low": 3841.13,
-  "chg": 0.34,
+  "chg": 0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   3856.52,
    3855.99,
    3854.84,
    3856.29,
@@ -55,14 +54,15 @@
    3867.43,
    3861.45,
    3866.47,
-   3867.34
+   3865.73,
+   3866.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.29,
-   "chg": 1.08,
+   "price": 47.365,
+   "chg": 1.24,
    "spark": [
     56.974,
     57.706,
@@ -85,12 +85,12 @@
     49.972,
     49.031,
     46.785,
-    47.29
+    47.365
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.476,
+   "price": 103.475,
    "chg": -0.07,
    "spark": [
     101.98,
@@ -114,13 +114,13 @@
     103.17,
     103.41,
     103.55,
-    103.476
+    103.475
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 86.08,
-   "chg": 0.42,
+   "price": 85.77,
+   "chg": 0.06,
    "spark": [
     103.66,
     101.79,
@@ -143,7 +143,7 @@
     88.74,
     88.56,
     85.72,
-    86.08
+    85.77
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1006,
-   "chg": -0.17,
+   "price": 1.1004,
+   "chg": -0.19,
    "spark": [
     1.1225,
     1.1216,
@@ -201,13 +201,13 @@
     1.1095,
     1.105,
     1.1025,
-    1.1006
+    1.1004
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3196,
-   "chg": -0.16,
+   "chg": -0.15,
    "spark": [
     1.3336,
     1.3308,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.965,
-   "chg": -0.51,
+   "price": 158.99,
+   "chg": -0.49,
    "spark": [
     157.806,
     158.523,
@@ -259,15 +259,14 @@
     159.734,
     159.875,
     159.78,
-    158.965
+    158.99
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1813.01,
-   "chg": -0.32,
+   "price": 1809.37,
+   "chg": -0.52,
    "spark": [
-    1830.55,
     1822.63,
     1834.79,
     1830.01,
@@ -314,15 +313,15 @@
     1824.66,
     1831.02,
     1818.17,
-    1813.01
+    1810.46,
+    1809.37
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64364.4,
-   "chg": -0.69,
+   "price": 64296.4,
+   "chg": -0.8,
    "spark": [
-    65551.7,
     65322.7,
     65474.3,
     65398.5,
@@ -369,7 +368,8 @@
     64492.1,
     64676.6,
     64271.8,
-    64364.4
+    64298.1,
+    64296.4
    ]
   }
  ],
@@ -434,25 +434,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794908804.449705,
+   "ts": 1794909706.703452,
+   "title": "European gas futures climb as recovering oil exports overshadow shipping attacks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/european-gas-futures-climb-as-recovering-oil-exports-overshadow-shipping-attacks-5031845",
+   "t": "17 Nov \u00b7 03:01 PM"
+  },
+  {
+   "ts": 1794909706.703452,
    "title": "Gold rebounds toward $3,900 after 14-month low as precious metals rally",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 02:46 PM"
+   "t": "17 Nov \u00b7 03:01 PM"
   },
   {
-   "ts": 1794908804.449705,
+   "ts": 1794909706.703452,
    "title": "Oman, Iran foreign ministers discuss safeguarding maritime corridors",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-5031688",
-   "t": "17 Nov \u00b7 02:46 PM"
+   "t": "17 Nov \u00b7 03:01 PM"
   },
   {
-   "ts": 1794908804.449705,
+   "ts": 1794909706.703452,
    "title": "Gold hits one-year low as dollar strengthens, Fed rate hike bets weigh",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296",
-   "t": "17 Nov \u00b7 02:46 PM"
+   "t": "17 Nov \u00b7 03:01 PM"
   },
   {
    "ts": 1794894204.0,
@@ -560,16 +567,6 @@
     "Goldman\u2019s base case is for consecutive hikes in December and January, followed by an extended hold. It cautioned, however, that further increases could follow if inflation proves sticky. For portfolios, the firm said it remains cautious on US interest rates, citing resilient growth and inflation momentum that reinforce the Fed\u2019s hawkish bias.",
     "The view adds to a growing debate over how far the tightening cycle has to run. Investors will look to the next round of inflation and labor market data, and to Fed officials\u2019 comments ahead of the December 8-9 meeting, for signs of whether a January move is gaining support inside the central bank."
    ]
-  },
-  {
-   "ts": 1794878138.0,
-   "title": "PBOC sets USD/ CNY central rate at 6.7132 (vs. estimate at 6.6715)",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-central-rate-at-vs-estimate-at-6-6715/",
-   "t": "17 Nov \u00b7 06:15 AM",
-   "body": [
-    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
-   ]
   }
  ],
  "tweets": [
@@ -616,7 +613,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
