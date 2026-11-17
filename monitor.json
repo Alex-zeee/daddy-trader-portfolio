@@ -1,14 +1,13 @@
 {
- "updated": "17-11-2026 21:16 PKT",
+ "updated": "17-11-2026 21:31 PKT",
  "gold": {
-  "price": 3869.63,
-  "open": 3860.3,
+  "price": 3868.82,
+  "open": 3859.26,
   "high": 3891.96,
   "low": 3837.09,
-  "chg": 0.24,
+  "chg": 0.25,
   "src": "XAUUSD Spot",
   "spark": [
-   3871.57,
    3875.18,
    3873.18,
    3882.82,
@@ -55,14 +54,15 @@
    3890.69,
    3875.84,
    3870.03,
-   3869.63
+   3870.46,
+   3868.82
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 47.64,
-   "chg": 1.83,
+   "price": 47.53,
+   "chg": 1.59,
    "spark": [
     56.974,
     57.706,
@@ -85,13 +85,13 @@
     49.972,
     49.031,
     46.785,
-    47.64
+    47.53
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.51,
-   "chg": -0.04,
+   "price": 103.449,
+   "chg": -0.1,
    "spark": [
     101.98,
     101.73,
@@ -114,7 +114,7 @@
     103.17,
     103.41,
     103.55,
-    103.51
+    103.449
    ]
   },
   {
@@ -148,8 +148,8 @@
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.117,
-   "chg": -0.08,
+   "price": 5.113,
+   "chg": -0.16,
    "spark": [
     5.136,
     5.117,
@@ -172,7 +172,7 @@
     5.103,
     5.154,
     5.121,
-    5.117
+    5.113
    ]
   },
   {
@@ -205,38 +205,9 @@
    ]
   },
   {
-   "name": "GBP/USD",
-   "price": 1.3216,
-   "chg": -0.0,
-   "spark": [
-    1.3336,
-    1.3308,
-    1.3373,
-    1.3396,
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3216
-   ]
-  },
-  {
    "name": "USD/JPY",
-   "price": 159.29,
-   "chg": -0.31,
+   "price": 159.257,
+   "chg": -0.33,
    "spark": [
     157.806,
     158.523,
@@ -259,13 +230,13 @@
     159.734,
     159.875,
     159.78,
-    159.29
+    159.257
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1780.5,
-   "chg": -2.1,
+   "price": 1779.21,
+   "chg": -2.17,
    "spark": [
     1813.23,
     1814.69,
@@ -314,13 +285,13 @@
     1827.56,
     1813.33,
     1783.91,
-    1780.5
+    1779.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64000.0,
-   "chg": -1.26,
+   "price": 63810.8,
+   "chg": -1.55,
    "spark": [
     64529.2,
     64693.2,
@@ -369,27 +340,11 @@
     65088.5,
     64954.2,
     64045.1,
-    64000.2
+    63807.0
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1794922200.0,
-   "t": "Tue 17 Nov \u00b7 06:30 PM",
-   "title": "Core Retail Sales m/m",
-   "impact": "High",
-   "forecast": "0.4%",
-   "previous": "0.9%"
-  },
-  {
-   "ts": 1794922200.0,
-   "t": "Tue 17 Nov \u00b7 06:30 PM",
-   "title": "Retail Sales m/m",
-   "impact": "High",
-   "forecast": "0.1%",
-   "previous": "0.8%"
-  },
   {
    "ts": 1795028400.0,
    "t": "Thu 19 Nov \u00b7 12:00 AM",
@@ -434,32 +389,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794932219.500864,
+   "ts": 1794933107.288203,
+   "title": "Trump and Tehran gamble on time as Iran war stalemate deepens",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/trump-and-tehran-gamble-on-time-as-iran-war-stalemate-deepens-5033542",
+   "t": "17 Nov \u00b7 09:31 PM"
+  },
+  {
+   "ts": 1794933107.288203,
    "title": "Gold stabilizes after hitting over one-year low",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "17 Nov \u00b7 09:16 PM"
+   "t": "17 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1794932219.500864,
+   "ts": 1794933107.288203,
    "title": "Trump says US taking seriously report of possible Iranian dirty bomb plot in Washington",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/tehran-denies-report-of-a-potential-iranian-plan-to-detonate-dirty-bomb-in-washington-5032621",
-   "t": "17 Nov \u00b7 09:16 PM"
+   "t": "17 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1794932219.500864,
+   "ts": 1794933107.288203,
    "title": "Here\u2019s when Goldman expects gold prices to reach $5,600/oz",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/heres-when-goldman-expects-gold-prices-to-reach-5600oz-5032707",
-   "t": "17 Nov \u00b7 09:16 PM"
+   "t": "17 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1794932219.500864,
+   "ts": 1794933107.288203,
    "title": "European gas futures climb as recovering oil exports overshadow shipping attacks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/european-gas-futures-climb-as-recovering-oil-exports-overshadow-shipping-attacks-5031845",
-   "t": "17 Nov \u00b7 09:16 PM"
+   "t": "17 Nov \u00b7 09:31 PM"
   },
   {
    "ts": 1794929713.0,
@@ -549,32 +511,9 @@
     "On the 1 hour chart, there\u2019s not much we can add here as the sellers will have a better risk to reward setup around the broken trendline, while the buyers will need to see the price rising back above it to start positioning for new highs. The red lines define the average daily range for today.",
     "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on US-Iran developments."
    ]
-  },
-  {
-   "ts": 1794911384.0,
-   "title": "Ethereum's bearish trend could extend further without a dovish Fed pivot or a US-Iran breakthrough",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/ethereum-s-bearish-trend-could-extend-further-without-a-dovish-fed-pivot-or-a-us-iran-breakthrough/",
-   "t": "17 Nov \u00b7 03:29 PM",
-   "body": [
-    "Ethereum has faced significant selling pressure over the past week, with a big wave of liquidations across the crypto market as the hawkish Fed repricing tightened financial conditions and weighed on risk sentiment.",
-    "The main catalyst was Fed's Waller speech, in which he also floated the possibility of a larger 50 bps hike at the December meeting. His remarks triggered a strong hawkish repricing, which was then exacerbated by the higher than expected US CPI data.",
-    "The risk sentiment deteriorated further when Trump said on Truth Social that the US doesn't need a deal with Iran, adding to inflation and growth concerns.",
-    "Looking ahead, Ethereum will likely remain under pressure as long as the negative macro backdrop persists. A more dovish Fed or a breakthrough in the US-Iran situation will likely be needed to trigger a reversal in the bearish trend.",
-    "On the daily chart, we can see that Ethereum extended the losses as the risk sentiment deteriorated last week. The price is now consolidating below the 1,870 level. The sellers will likely continue to step in around these levels, with a defined risk above the 1,870 level, to keep targeting the 1,500 level next. The buyers, on the other hand, will want to see the price rising back above the 1,870 level to start positioning for a correction into the major downward trendline.",
-    "On the 4 hour chart, we have a downward trendline defining the bearish momentum. We can expect the sellers to continue to lean on the trendline, with a defined risk above it, to keep targeting the 1,500 level. The buyers, on the other hand, will want to see the price breaking higher to pile in for a correction into the major downward trendline.",
-    "On the 1 hour chart, we have a minor upward trendline defining the recent pullback. The buyers will likely lean on the trendline, with a defined risk below it, to keep targeting a breakout. The sellers, on the other hand, will look for a break lower to increase the bearish bets into the 1,500 level next. The red lines define the average daily range for today.",
-    "Today we get the US Retail Sales. Tomorrow, we have the FOMC meeting minutes. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
-   ]
   }
  ],
  "tweets": [
-  {
-   "ts": 1794918660.0,
-   "title": "US retail sales up 0.2% in October",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoY245R2tSWDJ0N0hIemdOUGNrbEJmTXVrSjBIcnNzOXZ0Nk1nN29NU0F3X2FPcm5tMlhZTnZ2cGdjY0xjaFFuN0lOYWhPV1lScjNoTUpnZGhYdWU2UzFCQmd0RnpQbFphLThqaHQzb0dtN09YeU5hdmttd3lTa0HSAYQBQVVfeXFMTlZnbHZ3c3cxamd3RkppQ3ZWTmxjS2xjSkZmb3hPWDcwYlBzVnV2ZDE0bzg5ZllCMEdLbWlZRGMyMnRzeHZpTHFoOWpCVlZNbTJCbXhXVF9vUkhyWm4zTFBudDc5R2ZhbVZ2blRvS1RSR2tucHBBa2haX3paQ3Bncm5uODdf?oc=5"
-  },
   {
    "ts": 1794899961.0,
    "title": "Labour market overview, UK: November 2026",
@@ -604,6 +543,12 @@
    "title": "NZ selected price indexes: October 2026",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWVmUDNBVk5OeTBaZGdIaDVQcUROVWRxdGhCSVRsNmdXV1BvdzRoVUhMaUNvOEw0NWsxa0l3b2w1a2FlQm1ySHhfVmpLNGxySTl4Z0wtTDQ2SmRzZXl1djlZVHBNemY4c3FsNlAtOEpqRS1uOHQwS29yWEYybDJZYUU3S0JzZEXSAYwBQVVfeXFMTXc1RXotRFExaE9pZXUybE1zSVhTalNmUzBJZ011MC1fN2pKLVQzdjlIZFBQend5bmtweklKcG9Ld2F3Y3BRR3p5UzNSTFRmTUJiM0NGMlBtb0k2cjBoQmZfaEZFRDJBakVNWkEwckU0c2hfVkdhVzJnNVQ5alBKcnZPbzZPakpYMmFVMDQ?oc=5"
+  },
+  {
+   "ts": 1794825883.0,
+   "title": "Fed's Warsh to take stock of AI revolution as US public grows wary",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa2VHM0psWmxIVEtnTG8tYkFPRENkdHdjOUNVS0hLT2k1R3dHcjdsM3dDUG4tNGRLU2xsOWgzTFVoWGZEbmowb25TcjBIWFR2eUpzR3pZZ1EyNVRnOVVnb0FxM2RyeEdpQnlMVngtR2VOblE4c1d1OWw1a1J1UXVvcW1WR19oMmlYdFZZ0gGQAUFVX3lxTE02NS1OWVdUYjBoNkl2M196d3pxU3JTV09UTXNoTjcyNGtaT21FVEhOOEdjbzdGaHNJV3dKNHp5SWNQdktpeUFVYVVjaXpJYjA5N1JrRzNNVEFGV3QzNW02RUFZdVQ5VkM0d1NoUV9vTlVYVXBpZkJCSkhhZVFITFJYUXUxLTh3NS02dmxlblRwUg?oc=5"
   }
  ],
  "sentiment": {
@@ -612,7 +557,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
