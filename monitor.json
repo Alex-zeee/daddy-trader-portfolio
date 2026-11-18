@@ -1,14 +1,13 @@
 {
- "updated": "18-11-2026 23:46 PKT",
+ "updated": "19-11-2026 00:01 PKT",
  "gold": {
-  "price": 3740.25,
-  "open": 3856.14,
+  "price": 3738.13,
+  "open": 3855.23,
   "high": 3858.4,
   "low": 3729.4,
-  "chg": -3.01,
+  "chg": -3.04,
   "src": "XAUUSD Spot",
   "spark": [
-   3773.35,
    3771.05,
    3768.11,
    3773.07,
@@ -55,14 +54,15 @@
    3736.14,
    3739.96,
    3740.17,
-   3740.25
+   3737.85,
+   3738.13
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.165,
-   "chg": -4.49,
+   "price": 45.145,
+   "chg": -4.53,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    45.165
+    45.145
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.753,
-   "chg": 0.25,
+   "price": 103.777,
+   "chg": 0.28,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.753
+    103.777
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.71,
-   "chg": -5.0,
+   "price": 81.81,
+   "chg": -4.88,
    "spark": [
     101.79,
     97.15,
@@ -143,42 +143,42 @@
     88.56,
     85.72,
     86.01,
-    81.71
+    81.81
    ]
   },
   {
-   "name": "US 10Y Yield",
-   "price": 5.062,
-   "chg": -0.8,
+   "name": "EUR/USD",
+   "price": 1.0976,
+   "chg": -0.2,
    "spark": [
-    5.117,
-    5.146,
-    4.953,
-    4.988,
-    4.986,
-    4.993,
-    5.045,
-    4.989,
-    4.929,
-    4.894,
-    4.952,
-    4.894,
-    4.837,
-    4.859,
-    4.864,
-    4.983,
-    4.998,
-    5.103,
-    5.154,
-    5.121,
-    5.103,
-    5.062
+    1.1216,
+    1.1227,
+    1.1235,
+    1.1221,
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1025,
+    1.0998,
+    1.0976
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3156,
-   "chg": -0.22,
+   "price": 1.3148,
+   "chg": -0.27,
    "spark": [
     1.3308,
     1.3373,
@@ -201,13 +201,13 @@
     1.3231,
     1.3216,
     1.3185,
-    1.3156
+    1.3148
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.34,
-   "chg": -0.11,
+   "price": 159.358,
+   "chg": -0.1,
    "spark": [
     158.523,
     158.268,
@@ -230,15 +230,14 @@
     159.875,
     159.78,
     159.523,
-    159.34
+    159.358
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1771.06,
-   "chg": -2.83,
+   "price": 1758.55,
+   "chg": -3.52,
    "spark": [
-    1822.05,
     1818.92,
     1827.86,
     1826.65,
@@ -285,15 +284,15 @@
     1767.04,
     1747.43,
     1766.48,
-    1771.06
+    1768.76,
+    1758.55
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63177.7,
-   "chg": -2.62,
+   "price": 62878.4,
+   "chg": -3.08,
    "spark": [
-    64996.2,
     65002.1,
     65249.0,
     65257.2,
@@ -340,33 +339,90 @@
     63052.1,
     62695.8,
     63033.5,
-    63177.7
+    63109.8,
+    62878.4
    ]
   }
  ],
- "calendar": [],
- "cal_mode": "past",
+ "calendar": [
+  {
+   "ts": 1795028400.0,
+   "t": "Thu 19 Nov \u00b7 12:00 AM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1795095000.0,
+   "t": "Thu 19 Nov \u00b7 06:30 PM",
+   "title": "Philly Fed Manufacturing Index",
+   "impact": "Medium",
+   "forecast": "20.6",
+   "previous": "20.9"
+  },
+  {
+   "ts": 1795095000.0,
+   "t": "Thu 19 Nov \u00b7 06:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "198K",
+   "previous": "200K"
+  },
+  {
+   "ts": 1795186800.0,
+   "t": "Fri 20 Nov \u00b7 08:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "51.7",
+   "previous": "51.0"
+  },
+  {
+   "ts": 1795186800.0,
+   "t": "Fri 20 Nov \u00b7 08:00 PM",
+   "title": "Revised UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.3%"
+  }
+ ],
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795027608.734111,
+   "ts": 1795028512.472305,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "18 Nov \u00b7 11:46 PM"
+   "t": "19 Nov \u00b7 12:01 AM"
   },
   {
-   "ts": 1795027608.734111,
+   "ts": 1795028512.472305,
    "title": "Gold slumps as Fed hike bets deepen bullion selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "18 Nov \u00b7 11:46 PM"
+   "t": "19 Nov \u00b7 12:01 AM"
   },
   {
-   "ts": 1795027608.734111,
+   "ts": 1795028512.472305,
    "title": "Why isn\u2019t gold rallying despite its bullish investment case? UBS explains",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-isnt-gold-rallying-despite-its-bullish-investment-case-ubs-explains-5036400",
-   "t": "18 Nov \u00b7 11:46 PM"
+   "t": "19 Nov \u00b7 12:01 AM"
+  },
+  {
+   "ts": 1795028400.0,
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "src": "Federal Reserve",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "t": "19 Nov \u00b7 12:00 AM",
+   "body": [
+    "Official websites use .govA .gov website belongs to an official government organization in the United States.",
+    "Secure .gov websites use HTTPSA lock () or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+    "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27\u201328, 2026.",
+    "The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision. The descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.",
+    "For media inquiries, e-mail [email protected] or call 202-452-2955.",
+    "Minutes of Federal Open Market Committee October 27\u201328, 2026: HTML | PDF"
+   ]
   },
   {
    "ts": 1795023471.0,
@@ -482,24 +538,6 @@
     "However, stronger buying in a short-term recovery does not automatically mean the broader bearish trend has ended.",
     "These are reference levels, not automatic buy or sell instructions. VWAP, its deviation bands and the developing value area can move as trading continues."
    ]
-  },
-  {
-   "ts": 1794992907.0,
-   "title": "Gold extends losses as strong US dollar and elevated yields hurt. What could change the trend?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-extends-losses-as-strong-us-dollar-and-elevated-yields-hurt-what-could-change-the-trend/",
-   "t": "18 Nov \u00b7 02:08 PM",
-   "body": [
-    "Gold extended the selloff in the APAC session, although there was no catalyst for the move. The market just continues to move lower due to strong headwinds coming from higher Treasury yields and stronger US dollar after the hawkish repricing triggered by Fed commentary and the hotter than expected US CPI data.",
-    "For now, the bearish momentum remains strong, and we haven\u2019t got any bullish catalyst to reverse the trend. Nevertheless, the hawkish repricing should now be mostly over, as a rate hike in December is widely expected, while the probability of a 50 bps hike remains very slim given that the majority of Fed members favour smaller steps.",
-    "Moreover, it looks like growth concerns are finally gaining traction, with the stock market trading around last week\u2019s lows and Treasury yields slowly rolling over. These concerns are likely to persist and might even intensify as long as the US-Iran situation remains unresolved, and the Fed maintains the hawkish stance.",
-    "I think that in the current context, a prolonged US-Iran stalemate or an escalation would keep inflation expectations high alongside a weakening growth outlook, creating stagflationary expectations. And this should ultimately be bullish for gold. At the same time, if there\u2019s a breakthrough, we could see a dovish repricing on easing inflation concerns, which should also support gold in the short-term.",
-    "There are certainly strong headwinds for gold at the moment, so these fundamental views will need to be paired with technicals for a confirmation of a change in momentum. If the stock market continues to fall, growth concerns could take centre stage and I would expect Treasury yields and the US dollar to weaken as well, supporting the precious metal.",
-    "On the daily chart, we can see that gold (CFD contract) extended the losses after a brief consolidation below the key 3,885 level. The natural target for the sellers should be the 3,500 level. If the price gets there, we can expect the buyers to step in, with a defined risk below the level, to position for a rally into the 4,700 level. The sellers, on the other hand, will look for a break to increase the bearish bets into the 3,100 level next.",
-    "On the 4 hour chart, we now have a downward trendline defining the bearish momentum. If we get a pullback, we can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting the 3,500 level. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the 4,150 level next.",
-    "On the 1 hour chart, we have a minor downward trendline defining the bearish momentum on this timeframe. The sellers will likely lean on the trendline, with a defined risk above it, to keep pushing into new lows. The buyers, on the other hand, will look for a break to extend the pullback into the major trendline. The red lines define the average daily range for today.",
-    "Today we have the FOMC meeting minutes. Tomorrow, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
-   ]
   }
  ],
  "tweets": [
@@ -508,6 +546,12 @@
    "title": "US Pending Home Sales Decreased 4.7% in October, According to NAR Report",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdDA3YVBkejlHbEdMMFdPSndscmFOQ0pnQmo2am5QQXhUenowZU43QkRrZHRDSDZfZlJQdzZEellQQnNXZk1rVUE5R2NVVnRya2p4WFFNODNiV1VCelc1a2NjZ2wxcWxNclV0VWRPdTlzdFhfZzdwbThRYWhKXzJSOHlqQjVYVEd5RExoYlo1c3rSAZYBQVVfeXFMUDZRVmY2c1NUR1ZGcGhYc0JBOHc0eEhoMWM0SDVtZVNhNU1VODZDVXNYN0dOYXo2S29BWldzSDlwM2F2R0VLLTZ5Q0R1Z3daU29yNk05VHZtREpFYUg5cWtHVm1fUjIwZ3dhZWNLWXIyWC05aVU5c0pZdFJYakV1WGotaHJYenpoNWZlbWZYUHhVamF1d1F3?oc=5"
+  },
+  {
+   "ts": 1795014252.0,
+   "title": "Bailey: The UK\u2019s Regional Growth: Unlocking the Economy\u2019s Full Potential",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRlR1OXRmSW16MFZxcW12THF0TWxBLXZGNHYwZlpYZ20tekhrRDdjV1VqMzhsMTZMQkx0b3dQSk5ST19EVzRVdTA3T2NobmZxV3hFOHVPLWJqQzBaeWhPSy1LY053SmRjaE5oTDR3eXVveWgwTm4tOTZWU0FLTmxhU2VpV005azA3X3REMmk5V1NIcG16TGVVeHlQUdIBoAFBVV95cUxNWndXTENlMURVTWM4dVdlUU1qVGN2cWhkQkhqY0pRcThRMjJneVNQUkE5LXBoVTJwWGRvUTY3dHFkb2x1SEVJdWNtdU1GdmhUd2UwY1c0SW85QmRIMmFBdGpTcTFfQVlTYVVyQ1dWcUxtXzlzblZQcWpLNTJHNDB1bEFZSVB4LVE3ZGNITnhXa042Z0lKX2ZMZkVpRzBlOUJu?oc=5"
   },
   {
    "ts": 1795012859.0,
@@ -532,12 +576,6 @@
    "title": "Trump lands in China for historic meeting with Xi, Putin",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORXM5a2N5Y2VPQlZfZk1RVk5vRU5GVXZqTnBQUFRmdldDLVU2Z1RrVEx2RDJUMFN1dWQ3M0swVUlZX1NPd1pidmd4STNIOHpBcGk4UTVFWjNxbFBtQXdGRTBjNGlDOXQwZi1KOTVJa1Q5TjNVZk16UjJFWE1HeDVKZTVtSlVqZ0pUeDRvZ0F3VHBuQdIBlwFBVV95cUxPQk1oQXpSSlQxbkluZzF2YUV2dFdYb2pGbjlPcXNidEM3aTZITVVBV1d4WVBRSDQ0aGVKbkxYZHl2Y2xLZEpHdVN1X21NUThWc0M5YThOSzlNUE42bzBtWTZyZUtnY09HT0dtQUlUVzhteWRYWDVCUDVDY1ppLW5HUnVYQmgtZU5obTdDZDNWMGFDNjlFYXJN?oc=5"
-  },
-  {
-   "ts": 1794994268.0,
-   "title": "ECB: Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkJVNHdTRmhWamptcnNhWGFEeHAxT2hqYy1JLVBSaU9Nek1KaEFQLTJZUUJPd3E5OVdtYnZjNFp1WENLMHl2Z2ktZEZHNjdKaEowSm9QMmt3VFN0TDN4OUFKTTFTVWo2TWZhbEZaNm1hQ2VIVTlocHRiVThCSVUzaU1fTUVFaWVpZTc5eFBkYzQyZWZrZnhr0gGcAUFVX3lxTFBQZTd2NUlDZFMzZFdyVzhGSFc5Skp6MVk5bVFEdHpiWGoySWh0UkRMOFhrWk1uejdzSHBheW5nUjFRaG1xZG1YMnZPbU5DX1Bna19ZRFJxQnhoX2JpaFB2NmRhQ21iVW9CR2RkZjI4NUY0Q1lOSk1wVU1JQUo1N0xKX3pGb1NTeHUyTlNhRHV5allWU3ozU3dXMWF1NQ?oc=5"
   }
  ],
  "sentiment": {
@@ -545,7 +583,6 @@
   "label": "Extreme Fear"
  },
  "err": [
-  "cal-thisweek: HTTP Error 429: Too Many Requests",
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
