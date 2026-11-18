@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 04:31 PKT",
+ "updated": "19-11-2026 04:46 PKT",
  "gold": {
-  "price": 3739.57,
-  "open": 3848.81,
-  "high": 3854.21,
+  "price": 3743.07,
+  "open": 3852.43,
+  "high": 3852.43,
   "low": 3719.19,
   "chg": -2.84,
   "src": "XAUUSD Spot",
   "spark": [
-   3763.6,
    3771.1,
    3766.55,
    3753.45,
@@ -55,14 +54,15 @@
    3727.13,
    3734.28,
    3740.9,
-   3739.57
+   3742.88,
+   3743.07
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.375,
-   "chg": -4.05,
+   "price": 45.37,
+   "chg": -4.06,
    "spark": [
     57.706,
     57.422,
@@ -85,7 +85,7 @@
     49.031,
     46.785,
     47.288,
-    45.375
+    45.37
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 82.14,
-   "chg": -4.5,
+   "price": 82.06,
+   "chg": -4.59,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    82.14
+    82.06
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0977,
-   "chg": -0.19,
+   "price": 1.0976,
+   "chg": -0.2,
    "spark": [
     1.1216,
     1.1227,
@@ -201,7 +201,7 @@
     1.105,
     1.1025,
     1.0998,
-    1.0977
+    1.0976
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.377,
-   "chg": -0.09,
+   "price": 159.404,
+   "chg": -0.07,
    "spark": [
     158.523,
     158.268,
@@ -259,13 +259,13 @@
     159.875,
     159.78,
     159.523,
-    159.377
+    159.404
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1770.6,
-   "chg": -2.86,
+   "price": 1777.31,
+   "chg": -2.49,
    "spark": [
     1813.13,
     1819.12,
@@ -314,13 +314,13 @@
     1751.71,
     1762.31,
     1755.18,
-    1770.6
+    1777.31
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62770.1,
-   "chg": -3.25,
+   "price": 63025.1,
+   "chg": -2.85,
    "spark": [
     64566.5,
     64684.8,
@@ -369,7 +369,7 @@
     62539.3,
     62257.6,
     62166.6,
-    62770.1
+    63019.9
    ]
   }
  ],
@@ -410,18 +410,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795044708.467584,
+   "ts": 1795045615.184375,
    "title": "Spot gold sheds over 3%, drops below $3,800/oz for first time since September 2025",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 04:31 AM"
+   "t": "19 Nov \u00b7 04:46 AM"
   },
   {
-   "ts": 1795044708.467584,
+   "ts": 1795045615.184375,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "19 Nov \u00b7 04:31 AM"
+   "t": "19 Nov \u00b7 04:46 AM"
   },
   {
    "ts": 1795037617.0,
@@ -554,6 +554,12 @@
  ],
  "tweets": [
   {
+   "ts": 1795044214.0,
+   "title": "US FOMC Meeting Minutes",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJUzN4M2FodXAyM2M5MmVpR1diaDhobzU1dktmS1BBeVJiNUxhNGl6d2Ffd0NJLUpsVnl6TkE1N08tRS1FZHJNbW92TENuREMwb2FuTjVUOE5qcjhzYUs2OHdlSTE3SGRIam5FRGItb0lXbnM?oc=5"
+  },
+  {
    "ts": 1795031040.0,
    "title": "EU proposes 45-billion-euro Ukraine loan for 2027",
    "src": "ForexFactory",
@@ -582,12 +588,6 @@
    "title": "Bailey: The UK\u2019s Regional Growth: Unlocking the Economy\u2019s Full Potential",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRlR1OXRmSW16MFZxcW12THF0TWxBLXZGNHYwZlpYZ20tekhrRDdjV1VqMzhsMTZMQkx0b3dQSk5ST19EVzRVdTA3T2NobmZxV3hFOHVPLWJqQzBaeWhPSy1LY053SmRjaE5oTDR3eXVveWgwTm4tOTZWU0FLTmxhU2VpV005azA3X3REMmk5V1NIcG16TGVVeHlQUdIBoAFBVV95cUxNWndXTENlMURVTWM4dVdlUU1qVGN2cWhkQkhqY0pRcThRMjJneVNQUkE5LXBoVTJwWGRvUTY3dHFkb2x1SEVJdWNtdU1GdmhUd2UwY1c0SW85QmRIMmFBdGpTcTFfQVlTYVVyQ1dWcUxtXzlzblZQcWpLNTJHNDB1bEFZSVB4LVE3ZGNITnhXa042Z0lKX2ZMZkVpRzBlOUJu?oc=5"
-  },
-  {
-   "ts": 1795012859.0,
-   "title": "ECB's President Lagarde: AI valuations stand to be corrected eventually",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQVFQMTc2SGxsbU1Tcy1naW9WYjFGZzZGY3FtS0tyRHJ2TFRuWURiekl3VjJZRmtMMTd5WTRaQ2JzdDFIa1JzbFNCaEczR3FWYkFJWmtLYzRJTVY1c2pTU01pYk5ySW1FOGFSemoxSUVvWGJXdEJNUGc1NXJnS0ZnTU1MSmk3cWU0NnNETUlqekdXdUFW0gGaAUFVX3lxTE9NUk4xVUFTLTN2NHpCU1FuZTh0amIxNUVCWUQ5OUFJdWlTRlFCNmZxV0ZZM2k4TmY2TWR5OWlURzJPWDl2dWsxRVdNaTlvOG9LckdlQ3BROUVzNHpfWTBKdHBPNWMwdlJ2VEJpd1g3MEFXZHVudFRGLTNOc3NiVm1PblpFQTJCbVF4N0d0UmxkRkRHVjE5T1Zmbmc?oc=5"
   }
  ],
  "sentiment": {
