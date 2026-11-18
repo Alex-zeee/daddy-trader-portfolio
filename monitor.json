@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 02:31 PKT",
+ "updated": "19-11-2026 02:46 PKT",
  "gold": {
-  "price": 3726.58,
-  "open": 3850.94,
+  "price": 3724.74,
+  "open": 3849.54,
   "high": 3858.4,
   "low": 3719.19,
-  "chg": -3.23,
+  "chg": -3.24,
   "src": "XAUUSD Spot",
   "spark": [
-   3780.4,
    3772.2,
    3769.64,
    3769.81,
@@ -55,14 +54,15 @@
    3724.93,
    3725.02,
    3725.28,
-   3726.58
+   3724.22,
+   3724.74
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.03,
-   "chg": -4.77,
+   "price": 45.035,
+   "chg": -4.76,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    45.03
+    45.035
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.798,
-   "chg": 0.3,
+   "price": 103.807,
+   "chg": 0.31,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.798
+    103.807
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.1,
-   "chg": -4.55,
+   "price": 82.08,
+   "chg": -4.57,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    82.1
+    82.08
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0976,
-   "chg": -0.2,
+   "price": 1.0977,
+   "chg": -0.19,
    "spark": [
     1.1216,
     1.1227,
@@ -201,12 +201,41 @@
     1.105,
     1.1025,
     1.0998,
-    1.0976
+    1.0977
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.315,
+   "chg": -0.26,
+   "spark": [
+    1.3308,
+    1.3373,
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3185,
+    1.315
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.372,
+   "price": 159.381,
    "chg": -0.09,
    "spark": [
     158.523,
@@ -230,13 +259,13 @@
     159.875,
     159.78,
     159.523,
-    159.372
+    159.381
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1759.51,
-   "chg": -3.47,
+   "price": 1763.81,
+   "chg": -3.23,
    "spark": [
     1826.65,
     1819.59,
@@ -285,13 +314,13 @@
     1768.76,
     1753.96,
     1751.71,
-    1759.51
+    1763.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62348.5,
-   "chg": -3.9,
+   "price": 62315.8,
+   "chg": -3.95,
    "spark": [
     65257.2,
     64810.6,
@@ -340,7 +369,7 @@
     63109.8,
     62666.0,
     62539.3,
-    62348.5
+    62315.8
    ]
   }
  ],
@@ -389,18 +418,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795037506.649585,
+   "ts": 1795038402.846414,
    "title": "Gold extends losses as Fed minutes fuel bets on larger December rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 02:31 AM"
+   "t": "19 Nov \u00b7 02:46 AM"
   },
   {
-   "ts": 1795037506.649585,
+   "ts": 1795038402.846414,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "19 Nov \u00b7 02:31 AM"
+   "t": "19 Nov \u00b7 02:46 AM"
   },
   {
    "ts": 1795031060.0,
@@ -534,10 +563,22 @@
  ],
  "tweets": [
   {
+   "ts": 1795031040.0,
+   "title": "EU proposes 45-billion-euro Ukraine loan for 2027",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSmdOeEpWRVg5bUhqSzE3ZFgzdjRsOFdxcmkySkZOako5Z1FzUlVNdS1BOVpPT21fTTM3cy12LTd5NzQ5NEotZW50Z1diSmRMa1R6ajVYaFdYSjBjR3VkMnRjMGRqYVV5TTRqRks4SEdSTURjaGdlaC0wRUVHeEpsRWZ5OVJ3eEdDZTlxUUt6QTdwRUFNVFHSAZsBQVVfeXFMT3hMLVlhNnJibTVyNkxfWFJIaGQ1UXhPTXY5Qlhhd3pNdEh6QVB5XzJqQ0sxMkNhX2NGdDcya3N2RmN2dEdRTXVLaThocGdGX2d3OFQ1TzMxWmVUeFVwbWd6X1hXQUZGYXUxNkd1Vjh0bkQ4QjZSZ3NOeGE2Y1lFUE4tb1YzdUc0TTN2aGpNMFZVcmd0VkEtRWJDbnM?oc=5"
+  },
+  {
    "ts": 1795026192.0,
    "title": "Fed's Waller: Very concerned inflation is heading in the wrong direction and broadening - CNBC",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkk4UjZyLVYybE9va1RNYmNCc3phRWNUS0R2RkRJWnF1dzBFdUFTZlIwWDVpRGt4N0lrd1czWDMtN1R3VFo3WGJWOVNiNjZ5LVVZMjA1T09rMjlVMFNXeHQtWm4tMU85YnU3bzNkdkRlbTQxVUhYd194TDYtUGdxcW1mNjBtVDFnZ3hQNjlGLWEtX1Q4ajFR0gGcAUFVX3lxTE5rYnQ1OTVSYW1WYTBfYUliZld1MzVpeGpIei16MTFPc0MtR1NZT0ZncUk5VmRTbndDc3pBd1hjd3FTWGJ4dGhsOUtPSHl2Q2k1MjVLRUpjYThsdERRRl82SHdVYmRtVkNKT3hSUlg1STZlTjZMSHBYdFBtNi11S2RyVE8tYWVMRFQ2Y2kyM09iaV9iNHN4YTd6UUNsQw?oc=5"
+  },
+  {
+   "ts": 1795020300.0,
+   "title": "Betting no JAN hike",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FY0NJTkNRVHUtSHZWTHdPS3ZRM1ZYU3ZlZmsyTTJfQlNMSzZSbFRJcFVPQVdCUG0yRkNtU3d2dDBvaGZLZHBCRnRZMHd2d2V2RWgtN0tZUzlzUGs4VnpadGR0UU5BbjFYNmlBUXl30gFzQVVfeXFMTzVRYUUzME1Fckx2QlRmd1BpUjJyNTNERy1fR0QwZnpJUHlLOVFtWmkxT0NGajYtN1JEeXJxaHhNSTg5WEZlX3lUTHoxQXpuNV9CVUZMUnA1b25sWFc0VWdoOHJBRTNnN1dqcUlXb25sOEw4cw?oc=5"
   },
   {
    "ts": 1795014268.0,
@@ -556,18 +597,6 @@
    "title": "ECB's President Lagarde: AI valuations stand to be corrected eventually",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQVFQMTc2SGxsbU1Tcy1naW9WYjFGZzZGY3FtS0tyRHJ2TFRuWURiekl3VjJZRmtMMTd5WTRaQ2JzdDFIa1JzbFNCaEczR3FWYkFJWmtLYzRJTVY1c2pTU01pYk5ySW1FOGFSemoxSUVvWGJXdEJNUGc1NXJnS0ZnTU1MSmk3cWU0NnNETUlqekdXdUFW0gGaAUFVX3lxTE9NUk4xVUFTLTN2NHpCU1FuZTh0amIxNUVCWUQ5OUFJdWlTRlFCNmZxV0ZZM2k4TmY2TWR5OWlURzJPWDl2dWsxRVdNaTlvOG9LckdlQ3BROUVzNHpfWTBKdHBPNWMwdlJ2VEJpd1g3MEFXZHVudFRGLTNOc3NiVm1PblpFQTJCbVF4N0d0UmxkRkRHVjE5T1Zmbmc?oc=5"
-  },
-  {
-   "ts": 1795006008.0,
-   "title": "Fed's Waller: Will Have To Take Back The 3 Insurance Cuts, Maybe More",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2d0WjFieFR1WHd1TWVjTmJCT01RRDNhcE13Z1pqUHowYjBES1ctem12MFJLQ2J0aEY2cnkwaEFhNFo2Nm5qZEVnaVFaQkFKZDBBbTJLcU1obEJPejg3X2paRm4xbEpfeFlUV2Z2ME8yaHRYdmIteDdpYjZ6QWRRd3czUmdYZFXSAYwBQVVfeXFMTTBFM2loU01yQ3o1YVJ3cTB3c2RaN0dLLUNseGVyRHZyU0tQcmFpdFlXT2h4TURUNko1QTBfSUtlVm5OOHFTVlhDTG9QTnk3RXhjVTNPU0FFaGxIeGFVeW9JdDU5b1ctMGpOQXlVYjQ2UkI1OVh1VHByTU01bmgxQWU4OXEwTmdXQ1VzRHY?oc=5"
-  },
-  {
-   "ts": 1795005276.0,
-   "title": "Canada's PM Carney and Trump met on the margins of the APEC meeting in Shenzhen",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUDcweVI3RHlPcXdmNkdaSVhXVXFrai1VYVJvUGdaNUU1bmZ6QUhuSUQ4ZU5nd2VoWndWTzZLcW5lbnJRaEFpeHlqaUk3ejhIWG9iTHNFUkk1bmNuRFR6WUJlTmthdnJrWVY2bWUtR0dQN3dZaU9wQzRvVzBQZmRYMGxyWG5oZTDSAYwBQVVfeXFMUG1NcUhfWUQ0dDJmenktU19IZDByV000T3AzU2FRSmcxT3pQYjR5bmswa1VSNl9RcGhoTktDY21POWh0M2lMVENjVmV2N3lYTTRGQTZmWTVTUkRlUzNWTXp6Tms0QWhodkVTQXduU2lTaHdWX2N4WFV2MXVDNl8xLXR5VktiZm5aUVhxQVQ?oc=5"
   }
  ],
  "sentiment": {
