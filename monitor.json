@@ -1,14 +1,13 @@
 {
- "updated": "18-11-2026 15:01 PKT",
+ "updated": "18-11-2026 15:16 PKT",
  "gold": {
-  "price": 3778.67,
-  "open": 3856.29,
+  "price": 3774.06,
+  "open": 3856.46,
   "high": 3891.96,
   "low": 3757.39,
-  "chg": -2.01,
+  "chg": -2.14,
   "src": "XAUUSD Spot",
   "spark": [
-   3844.39,
    3848.47,
    3850.69,
    3852.83,
@@ -55,14 +54,15 @@
    3778.27,
    3784.18,
    3780.4,
-   3778.67
+   3772.2,
+   3774.06
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.845,
-   "chg": -3.05,
+   "price": 45.76,
+   "chg": -3.23,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    45.845
+    45.76
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.755,
-   "chg": 0.26,
+   "price": 103.73,
+   "chg": 0.23,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.755
+    103.73
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.06,
-   "chg": -3.43,
+   "price": 83.25,
+   "chg": -3.21,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    83.06
+    83.25
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0978,
-   "chg": -0.18,
+   "price": 1.0976,
+   "chg": -0.2,
    "spark": [
     1.1216,
     1.1227,
@@ -201,13 +201,13 @@
     1.105,
     1.1025,
     1.0998,
-    1.0978
+    1.0976
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3171,
-   "chg": -0.11,
+   "price": 1.3167,
+   "chg": -0.13,
    "spark": [
     1.3308,
     1.3373,
@@ -230,12 +230,12 @@
     1.3231,
     1.3216,
     1.3185,
-    1.3171
+    1.3167
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.244,
+   "price": 159.25,
    "chg": -0.17,
    "spark": [
     158.523,
@@ -259,13 +259,13 @@
     159.875,
     159.78,
     159.523,
-    159.244
+    159.25
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1810.06,
-   "chg": -0.69,
+   "price": 1807.5,
+   "chg": -0.83,
    "spark": [
     1804.41,
     1798.06,
@@ -314,13 +314,13 @@
     1815.39,
     1809.69,
     1811.18,
-    1810.06
+    1807.5
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64535.2,
-   "chg": -0.53,
+   "price": 64475.8,
+   "chg": -0.62,
    "spark": [
     64376.1,
     64095.3,
@@ -369,7 +369,7 @@
     64805.4,
     64612.7,
     64564.7,
-    64535.2
+    64475.8
    ]
   }
  ],
@@ -418,46 +418,93 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794996109.951572,
+   "ts": 1794997008.620839,
+   "title": "European gas prices ease; escalating Iranian attacks cap declines",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/european-gas-prices-ease-escalating-iranian-attacks-cap-declines-5035137",
+   "t": "18 Nov \u00b7 03:16 PM"
+  },
+  {
+   "ts": 1794997008.620839,
    "title": "Gold drops below $3,800 as Fed hike bets deepen bullion selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "18 Nov \u00b7 03:01 PM"
+   "t": "18 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1794996109.951572,
+   "ts": 1794997008.620839,
    "title": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/tehran-denies-report-of-a-potential-iranian-plan-to-detonate-dirty-bomb-in-washington-5032621",
-   "t": "18 Nov \u00b7 03:01 PM"
+   "t": "18 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1794996109.951572,
+   "ts": 1794997008.620839,
    "title": "Oil prices edge lower as markets parse Iran tensions, U.S. inventory build",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-lower-as-markets-parse-meast-tensions-us-inventory-build-5034529",
-   "t": "18 Nov \u00b7 03:01 PM"
+   "t": "18 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1794996109.951572,
+   "ts": 1794997008.620839,
    "title": "Brent settles higher in choppy trade amid Hormuz attacks, U.S.-Iran tensions",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393",
-   "t": "18 Nov \u00b7 03:01 PM"
+   "t": "18 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1794996109.951572,
+   "ts": 1794997008.620839,
    "title": "At hearing, US Navy chief blasted over Iran war and its toll on sailors",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/at-hearing-us-navy-chief-blasted-over-iran-war-and-its-toll-on-sailors-5034110",
-   "t": "18 Nov \u00b7 03:01 PM"
+   "t": "18 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1794996109.951572,
-   "title": "Gold prices hover near 13-month low in subdued trading",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431",
-   "t": "18 Nov \u00b7 03:01 PM"
+   "ts": 1794995829.0,
+   "title": "Bitcoin remains under pressure amid the negative risk sentiment caused by hawkish Fed and US-Iran tensions",
+   "src": "investingLive",
+   "link": "https://investinglive.com/cryptocurrency/bitcoin-remains-under-pressure-amid-the-negative-risk-sentiment-caused-by-hawkish-fed-and-us-iran-tensions/",
+   "t": "18 Nov \u00b7 02:57 PM",
+   "body": [
+    "Bitcoin has been consolidating around recent lows after facing a big wave of liquidations over the past week due to the hawkish Fed repricing and increased US-Iran tensions.",
+    "The fundamental picture hasn\u2019t changed as the US-Iran stalemate continues to drag on, with Iran hardening their stance after the Republicans loss at the US midterm elections. Meanwhile the Fed commentary continues to be hawkish amid elevated inflation and persistent risks.",
+    "This mix have been supporting the US dollar and Treasury yields, while weighing on risk assets amid increased growth concerns.",
+    "Looking ahead, Bitcoin will likely remain under pressure amid the negative macro backdrop. We will likely need a more dovish Fed or a breakthrough in US-Iran negotiations to reverse the trend.",
+    "On the daily chart, we can see that Bitcoin is consolidating around recent lows. If we get a pullback into the 67,000 resistance, we can expect the sellers to step in, with a defined risk above it, to keep targeting the 58,000 level. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the major downward trendline around the 75,000 level.",
+    "On the 4 hour chart, we have a minor downward trendline defining the bearish momentum. If we get a pullback into the trendline, we can expect the sellers to lean on it, with a defined risk above it, to keep pushing into new lows. The buyers, on the other hand, will look for a break higher to increase the bullish bets into the major downward trendline next.",
+    "On the 1 hour chart, there\u2019s not much we can add here given the choppy price action amid the consolidation. From a risk management perspective, the sellers will have a better risk to reward setup around the 67,000 resistance with a defined risk above the trendline. The buyers, on the other hand, will need a break above the trendline to open the door for new highs. The red lines define the average daily range for today.",
+    "Today we have the FOMC meeting minutes. Tomorrow, we get the latest US Jobless Claims figures. The focus will remain on Fed speakers and the US-Iran developments."
+   ]
+  },
+  {
+   "ts": 1794995029.0,
+   "title": "Gold analysis shows we may be in an interesting potential bottom zone",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-analysis-shows-we-may-be-in-an-interesting-potential-bottom-zone/",
+   "t": "18 Nov \u00b7 02:43 PM",
+   "body": [
+    "Gold buyers are finally showing some resistance after an extended decline. Improving price action near $3,766 and a recovery toward $3,780 offer encouraging clues, but a sustained move toward $3,800 may be needed before the recovery becomes more convincing.",
+    "Gold futures are beginning to show something that has been missing during much of their recent decline: selling pressure is no longer consistently producing lasting lower prices. Buyers have made some encouraging progress, but there is still a substantial difference between identifying a possible bottom and confirming a bullish reversal.",
+    "The latest intraday evidence provides a practical framework for evaluating that difference.",
+    "Market snapshot: November 18, 2026, approximately 4:29 a.m. US Eastern time. Analysis based on December 2026 Micro Gold futures (MGC), with gold near $3,780.60. All prices below refer to that observation, not continuously updated quotations.",
+    "Gold recovered from an observed intraday low near $3,759.50, climbing back into an important area where much of the session's trading activity had previously taken place.",
+    "The lower boundary of that developing value area was around $3,766.20.",
+    "For readers unfamiliar with volume-based analysis, a value area represents a range where a substantial portion of trading volume has occurred. Its boundaries can help traders assess whether the market is accepting or rejecting a particular price region.",
+    "Gold initially moved back above that boundary, briefly slipped beneath it again, and subsequently recovered.",
+    "What makes the sequence interesting is that buyers did not surrender all their progress during subsequent pullbacks.",
+    "Instead, the shorter-term price structure began retaining higher prices.",
+    "The recovery eventually extended toward $3,780, accompanied by improving buying participation and upward price progress.",
+    "This suggests sellers may be losing some of their earlier effectiveness.",
+    "However, stronger buying in a short-term recovery does not automatically mean the broader bearish trend has ended.",
+    "These are reference levels, not automatic buy or sell instructions. VWAP, its deviation bands and the developing value area can move as trading continues."
+   ]
+  },
+  {
+   "ts": 1794992907.0,
+   "title": "Gold extends losses as strong US dollar and elevated yields hurt. What could change the trend?",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-extends-losses-as-strong-us-dollar-and-elevated-yields-hurt-what-could-change-the-trend/",
+   "t": "18 Nov \u00b7 02:08 PM"
   },
   {
    "ts": 1794988657.0,
@@ -474,55 +521,6 @@
     "The ONS said Wednesday that the average price of petrol rose by 5.2 pence (7 cents) per liter between September and October this year, compared with a 0.7 pence per liter rise in the same period a year earlier. The average petrol price stood at 174.7 pence per liter in October, the highest it's been since Aug. 2022.",
     "Diesel prices rose by 7 pence per liter in October, with the average price reaching 199.5 pence per liter \u2014 the highest since ONS records began in 1996.",
     "Since the U.S.-Iran war began in late February, inflation has risen sharply after a brief dip thanks to an energy price cap that was revised upward in July."
-   ]
-  },
-  {
-   "ts": 1794985229.0,
-   "title": "UK October CPI +3.6% vs +3.6% y/y expected",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/uk-october-cpi-3-6-vs-3-6-y-y-expected/",
-   "t": "18 Nov \u00b7 12:00 PM",
-   "body": [
-    "The market is focusing on the miss in services inflation and the unchanged core reading. The main upward pressure came from transport costs, particularly motor fuels, which made the largest positive contribution to the change in headline inflation. Restaurants and hotels provided the largest offsetting downward contribution.",
-    "The composition of inflation still warrants some caution, though. Goods inflation continued to accelerate, with the CPI goods annual rate rising from 3.2% to 3.5%. Services inflation, which is important for assessing domestic price pressures, remained relatively contained.",
-    "Overall, the data will be welcomed by the Bank of England as stable core and services inflation provide some reassurance that underlying price pressures are not deteriorating significantly. This is leading to some minor dovish repricing and weighing on the British pound.",
-    "The probability for a rate hike in December fell to 78% from 89% before the CPI release."
-   ]
-  },
-  {
-   "ts": 1794976533.0,
-   "title": "investingLive Asia-Pacific market news: Gold breaks below $3,800",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-asia-pacific-market-news-gold-breaks-below-3-800/",
-   "t": "18 Nov \u00b7 09:35 AM",
-   "body": [
-    "Nvidia set the tone for Asian trade on Wednesday, with results and a strong outlook lifting chip stocks across the region, while gold fell below $3,800 as markets braced for another Federal Reserve rate hike.",
-    "Nvidia beat forecasts in its first report since Jensen Huang resigned as chief executive. Third-quarter revenue rose 103% to around $116 billion, and the company guided fourth-quarter revenue to $130 billion, above estimates of about $125 billion. On the earnings call, interim chief executive Colette Kress forecast revenue growth of about 75% in fiscal 2028, pointed to a cloud-industry backlog of $2.5 trillion, and said Nvidia intends to return all excess free cash flow to shareholders.",
-    "Governance questions remain. Chairman Harvey Jones said the board does not intend to reinstate Huang and has hired Heidrick & Struggles to find a permanent chief executive. The Wall Street Journal reported that the Securities and Exchange Commission is investigating Nvidia, including whether its disclosures misled investors, and the company has not yet filed its quarterly 10-Q, breaking with past practice. Nvidia\u2019s financial role in the AI industry is also under scrutiny, with total commitments of about $518 billion, according to the Financial Times. In contrast, TSMC is reportedly asking some AI chip customers to pay cash up front.",
-    "Nasdaq 100 futures gave back part of their early gains and were up around 0.7%, with S&P 500 futures up about 0.3%. In Asia, South Korea\u2019s memory makers led. SK Hynix rose about 4% and Samsung Electronics about 1.4%, lifting the Kospi almost 2%. Japan\u2019s Nikkei 225 gained around 0.7%, although the broader Topix slipped, while the Hang Seng fell about 1.1% and the Shanghai Composite eased 0.4%.",
-    "Gold fell below $3,800 to its lowest in more than a year as markets priced in a near-certain December Fed hike. Spot gold was down about 1.5% at around $3,791 after touching a low near $3,781, and silver dropped almost 3% to around $46. With US 10-year yields near 5.1% and the dollar close to a 19-month high, the metal has lost support. Goldman Sachs has cut its end-2026 gold target to $4,150 from $4,650.",
-    "Australian wages rose 1.1% in the September quarter, the fastest pace in nearly three years, lifting annual growth to 3.5%. Award wage rises drove private sector pay and frontline workers lifted the public sector, but real wages fell for a fourth straight quarter. The result adds to the Reserve Bank of Australia\u2019s inflation worries after a split vote lifted rates to 4.85% this month, yet swaps still imply about a 75% chance that rates have peaked. AUD/USD edged down to around 0.6724 ahead of Thursday\u2019s jobs report. In New Zealand, producer price growth slowed in the third quarter, with input prices up 0.7% and output prices up 0.8%.",
-    "Japan\u2019s exports rose for a 14th straight month to a record \u00a511.8 trillion in October, up 20.5% on AI-related chip demand. Imports also set a record but rose less than expected, narrowing the trade deficit to around \u00a5477 billion. Bank of Japan Governor Kazuo Ueda said the bank will keep raising rates in line with economic and price developments, keeping a December hike in play. Morgan Stanley reiterated its preference for long USD/JPY, which held around 159.4 near Tokyo\u2019s intervention line. The 10-year JGB yield was little changed near 2.87%.",
-    "Oil eased with Brent down about 0.5% at around $92.65 and WTI down about 1% near $83.80. Prices remain elevated because of the Iran war, which continues to drive Japan\u2019s energy import bill and feed inflation pressure that keeps the Fed tightening.",
-    "The minutes of the Fed\u2019s October meeting are due later in the US session, followed by Australian jobs data on Thursday and Japan\u2019s national inflation figures on Friday."
-   ]
-  },
-  {
-   "ts": 1794972212.0,
-   "title": "Gold\u2019s worst enemy right now is a 5% Treasury yield, not the headlines from the Middle East",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-s-worst-enemy-right-now-is-a-5-treasury-yield-not-the-headlines-from-the-middle-east/",
-   "t": "18 Nov \u00b7 08:23 AM",
-   "body": [
-    "A break below $3,800 removes a key psychological level and leaves gold exposed to further selling if the Fed minutes sound hawkish. Gold miners and silver are likely to stay under pressure, though silver has been holding up better in recent sessions. For traders, gold is now trading as a rates instrument: US yields and Fed pricing matter more than geopolitical headlines. A spike in oil prices from the Iran war would likely add to the pressure by lifting inflation expectations and Fed hike bets. Any dovish surprise from the Fed would be the main trigger for a short-covering bounce.",
-    "A year ago gold was rallying on hopes of Fed cuts. Today it is under $3,800 because the Fed is hiking, and even the Iran war is working against it.",
-    "Gold fell below $3,800 an ounce in Asian trade on Wednesday, extending a slide to its lowest in more than a year as markets brace for a Federal Reserve rate hike next month. Spot gold dropped about 1.4% to around $3,795, after touching a low near $3,792, while futures fell almost 1.8%.",
-    "The driver is the same one that has dominated the past week: a Fed that is tightening rather than easing. Markets price roughly a 96% chance of a quarter-point hike in December, according to CME\u2019s FedWatch tool, with a small chance of a half-point move. Fed Governor Christopher Waller added to those bets last week when he said a half-point hike may be needed if core inflation runs hot. US 10-year Treasury yields are hovering around 5.1%, and the dollar is near its strongest level in 19 months.",
-    "That combination works against gold on two fronts. Higher yields raise the opportunity cost of holding a metal that pays no income, and a stronger dollar makes it more expensive for buyers using other currencies.",
-    "The contrast with a year ago is stark. In November 2025, gold was beginning its climb to a record high as markets expected two or three Fed rate cuts in 2026. Twelve months on, the outlook has flipped from easing to tightening, and gold has given back a large part of those gains.",
-    "The Iran war has not provided the support many would expect. Rather than acting as a safe haven, gold has fallen as geopolitical risk has pushed up oil prices, which feeds into inflation, firms up Fed hike expectations and lifts yields. In this cycle, escalation in the Middle East has tended to hurt gold rather than help it.",
-    "Banks are adjusting their forecasts. Goldman Sachs analysts Lina Thomas and Daan Struyven have cut their end-2026 target to $4,150 an ounce from $4,650, arguing that a hawkish Fed could block the support gold usually gets from falling yields. Even the lower target implies a recovery of roughly 9% from current levels in a little over six weeks, which shows how quickly the outlook has shifted.",
-    "Attention now turns to the minutes of the Fed\u2019s October meeting, due later on Wednesday in the US. A hawkish tone would reinforce December hike expectations and could push gold lower still, with some analysts watching support near $3,708. A softer message, or any sign that the Fed is uneasy about the recent sell-off in technology stocks, could give gold room to recover. For now, the market\u2019s message is clear: as long as the Fed is hiking, gold is struggling to find buyers."
    ]
   }
  ],
@@ -570,9 +568,8 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 6/10 no body",
+  "article: 7/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
