@@ -1,14 +1,13 @@
 {
- "updated": "18-11-2026 23:31 PKT",
+ "updated": "18-11-2026 23:46 PKT",
  "gold": {
-  "price": 3739.23,
-  "open": 3857.06,
-  "high": 3859.33,
+  "price": 3740.25,
+  "open": 3856.14,
+  "high": 3858.4,
   "low": 3729.4,
-  "chg": -3.05,
+  "chg": -3.01,
   "src": "XAUUSD Spot",
   "spark": [
-   3777.81,
    3773.35,
    3771.05,
    3768.11,
@@ -55,14 +54,15 @@
    3734.96,
    3736.14,
    3739.96,
-   3739.23
+   3740.17,
+   3740.25
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.98,
-   "chg": -4.88,
+   "price": 45.165,
+   "chg": -4.49,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    44.98
+    45.165
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.761,
-   "chg": 0.26,
+   "price": 103.753,
+   "chg": 0.25,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.761
+    103.753
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.48,
-   "chg": -5.27,
+   "price": 81.71,
+   "chg": -5.0,
    "spark": [
     101.79,
     97.15,
@@ -143,13 +143,13 @@
     88.56,
     85.72,
     86.01,
-    81.48
+    81.71
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.056,
-   "chg": -0.92,
+   "price": 5.062,
+   "chg": -0.8,
    "spark": [
     5.117,
     5.146,
@@ -172,41 +172,12 @@
     5.154,
     5.121,
     5.103,
-    5.056
-   ]
-  },
-  {
-   "name": "EUR/USD",
-   "price": 1.0981,
-   "chg": -0.16,
-   "spark": [
-    1.1216,
-    1.1227,
-    1.1235,
-    1.1221,
-    1.1218,
-    1.1174,
-    1.113,
-    1.1156,
-    1.1183,
-    1.1157,
-    1.1192,
-    1.1207,
-    1.1235,
-    1.1228,
-    1.1147,
-    1.1222,
-    1.1169,
-    1.1095,
-    1.105,
-    1.1025,
-    1.0998,
-    1.0981
+    5.062
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3155,
+   "price": 1.3156,
    "chg": -0.22,
    "spark": [
     1.3308,
@@ -230,13 +201,13 @@
     1.3231,
     1.3216,
     1.3185,
-    1.3155
+    1.3156
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.325,
-   "chg": -0.12,
+   "price": 159.34,
+   "chg": -0.11,
    "spark": [
     158.523,
     158.268,
@@ -259,13 +230,13 @@
     159.875,
     159.78,
     159.523,
-    159.325
+    159.34
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1771.91,
-   "chg": -2.78,
+   "price": 1771.06,
+   "chg": -2.83,
    "spark": [
     1822.05,
     1818.92,
@@ -314,13 +285,13 @@
     1767.04,
     1747.43,
     1766.48,
-    1771.91
+    1771.06
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63208.7,
-   "chg": -2.57,
+   "price": 63177.7,
+   "chg": -2.62,
    "spark": [
     64996.2,
     65002.1,
@@ -369,74 +340,33 @@
     63052.1,
     62695.8,
     63033.5,
-    63208.7
+    63177.7
    ]
   }
  ],
- "calendar": [
-  {
-   "ts": 1795028400.0,
-   "t": "Thu 19 Nov \u00b7 12:00 AM",
-   "title": "FOMC Meeting Minutes",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1795095000.0,
-   "t": "Thu 19 Nov \u00b7 06:30 PM",
-   "title": "Philly Fed Manufacturing Index",
-   "impact": "Medium",
-   "forecast": "20.6",
-   "previous": "20.9"
-  },
-  {
-   "ts": 1795095000.0,
-   "t": "Thu 19 Nov \u00b7 06:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "198K",
-   "previous": "200K"
-  },
-  {
-   "ts": 1795186800.0,
-   "t": "Fri 20 Nov \u00b7 08:00 PM",
-   "title": "Revised UoM Consumer Sentiment",
-   "impact": "Medium",
-   "forecast": "51.7",
-   "previous": "51.0"
-  },
-  {
-   "ts": 1795186800.0,
-   "t": "Fri 20 Nov \u00b7 08:00 PM",
-   "title": "Revised UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.3%"
-  }
- ],
- "cal_mode": "upcoming",
+ "calendar": [],
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1795026709.255838,
+   "ts": 1795027608.734111,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "18 Nov \u00b7 11:31 PM"
+   "t": "18 Nov \u00b7 11:46 PM"
   },
   {
-   "ts": 1795026709.255838,
+   "ts": 1795027608.734111,
    "title": "Gold slumps as Fed hike bets deepen bullion selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "18 Nov \u00b7 11:31 PM"
+   "t": "18 Nov \u00b7 11:46 PM"
   },
   {
-   "ts": 1795026709.255838,
+   "ts": 1795027608.734111,
    "title": "Why isn\u2019t gold rallying despite its bullish investment case? UBS explains",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/why-isnt-gold-rallying-despite-its-bullish-investment-case-ubs-explains-5036400",
-   "t": "18 Nov \u00b7 11:31 PM"
+   "t": "18 Nov \u00b7 11:46 PM"
   },
   {
    "ts": 1795023471.0,
@@ -574,6 +504,12 @@
  ],
  "tweets": [
   {
+   "ts": 1795014268.0,
+   "title": "US Pending Home Sales Decreased 4.7% in October, According to NAR Report",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdDA3YVBkejlHbEdMMFdPSndscmFOQ0pnQmo2am5QQXhUenowZU43QkRrZHRDSDZfZlJQdzZEellQQnNXZk1rVUE5R2NVVnRya2p4WFFNODNiV1VCelc1a2NjZ2wxcWxNclV0VWRPdTlzdFhfZzdwbThRYWhKXzJSOHlqQjVYVEd5RExoYlo1c3rSAZYBQVVfeXFMUDZRVmY2c1NUR1ZGcGhYc0JBOHc0eEhoMWM0SDVtZVNhNU1VODZDVXNYN0dOYXo2S29BWldzSDlwM2F2R0VLLTZ5Q0R1Z3daU29yNk05VHZtREpFYUg5cWtHVm1fUjIwZ3dhZWNLWXIyWC05aVU5c0pZdFJYakV1WGotaHJYenpoNWZlbWZYUHhVamF1d1F3?oc=5"
+  },
+  {
    "ts": 1795012859.0,
    "title": "ECB's President Lagarde: AI valuations stand to be corrected eventually",
    "src": "ForexFactory",
@@ -602,12 +538,6 @@
    "title": "ECB: Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkJVNHdTRmhWamptcnNhWGFEeHAxT2hqYy1JLVBSaU9Nek1KaEFQLTJZUUJPd3E5OVdtYnZjNFp1WENLMHl2Z2ktZEZHNjdKaEowSm9QMmt3VFN0TDN4OUFKTTFTVWo2TWZhbEZaNm1hQ2VIVTlocHRiVThCSVUzaU1fTUVFaWVpZTc5eFBkYzQyZWZrZnhr0gGcAUFVX3lxTFBQZTd2NUlDZFMzZFdyVzhGSFc5Skp6MVk5bVFEdHpiWGoySWh0UkRMOFhrWk1uejdzSHBheW5nUjFRaG1xZG1YMnZPbU5DX1Bna19ZRFJxQnhoX2JpaFB2NmRhQ21iVW9CR2RkZjI4NUY0Q1lOSk1wVU1JQUo1N0xKX3pGb1NTeHUyTlNhRHV5allWU3ozU3dXMWF1NQ?oc=5"
-  },
-  {
-   "ts": 1794992031.0,
-   "title": "US monthly new residential construction, October 2026",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG1tcWNFT1FfMVl2dlpKRG9xMU1CN0ZuckdEN04tNEVhb0xPUjdaRWxGSE5mTFlGMmVNVUVCbUt6MWRYNVppMVk1SUhxNWp2X25GLUJfczdTMlFKc0dGM182YjJMbGdtZjA1NVpoOHBYM1pRRUp3bVhjNzJkbEZjTmhUUklQUkxoREdJUzBoRW9JbUp6cGU0aW930gGfAUFVX3lxTE9XbGwyOU9Qb2E3d2RvY1BoSDk0RGdGRXdVZXNBX1ZZd0tsZElEaEY3RTRyb3ZlOWN2MzJVb2hoRjZuM1lvMmMyRzh2OGx1VXNKVFZ1SGk3RzFmNGd4djZ2RG5hb3hQSS1JNzV5ZDdiUzFHMWh5Snh6aXlJY2JWZURXTVpMSGFPdlBKX2Z3ZFFYMmlYVU0wYXNKcm5NckRfbw?oc=5"
   }
  ],
  "sentiment": {
@@ -615,6 +545,7 @@
   "label": "Extreme Fear"
  },
  "err": [
+  "cal-thisweek: HTTP Error 429: Too Many Requests",
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
