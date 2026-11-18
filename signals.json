@@ -1,13 +1,13 @@
 {
- "updated": "18-11-2026 05:16 PKT",
+ "updated": "18-11-2026 05:31 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "SELL",
   "strength": 100,
-  "price": 3839.27,
-  "rsi": 39,
+  "price": 3831.37,
+  "rsi": 36,
   "tf": "M15"
  },
  "liq": {
@@ -16,10 +16,7 @@
    3871.49,
    3891.96
   ],
-  "below": [
-   3837.09,
-   3833.62
-  ]
+  "below": []
  },
  "idea": null,
  "signals": [
@@ -44,7 +41,7 @@
    "entry": 3858.5,
    "sl": 3836.18,
    "tp": 3903.13,
-   "status": "Active",
+   "status": "SL Hit",
    "note": "ICT Liquidity Hunt + CISD: ASIA Low liquidity hunt -> CISD"
   },
   {
@@ -56,7 +53,7 @@
    "entry": 3856.03,
    "sl": 3836.1,
    "tp": 3896.36,
-   "status": "Active",
+   "status": "SL Hit",
    "note": "ICT ICT 2022 Model: ASIA Low swept -> MSS -> FVG"
   }
  ],
