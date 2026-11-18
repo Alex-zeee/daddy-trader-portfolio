@@ -1,14 +1,13 @@
 {
- "updated": "18-11-2026 15:46 PKT",
+ "updated": "18-11-2026 16:01 PKT",
  "gold": {
-  "price": 3770.22,
-  "open": 3853.66,
+  "price": 3773.32,
+  "open": 3857.02,
   "high": 3891.96,
   "low": 3757.39,
   "chg": -2.17,
   "src": "XAUUSD Spot",
   "spark": [
-   3852.83,
    3855.01,
    3849.15,
    3853.59,
@@ -55,14 +54,15 @@
    3772.2,
    3769.64,
    3769.81,
-   3770.22
+   3772.41,
+   3773.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.67,
-   "chg": -3.42,
+   "price": 45.71,
+   "chg": -3.34,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    45.67
+    45.71
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.749,
-   "chg": 0.25,
+   "price": 103.757,
+   "chg": 0.26,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.749
+    103.757
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.34,
-   "chg": -3.1,
+   "price": 83.26,
+   "chg": -3.2,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    83.34
+    83.26
    ]
   },
   {
@@ -205,38 +205,9 @@
    ]
   },
   {
-   "name": "GBP/USD",
-   "price": 1.3174,
-   "chg": -0.08,
-   "spark": [
-    1.3308,
-    1.3373,
-    1.3396,
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3174
-   ]
-  },
-  {
    "name": "USD/JPY",
-   "price": 159.276,
-   "chg": -0.15,
+   "price": 159.337,
+   "chg": -0.12,
    "spark": [
     158.523,
     158.268,
@@ -259,15 +230,14 @@
     159.875,
     159.78,
     159.523,
-    159.276
+    159.337
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1800.82,
-   "chg": -1.2,
+   "price": 1802.52,
+   "chg": -1.11,
    "spark": [
-    1804.41,
     1798.06,
     1801.76,
     1844.57,
@@ -314,15 +284,15 @@
     1815.39,
     1809.69,
     1811.18,
-    1800.82
+    1804.96,
+    1802.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 64230.2,
-   "chg": -1.0,
+   "price": 64258.2,
+   "chg": -0.95,
    "spark": [
-    64376.1,
     64095.3,
     64114.3,
     65100.1,
@@ -369,7 +339,8 @@
     64805.4,
     64612.7,
     64564.7,
-    64230.2
+    64295.5,
+    64258.2
    ]
   }
  ],
@@ -418,39 +389,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1794998812.97176,
-   "title": "European gas prices ease; escalating Iranian attacks cap declines",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/european-gas-prices-ease-escalating-iranian-attacks-cap-declines-5035137",
-   "t": "18 Nov \u00b7 03:46 PM"
-  },
-  {
-   "ts": 1794998812.97176,
+   "ts": 1794999704.170838,
    "title": "Gold drops below $3,800 as Fed hike bets deepen bullion selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "18 Nov \u00b7 03:46 PM"
+   "t": "18 Nov \u00b7 04:01 PM"
   },
   {
-   "ts": 1794998812.97176,
+   "ts": 1794999704.170838,
+   "title": "European gas prices ease; escalating Iranian attacks cap declines",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/european-gas-prices-ease-escalating-iranian-attacks-cap-declines-5035137",
+   "t": "18 Nov \u00b7 04:01 PM"
+  },
+  {
+   "ts": 1794999704.170838,
    "title": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/tehran-denies-report-of-a-potential-iranian-plan-to-detonate-dirty-bomb-in-washington-5032621",
-   "t": "18 Nov \u00b7 03:46 PM"
+   "t": "18 Nov \u00b7 04:01 PM"
   },
   {
-   "ts": 1794998812.97176,
+   "ts": 1794999704.170838,
    "title": "Brent settles higher in choppy trade amid Hormuz attacks, U.S.-Iran tensions",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393",
-   "t": "18 Nov \u00b7 03:46 PM"
+   "t": "18 Nov \u00b7 04:01 PM"
   },
   {
-   "ts": 1794998812.97176,
+   "ts": 1794999704.170838,
    "title": "At hearing, US Navy chief blasted over Iran war and its toll on sailors",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/at-hearing-us-navy-chief-blasted-over-iran-war-and-its-toll-on-sailors-5034110",
-   "t": "18 Nov \u00b7 03:46 PM"
+   "t": "18 Nov \u00b7 04:01 PM"
   },
   {
    "ts": 1794995829.0,
@@ -587,6 +558,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
