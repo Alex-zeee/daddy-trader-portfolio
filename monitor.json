@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 02:01 PKT",
+ "updated": "19-11-2026 02:16 PKT",
  "gold": {
-  "price": 3724.05,
-  "open": 3849.51,
+  "price": 3724.59,
+  "open": 3852.86,
   "high": 3858.4,
   "low": 3719.19,
-  "chg": -3.26,
+  "chg": -3.33,
   "src": "XAUUSD Spot",
   "spark": [
-   3778.27,
    3784.18,
    3780.4,
    3772.2,
@@ -55,14 +54,15 @@
    3728.01,
    3732.56,
    3724.93,
-   3724.05
+   3725.02,
+   3724.59
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.945,
-   "chg": -4.95,
+   "price": 44.955,
+   "chg": -4.93,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    44.945
+    44.955
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.792,
-   "chg": 0.29,
+   "price": 103.774,
+   "chg": 0.27,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.792
+    103.774
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.98,
-   "chg": -4.69,
+   "price": 81.88,
+   "chg": -4.8,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    81.98
+    81.88
    ]
   },
   {
@@ -176,9 +176,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.0977,
+   "chg": -0.19,
+   "spark": [
+    1.1216,
+    1.1227,
+    1.1235,
+    1.1221,
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1025,
+    1.0998,
+    1.0977
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3151,
-   "chg": -0.26,
+   "price": 1.3149,
+   "chg": -0.27,
    "spark": [
     1.3308,
     1.3373,
@@ -201,13 +230,13 @@
     1.3231,
     1.3216,
     1.3185,
-    1.3151
+    1.3149
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.289,
-   "chg": -0.15,
+   "price": 159.334,
+   "chg": -0.12,
    "spark": [
     158.523,
     158.268,
@@ -230,13 +259,13 @@
     159.875,
     159.78,
     159.523,
-    159.289
+    159.334
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1755.41,
-   "chg": -3.69,
+   "price": 1752.67,
+   "chg": -3.84,
    "spark": [
     1826.65,
     1819.59,
@@ -285,13 +314,13 @@
     1768.76,
     1753.96,
     1751.71,
-    1755.41
+    1752.67
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62572.8,
-   "chg": -3.55,
+   "price": 62361.1,
+   "chg": -3.88,
    "spark": [
     65257.2,
     64810.6,
@@ -340,7 +369,7 @@
     63109.8,
     62666.0,
     62539.3,
-    62572.8
+    62361.1
    ]
   }
  ],
@@ -389,18 +418,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795035700.445762,
+   "ts": 1795036607.107932,
    "title": "Gold extends losses as Fed minutes fuel bets on larger December rate hike",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 02:01 AM"
+   "t": "19 Nov \u00b7 02:16 AM"
   },
   {
-   "ts": 1795035700.445762,
+   "ts": 1795036607.107932,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "19 Nov \u00b7 02:01 AM"
+   "t": "19 Nov \u00b7 02:16 AM"
   },
   {
    "ts": 1795031060.0,
@@ -540,12 +569,6 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkk4UjZyLVYybE9va1RNYmNCc3phRWNUS0R2RkRJWnF1dzBFdUFTZlIwWDVpRGt4N0lrd1czWDMtN1R3VFo3WGJWOVNiNjZ5LVVZMjA1T09rMjlVMFNXeHQtWm4tMU85YnU3bzNkdkRlbTQxVUhYd194TDYtUGdxcW1mNjBtVDFnZ3hQNjlGLWEtX1Q4ajFR0gGcAUFVX3lxTE5rYnQ1OTVSYW1WYTBfYUliZld1MzVpeGpIei16MTFPc0MtR1NZT0ZncUk5VmRTbndDc3pBd1hjd3FTWGJ4dGhsOUtPSHl2Q2k1MjVLRUpjYThsdERRRl82SHdVYmRtVkNKT3hSUlg1STZlTjZMSHBYdFBtNi11S2RyVE8tYWVMRFQ2Y2kyM09iaV9iNHN4YTd6UUNsQw?oc=5"
   },
   {
-   "ts": 1795026000.0,
-   "title": "Hawkish Minutes Show \"Almost All\" FOMC Members See More Hikes As Fed Frets Over \"Opaque\" AI Debt",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHQ1d0Fzc1AwazBNN25jd0xURWFjcWdsWmR6Z3plMGw4RjBMenEzbFl4RlR3eG9aaktENm5hUV9TRF9zbEZfNmoyb01QWTdCeUpDZHhtbUpkcW5iel9kVG8zUXh4bDZ4SXBUMmNkcGdmNzRrQnZMcXRPa1VacTgzV1Y4VVlpaUk3a0FjMVVCa082SDFp0gGaAUFVX3lxTFBpa0RXR2dReHR1Y1l0WTZET1BhUFZfaEVIbl9JWGNQR0tQX2wzREMyNGJSbXpsTUdBVXRoY3NDZ1YtaVR0akdhVnVlUHB5X2p2SGxNVlFPYkREYlBmeS1xQ1RQVHBCX3paUi1xMkFKbExhRGFkNkIzUENrMTF4Zk5EOWRGM0hnZGthclNRRXFlNDNMVExlLTRLS1E?oc=5"
-  },
-  {
    "ts": 1795014268.0,
    "title": "US Pending Home Sales Decreased 4.7% in October, According to NAR Report",
    "src": "ForexFactory",
@@ -568,6 +591,12 @@
    "title": "Fed's Waller: Will Have To Take Back The 3 Insurance Cuts, Maybe More",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2d0WjFieFR1WHd1TWVjTmJCT01RRDNhcE13Z1pqUHowYjBES1ctem12MFJLQ2J0aEY2cnkwaEFhNFo2Nm5qZEVnaVFaQkFKZDBBbTJLcU1obEJPejg3X2paRm4xbEpfeFlUV2Z2ME8yaHRYdmIteDdpYjZ6QWRRd3czUmdYZFXSAYwBQVVfeXFMTTBFM2loU01yQ3o1YVJ3cTB3c2RaN0dLLUNseGVyRHZyU0tQcmFpdFlXT2h4TURUNko1QTBfSUtlVm5OOHFTVlhDTG9QTnk3RXhjVTNPU0FFaGxIeGFVeW9JdDU5b1ctMGpOQXlVYjQ2UkI1OVh1VHByTU01bmgxQWU4OXEwTmdXQ1VzRHY?oc=5"
+  },
+  {
+   "ts": 1795005276.0,
+   "title": "Canada's PM Carney and Trump met on the margins of the APEC meeting in Shenzhen",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUDcweVI3RHlPcXdmNkdaSVhXVXFrai1VYVJvUGdaNUU1bmZ6QUhuSUQ4ZU5nd2VoWndWTzZLcW5lbnJRaEFpeHlqaUk3ejhIWG9iTHNFUkk1bmNuRFR6WUJlTmthdnJrWVY2bWUtR0dQN3dZaU9wQzRvVzBQZmRYMGxyWG5oZTDSAYwBQVVfeXFMUG1NcUhfWUQ0dDJmenktU19IZDByV000T3AzU2FRSmcxT3pQYjR5bmswa1VSNl9RcGhoTktDY21POWh0M2lMVENjVmV2N3lYTTRGQTZmWTVTUkRlUzNWTXp6Tms0QWhodkVTQXduU2lTaHdWX2N4WFV2MXVDNl8xLXR5VktiZm5aUVhxQVQ?oc=5"
   }
  ],
  "sentiment": {
@@ -578,7 +607,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
