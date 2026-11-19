@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 10:01 PKT",
+ "updated": "19-11-2026 10:16 PKT",
  "gold": {
-  "price": 3723.91,
-  "open": 3781.46,
+  "price": 3729.32,
+  "open": 3790.82,
   "high": 3797.08,
   "low": 3695.08,
-  "chg": -1.52,
+  "chg": -1.62,
   "src": "XAUUSD Spot",
   "spark": [
-   3747.02,
    3740.88,
    3734.96,
    3736.14,
@@ -55,16 +54,16 @@
    3725.08,
    3722.54,
    3723.52,
-   3723.91
+   3728.31,
+   3729.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.999,
-   "chg": -4.84,
+   "price": 45.235,
+   "chg": 0.52,
    "spark": [
-    57.706,
     57.422,
     54.764,
     53.711,
@@ -85,15 +84,15 @@
     49.031,
     46.785,
     47.288,
-    44.999
+    44.999,
+    45.235
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.86,
-   "chg": 0.36,
+   "price": 103.91,
+   "chg": 0.05,
    "spark": [
-    101.73,
     101.78,
     101.61,
     101.81,
@@ -114,15 +113,15 @@
     103.41,
     103.55,
     103.49,
-    103.86
+    103.86,
+    103.91
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.26,
-   "chg": -3.2,
+   "price": 82.27,
+   "chg": -1.19,
    "spark": [
-    101.79,
     97.15,
     99.47,
     103.27,
@@ -143,7 +142,8 @@
     88.56,
     85.72,
     86.01,
-    83.26
+    83.26,
+    82.27
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3134,
-   "chg": -0.54,
+   "price": 1.3136,
+   "chg": -0.53,
    "spark": [
     1.3373,
     1.3396,
@@ -230,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3134
+    1.3136
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.576,
-   "chg": 0.05,
+   "price": 159.566,
+   "chg": 0.04,
    "spark": [
     158.268,
     158.132,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.576
+    159.566
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1796.21,
-   "chg": 1.21,
+   "price": 1794.15,
+   "chg": 1.09,
    "spark": [
     1824.66,
     1831.02,
@@ -314,13 +314,13 @@
     1768.44,
     1791.77,
     1798.88,
-    1796.21
+    1794.15
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63447.9,
-   "chg": 0.74,
+   "price": 63355.2,
+   "chg": 0.59,
    "spark": [
     64492.1,
     64676.6,
@@ -369,7 +369,7 @@
     62534.9,
     63135.2,
     63512.6,
-    63447.9
+    63355.2
    ]
   }
  ],
@@ -410,25 +410,44 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795064511.55481,
+   "ts": 1795065403.319213,
    "title": "Oil prices rise as report says Trump considering more Iran strikes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "19 Nov \u00b7 10:01 AM"
+   "t": "19 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795064511.55481,
+   "ts": 1795065403.319213,
    "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 10:01 AM"
+   "t": "19 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795064511.55481,
+   "ts": 1795065403.319213,
    "title": "Spot gold sheds over 3%, drops below $3,800/oz for first time since September 2025",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 10:01 AM"
+   "t": "19 Nov \u00b7 10:16 AM"
+  },
+  {
+   "ts": 1795061519.0,
+   "title": "Goldman cuts KOSPI target to 7,500 but says gloom is overdone, sees 48% upside",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stock-market-update/goldman-cuts-kospi-target-to-7-500-but-says-gloom-is-overdone-sees-48-upside/",
+   "t": "19 Nov \u00b7 09:11 AM",
+   "body": [
+    "Goldman\u2019s move is a lower target with a bullish message, and that mix explains Thursday\u2019s price action: chip stocks dipped early, then buyers stepped in. Its argument that memory stocks already price in a 70% earnings cut gives dip-buyers a framework, but the AI sentiment shock from Nvidia means volatility in Samsung and SK Hynix is likely to persist. The non-chip angle matters most for flows. If governance reforms and buybacks hold up, financials and other low-valuation sectors could draw rotation money away from semiconductors. Light foreign positioning also means any improvement in AI sentiment could lift the index quickly.",
+    "Goldman has cut its KOSPI target for the second time in three weeks, yet it thinks Korean stocks are too cheap. Memory chip worries look overdone, and governance reforms and buybacks are not yet priced in.",
+    "Goldman Sachs has cut its 12-month target for South Korea\u2019s KOSPI index to 7,500 from 9,000, its second downgrade in about three weeks, but the bank insists the pessimism around Korean stocks has gone too far and still sees nearly 50% upside. In a report dated November 17, Goldman kept its overweight recommendation on Korean equities and forecast a total return of around 50% in US dollar terms over the next year.",
+    "The new target is 37.5% below the 12,000 peak the bank set in June, a sharp reversal in just five months. Measured against the KOSPI\u2019s close of 5,067.44 on November 18, however, 7,500 still implies upside of roughly 48%.",
+    "The bank pointed to rising volatility in the second half of the year and a slowdown in the pace of upgrades to corporate earnings forecasts. Despite a strong first half, investors have been reluctant to fully price in corporate fundamentals, and doubts over how long the memory chip boom can last have weighed on further gains.",
+    "Earnings momentum outside the two chip giants has also faded at the margin. Projected earnings per share growth for companies excluding Samsung Electronics and SK Hynix climbed from 28% in January to 84% in August before slipping to 81% in November, while the forecast for 2027 was trimmed to 15% from 20%.",
+    "Goldman argued that memory stocks already price in a scenario in which 2027 consensus earnings are cut by 70%, which it considers overly bleak. It cited company statements that DRAM and high-bandwidth memory capacity is fully booked through 2029 and expects the memory shortage to last through 2028, possibly into 2030. Even so, it forecasts a sharp slowdown in earnings growth at the two chipmakers, with Samsung\u2019s EPS growth easing from 64% in 2027 to 5% in 2028 and SK Hynix\u2019s from 47% to 13%.",
+    "Beyond chips, the bank sees opportunities in sectors where valuations have fallen to historically low levels. It believes the market has yet to reward governance improvements and expects the 2027 shareholder meeting season, bigger shareholder returns and continued reforms to act as further catalysts. Large share buybacks, light investor positioning and an economy expected to grow faster than both consensus and its long-term potential in 2027 add support.",
+    "Even at 7,500, Goldman said, the KOSPI would trade at just 4.9 times forward earnings and 1.18 times book value. Based on the historical link between price-to-book ratios and an expected return on equity of 24%, it estimates the index would still sit more than 40% below fair value.",
+    "Thursday\u2019s session showed how fragile sentiment is. The KOSPI fell around 2% at its low as chip stocks sold off, before recovering to trade slightly higher, near 5,082, by mid-afternoon. Samsung Electronics and SK Hynix pared earlier losses but remained marginally lower, while the tech-heavy KOSDAQ was little changed. Elsewhere in the region, Hong Kong\u2019s Hang Seng fell almost 2%, while Japan\u2019s Nikkei 225 gained close to 1%."
+   ]
   },
   {
    "ts": 1795057818.0,
@@ -509,43 +528,18 @@
    ]
   },
   {
-   "ts": 1795037617.0,
-   "title": "investingLive Americas FX news wrap 18 Nov: Waller/Fed minutes put a bigger December hike in play",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-18-nov-waller-fed-minutes-put-a-bigger-december-hike-in-play/",
-   "t": "19 Nov \u00b7 02:33 AM",
+   "ts": 1795028400.0,
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "src": "Federal Reserve",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "t": "19 Nov \u00b7 12:00 AM",
    "body": [
-    "The Fed\u2019s October minutes put the size of the December move in focus. Almost all participants saw further hikes as likely under their baseline outlooks, and a couple were open to more than 25 basis points if inflation data disappointed. The 2-year yield edged higher, while the oil selloff helped pull longer-term yields lower. The 10-year still ended the U.S. session near 5.07%. Monetary Policy:",
-    "Stocks split. The Dow dropped more than 1% and the S&P 500 posted its fifth straight decline, while the Nasdaq Composite and Russell 2000 each gained about 0.4%. Nvidia gave back its early gains despite a beat and stronger guidance. That puts even more attention on Anthropic\u2019s IPO as the next test of demand for AI shares.",
-    "The USD rose against six of the seven major currencies in the late snapshot. It gained the most against sterling, about 0.49%, and lost ground against the yen, with USDJPY essentially flat at 159.35 after rounding. GBPUSD traded at 1.3144 and EURUSD at 1.0973. UK headline CPI rose to 3.6% as expected, but softer-than-forecast services inflation trimmed December Bank of England hike odds and weighed on sterling. investinglive.com",
-    "The 2-year held up as traders weighed a larger December hike. Further out, the drop in oil helped take some pressure off yields. The 2-year and 10-year spread narrowed by about 5 basis points to 26 basis points.",
-    "The Dow, S&P 500, Nasdaq Composite and Russell 2000 figures are final closes.",
-    "Nvidia reported adjusted EPS of $2.68 versus $2.48 expected and revenue of $115.8 billion versus $109.0 billion expected. It guided to about $130 billion in quarterly revenue, yet shares reversed lower as uncertainty around the leadership transition and the financing of the AI buildout lingered. The chip index slipped, with Intel and Micron lower and AMD higher. images.investinglive.com",
-    "Energy and materials were among the laggards as crude and metals fell. Retail had some standouts of its own. Target rose on a stronger holiday outlook, and TJX gained after lifting its annual sales forecast. Walmart reports Thursday. marketwatch.com",
-    "Miners led the declines as copper weakened, and lower crude weighed on energy shares.",
-    "The October vote to hold was 10\u20132, with Lisa Cook and Beth Hammack favoring a quarter-point hike. The minutes showed that some other participants also favored raising rates and a few who backed the hold saw it as a close call. A couple said a move larger than 25 basis points could be warranted in December if inflation data came in unfavorably. The minutes predate the October CPI report, which showed core prices rising 0.3% on the month. InvestingLive reported about 27 basis points priced for December and 62 across the next three meetings. Monetary Policy:",
-    "Waller made the case for a 50-basis-point hike or a stronger signal that more tightening is coming. His concern is that households and businesses start treating 3% inflation as normal when roughly 70% of core services components are already running above that pace. Barr backed further hikes if the economy performs as expected. Daly pointed to a stable labor market and resilient spending even among lower-income households, giving the Fed room to keep its focus on inflation. images.investinglive.com",
-    "December WTI settled at $83.26, down 3.20%, and the late screen showed $82.08, down 4.57%. U.S. crude inventories rose 3.38 million barrels versus 58,000 expected, while gasoline stocks jumped 5.19 million barrels. Shipping risks around the Strait of Hormuz persisted and talks with Iranian mediators continued. The inventory builds and surplus concerns carried more weight in Wednesday\u2019s trade. investinglive.com",
-    "Gold traded near $3,727.39, down 3.17%, and silver fell 4.78% to $45.11. The firmer dollar and higher 2-year yield were headwinds for gold even as longer yields eased. Silver\u2019s steeper drop came alongside weakness in industrial metals. images.investinglive.com",
-    "Bitcoin fell 3.72% to $62,462 late in the session. It traded more like metals and other heavily sold assets than the Nasdaq, which managed a gain.",
-    "The 2-year yield is the barometer for the December debate. A further rise would signal traders are putting more weight on a bigger hike. For stocks, Anthropic\u2019s IPO pricing will test appetite for AI exposure after Nvidia\u2019s reversal, while Walmart\u2019s results will give traders another read on holiday spending. In crude, watch whether sellers can extend the inventory-driven break as Hormuz supply risks persist."
-   ]
-  },
-  {
-   "ts": 1795037539.0,
-   "title": "Kashkari says markets see more Fed hikes than officials do as four Fed voices turn hawkish",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/kashkari-says-markets-see-more-fed-hikes-than-officials-do-as-four-fed-voices-turn-hawkish/",
-   "t": "19 Nov \u00b7 02:32 AM",
-   "body": [
-    "Hawkish Fed remarks arriving one after another should support the US dollar and keep front-end Treasury yields firm going into December. Gold is the asset most exposed. Through this cycle it has fallen as Fed hike expectations build, so more tightening talk is a headwind rather than a bid. For the Australian dollar, which is already near 10-month lows, a Fed that keeps hiking narrows the policy gap with the RBA. That raises the stakes for today\u2019s Australian jobs data. If Kashkari is right that the shocks behind inflation are supply-driven, oil remains the key input to watch, because further energy price spikes would strengthen the hawks\u2019 case.",
-    "When a voting Fed official says markets expect more hikes than his colleagues do and makes no effort to push back, the message is that the policy path may have to rise to meet the pricing.",
-    "Minneapolis Federal Reserve President Neel Kashkari said on Wednesday that markets believe the Fed will have to raise interest rates further than officials currently expect, a notable remark from a policymaker who votes on the Federal Open Market Committee this year. He made no attempt, in the comments reported, to talk that pricing down.",
-    "Kashkari traced the current bout of elevated inflation to a series of supply shocks and said the Fed\u2019s priority must be keeping inflation expectations anchored. That framing matters. Central bankers often argue they can look through supply shocks, but only if the public keeps faith that inflation will return to target. When shocks arrive one after another, that faith becomes harder to take for granted, and Kashkari\u2019s emphasis on expectations suggests he sees the risk as real rather than theoretical.",
-    "He also said the strength of demand has been a little surprising and described the labour market as resilient. Both points weaken the case for patience. A firm economy gives the Fed room to keep tightening without tipping it into a sharp downturn, and a resilient jobs market removes one of the main arguments a more cautious official might make for pausing. Kashkari added that interest rates can absolutely affect investment, pushing back on any suggestion that higher borrowing costs have lost their bite.",
-    "His comments landed on a day when several colleagues were sounding a similar note. Governor Christopher Waller, Governor Michael Barr and San Francisco Fed President Mary Daly all struck hawkish tones on Wednesday, with Waller once again raising the possibility of a 50 basis point hike. A move of that size remains an outside possibility rather than the base case, but the fact that it is being discussed openly shows how far the debate has shifted toward the scale of further tightening rather than whether it is needed.",
-    "The Fed held its target range at 3.75% to 4.00% at its late October meeting, with two officials dissenting in favour of a quarter point increase. Since then, hotter inflation data and a steady run of hawkish commentary have reinforced expectations of a hike at the December meeting.",
-    "Kashkari\u2019s remark on market pricing is the one to watch. If officials begin publicly endorsing a higher path than their own projections imply, the December forecasts could shift up to meet the market, rather than the market moving back toward the Fed."
+    "Official websites use .govA .gov website belongs to an official government organization in the United States.",
+    "Secure .gov websites use HTTPSA lock () or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+    "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27\u201328, 2026.",
+    "The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision. The descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.",
+    "For media inquiries, e-mail [email protected] or call 202-452-2955.",
+    "Minutes of Federal Open Market Committee October 27\u201328, 2026: HTML | PDF"
    ]
   }
  ],
@@ -569,6 +563,12 @@
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb1UyRzhHVGtHdE14QTFyX2QtdllheV9iMTE0UVBPRW1qRGVCVTRjMDlLSi1KZ2MxV3lOUUEtcV91SXdibGlQX09iYi1SV2JyTmJMRm83T3JFREdVWXhRVWtCa0tsaDJlMTIteTAwc2hjSktFQzNTcUc1d0tSNFQ0U0ZRd0JpWUlkNnFrStIBkgFBVV95cUxQV1RVUEFfZVRkSjFGck1fMmZZY3l2X09xUmRQZEl4ejdMaG52TXh3d04telpVSDVuZWxGR2diZ2lIN1hrUmU2XzFOYXBNNFo3VFM5UC1pQVZ5Q1Zvb2dyck5fQS1hNjJucVVTczZHU2tOQzZrc09UZ2llcXdta19rMDRYc3FXbmNEMGZUZk5aTEhDUQ?oc=5"
   },
   {
+   "ts": 1795040485.0,
+   "title": "Forex Factory | Global markets for the smart money.",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5NcWd2U01TN3MtWlQ3V1JsalhydV9KRFlQVzB4d0hOMTdZUVp1ZVViRDRGMTEwYTFqbDdod3gySUJhSW8?oc=5"
+  },
+  {
    "ts": 1795028101.0,
    "title": "Fed's Waller: Very concerned inflation is heading in the wrong direction and broadening - CNBC",
    "src": "ForexFactory",
@@ -579,12 +579,6 @@
    "title": "Hawkish Minutes Show \"Almost All\" FOMC Members See More Hikes As Fed Frets Over \"Opaque\" AI Debt",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHQ1d0Fzc1AwazBNN25jd0xURWFjcWdsWmR6Z3plMGw4RjBMenEzbFl4RlR3eG9aaktENm5hUV9TRF9zbEZfNmoyb01QWTdCeUpDZHhtbUpkcW5iel9kVG8zUXh4bDZ4SXBUMmNkcGdmNzRrQnZMcXRPa1VacTgzV1Y4VVlpaUk3a0FjMVVCa082SDFp0gGaAUFVX3lxTFBpa0RXR2dReHR1Y1l0WTZET1BhUFZfaEVIbl9JWGNQR0tQX2wzREMyNGJSbXpsTUdBVXRoY3NDZ1YtaVR0akdhVnVlUHB5X2p2SGxNVlFPYkREYlBmeS1xQ1RQVHBCX3paUi1xMkFKbExhRGFkNkIzUENrMTF4Zk5EOWRGM0hnZGthclNRRXFlNDNMVExlLTRLS1E?oc=5"
-  },
-  {
-   "ts": 1795020300.0,
-   "title": "Betting no JAN hike",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FY0NJTkNRVHUtSHZWTHdPS3ZRM1ZYU3ZlZmsyTTJfQlNMSzZSbFRJcFVPQVdCUG0yRkNtU3d2dDBvaGZLZHBCRnRZMHd2d2V2RWgtN0tZUzlzUGs4VnpadGR0UU5BbjFYNmlBUXl30gFzQVVfeXFMTzVRYUUzME1Fckx2QlRmd1BpUjJyNTNERy1fR0QwZnpJUHlLOVFtWmkxT0NGajYtN1JEeXJxaHhNSTg5WEZlX3lUTHoxQXpuNV9CVUZMUnA1b25sWFc0VWdoOHJBRTNnN1dqcUlXb25sOEw4cw?oc=5"
   }
  ],
  "sentiment": {
