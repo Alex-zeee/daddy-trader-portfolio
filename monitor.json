@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 01:01 PKT",
+ "updated": "20-11-2026 01:16 PKT",
  "gold": {
-  "price": 3667.56,
-  "open": 3726.3,
+  "price": 3667.11,
+  "open": 3727.46,
   "high": 3758.13,
-  "low": 3665.82,
-  "chg": -1.58,
+  "low": 3662.06,
+  "chg": -1.62,
   "src": "XAUUSD Spot",
   "spark": [
-   3734.05,
    3732.67,
    3736.42,
    3733.45,
@@ -55,14 +54,15 @@
    3678.9,
    3675.4,
    3666.87,
-   3667.56
+   3669.13,
+   3667.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.04,
-   "chg": -2.13,
+   "price": 43.97,
+   "chg": -2.29,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    44.04
+    43.97
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.93,
-   "chg": 0.07,
+   "price": 103.865,
+   "chg": 0.0,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.93
+    103.865
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.78,
-   "chg": -0.58,
+   "price": 82.74,
+   "chg": -0.62,
    "spark": [
     97.15,
     99.47,
@@ -143,13 +143,13 @@
     85.72,
     86.01,
     83.26,
-    82.78
+    82.74
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.062,
-   "chg": -0.08,
+   "price": 5.052,
+   "chg": -0.28,
    "spark": [
     5.146,
     4.953,
@@ -172,12 +172,41 @@
     5.121,
     5.103,
     5.066,
-    5.062
+    5.052
+   ]
+  },
+  {
+   "name": "EUR/USD",
+   "price": 1.0978,
+   "chg": -0.13,
+   "spark": [
+    1.1227,
+    1.1235,
+    1.1221,
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1025,
+    1.0998,
+    1.0993,
+    1.0978
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3101,
+   "price": 1.31,
    "chg": -0.79,
    "spark": [
     1.3373,
@@ -201,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3101
+    1.31
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.693,
-   "chg": 0.12,
+   "price": 159.683,
+   "chg": 0.11,
    "spark": [
     158.268,
     158.132,
@@ -230,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.693
+    159.683
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1765.04,
-   "chg": -0.55,
+   "price": 1762.74,
+   "chg": -0.68,
    "spark": [
     1804.28,
     1812.4,
@@ -285,13 +314,13 @@
     1769.3,
     1775.75,
     1768.71,
-    1765.04
+    1762.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62199.1,
-   "chg": -1.25,
+   "price": 62267.6,
+   "chg": -1.14,
    "spark": [
     64289.6,
     64660.5,
@@ -340,7 +369,7 @@
     62683.5,
     62817.6,
     62298.8,
-    62181.9
+    62267.6
    ]
   }
  ],
@@ -365,18 +394,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795118507.434843,
+   "ts": 1795119404.890573,
    "title": "Gold floats around 14-month low amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 01:01 AM"
+   "t": "20 Nov \u00b7 01:16 AM"
   },
   {
-   "ts": 1795118507.434843,
+   "ts": 1795119404.890573,
    "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 01:01 AM"
+   "t": "20 Nov \u00b7 01:16 AM"
+  },
+  {
+   "ts": 1795116192.0,
+   "title": "Canada seeks interim U.S. tariff deal by year-end, CBC reports",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/canada-seeks-interim-u-s-tariff-deal-by-year-end-cbc-reports/",
+   "t": "20 Nov \u00b7 12:23 AM",
+   "body": [
+    "CBC News reported, citing sources familiar with Thursday\u2019s meeting between Canada-U.S. Trade Minister Dominic LeBlanc and the federal government\u2019s Canada-U.S. economic advisory committee, that Ottawa is aiming for an interim tariff agreement with the Trump administration. CBC News",
+    "The year-end target gives CAD traders a date to watch. The first test is whether the two sides can put terms in writing. From there, the scope matters. Relief across steel, aluminum, autos and lumber could ease cost pressure for Canadian exporters and give the Canadian dollar some support. The details to watch are which tariffs come down, by how much and when.",
+    "Looking at the USDCAD on the hourly chart below, the price today did fall below the 100 hour MA and a swing area in the 1.42198 to 1.42986 area. However, momentum could not be sustained below that key break and the price has pushed higher. Earlier in the day, the price reached the highest level since April 2025 at 1.43566. That is the next target with close risk now at the rising 100 hour MA at 1.4302. Move above 1.43566 and traders will look toward the swing highs from March 19, 2025 and April 1, 2025 at 1.4401 to 1.44145 (not shown)."
+   ]
+  },
+  {
+   "ts": 1795115401.0,
+   "title": "GBPUSD breaks to a new 2026 low. The daily chart shows room to the downside.",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/gbpusd-breaks-to-a-new-2026-low-the-daily-chart-shows-room-to-the-downside/",
+   "t": "20 Nov \u00b7 12:10 AM",
+   "body": [
+    "The GBPUSD is trading to a new low for 2026 as inflation concerns push the greenback higher. The move lower gathered momentum after sellers leaned against resistance on the hourly chart. On the daily chart, the break below a key floor gives sellers room to probe lower.",
+    "The GBPUSD is breaking below the daily swing area between 1.31386 and 1.31786. The move also takes the price further away from 1.31926, the 38.2% retracement of the rally from the January 2025 low.",
+    "The lower edge of the old floor near 1.3139 is the first barometer on a bounce. If the price stays below it, sellers keep the downside bias. A move back into the swing area would take some of the momentum out of the break. Buyers would then need to work through the upper end of the area and get back above 1.31926 to give themselves more breathing room.",
+    "On the downside, the next daily swing area comes in between 1.2998 and 1.3046. The top of that area at 1.3046 is the first target. Below that, the focus shifts toward 1.2998 and then 1.29838, the 50% midpoint of the rally from the January 2025 low.",
+    "Drilling down to the hourly chart above, the rebound off the earlier low stalled near 1.3171, the lower edge of a swing area that extends to 1.31808. The 100-hour moving average sits within that area near 1.31797, adding to the resistance.",
+    "Sellers leaned against the bottom of the area and were rewarded with a push to fresh lows. That gives traders a sequence to watch on the next bounce. A move above 1.3171 would be the first sign that buyers are making a play. Getting and staying above the 100-hour moving average and 1.31808 would give that move more credibility.",
+    "For now, the daily chart shows where the price has room to go, and the hourly chart shows where sellers can define their risk. With the pair making new lows for the year, the burden of proof remains on the buyers."
+   ]
   },
   {
    "ts": 1795113560.0,
@@ -481,44 +538,6 @@
     "On the 4 hour chart, we have a downward trendline defining the bearish momentum. If we get a pullback, we can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting the 3,500 level. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the major downward trendline around the 4,050 level next.",
     "On the 1 hour chart, we can see the price rejected the minor downward trendline yesterday and extended the drop into new lows. The break of the trendline might be signalling a loss of momentum and a potential pullback into the next trendline. The sellers will likely lean on the trendline, with a defined risk above it, to keep pushing into new lows. The buyers, on the other hand, will look for a break to extend the correction into the major trendline around the 4,050 level. The red lines define the average daily range for today.",
     "Today we get the latest US Jobless Claims figures, but the focus will remain on the Fed and the US-Iran developments."
-   ]
-  },
-  {
-   "ts": 1795028400.0,
-   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "src": "Federal Reserve",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "t": "19 Nov \u00b7 12:00 AM",
-   "body": [
-    "Official websites use .govA .gov website belongs to an official government organization in the United States.",
-    "Secure .gov websites use HTTPSA lock () or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-    "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27\u201328, 2026.",
-    "The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision. The descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.",
-    "For media inquiries, e-mail [email protected] or call 202-452-2955.",
-    "Minutes of Federal Open Market Committee October 27\u201328, 2026: HTML | PDF"
-   ]
-  },
-  {
-   "ts": 1794988657.0,
-   "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
-   "t": "18 Nov \u00b7 12:57 PM",
-   "body": [
-    "U.K. inflation rose to 3.6% in the 12 months to October, its highest level in a year, as fuel costs continued to rise.",
-    "The reading was in line with the expectations of economists polled by Reuters and marked an increase from September's print of 3.5%.",
-    "Britain's Office for National Statistics said the largest contributor to the rising inflation rate was motor fuel costs, which rose 33.2% year-on-year. It was the largest one-year rise in motor fuel prices since July 2022, when energy costs surged in the wake of Russia's full-scale invasion of Ukraine.",
-    "The U.K. is a net energy importer, making it vulnerable to external energy shocks such as the one sparked by the disruption of trade through the Strait of Hormuz.",
-    "Oil prices have retreated from their wartime highs of well above $100 a barrel, but remain elevated.",
-    "The ONS said Wednesday that the average price of petrol rose by 5.2 pence (7 cents) per liter between September and October this year, compared with a 0.7 pence per liter rise in the same period a year earlier. The average petrol price stood at 174.7 pence per liter in October, the highest it's been since Aug. 2022.",
-    "Diesel prices rose by 7 pence per liter in October, with the average price reaching 199.5 pence per liter \u2014 the highest since ONS records began in 1996.",
-    "The Iran war has seen energy costs surge in various major economies. U.S. diesel prices hit $6 per gallon for the first time ever in September.",
-    "Since the U.S.-Iran war began in late February, inflation has risen sharply after a brief dip thanks to an energy price cap that was revised upward in July.",
-    "Earlier this month, the Bank of England hiked interest rates for the first time in three years, warning that inflation could hit 5% by mid-2027.",
-    "Governor Andrew Bailey said in the bank's November Monetary Policy Report that without \"real progress towards settling the conflict in the Middle East... risks to energy prices, and so to inflation, are to the upside.\"",
-    "Markets are currently pricing in around an 80% chance of a rate hike at the Bank of England's final meeting of the year.",
-    "Scott Gardner, investment strategist at JPMorgan Personal Investing, said in a note following the release that a recent climb down in oil prices following the U.S. midterm elections could offer some relief in future inflation readings.",
-    "But he added: \"While this may be a short-term reprieve for motorists, the broader outlook for UK inflation remains challenging as we approach 2027. After hiking interest rates at the start of the month, the Bank will be wary of a sustained uptick in inflation that could be here to stay.\""
    ]
   }
  ],
