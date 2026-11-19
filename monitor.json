@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 20:01 PKT",
+ "updated": "19-11-2026 20:16 PKT",
  "gold": {
-  "price": 3709.14,
-  "open": 3756.66,
+  "price": 3703.11,
+  "open": 3756.4,
   "high": 3761.66,
   "low": 3695.08,
-  "chg": -1.26,
+  "chg": -1.42,
   "src": "XAUUSD Spot",
   "spark": [
-   3712.07,
    3709.03,
    3722.59,
    3726.19,
@@ -55,14 +54,15 @@
    3709.1,
    3711.84,
    3703.15,
-   3709.14
+   3705.42,
+   3703.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.33,
-   "chg": 0.74,
+   "price": 45.32,
+   "chg": 0.71,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    45.33
+    45.32
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.754,
-   "chg": -0.1,
+   "price": 103.747,
+   "chg": -0.11,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.754
+    103.747
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.81,
-   "chg": 0.66,
+   "price": 83.68,
+   "chg": 0.5,
    "spark": [
     97.15,
     99.47,
@@ -143,13 +143,13 @@
     85.72,
     86.01,
     83.26,
-    83.81
+    83.68
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.093,
-   "chg": 0.53,
+   "price": 5.097,
+   "chg": 0.61,
    "spark": [
     5.146,
     4.953,
@@ -172,13 +172,13 @@
     5.121,
     5.103,
     5.066,
-    5.093
+    5.097
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0995,
-   "chg": 0.02,
+   "price": 1.0985,
+   "chg": -0.07,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0995
+    1.0985
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.314,
-   "chg": -0.49,
+   "price": 1.3123,
+   "chg": -0.62,
    "spark": [
     1.3373,
     1.3396,
@@ -230,12 +230,12 @@
     1.3216,
     1.3185,
     1.3205,
-    1.314
+    1.3123
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.91,
+   "price": 159.9,
    "chg": 0.25,
    "spark": [
     158.268,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.91
+    159.9
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1803.1,
-   "chg": 1.6,
+   "price": 1794.44,
+   "chg": 1.11,
    "spark": [
     1776.3,
     1786.12,
@@ -314,13 +314,13 @@
     1804.06,
     1811.59,
     1796.44,
-    1803.1
+    1794.95
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63644.7,
-   "chg": 1.05,
+   "price": 63357.3,
+   "chg": 0.59,
    "spark": [
     63677.6,
     63759.8,
@@ -369,7 +369,7 @@
     63808.5,
     63968.3,
     63491.0,
-    63644.7
+    63357.3
    ]
   }
  ],
@@ -410,25 +410,45 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795100509.393956,
+   "ts": 1795101410.158556,
    "title": "Gold floats around 14-month low amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 08:01 PM"
+   "t": "19 Nov \u00b7 08:16 PM"
   },
   {
-   "ts": 1795100509.393956,
+   "ts": 1795101410.158556,
    "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "19 Nov \u00b7 08:01 PM"
+   "t": "19 Nov \u00b7 08:16 PM"
   },
   {
-   "ts": 1795100509.393956,
+   "ts": 1795101410.158556,
    "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604",
-   "t": "19 Nov \u00b7 08:01 PM"
+   "t": "19 Nov \u00b7 08:16 PM"
+  },
+  {
+   "ts": 1795100238.0,
+   "title": "USDCAD sellers make a play after a new high for the year",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/usdcad-sellers-make-a-play-after-a-new-high-for-the-year/",
+   "t": "19 Nov \u00b7 07:57 PM",
+   "body": [
+    "The USDCAD has been trending higher since bottoming at 1.3929 in early November. The move to the upside continued in the Asian session today, with the price reaching a new high for the year at 1.43566 (see chart below). That was the highest level going back to April 2025. However, the buyers could not keep the momentum going, and the price rotated back down toward the 100-hour moving average.",
+    "That moving average has been a good barometer for the buyers on the way up. The price moved above it on November 5 near 1.3971. On Tuesday, the price came back down to test it near 1.4270, and willing buyers leaned against the level. They could define and limit their risk against the moving average, and the bounce from that test ultimately led to today\u2019s new high.",
+    "In the last few hours, the price has traded below the 100-hour moving average, now at 1.4298. That tips the short-term bias in favor of the sellers, but there is more work to do. The moving average is near the top of a swing area between 1.42918 and 1.42990. The sellers need to get and stay below the lower end of that area to give them the go-ahead to push lower.",
+    "If they can do that, Tuesday\u2019s low near 1.4270 would be the first target. Remember, that was where buyers leaned against the 100-hour moving average and started the move to today\u2019s high. If the price gets through that low, the rising 200-hour moving average at 1.4248 would be the next target to get to and through.",
+    "On the flip side, if the sellers can\u2019t keep the price below the swing area and the pair moves back above 1.42990, the break below the 100-hour moving average starts to look like a failed break. That would give buyers an opening to make another run toward 1.43566.",
+    "The price has been above the 200-hour moving average since early November. Getting below the 100-hour moving average gives the sellers a shot. Getting and staying below the 200-hour moving average would give them more control.",
+    "On a break below 1.4248, I would look toward the next swing area between 1.41922 and 1.42040. The 38.2% retracement of the move up from 1.3929 to 1.43566 comes in at 1.41933, within that area. That gives buyers another level to lean against if the correction gets that far.",
+    "For now, the close risk for sellers is back above 1.42990. On the downside, 1.42918 is the first level sellers need to get through. How the price behaves there will tell us whether they have enough momentum to take a run at the 200-hour moving average.",
+    "When a moving average has held on a pullback, I pay attention the next time the price comes back to it. On Tuesday, buyers leaned against the 100-hour moving average near 1.4270. They could define and limit their risk against that level, and the bounce eventually led to a new high for the year. Today, the price moved below that same moving average. That gives sellers a reason to make a play. The next question is whether they can keep the price below it.",
+    "This is where the swing area helps. With the 100-hour moving average near the top of the 1.42918\u20131.42990 area, a move below the average still leaves support at 1.42918. If the price gets below that lower level and then stalls on a bounce back toward it, sellers have a level to lean against and a downside target at Tuesday\u2019s low. If the price instead moves back above 1.42990 and holds, the break starts to look like a failed break, and the reason for leaning short weakens.",
+    "Work through the levels one at a time. The break of the 100-hour moving average gives sellers an opening. A break of the swing area gives them room to extend. Getting and staying below the 200-hour moving average would be the next sign that sellers are taking more control."
+   ]
   },
   {
    "ts": 1795095021.0,
@@ -518,23 +538,6 @@
    ]
   },
   {
-   "ts": 1795050979.0,
-   "title": "BOJ\u2019s Ueda expects to keep raising rates, warning inflation could overshoot 2% target",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/boj-s-ueda-expects-to-keep-raising-rates-warning-inflation-could-overshoot-2-target/",
-   "t": "19 Nov \u00b7 06:16 AM",
-   "body": [
-    "Ueda\u2019s remarks firm up the case for a December hike, which should give some support to the yen, although the effect may be limited while the Fed is also raising rates. The emphasis on overshoot risk could matter more for the path beyond December, supporting bets on a move to 1.75% by March and keeping upward pressure on short-dated JGB yields. Japanese bank stocks tend to benefit from a steeper rate path, while exporters lose some of the support from a weak yen. Overnight inflation data will be the next catalyst. A firm print would strengthen expectations for both the December move and the one after it.",
-    "Ueda\u2019s worry is no longer inflation falling short of 2%. It\u2019s inflation overshooting, and with policy still accommodative, that points to more hikes, starting in December.",
-    "Bank of Japan Governor Kazuo Ueda said on Thursday that the central bank expects to keep raising interest rates because monetary conditions remain accommodative, adding that there is a risk underlying inflation could overshoot the BOJ\u2019s 2% target. His remarks, which crossed the wires from 01:03 GMT, reinforce expectations of a December hike and come a day after he said the bank should continue lifting borrowing costs.",
-    "Ueda described the economy as recovering moderately, albeit with some weakness, and said consumption has been resilient. He judged underlying inflation to be roughly consistent with the price target, but stressed that the bigger danger now lies on the upside. Anchoring underlying inflation around 2%, he said, is important to stop the risk of an overshoot from materialising.",
-    "That framing matters. For years the BOJ\u2019s challenge was getting inflation up to target. Ueda is now signalling that the task has flipped to keeping it from running too far above it, and that with real interest rates still negative, policy is far from restrictive. In that light, further hikes look less like tightening for its own sake and more like the gradual removal of stimulus that the economy no longer needs.",
-    "The comments sit comfortably with market expectations. In a Reuters poll published on Wednesday, 86% of economists forecast a 25 basis point hike to 1.50% at the December 17 to 18 meeting, which would be the BOJ\u2019s third increase this year, and nearly 60% expect another move to 1.75% by the end of March. Ueda\u2019s description of consumption as resilient also offers some cover for pressing ahead despite the economy\u2019s unexpected contraction in the July to September quarter.",
-    "The weak yen remains a key part of the backdrop. The currency is trading near 160 per dollar despite heavy intervention by Japanese authorities this year, and a widening rate gap with a Federal Reserve that is itself still hiking keeps pressure on the BOJ to act. A weak yen raises import costs and adds to the very inflation overshoot risk Ueda highlighted.",
-    "The next test comes quickly. Japan\u2019s national consumer price data for October are due at 23:30 GMT on Thursday, and a firm reading would further strengthen the case for a December move."
-   ]
-  },
-  {
    "ts": 1795028400.0,
    "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
    "src": "Federal Reserve",
@@ -596,7 +599,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
