@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 10:16 PKT",
+ "updated": "19-11-2026 10:31 PKT",
  "gold": {
-  "price": 3729.32,
-  "open": 3790.82,
-  "high": 3797.08,
+  "price": 3732.4,
+  "open": 3789.94,
+  "high": 3792.04,
   "low": 3695.08,
-  "chg": -1.62,
+  "chg": -1.52,
   "src": "XAUUSD Spot",
   "spark": [
-   3740.88,
    3734.96,
    3736.14,
    3739.96,
@@ -55,14 +54,15 @@
    3722.54,
    3723.52,
    3728.31,
-   3729.32
+   3733.84,
+   3732.4
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.235,
-   "chg": 0.52,
+   "price": 45.2,
+   "chg": 0.45,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    45.235
+    45.2
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.91,
-   "chg": 0.05,
+   "price": 103.896,
+   "chg": 0.03,
    "spark": [
     101.78,
     101.61,
@@ -114,36 +114,7 @@
     103.55,
     103.49,
     103.86,
-    103.91
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 82.27,
-   "chg": -1.19,
-   "spark": [
-    97.15,
-    99.47,
-    103.27,
-    101.76,
-    99.9,
-    102.78,
-    102.0,
-    104.12,
-    96.46,
-    96.09,
-    88.12,
-    90.52,
-    90.83,
-    86.85,
-    86.04,
-    86.53,
-    88.74,
-    88.56,
-    85.72,
-    86.01,
-    83.26,
-    82.27
+    103.896
    ]
   },
   {
@@ -206,7 +177,7 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3136,
+   "price": 1.3134,
    "chg": -0.53,
    "spark": [
     1.3373,
@@ -230,13 +201,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3136
+    1.3134
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.566,
-   "chg": 0.04,
+   "price": 159.556,
+   "chg": 0.03,
    "spark": [
     158.268,
     158.132,
@@ -259,13 +230,13 @@
     159.78,
     159.523,
     159.504,
-    159.566
+    159.556
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1794.15,
-   "chg": 1.09,
+   "price": 1797.21,
+   "chg": 1.26,
    "spark": [
     1824.66,
     1831.02,
@@ -314,12 +285,12 @@
     1768.44,
     1791.77,
     1798.88,
-    1794.15
+    1797.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63355.2,
+   "price": 63357.9,
    "chg": 0.59,
    "spark": [
     64492.1,
@@ -369,7 +340,7 @@
     62534.9,
     63135.2,
     63512.6,
-    63355.2
+    63357.9
    ]
   }
  ],
@@ -410,25 +381,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795065403.319213,
+   "ts": 1795066303.661436,
+   "title": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604",
+   "t": "19 Nov \u00b7 10:31 AM"
+  },
+  {
+   "ts": 1795066303.661436,
    "title": "Oil prices rise as report says Trump considering more Iran strikes",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "19 Nov \u00b7 10:16 AM"
+   "t": "19 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795065403.319213,
+   "ts": 1795066303.661436,
    "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 10:16 AM"
+   "t": "19 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795065403.319213,
+   "ts": 1795066303.661436,
    "title": "Spot gold sheds over 3%, drops below $3,800/oz for first time since September 2025",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 10:16 AM"
+   "t": "19 Nov \u00b7 10:31 AM"
   },
   {
    "ts": 1795061519.0,
@@ -526,21 +504,6 @@
     "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
     "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
    ]
-  },
-  {
-   "ts": 1795028400.0,
-   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "src": "Federal Reserve",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "t": "19 Nov \u00b7 12:00 AM",
-   "body": [
-    "Official websites use .govA .gov website belongs to an official government organization in the United States.",
-    "Secure .gov websites use HTTPSA lock () or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-    "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27\u201328, 2026.",
-    "The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision. The descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.",
-    "For media inquiries, e-mail [email protected] or call 202-452-2955.",
-    "Minutes of Federal Open Market Committee October 27\u201328, 2026: HTML | PDF"
-   ]
   }
  ],
  "tweets": [
@@ -587,7 +550,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
