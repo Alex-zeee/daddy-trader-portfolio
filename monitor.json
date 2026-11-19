@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 02:01 PKT",
+ "updated": "20-11-2026 02:16 PKT",
  "gold": {
-  "price": 3660.08,
-  "open": 3725.46,
+  "price": 3660.93,
+  "open": 3725.72,
   "high": 3758.13,
-  "low": 3658.98,
-  "chg": -1.75,
+  "low": 3658.0,
+  "chg": -1.74,
   "src": "XAUUSD Spot",
   "spark": [
-   3727.88,
    3733.86,
    3727.65,
    3731.28,
@@ -55,14 +54,15 @@
    3669.34,
    3664.03,
    3659.27,
-   3660.08
+   3660.57,
+   3660.93
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.975,
-   "chg": -2.28,
+   "price": 43.835,
+   "chg": -2.59,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,42 @@
     46.785,
     47.288,
     44.999,
-    43.975
+    43.835
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 103.912,
+   "chg": 0.05,
+   "spark": [
+    101.78,
+    101.61,
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.17,
+    103.41,
+    103.55,
+    103.49,
+    103.86,
+    103.912
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.15,
-   "chg": -0.13,
+   "price": 83.13,
+   "chg": -0.16,
    "spark": [
     97.15,
     99.47,
@@ -114,7 +143,7 @@
     85.72,
     86.01,
     83.26,
-    83.15
+    83.13
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0978,
-   "chg": -0.13,
+   "price": 1.0976,
+   "chg": -0.16,
    "spark": [
     1.1227,
     1.1235,
@@ -172,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0978
+    1.0976
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3099,
-   "chg": -0.81,
+   "price": 1.3094,
+   "chg": -0.84,
    "spark": [
     1.3373,
     1.3396,
@@ -201,12 +230,12 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3099
+    1.3094
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.667,
+   "price": 159.656,
    "chg": 0.1,
    "spark": [
     158.268,
@@ -230,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.667
+    159.656
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1757.75,
-   "chg": -0.96,
+   "price": 1747.29,
+   "chg": -1.55,
    "spark": [
     1812.4,
     1822.9,
@@ -285,13 +314,13 @@
     1775.75,
     1768.71,
     1759.2,
-    1757.75
+    1747.11
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61985.9,
-   "chg": -1.59,
+   "price": 61693.8,
+   "chg": -2.05,
    "spark": [
     64660.5,
     64877.0,
@@ -340,7 +369,7 @@
     62817.6,
     62298.8,
     62055.0,
-    61985.6
+    61693.9
    ]
   }
  ],
@@ -365,18 +394,46 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795122102.844441,
+   "ts": 1795123017.910883,
    "title": "Gold floats around 14-month low amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 02:01 AM"
+   "t": "20 Nov \u00b7 02:16 AM"
   },
   {
-   "ts": 1795122102.844441,
+   "ts": 1795123017.910883,
    "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 02:01 AM"
+   "t": "20 Nov \u00b7 02:16 AM"
+  },
+  {
+   "ts": 1795122016.0,
+   "title": "Fed\u2019s Goolsbee says he sees no clear path back to 2% inflation",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/fed-s-goolsbee-says-he-sees-no-clear-path-back-to-2-inflation/",
+   "t": "20 Nov \u00b7 02:00 AM",
+   "body": [
+    "Goolsbee\u2019s comments on inflation, interest rates and AI investment crossed the wires.",
+    "The takeaway is hawkish. Goolsbee sees a sizable demand component to inflation, which makes it harder for the Fed to look through the recent price pressure. Businesses are already reporting higher costs where they compete with data centers for components, and he sees a risk that the economy has trouble absorbing the current pace of investment without overheating.",
+    "Services inflation is the barometer to watch. If it stays sticky even as energy pressures ease, that would strengthen the case that demand is keeping inflation elevated and give the Fed more reason to tighten. If services inflation cools, the case for a steeper rate path weakens."
+   ]
+  },
+  {
+   "ts": 1795120724.0,
+   "title": "AUDUSD moves to a new low.   Price action is ping ponging down and up and back down again.",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/audusd-moves-to-a-new-low/",
+   "t": "20 Nov \u00b7 01:38 AM",
+   "body": [
+    "Australia\u2019s October jobs report was considerably weaker than expected. Employment fell 43,500 against the 25,500 gain expected in our preview, and the unemployment rate rose to 4.9% versus 4.7% expected. September\u2019s job loss was revised to 36,400 from 39,300, putting the two-month decline at nearly 80,000 jobs, the biggest in five years.",
+    "The rise in unemployment alongside a drop in participation is the detail that stands out. A smaller share of Australians were working or looking for work, and even with that decline in participation, more people were unemployed. The ABS\u2019s smoothed trend measure still showed a modest gain of 7,200 jobs, but trend unemployment also rose, to 4.8%.",
+    "The RBA raised its cash rate by 25 basis points to 4.85% earlier this month and warned that inflation would stay elevated for longer. The jobs report strengthens the case for a hold on December 8. Reuters reported that traders unwound bets on further hikes and priced in roughly 45 basis points of easing by the end of 2027, about double what they had priced before the release",
+    "The AUDUSD initially fell sharply from 0.67202 to near 0.6660 after the weaker-than-expected Australian jobs report. Buyers came back in and erased nearly the entire decline, taking the pair back toward the Asian session high at 0.6720 early in North American trading.",
+    "That rebound did not last. As U.S. stocks reversed their early gains, traders turned their attention back to U.S. inflation concerns and still-solid jobs data. Sellers took control again, retracing the entire bounce and extending the move to a new session low at 0.66562. The pair is trading at 0.66624 as the North American session winds down.",
+    "The session low at 0.66562 dipped just below the 200-week moving average at 0.66575. The price is back above it for now, putting the focus on where the pair closes the week. A weekly close below 0.66575 would give sellers more control and increase the potential for further downside.",
+    "If buyers can hold above that moving average and build on the bounce, the 100-week moving average at 0.67043 is the first key topside target. Getting back above it would give buyers more room to make a run at the session high near 0.6720."
+   ]
   },
   {
    "ts": 1795119527.0,
@@ -482,41 +539,6 @@
     "This is where the swing area helps. With the 100-hour moving average near the top of the 1.42918\u20131.42990 area, a move below the average still leaves support at 1.42918. If the price gets below that lower level and then stalls on a bounce back toward it, sellers have a level to lean against and a downside target at Tuesday\u2019s low. If the price instead moves back above 1.42990 and holds, the break starts to look like a failed break, and the reason for leaning short weakens.",
     "Work through the levels one at a time. The break of the 100-hour moving average gives sellers an opening. A break of the swing area gives them room to extend. Getting and staying below the 200-hour moving average would be the next sign that sellers are taking more control."
    ]
-  },
-  {
-   "ts": 1795095021.0,
-   "title": "US November Philly Fed 6.3 vs 20.0 expected",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/us-november-philly-fed-vs-20-0-expected/",
-   "t": "19 Nov \u00b7 06:30 PM",
-   "body": [
-    "This is a stagflationary report. The headline is at its lowest since May and has now fallen for three months straight, from 47.4 in August. New orders turned negative for the first time since May, the fourth consecutive decline. Meanwhile, prices are going the other way. Prices paid jumped 15 points to the highest since April, and prices received rose to 47.0, the highest since June 2022. More than 58% of firms reported higher input costs and none reported lower ones.",
-    "The special questions back that up. 56% of firms say they can see industry cost changes coming in the near term, up from 44% last quarter. Of those, 79% expect competitors to raise prices, and the median expected timing shortened to three months from four. Those price hikes are going into softer demand: 42% of firms say customers have become more price sensitive since last quarter.",
-    "The forward capex index is the other line to watch. It fell 16 points to 18.9, its third straight decline and lowest since February. Shipments and employment held up, but that\u2019s the backlog being worked down; unfilled orders are now negative."
-   ]
-  },
-  {
-   "ts": 1795094477.0,
-   "title": "Morning Kickstart. Nasdaq futures rally ahead of Anthropic\u2019s debut as yields climb",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/morning-kickstart-nasdaq-futures-rally-ahead-of-anthropic-s-debut-as-yields-climb/",
-   "t": "19 Nov \u00b7 06:21 PM",
-   "body": [
-    "Anthropic priced its IPO at $83 a share, above its $70 to $78 range, and Nasdaq futures are leading the rebound this morning. The public offering totaled $81.3 billion, or $107.3 billion including the private placement, at a fully diluted valuation of roughly $1.5 trillion. Gray-market indications pointed to an opening roughly 20% to 26% above the offer price. ANT is due to start trading on Nasdaq today, with the first trade coming once the exchange\u2019s opening auction establishes a price. There\u2019s no set time.",
-    "There\u2019s plenty of growth behind the demand. Anthropic reported $33.2 billion in revenue through September, up from $2.5 billion a year earlier, and put its October annualized revenue run rate at about $81 billion. The nine-month net loss was about $104 billion, driven largely by financing-related fair-value changes. The operating loss was $1.3 billion. Once ANT opens, I\u2019ll be watching whether it holds its opening gains and whether the chip and cloud stocks hold theirs. That will tell us more about demand for the broader AI trade than the opening print alone. ipo.anthropic.com",
-    "The other side of the morning is rates. The Fed held at 3.75% to 4.00% in October, but the minutes from the meeting released yesterday (and recent comments from Fed officials) showed that almost all participants expected further hikes if the economy evolved as projected. Two saw a case for considering more than 25 basis points at the next meeting if inflation data proved unfavorable. A quarter-point move in December is already heavily priced. With the 10-year back above 5%, the question for stocks is how long the rebound can hold if yields keep pushing higher.",
-    "The dollar is up 0.37% against the yen and 0.13% against the Aussie. It\u2019s down the most against the New Zealand dollar, which is up 0.64% at 0.5526. The greenback is also lower against the Canadian dollar, euro, pound and Swiss franc.",
-    "USDJPY is at 159.92, just below the session high of 159.96. BOJ Governor Kazuo Ueda says financial conditions remain accommodative and warned that a weak yen could push underlying inflation above the 2% target. Well the JPY is weaker vs the greenback today.. In a Reuters poll, 86% of economists expected a December hike to 1.50%, and nearly 60% saw another move to 1.75% by the end of March. A December hike is already the consensus. The bigger question for the yen is whether the BOJ signals a faster pace while the Fed is also expected to tighten.",
-    "AUDUSD traded down to 0.6662 after Australia lost 43,500 jobs in October against expectations for a gain of 25,000. Unemployment rose to 4.9% versus 4.7% expected. A second straight month of job losses has taken much of the pressure off the RBA to hike again from 4.85%. Inflation above 4% complicates the case for cuts. The Aussie has recovered to 0.6708, making 0.6700 a useful barometer for whether buyers can hold the bounce. Australian Bureau of Statistics.Technically, the fall on the news took the price below the key 100 week MA at 0.6704 to a low of 0.6662. However, that low was just ahead of the 200 week MA at 0.66575. The bounce has now take the price just above the 100 week MA. Has the pair reached bottom for now? Watch what happens at the 100 week MA in the NA session.",
-    "Session lows and highs are measured against the 22-day average range.",
-    "USDCHF stands out at just over half its normal range. GBPUSD and USDJPY are around three-quarters of theirs, leaving room for the U.S. data to push either pair through a session extreme. AUDUSD and NZDUSD have already exceeded their averages.",
-    "U.S. stock-index futures are implying a higher open with the Nasdaq 100 taking clues from Anthropic IPI.",
-    "European tech shares helped lead an early rebound. Asia was mixed, with Japanese shares higher and Taiwan sharply lower. investing.com",
-    "Crude oil is up $0.69, or 0.83%, at $83.95, the high of its $82.60 to $83.95 session range. The New York Times reported that President Trump is considering renewed strikes on Iran. A decision is still pending, and the headlines remain a source of intraday risk for oil. axios.com",
-    "Gold is down 0.23% at $3,716.37, while silver is up 0.06% at $45.07 and copper is up 0.01% at $5.6690. Bitcoin is up 1.17% at $63,713, with the session high at $64,014 and the low at $62,321. The $64,000 area is the first test for buyers looking to extend the bounce.",
-    "At 8:30, I\u2019ll watch the two-year yield alongside the dollar. The market expects fewer new claims but more continuing claims. If the data surprise in the same direction across both measures, the rates reaction could give FX traders a clearer read. In the Philly Fed report, prices paid is worth a look given how much of the December debate is about inflation.",
-    "In the morning video above, I take a look at the three major currency pairs\u2014EURUSD, USDJPY and GBPUSD\u2014from a technical perspective. For each pair, I outline the bias, the risk-defining levels and the targets that would give either the buyers or sellers more control."
-   ]
   }
  ],
  "tweets": [
@@ -539,12 +561,6 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNldLRi1uUFlsRWJFNDE5YXNUZHNiLTJyVGg1c3A0R2tQOE9obWZGMVlfdWp0MmNNNm81Z0xsSkVVZE5LYUM3OU9kdkxQQmo0ME90UkFVREhhYkRZV05FZ2JvclZodUVlX3ZfYTRPaGszcU02aFZDV0JJVzE5STRyNnpRdVpITzZPR2RxLWN2T3DSAZYBQVVfeXFMTTNnSkxIc1VVb1lEZ0IwVGpkcGhtTF9yYXh2WEJDTGpjdkRvenlCejVRYWR3cEw0aDE1aFJCUExLYXNESHY5Q3hPRWxnOUhNMXJHa1FzX3NSOFdnaVE3VkFWQ0pDSmRHaW1tanpHMU0yZ01Wa2FBY0lPTGtPQmRIM1o2RGtDZ28zdTFJWlZRNUZIM2daS2tR?oc=5"
   },
   {
-   "ts": 1795108328.0,
-   "title": "Kushner: Trump Wants To Engage Xi, Putin To Get To Peace; Making Steps Towards Getting Russia, Ukraine To Table",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdGZBeElqeGMzZjJ2S0ZmSUNqQnR3YlhqT3c4VC1QNDRjUXplSjNnTU5kNWxyQjFBcHlpUkdvLURJOXJ4TVp6QjI4M3dNZzJNNGhRRE9QaTRtSFBfWF8zUWdhbC1CMUNOWlowM1hiT1EwUHR5Nk5OMldDWTJzUHdEWjhHcFhEU21zendr0gGQAUFVX3lxTE1TcUJZdl9pNG5abUtESk43cU9xREtGbE8wNjFZcEFMSGhXR2lfMmVtejdJZDFXTHRSVXF2ME0wdTVWQUpGTVpuOUVHVmNSeDBSLURYZHdRRnM5UTRQMm1uX1pkMHdzclcyZHRNS0xqdjY5Qjh6WlFuVUxqRjdMZmV5ekpZMHU3MnFFMnBJTTNfWQ?oc=5"
-  },
-  {
    "ts": 1795097508.0,
    "title": "US Unemployment Insurance Weekly Claims",
    "src": "ForexFactory",
@@ -555,6 +571,12 @@
    "title": "White House Asked How Iran Would Take Strike Scenarios: Axios",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWpYNXo2QnhYRFpKaVZvcGU4Mkl1TEtZZlhpT1BYX3VTNDhrUVNMS09zRlpJV0U4Zi16Sk5LSHFLVU8zZVNzZzdiQUR5LU1MVVNacnlLcm0tdU9TRTJndmVnTGxhOEdKR1I4TDhFM1FLSTNOZjg1ZXp1UnVkZjdHNEt5SVZqMFFOdmNvclNjNNIBlAFBVV95cUxPUTB6anBfemY4UldoV1Qtb092ZlpHdzVMQ05fR1VQc2t6RHpXbmc3c09yVlkxMTVQTm1wdl9fVl8wTmtuTkdRNFl0bExUaUx2SFExNFFGXzVKMy1ncUs2ckh0aUt2Vm5ES1ZWSnBsZWkxbXRfaUFKbkpmTVZNR2llVVJBQkJNZWwyZUVPbWtubjFDT2ly?oc=5"
+  },
+  {
+   "ts": 1795086049.0,
+   "title": "Bundesbank: German economic growth to quicken in fourth quarter",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX0JqUkVvNWlhNVcxYlVtckVoRDhJUVNhckdFS0ZOYXNlLUJUQ05GYTRPRG1CRFBjT0xUN1FfRHpaUElpOWFLa0NqSjFldVMzSk5IOXo4UUVMZEFRRlZhQ3JRaS1oMVB2NDIxSk5kU2kwZlNObGlwQUtPWDhtWDBnTHA0YmZiS3B6VWQxWERwQkJKNlp5dldlNG1WaDHSAaIBQVVfeXFMTWllUGdNbGVJUDJJY1o0amVjT0MxbERvLXBKdUtzYS1KbHVTcE5vWjk2ZGUxRlFfaGxpOVdSdGpDNW9BVkxFaG9nY0JLVzg4RlhoWVpnNlp3c0FCeE5HR0dkWlpZbk9IM21YQkhKX3BwQmUzanVDWlpHZ1RsZ3Y5VzJJQTFCNVd0RUVBY21oQnZ4YllpQ1A1cmctOEVmTnU3cWZB?oc=5"
   }
  ],
  "sentiment": {
