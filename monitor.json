@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 07:01 PKT",
+ "updated": "19-11-2026 07:16 PKT",
  "gold": {
-  "price": 3755.53,
-  "open": 3804.34,
+  "price": 3752.48,
+  "open": 3802.29,
   "high": 3809.51,
   "low": 3719.19,
-  "chg": -1.28,
+  "chg": -1.31,
   "src": "XAUUSD Spot",
   "spark": [
-   3778.6,
    3771.76,
    3767.22,
    3755.87,
@@ -55,14 +54,15 @@
    3744.51,
    3753.63,
    3754.06,
-   3755.53
+   3752.19,
+   3752.48
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.505,
-   "chg": -3.77,
+   "price": 45.23,
+   "chg": -4.35,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    45.505
+    45.23
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.826,
-   "chg": 0.32,
+   "price": 103.858,
+   "chg": 0.36,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.826
+    103.858
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.69,
-   "chg": -3.86,
+   "price": 82.64,
+   "chg": -3.92,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    82.69
+    82.64
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0973,
-   "chg": -0.18,
+   "price": 1.0971,
+   "chg": -0.2,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0973
+    1.0971
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3142,
-   "chg": -0.48,
+   "price": 1.3137,
+   "chg": -0.52,
    "spark": [
     1.3373,
     1.3396,
@@ -230,7 +230,7 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3142
+    1.3137
    ]
   },
   {
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1774.46,
-   "chg": -0.02,
+   "price": 1773.57,
+   "chg": -0.07,
    "spark": [
     1830.94,
     1833.38,
@@ -314,13 +314,13 @@
     1774.77,
     1782.9,
     1777.17,
-    1774.46
+    1773.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62708.6,
-   "chg": -0.44,
+   "price": 62740.1,
+   "chg": -0.39,
    "spark": [
     64992.2,
     64983.3,
@@ -369,7 +369,7 @@
     62984.6,
     63121.8,
     62782.7,
-    62708.6
+    62740.1
    ]
   }
  ],
@@ -410,25 +410,52 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795053703.534051,
+   "ts": 1795054614.694718,
    "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 07:01 AM"
+   "t": "19 Nov \u00b7 07:16 AM"
   },
   {
-   "ts": 1795053703.534051,
+   "ts": 1795054614.694718,
    "title": "Spot gold sheds over 3%, drops below $3,800/oz for first time since September 2025",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 07:01 AM"
+   "t": "19 Nov \u00b7 07:16 AM"
   },
   {
-   "ts": 1795053703.534051,
+   "ts": 1795054614.694718,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "19 Nov \u00b7 07:01 AM"
+   "t": "19 Nov \u00b7 07:16 AM"
+  },
+  {
+   "ts": 1795050979.0,
+   "title": "BOJ\u2019s Ueda expects to keep raising rates, warning inflation could overshoot 2% target",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/boj-s-ueda-expects-to-keep-raising-rates-warning-inflation-could-overshoot-2-target/",
+   "t": "19 Nov \u00b7 06:16 AM",
+   "body": [
+    "Ueda\u2019s remarks firm up the case for a December hike, which should give some support to the yen, although the effect may be limited while the Fed is also raising rates. The emphasis on overshoot risk could matter more for the path beyond December, supporting bets on a move to 1.75% by March and keeping upward pressure on short-dated JGB yields. Japanese bank stocks tend to benefit from a steeper rate path, while exporters lose some of the support from a weak yen. Overnight inflation data will be the next catalyst. A firm print would strengthen expectations for both the December move and the one after it.",
+    "Ueda\u2019s worry is no longer inflation falling short of 2%. It\u2019s inflation overshooting, and with policy still accommodative, that points to more hikes, starting in December.",
+    "Bank of Japan Governor Kazuo Ueda said on Thursday that the central bank expects to keep raising interest rates because monetary conditions remain accommodative, adding that there is a risk underlying inflation could overshoot the BOJ\u2019s 2% target. His remarks, which crossed the wires from 01:03 GMT, reinforce expectations of a December hike and come a day after he said the bank should continue lifting borrowing costs.",
+    "Ueda described the economy as recovering moderately, albeit with some weakness, and said consumption has been resilient. He judged underlying inflation to be roughly consistent with the price target, but stressed that the bigger danger now lies on the upside. Anchoring underlying inflation around 2%, he said, is important to stop the risk of an overshoot from materialising.",
+    "That framing matters. For years the BOJ\u2019s challenge was getting inflation up to target. Ueda is now signalling that the task has flipped to keeping it from running too far above it, and that with real interest rates still negative, policy is far from restrictive. In that light, further hikes look less like tightening for its own sake and more like the gradual removal of stimulus that the economy no longer needs.",
+    "The comments sit comfortably with market expectations. In a Reuters poll published on Wednesday, 86% of economists forecast a 25 basis point hike to 1.50% at the December 17 to 18 meeting, which would be the BOJ\u2019s third increase this year, and nearly 60% expect another move to 1.75% by the end of March. Ueda\u2019s description of consumption as resilient also offers some cover for pressing ahead despite the economy\u2019s unexpected contraction in the July to September quarter.",
+    "The weak yen remains a key part of the backdrop. The currency is trading near 160 per dollar despite heavy intervention by Japanese authorities this year, and a widening rate gap with a Federal Reserve that is itself still hiking keeps pressure on the BOJ to act. A weak yen raises import costs and adds to the very inflation overshoot risk Ueda highlighted.",
+    "The next test comes quickly. Japan\u2019s national consumer price data for October are due at 23:30 GMT on Thursday, and a firm reading would further strengthen the case for a December move."
+   ]
+  },
+  {
+   "ts": 1795050930.0,
+   "title": "PBOC sets USD/ CNY reference rate for today at 6.7128 (vs. estimate at 6.6684)",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7128-vs-estimate-at-6-6684/",
+   "t": "19 Nov \u00b7 06:15 AM",
+   "body": [
+    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
+   ]
   },
   {
    "ts": 1795048105.0,
@@ -520,36 +547,6 @@
     "The RBA\u2019s own forecasts already assume unemployment climbs, reaching 4.9% by the end of this year and a bit above 5% by late 2028, so a modest uptick would not be a shock. The bigger question is the pace. Traders have largely abandoned bets on a December move, and CBA judges the 7 to 8 December meeting will not be live, flagging February as the next realistic window for another hike. A clean rebound in jobs alongside firm wages could keep that February door open, while a second soft month would push the conversation toward how long rates stay at their peak.",
     "Watch the detail as closely as the headline: hours worked, the full-time versus part-time mix and the unrounded jobless rate will all shape how the board reads the print."
    ]
-  },
-  {
-   "ts": 1795031060.0,
-   "title": "NZDUSD sellers stay in control as price nears the 0.54808 floor",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/nzdusd-sellers-stay-in-control-as-price-nears-the-0-54808-floor/",
-   "t": "19 Nov \u00b7 12:44 AM",
-   "body": [
-    "The NZDUSD decline started on November 10 after the pair tested the upper channel trend line and turned lower, breaking below both its 200-hour and 100-hour moving averages. The go-ahead for more downside came the next day when the price bounced back to the 200-hour moving average and sellers leaned against it. That rejection set up six days of selling that took the pair to a low of 0.54808 yesterday.",
-    "Since then, the price has been consolidating. Yesterday\u2019s bounce stalled at 0.55057, and today\u2019s high reached nearly the same level at 0.5506. Today\u2019s low came in at 0.5484, just above yesterday\u2019s low. With the pair trading near 0.5488, the price is still closer to the floor of the range than the ceiling.",
-    "The 0.54808 low is the next level to get to and through. If the price breaks and stays below it, traders will look toward the lower channel trend line near 0.5465. A break through that line would give sellers more room to extend the move.",
-    "If buyers continue to lean against 0.54808, their first target is the top of the consolidation near 0.5506. Just above that sits the falling 100-hour moving average at 0.5512. Getting and staying above that moving average would give buyers their first technical victory and put the 200-hour moving average at 0.5550 in play. Buyers would need to clear that second moving average to take more control. Until then, the sellers keep the edge.",
-    "On November 10, the break below the moving averages shifted the bias lower. On November 11, the bounce back to the 200-hour moving average gave sellers a level to lean against. They could define their risk against that line. If the price had gotten back above it and held, the reason for leaning against it would have weakened.",
-    "The same thinking applies at 0.54808 today. Buyers leaning against the low can define their risk on a break below it. If the floor gives way and the price later bounces back to 0.54808, watch how it reacts. If sellers cap that bounce, the old floor starts to act as resistance. If buyers reclaim it and hold above it, the break may have failed. That retest can tell you which side is gaining control."
-   ]
-  },
-  {
-   "ts": 1795028600.0,
-   "title": "FOMC Minutes: A couple of participants noted a hike of more than 25 bps could warrant consideration in December",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/fomc-minutes-a-couple-of-participants-noted-a-hike-of-more-than-25-bps-could-warrant-consideration-in-december/",
-   "t": "19 Nov \u00b7 12:03 AM",
-   "body": [
-    "It sounds like Waller isn't alone in the 50 basis point hike camp.",
-    "The minutes show that the 10-2 vote understated how hawkish this meeting was. In Fed language \u201csome\u201d means more than \u201ca few,\u201d so Cook and Hammack had company among the non-voters. Add the participants who called it a close call and the bloc leaning toward a hike in October was substantial.",
-    "This was a conditional hold. Policymakers said outright that market pricing for December was doing part of the work, and several said that alignment was what made it safe to wait. Some of the hawks only accepted a hold because markets were already pricing more hikes.",
-    "The most important line is the one about more than 25 bps. A couple of participants said a bigger move could be considered if the inflation data came in unfavorable, and the October CPI did exactly that. Waller set a 0.3% core threshold for 50 bps, and the report met it. These minutes come before that report, so the case for a bigger move has only strengthened since.",
-    "The dovish argument rests on financial conditions. Mortgage rates are up, junk spreads have widened sharply, bank shares fell hard, and the market is taking a harder look at AI financing. A couple of officials argued for a gradual approach so households and businesses can adjust. That\u2019s the case for 25 bps in December, but in these minutes it\u2019s the minority view.",
-    "The market has 62 bps of hikes priced over the next three meetings, and nothing in these minutes argues against that. If anything, the debate has moved from whether the Fed hikes in December to how much with 27 bps priced in right now and 62 bps at the next three meetings."
-   ]
   }
  ],
  "tweets": [
@@ -599,6 +596,6 @@
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets google-news: HTTP Error 503: Service Unavailable"
  ]
 }
