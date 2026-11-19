@@ -82,6 +82,7 @@ def text(ev, platform="whatsapp"):
         ]
         if rr(s):
             lines.append("Risk : reward {}".format(rr(s)))
+        lines.append("📌 Move SL to breakeven after 100 pips")
         if s.get("date"):
             lines += ["", "🕒 " + str(s["date"])]
     elif k == "tp":
