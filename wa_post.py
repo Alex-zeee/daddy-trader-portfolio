@@ -1,11 +1,11 @@
 """Daddy Trader — signals ko WhatsApp channel par bhejna (Whapi.Cloud ke zariye).
 
 signals.py naya signal ya TP/SL nateeja `.wa_events.json` mein likhta hai.
-Ye script unhein channel par post karti hai. Har message ke saath card
-(tasveer, signal_card.py se) jaata hai; tasveer na ban sake to sirf likhai.
-Yehi card Facebook page par bhi jaata hai (fb_post.py, FB_PAGE_TOKEN ho to).
-WhatsApp par card ke neeche sirf link (website, Facebook, TikTok); card na bane to poori likhai + link.
-Facebook par bhi card ke neeche sirf link (WhatsApp channel, website, TikTok). Link links.py mein hain.
+Ye script unhein channel par post karti hai. WhatsApp par SIRF likha hua
+msg jaata hai (Entry / Stop loss / Take profit) — koi card/tasveer nahi.
+Card (tasveer, signal_card.py se) sirf Facebook page par jaata hai
+(fb_post.py, FB_PAGE_TOKEN ho to), us ke neeche sirf link.
+WhatsApp wale msg ke neeche bhi link (website, Facebook, TikTok). Link links.py mein hain.
 
 GitHub Secrets (Settings -> Secrets -> Actions):
   WHAPI_TOKEN    Whapi.Cloud ka token (zaroori)
@@ -13,7 +13,7 @@ GitHub Secrets (Settings -> Secrets -> Actions):
   WA_NOTIFY_TO   jin numbers par signal ki copy jaye, comma se alag (na ho to Ali ka apna number)
 Token na ho to script chup chaap kuch nahi karti, baqi bot chalta rehta hai.
 """
-import base64, json, os, sys, time, urllib.request, urllib.error
+import json, os, sys, time, urllib.request, urllib.error
 
 import links
 
@@ -116,18 +116,9 @@ def card(ev):
         return None
 
 
-def send(to, ev, media):
+def send(to, ev):
+    """WhatsApp par sirf likha hua msg — koi card/tasveer nahi."""
     who = "channel" if to == CHANNEL else "number"
-    if media:
-        try:
-            # card par signal pehle se likha hai: neeche sirf link (website, Facebook, TikTok)
-            call("POST", "/messages/image", {"to": to, "media": media, "caption": links.footer("whatsapp")})
-            print("whatsapp: posted card", ev["kind"], "->", who)
-            return
-        except urllib.error.HTTPError as e:
-            print("whatsapp: card error", e.code, e.read()[:300], "- ab sirf likhai")
-        except Exception as e:
-            print("whatsapp: card error", e, "- ab sirf likhai")
     try:
         call("POST", "/messages/text", {"to": to, "body": text(ev)})
         print("whatsapp: posted", ev["kind"], "->", who)
@@ -167,8 +158,8 @@ def main():
         targets = []
     first = True
     for ev in events:
-        png = card(ev)
-        media = "data:image/png;base64," + base64.b64encode(png).decode() if png else None
+        # card sirf Facebook ke liye banta hai; WhatsApp par sirf likha hua msg jaata hai
+        png = card(ev) if fb else None
         if fb:
             # card par signal likha hai: neeche sirf link; card na bane to poori likhai + link
             fb_post.post(png, links.footer("facebook") if png else text(ev, "facebook"))
@@ -176,7 +167,7 @@ def main():
             if not first:
                 time.sleep(15)  # WhatsApp spam se bachne ke liye faasla
             first = False
-            send(to, ev, media)
+            send(to, ev)
 
 
 if __name__ == "__main__":
