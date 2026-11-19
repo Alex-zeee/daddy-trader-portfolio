@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 19:31 PKT",
+ "updated": "19-11-2026 19:46 PKT",
  "gold": {
-  "price": 3711.97,
-  "open": 3770.98,
-  "high": 3775.58,
+  "price": 3711.94,
+  "open": 3764.91,
+  "high": 3769.63,
   "low": 3695.08,
-  "chg": -1.56,
+  "chg": -1.41,
   "src": "XAUUSD Spot",
   "spark": [
-   3705.07,
    3698.54,
    3712.07,
    3709.03,
@@ -55,14 +54,44 @@
    3713.54,
    3708.31,
    3709.1,
-   3711.97
+   3711.84,
+   3711.94
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 45.36,
+   "chg": 0.8,
+   "spark": [
+    57.422,
+    54.764,
+    53.711,
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    45.36
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.634,
-   "chg": -0.22,
+   "price": 103.662,
+   "chg": -0.19,
    "spark": [
     101.78,
     101.61,
@@ -85,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.634
+    103.662
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.74,
-   "chg": 0.58,
+   "price": 83.83,
+   "chg": 0.68,
    "spark": [
     97.15,
     99.47,
@@ -114,7 +143,7 @@
     85.72,
     86.01,
     83.26,
-    83.74
+    83.83
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.1002,
-   "chg": 0.09,
+   "price": 1.0999,
+   "chg": 0.05,
    "spark": [
     1.1227,
     1.1235,
@@ -172,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.1002
+    1.0999
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3156,
-   "chg": -0.37,
+   "price": 1.3146,
+   "chg": -0.45,
    "spark": [
     1.3373,
     1.3396,
@@ -201,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3156
+    1.3146
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.855,
-   "chg": 0.22,
+   "price": 159.879,
+   "chg": 0.24,
    "spark": [
     158.268,
     158.132,
@@ -230,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.855
+    159.879
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1808.38,
-   "chg": 1.89,
+   "price": 1807.71,
+   "chg": 1.86,
    "spark": [
     1783.91,
     1776.3,
@@ -285,13 +314,13 @@
     1805.38,
     1804.06,
     1811.59,
-    1808.38
+    1807.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63846.4,
-   "chg": 1.37,
+   "price": 63936.6,
+   "chg": 1.51,
    "spark": [
     64045.1,
     63677.6,
@@ -340,7 +369,7 @@
     63878.1,
     63808.5,
     63968.3,
-    63846.4
+    63948.6
    ]
   }
  ],
@@ -381,25 +410,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795098711.237489,
+   "ts": 1795099609.602568,
+   "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
+   "t": "19 Nov \u00b7 07:46 PM"
+  },
+  {
+   "ts": 1795099609.602568,
    "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604",
-   "t": "19 Nov \u00b7 07:31 PM"
+   "t": "19 Nov \u00b7 07:46 PM"
   },
   {
-   "ts": 1795098711.237489,
+   "ts": 1795099609.602568,
    "title": "Gold floats around 14-month low amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 07:31 PM"
-  },
-  {
-   "ts": 1795098711.237489,
-   "title": "Oil prices edge higher as report says Trump considering more Iran strikes",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "19 Nov \u00b7 07:31 PM"
+   "t": "19 Nov \u00b7 07:46 PM"
   },
   {
    "ts": 1795095021.0,
@@ -541,7 +570,7 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa21jekotRVpLZ2lOM0FOOU93SmlTNTVyUFNweGRfeEcwZmNFUWpxMi1WSmY5NlRRYTNBSGhmQTBtZHZ0QURKNjZheDc5MnFVQ3p2SXhaYmN6VXNPUTF6QnRVVTFGRHdZNkJwcEhEQVJKUG50Y3dIeW8xQXhMUGRTaFoyazh3RUxiRGhncjRnMVNBSGNSdU96dU9XUVBrUdIBowFBVV95cUxQYTFHZ29wSHNyS2t1cGQwZG51U1V1QTdhb2NkenJPQU1wMUtHdjFuRFMtYXo0Rm1sWmFXRXNlV04tZmlPSXJ1cUNQblprQ3lsU0hXUV9xNGlXdFB0TW1hZTM4Wm1MT0ZGMWFDX2I4Z1E1QmlSSlQxOU16QVNoQ2thS2ltWTFLa3h0TXZ5R1ZobTJSeVN3MTNxVno4bzV5SjYzVi1j?oc=5"
   },
   {
-   "ts": 1795045137.0,
+   "ts": 1795045454.0,
    "title": "US FOMC Meeting Minutes",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJUzN4M2FodXAyM2M5MmVpR1diaDhobzU1dktmS1BBeVJiNUxhNGl6d2Ffd0NJLUpsVnl6TkE1N08tRS1FZHJNbW92TENuREMwb2FuTjVUOE5qcjhzYUs2OHdlSTE3SGRIam5FRGItb0lXbnM?oc=5"
