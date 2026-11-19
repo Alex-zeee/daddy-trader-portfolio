@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 04:31 PKT",
+ "updated": "20-11-2026 04:46 PKT",
  "gold": {
-  "price": 3626.71,
-  "open": 3742.77,
+  "price": 3606.71,
+  "open": 3740.03,
   "high": 3758.13,
-  "low": 3620.96,
-  "chg": -3.1,
+  "low": 3591.41,
+  "chg": -3.56,
   "src": "XAUUSD Spot",
   "spark": [
-   3720.7,
    3716.47,
    3718.07,
    3712.27,
@@ -55,14 +54,15 @@
    3628.33,
    3623.01,
    3626.08,
-   3626.71
+   3604.0,
+   3606.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.855,
-   "chg": -4.76,
+   "price": 42.665,
+   "chg": -5.19,
    "spark": [
     57.422,
     54.764,
@@ -85,7 +85,7 @@
     46.785,
     47.288,
     44.999,
-    42.855
+    42.665
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 83.02,
-   "chg": -0.29,
+   "price": 82.9,
+   "chg": -0.43,
    "spark": [
     97.15,
     99.47,
@@ -143,7 +143,7 @@
     85.72,
     86.01,
     83.26,
-    83.02
+    82.9
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0972,
-   "chg": -0.19,
+   "price": 1.0973,
+   "chg": -0.18,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0972
+    1.0973
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3087,
-   "chg": -0.89,
+   "price": 1.309,
+   "chg": -0.87,
    "spark": [
     1.3373,
     1.3396,
@@ -230,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3087
+    1.309
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.702,
-   "chg": 0.12,
+   "price": 159.669,
+   "chg": 0.1,
    "spark": [
     158.268,
     158.132,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.702
+    159.669
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1748.32,
-   "chg": -1.49,
+   "price": 1753.59,
+   "chg": -1.19,
    "spark": [
     1818.62,
     1800.98,
@@ -314,13 +314,13 @@
     1759.2,
     1739.31,
     1758.46,
-    1748.32
+    1753.59
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61763.6,
-   "chg": -1.94,
+   "price": 61897.3,
+   "chg": -1.73,
    "spark": [
     64719.5,
     64235.2,
@@ -369,7 +369,7 @@
     62055.0,
     61484.9,
     62108.5,
-    61768.5
+    61897.3
    ]
   }
  ],
@@ -394,25 +394,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795131106.03926,
+   "ts": 1795132009.58658,
    "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 04:31 AM"
+   "t": "20 Nov \u00b7 04:46 AM"
   },
   {
-   "ts": 1795131106.03926,
+   "ts": 1795132009.58658,
    "title": "Canada sees little US movement on tariff relief, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/canada-sees-little-us-movement-on-tariff-relief-sources-say-5040196",
-   "t": "20 Nov \u00b7 04:31 AM"
+   "t": "20 Nov \u00b7 04:46 AM"
   },
   {
-   "ts": 1795131106.03926,
+   "ts": 1795132009.58658,
    "title": "Spot gold hits over 14-month low amid Fed rate hike certainty, AI trade rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 04:31 AM"
+   "t": "20 Nov \u00b7 04:46 AM"
+  },
+  {
+   "ts": 1795131923.0,
+   "title": "Japan reports cooler-than-expected core inflation in October of 2.2% \u2014 but highest this year so far",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+   "t": "20 Nov \u00b7 04:45 AM",
+   "body": [
+    "Core inflation in Japan soared to a fresh high in 2026, coming in at 2.2% in October as higher energy prices and their knock-on effects pushed up prices in the wider economy.",
+    "Core inflation, which strips out prices of food, was lower than the 2.3% expected by Reuters-polled economists, but was higher than the 2.1% in prior month.",
+    "Headline inflation came in at 2.3% compared with September's 2.1%, while the so-called \"core-core\" inflation, which strips out prices of fresh food and energy, dipped slightly to 2.2% from 2.4% in the month before.",
+    "Energy subsidies for households expired in September, exposing consumers to higher energy prices brought about by the Iran war. Japan has reportedly approved reintroduction of energy subsidies in December to stave off higher imported energy prices as higher prices crimp growth, hitting consumption and net exports.",
+    "October inflation reading is likely to push the Bank of Japan toward another rate hike in December, despite an unexpected contraction in economic growth in the third quarter. Data from LSEG indicates that there is a 75% chance of a 25 basis point hike from the Bank of Japan.\"The BOJ is likely to look through the temporary weakness in 3Q GDP and focus instead on underlying inflation and wage dynamics,\" Ma Tieying, senior economist at DBS Group Research, wrote in a Monday note."
+   ]
   },
   {
    "ts": 1795127405.0,
@@ -529,21 +543,15 @@
     "PBoC loan prime rates: an 18th hold expected for a fading benchmark",
     "China\u2019s loan prime rates are due at 01:15 GMT (20:15 US Eastern). In a Reuters survey of 28 market participants, 23 expect the one-year LPR to hold at 3.0% and the five-year at 3.5%. That would be an 18th consecutive month unchanged. Five respondents see a cut to one or both rates, the first break from unanimous no-change forecasts in recent months. Citigroup analysts see a November cut as implausible and expect rates to stay on hold through 2026, followed by two 10 basis point cuts in 2027."
    ]
-  },
-  {
-   "ts": 1795122016.0,
-   "title": "Fed\u2019s Goolsbee says he sees no clear path back to 2% inflation",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/fed-s-goolsbee-says-he-sees-no-clear-path-back-to-2-inflation/",
-   "t": "20 Nov \u00b7 02:00 AM",
-   "body": [
-    "Goolsbee\u2019s comments on inflation, interest rates and AI investment crossed the wires.",
-    "The takeaway is hawkish. Goolsbee sees a sizable demand component to inflation, which makes it harder for the Fed to look through the recent price pressure. Businesses are already reporting higher costs where they compete with data centers for components, and he sees a risk that the economy has trouble absorbing the current pace of investment without overheating.",
-    "Services inflation is the barometer to watch. If it stays sticky even as energy pressures ease, that would strengthen the case that demand is keeping inflation elevated and give the Fed more reason to tighten. If services inflation cools, the case for a steeper rate path weakens."
-   ]
   }
  ],
  "tweets": [
+  {
+   "ts": 1795124700.0,
+   "title": "Kalshi hires streamer Cliff Savage to \u2018research\u2019 Grand Theft Auto 6 for six figures",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcmtWblhiaVBCQmFVcHNOR0QxTXFNQ3JhbUxvOWozOG94NTVwd09aOWx6WWxld2QxcWZha0NVaGZ1Y09Sd0dJMldmNFpQQ1RMMXRVUHg3WHNFQ3lFckFnQVFHYTR3YTJpcDZMa0xLQ2toWDFGTWRRNmptbm5ldldUYnRRSERuUE5ZbEpXbm42NTk3SmMtS08wYzZR0gGfAUFVX3lxTE1RRDRiRHhHT0ZNNmpUYXpsM09PZl9jWXNXTUM4ZDlpdUJ4d1p1SDN1VXg1bkxSQ05ubmxLWEQyU0lFRjFORDRqUGpmNmdTNm1SMzRCSVlfaFJIRTRBS0JPdVpVekZzYjF6Q21zNlh6eTJPcUtLSUZtNXJtMWZhU0ZPZ1BJYktGSkpSZzRuMF8wSUROOUM2RVlmVkw1ZjJCWQ?oc=5"
+  },
   {
    "ts": 1795115696.0,
    "title": "BoE's Greene: Need to 'anchor' expectations at 2% target",
@@ -573,12 +581,6 @@
    "title": "US Unemployment Insurance Weekly Claims",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXotalRWX2lLOUgybV80WUlUQUxjRXFrN1UxOEJZUEhtck5RQndsazg2NGYxaGpoMGM1Z1VxbkNPZlMtc1h0U2c2Q09zVHdvRXhSR2ZKbnY2UXU4VWxZYVQzNGpZN0xrZ3R3eUVGemlwbXRoWTQ2dmt4b1hnZHJQcUtwRTRzYzY20gGOAUFVX3lxTFAwcUk0WjhOaXVhME9XT2xqR0tnbmJva2RxZUhqNk1sR0tWOVpLRlVSM2ZPaEsxZE9FR0tVU1dJZExpN3A3WEQxdjBMb2FVVmNrSDNYZWYtNFdfcVBKN2R6SWlZa1ROcWV3NFNVXzlSNlc2MTY4LXdmZnk4X25COEd0TDFWSGFXbzdsZklWVEE?oc=5"
-  },
-  {
-   "ts": 1795091535.0,
-   "title": "White House Asked How Iran Would Take Strike Scenarios: Axios",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWpYNXo2QnhYRFpKaVZvcGU4Mkl1TEtZZlhpT1BYX3VTNDhrUVNMS09zRlpJV0U4Zi16Sk5LSHFLVU8zZVNzZzdiQUR5LU1MVVNacnlLcm0tdU9TRTJndmVnTGxhOEdKR1I4TDhFM1FLSTNOZjg1ZXp1UnVkZjdHNEt5SVZqMFFOdmNvclNjNNIBlAFBVV95cUxPUTB6anBfemY4UldoV1Qtb092ZlpHdzVMQ05fR1VQc2t6RHpXbmc3c09yVlkxMTVQTm1wdl9fVl8wTmtuTkdRNFl0bExUaUx2SFExNFFGXzVKMy1ncUs2ckh0aUt2Vm5ES1ZWSnBsZWkxbXRfaUFKbkpmTVZNR2llVVJBQkJNZWwyZUVPbWtubjFDT2ly?oc=5"
   }
  ],
  "sentiment": {
