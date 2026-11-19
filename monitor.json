@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 04:46 PKT",
+ "updated": "19-11-2026 05:01 PKT",
  "gold": {
-  "price": 3743.07,
-  "open": 3852.43,
-  "high": 3852.43,
+  "price": 3740.23,
+  "open": 3839.77,
+  "high": 3842.02,
   "low": 3719.19,
-  "chg": -2.84,
+  "chg": -2.59,
   "src": "XAUUSD Spot",
   "spark": [
-   3771.1,
    3766.55,
    3753.45,
    3746.12,
@@ -55,14 +54,15 @@
    3734.28,
    3740.9,
    3742.88,
-   3743.07
+   3740.12,
+   3740.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.37,
-   "chg": -4.06,
+   "price": 45.38,
+   "chg": -4.03,
    "spark": [
     57.706,
     57.422,
@@ -85,7 +85,7 @@
     49.031,
     46.785,
     47.288,
-    45.37
+    45.38
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 82.06,
-   "chg": -4.59,
+   "price": 82.01,
+   "chg": -4.65,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    82.06
+    82.01
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0976,
-   "chg": -0.2,
+   "price": 1.0975,
+   "chg": -0.22,
    "spark": [
     1.1216,
     1.1227,
@@ -201,13 +201,13 @@
     1.105,
     1.1025,
     1.0998,
-    1.0976
+    1.0975
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3148,
-   "chg": -0.28,
+   "price": 1.3146,
+   "chg": -0.3,
    "spark": [
     1.3308,
     1.3373,
@@ -230,13 +230,13 @@
     1.3231,
     1.3216,
     1.3185,
-    1.3148
+    1.3146
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.404,
-   "chg": -0.07,
+   "price": 159.358,
+   "chg": -0.1,
    "spark": [
     158.523,
     158.268,
@@ -259,15 +259,14 @@
     159.875,
     159.78,
     159.523,
-    159.404
+    159.358
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1777.31,
-   "chg": -2.49,
+   "price": 1771.95,
+   "chg": -0.16,
    "spark": [
-    1813.13,
     1819.12,
     1813.03,
     1830.94,
@@ -314,15 +313,15 @@
     1751.71,
     1762.31,
     1755.18,
-    1777.31
+    1774.77,
+    1771.95
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63025.1,
-   "chg": -2.85,
+   "price": 62837.0,
+   "chg": -0.23,
    "spark": [
-    64566.5,
     64684.8,
     64438.0,
     64992.2,
@@ -369,7 +368,8 @@
     62539.3,
     62257.6,
     62166.6,
-    63019.9
+    62984.6,
+    62837.0
    ]
   }
  ],
@@ -410,18 +410,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795045615.184375,
+   "ts": 1795046517.477617,
    "title": "Spot gold sheds over 3%, drops below $3,800/oz for first time since September 2025",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 04:46 AM"
+   "t": "19 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795045615.184375,
+   "ts": 1795046517.477617,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "19 Nov \u00b7 04:46 AM"
+   "t": "19 Nov \u00b7 05:01 AM"
   },
   {
    "ts": 1795037617.0,
@@ -591,13 +591,14 @@
   }
  ],
  "sentiment": {
-  "value": 11,
+  "value": 10,
   "label": "Extreme Fear"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
