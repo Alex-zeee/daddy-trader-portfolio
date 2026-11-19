@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 00:01 PKT",
+ "updated": "20-11-2026 00:16 PKT",
  "gold": {
-  "price": 3681.31,
-  "open": 3729.5,
+  "price": 3675.05,
+  "open": 3728.07,
   "high": 3758.13,
   "low": 3669.19,
-  "chg": -1.29,
+  "chg": -1.42,
   "src": "XAUUSD Spot",
   "spark": [
-   3735.05,
    3732.85,
    3736.83,
    3740.99,
@@ -55,14 +54,15 @@
    3679.48,
    3679.15,
    3680.07,
-   3681.31
+   3674.23,
+   3675.05
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.255,
-   "chg": -1.65,
+   "price": 44.175,
+   "chg": -1.83,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    44.255
+    44.175
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.85,
-   "chg": -0.01,
+   "price": 103.888,
+   "chg": 0.03,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.85
+    103.888
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.87,
-   "chg": -0.47,
+   "price": 83.07,
+   "chg": -0.23,
    "spark": [
     97.15,
     99.47,
@@ -143,13 +143,13 @@
     85.72,
     86.01,
     83.26,
-    82.87
+    83.07
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.052,
-   "chg": -0.28,
+   "price": 5.054,
+   "chg": -0.24,
    "spark": [
     5.146,
     4.953,
@@ -172,13 +172,13 @@
     5.121,
     5.103,
     5.066,
-    5.052
+    5.054
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0982,
-   "chg": -0.1,
+   "price": 1.0978,
+   "chg": -0.13,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0982
+    1.0978
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3106,
-   "chg": -0.75,
+   "price": 1.3102,
+   "chg": -0.78,
    "spark": [
     1.3373,
     1.3396,
@@ -230,12 +230,12 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3106
+    1.3102
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.747,
+   "price": 159.743,
    "chg": 0.15,
    "spark": [
     158.268,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.747
+    159.743
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1772.46,
-   "chg": -0.13,
+   "price": 1773.61,
+   "chg": -0.06,
    "spark": [
     1798.23,
     1804.28,
@@ -314,13 +314,13 @@
     1766.98,
     1769.3,
     1775.75,
-    1772.46
+    1773.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62718.5,
-   "chg": -0.42,
+   "price": 62621.3,
+   "chg": -0.58,
    "spark": [
     63911.0,
     64289.6,
@@ -369,7 +369,7 @@
     62729.5,
     62683.5,
     62817.6,
-    62718.4
+    62621.3
    ]
   }
  ],
@@ -394,18 +394,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795114908.035745,
+   "ts": 1795115805.964759,
    "title": "Gold floats around 14-month low amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 12:01 AM"
+   "t": "20 Nov \u00b7 12:16 AM"
   },
   {
-   "ts": 1795114908.035745,
+   "ts": 1795115805.964759,
    "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 12:01 AM"
+   "t": "20 Nov \u00b7 12:16 AM"
+  },
+  {
+   "ts": 1795113560.0,
+   "title": "Trump weighs another strike on Iran as Hormuz shipping risks mount. Returns to Washington after overseas trip.",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/trump-weighs-another-strike-on-iran-as-hormuz-shipping-risks-mount-returns-to-washington-after-overseas-trip/",
+   "t": "19 Nov \u00b7 11:39 PM",
+   "body": [
+    "Geopolitics is building as President Trump is heading back to Washington after wrapping up talks with Chinese President Xi Jinping and Russian President Vladimir Putin in Shenzhen. Ukraine was a focus coming out of the meetings.",
+    "Trump said he and Xi agreed that Iran should fully reopen the Strait of Hormuz and should not acquire a nuclear weapon. Trump also urged China to help end the war in Ukraine. Beijing\u2019s readout emphasized Taiwan and Xi\u2019s call for better communication on trade and economic issues.",
+    "Ukraine came up in Trump\u2019s one-on-one with Putin and again in the three-way talks. Afterward, US envoy Jared Kushner said Russia was comfortable with the idea of NATO-style security guarantees for Ukraine. Putin separately ruled out direct talks with Kyiv, citing Ukraine\u2019s strike on the Kerch Bridge",
+    "The leaders agreed to hold talks on reducing nuclear risks and preventing proliferation. They also called for increasing supplies of refined petroleum products and keeping energy flows stable. The joint declaration gave no production targets or timeline and made no mention of either war.",
+    "US President Donald Trump is considering another strike on Iran, Israel\u2019s Channel 12 reported, citing an Israeli source. The broadcaster said Trump is in no rush to make a decision and that any strike would be carried out in cooperation with Israel. It said potential targets could include nuclear facilities, infrastructure and senior officials.",
+    "US Energy Secretary Chris Wright said Wednesday saw by far the largest flow out of the Strait of Hormuz. Separately, i24NEWS, citing unnamed sources, reported that Iran had become more aggressive in recent days and was using cruise missiles against ships passing through the strait. The report did not provide details on which vessels were affected or whether they sustained damage.",
+    "The Houthis also said on Telegram that they would release a statement at 1:30 p.m. ET about what they described as military operations deep inside Saudi Arabia. The announcement itself offered no details about the operations or any impact on energy infrastructure.",
+    "For WTI and Brent, the next thing to watch is whether Wednesday\u2019s larger flow through Hormuz can be sustained. Continued improvement would help ease some of the supply concerns. A renewed slowdown in traffic or confirmed damage to energy infrastructure could put the geopolitical risk premium back in focus.",
+    "On Ukraine, US special envoy Jared Kushner said Trump came away from the Shenzhen meeting believing peace was achievable. Kushner said there had been progress on a postwar economic plan and that Russia had agreed to engage in a multilateral format with European countries. He added that Trump wants Europe alongside him in reaching a deal.",
+    "Kushner said Trump was open to an Article 5-style security guarantee for Ukraine, provided it served US interests. Any agreement would still have to spell out what the US and Europe would commit to if Ukraine came under attack again.",
+    "Trump said he was heading back to Washington from China and would hold a White House news conference Friday at noon ET. He said he would also discuss trade deals with Thailand, the Philippines and other countries."
+   ]
   },
   {
    "ts": 1795111164.0,
@@ -529,29 +549,6 @@
     "Scott Gardner, investment strategist at JPMorgan Personal Investing, said in a note following the release that a recent climb down in oil prices following the U.S. midterm elections could offer some relief in future inflation readings.",
     "But he added: \"While this may be a short-term reprieve for motorists, the broader outlook for UK inflation remains challenging as we approach 2027. After hiking interest rates at the start of the month, the Bank will be wary of a sustained uptick in inflation that could be here to stay.\""
    ]
-  },
-  {
-   "ts": 1794929713.0,
-   "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-   "t": "17 Nov \u00b7 08:35 PM",
-   "body": [
-    "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.",
-    "\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and how the economy could turn, and what that means for interest rates and inflation, isn't yet clear.",
-    "The meeting of Warsh's AI task force saw the new Fed chairman publicly asking the questions Americans will ultimately expect him to answer. He hinted at a few of his private views on whether white-collar workers could soon face massive job losses, but he largely left the speculation to an array of experts he has assembled to advise the Fed.",
-    "With the technology racing ahead, Warsh won't be able to put off giving his own answers much longer. AI lab Anthropic plans to price the shares for its initial public offering on Wednesday and could raise as much as $64 billion at a $1.4 trillion valuation. Vast spending from AI firms is prompting the Fed to contemplate raising interest rates in December to slow down the rate of price increases as the tech sector heats up the economy.",
-    "Meanwhile Americans are souring on some aspects of the technology. The Nov. 3 midterms saw voters enact an array of state-level measures to slow down construction of the data centers that are essential to powering AI.",
-    "Warsh moderated three out of four sessions at Monday's event and was involved in selecting the speakers. Among them was one of the few prominent Democrats who was willing to speak out against that anti-data center trend.",
-    "It is \"a very troubling sign\" that so many anti-data center measures passed in the midterms, Gina Raimondo said. She is a former secretary of Commerce under President Joe Biden and a former governor of Rhode Island.",
-    "Stopping AI \"would be very bad for America\" and for the people who voted for the measures, Raimondo said.",
-    "Warsh didn't say whether he shares that view, and how it would translate into monetary policy isn't exactly clear.",
-    "The event was an unusual one for the Fed. The central bank employs a small army of Ph.D. economists who can rapidly weigh in on anything affecting the U.S. and global economies. But in keeping with his long-standing critiques of the Fed as insular and outdated, Warsh has chosen to draw expertise from outside the institution to help it figure out how to think about what AI will do to productivity and jobs.",
-    "Warsh has assembled a task force on that issue, alongside four others devoted to aspects of Fed policymaking.",
-    "The public heard Monday from one of the three official members of the task force: venture capitalist Marc Andreessen. Warsh went to Stanford University with Andreessen's wife, and the two have been longtime friends. Another task force member, Stanford economist Chad Jones, is on leave and working at Anthropic and couldn't speak during the company's blackout period ahead of the IPO. The third, Xbox CEO Asha Sharma, didn't attend the event.",
-    "Andreessen is hugely optimistic about the promise of AI as a technology, but believes the government won't let Americans experience its full effects. Heavy regulation in areas such as healthcare and education mean technology can't replace people's jobs in those sectors, he said.",
-    "\"To the extent our economy is a free market economy, then maybe you could see the, let's say, extremely rapid displacement scenarios people are talking about,\" Andreessen said. \"But we've mostly outlawed the kind of job transition that \u2026 both the utopians the doomers talk about.\""
-   ]
   }
  ],
  "tweets": [
@@ -586,10 +583,10 @@
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV3VSOHVvbjNSM09KOWZLdWtoSmk0VmNSV0FDc0YySTN4WmRLdlhhWnBmT0p1WEdSb0V1c0VfMUFNSW5DQlRXejBGajdhX3hnVlFQaHNJbWdBVDhTTElnMk9fc2ctZmREVUhTbC16MG9pdmotV0xxSGpwUDlmMFkyY0F0MHp6ZkYtcWNzdmM5WHV1RXhh0gGaAUFVX3lxTE1nazBTU1lGa0Z4S0VGMzllZGw4TlBFdUxITktnNG9KVlY3SkpoNGtZV3NBb01WNUtQSlBWNE9vdFRLamJlU1BYM0RhY2NhYWY5QUN6UEpOQzRzM0pkRmpnS2tQdU5GSG1hdGozV0FITC0xX2p0a1YwelB2MkpHa2o2R1RjbjluQ2xRUTJrUGZnOHNvNTJ6NWJpT0E?oc=5"
   },
   {
-   "ts": 1795045420.0,
-   "title": "US FOMC Meeting Minutes",
+   "ts": 1795063440.0,
+   "title": "Kremlin Says Putin Emerged from Talks with Trump in an Excellent Mood",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJUzN4M2FodXAyM2M5MmVpR1diaDhobzU1dktmS1BBeVJiNUxhNGl6d2Ffd0NJLUpsVnl6TkE1N08tRS1FZHJNbW92TENuREMwb2FuTjVUOE5qcjhzYUs2OHdlSTE3SGRIam5FRGItb0lXbnM?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMW1oOC05V05vcTZjM21LY05uc216R2JFdVM1Rm5GdUtZVzkwRFRQSW5JMTdveFozRjhsMlNQSG5Va2dXQWpiYk04dUgxbDRaUXA1V3g5UHlMVWpDcEZra2xkYkVNZm9SRUZHUEU0cjJjdnJCR1dlZkFDZGhMaVp3djJjeHVtQlU4TWtWci1aZkNIdmNI0gGaAUFVX3lxTE94eU00SGVqQkdsMHUtU1FHRUVtbkFBWWpKNFB5aTFuY0owVmZPRDlFQm12WjUwLUY0M3cwN01wQnZ5Qkxwd1JQSmVIcHBGRXdDM0N2TGJFU0tLblY5eHkxV2NORUtzZHp4LWZLemRFdzJxZE4zTDRhWWxPa09MTTZzY2pKQ2xmbW1raU01TERkQk5INFR6VHVYNVE?oc=5"
   }
  ],
  "sentiment": {
