@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 19:01 PKT",
+ "updated": "19-11-2026 19:16 PKT",
  "gold": {
-  "price": 3715.53,
-  "open": 3780.02,
+  "price": 3710.82,
+  "open": 3777.8,
   "high": 3780.87,
   "low": 3695.08,
-  "chg": -1.71,
+  "chg": -1.77,
   "src": "XAUUSD Spot",
   "spark": [
-   3747.17,
    3735.31,
    3705.07,
    3698.54,
@@ -55,14 +54,15 @@
    3722.78,
    3712.33,
    3713.54,
-   3715.53
+   3708.31,
+   3710.82
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.1,
-   "chg": 0.22,
+   "price": 45.155,
+   "chg": 0.35,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    45.1
+    45.155
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.674,
-   "chg": -0.18,
+   "price": 103.644,
+   "chg": -0.21,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.674
+    103.644
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.38,
-   "chg": 0.14,
+   "price": 83.49,
+   "chg": 0.28,
    "spark": [
     97.15,
     99.47,
@@ -143,13 +143,13 @@
     85.72,
     86.01,
     83.26,
-    83.38
+    83.49
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.085,
-   "chg": 0.38,
+   "price": 5.076,
+   "chg": 0.2,
    "spark": [
     5.146,
     4.953,
@@ -172,13 +172,13 @@
     5.121,
     5.103,
     5.066,
-    5.085
+    5.076
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.1001,
-   "chg": 0.07,
+   "price": 1.1006,
+   "chg": 0.12,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.1001
+    1.1006
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3156,
-   "chg": -0.37,
+   "price": 1.3163,
+   "chg": -0.31,
    "spark": [
     1.3373,
     1.3396,
@@ -230,12 +230,12 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3156
+    1.3163
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.897,
+   "price": 159.904,
    "chg": 0.25,
    "spark": [
     158.268,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.897
+    159.904
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1809.45,
-   "chg": 1.95,
+   "price": 1808.12,
+   "chg": 1.88,
    "spark": [
     1783.91,
     1776.3,
@@ -314,13 +314,13 @@
     1805.38,
     1804.06,
     1811.59,
-    1809.45
+    1808.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 63925.1,
-   "chg": 1.49,
+   "price": 63858.0,
+   "chg": 1.39,
    "spark": [
     64045.1,
     63677.6,
@@ -369,7 +369,7 @@
     63878.1,
     63808.5,
     63968.3,
-    63925.1
+    63858.0
    ]
   }
  ],
@@ -410,25 +410,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795096904.882583,
-   "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604",
-   "t": "19 Nov \u00b7 07:01 PM"
+   "ts": 1795095021.0,
+   "title": "US November Philly Fed 6.3 vs 20.0 expected",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/us-november-philly-fed-vs-20-0-expected/",
+   "t": "19 Nov \u00b7 06:30 PM",
+   "body": [
+    "This is a stagflationary report. The headline is at its lowest since May and has now fallen for three months straight, from 47.4 in August. New orders turned negative for the first time since May, the fourth consecutive decline. Meanwhile, prices are going the other way. Prices paid jumped 15 points to the highest since April, and prices received rose to 47.0, the highest since June 2022. More than 58% of firms reported higher input costs and none reported lower ones.",
+    "The special questions back that up. 56% of firms say they can see industry cost changes coming in the near term, up from 44% last quarter. Of those, 79% expect competitors to raise prices, and the median expected timing shortened to three months from four. Those price hikes are going into softer demand: 42% of firms say customers have become more price sensitive since last quarter.",
+    "The forward capex index is the other line to watch. It fell 16 points to 18.9, its third straight decline and lowest since February. Shipments and employment held up, but that\u2019s the backlog being worked down; unfilled orders are now negative."
+   ]
   },
   {
-   "ts": 1795096904.882583,
-   "title": "Gold floats around 14-month low amid Fed hike bets",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 07:01 PM"
-  },
-  {
-   "ts": 1795096904.882583,
-   "title": "Oil prices edge higher as report says Trump considering more Iran strikes",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "19 Nov \u00b7 07:01 PM"
+   "ts": 1795094477.0,
+   "title": "Morning Kickstart. Nasdaq futures rally ahead of Anthropic\u2019s debut as yields climb",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/morning-kickstart-nasdaq-futures-rally-ahead-of-anthropic-s-debut-as-yields-climb/",
+   "t": "19 Nov \u00b7 06:21 PM",
+   "body": [
+    "Anthropic priced its IPO at $83 a share, above its $70 to $78 range, and Nasdaq futures are leading the rebound this morning. The public offering totaled $81.3 billion, or $107.3 billion including the private placement, at a fully diluted valuation of roughly $1.5 trillion. Gray-market indications pointed to an opening roughly 20% to 26% above the offer price. ANT is due to start trading on Nasdaq today, with the first trade coming once the exchange\u2019s opening auction establishes a price. There\u2019s no set time.",
+    "There\u2019s plenty of growth behind the demand. Anthropic reported $33.2 billion in revenue through September, up from $2.5 billion a year earlier, and put its October annualized revenue run rate at about $81 billion. The nine-month net loss was about $104 billion, driven largely by financing-related fair-value changes. The operating loss was $1.3 billion. Once ANT opens, I\u2019ll be watching whether it holds its opening gains and whether the chip and cloud stocks hold theirs. That will tell us more about demand for the broader AI trade than the opening print alone. ipo.anthropic.com",
+    "The other side of the morning is rates. The Fed held at 3.75% to 4.00% in October, but the minutes from the meeting released yesterday (and recent comments from Fed officials) showed that almost all participants expected further hikes if the economy evolved as projected. Two saw a case for considering more than 25 basis points at the next meeting if inflation data proved unfavorable. A quarter-point move in December is already heavily priced. With the 10-year back above 5%, the question for stocks is how long the rebound can hold if yields keep pushing higher.",
+    "The dollar is up 0.37% against the yen and 0.13% against the Aussie. It\u2019s down the most against the New Zealand dollar, which is up 0.64% at 0.5526. The greenback is also lower against the Canadian dollar, euro, pound and Swiss franc.",
+    "USDJPY is at 159.92, just below the session high of 159.96. BOJ Governor Kazuo Ueda says financial conditions remain accommodative and warned that a weak yen could push underlying inflation above the 2% target. Well the JPY is weaker vs the greenback today.. In a Reuters poll, 86% of economists expected a December hike to 1.50%, and nearly 60% saw another move to 1.75% by the end of March. A December hike is already the consensus. The bigger question for the yen is whether the BOJ signals a faster pace while the Fed is also expected to tighten.",
+    "AUDUSD traded down to 0.6662 after Australia lost 43,500 jobs in October against expectations for a gain of 25,000. Unemployment rose to 4.9% versus 4.7% expected. A second straight month of job losses has taken much of the pressure off the RBA to hike again from 4.85%. Inflation above 4% complicates the case for cuts. The Aussie has recovered to 0.6708, making 0.6700 a useful barometer for whether buyers can hold the bounce. Australian Bureau of Statistics.Technically, the fall on the news took the price below the key 100 week MA at 0.6704 to a low of 0.6662. However, that low was just ahead of the 200 week MA at 0.66575. The bounce has now take the price just above the 100 week MA. Has the pair reached bottom for now? Watch what happens at the 100 week MA in the NA session.",
+    "Session lows and highs are measured against the 22-day average range.",
+    "USDCHF stands out at just over half its normal range. GBPUSD and USDJPY are around three-quarters of theirs, leaving room for the U.S. data to push either pair through a session extreme. AUDUSD and NZDUSD have already exceeded their averages.",
+    "U.S. stock-index futures are implying a higher open with the Nasdaq 100 taking clues from Anthropic IPI.",
+    "European tech shares helped lead an early rebound. Asia was mixed, with Japanese shares higher and Taiwan sharply lower. investing.com",
+    "Crude oil is up $0.69, or 0.83%, at $83.95, the high of its $82.60 to $83.95 session range. The New York Times reported that President Trump is considering renewed strikes on Iran. A decision is still pending, and the headlines remain a source of intraday risk for oil. axios.com",
+    "Gold is down 0.23% at $3,716.37, while silver is up 0.06% at $45.07 and copper is up 0.01% at $5.6690. Bitcoin is up 1.17% at $63,713, with the session high at $64,014 and the low at $62,321. The $64,000 area is the first test for buyers looking to extend the bounce.",
+    "At 8:30, I\u2019ll watch the two-year yield alongside the dollar. The market expects fewer new claims but more continuing claims. If the data surprise in the same direction across both measures, the rates reaction could give FX traders a clearer read. In the Philly Fed report, prices paid is worth a look given how much of the December debate is about inflation.",
+    "In the morning video above, I take a look at the three major currency pairs\u2014EURUSD, USDJPY and GBPUSD\u2014from a technical perspective. For each pair, I outline the bias, the risk-defining levels and the targets that would give either the buyers or sellers more control."
+   ]
   },
   {
    "ts": 1795079867.0,
@@ -500,16 +514,6 @@
    ]
   },
   {
-   "ts": 1795050930.0,
-   "title": "PBOC sets USD/ CNY reference rate for today at 6.7128 (vs. estimate at 6.6684)",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7128-vs-estimate-at-6-6684/",
-   "t": "19 Nov \u00b7 06:15 AM",
-   "body": [
-    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
-   ]
-  },
-  {
    "ts": 1795028400.0,
    "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
    "src": "Federal Reserve",
@@ -545,6 +549,47 @@
     "Markets are currently pricing in around an 80% chance of a rate hike at the Bank of England's final meeting of the year.",
     "Scott Gardner, investment strategist at JPMorgan Personal Investing, said in a note following the release that a recent climb down in oil prices following the U.S. midterm elections could offer some relief in future inflation readings.",
     "But he added: \"While this may be a short-term reprieve for motorists, the broader outlook for UK inflation remains challenging as we approach 2027. After hiking interest rates at the start of the month, the Bank will be wary of a sustained uptick in inflation that could be here to stay.\""
+   ]
+  },
+  {
+   "ts": 1794929713.0,
+   "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+   "t": "17 Nov \u00b7 08:35 PM",
+   "body": [
+    "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.",
+    "\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and how the economy could turn, and what that means for interest rates and inflation, isn't yet clear.",
+    "The meeting of Warsh's AI task force saw the new Fed chairman publicly asking the questions Americans will ultimately expect him to answer. He hinted at a few of his private views on whether white-collar workers could soon face massive job losses, but he largely left the speculation to an array of experts he has assembled to advise the Fed.",
+    "With the technology racing ahead, Warsh won't be able to put off giving his own answers much longer. AI lab Anthropic plans to price the shares for its initial public offering on Wednesday and could raise as much as $64 billion at a $1.4 trillion valuation. Vast spending from AI firms is prompting the Fed to contemplate raising interest rates in December to slow down the rate of price increases as the tech sector heats up the economy.",
+    "Meanwhile Americans are souring on some aspects of the technology. The Nov. 3 midterms saw voters enact an array of state-level measures to slow down construction of the data centers that are essential to powering AI.",
+    "Warsh moderated three out of four sessions at Monday's event and was involved in selecting the speakers. Among them was one of the few prominent Democrats who was willing to speak out against that anti-data center trend.",
+    "It is \"a very troubling sign\" that so many anti-data center measures passed in the midterms, Gina Raimondo said. She is a former secretary of Commerce under President Joe Biden and a former governor of Rhode Island.",
+    "Stopping AI \"would be very bad for America\" and for the people who voted for the measures, Raimondo said.",
+    "Warsh didn't say whether he shares that view, and how it would translate into monetary policy isn't exactly clear.",
+    "The event was an unusual one for the Fed. The central bank employs a small army of Ph.D. economists who can rapidly weigh in on anything affecting the U.S. and global economies. But in keeping with his long-standing critiques of the Fed as insular and outdated, Warsh has chosen to draw expertise from outside the institution to help it figure out how to think about what AI will do to productivity and jobs.",
+    "Warsh has assembled a task force on that issue, alongside four others devoted to aspects of Fed policymaking.",
+    "The public heard Monday from one of the three official members of the task force: venture capitalist Marc Andreessen. Warsh went to Stanford University with Andreessen's wife, and the two have been longtime friends. Another task force member, Stanford economist Chad Jones, is on leave and working at Anthropic and couldn't speak during the company's blackout period ahead of the IPO. The third, Xbox CEO Asha Sharma, didn't attend the event.",
+    "Andreessen is hugely optimistic about the promise of AI as a technology, but believes the government won't let Americans experience its full effects. Heavy regulation in areas such as healthcare and education mean technology can't replace people's jobs in those sectors, he said.",
+    "\"To the extent our economy is a free market economy, then maybe you could see the, let's say, extremely rapid displacement scenarios people are talking about,\" Andreessen said. \"But we've mostly outlawed the kind of job transition that \u2026 both the utopians the doomers talk about.\""
+   ]
+  },
+  {
+   "ts": 1794922854.0,
+   "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+   "t": "17 Nov \u00b7 06:40 PM",
+   "body": [
+    "St. Louis Federal Reserve President Alberto Musalem indicated Tuesday that the central bank may need as many as four rate hikes in coming months, offering one of the most hawkish views yet by a Fed policymaker about the steps needed to quell inflation.",
+    "During a speech delivered in Argentina, Musalem made the case that current policy is not significantly restricting economic activity.",
+    "\"The economy will likely require several interest rate increases before the spring of 2027 to achieve 2% inflation in a timely manner,\" he said.",
+    "Musalem said the real policy rate, which subtracts the inflation rate from the Fed's target rate, needs to be between 2%-2.5% by next spring, and estimated that the current rate is about a full point below that range. That position suggests the Fed may need to hike at each of the upcoming Fed meetings in December, January, March and April.",
+    "Musalem does not get a vote on the rate-setting Federal Open Market Committee over the period where he says that the rate increases will be needed, though he does get to present views and provide input on the \"dot plot\" of individual members' expectations. He will next vote in 2028.",
+    "To be sure, Musalem noted \"an unlikely but still plausible scenario\" in which no further hikes would be needed.",
+    "\"Falling energy prices and lower shipping costs, or an increase in potential output growth driven by higher productivity growth, might ease inflation pressures such that inflation moves toward target in 18 months,\" he said. Another possibility is that demand might decelerate as spending on artificial intelligence slows.",
+    "However, he said the more likely scenario is that \"persistent strong demand and ongoing supply pressures\" combine to keep inflation above the Fed's 2% target, thus requiring further increases in the fed funds rate from its current range of 3.75%-4%.",
+    "\"It would be preferable for a higher real policy rate to happen in a balanced way, driven both by lower inflation and a higher nominal policy rate,\" he said. \"However, the nominal policy rate may need to do most of the work.\""
    ]
   }
  ],
@@ -592,7 +637,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "Investing.com: not well-formed (invalid token): line 78, column 0",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
