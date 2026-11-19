@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 23:16 PKT",
+ "updated": "19-11-2026 23:31 PKT",
  "gold": {
-  "price": 3676.32,
-  "open": 3739.86,
+  "price": 3684.47,
+  "open": 3740.08,
   "high": 3758.13,
   "low": 3669.19,
-  "chg": -1.7,
+  "chg": -1.49,
   "src": "XAUUSD Spot",
   "spark": [
-   3731.81,
    3730.57,
    3733.66,
    3735.05,
@@ -55,14 +54,15 @@
    3685.66,
    3680.8,
    3676.8,
-   3676.32
+   3679.48,
+   3684.47
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.38,
-   "chg": -1.38,
+   "price": 44.39,
+   "chg": -1.35,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    44.38
+    44.39
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.873,
-   "chg": 0.01,
+   "price": 103.855,
+   "chg": -0.0,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.873
+    103.855
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.27,
-   "chg": 0.01,
+   "price": 83.23,
+   "chg": -0.04,
    "spark": [
     97.15,
     99.47,
@@ -143,13 +143,13 @@
     85.72,
     86.01,
     83.26,
-    83.27
+    83.23
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 5.064,
-   "chg": -0.04,
+   "price": 5.048,
+   "chg": -0.36,
    "spark": [
     5.146,
     4.953,
@@ -172,7 +172,7 @@
     5.121,
     5.103,
     5.066,
-    5.064
+    5.048
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3098,
-   "chg": -0.81,
+   "price": 1.3102,
+   "chg": -0.78,
    "spark": [
     1.3373,
     1.3396,
@@ -230,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3098
+    1.3102
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.758,
-   "chg": 0.16,
+   "price": 159.803,
+   "chg": 0.19,
    "spark": [
     158.268,
     158.132,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.758
+    159.803
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1772.27,
-   "chg": -0.14,
+   "price": 1785.95,
+   "chg": 0.63,
    "spark": [
     1788.9,
     1798.23,
@@ -314,13 +314,13 @@
     1780.49,
     1766.98,
     1769.3,
-    1772.27
+    1786.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62718.1,
-   "chg": -0.42,
+   "price": 63168.0,
+   "chg": 0.29,
    "spark": [
     63675.9,
     63911.0,
@@ -369,7 +369,7 @@
     63028.9,
     62729.5,
     62683.5,
-    62718.1
+    63168.0
    ]
   }
  ],
@@ -394,18 +394,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795112209.070117,
+   "ts": 1795113103.761152,
    "title": "Gold floats around 14-month low amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "19 Nov \u00b7 11:16 PM"
+   "t": "19 Nov \u00b7 11:31 PM"
   },
   {
-   "ts": 1795112209.070117,
+   "ts": 1795113103.761152,
    "title": "Oil prices gain amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "19 Nov \u00b7 11:16 PM"
+   "t": "19 Nov \u00b7 11:31 PM"
+  },
+  {
+   "ts": 1795111164.0,
+   "title": "Fed's Goolsbee: Job market is stable, but inflation is \"way higher\" than Fed's 2% target",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/fed-s-goolsbee-job-market-is-stable-but-inflation-is-way-higher-than-fed-s-2-target/",
+   "t": "19 Nov \u00b7 10:59 PM",
+   "body": [
+    "Comments from Chicago Fed President Austan Goolsbee, a 2027 FOMC voter, crossed the wires on inflation, jobs and consumer demand.",
+    "The tone is hawkish. If tariffs are still feeding through to prices, one source of inflation may take longer to fade. At the same time, solid consumer demand gives businesses room to pass along higher costs, and a stable job market gives the Fed room to keep its focus on inflation. For traders, the question heading into December is whether the inflation data make the case for a faster pace of tightening.",
+    "Remember the Fed did nothing at the end of October meeting most likely due to the elections in early November. The minutes of the meeting were more hawkish yesterday.",
+    "In the absence of the election, would the Fed have tightened? My guess is yes. So 50 bps in December would get the Fed to what would be the normal progression given the inflation threat. If the Fed is failing on inflation, do something about it.",
+    "The market is still only implying a small 5.6% chance for a 50 bp hike in December (it has been up at about 10% recently)."
+   ]
   },
   {
    "ts": 1795100238.0,
@@ -479,25 +493,6 @@
    ]
   },
   {
-   "ts": 1795061519.0,
-   "title": "Goldman cuts KOSPI target to 7,500 but says gloom is overdone, sees 48% upside",
-   "src": "investingLive",
-   "link": "https://investinglive.com/stock-market-update/goldman-cuts-kospi-target-to-7-500-but-says-gloom-is-overdone-sees-48-upside/",
-   "t": "19 Nov \u00b7 09:11 AM",
-   "body": [
-    "Goldman\u2019s move is a lower target with a bullish message, and that mix explains Thursday\u2019s price action: chip stocks dipped early, then buyers stepped in. Its argument that memory stocks already price in a 70% earnings cut gives dip-buyers a framework, but the AI sentiment shock from Nvidia means volatility in Samsung and SK Hynix is likely to persist. The non-chip angle matters most for flows. If governance reforms and buybacks hold up, financials and other low-valuation sectors could draw rotation money away from semiconductors. Light foreign positioning also means any improvement in AI sentiment could lift the index quickly.",
-    "Goldman has cut its KOSPI target for the second time in three weeks, yet it thinks Korean stocks are too cheap. Memory chip worries look overdone, and governance reforms and buybacks are not yet priced in.",
-    "Goldman Sachs has cut its 12-month target for South Korea\u2019s KOSPI index to 7,500 from 9,000, its second downgrade in about three weeks, but the bank insists the pessimism around Korean stocks has gone too far and still sees nearly 50% upside. In a report dated November 17, Goldman kept its overweight recommendation on Korean equities and forecast a total return of around 50% in US dollar terms over the next year.",
-    "The new target is 37.5% below the 12,000 peak the bank set in June, a sharp reversal in just five months. Measured against the KOSPI\u2019s close of 5,067.44 on November 18, however, 7,500 still implies upside of roughly 48%.",
-    "The bank pointed to rising volatility in the second half of the year and a slowdown in the pace of upgrades to corporate earnings forecasts. Despite a strong first half, investors have been reluctant to fully price in corporate fundamentals, and doubts over how long the memory chip boom can last have weighed on further gains.",
-    "Earnings momentum outside the two chip giants has also faded at the margin. Projected earnings per share growth for companies excluding Samsung Electronics and SK Hynix climbed from 28% in January to 84% in August before slipping to 81% in November, while the forecast for 2027 was trimmed to 15% from 20%.",
-    "Goldman argued that memory stocks already price in a scenario in which 2027 consensus earnings are cut by 70%, which it considers overly bleak. It cited company statements that DRAM and high-bandwidth memory capacity is fully booked through 2029 and expects the memory shortage to last through 2028, possibly into 2030. Even so, it forecasts a sharp slowdown in earnings growth at the two chipmakers, with Samsung\u2019s EPS growth easing from 64% in 2027 to 5% in 2028 and SK Hynix\u2019s from 47% to 13%.",
-    "Beyond chips, the bank sees opportunities in sectors where valuations have fallen to historically low levels. It believes the market has yet to reward governance improvements and expects the 2027 shareholder meeting season, bigger shareholder returns and continued reforms to act as further catalysts. Large share buybacks, light investor positioning and an economy expected to grow faster than both consensus and its long-term potential in 2027 add support.",
-    "Even at 7,500, Goldman said, the KOSPI would trade at just 4.9 times forward earnings and 1.18 times book value. Based on the historical link between price-to-book ratios and an expected return on equity of 24%, it estimates the index would still sit more than 40% below fair value.",
-    "Thursday\u2019s session showed how fragile sentiment is. The KOSPI fell around 2% at its low as chip stocks sold off, before recovering to trade slightly higher, near 5,082, by mid-afternoon. Samsung Electronics and SK Hynix pared earlier losses but remained marginally lower, while the tech-heavy KOSDAQ was little changed. Elsewhere in the region, Hong Kong\u2019s Hang Seng fell almost 2%, while Japan\u2019s Nikkei 225 gained close to 1%."
-   ]
-  },
-  {
    "ts": 1795028400.0,
    "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
    "src": "Federal Reserve",
@@ -561,6 +556,12 @@
  ],
  "tweets": [
   {
+   "ts": 1795106400.0,
+   "title": "Traders Are Betting on Interest Rates Staying High for Years",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX1V1NUp3U0pqek5QNnVlT0dWdzNOTzlMenpmZW9iVklOeU5neGpzODlXS0xldEFDdklNSjVOaXo3djA3SnFTUXhqamdyUjRTaHAydUY1LTB0cGtKbVp6LWRNUGZwUGl1VUFRQkJFUUNmUHQ1Y3A1eWZJQVlNR2JZS21WVXVXLUZRZEdJZnNTeU9nMmlrbDVZ?oc=5"
+  },
+  {
    "ts": 1795103700.0,
    "title": "Van Gogh painting with complex Nazi-era history sells for record $190M at auction",
    "src": "ForexFactory",
@@ -589,12 +590,6 @@
    "title": "Xi, Trump, Putin agree to boost supply of refined oil products",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWGpxcXRJRUJuVFJ5blBlX0VsVlBFam1mcnZYVjdTdWktTk9vYXVRWnFMZWl5cWVZMWdkWGRKUlJDdXpHSUpIckduMXR0aHBldnlpbGVVQV9DbGxhUzU2WGZQbWZZMUdRUDE5b2NCdUc5RzBFQUNWbF81VkxnUWhYa0x4QjcwbndU0gGOAUFVX3lxTFBNanZEN3ZxUmxiUlBUd2dZZE9YeGsweTVGQ2V0ZHp1emF0a0Z3WWs0WVpWWjNsdDlmYlFRTjlzVV9yTllrb0p0bW84VWlrSDNxS3JPQzlsMlJ4M2RZbjg4dHYycnJva2l0NjA3dXhFcWxvSksxZTQ5bkZ2WC1BXzNqZ1R0ejNmTkVJaUN2LXc?oc=5"
-  },
-  {
-   "ts": 1795077373.0,
-   "title": "Putin: We should discuss global and regional ties, as well as energy security - IFX",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV3VSOHVvbjNSM09KOWZLdWtoSmk0VmNSV0FDc0YySTN4WmRLdlhhWnBmT0p1WEdSb0V1c0VfMUFNSW5DQlRXejBGajdhX3hnVlFQaHNJbWdBVDhTTElnMk9fc2ctZmREVUhTbC16MG9pdmotV0xxSGpwUDlmMFkyY0F0MHp6ZkYtcWNzdmM5WHV1RXhh0gGaAUFVX3lxTE1nazBTU1lGa0Z4S0VGMzllZGw4TlBFdUxITktnNG9KVlY3SkpoNGtZV3NBb01WNUtQSlBWNE9vdFRLamJlU1BYM0RhY2NhYWY5QUN6UEpOQzRzM0pkRmpnS2tQdU5GSG1hdGozV0FITC0xX2p0a1YwelB2MkpHa2o2R1RjbjluQ2xRUTJrUGZnOHNvNTJ6NWJpT0E?oc=5"
   }
  ],
  "sentiment": {
