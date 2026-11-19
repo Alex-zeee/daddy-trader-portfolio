@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 04:16 PKT",
+ "updated": "20-11-2026 04:31 PKT",
  "gold": {
-  "price": 3629.23,
-  "open": 3741.26,
+  "price": 3626.71,
+  "open": 3742.77,
   "high": 3758.13,
   "low": 3620.96,
-  "chg": -2.99,
+  "chg": -3.1,
   "src": "XAUUSD Spot",
   "spark": [
-   3725.3,
    3720.7,
    3716.47,
    3718.07,
@@ -55,14 +54,15 @@
    3627.02,
    3628.33,
    3623.01,
-   3629.23
+   3626.08,
+   3626.71
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.055,
-   "chg": -4.32,
+   "price": 42.855,
+   "chg": -4.76,
    "spark": [
     57.422,
     54.764,
@@ -85,7 +85,7 @@
     46.785,
     47.288,
     44.999,
-    43.055
+    42.855
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 83.08,
-   "chg": -0.22,
+   "price": 83.02,
+   "chg": -0.29,
    "spark": [
     97.15,
     99.47,
@@ -143,7 +143,7 @@
     85.72,
     86.01,
     83.26,
-    83.08
+    83.02
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0973,
-   "chg": -0.18,
+   "price": 1.0972,
+   "chg": -0.19,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0973
+    1.0972
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.309,
-   "chg": -0.87,
+   "price": 1.3087,
+   "chg": -0.89,
    "spark": [
     1.3373,
     1.3396,
@@ -230,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.309
+    1.3087
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.632,
-   "chg": 0.08,
+   "price": 159.702,
+   "chg": 0.12,
    "spark": [
     158.268,
     158.132,
@@ -259,13 +259,13 @@
     159.78,
     159.523,
     159.504,
-    159.632
+    159.702
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1756.74,
-   "chg": -1.02,
+   "price": 1748.32,
+   "chg": -1.49,
    "spark": [
     1818.62,
     1800.98,
@@ -314,13 +314,13 @@
     1759.2,
     1739.31,
     1758.46,
-    1756.74
+    1748.32
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62012.0,
-   "chg": -1.54,
+   "price": 61763.6,
+   "chg": -1.94,
    "spark": [
     64719.5,
     64235.2,
@@ -369,7 +369,7 @@
     62055.0,
     61484.9,
     62108.5,
-    62012.0
+    61768.5
    ]
   }
  ],
@@ -394,25 +394,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795130212.614636,
+   "ts": 1795131106.03926,
    "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 04:16 AM"
+   "t": "20 Nov \u00b7 04:31 AM"
   },
   {
-   "ts": 1795130212.614636,
+   "ts": 1795131106.03926,
    "title": "Canada sees little US movement on tariff relief, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/canada-sees-little-us-movement-on-tariff-relief-sources-say-5040196",
-   "t": "20 Nov \u00b7 04:16 AM"
+   "t": "20 Nov \u00b7 04:31 AM"
   },
   {
-   "ts": 1795130212.614636,
+   "ts": 1795131106.03926,
    "title": "Spot gold hits over 14-month low amid Fed rate hike certainty, AI trade rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 04:16 AM"
+   "t": "20 Nov \u00b7 04:31 AM"
   },
   {
    "ts": 1795127405.0,
@@ -589,7 +589,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 503: Service Unavailable"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
