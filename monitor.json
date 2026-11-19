@@ -1,14 +1,13 @@
 {
- "updated": "19-11-2026 06:46 PKT",
+ "updated": "19-11-2026 07:01 PKT",
  "gold": {
-  "price": 3753.57,
-  "open": 3809.1,
-  "high": 3812.52,
+  "price": 3755.53,
+  "open": 3804.34,
+  "high": 3809.51,
   "low": 3719.19,
-  "chg": -1.46,
+  "chg": -1.28,
   "src": "XAUUSD Spot",
   "spark": [
-   3778.75,
    3778.6,
    3771.76,
    3767.22,
@@ -55,14 +54,15 @@
    3752.45,
    3744.51,
    3753.63,
-   3753.57
+   3754.06,
+   3755.53
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 45.24,
-   "chg": -4.33,
+   "price": 45.505,
+   "chg": -3.77,
    "spark": [
     57.706,
     57.422,
@@ -85,13 +85,13 @@
     49.031,
     46.785,
     47.288,
-    45.24
+    45.505
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.815,
-   "chg": 0.31,
+   "price": 103.826,
+   "chg": 0.32,
    "spark": [
     101.73,
     101.78,
@@ -114,13 +114,13 @@
     103.41,
     103.55,
     103.49,
-    103.815
+    103.826
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.52,
-   "chg": -4.06,
+   "price": 82.69,
+   "chg": -3.86,
    "spark": [
     101.79,
     97.15,
@@ -143,7 +143,7 @@
     88.56,
     85.72,
     86.01,
-    82.52
+    82.69
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0978,
-   "chg": -0.13,
+   "price": 1.0973,
+   "chg": -0.18,
    "spark": [
     1.1227,
     1.1235,
@@ -201,13 +201,13 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0978
+    1.0973
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3146,
-   "chg": -0.45,
+   "price": 1.3142,
+   "chg": -0.48,
    "spark": [
     1.3373,
     1.3396,
@@ -230,13 +230,13 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3146
+    1.3142
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.359,
-   "chg": -0.09,
+   "price": 159.386,
+   "chg": -0.07,
    "spark": [
     158.268,
     158.132,
@@ -259,15 +259,14 @@
     159.78,
     159.523,
     159.504,
-    159.359
+    159.386
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1773.45,
-   "chg": -0.07,
+   "price": 1774.46,
+   "chg": -0.02,
    "spark": [
-    1813.03,
     1830.94,
     1833.38,
     1832.9,
@@ -314,15 +313,15 @@
     1755.18,
     1774.77,
     1782.9,
-    1773.45
+    1777.17,
+    1774.46
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62667.9,
-   "chg": -0.5,
+   "price": 62708.6,
+   "chg": -0.44,
    "spark": [
-    64438.0,
     64992.2,
     64983.3,
     64751.0,
@@ -369,7 +368,8 @@
     62166.6,
     62984.6,
     63121.8,
-    62667.9
+    62782.7,
+    62708.6
    ]
   }
  ],
@@ -410,18 +410,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795052802.242553,
+   "ts": 1795053703.534051,
+   "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
+   "t": "19 Nov \u00b7 07:01 AM"
+  },
+  {
+   "ts": 1795053703.534051,
    "title": "Spot gold sheds over 3%, drops below $3,800/oz for first time since September 2025",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-falls-toward-3800-as-fed-hawks-reinforce-ratehike-outlook-5034463",
-   "t": "19 Nov \u00b7 06:46 AM"
+   "t": "19 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795052802.242553,
+   "ts": 1795053703.534051,
    "title": "Gold slides below $4,000 as fast money exits and rate-hike fears mount",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-below-4000-as-fast-money-exits-and-ratehike-fears-mount-93CH-5036683",
-   "t": "19 Nov \u00b7 06:46 AM"
+   "t": "19 Nov \u00b7 07:01 AM"
   },
   {
    "ts": 1795048105.0,
@@ -543,21 +550,6 @@
     "The dovish argument rests on financial conditions. Mortgage rates are up, junk spreads have widened sharply, bank shares fell hard, and the market is taking a harder look at AI financing. A couple of officials argued for a gradual approach so households and businesses can adjust. That\u2019s the case for 25 bps in December, but in these minutes it\u2019s the minority view.",
     "The market has 62 bps of hikes priced over the next three meetings, and nothing in these minutes argues against that. If anything, the debate has moved from whether the Fed hikes in December to how much with 27 bps priced in right now and 62 bps at the next three meetings."
    ]
-  },
-  {
-   "ts": 1795028400.0,
-   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "src": "Federal Reserve",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "t": "19 Nov \u00b7 12:00 AM",
-   "body": [
-    "Official websites use .govA .gov website belongs to an official government organization in the United States.",
-    "Secure .gov websites use HTTPSA lock () or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-    "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27\u201328, 2026.",
-    "The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision. The descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.",
-    "For media inquiries, e-mail [email protected] or call 202-452-2955.",
-    "Minutes of Federal Open Market Committee October 27\u201328, 2026: HTML | PDF"
-   ]
   }
  ],
  "tweets": [
@@ -604,8 +596,9 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 2/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
