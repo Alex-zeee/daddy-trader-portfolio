@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 23:16 PKT",
+ "updated": "20-11-2026 23:31 PKT",
  "gold": {
-  "price": 3519.88,
-  "open": 3680.16,
-  "high": 3686.91,
-  "low": 3515.19,
-  "chg": -4.36,
+  "price": 3515.19,
+  "open": 3679.78,
+  "high": 3681.48,
+  "low": 3510.37,
+  "chg": -4.47,
   "src": "XAUUSD Spot",
   "spark": [
-   3553.93,
    3560.64,
    3555.21,
    3550.06,
@@ -55,14 +54,15 @@
    3528.98,
    3529.52,
    3520.83,
-   3519.88
+   3511.33,
+   3515.19
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 40.92,
-   "chg": -7.67,
+   "price": 41.07,
+   "chg": -7.33,
    "spark": [
     54.764,
     53.711,
@@ -85,13 +85,13 @@
     47.288,
     44.999,
     44.318,
-    40.92
+    41.07
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.809,
-   "chg": -0.09,
+   "price": 103.828,
+   "chg": -0.07,
    "spark": [
     101.61,
     101.81,
@@ -114,13 +114,13 @@
     103.49,
     103.86,
     103.9,
-    103.809
+    103.828
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.58,
-   "chg": -0.76,
+   "price": 82.98,
+   "chg": -0.28,
    "spark": [
     99.47,
     103.27,
@@ -143,13 +143,13 @@
     86.01,
     83.26,
     83.21,
-    82.58
+    82.98
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.932,
-   "chg": -2.38,
+   "price": 4.938,
+   "chg": -2.26,
    "spark": [
     4.953,
     4.988,
@@ -172,13 +172,13 @@
     5.103,
     5.066,
     5.052,
-    4.932
+    4.938
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0973,
-   "chg": 0.01,
+   "price": 1.0975,
+   "chg": 0.02,
    "spark": [
     1.1235,
     1.1221,
@@ -201,13 +201,13 @@
     1.0998,
     1.0993,
     1.0972,
-    1.0973
+    1.0975
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3098,
-   "chg": -0.37,
+   "price": 1.3097,
+   "chg": -0.38,
    "spark": [
     1.3396,
     1.3404,
@@ -230,12 +230,12 @@
     1.3185,
     1.3205,
     1.3147,
-    1.3098
+    1.3097
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.845,
+   "price": 158.832,
    "chg": -0.34,
    "spark": [
     158.132,
@@ -259,13 +259,13 @@
     159.523,
     159.504,
     159.381,
-    158.845
+    158.832
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1631.44,
-   "chg": -7.06,
+   "price": 1629.09,
+   "chg": -7.19,
    "spark": [
     1753.96,
     1751.71,
@@ -314,13 +314,13 @@
     1653.53,
     1643.7,
     1629.29,
-    1631.2
+    1629.09
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58901.0,
-   "chg": -4.87,
+   "price": 58839.5,
+   "chg": -4.96,
    "spark": [
     62666.0,
     62539.3,
@@ -369,7 +369,7 @@
     59399.9,
     59473.4,
     59090.8,
-    58894.7
+    58839.5
    ]
   }
  ],
@@ -386,11 +386,11 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795198608.197191,
+   "ts": 1795199508.581033,
    "title": "Gold on pace for steepest weekly drop in eight months amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "20 Nov \u00b7 11:16 PM"
+   "t": "20 Nov \u00b7 11:31 PM"
   },
   {
    "ts": 1795195315.0,
@@ -602,6 +602,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 1/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
