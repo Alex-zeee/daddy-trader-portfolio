@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 05:01 PKT",
+ "updated": "20-11-2026 05:16 PKT",
  "gold": {
-  "price": 3604.15,
-  "open": 3738.38,
+  "price": 3621.69,
+  "open": 3744.54,
   "high": 3758.13,
   "low": 3591.41,
-  "chg": -3.59,
+  "chg": -3.28,
   "src": "XAUUSD Spot",
   "spark": [
-   3718.07,
    3712.27,
    3719.79,
    3718.84,
@@ -55,39 +54,11 @@
    3626.08,
    3604.0,
    3604.76,
-   3604.15
+   3620.08,
+   3621.69
   ]
  },
  "markets": [
-  {
-   "name": "Silver (fut)",
-   "price": 42.435,
-   "chg": -5.7,
-   "spark": [
-    57.422,
-    54.764,
-    53.711,
-    54.108,
-    54.293,
-    53.457,
-    52.191,
-    49.097,
-    50.72,
-    49.587,
-    52.12,
-    52.233,
-    51.803,
-    52.564,
-    51.101,
-    51.881,
-    49.972,
-    49.031,
-    46.785,
-    47.288,
-    44.999,
-    42.435
-   ]
-  },
   {
    "name": "Dollar Index",
    "price": 103.924,
@@ -119,8 +90,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 82.87,
-   "chg": -0.47,
+   "price": 82.9,
+   "chg": -0.43,
    "spark": [
     97.15,
     99.47,
@@ -143,15 +114,43 @@
     85.72,
     86.01,
     83.26,
-    82.87
+    82.9
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 5.052,
+   "chg": -0.28,
+   "spark": [
+    5.146,
+    4.953,
+    4.988,
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998,
+    5.103,
+    5.154,
+    5.121,
+    5.103,
+    5.066,
+    5.052
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0972,
-   "chg": -0.19,
+   "price": 1.0976,
+   "chg": 0.03,
    "spark": [
-    1.1227,
     1.1235,
     1.1221,
     1.1218,
@@ -172,15 +171,15 @@
     1.1025,
     1.0998,
     1.0993,
-    1.0972
+    1.0972,
+    1.0976
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3088,
-   "chg": -0.89,
+   "price": 1.3092,
+   "chg": -0.42,
    "spark": [
-    1.3373,
     1.3396,
     1.3404,
     1.3378,
@@ -201,15 +200,15 @@
     1.3216,
     1.3185,
     1.3205,
-    1.3088
+    1.3147,
+    1.3092
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.749,
-   "chg": 0.15,
+   "price": 159.746,
+   "chg": 0.23,
    "spark": [
-    158.268,
     158.132,
     156.494,
     156.83,
@@ -230,13 +229,14 @@
     159.78,
     159.523,
     159.504,
-    159.749
+    159.381,
+    159.746
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1759.02,
-   "chg": 0.21,
+   "price": 1759.49,
+   "chg": 0.24,
    "spark": [
     1800.98,
     1801.78,
@@ -285,13 +285,13 @@
     1739.31,
     1758.46,
     1755.29,
-    1759.02
+    1759.49
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61984.8,
-   "chg": 0.12,
+   "price": 62089.2,
+   "chg": 0.28,
    "spark": [
     64235.2,
     64253.5,
@@ -340,7 +340,7 @@
     61484.9,
     62108.5,
     61913.5,
-    61984.8
+    62089.2
    ]
   }
  ],
@@ -365,25 +365,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795132906.95938,
+   "ts": 1795133803.651403,
    "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 05:01 AM"
+   "t": "20 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795132906.95938,
+   "ts": 1795133803.651403,
    "title": "Canada sees little US movement on tariff relief, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/canada-sees-little-us-movement-on-tariff-relief-sources-say-5040196",
-   "t": "20 Nov \u00b7 05:01 AM"
+   "t": "20 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795132906.95938,
+   "ts": 1795133803.651403,
    "title": "Spot gold hits over 14-month low amid Fed rate hike certainty, AI trade rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 05:01 AM"
+   "t": "20 Nov \u00b7 05:16 AM"
   },
   {
    "ts": 1795132769.0,
@@ -397,6 +397,47 @@
     "Headline inflation came in at 2.3% compared with September's 2.1%, while the so-called \"core-core\" inflation, which strips out prices of fresh food and energy, dipped slightly to 2.2% from 2.4% in the month before.",
     "Energy subsidies for households expired in September, exposing consumers to higher energy prices brought about by the Iran war. Japan has reportedly approved reintroduction of energy subsidies in December to stave off higher imported energy prices as higher prices crimp growth, hitting consumption and net exports.",
     "October inflation reading is likely to push the Bank of Japan toward another rate hike in December, despite an unexpected contraction in economic growth in the third quarter. Data from LSEG indicates that there is a 75% chance of a 25 basis point hike from the Bank of Japan.\"The BOJ is likely to look through the temporary weakness in 3Q GDP and focus instead on underlying inflation and wage dynamics,\" Ma Tieying, senior economist at DBS Group Research, wrote in a Monday note."
+   ]
+  },
+  {
+   "ts": 1795132166.0,
+   "title": "Fed's Paulson keeps quiet on December, says October\u2019s pause was never meant as a stop",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/fed-s-paulson-keeps-quiet-on-december-says-october-s-pause-was-never-meant-as-a-stop/",
+   "t": "20 Nov \u00b7 04:49 AM",
+   "body": [
+    "With no fresh policy signal, the speech is unlikely to move rate pricing, and a quarter-point December hike remains the strong favourite. Her \u201cpause was not a stop\u201d framing supports the view that the hiking cycle runs into 2027, which keeps front-end Treasury yields and the dollar supported. Her three triggers for faster hikes give traders a checklist for the 4 December payrolls report and other data before the meeting: inflation expectations, wage growth and underlying inflation. An upside surprise on wages or expectations would strengthen the case for the larger move that Waller has floated.",
+    "Paulson argues the Fed should need to say less if markets understand it, and her policy view hasn\u2019t changed: gradual hikes, with three clear reasons to go faster.",
+    "Philadelphia Fed President Anna Paulson stayed away from any near-term guidance on interest rates on Thursday. In a speech in New York, she argued that the Fed communicates best when the public understands how it thinks, not when officials spell out what comes next. With no fresh steer ahead of the December 8 to 9 meeting, her policy views from earlier this month remain the best guide to how she is likely to vote.",
+    "Speaking to the Money Marketeers of New York University, Paulson said understanding matters more than the particular ways the Fed communicates. If markets grasp the Fed\u2019s reaction function, she argued, officials need to say less each time new data arrive, and policy can stay steady and largely predictable. She said the value of rate-path guidance depends on circumstances and is less useful in normal times, though Fed communications should still be clear about officials\u2019 views.",
+    "She pointed to October as an example. The Fed held rates steady after hiking in September, but markets still expected further tightening, so the pause did not leave policy behind. In her words, shared understanding allowed policy to move deliberately, \u201cwithout the risk that a pause was mistaken for a stop.\u201d That was the closest she came to a signal: the October hold was a breather, not the end of the cycle.",
+    "Her remarks fit a wider debate inside the Fed. Under Chair Kevin Warsh, the central bank has shortened its policy statement and set up a task force on communications. Warsh himself has largely stepped back from giving rate guidance, even as many other officials continue to share their views.",
+    "Paulson had already shared hers. In a speech on November 10, she said policy needs to be somewhat restrictive to return inflation to 2% and that further gradual rate hikes seemed appropriate. She judged underlying inflation to be stuck between 2.5% and 3%. She also named three developments that would lead her to favour moving faster: inflation expectations drifting higher, wage pressures building, or underlying inflation rising. At the same time, she flagged that recent swings in stocks and oil could make consumer spending less durable than expected, one reason she prefers a gradual pace.",
+    "Read together, the two speeches point the same way. Paulson is a voter this year, and nothing in either speech suggests she would resist the quarter-point hike in December that markets widely expect, which would lift the target range to 4.00% to 4.25%. Thursday\u2019s message adds that a slower pace should not be mistaken for a softer resolve."
+   ]
+  },
+  {
+   "ts": 1795131089.0,
+   "title": "Japan inflation picks up less than forecast as core-core slows to 2.2%",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/japan-inflation-picks-up-but-misses-forecasts-as-core-core-slows-to-2-2/",
+   "t": "20 Nov \u00b7 04:31 AM"
+  },
+  {
+   "ts": 1795130143.0,
+   "title": "Bitcoin hits lowest since July as Fed hike talk and a Wall Street rout collide",
+   "src": "investingLive",
+   "link": "https://investinglive.com/cryptocurrency/bitcoin-hits-lowest-since-july-as-fed-hike-talk-and-a-wall-street-rout-collide/",
+   "t": "20 Nov \u00b7 04:15 AM",
+   "body": [
+    "The rates message (like this: J.P. Morgan now sees three straight Fed hikes, dropping its \u2018December and done\u2019 call ) is hitting the whole crypto complex, not just Bitcoin. Ether dropped below $1,800 and sentiment gauges sit at extremes. Spot ETF products traded lower with the underlying, and IBIT and FBTC each fell less than 1% on the day. That leaves crypto equities such as COIN and MSTR, and listed miners, exposed to both falling token prices and a weaker tech tape. Bitcoin is trading as a high-beta risk asset rather than a hedge, so equity volatility and Fed pricing remain the main drivers for now.",
+    "Bitcoin is trading like a leveraged bet on Fed policy, and Thursday\u2019s mix of hawkish minutes and a stock market rout pushed it to a four-month low.",
+    "Bitcoin fell to around $61,600 on Thursday, its lowest level since early July. The move came as a 1,000-point drop in the Dow and fresh talk of tighter Federal Reserve policy pushed investors out of riskier assets. The token was down a little over 2% on the day by early evening in New York, leaving it within reach of the $60,000 mark and roughly half its record high.",
+    "The selling tracked Wall Street closely. Bitcoin traded near $63,900 at the US open and slipped to around $62,250 by lunchtime, while the Dow shed more than 1,000 points and the VIX volatility gauge climbed above 28. A short-seller report on AMD added to pressure on tech stocks. Ether dropped below $1,800, and the widely watched Fear and Greed Index sat at 10, deep in extreme fear territory.",
+    "Rates are the bigger backdrop. Minutes from the Fed\u2019s October meeting, released on Wednesday, showed most officials favour further increases, with some open to a half-point move in December. The Fed held its benchmark rate at 3.75% to 4% in October, with two dissenters preferring a quarter-point hike. Since then, a hotter-than-expected October inflation report has met the threshold Governor Christopher Waller had set out for when a 50 basis point increase might be warranted.",
+    "Higher rates raise the cost of holding assets that pay no yield, and Bitcoin has been absorbing that message for weeks. It is on course for a seventh straight weekly loss, a run that has taken it from about $87,500 in early October.",
+    "Flows offer little support. US spot Bitcoin ETFs saw more than $300 million in net outflows on Wednesday, taking November\u2019s total to roughly $2.6 billion, and analysts also point to miners selling into a thinning market.",
+    "Traders will watch whether the $60,000 level holds, Thursday\u2019s ETF flow data for any sign that redemptions are slowing, and incoming US data ahead of the Fed\u2019s December meeting. A run of softer numbers could cool hike expectations quickly. Another hot print would likely keep the pressure on."
    ]
   },
   {
@@ -457,71 +498,14 @@
     "Gold fell 2.69% to $3,624.74, and silver dropped 4.71% to $42.922. The firmer dollar was a headwind, and the late decline in Treasury yields did little to cushion the metals. Copper also fell 1.40% to $5.5890, consistent with caution about industrial demand. Bitcoin slipped 2.20% to $61,592, moving with equities as the early appetite for risk faded.",
     "The next session will show whether buyers can hold a rebound after Thursday\u2019s reversal. The 10-year yield above 5%, Anthropic\u2019s ability to hold its first-day gains and any fresh disruption in Hormuz are the levels and headlines to watch. The Fed\u2019s challenge remains the same. Price pressures are proving persistent while parts of the economy are losing momentum."
    ]
-  },
-  {
-   "ts": 1795124456.0,
-   "title": "J.P. Morgan now sees three straight Fed hikes, dropping its \u2018December and done\u2019 call",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/j-p-morgan-now-sees-three-straight-fed-hikes-dropping-its-december-and-done-call/",
-   "t": "20 Nov \u00b7 02:40 AM",
-   "body": [
-    "A tier-one house moving from one more hike to three adds weight to the view that tightening doesn\u2019t end in December, which supports two-year Treasury yields and the dollar. Pricing for 2027 is now where the action is, so January and March contracts are likely to firm. Strength against the yen is limited by a likely BoJ hike and intervention risk near 160. A Fed with no clear story to justify a pause makes every inflation release a market event, including any knock-on effects from oil.",
-    "J.P. Morgan has dropped its \u201cDecember and done\u201d view: it now expects three straight hikes, with the Fed defending its credibility rather than reacting to a hot labour market.",
-    "J.P. Morgan has moved to a longer Fed tightening path, now forecasting quarter-point rate hikes in January and March 2027 on top of the December increase it already expected. If all three go ahead, the federal funds target range would rise from 3.75% to 4.00% now to 4.50% to 4.75% by March. The new path would mean hikes at the December 8 to 9, January 26 to 27 and March 16 to 17 meetings.",
-    "The bank\u2019s economists, led by chief US economist Michael Feroli, said the extra hikes are not meant to weaken the labour market, which they argue has not been a source of inflation. The aim instead is to protect the Fed\u2019s credibility when policymakers have no convincing reason to stop. In their view, sticky inflation keeps the case for further tightening alive.",
-    "The revision is a notable change of view. As recently as early October, J.P. Morgan expected December to be the last move of the cycle. It argued then that supply shocks were the main driver of inflation and would not justify a long campaign into 2027. Adding two more hikes suggests the bank no longer sees price pressure as a passing supply story.",
-    "The economists also raised a point about communication under Chair Kevin Warsh. They said the Fed has not set out an overarching narrative for its policy path, and without one, decisions are more likely to react to each new data release. In practice, that raises the stakes for every inflation release between now and March.",
-    "The call fits the tone of the Fed\u2019s own minutes. The record of the October 27 to 28 meeting, released on Wednesday, showed almost all officials judged further hikes would likely be needed if the economy evolved as they expected. Chicago Fed President Austan Goolsbee added to that on Thursday, saying that in his view a sizeable part of inflation comes from demand, not just oil and tariff shocks.",
-    "J.P. Morgan is not alone. Deutsche Bank and Bank of America also forecast hikes at three straight meetings, while Goldman Sachs and UBS expect a shorter path after December and some other forecasters see a longer pause. Markets price a quarter-point December hike as close to certain, with a small chance of a half-point move. The bigger question now is whether the cycle ends in December or runs well into 2027, and J.P. Morgan has clearly taken the second view."
-   ]
-  },
-  {
-   "ts": 1795123002.0,
-   "title": "More from Fed\u2019s Goolsbee: AI boom a \u2018pig through the python\u2019 that risks overheating US economy",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/more-from-fed-s-goolsbee-ai-boom-a-pig-through-the-python-that-risks-overheating-us-economy/",
-   "t": "20 Nov \u00b7 02:16 AM",
-   "body": [
-    "Goolsbee\u2019s remarks add a demand-side argument to a Fed debate already leaning toward hikes. Markets heavily favour a quarter-point move on December 9, and a voice outside the usual hawks warning of overheating supports front-end yields and the dollar. He says inflation is not just an oil and tariff story, so a pullback in crude would ease less of the pressure than traders might hope. His uncertainty about how banks would cope with an AI-led equity correction marks a tail risk for stocks that could quickly reverse the tightening narrative.",
-    "Goolsbee says the AI boom has become an inflation problem, with investment and stock market wealth pushing on an economy that may not have the room to absorb them.",
-    "Chicago Fed President Austan Goolsbee warned on Thursday that the artificial intelligence boom is adding to the risk of the US economy overheating. Business investment at near-unprecedented levels may be more than the economy\u2019s capacity can absorb, he argued. He compared the surge to a pig moving through a python and said he found it hard to see the AI boom as anything other than a contributor to overheating. He made the comments in a call with reporters on the day Anthropic set a record for an initial public offering.",
-    "Goolsbee\u2019s central message was that he does not yet see inflation on a path back to the Fed\u2019s 2% target. In his view, inflation has proved far more persistent than expected in 2025, and recent months have not brought good news. He called the level of inflation borderline disturbingly high and said how steep the rate path needs to be depends on whether inflation is seen returning to target.",
-    "He was explicit that the pressure is not only coming from supply shocks. Oil and tariffs have played a part, he said, but there is also a sizeable demand component. That is why he is watching services inflation closely, as a guide to whether price pressures come from demand or from costs such as energy.",
-    "He pointed to two channels through which AI is shaping the economy: investment, and the wealth effect from rising equity values. The Anthropic listing raises the question of how shareholders will spend their gains, he said, which could have a broader macroeconomic impact. He added that businesses widely acknowledge costs are rising, especially in construction and at firms competing with data centres for components.",
-    "Not every signal was hawkish. Goolsbee said he is not concerned about wages pushing up inflation at this point. He described consumer spending as broad-based and financed mostly by income growth. He was less certain about the risks around equities. It is unclear how the financial sector would fare in a major AI-related stock correction, he said, and he is unsure whether fallout from the US midterm elections will slow the data centre buildout or leave a lasting mark on share prices. He also said greater openness about monetary policy has been productive for the Fed and for the world.",
-    "The remarks add a new strand to the Fed\u2019s debate ahead of the December 8 to 9 meeting, where hikes are the focus. Minutes of the October meeting showed nearly all participants saw further hikes as likely appropriate, and markets lean heavily toward a quarter-point rise from the current 3.75% to 4.00% range. Goolsbee, a 2027 voter, did not commit to the size of a December move in the remarks available. But by framing AI as a demand-side inflation risk, he gives the hawks another argument. If services inflation and investment spending stay hot into early 2027, a longer tightening cycle looks more likely than a quick finish."
-   ]
-  },
-  {
-   "ts": 1795122281.0,
-   "title": "Economic and event calendar in Asia Friday, November 20, 2026: Fed's Paulson, Japan CPI and China\u2019s LPR",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/economic-and-event-calendar-in-asia-friday-november-20-2026-fed-s-paulson-japan-cpi-and-china-s-lpr/",
-   "t": "20 Nov \u00b7 02:04 AM",
-   "body": [
-    "USD/JPY near 160 is where today\u2019s events meet. A firm Japan CPI would support the yen at the margin, but a Fed that is also hiking limits how far the rate gap can narrow, and intervention warnings near 160 cap the upside. If Paulson sounds open to a 50 basis point move rather than gradual steps, front-end Treasury yields and the dollar would likely rise. Energy is a big part of Japan\u2019s inflation pickup, so oil prices feed straight into the BoJ\u2019s thinking. A hold on the LPR should barely move the yuan, while a surprise cut would stand out given the overnight-rate overhaul.",
-    "Two hawkish central banks get fresh tests in the Asian session, while China\u2019s loan prime rate holds as a benchmark the PBoC has quietly moved past.",
-    "The Asian session brings a cluster of events that will test how firmly markets are leaning into a global tightening story. Philadelphia Fed President Anna Paulson speaks late in the US day, Japan\u2019s national inflation figures for October are released at the same time, and China\u2019s monthly loan prime rate fixing follows early in the session. The first two fit squarely into a hawkish narrative on both sides of the Pacific. The third is a largely procedural event that matters less than it used to.",
-    "Fed\u2019s Paulson: a 2026 voter on a committee leaning toward hikes",
-    "Paulson is due to speak at 23:30 GMT (18:30 US Eastern) at a Money Marketeers of New York University dinner in New York. She is scheduled to address communications and monetary policy, and a speech text and a question-and-answer session are expected. As a 2026 FOMC voter, her views carry weight heading into the December 8 to 9 meeting, with the decision due on December 9.",
-    "Her recent record is clear. In a speech earlier this month she said further gradual rate increases seemed appropriate. Policy needs to be somewhat restrictive to get inflation back to 2%, she said, and underlying inflation appears stuck between 2.5% and 3%. She would favour moving faster if inflation expectations drift higher, wage pressures build or underlying inflation rises. She backed the September hike and the October hold.",
-    "The backdrop has grown more hawkish since then. Minutes of the October 27 to 28 meeting, released on Wednesday, showed nearly all participants judged that further increases in the federal funds rate would likely be appropriate in the coming months. Governor Christopher Waller believes officials should consider a half-point move in December, arguing that recent inflation is heading the wrong way. With the target range at 3.75% to 4.00%, markets lean heavily toward a quarter-point hike. Deutsche Bank expects hikes in December, January and March, while Citigroup sees a 25 basis point move in December with a higher risk of 50.",
-    "The key question for Paulson is whether she sticks with \u201cgradual\u201d or shows any openness to the larger step Waller has floated. Any change in how she talks about the pace would make the headline.",
-    "Japan\u2019s October CPI: inflation data ahead of a likely BoJ hike",
-    "Japan\u2019s national CPI for October is due at 23:30 GMT (18:30 US Eastern). The consensus for the core measure, which excludes fresh food, is 2.3%, up from 2.1% in September. The prior headline reading was 2.1%, and the measure excluding both fresh food and energy was 2.4%. Economists have linked much of the recent pickup to higher energy costs from the Middle East conflict reaching household bills, while a weak yen has pushed up import prices.",
-    "The data arrive with the Bank of Japan in a hawkish mood. The policy rate is 1.25% after a hike in September, its highest in 31 years. On Thursday, Governor Kazuo Ueda said the bank expects to keep raising rates because monetary conditions remain accommodative. He also flagged an upside risk that underlying inflation could overshoot the 2% target. A Reuters poll shows 86% of economists expect a hike to 1.50% at the December 17 to 18 meeting, which would be a third increase this year. Nearly 60% look for a further move to 1.75% by the end of March. Producer prices strengthened the case earlier this month, rising 7.1% y/y in October, ahead of forecasts.",
-    "There are complications. The economy unexpectedly contracted in the July to September quarter, and the yen is trading near 160 per dollar despite heavy intervention this year. A firm CPI reading would reinforce December hike pricing. A soft one would give doves a talking point, though probably not enough to derail the move given Ueda\u2019s latest remarks.",
-    "PBoC loan prime rates: an 18th hold expected for a fading benchmark",
-    "China\u2019s loan prime rates are due at 01:15 GMT (20:15 US Eastern). In a Reuters survey of 28 market participants, 23 expect the one-year LPR to hold at 3.0% and the five-year at 3.5%. That would be an 18th consecutive month unchanged. Five respondents see a cut to one or both rates, the first break from unanimous no-change forecasts in recent months. Citigroup analysts see a November cut as implausible and expect rates to stay on hold through 2026, followed by two 10 basis point cuts in 2027."
-   ]
   }
  ],
  "tweets": [
   {
-   "ts": 1795124700.0,
-   "title": "Kalshi hires streamer Cliff Savage to \u2018research\u2019 Grand Theft Auto 6 for six figures",
+   "ts": 1795127460.0,
+   "title": "November US Executive Briefing: Resilience up in the economy but so are costs",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcmtWblhiaVBCQmFVcHNOR0QxTXFNQ3JhbUxvOWozOG94NTVwd09aOWx6WWxld2QxcWZha0NVaGZ1Y09Sd0dJMldmNFpQQ1RMMXRVUHg3WHNFQ3lFckFnQVFHYTR3YTJpcDZMa0xLQ2toWDFGTWRRNmptbm5ldldUYnRRSERuUE5ZbEpXbm42NTk3SmMtS08wYzZR0gGfAUFVX3lxTE1RRDRiRHhHT0ZNNmpUYXpsM09PZl9jWXNXTUM4ZDlpdUJ4d1p1SDN1VXg1bkxSQ05ubmxLWEQyU0lFRjFORDRqUGpmNmdTNm1SMzRCSVlfaFJIRTRBS0JPdVpVekZzYjF6Q21zNlh6eTJPcUtLSUZtNXJtMWZhU0ZPZ1BJYktGSkpSZzRuMF8wSUROOUM2RVlmVkw1ZjJCWQ?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWmZzbDlJbUxlOFJ5bklJN3hLSnYwT2V1VWZPNjRjNDV2ZGZmUUwzNFAxNU1USzJGaUVuU0Rock1HcExHTUhhUTNVQW9sZXdvclpVQnVwQkVVVHBRZHhtaFFhYVFPX013NDhRRTNPdGtLQlJnVjdyUVRNbzQzT0dkajY0U0lPMmV5SU43bGJHMnFNLUFKSWVCddIBngFBVV95cUxPSXBfVlVGSVdkMURnVkxTNlFJbTRSd3BnbVlsRVVDYW9ZalJfUDBUSEF0cDRBR2N3bzFLUnlxVkVXX3lYcTBpQmZ2dkxqOUxuZVNxS3gyLTdyR01WQVFCQUJDdzZSMW9wanVPR3VCUGQzLVpGSlJ6R3k2N0ZOMS12eVdYeW1LX1JDaTFQNTk4YmZiY1RtcUFPRy1aOUlZZw?oc=5"
   },
   {
    "ts": 1795115696.0,
@@ -542,16 +526,16 @@
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVN0R1NjRURTNEstaVUycTVaOGtNYjhUQjFjTVZYS2xrX3NNdzNxMXFPeTN5WklheWpyQkhPelJUVGFnNnR2ZHE1S1pHNWVReDZnMWtiZHNld3Vkb2p5a2JWRHE4Q2owSkJyLU5UaGNTd3ZDVlhmNXlOaGltckdFSjlPWTVrdkRjQlk00gGQAUFVX3lxTFBLT19xMDhsQWdXOTJ5LXlucGxteXdXdGZKMDE2RWU4eEU5U0VSbTI0d0M1ejVHU1NWcUhmRlpkSFRSVGFoMW5VZ2xHbUd2d1M4N2pKbEhTeTk0ZHZvZDhibzN1RjBkZElqclE2SkhySGhRM202QUE4RTNtQ0RJVHpyR2VKa1pCamo3YS1TemRETw?oc=5"
   },
   {
-   "ts": 1795110250.0,
-   "title": "Anthropic Shares Open At $111.50 Vs $83/Share IPO Price",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNldLRi1uUFlsRWJFNDE5YXNUZHNiLTJyVGg1c3A0R2tQOE9obWZGMVlfdWp0MmNNNm81Z0xsSkVVZE5LYUM3OU9kdkxQQmo0ME90UkFVREhhYkRZV05FZ2JvclZodUVlX3ZfYTRPaGszcU02aFZDV0JJVzE5STRyNnpRdVpITzZPR2RxLWN2T3DSAZYBQVVfeXFMTTNnSkxIc1VVb1lEZ0IwVGpkcGhtTF9yYXh2WEJDTGpjdkRvenlCejVRYWR3cEw0aDE1aFJCUExLYXNESHY5Q3hPRWxnOUhNMXJHa1FzX3NSOFdnaVE3VkFWQ0pDSmRHaW1tanpHMU0yZ01Wa2FBY0lPTGtPQmRIM1o2RGtDZ28zdTFJWlZRNUZIM2daS2tR?oc=5"
-  },
-  {
    "ts": 1795097508.0,
    "title": "US Unemployment Insurance Weekly Claims",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXotalRWX2lLOUgybV80WUlUQUxjRXFrN1UxOEJZUEhtck5RQndsazg2NGYxaGpoMGM1Z1VxbkNPZlMtc1h0U2c2Q09zVHdvRXhSR2ZKbnY2UXU4VWxZYVQzNGpZN0xrZ3R3eUVGemlwbXRoWTQ2dmt4b1hnZHJQcUtwRTRzYzY20gGOAUFVX3lxTFAwcUk0WjhOaXVhME9XT2xqR0tnbmJva2RxZUhqNk1sR0tWOVpLRlVSM2ZPaEsxZE9FR0tVU1dJZExpN3A3WEQxdjBMb2FVVmNrSDNYZWYtNFdfcVBKN2R6SWlZa1ROcWV3NFNVXzlSNlc2MTY4LXdmZnk4X25COEd0TDFWSGFXbzdsZklWVEE?oc=5"
+  },
+  {
+   "ts": 1795091535.0,
+   "title": "White House Asked How Iran Would Take Strike Scenarios: Axios",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWpYNXo2QnhYRFpKaVZvcGU4Mkl1TEtZZlhpT1BYX3VTNDhrUVNMS09zRlpJV0U4Zi16Sk5LSHFLVU8zZVNzZzdiQUR5LU1MVVNacnlLcm0tdU9TRTJndmVnTGxhOEdKR1I4TDhFM1FLSTNOZjg1ZXp1UnVkZjdHNEt5SVZqMFFOdmNvclNjNNIBlAFBVV95cUxPUTB6anBfemY4UldoV1Qtb092ZlpHdzVMQ05fR1VQc2t6RHpXbmc3c09yVlkxMTVQTm1wdl9fVl8wTmtuTkdRNFl0bExUaUx2SFExNFFGXzVKMy1ncUs2ckh0aUt2Vm5ES1ZWSnBsZWkxbXRfaUFKbkpmTVZNR2llVVJBQkJNZWwyZUVPbWtubjFDT2ly?oc=5"
   }
  ],
  "sentiment": {
@@ -560,7 +544,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
