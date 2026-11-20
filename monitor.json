@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 21:46 PKT",
+ "updated": "20-11-2026 22:01 PKT",
  "gold": {
-  "price": 3546.13,
-  "open": 3685.65,
+  "price": 3547.61,
+  "open": 3675.89,
   "high": 3690.31,
   "low": 3515.19,
-  "chg": -3.79,
+  "chg": -3.49,
   "src": "XAUUSD Spot",
   "spark": [
-   3518.95,
    3526.01,
    3515.82,
    3543.53,
@@ -55,14 +54,15 @@
    3556.35,
    3541.53,
    3543.91,
-   3546.13
+   3545.31,
+   3547.61
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.375,
-   "chg": -6.64,
+   "price": 41.18,
+   "chg": -7.08,
    "spark": [
     54.764,
     53.711,
@@ -85,12 +85,12 @@
     47.288,
     44.999,
     44.318,
-    41.375
+    41.18
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.742,
+   "price": 103.739,
    "chg": -0.15,
    "spark": [
     101.61,
@@ -114,13 +114,13 @@
     103.49,
     103.86,
     103.9,
-    103.742
+    103.739
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.98,
-   "chg": -1.48,
+   "price": 82.09,
+   "chg": -1.35,
    "spark": [
     99.47,
     103.27,
@@ -143,13 +143,13 @@
     86.01,
     83.26,
     83.21,
-    81.98
+    82.09
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.95,
-   "chg": -2.02,
+   "price": 4.946,
+   "chg": -2.1,
    "spark": [
     4.953,
     4.988,
@@ -172,13 +172,13 @@
     5.103,
     5.066,
     5.052,
-    4.95
+    4.946
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0987,
-   "chg": 0.13,
+   "price": 1.0984,
+   "chg": 0.11,
    "spark": [
     1.1235,
     1.1221,
@@ -201,13 +201,13 @@
     1.0998,
     1.0993,
     1.0972,
-    1.0987
+    1.0984
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3107,
-   "chg": -0.3,
+   "price": 1.3103,
+   "chg": -0.33,
    "spark": [
     1.3396,
     1.3404,
@@ -230,13 +230,13 @@
     1.3185,
     1.3205,
     1.3147,
-    1.3107
+    1.3103
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.68,
-   "chg": -0.44,
+   "price": 158.709,
+   "chg": -0.42,
    "spark": [
     158.132,
     156.494,
@@ -259,15 +259,14 @@
     159.523,
     159.504,
     159.381,
-    158.68
+    158.709
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1641.18,
-   "chg": -6.5,
+   "price": 1636.35,
+   "chg": -6.78,
    "spark": [
-    1766.48,
     1768.76,
     1753.96,
     1751.71,
@@ -314,15 +313,15 @@
     1752.63,
     1741.73,
     1653.53,
-    1640.73
+    1643.7,
+    1636.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59415.9,
-   "chg": -4.03,
+   "price": 59300.1,
+   "chg": -4.22,
    "spark": [
-    63033.5,
     63109.8,
     62666.0,
     62539.3,
@@ -369,26 +368,52 @@
     61808.9,
     61696.8,
     59399.9,
-    59415.0
+    59473.4,
+    59300.1
    ]
   }
  ],
- "calendar": [],
- "cal_mode": "past",
+ "calendar": [
+  {
+   "ts": 1795186800.0,
+   "t": "Fri 20 Nov \u00b7 08:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "51.7",
+   "previous": "51.0"
+  },
+  {
+   "ts": 1795186800.0,
+   "t": "Fri 20 Nov \u00b7 08:00 PM",
+   "title": "Revised UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.3%"
+  },
+  {
+   "ts": 1795194000.0,
+   "t": "Fri 20 Nov \u00b7 10:00 PM",
+   "title": "President Trump Speaks",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": ""
+  }
+ ],
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795193209.849407,
+   "ts": 1795194109.016355,
    "title": "Gold on pace for steepest weekly drop in eight months amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "20 Nov \u00b7 09:46 PM"
+   "t": "20 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795193209.849407,
+   "ts": 1795194109.016355,
    "title": "Gold slides to 52-week low near $3,515 as bearish trend deepens",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-52week-low-near-3515-as-bearish-trend-deepens-93CH-5041518",
-   "t": "20 Nov \u00b7 09:46 PM"
+   "t": "20 Nov \u00b7 10:01 PM"
   },
   {
    "ts": 1795181132.0,
@@ -585,7 +610,6 @@
   "label": "Extreme Fear"
  },
  "err": [
-  "cal-thisweek: HTTP Error 429: Too Many Requests",
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
