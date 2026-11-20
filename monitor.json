@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 08:01 PKT",
+ "updated": "20-11-2026 08:16 PKT",
  "gold": {
-  "price": 3547.49,
-  "open": 3698.23,
+  "price": 3523.32,
+  "open": 3711.55,
   "high": 3743.35,
-  "low": 3522.73,
-  "chg": -4.08,
+  "low": 3522.12,
+  "chg": -5.07,
   "src": "XAUUSD Spot",
   "spark": [
-   3692.98,
    3693.06,
    3674.73,
    3678.74,
@@ -55,14 +54,15 @@
    3534.92,
    3551.01,
    3549.75,
-   3547.49
+   3524.83,
+   3523.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.86,
-   "chg": -6.98,
+   "price": 41.33,
+   "chg": -8.15,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    41.86
+    41.33
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.879,
-   "chg": 0.02,
+   "price": 103.861,
+   "chg": 0.0,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.879
+    103.861
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.06,
-   "chg": -0.24,
+   "price": 82.92,
+   "chg": -0.41,
    "spark": [
     97.15,
     99.47,
@@ -143,7 +143,7 @@
     85.72,
     86.01,
     83.26,
-    83.06
+    82.92
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0973,
-   "chg": 0.01,
+   "price": 1.0976,
+   "chg": 0.03,
    "spark": [
     1.1235,
     1.1221,
@@ -201,42 +201,13 @@
     1.0998,
     1.0993,
     1.0972,
-    1.0973
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3096,
-   "chg": -0.39,
-   "spark": [
-    1.3396,
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3205,
-    1.3147,
-    1.3096
+    1.0976
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.234,
-   "chg": -0.09,
+   "price": 159.137,
+   "chg": -0.15,
    "spark": [
     158.132,
     156.494,
@@ -259,13 +230,13 @@
     159.523,
     159.504,
     159.381,
-    159.234
+    159.137
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1748.15,
-   "chg": -0.41,
+   "price": 1741.49,
+   "chg": -0.79,
    "spark": [
     1802.2,
     1809.32,
@@ -314,13 +285,13 @@
     1755.18,
     1733.45,
     1747.57,
-    1748.15
+    1741.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 62129.1,
-   "chg": 0.35,
+   "price": 62000.0,
+   "chg": 0.14,
    "spark": [
     64350.5,
     64597.1,
@@ -369,7 +340,7 @@
     62062.2,
     61516.7,
     62199.9,
-    62129.1
+    61999.5
    ]
   }
  ],
@@ -394,25 +365,42 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795143703.968918,
+   "ts": 1795144607.83667,
    "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 08:01 AM"
+   "t": "20 Nov \u00b7 08:16 AM"
   },
   {
-   "ts": 1795143703.968918,
+   "ts": 1795144607.83667,
    "title": "Canada sees little US movement on tariff relief, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/canada-sees-little-us-movement-on-tariff-relief-sources-say-5040196",
-   "t": "20 Nov \u00b7 08:01 AM"
+   "t": "20 Nov \u00b7 08:16 AM"
   },
   {
-   "ts": 1795143703.968918,
+   "ts": 1795144607.83667,
    "title": "Spot gold hits over 14-month low amid Fed rate hike certainty, AI trade rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 08:01 AM"
+   "t": "20 Nov \u00b7 08:16 AM"
+  },
+  {
+   "ts": 1795141275.0,
+   "title": "No way back for oil after Hormuz, says IEA\u2019s Birol, but Goldman still sees Brent at $78",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/no-way-back-for-oil-after-hormuz-says-iea-s-birol-but-goldman-still-sees-brent-at-78/",
+   "t": "20 Nov \u00b7 07:21 AM",
+   "body": [
+    "For oil, the two views point to a split between the structure of the market and the price. Long-dated risk premiums tied to Hormuz may persist as importers pay up for security of supply. Near-dated Brent faces pressure from a growing surplus and new bypass capacity. Brent\u2019s muted reaction to fresh mine claims supports Goldman\u2019s view that the market is becoming less sensitive to headlines from the strait. Diesel and jet fuel remain the tightest part of the complex, so refining margins could stay elevated even if crude eases. Importers in Asia carry the most exposure, given their heavy reliance on Gulf supply.",
+    "The IEA says the Hormuz crisis has changed energy markets for good, while Goldman says the adjustment is already happening fast enough to pull oil prices lower.",
+    "The International Energy Agency says energy markets will not return to where they were before the Iran war, even if the world can learn to manage without the Strait of Hormuz. \u201cI don\u2019t see any credible pathway back\u201d to the pre-war situation, IEA Executive Director Fatih Birol wrote in an article for The Economist, arguing that confidence in the strait as a safe and reliable corridor has been crushed.",
+    "His comments accompany the IEA\u2019s World Energy Outlook 2026, released on Thursday. It describes the Hormuz disruption as the largest energy supply shock the world has faced, and one that is not yet over. At its peak, global oil supply fell by 16 million barrels per day and gas supply by 320 million cubic metres per day. By November, cumulative losses from the Gulf had reached 2.8 billion barrels of oil and 60 billion cubic metres of gas, far larger than any previous crisis.",
+    "The system has absorbed more than many expected. Well-stocked inventories, the IEA\u2019s largest co-ordinated stock release, bypass routes for some Gulf exports, higher Atlantic basin supply and a sharp drop in Chinese crude imports all cushioned the blow. But the IEA says the burden is increasingly shifting to consumers through high prices and demand destruction, with diesel and jet fuel hit hardest. It estimates global spending on imported oil and gas will reach $1.6 trillion this year, a quarter more than in 2025.",
+    "The lasting change, in Birol\u2019s view, is diversification. Countries will seek a wider mix of fuels, technologies, suppliers and trade routes. That includes pipelines that carry Middle East oil around Hormuz, which he says the UAE and Saudi Arabia are already building quickly. The IEA estimates that bypass pipelines, alternative supplies and demand measures could cut the need for oil flows through the strait from 20 million barrels per day before the crisis to 8.5 million by 2030, and below 2 million by 2035. Even then, it says, the Middle East would remain the world\u2019s largest oil exporter.",
+    "Goldman Sachs sees that adaptation already weighing on prices. The bank expects about 3.8 million barrels per day of new bypass pipeline capacity over the next year, sending crude to the Gulf of Oman, the Red Sea or the Mediterranean. It estimates the oil market tipped into surplus in October, as Gulf exports recovered to their 2025 average, and expects that surplus to reach 2 million barrels per day in 2027. Its forecast has Brent averaging $88 next year and easing toward $78 by December 2027.",
+    "Markets are already showing signs of that shift, barely moving despite Iranian claims that two supertankers had struck mines in the strait. The two views can both prove right: the energy system may be permanently changed, even as the price premium from the crisis gradually fades."
+   ]
   },
   {
    "ts": 1795139343.0,
@@ -504,23 +492,6 @@
     "Elsewhere in commodities, UBS expects oil to remain supported in the first half of 2027 and names copper as its preferred industrial metal, citing demand from electrification, power networks, data centres and AI infrastructure.",
     "The call puts UBS among the more constructive major banks on gold, alongside Morgan Stanley at $5,250 for the fourth quarter of 2027 and ahead of Goldman Sachs at $4,650 for the end of next year. All three see higher prices from here. None sees a quick turn while the Fed is still hiking."
    ]
-  },
-  {
-   "ts": 1795132166.0,
-   "title": "Fed's Paulson keeps quiet on December, says October\u2019s pause was never meant as a stop",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/fed-s-paulson-keeps-quiet-on-december-says-october-s-pause-was-never-meant-as-a-stop/",
-   "t": "20 Nov \u00b7 04:49 AM",
-   "body": [
-    "With no fresh policy signal, the speech is unlikely to move rate pricing, and a quarter-point December hike remains the strong favourite. Her \u201cpause was not a stop\u201d framing supports the view that the hiking cycle runs into 2027, which keeps front-end Treasury yields and the dollar supported. Her three triggers for faster hikes give traders a checklist for the 4 December payrolls report and other data before the meeting: inflation expectations, wage growth and underlying inflation. An upside surprise on wages or expectations would strengthen the case for the larger move that Waller has floated.",
-    "Paulson argues the Fed should need to say less if markets understand it, and her policy view hasn\u2019t changed: gradual hikes, with three clear reasons to go faster.",
-    "Philadelphia Fed President Anna Paulson stayed away from any near-term guidance on interest rates on Thursday. In a speech in New York, she argued that the Fed communicates best when the public understands how it thinks, not when officials spell out what comes next. With no fresh steer ahead of the December 8 to 9 meeting, her policy views from earlier this month remain the best guide to how she is likely to vote.",
-    "Speaking to the Money Marketeers of New York University, Paulson said understanding matters more than the particular ways the Fed communicates. If markets grasp the Fed\u2019s reaction function, she argued, officials need to say less each time new data arrive, and policy can stay steady and largely predictable. She said the value of rate-path guidance depends on circumstances and is less useful in normal times, though Fed communications should still be clear about officials\u2019 views.",
-    "She pointed to October as an example. The Fed held rates steady after hiking in September, but markets still expected further tightening, so the pause did not leave policy behind. In her words, shared understanding allowed policy to move deliberately, \u201cwithout the risk that a pause was mistaken for a stop.\u201d That was the closest she came to a signal: the October hold was a breather, not the end of the cycle.",
-    "Her remarks fit a wider debate inside the Fed. Under Chair Kevin Warsh, the central bank has shortened its policy statement and set up a task force on communications. Warsh himself has largely stepped back from giving rate guidance, even as many other officials continue to share their views.",
-    "Paulson had already shared hers. In a speech on November 10, she said policy needs to be somewhat restrictive to return inflation to 2% and that further gradual rate hikes seemed appropriate. She judged underlying inflation to be stuck between 2.5% and 3%. She also named three developments that would lead her to favour moving faster: inflation expectations drifting higher, wage pressures building, or underlying inflation rising. At the same time, she flagged that recent swings in stocks and oil could make consumer spending less durable than expected, one reason she prefers a gradual pace.",
-    "Read together, the two speeches point the same way. Paulson is a voter this year, and nothing in either speech suggests she would resist the quarter-point hike in December that markets widely expect, which would lift the target range to 4.00% to 4.25%. Thursday\u2019s message adds that a slower pace should not be mistaken for a softer resolve."
-   ]
   }
  ],
  "tweets": [
@@ -543,22 +514,22 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeHdJVmdOT0RITzVTeFFtbTdWNHpGSlR3UFV2ZC1jSTRndnF1cjhvd3VuMk9Rc1dLNkprVUx6T0dGV1RyeGNzazUzZzZXZ1pmSkYzMkI2bU1lYWU3WjNha2tMWWZjcEdkZU1TQkpXU3lOR0JZVExVWmRTQnE5UVdHcTNUY0FFXzNPWG5icGtSUHhMLV9faVJnWWFSRXROUXNMclZDc1dDQ3hFZ9IBrwFBVV95cUxQR3VwNE9wWDF4SE1paXU1cVZnOGVsNDlwQlQ5VnM4TkZHajRmN1lKQ1BMNGdpTW1mc0F5VFdzTTF1aDFZYW1RSVAzcTVwTnN4dldwRUNtYmNxWFg5VDVEUzRfaUVlb21xYzB3aGRoR244ektXZVV3WTJBRVppS2FYMDVuZDZIZFlwTElrdTRuQnVWTVJib2hxQ1lxeUprOFJQQkl0UHFUdmRWTGNNTGRn?oc=5"
   },
   {
-   "ts": 1795122282.0,
-   "title": "Trump on North Korea's Kim Jong Un: The relationship is there, but we didn't meet during Asia trip because there was too many meetings - NBC News",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc0k2SVRjV0tjNG5aLUwySS1KcWhkcEMzU1EwWWphWTB2TVlVckRRa2pzUHI0dVZycTRXSXdabE51VEt4V1E0WXBZTHRsTVdTZE83QkpJeTdnWHZJNk5xbVcwSmVqTFFmOGppck8zMUxudkRaTm9GTVpjeXdnX0J1OVZWS3RmZ9IBiwFBVV95cUxOYTl1dFFCYmljT2ZsYXhKbFFWdFNLOFFfeXNreV80Q2hLb0hZQ0pmRzFTX1VXNGtLNC1UdjhNWjUxSXJ5eGdKRnlrYjBlSTRsa3BCZ2R5VzNiSjl1d3BVNzFCek1rcnEwZHoybWxEREkwTmNSZWNBRWtuYkp6dWQxMVl5akY3cXJZNDNj?oc=5"
-  },
-  {
-   "ts": 1795121209.0,
-   "title": "BOJ's ambiguity on rate hike path could tempt yen bears",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkFSR3VndmQ3NGwtRGhVel94dTBVVGc0REdBSHN5b3E5TjZsVE4td290OUdKQ2p2Zi1UWTVOM3VTTWdib1ZabTctdnRpbGQ1STJzQUhNekVJbXJ6QnhDTFlEYUNxTDlFYWplWDg3Wng4QzljbHVvRG5zNWQ2Y2htRkxxZnZ4SGJJUXB6Tmk3a9IBlAFBVV95cUxNZGZtc1ZLdFdjWUdXMHdicEQ3NXY3T1FxV1VKYjNrTDdWczF2RVlzdlRuSlVRQWQyakJKVzRmd012eTByQzdOZGJaeVFrYy1GMG5BaE9XRXgzcE1SaVZzQXA1My00UDlFckY5cXVCdmI2VV96RDJUandyWENYS1FQUllLSGgwb0dfSFNaZW12ZGFHdUpU?oc=5"
-  },
-  {
    "ts": 1795115696.0,
    "title": "BoE's Greene: Need to 'anchor' expectations at 2% target",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeUJvUDY3SUMwLXB4TVlKdmRIYko0QzB1UG1vVlVaN185dkMwbHdJdmRhaFU0VEFXRmNKN0s5V2JFd2taRFkyMHdfN3BHOEZEMzlOVzh3bnJDeVZHUGF1Wk8wVTRFcmh1MzRVVXBUMFJUMEhPaFdmMGpQNzZFSHBObUtlQ0VpY0xSdEkzY0diTdIBlAFBVV95cUxPQVBKLUVGcXJ5WEQtRFB0aWIwbE82ai1oXzhiR0d6NXlDZF94dXBlQmtwMXJ5UFI1V3Y5MlNZMFJsY1pSaEhpNHprYmxPTHNNUzdpNWwydWlTQmVreF9MRmhFbzYzMHR5ei1rUm1Nd1czbTBFUEJoaVUyWXBpUHZ3Z0hxV29mUzViMkhBR0lXR0FkMHBP?oc=5"
+  },
+  {
+   "ts": 1795112280.0,
+   "title": "Fed's Barr: FinRegLab AI Symposium 2026 - Day 2",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVN0R1NjRURTNEstaVUycTVaOGtNYjhUQjFjTVZYS2xrX3NNdzNxMXFPeTN5WklheWpyQkhPelJUVGFnNnR2ZHE1S1pHNWVReDZnMWtiZHNld3Vkb2p5a2JWRHE4Q2owSkJyLU5UaGNTd3ZDVlhmNXlOaGltckdFSjlPWTVrdkRjQlk00gGQAUFVX3lxTFBLT19xMDhsQWdXOTJ5LXlucGxteXdXdGZKMDE2RWU4eEU5U0VSbTI0d0M1ejVHU1NWcUhmRlpkSFRSVGFoMW5VZ2xHbUd2d1M4N2pKbEhTeTk0ZHZvZDhibzN1RjBkZElqclE2SkhySGhRM202QUE4RTNtQ0RJVHpyR2VKa1pCamo3YS1TemRETw?oc=5"
+  },
+  {
+   "ts": 1795112019.0,
+   "title": "BOJ's ambiguity on rate hike path could tempt yen bears",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkFSR3VndmQ3NGwtRGhVel94dTBVVGc0REdBSHN5b3E5TjZsVE4td290OUdKQ2p2Zi1UWTVOM3VTTWdib1ZabTctdnRpbGQ1STJzQUhNekVJbXJ6QnhDTFlEYUNxTDlFYWplWDg3Wng4QzljbHVvRG5zNWQ2Y2htRkxxZnZ4SGJJUXB6Tmk3a9IBlAFBVV95cUxNZGZtc1ZLdFdjWUdXMHdicEQ3NXY3T1FxV1VKYjNrTDdWczF2RVlzdlRuSlVRQWQyakJKVzRmd012eTByQzdOZGJaeVFrYy1GMG5BaE9XRXgzcE1SaVZzQXA1My00UDlFckY5cXVCdmI2VV96RDJUandyWENYS1FQUllLSGgwb0dfSFNaZW12ZGFHdUpU?oc=5"
   }
  ],
  "sentiment": {
