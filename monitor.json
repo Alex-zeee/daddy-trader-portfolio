@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 03:46 PKT",
+ "updated": "21-11-2026 04:01 PKT",
  "gold": {
-  "price": 3532.78,
-  "open": 3628.37,
-  "high": 3636.23,
+  "price": 3532.89,
+  "open": 3624.32,
+  "high": 3634.07,
   "low": 3503.98,
-  "chg": -2.63,
+  "chg": -2.52,
   "src": "XAUUSD Spot",
   "spark": [
-   3585.8,
    3589.17,
    3583.68,
    3577.09,
@@ -55,7 +54,8 @@
    3532.78,
    3532.88,
    3532.88,
-   3532.78
+   3532.87,
+   3532.89
   ]
  },
  "markets": [
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1619.0,
-   "chg": -7.77,
+   "price": 1623.08,
+   "chg": -7.54,
    "spark": [
-    1774.77,
     1782.9,
     1777.17,
     1768.44,
@@ -314,15 +313,15 @@
     1605.82,
     1599.36,
     1616.25,
-    1619.0
+    1619.08,
+    1623.08
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59035.2,
-   "chg": -4.65,
+   "price": 59079.5,
+   "chg": -4.58,
    "spark": [
-    62984.6,
     63121.8,
     62782.7,
     62534.9,
@@ -369,7 +368,8 @@
     58480.8,
     58351.6,
     58999.0,
-    59035.2
+    59035.8,
+    59079.5
    ]
   }
  ],
@@ -426,18 +426,18 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795214806.177508,
+   "ts": 1795215709.663914,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 03:46 AM"
+   "t": "21 Nov \u00b7 04:01 AM"
   },
   {
-   "ts": 1795214806.177508,
+   "ts": 1795215709.663914,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 03:46 AM"
+   "t": "21 Nov \u00b7 04:01 AM"
   },
   {
    "ts": 1795211201.0,
@@ -620,6 +620,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
