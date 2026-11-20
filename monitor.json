@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 02:01 PKT",
+ "updated": "21-11-2026 02:16 PKT",
  "gold": {
-  "price": 3524.01,
-  "open": 3660.46,
-  "high": 3662.25,
+  "price": 3519.32,
+  "open": 3636.55,
+  "high": 3636.89,
   "low": 3503.98,
-  "chg": -3.73,
+  "chg": -3.22,
   "src": "XAUUSD Spot",
   "spark": [
-   3571.15,
    3576.24,
    3570.46,
    3576.3,
@@ -55,14 +54,15 @@
    3517.56,
    3509.31,
    3520.91,
-   3524.01
+   3520.6,
+   3519.32
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 40.89,
-   "chg": -7.74,
+   "price": 40.845,
+   "chg": -7.84,
    "spark": [
     54.764,
     53.711,
@@ -85,13 +85,13 @@
     47.288,
     44.999,
     44.318,
-    40.89
+    40.845
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.875,
-   "chg": -0.02,
+   "price": 103.889,
+   "chg": -0.01,
    "spark": [
     101.61,
     101.81,
@@ -114,13 +114,13 @@
     103.49,
     103.86,
     103.9,
-    103.875
+    103.889
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.99,
-   "chg": 0.94,
+   "price": 83.83,
+   "chg": 0.75,
    "spark": [
     99.47,
     103.27,
@@ -143,7 +143,7 @@
     86.01,
     83.26,
     83.21,
-    83.99
+    83.83
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0967,
-   "chg": -0.04,
+   "price": 1.0966,
+   "chg": -0.05,
    "spark": [
     1.1235,
     1.1221,
@@ -201,42 +201,13 @@
     1.0998,
     1.0993,
     1.0972,
-    1.0967
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.308,
-   "chg": -0.5,
-   "spark": [
-    1.3396,
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3205,
-    1.3147,
-    1.308
+    1.0966
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.493,
-   "chg": -0.56,
+   "price": 158.555,
+   "chg": -0.52,
    "spark": [
     158.132,
     156.494,
@@ -259,13 +230,13 @@
     159.523,
     159.504,
     159.381,
-    158.493
+    158.555
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1599.35,
-   "chg": -8.89,
+   "price": 1596.82,
+   "chg": -9.03,
    "spark": [
     1755.18,
     1774.77,
@@ -314,13 +285,13 @@
     1614.68,
     1605.82,
     1599.36,
-    1599.35
+    1596.82
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58333.6,
-   "chg": -5.78,
+   "price": 58170.1,
+   "chg": -6.05,
    "spark": [
     62166.6,
     62984.6,
@@ -369,7 +340,7 @@
     58335.9,
     58480.8,
     58351.6,
-    58333.6
+    58175.0
    ]
   }
  ],
@@ -426,18 +397,55 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795208507.575136,
+   "ts": 1795209406.427788,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 02:01 AM"
+   "t": "21 Nov \u00b7 02:16 AM"
   },
   {
-   "ts": 1795208507.575136,
+   "ts": 1795209406.427788,
    "title": "Gold on pace for steepest weekly drop in eight months amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 02:01 AM"
+   "t": "21 Nov \u00b7 02:16 AM"
+  },
+  {
+   "ts": 1795208828.0,
+   "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+   "src": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+   "t": "21 Nov \u00b7 02:07 AM",
+   "body": [
+    "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.",
+    "\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and how the economy could turn, and what that means for interest rates and inflation, isn't yet clear.",
+    "The meeting of Warsh's AI task force saw the new Fed chairman publicly asking the questions Americans will ultimately expect him to answer. He hinted at a few of his private views on whether white-collar workers could soon face massive job losses, but he largely left the speculation to an array of experts he has assembled to advise the Fed.",
+    "With the technology racing ahead, Warsh won't be able to put off giving his own answers much longer. AI lab Anthropic plans to price the shares for its initial public offering on Wednesday and could raise as much as $64 billion at a $1.4 trillion valuation. Vast spending from AI firms is prompting the Fed to contemplate raising interest rates in December to slow down the rate of price increases as the tech sector heats up the economy.",
+    "Meanwhile Americans are souring on some aspects of the technology. The Nov. 3 midterms saw voters enact an array of state-level measures to slow down construction of the data centers that are essential to powering AI.",
+    "Warsh moderated three out of four sessions at Monday's event and was involved in selecting the speakers. Among them was one of the few prominent Democrats who was willing to speak out against that anti-data center trend.",
+    "It is \"a very troubling sign\" that so many anti-data center measures passed in the midterms, Gina Raimondo said. She is a former secretary of Commerce under President Joe Biden and a former governor of Rhode Island.",
+    "Stopping AI \"would be very bad for America\" and for the people who voted for the measures, Raimondo said.",
+    "Warsh didn't say whether he shares that view, and how it would translate into monetary policy isn't exactly clear.",
+    "The event was an unusual one for the Fed. The central bank employs a small army of Ph.D. economists who can rapidly weigh in on anything affecting the U.S. and global economies. But in keeping with his long-standing critiques of the Fed as insular and outdated, Warsh has chosen to draw expertise from outside the institution to help it figure out how to think about what AI will do to productivity and jobs.",
+    "Warsh has assembled a task force on that issue, alongside four others devoted to aspects of Fed policymaking.",
+    "The public heard Monday from one of the three official members of the task force: venture capitalist Marc Andreessen. Warsh went to Stanford University with Andreessen's wife, and the two have been longtime friends. Another task force member, Stanford economist Chad Jones, is on leave and working at Anthropic and couldn't speak during the company's blackout period ahead of the IPO. The third, Xbox CEO Asha Sharma, didn't attend the event.",
+    "Andreessen is hugely optimistic about the promise of AI as a technology, but believes the government won't let Americans experience its full effects. Heavy regulation in areas such as healthcare and education mean technology can't replace people's jobs in those sectors, he said.",
+    "\"To the extent our economy is a free market economy, then maybe you could see the, let's say, extremely rapid displacement scenarios people are talking about,\" Andreessen said. \"But we've mostly outlawed the kind of job transition that \u2026 both the utopians the doomers talk about.\""
+   ]
+  },
+  {
+   "ts": 1795207330.0,
+   "title": "Trump weighs renewed strikes on Iran as military warns of strain. FT",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/trump-weighs-renewed-strikes-on-iran-as-military-warns-of-strain-ft/",
+   "t": "21 Nov \u00b7 01:42 AM",
+   "body": [
+    "President Donald Trump is considering new strikes on Iran, the Financial Times reports, as hawkish officials in Washington and Israel urge him to resume military action.",
+    "U.S. military planners are warning that American forces risk becoming overextended if the standoff drags into the new year. The warning adds pressure on Trump as he weighs whether to restart strikes and how long U.S. forces can sustain their current posture.",
+    "For markets, crude oil is the first place to watch. The report puts escalation risk back in focus, and the next question for traders is whether that risk starts to translate into a bigger premium for potential supply disruptions.",
+    "...and there are strains on the world because back on February 28, a war was started with what was thought would be a quick end, but which has proved not be quick at all and the implications are contributing to strains everywhere.",
+    "The good news is it took 15 hours to get back to Washington from China, and the President saw his friends."
+   ]
   },
   {
    "ts": 1795195315.0,
@@ -492,24 +500,6 @@
    ]
   },
   {
-   "ts": 1795164970.0,
-   "title": "Gold's panic selling signals capitulation, but a catalyst is needed for a bottom",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-s-panic-selling-signals-capitulation-but-a-catalyst-is-needed-for-a-bottom/",
-   "t": "20 Nov \u00b7 01:56 PM",
-   "body": [
-    "Gold extended the selloff further despite no changes in the fundamentals. In fact, the US dollar remained relatively flat, real yields fell a bit and rate hike expectations actually eased following another rout in the stock market.",
-    "This mix would generally support gold, but it looks like we got another liquidation caused by stock market losses.",
-    "To understand the mechanics, imagine that an investment fund holds stocks, gold and government bonds. Some stocks suddenly crash, and the fund suffers losses on leveraged positions. The fund may need to raise cash to meet margin calls, reduce leverage or satisfy investor redemptions. Rather than selling only the assets that caused the losses, it may sell whatever it can liquidate quickly. Gold is particularly useful in this situation because it is highly liquid and can be sold quickly.",
-    "The hawkish repricing is now over, and we might even see a dovish repricing in the next months if the equity losses extend further and economic data deteriorates. Therefore, the risk-reward for more downside has weakened, although we haven\u2019t got any bullish catalyst yet to position for a reversal. Waiting for catalysts is always better than trying to catch falling knives.",
-    "On Monday, we get the Flash US PMIs. The data might provide the first bullish catalyst if it surprises to the downside as growth concerns may increase further and rate hike bets further down the curve should be unwound. A strong report, though, might add some more downward pressure.",
-    "On the daily chart, we can see that gold (CFD contract) extended the losses even further and almost tested the 3,500 level. We can expect the buyers to step in around the level, with a defined risk below it, to position for a rally into the 4,700 level. The sellers, on the other hand, will look for a break to increase the bearish bets into the 3,100 level next.",
-    "On the 4 hour chart, we have a downward trendline defining the bearish momentum. If we get a pullback, we can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the major downward trendline around the 4,050 level next.",
-    "On the 1 hour chart, we have another minor trendline defining the bearish momentum on this timeframe. The sellers will likely lean on the trendline, with a defined risk above it, to keep pushing into new lows. The buyers, on the other hand, will look for a break higher to increase the bullish bets into the next trendline. The red lines define the average daily range for today.",
-    "Today we have Trump speaking at a press conference about his Asia trip, but he could certainly digress and talk about Iran. On Monday, we get the US Flash PMIs. On Thursday, we get the latest US Jobless Claims figures. The focus will remain on growth concerns, the Fed and US-Iran developments."
-   ]
-  },
-  {
    "ts": 1795139343.0,
    "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
    "src": "CNBC",
@@ -521,29 +511,6 @@
     "Headline inflation came in at 2.3% compared with September's 2.1%, while the so-called \"core-core\" inflation, which strips out prices of fresh food and energy, dipped slightly to 2.2% from 2.4% in the month before.",
     "Energy subsidies for households expired in September, exposing consumers to higher energy prices brought about by the Iran war. Japan has reportedly approved reintroduction of energy subsidies in December to stave off higher imported energy prices as higher prices crimp growth, hitting consumption and net exports.",
     "October inflation reading is likely to push the Bank of Japan toward another rate hike in December, despite an unexpected contraction in economic growth in the third quarter. Data from LSEG indicates that there is a 75% chance of a 25 basis point hike from the Bank of Japan.\"The BOJ is likely to look through the temporary weakness in 3Q GDP and focus instead on underlying inflation and wage dynamics,\" Ma Tieying, senior economist at DBS Group Research, wrote in a Monday note."
-   ]
-  },
-  {
-   "ts": 1795119527.0,
-   "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-   "t": "20 Nov \u00b7 01:18 AM",
-   "body": [
-    "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.",
-    "\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and how the economy could turn, and what that means for interest rates and inflation, isn't yet clear.",
-    "The meeting of Warsh's AI task force saw the new Fed chairman publicly asking the questions Americans will ultimately expect him to answer. He hinted at a few of his private views on whether white-collar workers could soon face massive job losses, but he largely left the speculation to an array of experts he has assembled to advise the Fed.",
-    "With the technology racing ahead, Warsh won't be able to put off giving his own answers much longer. AI lab Anthropic plans to price the shares for its initial public offering on Wednesday and could raise as much as $64 billion at a $1.4 trillion valuation. Vast spending from AI firms is prompting the Fed to contemplate raising interest rates in December to slow down the rate of price increases as the tech sector heats up the economy.",
-    "Meanwhile Americans are souring on some aspects of the technology. The Nov. 3 midterms saw voters enact an array of state-level measures to slow down construction of the data centers that are essential to powering AI.",
-    "Warsh moderated three out of four sessions at Monday's event and was involved in selecting the speakers. Among them was one of the few prominent Democrats who was willing to speak out against that anti-data center trend.",
-    "It is \"a very troubling sign\" that so many anti-data center measures passed in the midterms, Gina Raimondo said. She is a former secretary of Commerce under President Joe Biden and a former governor of Rhode Island.",
-    "Stopping AI \"would be very bad for America\" and for the people who voted for the measures, Raimondo said.",
-    "Warsh didn't say whether he shares that view, and how it would translate into monetary policy isn't exactly clear.",
-    "The event was an unusual one for the Fed. The central bank employs a small army of Ph.D. economists who can rapidly weigh in on anything affecting the U.S. and global economies. But in keeping with his long-standing critiques of the Fed as insular and outdated, Warsh has chosen to draw expertise from outside the institution to help it figure out how to think about what AI will do to productivity and jobs.",
-    "Warsh has assembled a task force on that issue, alongside four others devoted to aspects of Fed policymaking.",
-    "The public heard Monday from one of the three official members of the task force: venture capitalist Marc Andreessen. Warsh went to Stanford University with Andreessen's wife, and the two have been longtime friends. Another task force member, Stanford economist Chad Jones, is on leave and working at Anthropic and couldn't speak during the company's blackout period ahead of the IPO. The third, Xbox CEO Asha Sharma, didn't attend the event.",
-    "Andreessen is hugely optimistic about the promise of AI as a technology, but believes the government won't let Americans experience its full effects. Heavy regulation in areas such as healthcare and education mean technology can't replace people's jobs in those sectors, he said.",
-    "\"To the extent our economy is a free market economy, then maybe you could see the, let's say, extremely rapid displacement scenarios people are talking about,\" Andreessen said. \"But we've mostly outlawed the kind of job transition that \u2026 both the utopians the doomers talk about.\""
    ]
   },
   {
@@ -587,12 +554,6 @@
  ],
  "tweets": [
   {
-   "ts": 1795197064.0,
-   "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
-  },
-  {
    "ts": 1795191555.0,
    "title": "Trump Administration Wants Kyiv To Reach A Peace Deal With Russia By Early January -FT",
    "src": "ForexFactory",
@@ -621,6 +582,12 @@
    "title": "BoE's Greene: Need to 'anchor' expectations at 2% target",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeUJvUDY3SUMwLXB4TVlKdmRIYko0QzB1UG1vVlVaN185dkMwbHdJdmRhaFU0VEFXRmNKN0s5V2JFd2taRFkyMHdfN3BHOEZEMzlOVzh3bnJDeVZHUGF1Wk8wVTRFcmh1MzRVVXBUMFJUMEhPaFdmMGpQNzZFSHBObUtlQ0VpY0xSdEkzY0diTdIBlAFBVV95cUxPQVBKLUVGcXJ5WEQtRFB0aWIwbE82ai1oXzhiR0d6NXlDZF94dXBlQmtwMXJ5UFI1V3Y5MlNZMFJsY1pSaEhpNHprYmxPTHNNUzdpNWwydWlTQmVreF9MRmhFbzYzMHR5ei1rUm1Nd1czbTBFUEJoaVUyWXBpUHZ3Z0hxV29mUzViMkhBR0lXR0FkMHBP?oc=5"
+  },
+  {
+   "ts": 1795112280.0,
+   "title": "Fed's Barr: FinRegLab AI Symposium 2026 - Day 2",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVN0R1NjRURTNEstaVUycTVaOGtNYjhUQjFjTVZYS2xrX3NNdzNxMXFPeTN5WklheWpyQkhPelJUVGFnNnR2ZHE1S1pHNWVReDZnMWtiZHNld3Vkb2p5a2JWRHE4Q2owSkJyLU5UaGNTd3ZDVlhmNXlOaGltckdFSjlPWTVrdkRjQlk00gGQAUFVX3lxTFBLT19xMDhsQWdXOTJ5LXlucGxteXdXdGZKMDE2RWU4eEU5U0VSbTI0d0M1ejVHU1NWcUhmRlpkSFRSVGFoMW5VZ2xHbUd2d1M4N2pKbEhTeTk0ZHZvZDhibzN1RjBkZElqclE2SkhySGhRM202QUE4RTNtQ0RJVHpyR2VKa1pCamo3YS1TemRETw?oc=5"
   }
  ],
  "sentiment": {
