@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 00:46 PKT",
+ "updated": "21-11-2026 01:01 PKT",
  "gold": {
-  "price": 3532.25,
-  "open": 3667.06,
+  "price": 3523.55,
+  "open": 3668.52,
   "high": 3673.23,
   "low": 3504.02,
-  "chg": -3.68,
+  "chg": -3.95,
   "src": "XAUUSD Spot",
   "spark": [
-   3571.88,
    3586.37,
    3583.87,
    3580.86,
@@ -55,14 +54,44 @@
    3519.21,
    3514.48,
    3530.97,
-   3532.25
+   3520.57,
+   3523.55
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 40.97,
+   "chg": -7.55,
+   "spark": [
+    54.764,
+    53.711,
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    44.318,
+    40.97
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.829,
-   "chg": -0.07,
+   "price": 103.811,
+   "chg": -0.09,
    "spark": [
     101.61,
     101.81,
@@ -85,13 +114,13 @@
     103.49,
     103.86,
     103.9,
-    103.829
+    103.811
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.98,
-   "chg": -0.28,
+   "price": 83.12,
+   "chg": -0.11,
    "spark": [
     99.47,
     103.27,
@@ -114,13 +143,13 @@
     86.01,
     83.26,
     83.21,
-    82.98
+    83.12
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.908,
-   "chg": -2.85,
+   "price": 4.912,
+   "chg": -2.77,
    "spark": [
     4.953,
     4.988,
@@ -143,13 +172,13 @@
     5.103,
     5.066,
     5.052,
-    4.908
+    4.912
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0975,
-   "chg": 0.02,
+   "price": 1.0973,
+   "chg": 0.01,
    "spark": [
     1.1235,
     1.1221,
@@ -172,13 +201,13 @@
     1.0998,
     1.0993,
     1.0972,
-    1.0975
+    1.0973
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3093,
-   "chg": -0.41,
+   "price": 1.3088,
+   "chg": -0.44,
    "spark": [
     1.3396,
     1.3404,
@@ -201,13 +230,13 @@
     1.3185,
     1.3205,
     1.3147,
-    1.3093
+    1.3088
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.525,
-   "chg": -0.54,
+   "price": 158.464,
+   "chg": -0.58,
    "spark": [
     158.132,
     156.494,
@@ -230,15 +259,14 @@
     159.523,
     159.504,
     159.381,
-    158.525
+    158.464
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1610.39,
-   "chg": -8.26,
+   "price": 1605.52,
+   "chg": -8.54,
    "spark": [
-    1751.71,
     1762.31,
     1755.18,
     1774.77,
@@ -285,15 +313,15 @@
     1643.7,
     1629.29,
     1614.68,
-    1610.39
+    1605.82,
+    1605.53
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58631.8,
-   "chg": -5.3,
+   "price": 58488.3,
+   "chg": -5.53,
    "spark": [
-    62539.3,
     62257.6,
     62166.6,
     62984.6,
@@ -340,11 +368,52 @@
     59473.4,
     59090.8,
     58335.9,
-    58631.8
+    58480.8,
+    58492.5
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1795028400.0,
+   "t": "Thu 19 Nov \u00b7 12:00 AM",
+   "title": "FOMC Meeting Minutes",
+   "impact": "High",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1795095000.0,
+   "t": "Thu 19 Nov \u00b7 06:30 PM",
+   "title": "Philly Fed Manufacturing Index",
+   "impact": "Medium",
+   "forecast": "20.6",
+   "previous": "20.9"
+  },
+  {
+   "ts": 1795095000.0,
+   "t": "Thu 19 Nov \u00b7 06:30 PM",
+   "title": "Unemployment Claims",
+   "impact": "Medium",
+   "forecast": "198K",
+   "previous": "200K"
+  },
+  {
+   "ts": 1795186800.0,
+   "t": "Fri 20 Nov \u00b7 08:00 PM",
+   "title": "Revised UoM Consumer Sentiment",
+   "impact": "Medium",
+   "forecast": "51.7",
+   "previous": "51.0"
+  },
+  {
+   "ts": 1795186800.0,
+   "t": "Fri 20 Nov \u00b7 08:00 PM",
+   "title": "Revised UoM Inflation Expectations",
+   "impact": "Medium",
+   "forecast": "",
+   "previous": "4.3%"
+  },
   {
    "ts": 1795194000.0,
    "t": "Fri 20 Nov \u00b7 10:00 PM",
@@ -354,14 +423,14 @@
    "previous": ""
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1795204007.598081,
+   "ts": 1795204904.064993,
    "title": "Gold on pace for steepest weekly drop in eight months amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 12:46 AM"
+   "t": "21 Nov \u00b7 01:01 AM"
   },
   {
    "ts": 1795195315.0,
@@ -572,7 +641,7 @@
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 1/10 no body",
-  "ff-tweets https://www.forexfactory.com/rss: HTTP Error 503: Service Unavailable",
-  "ff-tweets https://www.forexfactory.com/news/rss: HTTP Error 503: Service Unavailable"
+  "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
