@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 16:01 PKT",
+ "updated": "20-11-2026 16:16 PKT",
  "gold": {
-  "price": 3586.34,
-  "open": 3728.74,
+  "price": 3586.1,
+  "open": 3728.75,
   "high": 3732.93,
   "low": 3515.19,
-  "chg": -3.82,
+  "chg": -3.83,
   "src": "XAUUSD Spot",
   "spark": [
-   3626.08,
    3604.0,
    3604.76,
    3620.08,
@@ -55,14 +54,15 @@
    3581.55,
    3594.34,
    3586.87,
-   3586.34
+   3585.8,
+   3586.1
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.57,
-   "chg": -3.94,
+   "price": 42.52,
+   "chg": -4.06,
    "spark": [
     54.764,
     53.711,
@@ -85,13 +85,13 @@
     47.288,
     44.999,
     44.318,
-    42.57
+    42.52
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.872,
-   "chg": -0.03,
+   "price": 103.879,
+   "chg": -0.02,
    "spark": [
     101.61,
     101.81,
@@ -114,13 +114,13 @@
     103.49,
     103.86,
     103.9,
-    103.872
+    103.879
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.39,
-   "chg": -2.19,
+   "price": 81.66,
+   "chg": -1.86,
    "spark": [
     99.47,
     103.27,
@@ -143,36 +143,7 @@
     86.01,
     83.26,
     83.21,
-    81.39
-   ]
-  },
-  {
-   "name": "US 10Y Yield",
-   "price": 5.052,
-   "chg": -0.28,
-   "spark": [
-    5.146,
-    4.953,
-    4.988,
-    4.986,
-    4.993,
-    5.045,
-    4.989,
-    4.929,
-    4.894,
-    4.952,
-    4.894,
-    4.837,
-    4.859,
-    4.864,
-    4.983,
-    4.998,
-    5.103,
-    5.154,
-    5.121,
-    5.103,
-    5.066,
-    5.052
+    81.66
    ]
   },
   {
@@ -206,8 +177,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3103,
-   "chg": -0.33,
+   "price": 1.3108,
+   "chg": -0.29,
    "spark": [
     1.3396,
     1.3404,
@@ -230,13 +201,13 @@
     1.3185,
     1.3205,
     1.3147,
-    1.3103
+    1.3108
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.862,
-   "chg": -0.33,
+   "price": 158.797,
+   "chg": -0.37,
    "spark": [
     158.132,
     156.494,
@@ -259,13 +230,13 @@
     159.523,
     159.504,
     159.381,
-    158.862
+    158.797
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1755.92,
-   "chg": 0.03,
+   "price": 1748.9,
+   "chg": -0.37,
    "spark": [
     1793.94,
     1788.48,
@@ -314,13 +285,13 @@
     1749.25,
     1744.59,
     1755.35,
-    1755.92
+    1749.03
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61989.4,
-   "chg": 0.12,
+   "price": 61755.3,
+   "chg": -0.26,
    "spark": [
     64012.2,
     63864.8,
@@ -369,7 +340,7 @@
     61766.6,
     61587.1,
     61983.7,
-    61989.4
+    61755.3
    ]
   }
  ],
@@ -394,32 +365,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795172507.231188,
+   "ts": 1795173403.870883,
    "title": "Gold on pace for steepest weekly drop in eight months amid Fed hike bets",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "20 Nov \u00b7 04:01 PM"
+   "t": "20 Nov \u00b7 04:16 PM"
   },
   {
-   "ts": 1795172507.231188,
+   "ts": 1795173403.870883,
    "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 04:01 PM"
+   "t": "20 Nov \u00b7 04:16 PM"
   },
   {
-   "ts": 1795172507.231188,
+   "ts": 1795173403.870883,
    "title": "Canada sees little US movement on tariff relief, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/canada-sees-little-us-movement-on-tariff-relief-sources-say-5040196",
-   "t": "20 Nov \u00b7 04:01 PM"
-  },
-  {
-   "ts": 1795172507.231188,
-   "title": "Spot gold hits over 14-month low amid Fed rate hike certainty, AI trade rout",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 04:01 PM"
+   "t": "20 Nov \u00b7 04:16 PM"
   },
   {
    "ts": 1795164970.0,
@@ -520,6 +484,16 @@
     "There are also reasons for caution in the October data. Headline inflation rose to 2.3%, its highest in nearly a year. That was driven partly by a sharp increase in fresh food prices and by energy costs after the government briefly scaled back utility subsidies. Those subsidies are expected to return over the winter, which could take some heat out of headline readings in the coming months.",
     "The debate matters for the yen. A BoJ path toward 2.5% would narrow the rate gap with the US far more quickly than markets expect, offering support for a currency trading near 160 per dollar. If underlying inflation instead stays around 2%, the gradual path priced by most economists looks more likely, and the yen would remain reliant on intervention warnings."
    ]
+  },
+  {
+   "ts": 1795137339.0,
+   "title": "PBOC sets USD/ CNY reference rate for today at 6.7131 (vs. estimate at 6.6731)",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7131-vs-estimate-at-6-6731/",
+   "t": "20 Nov \u00b7 06:15 AM",
+   "body": [
+    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
+   ]
   }
  ],
  "tweets": [
@@ -566,8 +540,9 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
