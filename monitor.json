@@ -1,14 +1,13 @@
 {
- "updated": "20-11-2026 09:01 PKT",
+ "updated": "20-11-2026 09:16 PKT",
  "gold": {
-  "price": 3548.83,
-  "open": 3726.29,
+  "price": 3545.0,
+  "open": 3725.22,
   "high": 3743.35,
   "low": 3515.78,
-  "chg": -4.76,
+  "chg": -4.84,
   "src": "XAUUSD Spot",
   "spark": [
-   3679.29,
    3689.71,
    3684.89,
    3675.93,
@@ -55,14 +54,15 @@
    3525.29,
    3550.49,
    3548.78,
-   3548.83
+   3546.18,
+   3545.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.835,
-   "chg": -7.03,
+   "price": 41.7,
+   "chg": -7.33,
    "spark": [
     57.422,
     54.764,
@@ -85,13 +85,13 @@
     46.785,
     47.288,
     44.999,
-    41.835
+    41.7
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.823,
-   "chg": -0.04,
+   "price": 103.832,
+   "chg": -0.03,
    "spark": [
     101.78,
     101.61,
@@ -114,13 +114,13 @@
     103.55,
     103.49,
     103.86,
-    103.823
+    103.832
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.11,
-   "chg": -0.18,
+   "price": 83.16,
+   "chg": -0.12,
    "spark": [
     97.15,
     99.47,
@@ -143,7 +143,7 @@
     85.72,
     86.01,
     83.26,
-    83.11
+    83.16
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0978,
-   "chg": 0.06,
+   "price": 1.0979,
+   "chg": 0.07,
    "spark": [
     1.1235,
     1.1221,
@@ -201,13 +201,13 @@
     1.0998,
     1.0993,
     1.0972,
-    1.0978
+    1.0979
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3103,
-   "chg": -0.33,
+   "price": 1.3106,
+   "chg": -0.31,
    "spark": [
     1.3396,
     1.3404,
@@ -230,12 +230,12 @@
     1.3185,
     1.3205,
     1.3147,
-    1.3103
+    1.3106
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.224,
+   "price": 159.227,
    "chg": -0.1,
    "spark": [
     158.132,
@@ -259,13 +259,13 @@
     159.523,
     159.504,
     159.381,
-    159.224
+    159.227
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1738.31,
-   "chg": -0.97,
+   "price": 1734.89,
+   "chg": -1.17,
    "spark": [
     1809.32,
     1807.46,
@@ -314,13 +314,13 @@
     1733.45,
     1747.57,
     1744.07,
-    1738.31
+    1734.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61941.1,
-   "chg": 0.04,
+   "price": 61799.3,
+   "chg": -0.18,
    "spark": [
     64597.1,
     64535.3,
@@ -369,7 +369,7 @@
     61516.7,
     62199.9,
     62089.6,
-    61941.1
+    61799.3
    ]
   }
  ],
@@ -394,25 +394,42 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795147310.798671,
+   "ts": 1795148208.356015,
    "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-   "t": "20 Nov \u00b7 09:01 AM"
+   "t": "20 Nov \u00b7 09:16 AM"
   },
   {
-   "ts": 1795147310.798671,
+   "ts": 1795148208.356015,
    "title": "Canada sees little US movement on tariff relief, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/canada-sees-little-us-movement-on-tariff-relief-sources-say-5040196",
-   "t": "20 Nov \u00b7 09:01 AM"
+   "t": "20 Nov \u00b7 09:16 AM"
   },
   {
-   "ts": 1795147310.798671,
+   "ts": 1795148208.356015,
    "title": "Spot gold hits over 14-month low amid Fed rate hike certainty, AI trade rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506",
-   "t": "20 Nov \u00b7 09:01 AM"
+   "t": "20 Nov \u00b7 09:16 AM"
+  },
+  {
+   "ts": 1795145046.0,
+   "title": "No, the Fed isn\u2019t pumping $1.756 billion into markets on Friday morning: what that viral post gets wrong",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/no-the-fed-isn-t-pumping-1-756-billion-into-markets-on-friday-morning-what-that-viral-post-gets-wrong/",
+   "t": "20 Nov \u00b7 08:24 AM",
+   "body": [
+    "These operations are pre-announced, small relative to the Treasury market and reserve-neutral, so they carry no policy signal. The real liquidity story is the Fed\u2019s hiking path (eg. J.P. Morgan now sees three straight Fed hikes, dropping its \u2018December and done\u2019 call ) and year-end funding conditions, where rising net bill supply, not these purchases, is the main influence on reserves. Traders watching for genuine balance sheet signals should focus on any change in the Desk\u2019s language about reserve conditions, or a return of reserve management purchases.",
+    "The Fed\u2019s \u201cliquidity injection\u201d is just its monthly bill reinvestment schedule doing what it always does, and the operation in question has already happened.",
+    "Posts circulating on social media claim the Federal Reserve is set to inject $1.756 billion of liquidity into the financial system around the US market open to support a volatile Wall Street. The claim is misleading. The figure matches a routine Treasury bill purchase by the New York Fed, scheduled weeks in advance, which took place on Wednesday and adds no net liquidity.",
+    "You can check for yourself: Treasury Securities Operational Details - FEDERAL RESERVE BANK of NEW YORK",
+    "The New York Fed\u2019s trading desk publishes a monthly schedule of these operations. For the period from November 16 to December 11, it plans about $14 billion of what it calls reinvestment purchases, with no reserve management purchases. The schedule lists five operations, each running from 9:00 to 9:20 am US Eastern time. The $1.756 billion operation, for bills maturing in four to 12 months, was held on November 18. The next is set for November 24, for up to about $3.5 billion, and a second $1.756 billion purchase is scheduled for December 3. There is no operation on Friday.",
+    "The type of purchase matters. Reinvestment purchases replace securities in the Fed\u2019s portfolio as older holdings, mainly agency mortgage-backed securities and agency debt, pay down. The Fed is swapping one asset for another, so its balance sheet does not grow and no net new reserves are created. That is different from reserve management purchases, which do expand the balance sheet, and which the Fed is not conducting this month.",
+    "The timing is also routine. These operations run in the same early-morning slot whatever the market backdrop, and the amounts follow a fixed pattern set out in advance, not a response to this week\u2019s volatility.",
+    "The bigger picture runs the other way. The Fed is in a hiking cycle, with markets widely expecting a quarter-point increase on December 9. Readers can check any future claims against the New York Fed\u2019s published schedule and results pages, which show the planned and actual size of each operation."
+   ]
   },
   {
    "ts": 1795141275.0,
@@ -502,24 +519,6 @@
     "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
     "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
     "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
-   ]
-  },
-  {
-   "ts": 1795133225.0,
-   "title": "Gold slides toward $3,600 as sellers press on, but UBS upgrades it and still sees $5,000",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-slides-toward-3-600-as-sellers-press-on-but-ubs-upgrades-it-and-still-sees-5-000/",
-   "t": "20 Nov \u00b7 05:07 AM",
-   "body": [
-    "UBS\u2019s upgrade gives longer-term buyers a reason to look at gold at these levels. But the near-term flow still belongs to rates, and nothing in the call changes the picture before the December 9 Fed decision. The low $3,600s are now being tested, and a clean break would leave the market with little obvious support until the high $3,500s. A short-covering bounce is possible if US data soften or the dollar pauses, but rallies are likely to meet selling while three-hike forecasts keep spreading.",
-    "Gold keeps falling on Fed hike bets, while UBS says the wait for a recovery is getting longer but the case for owning it at these prices is getting stronger.",
-    "Gold is under heavy selling pressure again, slipping to around $3,606 an ounce in Asian trade and extending a slide that has taken it roughly 35% below its January record. The pressure is coming from the same place as all year: expectations that the Federal Reserve will keep raising rates. J.P. Morgan became the latest major bank on Thursday to forecast hikes in December, January and March. Treasury yields above 5% and a firm dollar continue to raise the cost of holding a metal that pays no income.",
-    "Against that backdrop, UBS has moved the other way. In its Year Ahead 2027 outlook, titled \u201cSustaining resilience,\u201d the bank has upgraded gold to Attractive. It argues that structural demand and an eventual easing in real yields should support a recovery toward $5,000 an ounce by December 2027, which would be a gain of close to 40% from current levels.",
-    "The upgrade is part of a broader shift in UBS\u2019s asset allocation. The bank now sees the most favourable risk-reward in bonds and commodities, followed by equities, with cash its least preferred asset class, and it has downgraded global equities to Neutral. It describes commodities as a way to protect portfolios against geopolitical disruption, inflation and constrained supply, with gold at the centre of that view.",
-    "UBS\u2019s path to $5,000 has lengthened as the Fed has turned more hawkish. In August, the bank expected gold to reach $5,000 in the first half of 2027. As recently as October, its chief investment office saw $5,400 by September 2027. Earlier this week it pushed the $5,000 level back to the final quarter of 2027. The new outlook keeps that target but adds conviction through the upgrade. In effect, UBS is arguing that the wait may be longer, but the case is stronger at today\u2019s prices.",
-    "The key condition is real yields. UBS expects easing inflation to allow bond yields to decline modestly later in 2027, and its chief investment office has forecast Fed hikes in December and March before that relief arrives. That sequencing explains the gap between the price and the forecast. Until real yields turn, the structural buyers UBS is counting on, chiefly central banks, are more likely to slow gold\u2019s decline than reverse it.",
-    "Elsewhere in commodities, UBS expects oil to remain supported in the first half of 2027 and names copper as its preferred industrial metal, citing demand from electrification, power networks, data centres and AI infrastructure.",
-    "The call puts UBS among the more constructive major banks on gold, alongside Morgan Stanley at $5,250 for the fourth quarter of 2027 and ahead of Goldman Sachs at $4,650 for the end of next year. All three see higher prices from here. None sees a quick turn while the Fed is still hiking."
    ]
   }
  ],
