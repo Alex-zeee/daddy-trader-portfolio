@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 06:46 PKT",
+ "updated": "21-11-2026 07:01 PKT",
  "gold": {
-  "price": 3532.8,
-  "open": 3559.89,
+  "price": 3532.79,
+  "open": 3542.14,
   "high": 3595.51,
   "low": 3503.98,
-  "chg": -0.76,
+  "chg": -0.26,
   "src": "XAUUSD Spot",
   "spark": [
-   3578.94,
    3569.0,
    3566.34,
    3576.74,
@@ -55,7 +54,8 @@
    3532.87,
    3532.79,
    3532.86,
-   3532.8
+   3532.88,
+   3532.79
   ]
  },
  "markets": [
@@ -205,6 +205,35 @@
    ]
   },
   {
+   "name": "GBP/USD",
+   "price": 1.3086,
+   "chg": -0.46,
+   "spark": [
+    1.3396,
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3185,
+    1.3205,
+    1.3147,
+    1.3086
+   ]
+  },
+  {
    "name": "USD/JPY",
    "price": 159.707,
    "chg": 0.2,
@@ -235,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1620.09,
-   "chg": 0.05,
+   "price": 1624.49,
+   "chg": 0.32,
    "spark": [
-    1768.44,
     1791.77,
     1798.88,
     1797.94,
@@ -285,15 +313,15 @@
     1619.08,
     1619.32,
     1619.82,
-    1620.09
+    1622.59,
+    1624.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58841.0,
-   "chg": 0.06,
+   "price": 58925.1,
+   "chg": 0.2,
    "spark": [
-    62534.9,
     63135.2,
     63512.6,
     63292.3,
@@ -340,7 +368,8 @@
     59035.8,
     58806.3,
     58900.3,
-    58831.6
+    58909.9,
+    58925.1
    ]
   }
  ],
@@ -397,18 +426,18 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795225605.741094,
+   "ts": 1795226508.52171,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 06:46 AM"
+   "t": "21 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795225605.741094,
+   "ts": 1795226508.52171,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 06:46 AM"
+   "t": "21 Nov \u00b7 07:01 AM"
   },
   {
    "ts": 1795211201.0,
@@ -591,6 +620,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
