@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 14:31 PKT",
+ "updated": "21-11-2026 14:46 PKT",
  "gold": {
-  "price": 3532.86,
-  "open": 3575.96,
+  "price": 3532.89,
+  "open": 3569.72,
   "high": 3595.51,
   "low": 3503.98,
-  "chg": -1.21,
+  "chg": -1.03,
   "src": "XAUUSD Spot",
   "spark": [
-   3533.28,
    3532.78,
    3532.88,
    3532.88,
@@ -55,7 +54,8 @@
    3532.88,
    3532.89,
    3532.84,
-   3532.86
+   3532.78,
+   3532.89
   ]
  },
  "markets": [
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1634.34,
-   "chg": 0.93,
+   "price": 1636.68,
+   "chg": 1.07,
    "spark": [
     1801.22,
     1805.38,
@@ -314,13 +314,13 @@
     1637.61,
     1627.57,
     1625.29,
-    1634.34
+    1636.71
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 57838.2,
-   "chg": -1.65,
+   "price": 57874.9,
+   "chg": -1.58,
    "spark": [
     63720.2,
     63878.1,
@@ -369,7 +369,7 @@
     57976.2,
     57879.3,
     57693.1,
-    57838.2
+    57874.9
    ]
   }
  ],
@@ -426,18 +426,18 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795253508.249116,
+   "ts": 1795254402.47659,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 02:31 PM"
+   "t": "21 Nov \u00b7 02:46 PM"
   },
   {
-   "ts": 1795253508.249116,
+   "ts": 1795254402.47659,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 02:31 PM"
+   "t": "21 Nov \u00b7 02:46 PM"
   },
   {
    "ts": 1795211201.0,
@@ -576,6 +576,12 @@
  ],
  "tweets": [
   {
+   "ts": 1795230441.0,
+   "title": "Lisa Cook warns the Fed could get behind the curve if it doesn't raise rates now",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYUJQTVk5VzlTbV9QZTM0UVpheGFYUjM0N1ZQVTV1OUd4dDlwOVRXRDdfOWx0SUNfMy0tdl9yUWw3RWhTcTVwUnBuVllaWHFHeHpTNkR3RnVWNWZxS0wyWGpkREJjTXUwTUFVZE5kaENxbHhNRkFPU01oVTFtR3lQa09kQ0pWYnVWLUHSAY8BQVVfeXFMT0NOTjJxNUhjcjluQVdoOUhfemJBTlBwT3dfWVUwMi1Pajc5MFd5S0JxWnRldndDSTVGVm11VXpxMV9adGhoUUIzV0FHdzdKYlJ6Z0R5QzVBMGtOdWVZSlRaMGtUVGdEdXhNNUlEbjFwX1VoQVNYOGs5UFJUTFBXeEp5T2xsemM5bzJoSEN0azA?oc=5"
+  },
+  {
    "ts": 1795161900.0,
    "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
    "src": "ForexFactory",
@@ -594,22 +600,16 @@
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tdm5zU0lteVlDa3VWNXpnY3hEUUE0LVB4cTRsclExYUNXX25pcVBDSlZtbTdBSVdsVE5LZnBDTG03eWhpMGdnV1NXellNVDJaN21JbUpFTGRtVmhvcEtsNDM3UVJkSFBjNWRmS0g0dGtBd9IBd0FVX3lxTE5NdGtMd2QzU0xLV2NxajRTN0w2NG1LSFNid0NqSUpVQ0RtZGpoQ0tFLXktaDVkaG5LM1VOX2JhMzRpdXRSY2JLWFFmTU8wZjZCX3FITkd1YnlGRHNWOFV2UERBVWh3VXByQk1Ic18zRDFJWENSWVM4?oc=5"
   },
   {
+   "ts": 1795124700.0,
+   "title": "Kalshi hires streamer Cliff Savage to \u2018research\u2019 Grand Theft Auto 6 for six figures",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcmtWblhiaVBCQmFVcHNOR0QxTXFNQ3JhbUxvOWozOG94NTVwd09aOWx6WWxld2QxcWZha0NVaGZ1Y09Sd0dJMldmNFpQQ1RMMXRVUHg3WHNFQ3lFckFnQVFHYTR3YTJpcDZMa0xLQ2toWDFGTWRRNmptbm5ldldUYnRRSERuUE5ZbEpXbm42NTk3SmMtS08wYzZR0gGfAUFVX3lxTE1RRDRiRHhHT0ZNNmpUYXpsM09PZl9jWXNXTUM4ZDlpdUJ4d1p1SDN1VXg1bkxSQ05ubmxLWEQyU0lFRjFORDRqUGpmNmdTNm1SMzRCSVlfaFJIRTRBS0JPdVpVekZzYjF6Q21zNlh6eTJPcUtLSUZtNXJtMWZhU0ZPZ1BJYktGSkpSZzRuMF8wSUROOUM2RVlmVkw1ZjJCWQ?oc=5"
+  },
+  {
    "ts": 1795124097.0,
    "title": "Fed's Goolsbee: Multiple months of borderline disturbing inflation",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeHdJVmdOT0RITzVTeFFtbTdWNHpGSlR3UFV2ZC1jSTRndnF1cjhvd3VuMk9Rc1dLNkprVUx6T0dGV1RyeGNzazUzZzZXZ1pmSkYzMkI2bU1lYWU3WjNha2tMWWZjcEdkZU1TQkpXU3lOR0JZVExVWmRTQnE5UVdHcTNUY0FFXzNPWG5icGtSUHhMLV9faVJnWWFSRXROUXNMclZDc1dDQ3hFZ9IBrwFBVV95cUxQR3VwNE9wWDF4SE1paXU1cVZnOGVsNDlwQlQ5VnM4TkZHajRmN1lKQ1BMNGdpTW1mc0F5VFdzTTF1aDFZYW1RSVAzcTVwTnN4dldwRUNtYmNxWFg5VDVEUzRfaUVlb21xYzB3aGRoR244ektXZVV3WTJBRVppS2FYMDVuZDZIZFlwTElrdTRuQnVWTVJib2hxQ1lxeUprOFJQQkl0UHFUdmRWTGNNTGRn?oc=5"
-  },
-  {
-   "ts": 1795112280.0,
-   "title": "Fed's Barr: FinRegLab AI Symposium 2026 - Day 2",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVN0R1NjRURTNEstaVUycTVaOGtNYjhUQjFjTVZYS2xrX3NNdzNxMXFPeTN5WklheWpyQkhPelJUVGFnNnR2ZHE1S1pHNWVReDZnMWtiZHNld3Vkb2p5a2JWRHE4Q2owSkJyLU5UaGNTd3ZDVlhmNXlOaGltckdFSjlPWTVrdkRjQlk00gGQAUFVX3lxTFBLT19xMDhsQWdXOTJ5LXlucGxteXdXdGZKMDE2RWU4eEU5U0VSbTI0d0M1ejVHU1NWcUhmRlpkSFRSVGFoMW5VZ2xHbUd2d1M4N2pKbEhTeTk0ZHZvZDhibzN1RjBkZElqclE2SkhySGhRM202QUE4RTNtQ0RJVHpyR2VKa1pCamo3YS1TemRETw?oc=5"
-  },
-  {
-   "ts": 1795107048.0,
-   "title": "Anthropic Shares Open At $111.50 Vs $83/Share IPO Price",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNldLRi1uUFlsRWJFNDE5YXNUZHNiLTJyVGg1c3A0R2tQOE9obWZGMVlfdWp0MmNNNm81Z0xsSkVVZE5LYUM3OU9kdkxQQmo0ME90UkFVREhhYkRZV05FZ2JvclZodUVlX3ZfYTRPaGszcU02aFZDV0JJVzE5STRyNnpRdVpITzZPR2RxLWN2T3DSAZYBQVVfeXFMTTNnSkxIc1VVb1lEZ0IwVGpkcGhtTF9yYXh2WEJDTGpjdkRvenlCejVRYWR3cEw0aDE1aFJCUExLYXNESHY5Q3hPRWxnOUhNMXJHa1FzX3NSOFdnaVE3VkFWQ0pDSmRHaW1tanpHMU0yZ01Wa2FBY0lPTGtPQmRIM1o2RGtDZ28zdTFJWlZRNUZIM2daS2tR?oc=5"
   }
  ],
  "sentiment": {
