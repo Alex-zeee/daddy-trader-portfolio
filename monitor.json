@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 20:16 PKT",
+ "updated": "21-11-2026 20:31 PKT",
  "gold": {
-  "price": 3534.84,
-  "open": 3528.87,
-  "high": 3562.27,
+  "price": 3534.91,
+  "open": 3553.97,
+  "high": 3557.58,
   "low": 3503.98,
-  "chg": 0.17,
+  "chg": -0.54,
   "src": "XAUUSD Spot",
   "spark": [
-   3532.88,
    3532.9,
    3532.86,
    3532.79,
@@ -55,7 +54,8 @@
    3534.83,
    3534.9,
    3534.93,
-   3534.84
+   3534.89,
+   3534.91
   ]
  },
  "markets": [
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1677.29,
-   "chg": 3.58,
+   "price": 1678.09,
+   "chg": 3.63,
    "spark": [
     1766.98,
     1769.3,
@@ -314,13 +314,13 @@
     1660.86,
     1699.19,
     1688.24,
-    1677.29
+    1678.09
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59777.2,
-   "chg": 1.65,
+   "price": 59795.6,
+   "chg": 1.68,
    "spark": [
     62729.5,
     62683.5,
@@ -369,7 +369,7 @@
     58768.1,
     60462.3,
     60237.0,
-    59777.2
+    59786.4
    ]
   }
  ],
@@ -426,25 +426,32 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795274208.490485,
+   "ts": 1795275106.915629,
+   "title": "US denies Iranian account that missile damaged F-16 over Gulf",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
+   "t": "21 Nov \u00b7 08:31 PM"
+  },
+  {
+   "ts": 1795275106.915629,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "21 Nov \u00b7 08:16 PM"
+   "t": "21 Nov \u00b7 08:31 PM"
   },
   {
-   "ts": 1795274208.490485,
+   "ts": 1795275106.915629,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 08:16 PM"
+   "t": "21 Nov \u00b7 08:31 PM"
   },
   {
-   "ts": 1795274208.490485,
+   "ts": 1795275106.915629,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 08:16 PM"
+   "t": "21 Nov \u00b7 08:31 PM"
   },
   {
    "ts": 1795211201.0,
@@ -550,20 +557,6 @@
     "USDJPY is at 158.74, and trading below it near converged 100 and 200 day MAs at 158.90. Stay below is more bearish. Move above and the technical bias shifts modestly to the upside advantage.",
     "GBPUSD is at 1.3099 after trading as high as 1.3123 and as low as 1.3079. The price remains below the swing area at 1.31386 and 1.3178 from the daily chart. Bears are more in control."
    ]
-  },
-  {
-   "ts": 1795139343.0,
-   "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-   "t": "20 Nov \u00b7 06:49 AM",
-   "body": [
-    "Core inflation in Japan soared to a fresh high in 2026, coming in at 2.2% in October as higher energy prices and their knock-on effects pushed up prices in the wider economy.",
-    "Core inflation, which strips out prices of food, was lower than the 2.3% expected by Reuters-polled economists, but was higher than the 2.1% in prior month.",
-    "Headline inflation came in at 2.3% compared with September's 2.1%, while the so-called \"core-core\" inflation, which strips out prices of fresh food and energy, dipped slightly to 2.2% from 2.4% in the month before.",
-    "Energy subsidies for households expired in September, exposing consumers to higher energy prices brought about by the Iran war. Japan has reportedly approved reintroduction of energy subsidies in December to stave off higher imported energy prices as higher prices crimp growth, hitting consumption and net exports.",
-    "October inflation reading is likely to push the Bank of Japan toward another rate hike in December, despite an unexpected contraction in economic growth in the third quarter. Data from LSEG indicates that there is a 75% chance of a 25 basis point hike from the Bank of Japan.\"The BOJ is likely to look through the temporary weakness in 3Q GDP and focus instead on underlying inflation and wage dynamics,\" Ma Tieying, senior economist at DBS Group Research, wrote in a Monday note."
-   ]
   }
  ],
  "tweets": [
@@ -610,7 +603,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
