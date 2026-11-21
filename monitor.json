@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 12:31 PKT",
+ "updated": "21-11-2026 12:46 PKT",
  "gold": {
-  "price": 3532.87,
-  "open": 3552.39,
+  "price": 3532.88,
+  "open": 3568.39,
   "high": 3595.51,
   "low": 3503.98,
-  "chg": -0.55,
+  "chg": -1.0,
   "src": "XAUUSD Spot",
   "spark": [
-   3520.57,
    3515.73,
    3517.56,
    3509.31,
@@ -55,7 +54,8 @@
    3532.87,
    3532.88,
    3532.85,
-   3532.87
+   3532.78,
+   3532.88
   ]
  },
  "markets": [
@@ -234,9 +234,38 @@
    ]
   },
   {
+   "name": "USD/JPY",
+   "price": 159.707,
+   "chg": 0.2,
+   "spark": [
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.78,
+    159.523,
+    159.504,
+    159.381,
+    159.707
+   ]
+  },
+  {
    "name": "Ethereum",
-   "price": 1631.4,
-   "chg": 0.75,
+   "price": 1630.3,
+   "chg": 0.68,
    "spark": [
     1801.37,
     1804.67,
@@ -285,13 +314,13 @@
     1558.86,
     1559.06,
     1637.61,
-    1631.81
+    1630.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58078.9,
-   "chg": -1.24,
+   "price": 58002.9,
+   "chg": -1.37,
    "spark": [
     63664.0,
     63786.4,
@@ -340,7 +369,7 @@
     56221.1,
     55700.3,
     57976.2,
-    58078.9
+    58002.9
    ]
   }
  ],
@@ -397,18 +426,18 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795246312.90391,
+   "ts": 1795247210.279342,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 12:31 PM"
+   "t": "21 Nov \u00b7 12:46 PM"
   },
   {
-   "ts": 1795246312.90391,
+   "ts": 1795247210.279342,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 12:31 PM"
+   "t": "21 Nov \u00b7 12:46 PM"
   },
   {
    "ts": 1795211201.0,
@@ -547,12 +576,6 @@
  ],
  "tweets": [
   {
-   "ts": 1795171677.0,
-   "title": "UK-EU Summit Deal Reached, EU Official Says",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlItZGljQk5KbHFubkgzeFBScWdqS0lEUmdCc3RGS1Z2TU94cS1Uak9kZS0tejg0MWt0YnFVQjVtN3pTOXpGa3VLZHk2UGZIVWdfQUJnNXNtaEJUblpWMFZCcjJ2aVRhaHBuN2daMWZUOGlaam00T3prSTlFUjhUd3ZzRU03XzZvTk01VdIBkgFBVV95cUxOeExJRTl6ODM3SjlQU2dwNTNoVUo5MkZ0a3NITENPVXYtTzJxSmg1SUJBQ2lsejdKdXVlVHVBVUZqY1Q1T3ZXTDJCSDB6a3RkMjhQRWlSeS1WYmlHaVZrN2dvTkhtTUp6ZlNUVngySW9FUWNTV3hRSS1PSlViVWtXdmYzbWlKNHNfcDU0RU5IUFpnZw?oc=5"
-  },
-  {
    "ts": 1795161900.0,
    "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
    "src": "ForexFactory",
@@ -581,6 +604,12 @@
    "title": "Fed's Barr: FinRegLab AI Symposium 2026 - Day 2",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVVN0R1NjRURTNEstaVUycTVaOGtNYjhUQjFjTVZYS2xrX3NNdzNxMXFPeTN5WklheWpyQkhPelJUVGFnNnR2ZHE1S1pHNWVReDZnMWtiZHNld3Vkb2p5a2JWRHE4Q2owSkJyLU5UaGNTd3ZDVlhmNXlOaGltckdFSjlPWTVrdkRjQlk00gGQAUFVX3lxTFBLT19xMDhsQWdXOTJ5LXlucGxteXdXdGZKMDE2RWU4eEU5U0VSbTI0d0M1ejVHU1NWcUhmRlpkSFRSVGFoMW5VZ2xHbUd2d1M4N2pKbEhTeTk0ZHZvZDhibzN1RjBkZElqclE2SkhySGhRM202QUE4RTNtQ0RJVHpyR2VKa1pCamo3YS1TemRETw?oc=5"
+  },
+  {
+   "ts": 1795107048.0,
+   "title": "Anthropic Shares Open At $111.50 Vs $83/Share IPO Price",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNldLRi1uUFlsRWJFNDE5YXNUZHNiLTJyVGg1c3A0R2tQOE9obWZGMVlfdWp0MmNNNm81Z0xsSkVVZE5LYUM3OU9kdkxQQmo0ME90UkFVREhhYkRZV05FZ2JvclZodUVlX3ZfYTRPaGszcU02aFZDV0JJVzE5STRyNnpRdVpITzZPR2RxLWN2T3DSAZYBQVVfeXFMTTNnSkxIc1VVb1lEZ0IwVGpkcGhtTF9yYXh2WEJDTGpjdkRvenlCejVRYWR3cEw0aDE1aFJCUExLYXNESHY5Q3hPRWxnOUhNMXJHa1FzX3NSOFdnaVE3VkFWQ0pDSmRHaW1tanpHMU0yZ01Wa2FBY0lPTGtPQmRIM1o2RGtDZ28zdTFJWlZRNUZIM2daS2tR?oc=5"
   }
  ],
  "sentiment": {
@@ -591,7 +620,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
