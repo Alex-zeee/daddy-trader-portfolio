@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 08:01 PKT",
+ "updated": "21-11-2026 08:16 PKT",
  "gold": {
-  "price": 3532.78,
-  "open": 3524.45,
+  "price": 3532.87,
+  "open": 3525.31,
   "high": 3595.51,
   "low": 3503.98,
-  "chg": 0.24,
+  "chg": 0.21,
   "src": "XAUUSD Spot",
   "spark": [
-   3531.44,
    3553.85,
    3549.73,
    3556.35,
@@ -55,7 +54,8 @@
    3532.79,
    3532.87,
    3532.89,
-   3532.78
+   3532.84,
+   3532.87
   ]
  },
  "markets": [
@@ -118,6 +118,35 @@
    ]
   },
   {
+   "name": "Oil WTI",
+   "price": 83.62,
+   "chg": 0.49,
+   "spark": [
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.85,
+    86.04,
+    86.53,
+    88.74,
+    88.56,
+    85.72,
+    86.01,
+    83.26,
+    83.21,
+    83.62
+   ]
+  },
+  {
    "name": "US 10Y Yield",
    "price": 4.912,
    "chg": -2.77,
@@ -176,35 +205,6 @@
    ]
   },
   {
-   "name": "GBP/USD",
-   "price": 1.3086,
-   "chg": -0.46,
-   "spark": [
-    1.3396,
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3205,
-    1.3147,
-    1.3086
-   ]
-  },
-  {
    "name": "USD/JPY",
    "price": 159.707,
    "chg": 0.2,
@@ -235,8 +235,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1616.68,
-   "chg": -0.16,
+   "price": 1607.27,
+   "chg": -0.74,
    "spark": [
     1798.88,
     1797.94,
@@ -285,13 +285,13 @@
     1619.82,
     1622.59,
     1617.49,
-    1616.42
+    1607.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58419.2,
-   "chg": -0.66,
+   "price": 58228.5,
+   "chg": -0.98,
    "spark": [
     63512.6,
     63292.3,
@@ -340,7 +340,7 @@
     58900.3,
     58909.9,
     58492.8,
-    58419.2
+    58249.4
    ]
   }
  ],
@@ -397,18 +397,18 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795230105.044992,
+   "ts": 1795231004.169729,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 08:01 AM"
+   "t": "21 Nov \u00b7 08:16 AM"
   },
   {
-   "ts": 1795230105.044992,
+   "ts": 1795231004.169729,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 08:01 AM"
+   "t": "21 Nov \u00b7 08:16 AM"
   },
   {
    "ts": 1795211201.0,
@@ -547,6 +547,12 @@
  ],
  "tweets": [
   {
+   "ts": 1795202031.0,
+   "title": "Trump: Interest Rates Too High Because We Have Political Fed",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFpaUkVTRl81OVlTZ1FtYmgxUVZ6UzRkRE9OeDk3WUZxaU1mN082TFZ1Q0w1UGFIR2tvNmJjeUMwZnFWRS1lZE1hYTdBSmNPNWx6SmhmckstTXVMNUFKTkQyeVZ5UmRkUmdrUXZBeERkREtrQVFhZGdGbGZtZDZKYndaMDE1LTFnSFU1Mm54ZV_SAZYBQVVfeXFMTm5GY0pVSkxkUHlzcFhVa2E1T1FvaVBMRjc0V05IeThuVV9yTU5hbGR2VXZLRmRFNmNLM21ydFowSThWbmZkdk5IR2thV0V2bzIzNkg0c20tNmQxZ2FVSlV0ZmZXN2FTSDFHalRZbW1xa29JRk5YRDNpbVR0ajBNSThNbWRUWDVuY2lSQ1hSd0hJMlhKX0dB?oc=5"
+  },
+  {
    "ts": 1795199538.0,
    "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
    "src": "ForexFactory",
@@ -575,12 +581,6 @@
    "title": "UK-EU Summit Deal Reached, EU Official Says",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlItZGljQk5KbHFubkgzeFBScWdqS0lEUmdCc3RGS1Z2TU94cS1Uak9kZS0tejg0MWt0YnFVQjVtN3pTOXpGa3VLZHk2UGZIVWdfQUJnNXNtaEJUblpWMFZCcjJ2aVRhaHBuN2daMWZUOGlaam00T3prSTlFUjhUd3ZzRU03XzZvTk01VdIBkgFBVV95cUxOeExJRTl6ODM3SjlQU2dwNTNoVUo5MkZ0a3NITENPVXYtTzJxSmg1SUJBQ2lsejdKdXVlVHVBVUZqY1Q1T3ZXTDJCSDB6a3RkMjhQRWlSeS1WYmlHaVZrN2dvTkhtTUp6ZlNUVngySW9FUWNTV3hRSS1PSlViVWtXdmYzbWlKNHNfcDU0RU5IUFpnZw?oc=5"
-  },
-  {
-   "ts": 1795156937.0,
-   "title": "Retail sales, Great Britain: October 2026",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT1Zhbk8wR3VuTTFPMVFKSDF4Y0ZDbWYwaFFhMU5WNy1YaFpWR3J5LWtaUmVyMnd5cDV6OENPN3RlTW45OUpIR3NrcE9vUGxDemMwX3M2ZmpaZGV1VmFwaFVVWWhJTUs1Q2xhckQydWJ1MFo1cGRrTWZfeTd6M3dHU2JyZWxldlM00gGOAUFVX3lxTFBrTkRlSVB5b2MtUHVLd0ZieUFCcVJVaU9DeEhFWUZlZ2o5cFBjeWZDb0NxMUFmM0xNb0ozeVdtUzVZMEdJZ0NwaXZxRTEzQlFiU2JSdHFLb2s4WW1GS1N3cUpGdnJqM2tiLVJqd2JsbFM2TG91Nzc4OVdpcm9BU2xkeHdfdTZ3TFBuM0FHX1E?oc=5"
   }
  ],
  "sentiment": {
