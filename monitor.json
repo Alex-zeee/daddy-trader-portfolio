@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 19:01 PKT",
+ "updated": "21-11-2026 19:16 PKT",
  "gold": {
-  "price": 3532.89,
-  "open": 3578.34,
+  "price": 3532.86,
+  "open": 3570.4,
   "high": 3585.13,
   "low": 3503.98,
-  "chg": -1.27,
+  "chg": -1.05,
   "src": "XAUUSD Spot",
   "spark": [
-   3532.79,
    3532.87,
    3532.89,
    3532.84,
@@ -55,7 +54,8 @@
    3532.89,
    3532.85,
    3532.79,
-   3532.89
+   3532.87,
+   3532.86
   ]
  },
  "markets": [
@@ -205,6 +205,35 @@
    ]
   },
   {
+   "name": "GBP/USD",
+   "price": 1.3086,
+   "chg": -0.0,
+   "spark": [
+    1.3404,
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3185,
+    1.3205,
+    1.3147,
+    1.3086,
+    1.3086
+   ]
+  },
+  {
    "name": "USD/JPY",
    "price": 159.707,
    "chg": 0.2,
@@ -235,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1701.37,
-   "chg": 5.07,
+   "price": 1687.49,
+   "chg": 4.21,
    "spark": [
     1780.49,
     1766.98,
@@ -285,13 +314,13 @@
     1649.97,
     1660.86,
     1699.19,
-    1701.37
+    1686.96
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60567.7,
-   "chg": 3.0,
+   "price": 60251.9,
+   "chg": 2.46,
    "spark": [
     63028.9,
     62729.5,
@@ -340,7 +369,7 @@
     58115.4,
     58768.1,
     60462.3,
-    60566.1
+    60247.1
    ]
   }
  ],
@@ -397,25 +426,25 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795269705.769908,
+   "ts": 1795270605.580772,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "21 Nov \u00b7 07:01 PM"
+   "t": "21 Nov \u00b7 07:16 PM"
   },
   {
-   "ts": 1795269705.769908,
+   "ts": 1795270605.580772,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 07:01 PM"
+   "t": "21 Nov \u00b7 07:16 PM"
   },
   {
-   "ts": 1795269705.769908,
+   "ts": 1795270605.580772,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 07:01 PM"
+   "t": "21 Nov \u00b7 07:16 PM"
   },
   {
    "ts": 1795211201.0,
@@ -539,6 +568,12 @@
  ],
  "tweets": [
   {
+   "ts": 1795194504.0,
+   "title": "The Global Week Ahead: Caught in the Moment",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbFROb0JnMVBsZDFfV2Q2QklsbDBfTnVhaDNvSzZBTVNYRG5uTnE4WFU2YmtBZ3BWd1ctYzZsaVE1cWV0aHdmZC1IVkkwejZZNVhsTmlWUkpULWFQMjZVci1GQlZKei1xeWlXaUthTUJ5dkYtQklqUnVGNktEQXQxTHdDaWh2dGhHSXY3M9IBkgFBVV95cUxNMlQtQlhoOTFBRE95YkxNcVJJeXREM244clB1Rlh6WTIyeXhnNV9ib1A0R3hUNFFfY1ZfR3JSYnBQNFFWM3lmcXBURV9nWUd6SFY2emVVU1BrZnA4NlYzUE1sZm1JaTdRTHhUZHFzODN2b0xQejBlZ2JEOXhxbTBfdzVGbGV3RzlBeUJxZGtRNHNJQQ?oc=5"
+  },
+  {
    "ts": 1795167994.0,
    "title": "ECB's Pereira: Energy-driven inflation pressures remain significant",
    "src": "ForexFactory",
@@ -567,12 +602,6 @@
    "title": "Kalshi hires streamer Cliff Savage to \u2018research\u2019 Grand Theft Auto 6 for six figures",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcmtWblhiaVBCQmFVcHNOR0QxTXFNQ3JhbUxvOWozOG94NTVwd09aOWx6WWxld2QxcWZha0NVaGZ1Y09Sd0dJMldmNFpQQ1RMMXRVUHg3WHNFQ3lFckFnQVFHYTR3YTJpcDZMa0xLQ2toWDFGTWRRNmptbm5ldldUYnRRSERuUE5ZbEpXbm42NTk3SmMtS08wYzZR0gGfAUFVX3lxTE1RRDRiRHhHT0ZNNmpUYXpsM09PZl9jWXNXTUM4ZDlpdUJ4d1p1SDN1VXg1bkxSQ05ubmxLWEQyU0lFRjFORDRqUGpmNmdTNm1SMzRCSVlfaFJIRTRBS0JPdVpVekZzYjF6Q21zNlh6eTJPcUtLSUZtNXJtMWZhU0ZPZ1BJYktGSkpSZzRuMF8wSUROOUM2RVlmVkw1ZjJCWQ?oc=5"
-  },
-  {
-   "ts": 1795124097.0,
-   "title": "Fed's Goolsbee: Multiple months of borderline disturbing inflation",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeHdJVmdOT0RITzVTeFFtbTdWNHpGSlR3UFV2ZC1jSTRndnF1cjhvd3VuMk9Rc1dLNkprVUx6T0dGV1RyeGNzazUzZzZXZ1pmSkYzMkI2bU1lYWU3WjNha2tMWWZjcEdkZU1TQkpXU3lOR0JZVExVWmRTQnE5UVdHcTNUY0FFXzNPWG5icGtSUHhMLV9faVJnWWFSRXROUXNMclZDc1dDQ3hFZ9IBrwFBVV95cUxQR3VwNE9wWDF4SE1paXU1cVZnOGVsNDlwQlQ5VnM4TkZHajRmN1lKQ1BMNGdpTW1mc0F5VFdzTTF1aDFZYW1RSVAzcTVwTnN4dldwRUNtYmNxWFg5VDVEUzRfaUVlb21xYzB3aGRoR244ektXZVV3WTJBRVppS2FYMDVuZDZIZFlwTElrdTRuQnVWTVJib2hxQ1lxeUprOFJQQkl0UHFUdmRWTGNNTGRn?oc=5"
   }
  ],
  "sentiment": {
@@ -583,7 +612,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
