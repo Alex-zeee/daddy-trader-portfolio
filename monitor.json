@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 22:01 PKT",
+ "updated": "21-11-2026 22:16 PKT",
  "gold": {
-  "price": 3534.88,
-  "open": 3536.24,
+  "price": 3534.82,
+  "open": 3529.57,
   "high": 3539.95,
   "low": 3503.98,
-  "chg": -0.04,
+  "chg": 0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   3532.8,
    3532.8,
    3532.87,
    3532.87,
@@ -55,7 +54,8 @@
    3534.87,
    3534.82,
    3534.92,
-   3534.88
+   3534.93,
+   3534.82
   ]
  },
  "markets": [
@@ -118,6 +118,35 @@
    ]
   },
   {
+   "name": "Oil WTI",
+   "price": 83.98,
+   "chg": 0.93,
+   "spark": [
+    99.47,
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.85,
+    86.04,
+    86.53,
+    88.74,
+    88.56,
+    85.72,
+    86.01,
+    83.26,
+    83.21,
+    83.98
+   ]
+  },
+  {
    "name": "US 10Y Yield",
    "price": 4.912,
    "chg": -2.77,
@@ -176,38 +205,38 @@
    ]
   },
   {
-   "name": "GBP/USD",
-   "price": 1.3082,
-   "chg": -0.04,
+   "name": "USD/JPY",
+   "price": 159.707,
+   "chg": 0.2,
    "spark": [
-    1.3404,
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3205,
-    1.3147,
-    1.3086,
-    1.3082
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.78,
+    159.523,
+    159.504,
+    159.381,
+    159.707
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1685.39,
-   "chg": 4.08,
+   "price": 1683.33,
+   "chg": 3.95,
    "spark": [
     1775.75,
     1768.71,
@@ -256,13 +285,13 @@
     1688.24,
     1681.81,
     1680.83,
-    1685.38
+    1683.69
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60135.4,
-   "chg": 2.26,
+   "price": 60110.6,
+   "chg": 2.22,
    "spark": [
     62817.6,
     62298.8,
@@ -311,7 +340,7 @@
     60237.0,
     59832.2,
     59936.7,
-    60123.7
+    60110.6
    ]
   }
  ],
@@ -368,32 +397,39 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795280506.779488,
+   "ts": 1795281403.541312,
+   "title": "Goldman favours gold over silver as central bank demand supports prices",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
+   "t": "21 Nov \u00b7 10:16 PM"
+  },
+  {
+   "ts": 1795281403.541312,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "21 Nov \u00b7 10:01 PM"
+   "t": "21 Nov \u00b7 10:16 PM"
   },
   {
-   "ts": 1795280506.779488,
+   "ts": 1795281403.541312,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "21 Nov \u00b7 10:01 PM"
+   "t": "21 Nov \u00b7 10:16 PM"
   },
   {
-   "ts": 1795280506.779488,
+   "ts": 1795281403.541312,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 10:01 PM"
+   "t": "21 Nov \u00b7 10:16 PM"
   },
   {
-   "ts": 1795280506.779488,
+   "ts": 1795281403.541312,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 10:01 PM"
+   "t": "21 Nov \u00b7 10:16 PM"
   },
   {
    "ts": 1795211201.0,
@@ -476,29 +512,6 @@
     "The session low near $3,514.65 is the first level to watch. A move below it would put $3,500 in play, followed by the lower end of the swing area at $3,433.49. If sellers can get and stay below that level, the next major retracement target on the daily chart comes in at $3,140.67. That\u2019s the 61.8% retracement of the move up from the 2022 low.",
     "For now, the swing area gives buyers a place to make a play and define their risk. A bounce from the area would be a start. Getting back above $3,610.01 and holding it is what would give buyers more room to work."
    ]
-  },
-  {
-   "ts": 1795181132.0,
-   "title": "Morning Kickstart. Anthropic slides after its IPO and gold breaks lower",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/morning-kickstart-anthropic-slides-after-its-ipo-and-gold-breaks-lower/",
-   "t": "20 Nov \u00b7 06:25 PM",
-   "body": [
-    "Anthropic (ANT) is giving back much of its first-day gain. The stock was trading at $87.72 at 7:43 AM ET, down $9.45, or 9.7%, from Thursday\u2019s $97.17 close. The IPO was priced at $83, and the stock traded as high as $115.10 in its debut. That leaves it just $4.72 above the offering price this morning. For me, $83 is the next barometer. A break below would erase the remaining premium to the IPO price. InvestingLive\u2019s coverage of the Anthropic IPO pricing anthropic.com",
-    "Nasdaq 100 futures are leading the decline, European stocks are broadly lower, and Treasury yields are down across the curve. The yen and Swiss franc are the strongest of the major currencies, while gold is down about $55 despite the drop in yields and the softer dollar. On the gold chart, the break below $3,610.01 puts sellers in control heading into the North American session.",
-    "Overnight, UK retail sales rose 0.7% in October versus 0.0% expected, following a revised 0.6% decline. UK public sector net borrowing was \u00a317.0 billion versus \u00a318.0 billion expected. German producer prices rose 1.4% on the month versus 0.9% expected, following a 1.9% rise.",
-    "The dollar is down the most against the yen, with USDJPY off 0.58% at 158.74 and trading just above its session low. USDCHF is down 0.38% and USDCAD is down 0.20%. The New Zealand dollar is up 0.26%, the euro and Australian dollar are each up 0.11%, and the pound is up 0.10%. The pound is the weakest of the major currencies in this snapshot, even after the upside surprise in UK retail sales.",
-    "Using the displayed session highs and lows and the 22-day average ranges:",
-    "EURUSD has the most room to roam relative to its average. USDCAD also has room heading into Canadian retail sales. USDJPY has already exceeded a normal day\u2019s range and is still near the low. That makes 158.72 the level I\u2019m watching for either another push lower or a failed break.",
-    "Gold is trading at $3,570.15, down $55.03, or 1.52%. The price is below $3,610.01, the 50% retracement of the move from the 2022 low to the 2026 high, and continues to move away from its 100-day moving average at $4,176.83.",
-    "The $3,610.01 level is now the close risk for sellers. Stay below and the sellers keep control. A move back above that holds would put the break in question. If the decline continues, the 61.8% retracement at $3,140.67 is the next major Fibonacci level on the daily chart. It\u2019s well below the market, which makes the reaction on any retest of $3,610.01 the more immediate read.",
-    "Elsewhere, WTI crude is down $0.38 to $82.83 after trading between $81.55 and $84.00. Silver is down 1.48% to $42.234, copper is down 1.77% to $5.534, and Bitcoin is down $420 to $61,494.",
-    "I\u2019ll watch 1.4308 in USDCAD around the Canadian release. That\u2019s the session low, and a break would give the sellers room to extend the morning move. In the U.S., I\u2019ll watch how Treasury yields react to the inflation expectations reading after the sharp drop in yields this morning.",
-    "In the morning video above, I take a look at the three major currency pairs\u2014EURUSD, USDJPY and GBPUSD\u2014from a technical perspective. For each pair, I outline the bias, the risk-defining levels and the targets that would give either the buyers or sellers more control.",
-    "EURUSD is at 1.0978, above yesterday\u2019s close at 1.0966, but just below the 100 hour MA at 1.09854. That will be a short term barometer for today. The range is narrow at only 33 pips so far today.",
-    "USDJPY is at 158.74, and trading below it near converged 100 and 200 day MAs at 158.90. Stay below is more bearish. Move above and the technical bias shifts modestly to the upside advantage.",
-    "GBPUSD is at 1.3099 after trading as high as 1.3123 and as low as 1.3079. The price remains below the swing area at 1.31386 and 1.3178 from the daily chart. Bears are more in control."
-   ]
   }
  ],
  "tweets": [
@@ -545,7 +558,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
