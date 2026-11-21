@@ -1,14 +1,13 @@
 {
- "updated": "21-11-2026 17:16 PKT",
+ "updated": "21-11-2026 17:31 PKT",
  "gold": {
-  "price": 3532.79,
-  "open": 3578.25,
+  "price": 3532.8,
+  "open": 3570.19,
   "high": 3585.13,
   "low": 3503.98,
-  "chg": -1.27,
+  "chg": -1.05,
   "src": "XAUUSD Spot",
   "spark": [
-   3532.86,
    3532.88,
    3532.87,
    3532.79,
@@ -55,7 +54,8 @@
    3532.79,
    3532.79,
    3532.86,
-   3532.79
+   3532.88,
+   3532.8
   ]
  },
  "markets": [
@@ -234,38 +234,9 @@
    ]
   },
   {
-   "name": "USD/JPY",
-   "price": 159.707,
-   "chg": 0.2,
-   "spark": [
-    158.132,
-    156.494,
-    156.83,
-    157.528,
-    157.993,
-    157.833,
-    157.804,
-    157.677,
-    157.915,
-    158.469,
-    158.357,
-    157.498,
-    158.292,
-    157.983,
-    158.705,
-    159.734,
-    159.875,
-    159.78,
-    159.523,
-    159.504,
-    159.381,
-    159.707
-   ]
-  },
-  {
    "name": "Ethereum",
-   "price": 1650.85,
-   "chg": 1.95,
+   "price": 1657.01,
+   "chg": 2.33,
    "spark": [
     1811.59,
     1796.44,
@@ -314,13 +285,13 @@
     1636.29,
     1638.63,
     1649.97,
-    1650.85
+    1657.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58214.7,
-   "chg": -1.01,
+   "price": 58426.1,
+   "chg": -0.65,
    "spark": [
     63968.3,
     63491.0,
@@ -369,7 +340,7 @@
     57922.5,
     57838.7,
     58115.4,
-    58214.7
+    58429.0
    ]
   }
  ],
@@ -426,18 +397,25 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795263407.134907,
+   "ts": 1795264308.752249,
+   "title": "Goldman is out with its 2027 forecast for Brent oil prices",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
+   "t": "21 Nov \u00b7 05:31 PM"
+  },
+  {
+   "ts": 1795264308.752249,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "21 Nov \u00b7 05:16 PM"
+   "t": "21 Nov \u00b7 05:31 PM"
   },
   {
-   "ts": 1795263407.134907,
+   "ts": 1795264308.752249,
    "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "21 Nov \u00b7 05:16 PM"
+   "t": "21 Nov \u00b7 05:31 PM"
   },
   {
    "ts": 1795211201.0,
@@ -557,21 +535,6 @@
     "Energy subsidies for households expired in September, exposing consumers to higher energy prices brought about by the Iran war. Japan has reportedly approved reintroduction of energy subsidies in December to stave off higher imported energy prices as higher prices crimp growth, hitting consumption and net exports.",
     "October inflation reading is likely to push the Bank of Japan toward another rate hike in December, despite an unexpected contraction in economic growth in the third quarter. Data from LSEG indicates that there is a 75% chance of a 25 basis point hike from the Bank of Japan.\"The BOJ is likely to look through the temporary weakness in 3Q GDP and focus instead on underlying inflation and wage dynamics,\" Ma Tieying, senior economist at DBS Group Research, wrote in a Monday note."
    ]
-  },
-  {
-   "ts": 1795028400.0,
-   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "src": "Federal Reserve",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "t": "19 Nov \u00b7 12:00 AM",
-   "body": [
-    "Official websites use .govA .gov website belongs to an official government organization in the United States.",
-    "Secure .gov websites use HTTPSA lock () or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-    "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27\u201328, 2026.",
-    "The minutes for each regularly scheduled meeting of the Committee are generally published three weeks after the day of the policy decision. The descriptions of economic and financial conditions contained in these minutes are based solely on the information that was available to the Committee at the time of the meeting.",
-    "For media inquiries, e-mail [email protected] or call 202-452-2955.",
-    "Minutes of Federal Open Market Committee October 27\u201328, 2026: HTML | PDF"
-   ]
   }
  ],
  "tweets": [
@@ -618,7 +581,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 2/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
