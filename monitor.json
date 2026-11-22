@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 02:46 PKT",
+ "updated": "23-11-2026 03:01 PKT",
  "gold": {
-  "price": 3532.77,
+  "price": 3532.87,
   "open": 3536.15,
   "high": 3540.2,
   "low": 3532.57,
-  "chg": -0.1,
+  "chg": -0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.28,
    3537.35,
    3537.35,
    3537.28,
@@ -55,7 +54,8 @@
    3532.78,
    3532.87,
    3532.88,
-   3532.77
+   3532.85,
+   3532.87
   ]
  },
  "markets": [
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.097,
-   "chg": -0.02,
+   "price": 1.0965,
+   "chg": -0.04,
    "spark": [
-    1.1235,
     1.1221,
     1.1218,
     1.1174,
@@ -201,13 +200,14 @@
     1.0998,
     1.0993,
     1.0972,
-    1.097
+    1.097,
+    1.0965
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3082,
-   "chg": -0.04,
+   "price": 1.3102,
+   "chg": 0.12,
    "spark": [
     1.3404,
     1.3378,
@@ -230,7 +230,7 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3082
+    1.3102
    ]
   },
   {
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1720.96,
-   "chg": 2.3,
+   "price": 1712.53,
+   "chg": 1.8,
    "spark": [
-    1619.08,
     1619.32,
     1619.82,
     1622.59,
@@ -314,15 +313,15 @@
     1711.95,
     1713.08,
     1718.35,
-    1720.96
+    1717.47,
+    1712.53
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60907.6,
-   "chg": 1.36,
+   "price": 60743.2,
+   "chg": 1.09,
    "spark": [
-    59035.8,
     58806.3,
     58900.3,
     58909.9,
@@ -369,7 +368,8 @@
     60671.7,
     60643.3,
     60828.2,
-    60907.6
+    60843.4,
+    60750.5
    ]
   }
  ],
@@ -434,32 +434,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795384003.969574,
+   "ts": 1795384906.593899,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 02:46 AM"
+   "t": "23 Nov \u00b7 03:01 AM"
   },
   {
-   "ts": 1795384003.969574,
+   "ts": 1795384906.593899,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 02:46 AM"
+   "t": "23 Nov \u00b7 03:01 AM"
   },
   {
-   "ts": 1795384003.969574,
+   "ts": 1795384906.593899,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 02:46 AM"
+   "t": "23 Nov \u00b7 03:01 AM"
   },
   {
-   "ts": 1795384003.969574,
+   "ts": 1795384906.593899,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 02:46 AM"
+   "t": "23 Nov \u00b7 03:01 AM"
   },
   {
    "ts": 1795211201.0,
@@ -569,10 +569,22 @@
  ],
  "tweets": [
   {
+   "ts": 1795384664.0,
+   "title": "Gold/USD",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94WVp1NUNacTRuWlhtSy1scGxUUkJTQnI2WGdJeXJuUHAyTEZxcWE3Y2puNmF1YkhrMU9ITmhCRHA0U0tKMDIta1ZsMWZhUDBuS2xLRi1R?oc=5"
+  },
+  {
    "ts": 1795344224.0,
    "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpGN3Q1djlGbU9lMXNhdkJMTEJUUVJxN2Y1bXRBZzdtdUhKLTZQY1NtVkxTS2lpWjZvVHpoTWJwbVpzUzJ1OXlvSXJVUDZTV3BtaTVUcDRVQ1pIS2NZa3RzVlRwdWZ4MnhzMzcxSUhSMnZrTnEyaS1LSGx6RU43alpWelE4REdILXdWS2QwLXVweGI4bndvaWl5bEw2QdIBowFBVV95cUxNSHhZN19NSl9YZFVoNWQtbVhEVEY1UVhFOTk5WXhNNnU1T1dyeTRqamw4cGNfWU16XzFjdjVKNHlucWpBaW00Z204Vnp2UW5odXhYSFVTd0RUdDkxQnJwQ2xWZVlYcjdyLUtMMWtVeUJIWVNteHRadHFUU2o1UmljM1BwdlVzdDh2ZXdQbi1aVVFUNnMzYVdBVzZiU1lHeWVhdEFN?oc=5"
+  },
+  {
+   "ts": 1795320780.0,
+   "title": "UK HMRC Payrolls Change",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SDl5QWZ2SWJQZl9BdmNCdTBPSnJOSFVzTUhKaTFWQU9GUlV3cEFvaGFLeUNReExpUS1BVXhLaFMyUVZDd0hLRm82WjdadFlLQktpNWRlUmRCSU1WWEEtY1pYYVc4TXBfV3BtQlU3UWp2Z1U?oc=5"
   },
   {
    "ts": 1795269591.0,
@@ -591,18 +603,6 @@
    "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
-  },
-  {
-   "ts": 1795192040.0,
-   "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXplN2Y4eDF2WVZiZjd0T2NuekV3UjJoSWNtNkYtZk9BN2tWY0t6QTJZUXRxUndtSjlYMTB5TTFsQ1pJV25ESzBFR0Zpc1hYaHk1cHRaaTFkTExERzR6b2ZqWGVVMl9EaW9EaWcwM3VNTVZIQWpOc0N1NkpPdU5reUtLSENKd9IBiwFBVV95cUxQQ0xUU2JPcW5ZV0tlaUozTnpTYmZyUndocnFid0hRUHFxWFllQlNXNndaV1QtbFBVdVgwYkVmcWMzREg3N0gtV09iYTNsaWdDdDhZQXkwXzVQQ242UFdDTFNnVWNaRjhJY3JDMzRndmJzdmVGNXZLTGlUaUJFbVJ1UVZWbVEtQmJSQ1ZJ?oc=5"
-  },
-  {
-   "ts": 1795191960.0,
-   "title": "President Trump Hosts a News Conference",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ05rY3hocUFQNTk2bUxwbkhMblY4V2NuakwxUHFyR2trcUd6cW9TZ3BGem9PME43UHdkcC0wbUU4b1FFRC1nVUc0SW1FY0ZPNzZWSUwyaldIcUIzamhhRkpELWJIRnZGRWExRW9FQnl6RXpUSDNuQmUzaXJrN0pxamdWNFZUZVBV0gGOAUFVX3lxTE1lSVREXzlkQkRhM1BEY09NV1FZejlXSWdhdXpEV3pzZ0ozTE1VdWRGZ3lZcU8zVGQ3Y0kxNURUcTk0N29SOG9CNTB4cjNmLVBXY09hMmdvb3Z4UE95RUZrajNpeWxmOGYzSDRKZHBqT1pnZGh1NThQUjBEaEc0aGY5SEk0X1A2dFIxWDRHLVE?oc=5"
   }
  ],
  "sentiment": {
