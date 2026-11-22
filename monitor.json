@@ -1,14 +1,13 @@
 {
- "updated": "22-11-2026 21:01 PKT",
+ "updated": "22-11-2026 21:16 PKT",
  "gold": {
-  "price": 3538.22,
+  "price": 3538.24,
   "open": 3534.85,
   "high": 3538.32,
   "low": 3534.8,
   "chg": 0.1,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.35,
    3537.27,
    3537.27,
    3537.35,
@@ -55,7 +54,8 @@
    3538.21,
    3538.24,
    3538.2,
-   3538.22
+   3538.14,
+   3538.24
   ]
  },
  "markets": [
@@ -86,35 +86,6 @@
     44.999,
     44.318,
     41.07
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 103.81,
-   "chg": -0.09,
-   "spark": [
-    101.61,
-    101.81,
-    101.96,
-    102.32,
-    102.19,
-    102.04,
-    101.88,
-    101.75,
-    101.87,
-    101.51,
-    101.55,
-    102.3,
-    101.65,
-    102.23,
-    102.91,
-    103.17,
-    103.41,
-    103.55,
-    103.49,
-    103.86,
-    103.9,
-    103.81
    ]
   },
   {
@@ -234,9 +205,38 @@
    ]
   },
   {
+   "name": "USD/JPY",
+   "price": 159.707,
+   "chg": 0.2,
+   "spark": [
+    158.132,
+    156.494,
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.78,
+    159.523,
+    159.504,
+    159.381,
+    159.707
+   ]
+  },
+  {
    "name": "Ethereum",
-   "price": 1715.58,
-   "chg": 1.98,
+   "price": 1714.51,
+   "chg": 1.92,
    "spark": [
     1629.29,
     1614.68,
@@ -285,13 +285,13 @@
     1700.66,
     1710.5,
     1716.07,
-    1715.58
+    1714.51
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60807.6,
-   "chg": 1.19,
+   "price": 60940.0,
+   "chg": 1.41,
    "spark": [
     59090.8,
     58335.9,
@@ -340,7 +340,7 @@
     60650.0,
     60842.4,
     60804.6,
-    60807.7
+    60940.1
    ]
   }
  ],
@@ -405,39 +405,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795363304.910356,
+   "ts": 1795364205.420263,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "22 Nov \u00b7 09:01 PM"
+   "t": "22 Nov \u00b7 09:16 PM"
   },
   {
-   "ts": 1795363304.910356,
+   "ts": 1795364205.420263,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "22 Nov \u00b7 09:01 PM"
+   "t": "22 Nov \u00b7 09:16 PM"
   },
   {
-   "ts": 1795363304.910356,
+   "ts": 1795364205.420263,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "22 Nov \u00b7 09:01 PM"
+   "t": "22 Nov \u00b7 09:16 PM"
   },
   {
-   "ts": 1795363304.910356,
+   "ts": 1795364205.420263,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "22 Nov \u00b7 09:01 PM"
+   "t": "22 Nov \u00b7 09:16 PM"
   },
   {
-   "ts": 1795363304.910356,
+   "ts": 1795364205.420263,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "22 Nov \u00b7 09:01 PM"
+   "t": "22 Nov \u00b7 09:16 PM"
   },
   {
    "ts": 1795211201.0,
@@ -524,12 +524,6 @@
  ],
  "tweets": [
   {
-   "ts": 1795360116.0,
-   "title": "Gold/USD",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94WVp1NUNacTRuWlhtSy1scGxUUkJTQnI2WGdJeXJuUHAyTEZxcWE3Y2puNmF1YkhrMU9ITmhCRHA0U0tKMDIta1ZsMWZhUDBuS2xLRi1R?oc=5"
-  },
-  {
    "ts": 1795337865.0,
    "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March",
    "src": "ForexFactory",
@@ -558,6 +552,12 @@
    "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
+  },
+  {
+   "ts": 1795192040.0,
+   "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXplN2Y4eDF2WVZiZjd0T2NuekV3UjJoSWNtNkYtZk9BN2tWY0t6QTJZUXRxUndtSjlYMTB5TTFsQ1pJV25ESzBFR0Zpc1hYaHk1cHRaaTFkTExERzR6b2ZqWGVVMl9EaW9EaWcwM3VNTVZIQWpOc0N1NkpPdU5reUtLSENKd9IBiwFBVV95cUxQQ0xUU2JPcW5ZV0tlaUozTnpTYmZyUndocnFid0hRUHFxWFllQlNXNndaV1QtbFBVdVgwYkVmcWMzREg3N0gtV09iYTNsaWdDdDhZQXkwXzVQQ242UFdDTFNnVWNaRjhJY3JDMzRndmJzdmVGNXZLTGlUaUJFbVJ1UVZWbVEtQmJSQ1ZJ?oc=5"
   }
  ],
  "sentiment": {
