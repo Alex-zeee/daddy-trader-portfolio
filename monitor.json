@@ -1,14 +1,13 @@
 {
- "updated": "22-11-2026 04:46 PKT",
+ "updated": "22-11-2026 05:01 PKT",
  "gold": {
-  "price": 3536.7,
+  "price": 3536.65,
   "open": 3532.81,
   "high": 3537.82,
   "low": 3529.18,
   "chg": 0.11,
   "src": "XAUUSD Spot",
   "spark": [
-   3532.86,
    3532.88,
    3532.81,
    3532.79,
@@ -55,7 +54,8 @@
    3536.7,
    3536.65,
    3536.59,
-   3536.7
+   3536.69,
+   3536.65
   ]
  },
  "markets": [
@@ -115,35 +115,6 @@
     103.86,
     103.9,
     103.81
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 83.98,
-   "chg": 0.93,
-   "spark": [
-    99.47,
-    103.27,
-    101.76,
-    99.9,
-    102.78,
-    102.0,
-    104.12,
-    96.46,
-    96.09,
-    88.12,
-    90.52,
-    90.83,
-    86.85,
-    86.04,
-    86.53,
-    88.74,
-    88.56,
-    85.72,
-    86.01,
-    83.26,
-    83.21,
-    83.98
    ]
   },
   {
@@ -264,10 +235,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1681.2,
-   "chg": 3.82,
+   "price": 1680.81,
+   "chg": -0.09,
    "spark": [
-    1755.18,
     1733.45,
     1747.57,
     1744.07,
@@ -314,15 +284,15 @@
     1683.01,
     1685.19,
     1676.94,
-    1681.31
+    1682.27,
+    1680.81
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60121.2,
-   "chg": 2.24,
+   "price": 60061.2,
+   "chg": -0.05,
    "spark": [
-    62062.2,
     61516.7,
     62199.9,
     62089.6,
@@ -369,7 +339,8 @@
     60324.5,
     60345.4,
     60028.1,
-    60128.0
+    60088.6,
+    60061.2
    ]
   }
  ],
@@ -426,46 +397,39 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795304811.814823,
+   "ts": 1795305709.17392,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "22 Nov \u00b7 04:46 AM"
+   "t": "22 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795304811.814823,
+   "ts": 1795305709.17392,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "22 Nov \u00b7 04:46 AM"
+   "t": "22 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795304811.814823,
+   "ts": 1795305709.17392,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "22 Nov \u00b7 04:46 AM"
+   "t": "22 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795304811.814823,
+   "ts": 1795305709.17392,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "22 Nov \u00b7 04:46 AM"
+   "t": "22 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795304811.814823,
+   "ts": 1795305709.17392,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "22 Nov \u00b7 04:46 AM"
-  },
-  {
-   "ts": 1795304811.814823,
-   "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-   "t": "22 Nov \u00b7 04:46 AM"
+   "t": "22 Nov \u00b7 05:01 AM"
   },
   {
    "ts": 1795211201.0,
@@ -534,9 +498,29 @@
     "Meanwhile the US yields are moving lower with the shorter end of the yield curve down -14 basis points at 4.64%. The 10 year is down -11.62 basis points at 4.935%. For the 2 year, the low yield in November reached 4.448%. So the yield is still well above that level. As far as Fed expectations, in December the chance for remaining unchanged actually increased to 4.2%. The chance for a 50 basis point hike is now 0% while the chance of a 25 basis point hike is 95.8%.",
     "Stocks continue to get hammered with the NASDAQ composite down -3.51% in the NASDAQ 100 down -3.76%."
    ]
+  },
+  {
+   "ts": 1795192176.0,
+   "title": "Gold breaks below the 50% midpoint. Can buyers hold the old breakout area?",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-breaks-below-the-50-midpoint-can-buyers-hold-the-old-breakout-area/",
+   "t": "20 Nov \u00b7 09:29 PM",
+   "body": [
+    "Gold is under pressure again today, with the price trading near $3,550.21 after reaching a low of $3,514.65 on my chart. That puts the price roughly 8% lower on the week and nearly 37% below the $5,598.75 high. Expectations for a December Fed hike continue to weigh on bullion, and the selloff in AI stocks may be adding to the pressure as traders sell gold to cover losses elsewhere.",
+    "Technically, the price has moved below the 50% midpoint of the move up from the 2022 low. That level comes in at $3,610.01 and is now a barometer for the buyers and sellers. Stay below it, and sellers can lean against the midpoint on a rebound. Get and stay back above it, and buyers would have their first sign that the break lower is losing momentum.",
+    "On the downside, the price is now testing the upper end of the $3,433.49 to $3,550.21 swing area. There were several stalls in that area in 2025 before buyers finally broke through and extended the rally. The question now is whether buyers show up on the way back down.",
+    "The session low near $3,514.65 is the first level to watch. A move below it would put $3,500 in play, followed by the lower end of the swing area at $3,433.49. If sellers can get and stay below that level, the next major retracement target on the daily chart comes in at $3,140.67. That\u2019s the 61.8% retracement of the move up from the 2022 low.",
+    "For now, the swing area gives buyers a place to make a play and define their risk. A bounce from the area would be a start. Getting back above $3,610.01 and holding it is what would give buyers more room to work."
+   ]
   }
  ],
  "tweets": [
+  {
+   "ts": 1795290419.0,
+   "title": "Trump on Iran: I'm going to broker a lasting deal - Fox News interview",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSNU4yYXBqYktCVEJaWXppVktlS3ZhZnFrUnFIMTctR3oxNk0xc1dIUTVzdmJTZ25DWGd1UEp6Ymt4WDEwZzZmXw?oc=5"
+  },
   {
    "ts": 1795189080.0,
    "title": "US Revised UoM Consumer Sentiment",
@@ -566,21 +550,15 @@
    "title": "Retail sales, Great Britain: October 2026",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT1Zhbk8wR3VuTTFPMVFKSDF4Y0ZDbWYwaFFhMU5WNy1YaFpWR3J5LWtaUmVyMnd5cDV6OENPN3RlTW45OUpIR3NrcE9vUGxDemMwX3M2ZmpaZGV1VmFwaFVVWWhJTUs1Q2xhckQydWJ1MFo1cGRrTWZfeTd6M3dHU2JyZWxldlM00gGOAUFVX3lxTFBrTkRlSVB5b2MtUHVLd0ZieUFCcVJVaU9DeEhFWUZlZ2o5cFBjeWZDb0NxMUFmM0xNb0ozeVdtUzVZMEdJZ0NwaXZxRTEzQlFiU2JSdHFLb2s4WW1GS1N3cUpGdnJqM2tiLVJqd2JsbFM2TG91Nzc4OVdpcm9BU2xkeHdfdTZ3TFBuM0FHX1E?oc=5"
-  },
-  {
-   "ts": 1795136460.0,
-   "title": "NZ credit card summary",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tdm5zU0lteVlDa3VWNXpnY3hEUUE0LVB4cTRsclExYUNXX25pcVBDSlZtbTdBSVdsVE5LZnBDTG03eWhpMGdnV1NXellNVDJaN21JbUpFTGRtVmhvcEtsNDM3UVJkSFBjNWRmS0g0dGtBd9IBd0FVX3lxTE5NdGtMd2QzU0xLV2NxajRTN0w2NG1LSFNid0NqSUpVQ0RtZGpoQ0tFLXktaDVkaG5LM1VOX2JhMzRpdXRSY2JLWFFmTU8wZjZCX3FITkd1YnlGRHNWOFV2UERBVWh3VXByQk1Ic18zRDFJWENSWVM4?oc=5"
   }
  ],
  "sentiment": {
-  "value": 12,
+  "value": 11,
   "label": "Extreme Fear"
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 6/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
