@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 03:01 PKT",
+ "updated": "23-11-2026 03:16 PKT",
  "gold": {
-  "price": 3532.87,
+  "price": 3532.88,
   "open": 3536.15,
   "high": 3540.2,
   "low": 3532.57,
   "chg": -0.09,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.35,
    3537.35,
    3537.28,
    3537.27,
@@ -55,7 +54,8 @@
    3532.87,
    3532.88,
    3532.85,
-   3532.87
+   3532.78,
+   3532.88
   ]
  },
  "markets": [
@@ -90,10 +90,9 @@
   },
   {
    "name": "Dollar Index",
-   "price": 103.81,
-   "chg": -0.09,
+   "price": 103.84,
+   "chg": 0.03,
    "spark": [
-    101.61,
     101.81,
     101.96,
     102.32,
@@ -114,7 +113,8 @@
     103.49,
     103.86,
     103.9,
-    103.81
+    103.81,
+    103.84
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0965,
-   "chg": -0.04,
+   "price": 1.0973,
+   "chg": 0.03,
    "spark": [
     1.1221,
     1.1218,
@@ -201,13 +201,13 @@
     1.0993,
     1.0972,
     1.097,
-    1.0965
+    1.0973
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3102,
-   "chg": 0.12,
+   "price": 1.3095,
+   "chg": 0.07,
    "spark": [
     1.3404,
     1.3378,
@@ -230,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3102
+    1.3095
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.597,
-   "chg": -0.7,
+   "price": 158.57,
+   "chg": -0.71,
    "spark": [
     156.494,
     156.83,
@@ -259,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    158.597
+    158.57
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1712.53,
-   "chg": 1.8,
+   "price": 1715.21,
+   "chg": 1.96,
    "spark": [
     1619.32,
     1619.82,
@@ -314,13 +314,13 @@
     1713.08,
     1718.35,
     1717.47,
-    1712.53
+    1715.21
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60743.2,
-   "chg": 1.09,
+   "price": 60850.2,
+   "chg": 1.27,
    "spark": [
     58806.3,
     58900.3,
@@ -369,7 +369,7 @@
     60643.3,
     60828.2,
     60843.4,
-    60750.5
+    60850.2
    ]
   }
  ],
@@ -434,32 +434,48 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795384906.593899,
+   "ts": 1795385805.687351,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 03:01 AM"
+   "t": "23 Nov \u00b7 03:16 AM"
   },
   {
-   "ts": 1795384906.593899,
+   "ts": 1795385805.687351,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 03:01 AM"
+   "t": "23 Nov \u00b7 03:16 AM"
   },
   {
-   "ts": 1795384906.593899,
+   "ts": 1795385805.687351,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 03:01 AM"
+   "t": "23 Nov \u00b7 03:16 AM"
   },
   {
-   "ts": 1795384906.593899,
+   "ts": 1795385805.687351,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 03:01 AM"
+   "t": "23 Nov \u00b7 03:16 AM"
+  },
+  {
+   "ts": 1795382795.0,
+   "title": "US equity rout: Bessent cautions Fed against overtightening, before its December decision",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/us-equity-rout-bessent-cautions-fed-against-overtightening-before-its-december-decision/",
+   "t": "23 Nov \u00b7 02:26 AM",
+   "body": [
+    "With a quarter-point hike in December close to fully priced, Bessent's comments mainly push back against the governors (well, one, looking at you Waller!) arguing for 50 basis points. They do little to dislodge 25bp as the base case. If the equity correction deepens, the bigger risk for rate markets is that a hold gets priced back in. For oil, the administration's argument depends on crude-driven inflation fading, so softer energy prices would strengthen Bessent's case and a new spike would back the hawks. Gold has tended to fall on rising hike expectations, so any easing of that pricing could take some pressure off the metal.",
+    "With Wall Street in correction and a December decision approaching, the Treasury is now openly arguing that the Fed, not the energy shock, is the bigger risk to the economy.",
+    "US Treasury Secretary Scott Bessent said on Sunday that the Federal Reserve could damage the economy if it pushes policy too far. In an interview with CBS's Face the Nation, he said many people believe the central bank \"may be making a policy mistake if they over-tighten.\" He pointed to a run of hawkish comments from Fed governors in recent weeks and said financial conditions had tightened substantially over the past few months.",
+    "The remarks came as Wall Street slid into correction territory amid a broad sell-off in AI-linked stocks. Bessent gave several explanations for the decline. He said the selling began as Democrats gained ground in the polls and picked up speed after Election Day, arguing that the party's push to slow the AI buildout had unsettled investors. He also named the Fed's tone as a factor. Bessent did not name the officials he had in mind, and he did not say what decision he would like to see from the Fed in December.",
+    "Sunday's comments continue an argument Bessent has made throughout November. In a CNBC interview on 13 November, he said it would be a mistake for the Fed to hike too aggressively into an energy supply shock that he said was already easing, and he described recent inflation data as noisy. Speaking to CNBC again on 20 November, he urged policymakers not to back a larger rate rise. He noted that one governor who now favours a 50 basis point increase had supported a cut of a similar size within the past year, and he told the Fed to look forward rather than react to past data.",
+    "Bessent's comments reflect the Treasury's view, not that of the officials who set rates. The Fed raised its target range by a quarter point in September to 3.75% to 4.00% and kept it there last month. Some governors are now leaning towards further tightening. Bessent's case is that oil-led price pressure will fade on its own. Fed officials who disagree are more concerned about how long the energy shock keeps inflation high.",
+    "The Fed's next decision is 17 days away. Before then, markets will look at incoming inflation data, further Fed commentary and how deep the equity correction goes to judge whether a December hike stays on the table, and how large it might be."
+   ]
   },
   {
    "ts": 1795211201.0,
@@ -541,29 +557,6 @@
     "On the downside, the price is now testing the upper end of the $3,433.49 to $3,550.21 swing area. There were several stalls in that area in 2025 before buyers finally broke through and extended the rally. The question now is whether buyers show up on the way back down.",
     "The session low near $3,514.65 is the first level to watch. A move below it would put $3,500 in play, followed by the lower end of the swing area at $3,433.49. If sellers can get and stay below that level, the next major retracement target on the daily chart comes in at $3,140.67. That\u2019s the 61.8% retracement of the move up from the 2022 low.",
     "For now, the swing area gives buyers a place to make a play and define their risk. A bounce from the area would be a start. Getting back above $3,610.01 and holding it is what would give buyers more room to work."
-   ]
-  },
-  {
-   "ts": 1795181132.0,
-   "title": "Morning Kickstart. Anthropic slides after its IPO and gold breaks lower",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/morning-kickstart-anthropic-slides-after-its-ipo-and-gold-breaks-lower/",
-   "t": "20 Nov \u00b7 06:25 PM",
-   "body": [
-    "Anthropic (ANT) is giving back much of its first-day gain. The stock was trading at $87.72 at 7:43 AM ET, down $9.45, or 9.7%, from Thursday\u2019s $97.17 close. The IPO was priced at $83, and the stock traded as high as $115.10 in its debut. That leaves it just $4.72 above the offering price this morning. For me, $83 is the next barometer. A break below would erase the remaining premium to the IPO price. InvestingLive\u2019s coverage of the Anthropic IPO pricing anthropic.com",
-    "Nasdaq 100 futures are leading the decline, European stocks are broadly lower, and Treasury yields are down across the curve. The yen and Swiss franc are the strongest of the major currencies, while gold is down about $55 despite the drop in yields and the softer dollar. On the gold chart, the break below $3,610.01 puts sellers in control heading into the North American session.",
-    "Overnight, UK retail sales rose 0.7% in October versus 0.0% expected, following a revised 0.6% decline. UK public sector net borrowing was \u00a317.0 billion versus \u00a318.0 billion expected. German producer prices rose 1.4% on the month versus 0.9% expected, following a 1.9% rise.",
-    "The dollar is down the most against the yen, with USDJPY off 0.58% at 158.74 and trading just above its session low. USDCHF is down 0.38% and USDCAD is down 0.20%. The New Zealand dollar is up 0.26%, the euro and Australian dollar are each up 0.11%, and the pound is up 0.10%. The pound is the weakest of the major currencies in this snapshot, even after the upside surprise in UK retail sales.",
-    "Using the displayed session highs and lows and the 22-day average ranges:",
-    "EURUSD has the most room to roam relative to its average. USDCAD also has room heading into Canadian retail sales. USDJPY has already exceeded a normal day\u2019s range and is still near the low. That makes 158.72 the level I\u2019m watching for either another push lower or a failed break.",
-    "Gold is trading at $3,570.15, down $55.03, or 1.52%. The price is below $3,610.01, the 50% retracement of the move from the 2022 low to the 2026 high, and continues to move away from its 100-day moving average at $4,176.83.",
-    "The $3,610.01 level is now the close risk for sellers. Stay below and the sellers keep control. A move back above that holds would put the break in question. If the decline continues, the 61.8% retracement at $3,140.67 is the next major Fibonacci level on the daily chart. It\u2019s well below the market, which makes the reaction on any retest of $3,610.01 the more immediate read.",
-    "Elsewhere, WTI crude is down $0.38 to $82.83 after trading between $81.55 and $84.00. Silver is down 1.48% to $42.234, copper is down 1.77% to $5.534, and Bitcoin is down $420 to $61,494.",
-    "I\u2019ll watch 1.4308 in USDCAD around the Canadian release. That\u2019s the session low, and a break would give the sellers room to extend the morning move. In the U.S., I\u2019ll watch how Treasury yields react to the inflation expectations reading after the sharp drop in yields this morning.",
-    "In the morning video above, I take a look at the three major currency pairs\u2014EURUSD, USDJPY and GBPUSD\u2014from a technical perspective. For each pair, I outline the bias, the risk-defining levels and the targets that would give either the buyers or sellers more control.",
-    "EURUSD is at 1.0978, above yesterday\u2019s close at 1.0966, but just below the 100 hour MA at 1.09854. That will be a short term barometer for today. The range is narrow at only 33 pips so far today.",
-    "USDJPY is at 158.74, and trading below it near converged 100 and 200 day MAs at 158.90. Stay below is more bearish. Move above and the technical bias shifts modestly to the upside advantage.",
-    "GBPUSD is at 1.3099 after trading as high as 1.3123 and as low as 1.3079. The price remains below the swing area at 1.31386 and 1.3178 from the daily chart. Bears are more in control."
    ]
   }
  ],
