@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 04:01 PKT",
+ "updated": "23-11-2026 04:16 PKT",
  "gold": {
-  "price": 3525.7,
+  "price": 3577.33,
   "open": 3536.62,
-  "high": 3557.77,
+  "high": 3579.3,
   "low": 3521.75,
-  "chg": -0.31,
+  "chg": 1.15,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.34,
    3537.36,
    3537.33,
    3537.26,
@@ -55,16 +54,16 @@
    3532.68,
    3533.09,
    3533.09,
-   3525.7
+   3569.05,
+   3577.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
    "price": 41.07,
-   "chg": -7.33,
+   "chg": 0.09,
    "spark": [
-    54.764,
     53.711,
     54.108,
     54.293,
@@ -85,13 +84,14 @@
     47.288,
     44.999,
     44.318,
+    41.035,
     41.07
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.84,
-   "chg": 0.03,
+   "price": 103.821,
+   "chg": 0.01,
    "spark": [
     101.81,
     101.96,
@@ -114,15 +114,14 @@
     103.86,
     103.9,
     103.81,
-    103.84
+    103.821
    ]
   },
   {
    "name": "Oil WTI",
    "price": 83.41,
-   "chg": 0.24,
+   "chg": -0.68,
    "spark": [
-    99.47,
     103.27,
     101.76,
     99.9,
@@ -143,6 +142,7 @@
     86.01,
     83.26,
     83.21,
+    83.98,
     83.41
    ]
   },
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0975,
-   "chg": 0.04,
+   "price": 1.0977,
+   "chg": 0.07,
    "spark": [
     1.1221,
     1.1218,
@@ -201,13 +201,13 @@
     1.0993,
     1.0972,
     1.097,
-    1.0975
+    1.0977
    ]
   },
   {
    "name": "GBP/USD",
    "price": 1.3092,
-   "chg": 0.05,
+   "chg": 0.04,
    "spark": [
     1.3404,
     1.3378,
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.641,
-   "chg": -0.67,
+   "price": 158.69,
+   "chg": -0.64,
    "spark": [
     156.494,
     156.83,
@@ -259,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    158.641
+    158.69
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1722.49,
-   "chg": 2.39,
+   "price": 1718.2,
+   "chg": 2.14,
    "spark": [
     1619.82,
     1622.59,
@@ -314,13 +314,13 @@
     1718.35,
     1717.47,
     1716.05,
-    1722.49
+    1718.2
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61114.3,
-   "chg": 1.7,
+   "price": 60896.9,
+   "chg": 1.34,
    "spark": [
     58900.3,
     58909.9,
@@ -369,7 +369,7 @@
     60828.2,
     60843.4,
     61005.3,
-    61105.5
+    60896.9
    ]
   }
  ],
@@ -434,32 +434,48 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795388507.15018,
+   "ts": 1795389409.459041,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 04:01 AM"
+   "t": "23 Nov \u00b7 04:16 AM"
   },
   {
-   "ts": 1795388507.15018,
+   "ts": 1795389409.459041,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 04:01 AM"
+   "t": "23 Nov \u00b7 04:16 AM"
   },
   {
-   "ts": 1795388507.15018,
+   "ts": 1795389409.459041,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 04:01 AM"
+   "t": "23 Nov \u00b7 04:16 AM"
   },
   {
-   "ts": 1795388507.15018,
+   "ts": 1795389409.459041,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 04:01 AM"
+   "t": "23 Nov \u00b7 04:16 AM"
+  },
+  {
+   "ts": 1795384859.0,
+   "title": "Goldman names 3 signals that could mark a bottom as the S&P 500 sits 12% below its record",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stock-market-update/goldman-names-3-signals-that-could-mark-a-bottom-as-the-s-p-500-sits-12-below-its-record/",
+   "t": "23 Nov \u00b7 03:00 AM",
+   "body": [
+    "Goldman's positioning data suggests that last week's rout cleared out mainly the fast money. Mutual funds, ETF buyers and asset managers are still heavily long, which leaves room for more forced or discretionary selling before any bottom forms. A December hike is close to fully priced and no Fed pivot is in sight, so AI earnings news is the most likely of the three catalysts to change the picture. The shift toward a growth downgrade favours defensive sectors and government bonds over cyclicals. It could also weigh on demand-sensitive commodities if it persists.",
+    "Hedge funds have already run for the exits, but Goldman's data shows the rest of the market is still long and waiting for a reason to stop selling.",
+    "Goldman Sachs has set out three developments that could help mark the bottom of the current US equity correction. It also warned that investor positioning has not fallen far enough yet to signal that the worst is over. In a note from strategist Ben Snider, the bank said any one of three things could support a bottom and recovery. The first is news that lifts confidence in the earnings path tied to AI investment and monetisation. The second is an improvement in the macro backdrop, such as a dovish signal from the Federal Reserve. The third is a significant further drop in investor positioning.",
+    "The S&P 500 is now around 12% below its 6 October record, a bigger fall than the median calendar-year peak-to-trough decline of about 10% since 1980. The Nasdaq 100 is down roughly 20%. Snider said the sell-off had widened this week from an AI unwind into a broader growth downgrade. Goldman's AI basket has dropped about 32% since early October, and the S&P 500 excluding AI is now 6% below its high. Cyclical stocks have also started to lag defensives as investors cut their growth expectations. The note's data runs to 19 November, so it predates Friday's steep losses.",
+    "On positioning, the picture is mixed. Hedge funds have sold heavily, cutting net leverage to its lowest since April 2025, and their most crowded AI-heavy longs have trailed the S&P 500 by about 14 points over six months. However, Goldman's broader US Equity Sentiment Indicator, which combines nine positioning measures across institutional, retail and foreign investors, stood at 0.7 on 20 November. That is still above average. US equity mutual funds and ETFs have taken in close to $170 billion since the start of the fourth quarter, and asset managers' equity futures positioning sits in the 82nd percentile of the past decade.",
+    "The Fed route looks the least likely in the near term. Futures price a December hike as close to certain, and Goldman's own economists expect increases in December and March. Goldman's financial conditions index also recorded its sharpest weekly tightening since March 2020.",
+    "Goldman's year-ahead outlook, published before the latest slide, targets 8,700 on the S&P 500 by the end of 2027. A newer scenario range runs from roughly 5,800 to 8,100, depending on whether confidence in earnings returns. History offers some support: after 22 corrections of 10% or more since 1980, the index gained an average of 4% over the following three months."
+   ]
   },
   {
    "ts": 1795382795.0,
@@ -544,40 +560,14 @@
     "Meanwhile the US yields are moving lower with the shorter end of the yield curve down -14 basis points at 4.64%. The 10 year is down -11.62 basis points at 4.935%. For the 2 year, the low yield in November reached 4.448%. So the yield is still well above that level. As far as Fed expectations, in December the chance for remaining unchanged actually increased to 4.2%. The chance for a 50 basis point hike is now 0% while the chance of a 25 basis point hike is 95.8%.",
     "Stocks continue to get hammered with the NASDAQ composite down -3.51% in the NASDAQ 100 down -3.76%."
    ]
-  },
-  {
-   "ts": 1795192176.0,
-   "title": "Gold breaks below the 50% midpoint. Can buyers hold the old breakout area?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-breaks-below-the-50-midpoint-can-buyers-hold-the-old-breakout-area/",
-   "t": "20 Nov \u00b7 09:29 PM",
-   "body": [
-    "Gold is under pressure again today, with the price trading near $3,550.21 after reaching a low of $3,514.65 on my chart. That puts the price roughly 8% lower on the week and nearly 37% below the $5,598.75 high. Expectations for a December Fed hike continue to weigh on bullion, and the selloff in AI stocks may be adding to the pressure as traders sell gold to cover losses elsewhere.",
-    "Technically, the price has moved below the 50% midpoint of the move up from the 2022 low. That level comes in at $3,610.01 and is now a barometer for the buyers and sellers. Stay below it, and sellers can lean against the midpoint on a rebound. Get and stay back above it, and buyers would have their first sign that the break lower is losing momentum.",
-    "On the downside, the price is now testing the upper end of the $3,433.49 to $3,550.21 swing area. There were several stalls in that area in 2025 before buyers finally broke through and extended the rally. The question now is whether buyers show up on the way back down.",
-    "The session low near $3,514.65 is the first level to watch. A move below it would put $3,500 in play, followed by the lower end of the swing area at $3,433.49. If sellers can get and stay below that level, the next major retracement target on the daily chart comes in at $3,140.67. That\u2019s the 61.8% retracement of the move up from the 2022 low.",
-    "For now, the swing area gives buyers a place to make a play and define their risk. A bounce from the area would be a start. Getting back above $3,610.01 and holding it is what would give buyers more room to work."
-   ]
   }
  ],
  "tweets": [
-  {
-   "ts": 1795388157.0,
-   "title": "Gold/USD",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94WVp1NUNacTRuWlhtSy1scGxUUkJTQnI2WGdJeXJuUHAyTEZxcWE3Y2puNmF1YkhrMU9ITmhCRHA0U0tKMDIta1ZsMWZhUDBuS2xLRi1R?oc=5"
-  },
   {
    "ts": 1795344224.0,
    "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpGN3Q1djlGbU9lMXNhdkJMTEJUUVJxN2Y1bXRBZzdtdUhKLTZQY1NtVkxTS2lpWjZvVHpoTWJwbVpzUzJ1OXlvSXJVUDZTV3BtaTVUcDRVQ1pIS2NZa3RzVlRwdWZ4MnhzMzcxSUhSMnZrTnEyaS1LSGx6RU43alpWelE4REdILXdWS2QwLXVweGI4bndvaWl5bEw2QdIBowFBVV95cUxNSHhZN19NSl9YZFVoNWQtbVhEVEY1UVhFOTk5WXhNNnU1T1dyeTRqamw4cGNfWU16XzFjdjVKNHlucWpBaW00Z204Vnp2UW5odXhYSFVTd0RUdDkxQnJwQ2xWZVlYcjdyLUtMMWtVeUJIWVNteHRadHFUU2o1UmljM1BwdlVzdDh2ZXdQbi1aVVFUNnMzYVdBVzZiU1lHeWVhdEFN?oc=5"
-  },
-  {
-   "ts": 1795320780.0,
-   "title": "UK HMRC Payrolls Change",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SDl5QWZ2SWJQZl9BdmNCdTBPSnJOSFVzTUhKaTFWQU9GUlV3cEFvaGFLeUNReExpUS1BVXhLaFMyUVZDd0hLRm82WjdadFlLQktpNWRlUmRCSU1WWEEtY1pYYVc4TXBfV3BtQlU3UWp2Z1U?oc=5"
   },
   {
    "ts": 1795272716.0,
@@ -596,6 +586,18 @@
    "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
+  },
+  {
+   "ts": 1795192040.0,
+   "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXplN2Y4eDF2WVZiZjd0T2NuekV3UjJoSWNtNkYtZk9BN2tWY0t6QTJZUXRxUndtSjlYMTB5TTFsQ1pJV25ESzBFR0Zpc1hYaHk1cHRaaTFkTExERzR6b2ZqWGVVMl9EaW9EaWcwM3VNTVZIQWpOc0N1NkpPdU5reUtLSENKd9IBiwFBVV95cUxQQ0xUU2JPcW5ZV0tlaUozTnpTYmZyUndocnFid0hRUHFxWFllQlNXNndaV1QtbFBVdVgwYkVmcWMzREg3N0gtV09iYTNsaWdDdDhZQXkwXzVQQ242UFdDTFNnVWNaRjhJY3JDMzRndmJzdmVGNXZLTGlUaUJFbVJ1UVZWbVEtQmJSQ1ZJ?oc=5"
+  },
+  {
+   "ts": 1795191960.0,
+   "title": "President Trump Hosts a News Conference",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ05rY3hocUFQNTk2bUxwbkhMblY4V2NuakwxUHFyR2trcUd6cW9TZ3BGem9PME43UHdkcC0wbUU4b1FFRC1nVUc0SW1FY0ZPNzZWSUwyaldIcUIzamhhRkpELWJIRnZGRWExRW9FQnl6RXpUSDNuQmUzaXJrN0pxamdWNFZUZVBV0gGOAUFVX3lxTE1lSVREXzlkQkRhM1BEY09NV1FZejlXSWdhdXpEV3pzZ0ozTE1VdWRGZ3lZcU8zVGQ3Y0kxNURUcTk0N29SOG9CNTB4cjNmLVBXY09hMmdvb3Z4UE95RUZrajNpeWxmOGYzSDRKZHBqT1pnZGh1NThQUjBEaEc0aGY5SEk0X1A2dFIxWDRHLVE?oc=5"
   }
  ],
  "sentiment": {
