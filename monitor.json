@@ -1,14 +1,13 @@
 {
- "updated": "22-11-2026 10:31 PKT",
+ "updated": "22-11-2026 10:46 PKT",
  "gold": {
-  "price": 3537.28,
+  "price": 3537.35,
   "open": 3532.81,
   "high": 3537.82,
   "low": 3529.18,
   "chg": 0.13,
   "src": "XAUUSD Spot",
   "spark": [
-   3534.93,
    3536.21,
    3536.14,
    3536.14,
@@ -55,7 +54,8 @@
    3537.27,
    3537.35,
    3537.36,
-   3537.28
+   3537.29,
+   3537.35
   ]
  },
  "markets": [
@@ -264,8 +264,8 @@
   },
   {
    "name": "Ethereum",
-   "price": 1651.23,
-   "chg": -1.85,
+   "price": 1648.78,
+   "chg": -1.99,
    "spark": [
     1748.27,
     1751.15,
@@ -314,13 +314,13 @@
     1668.47,
     1657.66,
     1660.79,
-    1651.23
+    1648.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58899.4,
-   "chg": -1.98,
+   "price": 58735.3,
+   "chg": -2.25,
    "spark": [
     61999.7,
     61795.2,
@@ -369,96 +369,104 @@
     59362.7,
     59225.1,
     59185.9,
-    58899.4
+    58735.3
    ]
   }
  ],
  "calendar": [
   {
-   "ts": 1795028400.0,
-   "t": "Thu 19 Nov \u00b7 12:00 AM",
-   "title": "FOMC Meeting Minutes",
-   "impact": "High",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1795095000.0,
-   "t": "Thu 19 Nov \u00b7 06:30 PM",
-   "title": "Philly Fed Manufacturing Index",
+   "ts": 1795445100.0,
+   "t": "Mon 23 Nov \u00b7 07:45 PM",
+   "title": "Flash Manufacturing PMI",
    "impact": "Medium",
-   "forecast": "20.6",
-   "previous": "20.9"
+   "forecast": "54.5",
+   "previous": "56.0"
   },
   {
-   "ts": 1795095000.0,
-   "t": "Thu 19 Nov \u00b7 06:30 PM",
+   "ts": 1795445100.0,
+   "t": "Mon 23 Nov \u00b7 07:45 PM",
+   "title": "Flash Services PMI",
+   "impact": "Medium",
+   "forecast": "55.6",
+   "previous": "57.9"
+  },
+  {
+   "ts": 1795532400.0,
+   "t": "Tue 24 Nov \u00b7 08:00 PM",
+   "title": "CB Consumer Confidence",
+   "impact": "Medium",
+   "forecast": "92.1",
+   "previous": "91.7"
+  },
+  {
+   "ts": 1795613400.0,
+   "t": "Wed 25 Nov \u00b7 06:30 PM",
+   "title": "Core PCE Price Index m/m",
+   "impact": "High",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "ts": 1795613400.0,
+   "t": "Wed 25 Nov \u00b7 06:30 PM",
+   "title": "Prelim GDP q/q",
+   "impact": "High",
+   "forecast": "3.5%",
+   "previous": "3.4%"
+  },
+  {
+   "ts": 1795613400.0,
+   "t": "Wed 25 Nov \u00b7 06:30 PM",
+   "title": "Prelim GDP Price Index q/q",
+   "impact": "Medium",
+   "forecast": "2.3%",
+   "previous": "2.3%"
+  },
+  {
+   "ts": 1795613400.0,
+   "t": "Wed 25 Nov \u00b7 06:30 PM",
    "title": "Unemployment Claims",
    "impact": "Medium",
-   "forecast": "198K",
-   "previous": "200K"
-  },
-  {
-   "ts": 1795186800.0,
-   "t": "Fri 20 Nov \u00b7 08:00 PM",
-   "title": "Revised UoM Consumer Sentiment",
-   "impact": "Medium",
-   "forecast": "51.7",
-   "previous": "51.0"
-  },
-  {
-   "ts": 1795186800.0,
-   "t": "Fri 20 Nov \u00b7 08:00 PM",
-   "title": "Revised UoM Inflation Expectations",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": "4.3%"
-  },
-  {
-   "ts": 1795194000.0,
-   "t": "Fri 20 Nov \u00b7 10:00 PM",
-   "title": "President Trump Speaks",
-   "impact": "Medium",
-   "forecast": "",
-   "previous": ""
+   "forecast": "201K",
+   "previous": "203K"
   }
  ],
- "cal_mode": "past",
+ "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795325505.626797,
+   "ts": 1795326406.49962,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "22 Nov \u00b7 10:31 AM"
+   "t": "22 Nov \u00b7 10:46 AM"
   },
   {
-   "ts": 1795325505.626797,
+   "ts": 1795326406.49962,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "22 Nov \u00b7 10:31 AM"
+   "t": "22 Nov \u00b7 10:46 AM"
   },
   {
-   "ts": 1795325505.626797,
+   "ts": 1795326406.49962,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "22 Nov \u00b7 10:31 AM"
+   "t": "22 Nov \u00b7 10:46 AM"
   },
   {
-   "ts": 1795325505.626797,
+   "ts": 1795326406.49962,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "22 Nov \u00b7 10:31 AM"
+   "t": "22 Nov \u00b7 10:46 AM"
   },
   {
-   "ts": 1795325505.626797,
+   "ts": 1795326406.49962,
    "title": "Spot gold posts worst week in 8 months, futures notch worst week since March 2020",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648",
-   "t": "22 Nov \u00b7 10:31 AM"
+   "t": "22 Nov \u00b7 10:46 AM"
   },
   {
    "ts": 1795211201.0,
@@ -545,13 +553,13 @@
  ],
  "tweets": [
   {
-   "ts": 1795300865.0,
+   "ts": 1795308171.0,
    "title": "Trump on Iran: I'm going to broker a lasting deal - Fox News interview",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSNU4yYXBqYktCVEJaWXppVktlS3ZhZnFrUnFIMTctR3oxNk0xc1dIUTVzdmJTZ25DWGd1UEp6Ymt4WDEwZzZmXw?oc=5"
   },
   {
-   "ts": 1795282041.0,
+   "ts": 1795282641.0,
    "title": "Week Ahead: Will the US Dollar's Resilience in the Face of Falling Stocks and Rates be Challenged?",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3JkUC1sVjhnVlliM1lRTjM5emZ2cm9DaWU2aHo5d0ZTalQ0eDF4WllTcXFoTVdJa1A3YUpPTWUxWDhyYnNsa3RfXzZJTTdKUEpEX18tc25LTzVZZjJkbU5NeURja1BQaHJVMjI5MGhFekp3c1IwbXZVSWg4Y1cxdTg4NV9QZi1wN0o1cVd0RdIBlAFBVV95cUxNWGJ5OUFpQUlIV2YwQVJpaC1hTTU5VUFMcFFQYnBpTmJFb2tycjFOaFNTa1ctb1ZJV2lhdmFCRm1yZ1hBZUk3MzdINXdyNXFZcHlsSzFZc3hvekZ0Nm54VDVGRkdydlQ1b1lib2g0WHVYeHJMUDd1RjBFSndCYUlrRVNNWW03X1hZaWM0QURSeGxySkxq?oc=5"
