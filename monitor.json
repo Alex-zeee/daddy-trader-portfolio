@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 07:31 PKT",
+ "updated": "23-11-2026 07:46 PKT",
  "gold": {
-  "price": 3585.51,
+  "price": 3581.96,
   "open": 3537.29,
   "high": 3631.35,
   "low": 3521.75,
-  "chg": 1.36,
+  "chg": 1.26,
   "src": "XAUUSD Spot",
   "spark": [
-   3538.16,
    3538.14,
    3538.21,
    3538.24,
@@ -55,14 +54,15 @@
    3601.38,
    3589.48,
    3583.82,
-   3585.51
+   3577.18,
+   3581.96
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.68,
-   "chg": 1.57,
+   "price": 41.52,
+   "chg": 1.18,
    "spark": [
     53.711,
     54.108,
@@ -85,12 +85,12 @@
     44.999,
     44.318,
     41.035,
-    41.68
+    41.52
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.725,
+   "price": 103.727,
    "chg": -0.08,
    "spark": [
     101.81,
@@ -114,7 +114,36 @@
     103.86,
     103.9,
     103.81,
-    103.725
+    103.727
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 83.08,
+   "chg": -1.07,
+   "spark": [
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.85,
+    86.04,
+    86.53,
+    88.74,
+    88.56,
+    85.72,
+    86.01,
+    83.26,
+    83.21,
+    83.98,
+    83.08
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.099,
-   "chg": 0.19,
+   "price": 1.0989,
+   "chg": 0.18,
    "spark": [
     1.1221,
     1.1218,
@@ -172,13 +201,13 @@
     1.0993,
     1.0972,
     1.097,
-    1.099
+    1.0989
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3115,
-   "chg": 0.22,
+   "price": 1.3114,
+   "chg": 0.21,
    "spark": [
     1.3404,
     1.3378,
@@ -201,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3115
+    1.3114
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.823,
-   "chg": -0.55,
+   "price": 158.889,
+   "chg": -0.51,
    "spark": [
     156.494,
     156.83,
@@ -230,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    158.823
+    158.889
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1701.01,
-   "chg": -1.2,
+   "price": 1701.3,
+   "chg": -1.18,
    "spark": [
     1568.63,
     1558.86,
@@ -285,13 +314,13 @@
     1721.45,
     1718.98,
     1707.71,
-    1701.01
+    1701.3
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60561.3,
-   "chg": -1.0,
+   "price": 60459.3,
+   "chg": -1.16,
    "spark": [
     56642.1,
     56221.1,
@@ -340,7 +369,7 @@
     61170.1,
     61250.0,
     60765.6,
-    60561.3
+    60459.3
    ]
   }
  ],
@@ -405,39 +434,84 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795401105.092334,
+   "ts": 1795402005.922189,
+   "title": "Oil prices fall amid equity selloff though Iran war attacks limit losses",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-5044242",
+   "t": "23 Nov \u00b7 07:46 AM"
+  },
+  {
+   "ts": 1795402005.922189,
    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 07:31 AM"
+   "t": "23 Nov \u00b7 07:46 AM"
   },
   {
-   "ts": 1795401105.092334,
+   "ts": 1795402005.922189,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 07:31 AM"
+   "t": "23 Nov \u00b7 07:46 AM"
   },
   {
-   "ts": 1795401105.092334,
+   "ts": 1795402005.922189,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 07:31 AM"
+   "t": "23 Nov \u00b7 07:46 AM"
   },
   {
-   "ts": 1795401105.092334,
+   "ts": 1795402005.922189,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 07:31 AM"
+   "t": "23 Nov \u00b7 07:46 AM"
   },
   {
-   "ts": 1795401105.092334,
-   "title": "Goldman is out with its 2027 forecast for Brent oil prices",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 07:31 AM"
+   "ts": 1795397788.0,
+   "title": "Ackman urges Fed to drop 2% inflation goal for 3%, warns 9 December hike risks recession",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/ackman-urges-fed-to-drop-2-inflation-goal-for-3-warns-9-december-hike-risks-recession/",
+   "t": "23 Nov \u00b7 06:36 AM",
+   "body": [
+    "Ackman's post adds to a growing chorus, now including the Treasury, arguing against further Fed hikes. That could feed hopes of a softer message on 9 December even if the hike itself goes ahead. Rate markets are unlikely to shift much on investor commentary alone. Any sign that Fed officials are open to slowing the pace, though, would weigh on the dollar and front-end yields and support equities and gold. His SpaceX example also points to strain in credit markets, so corporate bond spreads are worth watching as a gauge of how much tightening is already in the system.",
+    "Ackman wants the Fed to move the goalposts to 3%, but a central bank that changes its target mid-fight risks losing the credibility it needs to win it.",
+    "Pershing Square chief executive Bill Ackman has called on the Federal Reserve to abandon its 2% inflation target in favour of 3%. He warned that the central bank is about to make another mistake at its 9 December meeting and risks pushing the US and global economies into recession if it keeps raising rates.",
+    "In a post on X, Ackman argued that financial conditions have already tightened sharply. He pointed to SpaceX, which he described as an investment-grade company, raising secured debt at an interest rate of around 8.3%, compared with below 6% on the unsecured bonds it sold at the time of its listing. He added that the recent slide in the stock market has also made equity capital materially more expensive.",
+    "His broader case is that the world has changed since the 2% goal was set. Ackman cited geopolitical risk and the need for higher global military spending, deglobalisation and tariffs, and the vast investment under way in AI infrastructure and the energy needed to power it. Against that backdrop, he said, \"3% inflation is a more realistic ambition in the new world.\" He ended the post by inviting critics to tell him why he was wrong.",
+    "The intervention comes in a week of growing pushback against further tightening. On Sunday, Treasury Secretary Scott Bessent warned that the Fed risks a policy mistake if it overtightens. Goldman Sachs data also show US financial conditions recorded their sharpest weekly tightening since March 2020 after last week's equity rout. Even so, futures price a December hike as close to certain, and Goldman's own economists expect increases in December and March.",
+    "The counterargument is likely to centre on credibility. Raising the target while inflation is running above it could be seen as moving the goalposts. That risks loosening the long-term inflation expectations the Fed has spent decades anchoring, and could mean higher rates later, not lower ones. Policymakers have so far leaned the other way: Philadelphia Fed President Anna Paulson said last week that rates will need to rise again because inflation is too high.",
+    "With the 9 December decision approaching, the debate over how much tightening the economy can take, and what the Fed should be aiming for, is now playing out openly between policymakers, the Treasury and some of Wall Street's most prominent investors."
+   ]
+  },
+  {
+   "ts": 1795397292.0,
+   "title": "US stock futures jump over 2% in relief bounce, gold rallies, but Kospi slides nearly 4%",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stock-market-update/us-stock-futures-jump-over-2-in-relief-bounce-gold-rallies-but-kospi-slides-nearly-4/",
+   "t": "23 Nov \u00b7 06:28 AM",
+   "body": [
+    "The bounce looks driven by positioning and policy headlines, not by any change in the AI valuation debate. Rallies could fade quickly if cash markets in New York don't confirm the futures move. Gold rising alongside stocks suggests margin-call selling has paused, which makes the metal a useful real-time gauge of whether deleveraging pressure is returning. Higher US yields and a firmer USD/JPY show some haven demand unwinding, with the yen on the soft side in holiday-thinned trade. The Shanghai and Hong Kong open is the next test, given Beijing's new margin rules and the brokerages' talk of a bottom.",
+    "Wall Street's futures have found their feet after a brutal last week, but with Seoul still sliding and Tokyo away, this is a breather until proven otherwise.",
+    "US equity index futures bounced strongly in early Asian trade on Monday, a first sign of relief after Wall Street's worst week in years, though the rebound has yet to spread to Asian cash markets. By about 01:20 GMT (20:20 US Eastern on Sunday), S&P 500 futures were up around 2.2% near 7,090 and Nasdaq 100 futures had risen about 2.8% to around 25,830, trading close to their session highs.",
+    "The bounce follows a weekend of policy support and pushback. South Korea readied its market stabilisation fund and eased buyback rules, China cut margin requirements and trading fees, and US Treasury Secretary Scott Bessent warned the Federal Reserve against overtightening. None of that changes the underlying concerns over AI valuations, but it has given short-term sellers a reason to pause.",
+    "Asia itself remains under pressure. Japanese markets are closed for a public holiday, and mainland China and Hong Kong had yet to open at the time of writing. In Seoul, the Kospi fell nearly 4% to around 4,680, extending Friday's slide despite the government's support package. Samsung Electronics was down about 4.6% and SK Hynix around 3.6% lower, and the Kosdaq lost close to 3%.",
+    "Gold rallied alongside stocks, a sign that last week's forced selling is easing for now. Spot gold rose about 2.3% to around $3,620 an ounce and silver gained around 2.6%. The move fits the pattern seen during the rout, when gold was sold to raise cash as equities fell, not bought as a haven.",
+    "Oil edged lower, with Brent down around 0.3% near $90 a barrel and WTI around $83, as traders weighed lingering Gulf supply risks against forecasts of a surplus next year.",
+    "In currencies, the US dollar was softer against most majors. AUD/USD rose about 0.4% to around 0.6650, NZD/USD gained around 0.2%, and EUR/USD edged up to near 1.0980. The yen was the exception, with USD/JPY up about 0.2% to near 158.90 in holiday-thinned trade. The US 10-year Treasury yield rose around 4 basis points to about 4.95% as safe-haven demand eased.",
+    "For now this looks like a relief rally, not a turning point. The tone will be set by thin liquidity with Tokyo away, the open in Shanghai and Hong Kong, and whether US cash equities can hold the futures gains later on Monday. The Fed's December decision still looms over risk appetite."
+   ]
+  },
+  {
+   "ts": 1795396530.0,
+   "title": "PBOC sets USD/ CNY reference rate for today at 6.7120 (vs. estimate at 6.6775)",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7120-vs-estimate-at-6-6775/",
+   "t": "23 Nov \u00b7 06:15 AM",
+   "body": [
+    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
+   ]
   },
   {
    "ts": 1795395376.0,
@@ -468,54 +542,6 @@
     "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
     "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
     "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
-   ]
-  },
-  {
-   "ts": 1795392073.0,
-   "title": "SNB's Martin eyes second-round effects after inflation jumps to 1.5%, hike in view",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/snb-s-martin-eyes-second-round-effects-after-inflation-jumps-to-1-5-hike-in-view/",
-   "t": "23 Nov \u00b7 05:01 AM",
-   "body": [
-    "Martin's focus on second-round effects is a hawkish signal, and it supports pricing for a December SNB hike. A tightening Swiss central bank alongside a hiking Fed changes the usual rate-differential story for the franc. Combined with strong safe-haven demand during the equity rout, that could keep the franc well bid, especially against the euro. That is the very currency risk Martin flagged, so the SNB may stay willing to lean against excessive franc strength even as it tightens. UBS shares remain exposed to headlines on the capital rules and any further talk of a headquarters move.",
-    "Swiss inflation is still within target, but its speed has the SNB watching wages and prices closely, and a December hike now looks like a live option.",
-    "The Swiss National Bank is closely watching for second-round effects from rising inflation, Vice Chairman Antoine Martin said in an interview published on Sunday, adding to expectations of a rate increase in December. Speaking to Swiss newspaper Le Matin Dimanche, Martin said inflation had continued to climb since the central bank's last policy decision and that policymakers were paying particular attention to possible second-round effects.",
-    "His remarks follow a sharper-than-expected jump in Swiss annual inflation to 1.5% in October from 1% in September, which raised market expectations of a hike at the SNB's next meeting. Chairman Martin Schlegel said after the data that the jump had caught the bank by surprise. Inflation is still inside the SNB's 0% to 2% target range, but it seems to be the speed of the increase, not its level, that concerns officials. Second-round effects, where higher prices lead to bigger wage demands and wider price increases, are what can turn a temporary shock into more lasting inflation.",
-    "Martin also defended the franc's status as a safe haven. He said it \"very clearly\" still plays that role and that, in real terms, it is close to where it traded against the euro five years ago. The currency weakened against the dollar and euro earlier in the year, then strengthened sharply in October as AI-related market turbulence, higher energy prices and concerns over French public debt drove demand for safety. He described exchange-rate swings between the franc, dollar and euro as the central bank's main risk.",
-    "On banking regulation, Martin repeated the SNB's support for a government proposal that would require UBS to fully capitalise its foreign subsidiaries. The proposal is part of the regulatory overhaul that followed the collapse of Credit Suisse in 2023. UBS has called the plan excessive and a threat to its competitiveness, fuelling speculation it could move its headquarters abroad. Martin said any such move would be for the bank's management to decide, while pointing to Switzerland's political stability, predictable legal framework and skilled workforce.",
-    "The next test is the December policy decision. How the SNB weighs fast-rising inflation against a franc that is again in demand will shape how far it is prepared to go."
-   ]
-  },
-  {
-   "ts": 1795391463.0,
-   "title": "Gold sinks 9% in a week as margin calls and Fed hike bets override its haven role",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-sinks-9-in-a-week-as-margin-calls-and-fed-hike-bets-override-its-haven-role/",
-   "t": "23 Nov \u00b7 04:51 AM",
-   "body": [
-    "Gold is currently trading as a funding asset, so its near-term direction depends more on equity volatility and leveraged positioning than on traditional safe-haven demand. A December Fed hike is close to fully priced, so further downside from rates alone may be limited. The bigger risk is another wave of liquidation if the AI sell-off deepens. Spot is now far below every major bank's year-end target, so forecast cuts could keep coming, which may weigh on sentiment even if outright selling slows. A sustained halt in equity losses is likely to be the first trigger for bargain hunting.",
-    "In this sell-off, gold isn't the shelter. It's one of the first things investors sell to cover losses elsewhere.",
-    "Gold has lost its role as a refuge in the current market rout. Bank strategists point to forced selling and rising US rate expectations as the two forces behind its steepest weekly fall in eight months. Spot gold dropped about 2.7% on Friday to around $3,525 an ounce after touching a 14-month low. That left it down roughly 9% on the week and more than a third below its record above $5,500 in January.",
-    "ING commodities strategist Ewa Manthey said the macro backdrop had turned against the metal, with higher rate expectations and a firmer US dollar reducing its appeal. She added that the equity sell-off may also have pushed some investors to sell gold to raise cash. Commerzbank's Carsten Fritsch also pointed to renewed forced selling as a likely explanation for the latest leg lower.",
-    "That pattern is typical of a deleveraging phase. As losses build in leveraged equity positions, particularly in AI-linked stocks, investors sell what they can, not what they want to. Gold's deep liquidity makes it an easy source of cash. The metal kept falling last week even as Treasury yields eased and the dollar's momentum cooled, a sign that liquidation, not rates alone, was doing the damage. Silver fared worse, losing around 14% over the week.",
-    "Policy is the other weight. Futures price a December Federal Reserve rate hike as close to certain, and higher rates raise the cost of holding a metal that pays no yield. Goldman Sachs has trimmed its forecasts twice this month because of the Fed's hawkish shift. It sees gold at $4,150 by the end of 2026 and $4,650 by the end of 2027. It still expects a climb above $5,600 in 2028 as investor pressure eases and central bank buying continues.",
-    "For now, the outlook depends on the same forces driving stocks. Further equity losses could set off another round of margin-driven selling. Gold will probably need a sign that the Fed is ready to slow its tightening, or a steadier AI trade, before it can rebuild support."
-   ]
-  },
-  {
-   "ts": 1795384859.0,
-   "title": "Goldman names 3 signals that could mark a bottom as the S&P 500 sits 12% below its record",
-   "src": "investingLive",
-   "link": "https://investinglive.com/stock-market-update/goldman-names-3-signals-that-could-mark-a-bottom-as-the-s-p-500-sits-12-below-its-record/",
-   "t": "23 Nov \u00b7 03:00 AM",
-   "body": [
-    "Goldman's positioning data suggests that last week's rout cleared out mainly the fast money. Mutual funds, ETF buyers and asset managers are still heavily long, which leaves room for more forced or discretionary selling before any bottom forms. A December hike is close to fully priced and no Fed pivot is in sight, so AI earnings news is the most likely of the three catalysts to change the picture. The shift toward a growth downgrade favours defensive sectors and government bonds over cyclicals. It could also weigh on demand-sensitive commodities if it persists.",
-    "Hedge funds have already run for the exits, but Goldman's data shows the rest of the market is still long and waiting for a reason to stop selling.",
-    "Goldman Sachs has set out three developments that could help mark the bottom of the current US equity correction. It also warned that investor positioning has not fallen far enough yet to signal that the worst is over. In a note from strategist Ben Snider, the bank said any one of three things could support a bottom and recovery. The first is news that lifts confidence in the earnings path tied to AI investment and monetisation. The second is an improvement in the macro backdrop, such as a dovish signal from the Federal Reserve. The third is a significant further drop in investor positioning.",
-    "The S&P 500 is now around 12% below its 6 October record, a bigger fall than the median calendar-year peak-to-trough decline of about 10% since 1980. The Nasdaq 100 is down roughly 20%. Snider said the sell-off had widened this week from an AI unwind into a broader growth downgrade. Goldman's AI basket has dropped about 32% since early October, and the S&P 500 excluding AI is now 6% below its high. Cyclical stocks have also started to lag defensives as investors cut their growth expectations. The note's data runs to 19 November, so it predates Friday's steep losses.",
-    "On positioning, the picture is mixed. Hedge funds have sold heavily, cutting net leverage to its lowest since April 2025, and their most crowded AI-heavy longs have trailed the S&P 500 by about 14 points over six months. However, Goldman's broader US Equity Sentiment Indicator, which combines nine positioning measures across institutional, retail and foreign investors, stood at 0.7 on 20 November. That is still above average. US equity mutual funds and ETFs have taken in close to $170 billion since the start of the fourth quarter, and asset managers' equity futures positioning sits in the 82nd percentile of the past decade.",
-    "The Fed route looks the least likely in the near term. Futures price a December hike as close to certain, and Goldman's own economists expect increases in December and March. Goldman's financial conditions index also recorded its sharpest weekly tightening since March 2020.",
-    "Goldman's year-ahead outlook, published before the latest slide, targets 8,700 on the S&P 500 by the end of 2027. A newer scenario range runs from roughly 5,800 to 8,100, depending on whether confidence in earnings returns. History offers some support: after 22 corrections of 10% or more since 1980, the index gained an average of 4% over the following three months."
    ]
   }
  ],
