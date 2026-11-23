@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 06:16 PKT",
+ "updated": "23-11-2026 06:31 PKT",
  "gold": {
-  "price": 3614.41,
+  "price": 3614.0,
   "open": 3537.29,
-  "high": 3616.84,
+  "high": 3631.35,
   "low": 3521.75,
-  "chg": 2.18,
+  "chg": 2.17,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.37,
    3537.32,
    3537.26,
    3538.22,
@@ -55,14 +54,15 @@
    3575.37,
    3570.71,
    3608.97,
-   3614.41
+   3619.77,
+   3614.0
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.165,
-   "chg": 2.75,
+   "price": 42.12,
+   "chg": 2.64,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    42.165
+    42.12
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.766,
-   "chg": -0.04,
+   "price": 103.755,
+   "chg": -0.05,
    "spark": [
     101.81,
     101.96,
@@ -114,7 +114,36 @@
     103.86,
     103.9,
     103.81,
-    103.766
+    103.755
+   ]
+  },
+  {
+   "name": "Oil WTI",
+   "price": 83.22,
+   "chg": -0.9,
+   "spark": [
+    103.27,
+    101.76,
+    99.9,
+    102.78,
+    102.0,
+    104.12,
+    96.46,
+    96.09,
+    88.12,
+    90.52,
+    90.83,
+    86.85,
+    86.04,
+    86.53,
+    88.74,
+    88.56,
+    85.72,
+    86.01,
+    83.26,
+    83.21,
+    83.98,
+    83.22
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0983,
-   "chg": 0.12,
+   "price": 1.0985,
+   "chg": 0.14,
    "spark": [
     1.1221,
     1.1218,
@@ -172,12 +201,12 @@
     1.0993,
     1.0972,
     1.097,
-    1.0983
+    1.0985
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3108,
+   "price": 1.3109,
    "chg": 0.17,
    "spark": [
     1.3404,
@@ -201,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3108
+    1.3109
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.87,
-   "chg": -0.52,
+   "price": 158.9,
+   "chg": -0.51,
    "spark": [
     156.494,
     156.83,
@@ -230,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    158.87
+    158.9
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1715.37,
-   "chg": -0.36,
+   "price": 1717.5,
+   "chg": -0.24,
    "spark": [
     1617.49,
     1568.63,
@@ -285,13 +314,13 @@
     1716.05,
     1721.45,
     1718.98,
-    1715.37
+    1716.75
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60976.6,
-   "chg": -0.32,
+   "price": 61119.5,
+   "chg": -0.08,
    "spark": [
     58492.8,
     56642.1,
@@ -340,7 +369,7 @@
     61005.3,
     61170.1,
     61250.0,
-    60976.6
+    61119.5
    ]
   }
  ],
@@ -405,32 +434,79 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795396605.621805,
+   "ts": 1795397506.342268,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 06:16 AM"
+   "t": "23 Nov \u00b7 06:31 AM"
   },
   {
-   "ts": 1795396605.621805,
+   "ts": 1795397506.342268,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 06:16 AM"
+   "t": "23 Nov \u00b7 06:31 AM"
   },
   {
-   "ts": 1795396605.621805,
+   "ts": 1795397506.342268,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 06:16 AM"
+   "t": "23 Nov \u00b7 06:31 AM"
   },
   {
-   "ts": 1795396605.621805,
+   "ts": 1795397506.342268,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 06:16 AM"
+   "t": "23 Nov \u00b7 06:31 AM"
+  },
+  {
+   "ts": 1795395376.0,
+   "title": "Goldman sees European gas halving to \u20ac45 in 2027, but a cold winter could push it to \u20ac150",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/goldman-sees-european-gas-halving-to-45-in-2027-but-a-cold-winter-could-push-it-to-150/",
+   "t": "23 Nov \u00b7 05:56 AM",
+   "body": [
+    "A credible path to much cheaper gas would ease pressure on Europe's energy-intensive industries and utilities' input costs, and could weigh on gas futures further out the curve even while the winter contracts stay volatile. For oil, Goldman's surplus view gives bears a medium-term anchor. The near-term risks still point higher, though, while Gulf disruption continues, so dips may be shallow until flows clearly normalise. Lower energy import bills would remove one of the structural headwinds that has weighed on the euro. Rate differentials with a hiking Fed are likely to stay the dominant FX driver for now.",
+    "Goldman sees Europe's gas bill roughly halving next year, but the forecast has to get through a winter first.",
+    "European gas prices could roughly halve next year as Middle East energy supply adapts to disruption around the Strait of Hormuz, according to Goldman Sachs. That would offer potential relief for a region that has carried much of the cost of this year's energy shock. In research published on 18 November, the bank forecast European LNG prices averaging around \u20ac45 per megawatt hour in 2027, down from about \u20ac85 in mid-November.",
+    "The gas call comes with a broader view that the oil market has already moved into surplus. Goldman's base case has Brent averaging $88 a barrel in 2027 and easing to $78 by December, from around $93 in mid-November, as a surplus of about 2 million barrels per day builds. Gulf producers are increasingly working around Hormuz using new pipelines, ship-to-ship transfers and naval escorts, with roughly 3.8 million barrels per day of bypass pipeline capacity expected within a year. The bank's separate European equity outlook puts the TTF gas benchmark at around \u20ac31 by the end of 2027.",
+    "The bank was clear that the outlook for gas is far less certain than for oil. LNG is harder to reroute because it must be kept extremely cold and is more hazardous if attacked, so supply has adapted less effectively. Goldman said that if Gulf LNG exports run at only a quarter to 30% of pre-war levels this winter, and temperatures come in colder than normal, European prices could approach \u20ac150 in the first quarter of 2027. If Gulf exports stay low through next year, the 2027 average could be closer to \u20ac104. The base case assumes neither a lasting diplomatic breakthrough in the Iran war nor an escalation that causes long-term damage to energy infrastructure.",
+    "Goldman's research doesn't address currencies, but the implications for the euro are worth considering. Europe is a large net energy importer, so a sharp fall in gas and oil costs would improve its terms of trade and remove a significant drag on growth. That wouldn't guarantee a stronger euro, particularly with the Federal Reserve still raising rates, but it could make bearish views on the single currency harder to sustain through 2027.",
+    "The near-term test is the winter. A mild season and steady Gulf flows would support the base case, while a cold snap with tight LNG supply could push prices sharply higher before any relief arrives."
+   ]
+  },
+  {
+   "ts": 1795393444.0,
+   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6775 \u2013 Reuters estimate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6775-reuters-estimate/",
+   "t": "23 Nov \u00b7 05:24 AM",
+   "body": [
+    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
+    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
+    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
+    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
+    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
+    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
+   ]
+  },
+  {
+   "ts": 1795392073.0,
+   "title": "SNB's Martin eyes second-round effects after inflation jumps to 1.5%, hike in view",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/snb-s-martin-eyes-second-round-effects-after-inflation-jumps-to-1-5-hike-in-view/",
+   "t": "23 Nov \u00b7 05:01 AM",
+   "body": [
+    "Martin's focus on second-round effects is a hawkish signal, and it supports pricing for a December SNB hike. A tightening Swiss central bank alongside a hiking Fed changes the usual rate-differential story for the franc. Combined with strong safe-haven demand during the equity rout, that could keep the franc well bid, especially against the euro. That is the very currency risk Martin flagged, so the SNB may stay willing to lean against excessive franc strength even as it tightens. UBS shares remain exposed to headlines on the capital rules and any further talk of a headquarters move.",
+    "Swiss inflation is still within target, but its speed has the SNB watching wages and prices closely, and a December hike now looks like a live option.",
+    "The Swiss National Bank is closely watching for second-round effects from rising inflation, Vice Chairman Antoine Martin said in an interview published on Sunday, adding to expectations of a rate increase in December. Speaking to Swiss newspaper Le Matin Dimanche, Martin said inflation had continued to climb since the central bank's last policy decision and that policymakers were paying particular attention to possible second-round effects.",
+    "His remarks follow a sharper-than-expected jump in Swiss annual inflation to 1.5% in October from 1% in September, which raised market expectations of a hike at the SNB's next meeting. Chairman Martin Schlegel said after the data that the jump had caught the bank by surprise. Inflation is still inside the SNB's 0% to 2% target range, but it seems to be the speed of the increase, not its level, that concerns officials. Second-round effects, where higher prices lead to bigger wage demands and wider price increases, are what can turn a temporary shock into more lasting inflation.",
+    "Martin also defended the franc's status as a safe haven. He said it \"very clearly\" still plays that role and that, in real terms, it is close to where it traded against the euro five years ago. The currency weakened against the dollar and euro earlier in the year, then strengthened sharply in October as AI-related market turbulence, higher energy prices and concerns over French public debt drove demand for safety. He described exchange-rate swings between the franc, dollar and euro as the central bank's main risk.",
+    "On banking regulation, Martin repeated the SNB's support for a government proposal that would require UBS to fully capitalise its foreign subsidiaries. The proposal is part of the regulatory overhaul that followed the collapse of Credit Suisse in 2023. UBS has called the plan excessive and a threat to its competitiveness, fuelling speculation it could move its headquarters abroad. Martin said any such move would be for the bank's management to decide, while pointing to Switzerland's political stability, predictable legal framework and skilled workforce.",
+    "The next test is the December policy decision. How the SNB weighs fast-rising inflation against a franc that is again in demand will shape how far it is prepared to go."
+   ]
   },
   {
    "ts": 1795391463.0,
@@ -479,59 +555,6 @@
     "Bessent's comments reflect the Treasury's view, not that of the officials who set rates. The Fed raised its target range by a quarter point in September to 3.75% to 4.00% and kept it there last month. Some governors are now leaning towards further tightening. Bessent's case is that oil-led price pressure will fade on its own. Fed officials who disagree are more concerned about how long the energy shock keeps inflation high.",
     "The Fed's next decision is 17 days away. Before then, markets will look at incoming inflation data, further Fed commentary and how deep the equity correction goes to judge whether a December hike stays on the table, and how large it might be."
    ]
-  },
-  {
-   "ts": 1795211201.0,
-   "title": "AUDUSD is the biggest mover of the major currencies this week.  The price falls -2.30% for the week.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/audusd-is-the-biggest-mover-of-the-major-currencies-this-week-the-price-falls-2-30-for-the-week/",
-   "t": "21 Nov \u00b7 02:46 AM",
-   "body": [
-    "The AUDUSD is the weakest of the major currencies vs the greenback. It fell -2.3%. The price has now fallen for 10 consecutive days. That move has taken the price from a high on November 10 at 0.69296 to the low today at 0.6609 or -320 pips.",
-    "The 320-pip slide in AUDUSD started with a repricing of Fed rate expectations and picked up steam as Australia\u2019s jobs market weakened and the global equity selloff deepened. The Aussie\u2019s 2.30% decline this week, the largest of the seven majors you tracked against the USD, also reflected weakness against other currencies, including the yen and euro.",
-    "On the daily chart, AUDUSD broke below 0.6751 earlier this week, taking out the 38.2% retracement of the rally from the 2025 low. Sellers kept the pressure on, pushing through swing levels at 0.6706 and 0.66588 in succession.",
-    "The next downside target is 0.65905, the 50% retracement of that same rally. On a rebound, 0.66588 is the first barometer for buyers. Getting back above that level would take some of the pressure off.",
-    "Drilling down to the hourly chart, the AUDUSD selloff started on November 2 with a break below the 100- and 200-hour moving averages. The pair corrected higher on November 4, but by November 5 it was back below both averages. The price has stayed below the lower 100-hour MA ever since.",
-    "That 100-hour MA now comes in at 0.67017 and is the first barometer for buyers. They need to get and stay above it to begin to wrestle back some control. If they can do that, the next target is 0.6730, the 38.2% retracement of the move down from the November 9 high. Above that, the 200-hour MA at 0.67586 is the next hurdle.",
-    "Until buyers can get and stay above 0.67017, the sellers remain in control on the hourly chart"
-   ]
-  },
-  {
-   "ts": 1795208828.0,
-   "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-   "t": "21 Nov \u00b7 02:07 AM",
-   "body": [
-    "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.",
-    "\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and how the economy could turn, and what that means for interest rates and inflation, isn't yet clear.",
-    "The meeting of Warsh's AI task force saw the new Fed chairman publicly asking the questions Americans will ultimately expect him to answer. He hinted at a few of his private views on whether white-collar workers could soon face massive job losses, but he largely left the speculation to an array of experts he has assembled to advise the Fed.",
-    "With the technology racing ahead, Warsh won't be able to put off giving his own answers much longer. AI lab Anthropic plans to price the shares for its initial public offering on Wednesday and could raise as much as $64 billion at a $1.4 trillion valuation. Vast spending from AI firms is prompting the Fed to contemplate raising interest rates in December to slow down the rate of price increases as the tech sector heats up the economy.",
-    "Meanwhile Americans are souring on some aspects of the technology. The Nov. 3 midterms saw voters enact an array of state-level measures to slow down construction of the data centers that are essential to powering AI.",
-    "Warsh moderated three out of four sessions at Monday's event and was involved in selecting the speakers. Among them was one of the few prominent Democrats who was willing to speak out against that anti-data center trend.",
-    "It is \"a very troubling sign\" that so many anti-data center measures passed in the midterms, Gina Raimondo said. She is a former secretary of Commerce under President Joe Biden and a former governor of Rhode Island.",
-    "Stopping AI \"would be very bad for America\" and for the people who voted for the measures, Raimondo said.",
-    "Warsh didn't say whether he shares that view, and how it would translate into monetary policy isn't exactly clear.",
-    "The event was an unusual one for the Fed. The central bank employs a small army of Ph.D. economists who can rapidly weigh in on anything affecting the U.S. and global economies. But in keeping with his long-standing critiques of the Fed as insular and outdated, Warsh has chosen to draw expertise from outside the institution to help it figure out how to think about what AI will do to productivity and jobs.",
-    "Warsh has assembled a task force on that issue, alongside four others devoted to aspects of Fed policymaking.",
-    "The public heard Monday from one of the three official members of the task force: venture capitalist Marc Andreessen. Warsh went to Stanford University with Andreessen's wife, and the two have been longtime friends. Another task force member, Stanford economist Chad Jones, is on leave and working at Anthropic and couldn't speak during the company's blackout period ahead of the IPO. The third, Xbox CEO Asha Sharma, didn't attend the event.",
-    "Andreessen is hugely optimistic about the promise of AI as a technology, but believes the government won't let Americans experience its full effects. Heavy regulation in areas such as healthcare and education mean technology can't replace people's jobs in those sectors, he said.",
-    "\"To the extent our economy is a free market economy, then maybe you could see the, let's say, extremely rapid displacement scenarios people are talking about,\" Andreessen said. \"But we've mostly outlawed the kind of job transition that \u2026 both the utopians the doomers talk about.\""
-   ]
-  },
-  {
-   "ts": 1795207330.0,
-   "title": "Trump weighs renewed strikes on Iran as military warns of strain. FT",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/trump-weighs-renewed-strikes-on-iran-as-military-warns-of-strain-ft/",
-   "t": "21 Nov \u00b7 01:42 AM",
-   "body": [
-    "President Donald Trump is considering new strikes on Iran, the Financial Times reports, as hawkish officials in Washington and Israel urge him to resume military action.",
-    "U.S. military planners are warning that American forces risk becoming overextended if the standoff drags into the new year. The warning adds pressure on Trump as he weighs whether to restart strikes and how long U.S. forces can sustain their current posture.",
-    "For markets, crude oil is the first place to watch. The report puts escalation risk back in focus, and the next question for traders is whether that risk starts to translate into a bigger premium for potential supply disruptions.",
-    "...and there are strains on the world because back on February 28, a war was started with what was thought would be a quick end, but which has proved not be quick at all and the implications are contributing to strains everywhere.",
-    "The good news is it took 15 hours to get back to Washington from China, and the President saw his friends."
-   ]
   }
  ],
  "tweets": [
@@ -542,22 +565,10 @@
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjNHc2VES0NtRTNEeU9fUzNMbUQyaTROOXFYTWM5elJoRjAxQUhyaVl1MEdLNS15Uks4NERDcHNwekpReEltbnhPcmpkNTJBeTdJQ29iYXRsRUJqdHJscHA4ZWhIWUpvQlhRRWVteEtscks0bE8yY1dTdFlYN3BtUmRZWTBrQzgyZ1JCY0xn0gGTAUFVX3lxTE1CT3JZYUltZTNZODlLR0g3OTNsWVh6VVJtV1lPQlg3aGMwM1A5MHVOUk1aYk8yVXExZzNqSHlObVl2ZDNMSkd6a2FNTWZvTmp0N01uVXVMclVQbElDWUVabExIRlpJYlJIZ2RYTGJ3ZkhOWnFVTWNFV2Q1Z2lDWGpfM0NWUE1ZQjFLWTF1eXoyZ2Nkbw?oc=5"
   },
   {
-   "ts": 1795353952.0,
-   "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVnBBdGJpX2xZVDN4VTNObER5cjNOcFhVOHF0NVZHbHNfc1c1Z3R0VnFtaU5rbVQ1TUhHVkdFNjA5ZmFpcWpLRnlsUUVoV0paM0JDaWN3STFUYm1aRFFoM0M3cnh6b01vNGR5Ym9BMXVKYmNMallReG9SQ0dTUG9yQlNOSmE4dnVHdlU4WkVOOEZ5XzBKa21WUtIBngFBVV95cUxPaFNManZGTHU0cjExQkgyQkRJaTVaUndKVFFGalJuU2otWkNHY29xcHZkRzhoaHFlX0dUdWdzN3FKa0RqWXdVNmc4dU1rQTF5aFpaRjBzc0pmT3A3T1RlM3dKelIwaVJNdWZ4Y0VHcDJReXhUMkZTR0xlenFfRnc4T0d5Snlka3V5bXFQUDEwN0JFNTBVRU1JdHByeHlNdw?oc=5"
-  },
-  {
    "ts": 1795344382.0,
    "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpGN3Q1djlGbU9lMXNhdkJMTEJUUVJxN2Y1bXRBZzdtdUhKLTZQY1NtVkxTS2lpWjZvVHpoTWJwbVpzUzJ1OXlvSXJVUDZTV3BtaTVUcDRVQ1pIS2NZa3RzVlRwdWZ4MnhzMzcxSUhSMnZrTnEyaS1LSGx6RU43alpWelE4REdILXdWS2QwLXVweGI4bndvaWl5bEw2QdIBowFBVV95cUxNSHhZN19NSl9YZFVoNWQtbVhEVEY1UVhFOTk5WXhNNnU1T1dyeTRqamw4cGNfWU16XzFjdjVKNHlucWpBaW00Z204Vnp2UW5odXhYSFVTd0RUdDkxQnJwQ2xWZVlYcjdyLUtMMWtVeUJIWVNteHRadHFUU2o1UmljM1BwdlVzdDh2ZXdQbi1aVVFUNnMzYVdBVzZiU1lHeWVhdEFN?oc=5"
-  },
-  {
-   "ts": 1795320780.0,
-   "title": "UK HMRC Payrolls Change",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SDl5QWZ2SWJQZl9BdmNCdTBPSnJOSFVzTUhKaTFWQU9GUlV3cEFvaGFLeUNReExpUS1BVXhLaFMyUVZDd0hLRm82WjdadFlLQktpNWRlUmRCSU1WWEEtY1pYYVc4TXBfV3BtQlU3UWp2Z1U?oc=5"
   },
   {
    "ts": 1795272716.0,
@@ -570,6 +581,18 @@
    "title": "Trump: Interest Rates Too High Because We Have Political Fed",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFpaUkVTRl81OVlTZ1FtYmgxUVZ6UzRkRE9OeDk3WUZxaU1mN082TFZ1Q0w1UGFIR2tvNmJjeUMwZnFWRS1lZE1hYTdBSmNPNWx6SmhmckstTXVMNUFKTkQyeVZ5UmRkUmdrUXZBeERkREtrQVFhZGdGbGZtZDZKYndaMDE1LTFnSFU1Mm54ZV_SAZYBQVVfeXFMTm5GY0pVSkxkUHlzcFhVa2E1T1FvaVBMRjc0V05IeThuVV9yTU5hbGR2VXZLRmRFNmNLM21ydFowSThWbmZkdk5IR2thV0V2bzIzNkg0c20tNmQxZ2FVSlV0ZmZXN2FTSDFHalRZbW1xa29JRk5YRDNpbVR0ajBNSThNbWRUWDVuY2lSQ1hSd0hJMlhKX0dB?oc=5"
+  },
+  {
+   "ts": 1795197064.0,
+   "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
+  },
+  {
+   "ts": 1795192040.0,
+   "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXplN2Y4eDF2WVZiZjd0T2NuekV3UjJoSWNtNkYtZk9BN2tWY0t6QTJZUXRxUndtSjlYMTB5TTFsQ1pJV25ESzBFR0Zpc1hYaHk1cHRaaTFkTExERzR6b2ZqWGVVMl9EaW9EaWcwM3VNTVZIQWpOc0N1NkpPdU5reUtLSENKd9IBiwFBVV95cUxQQ0xUU2JPcW5ZV0tlaUozTnpTYmZyUndocnFid0hRUHFxWFllQlNXNndaV1QtbFBVdVgwYkVmcWMzREg3N0gtV09iYTNsaWdDdDhZQXkwXzVQQ242UFdDTFNnVWNaRjhJY3JDMzRndmJzdmVGNXZLTGlUaUJFbVJ1UVZWbVEtQmJSQ1ZJ?oc=5"
   }
  ],
  "sentiment": {
