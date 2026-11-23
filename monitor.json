@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 10:04 PKT",
+ "updated": "23-11-2026 10:16 PKT",
  "gold": {
-  "price": 3610.46,
+  "price": 3609.67,
   "open": 3537.29,
   "high": 3631.35,
   "low": 3521.75,
-  "chg": 2.07,
+  "chg": 2.05,
   "src": "XAUUSD Spot",
   "spark": [
-   3538.41,
    3538.43,
    3538.38,
    3538.32,
@@ -55,14 +54,15 @@
    3608.93,
    3611.53,
    3608.52,
-   3610.46
+   3608.76,
+   3609.67
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.035,
-   "chg": -7.41,
+   "price": 42.025,
+   "chg": 2.41,
    "spark": [
     53.711,
     54.108,
@@ -84,13 +84,14 @@
     47.288,
     44.999,
     44.318,
-    41.035
+    41.035,
+    42.025
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.81,
-   "chg": -0.09,
+   "price": 103.762,
+   "chg": -0.05,
    "spark": [
     101.81,
     101.96,
@@ -112,13 +113,14 @@
     103.49,
     103.86,
     103.9,
-    103.81
+    103.81,
+    103.762
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.98,
-   "chg": 0.93,
+   "price": 83.55,
+   "chg": -0.51,
    "spark": [
     103.27,
     101.76,
@@ -140,13 +142,43 @@
     86.01,
     83.26,
     83.21,
-    83.98
+    83.98,
+    83.55
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.912,
+   "chg": -2.77,
+   "spark": [
+    4.953,
+    4.988,
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998,
+    5.103,
+    5.154,
+    5.121,
+    5.103,
+    5.066,
+    5.052,
+    4.912
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0984,
-   "chg": 0.13,
+   "price": 1.0988,
+   "chg": 0.16,
    "spark": [
     1.1221,
     1.1218,
@@ -169,13 +201,13 @@
     1.0993,
     1.0972,
     1.097,
-    1.0984
+    1.0988
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3108,
-   "chg": 0.17,
+   "price": 1.3113,
+   "chg": 0.2,
    "spark": [
     1.3404,
     1.3378,
@@ -198,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3108
+    1.3113
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.006,
-   "chg": -0.44,
+   "price": 158.955,
+   "chg": -0.47,
    "spark": [
     156.494,
     156.83,
@@ -227,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    159.006
+    158.955
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1726.86,
-   "chg": 0.3,
+   "price": 1725.54,
+   "chg": 0.23,
    "spark": [
     1637.61,
     1627.57,
@@ -282,13 +314,13 @@
     1703.34,
     1730.33,
     1724.47,
-    1726.86
+    1726.02
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61214.9,
-   "chg": 0.07,
+   "price": 61195.3,
+   "chg": 0.04,
    "spark": [
     57976.2,
     57879.3,
@@ -337,7 +369,7 @@
     60517.8,
     61186.8,
     61150.5,
-    61214.9
+    61195.3
    ]
   }
  ],
@@ -402,32 +434,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795410274.429648,
+   "ts": 1795411009.329629,
    "title": "Gold rebounds from 14-mth low as tech selloff lifts safe-haven demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "23 Nov \u00b7 10:04 AM"
+   "t": "23 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795410274.429648,
-   "title": "Oil prices fall amid equity selloff though Iran war attacks limit losses",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-5044242",
-   "t": "23 Nov \u00b7 10:04 AM"
-  },
-  {
-   "ts": 1795410274.429648,
+   "ts": 1795411009.329629,
    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 10:04 AM"
+   "t": "23 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795410274.429648,
+   "ts": 1795411009.329629,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 10:04 AM"
+   "t": "23 Nov \u00b7 10:16 AM"
   },
   {
    "ts": 1795399499.0,
@@ -521,6 +546,22 @@
     "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
     "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
    ]
+  },
+  {
+   "ts": 1795392073.0,
+   "title": "SNB's Martin eyes second-round effects after inflation jumps to 1.5%, hike in view",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/snb-s-martin-eyes-second-round-effects-after-inflation-jumps-to-1-5-hike-in-view/",
+   "t": "23 Nov \u00b7 05:01 AM",
+   "body": [
+    "Martin's focus on second-round effects is a hawkish signal, and it supports pricing for a December SNB hike. A tightening Swiss central bank alongside a hiking Fed changes the usual rate-differential story for the franc. Combined with strong safe-haven demand during the equity rout, that could keep the franc well bid, especially against the euro. That is the very currency risk Martin flagged, so the SNB may stay willing to lean against excessive franc strength even as it tightens. UBS shares remain exposed to headlines on the capital rules and any further talk of a headquarters move.",
+    "Swiss inflation is still within target, but its speed has the SNB watching wages and prices closely, and a December hike now looks like a live option.",
+    "The Swiss National Bank is closely watching for second-round effects from rising inflation, Vice Chairman Antoine Martin said in an interview published on Sunday, adding to expectations of a rate increase in December. Speaking to Swiss newspaper Le Matin Dimanche, Martin said inflation had continued to climb since the central bank's last policy decision and that policymakers were paying particular attention to possible second-round effects.",
+    "His remarks follow a sharper-than-expected jump in Swiss annual inflation to 1.5% in October from 1% in September, which raised market expectations of a hike at the SNB's next meeting. Chairman Martin Schlegel said after the data that the jump had caught the bank by surprise. Inflation is still inside the SNB's 0% to 2% target range, but it seems to be the speed of the increase, not its level, that concerns officials. Second-round effects, where higher prices lead to bigger wage demands and wider price increases, are what can turn a temporary shock into more lasting inflation.",
+    "Martin also defended the franc's status as a safe haven. He said it \"very clearly\" still plays that role and that, in real terms, it is close to where it traded against the euro five years ago. The currency weakened against the dollar and euro earlier in the year, then strengthened sharply in October as AI-related market turbulence, higher energy prices and concerns over French public debt drove demand for safety. He described exchange-rate swings between the franc, dollar and euro as the central bank's main risk.",
+    "On banking regulation, Martin repeated the SNB's support for a government proposal that would require UBS to fully capitalise its foreign subsidiaries. The proposal is part of the regulatory overhaul that followed the collapse of Credit Suisse in 2023. UBS has called the plan excessive and a threat to its competitiveness, fuelling speculation it could move its headquarters abroad. Martin said any such move would be for the bank's management to decide, while pointing to Switzerland's political stability, predictable legal framework and skilled workforce.",
+    "The next test is the December policy decision. How the SNB weighs fast-rising inflation against a franc that is again in demand will shape how far it is prepared to go."
+   ]
   }
  ],
  "tweets": [
@@ -567,7 +608,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
