@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 17:01 PKT",
+ "updated": "23-11-2026 17:16 PKT",
  "gold": {
-  "price": 3619.44,
+  "price": 3614.68,
   "open": 3537.29,
   "high": 3636.76,
   "low": 3521.75,
-  "chg": 2.32,
+  "chg": 2.19,
   "src": "XAUUSD Spot",
   "spark": [
-   3573.75,
    3575.37,
    3570.71,
    3608.97,
@@ -55,14 +54,44 @@
    3619.27,
    3622.52,
    3620.64,
-   3619.44
+   3615.24,
+   3614.68
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 42.33,
+   "chg": 3.16,
+   "spark": [
+    53.711,
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    44.318,
+    41.035,
+    42.33
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.937,
-   "chg": 0.12,
+   "price": 103.921,
+   "chg": 0.11,
    "spark": [
     101.81,
     101.96,
@@ -85,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    103.937
+    103.921
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.16,
-   "chg": -2.17,
+   "price": 82.41,
+   "chg": -1.87,
    "spark": [
     103.27,
     101.76,
@@ -114,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    82.16
+    82.41
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0964,
-   "chg": -0.05,
+   "price": 1.0966,
+   "chg": -0.03,
    "spark": [
     1.1221,
     1.1218,
@@ -172,13 +201,13 @@
     1.0993,
     1.0972,
     1.097,
-    1.0964
+    1.0966
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.31,
-   "chg": 0.1,
+   "price": 1.3096,
+   "chg": 0.08,
    "spark": [
     1.3404,
     1.3378,
@@ -201,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.31
+    1.3096
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.11,
-   "chg": -0.37,
+   "price": 159.006,
+   "chg": -0.44,
    "spark": [
     156.494,
     156.83,
@@ -230,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    159.11
+    159.006
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1721.53,
-   "chg": -0.0,
+   "price": 1720.14,
+   "chg": -0.09,
    "spark": [
     1699.19,
     1688.24,
@@ -285,13 +314,13 @@
     1721.14,
     1723.05,
     1723.72,
-    1721.53
+    1720.14
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61279.7,
-   "chg": 0.18,
+   "price": 61250.4,
+   "chg": 0.13,
    "spark": [
     60462.3,
     60237.0,
@@ -340,7 +369,7 @@
     61369.2,
     61352.4,
     61356.6,
-    61279.7
+    61250.4
    ]
   }
  ],
@@ -405,25 +434,56 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795435303.100813,
+   "ts": 1795436216.928636,
+   "title": "Goldman sees gold rebound after deleveraging-driven selloff",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-sees-gold-rebound-after-deleveragingdriven-selloff-93CH-5045134",
+   "t": "23 Nov \u00b7 05:16 PM"
+  },
+  {
+   "ts": 1795436216.928636,
+   "title": "Gold\u2019s $3,500 test: Who\u2019s behind the selling spree?",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/golds-3500-test-whos-behind-the-selling-spree-5045117",
+   "t": "23 Nov \u00b7 05:16 PM"
+  },
+  {
+   "ts": 1795436216.928636,
+   "title": "Gold rebounds amid dip-buying, pared back Fed rate expectations",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
+   "t": "23 Nov \u00b7 05:16 PM"
+  },
+  {
+   "ts": 1795436216.928636,
    "title": "Oil falls amid recovering supplies, Iran re-escalation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 05:01 PM"
+   "t": "23 Nov \u00b7 05:16 PM"
   },
   {
-   "ts": 1795435303.100813,
+   "ts": 1795436216.928636,
    "title": "Iran says it will use all its tools to confront US naval blockade",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-says-it-will-use-all-its-tools-to-confront-us-naval-blockade-5044777",
-   "t": "23 Nov \u00b7 05:01 PM"
+   "t": "23 Nov \u00b7 05:16 PM"
   },
   {
-   "ts": 1795435303.100813,
-   "title": "Gold rebounds from 14-mth low as tech selloff lifts safe-haven demand",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "23 Nov \u00b7 05:01 PM"
+   "ts": 1795433901.0,
+   "title": "Crude oil remains under pressure as demand concerns continue to weigh despite high US-Iran tensions",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/crude-oil-remains-under-pressure-as-demand-concerns-continue-to-weigh-despite-high-us-iran-tensions/",
+   "t": "23 Nov \u00b7 04:38 PM",
+   "body": [
+    "Crude oil has been under selling pressure despite no changes on the geopolitical front. Growth concerns and global stock market rout have been the likely culprit for the weakness as lower future demand expectations naturally push prices lower despite continued supply constraints.",
+    "On the Middle East front, Trump said that he favours resuming military action against Iran after the new year if no agreement is reached, while indicating that indirect negotiations remain ongoing but have made no concrete progress.",
+    "Meanwhile, Israeli sources reported that Netanyahu is considering striking Iran without US approval, although military intelligence warned that such a move could trigger a multi-front conflict. Israel is also reportedly preparing for a scenario in which the US launches initial strikes without Israeli involvement, with Israeli officials increasingly convinced that a US attack has already been decided and that only the timing remains uncertain.",
+    "Overall, there\u2019s been no de-escalation nor improvement in the US-Iran situation as the risk of another direct military confrontation remains high. Oil prices might remain under pressure but we will likely need a bigger selloff in the stock market, an even more hawkish Fed or weak economic data to keep the bearish momentum going.",
+    "On the daily chart, we can see that crude oil (CFD contract) is approaching the key 80.00 handle. If the price gets there, we can expect the buyers to step in, with a defined risk below the level, to position for a rally into the 110.00 level. The sellers, on the other hand, will look for a break to increase the bearish bets into the 68.00 support next.",
+    "On the 4 hour chart, we have a downward trendline defining the bearish structure. If we get a pullback, we can expect the sellers to lean on the trendline, with a defined risk above it, to position for a drop into new lows. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the 110.00 level next, with the 92.50 level as the first target.",
+    "On the 1 hour chart, we have a minor resistance zone around the 84.00 handle. The sellers will likely continue to step in around the resistance, with a defined risk above it, to keep pushing into new lows. The buyers, on the other hand, will look for a break higher to extend the pullback into the trendline next. The red lines define the average daily range for today.",
+    "Today we have the US Flash PMIs. Tomorrow, we get the US Consumer Confidence report. On Wednesday, we have the US Core PCE price index and the latest US Jobless Claims figures."
+   ]
   },
   {
    "ts": 1795427120.0,
@@ -494,47 +554,6 @@
     "In currencies, the US dollar was softer against most majors. AUD/USD rose about 0.4% to around 0.6650, NZD/USD gained around 0.2%, and EUR/USD edged up to near 1.0980. The yen was the exception, with USD/JPY up about 0.2% to near 158.90 in holiday-thinned trade. The US 10-year Treasury yield rose around 4 basis points to about 4.95% as safe-haven demand eased.",
     "For now this looks like a relief rally, not a turning point. The tone will be set by thin liquidity with Tokyo away, the open in Shanghai and Hong Kong, and whether US cash equities can hold the futures gains later on Monday. The Fed's December decision still looms over risk appetite."
    ]
-  },
-  {
-   "ts": 1795396530.0,
-   "title": "PBOC sets USD/ CNY reference rate for today at 6.7120 (vs. estimate at 6.6775)",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7120-vs-estimate-at-6-6775/",
-   "t": "23 Nov \u00b7 06:15 AM",
-   "body": [
-    "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
-   ]
-  },
-  {
-   "ts": 1795395376.0,
-   "title": "Goldman sees European gas halving to \u20ac45 in 2027, but a cold winter could push it to \u20ac150",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/goldman-sees-european-gas-halving-to-45-in-2027-but-a-cold-winter-could-push-it-to-150/",
-   "t": "23 Nov \u00b7 05:56 AM",
-   "body": [
-    "A credible path to much cheaper gas would ease pressure on Europe's energy-intensive industries and utilities' input costs, and could weigh on gas futures further out the curve even while the winter contracts stay volatile. For oil, Goldman's surplus view gives bears a medium-term anchor. The near-term risks still point higher, though, while Gulf disruption continues, so dips may be shallow until flows clearly normalise. Lower energy import bills would remove one of the structural headwinds that has weighed on the euro. Rate differentials with a hiking Fed are likely to stay the dominant FX driver for now.",
-    "Goldman sees Europe's gas bill roughly halving next year, but the forecast has to get through a winter first.",
-    "European gas prices could roughly halve next year as Middle East energy supply adapts to disruption around the Strait of Hormuz, according to Goldman Sachs. That would offer potential relief for a region that has carried much of the cost of this year's energy shock. In research published on 18 November, the bank forecast European LNG prices averaging around \u20ac45 per megawatt hour in 2027, down from about \u20ac85 in mid-November.",
-    "The gas call comes with a broader view that the oil market has already moved into surplus. Goldman's base case has Brent averaging $88 a barrel in 2027 and easing to $78 by December, from around $93 in mid-November, as a surplus of about 2 million barrels per day builds. Gulf producers are increasingly working around Hormuz using new pipelines, ship-to-ship transfers and naval escorts, with roughly 3.8 million barrels per day of bypass pipeline capacity expected within a year. The bank's separate European equity outlook puts the TTF gas benchmark at around \u20ac31 by the end of 2027.",
-    "The bank was clear that the outlook for gas is far less certain than for oil. LNG is harder to reroute because it must be kept extremely cold and is more hazardous if attacked, so supply has adapted less effectively. Goldman said that if Gulf LNG exports run at only a quarter to 30% of pre-war levels this winter, and temperatures come in colder than normal, European prices could approach \u20ac150 in the first quarter of 2027. If Gulf exports stay low through next year, the 2027 average could be closer to \u20ac104. The base case assumes neither a lasting diplomatic breakthrough in the Iran war nor an escalation that causes long-term damage to energy infrastructure.",
-    "Goldman's research doesn't address currencies, but the implications for the euro are worth considering. Europe is a large net energy importer, so a sharp fall in gas and oil costs would improve its terms of trade and remove a significant drag on growth. That wouldn't guarantee a stronger euro, particularly with the Federal Reserve still raising rates, but it could make bearish views on the single currency harder to sustain through 2027.",
-    "The near-term test is the winter. A mild season and steady Gulf flows would support the base case, while a cold snap with tight LNG supply could push prices sharply higher before any relief arrives."
-   ]
-  },
-  {
-   "ts": 1795393444.0,
-   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6775 \u2013 Reuters estimate",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6775-reuters-estimate/",
-   "t": "23 Nov \u00b7 05:24 AM",
-   "body": [
-    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
-    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
-    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
-    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
-    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
-    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
-   ]
   }
  ],
  "tweets": [
@@ -581,9 +600,8 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
