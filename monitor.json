@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 06:46 PKT",
+ "updated": "23-11-2026 07:01 PKT",
  "gold": {
-  "price": 3610.54,
+  "price": 3602.09,
   "open": 3537.29,
   "high": 3631.35,
   "low": 3521.75,
-  "chg": 2.07,
+  "chg": 1.83,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.26,
    3538.22,
    3538.23,
    3538.16,
@@ -55,14 +54,15 @@
    3608.97,
    3619.77,
    3616.0,
-   3610.54
+   3601.38,
+   3602.09
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.115,
-   "chg": 2.63,
+   "price": 42.075,
+   "chg": 2.53,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    42.115
+    42.075
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.763,
-   "chg": -0.05,
+   "price": 103.752,
+   "chg": -0.06,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    103.763
+    103.752
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.17,
-   "chg": -0.96,
+   "price": 83.28,
+   "chg": -0.83,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    83.17
+    83.28
    ]
   },
   {
@@ -176,38 +176,9 @@
    ]
   },
   {
-   "name": "EUR/USD",
-   "price": 1.0985,
-   "chg": 0.14,
-   "spark": [
-    1.1221,
-    1.1218,
-    1.1174,
-    1.113,
-    1.1156,
-    1.1183,
-    1.1157,
-    1.1192,
-    1.1207,
-    1.1235,
-    1.1228,
-    1.1147,
-    1.1222,
-    1.1169,
-    1.1095,
-    1.105,
-    1.1025,
-    1.0998,
-    1.0993,
-    1.0972,
-    1.097,
-    1.0985
-   ]
-  },
-  {
    "name": "GBP/USD",
-   "price": 1.311,
-   "chg": 0.18,
+   "price": 1.3112,
+   "chg": 0.2,
    "spark": [
     1.3404,
     1.3378,
@@ -230,12 +201,12 @@
     1.3205,
     1.3147,
     1.3086,
-    1.311
+    1.3112
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.945,
+   "price": 158.938,
    "chg": -0.48,
    "spark": [
     156.494,
@@ -259,15 +230,14 @@
     159.504,
     159.381,
     159.707,
-    158.945
+    158.938
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1710.61,
-   "chg": -0.64,
+   "price": 1708.19,
+   "chg": -0.78,
    "spark": [
-    1617.49,
     1568.63,
     1558.86,
     1559.06,
@@ -314,15 +284,15 @@
     1716.05,
     1721.45,
     1718.98,
-    1710.61
+    1707.71,
+    1708.52
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60872.0,
-   "chg": -0.49,
+   "price": 60779.2,
+   "chg": -0.64,
    "spark": [
-    58492.8,
     56642.1,
     56221.1,
     55700.3,
@@ -369,7 +339,8 @@
     61005.3,
     61170.1,
     61250.0,
-    60872.0
+    60765.6,
+    60779.2
    ]
   }
  ],
@@ -434,39 +405,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795398407.255981,
+   "ts": 1795399310.437242,
    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 06:46 AM"
+   "t": "23 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795398407.255981,
+   "ts": 1795399310.437242,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 06:46 AM"
+   "t": "23 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795398407.255981,
+   "ts": 1795399310.437242,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 06:46 AM"
+   "t": "23 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795398407.255981,
+   "ts": 1795399310.437242,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 06:46 AM"
+   "t": "23 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795398407.255981,
+   "ts": 1795399310.437242,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 06:46 AM"
+   "t": "23 Nov \u00b7 07:01 AM"
   },
   {
    "ts": 1795395376.0,
@@ -562,12 +533,6 @@
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpGN3Q1djlGbU9lMXNhdkJMTEJUUVJxN2Y1bXRBZzdtdUhKLTZQY1NtVkxTS2lpWjZvVHpoTWJwbVpzUzJ1OXlvSXJVUDZTV3BtaTVUcDRVQ1pIS2NZa3RzVlRwdWZ4MnhzMzcxSUhSMnZrTnEyaS1LSGx6RU43alpWelE4REdILXdWS2QwLXVweGI4bndvaWl5bEw2QdIBowFBVV95cUxNSHhZN19NSl9YZFVoNWQtbVhEVEY1UVhFOTk5WXhNNnU1T1dyeTRqamw4cGNfWU16XzFjdjVKNHlucWpBaW00Z204Vnp2UW5odXhYSFVTd0RUdDkxQnJwQ2xWZVlYcjdyLUtMMWtVeUJIWVNteHRadHFUU2o1UmljM1BwdlVzdDh2ZXdQbi1aVVFUNnMzYVdBVzZiU1lHeWVhdEFN?oc=5"
   },
   {
-   "ts": 1795320780.0,
-   "title": "UK HMRC Payrolls Change",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SDl5QWZ2SWJQZl9BdmNCdTBPSnJOSFVzTUhKaTFWQU9GUlV3cEFvaGFLeUNReExpUS1BVXhLaFMyUVZDd0hLRm82WjdadFlLQktpNWRlUmRCSU1WWEEtY1pYYVc4TXBfV3BtQlU3UWp2Z1U?oc=5"
-  },
-  {
    "ts": 1795272716.0,
    "title": "Tehran still hopes diplomacy can end the war with the US, Iran's Foreign Minister Araqchi tells an Iranian newspaper",
    "src": "ForexFactory",
@@ -584,6 +549,12 @@
    "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
+  },
+  {
+   "ts": 1795192040.0,
+   "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXplN2Y4eDF2WVZiZjd0T2NuekV3UjJoSWNtNkYtZk9BN2tWY0t6QTJZUXRxUndtSjlYMTB5TTFsQ1pJV25ESzBFR0Zpc1hYaHk1cHRaaTFkTExERzR6b2ZqWGVVMl9EaW9EaWcwM3VNTVZIQWpOc0N1NkpPdU5reUtLSENKd9IBiwFBVV95cUxQQ0xUU2JPcW5ZV0tlaUozTnpTYmZyUndocnFid0hRUHFxWFllQlNXNndaV1QtbFBVdVgwYkVmcWMzREg3N0gtV09iYTNsaWdDdDhZQXkwXzVQQ242UFdDTFNnVWNaRjhJY3JDMzRndmJzdmVGNXZLTGlUaUJFbVJ1UVZWbVEtQmJSQ1ZJ?oc=5"
   }
  ],
  "sentiment": {
