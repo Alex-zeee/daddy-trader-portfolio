@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 22:31 PKT",
+ "updated": "23-11-2026 22:46 PKT",
  "gold": {
-  "price": 3661.77,
+  "price": 3652.64,
   "open": 3538.35,
   "high": 3689.08,
   "low": 3521.75,
-  "chg": 3.49,
+  "chg": 3.23,
   "src": "XAUUSD Spot",
   "spark": [
-   3616.3,
    3617.89,
    3617.54,
    3624.4,
@@ -55,14 +54,15 @@
    3670.9,
    3662.44,
    3662.36,
-   3661.77
+   3654.51,
+   3652.64
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.45,
-   "chg": 5.89,
+   "price": 43.375,
+   "chg": 5.7,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    43.45
+    43.375
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.453,
-   "chg": 0.62,
+   "price": 104.473,
+   "chg": 0.64,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.453
+    104.473
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.82,
-   "chg": -3.76,
+   "price": 80.93,
+   "chg": -3.63,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    80.82
+    80.93
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3022,
-   "chg": -0.5,
+   "price": 1.3016,
+   "chg": -0.54,
    "spark": [
     1.3404,
     1.3378,
@@ -230,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3022
+    1.3016
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.297,
-   "chg": -0.26,
+   "price": 159.249,
+   "chg": -0.29,
    "spark": [
     156.494,
     156.83,
@@ -259,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    159.297
+    159.249
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1755.44,
-   "chg": 1.97,
+   "price": 1731.64,
+   "chg": 0.58,
    "spark": [
     1679.59,
     1683.6,
@@ -314,13 +314,13 @@
     1777.57,
     1772.31,
     1767.7,
-    1755.44
+    1731.64
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61672.0,
-   "chg": 0.82,
+   "price": 61286.8,
+   "chg": 0.19,
    "spark": [
     60040.2,
     60238.2,
@@ -369,27 +369,11 @@
     62856.6,
     62828.7,
     62187.3,
-    61672.0
+    61288.5
    ]
   }
  ],
  "calendar": [
-  {
-   "ts": 1795445100.0,
-   "t": "Mon 23 Nov \u00b7 07:45 PM",
-   "title": "Flash Manufacturing PMI",
-   "impact": "Medium",
-   "forecast": "54.5",
-   "previous": "56.0"
-  },
-  {
-   "ts": 1795445100.0,
-   "t": "Mon 23 Nov \u00b7 07:45 PM",
-   "title": "Flash Services PMI",
-   "impact": "Medium",
-   "forecast": "55.6",
-   "previous": "57.9"
-  },
   {
    "ts": 1795532400.0,
    "t": "Tue 24 Nov \u00b7 08:00 PM",
@@ -421,59 +405,51 @@
    "impact": "Medium",
    "forecast": "2.3%",
    "previous": "2.3%"
-  },
-  {
-   "ts": 1795613400.0,
-   "t": "Wed 25 Nov \u00b7 06:30 PM",
-   "title": "Unemployment Claims",
-   "impact": "Medium",
-   "forecast": "201K",
-   "previous": "203K"
   }
  ],
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795455109.089936,
+   "ts": 1795456009.926868,
    "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "23 Nov \u00b7 10:31 PM"
+   "t": "23 Nov \u00b7 10:46 PM"
   },
   {
-   "ts": 1795455109.089936,
+   "ts": 1795456009.926868,
    "title": "Gold rallies amid dip-buying, pared back Fed rate expectations",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "23 Nov \u00b7 10:31 PM"
+   "t": "23 Nov \u00b7 10:46 PM"
   },
   {
-   "ts": 1795455109.089936,
+   "ts": 1795456009.926868,
    "title": "Oil falls amid recovering supplies, Iran re-escalation fears",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 10:31 PM"
+   "t": "23 Nov \u00b7 10:46 PM"
   },
   {
-   "ts": 1795455109.089936,
+   "ts": 1795456009.926868,
    "title": "This is when you should start buying gold again: BCA",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/this-is-when-you-should-start-buying-gold-again-bca-5045467",
-   "t": "23 Nov \u00b7 10:31 PM"
+   "t": "23 Nov \u00b7 10:46 PM"
   },
   {
-   "ts": 1795455109.089936,
+   "ts": 1795456009.926868,
    "title": "Goldman sees gold rebound after deleveraging-driven selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-sees-gold-rebound-after-deleveragingdriven-selloff-93CH-5045134",
-   "t": "23 Nov \u00b7 10:31 PM"
+   "t": "23 Nov \u00b7 10:46 PM"
   },
   {
-   "ts": 1795455109.089936,
+   "ts": 1795456009.926868,
    "title": "Gold\u2019s $3,500 test: Who\u2019s behind the selling spree?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/golds-3500-test-whos-behind-the-selling-spree-5045117",
-   "t": "23 Nov \u00b7 10:31 PM"
+   "t": "23 Nov \u00b7 10:46 PM"
   },
   {
    "ts": 1795450390.0,
