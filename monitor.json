@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 06:31 PKT",
+ "updated": "23-11-2026 06:46 PKT",
  "gold": {
-  "price": 3614.0,
+  "price": 3610.54,
   "open": 3537.29,
   "high": 3631.35,
   "low": 3521.75,
-  "chg": 2.17,
+  "chg": 2.07,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.32,
    3537.26,
    3538.22,
    3538.23,
@@ -55,14 +54,15 @@
    3570.71,
    3608.97,
    3619.77,
-   3614.0
+   3616.0,
+   3610.54
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.12,
-   "chg": 2.64,
+   "price": 42.115,
+   "chg": 2.63,
    "spark": [
     53.711,
     54.108,
@@ -85,12 +85,12 @@
     44.999,
     44.318,
     41.035,
-    42.12
+    42.115
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.755,
+   "price": 103.763,
    "chg": -0.05,
    "spark": [
     101.81,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    103.755
+    103.763
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.22,
-   "chg": -0.9,
+   "price": 83.17,
+   "chg": -0.96,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    83.22
+    83.17
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3109,
-   "chg": 0.17,
+   "price": 1.311,
+   "chg": 0.18,
    "spark": [
     1.3404,
     1.3378,
@@ -230,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3109
+    1.311
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.9,
-   "chg": -0.51,
+   "price": 158.945,
+   "chg": -0.48,
    "spark": [
     156.494,
     156.83,
@@ -259,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    158.9
+    158.945
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1717.5,
-   "chg": -0.24,
+   "price": 1710.61,
+   "chg": -0.64,
    "spark": [
     1617.49,
     1568.63,
@@ -314,13 +314,13 @@
     1716.05,
     1721.45,
     1718.98,
-    1716.75
+    1710.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61119.5,
-   "chg": -0.08,
+   "price": 60872.0,
+   "chg": -0.49,
    "spark": [
     58492.8,
     56642.1,
@@ -369,7 +369,7 @@
     61005.3,
     61170.1,
     61250.0,
-    61119.5
+    60872.0
    ]
   }
  ],
@@ -434,32 +434,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795397506.342268,
+   "ts": 1795398407.255981,
+   "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
+   "t": "23 Nov \u00b7 06:46 AM"
+  },
+  {
+   "ts": 1795398407.255981,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 06:31 AM"
+   "t": "23 Nov \u00b7 06:46 AM"
   },
   {
-   "ts": 1795397506.342268,
+   "ts": 1795398407.255981,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 06:31 AM"
+   "t": "23 Nov \u00b7 06:46 AM"
   },
   {
-   "ts": 1795397506.342268,
+   "ts": 1795398407.255981,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 06:31 AM"
+   "t": "23 Nov \u00b7 06:46 AM"
   },
   {
-   "ts": 1795397506.342268,
+   "ts": 1795398407.255981,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 06:31 AM"
+   "t": "23 Nov \u00b7 06:46 AM"
   },
   {
    "ts": 1795395376.0,
@@ -539,22 +546,6 @@
     "The Fed route looks the least likely in the near term. Futures price a December hike as close to certain, and Goldman's own economists expect increases in December and March. Goldman's financial conditions index also recorded its sharpest weekly tightening since March 2020.",
     "Goldman's year-ahead outlook, published before the latest slide, targets 8,700 on the S&P 500 by the end of 2027. A newer scenario range runs from roughly 5,800 to 8,100, depending on whether confidence in earnings returns. History offers some support: after 22 corrections of 10% or more since 1980, the index gained an average of 4% over the following three months."
    ]
-  },
-  {
-   "ts": 1795382795.0,
-   "title": "US equity rout: Bessent cautions Fed against overtightening, before its December decision",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/us-equity-rout-bessent-cautions-fed-against-overtightening-before-its-december-decision/",
-   "t": "23 Nov \u00b7 02:26 AM",
-   "body": [
-    "With a quarter-point hike in December close to fully priced, Bessent's comments mainly push back against the governors (well, one, looking at you Waller!) arguing for 50 basis points. They do little to dislodge 25bp as the base case. If the equity correction deepens, the bigger risk for rate markets is that a hold gets priced back in. For oil, the administration's argument depends on crude-driven inflation fading, so softer energy prices would strengthen Bessent's case and a new spike would back the hawks. Gold has tended to fall on rising hike expectations, so any easing of that pricing could take some pressure off the metal.",
-    "With Wall Street in correction and a December decision approaching, the Treasury is now openly arguing that the Fed, not the energy shock, is the bigger risk to the economy.",
-    "US Treasury Secretary Scott Bessent said on Sunday that the Federal Reserve could damage the economy if it pushes policy too far. In an interview with CBS's Face the Nation, he said many people believe the central bank \"may be making a policy mistake if they over-tighten.\" He pointed to a run of hawkish comments from Fed governors in recent weeks and said financial conditions had tightened substantially over the past few months.",
-    "The remarks came as Wall Street slid into correction territory amid a broad sell-off in AI-linked stocks. Bessent gave several explanations for the decline. He said the selling began as Democrats gained ground in the polls and picked up speed after Election Day, arguing that the party's push to slow the AI buildout had unsettled investors. He also named the Fed's tone as a factor. Bessent did not name the officials he had in mind, and he did not say what decision he would like to see from the Fed in December.",
-    "Sunday's comments continue an argument Bessent has made throughout November. In a CNBC interview on 13 November, he said it would be a mistake for the Fed to hike too aggressively into an energy supply shock that he said was already easing, and he described recent inflation data as noisy. Speaking to CNBC again on 20 November, he urged policymakers not to back a larger rate rise. He noted that one governor who now favours a 50 basis point increase had supported a cut of a similar size within the past year, and he told the Fed to look forward rather than react to past data.",
-    "Bessent's comments reflect the Treasury's view, not that of the officials who set rates. The Fed raised its target range by a quarter point in September to 3.75% to 4.00% and kept it there last month. Some governors are now leaning towards further tightening. Bessent's case is that oil-led price pressure will fade on its own. Fed officials who disagree are more concerned about how long the energy shock keeps inflation high.",
-    "The Fed's next decision is 17 days away. Before then, markets will look at incoming inflation data, further Fed commentary and how deep the equity correction goes to judge whether a December hike stays on the table, and how large it might be."
-   ]
   }
  ],
  "tweets": [
@@ -569,6 +560,12 @@
    "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpGN3Q1djlGbU9lMXNhdkJMTEJUUVJxN2Y1bXRBZzdtdUhKLTZQY1NtVkxTS2lpWjZvVHpoTWJwbVpzUzJ1OXlvSXJVUDZTV3BtaTVUcDRVQ1pIS2NZa3RzVlRwdWZ4MnhzMzcxSUhSMnZrTnEyaS1LSGx6RU43alpWelE4REdILXdWS2QwLXVweGI4bndvaWl5bEw2QdIBowFBVV95cUxNSHhZN19NSl9YZFVoNWQtbVhEVEY1UVhFOTk5WXhNNnU1T1dyeTRqamw4cGNfWU16XzFjdjVKNHlucWpBaW00Z204Vnp2UW5odXhYSFVTd0RUdDkxQnJwQ2xWZVlYcjdyLUtMMWtVeUJIWVNteHRadHFUU2o1UmljM1BwdlVzdDh2ZXdQbi1aVVFUNnMzYVdBVzZiU1lHeWVhdEFN?oc=5"
+  },
+  {
+   "ts": 1795320780.0,
+   "title": "UK HMRC Payrolls Change",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SDl5QWZ2SWJQZl9BdmNCdTBPSnJOSFVzTUhKaTFWQU9GUlV3cEFvaGFLeUNReExpUS1BVXhLaFMyUVZDd0hLRm82WjdadFlLQktpNWRlUmRCSU1WWEEtY1pYYVc4TXBfV3BtQlU3UWp2Z1U?oc=5"
   },
   {
    "ts": 1795272716.0,
@@ -587,12 +584,6 @@
    "title": "Trump: Getting Close To Deal With Mexico: More Work To Be Done With Canada",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTdJcnI2T1NLVDV3QVVzcEZpcy03MjJfME1QNWdrTTVzeWxzc3NXVEo3S2pJa2VnM3YzMWFSLURqWFBwaDNzdzB6SjBrak1vbG9yLTdYdDZHODN3dDdPdVdGTXNMZmtmOXg2aHY1UWptaUVMUDhRX0ZlekFzSW05TzlnTU9zcEI0UkRiajBkRdIBlAFBVV95cUxOUjdVWGctUjhDbDBIR1VfeEd1NVBpTU85cVVjc0x5LV9Wb2otNHFuM2YyTFRhSkIwZGNXQVd0NUYyQlNqYllILW1yYkVQa3ZYeVA4SldIMEZ1NHZIMFI3RHdmLU5lbXp4RUVZQnVMWkZEODRYTTNsaEtTcDhGSVZtNXdTVzFEanVfSmVXVnV5ZFB1VjZE?oc=5"
-  },
-  {
-   "ts": 1795192040.0,
-   "title": "A December BoJ hike may not be enough: why a fuzzy endpoint keeps yen bears circling",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXplN2Y4eDF2WVZiZjd0T2NuekV3UjJoSWNtNkYtZk9BN2tWY0t6QTJZUXRxUndtSjlYMTB5TTFsQ1pJV25ESzBFR0Zpc1hYaHk1cHRaaTFkTExERzR6b2ZqWGVVMl9EaW9EaWcwM3VNTVZIQWpOc0N1NkpPdU5reUtLSENKd9IBiwFBVV95cUxQQ0xUU2JPcW5ZV0tlaUozTnpTYmZyUndocnFid0hRUHFxWFllQlNXNndaV1QtbFBVdVgwYkVmcWMzREg3N0gtV09iYTNsaWdDdDhZQXkwXzVQQ242UFdDTFNnVWNaRjhJY3JDMzRndmJzdmVGNXZLTGlUaUJFbVJ1UVZWbVEtQmJSQ1ZJ?oc=5"
   }
  ],
  "sentiment": {
@@ -601,7 +592,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
