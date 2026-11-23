@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 16:01 PKT",
+ "updated": "23-11-2026 16:16 PKT",
  "gold": {
-  "price": 3625.71,
+  "price": 3620.3,
   "open": 3537.29,
   "high": 3636.76,
   "low": 3521.75,
-  "chg": 2.5,
+  "chg": 2.35,
   "src": "XAUUSD Spot",
   "spark": [
-   3569.69,
    3574.08,
    3582.57,
    3572.31,
@@ -55,14 +54,15 @@
    3617.92,
    3618.19,
    3625.21,
-   3625.71
+   3620.83,
+   3620.3
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.53,
-   "chg": 3.64,
+   "price": 42.45,
+   "chg": 3.45,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,42 @@
     44.999,
     44.318,
     41.035,
-    42.53
+    42.45
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 103.884,
+   "chg": 0.07,
+   "spark": [
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.17,
+    103.41,
+    103.55,
+    103.49,
+    103.86,
+    103.9,
+    103.81,
+    103.884
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.63,
-   "chg": -1.61,
+   "price": 82.4,
+   "chg": -1.88,
    "spark": [
     103.27,
     101.76,
@@ -114,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    82.63
+    82.4
    ]
   },
   {
@@ -177,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3106,
-   "chg": 0.15,
+   "price": 1.3104,
+   "chg": 0.13,
    "spark": [
     1.3404,
     1.3378,
@@ -201,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3106
+    1.3104
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.122,
-   "chg": -0.37,
+   "price": 159.05,
+   "chg": -0.41,
    "spark": [
     156.494,
     156.83,
@@ -230,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    159.122
+    159.05
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1723.45,
-   "chg": 0.11,
+   "price": 1721.13,
+   "chg": -0.03,
    "spark": [
     1660.86,
     1699.19,
@@ -285,13 +314,13 @@
     1722.96,
     1721.14,
     1723.05,
-    1723.45
+    1721.13
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61357.1,
-   "chg": 0.31,
+   "price": 61259.9,
+   "chg": 0.15,
    "spark": [
     58768.1,
     60462.3,
@@ -340,7 +369,7 @@
     61434.2,
     61369.2,
     61352.4,
-    61357.3
+    61259.9
    ]
   }
  ],
@@ -405,25 +434,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795431704.926178,
+   "ts": 1795432604.431185,
    "title": "Iran says it will use all its tools to confront US naval blockade",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/iran-says-it-will-use-all-its-tools-to-confront-us-naval-blockade-5044777",
-   "t": "23 Nov \u00b7 04:01 PM"
+   "t": "23 Nov \u00b7 04:16 PM"
   },
   {
-   "ts": 1795431704.926178,
+   "ts": 1795432604.431185,
    "title": "Gold rebounds from 14-mth low as tech selloff lifts safe-haven demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "23 Nov \u00b7 04:01 PM"
+   "t": "23 Nov \u00b7 04:16 PM"
   },
   {
-   "ts": 1795431704.926178,
+   "ts": 1795432604.431185,
    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 04:01 PM"
+   "t": "23 Nov \u00b7 04:16 PM"
   },
   {
    "ts": 1795427120.0,
@@ -569,10 +598,10 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFpaUkVTRl81OVlTZ1FtYmgxUVZ6UzRkRE9OeDk3WUZxaU1mN082TFZ1Q0w1UGFIR2tvNmJjeUMwZnFWRS1lZE1hYTdBSmNPNWx6SmhmckstTXVMNUFKTkQyeVZ5UmRkUmdrUXZBeERkREtrQVFhZGdGbGZtZDZKYndaMDE1LTFnSFU1Mm54ZV_SAZYBQVVfeXFMTm5GY0pVSkxkUHlzcFhVa2E1T1FvaVBMRjc0V05IeThuVV9yTU5hbGR2VXZLRmRFNmNLM21ydFowSThWbmZkdk5IR2thV0V2bzIzNkg0c20tNmQxZ2FVSlV0ZmZXN2FTSDFHalRZbW1xa29JRk5YRDNpbVR0ajBNSThNbWRUWDVuY2lSQ1hSd0hJMlhKX0dB?oc=5"
   },
   {
-   "ts": 1795248000.0,
-   "title": "DAX",
+   "ts": 1795210534.0,
+   "title": "Tehran still hopes diplomacy can end the war with the US, Iran's Foreign Minister Araqchi tells an Iranian newspaper",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OdnEyekk5NERHUllNWTF1MVZpR3ZMc2ZkbUhDTEs5aUgxUkhnaWNQa0xDemZDeENlUi1yYmstOWkxTUhDYV96VlhweWFKakFG?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbkhBMkxrVk45eHZRbHBxLXh4RW9ZYUhkbzZJMG5QSlN0eTlGcG1xa3dBUXVkaUQxaXAtZUhodlNjSVpOeHE4ZlJkZ2hGTWU4NVpmcU1ISFdJdFp6OFZmVThyUDZnS3NhemRyR3BGcUlacWFVZE5jNFJIekxyVnhYMEdabmJjZEhDUHFrVzZvVdIBlAFBVV95cUxPNi1oNWlSbllGZXdMd2h5NWlQV2R3WTBDRHNjWU5oR0Y0WTA2emhXRFBIVWdZZVp5N3dkeVhNcWdEcHVJbnFaRDI3SkVTYnRoSWhjY3BKdUk3LWMtT2c5LWJMMnNEaE00b2hCN2ZWLU1oUXRJUkFjWUJVeUlaNFYxN1hmSmNsTmVBTEo0aXEwVHQ0ZDdz?oc=5"
   }
  ],
  "sentiment": {
