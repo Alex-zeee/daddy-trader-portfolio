@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 04:52 PKT",
+ "updated": "23-11-2026 05:01 PKT",
  "gold": {
-  "price": 3578.25,
-  "open": 3536.62,
+  "price": 3584.11,
+  "open": 3537.29,
   "high": 3586.29,
   "low": 3521.75,
-  "chg": 1.18,
+  "chg": 1.32,
   "src": "XAUUSD Spot",
   "spark": [
-   3537.26,
    3537.34,
    3537.36,
    3537.32,
@@ -55,14 +54,15 @@
    3569.05,
    3569.69,
    3574.08,
-   3578.25
+   3582.57,
+   3584.11
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.94,
-   "chg": 2.21,
+   "price": 42.095,
+   "chg": 2.58,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    41.94
+    42.095
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.832,
-   "chg": 0.02,
+   "price": 103.819,
+   "chg": 0.01,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    103.832
+    103.819
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.94,
-   "chg": -1.24,
+   "price": 82.85,
+   "chg": -1.35,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    82.94
+    82.85
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0978,
-   "chg": 0.08,
+   "price": 1.0976,
+   "chg": 0.05,
    "spark": [
     1.1221,
     1.1218,
@@ -201,7 +201,7 @@
     1.0993,
     1.0972,
     1.097,
-    1.0978
+    1.0976
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.843,
-   "chg": -0.54,
+   "price": 159.007,
+   "chg": -0.44,
    "spark": [
     156.494,
     156.83,
@@ -259,15 +259,14 @@
     159.504,
     159.381,
     159.707,
-    158.843
+    159.007
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1720.54,
-   "chg": 2.27,
+   "price": 1721.72,
+   "chg": 0.01,
    "spark": [
-    1619.82,
     1622.59,
     1617.49,
     1568.63,
@@ -314,15 +313,15 @@
     1718.35,
     1717.47,
     1716.05,
-    1720.54
+    1721.45,
+    1721.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61197.4,
-   "chg": 1.84,
+   "price": 61088.2,
+   "chg": -0.13,
    "spark": [
-    58900.3,
     58909.9,
     58492.8,
     56642.1,
@@ -369,7 +368,8 @@
     60828.2,
     60843.4,
     61005.3,
-    61197.4
+    61170.1,
+    61074.7
    ]
   }
  ],
@@ -434,32 +434,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795391534.417951,
+   "ts": 1795392103.591268,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 04:52 AM"
+   "t": "23 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795391534.417951,
+   "ts": 1795392103.591268,
    "title": "Goldman favours gold over silver as central bank demand supports prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 04:52 AM"
+   "t": "23 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795391534.417951,
+   "ts": 1795392103.591268,
    "title": "US denies Iranian account that missile damaged F-16 over Gulf",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-denies-iranian-account-that-missile-damaged-f16-over-gulf-5043494",
-   "t": "23 Nov \u00b7 04:52 AM"
+   "t": "23 Nov \u00b7 05:01 AM"
   },
   {
-   "ts": 1795391534.417951,
+   "ts": 1795392103.591268,
    "title": "Goldman is out with its 2027 forecast for Brent oil prices",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-is-out-with-its-2027-forecast-for-brent-oil-prices-5043425",
-   "t": "23 Nov \u00b7 04:52 AM"
+   "t": "23 Nov \u00b7 05:01 AM"
   },
   {
    "ts": 1795384859.0,
@@ -608,6 +608,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
