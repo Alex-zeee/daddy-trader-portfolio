@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 14:16 PKT",
+ "updated": "23-11-2026 14:31 PKT",
  "gold": {
-  "price": 3619.6,
+  "price": 3619.41,
   "open": 3537.29,
   "high": 3636.76,
   "low": 3521.75,
-  "chg": 2.33,
+  "chg": 2.32,
   "src": "XAUUSD Spot",
   "spark": [
-   3532.88,
    3532.85,
    3532.78,
    3532.68,
@@ -55,14 +54,15 @@
    3612.73,
    3614.47,
    3619.12,
-   3619.6
+   3620.79,
+   3619.41
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.46,
-   "chg": 3.47,
+   "price": 42.6,
+   "chg": 3.81,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    42.46
+    42.6
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.731,
-   "chg": -0.08,
+   "price": 103.735,
+   "chg": -0.07,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    103.731
+    103.735
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.72,
-   "chg": -1.5,
+   "price": 82.83,
+   "chg": -1.37,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    82.72
+    82.83
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0985,
-   "chg": 0.14,
+   "price": 1.0984,
+   "chg": 0.13,
    "spark": [
     1.1221,
     1.1218,
@@ -201,13 +201,13 @@
     1.0993,
     1.0972,
     1.097,
-    1.0985
+    1.0984
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3125,
-   "chg": 0.3,
+   "price": 1.312,
+   "chg": 0.25,
    "spark": [
     1.3404,
     1.3378,
@@ -230,13 +230,13 @@
     1.3205,
     1.3147,
     1.3086,
-    1.3125
+    1.312
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.12,
-   "chg": -0.37,
+   "price": 159.177,
+   "chg": -0.33,
    "spark": [
     156.494,
     156.83,
@@ -259,13 +259,13 @@
     159.504,
     159.381,
     159.707,
-    159.12
+    159.177
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1728.99,
-   "chg": 0.43,
+   "price": 1726.16,
+   "chg": 0.26,
    "spark": [
     1638.63,
     1649.97,
@@ -314,13 +314,13 @@
     1722.0,
     1719.98,
     1722.96,
-    1728.99
+    1726.16
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61601.4,
-   "chg": 0.71,
+   "price": 61550.8,
+   "chg": 0.62,
    "spark": [
     57838.7,
     58115.4,
@@ -369,7 +369,7 @@
     61380.9,
     61371.2,
     61434.2,
-    61601.7
+    61550.8
    ]
   }
  ],
@@ -434,25 +434,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795425411.142314,
+   "ts": 1795426312.875935,
    "title": "Gold rebounds from 14-mth low as tech selloff lifts safe-haven demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "23 Nov \u00b7 02:16 PM"
+   "t": "23 Nov \u00b7 02:31 PM"
   },
   {
-   "ts": 1795425411.142314,
+   "ts": 1795426312.875935,
    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 02:16 PM"
+   "t": "23 Nov \u00b7 02:31 PM"
   },
   {
-   "ts": 1795425411.142314,
+   "ts": 1795426312.875935,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 02:16 PM"
+   "t": "23 Nov \u00b7 02:31 PM"
   },
   {
    "ts": 1795399499.0,
@@ -610,6 +610,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 503: Service Unavailable"
  ]
 }
