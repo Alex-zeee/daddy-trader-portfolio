@@ -1,14 +1,13 @@
 {
- "updated": "23-11-2026 08:46 PKT",
+ "updated": "23-11-2026 09:01 PKT",
  "gold": {
-  "price": 3607.99,
+  "price": 3607.6,
   "open": 3537.29,
   "high": 3631.35,
   "low": 3521.75,
-  "chg": 2.0,
+  "chg": 1.99,
   "src": "XAUUSD Spot",
   "spark": [
-   3538.14,
    3538.22,
    3538.24,
    3538.19,
@@ -55,14 +54,15 @@
    3605.77,
    3605.17,
    3607.46,
-   3607.99
+   3608.06,
+   3607.6
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.115,
-   "chg": 2.63,
+   "price": 42.02,
+   "chg": 2.4,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    42.115
+    42.02
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.764,
-   "chg": -0.04,
+   "price": 103.758,
+   "chg": -0.05,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    103.764
+    103.758
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.27,
-   "chg": -0.85,
+   "price": 83.2,
+   "chg": -0.93,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    83.27
+    83.2
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.971,
-   "chg": -0.46,
+   "price": 158.988,
+   "chg": -0.45,
    "spark": [
     156.494,
     156.83,
@@ -259,15 +259,14 @@
     159.504,
     159.381,
     159.707,
-    158.971
+    158.988
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1729.87,
-   "chg": 0.48,
+   "price": 1729.72,
+   "chg": 0.47,
    "spark": [
-    1558.86,
     1559.06,
     1637.61,
     1627.57,
@@ -314,15 +313,15 @@
     1718.98,
     1707.71,
     1703.34,
-    1729.87
+    1730.33,
+    1729.72
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61172.6,
-   "chg": 0.0,
+   "price": 61191.8,
+   "chg": 0.04,
    "spark": [
-    56221.1,
     55700.3,
     57976.2,
     57879.3,
@@ -369,7 +368,8 @@
     61250.0,
     60765.6,
     60517.8,
-    61172.6
+    61186.8,
+    61191.8
    ]
   }
  ],
@@ -434,39 +434,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795405609.920047,
+   "ts": 1795406509.138228,
    "title": "Gold rebounds from 14-mth low as tech selloff lifts safe-haven demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "23 Nov \u00b7 08:46 AM"
+   "t": "23 Nov \u00b7 09:01 AM"
   },
   {
-   "ts": 1795405609.920047,
+   "ts": 1795406509.138228,
    "title": "Oil prices fall amid equity selloff though Iran war attacks limit losses",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-5044242",
-   "t": "23 Nov \u00b7 08:46 AM"
+   "t": "23 Nov \u00b7 09:01 AM"
   },
   {
-   "ts": 1795405609.920047,
+   "ts": 1795406509.138228,
    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
-   "t": "23 Nov \u00b7 08:46 AM"
+   "t": "23 Nov \u00b7 09:01 AM"
   },
   {
-   "ts": 1795405609.920047,
+   "ts": 1795406509.138228,
    "title": "UBS flags further gold weakness before Fed rate-cut expectations return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/ubs-flags-further-gold-weakness-before-fed-ratecut-expectations-return-5043537",
-   "t": "23 Nov \u00b7 08:46 AM"
-  },
-  {
-   "ts": 1795405609.920047,
-   "title": "Goldman favours gold over silver as central bank demand supports prices",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/goldman-favours-gold-over-silver-as-central-bank-demand-supports-prices-5043527",
-   "t": "23 Nov \u00b7 08:46 AM"
+   "t": "23 Nov \u00b7 09:01 AM"
   },
   {
    "ts": 1795399499.0,
@@ -545,15 +538,24 @@
     "Goldman's research doesn't address currencies, but the implications for the euro are worth considering. Europe is a large net energy importer, so a sharp fall in gas and oil costs would improve its terms of trade and remove a significant drag on growth. That wouldn't guarantee a stronger euro, particularly with the Federal Reserve still raising rates, but it could make bearish views on the single currency harder to sustain through 2027.",
     "The near-term test is the winter. A mild season and steady Gulf flows would support the base case, while a cold snap with tight LNG supply could push prices sharply higher before any relief arrives."
    ]
+  },
+  {
+   "ts": 1795393444.0,
+   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6775 \u2013 Reuters estimate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6775-reuters-estimate/",
+   "t": "23 Nov \u00b7 05:24 AM",
+   "body": [
+    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
+    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
+    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
+    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
+    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
+    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
+   ]
   }
  ],
  "tweets": [
-  {
-   "ts": 1795344382.0,
-   "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmpGN3Q1djlGbU9lMXNhdkJMTEJUUVJxN2Y1bXRBZzdtdUhKLTZQY1NtVkxTS2lpWjZvVHpoTWJwbVpzUzJ1OXlvSXJVUDZTV3BtaTVUcDRVQ1pIS2NZa3RzVlRwdWZ4MnhzMzcxSUhSMnZrTnEyaS1LSGx6RU43alpWelE4REdILXdWS2QwLXVweGI4bndvaWl5bEw2QdIBowFBVV95cUxNSHhZN19NSl9YZFVoNWQtbVhEVEY1UVhFOTk5WXhNNnU1T1dyeTRqamw4cGNfWU16XzFjdjVKNHlucWpBaW00Z204Vnp2UW5odXhYSFVTd0RUdDkxQnJwQ2xWZVlYcjdyLUtMMWtVeUJIWVNteHRadHFUU2o1UmljM1BwdlVzdDh2ZXdQbi1aVVFUNnMzYVdBVzZiU1lHeWVhdEFN?oc=5"
-  },
   {
    "ts": 1795272716.0,
    "title": "Tehran still hopes diplomacy can end the war with the US, Iran's Foreign Minister Araqchi tells an Iranian newspaper",
@@ -583,6 +585,12 @@
    "title": "President Trump Hosts a News Conference",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ05rY3hocUFQNTk2bUxwbkhMblY4V2NuakwxUHFyR2trcUd6cW9TZ3BGem9PME43UHdkcC0wbUU4b1FFRC1nVUc0SW1FY0ZPNzZWSUwyaldIcUIzamhhRkpELWJIRnZGRWExRW9FQnl6RXpUSDNuQmUzaXJrN0pxamdWNFZUZVBV0gGOAUFVX3lxTE1lSVREXzlkQkRhM1BEY09NV1FZejlXSWdhdXpEV3pzZ0ozTE1VdWRGZ3lZcU8zVGQ3Y0kxNURUcTk0N29SOG9CNTB4cjNmLVBXY09hMmdvb3Z4UE95RUZrajNpeWxmOGYzSDRKZHBqT1pnZGh1NThQUjBEaEc0aGY5SEk0X1A2dFIxWDRHLVE?oc=5"
+  },
+  {
+   "ts": 1795185137.0,
+   "title": "Canadian Retail Trade, September 2026",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzlORDFYVFhDTDRJZFpERXVwWmVrZXlFLXpvRkRaZjFrYjE4ZlRUb0poNjU0Rk5QcmZqVEF6alNkVXY5ejl4T0JFX1J3X2J6cWxuQkFlNTdCMUZpY1lkV05ldGd4T01nbWdGN0xSZ2Z6X0RqWHc3SEdyajZGRzF5OHBRWFjSAYoBQVVfeXFMUFR4bUZ5SG55UnJjZTdQWVNSUkYtOVozUU0yWDczbERKOUkxZ1czTFR5Zk9ocTVwOVE2dm9Cb0xpZ1RReUplWWpHZXhRVTBPTTh1SmduUk5RTlkzbXppcHFkY0IxdnozOVd3NXA2MHhoZ1hLX2xJbDhXdjhDVkJ2RllVbTVlUzdwbXJn?oc=5"
   }
  ],
  "sentiment": {
@@ -591,7 +599,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 5/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
