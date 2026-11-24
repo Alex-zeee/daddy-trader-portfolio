@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 05:46 PKT",
+ "updated": "24-11-2026 06:01 PKT",
  "gold": {
-  "price": 3657.88,
-  "open": 3571.69,
+  "price": 3670.6,
+  "open": 3607.82,
   "high": 3689.08,
-  "low": 3570.42,
-  "chg": 2.41,
+  "low": 3576.36,
+  "chg": 1.74,
   "src": "XAUUSD Spot",
   "spark": [
-   3618.01,
    3631.03,
    3620.77,
    3656.0,
@@ -55,7 +54,8 @@
    3634.25,
    3643.96,
    3659.12,
-   3657.88
+   3666.23,
+   3670.6
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 104.317,
-   "chg": 0.49,
+   "price": 104.307,
+   "chg": 0.48,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.317
+    104.307
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.46,
-   "chg": -4.19,
+   "price": 80.4,
+   "chg": -4.26,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    80.46
+    80.4
    ]
   },
   {
@@ -176,9 +176,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.0913,
+   "chg": -0.53,
+   "spark": [
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1025,
+    1.0998,
+    1.0993,
+    1.0972,
+    1.097,
+    1.0972,
+    1.0913
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3037,
-   "chg": -0.44,
+   "price": 1.3039,
+   "chg": -0.42,
    "spark": [
     1.3378,
     1.3345,
@@ -201,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3037
+    1.3039
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.019,
-   "chg": 0.06,
+   "price": 158.941,
+   "chg": 0.01,
    "spark": [
     156.83,
     157.528,
@@ -230,15 +259,14 @@
     159.381,
     159.707,
     158.931,
-    159.019
+    158.941
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1707.63,
-   "chg": -0.03,
+   "price": 1712.31,
+   "chg": 0.24,
    "spark": [
-    1682.71,
     1668.47,
     1657.66,
     1660.79,
@@ -285,15 +313,15 @@
     1722.6,
     1710.92,
     1708.64,
-    1707.63
+    1708.61,
+    1712.57
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61188.6,
-   "chg": -0.02,
+   "price": 61299.2,
+   "chg": 0.16,
    "spark": [
-    59985.1,
     59362.7,
     59225.1,
     59185.9,
@@ -340,7 +368,8 @@
     61267.4,
     61176.1,
     61214.3,
-    61188.6
+    61243.8,
+    61299.2
    ]
   }
  ],
@@ -381,18 +410,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795481213.043412,
+   "ts": 1795482107.895429,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 05:46 AM"
+   "t": "24 Nov \u00b7 06:01 AM"
   },
   {
-   "ts": 1795481213.043412,
+   "ts": 1795482107.895429,
    "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "24 Nov \u00b7 05:46 AM"
+   "t": "24 Nov \u00b7 06:01 AM"
   },
   {
    "ts": 1795476268.0,
@@ -578,6 +607,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
