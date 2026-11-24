@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 17:01 PKT",
+ "updated": "24-11-2026 17:16 PKT",
  "gold": {
-  "price": 3635.15,
-  "open": 3615.84,
+  "price": 3623.57,
+  "open": 3613.16,
   "high": 3689.08,
   "low": 3607.63,
-  "chg": 0.53,
+  "chg": 0.29,
   "src": "XAUUSD Spot",
   "spark": [
-   3643.96,
    3659.12,
    3666.23,
    3663.65,
@@ -55,13 +54,43 @@
    3629.01,
    3635.29,
    3634.72,
-   3635.15
+   3622.48,
+   3623.57
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 42.07,
+   "chg": -2.5,
+   "spark": [
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    44.318,
+    41.035,
+    43.147,
+    42.07
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.982,
+   "price": 103.984,
    "chg": -0.32,
    "spark": [
     101.96,
@@ -85,13 +114,13 @@
     103.9,
     103.81,
     104.32,
-    103.982
+    103.984
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.21,
-   "chg": 0.05,
+   "price": 80.38,
+   "chg": 0.26,
    "spark": [
     101.76,
     99.9,
@@ -114,7 +143,7 @@
     83.21,
     83.98,
     80.17,
-    80.21
+    80.38
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.096,
-   "chg": -0.1,
+   "price": 1.0959,
+   "chg": -0.12,
    "spark": [
     1.1218,
     1.1174,
@@ -172,13 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.096
+    1.0959
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.309,
-   "chg": -0.04,
+   "price": 1.3087,
+   "chg": -0.06,
    "spark": [
     1.3378,
     1.3345,
@@ -201,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.309
+    1.3087
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.204,
-   "chg": 0.17,
+   "price": 159.157,
+   "chg": 0.14,
    "spark": [
     156.83,
     157.528,
@@ -230,13 +259,13 @@
     159.381,
     159.707,
     158.931,
-    159.204
+    159.157
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1697.49,
-   "chg": -0.63,
+   "price": 1694.74,
+   "chg": -0.79,
    "spark": [
     1700.66,
     1710.5,
@@ -285,13 +314,13 @@
     1681.69,
     1682.28,
     1700.53,
-    1697.48
+    1694.74
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60234.2,
-   "chg": -1.58,
+   "price": 60166.9,
+   "chg": -1.69,
    "spark": [
     60650.0,
     60842.4,
@@ -340,7 +369,7 @@
     59918.7,
     59711.0,
     60356.9,
-    60234.2
+    60168.8
    ]
   }
  ],
@@ -381,18 +410,36 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795521704.934313,
+   "ts": 1795522605.064238,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 05:01 PM"
+   "t": "24 Nov \u00b7 05:16 PM"
   },
   {
-   "ts": 1795521704.934313,
+   "ts": 1795522605.064238,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 05:01 PM"
+   "t": "24 Nov \u00b7 05:16 PM"
+  },
+  {
+   "ts": 1795518319.0,
+   "title": "Zcash's Nvidia-induced rally fades quickly as hawkish Fed and geopolitical risks keep the market under pressure",
+   "src": "investingLive",
+   "link": "https://investinglive.com/cryptocurrency/zcash-s-nvidia-induced-rally-fades-quickly-as-hawkish-fed-and-geopolitical-risks-keep-the-market-under-pressure/",
+   "t": "24 Nov \u00b7 04:05 PM",
+   "body": [
+    "Zcash spiked to the upside yesterday alongside other cryptocurrencies, as the news surrounding the reinstatement of Jensen Huang as Nvidia\u2019s CEO triggered a strong rally in equity markets and helped improve the risk sentiment.",
+    "However, the improvement in sentiment didn't really change the bigger picture, which remains challenging for the crypto market. In fact, the gains were quickly faded as the market continues to focus on the hawkish Fed and the deteriorating macro backdrop.",
+    "The Fed is still going to raise rates, and the extent of the tightening will depend on incoming economic data and stock market conditions. Meanwhile, the US-Iran stalemate remains unresolved, with Trump continuing to signal the possibility of renewed military action if negotiations fail.",
+    "While Zcash own fundamentals and developments in the privacy-focused crypto sector remain positive, the macro backdrop remains the dominant driver.",
+    "Looking ahead, the bearish trend in Zcash will likely persist as long as the macro conditions remain unchanged. A more sustained recovery will likely require a dovish shift in Fed stance or meaningful progress towards ending the Iran conflict.",
+    "On the daily chart, we can see that Zcash bounced from the support zone around the 680.00 level. If the price pulls back into the support again, we can expect the buyers to step in, with a defined risk below the support, to position for a rally into the downward trendline. The sellers, on the other hand, will want to see the price breaking lower to increase the bearish bets into the 500.00 level next.",
+    "On the 4 hour chart, we have a resistance zone around the 980.00 level. If the price gets there, we can expect the sellers to step in around the resistance, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to increase the bullish bets into the downward trendline.",
+    "On the 1 hour chart, there\u2019s not much we can add here as the price action might remain choppy between the two major zones. The buyers will have a better risk to reward setup around the support, while the sellers will need a break to open the door for new lows. The red lines define the average daily range for today.",
+    "Today we get the US Consumer Confidence report. Tomorrow, we have the US Core PCE price index and the latest US Jobless Claims figures."
+   ]
   },
   {
    "ts": 1795515662.0,
@@ -525,27 +572,6 @@
     "Societe Generale has kept a 10% gold allocation in its multi-asset portfolio and recommends buying on dips, with a target of $5,000 by the end of 2027. It sees the US debt ceiling as the next catalyst. CIBC Capital Markets estimates the government could reach the $41.1 trillion limit as early as late February and that Congress may need to raise it by nearly $5 trillion to fund borrowing through the 2028 elections. SocGen expects another standoff to weigh on the dollar and revive concerns over US fiscal credibility, supporting gold. Its own $5,000 target has, however, been pushed back several times this year as rate hikes have taken their toll.",
     "Taken together, the banks see gold ending 2027 somewhere between $4,650 and $5,000, which would mean gains of roughly 28% to 38% from around $3,630. All of them lean on the same pillars: central bank demand, an eventual peak in Fed tightening and, for some, US fiscal strain. The risk is in the timing. Each target has slipped as the Fed has stayed hawkish, and BofA's oil scenario shows how a renewed energy shock could push the recovery out further. For now, the question is less where gold ends up than how much more pain the Fed's hiking cycle has left to deliver."
    ]
-  },
-  {
-   "ts": 1795483265.0,
-   "title": "BlackRock says markets overprice Fed hikes, sees two not three as energy shock fades",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/blackrock-says-markets-overprice-fed-hikes-sees-two-not-three-as-energy-shock-fades/",
-   "t": "24 Nov \u00b7 06:21 AM",
-   "body": [
-    "BlackRock's view runs against Monday's hawkish Fed commentary and against market pricing, so the October PCE data becomes a key test. A softer services reading would back BlackRock and could pull Fed pricing toward two hikes, supporting short-dated Treasuries and easing some pressure on the US dollar. For oil, BlackRock's case depends on the recent sharp fall in crude and fuel prices holding. A renewed rise in energy costs would undercut its view and strengthen the case for more Fed tightening. Its expectation of an ECB hike next month, with more depending on energy pass-through, points to tighter policy in Europe than the US for longer.",
-    "BlackRock thinks markets are pricing a Fed that will keep reacting to today's energy shock, when that shock is already reversing and will soon be pulling inflation down.",
-    "BlackRock believes markets have gone too far in pricing Federal Reserve rate hikes, arguing that a fading energy shock will bring headline US inflation down next year and allow the Fed to tighten less than investors expect.",
-    "In its weekly market commentary, the world's largest asset manager said it agrees with market expectations for a quarter-point Fed hike in December. But with pricing pointing to as many as three quarter-point increases over the next 12 months, BlackRock said that is overdone. It currently expects just one more hike in the first half of 2027.",
-    "At the centre of BlackRock's view is the energy shock from the Middle East conflict. It estimates the surge in energy prices added 1.5 percentage points to headline US inflation at its September peak. With Brent crude, gasoline and diesel prices all falling sharply this month, it expects that contribution to reverse, turning from a boost to inflation this year into a drag of 0.8 percentage points by the end of 2027. Lower fuel costs should also ease core inflation through cheaper transportation services.",
-    "BlackRock expects pressure from tariffs and the AI build-out to fade next year as well, though unevenly. It added that tighter financial conditions and uncertainty around AI spending could temper demand and hiring in 2027, further limiting price pressures.",
-    "BlackRock is not calling for an early end to tightening. The US economy is strong, the labour market is tight and wage growth of around 4% sits well above the 2% to 2.5% pace it sees as consistent with the Fed's target. That keeps core services inflation elevated, and BlackRock expects core inflation to stay closer to 3% than to the Fed's 2% goal. It also said the neutral interest rate may be higher than previously assumed, supporting further tightening even as energy relief arrives.",
-    "The contrast with Fed commentary is notable. On the same day, New York Fed President John Williams said he would not rule out raising rates at consecutive meetings if needed, and that the Fed would respond if inflation pressures do not ease. BlackRock's view implies a slower pace than that, with the October PCE inflation data, and especially services prices, a key test of which camp is right.",
-    "BlackRock also expects the European Central Bank to raise rates next month. It said the outlook beyond December depends on whether energy-driven price pressures continue feeding into underlying inflation, noting that earlier rises in natural gas prices are still reaching European consumers, prolonging inflation there relative to the US. The US, as a net energy exporter, is better placed to absorb the shock.",
-    "On growth, BlackRock sees the US expanding 2% to 2.5% this year and moderating but staying above 2% in 2027 as AI spending grows more slowly and the boost from tax cuts fades.",
-    "With two-year and 10-year Treasury yields reaching multi-decade highs this year, BlackRock said much of the long-anticipated structural rise in rates is now reflected in bond prices. It favours short- and medium-term Treasuries for income and protection against rate swings, and has strengthened its strategic overweight in inflation-linked bonds as a hedge against supply-driven inflation.",
-    "The commentary was written before Monday's sharp rebound in US stocks, after a week in which BlackRock noted solid Nvidia earnings and Anthropic's record IPO failed to lift AI sentiment and the S&P 500 fell into correction territory. If BlackRock is right that the market is over-pricing hikes, a repricing toward a gentler Fed path would favour short-dated bonds and ease some pressure on rate-sensitive equities."
-   ]
   }
  ],
  "tweets": [
@@ -574,10 +600,10 @@
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
   },
   {
-   "ts": 1795436207.0,
+   "ts": 1795436208.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
   },
   {
    "ts": 1795426365.0,
