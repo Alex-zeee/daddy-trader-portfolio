@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 19:16 PKT",
+ "updated": "24-11-2026 19:31 PKT",
  "gold": {
-  "price": 3617.8,
-  "open": 3685.36,
-  "high": 3689.08,
+  "price": 3619.51,
+  "open": 3665.35,
+  "high": 3681.2,
   "low": 3607.63,
-  "chg": -1.83,
+  "chg": -1.25,
   "src": "XAUUSD Spot",
   "spark": [
-   3648.86,
    3642.47,
    3633.23,
    3632.95,
@@ -55,14 +54,15 @@
    3618.49,
    3616.07,
    3616.1,
-   3617.8
+   3619.37,
+   3619.51
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.93,
-   "chg": -2.82,
+   "price": 41.96,
+   "chg": -2.75,
    "spark": [
     54.108,
     54.293,
@@ -85,13 +85,42 @@
     44.318,
     41.035,
     43.147,
-    41.93
+    41.96
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 103.797,
+   "chg": -0.5,
+   "spark": [
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.17,
+    103.41,
+    103.55,
+    103.49,
+    103.86,
+    103.9,
+    103.81,
+    104.32,
+    103.797
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.15,
-   "chg": 1.22,
+   "price": 81.26,
+   "chg": 1.36,
    "spark": [
     101.76,
     99.9,
@@ -114,13 +143,13 @@
     83.21,
     83.98,
     80.17,
-    81.15
+    81.26
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.888,
-   "chg": -0.61,
+   "price": 4.896,
+   "chg": -0.45,
    "spark": [
     4.986,
     4.993,
@@ -143,13 +172,13 @@
     5.052,
     4.912,
     4.918,
-    4.888
+    4.896
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0971,
-   "chg": -0.01,
+   "price": 1.0976,
+   "chg": 0.04,
    "spark": [
     1.1218,
     1.1174,
@@ -172,13 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.0971
+    1.0976
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3097,
-   "chg": 0.02,
+   "price": 1.3103,
+   "chg": 0.07,
    "spark": [
     1.3378,
     1.3345,
@@ -201,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3097
+    1.3103
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.171,
-   "chg": 0.15,
+   "price": 159.181,
+   "chg": 0.16,
    "spark": [
     156.83,
     157.528,
@@ -230,13 +259,13 @@
     159.381,
     159.707,
     158.931,
-    159.171
+    159.181
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1693.81,
-   "chg": -0.84,
+   "price": 1688.73,
+   "chg": -1.14,
    "spark": [
     1716.07,
     1720.54,
@@ -285,13 +314,13 @@
     1700.53,
     1701.62,
     1687.59,
-    1693.81
+    1688.73
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60256.3,
-   "chg": -1.54,
+   "price": 60175.2,
+   "chg": -1.67,
    "spark": [
     60804.6,
     61163.6,
@@ -340,7 +369,7 @@
     60356.9,
     60379.9,
     59938.1,
-    60256.3
+    60175.2
    ]
   }
  ],
@@ -381,18 +410,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795529807.552434,
+   "ts": 1795530704.89255,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 07:16 PM"
+   "t": "24 Nov \u00b7 07:31 PM"
   },
   {
-   "ts": 1795529807.552434,
+   "ts": 1795530704.89255,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 07:16 PM"
+   "t": "24 Nov \u00b7 07:31 PM"
+  },
+  {
+   "ts": 1795526522.0,
+   "title": "Morning Kickstart. Nvidia slips after Monday\u2019s surge. Nasdaq 100 futures fall 450 points. USD mostly lower",
+   "src": "investingLive",
+   "link": "https://investinglive.com/technical-analysis/morning-kickstart-nvidia-slips-after-monday-s-surge-nasdaq-100-futures-fall-450-points-usd-mostly-lower/",
+   "t": "24 Nov \u00b7 06:22 PM",
+   "body": [
+    "Nvidia shares are down 4.9% premarket after surging 31.48% on Monday, when Jensen Huang was reinstated as CEO. The buying spread well beyond Nvidia yesterday, with the Nasdaq 100 gaining 6.86%. This morning, U.S. futures are lower across the board, with the Nasdaq 100 leading the decline. Monday\u2019s InvestingLive market wrap. images.investinglive.com",
+    "Goldman Sachs\u2019 technology, media and telecom desk said Huang\u2019s return lifted sentiment and removed a major source of uncertainty for Nvidia. Bearish positioning also gave Monday\u2019s rally room to run as shorts covered and underweight investors chased the move. The question now is whether buyers will defend the pullback. The cost of financing the AI buildout and whether the returns justify the spending are still in play. investing.com",
+    "Markets are pricing in a quarter-point hike at the December 8\u20139 meeting. The Fed raised rates by 25 basis points in September and held the target range at 3.75%\u20134.00% in October. The October minutes showed that almost all participants expected further tightening would likely be appropriate, and a couple were open to a move larger than 25 basis points at the next meeting if inflation data disappointed. Fed Governor Christopher Waller has also signaled he could support a half-point hike. For AI companies that need to raise or refinance debt, the path of rates beyond December matters too.",
+    "New York Fed President John Williams pointed to fading tariff effects, slower housing-services inflation and well-anchored inflation expectations on Monday. He expects inflation to slow to just above 2% in 2027. He also said inflation is still too high, flagged uncertainty around elevated energy prices and kept the pace of further tightening tied to the incoming data. FEDERAL RESERVE BANK of NEW YORK",
+    "The dollar is down against six of the seven majors in the morning snapshot. It is weakest against the euro, with EURUSD up 0.50% to 1.0956, followed by the pound, with GBPUSD up 0.41% to 1.3085. The yen is the exception. USDJPY is up 0.09% to 159.15. The dollar is also lower against the Swiss franc, Canadian dollar, Australian dollar and New Zealand dollar.",
+    "EURUSD is just 3 pips from its session high, and GBPUSD is 10 pips from its high. Those are the first upside tests heading into the U.S. data. USDJPY is near the middle of its range, with roughly 40 pips to either end.",
+    "Yields are lower alongside equity futures this morning. The 10-year is back below 4.90%.",
+    "January WTI crude is little changed at $80.08, down $0.09 after trading between $79.07 and $80.61. Gold is up 0.24% to $3,643.49, while silver is down 1.32% to $42.57. Copper is down 3.39% to $5.4430, and Bitcoin is down 1.13% to $60,519.",
+    "Copper traded to the lows level since March and is now down on the year and has corrected 22% from the high reached on September 23rd. The next target is the low from March at 5.246.Below that and the 50% midpoint from the start of the trend move higher back in July 2022 would be the target at 5.03. Lower copper prices is good for inflationary trends but sometime the price remains sticky to coming down after rising.",
+    "Crude oil prices are also -24% from the high reached at the end of October and -32% from the high from March 2026, but still above start of the year price near $57.60. The price is back below the 100 and 200 day MA nare $88.50. Stay below keeps the seller more in control. Targets at $76.53 and below that at the August low at $74.24. The July low at $67.28 was near the price just before the start of the US/Iran war on February 28.",
+    "Consumer confidence is the release I\u2019ll be watching this morning. With December already priced for a hike, I\u2019ll look to the 2-year yield for a read on whether the data are changing expectations for what comes after December. The bigger inflation test comes Wednesday at 8:30 a.m. ET, when October PCE and the second estimate of third-quarter GDP are due. U.S. Bureau of Economic Analysis (BEA)",
+    "In the morning video above, I take a look at the three major currency pairs\u2014EURUSD, USDJPY and GBPUSD\u2014from a technical perspective. For each pair, I outline the bias, the risk-defining levels and the targets that would give either the buyers or sellers more control."
+   ]
   },
   {
    "ts": 1795518319.0,
@@ -525,24 +575,6 @@
     "The retreat in crude is feeding directly into the inflation and interest rate debate. BlackRock argued this week that the energy shock's impact on US inflation has peaked and will turn into a drag next year, giving the Federal Reserve room to raise rates less than markets expect. New York Fed President John Williams, by contrast, still described the outlook for energy prices as uncertain and a key driver of high inflation. If the surplus Deutsche Bank describes takes hold, lower oil would strengthen the case for a shorter Fed hiking cycle, which would also ease some of the pressure that has weighed on gold.",
     "The risk to that view sits in the strait. A confirmed escalation that actually disrupts flows, rather than a headline that does not, would test how thin those buffers really are."
    ]
-  },
-  {
-   "ts": 1795484096.0,
-   "title": "Gold's road back to $5,000: four big banks bet on recovery, but the Fed sets the pace",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-s-road-back-to-5-000-four-big-banks-bet-on-recovery-but-the-fed-sets-the-pace/",
-   "t": "24 Nov \u00b7 06:34 AM",
-   "body": [
-    "The banks' common message is that gold's direction in the coming months depends on the Fed, not on geopolitics. Throughout the Iran war, higher oil has fed rate-hike expectations and weighed on bullion. That makes upcoming US inflation data and the December Fed decision the key near-term drivers, with any signs of a peak in tightening likely to bring dip buyers back. Oil is the swing risk: BofA's stress case shows a renewed energy spike could keep gold under pressure well into 2027. Central bank buying, which Goldman estimates at around 60 tonnes a month, is the main floor beneath prices.",
-    "- The banks still believe in gold's recovery, but each target has been pushed back as the Fed keeps hiking, and the main question now is how long they'll have to wait.",
-    "Gold bounced back above $3,600 an ounce on Monday after a 9% slide last week took it to a 14-month low, and the major banks broadly agree on what comes next: a difficult few months while the Federal Reserve keeps hiking, followed by a recovery later in 2027. Where they differ is on how long the wait will be and how high the metal can go.",
-    "The common thread is the Fed. Expectations of further rate increases, high Treasury yields and a firm dollar have pushed gold down roughly 35% from its record near $5,600 in January. Throughout the Middle East conflict, gold has fallen rather than rallied on rising tension, because higher oil prices have fed inflation fears, rate hike expectations and higher yields. Every bank forecast below is, in effect, a call on when that pressure eases.",
-    "Goldman Sachs sees gold at $4,650 by the end of 2027, after trimming its target from $4,800 this month. Its economists expect the Fed to raise rates in December and again in March 2027, which the bank says will keep weighing on Western ETF demand. The support comes from official buyers: Goldman assumes central banks will buy around 60 tonnes a month from 2026 through 2028, against roughly 17 tonnes a month before 2022, and says that structural demand will help gold outperform silver. Once the Fed turns to rate cuts and Western investors return, it sees gold reclaiming $5,600 by the end of 2028.",
-    "UBS cut its year-end 2026 target to $4,500 last week but kept its forecast of $5,000 by the end of 2027, with $4,600 expected by mid-2027. In its 2027 outlook, it upgraded gold to attractive and recommended using pullbacks to add exposure, arguing that central bank buying, Chinese demand, resilient ETF holdings and concerns over government debt continue to support the metal. UBS described Monday's rebound as a stabilisation after last week's drop, helped by a softer dollar and bargain hunting, but expects volatility to stay high.",
-    "Bank of America is more cautious on timing. It expects gold to stay under pressure in the first half of 2027 and recover only in the second half, citing inconsistent physical buying, softening demand for gold-backed ETFs and its rate strategists' expectation of further Fed tightening in the first half of next year. BofA has also flagged a severe stress scenario, not its base case: if prolonged Middle East tensions push oil to $150 a barrel, it estimates gold would average just $3,500 in 2027.",
-    "Societe Generale has kept a 10% gold allocation in its multi-asset portfolio and recommends buying on dips, with a target of $5,000 by the end of 2027. It sees the US debt ceiling as the next catalyst. CIBC Capital Markets estimates the government could reach the $41.1 trillion limit as early as late February and that Congress may need to raise it by nearly $5 trillion to fund borrowing through the 2028 elections. SocGen expects another standoff to weigh on the dollar and revive concerns over US fiscal credibility, supporting gold. Its own $5,000 target has, however, been pushed back several times this year as rate hikes have taken their toll.",
-    "Taken together, the banks see gold ending 2027 somewhere between $4,650 and $5,000, which would mean gains of roughly 28% to 38% from around $3,630. All of them lean on the same pillars: central bank demand, an eventual peak in Fed tightening and, for some, US fiscal strain. The risk is in the timing. Each target has slipped as the Fed has stayed hawkish, and BofA's oil scenario shows how a renewed energy shock could push the recovery out further. For now, the question is less where gold ends up than how much more pain the Fed's hiking cycle has left to deliver."
-   ]
   }
  ],
  "tweets": [
@@ -571,10 +603,10 @@
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
   },
   {
-   "ts": 1795436208.0,
+   "ts": 1795436207.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
   },
   {
    "ts": 1795426365.0,
