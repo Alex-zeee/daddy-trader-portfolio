@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 06:46 PKT",
+ "updated": "24-11-2026 07:01 PKT",
  "gold": {
-  "price": 3676.63,
-  "open": 3601.41,
+  "price": 3655.31,
+  "open": 3588.93,
   "high": 3689.08,
   "low": 3576.36,
-  "chg": 2.09,
+  "chg": 1.85,
   "src": "XAUUSD Spot",
   "spark": [
-   3664.85,
    3686.83,
    3664.27,
    3666.02,
@@ -55,14 +54,15 @@
    3663.65,
    3665.34,
    3675.0,
-   3676.63
+   3656.52,
+   3655.31
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.57,
-   "chg": 6.18,
+   "price": 43.29,
+   "chg": 5.5,
    "spark": [
     53.711,
     54.108,
@@ -85,12 +85,12 @@
     44.999,
     44.318,
     41.035,
-    43.57
+    43.29
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.218,
+   "price": 104.216,
    "chg": 0.39,
    "spark": [
     101.81,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.218
+    104.216
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.97,
-   "chg": -4.77,
+   "price": 79.85,
+   "chg": -4.92,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    79.97
+    79.85
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0919,
-   "chg": -0.47,
+   "price": 1.0918,
+   "chg": -0.49,
    "spark": [
     1.1218,
     1.1174,
@@ -201,13 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.0919
+    1.0918
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3047,
-   "chg": -0.37,
+   "price": 1.3045,
+   "chg": -0.38,
    "spark": [
     1.3378,
     1.3345,
@@ -230,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3047
+    1.3045
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.882,
-   "chg": -0.03,
+   "price": 158.818,
+   "chg": -0.07,
    "spark": [
     156.83,
     157.528,
@@ -259,15 +259,14 @@
     159.381,
     159.707,
     158.931,
-    158.882
+    158.818
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1711.51,
-   "chg": 0.19,
+   "price": 1700.62,
+   "chg": -0.44,
    "spark": [
-    1668.47,
     1657.66,
     1660.79,
     1653.67,
@@ -314,15 +313,15 @@
     1710.92,
     1708.64,
     1708.61,
-    1711.51
+    1703.08,
+    1700.62
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61291.9,
-   "chg": 0.15,
+   "price": 60908.8,
+   "chg": -0.47,
    "spark": [
-    59362.7,
     59225.1,
     59185.9,
     58794.4,
@@ -369,7 +368,8 @@
     61176.1,
     61214.3,
     61243.8,
-    61292.0
+    61008.3,
+    60908.7
    ]
   }
  ],
@@ -410,18 +410,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795484807.678565,
+   "ts": 1795485707.482679,
+   "title": "Gold extends rebound as Nvidia CEO news lifts equities, dip-buying lifts bullion",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
+   "t": "24 Nov \u00b7 07:01 AM"
+  },
+  {
+   "ts": 1795485707.482679,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 06:46 AM"
+   "t": "24 Nov \u00b7 07:01 AM"
   },
   {
-   "ts": 1795484807.678565,
+   "ts": 1795485707.482679,
    "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "24 Nov \u00b7 06:46 AM"
+   "t": "24 Nov \u00b7 07:01 AM"
   },
   {
    "ts": 1795480019.0,
@@ -545,21 +552,6 @@
     "Markets broadly expect the Fed to lift its policy rate by a quarter of a percentage point in December from the current 3.75% to 4.00% range, with further increases anticipated next year. The Fed last raised rates in September, and inflation has now run above target for more than five years, raising concern among officials that the public could lose faith in a return to 2%.",
     "The remarks landed on a day of sharp gains for stocks, after Nvidia said it was reinstating Jensen Huang as chief executive following a push from President Donald Trump. The rally highlighted how heavily markets lean on AI companies, and came after some observers had questioned whether recent equity losses might make the Fed hesitate. Williams' message suggests stock market swings are unlikely to knock the Fed off its focus on inflation."
    ]
-  },
-  {
-   "ts": 1795467838.0,
-   "title": "Silver sets the technical boundaries in the short term for traders",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/silver-sets-the-technical-boundaries-in-the-short-term-for-traders/",
-   "t": "24 Nov \u00b7 02:03 AM",
-   "body": [
-    "Silver is trading higher today after falling to its lowest level since September 2025 on Friday. The rebound took the price from $40.75 to a session high of $44.25, a gain of about 8.6% from Friday\u2019s low. The move ran into sellers at the 100-hour moving average, however, and the price has since rotated lower.",
-    "The broader trend has been lower since September. Silver stalled at $67.30 on September 26 and moved back below its 100-day moving average, which was at $66.59 at the time. From there, the price stepped lower. The November 10 swing high at $53.72 marked the start of the latest leg down, which took silver to $40.75 on Friday.",
-    "Friday\u2019s low tested the downward-sloping trendline drawn through the October 14 and October 30 lows. Sellers could not extend the move below that line, giving buyers a level to lean against. A break below the line would have given those buyers a reason to get out quickly. With support holding, silver had room to rebound as gold moved higher and broader risk sentiment improved.",
-    "At today\u2019s high near $44.25, silver tested its 100-hour moving average and turned lower. That gives sellers a level to lean against as well. As long as the price stays below that moving average, the rebound remains corrective within the broader downtrend. A move above it that can hold would give buyers their first sign that the short-term bias is shifting in their favor.",
-    "On the downside, the falling trendline remains the first support to watch, with Friday\u2019s $40.75 low the nearby reference point. A sustained break below both would put sellers back in control and extend the move to fresh lows.",
-    "For now, the buyers defended support and the sellers defended resistance. The next clue will come from which side can break its level and keep the price there."
-   ]
   }
  ],
  "tweets": [
@@ -606,7 +598,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 2/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
