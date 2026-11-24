@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 14:01 PKT",
+ "updated": "24-11-2026 14:16 PKT",
  "gold": {
-  "price": 3618.46,
-  "open": 3618.17,
+  "price": 3621.84,
+  "open": 3620.41,
   "high": 3689.08,
   "low": 3607.63,
-  "chg": 0.01,
+  "chg": 0.04,
   "src": "XAUUSD Spot",
   "spark": [
-   3635.93,
    3633.79,
    3636.87,
    3634.43,
@@ -55,14 +54,15 @@
    3609.77,
    3623.92,
    3620.08,
-   3618.46
+   3621.08,
+   3621.84
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.03,
-   "chg": -2.59,
+   "price": 41.775,
+   "chg": -3.18,
    "spark": [
     54.108,
     54.293,
@@ -85,13 +85,13 @@
     44.318,
     41.035,
     43.147,
-    42.03
+    41.775
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.279,
-   "chg": -0.04,
+   "price": 104.266,
+   "chg": -0.05,
    "spark": [
     101.96,
     102.32,
@@ -114,13 +114,13 @@
     103.9,
     103.81,
     104.32,
-    104.279
+    104.266
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.42,
-   "chg": -0.94,
+   "price": 79.48,
+   "chg": -0.86,
    "spark": [
     101.76,
     99.9,
@@ -143,7 +143,7 @@
     83.21,
     83.98,
     80.17,
-    79.42
+    79.48
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0919,
-   "chg": -0.47,
+   "price": 1.0921,
+   "chg": -0.46,
    "spark": [
     1.1218,
     1.1174,
@@ -201,13 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.0919
+    1.0921
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3052,
-   "chg": -0.33,
+   "price": 1.3054,
+   "chg": -0.31,
    "spark": [
     1.3378,
     1.3345,
@@ -230,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3052
+    1.3054
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.342,
-   "chg": 0.26,
+   "price": 159.313,
+   "chg": 0.24,
    "spark": [
     156.83,
     157.528,
@@ -259,13 +259,13 @@
     159.381,
     159.707,
     158.931,
-    159.342
+    159.313
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1686.37,
-   "chg": -1.28,
+   "price": 1682.35,
+   "chg": -1.51,
    "spark": [
     1706.55,
     1705.76,
@@ -314,13 +314,13 @@
     1699.54,
     1695.93,
     1690.65,
-    1686.37
+    1682.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59992.1,
-   "chg": -1.97,
+   "price": 59895.1,
+   "chg": -2.13,
    "spark": [
     60781.2,
     60972.8,
@@ -369,7 +369,7 @@
     60403.8,
     60363.0,
     60187.0,
-    59994.7
+    59895.1
    ]
   }
  ],
@@ -410,18 +410,37 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795510904.500717,
+   "ts": 1795511803.130456,
    "title": "Gold slips after sharp rebound as Fed rate bets keep pressure on bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 02:01 PM"
+   "t": "24 Nov \u00b7 02:16 PM"
   },
   {
-   "ts": 1795510904.500717,
+   "ts": 1795511803.130456,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 02:01 PM"
+   "t": "24 Nov \u00b7 02:16 PM"
+  },
+  {
+   "ts": 1795509344.0,
+   "title": "Gold finds some relief as forced liquidations ease after Nvidia news boosts stock markets",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-finds-some-relief-as-forced-liquidations-ease-after-nvidia-news-boosts-stock-markets/",
+   "t": "24 Nov \u00b7 01:35 PM",
+   "body": [
+    "Gold spiked to the upside yesterday after the news of Jensen Huang being reinstated as Nvidia CEO triggered a strong rally in equity markets. The reaction kind of confirmed the view that gold has been under pressure due to liquidations caused by stock market losses.",
+    "To understand the mechanics, imagine that an investment fund holds stocks, gold and government bonds. Some stocks suddenly crash, and the fund suffers losses on leveraged positions. The fund may need to raise cash to meet margin calls, reduce leverage or satisfy investor redemptions. Rather than selling only the assets that caused the losses, it may sell whatever it can liquidate quickly. Gold is particularly useful in this situation because it is highly liquid and can be sold quickly.",
+    "The Nvidia news helped reset the sentiment, which got very bearish in the final part of last week. But it doesn\u2019t really change the bigger picture. The Fed is still going to raise rates and how much will depend on the economic data and the stock market conditions.",
+    "The US-Iran stalemate is still ongoing, and the situation doesn\u2019t look like it\u2019s going to improve anytime soon, with Trump continuing to signal renewed military campaign in case negotiations fail.",
+    "For gold, it\u2019s a tricky situation because it keeps getting smashed lower when the stock market falls on growth concerns and it\u2019s also pressured when the sentiment improves because the US dollar and real yields get support from the hawkish repricing.",
+    "Looking ahead, gold will likely need support from a dovish repricing in interest rate expectations either from weaker data, dovish Fed commentary or an end to the Iran war. But buyers will also need to be aware that a dovish repricing from renewed stock market selloff could lead to more liquidations.",
+    "On the daily chart, we can see that gold (CFD contract) extended the gains a little yesterday before pulling back. There\u2019s not much we can glean from this timeframe as the buyers should have stepped in around the 3,500 level to target a correction into the downward trendline, while the sellers will need to wait for a break below the recent low to extend the drop into the 3,100 level next.",
+    "On the 4 hour chart, we have a downward trendline defining the bearish momentum. We can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to increase the bullish bets into the major downward trendline next.",
+    "On the 1 hour chart, we have a minor support zone around the 3,600 level. We can expect the buyers to step in around the support, with a defined risk below it, to keep targeting new highs. The sellers, on the other hand, will want to see the price breaking lower to pile in for a drop back into the 3,500 level, targeting a break. The red lines define the average daily range for today.",
+    "Today we get the US Consumer Confidence report. Tomorrow, we have the US Core PCE price index and the latest US Jobless Claims figures."
+   ]
   },
   {
    "ts": 1795504078.0,
@@ -549,21 +568,6 @@
    "body": [
     "The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. More here on this."
    ]
-  },
-  {
-   "ts": 1795480019.0,
-   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6757 \u2013 Reuters estimate",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6757-reuters-estimate/",
-   "t": "24 Nov \u00b7 05:26 AM",
-   "body": [
-    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
-    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
-    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
-    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
-    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
-    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
-   ]
   }
  ],
  "tweets": [
@@ -592,10 +596,10 @@
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
   },
   {
-   "ts": 1795436208.0,
+   "ts": 1795436207.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
   },
   {
    "ts": 1795426365.0,
