@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 06:01 PKT",
+ "updated": "24-11-2026 06:16 PKT",
  "gold": {
-  "price": 3670.6,
-  "open": 3607.82,
+  "price": 3660.1,
+  "open": 3617.33,
   "high": 3689.08,
   "low": 3576.36,
-  "chg": 1.74,
+  "chg": 1.18,
   "src": "XAUUSD Spot",
   "spark": [
-   3631.03,
    3620.77,
    3656.0,
    3664.85,
@@ -55,14 +54,15 @@
    3643.96,
    3659.12,
    3666.23,
-   3670.6
+   3663.65,
+   3660.1
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.56,
-   "chg": 6.15,
+   "price": 43.205,
+   "chg": 5.29,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    43.56
+    43.205
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.307,
-   "chg": 0.48,
+   "price": 104.259,
+   "chg": 0.43,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.307
+    104.259
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.4,
-   "chg": -4.26,
+   "price": 80.43,
+   "chg": -4.23,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    80.4
+    80.43
    ]
   },
   {
@@ -206,7 +206,7 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3039,
+   "price": 1.304,
    "chg": -0.42,
    "spark": [
     1.3378,
@@ -230,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3039
+    1.304
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.941,
-   "chg": 0.01,
+   "price": 158.907,
+   "chg": -0.02,
    "spark": [
     156.83,
     157.528,
@@ -259,13 +259,13 @@
     159.381,
     159.707,
     158.931,
-    158.941
+    158.907
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1712.31,
-   "chg": 0.24,
+   "price": 1714.45,
+   "chg": 0.37,
    "spark": [
     1668.47,
     1657.66,
@@ -314,13 +314,13 @@
     1710.92,
     1708.64,
     1708.61,
-    1712.57
+    1714.32
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61299.2,
-   "chg": 0.16,
+   "price": 61377.8,
+   "chg": 0.29,
    "spark": [
     59362.7,
     59225.1,
@@ -369,7 +369,7 @@
     61176.1,
     61214.3,
     61243.8,
-    61299.2
+    61377.8
    ]
   }
  ],
@@ -410,18 +410,33 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795482107.895429,
+   "ts": 1795483001.904614,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 06:01 AM"
+   "t": "24 Nov \u00b7 06:16 AM"
   },
   {
-   "ts": 1795482107.895429,
+   "ts": 1795483001.904614,
    "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "24 Nov \u00b7 06:01 AM"
+   "t": "24 Nov \u00b7 06:16 AM"
+  },
+  {
+   "ts": 1795480019.0,
+   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6757 \u2013 Reuters estimate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6757-reuters-estimate/",
+   "t": "24 Nov \u00b7 05:26 AM",
+   "body": [
+    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
+    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
+    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
+    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
+    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
+    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
+   ]
   },
   {
    "ts": 1795476268.0,
@@ -545,20 +560,6 @@
     "On the downside, the falling trendline remains the first support to watch, with Friday\u2019s $40.75 low the nearby reference point. A sustained break below both would put sellers back in control and extend the move to fresh lows.",
     "For now, the buyers defended support and the sellers defended resistance. The next clue will come from which side can break its level and keep the price there."
    ]
-  },
-  {
-   "ts": 1795460250.0,
-   "title": "Gold rebounds 3.2% despite a stronger dollar and higher yields.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-rebounds-3-2-despite-a-stronger-dollar-and-higher-yields/",
-   "t": "23 Nov \u00b7 11:57 PM",
-   "body": [
-    "Gold is up 3.2% today, trading near $3,654 after falling more than 9% last week and hitting its lowest level since September 2025. The rebound stands out with both the US dollar and Treasury yields moving higher. A stronger dollar makes gold more expensive for buyers using other currencies, while higher yields raise the opportunity cost of holding an asset that pays no interest. So why is gold higher anyway?",
-    "The stock market rebound may be helping indirectly. As AI and chip stocks tumbled last week, some investors sold gold to raise cash and meet margin calls. With Nvidia leading a sharp rebound in equities today, some of that selling pressure may be easing. Gold was already recovering before the US stock market opened, suggesting dip buyers were stepping in early. I\u2019d characterize the move as a relief rally after last week\u2019s liquidation, with the improvement in risk sentiment helping it along.",
-    "Technically, last week\u2019s selloff took gold down to the upper edge of a swing area near $3,500. The price reached $3,502 on Friday before bouncing. Today\u2019s low came in higher at $3,533.80, and the rebound has since taken gold back above $3,610.01, the 50% retracement of the move up from the 2022 low. The rally extended to $3,689.47 before pulling back.",
-    "For traders, $3,610.01 now defines the close risk. Stay above it and the buyers keep the short-term bias, with today\u2019s high at $3,689.47 the first upside hurdle. Move back below it and the break loses traction, putting today\u2019s low at $3,533.80 back in focus, followed by the $3,500 area that held on Friday.",
-    "In the video above, I take a more detailed look at where buyers stepped in, why the 50% retracement matters, and the levels that will tell us whether this rebound has more room to run."
-   ]
   }
  ],
  "tweets": [
@@ -575,10 +576,10 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWp4Nk9qUU40S2tSZDhndnFQNXNDaFMydFVWQXZYRTBybVVUOWp1aDhza0xYXzRoX1lSV0ZTdmw3XzVoaE1MLUtUclVSTWlpbGlOa1BrUkxkLTVEb3ZRMHZ5WTZLOFA2TXN2Zi1qNTJOWEZPWWdzZW81MGpPQ1BkOTVrTEd4SEFtM19GT3dSa9IBlAFBVV95cUxNWS0tQnYta0Mwd05JTkluLXdGdTU0VW5COHMxdEIxcjhBMlo4MTNwRGUwYjZwb0xzOHRFbWZ3dy1nRXFBOWxScDBud2RWRTZTS1FfbEZXQ2xVWlpzZ2dYQ3dSQXdWdG5qZVRFQ2hxdnhUUFFXbW9hem9xcWRJTVg0cTNpUkxrSnpfR1F2Yk14VzdmRzNu?oc=5"
   },
   {
-   "ts": 1795436207.0,
+   "ts": 1795436208.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
   },
   {
    "ts": 1795426365.0,
@@ -607,7 +608,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
