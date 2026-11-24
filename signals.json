@@ -1,13 +1,13 @@
 {
- "updated": "24-11-2026 18:01 PKT",
+ "updated": "24-11-2026 18:16 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "NEUTRAL",
-  "strength": 33,
-  "price": 3642.63,
-  "rsi": 68,
+  "strength": 0,
+  "price": 3629.73,
+  "rsi": 53,
   "tf": "M15"
  },
  "liq": {
@@ -22,7 +22,20 @@
   ]
  },
  "idea": null,
- "signals": [],
+ "signals": [
+  {
+   "id": "2026-11-24T13:05:00+00:00",
+   "ts": "2026-11-24T13:05:00+00:00",
+   "date": "24-11-2026 18:05 PKT",
+   "pair": "XAUUSD",
+   "type": "BUY",
+   "entry": 3631.31,
+   "sl": 3620.51,
+   "tp": 3681.2,
+   "status": "Active",
+   "note": "ICT ICT 2022 Model: ASIA Low swept -> MSS -> FVG"
+  }
+ ],
  "tp_hits": [
   {
    "ts": "2026-11-10T01:35:00+00:00",
