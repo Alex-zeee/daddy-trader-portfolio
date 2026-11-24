@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 05:16 PKT",
+ "updated": "24-11-2026 05:31 PKT",
  "gold": {
-  "price": 3636.46,
-  "open": 3574.25,
+  "price": 3645.79,
+  "open": 3574.65,
   "high": 3689.08,
-  "low": 3569.08,
-  "chg": 1.74,
+  "low": 3570.28,
+  "chg": 1.99,
   "src": "XAUUSD Spot",
   "spark": [
-   3617.9,
    3618.41,
    3618.01,
    3631.03,
@@ -55,14 +54,15 @@
    3628.13,
    3629.03,
    3634.25,
-   3636.46
+   3643.96,
+   3645.79
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.07,
-   "chg": 4.96,
+   "price": 43.245,
+   "chg": 5.39,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,42 @@
     44.999,
     44.318,
     41.035,
-    43.07
+    43.245
+   ]
+  },
+  {
+   "name": "Dollar Index",
+   "price": 104.317,
+   "chg": 0.49,
+   "spark": [
+    101.81,
+    101.96,
+    102.32,
+    102.19,
+    102.04,
+    101.88,
+    101.75,
+    101.87,
+    101.51,
+    101.55,
+    102.3,
+    101.65,
+    102.23,
+    102.91,
+    103.17,
+    103.41,
+    103.55,
+    103.49,
+    103.86,
+    103.9,
+    103.81,
+    104.317
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.5,
-   "chg": -4.14,
+   "price": 80.41,
+   "chg": -4.25,
    "spark": [
     103.27,
     101.76,
@@ -114,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    80.5
+    80.41
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.091,
-   "chg": -0.56,
+   "price": 1.0909,
+   "chg": -0.57,
    "spark": [
     1.1218,
     1.1174,
@@ -172,42 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.091
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.3036,
-   "chg": -0.45,
-   "spark": [
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3205,
-    1.3147,
-    1.3086,
-    1.3095,
-    1.3036
+    1.0909
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.942,
-   "chg": 0.01,
+   "price": 159.05,
+   "chg": 0.07,
    "spark": [
     156.83,
     157.528,
@@ -230,13 +230,13 @@
     159.381,
     159.707,
     158.931,
-    158.942
+    159.05
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1708.08,
-   "chg": -0.01,
+   "price": 1707.07,
+   "chg": -0.07,
    "spark": [
     1682.71,
     1668.47,
@@ -285,13 +285,13 @@
     1722.6,
     1710.92,
     1708.64,
-    1708.08
+    1707.07
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61211.4,
-   "chg": 0.02,
+   "price": 61108.7,
+   "chg": -0.15,
    "spark": [
     59985.1,
     59362.7,
@@ -340,7 +340,7 @@
     61267.4,
     61176.1,
     61214.3,
-    61211.4
+    61108.7
    ]
   }
  ],
@@ -381,18 +381,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795479407.228816,
+   "ts": 1795480315.193345,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 05:16 AM"
+   "t": "24 Nov \u00b7 05:31 AM"
   },
   {
-   "ts": 1795479407.228816,
+   "ts": 1795480315.193345,
    "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "24 Nov \u00b7 05:16 AM"
+   "t": "24 Nov \u00b7 05:31 AM"
   },
   {
    "ts": 1795476268.0,
@@ -546,10 +546,10 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWp4Nk9qUU40S2tSZDhndnFQNXNDaFMydFVWQXZYRTBybVVUOWp1aDhza0xYXzRoX1lSV0ZTdmw3XzVoaE1MLUtUclVSTWlpbGlOa1BrUkxkLTVEb3ZRMHZ5WTZLOFA2TXN2Zi1qNTJOWEZPWWdzZW81MGpPQ1BkOTVrTEd4SEFtM19GT3dSa9IBlAFBVV95cUxNWS0tQnYta0Mwd05JTkluLXdGdTU0VW5COHMxdEIxcjhBMlo4MTNwRGUwYjZwb0xzOHRFbWZ3dy1nRXFBOWxScDBud2RWRTZTS1FfbEZXQ2xVWlpzZ2dYQ3dSQXdWdG5qZVRFQ2hxdnhUUFFXbW9hem9xcWRJTVg0cTNpUkxrSnpfR1F2Yk14VzdmRzNu?oc=5"
   },
   {
-   "ts": 1795436207.0,
+   "ts": 1795436208.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
   },
   {
    "ts": 1795426365.0,
