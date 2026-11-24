@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 06:16 PKT",
+ "updated": "24-11-2026 06:31 PKT",
  "gold": {
-  "price": 3660.1,
-  "open": 3617.33,
+  "price": 3666.23,
+  "open": 3614.57,
   "high": 3689.08,
   "low": 3576.36,
-  "chg": 1.18,
+  "chg": 1.43,
   "src": "XAUUSD Spot",
   "spark": [
-   3620.77,
    3656.0,
    3664.85,
    3686.83,
@@ -55,14 +54,15 @@
    3659.12,
    3666.23,
    3663.65,
-   3660.1
+   3665.34,
+   3666.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.205,
-   "chg": 5.29,
+   "price": 43.39,
+   "chg": 5.74,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    43.205
+    43.39
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.259,
-   "chg": 0.43,
+   "price": 104.238,
+   "chg": 0.41,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.259
+    104.238
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.43,
-   "chg": -4.23,
+   "price": 80.05,
+   "chg": -4.68,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    80.43
+    80.05
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0913,
-   "chg": -0.53,
+   "price": 1.0922,
+   "chg": -0.45,
    "spark": [
     1.1218,
     1.1174,
@@ -201,42 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.0913
-   ]
-  },
-  {
-   "name": "GBP/USD",
-   "price": 1.304,
-   "chg": -0.42,
-   "spark": [
-    1.3378,
-    1.3345,
-    1.3306,
-    1.3328,
-    1.3379,
-    1.3386,
-    1.341,
-    1.3434,
-    1.3477,
-    1.3456,
-    1.336,
-    1.3442,
-    1.3349,
-    1.3277,
-    1.3231,
-    1.3216,
-    1.3185,
-    1.3205,
-    1.3147,
-    1.3086,
-    1.3095,
-    1.304
+    1.0922
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.907,
-   "chg": -0.02,
+   "price": 158.812,
+   "chg": -0.07,
    "spark": [
     156.83,
     157.528,
@@ -259,13 +230,13 @@
     159.381,
     159.707,
     158.931,
-    158.907
+    158.812
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1714.45,
-   "chg": 0.37,
+   "price": 1714.87,
+   "chg": 0.39,
    "spark": [
     1668.47,
     1657.66,
@@ -314,13 +285,13 @@
     1710.92,
     1708.64,
     1708.61,
-    1714.32
+    1714.87
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61377.8,
-   "chg": 0.29,
+   "price": 61415.0,
+   "chg": 0.35,
    "spark": [
     59362.7,
     59225.1,
@@ -369,7 +340,7 @@
     61176.1,
     61214.3,
     61243.8,
-    61377.8
+    61415.0
    ]
   }
  ],
@@ -410,18 +381,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795483001.904614,
+   "ts": 1795483907.114636,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 06:16 AM"
+   "t": "24 Nov \u00b7 06:31 AM"
   },
   {
-   "ts": 1795483001.904614,
+   "ts": 1795483907.114636,
    "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "24 Nov \u00b7 06:16 AM"
+   "t": "24 Nov \u00b7 06:31 AM"
   },
   {
    "ts": 1795480019.0,
@@ -570,16 +541,22 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa3Z4Z2VIMjdObXlobUsxVmFCT0FZVGxLNnI4cU9ZUnB5a0hYbjk1NFV2SmthaGwteHJQQUJtZ0pXS0ZjU1FGTjAyOVBUR0xfMVZWSDJEa29KZVVJNzNnT3Bacmo5UGg1ZGRycC1NbVdZMDlPOFpacEpidHhzS3hIZmhzQ1NTLXdxVGVJcnVEczloQzc1ZHdSVnFCSmXSAaIBQVVfeXFMUFVZc04tc3FzcDVnSU5Uc2xndW5UNVhvLVlpdTZKY19uZ2pOOFh1Tk8tc3laLVVUXzc4VUtPTGgyZVJCOEwzTWJ5Y2tfVjN6RHgzVzJlYUl5TDdkMlRSYmNSQ2l2WV82TWg2M1gycUJLV0xrWS1lYUV2UHU1UlBDNEQxdVptRTNkUEo1RWhEY1NyYzNJaVFyU2xoaVlCVTdyR0FR?oc=5"
   },
   {
+   "ts": 1795446503.0,
+   "title": "Trump: I felt very strongly that Huang should come back - CNBC",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZzM1VXN3M01uRi1TQVJTckIzWUV5MUVDMHZsLTdZYVF0QVpwYUJrUUxzOFYtM2RaWnROSTkxVENmQmJJMGZXNUJzTFlvd3JPTTM5aml4Zm4tVnM3aTRYajhfMlJZTGlvdjk1UERaSmpzMVNSQy1kOGR4TXdLd3VOdERIejNWV2l6SDNVOEFMUdIBlAFBVV95cUxNMlpabFhVcUsySkZGNE5mYmlhRG5hWFd5SkxFSEZUN0dSMG50eUh5MEgxSDlXYk00alc0RjNUeGJfNnFsNEtjUE9xZG1hdllhUWQ3NXhHNmU0eGtPUVBud3BkQkQ5ME13WHAzc21rOHJGMFZlcG0zbG11SG1zUTh1ZEVqbU5wTEFrN0xXQjh0bl9OQTFq?oc=5"
+  },
+  {
    "ts": 1795443042.0,
    "title": "Trump: NVIDIA Board of Directors has made the correct and proper decision to return Jensen Huang to the position of CEO",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWp4Nk9qUU40S2tSZDhndnFQNXNDaFMydFVWQXZYRTBybVVUOWp1aDhza0xYXzRoX1lSV0ZTdmw3XzVoaE1MLUtUclVSTWlpbGlOa1BrUkxkLTVEb3ZRMHZ5WTZLOFA2TXN2Zi1qNTJOWEZPWWdzZW81MGpPQ1BkOTVrTEd4SEFtM19GT3dSa9IBlAFBVV95cUxNWS0tQnYta0Mwd05JTkluLXdGdTU0VW5COHMxdEIxcjhBMlo4MTNwRGUwYjZwb0xzOHRFbWZ3dy1nRXFBOWxScDBud2RWRTZTS1FfbEZXQ2xVWlpzZ2dYQ3dSQXdWdG5qZVRFQ2hxdnhUUFFXbW9hem9xcWRJTVg0cTNpUkxrSnpfR1F2Yk14VzdmRzNu?oc=5"
   },
   {
-   "ts": 1795436208.0,
+   "ts": 1795436207.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
   },
   {
    "ts": 1795426365.0,
@@ -592,12 +569,6 @@
    "title": "US Core PCE Price Index m/m",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
-  },
-  {
-   "ts": 1795409940.0,
-   "title": "Both Kevin Warsh And His Critics Mistake Rising Prices For Inflation",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOXRrNUliZVdUZlRKSzhLY2pzVDEzY3RzN3dQY0ZWY0hlRkdWT3FtLTdxcGRaQXVlOC1KeVYxcU4xLXpmVVpRb3BHZUdXUTY1Wko1cWJnWTh1dEthNGVTbTBXVmtkWW42QzN2ZVoxYTFPQkJOUmJob29tWkY0UEtPNFBPVG1KaHZ6OEZJTWhKandmZUnSAZgBQVVfeXFMUGt5MFhUdXdFZTg3UEdGS3pDNzF0QVdwMEpkUGwtNlZwNEdPbFBPZ3hvZXl6QUNFVEpqUVJ6UENJR2VJc0tqSHQ2YTc2VGdRbUZNT0tBbERtVUs2NUNrRkxTZjZEOU5Ebm5LV1laMVpZWWpKc24wS1ZFaFlPUVVXZFpWWHRSLVM4bXNfZ1BQSFludUtlTVhIaUY?oc=5"
   }
  ],
  "sentiment": {
