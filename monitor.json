@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 09:01 PKT",
+ "updated": "24-11-2026 09:16 PKT",
  "gold": {
-  "price": 3633.52,
-  "open": 3605.48,
+  "price": 3632.04,
+  "open": 3608.74,
   "high": 3689.08,
   "low": 3601.01,
-  "chg": 0.78,
+  "chg": 0.65,
   "src": "XAUUSD Spot",
   "spark": [
-   3672.5,
    3661.97,
    3670.9,
    3662.44,
@@ -55,14 +54,15 @@
    3632.95,
    3632.82,
    3633.36,
-   3633.52
+   3631.2,
+   3632.04
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.48,
-   "chg": 3.52,
+   "price": 42.415,
+   "chg": 3.36,
    "spark": [
     53.711,
     54.108,
@@ -85,13 +85,13 @@
     44.999,
     44.318,
     41.035,
-    42.48
+    42.415
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.257,
-   "chg": 0.43,
+   "price": 104.271,
+   "chg": 0.44,
    "spark": [
     101.81,
     101.96,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.257
+    104.271
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.9,
-   "chg": -4.86,
+   "price": 79.74,
+   "chg": -5.05,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    79.9
+    79.74
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0913,
-   "chg": -0.53,
+   "price": 1.091,
+   "chg": -0.56,
    "spark": [
     1.1218,
     1.1174,
@@ -201,13 +201,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.0913
+    1.091
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.304,
-   "chg": -0.41,
+   "price": 1.3037,
+   "chg": -0.44,
    "spark": [
     1.3378,
     1.3345,
@@ -230,12 +230,12 @@
     1.3147,
     1.3086,
     1.3095,
-    1.304
+    1.3037
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.973,
+   "price": 158.971,
    "chg": 0.03,
    "spark": [
     156.83,
@@ -259,13 +259,13 @@
     159.381,
     159.707,
     158.931,
-    158.973
+    158.971
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1694.06,
-   "chg": -0.83,
+   "price": 1696.91,
+   "chg": -0.66,
    "spark": [
     1653.67,
     1659.67,
@@ -314,13 +314,13 @@
     1703.08,
     1683.37,
     1694.37,
-    1694.06
+    1696.91
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60229.6,
-   "chg": -1.58,
+   "price": 60357.5,
+   "chg": -1.38,
    "spark": [
     58794.4,
     59026.3,
@@ -369,7 +369,7 @@
     61008.3,
     60002.0,
     60265.7,
-    60244.4
+    60357.5
    ]
   }
  ],
@@ -410,18 +410,38 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795492912.93049,
+   "ts": 1795493815.680136,
    "title": "Gold extends rebound as Nvidia CEO news lifts equities, dip-buying lifts bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 09:01 AM"
+   "t": "24 Nov \u00b7 09:16 AM"
   },
   {
-   "ts": 1795492912.93049,
+   "ts": 1795493815.680136,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 09:01 AM"
+   "t": "24 Nov \u00b7 09:16 AM"
+  },
+  {
+   "ts": 1795492735.0,
+   "title": "Iran says three tankers hit mines, yet oil sits near a three-month low as supply wins",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/iran-says-three-tankers-hit-mines-yet-oil-sits-near-a-three-month-low-as-supply-wins/",
+   "t": "24 Nov \u00b7 08:58 AM",
+   "body": [
+    "Oil's muted reaction to fresh Hormuz incidents suggests most of the war risk premium has gone, leaving prices driven by supply data. The next tests are this week's US inventory figures and whether Libyan output holds. Thin buffers mean the downside is not one-way: a confirmed disruption to actual flows through the strait could still trigger a sharp spike. A sustained fall in crude would feed into lower headline inflation, support views like BlackRock's that the Fed needs fewer hikes, and ease pressure on bonds. That in turn would give gold room to recover, since gold has fallen throughout the war as oil pushed up rate expectations.",
+    "For months, every Hormuz headline lifted oil; now Iran reports three mined tankers and Brent barely moves, because the market is finally more worried about too much supply than too little.",
+    "Oil prices are hovering near a three-month low even as reports of tankers hitting mines in the Strait of Hormuz keep shipping risk alive, a sign that the market is now more focused on rising supply than on the threat of disruption.",
+    "Brent crude slipped to around $89 a barrel early on Tuesday after posting its lowest close since August 31 on Monday, while US West Texas Intermediate dipped below $80, having touched its lowest since August 26. Prices remain well above the roughly $72 Brent traded at in late February, before the US war with Iran began, but the steady retreat this month marks a clear shift in mood.",
+    "The headlines from the Gulf would once have sent prices sharply higher. Iran's Revolutionary Guards navy said three \"violating\" oil tankers caught fire after hitting naval mines in the strait on Monday, according to Iran's Press TV, a claim that has not been independently confirmed. Separately, the Wall Street Journal reported that the United States is investigating whether Iran was involved in cyberattacks on as many as 50 energy tankers.",
+    "That the market barely reacted is the story. After months in which every incident in the strait added a risk premium, traders now appear to see disruption as a persistent background cost rather than a reason to bid prices higher.",
+    "What has changed is supply. Deutsche Bank said global observed liquids inventories rose by 52 million barrels in October, implying an oversupply of 1.7 million barrels a day, and that evidence is accumulating that the market is rebalancing into surplus, though setbacks could delay that progress. In Libya, the Sharara oil pipeline has reopened and crude has begun flowing into storage at the Akakus facility in Zawiya, the head of the National Oil Corporation told Reuters. A preliminary Reuters poll suggests US crude and product inventories also rose last week.",
+    "Analysts are not declaring the crisis over. ANZ (remarks via Reuters) said that despite some improvement in inventories and product availability, the oil market remains under severe strain. Prices, time spreads, refining margins and investor positioning increasingly suggest traders expect conditions to normalise, it said, but logistics remain constrained and inventory buffers are thin. In ANZ's view, the oil system is moving from acute scarcity towards persistent vulnerability rather than a full return to normal.",
+    "That distinction matters for how prices could behave from here. A market with thin buffers can still react violently to a genuine supply shock, even if day-to-day headlines have lost their power to move it.",
+    "The retreat in crude is feeding directly into the inflation and interest rate debate. BlackRock argued this week that the energy shock's impact on US inflation has peaked and will turn into a drag next year, giving the Federal Reserve room to raise rates less than markets expect. New York Fed President John Williams, by contrast, still described the outlook for energy prices as uncertain and a key driver of high inflation. If the surplus Deutsche Bank describes takes hold, lower oil would strengthen the case for a shorter Fed hiking cycle, which would also ease some of the pressure that has weighed on gold.",
+    "The risk to that view sits in the strait. A confirmed escalation that actually disrupts flows, rather than a headline that does not, would test how thin those buffers really are."
+   ]
   },
   {
    "ts": 1795484096.0,
@@ -542,32 +562,9 @@
     "ANZ's call also brings it closer to market pricing rather than ahead of it. After last week's jobs data, markets put the odds of a quarter-point cut at the June 2027 meeting at around 68%, rising to about 90% for August. Because the forecast still implies an extended hold from here, its main effect is on pricing further out along the yield curve rather than on expectations for the next few RBA meetings.",
     "The key risks to the view run in both directions. A rebound in hiring or stubborn services inflation could push cuts back toward the second half of 2027, while a sharper slowdown could bring them forward again. Quarterly inflation and monthly jobs data over the next six months will decide which way the call breaks."
    ]
-  },
-  {
-   "ts": 1795471421.0,
-   "title": "Goldman sees up to $15 trillion for AI infrastructure as spending spreads beyond Nvidia",
-   "src": "investingLive",
-   "link": "https://investinglive.com/stocks/goldman-sees-up-to-15-trillion-for-ai-infrastructure-as-spending-spreads-beyond-nvidia/",
-   "t": "24 Nov \u00b7 03:03 AM",
-   "body": [
-    "Goldman's framing favours the bottleneck parts of the AI supply chain, particularly memory makers, advanced packaging specialists and power infrastructure, over a single-stock bet on Nvidia. That is relevant for Asian equities, where memory and packaging exposure is concentrated in Korea and Taiwan. The view that neocloud lending now depends on milestones should ease some credit concerns around the sector, although it also implies slower, more conditional build-outs. The power angle ties AI spending to energy and utilities demand, a theme that is likely to keep electricity infrastructure in focus as data centre construction grows.",
-    "Goldman's message is that the AI build-out is bigger than any one company: even if Nvidia's share shrinks, the trillions keep flowing, just into more hands.",
-    "Goldman Sachs believes $10 trillion to $15 trillion could flow into AI infrastructure over the next six years, and argues that a growing share of that spending is reaching companies beyond Nvidia, including memory makers, chip packaging specialists and power suppliers.",
-    "The bank's note was written before Nvidia reinstated Jensen Huang as chief executive on Monday, when the company's leadership was still in doubt. That timing matters. Several of the risks it weighed, including uncertainty over Nvidia's product roadmap, have eased with Huang's return. Its central argument does not depend on who runs Nvidia, though: in Goldman's view, near-term demand for AI infrastructure remains intact.",
-    "On the supply side, Goldman said demand is outstripping supply across memory, server processors and chipmaking equipment. Nvidia sells far more than graphics processors, including networking gear, central processors, complete server systems and the software that ties them together. Even so, the bank noted that investment is increasingly reaching areas Nvidia does not supply, such as memory, advanced packaging, which covers how chips are assembled and connected, and power.",
-    "That leads to what may be the note's most useful framing for investors. Goldman said any loss of Nvidia market share would change who gets which slice of the AI pie, not the size of the pie. Supply constraints and long design cycles limit how quickly share can shift, but uncertainty over Nvidia's longer-term roadmap could help rival chip designers and their suppliers. The bank also flagged that if Nvidia's work on open-source models and enterprise tools slowed, closed-model developers could benefit at the expense of software firms that rely on fast open-source progress. Huang's return makes that scenario less likely in the near term.",
-    "Monday's market reaction offered a live test of the thesis. When Huang returned, memory makers and other AI suppliers rallied alongside Nvidia, consistent with Goldman's view that the AI spending wave lifts a broad supply chain rather than a single company.",
-    "For investors, the takeaway is less about Nvidia's leadership drama than about where AI capital is heading next. If Goldman is right that spending is broadening into memory, packaging and power, the bottlenecks in those areas may matter as much for returns as Nvidia's market share. The main risk to that view is a slowdown in AI investment itself, which would shrink the pie rather than reshuffle it."
-   ]
   }
  ],
  "tweets": [
-  {
-   "ts": 1795451940.0,
-   "title": "Why This AI Selloff Looks Like 1998",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTWhxYUU0Ri1XZUxHNDZ6OXBvZXNRRnpoSXg1S3NiYTNiZHdJaUIteDlFbjFTc3NVb2F0WUdURlFxRnl3S1Z3WjRBUFl0cjNobEotaUh6QlQyLXloSzJYdUFKLXE1ZmdJV2xfZEJaUUd5dzZrbml6cV9hbmxpc3lfSHRtONIBiAFBVV95cUxQdmpBdVQ0aWlZUVJPOWxHb2N3UUZTajVfS0dLbF9lQmxfLW0wQkRvRVdXb0Y0VzR1UGNoUlc3WmRXRC1nMnZEY0lqbTlSLWplakg5b3VmS2ZYQ25YMXF1ZXdySXdmV3YwTE1nU1plWGV6Wng1TWxsbmtVUXlaQXRraHA1VU9vc3ZK?oc=5"
-  },
   {
    "ts": 1795448530.0,
    "title": "US business activity growth and price pressures remain elevated in November but show signs of cooling",
@@ -597,6 +594,12 @@
    "title": "US Core PCE Price Index m/m",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
+  },
+  {
+   "ts": 1795426365.0,
+   "title": "German composite PMI climbs to highest since March 2022",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXRsZ1pPRjNZYU1Wa19SX1hHR1d3QXZvY1kyMm1VN3pSampkMDJIUW9JZWtYTTdLR25uT1hJOE1Fb3Y0R09KdGhFejZoUVN5RFBhZ2VKdGUyVWk1aGw3RGtaRGNLTF9CR3VCa3NCbUJXSm02bU9sZG5mTzlSUGI2Ynk0U0JXdnltSFlIZmhIYjA1WE0zdnJZ0gGcAUFVX3lxTE1DQy1mbUd5YzFJcTJBaGg0djZFZTBWZjB6THA1YTZhRjhneUJxWDhmR0hpLUlVSzBQT3JaQ21XdWw2OXB4YlJhZnNmQkNBUFhlT2czRnBfV3ZSUUt5ekhfdkJuakJrMzZwRHptYVY5VTduLWw5SzE2eEQ0bTIwN255S1ZQWFNZb05GM0VRRTZpY0U0dGYtdlR3VjJpWA?oc=5"
   }
  ],
  "sentiment": {
@@ -607,7 +610,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
