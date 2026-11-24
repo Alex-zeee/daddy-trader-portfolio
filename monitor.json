@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 21:46 PKT",
+ "updated": "24-11-2026 22:01 PKT",
  "gold": {
-  "price": 3573.14,
-  "open": 3670.01,
+  "price": 3564.28,
+  "open": 3662.82,
   "high": 3681.2,
   "low": 3560.75,
-  "chg": -2.64,
+  "chg": -2.69,
   "src": "XAUUSD Spot",
   "spark": [
-   3636.83,
    3631.5,
    3638.04,
    3635.12,
@@ -55,14 +54,44 @@
    3566.87,
    3566.15,
    3571.08,
-   3573.14
+   3565.1,
+   3564.28
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 40.72,
+   "chg": -5.62,
+   "spark": [
+    54.108,
+    54.293,
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    44.318,
+    41.035,
+    43.147,
+    40.72
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.851,
-   "chg": -0.45,
+   "price": 103.881,
+   "chg": -0.42,
    "spark": [
     101.96,
     102.32,
@@ -85,13 +114,13 @@
     103.9,
     103.81,
     104.32,
-    103.851
+    103.881
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.43,
-   "chg": 0.32,
+   "price": 80.84,
+   "chg": 0.84,
    "spark": [
     101.76,
     99.9,
@@ -114,13 +143,13 @@
     83.21,
     83.98,
     80.17,
-    80.43
+    80.84
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.888,
-   "chg": -0.61,
+   "price": 4.89,
+   "chg": -0.57,
    "spark": [
     4.986,
     4.993,
@@ -143,7 +172,7 @@
     5.052,
     4.912,
     4.918,
-    4.888
+    4.89
    ]
   },
   {
@@ -177,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3111,
-   "chg": 0.12,
+   "price": 1.3113,
+   "chg": 0.14,
    "spark": [
     1.3378,
     1.3345,
@@ -201,13 +230,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3111
+    1.3113
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.202,
-   "chg": 0.17,
+   "price": 159.166,
+   "chg": 0.15,
    "spark": [
     156.83,
     157.528,
@@ -230,15 +259,14 @@
     159.381,
     159.707,
     158.931,
-    159.202
+    159.166
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1669.79,
-   "chg": -2.25,
+   "price": 1667.26,
+   "chg": -2.4,
    "spark": [
-    1712.18,
     1711.95,
     1713.08,
     1718.35,
@@ -285,15 +313,15 @@
     1687.59,
     1692.0,
     1675.75,
-    1669.67
+    1666.18,
+    1667.26
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59449.1,
-   "chg": -2.86,
+   "price": 59350.4,
+   "chg": -3.02,
    "spark": [
-    60737.3,
     60671.7,
     60643.3,
     60828.2,
@@ -340,7 +368,8 @@
     59938.1,
     60374.6,
     59646.2,
-    59449.2
+    59342.4,
+    59354.4
    ]
   }
  ],
@@ -381,25 +410,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795538803.965081,
+   "ts": 1795539706.962903,
    "title": "Trump administration set to unveil new tariffs after probe\u00a0on excess factory capacity, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "24 Nov \u00b7 09:46 PM"
+   "t": "24 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795538803.965081,
+   "ts": 1795539706.962903,
    "title": "Should investors buy gold now as stock market volatility stays high?",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/should-investors-buy-gold-now-as-stock-market-volatility-stays-high-93CH-5048569",
-   "t": "24 Nov \u00b7 09:46 PM"
+   "t": "24 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795538803.965081,
+   "ts": 1795539706.962903,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 09:46 PM"
+   "t": "24 Nov \u00b7 10:01 PM"
   },
   {
    "ts": 1795536367.0,
@@ -528,6 +557,18 @@
  ],
  "tweets": [
   {
+   "ts": 1795535129.0,
+   "title": "New US Tariffs Expected Tuesday Won't Exceed Trade Deal Levels; Tariffs To Be Targeted, Not Blanket Rate, Person Says",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM2xad1lKZjNvd0c0cVEyS1NMQk9LSjctU0NkOXZTRnBPUVBENlZkTm04R1VxNHpla2tUMHJLZzVjVXBtZmtHOXdhTmlsMUFxMXF0WlRIajJ4QWJTckNpYk1nb3NzN0hYN29RT1o1d0VUMkxIdUFYSDl3bmZ4TFJnSVI1SmNOb2otczFpeWlGVW01ZURvaGfSAZsBQVVfeXFMTlQ1MnNTd2lFSnlTNUtaWHFyVkdjZTdYZGpDQWtEMHA0b1MtUHdzVE1iTnItWlNudngtQXp0dV8zY3MzSDNBZTFQdEp1QkduX3dHNWI3VEQ1TGl1QzdjOW5PdHo3WThzUzNwOHEyMFdzRVF5WEVjOU9ac05sSURUc01reXlWYVFyYnd5Z1gxSnl2aWxwdHExT3VSdkk?oc=5"
+  },
+  {
+   "ts": 1795525726.0,
+   "title": "U.S. Prepares To Raise Tariffs On China And Other Countries -- WSJ",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTkhsZ2hqU1dYNFpjVHgxOWpjbDZndGg4dzhZaXZRb0JqQ3R2X2w3SVJKdzdQaWVaaWUyekFsSjFWOGJsNVp3VWllR29JMXNQcFo1dTI1MVpEMGJodk9Ea0NMaTRmeHhVLS1PYldZN05JX0xxd1NvT2w4SWM4Nmh4YmctWE95Y1MyS0FJ0gGQAUFVX3lxTFAtcTlfVGZnZVNINlBDVDU1X1RaTDFCak95Mi1Jcm9xc25sWjU4ck1hbzBLOVhNVVlBYXpDckpVQXFwb3R5Vmh4aW81TGhYWGFxRFk2ZTFmajdnOUVFb1VQcXdzOC0wcS1XVnlJSUxPd1dWMXZrbWRaTkhYVGFISEVzUEQwYlUyQzgyUS1rRGtmUg?oc=5"
+  },
+  {
    "ts": 1795524180.0,
    "title": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU",
    "src": "ForexFactory",
@@ -550,18 +591,6 @@
    "title": "Trump: NVIDIA Board of Directors has made the correct and proper decision to return Jensen Huang to the position of CEO",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWp4Nk9qUU40S2tSZDhndnFQNXNDaFMydFVWQXZYRTBybVVUOWp1aDhza0xYXzRoX1lSV0ZTdmw3XzVoaE1MLUtUclVSTWlpbGlOa1BrUkxkLTVEb3ZRMHZ5WTZLOFA2TXN2Zi1qNTJOWEZPWWdzZW81MGpPQ1BkOTVrTEd4SEFtM19GT3dSa9IBlAFBVV95cUxNWS0tQnYta0Mwd05JTkluLXdGdTU0VW5COHMxdEIxcjhBMlo4MTNwRGUwYjZwb0xzOHRFbWZ3dy1nRXFBOWxScDBud2RWRTZTS1FfbEZXQ2xVWlpzZ2dYQ3dSQXdWdG5qZVRFQ2hxdnhUUFFXbW9hem9xcWRJTVg0cTNpUkxrSnpfR1F2Yk14VzdmRzNu?oc=5"
-  },
-  {
-   "ts": 1795438835.0,
-   "title": "US Core PCE Price Index m/m",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
-  },
-  {
-   "ts": 1795436208.0,
-   "title": "to forexfactory admin",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVUxHVjh5WjNCb3A4Y0toSThNUjBfeXJncTdPMHZWRndnaFhjTkVJWDI3c3YtSEhVTS1GN1RqVVhOMkFoT1h6Q2hOeVhFczhZRkxkWGhuSHNNN2VOamZvM3pIaThWaTJWOElUd3F5U2hSXzlxYWlyQjZvdmxnTURxMTAtbGV4RUstcVlZY1IxYTdlNmhDcmJMcA?oc=5"
   }
  ],
  "sentiment": {
