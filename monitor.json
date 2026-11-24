@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 08:16 PKT",
+ "updated": "24-11-2026 08:31 PKT",
  "gold": {
-  "price": 3632.6,
-  "open": 3605.5,
+  "price": 3633.52,
+  "open": 3606.96,
   "high": 3689.08,
   "low": 3601.01,
-  "chg": 0.75,
+  "chg": 0.74,
   "src": "XAUUSD Spot",
   "spark": [
-   3673.05,
    3668.76,
    3673.03,
    3672.5,
@@ -55,14 +54,15 @@
    3648.86,
    3642.47,
    3633.23,
-   3632.6
+   3632.95,
+   3633.52
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.66,
-   "chg": 3.96,
+   "price": 42.535,
+   "chg": 3.66,
    "spark": [
     53.711,
     54.108,
@@ -85,12 +85,12 @@
     44.999,
     44.318,
     41.035,
-    42.66
+    42.535
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 104.269,
+   "price": 104.266,
    "chg": 0.44,
    "spark": [
     101.81,
@@ -114,13 +114,13 @@
     103.86,
     103.9,
     103.81,
-    104.269
+    104.266
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.25,
-   "chg": -4.44,
+   "price": 80.07,
+   "chg": -4.66,
    "spark": [
     103.27,
     101.76,
@@ -143,7 +143,7 @@
     83.26,
     83.21,
     83.98,
-    80.25
+    80.07
    ]
   },
   {
@@ -235,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 158.92,
-   "chg": -0.01,
+   "price": 158.955,
+   "chg": 0.02,
    "spark": [
     156.83,
     157.528,
@@ -259,13 +259,13 @@
     159.381,
     159.707,
     158.931,
-    158.92
+    158.955
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1673.85,
-   "chg": -2.01,
+   "price": 1689.5,
+   "chg": -1.09,
    "spark": [
     1660.79,
     1653.67,
@@ -314,13 +314,13 @@
     1708.61,
     1703.08,
     1683.37,
-    1673.83
+    1689.5
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59447.3,
-   "chg": -2.86,
+   "price": 60164.5,
+   "chg": -1.69,
    "spark": [
     59185.9,
     58794.4,
@@ -369,7 +369,7 @@
     61243.8,
     61008.3,
     60002.0,
-    59443.4
+    60155.5
    ]
   }
  ],
@@ -410,25 +410,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795490207.702878,
+   "ts": 1795491108.045948,
    "title": "Gold extends rebound as Nvidia CEO news lifts equities, dip-buying lifts bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 08:16 AM"
+   "t": "24 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795490207.702878,
+   "ts": 1795491108.045948,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 08:16 AM"
-  },
-  {
-   "ts": 1795490207.702878,
-   "title": "Oil falls on fading geopolitical premium as stocks, gold and copper rebound",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/oil-falls-on-fading-geopolitical-premium-as-stocks-gold-and-copper-rebound-93CH-5046013",
-   "t": "24 Nov \u00b7 08:16 AM"
+   "t": "24 Nov \u00b7 08:31 AM"
   },
   {
    "ts": 1795484096.0,
@@ -549,6 +542,23 @@
     "ANZ's call also brings it closer to market pricing rather than ahead of it. After last week's jobs data, markets put the odds of a quarter-point cut at the June 2027 meeting at around 68%, rising to about 90% for August. Because the forecast still implies an extended hold from here, its main effect is on pricing further out along the yield curve rather than on expectations for the next few RBA meetings.",
     "The key risks to the view run in both directions. A rebound in hiring or stubborn services inflation could push cuts back toward the second half of 2027, while a sharper slowdown could bring them forward again. Quarterly inflation and monthly jobs data over the next six months will decide which way the call breaks."
    ]
+  },
+  {
+   "ts": 1795471421.0,
+   "title": "Goldman sees up to $15 trillion for AI infrastructure as spending spreads beyond Nvidia",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/goldman-sees-up-to-15-trillion-for-ai-infrastructure-as-spending-spreads-beyond-nvidia/",
+   "t": "24 Nov \u00b7 03:03 AM",
+   "body": [
+    "Goldman's framing favours the bottleneck parts of the AI supply chain, particularly memory makers, advanced packaging specialists and power infrastructure, over a single-stock bet on Nvidia. That is relevant for Asian equities, where memory and packaging exposure is concentrated in Korea and Taiwan. The view that neocloud lending now depends on milestones should ease some credit concerns around the sector, although it also implies slower, more conditional build-outs. The power angle ties AI spending to energy and utilities demand, a theme that is likely to keep electricity infrastructure in focus as data centre construction grows.",
+    "Goldman's message is that the AI build-out is bigger than any one company: even if Nvidia's share shrinks, the trillions keep flowing, just into more hands.",
+    "Goldman Sachs believes $10 trillion to $15 trillion could flow into AI infrastructure over the next six years, and argues that a growing share of that spending is reaching companies beyond Nvidia, including memory makers, chip packaging specialists and power suppliers.",
+    "The bank's note was written before Nvidia reinstated Jensen Huang as chief executive on Monday, when the company's leadership was still in doubt. That timing matters. Several of the risks it weighed, including uncertainty over Nvidia's product roadmap, have eased with Huang's return. Its central argument does not depend on who runs Nvidia, though: in Goldman's view, near-term demand for AI infrastructure remains intact.",
+    "On the supply side, Goldman said demand is outstripping supply across memory, server processors and chipmaking equipment. Nvidia sells far more than graphics processors, including networking gear, central processors, complete server systems and the software that ties them together. Even so, the bank noted that investment is increasingly reaching areas Nvidia does not supply, such as memory, advanced packaging, which covers how chips are assembled and connected, and power.",
+    "That leads to what may be the note's most useful framing for investors. Goldman said any loss of Nvidia market share would change who gets which slice of the AI pie, not the size of the pie. Supply constraints and long design cycles limit how quickly share can shift, but uncertainty over Nvidia's longer-term roadmap could help rival chip designers and their suppliers. The bank also flagged that if Nvidia's work on open-source models and enterprise tools slowed, closed-model developers could benefit at the expense of software firms that rely on fast open-source progress. Huang's return makes that scenario less likely in the near term.",
+    "Monday's market reaction offered a live test of the thesis. When Huang returned, memory makers and other AI suppliers rallied alongside Nvidia, consistent with Goldman's view that the AI spending wave lifts a broad supply chain rather than a single company.",
+    "For investors, the takeaway is less about Nvidia's leadership drama than about where AI capital is heading next. If Goldman is right that spending is broadening into memory, packaging and power, the bottlenecks in those areas may matter as much for returns as Nvidia's market share. The main risk to that view is a slowdown in AI investment itself, which would shrink the pie rather than reshuffle it."
+   ]
   }
  ],
  "tweets": [
@@ -577,16 +587,16 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWp4Nk9qUU40S2tSZDhndnFQNXNDaFMydFVWQXZYRTBybVVUOWp1aDhza0xYXzRoX1lSV0ZTdmw3XzVoaE1MLUtUclVSTWlpbGlOa1BrUkxkLTVEb3ZRMHZ5WTZLOFA2TXN2Zi1qNTJOWEZPWWdzZW81MGpPQ1BkOTVrTEd4SEFtM19GT3dSa9IBlAFBVV95cUxNWS0tQnYta0Mwd05JTkluLXdGdTU0VW5COHMxdEIxcjhBMlo4MTNwRGUwYjZwb0xzOHRFbWZ3dy1nRXFBOWxScDBud2RWRTZTS1FfbEZXQ2xVWlpzZ2dYQ3dSQXdWdG5qZVRFQ2hxdnhUUFFXbW9hem9xcWRJTVg0cTNpUkxrSnpfR1F2Yk14VzdmRzNu?oc=5"
   },
   {
+   "ts": 1795436207.0,
+   "title": "to forexfactory admin",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWlBLYTFLcTZGOGhHeTJibzVsbEpMbFlEdEZDTVVEUzZlY2xNMHBzT3Vpc0xvaHlaR2tLLTVlbFluNU1LcEw1cUM4S0pZX1RZSFNnS0VDWF96RnlrYzF3VWVHTzdJMl9qUFZSQ19yUldLVFU?oc=5"
+  },
+  {
    "ts": 1795431281.0,
    "title": "US Core PCE Price Index m/m",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
-  },
-  {
-   "ts": 1795426365.0,
-   "title": "German composite PMI climbs to highest since March 2022",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXRsZ1pPRjNZYU1Wa19SX1hHR1d3QXZvY1kyMm1VN3pSampkMDJIUW9JZWtYTTdLR25uT1hJOE1Fb3Y0R09KdGhFejZoUVN5RFBhZ2VKdGUyVWk1aGw3RGtaRGNLTF9CR3VCa3NCbUJXSm02bU9sZG5mTzlSUGI2Ynk0U0JXdnltSFlIZmhIYjA1WE0zdnJZ0gGcAUFVX3lxTE1DQy1mbUd5YzFJcTJBaGg0djZFZTBWZjB6THA1YTZhRjhneUJxWDhmR0hpLUlVSzBQT3JaQ21XdWw2OXB4YlJhZnNmQkNBUFhlT2czRnBfV3ZSUUt5ekhfdkJuakJrMzZwRHptYVY5VTduLWw5SzE2eEQ0bTIwN255S1ZQWFNZb05GM0VRRTZpY0U0dGYtdlR3VjJpWA?oc=5"
   }
  ],
  "sentiment": {
@@ -595,7 +605,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
