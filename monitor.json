@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 13:16 PKT",
+ "updated": "24-11-2026 13:31 PKT",
  "gold": {
-  "price": 3619.52,
-  "open": 3607.7,
+  "price": 3608.06,
+  "open": 3611.92,
   "high": 3689.08,
-  "low": 3605.52,
-  "chg": 0.33,
+  "low": 3607.63,
+  "chg": -0.11,
   "src": "XAUUSD Spot",
   "spark": [
-   3640.59,
    3635.78,
    3636.02,
    3635.93,
@@ -55,43 +54,15 @@
    3624.51,
    3621.96,
    3622.68,
-   3619.52
+   3609.77,
+   3608.06
   ]
  },
  "markets": [
   {
-   "name": "Silver (fut)",
-   "price": 42.19,
-   "chg": -2.22,
-   "spark": [
-    54.108,
-    54.293,
-    53.457,
-    52.191,
-    49.097,
-    50.72,
-    49.587,
-    52.12,
-    52.233,
-    51.803,
-    52.564,
-    51.101,
-    51.881,
-    49.972,
-    49.031,
-    46.785,
-    47.288,
-    44.999,
-    44.318,
-    41.035,
-    43.147,
-    42.19
-   ]
-  },
-  {
    "name": "Dollar Index",
-   "price": 104.303,
-   "chg": -0.02,
+   "price": 104.324,
+   "chg": 0.0,
    "spark": [
     101.96,
     102.32,
@@ -114,13 +85,13 @@
     103.9,
     103.81,
     104.32,
-    104.303
+    104.324
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 79.98,
-   "chg": -0.24,
+   "price": 79.69,
+   "chg": -0.6,
    "spark": [
     101.76,
     99.9,
@@ -143,7 +114,7 @@
     83.21,
     83.98,
     80.17,
-    79.98
+    79.69
    ]
   },
   {
@@ -177,8 +148,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0911,
-   "chg": -0.55,
+   "price": 1.0917,
+   "chg": -0.5,
    "spark": [
     1.1218,
     1.1174,
@@ -201,13 +172,13 @@
     1.0972,
     1.097,
     1.0972,
-    1.0911
+    1.0917
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3039,
-   "chg": -0.42,
+   "price": 1.3043,
+   "chg": -0.4,
    "spark": [
     1.3378,
     1.3345,
@@ -230,13 +201,42 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3039
+    1.3043
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 159.294,
+   "chg": 0.23,
+   "spark": [
+    156.83,
+    157.528,
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.78,
+    159.523,
+    159.504,
+    159.381,
+    159.707,
+    158.931,
+    159.294
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1695.74,
-   "chg": -0.73,
+   "price": 1690.86,
+   "chg": -1.02,
    "spark": [
     1714.74,
     1706.55,
@@ -285,13 +285,13 @@
     1703.77,
     1699.54,
     1695.93,
-    1695.74
+    1690.86
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60267.2,
-   "chg": -1.52,
+   "price": 60087.3,
+   "chg": -1.82,
    "spark": [
     61034.5,
     60781.2,
@@ -340,7 +340,7 @@
     60548.7,
     60403.8,
     60363.0,
-    60267.2
+    60079.3
    ]
   }
  ],
@@ -381,18 +381,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795508205.331622,
+   "ts": 1795509103.186355,
    "title": "Gold slips after sharp rebound as Fed rate bets keep pressure on bullion",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 01:16 PM"
+   "t": "24 Nov \u00b7 01:31 PM"
   },
   {
-   "ts": 1795508205.331622,
+   "ts": 1795509103.186355,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 01:16 PM"
+   "t": "24 Nov \u00b7 01:31 PM"
   },
   {
    "ts": 1795504078.0,
@@ -557,12 +557,6 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWp4Nk9qUU40S2tSZDhndnFQNXNDaFMydFVWQXZYRTBybVVUOWp1aDhza0xYXzRoX1lSV0ZTdmw3XzVoaE1MLUtUclVSTWlpbGlOa1BrUkxkLTVEb3ZRMHZ5WTZLOFA2TXN2Zi1qNTJOWEZPWWdzZW81MGpPQ1BkOTVrTEd4SEFtM19GT3dSa9IBlAFBVV95cUxNWS0tQnYta0Mwd05JTkluLXdGdTU0VW5COHMxdEIxcjhBMlo4MTNwRGUwYjZwb0xzOHRFbWZ3dy1nRXFBOWxScDBud2RWRTZTS1FfbEZXQ2xVWlpzZ2dYQ3dSQXdWdG5qZVRFQ2hxdnhUUFFXbW9hem9xcWRJTVg0cTNpUkxrSnpfR1F2Yk14VzdmRzNu?oc=5"
   },
   {
-   "ts": 1795438835.0,
-   "title": "US Core PCE Price Index m/m",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
-  },
-  {
    "ts": 1795436208.0,
    "title": "to forexfactory admin",
    "src": "ForexFactory",
@@ -573,6 +567,12 @@
    "title": "German composite PMI climbs to highest since March 2022",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXRsZ1pPRjNZYU1Wa19SX1hHR1d3QXZvY1kyMm1VN3pSampkMDJIUW9JZWtYTTdLR25uT1hJOE1Fb3Y0R09KdGhFejZoUVN5RFBhZ2VKdGUyVWk1aGw3RGtaRGNLTF9CR3VCa3NCbUJXSm02bU9sZG5mTzlSUGI2Ynk0U0JXdnltSFlIZmhIYjA1WE0zdnJZ0gGcAUFVX3lxTE1DQy1mbUd5YzFJcTJBaGg0djZFZTBWZjB6THA1YTZhRjhneUJxWDhmR0hpLUlVSzBQT3JaQ21XdWw2OXB4YlJhZnNmQkNBUFhlT2czRnBfV3ZSUUt5ekhfdkJuakJrMzZwRHptYVY5VTduLWw5SzE2eEQ0bTIwN255S1ZQWFNZb05GM0VRRTZpY0U0dGYtdlR3VjJpWA?oc=5"
+  },
+  {
+   "ts": 1795409940.0,
+   "title": "Both Kevin Warsh And His Critics Mistake Rising Prices For Inflation",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOXRrNUliZVdUZlRKSzhLY2pzVDEzY3RzN3dQY0ZWY0hlRkdWT3FtLTdxcGRaQXVlOC1KeVYxcU4xLXpmVVpRb3BHZUdXUTY1Wko1cWJnWTh1dEthNGVTbTBXVmtkWW42QzN2ZVoxYTFPQkJOUmJob29tWkY0UEtPNFBPVG1KaHZ6OEZJTWhKandmZUnSAZgBQVVfeXFMUGt5MFhUdXdFZTg3UEdGS3pDNzF0QVdwMEpkUGwtNlZwNEdPbFBPZ3hvZXl6QUNFVEpqUVJ6UENJR2VJc0tqSHQ2YTc2VGdRbUZNT0tBbERtVUs2NUNrRkxTZjZEOU5Ebm5LV1laMVpZWWpKc24wS1ZFaFlPUVVXZFpWWHRSLVM4bXNfZ1BQSFludUtlTVhIaUY?oc=5"
   }
  ],
  "sentiment": {
