@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 03:31 PKT",
+ "updated": "25-11-2026 03:46 PKT",
  "gold": {
-  "price": 3556.3,
-  "open": 3633.91,
+  "price": 3556.44,
+  "open": 3634.61,
   "high": 3681.2,
   "low": 3547.16,
-  "chg": -2.14,
+  "chg": -2.15,
   "src": "XAUUSD Spot",
   "spark": [
-   3626.94,
    3623.3,
    3629.01,
    3635.29,
@@ -55,7 +54,8 @@
    3556.27,
    3556.34,
    3556.18,
-   3556.3
+   3556.27,
+   3556.44
   ]
  },
  "markets": [
@@ -90,8 +90,8 @@
   },
   {
    "name": "Dollar Index",
-   "price": 103.839,
-   "chg": -0.46,
+   "price": 103.826,
+   "chg": -0.47,
    "spark": [
     101.96,
     102.32,
@@ -114,36 +114,7 @@
     103.9,
     103.81,
     104.32,
-    103.839
-   ]
-  },
-  {
-   "name": "Oil WTI",
-   "price": 81.69,
-   "chg": 1.9,
-   "spark": [
-    101.76,
-    99.9,
-    102.78,
-    102.0,
-    104.12,
-    96.46,
-    96.09,
-    88.12,
-    90.52,
-    90.83,
-    86.85,
-    86.04,
-    86.53,
-    88.74,
-    88.56,
-    85.72,
-    86.01,
-    83.26,
-    83.21,
-    83.98,
-    80.17,
-    81.69
+    103.826
    ]
   },
   {
@@ -176,9 +147,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.0969,
+   "chg": -0.03,
+   "spark": [
+    1.1218,
+    1.1174,
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1025,
+    1.0998,
+    1.0993,
+    1.0972,
+    1.097,
+    1.0972,
+    1.0969
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.3111,
-   "chg": 0.13,
+   "price": 1.3116,
+   "chg": 0.16,
    "spark": [
     1.3378,
     1.3345,
@@ -201,13 +201,13 @@
     1.3147,
     1.3086,
     1.3095,
-    1.3111
+    1.3116
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.247,
-   "chg": 0.2,
+   "price": 159.236,
+   "chg": 0.19,
    "spark": [
     156.83,
     157.528,
@@ -230,13 +230,13 @@
     159.381,
     159.707,
     158.931,
-    159.247
+    159.236
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1681.79,
-   "chg": -1.55,
+   "price": 1684.29,
+   "chg": -1.4,
    "spark": [
     1721.45,
     1718.98,
@@ -285,13 +285,13 @@
     1671.57,
     1673.57,
     1678.48,
-    1681.79
+    1684.29
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59908.9,
-   "chg": -2.11,
+   "price": 59975.0,
+   "chg": -2.0,
    "spark": [
     61170.1,
     61250.0,
@@ -340,7 +340,7 @@
     59602.0,
     59697.7,
     59823.1,
-    59908.9
+    59975.0
    ]
   }
  ],
@@ -373,18 +373,25 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795559506.735873,
+   "ts": 1795560406.013209,
+   "title": "Oil climbs amid Hormuz attacks, report that U.S. is targeting top Iranian leaders",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712",
+   "t": "25 Nov \u00b7 03:46 AM"
+  },
+  {
+   "ts": 1795560406.013209,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "25 Nov \u00b7 03:31 AM"
+   "t": "25 Nov \u00b7 03:46 AM"
   },
   {
-   "ts": 1795559506.735873,
+   "ts": 1795560406.013209,
    "title": "Trump administration set to unveil new tariffs after probe\u00a0on excess factory capacity, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "25 Nov \u00b7 03:31 AM"
+   "t": "25 Nov \u00b7 03:46 AM"
   },
   {
    "ts": 1795555801.0,
@@ -503,41 +510,20 @@
     "The softer dollar and lower long-end Treasury yields offered little support to metals. Gold fell 1.81% to $3,569.05, silver dropped 5.13% to $40.93, and copper fell 5.47% to $5.3260. WTI went the other way, rising 0.64% to $80.68 after trading between $79.07 and $81.65.",
     "Bitcoin was down 2.77% at $59,512, back below $60,000. investinglive.com The better barometer for the short-term bias is still the old floor at $61,183\u2013$62,470. Stay below that area and the sellers have the edge, with $58,000 and Friday\u2019s low at $55,081 the next downside levels to watch."
    ]
-  },
-  {
-   "ts": 1795537262.0,
-   "title": "USDCHF breaks below both hourly moving averages. Sellers eye 0.8339\u20130.8348.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/technical-analysis/usdchf-breaks-below-both-hourly-moving-averages-sellers-eye-0-8339-0-8348/",
-   "t": "24 Nov \u00b7 09:21 PM",
-   "body": [
-    "The USDCHF has moved sharply lower after running into a ceiling near 0.8443 over the last four or so trading days. The buyers had several chances to extend the November rally through that level. Each time they fell short. Today, the sellers took the next step, pushing the price below the 100-hour moving average at 0.84143 and then the 200-hour moving average at 0.83992.",
-    "The pair is now trading near 0.8355, with the next test just below. A downward-sloping trend line meets a swing area between 0.8339 and 0.8348. That swing area has a number of reactions going back to October and again in November. With the price approaching it after a sharp move lower, it\u2019s a place where buyers can lean against support and define their risk.",
-    "What would give the sellers more confidence? A move below 0.8339 that can stay below would open the door toward 0.83224, the 38.2% retracement of the November rally. Below that, 0.83121 is the next downside target. Get through that level and the 50% midpoint at 0.82851 comes into focus.",
-    "If the swing area holds and the price bounces, 0.83806 is the first upside hurdle. The 200-hour moving average at 0.83992 is the bigger barometer. As long as the price stays below it, the sellers keep the advantage. A move back above it would give buyers room to target the 100-hour moving average at 0.84143.",
-    "Fundamentally, SNB Vice Chairman Antoine Martin said over the weekend that inflation has accelerated since the central bank\u2019s September meeting and that policymakers are watching for signs that higher costs are feeding into broader prices. Swiss inflation rose to 1.5% in October from 1.0% in September, more than expected. With the SNB\u2019s policy rate still at 0%, that has put a possible December hike on traders\u2019 radar. Those comments were already out heading into today\u2019s session, but they give traders a reason to favor the franc as the Nvidia-led rally fades and demand for safe havens picks up.",
-    "The ceiling at 0.8443 showed where the buyers were having trouble. The breaks below the hourly moving averages showed that sellers were starting to take control. Now the question is whether they can keep that control through support. If the price breaks below 0.8339 and then stalls on a bounce back into the swing area, sellers have a level to lean against with close risk. If the price quickly gets back above 0.8348, that would be an early warning that the break is failing."
-   ]
   }
  ],
  "tweets": [
-  {
-   "ts": 1795548660.0,
-   "title": "Global economic shocks \u2018likely to be larger, more frequent,\u2019 BoC\u2019s Macklem says",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb0VHYVZ0eDBGSm9MU2NWUG8zQWFObnIxbUowZjBmdGYyQllleUdNdXB6S0pCWl9iT0ZhYkhMMEo0LUpJSGFMYm9rdmN5U3k1M3RmTnFxVkE5QmxOSlctTkMwNG5SdVFGZ3RQeHlzS19uSVdYdWdicVFWaXQxMDZJNlAtbk4tYkVsVmJUR3hETE55MkHSAZgBQVVfeXFMTmw4cTc1WklFdnhvNGRZekdPcjNKMTFxaGFZcW9kLTV0NDJWelU2MUk4OG0xYlpQV0ZaN0xsVTdCaE5KSnVfVmN5eXRaVTM4Q0dLMlZuZEdTUHhwM1NyRjRQVHVwRHBucmI1OGhyenJaYU1zaXpBejBMWDJ2VlMtYXBSbE1HN3BFa2RQWWRXcUxwQ0ZpV00xRXU?oc=5"
-  },
-  {
-   "ts": 1795545900.0,
-   "title": "Crazy stock market sends panicked NYC finance bros to shrink couches for \u2018executive therapy\u2019",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUjBWcmNtSGloMm43UG5DRkwxcEtEYmJQM1FJVmpDNENBSWtRTHRRWF8zanJScE1Eejg1TENlTXR0cC1LMWNLX29WQkNwWWNjc2dIb0VkenFLUkV6MXlFbGQ3NVlsT1pReUVXM3dhRUQxbnU4dkVJUndvQU9saXlaOGtVX202S1VQM29LRUl2UnN4bVJCYUJr0gGcAUFVX3lxTE1pazQxMWZoSG5VWkFxSlljSWVrSDNDbHJMQS1XME1aRjJ0OFVsOFB5SWZfOWNySGgxMy1RRHFfcGJjRWtZYUFGU1dHWFJqSGhVUHhTTmJQSC1CRXVPaE4za0pWaXNYazJEZmpuQ2NLMmhXRUFhakVHQURac2wtRjNNTzd2LVhVcnJ5Y1pETXRjMXViSnFvWE9DODlRRg?oc=5"
-  },
   {
    "ts": 1795541195.0,
    "title": "Macklem: Canada\u2019s monetary policy framework: A trusted anchor in uncertain waters",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaFJacWNnWkhrblZuenZ6Sl8xcXoweEFSWHNkdFZNX052SGZDblpDTlpoYjlYQWlXRmppTFVQY1R1ZHpGMEc1QklvbG55RmowSEJkOTc5QVZTdTdpSnpFclRFN0dKUm1NQUU2WXRCbFFJYldTUDVKa21pdTJjRm5tQ1JhSDlCRmE0NU5PNFZyTG90QmxjYkNTd0VDVHlNSXdJY0HSAacBQVVfeXFMTnQ0dDJXSS12TjNXQzdVVU9ySk5oYWdnVktabGtybGtHeWxNYVdVOWNXT2NsdFR6MzdDZTl3a3E2Wkl1M2k3dDF3TXl2VERIelFhUjdEV2RpYlpIVXZBeDczSG9QbTZBUjY3S1BoWVVxOWFNaXhsSFNVWTNaWTliaHMyQ1drelJERWljTXNJU2NoaHp6UlFIWHU4SE0yRXZ4cm5DZTNkZjA?oc=5"
+  },
+  {
+   "ts": 1795537366.0,
+   "title": "Trump Has't Made Final Decision On Next Steps In Iran War; Trump Considering A Range Of Options On Iran: NBC",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlNZWGFlQmNyc2hKeHFqdUt2cnU2XzYtZThSdXNvR25vaGt1THNjUW1iSVdab0NQdjFueHljNEtWc2xFN2tkX1FmMWI5SUdJV295VXZjSmRITkY0S2xfc2pUUVVIZXRfbWxHa3JkdW1wNnNiTzNJWkpfeTVCcDJTeFl3dzNNTVNfWXdVVWZQb9IBlAFBVV95cUxQbHgwOHRHc3JBWG1zeXZNRXVjT040Sm5zNDJIa1ZNNkhCNVJsb2ZvanZBOWwwOVhHYjFDcHBxb1RBRUdCMng0WHBMTHJCWGFqcFRmTGhGZDRNQU1oS3NETGx2blIwckpJbEFoWWJ6bVNud1A3V3RMS2t4dFFmb0dkYWlTMEkyVEFGSmF0Z1liRnV0Yko0?oc=5"
   },
   {
    "ts": 1795536122.0,
@@ -556,6 +542,12 @@
    "title": "U.S. Prepares To Raise Tariffs On China And Other Countries -- WSJ",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTkhsZ2hqU1dYNFpjVHgxOWpjbDZndGg4dzhZaXZRb0JqQ3R2X2w3SVJKdzdQaWVaaWUyekFsSjFWOGJsNVp3VWllR29JMXNQcFo1dTI1MVpEMGJodk9Ea0NMaTRmeHhVLS1PYldZN05JX0xxd1NvT2w4SWM4Nmh4YmctWE95Y1MyS0FJ0gGQAUFVX3lxTFAtcTlfVGZnZVNINlBDVDU1X1RaTDFCak95Mi1Jcm9xc25sWjU4ck1hbzBLOVhNVVlBYXpDckpVQXFwb3R5Vmh4aW81TGhYWGFxRFk2ZTFmajdnOUVFb1VQcXdzOC0wcS1XVnlJSUxPd1dWMXZrbWRaTkhYVGFISEVzUEQwYlUyQzgyUS1rRGtmUg?oc=5"
+  },
+  {
+   "ts": 1795524180.0,
+   "title": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPckpVeFR0ejdFWHdiRFd6VHpDXzRzb0dWank4cnhVSElkYmp3QXJQYmwwTko5amR2UnhFdHYzeno2bFFuQUdndDIyY0NJUmdJQ0xTaXpVZVYxMFVWaWkwUmpQMnRNRFpjbGZjWllhR0pXRVhrbUQ2WFU5aUZPZExVa0JWSGVwWk45dGfSAY8BQVVfeXFMTzRYR3NUVG5SeERpVkNKOWozZHVOTlNIYkR6eFg4OWpCSVQ3LWp5NTlzbzAyTWZJdlBpbUNIbS1wamNvQVVMbDZUM1QyUVE2YXUwWlgtYUUxcURsT3lVMFQ0dmJxMkxYUk1SMVlFa3h3anRFNXU1OTFkelZlVXlfWXA5X0dLeHJfS1J6SkNKb3c?oc=5"
   }
  ],
  "sentiment": {
@@ -564,7 +556,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 2/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
