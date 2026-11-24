@@ -1,14 +1,13 @@
 {
- "updated": "24-11-2026 19:46 PKT",
+ "updated": "24-11-2026 20:01 PKT",
  "gold": {
-  "price": 3626.36,
-  "open": 3666.58,
+  "price": 3621.91,
+  "open": 3662.12,
   "high": 3681.2,
   "low": 3607.63,
   "chg": -1.1,
   "src": "XAUUSD Spot",
   "spark": [
-   3633.23,
    3632.95,
    3632.82,
    3633.36,
@@ -55,14 +54,15 @@
    3616.1,
    3619.37,
    3629.82,
-   3626.36
+   3624.52,
+   3621.91
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.09,
-   "chg": -2.45,
+   "price": 42.215,
+   "chg": -2.16,
    "spark": [
     54.108,
     54.293,
@@ -85,13 +85,13 @@
     44.318,
     41.035,
     43.147,
-    42.09
+    42.215
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.765,
-   "chg": -0.53,
+   "price": 103.776,
+   "chg": -0.52,
    "spark": [
     101.96,
     102.32,
@@ -114,13 +114,13 @@
     103.9,
     103.81,
     104.32,
-    103.765
+    103.776
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 81.28,
-   "chg": 1.38,
+   "price": 81.47,
+   "chg": 1.62,
    "spark": [
     101.76,
     99.9,
@@ -143,13 +143,13 @@
     83.21,
     83.98,
     80.17,
-    81.28
+    81.47
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.9,
-   "chg": -0.37,
+   "price": 4.91,
+   "chg": -0.16,
    "spark": [
     4.986,
     4.993,
@@ -172,13 +172,13 @@
     5.052,
     4.912,
     4.918,
-    4.9
+    4.91
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0981,
-   "chg": 0.08,
+   "price": 1.0975,
+   "chg": 0.03,
    "spark": [
     1.1218,
     1.1174,
@@ -201,13 +201,42 @@
     1.0972,
     1.097,
     1.0972,
-    1.0981
+    1.0975
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3112,
+   "chg": 0.13,
+   "spark": [
+    1.3378,
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3185,
+    1.3205,
+    1.3147,
+    1.3086,
+    1.3095,
+    1.3112
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.205,
-   "chg": 0.17,
+   "price": 159.301,
+   "chg": 0.23,
    "spark": [
     156.83,
     157.528,
@@ -230,15 +259,14 @@
     159.381,
     159.707,
     158.931,
-    159.205
+    159.301
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1695.07,
-   "chg": -0.77,
+   "price": 1691.46,
+   "chg": -0.98,
    "spark": [
-    1716.07,
     1720.54,
     1712.18,
     1711.95,
@@ -285,15 +313,15 @@
     1700.53,
     1701.62,
     1687.59,
-    1695.07
+    1692.0,
+    1691.46
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60435.6,
-   "chg": -1.25,
+   "price": 60375.0,
+   "chg": -1.35,
    "spark": [
-    60804.6,
     61163.6,
     60737.3,
     60671.7,
@@ -340,7 +368,8 @@
     60356.9,
     60379.9,
     59938.1,
-    60435.6
+    60374.6,
+    60364.2
    ]
   }
  ],
@@ -381,18 +410,18 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795531604.794121,
+   "ts": 1795532507.05992,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "24 Nov \u00b7 07:46 PM"
+   "t": "24 Nov \u00b7 08:01 PM"
   },
   {
-   "ts": 1795531604.794121,
+   "ts": 1795532507.05992,
    "title": "Gold prices rebound strongly from last week\u2019s rout as AI trade revs back to life",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14mth-low-as-tech-selloff-lifts-safehaven-demand-5044271",
-   "t": "24 Nov \u00b7 07:46 PM"
+   "t": "24 Nov \u00b7 08:01 PM"
   },
   {
    "ts": 1795526522.0,
@@ -594,6 +623,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 2/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
