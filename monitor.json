@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 22:16 PKT",
+ "updated": "25-11-2026 22:31 PKT",
  "gold": {
-  "price": 3496.59,
-  "open": 3563.65,
+  "price": 3500.6,
+  "open": 3567.55,
   "high": 3575.65,
   "low": 3426.48,
   "chg": -1.88,
   "src": "XAUUSD Spot",
   "spark": [
-   3533.7,
    3525.21,
    3529.46,
    3523.78,
@@ -55,14 +54,15 @@
    3452.74,
    3466.14,
    3492.7,
-   3496.59
+   3500.88,
+   3500.6
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 39.465,
-   "chg": -3.18,
+   "price": 40.075,
+   "chg": -1.68,
    "spark": [
     54.293,
     53.457,
@@ -85,13 +85,13 @@
     41.035,
     43.147,
     40.76,
-    39.465
+    40.075
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.636,
-   "chg": -0.17,
+   "price": 103.576,
+   "chg": -0.23,
    "spark": [
     102.32,
     102.19,
@@ -114,13 +114,13 @@
     103.81,
     104.32,
     103.81,
-    103.636
+    103.576
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.23,
-   "chg": 1.44,
+   "price": 83.52,
+   "chg": 1.79,
    "spark": [
     99.9,
     102.78,
@@ -143,13 +143,13 @@
     83.98,
     80.17,
     82.05,
-    83.23
+    83.52
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.814,
-   "chg": -1.84,
+   "price": 4.838,
+   "chg": -1.35,
    "spark": [
     4.993,
     5.045,
@@ -172,13 +172,13 @@
     4.912,
     4.918,
     4.904,
-    4.814
+    4.838
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0985,
-   "chg": 0.71,
+   "price": 1.0989,
+   "chg": 0.74,
    "spark": [
     1.1174,
     1.113,
@@ -201,13 +201,13 @@
     1.097,
     1.0972,
     1.0908,
-    1.0985
+    1.0989
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.311,
-   "chg": 0.58,
+   "price": 1.3116,
+   "chg": 0.62,
    "spark": [
     1.3345,
     1.3306,
@@ -230,13 +230,13 @@
     1.3086,
     1.3095,
     1.3035,
-    1.311
+    1.3116
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.863,
-   "chg": -0.09,
+   "price": 158.878,
+   "chg": -0.08,
    "spark": [
     157.528,
     157.993,
@@ -259,13 +259,13 @@
     159.707,
     158.931,
     159.009,
-    158.863
+    158.878
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1663.39,
-   "chg": -0.85,
+   "price": 1660.77,
+   "chg": -1.01,
    "spark": [
     1738.39,
     1729.73,
@@ -314,13 +314,13 @@
     1644.2,
     1646.18,
     1643.63,
-    1663.39
+    1660.77
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59405.7,
-   "chg": -0.56,
+   "price": 59251.0,
+   "chg": -0.82,
    "spark": [
     61320.2,
     61191.6,
@@ -369,7 +369,7 @@
     58156.8,
     58277.2,
     58533.9,
-    59405.7
+    59260.6
    ]
   }
  ],
@@ -426,32 +426,39 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795627004.809796,
+   "ts": 1795627904.157955,
+   "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
+   "t": "25 Nov \u00b7 10:31 PM"
+  },
+  {
+   "ts": 1795627904.157955,
+   "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
+   "t": "25 Nov \u00b7 10:31 PM"
+  },
+  {
+   "ts": 1795627904.157955,
    "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616",
-   "t": "25 Nov \u00b7 10:16 PM"
+   "t": "25 Nov \u00b7 10:31 PM"
   },
   {
-   "ts": 1795627004.809796,
-   "title": "US proposes higher tariffs on Brazil imports, including 10% duty on aircraft",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "25 Nov \u00b7 10:16 PM"
-  },
-  {
-   "ts": 1795627004.809796,
+   "ts": 1795627904.157955,
    "title": "Gold slides below $3,500 amid Fed rate hike expectations, AI stock rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "25 Nov \u00b7 10:16 PM"
+   "t": "25 Nov \u00b7 10:31 PM"
   },
   {
-   "ts": 1795627004.809796,
+   "ts": 1795627904.157955,
    "title": "India\u2019s RBI raises domestic gold holdings to 740 tonnes in September",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/indias-rbi-raises-domestic-gold-holdings-to-740-tonnes-in-september-93CH-5051080",
-   "t": "25 Nov \u00b7 10:16 PM"
+   "t": "25 Nov \u00b7 10:31 PM"
   },
   {
    "ts": 1795625650.0,
@@ -533,23 +540,6 @@
     "The US explicitly cited a lack of progress on digital trade and other issues as justification for the additional tariffs and you can't help but think the election results were a big part of this response.",
     "The 14 economies identified for tariff action in the industrial overcapacity investigation are:"
    ]
-  },
-  {
-   "ts": 1795610616.0,
-   "title": "investingLive European session wrap: Equities and tech selloff deepens, gold threatens $3,500",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-european-session-wrap-equities-and-tech-selloff-deepens-gold-threatens-3-500/",
-   "t": "25 Nov \u00b7 05:43 PM",
-   "body": [
-    "The Monday bounce in risk trades is looking more and more like a fever dream. As the Thanksgiving holiday nears, we're seeing the risk rout return and it's starting to turn into a real beatdown again ahead of the Wall Street open later.",
-    "US futures were subdued early on in the day but the selling pressure did not let up all through European morning trade. And that's seeing S&P 500 futures now fall by nearly 2% with the Nasdaq bordering on 3% losses as we await the opening bell. Bring on the pain.",
-    "As the risk-off wave hits, we're going back to the same old playbook from last week. The dollar is holding steadier and firmer mostly, with traders also turning to the bond market for some shelter as precious metals crumble once again.",
-    "EUR/USD is down 0.2% to 1.0946 with USD/JPY steady at 159.25 on the day. The Swiss franc is an outperformer though, with EUR/CHF falling by 0.8% to 0.9085 on the day. That sees price break the May lows, marking the lowest levels since March.",
-    "Meanwhile, 10-year Treasury yields are also down a little over 5 bps to 4.848%. And while lower yields might supposedly be a good thing for tech stocks, the context matters just as much - if not even more. The rush to bonds is essentially a signal that traders are definitely running out of safety options amid a wide selloff in leveraged positions in the likes of stocks, gold, and Bitcoin.",
-    "In the commodities space, gold is down 0.8% to $3,525 but briefly broke below $3,500 in the past hour as the downside pressure is building.",
-    "All eyes are on Wall Street again and the crucial test for markets will be whether tech stocks can absorb the continued selling pressure at the open or whether we see another wave of liquidation as the session progresses.",
-    "And don't forget about the economic calendar too, there's the US PCE price inflation data on the agenda. Another round of inflation fears will do little to help traders and investors grasp at straws in search of a potential turnaround before the Thanksgiving holiday comes around tomorrow."
-   ]
   }
  ],
  "tweets": [
@@ -596,8 +586,9 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
