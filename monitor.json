@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 10:01 PKT",
+ "updated": "25-11-2026 10:16 PKT",
  "gold": {
-  "price": 3549.27,
-  "open": 3636.06,
+  "price": 3546.23,
+  "open": 3631.4,
   "high": 3646.18,
   "low": 3534.11,
-  "chg": -2.39,
+  "chg": -2.35,
   "src": "XAUUSD Spot",
   "spark": [
-   3563.92,
    3567.72,
    3566.82,
    3563.15,
@@ -55,16 +54,16 @@
    3551.12,
    3548.35,
    3550.31,
-   3549.27
+   3546.41,
+   3546.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 40.76,
-   "chg": -5.53,
+   "price": 40.525,
+   "chg": -0.58,
    "spark": [
-    54.108,
     54.293,
     53.457,
     52.191,
@@ -85,44 +84,15 @@
     44.318,
     41.035,
     43.147,
-    40.76
-   ]
-  },
-  {
-   "name": "Dollar Index",
-   "price": 103.81,
-   "chg": -0.49,
-   "spark": [
-    101.96,
-    102.32,
-    102.19,
-    102.04,
-    101.88,
-    101.75,
-    101.87,
-    101.51,
-    101.55,
-    102.3,
-    101.65,
-    102.23,
-    102.91,
-    103.17,
-    103.41,
-    103.55,
-    103.49,
-    103.86,
-    103.9,
-    103.81,
-    104.32,
-    103.81
+    40.76,
+    40.525
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 82.05,
-   "chg": 2.35,
+   "price": 80.68,
+   "chg": -1.67,
    "spark": [
-    101.76,
     99.9,
     102.78,
     102.0,
@@ -143,7 +113,8 @@
     83.21,
     83.98,
     80.17,
-    82.05
+    82.05,
+    80.68
    ]
   },
   {
@@ -205,9 +176,38 @@
    ]
   },
   {
+   "name": "GBP/USD",
+   "price": 1.309,
+   "chg": 0.43,
+   "spark": [
+    1.3345,
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3185,
+    1.3205,
+    1.3147,
+    1.3086,
+    1.3095,
+    1.3035,
+    1.309
+   ]
+  },
+  {
    "name": "USD/JPY",
-   "price": 159.388,
-   "chg": 0.24,
+   "price": 159.411,
+   "chg": 0.25,
    "spark": [
     157.528,
     157.993,
@@ -230,13 +230,13 @@
     159.707,
     158.931,
     159.009,
-    159.388
+    159.411
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1658.86,
-   "chg": -1.12,
+   "price": 1656.05,
+   "chg": -1.29,
    "spark": [
     1722.0,
     1719.98,
@@ -285,13 +285,13 @@
     1654.26,
     1662.47,
     1657.85,
-    1658.86
+    1656.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59128.7,
-   "chg": -1.03,
+   "price": 59051.3,
+   "chg": -1.15,
    "spark": [
     61380.9,
     61371.2,
@@ -340,7 +340,7 @@
     59151.6,
     59336.7,
     59141.4,
-    59128.7
+    59050.1
    ]
   }
  ],
@@ -373,39 +373,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795582910.36122,
+   "ts": 1795583810.423176,
    "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616",
-   "t": "25 Nov \u00b7 10:01 AM"
+   "t": "25 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795582910.36122,
+   "ts": 1795583810.423176,
    "title": "Trump administration set to unveil new tariffs after probe\u00a0on excess factory capacity, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "25 Nov \u00b7 10:01 AM"
+   "t": "25 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795582910.36122,
+   "ts": 1795583810.423176,
    "title": "Gold holds near 15-mth lows on Fed hike bets; PCE inflation awaited",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "25 Nov \u00b7 10:01 AM"
+   "t": "25 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795582910.36122,
+   "ts": 1795583810.423176,
    "title": "Oil climbs amid Hormuz attacks, report that U.S. is targeting top Iranian leaders",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712",
-   "t": "25 Nov \u00b7 10:01 AM"
+   "t": "25 Nov \u00b7 10:16 AM"
   },
   {
-   "ts": 1795582910.36122,
+   "ts": 1795583810.423176,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "25 Nov \u00b7 10:01 AM"
+   "t": "25 Nov \u00b7 10:16 AM"
   },
   {
    "ts": 1795578686.0,
