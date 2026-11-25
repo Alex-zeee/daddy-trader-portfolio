@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 10:22 PKT",
+ "updated": "25-11-2026 10:31 PKT",
  "gold": {
-  "price": 3548.37,
-  "open": 3631.4,
+  "price": 3540.75,
+  "open": 3637.94,
   "high": 3646.18,
   "low": 3534.11,
-  "chg": -2.29,
+  "chg": -2.67,
   "src": "XAUUSD Spot",
   "spark": [
-   3567.72,
    3566.82,
    3563.15,
    3561.89,
@@ -55,14 +54,15 @@
    3548.35,
    3550.31,
    3546.41,
-   3548.37
+   3542.56,
+   3540.75
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 40.525,
-   "chg": -0.58,
+   "price": 40.565,
+   "chg": -0.48,
    "spark": [
     54.293,
     53.457,
@@ -85,13 +85,13 @@
     41.035,
     43.147,
     40.76,
-    40.525
+    40.565
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.992,
-   "chg": 0.18,
+   "price": 103.991,
+   "chg": 0.17,
    "spark": [
     102.32,
     102.19,
@@ -114,13 +114,13 @@
     103.81,
     104.32,
     103.81,
-    103.992
+    103.991
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.73,
-   "chg": -1.61,
+   "price": 80.61,
+   "chg": -1.76,
    "spark": [
     99.9,
     102.78,
@@ -143,13 +143,42 @@
     83.98,
     80.17,
     82.05,
-    80.73
+    80.61
+   ]
+  },
+  {
+   "name": "US 10Y Yield",
+   "price": 4.904,
+   "chg": -0.28,
+   "spark": [
+    4.986,
+    4.993,
+    5.045,
+    4.989,
+    4.929,
+    4.894,
+    4.952,
+    4.894,
+    4.837,
+    4.859,
+    4.864,
+    4.983,
+    4.998,
+    5.103,
+    5.154,
+    5.121,
+    5.103,
+    5.066,
+    5.052,
+    4.912,
+    4.918,
+    4.904
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0948,
-   "chg": 0.37,
+   "price": 1.0949,
+   "chg": 0.38,
    "spark": [
     1.1174,
     1.113,
@@ -172,7 +201,7 @@
     1.097,
     1.0972,
     1.0908,
-    1.0948
+    1.0949
    ]
   },
   {
@@ -206,8 +235,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.462,
-   "chg": 0.28,
+   "price": 159.466,
+   "chg": 0.29,
    "spark": [
     157.528,
     157.993,
@@ -230,13 +259,13 @@
     159.707,
     158.931,
     159.009,
-    159.462
+    159.466
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1655.59,
-   "chg": -1.32,
+   "price": 1654.35,
+   "chg": -1.39,
    "spark": [
     1722.0,
     1719.98,
@@ -285,13 +314,13 @@
     1654.26,
     1662.47,
     1657.85,
-    1655.59
+    1654.35
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59040.9,
-   "chg": -1.17,
+   "price": 59019.6,
+   "chg": -1.21,
    "spark": [
     61380.9,
     61371.2,
@@ -340,7 +369,7 @@
     59151.6,
     59336.7,
     59141.4,
-    59045.5
+    59019.6
    ]
   }
  ],
@@ -373,39 +402,39 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795584178.654745,
+   "ts": 1795584708.164349,
    "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616",
-   "t": "25 Nov \u00b7 10:22 AM"
+   "t": "25 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795584178.654745,
+   "ts": 1795584708.164349,
    "title": "Trump administration set to unveil new tariffs after probe\u00a0on excess factory capacity, sources say",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "25 Nov \u00b7 10:22 AM"
+   "t": "25 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795584178.654745,
+   "ts": 1795584708.164349,
    "title": "Gold holds near 15-mth lows on Fed hike bets; PCE inflation awaited",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "25 Nov \u00b7 10:22 AM"
+   "t": "25 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795584178.654745,
+   "ts": 1795584708.164349,
    "title": "Oil climbs amid Hormuz attacks, report that U.S. is targeting top Iranian leaders",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712",
-   "t": "25 Nov \u00b7 10:22 AM"
+   "t": "25 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795584178.654745,
+   "ts": 1795584708.164349,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "25 Nov \u00b7 10:22 AM"
+   "t": "25 Nov \u00b7 10:31 AM"
   },
   {
    "ts": 1795578686.0,
@@ -501,12 +530,6 @@
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaG9xa0dGRXVNS0g5OG5tMVBBOHVnLS1Kd3RpcXZBVmpydjM2ekREV1VrRXBpNnpYaGpjZEtJLTNxSGVIVlJkQVFrelFIS0FUT1NxaXlNQWFmYldKdnpTRjY1YnpvcFgxdnRTM21sTV96WjIwMUxCZnFwTFRScmhzaklDMVhYc2tTdHNRb3RKSXRVS09GR1NJcEFwTUprdXJlWW5r0gGoAUFVX3lxTE90Y0lfajNLLUVQaFkzekkxLTh2ZWJLakMtWVNQZ1Jwc2ZCeEJHZHJ3N0Z2Qno3ZE1nSnM0QVRFTFJ5QTFsbWUwSEpubWNiSGxjT1paLUdVZDl3djVLQk1FX1FFMDZCNGVVSXJmcFpOWHpOTXRKVFZ4WjhiRDdsMUJfOG1GOF9FbGJFbDV4Tl9vaWtIZ2RtZHhkUFVRS2VlelA2aTNoOC0tSA?oc=5"
   },
   {
-   "ts": 1795548660.0,
-   "title": "Global economic shocks \u2018likely to be larger, more frequent,\u2019 BoC\u2019s Macklem says",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb0VHYVZ0eDBGSm9MU2NWUG8zQWFObnIxbUowZjBmdGYyQllleUdNdXB6S0pCWl9iT0ZhYkhMMEo0LUpJSGFMYm9rdmN5U3k1M3RmTnFxVkE5QmxOSlctTkMwNG5SdVFGZ3RQeHlzS19uSVdYdWdicVFWaXQxMDZJNlAtbk4tYkVsVmJUR3hETE55MkHSAZgBQVVfeXFMTmw4cTc1WklFdnhvNGRZekdPcjNKMTFxaGFZcW9kLTV0NDJWelU2MUk4OG0xYlpQV0ZaN0xsVTdCaE5KSnVfVmN5eXRaVTM4Q0dLMlZuZEdTUHhwM1NyRjRQVHVwRHBucmI1OGhyenJaYU1zaXpBejBMWDJ2VlMtYXBSbE1HN3BFa2RQWWRXcUxwQ0ZpV00xRXU?oc=5"
-  },
-  {
    "ts": 1795545276.0,
    "title": "US ADP National Employment Report Preliminary Estimate for November 7, 2026",
    "src": "ForexFactory",
@@ -529,6 +552,12 @@
    "title": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPckpVeFR0ejdFWHdiRFd6VHpDXzRzb0dWank4cnhVSElkYmp3QXJQYmwwTko5amR2UnhFdHYzeno2bFFuQUdndDIyY0NJUmdJQ0xTaXpVZVYxMFVWaWkwUmpQMnRNRFpjbGZjWllhR0pXRVhrbUQ2WFU5aUZPZExVa0JWSGVwWk45dGfSAY8BQVVfeXFMTzRYR3NUVG5SeERpVkNKOWozZHVOTlNIYkR6eFg4OWpCSVQ3LWp5NTlzbzAyTWZJdlBpbUNIbS1wamNvQVVMbDZUM1QyUVE2YXUwWlgtYUUxcURsT3lVMFQ0dmJxMkxYUk1SMVlFa3h3anRFNXU1OTFkelZlVXlfWXA5X0dLeHJfS1J6SkNKb3c?oc=5"
+  },
+  {
+   "ts": 1795517019.0,
+   "title": "Kremlin: Europeans are pushing for four-way Ukraine talks - TASS",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbkV4ZXZlM2h5YnJnQXc4ZFVpdk4yZTVCV2xrT0gySm40UGVmdTlqSFlfdndHNm1CQk9fUjZFc1VqdTl5Umswck9tdGgtbnlHdFA4MldvN3NaTFczTHhFOUczemRLbjFZcnpYSFpfU3pIY1lWd3FkQ1QzRU9YelhYZEFCUW5oUFd6Ul92OVJYS2tNWWZpQ29KZDZlblotQmfSAaQBQVVfeXFMUDEtZHE3MjdzWS1KQ0xMX1ZFeXR1c0xBd3FSWTgxanB6UnJQT2tMc1hXMTR2ZEdoZ3dWTGhhQnBvV0Q4TnVYNVZqOVJMNWEwd2xqQnBnOE1RVkFPRVBDZHVfeGNXaFR1TTZyZmNDMk5XclBkY3BBTFF5ZVpQZnlYRTR5dWdGNnpuQm9aYjVUNTVmeVVNM0J4TUZUMDd4b3R4azVNZUk?oc=5"
   }
  ],
  "sentiment": {
