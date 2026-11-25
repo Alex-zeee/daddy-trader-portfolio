@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 08:01 PKT",
+ "updated": "25-11-2026 08:16 PKT",
  "gold": {
-  "price": 3551.64,
-  "open": 3633.09,
+  "price": 3557.5,
+  "open": 3632.7,
   "high": 3646.18,
   "low": 3534.11,
-  "chg": -2.24,
+  "chg": -2.07,
   "src": "XAUUSD Spot",
   "spark": [
-   3584.6,
    3581.65,
    3567.61,
    3566.87,
@@ -55,14 +54,15 @@
    3565.61,
    3560.46,
    3552.67,
-   3551.64
+   3560.23,
+   3557.5
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 40.605,
-   "chg": -5.89,
+   "price": 40.595,
+   "chg": -5.91,
    "spark": [
     54.108,
     54.293,
@@ -85,13 +85,13 @@
     44.318,
     41.035,
     43.147,
-    40.605
+    40.595
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.896,
-   "chg": -0.41,
+   "price": 103.902,
+   "chg": -0.4,
    "spark": [
     101.96,
     102.32,
@@ -114,13 +114,13 @@
     103.9,
     103.81,
     104.32,
-    103.896
+    103.902
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.79,
-   "chg": 0.77,
+   "price": 80.66,
+   "chg": 0.61,
    "spark": [
     101.76,
     99.9,
@@ -143,7 +143,7 @@
     83.21,
     83.98,
     80.17,
-    80.79
+    80.66
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0957,
-   "chg": 0.44,
+   "price": 1.0955,
+   "chg": 0.43,
    "spark": [
     1.1174,
     1.113,
@@ -201,13 +201,13 @@
     1.097,
     1.0972,
     1.0908,
-    1.0957
+    1.0955
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3101,
-   "chg": 0.51,
+   "price": 1.3098,
+   "chg": 0.49,
    "spark": [
     1.3345,
     1.3306,
@@ -230,13 +230,13 @@
     1.3086,
     1.3095,
     1.3035,
-    1.3101
+    1.3098
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.158,
-   "chg": 0.09,
+   "price": 159.191,
+   "chg": 0.11,
    "spark": [
     157.528,
     157.993,
@@ -259,13 +259,13 @@
     159.707,
     158.931,
     159.009,
-    159.158
+    159.191
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1651.39,
-   "chg": -1.57,
+   "price": 1661.56,
+   "chg": -0.96,
    "spark": [
     1724.47,
     1729.94,
@@ -314,13 +314,13 @@
     1671.05,
     1655.87,
     1654.26,
-    1651.39
+    1662.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59054.2,
-   "chg": -1.15,
+   "price": 59393.2,
+   "chg": -0.58,
    "spark": [
     61150.5,
     61593.5,
@@ -369,7 +369,7 @@
     59572.1,
     59190.4,
     59151.6,
-    59054.2
+    59393.2
    ]
   }
  ],
@@ -402,18 +402,42 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795575705.552543,
+   "ts": 1795576605.137715,
+   "title": "Gold holds near 15-mth lows on Fed hike bets; PCE inflation awaited",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
+   "t": "25 Nov \u00b7 08:16 AM"
+  },
+  {
+   "ts": 1795576605.137715,
    "title": "Oil climbs amid Hormuz attacks, report that U.S. is targeting top Iranian leaders",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712",
-   "t": "25 Nov \u00b7 08:01 AM"
+   "t": "25 Nov \u00b7 08:16 AM"
   },
   {
-   "ts": 1795575705.552543,
+   "ts": 1795576605.137715,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "25 Nov \u00b7 08:01 AM"
+   "t": "25 Nov \u00b7 08:16 AM"
+  },
+  {
+   "ts": 1795573735.0,
+   "title": "Goldman sees TOPIX up 20% to 4,500 and names five themes for Japanese stocks in 2027",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/goldman-sees-topix-up-20-to-4-500-and-names-five-themes-for-japanese-stocks-in-2027/",
+   "t": "25 Nov \u00b7 07:28 AM",
+   "body": [
+    "Goldman's call hinges on continued global AI spending, which leaves Japanese stocks exposed to the same AI-funding doubts that have hit US technology shares this month. The expected broadening could favour mid-cap restructuring candidates, trading houses, shippers and energy firms over the crowded AI and bank trades that led this year. A steady flow of takeover bids and buyouts would add a deal premium across the market. On the macro side, further Bank of Japan hikes, made more likely by Wednesday's hot services inflation reading, would lift the yen and could weigh on exporters. It would, however, support the banks' earnings base.",
+    "Goldman Sachs expects another strong year for Japanese stocks, with the TOPIX seen at 4,500, but says the rally should rely less on AI and banks and more on restructuring, robotics, energy security and a government push for companies to spend.",
+    "Japanese stocks are set to rally again over the coming year, but the drivers of the gains are likely to change, according to Goldman Sachs Research. The bank's strategists project the TOPIX index will rise about 20% to 4,500 over the next 12 months, based on forecasts for earnings per share growth of 9% in fiscal 2027, as long as global spending on artificial intelligence continues.",
+    "Bruce Kirk, Goldman's chief Japan equity strategist, describes 2027 as a transitional year for the market. Gains over the past three years have been driven mainly by AI-related stocks, banks and the Bank of Japan's move away from ultra-loose policy. Kirk expects the rally to broaden as investors diversify into less crowded and less volatile themes, and as the government steps up efforts to get companies to put their cash to work.",
+    "That policy push is coordinated across Tokyo. Kirk points to a consistent message from the Tokyo Stock Exchange, the Financial Services Agency, the Ministry of Economy, Trade and Industry and Prime Minister Sanae Takaichi's administration, all encouraging firms to use excess cash reserves to fund future growth. Japan's revised corporate governance code now emphasises growth-oriented governance and fair treatment of minority shareholders in mergers.",
+    "Goldman argues that lifting the TOPIX's return on equity, which still lags many global markets, will require more forceful restructuring than has occurred so far, including mergers, segment overhauls and sector consolidation. It expects a significant rise in takeover bids, management buyouts and industry consolidation from 2027.",
+    "Kirk identifies five themes for investors. The first is AI innovation and quality, with higher-quality AI-related companies having outperformed their peers. The second is corporate restructuring. The third is physical AI: labour costs for non-financial TOPIX companies rose to 10.5% of sales in fiscal 2025, a decade high, while Goldman expects humanoid robot prices to halve to about $21,000 by 2035, and the government is targeting 350,000 AI robots by 2030. The fourth is energy and resource security. Japan imports almost all of its oil, gas, coal and critical minerals, and its energy self-sufficiency, at 16% in 2024, remains low. Government plans to diversify supply and expand solar, thermal and advanced nuclear power could benefit trading houses, shipping firms, energy companies and heavy industry, with overlap seen with projects under the $550 billion US-Japan trade deal. The fifth is cybersecurity, where Tokyo wants domestic firms to reach annual revenue of more than 3 trillion yen by 2035.",
+    "The energy theme is already playing out. Japan this week agreed to buy up to 8 million barrels of Saudi crude to refill its strategic reserve, while giving Riyadh more storage capacity on Japanese soil."
+   ]
   },
   {
    "ts": 1795570018.0,
@@ -500,45 +524,6 @@
     "The Fed raised rates in September to a 3.75% to 4.00% target range and held in October in a 10 to 2 vote, with two dissenters preferring a hike. Futures put the odds of a quarter-point increase in December at around 90%. Goldman Sachs expects hikes in December and March, while Bank of America sees three quarter-point increases in December, January and March, so a firm core reading would mainly feed into expectations for the early months of 2027.",
     "Several other releases land at the same time, including the second estimate of third-quarter GDP, weekly jobless claims brought forward because of Thanksgiving, and personal income and spending. The Fed's Beige Book follows at 19:00 GMT. With US equity markets closed on Thursday and closing early on Friday, thin holiday liquidity could amplify any surprise."
    ]
-  },
-  {
-   "ts": 1795558364.0,
-   "title": "JPMorgan's 8,200 S&P 500 target for 2027 sits below peers as Fed risk tempers AI upside",
-   "src": "investingLive",
-   "link": "https://investinglive.com/stock-market-update/jpmorgan-s-8-200-s-p-500-target-for-2027-sits-below-peers-as-fed-risk-tempers-ai-upside/",
-   "t": "25 Nov \u00b7 03:12 AM",
-   "body": [
-    "A major bank calling the recent tech sell-off a better entry point could support dip buying in AI-linked megacaps, though the below-consensus target also argues for keeping expectations in check. Rate-sensitive sectors look most exposed to the risk JPMorgan names, and so do richly valued growth names, if Fed tightening pushes financial conditions tighter still. For futures traders, the note adds to a two-sided view: positioning has reset, but sentiment is fragile and liquidity thinner, which could keep volatility high through year-end.",
-    "JPMorgan still sees AI earnings lifting US stocks through 2027, but its 8,200 target leaves less room than rival banks' targets do for a Fed that stays tight.",
-    "JPMorgan expects the S&P 500 to end 2027 at 8,200, a gain of about 14% from current levels, but its target sits at the cautious end of Wall Street forecasts as rising US interest rates cloud the outlook. The call, from the bank's global markets strategy team led by Dubravko Lakos-Bujas, is below a consensus of around 8,470 compiled by Bloomberg, and well short of the 8,700 year-end targets set by strategists at Goldman Sachs and Morgan Stanley. It is in line with forecasts from UBS Global Wealth Management, Wells Fargo and Bank of America.",
-    "The strategists remain constructive on the earnings picture. They expect above-trend profit growth tied to what they describe as an AI supercycle, arguing that demand for computing power and the rapid pace of technical progress should support another year of heavy AI investment. In their view, the AI cycle is broadly intact despite recent doubts over the pace and financing of that spending.",
-    "They also see an opportunity in the recent sell-off. A momentum unwind and a broader reset in positioning have, the team argues, improved the near-term risk-reward for equities. The S&P 500 is up nearly 5% this year but roughly 8% below its October record near 7,840, with AI-linked stocks leading the decline.",
-    "The restraint in the target comes from the policy backdrop. Higher interest rates and uncertainty around AI following the US midterm elections have weighed on sentiment, and the strategists see a gradual recovery only if the Federal Reserve gives more weight to its growth mandate alongside price stability. The main risk they identify is collateral damage from monetary tightening, at a time when financial conditions and liquidity have already worsened and investor sentiment remains fragile.",
-    "That framing puts the Fed at the centre of the 2027 equity story. With the central bank on a hiking path, one reading of JPMorgan's call is that earnings can still carry US stocks higher, but with less help from rising valuations than its more bullish peers may be counting on. The gap between the 8,200 and 8,700 camps is likely to narrow or widen depending on how quickly inflation eases and whether the Fed signals that its tightening is close to an end."
-   ]
-  },
-  {
-   "ts": 1795555801.0,
-   "title": "investingLive Americas FX news wrap 24 Nov: It\u2019s a Wrap. Chip stocks slide. Anthropic breaks IPO price. USD lower.",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/",
-   "t": "25 Nov \u00b7 02:30 AM",
-   "body": [
-    "Monday\u2019s Nvidia-led rally lost momentum Tuesday. Chip and AI infrastructure shares took the brunt of the selling, and Anthropic finished below its $83 IPO price after briefly trading back above it. The Dow and Russell 2000 held up as the Nasdaq slid.",
-    "A report that the Trump administration is preparing fresh tariffs on China, the EU and 14 other economies put import costs and inflation back in focus. Here we go again. I smell Steven Miller - new Chief of Staff - exerting his pressure on Trump images.investinglive.com",
-    "Treasury yields edged higher, led by the 2-year, while the dollar fell against most of the majors. Oil rebounded as gold, silver and Bitcoin moved lower.",
-    "The USD was weakest against the Swiss franc and strongest against the Japanese yen. USDCHF fell 0.72% to 0.8354, while USDJPY rose 0.14% to 159.23. USDCAD fell 0.63% to 1.4268. Higher oil helped support the loonie, and Bank of Canada Governor Tiff Macklem said the Bank may need to respond sooner or more forcefully to large or persistent supply shocks. The renewed policy framework keeps the 2% inflation target. images.investinglive.com",
-    "EURUSD rose 0.58% to 1.0964, GBPUSD gained 0.61% to 1.3110, AUDUSD rose 0.21% to 0.6640 and NZDUSD gained 0.61% to 0.5482.",
-    "The 2s10s curve flattened modestly. Firmer confidence and higher oil were consistent with the front end leading the move. The $70 billion 5-year auction stopped at 4.719% with a small tail and a 2.37x bid-to-cover ratio. Direct bidders took 36.7%, helping offset softer indirect demand. investinglive.com",
-    "Nvidia fell 5.86% to $155.38 after surging 31.48% on Monday following Jensen Huang\u2019s return as CEO. The selling was heavier across parts of the AI trade. Astera Labs fell 13.88%, Credo lost 13.07%, Micron fell 10.97% and AI cloud provider CoreWeave dropped 11.85%. Apple gained 1.43% and Microsoft added 0.74%. The S&P 500\u2019s 0.49% decline masked how hard the chip and AI infrastructure names were hit. investinglive.com",
-    "Anthropic finished at $81.91, down 6.54%. It traded as low as $75.61 and as high as $83.49. That makes the $83 IPO price the first barometer for the next session. Buyers got above it briefly today, then gave it back.",
-    "November consumer confidence jumped to 103.3 from a revised 91.9, with both current conditions and expectations improving. The Richmond Fed manufacturing index rose to +3 from \u22122 as new orders rebounded. Firms reported faster input-cost growth, while selling-price growth held steady. investinglive.com",
-    "September FHFA house prices were flat month over month versus +0.2% expected. The Case-Shiller 20-city index rose 2.6% year over year versus 2.7% expected. National Bank of Canada economist Jocelyn Paquet highlighted the squeeze on builders. High mortgage rates are holding back demand, residential construction input prices are up nearly 60% since the pandemic began, and builder sentiment is at its lowest since 2012. The AI investment boom has helped mask how much higher rates are weighing on housing. investinglive.com InvestingLive\u2019s housing analysis",
-    "WTI settled at $82.05, up $1.88 or 2.35%, then eased to $81.40, up 1.53%, in the later snapshot. The settlement was two cents above the falling 100-hour moving average at $82.03. The pullback put WTI back below it, leaving $82.03 as the barometer for whether buyers can build on the rebound. Iranian state media reported that the army commander called for tighter control of the Strait of Hormuz until Tehran\u2019s conditions are met, keeping supply risks in focus. investinglive.com WTI settlement and technicals",
-    "Spot gold fell 2.30% to $3,551.02, while silver slid 5.59% to $40.729. Gold got little help from the softer dollar as Treasury yields edged higher. Silver and copper both fell more than 4%, consistent with broader selling across metals. For gold buyers, the 100-hour moving average remains the first hurdle after another rejection. images.investinglive.com Gold technical analysis",
-    "Bitcoin was down 2.57% at $59,638 late in the session. It traded with the Nasdaq and other risk-sensitive assets as the bounce that followed Monday\u2019s Nvidia news faded. images.investinglive.com",
-    "The first question is whether buyers return to the chip stocks and whether Anthropic can get back above $83 and stay there. Watch $82.03 in WTI alongside the pending tariff details. A move back above $60,000 in Bitcoin would be another sign that buyers are returning to risk-sensitive assets."
-   ]
   }
  ],
  "tweets": [
@@ -585,7 +570,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 2/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
