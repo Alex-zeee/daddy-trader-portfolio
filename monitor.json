@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 22:01 PKT",
+ "updated": "25-11-2026 22:16 PKT",
  "gold": {
-  "price": 3468.27,
-  "open": 3573.03,
+  "price": 3496.59,
+  "open": 3563.65,
   "high": 3575.65,
   "low": 3426.48,
-  "chg": -2.93,
+  "chg": -1.88,
   "src": "XAUUSD Spot",
   "spark": [
-   3542.56,
    3533.7,
    3525.21,
    3529.46,
@@ -55,14 +54,15 @@
    3463.25,
    3452.74,
    3466.14,
-   3468.27
+   3492.7,
+   3496.59
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 38.84,
-   "chg": -4.71,
+   "price": 39.465,
+   "chg": -3.18,
    "spark": [
     54.293,
     53.457,
@@ -85,13 +85,13 @@
     41.035,
     43.147,
     40.76,
-    38.84
+    39.465
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.763,
-   "chg": -0.05,
+   "price": 103.636,
+   "chg": -0.17,
    "spark": [
     102.32,
     102.19,
@@ -114,13 +114,13 @@
     103.81,
     104.32,
     103.81,
-    103.763
+    103.636
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.17,
-   "chg": 1.37,
+   "price": 83.23,
+   "chg": 1.44,
    "spark": [
     99.9,
     102.78,
@@ -143,13 +143,13 @@
     83.98,
     80.17,
     82.05,
-    83.17
+    83.23
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.813,
-   "chg": -1.86,
+   "price": 4.814,
+   "chg": -1.84,
    "spark": [
     4.993,
     5.045,
@@ -172,13 +172,13 @@
     4.912,
     4.918,
     4.904,
-    4.813
+    4.814
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0983,
-   "chg": 0.69,
+   "price": 1.0985,
+   "chg": 0.71,
    "spark": [
     1.1174,
     1.113,
@@ -201,13 +201,13 @@
     1.097,
     1.0972,
     1.0908,
-    1.0983
+    1.0985
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3104,
-   "chg": 0.53,
+   "price": 1.311,
+   "chg": 0.58,
    "spark": [
     1.3345,
     1.3306,
@@ -230,13 +230,13 @@
     1.3086,
     1.3095,
     1.3035,
-    1.3104
+    1.311
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 158.729,
-   "chg": -0.18,
+   "price": 158.863,
+   "chg": -0.09,
    "spark": [
     157.528,
     157.993,
@@ -259,13 +259,13 @@
     159.707,
     158.931,
     159.009,
-    158.729
+    158.863
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1642.99,
-   "chg": -2.07,
+   "price": 1663.39,
+   "chg": -0.85,
    "spark": [
     1738.39,
     1729.73,
@@ -314,13 +314,13 @@
     1644.2,
     1646.18,
     1643.63,
-    1642.99
+    1663.39
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58472.5,
-   "chg": -2.12,
+   "price": 59405.7,
+   "chg": -0.56,
    "spark": [
     61320.2,
     61191.6,
@@ -369,7 +369,7 @@
     58156.8,
     58277.2,
     58533.9,
-    58494.1
+    59405.7
    ]
   }
  ],
@@ -426,32 +426,42 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795626113.995175,
+   "ts": 1795627004.809796,
+   "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616",
+   "t": "25 Nov \u00b7 10:16 PM"
+  },
+  {
+   "ts": 1795627004.809796,
    "title": "US proposes higher tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "25 Nov \u00b7 10:01 PM"
+   "t": "25 Nov \u00b7 10:16 PM"
   },
   {
-   "ts": 1795626113.995175,
+   "ts": 1795627004.809796,
    "title": "Gold slides below $3,500 amid Fed rate hike expectations, AI stock rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "25 Nov \u00b7 10:01 PM"
+   "t": "25 Nov \u00b7 10:16 PM"
   },
   {
-   "ts": 1795626113.995175,
+   "ts": 1795627004.809796,
    "title": "India\u2019s RBI raises domestic gold holdings to 740 tonnes in September",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/indias-rbi-raises-domestic-gold-holdings-to-740-tonnes-in-september-93CH-5051080",
-   "t": "25 Nov \u00b7 10:01 PM"
+   "t": "25 Nov \u00b7 10:16 PM"
   },
   {
-   "ts": 1795626113.995175,
-   "title": "Morning Bid: Tariff fear compounds AI recoil",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/morning-bid-tariff-fear-compounds-ai-recoil-5050399",
-   "t": "25 Nov \u00b7 10:01 PM"
+   "ts": 1795625650.0,
+   "title": "US treasury sells 44 billion of 70 or notes at a high yield of 4.708%",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/us-treasury-sells-44-billion-of-70-or-notes-at-a-high-yield-of-4-708/",
+   "t": "25 Nov \u00b7 09:54 PM",
+   "body": [
+    "The auction was mixed but still better than average. The high yield came in 1.0 basis point above the when-issued level, and the bid to cover was a touch below average. Indirect bidders took a smaller share than usual, but stronger direct demand more than made up for that shortfall, leaving dealers with just 8.61% of the issue. The lighter dealer takedown was a positive that tipped the grade to above average but still on the border between a C+ and a B-."
+   ]
   },
   {
    "ts": 1795621635.0,
@@ -540,27 +550,6 @@
     "All eyes are on Wall Street again and the crucial test for markets will be whether tech stocks can absorb the continued selling pressure at the open or whether we see another wave of liquidation as the session progresses.",
     "And don't forget about the economic calendar too, there's the US PCE price inflation data on the agenda. Another round of inflation fears will do little to help traders and investors grasp at straws in search of a potential turnaround before the Thanksgiving holiday comes around tomorrow."
    ]
-  },
-  {
-   "ts": 1795608240.0,
-   "title": "Solana's bearish outlook persists amid Fed tightening, prolonged US-Iran stalemate and growth concerns",
-   "src": "investingLive",
-   "link": "https://investinglive.com/cryptocurrency/solana-s-bearish-outlook-persists-amid-fed-tightening-prolonged-us-iran-stalemate-and-growth-concerns/",
-   "t": "25 Nov \u00b7 05:04 PM",
-   "body": [
-    "As most other cryptocurrencies, Solana spiked to the upside on Monday after the news of Jensen Huang being reinstated as Nvidia CEO triggered a strong rally in equity markets and helped improve the risk sentiment.",
-    "The gains were quickly faded, though, as the Nvidia news didn\u2019t change the bigger picture and the underlying macro headwinds.",
-    "Moreover, the WSJ reported yesterday that the US is preparing to raise tariffs on China and other countries as early as this week.",
-    "As a reminder, following the Supreme Court ruling against the reciprocal tariffs, the Trump administration has been attempting to recreate a similar tariff structure through a different legal route, with country-specific investigations providing the justification.",
-    "This basically means that the Supreme Court ruling might have temporarily disrupted the tariff agenda without producing a lasting reduction in the effective tariff burden. So, we are going back to broadly similar levels to those imposed in 2025. Overall, this isn't a major gamechanger, but it still adds to inflation and growth concerns.",
-    "Keep in mind that the Fed is still expected to raise interest rates, with the extent of further tightening depending on incoming economic data and stock market conditions. Higher interest rates and tighter financial conditions remain a headwind for risk assets, especially cryptocurrencies like Solana, which are particularly sensitive to changes in liquidity and risk sentiment.",
-    "Meanwhile, the US-Iran stalemate remains unresolved, with Trump continuing to signal the possibility of renewed military action if negotiations fail. This keeps geopolitical risks elevated and adds another layer of uncertainty.",
-    "Therefore, the macro backdrop remains negative for Solana. Looking ahead, Solana will likely remain under pressure. A sustained recovery will likely need a more dovish Fed or a concrete breakthrough in US-Iran negotiations that improves growth expectations and the broader risk appetite.",
-    "On the daily chart, we can see that Solana spiked to the upside on Monday but eventually gave back all the gains. If we get a pullback into the major downward trendline, we can expect the sellers to lean on it, with a defined risk above it, to keep targeting the 60.00 level. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the 98.00 level next.",
-    "On the 4 hour chart, we have a minor resistance zone around the 75.00 level. If we get another recovery, we can expect the sellers to step in around the resistance, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to extend the pullback into the major downward trendline.",
-    "On the 1 hour chart, we have a minor downward trendline defining the bearish momentum on this timeframe. The sellers will likely continue to lean on the trendline, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will look for a break higher to pile in for a rally into the resistance next. The red lines define the average daily range for today.",
-    "Today we have the US Core PCE price index and the latest US Jobless Claims figures."
-   ]
   }
  ],
  "tweets": [
@@ -583,22 +572,22 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZlRZX0F6eWdDZ2JHSl8yMVJ0NFhybEthZU54UndZUW1VcktqX0daRnRnSVZYLUJ6NmY0bUlTR2NreHVUSmJ3R0JIWkNPc183SzZTTTlHVlVlMWFaTkpaVHVxWVc4V1hSRW0zcFhxc0FlQjltYmtKWFhDTDF6X3RBcXBYMUlCRGJ1ZnAtakI0VnpyWlJzdk10ZUhKUWfSAaIBQVVfeXFMUFdqUFRVX2poS2lYYng5UU1yOVNGOHlJRUExVjB0N2Y0MDlqUEtucXRzUXZjb0UxRzVGSVgtQl9uXzR3aFpVNWZQTzl1VXlLYkkybXI3Zkw4Q05KVHRtdGxPWS1XVnA3N015VmZyT3FkQVpDdWthakc3ZFFMSGVLYVFxZnBPZUdqTllvSG5wQWdubl93S2UwM3RqbzNkek5pWEpB?oc=5"
   },
   {
-   "ts": 1795602550.0,
+   "ts": 1795613415.0,
    "title": "US Core PCE Price Index m/m",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
   },
   {
-   "ts": 1795583760.0,
-   "title": "US PCE preview: Inflation seen near 3.8% in the Fed's last read before a December hike",
+   "ts": 1795608265.0,
+   "title": "Gold with No Drama",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY293MDdPNFJRNW9UUFV4aDk5VVNfN0pocjBIYjR4OGdRbm9hU0QzbGFDd1o1Y2RvVUlIY2RlZW9vMkRJSWloOF9id2FZMUZpLUVQZnRJMTJ2aHREcmUyMHZQMHNJRTEwQWc1ZXRWa3ppRVJkNHRkYlFCWk1XQXJXeDRPS2dzQkp6S1HSAY8BQVVfeXFMT0NGQ1RBNUd4NDYwRGZHcUV1czVTMTg0d0c2YlhiWTBoMFBSdnpYMEo5dXJ6Q0N5Q0VQWXNLVDdjdFpXMkJuckR1T2hTTUVUTGMwM05lMGF0OU0wRXRjN0FhMzdpNW0tOHk0eWZnN0JQTlkxY1VnVkZKNHhkOVFuamgyMmJpa09feGF4WGFBYTA?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5majYtMnFmY1FRb21jbzdSMjEyVnk5aFNhWG9rTDdHREZxTEJlZ1BZSTFoeGluWk1aQ21tbUE5eHJKcUg0aWxmUEdDQU81dEVfeExzdnloNktmZml3WXc?oc=5"
   },
   {
-   "ts": 1795569032.0,
-   "title": "Consumer Price Index, Australia, October 2026",
+   "ts": 1795594258.0,
+   "title": "EURUSD & GOLD",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGswZEFMdzFvZGJDY1VsbEs0NXhwLUt4MnN0Zm1JNGNaZzFZaWREOFFhRDlhUDRlaDRHWVRtejI5b1NCdEhPLVZQRjlMajNYUk8zVDRNc0hneklROXNnNGRYeDczcWc2T09pOGV2aG9iaTIzd25hVmJ2bjB1Rmk4a1dVY0cyUGNLX2VQZGln0gGTAUFVX3lxTE8tOWR1WUhNMS1sb2FKMUxtY0hYX3AxSWhxeUpldThWVnY3bUlnTjFzdmJRaTlTaDdKckRSQ1haZHJCbUJkLXVmdllpLTJQRjZMYzAyVnN6cTB5V3hpdDFxWUh6S0RDYkZHLVpCZ3ItVkcxMm4tWXNDYzVYclpZX2JyOXppNU1IWDROdHRLczJySDEwTQ?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CTDBTWm1YcU1CS09NOHBtNVRuTmxGRnEtNkVPQ1otcmFBUEx2YWlaa3I5cDJ2ZXlTbUtZUXFDR2FMZVJ3OU5HeExPVUxIRUNFd20xYzBfLVlRNjF3VGc?oc=5"
   }
  ],
  "sentiment": {
