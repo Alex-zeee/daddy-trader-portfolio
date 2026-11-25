@@ -1,15 +1,13 @@
 {
- "updated": "25-11-2026 21:01 PKT",
+ "updated": "25-11-2026 21:31 PKT",
  "gold": {
-  "price": 3445.63,
-  "open": 3568.25,
+  "price": 3461.16,
+  "open": 3570.2,
   "high": 3576.15,
   "low": 3426.48,
-  "chg": -3.44,
+  "chg": -3.05,
   "src": "XAUUSD Spot",
   "spark": [
-   3551.12,
-   3548.35,
    3550.31,
    3546.41,
    3542.56,
@@ -55,14 +53,16 @@
    3437.64,
    3442.21,
    3450.68,
-   3445.63
+   3447.61,
+   3463.25,
+   3461.16
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 38.885,
-   "chg": -4.6,
+   "price": 39.11,
+   "chg": -4.05,
    "spark": [
     54.293,
     53.457,
@@ -85,13 +85,13 @@
     41.035,
     43.147,
     40.76,
-    38.885
+    39.11
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.97,
-   "chg": 0.15,
+   "price": 103.935,
+   "chg": 0.12,
    "spark": [
     102.32,
     102.19,
@@ -114,13 +114,13 @@
     103.81,
     104.32,
     103.81,
-    103.97
+    103.935
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.12,
-   "chg": 1.3,
+   "price": 83.28,
+   "chg": 1.5,
    "spark": [
     99.9,
     102.78,
@@ -143,13 +143,13 @@
     83.98,
     80.17,
     82.05,
-    83.12
+    83.28
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.816,
-   "chg": -1.79,
+   "price": 4.807,
+   "chg": -1.98,
    "spark": [
     4.993,
     5.045,
@@ -172,13 +172,13 @@
     4.912,
     4.918,
     4.904,
-    4.816
+    4.807
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0953,
-   "chg": 0.41,
+   "price": 1.0951,
+   "chg": 0.39,
    "spark": [
     1.1174,
     1.113,
@@ -201,13 +201,13 @@
     1.097,
     1.0972,
     1.0908,
-    1.0953
+    1.0951
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3064,
-   "chg": 0.22,
+   "price": 1.3072,
+   "chg": 0.29,
    "spark": [
     1.3345,
     1.3306,
@@ -230,13 +230,13 @@
     1.3086,
     1.3095,
     1.3035,
-    1.3064
+    1.3072
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.102,
-   "chg": 0.06,
+   "price": 158.996,
+   "chg": -0.01,
    "spark": [
     157.528,
     157.993,
@@ -259,13 +259,13 @@
     159.707,
     158.931,
     159.009,
-    159.102
+    158.996
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1646.35,
-   "chg": -1.87,
+   "price": 1642.76,
+   "chg": -2.08,
    "spark": [
     1741.38,
     1738.39,
@@ -314,13 +314,13 @@
     1629.74,
     1644.2,
     1646.18,
-    1646.35
+    1642.76
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 58328.4,
-   "chg": -2.37,
+   "price": 58545.2,
+   "chg": -2.0,
    "spark": [
     61605.3,
     61320.2,
@@ -369,11 +369,35 @@
     58012.6,
     58156.8,
     58277.2,
-    58316.2
+    58545.2
    ]
   }
  ],
  "calendar": [
+  {
+   "ts": 1795445100.0,
+   "t": "Mon 23 Nov \u00b7 07:45 PM",
+   "title": "Flash Manufacturing PMI",
+   "impact": "Medium",
+   "forecast": "54.5",
+   "previous": "56.0"
+  },
+  {
+   "ts": 1795445100.0,
+   "t": "Mon 23 Nov \u00b7 07:45 PM",
+   "title": "Flash Services PMI",
+   "impact": "Medium",
+   "forecast": "55.6",
+   "previous": "57.9"
+  },
+  {
+   "ts": 1795532400.0,
+   "t": "Tue 24 Nov \u00b7 08:00 PM",
+   "title": "CB Consumer Confidence",
+   "impact": "Medium",
+   "forecast": "92.4",
+   "previous": "91.7"
+  },
   {
    "ts": 1795613400.0,
    "t": "Wed 25 Nov \u00b7 06:30 PM",
@@ -399,42 +423,52 @@
    "previous": "2.3%"
   }
  ],
- "cal_mode": "upcoming",
+ "cal_mode": "past",
  "news": [
   {
-   "ts": 1795622508.676286,
+   "ts": 1795624314.082285,
    "title": "US proposes higher tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "25 Nov \u00b7 09:01 PM"
+   "t": "25 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1795622508.676286,
+   "ts": 1795624314.082285,
    "title": "Gold slides below $3,500 amid Fed rate hike expectations, AI stock rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "25 Nov \u00b7 09:01 PM"
+   "t": "25 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1795622508.676286,
+   "ts": 1795624314.082285,
    "title": "India\u2019s RBI raises domestic gold holdings to 740 tonnes in September",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/indias-rbi-raises-domestic-gold-holdings-to-740-tonnes-in-september-93CH-5051080",
-   "t": "25 Nov \u00b7 09:01 PM"
+   "t": "25 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1795622508.676286,
+   "ts": 1795624314.082285,
    "title": "Morning Bid: Tariff fear compounds AI recoil",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/morning-bid-tariff-fear-compounds-ai-recoil-5050399",
-   "t": "25 Nov \u00b7 09:01 PM"
+   "t": "25 Nov \u00b7 09:31 PM"
   },
   {
-   "ts": 1795622508.676286,
-   "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "25 Nov \u00b7 09:01 PM"
+   "ts": 1795621635.0,
+   "title": "Gold is sitting on the edge of support at $3,425 despite lower yields",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-is-sitting-on-the-edge-of-support-at-3-425-despite-lower-yields/",
+   "t": "25 Nov \u00b7 08:47 PM",
+   "body": [
+    "Gold is trading near $3,441, down about $115 or 3.24%, after reaching a low of $3,426.72. That low came in just above the bottom of a swing area on the daily chart between $3,425 and $3,500. The sellers took the price right to the edge. Can they get through it?",
+    "Lower yields would typically help gold. Gold pays no interest, so as Treasury yields move lower, the opportunity cost of holding it falls. Today, the liquidation across markets is taking precedence.",
+    "The Nasdaq Composite is down 4.10%, the S&P 500 is down 2.80%, and the Dow is down 1.70% in the snapshot above. When stocks are getting hit that hard, traders raising cash can sell what they own across markets. Gold is getting caught up in that selling today, even as yields move lower.",
+    "For buyers looking for a bounce, the bottom of the swing area gives them a level to lean against with close risk. As long as the price holds above $3,425, they can stay in the game. A break below that level that stays below would give the sellers the go-ahead to probe lower, with the 61.8% retracement at $3,140.67 the next major downside target on the daily chart.",
+    "On the topside, the first job for buyers is to get and stay above $3,500. That would put the price back above the swing area and give buyers a technical victory. The next hurdle is the 50% midpoint at $3,610.01. Getting above both levels would do more to dig gold out of its bearish bias.",
+    "In the video, I show why the $3,425\u2013$3,500 swing area matters, where buyers can define their risk, and what the price needs to do to give either side more control.",
+    "Lower yields can give you a reason to look for a bounce in gold. The chart gives you a place to define your risk. Here, a trader leaning against $3,425 has a nearby level to judge whether the trade is working. If the price breaks and stays below it, the technical reason for leaning against support is gone. If it holds, watch how the price behaves at $3,500. That next test can tell you whether buyers are starting to take back some control.",
+    "Want to better understand what's driving price movements beyond traditional charts? Learn how to read buying and selling pressure with order flow trading."
+   ]
   },
   {
    "ts": 1795616325.0,
@@ -543,16 +577,16 @@
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nUGZMZng5eXE2cVhxNUJKT0xRbmV2NUdxNjhQNTU4OEdZTXA4UklDeDBhVDBUcGwzNDVsYXpWd2ZwOGI5d1g4Tlg3cFNnOFhLSXRFVVBKNDY0Qk5qVVE?oc=5"
   },
   {
+   "ts": 1795616624.0,
+   "title": "Dhingra: Annual Report to the Treasury Select Committee",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZlRZX0F6eWdDZ2JHSl8yMVJ0NFhybEthZU54UndZUW1VcktqX0daRnRnSVZYLUJ6NmY0bUlTR2NreHVUSmJ3R0JIWkNPc183SzZTTTlHVlVlMWFaTkpaVHVxWVc4V1hSRW0zcFhxc0FlQjltYmtKWFhDTDF6X3RBcXBYMUlCRGJ1ZnAtakI0VnpyWlJzdk10ZUhKUWfSAaIBQVVfeXFMUFdqUFRVX2poS2lYYng5UU1yOVNGOHlJRUExVjB0N2Y0MDlqUEtucXRzUXZjb0UxRzVGSVgtQl9uXzR3aFpVNWZQTzl1VXlLYkkybXI3Zkw4Q05KVHRtdGxPWS1XVnA3N015VmZyT3FkQVpDdWthakc3ZFFMSGVLYVFxZnBPZUdqTllvSG5wQWdubl93S2UwM3RqbzNkek5pWEpB?oc=5"
+  },
+  {
    "ts": 1795611811.0,
    "title": "Forex Factory | Global markets for the smart money.",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5NcWd2U01TN3MtWlQ3V1JsalhydV9KRFlQVzB4d0hOMTdZUVp1ZVViRDRGMTEwYTFqbDdod3gySUJhSW8?oc=5"
-  },
-  {
-   "ts": 1795602550.0,
-   "title": "US Core PCE Price Index m/m",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
   },
   {
    "ts": 1795583760.0,
@@ -561,10 +595,10 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY293MDdPNFJRNW9UUFV4aDk5VVNfN0pocjBIYjR4OGdRbm9hU0QzbGFDd1o1Y2RvVUlIY2RlZW9vMkRJSWloOF9id2FZMUZpLUVQZnRJMTJ2aHREcmUyMHZQMHNJRTEwQWc1ZXRWa3ppRVJkNHRkYlFCWk1XQXJXeDRPS2dzQkp6S1HSAY8BQVVfeXFMT0NGQ1RBNUd4NDYwRGZHcUV1czVTMTg0d0c2YlhiWTBoMFBSdnpYMEo5dXJ6Q0N5Q0VQWXNLVDdjdFpXMkJuckR1T2hTTUVUTGMwM05lMGF0OU0wRXRjN0FhMzdpNW0tOHk0eWZnN0JQTlkxY1VnVkZKNHhkOVFuamgyMmJpa09feGF4WGFBYTA?oc=5"
   },
   {
-   "ts": 1795558330.0,
-   "title": "Prop Firm Discussion",
+   "ts": 1795569032.0,
+   "title": "Consumer Price Index, Australia, October 2026",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12S1Q4YzJoRkVfSkFPRWlNWlBNVktCakxyUUdhSnA0T3V2empDVDF0UDZmdlA3YW5uc2tHSzJydnZFbkhlRWgxMkd6YTlnLWhaQi1fcFhHTGU1YTBCWWg1dVI2Qnp6cGtaMWZJ?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGswZEFMdzFvZGJDY1VsbEs0NXhwLUt4MnN0Zm1JNGNaZzFZaWREOFFhRDlhUDRlaDRHWVRtejI5b1NCdEhPLVZQRjlMajNYUk8zVDRNc0hneklROXNnNGRYeDczcWc2T09pOGV2aG9iaTIzd25hVmJ2bjB1Rmk4a1dVY0cyUGNLX2VQZGln0gGTAUFVX3lxTE8tOWR1WUhNMS1sb2FKMUxtY0hYX3AxSWhxeUpldThWVnY3bUlnTjFzdmJRaTlTaDdKckRSQ1haZHJCbUJkLXVmdllpLTJQRjZMYzAyVnN6cTB5V3hpdDFxWUh6S0RDYkZHLVpCZ3ItVkcxMm4tWXNDYzVYclpZX2JyOXppNU1IWDROdHRLczJySDEwTQ?oc=5"
   }
  ],
  "sentiment": {
@@ -573,7 +607,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 5/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
