@@ -1,14 +1,13 @@
 {
- "updated": "25-11-2026 08:16 PKT",
+ "updated": "25-11-2026 08:31 PKT",
  "gold": {
-  "price": 3557.5,
-  "open": 3632.7,
+  "price": 3553.33,
+  "open": 3633.19,
   "high": 3646.18,
   "low": 3534.11,
-  "chg": -2.07,
+  "chg": -2.2,
   "src": "XAUUSD Spot",
   "spark": [
-   3581.65,
    3567.61,
    3566.87,
    3566.15,
@@ -55,14 +54,15 @@
    3560.46,
    3552.67,
    3560.23,
-   3557.5
+   3550.58,
+   3553.33
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 40.595,
-   "chg": -5.91,
+   "price": 40.755,
+   "chg": -5.54,
    "spark": [
     54.108,
     54.293,
@@ -85,13 +85,13 @@
     44.318,
     41.035,
     43.147,
-    40.595
+    40.755
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.902,
-   "chg": -0.4,
+   "price": 103.911,
+   "chg": -0.39,
    "spark": [
     101.96,
     102.32,
@@ -114,13 +114,13 @@
     103.9,
     103.81,
     104.32,
-    103.902
+    103.911
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 80.66,
-   "chg": 0.61,
+   "price": 80.91,
+   "chg": 0.92,
    "spark": [
     101.76,
     99.9,
@@ -143,7 +143,7 @@
     83.21,
     83.98,
     80.17,
-    80.66
+    80.91
    ]
   },
   {
@@ -206,7 +206,7 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3098,
+   "price": 1.3099,
    "chg": 0.49,
    "spark": [
     1.3345,
@@ -230,13 +230,13 @@
     1.3086,
     1.3095,
     1.3035,
-    1.3098
+    1.3099
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.191,
-   "chg": 0.11,
+   "price": 159.229,
+   "chg": 0.14,
    "spark": [
     157.528,
     157.993,
@@ -259,13 +259,13 @@
     159.707,
     158.931,
     159.009,
-    159.191
+    159.229
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1661.56,
-   "chg": -0.96,
+   "price": 1662.79,
+   "chg": -0.89,
    "spark": [
     1724.47,
     1729.94,
@@ -314,13 +314,13 @@
     1671.05,
     1655.87,
     1654.26,
-    1662.0
+    1662.79
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59393.2,
-   "chg": -0.58,
+   "price": 59425.1,
+   "chg": -0.53,
    "spark": [
     61150.5,
     61593.5,
@@ -369,7 +369,7 @@
     59572.1,
     59190.4,
     59151.6,
-    59393.2
+    59425.1
    ]
   }
  ],
@@ -402,25 +402,32 @@
  "cal_mode": "upcoming",
  "news": [
   {
-   "ts": 1795576605.137715,
+   "ts": 1795577505.158895,
+   "title": "Trump administration set to unveil new tariffs after probe\u00a0on excess factory capacity, sources say",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
+   "t": "25 Nov \u00b7 08:31 AM"
+  },
+  {
+   "ts": 1795577505.158895,
    "title": "Gold holds near 15-mth lows on Fed hike bets; PCE inflation awaited",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "25 Nov \u00b7 08:16 AM"
+   "t": "25 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795576605.137715,
+   "ts": 1795577505.158895,
    "title": "Oil climbs amid Hormuz attacks, report that U.S. is targeting top Iranian leaders",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712",
-   "t": "25 Nov \u00b7 08:16 AM"
+   "t": "25 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795576605.137715,
+   "ts": 1795577505.158895,
    "title": "Gold slips after sharp rebound with inflation, Fed expectations in focus",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835",
-   "t": "25 Nov \u00b7 08:16 AM"
+   "t": "25 Nov \u00b7 08:31 AM"
   },
   {
    "ts": 1795573735.0,
@@ -508,22 +515,6 @@
     "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
     "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
    ]
-  },
-  {
-   "ts": 1795560462.0,
-   "title": "US PCE preview: inflation seen near 3.8% in the Fed's last read before a December hike",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/us-pce-preview-inflation-seen-near-3-8-in-the-fed-s-last-read-before-a-december-hike/",
-   "t": "25 Nov \u00b7 03:47 AM",
-   "body": [
-    "With a December hike largely priced, the reaction is more likely to come through expectations for early 2027. A core print of 0.4% or more would probably lift front-end Treasury yields and the dollar as traders add to bets on follow-up hikes in January or March. A 0.2% reading would ease that pressure without removing the December move. Gold is exposed to a hot print, since higher rate expectations have weighed on it throughout this tightening cycle. Thin Thanksgiving liquidity adds to the risk of outsized moves across FX, bonds and equity futures.",
-    "A December Fed hike looks all but settled, so Wednesday's October PCE report is really about what comes next, with a firm core reading likely to strengthen the case for further tightening early in 2027.",
-    "The US October personal consumption expenditures (PCE) price index, due at 13:30 GMT (8:30am US Eastern) on Wednesday, is the last major inflation reading the Federal Reserve will see before its 9 December decision, and it arrives with a rate hike already largely priced. The question for markets is less whether the Fed tightens in December than how far it goes after that. Headline PCE inflation is expected to rise to around 3.8% year on year from 3.6% in September, in line with the Cleveland Fed's inflation nowcast, while core PCE, which strips out food and energy and is the Fed's preferred gauge, is seen edging up to around 3.2% from 3.1%.",
-    "The monthly core number is likely to drive the reaction. Most forecasts sit near 0.3%, with Goldman Sachs at 0.3% after trimming its estimate, and some research houses as high as 0.4%. Fed Vice Chair for Supervision Michelle Bowman said earlier this month that progress on inflation appeared to have stalled and that she expected annual core PCE of around 3.3% for October.",
-    "This report carries extra weight because October's consumer price index was published without an annual rate. Price collection was disrupted during the 2025 government shutdown, leaving no year-ago base, so PCE provides the only year-on-year inflation measure for October. That CPI report showed monthly gains of 0.4% for the headline and 0.3% for core, both a tenth above forecasts, while producer prices have been running at their fastest annual pace since late 2022.",
-    "The Fed raised rates in September to a 3.75% to 4.00% target range and held in October in a 10 to 2 vote, with two dissenters preferring a hike. Futures put the odds of a quarter-point increase in December at around 90%. Goldman Sachs expects hikes in December and March, while Bank of America sees three quarter-point increases in December, January and March, so a firm core reading would mainly feed into expectations for the early months of 2027.",
-    "Several other releases land at the same time, including the second estimate of third-quarter GDP, weekly jobless claims brought forward because of Thanksgiving, and personal income and spending. The Fed's Beige Book follows at 19:00 GMT. With US equity markets closed on Thursday and closing early on Friday, thin holiday liquidity could amplify any surprise."
-   ]
   }
  ],
  "tweets": [
@@ -570,7 +561,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 3/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
