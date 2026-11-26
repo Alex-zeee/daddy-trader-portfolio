@@ -1,14 +1,13 @@
 {
- "updated": "26-11-2026 08:16 PKT",
+ "updated": "26-11-2026 08:31 PKT",
  "gold": {
-  "price": 3582.81,
-  "open": 3551.03,
+  "price": 3577.23,
+  "open": 3550.69,
   "high": 3606.46,
   "low": 3426.48,
-  "chg": 0.89,
+  "chg": 0.75,
   "src": "XAUUSD Spot",
   "spark": [
-   3442.21,
    3450.68,
    3447.61,
    3463.25,
@@ -55,14 +54,15 @@
    3604.52,
    3590.87,
    3580.38,
-   3582.81
+   3579.44,
+   3577.23
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 42.035,
-   "chg": 3.13,
+   "price": 41.84,
+   "chg": 2.65,
    "spark": [
     54.293,
     53.457,
@@ -85,13 +85,13 @@
     41.035,
     43.147,
     40.76,
-    42.035
+    41.84
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.793,
-   "chg": -0.02,
+   "price": 103.802,
+   "chg": -0.01,
    "spark": [
     102.32,
     102.19,
@@ -114,13 +114,13 @@
     103.81,
     104.32,
     103.81,
-    103.793
+    103.802
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.12,
-   "chg": 2.52,
+   "price": 84.18,
+   "chg": 2.6,
    "spark": [
     99.9,
     102.78,
@@ -143,7 +143,7 @@
     83.98,
     80.17,
     82.05,
-    84.12
+    84.18
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0967,
-   "chg": 0.05,
+   "price": 1.0965,
+   "chg": 0.02,
    "spark": [
     1.113,
     1.1156,
@@ -201,13 +201,42 @@
     1.0972,
     1.0908,
     1.0962,
-    1.0967
+    1.0965
+   ]
+  },
+  {
+   "name": "GBP/USD",
+   "price": 1.3102,
+   "chg": -0.07,
+   "spark": [
+    1.3306,
+    1.3328,
+    1.3379,
+    1.3386,
+    1.341,
+    1.3434,
+    1.3477,
+    1.3456,
+    1.336,
+    1.3442,
+    1.3349,
+    1.3277,
+    1.3231,
+    1.3216,
+    1.3185,
+    1.3205,
+    1.3147,
+    1.3086,
+    1.3095,
+    1.3035,
+    1.3112,
+    1.3102
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.176,
-   "chg": -0.05,
+   "price": 159.198,
+   "chg": -0.04,
    "spark": [
     157.993,
     157.833,
@@ -230,13 +259,13 @@
     158.931,
     159.009,
     159.262,
-    159.176
+    159.198
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1696.48,
-   "chg": 0.36,
+   "price": 1693.05,
+   "chg": 0.16,
    "spark": [
     1697.96,
     1703.77,
@@ -285,13 +314,13 @@
     1694.78,
     1700.53,
     1696.36,
-    1696.48
+    1693.05
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60684.4,
-   "chg": 0.52,
+   "price": 60593.6,
+   "chg": 0.37,
    "spark": [
     60307.5,
     60548.7,
@@ -340,7 +369,7 @@
     60437.1,
     60785.8,
     60631.3,
-    60685.1
+    60593.6
    ]
   }
  ],
@@ -397,46 +426,53 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795663005.71831,
+   "ts": 1795663908.904625,
+   "title": "Gold eases as U.S. inflation data reinforces Fed rate-hike bets",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
+   "t": "26 Nov \u00b7 08:31 AM"
+  },
+  {
+   "ts": 1795663908.904625,
+   "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
+   "t": "26 Nov \u00b7 08:31 AM"
+  },
+  {
+   "ts": 1795663908.904625,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "26 Nov \u00b7 08:16 AM"
+   "t": "26 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795663005.71831,
+   "ts": 1795663908.904625,
    "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "26 Nov \u00b7 08:16 AM"
+   "t": "26 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795663005.71831,
+   "ts": 1795663908.904625,
    "title": "Gold inches up as dollar reverses course, but gains capped by hot data, AI rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "26 Nov \u00b7 08:16 AM"
+   "t": "26 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795663005.71831,
+   "ts": 1795663908.904625,
    "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "26 Nov \u00b7 08:16 AM"
+   "t": "26 Nov \u00b7 08:31 AM"
   },
   {
-   "ts": 1795663005.71831,
+   "ts": 1795663908.904625,
    "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616",
-   "t": "26 Nov \u00b7 08:16 AM"
-  },
-  {
-   "ts": 1795663005.71831,
-   "title": "India\u2019s RBI raises domestic gold holdings to 740 tonnes in September",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/indias-rbi-raises-domestic-gold-holdings-to-740-tonnes-in-september-93CH-5051080",
-   "t": "26 Nov \u00b7 08:16 AM"
+   "t": "26 Nov \u00b7 08:31 AM"
   },
   {
    "ts": 1795656860.0,
@@ -481,28 +517,15 @@
     "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
     "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
    ]
-  },
-  {
-   "ts": 1795649416.0,
-   "title": "Projectile explodes near tanker 50 nautical miles off Dubai as Gulf shipping attacks mount",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/projectile-explodes-near-tanker-50-nautical-miles-off-dubai-as-gulf-shipping-attacks-mount/",
-   "t": "26 Nov \u00b7 04:30 AM",
-   "body": [
-    "Incidents without damage rarely move oil much on their own, but where this one happened matters for pricing. An attack near the UAE coast, inside the Gulf, puts loading routes that had looked relatively safe back in the risk picture, which tends to show up first in war-risk insurance premiums and tanker freight rates rather than in headline crude prices. Asian refiners, the biggest buyers of Gulf crude, are the most exposed to any further disruption. With US markets shut for Thanksgiving and liquidity thin, a more serious incident could cause an exaggerated price move before the full market returns.",
-    "No one was hurt and nothing was damaged, but a blast near a tanker off Dubai shows that the threat to Gulf oil shipping is no longer confined to the Strait of Hormuz.",
-    "A tanker reported an explosion from an unknown projectile close to the vessel about 50 nautical miles west of Dubai late on Wednesday, the UK Maritime Trade Operations agency said. It's the latest in a run of attacks on shipping that has kept Gulf oil supply under pressure.",
-    "The incident happened at 2130 GMT on November 25 (1630 US Eastern). The ship's master reported that the crew were safe and accounted for, with no damage to the tanker and no environmental impact. UKMTO, which monitors commercial shipping in the region, advised vessels to transit with caution while authorities investigate. It didn't identify the tanker or say who fired the projectile.",
-    "The Strait of Hormuz, the narrow channel between Iran and Oman, normally carries a large share of the world's seaborne oil. Since US and Israeli strikes on Iran in late February, Tehran has tried to close the strait, and the United States has imposed a blockade on Iranian ports. The International Maritime Organization has confirmed more than 130 incidents involving commercial vessels in the Gulf, the strait and the Gulf of Oman since the war began.",
-    "November has been especially busy. Reported attacks in and around the strait have reached their highest level since the conflict began, according to maritime data cited by CNN, as Tehran tries to reassert control while oil prices fall. This week, Iran's Revolutionary Guards said three tankers hit naval mines and caught fire in the strait despite a US escort, and Iran's navy said another tanker struck a mine east of the strait on Wednesday. On Sunday, UKMTO reported a tanker involved in an incident with military forces in the Gulf of Oman.",
-    "Wednesday's incident stands out for its location. It took place inside the Gulf, well west of the strait and close to the UAE coast, echoing earlier November attacks on tankers off Qatar and Saudi Arabia. That suggests the risk is spread across Gulf shipping lanes rather than confined to the chokepoint itself.",
-    "Oil is still moving, but at reduced levels. Shipping data from Kpler put oil flows through Hormuz at about half of pre-war levels as of November 24, and shipments through the strait fell in the first half of November as attacks increased. US-escorted transits have helped keep some traffic moving. Iran has also reportedly allowed vessels linked to Iraq, Qatar, China and India to pass, which suggests it is managing who uses the strait rather than shutting it completely.",
-    "That partial recovery explains why prices have eased in recent weeks despite the violence. Brent crude was trading around $91 a barrel late on Wednesday, up more than 2% on the day, but still well below its wartime peak.",
-    "The risk for the oil market is that each new incident, especially further inside the Gulf, raises insurance and freight costs and could deter shipowners who have only recently returned. For now, the market appears to be treating attacks that cause no damage as background noise. A strike that disables a tanker or hits loading infrastructure near the UAE or Saudi coast would be a different matter, and would likely bring back the supply premium quickly."
-   ]
   }
  ],
  "tweets": [
+  {
+   "ts": 1795635423.0,
+   "title": "US Core PCE Price Index m/m",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
+  },
   {
    "ts": 1795626388.0,
    "title": "Prop Firm Discussion",
@@ -528,12 +551,6 @@
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOME05RVZERmIwd2tpbDZUQmRheGgyNXBHYnF6ZFZZT2wxQnpXd1JTdnR4bHYtck1HdF9RUTYyYm02eER1M0g1d3diWEkwemgwZnYxTnY3aE52cUpwZlRPeGE0VWUwMGc1Z0FkU0hBMmx0aFFnMEM5ZDZVMTF5dFBUSmlsSmo3M0FJSF9DNThBZHdFMndtYnB0RXVVQkgtWjda0gGmAUFVX3lxTE9DR3dkc0MwTk4tem1KbERLOHRMYnRla2p6ZFJCUUpieE5sRk0tU0QwUWowV2FIbVlWTTF0M3RwYll6a1VzN0dnN3lVWmI0ODgtS25NRnFlZzBvRW9kU3oyR00yM1RyeXFyeTl6Sk9HSFlVQWQ3dWpIYlVuV3FfdVhVNHJIb2NyTW91UlVySGZEMkNMcEV1UDlxYWo1bDhJUGhPaVAzUGc?oc=5"
   },
   {
-   "ts": 1795603995.0,
-   "title": "AU CPI m/m",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sRExWWFJVU3FMVEh6OHBDOG91RndjdlRBWlFZLW9ZazRQU20zWnBiaVdPNUtKS0NNS2xEVHZCbk5WQnpobE12TUVJSU9WeDg1Vk1FNjJMOGZUZWwzaWRB?oc=5"
-  },
-  {
    "ts": 1795583760.0,
    "title": "US PCE preview: Inflation seen near 3.8% in the Fed's last read before a December hike",
    "src": "ForexFactory",
@@ -546,7 +563,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 6/10 no body",
+  "article: 7/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
