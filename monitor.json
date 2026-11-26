@@ -1,14 +1,13 @@
 {
- "updated": "26-11-2026 05:01 PKT",
+ "updated": "26-11-2026 05:16 PKT",
  "gold": {
-  "price": 3575.78,
-  "open": 3551.63,
+  "price": 3577.36,
+  "open": 3541.27,
   "high": 3590.07,
   "low": 3426.48,
-  "chg": 0.68,
+  "chg": 1.02,
   "src": "XAUUSD Spot",
   "spark": [
-   3523.93,
    3521.81,
    3521.02,
    3516.03,
@@ -55,14 +54,15 @@
    3572.22,
    3583.19,
    3577.57,
-   3575.78
+   3576.45,
+   3577.36
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.685,
-   "chg": 2.27,
+   "price": 41.66,
+   "chg": 2.21,
    "spark": [
     54.293,
     53.457,
@@ -85,7 +85,7 @@
     41.035,
     43.147,
     40.76,
-    41.685
+    41.66
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 84.07,
-   "chg": 2.46,
+   "price": 83.99,
+   "chg": 2.36,
    "spark": [
     99.9,
     102.78,
@@ -143,7 +143,7 @@
     83.98,
     80.17,
     82.05,
-    84.07
+    83.99
    ]
   },
   {
@@ -177,10 +177,9 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0975,
-   "chg": 0.61,
+   "price": 1.0976,
+   "chg": 0.12,
    "spark": [
-    1.1174,
     1.113,
     1.1156,
     1.1183,
@@ -201,15 +200,15 @@
     1.097,
     1.0972,
     1.0908,
-    1.0975
+    1.0962,
+    1.0976
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3112,
-   "chg": 0.59,
+   "price": 1.3113,
+   "chg": 0.01,
    "spark": [
-    1.3345,
     1.3306,
     1.3328,
     1.3379,
@@ -230,15 +229,15 @@
     1.3086,
     1.3095,
     1.3035,
-    1.3112
+    1.3112,
+    1.3113
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.189,
-   "chg": 0.11,
+   "price": 159.136,
+   "chg": -0.08,
    "spark": [
-    157.528,
     157.993,
     157.833,
     157.804,
@@ -259,13 +258,14 @@
     159.707,
     158.931,
     159.009,
-    159.189
+    159.262,
+    159.136
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1690.58,
-   "chg": 0.01,
+   "price": 1722.94,
+   "chg": 1.92,
    "spark": [
     1703.08,
     1683.37,
@@ -314,13 +314,13 @@
     1684.05,
     1684.17,
     1690.58,
-    1690.34
+    1722.48
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60347.7,
-   "chg": -0.03,
+   "price": 61400.0,
+   "chg": 1.71,
    "spark": [
     61008.3,
     60002.0,
@@ -369,7 +369,7 @@
     60162.7,
     60018.0,
     60368.6,
-    60347.7
+    61324.1
    ]
   }
  ],
@@ -426,46 +426,65 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795651306.607104,
-   "title": "New Trump tariffs would likely increase sugar prices in the US",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "26 Nov \u00b7 05:01 AM"
-  },
-  {
-   "ts": 1795651306.607104,
+   "ts": 1795652205.314411,
    "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "26 Nov \u00b7 05:01 AM"
+   "t": "26 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795651306.607104,
+   "ts": 1795652205.314411,
+   "title": "New Trump tariffs would likely increase sugar prices in the US",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
+   "t": "26 Nov \u00b7 05:16 AM"
+  },
+  {
+   "ts": 1795652205.314411,
    "title": "Gold inches up as dollar reverses course, but gains capped by hot data, AI rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "26 Nov \u00b7 05:01 AM"
+   "t": "26 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795651306.607104,
+   "ts": 1795652205.314411,
    "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "26 Nov \u00b7 05:01 AM"
+   "t": "26 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795651306.607104,
+   "ts": 1795652205.314411,
    "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616",
-   "t": "26 Nov \u00b7 05:01 AM"
+   "t": "26 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795651306.607104,
+   "ts": 1795652205.314411,
    "title": "India\u2019s RBI raises domestic gold holdings to 740 tonnes in September",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/indias-rbi-raises-domestic-gold-holdings-to-740-tonnes-in-september-93CH-5051080",
-   "t": "26 Nov \u00b7 05:01 AM"
+   "t": "26 Nov \u00b7 05:16 AM"
+  },
+  {
+   "ts": 1795649416.0,
+   "title": "Projectile explodes near tanker 50 nautical miles off Dubai as Gulf shipping attacks mount",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/projectile-explodes-near-tanker-50-nautical-miles-off-dubai-as-gulf-shipping-attacks-mount/",
+   "t": "26 Nov \u00b7 04:30 AM",
+   "body": [
+    "Incidents without damage rarely move oil much on their own, but where this one happened matters for pricing. An attack near the UAE coast, inside the Gulf, puts loading routes that had looked relatively safe back in the risk picture, which tends to show up first in war-risk insurance premiums and tanker freight rates rather than in headline crude prices. Asian refiners, the biggest buyers of Gulf crude, are the most exposed to any further disruption. With US markets shut for Thanksgiving and liquidity thin, a more serious incident could cause an exaggerated price move before the full market returns.",
+    "No one was hurt and nothing was damaged, but a blast near a tanker off Dubai shows that the threat to Gulf oil shipping is no longer confined to the Strait of Hormuz.",
+    "A tanker reported an explosion from an unknown projectile close to the vessel about 50 nautical miles west of Dubai late on Wednesday, the UK Maritime Trade Operations agency said. It's the latest in a run of attacks on shipping that has kept Gulf oil supply under pressure.",
+    "The incident happened at 2130 GMT on November 25 (1630 US Eastern). The ship's master reported that the crew were safe and accounted for, with no damage to the tanker and no environmental impact. UKMTO, which monitors commercial shipping in the region, advised vessels to transit with caution while authorities investigate. It didn't identify the tanker or say who fired the projectile.",
+    "The Strait of Hormuz, the narrow channel between Iran and Oman, normally carries a large share of the world's seaborne oil. Since US and Israeli strikes on Iran in late February, Tehran has tried to close the strait, and the United States has imposed a blockade on Iranian ports. The International Maritime Organization has confirmed more than 130 incidents involving commercial vessels in the Gulf, the strait and the Gulf of Oman since the war began.",
+    "November has been especially busy. Reported attacks in and around the strait have reached their highest level since the conflict began, according to maritime data cited by CNN, as Tehran tries to reassert control while oil prices fall. This week, Iran's Revolutionary Guards said three tankers hit naval mines and caught fire in the strait despite a US escort, and Iran's navy said another tanker struck a mine east of the strait on Wednesday. On Sunday, UKMTO reported a tanker involved in an incident with military forces in the Gulf of Oman.",
+    "Wednesday's incident stands out for its location. It took place inside the Gulf, well west of the strait and close to the UAE coast, echoing earlier November attacks on tankers off Qatar and Saudi Arabia. That suggests the risk is spread across Gulf shipping lanes rather than confined to the chokepoint itself.",
+    "Oil is still moving, but at reduced levels. Shipping data from Kpler put oil flows through Hormuz at about half of pre-war levels as of November 24, and shipments through the strait fell in the first half of November as attacks increased. US-escorted transits have helped keep some traffic moving. Iran has also reportedly allowed vessels linked to Iraq, Qatar, China and India to pass, which suggests it is managing who uses the strait rather than shutting it completely.",
+    "That partial recovery explains why prices have eased in recent weeks despite the violence. Brent crude was trading around $91 a barrel late on Wednesday, up more than 2% on the day, but still well below its wartime peak.",
+    "The risk for the oil market is that each new incident, especially further inside the Gulf, raises insurance and freight costs and could deter shipowners who have only recently returned. For now, the market appears to be treating attacks that cause no damage as background noise. A strike that disables a tanker or hits loading infrastructure near the UAE or Saudi coast would be a different matter, and would likely bring back the supply premium quickly."
+   ]
   },
   {
    "ts": 1795644468.0,
@@ -516,23 +535,6 @@
    "body": [
     "The auction was mixed but still better than average. The high yield came in 1.0 basis point above the when-issued level, and the bid to cover was a touch below average. Indirect bidders took a smaller share than usual, but stronger direct demand more than made up for that shortfall, leaving dealers with just 8.61% of the issue. The lighter dealer takedown was a positive that tipped the grade to above average but still on the border between a C+ and a B-."
    ]
-  },
-  {
-   "ts": 1795621635.0,
-   "title": "Gold is sitting on the edge of support at $3,425 despite lower yields",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-is-sitting-on-the-edge-of-support-at-3-425-despite-lower-yields/",
-   "t": "25 Nov \u00b7 08:47 PM",
-   "body": [
-    "Gold is trading near $3,441, down about $115 or 3.24%, after reaching a low of $3,426.72. That low came in just above the bottom of a swing area on the daily chart between $3,425 and $3,500. The sellers took the price right to the edge. Can they get through it?",
-    "Lower yields would typically help gold. Gold pays no interest, so as Treasury yields move lower, the opportunity cost of holding it falls. Today, the liquidation across markets is taking precedence.",
-    "The Nasdaq Composite is down 4.10%, the S&P 500 is down 2.80%, and the Dow is down 1.70% in the snapshot above. When stocks are getting hit that hard, traders raising cash can sell what they own across markets. Gold is getting caught up in that selling today, even as yields move lower.",
-    "For buyers looking for a bounce, the bottom of the swing area gives them a level to lean against with close risk. As long as the price holds above $3,425, they can stay in the game. A break below that level that stays below would give the sellers the go-ahead to probe lower, with the 61.8% retracement at $3,140.67 the next major downside target on the daily chart.",
-    "On the topside, the first job for buyers is to get and stay above $3,500. That would put the price back above the swing area and give buyers a technical victory. The next hurdle is the 50% midpoint at $3,610.01. Getting above both levels would do more to dig gold out of its bearish bias.",
-    "In the video, I show why the $3,425\u2013$3,500 swing area matters, where buyers can define their risk, and what the price needs to do to give either side more control.",
-    "Lower yields can give you a reason to look for a bounce in gold. The chart gives you a place to define your risk. Here, a trader leaning against $3,425 has a nearby level to judge whether the trade is working. If the price breaks and stays below it, the technical reason for leaning against support is gone. If it holds, watch how the price behaves at $3,500. That next test can tell you whether buyers are starting to take back some control.",
-    "Want to better understand what's driving price movements beyond traditional charts? Learn how to read buying and selling pressure with order flow trading."
-   ]
   }
  ],
  "tweets": [
@@ -543,10 +545,10 @@
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaHJOWmZPOVMxUTBUSGxJS2laRWVYLTNhWW9HTXExNWcyVHFybGZnYjhnUHdwaWhPUzFJWWwyODIyaDljdHpKNEhpNnpvNXhFUkVNSTZKMWZZankwZXZFNDVvd2R3aGpONHFSb2RTMUJYTEJEZWF4dXI3RVhtdWNZSVJ2MUcxYUlWQkdtRmxjYknSAZYBQVVfeXFMTUNfaHlOSHd3T1NURHZpcE5lM1VUeWFiTTU0X3pNM3pVUXRIOWlLX3U3MDVnVEN6OXJqbWdQUnZ1UU1RaUtjLXJOcVpHRHFWYk9rUnI4RFhTamRmak9HdE5yaFBXdFM5N2FHb21peHpIYXJLejdUUXNGbzJMSHQ1dmJQdFI0MmRiVkdXSG4xbEVjaG9FYUtn?oc=5"
   },
   {
-   "ts": 1795626388.0,
-   "title": "Prop Firm Discussion",
+   "ts": 1795624677.0,
+   "title": "US Core PCE Price Index m/m",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12S1Q4YzJoRkVfSkFPRWlNWlBNVktCakxyUUdhSnA0T3V2empDVDF0UDZmdlA3YW5uc2tHSzJydnZFbkhlRWgxMkd6YTlnLWhaQi1fcFhHTGU1YTBCWWg1dVI2Qnp6cGtaMWZJ?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zRFFqcDk1S3Z6YzZqNjNLcTMxVXFGZjRaVHVFY29TdFZMVXhNUFVzS1VNNU9sZGhpU3ZZS1pfNGJla1BIR3FYRG1kSGY3YmI1WU1tUXhYMTVBVU0wUGZxa0tCdk9ScUJfcFZ3aTU1M2UzdHgwSEE?oc=5"
   },
   {
    "ts": 1795618514.0,
@@ -561,16 +563,16 @@
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOME05RVZERmIwd2tpbDZUQmRheGgyNXBHYnF6ZFZZT2wxQnpXd1JTdnR4bHYtck1HdF9RUTYyYm02eER1M0g1d3diWEkwemgwZnYxTnY3aE52cUpwZlRPeGE0VWUwMGc1Z0FkU0hBMmx0aFFnMEM5ZDZVMTF5dFBUSmlsSmo3M0FJSF9DNThBZHdFMndtYnB0RXVVQkgtWjda0gGmAUFVX3lxTE9DR3dkc0MwTk4tem1KbERLOHRMYnRla2p6ZFJCUUpieE5sRk0tU0QwUWowV2FIbVlWTTF0M3RwYll6a1VzN0dnN3lVWmI0ODgtS25NRnFlZzBvRW9kU3oyR00yM1RyeXFyeTl6Sk9HSFlVQWQ3dWpIYlVuV3FfdVhVNHJIb2NyTW91UlVySGZEMkNMcEV1UDlxYWo1bDhJUGhPaVAzUGc?oc=5"
   },
   {
+   "ts": 1795608265.0,
+   "title": "Gold with No Drama",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5majYtMnFmY1FRb21jbzdSMjEyVnk5aFNhWG9rTDdHREZxTEJlZ1BZSTFoeGluWk1aQ21tbUE5eHJKcUg0aWxmUEdDQU81dEVfeExzdnloNktmZml3WXc?oc=5"
+  },
+  {
    "ts": 1795583760.0,
    "title": "US PCE preview: Inflation seen near 3.8% in the Fed's last read before a December hike",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY293MDdPNFJRNW9UUFV4aDk5VVNfN0pocjBIYjR4OGdRbm9hU0QzbGFDd1o1Y2RvVUlIY2RlZW9vMkRJSWloOF9id2FZMUZpLUVQZnRJMTJ2aHREcmUyMHZQMHNJRTEwQWc1ZXRWa3ppRVJkNHRkYlFCWk1XQXJXeDRPS2dzQkp6S1HSAY8BQVVfeXFMT0NGQ1RBNUd4NDYwRGZHcUV1czVTMTg0d0c2YlhiWTBoMFBSdnpYMEo5dXJ6Q0N5Q0VQWXNLVDdjdFpXMkJuckR1T2hTTUVUTGMwM05lMGF0OU0wRXRjN0FhMzdpNW0tOHk0eWZnN0JQTlkxY1VnVkZKNHhkOVFuamgyMmJpa09feGF4WGFBYTA?oc=5"
-  },
-  {
-   "ts": 1795569032.0,
-   "title": "Consumer Price Index, Australia, October 2026",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGswZEFMdzFvZGJDY1VsbEs0NXhwLUt4MnN0Zm1JNGNaZzFZaWREOFFhRDlhUDRlaDRHWVRtejI5b1NCdEhPLVZQRjlMajNYUk8zVDRNc0hneklROXNnNGRYeDczcWc2T09pOGV2aG9iaTIzd25hVmJ2bjB1Rmk4a1dVY0cyUGNLX2VQZGln0gGTAUFVX3lxTE8tOWR1WUhNMS1sb2FKMUxtY0hYX3AxSWhxeUpldThWVnY3bUlnTjFzdmJRaTlTaDdKckRSQ1haZHJCbUJkLXVmdllpLTJQRjZMYzAyVnN6cTB5V3hpdDFxWUh6S0RDYkZHLVpCZ3ItVkcxMm4tWXNDYzVYclpZX2JyOXppNU1IWDROdHRLczJySDEwTQ?oc=5"
   }
  ],
  "sentiment": {
