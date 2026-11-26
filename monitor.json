@@ -1,14 +1,13 @@
 {
- "updated": "26-11-2026 15:01 PKT",
+ "updated": "26-11-2026 15:16 PKT",
  "gold": {
-  "price": 3574.03,
-  "open": 3534.03,
+  "price": 3566.37,
+  "open": 3531.25,
   "high": 3606.46,
   "low": 3426.48,
-  "chg": 1.13,
+  "chg": 0.99,
   "src": "XAUUSD Spot",
   "spark": [
-   3589.35,
    3589.28,
    3589.58,
    3569.97,
@@ -55,14 +54,15 @@
    3571.01,
    3576.0,
    3573.47,
-   3574.03
+   3565.4,
+   3566.37
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.895,
-   "chg": 4.6,
+   "price": 41.875,
+   "chg": 4.55,
    "spark": [
     53.457,
     52.191,
@@ -85,13 +85,13 @@
     43.147,
     40.76,
     40.052,
-    41.895
+    41.875
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.738,
-   "chg": 0.07,
+   "price": 103.752,
+   "chg": 0.08,
    "spark": [
     102.19,
     102.04,
@@ -114,13 +114,13 @@
     104.32,
     103.81,
     103.67,
-    103.738
+    103.752
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.38,
-   "chg": -0.36,
+   "price": 83.55,
+   "chg": -0.16,
    "spark": [
     102.78,
     102.0,
@@ -143,7 +143,7 @@
     80.17,
     82.05,
     83.68,
-    83.38
+    83.55
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0975,
-   "chg": 0.11,
+   "price": 1.0972,
+   "chg": 0.09,
    "spark": [
     1.113,
     1.1156,
@@ -201,13 +201,13 @@
     1.0972,
     1.0908,
     1.0962,
-    1.0975
+    1.0972
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3109,
-   "chg": -0.02,
+   "price": 1.311,
+   "chg": -0.01,
    "spark": [
     1.3306,
     1.3328,
@@ -230,13 +230,42 @@
     1.3095,
     1.3035,
     1.3112,
-    1.3109
+    1.311
+   ]
+  },
+  {
+   "name": "USD/JPY",
+   "price": 159.25,
+   "chg": -0.01,
+   "spark": [
+    157.993,
+    157.833,
+    157.804,
+    157.677,
+    157.915,
+    158.469,
+    158.357,
+    157.498,
+    158.292,
+    157.983,
+    158.705,
+    159.734,
+    159.875,
+    159.78,
+    159.523,
+    159.504,
+    159.381,
+    159.707,
+    158.931,
+    159.009,
+    159.262,
+    159.25
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1699.87,
-   "chg": 0.56,
+   "price": 1700.45,
+   "chg": 0.59,
    "spark": [
     1700.53,
     1701.62,
@@ -285,13 +314,13 @@
     1687.84,
     1699.25,
     1701.72,
-    1699.87
+    1700.59
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60799.9,
-   "chg": 0.71,
+   "price": 60805.9,
+   "chg": 0.72,
    "spark": [
     60356.9,
     60379.9,
@@ -340,7 +369,7 @@
     60454.9,
     60834.4,
     60855.2,
-    60800.0
+    60805.9
    ]
   }
  ],
@@ -397,69 +426,53 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795687309.593651,
+   "ts": 1795688209.717979,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "26 Nov \u00b7 03:01 PM"
+   "t": "26 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1795687309.593651,
+   "ts": 1795688209.717979,
    "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
-   "t": "26 Nov \u00b7 03:01 PM"
+   "t": "26 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1795687309.593651,
+   "ts": 1795688209.717979,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "26 Nov \u00b7 03:01 PM"
+   "t": "26 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1795687309.593651,
+   "ts": 1795688209.717979,
    "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "26 Nov \u00b7 03:01 PM"
+   "t": "26 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1795687309.593651,
+   "ts": 1795688209.717979,
    "title": "Gold inches up as dollar reverses course, but gains capped by hot data, AI rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "26 Nov \u00b7 03:01 PM"
+   "t": "26 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1795687309.593651,
+   "ts": 1795688209.717979,
    "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "26 Nov \u00b7 03:01 PM"
+   "t": "26 Nov \u00b7 03:16 PM"
   },
   {
-   "ts": 1795683453.0,
-   "title": "Gold remains caught between forced liquidations and hawkish Fed bets. What could trigger a reversal?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/gold-remains-caught-between-forced-liquidations-and-hawkish-fed-bets-what-could-trigger-a-reversal/",
-   "t": "26 Nov \u00b7 01:57 PM",
-   "body": [
-    "Gold probed briefly below the key 3,500 level yesterday before rebounding strongly and erasing most of the weekly losses.",
-    "The price action has become choppy across many markets as traders await new catalysts to pick a direction. The US holiday today doesn\u2019t help either, as thinner liquidity could lead to random price swings.",
-    "For gold, it\u2019s a tricky situation because it keeps getting smashed lower on forced liquidations when the stock market falls and the gains are capped when the sentiment improves because the US dollar and real yields get support from the hawkish repricing.",
-    "Looking ahead, gold will likely need support from a dovish repricing in interest rate expectations either from weaker data, dovish Fed commentary or an end to the Iran war. But buyers will also need to be aware that a dovish repricing from renewed stock market selloff could lead to more liquidations.",
-    "On the daily chart, we can see that gold (CFD contract) probed briefly below the key 3,500 level but eventually bounced back to close the day above it. The buyers will likely step in around these levels, with a defined risk below the low, to position for a rally into the downward trendline. The sellers, on the other hand, will want to see the price breaking lower again to pile in for a drop into the 3,100 level next.",
-    "On the 4 hour chart, we have a downward trendline defining the bearish momentum. We can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to increase the bullish bets into the major downward trendline next.",
-    "On the 1 hour chart, we have a resistance zone around the 3,600 level that adds confluence to the trendline. Again, the sellers will likely step in around these levels, with a defined risk above the resistance, to position for a drop into the 3,100 level. The buyers, on the other hand, will look for a break higher to increase the bullish bets into the major downward trendline next. The red lines define the average daily range for today."
-   ]
-  },
-  {
-   "ts": 1795680579.0,
+   "ts": 1795687364.0,
    "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
    "src": "CNBC",
    "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-   "t": "26 Nov \u00b7 01:09 PM",
+   "t": "26 Nov \u00b7 03:02 PM",
    "body": [
     "The Trump administration has unveiled a fresh tariff salvo on more than a dozen trading partners, with China, Vietnam, and India facing some of the steepest potential rates and mounting pressure to conclude trade deals with Washington.",
     "The proposed tariffs, framed as curbing excess industrial capacity, start at 15% for the European Union, South Korea, Switzerland and Taiwan and rise to as much as 35% for Vietnam.",
@@ -475,6 +488,22 @@
     "The two leaders are expected to meet for a fourth time this year at the Group of 20 leaders summit in Miami in December.",
     "\"While not happy, Beijing seems prepared to live with the new rates provided that they don't exceed 20%,\" said Wendy Cutler, senior vice president at the Asia Society Policy Institute.",
     "By retaining the option to raise levies if bilateral talks deteriorate, Washington is using the tariffs as leverage to \"secure expected shipments of critical minerals and rare earths, and further purchases of U.S. agricultural goods,\" Cutler said."
+   ]
+  },
+  {
+   "ts": 1795683453.0,
+   "title": "Gold remains caught between forced liquidations and hawkish Fed bets. What could trigger a reversal?",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-remains-caught-between-forced-liquidations-and-hawkish-fed-bets-what-could-trigger-a-reversal/",
+   "t": "26 Nov \u00b7 01:57 PM",
+   "body": [
+    "Gold probed briefly below the key 3,500 level yesterday before rebounding strongly and erasing most of the weekly losses.",
+    "The price action has become choppy across many markets as traders await new catalysts to pick a direction. The US holiday today doesn\u2019t help either, as thinner liquidity could lead to random price swings.",
+    "For gold, it\u2019s a tricky situation because it keeps getting smashed lower on forced liquidations when the stock market falls and the gains are capped when the sentiment improves because the US dollar and real yields get support from the hawkish repricing.",
+    "Looking ahead, gold will likely need support from a dovish repricing in interest rate expectations either from weaker data, dovish Fed commentary or an end to the Iran war. But buyers will also need to be aware that a dovish repricing from renewed stock market selloff could lead to more liquidations.",
+    "On the daily chart, we can see that gold (CFD contract) probed briefly below the key 3,500 level but eventually bounced back to close the day above it. The buyers will likely step in around these levels, with a defined risk below the low, to position for a rally into the downward trendline. The sellers, on the other hand, will want to see the price breaking lower again to pile in for a drop into the 3,100 level next.",
+    "On the 4 hour chart, we have a downward trendline defining the bearish momentum. We can expect the sellers to lean on the trendline, with a defined risk above it, to keep targeting new lows. The buyers, on the other hand, will want to see the price breaking higher to increase the bullish bets into the major downward trendline next.",
+    "On the 1 hour chart, we have a resistance zone around the 3,600 level that adds confluence to the trendline. Again, the sellers will likely step in around these levels, with a defined risk above the resistance, to position for a drop into the 3,100 level. The buyers, on the other hand, will look for a break higher to increase the bullish bets into the major downward trendline next. The red lines define the average daily range for today."
    ]
   },
   {
@@ -523,6 +552,12 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZlRZX0F6eWdDZ2JHSl8yMVJ0NFhybEthZU54UndZUW1VcktqX0daRnRnSVZYLUJ6NmY0bUlTR2NreHVUSmJ3R0JIWkNPc183SzZTTTlHVlVlMWFaTkpaVHVxWVc4V1hSRW0zcFhxc0FlQjltYmtKWFhDTDF6X3RBcXBYMUlCRGJ1ZnAtakI0VnpyWlJzdk10ZUhKUWfSAaIBQVVfeXFMUFdqUFRVX2poS2lYYng5UU1yOVNGOHlJRUExVjB0N2Y0MDlqUEtucXRzUXZjb0UxRzVGSVgtQl9uXzR3aFpVNWZQTzl1VXlLYkkybXI3Zkw4Q05KVHRtdGxPWS1XVnA3N015VmZyT3FkQVpDdWthakc3ZFFMSGVLYVFxZnBPZUdqTllvSG5wQWdubl93S2UwM3RqbzNkek5pWEpB?oc=5"
   },
   {
+   "ts": 1795612800.0,
+   "title": "BoE Governor Andrew Bailey Testifies Before UK Treasury Committee on Rate Hike",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTGZwMlhrQ3NBYWc4QklnY1Y0NUN1dkhwanhQTGk2TjlSUXFIVVVDT1VjZlFiWTJDdjZDVWx4N1R6NkNzSENFYVRMRGJHU085eWpkNnNQM080NkpFY1VqYVFlUVBvS0MzWjl3ZXZUTFRFTlBkaTI4ME4zTHJXQVQyaHRaWGRMakNEbUFFSmJlejNxWFlFYXphaGlHZ2t0Z9IBowFBVV95cUxPaFFxVEI1TkZmbTctZFo5cl85eHlnYUR5VENlNGluZGpGUWdXQnYzWlZhdkNGSXFkX0hvVkp6eUowSU5UQ3Z5RVVQRFFXbExzaFlyVExMRGVnUUpGdjB6b3hTMHhtWDBUZTk4UXBXM1psdWtZVm93Y055VVF3c3FLa2VrekFOWmNiRVRnbU5DZjJURU40ZElHMnZINHkzalhJaW00?oc=5"
+  },
+  {
    "ts": 1795612080.0,
    "title": "US inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed",
    "src": "ForexFactory",
@@ -535,16 +570,10 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY293MDdPNFJRNW9UUFV4aDk5VVNfN0pocjBIYjR4OGdRbm9hU0QzbGFDd1o1Y2RvVUlIY2RlZW9vMkRJSWloOF9id2FZMUZpLUVQZnRJMTJ2aHREcmUyMHZQMHNJRTEwQWc1ZXRWa3ppRVJkNHRkYlFCWk1XQXJXeDRPS2dzQkp6S1HSAY8BQVVfeXFMT0NGQ1RBNUd4NDYwRGZHcUV1czVTMTg0d0c2YlhiWTBoMFBSdnpYMEo5dXJ6Q0N5Q0VQWXNLVDdjdFpXMkJuckR1T2hTTUVUTGMwM05lMGF0OU0wRXRjN0FhMzdpNW0tOHk0eWZnN0JQTlkxY1VnVkZKNHhkOVFuamgyMmJpa09feGF4WGFBYTA?oc=5"
   },
   {
-   "ts": 1795569032.0,
-   "title": "Consumer Price Index, Australia, October 2026",
+   "ts": 1795581491.0,
+   "title": "AU CPI y/y",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGswZEFMdzFvZGJDY1VsbEs0NXhwLUt4MnN0Zm1JNGNaZzFZaWREOFFhRDlhUDRlaDRHWVRtejI5b1NCdEhPLVZQRjlMajNYUk8zVDRNc0hneklROXNnNGRYeDczcWc2T09pOGV2aG9iaTIzd25hVmJ2bjB1Rmk4a1dVY0cyUGNLX2VQZGln0gGTAUFVX3lxTE8tOWR1WUhNMS1sb2FKMUxtY0hYX3AxSWhxeUpldThWVnY3bUlnTjFzdmJRaTlTaDdKckRSQ1haZHJCbUJkLXVmdllpLTJQRjZMYzAyVnN6cTB5V3hpdDFxWUh6S0RDYkZHLVpCZ3ItVkcxMm4tWXNDYzVYclpZX2JyOXppNU1IWDROdHRLczJySDEwTQ?oc=5"
-  },
-  {
-   "ts": 1795545276.0,
-   "title": "US ADP National Employment Report Preliminary Estimate for November 7, 2026",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeDM2QXR3d2hiY0M2allGUnJuVV9FalFsMGJOcTJhd3hzbGd3YjBmWk5EaGlQbTgwbjFqS3RkcnUzNF9WYUotY1d3UWkzRU12VmZ1bnF2NzdkeUx3dm45M2J3RzdFdXZhRC15UmJDdEpNWDljVS1nSjBESE5UT0t2WF9UOHh5MUlsU2V1eHZEZk0zMkZ4eXU0cVdMSzFRMElfM0HSAacBQVVfeXFMT0tvQUl5bFlxUmVwTmo3dTVjMmFUOGlrWHROOTQ0a0lNYW83VVBVRVk0em1tZklrWlJkZEJGVWZPTERWVV9YNVIxUnpyNDBJcGQzTWItTmF3aFRtS29yelFnOVVncktnUHppWkpwVFZYYUFhNUdjT0xVQXA3QWlsdEhkeEVxOGtYeUtjU0tLVkwyM1ZtWVBrRURvYXZOWU10M2V6TTVtbmM?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96b2dBcjhCbm5IakpmaUpQYWZKNTV3cG91cXNSS1BqWUtsZUZnVTlYbHNsVEZjTUwtU3BKZi1URThkSW5DTl9QMlpfWnJLRnZ4amp3bERnd3MyRVQybUlfVQ?oc=5"
   }
  ],
  "sentiment": {
@@ -555,7 +584,6 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 6/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
-  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
 }
