@@ -1,14 +1,13 @@
 {
- "updated": "26-11-2026 19:01 PKT",
+ "updated": "26-11-2026 19:16 PKT",
  "gold": {
-  "price": 3573.14,
-  "open": 3485.2,
+  "price": 3574.45,
+  "open": 3468.47,
   "high": 3606.46,
   "low": 3426.48,
-  "chg": 2.52,
+  "chg": 3.06,
   "src": "XAUUSD Spot",
   "spark": [
-   3583.74,
    3604.52,
    3590.87,
    3580.38,
@@ -55,14 +54,15 @@
    3568.47,
    3570.98,
    3572.96,
-   3573.14
+   3572.36,
+   3574.45
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.65,
-   "chg": 3.99,
+   "price": 41.715,
+   "chg": 4.15,
    "spark": [
     53.457,
     52.191,
@@ -85,13 +85,13 @@
     43.147,
     40.76,
     40.052,
-    41.65
+    41.715
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.687,
-   "chg": 0.02,
+   "price": 103.63,
+   "chg": -0.04,
    "spark": [
     102.19,
     102.04,
@@ -114,13 +114,13 @@
     104.32,
     103.81,
     103.67,
-    103.687
+    103.63
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.48,
-   "chg": 0.96,
+   "price": 84.63,
+   "chg": 1.14,
    "spark": [
     102.78,
     102.0,
@@ -143,7 +143,7 @@
     80.17,
     82.05,
     83.68,
-    84.48
+    84.63
    ]
   },
   {
@@ -176,9 +176,38 @@
    ]
   },
   {
+   "name": "EUR/USD",
+   "price": 1.0988,
+   "chg": 0.23,
+   "spark": [
+    1.113,
+    1.1156,
+    1.1183,
+    1.1157,
+    1.1192,
+    1.1207,
+    1.1235,
+    1.1228,
+    1.1147,
+    1.1222,
+    1.1169,
+    1.1095,
+    1.105,
+    1.1025,
+    1.0998,
+    1.0993,
+    1.0972,
+    1.097,
+    1.0972,
+    1.0908,
+    1.0962,
+    1.0988
+   ]
+  },
+  {
    "name": "GBP/USD",
-   "price": 1.312,
-   "chg": 0.06,
+   "price": 1.3117,
+   "chg": 0.04,
    "spark": [
     1.3306,
     1.3328,
@@ -201,13 +230,13 @@
     1.3095,
     1.3035,
     1.3112,
-    1.312
+    1.3117
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.208,
-   "chg": -0.03,
+   "price": 159.194,
+   "chg": -0.04,
    "spark": [
     157.993,
     157.833,
@@ -230,13 +259,13 @@
     158.931,
     159.009,
     159.262,
-    159.208
+    159.194
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1700.52,
-   "chg": 0.6,
+   "price": 1700.24,
+   "chg": 0.58,
    "spark": [
     1675.75,
     1666.18,
@@ -285,13 +314,13 @@
     1698.26,
     1704.67,
     1702.25,
-    1700.52
+    1700.24
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60754.5,
-   "chg": 0.64,
+   "price": 60717.7,
+   "chg": 0.58,
    "spark": [
     59646.2,
     59342.4,
@@ -340,7 +369,7 @@
     60642.4,
     60762.9,
     60793.5,
-    60754.6
+    60717.7
    ]
   }
  ],
@@ -397,39 +426,58 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795701707.056025,
+   "ts": 1795702608.108391,
+   "title": "Iran\u2019s supreme leader urges Guards-linked Basij volunteers to broaden social reach",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/irans-supreme-leader-urges-guardslinked-basij-volunteers-to-broaden-social-reach-5052527",
+   "t": "26 Nov \u00b7 07:16 PM"
+  },
+  {
+   "ts": 1795702608.108391,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "26 Nov \u00b7 07:01 PM"
+   "t": "26 Nov \u00b7 07:16 PM"
   },
   {
-   "ts": 1795701707.056025,
+   "ts": 1795702608.108391,
    "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
-   "t": "26 Nov \u00b7 07:01 PM"
+   "t": "26 Nov \u00b7 07:16 PM"
   },
   {
-   "ts": 1795701707.056025,
+   "ts": 1795702608.108391,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "26 Nov \u00b7 07:01 PM"
+   "t": "26 Nov \u00b7 07:16 PM"
   },
   {
-   "ts": 1795701707.056025,
+   "ts": 1795702608.108391,
    "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "26 Nov \u00b7 07:01 PM"
+   "t": "26 Nov \u00b7 07:16 PM"
   },
   {
-   "ts": 1795701707.056025,
-   "title": "Gold inches up as dollar reverses course, but gains capped by hot data, AI rout",
-   "src": "Investing.com",
-   "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "26 Nov \u00b7 07:01 PM"
+   "ts": 1795700957.0,
+   "title": "EUR/USD might be bottoming out amid peak Fed hawkishness and dovish repricing risks",
+   "src": "investingLive",
+   "link": "https://investinglive.com/forex/eur-usd-might-be-bottoming-out-amid-peak-fed-hawkishness-and-dovish-repricing-risks/",
+   "t": "26 Nov \u00b7 06:49 PM",
+   "body": [
+    "The US dollar has found support recently from a hawkish repricing in interest rate expectations following Governor Waller\u2019s remarks, in which he even floated the possibility of a larger 50 bps hike at the December meeting. Higher-than-expected US inflation data added to the hawkish sentiment.",
+    "Moreover, the greenback benefited from safe-haven flows as global growth concerns intensified amid a more hawkish Fed, the prolonged US-Iran stalemate and a global stock market selloff.",
+    "Those same growth concerns, though, triggered a dovish repricing of Fed rate hike expectations further out the curve, as markets anticipated that the stock market rout could significantly weigh on the broader economy. This has caused the yield differential to favour the upside for the EUR/USD pair, although the greenback remained resilient thanks to safe-haven demand.",
+    "Looking ahead, we might see the US dollar coming under more pressure in case the Fed sounds less hawkish than expected or the economic data triggers a dovish repricing in interest rates expectations.",
+    "On the EUR side, the ECB is widely expected to raise interest rates by 25 bps at the December meeting and deliver one final hike in June 2027. Growth is holding up well, but the recovery remains uneven, with France being a drag. Inflation and energy-related risks are still complicating the ECB\u2019s job of getting inflation sustainably back to target.",
+    "France's 2027 budget battle is still ongoing, and the government is struggling to get its deficit-reduction plans through parliament. So, the French fiscal story remains unresolved. The key risk for French bonds is that parliament waters down the government's consolidation measures, leaving France with a higher deficit for longer. This could keep the French-German 10-year yield spread and the euro under pressure.",
+    "At the end of the day, the EUR/USD pair is 80% driven by what happens with the US dollar, so a dovish repricing in Fed interest rate expectations will likely outweigh euro-related woes, especially given the overbought US dollar positioning.",
+    "On the daily chart, we can see that EURUSD is consolidating near recent lows as traders await new catalysts. If we get a pullback into the downward trendline, we can expect the sellers to lean on it, with a defined risk above it, to position for a drop into the 1.08 handle. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the major downward trendline around the 1.15 handle, with the 1.1270 level as the first target.",
+    "On the 4 hour chart, we have a resistance zone around the 1.10 level. We can expect the sellers to step in around the resistance, with a defined risk above it, to position for a drop into new lows. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the downward trendline.",
+    "On the 1 hour chart, we have a minor upward trendline defining the bullish momentum. The buyers will likely continue to lean on the trendline, with a defined risk below it, to keep targeting new highs. The sellers, on the other hand, will look for a break lower to pile in for a drop into new lows. The red lines define the average daily range for today."
+   ]
   },
   {
    "ts": 1795697215.0,
@@ -498,22 +546,6 @@
     "In essence, US president Trump is looking to rebuild his tariffs wall after the Supreme Court struck down earlier levies.",
     "Now, the language from Beijing is a familiar one and something that we have seen a lot of in the past. At the end of the day, there is a difference between threatening retaliation and actually delivering it. On the latter, I'd actually pay more attention on how Beijing might look to hit back through other avenues. To put it more simply, I'm more interested as to when they will start to bring rare earth export restrictions back into the conversation.",
     "As for markets, the timing of all this is hardly ideal. Investors are already wrestling with a rather painful tech selloff and renewed concerns about economic growth. So when you throw in another round of tariffs uncertainty into the mix, it definitely complicates the recovery effort."
-   ]
-  },
-  {
-   "ts": 1795670779.0,
-   "title": "BOJ policymaker Tamura hints at faster rate hikes, keeps December in focus",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/boj-policymaker-tamura-hints-at-faster-rate-hikes-keeps-december-in-focus/",
-   "t": "26 Nov \u00b7 10:26 AM",
-   "body": [
-    "A 50 bps rate hike by the BOJ? Now, wouldn't that be something?",
-    "We're hearing more comments from BOJ policymaker Tamura today and he is not shying away about talking up the prospect of more aggressive rate hikes by the central bank. His latest remarks:",
-    "Before we get too carried away by the headlines though, let's remember who we're dealing with here. Tamura has been one of the leading hawks at the BOJ since joining the central bank in July 2022. So, none of this is particularly out of character.",
-    "As such, the more interesting question is whether how other policymakers are feeling and if they are viewing things the same way as Tamura is. For now, there's no real suggestion of any overly hawkish leanings along the same lines at least.",
-    "For the most part, the BOJ has already acknowledged that underlying inflation has broadly reached its 2% target. However, they're not explicitly taking any steps or setting out a position to pre-commit to a rate hike for December and also for next year.",
-    "As things stand, traders are pricing in roughly 70% odds of a 25 bps rate hike in December. While the odds are solid, they're not exactly screaming conviction just yet. And I doubt Tamura's remarks alone will do much to move the needle on that front.",
-    "What would carry more weight is if we start hearing a similar sense of urgency from some of the less hawkish members of the BOJ. That's where I'd be looking for clues in the run-up to the December meeting."
    ]
   }
  ],
