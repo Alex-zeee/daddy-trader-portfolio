@@ -1,14 +1,13 @@
 {
- "updated": "26-11-2026 13:47 PKT",
+ "updated": "26-11-2026 14:01 PKT",
  "gold": {
-  "price": 3569.63,
-  "open": 3533.86,
+  "price": 3572.43,
+  "open": 3530.77,
   "high": 3606.46,
   "low": 3426.48,
-  "chg": 1.01,
+  "chg": 1.18,
   "src": "XAUUSD Spot",
   "spark": [
-   3570.83,
    3589.1,
    3576.12,
    3589.23,
@@ -55,13 +54,43 @@
    3567.24,
    3563.9,
    3569.58,
-   3569.63
+   3573.39,
+   3572.43
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 41.99,
+   "chg": 4.84,
+   "spark": [
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    44.318,
+    41.035,
+    43.147,
+    40.76,
+    40.052,
+    41.99
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.745,
+   "price": 103.746,
    "chg": 0.07,
    "spark": [
     102.19,
@@ -85,13 +114,13 @@
     104.32,
     103.81,
     103.67,
-    103.745
+    103.746
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 83.9,
-   "chg": 0.26,
+   "price": 83.85,
+   "chg": 0.2,
    "spark": [
     102.78,
     102.0,
@@ -114,7 +143,7 @@
     80.17,
     82.05,
     83.68,
-    83.9
+    83.85
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0976,
-   "chg": 0.12,
+   "price": 1.0972,
+   "chg": 0.09,
    "spark": [
     1.113,
     1.1156,
@@ -172,13 +201,13 @@
     1.0972,
     1.0908,
     1.0962,
-    1.0976
+    1.0972
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.311,
-   "chg": -0.01,
+   "price": 1.3107,
+   "chg": -0.04,
    "spark": [
     1.3306,
     1.3328,
@@ -201,13 +230,13 @@
     1.3095,
     1.3035,
     1.3112,
-    1.311
+    1.3107
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.118,
-   "chg": -0.09,
+   "price": 159.132,
+   "chg": -0.08,
    "spark": [
     157.993,
     157.833,
@@ -230,15 +259,14 @@
     158.931,
     159.009,
     159.262,
-    159.118
+    159.132
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1692.71,
-   "chg": 0.14,
+   "price": 1699.33,
+   "chg": 0.53,
    "spark": [
-    1681.69,
     1682.28,
     1700.53,
     1701.62,
@@ -285,15 +313,15 @@
     1692.12,
     1685.38,
     1687.84,
-    1692.71
+    1699.25,
+    1699.41
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60769.4,
-   "chg": 0.66,
+   "price": 60824.4,
+   "chg": 0.76,
    "spark": [
-    59918.7,
     59711.0,
     60356.9,
     60379.9,
@@ -340,7 +368,8 @@
     60731.4,
     60475.7,
     60454.9,
-    60755.0
+    60834.4,
+    60829.4
    ]
   }
  ],
@@ -397,46 +426,46 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795682828.269634,
+   "ts": 1795683708.049356,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "26 Nov \u00b7 01:47 PM"
+   "t": "26 Nov \u00b7 02:01 PM"
   },
   {
-   "ts": 1795682828.269634,
+   "ts": 1795683708.049356,
    "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
-   "t": "26 Nov \u00b7 01:47 PM"
+   "t": "26 Nov \u00b7 02:01 PM"
   },
   {
-   "ts": 1795682828.269634,
+   "ts": 1795683708.049356,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "26 Nov \u00b7 01:47 PM"
+   "t": "26 Nov \u00b7 02:01 PM"
   },
   {
-   "ts": 1795682828.269634,
+   "ts": 1795683708.049356,
    "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-proposes-higher-tariffs-on-brazil-imports-including-10-duty-on-aircraft-5050713",
-   "t": "26 Nov \u00b7 01:47 PM"
+   "t": "26 Nov \u00b7 02:01 PM"
   },
   {
-   "ts": 1795682828.269634,
+   "ts": 1795683708.049356,
    "title": "Gold inches up as dollar reverses course, but gains capped by hot data, AI rout",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591",
-   "t": "26 Nov \u00b7 01:47 PM"
+   "t": "26 Nov \u00b7 02:01 PM"
   },
   {
-   "ts": 1795682828.269634,
+   "ts": 1795683708.049356,
    "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
-   "t": "26 Nov \u00b7 01:47 PM"
+   "t": "26 Nov \u00b7 02:01 PM"
   },
   {
    "ts": 1795680579.0,
@@ -547,10 +576,10 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY293MDdPNFJRNW9UUFV4aDk5VVNfN0pocjBIYjR4OGdRbm9hU0QzbGFDd1o1Y2RvVUlIY2RlZW9vMkRJSWloOF9id2FZMUZpLUVQZnRJMTJ2aHREcmUyMHZQMHNJRTEwQWc1ZXRWa3ppRVJkNHRkYlFCWk1XQXJXeDRPS2dzQkp6S1HSAY8BQVVfeXFMT0NGQ1RBNUd4NDYwRGZHcUV1czVTMTg0d0c2YlhiWTBoMFBSdnpYMEo5dXJ6Q0N5Q0VQWXNLVDdjdFpXMkJuckR1T2hTTUVUTGMwM05lMGF0OU0wRXRjN0FhMzdpNW0tOHk0eWZnN0JQTlkxY1VnVkZKNHhkOVFuamgyMmJpa09feGF4WGFBYTA?oc=5"
   },
   {
-   "ts": 1795545276.0,
-   "title": "US ADP National Employment Report Preliminary Estimate for November 7, 2026",
+   "ts": 1795581491.0,
+   "title": "AU CPI y/y",
    "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeDM2QXR3d2hiY0M2allGUnJuVV9FalFsMGJOcTJhd3hzbGd3YjBmWk5EaGlQbTgwbjFqS3RkcnUzNF9WYUotY1d3UWkzRU12VmZ1bnF2NzdkeUx3dm45M2J3RzdFdXZhRC15UmJDdEpNWDljVS1nSjBESE5UT0t2WF9UOHh5MUlsU2V1eHZEZk0zMkZ4eXU0cVdMSzFRMElfM0HSAacBQVVfeXFMT0tvQUl5bFlxUmVwTmo3dTVjMmFUOGlrWHROOTQ0a0lNYW83VVBVRVk0em1tZklrWlJkZEJGVWZPTERWVV9YNVIxUnpyNDBJcGQzTWItTmF3aFRtS29yelFnOVVncktnUHppWkpwVFZYYUFhNUdjT0xVQXA3QWlsdEhkeEVxOGtYeUtjU0tLVkwyM1ZtWVBrRURvYXZOWU10M2V6TTVtbmM?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96b2dBcjhCbm5IakpmaUpQYWZKNTV3cG91cXNSS1BqWUtsZUZnVTlYbHNsVEZjTUwtU3BKZi1URThkSW5DTl9QMlpfWnJLRnZ4amp3bERnd3MyRVQybUlfVQ?oc=5"
   }
  ],
  "sentiment": {
