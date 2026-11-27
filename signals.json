@@ -1,20 +1,20 @@
 {
- "updated": "27-11-2026 06:51 PKT",
+ "updated": "27-11-2026 07:01 PKT",
  "market": "open",
  "src": "XAUUSD-spot",
  "err": null,
  "bias": {
   "dir": "BUY",
   "strength": 100,
-  "price": 3572.34,
-  "rsi": 56,
+  "price": 3591.46,
+  "rsi": 72,
   "tf": "M15"
  },
  "liq": {
   "above": [
-   3585.51,
    3603.55,
-   3606.46
+   3606.46,
+   3632.53
   ],
   "below": [
    3556.04,
@@ -33,7 +33,7 @@
    "entry": 3571.24,
    "sl": 3586.23,
    "tp": 3536.32,
-   "status": "Active",
+   "status": "SL Hit",
    "note": "ICT Liquidity Hunt + CISD: LONDON High liquidity hunt -> CISD"
   }
  ],
