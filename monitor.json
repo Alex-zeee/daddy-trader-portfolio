@@ -1,14 +1,13 @@
 {
- "updated": "27-11-2026 11:16 PKT",
+ "updated": "27-11-2026 11:31 PKT",
  "gold": {
-  "price": 3644.37,
-  "open": 3572.66,
+  "price": 3650.58,
+  "open": 3565.53,
   "high": 3666.09,
   "low": 3551.89,
-  "chg": 2.01,
+  "chg": 2.39,
   "src": "XAUUSD Spot",
   "spark": [
-   3568.3,
    3568.19,
    3567.25,
    3566.73,
@@ -55,14 +54,15 @@
    3653.95,
    3641.97,
    3645.4,
-   3644.37
+   3650.2,
+   3650.58
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.305,
-   "chg": 10.62,
+   "price": 44.445,
+   "chg": 10.97,
    "spark": [
     53.457,
     52.191,
@@ -85,13 +85,13 @@
     43.147,
     40.76,
     40.052,
-    44.305
+    44.445
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.711,
-   "chg": 0.04,
+   "price": 103.701,
+   "chg": 0.03,
    "spark": [
     102.19,
     102.04,
@@ -114,7 +114,7 @@
     104.32,
     103.81,
     103.67,
-    103.711
+    103.701
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0982,
-   "chg": 0.11,
+   "price": 1.0983,
+   "chg": 0.12,
    "spark": [
     1.1156,
     1.1183,
@@ -201,13 +201,13 @@
     1.0908,
     1.0962,
     1.097,
-    1.0982
+    1.0983
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3127,
-   "chg": 0.11,
+   "price": 1.3126,
+   "chg": 0.1,
    "spark": [
     1.3328,
     1.3379,
@@ -230,13 +230,13 @@
     1.3035,
     1.3112,
     1.3113,
-    1.3127
+    1.3126
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.315,
-   "chg": 0.06,
+   "price": 159.343,
+   "chg": 0.08,
    "spark": [
     157.833,
     157.804,
@@ -259,13 +259,13 @@
     159.009,
     159.262,
     159.215,
-    159.315
+    159.343
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1738.5,
-   "chg": 3.01,
+   "price": 1734.23,
+   "chg": 2.76,
    "spark": [
     1638.9,
     1650.95,
@@ -314,13 +314,13 @@
     1726.35,
     1729.69,
     1739.29,
-    1738.5
+    1734.23
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61843.5,
-   "chg": 2.22,
+   "price": 61676.5,
+   "chg": 1.95,
    "spark": [
     58654.4,
     59352.3,
@@ -369,7 +369,7 @@
     61320.9,
     61337.9,
     61690.5,
-    61843.5
+    61676.5
    ]
   }
  ],
@@ -426,25 +426,25 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795760208.605058,
+   "ts": 1795761114.532019,
    "title": "Gold rebounds 1.8% after more than one-year low as bargain hunters return",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805",
-   "t": "27 Nov \u00b7 11:16 AM"
+   "t": "27 Nov \u00b7 11:31 AM"
   },
   {
-   "ts": 1795760208.605058,
+   "ts": 1795761114.532019,
    "title": "Iran\u2019s supreme leader urges Guards-linked Basij volunteers to broaden social reach",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-supreme-leader-urges-guardslinked-basij-volunteers-to-broaden-social-reach-5052527",
-   "t": "27 Nov \u00b7 11:16 AM"
+   "t": "27 Nov \u00b7 11:31 AM"
   },
   {
-   "ts": 1795760208.605058,
+   "ts": 1795761114.532019,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "27 Nov \u00b7 11:16 AM"
+   "t": "27 Nov \u00b7 11:31 AM"
   },
   {
    "ts": 1795757147.0,
@@ -586,12 +586,6 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcjNqYUxrc2dDamw3cG5QcGxva2poZDl5S2Y2Qnc0a2pQVnhIYlZEcnN3TWZzM2Q4X0xBMDhEeFZFVFNLX2diODRUX3l2a1FUZW9IN2FLVDY1U19yc3EzVHI4ck5EekQyRVE2dG5zb3J6RzNpQXVxNTF2NzZWY254WFVleGhwRHNNM0o1dm9BSdIBlAFBVV95cUxOSEtLbm9GaXI1UFdzNjNXMS1FN3M0ekFQS0MxVDRXdFlMV1pfUVFuRDZPejdlZ2VUS3BxZThtOGdSUjBOWlNkeWM2RmZrcWRZNHRvelpJeUF1MWRWVnJyQlM5eGhOUVEyZzBFUXNaM2I3UHhzQmFKS2lFQmZXZUtTeTJ6SWd5UnQ4dFl0ZUtuTnc2V0Jl?oc=5"
   },
   {
-   "ts": 1795711260.0,
-   "title": "Trump demands probe of GDP data released before midterms",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVlXZnBzekFiQlFhbEhsUVBlSlpHN3NldGdWRUw3d2l6VUtuY29aNDMxdEppTWp5M0NqckRyQUtyNzlEdGpsczc2OXg1QlpJVFlvZTdkNWhCa2QtdmdSOW1PamJGVTBDTi02MWU3OTNIdHc0UW8tOS1NM0lMcTN5QlA1TVhEQU1ENXc5RnczR3BGU0nSAZgBQVVfeXFMUGt0Q1ZwN2UyRG9zT3pMOFd5VFFtMmFhbVBEcU9GV3Bhb0lpVU0wRkdjMXdWa0V2TlFrS2FXU1d5VUxtVWwySktCRXlfaXZrNTlXTWtYSk9VSktONXV3ZU52bnZ2RDJPQTItdDBLYTB6ZGJBN0ZiMHVSMUtRQjBOX3FFUl9WckdHT2lvbXFRMXhhSUg3Z21nOVU?oc=5"
-  },
-  {
    "ts": 1795705500.0,
    "title": "Spain\u2019s Pablo Hern\u00e1ndez de Cos set to lead European Central Bank",
    "src": "ForexFactory",
@@ -602,6 +596,12 @@
    "title": "Pablo Hernandez de Cos is going to be the next ECB president - FT",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbE1QaW9LZVZScDF0Y2toX19tdUVQbmwzR3dZZzhTZ2JtT002UjFQcjlsUEllZ196R1RZQWVBTGttUmRFMHZYaENiMWVOUEEwOUZqSjVmZmljQ2tNajQ3WTBGcHQxemJRSnJkS0UxbWFFOTBFRWhwMHVmRkNzOFA4NDhYbmlVUdIBiwFBVV95cUxPeXRtN2dEOFhjREZOdnNBZzRoUTk3bGRLajlJcEZTUWdKcGthWWVkV2xOeXBLNXZyMGpKMXZXU0cxYWVHd0QyNGpoMWdjMnlaSGotdHRWZDBoR2JhM2F2Vkl4S3dDVHpMVjNlTlZVYUxyYkNjSWNTWXZ0NG5QbHF1ZEd2TEozWWd4aTRR?oc=5"
+  },
+  {
+   "ts": 1795696348.0,
+   "title": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Frankfurt am Main on Wednesday and Thursday, 28-2",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMWUxcnBObWtXcTBpZ0JTOWFzZGxHZWFRVUYzU3lTWXo1SF9EXzB1Y2F6Z0RlRUxyNGZRbGd1U3VXdUZKRUZKWERZckpvXzRCU1BmLWZuWjR0Sy1JMW9KMFZvRm9yWnc1aUZRWWd2X1J0dEw2V3dVSl9BaU5obDl5QUQzNWwzbl8yV0pfVzBsdlTSAZYBQVVfeXFMTW1fT2J5NVphR2ZLRThjNkUtU01Wa1VKOVRaMnVHdlRXNDhMS1NTU0dGdWI4OW9QeHAzMkdnckJzYUxHRG41ZkZLR08wWEVjVVFYRHZraEo5SUtZdHBibjRwTmZJSjR4bloybi1qaDE5WEt5ZVVpcWJEbllLLVVZbG1BSkNxZE1sWHRxOW9Td0p0dTZQLVVR?oc=5"
   }
  ],
  "sentiment": {
