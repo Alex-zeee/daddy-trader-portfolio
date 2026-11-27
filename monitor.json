@@ -1,14 +1,13 @@
 {
- "updated": "27-11-2026 05:16 PKT",
+ "updated": "27-11-2026 05:31 PKT",
  "gold": {
-  "price": 3566.89,
-  "open": 3573.63,
+  "price": 3567.14,
+  "open": 3572.52,
   "high": 3606.46,
   "low": 3546.21,
-  "chg": -0.19,
+  "chg": -0.15,
   "src": "XAUUSD Spot",
   "spark": [
-   3571.41,
    3566.0,
    3565.49,
    3568.47,
@@ -55,14 +54,15 @@
    3566.55,
    3568.26,
    3567.53,
-   3566.89
+   3569.81,
+   3567.14
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.8,
-   "chg": 4.36,
+   "price": 41.765,
+   "chg": 4.28,
    "spark": [
     53.457,
     52.191,
@@ -85,7 +85,7 @@
     43.147,
     40.76,
     40.052,
-    41.8
+    41.765
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 85.06,
-   "chg": 1.65,
+   "price": 85.1,
+   "chg": 1.7,
    "spark": [
     102.78,
     102.0,
@@ -143,7 +143,7 @@
     80.17,
     82.05,
     83.68,
-    85.06
+    85.1
    ]
   },
   {
@@ -206,8 +206,8 @@
   },
   {
    "name": "GBP/USD",
-   "price": 1.3101,
-   "chg": -0.09,
+   "price": 1.31,
+   "chg": -0.1,
    "spark": [
     1.3328,
     1.3379,
@@ -230,42 +230,13 @@
     1.3035,
     1.3112,
     1.3113,
-    1.3101
-   ]
-  },
-  {
-   "name": "USD/JPY",
-   "price": 159.368,
-   "chg": 0.1,
-   "spark": [
-    157.833,
-    157.804,
-    157.677,
-    157.915,
-    158.469,
-    158.357,
-    157.498,
-    158.292,
-    157.983,
-    158.705,
-    159.734,
-    159.875,
-    159.78,
-    159.523,
-    159.504,
-    159.381,
-    159.707,
-    158.931,
-    159.009,
-    159.262,
-    159.215,
-    159.368
+    1.31
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1688.0,
-   "chg": 0.02,
+   "price": 1689.75,
+   "chg": 0.12,
    "spark": [
     1655.87,
     1654.26,
@@ -314,13 +285,13 @@
     1703.11,
     1691.57,
     1687.76,
-    1688.0
+    1689.75
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60527.3,
-   "chg": 0.05,
+   "price": 60492.2,
+   "chg": -0.01,
    "spark": [
     59190.4,
     59151.6,
@@ -369,7 +340,7 @@
     60749.6,
     60466.5,
     60499.2,
-    60527.3
+    60492.2
    ]
   }
  ],
@@ -426,32 +397,32 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795738611.585366,
+   "ts": 1795739511.104353,
    "title": "Iran\u2019s supreme leader urges Guards-linked Basij volunteers to broaden social reach",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-supreme-leader-urges-guardslinked-basij-volunteers-to-broaden-social-reach-5052527",
-   "t": "27 Nov \u00b7 05:16 AM"
+   "t": "27 Nov \u00b7 05:31 AM"
   },
   {
-   "ts": 1795738611.585366,
+   "ts": 1795739511.104353,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "27 Nov \u00b7 05:16 AM"
+   "t": "27 Nov \u00b7 05:31 AM"
   },
   {
-   "ts": 1795738611.585366,
+   "ts": 1795739511.104353,
    "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
-   "t": "27 Nov \u00b7 05:16 AM"
+   "t": "27 Nov \u00b7 05:31 AM"
   },
   {
-   "ts": 1795738611.585366,
+   "ts": 1795739511.104353,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "27 Nov \u00b7 05:16 AM"
+   "t": "27 Nov \u00b7 05:31 AM"
   },
   {
    "ts": 1795736841.0,
@@ -600,6 +571,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
