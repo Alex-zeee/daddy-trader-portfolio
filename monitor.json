@@ -1,14 +1,13 @@
 {
- "updated": "27-11-2026 05:01 PKT",
+ "updated": "27-11-2026 05:16 PKT",
  "gold": {
-  "price": 3568.87,
-  "open": 3575.77,
+  "price": 3566.89,
+  "open": 3573.63,
   "high": 3606.46,
   "low": 3546.21,
   "chg": -0.19,
   "src": "XAUUSD Spot",
   "spark": [
-   3565.91,
    3571.41,
    3566.0,
    3565.49,
@@ -55,14 +54,15 @@
    3567.32,
    3566.55,
    3568.26,
-   3568.87
+   3567.53,
+   3566.89
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 41.71,
-   "chg": 4.14,
+   "price": 41.8,
+   "chg": 4.36,
    "spark": [
     53.457,
     52.191,
@@ -85,7 +85,7 @@
     43.147,
     40.76,
     40.052,
-    41.71
+    41.8
    ]
   },
   {
@@ -119,8 +119,8 @@
   },
   {
    "name": "Oil WTI",
-   "price": 84.98,
-   "chg": 1.55,
+   "price": 85.06,
+   "chg": 1.65,
    "spark": [
     102.78,
     102.0,
@@ -143,7 +143,7 @@
     80.17,
     82.05,
     83.68,
-    84.98
+    85.06
    ]
   },
   {
@@ -177,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0971,
-   "chg": 0.01,
+   "price": 1.0967,
+   "chg": -0.03,
    "spark": [
     1.1156,
     1.1183,
@@ -201,13 +201,13 @@
     1.0908,
     1.0962,
     1.097,
-    1.0971
+    1.0967
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3105,
-   "chg": -0.06,
+   "price": 1.3101,
+   "chg": -0.09,
    "spark": [
     1.3328,
     1.3379,
@@ -230,13 +230,13 @@
     1.3035,
     1.3112,
     1.3113,
-    1.3105
+    1.3101
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.299,
-   "chg": 0.05,
+   "price": 159.368,
+   "chg": 0.1,
    "spark": [
     157.833,
     157.804,
@@ -259,13 +259,13 @@
     159.009,
     159.262,
     159.215,
-    159.299
+    159.368
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1690.49,
-   "chg": 0.17,
+   "price": 1688.0,
+   "chg": 0.02,
    "spark": [
     1655.87,
     1654.26,
@@ -314,13 +314,13 @@
     1703.11,
     1691.57,
     1687.76,
-    1690.49
+    1688.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60587.3,
-   "chg": 0.15,
+   "price": 60527.3,
+   "chg": 0.05,
    "spark": [
     59190.4,
     59151.6,
@@ -369,7 +369,7 @@
     60749.6,
     60466.5,
     60499.2,
-    60595.5
+    60527.3
    ]
   }
  ],
@@ -426,32 +426,74 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795737706.393629,
+   "ts": 1795738611.585366,
    "title": "Iran\u2019s supreme leader urges Guards-linked Basij volunteers to broaden social reach",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-supreme-leader-urges-guardslinked-basij-volunteers-to-broaden-social-reach-5052527",
-   "t": "27 Nov \u00b7 05:01 AM"
+   "t": "27 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795737706.393629,
+   "ts": 1795738611.585366,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "27 Nov \u00b7 05:01 AM"
+   "t": "27 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795737706.393629,
+   "ts": 1795738611.585366,
    "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
-   "t": "27 Nov \u00b7 05:01 AM"
+   "t": "27 Nov \u00b7 05:16 AM"
   },
   {
-   "ts": 1795737706.393629,
+   "ts": 1795738611.585366,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "27 Nov \u00b7 05:01 AM"
+   "t": "27 Nov \u00b7 05:16 AM"
+  },
+  {
+   "ts": 1795736841.0,
+   "title": "Goldman says hyperscalers can easily earn 15% on AI, but neoclouds face a utilisation trap",
+   "src": "investingLive",
+   "link": "https://investinglive.com/stocks/goldman-says-hyperscalers-can-easily-earn-15-on-ai-but-neoclouds-face-a-utilisation-trap/",
+   "t": "27 Nov \u00b7 04:47 AM",
+   "body": [
+    "The views point to a widening gap in how investors treat the AI trade. Hyperscaler stocks and investment-grade bonds look the most defensible, given their strong balance sheets and cash flows outside AI. Neocloud equity and high-yield credit carry the most risk if utilisation disappoints. Goldman's credit team expects the high-yield market for AI deals to split more sharply, with investors favouring top-tier developers and projects backed by solid contracts. Chipmakers and memory suppliers ultimately depend on the same thing as the neoclouds: evidence that companies using AI are earning a return. The next earnings round's commentary on returns on capital is likely to move the whole complex.",
+    "Goldman's analysis suggests the tech giants can comfortably earn a return on their AI build-out, but the neoclouds renting out GPU capacity are exposed if corporate customers keep failing to turn AI spending into profit.",
+    "Is the artificial intelligence spending boom built to last? Goldman Sachs put that question to two people who see the cycle from very different vantage points, and their answers point the same way. The biggest technology companies are well placed to ride out a slowdown. The risk is concentrated among newer, more heavily indebted players further down the chain.",
+    "Goldman's lead US internet analyst, Eric Sheridan, argued in the bank's November Top of Mind report that the six largest US hyperscalers can \"very easily\" earn a return on invested capital of 15% or more on their AI spending. Their revenue backlogs are much larger than two or three years ago, and some companies have said about half of those backlogs will turn into revenue within two years. On Goldman's estimates, the hyperscalers would not need anywhere near all of that backlog to convert to reach the 15% mark. Sheridan pointed to the latest earnings round, in which several of the big names gave detailed return figures and their shares rallied, as evidence that the payoff is starting to show.",
+    "He described the market's current doubts as understandable, rather than either warranted or overblown. Every computing cycle he has covered, from desktop to mobile to cloud, has gone through a phase of disillusionment once spending runs ahead of visible returns. Investors, he said, want returns within months on a build-out that typically plays out over five to eight years.",
+    "Chamath Palihapitiya, founder and CEO of Social Capital, invests across AI chips, power and software. He is more worried about the neoclouds, the specialist firms that rent out GPU capacity. He compares them to a bank in reverse: their revenue is short-term and uncertain, while their obligations for chips, power and data centres are long-dated and fixed. Like airlines, they need to keep their capacity busy to make money. He puts the break-even point at roughly 70% to 75% utilisation, with profits only coming above that. Yearly chip upgrades and more efficient AI models make the arithmetic harder.",
+    "His central concern is that big companies are not yet earning a meaningful return on their AI spending. Projects are hard to implement, staff are often wary, and productivity gains tend to get lost elsewhere in the business, so few firms can point to AI as a source of earnings growth. If that remains the case, demand for computing power may not grow fast enough to fill the capacity being built.",
+    "Goldman's analysts put the hurdle in numbers. For the hyperscalers to earn a 15% return on their 2026 and 2027 investment, they would need to generate around $1.4 trillion in cumulative revenue over 2028 to 2030, roughly $500 billion a year. Sheridan sees three things that could stall the cycle: weaker demand, a disruption in access to capital, or a shortage of power, which cannot be scaled up as fast as land, buildings or chips. For now, he sees demand gaining momentum rather than fading.",
+    "Both expect the cycle to produce winners and losers. Palihapitiya expects a bump in the road at some point, much like the internet build-out two decades ago, which ultimately proved right but got the timing wrong. Neoclouds that own their power and land should hold up better than those that simply lease capacity."
+   ]
+  },
+  {
+   "ts": 1795735853.0,
+   "title": "Tokyo November core CPI rises to 2.9% y/y, just shy of 3.0% expected",
+   "src": "investingLive",
+   "link": "https://investinglive.com/news/tokyo-november-core-cpi-rises-to-2-9-y-y-just-shy-of-3-0-expected/",
+   "t": "27 Nov \u00b7 04:30 AM"
+  },
+  {
+   "ts": 1795734114.0,
+   "title": "Gold's 37% slide from record looks overdone, says Saxo's Hansen, but $3,590 is the test",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/gold-s-37-slide-from-record-looks-overdone-says-saxo-s-hansen-but-3-590-is-the-test/",
+   "t": "27 Nov \u00b7 04:01 AM",
+   "body": [
+    "Gold's moves are being set by the dollar and US rate pricing, not by safe-haven demand, so US data and Fed commentary will matter more than geopolitical headlines for any rebound. Because speculative positioning has been cut so hard, short covering could make any bounce sharp, especially in silver, the most stretched metal. A failure back below Wednesday's low would suggest forced selling has further to run. That would be a risk for miners and leveraged exposure. A softer dollar or a dovish shift in Fed expectations is the catalyst most likely to turn a technical rebound into a lasting one.",
+    "Gold has gone from historic exuberance to historic distress in less than a year, and while stretched positioning and a strong seasonal record point to a bounce, Saxo's Ole Hansen says a lasting recovery needs the dollar and rate expectations to ease.",
+    "Gold's selloff has swung from one historic extreme to another, and Saxo's head of commodity strategy, Ole Hansen, now sees early signs that the selling may be running out of steam. He cautions that any lasting recovery still depends on the macro backdrop turning in the metal's favour.",
+    "In January, gold traded about 45% above its 200-day moving average, the widest gap since the 1970s. This week it slipped about 20% below that average, the deepest negative gap since June 2013, Hansen wrote in a note published by Saxo. That compares with roughly 20% below during the 2008 financial crisis and about 27% below in 1981. Gold is down about 19% this year and around 37% from January's record high, its biggest 12-month drawdown since the early 1980s. The rest of the sector has fared worse. Silver has fallen about 43% this year and sits more than 37% below its 200-day average. Platinum is down about 39%, and palladium is around a third below its trend.",
+    "Hansen blames a broad move out of risk rather than a collapse in gold's longer-term case. A strong dollar, energy-driven inflation, rising expectations of rate hikes, turmoil in AI-linked stocks and negative momentum have all pushed investors to raise cash. Higher rate expectations also make it more expensive to hold metals that pay no yield. He argues the long-term supports remain in place, including central banks diversifying their reserves, fiscal worries and demand for assets without counterparty risk. But he says these alone are unlikely to stop the selling.",
+    "The setup for a rebound is improving. Short-term momentum readings across the sector are at or below oversold levels, and speculative positioning has been cut substantially. Gold ETF holdings have held up relatively well, and silver has drawn fresh ETF demand despite falling prices. Seasonality also helps: gold has gained over December and January in each of the past 11 years. Hansen stresses that neither oversold conditions nor the calendar is a reason to buy on its own.",
+    "He sets out clear technical markers. Gold formed a hammer candle at its recent low near $3,430, a pattern that can signal selling exhaustion. A daily close above about $3,590 would confirm a rebound and open the way to around $3,700, a 38.2% retracement of the November selloff. A fresh break below Wednesday's low would cancel that view. For silver, a daily close above roughly $41.50 would be the equivalent confirmation.",
+    "Hansen is also less convinced than markets that the Federal Reserve needs to deliver the rate hikes now priced in. He argues that weaker AI investment, falling diesel prices and a negative wealth effect from lower stock prices could cool inflation and change the Fed's course. A rally driven by short covering could come quickly. A durable recovery, though, would need a softer dollar, lower real yields and calmer stock markets, which he says would not require a renewed AI boom."
+   ]
   },
   {
    "ts": 1795728766.0,
@@ -510,66 +552,15 @@
     "Quarterly revenue: $3.66 billion, up approximately 168% year over year.",
     "Expected 2026 capital expenditure: $37 billion to $39 billion."
    ]
-  },
-  {
-   "ts": 1795700957.0,
-   "title": "EUR/USD might be bottoming out amid peak Fed hawkishness and dovish repricing risks",
-   "src": "investingLive",
-   "link": "https://investinglive.com/forex/eur-usd-might-be-bottoming-out-amid-peak-fed-hawkishness-and-dovish-repricing-risks/",
-   "t": "26 Nov \u00b7 06:49 PM",
-   "body": [
-    "The US dollar has found support recently from a hawkish repricing in interest rate expectations following Governor Waller\u2019s remarks, in which he even floated the possibility of a larger 50 bps hike at the December meeting. Higher-than-expected US inflation data added to the hawkish sentiment.",
-    "Moreover, the greenback benefited from safe-haven flows as global growth concerns intensified amid a more hawkish Fed, the prolonged US-Iran stalemate and a global stock market selloff.",
-    "Those same growth concerns, though, triggered a dovish repricing of Fed rate hike expectations further out the curve, as markets anticipated that the stock market rout could significantly weigh on the broader economy. This has caused the yield differential to favour the upside for the EUR/USD pair, although the greenback remained resilient thanks to safe-haven demand.",
-    "Looking ahead, we might see the US dollar coming under more pressure in case the Fed sounds less hawkish than expected or the economic data triggers a dovish repricing in interest rates expectations.",
-    "On the EUR side, the ECB is widely expected to raise interest rates by 25 bps at the December meeting and deliver one final hike in June 2027. Growth is holding up well, but the recovery remains uneven, with France being a drag. Inflation and energy-related risks are still complicating the ECB\u2019s job of getting inflation sustainably back to target.",
-    "France's 2027 budget battle is still ongoing, and the government is struggling to get its deficit-reduction plans through parliament. So, the French fiscal story remains unresolved. The key risk for French bonds is that parliament waters down the government's consolidation measures, leaving France with a higher deficit for longer. This could keep the French-German 10-year yield spread and the euro under pressure.",
-    "At the end of the day, the EUR/USD pair is 80% driven by what happens with the US dollar, so a dovish repricing in Fed interest rate expectations will likely outweigh euro-related woes, especially given the overbought US dollar positioning.",
-    "On the daily chart, we can see that EURUSD is consolidating near recent lows as traders await new catalysts. If we get a pullback into the downward trendline, we can expect the sellers to lean on it, with a defined risk above it, to position for a drop into the 1.08 handle. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the major downward trendline around the 1.15 handle, with the 1.1270 level as the first target.",
-    "On the 4 hour chart, we have a resistance zone around the 1.10 level. We can expect the sellers to step in around the resistance, with a defined risk above it, to position for a drop into new lows. The buyers, on the other hand, will want to see the price breaking higher to pile in for a rally into the downward trendline.",
-    "On the 1 hour chart, we have a minor upward trendline defining the bullish momentum. The buyers will likely continue to lean on the trendline, with a defined risk below it, to keep targeting new highs. The sellers, on the other hand, will look for a break lower to pile in for a drop into new lows. The red lines define the average daily range for today."
-   ]
-  },
-  {
-   "ts": 1795697215.0,
-   "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-   "src": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-   "t": "26 Nov \u00b7 05:46 PM",
-   "body": [
-    "The Trump administration has unveiled a fresh tariff salvo on more than a dozen trading partners, with China, Vietnam, and India facing some of the steepest potential rates and mounting pressure to conclude trade deals with Washington.",
-    "The proposed tariffs, framed as curbing excess industrial capacity, start at 15% for the European Union, South Korea, Switzerland and Taiwan and rise to as much as 35% for Vietnam.",
-    "The U.S. Trade Representative's Office said it intends to cap the new duties at lower levels for countries that have completed trade deals or are still negotiating with Washington.",
-    "The overall impact on the region is likely to be limited, said Mark Williams, chief Asia economist at Capital Economics. The proposal \"puts most of the targeted countries back where they were earlier in the year,\" he said, after the Supreme Court struck down Trump's emergency tariffs in February.",
-    "Still, the proposal could give some countries an incentive to speed up trade talks in order to lock in lower tariff rates, analysts said.",
-    "On Wednesday, U.S. Trade Representative Jamieson Greer said that the new policy likely will not take effect for months, with a senior U.S. official saying the duties could take effect as early as January.",
-    "China faces a capped rate of 20%, on top of an existing 25% tariff imposed during President Donald Trump's first term. The rate could rise to 40% if the trade truce reached in South Korea last October is not extended beyond January, the USTR said.",
-    "Beijing has rejected Washington's claim of excess capacity while vowing to take measures necessary to protect its rights.",
-    "On Thursday, Chinese Commerce Ministry spokesperson He Yadong called on Washington to \"rectify its wrongdoing and return to the right track of resolving issues through dialogue.\"",
-    "He was responding to Washington's plan to raise tariffs following its Section 301 investigations, while the ministry also urged the U.S. to implement $30 billion of reciprocal tariff cuts agreed by the two sides in late September.",
-    "The renewed tensions come despite several conciliatory meetings between Trump and Chinese President Xi Jinping this year, as well as what Williams described as Trump's \"apparent lack of concern\" about allegations that Chinese technology firms have circumvented U.S. chip export controls.",
-    "The two leaders are expected to meet for a fourth time this year at the Group of 20 leaders summit in Miami in December.",
-    "\"While not happy, Beijing seems prepared to live with the new rates provided that they don't exceed 20%,\" said Wendy Cutler, senior vice president at the Asia Society Policy Institute.",
-    "By retaining the option to raise levies if bilateral talks deteriorate, Washington is using the tariffs as leverage to \"secure expected shipments of critical minerals and rare earths, and further purchases of U.S. agricultural goods,\" Cutler said."
-   ]
-  },
-  {
-   "ts": 1795687684.0,
-   "title": "Crude oil finds some footing as prolonged US-Iran tensions keep the downside limited. What's next?",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/crude-oil-finds-some-footing-as-prolonged-us-iran-tensions-keep-the-downside-limited-what-s-next/",
-   "t": "26 Nov \u00b7 03:08 PM",
-   "body": [
-    "Crude oil started to find some footing recently as the bearish pressure from growth concerns eased. Keep in mind that growth fears could still push oil prices lower, but we will likely need a bigger selloff in the stock market, an even more hawkish Fed or weak economic data to increase the bearish momentum.",
-    "On the news front, we had a relatively quiet day yesterday with no major developments, although we continue to have incidents in the Strait of Hormuz.",
-    "Overall, there\u2019s been no de-escalation nor improvement in the US-Iran situation as the risk of a direct military confrontation remains high. Oil prices could come under renewed pressure if growth concerns intensify, but an escalation in the war could still push prices higher, while a prolonged stalemate may keep the downside limited.",
-    "On the daily chart, we can see that crude oil (CFD contract) extended the gains yesterday after a key technical breakout on the lower timeframes. If we get another retest of the support zone around the 80.00 level, we can expect the buyers to step in there, with a defined risk below the support, to keep targeting the 110.00 level. The sellers, on the other hand, will need the price to break lower to pile in for a drop into the 68.00 support next, with the 74.00 handle as the first target.",
-    "On the 4 hour chart, we can see that the price reversed before reaching the upper bound of the channel. If we get another push to the upside, we can expect the sellers to lean on the top trendline, with a defined risk above it, to position for a drop into the 68.00 support. The buyers, on the other hand, will want to see the price breaking higher to increase the bullish bets into the 92.50 level next.",
-    "On the 1 hour chart, we can see that the break of the downward trendline increased the bullish momentum as more buyers piled in to target the upper bound of the channel. If we get a pullback, we can expect the buyers to lean on the upward trendline, with a defined risk below it, to keep pushing into new highs. The sellers, on the other hand, will look for a break lower to increase the bearish bets into new lows. The red lines define the average daily range for today."
-   ]
   }
  ],
  "tweets": [
+  {
+   "ts": 1795718700.0,
+   "title": "Ranked: The Cost of Thanksgiving Dinner in 50 U.S. Cities",
+   "src": "ForexFactory",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcjNqYUxrc2dDamw3cG5QcGxva2poZDl5S2Y2Qnc0a2pQVnhIYlZEcnN3TWZzM2Q4X0xBMDhEeFZFVFNLX2diODRUX3l2a1FUZW9IN2FLVDY1U19yc3EzVHI4ck5EekQyRVE2dG5zb3J6RzNpQXVxNTF2NzZWY254WFVleGhwRHNNM0o1dm9BSdIBlAFBVV95cUxOSEtLbm9GaXI1UFdzNjNXMS1FN3M0ekFQS0MxVDRXdFlMV1pfUVFuRDZPejdlZ2VUS3BxZThtOGdSUjBOWlNkeWM2RmZrcWRZNHRvelpJeUF1MWRWVnJyQlM5eGhOUVEyZzBFUXNaM2I3UHhzQmFKS2lFQmZXZUtTeTJ6SWd5UnQ4dFl0ZUtuTnc2V0Jl?oc=5"
+  },
   {
    "ts": 1795711260.0,
    "title": "Trump demands probe of GDP data released before midterms",
@@ -599,12 +590,6 @@
    "title": "Lombardelli: Annual report to the Treasury Select Committee",
    "src": "ForexFactory",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1k0QmtxMTZ6RDEtVEFVbm91Zl9YYlNZLXJTSXhXZDFGRUVIaUhmNkJSN19WWXMzNFRaZG96OTVnYUVLbXRLaDl2VGNuanhwSm0yQUdGVUxzS1J2cWJFbktVTWYySlpfOXdFY0s1d1lMWkJ2ZGF0dGJ0ZlpzM2ZyTlRoNkN2eVB2eTFQM3FiLWk1Qnl2Y3hlOXAwN3U4MWNsaVHSAacBQVVfeXFMTVhYcmtYTkV6ODNOUjNVTTY5c0JmblpjT0RqUE9JWVNWMEpiTXZPS05fMlBVRDYtQXI4bG5Vcm9pZ2R1UWhSUUU5ZDBYZzRfMldOU0xxdGlPbmljcWgtZmg3RDZmMGF4bXhPY3pPSHpCazF6V1MwWFl5QzludHpYa0FlTi0wcWY1M1U4b21nTVhiOHVYN0sxWjNGOEFTSXpHWUM2Z2ctcWc?oc=5"
-  },
-  {
-   "ts": 1795628031.0,
-   "title": "Trump: Stocks are down sharply because of the November Third Election results",
-   "src": "ForexFactory",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakRteTJ0Y1F1Yl9HS2FTdHpQZTMtbjhDV2E0R2RMdG9xWDQtV1Nsc1BuUE81VzlNbzRycGd6cmJUcHgxUVlGNmM4aWc5eFp4NFp5Q0ZoSjdfelVraHEtWUI2TXB5a2NVTlJid0ZUQzA5SzYtRm1SV0lYSW1FMGxsaEYxNVc0VzlRVjZNQWQ4UdIBlAFBVV95cUxOaklOSnI5Q05pQkZpNWQyRUx0RVRubVI3X0ZnZWE0VmNWelJ0akNpYkV3aTlDYW9BX0VDdkpSelNxd2NWOWJmZmp1Mmc3VmNuQm9ucGxWZ19MTl90UFppU2o1RHJMR1RoZDU2YWJCWDhvRVBoZFpacEl4OWZ6eUlhQmtyTnlKbDJOanB4djM1VFFPZ3NQ?oc=5"
   }
  ],
  "sentiment": {
@@ -613,7 +598,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 4/10 no body",
+  "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
