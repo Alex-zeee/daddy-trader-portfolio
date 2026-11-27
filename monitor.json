@@ -1,14 +1,13 @@
 {
- "updated": "27-11-2026 06:01 PKT",
+ "updated": "27-11-2026 06:16 PKT",
  "gold": {
-  "price": 3560.53,
-  "open": 3572.03,
+  "price": 3570.7,
+  "open": 3570.58,
   "high": 3606.46,
   "low": 3551.89,
-  "chg": -0.32,
+  "chg": 0.0,
   "src": "XAUUSD Spot",
   "spark": [
-   3568.47,
    3570.98,
    3572.96,
    3572.36,
@@ -55,14 +54,44 @@
    3569.81,
    3566.69,
    3562.0,
-   3560.53
+   3569.33,
+   3570.7
   ]
  },
  "markets": [
   {
+   "name": "Silver (fut)",
+   "price": 42.055,
+   "chg": 5.0,
+   "spark": [
+    53.457,
+    52.191,
+    49.097,
+    50.72,
+    49.587,
+    52.12,
+    52.233,
+    51.803,
+    52.564,
+    51.101,
+    51.881,
+    49.972,
+    49.031,
+    46.785,
+    47.288,
+    44.999,
+    44.318,
+    41.035,
+    43.147,
+    40.76,
+    40.052,
+    42.055
+   ]
+  },
+  {
    "name": "Dollar Index",
-   "price": 103.854,
-   "chg": 0.18,
+   "price": 103.83,
+   "chg": 0.15,
    "spark": [
     102.19,
     102.04,
@@ -85,13 +114,13 @@
     104.32,
     103.81,
     103.67,
-    103.854
+    103.83
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.21,
-   "chg": 1.83,
+   "price": 85.43,
+   "chg": 2.09,
    "spark": [
     102.78,
     102.0,
@@ -114,7 +143,7 @@
     80.17,
     82.05,
     83.68,
-    85.21
+    85.43
    ]
   },
   {
@@ -148,8 +177,8 @@
   },
   {
    "name": "EUR/USD",
-   "price": 1.0965,
-   "chg": -0.05,
+   "price": 1.0969,
+   "chg": -0.01,
    "spark": [
     1.1156,
     1.1183,
@@ -172,13 +201,13 @@
     1.0908,
     1.0962,
     1.097,
-    1.0965
+    1.0969
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3097,
-   "chg": -0.13,
+   "price": 1.3102,
+   "chg": -0.09,
    "spark": [
     1.3328,
     1.3379,
@@ -201,13 +230,13 @@
     1.3035,
     1.3112,
     1.3113,
-    1.3097
+    1.3102
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.322,
-   "chg": 0.07,
+   "price": 159.276,
+   "chg": 0.04,
    "spark": [
     157.833,
     157.804,
@@ -230,13 +259,13 @@
     159.009,
     159.262,
     159.215,
-    159.322
+    159.276
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1700.26,
-   "chg": 0.75,
+   "price": 1701.05,
+   "chg": 0.79,
    "spark": [
     1654.26,
     1662.47,
@@ -285,13 +314,13 @@
     1691.57,
     1687.76,
     1698.99,
-    1700.26
+    1701.01
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 60627.3,
-   "chg": 0.21,
+   "price": 60763.9,
+   "chg": 0.44,
    "spark": [
     59151.6,
     59336.7,
@@ -340,7 +369,7 @@
     60466.5,
     60499.2,
     60614.7,
-    60627.3
+    60763.9
    ]
   }
  ],
@@ -397,32 +426,84 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795741302.977328,
+   "ts": 1795742206.402416,
    "title": "Iran\u2019s supreme leader urges Guards-linked Basij volunteers to broaden social reach",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-supreme-leader-urges-guardslinked-basij-volunteers-to-broaden-social-reach-5052527",
-   "t": "27 Nov \u00b7 06:01 AM"
+   "t": "27 Nov \u00b7 06:16 AM"
   },
   {
-   "ts": 1795741302.977328,
+   "ts": 1795742206.402416,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "27 Nov \u00b7 06:01 AM"
+   "t": "27 Nov \u00b7 06:16 AM"
   },
   {
-   "ts": 1795741302.977328,
+   "ts": 1795742206.402416,
    "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
-   "t": "27 Nov \u00b7 06:01 AM"
+   "t": "27 Nov \u00b7 06:16 AM"
   },
   {
-   "ts": 1795741302.977328,
+   "ts": 1795742206.402416,
    "title": "New Trump tariffs would likely increase sugar prices in the US",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us-5051752",
-   "t": "27 Nov \u00b7 06:01 AM"
+   "t": "27 Nov \u00b7 06:16 AM"
+  },
+  {
+   "ts": 1795740726.0,
+   "title": "Tokyo core inflation hits 16-month high of 2.9%, firming the case for a December BoJ hike",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/tokyo-core-inflation-hits-16-month-high-of-2-9-firming-the-case-for-a-december-boj-hike/",
+   "t": "27 Nov \u00b7 05:52 AM",
+   "body": [
+    "The data keeps a December hike as the base case, which should limit any yen weakness. With the yen near 160 per dollar, however, a 25 basis point move that is already widely expected may do little on its own. The bigger driver for the currency is likely to be any signal that the BoJ will speed up its pace of hikes, as board member Naoki Tamura has urged. Short-dated Japanese government bond yields remain sensitive to that guidance. Stock market instability tied to AI and chips is the main risk to the hike call, so a sharp drop in Japanese equities would quickly cut the odds of a December move.",
+    "Tokyo core inflation has climbed to its fastest pace in 16 months, strengthening the case for a December BoJ hike, though a slight easing in the bank's preferred trend gauge suggests energy did much of the lifting.",
+    "Core inflation in Tokyo climbed to its highest in 16 months in November, keeping price growth well above the Bank of Japan's 2% target and reinforcing expectations that the central bank will raise interest rates next month.",
+    "Core consumer prices in the capital, which include fuel but exclude fresh food, rose 2.9% from a year earlier, according to data reported by Reuters on Friday. That was up from 2.6% in October and the fastest annual pace since July 2025, although it fell just short of the 3.0% median forecast. Core inflation has now held above the BoJ's target for three consecutive months.",
+    "The end of government utility subsidies accounted for part of the jump, but the increases were broad-based, with prices rising for food, daily necessities and hotel stays. One economist expects core inflation to keep accelerating as higher energy costs from the Middle East conflict feed through into other prices.",
+    "The picture is a little softer underneath. A measure that strips out both fresh food and fuel, which the BoJ watches closely as a gauge of trend inflation, eased slightly to 2.5% from 2.6% in October. That leaves underlying inflation comfortably above target, but suggests energy did much of the heavy lifting in the core rise.",
+    "Tokyo figures are widely seen as a leading indicator for the nationwide data. Those are due on the morning of December 18 in Tokyo, the final day of the BoJ's two-day policy meeting. That timing makes Friday's release one of the last major inflation readings that policymakers and markets can fully weigh before the decision.",
+    "Markets widely expect the BoJ to raise its policy rate to 1.5% from 1.25% at that meeting. The bank has already moved faster than in previous years, hiking in June and again in September, compared with roughly two hikes a year in 2024 and 2025. In October it held rates, but said underlying inflation had roughly reached its 2% target and signalled readiness to keep tightening. A majority of economists in a Reuters poll expect a December hike followed by another by the end of March, with many seeing rates peaking at around 1.75% or 2.0%.",
+    "Hawkish board member Naoki Tamura added to the pressure on Thursday, saying the bank must respond swiftly to signs of an inflation overshoot, including by speeding up its pace of hikes.",
+    "The main risk to a December move comes from markets. The same economist said the BoJ could hold off if instability linked to worries over AI and the chip sector persists, though a hike next month remains the baseline."
+   ]
+  },
+  {
+   "ts": 1795739406.0,
+   "title": "HSBC flags $3,400 as gold's next big test and says it is too early to call a bottom",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/hsbc-flags-3-400-as-gold-s-next-big-test-and-says-it-is-too-early-to-call-a-bottom/",
+   "t": "27 Nov \u00b7 05:30 AM",
+   "body": [
+    "Gold is trading as a risk asset rather than a haven, so equity markets have become the key driver. Another leg lower in stocks would raise the chance of a test of $3,400, while a stabilisation would ease the forced selling. Silver and platinum group metals face an extra layer of risk from tariffs that could hit the industries using them, even though HSBC still expects silver to be in deficit. US tariff announcements are worth watching, especially any aimed at Mexico or Canada, which HSBC sees as the exception that could lift silver. With the Fed widely expected to hike in December, a softer turn in US data is the most likely trigger for relief.",
+    "HSBC sees gold's fortunes tied to a weak stock market, with $3,400 the next major support at risk, and warns that proposed tariffs could hurt silver and platinum group metals more than gold itself.",
+    "HSBC says it is too early to call an end to gold's slide, warning that further weakness in stock markets could push the metal through its next major support at $3,400 an ounce. The bank also sees limits to how far the selloff can run.",
+    "The warning, carried by Reuters on Thursday, adds to the cautious camp as gold struggles to find a floor. HSBC's chief precious metals analyst, James Steel, tied the risk directly to equities. Gold traded near $3,570 on Thursday in thin holiday conditions, after slipping below $3,500 midweek to its lowest in more than a year. The link to stocks reflects the forced selling behind the metal's fall this year: investors raising cash to cover equity losses have been selling what they can, including gold.",
+    "The $3,400 level carries extra weight in Steel's analysis. He has previously described it as roughly the inflation-adjusted equivalent of gold's old record high, a level the metal broke above in 2025. A sustained move back below it would undo a milestone that helped define gold's bull run.",
+    "HSBC also turned to trade policy. Trade distortions have traditionally been positive for gold, the bank said, but proposed new US tariffs could weigh on industries that use large amounts of silver and platinum group metals. That puts the industrial side of the precious metals complex more at risk than gold itself.",
+    "On silver, HSBC still projects a market deficit this year, even as demand from high-tech and industrial users declines. It does not expect fresh tariffs on their own to push silver prices higher, unless they are aimed at Mexico and Canada, both important suppliers of silver to the US.",
+    "HSBC's view adds to a growing debate over whether gold has bottomed. TD Securities' head of commodity strategy also said on Thursday that it is likely too early to call a low in gold and the wider precious metals complex. Others see the selloff as overdone. Saxo's Ole Hansen pointed this week to signs of selling exhaustion, stretched positioning and a strong seasonal record over December and January. He stressed, though, that a lasting recovery depends on the dollar and rate expectations easing.",
+    "For now, markets are pricing a high chance of another Federal Reserve rate hike in December, which continues to weigh on a metal that pays no yield. Until that pressure eases or stocks stabilise, $3,400 is likely to remain the level traders watch."
+   ]
+  },
+  {
+   "ts": 1795738998.0,
+   "title": "PBOC is expected to set the USD/CNY reference rate at 6.6604 \u2013 Reuters estimate",
+   "src": "investingLive",
+   "link": "https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-6604-reuters-estimate/",
+   "t": "27 Nov \u00b7 05:23 AM",
+   "body": [
+    "The People\u2019s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.",
+    "China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.",
+    "Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day\u2019s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.",
+    "Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.",
+    "As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.",
+    "In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing\u2019s currency priorities, balancing competitiveness, capital stability and financial market confidence."
+   ]
   },
   {
    "ts": 1795736841.0,
@@ -447,7 +528,10 @@
    "title": "Tokyo November core CPI rises to 2.9% y/y, just shy of 3.0% expected",
    "src": "investingLive",
    "link": "https://investinglive.com/news/tokyo-november-core-cpi-rises-to-2-9-y-y-just-shy-of-3-0-expected/",
-   "t": "27 Nov \u00b7 04:30 AM"
+   "t": "27 Nov \u00b7 04:30 AM",
+   "body": [
+    "ADDED -> Tokyo core inflation hits 16-month high of 2.9%, firming the case for a December BoJ hike"
+   ]
   },
   {
    "ts": 1795734114.0,
@@ -464,64 +548,6 @@
     "The setup for a rebound is improving. Short-term momentum readings across the sector are at or below oversold levels, and speculative positioning has been cut substantially. Gold ETF holdings have held up relatively well, and silver has drawn fresh ETF demand despite falling prices. Seasonality also helps: gold has gained over December and January in each of the past 11 years. Hansen stresses that neither oversold conditions nor the calendar is a reason to buy on its own.",
     "He sets out clear technical markers. Gold formed a hammer candle at its recent low near $3,430, a pattern that can signal selling exhaustion. A daily close above about $3,590 would confirm a rebound and open the way to around $3,700, a 38.2% retracement of the November selloff. A fresh break below Wednesday's low would cancel that view. For silver, a daily close above roughly $41.50 would be the equivalent confirmation.",
     "Hansen is also less convinced than markets that the Federal Reserve needs to deliver the rate hikes now priced in. He argues that weaker AI investment, falling diesel prices and a negative wealth effect from lower stock prices could cool inflation and change the Fed's course. A rally driven by short covering could come quickly. A durable recovery, though, would need a softer dollar, lower real yields and calmer stock markets, which he says would not require a renewed AI boom."
-   ]
-  },
-  {
-   "ts": 1795728766.0,
-   "title": "NZ consumer confidence breaks 100 as falling fuel prices cool inflation fears",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/nz-consumer-confidence-breaks-100-as-falling-fuel-prices-cool-inflation-fears/",
-   "t": "27 Nov \u00b7 02:32 AM",
-   "body": [
-    "Households' inflation expectations have fallen sharply from their April peak, which eases one worry for the Reserve Bank of New Zealand. That leans slightly against any hawkish shift in the policy outlook and is a mild negative for the New Zealand dollar at the margin. The survey's market impact is usually small, though, and moves in global risk appetite and the US dollar are likely to matter more for the currency. The main sensitivity to watch is oil: these readings now follow pump prices closely, so a renewed jump in crude would probably undo much of this month's improvement.",
-    "Cheaper fuel has pushed Kiwi consumer confidence back above 100 and pulled inflation expectations to a 22-month low, but households still feel better about the future than the present and remain wary of big purchases.",
-    "New Zealand consumer confidence climbed back above the 100 mark in November. Falling fuel prices pulled households' inflation expectations to their lowest level in nearly two years, and both the current and future measures of sentiment improved.",
-    "The ANZ-Roy Morgan Consumer Confidence index rose 4 points to 100.2, its strongest reading since January, according to the survey released on Friday. That is still well short of the long-run average of 112, so the recovery from April's low near 80 is not complete. Both components improved. The future conditions index rose to around 111 from 106, while the current conditions index edged up to around 84 from 81.",
-    "The biggest shift came in inflation expectations. Households now see prices rising 3.9% a year over the next two years, down from 4.2% in October and the lowest since January 2025. That is a steep fall from April's 6.6%, when a spike in pump prices pushed expectations sharply higher. The survey's authors noted that consumers' price expectations fell slightly more than fuel prices over the month, after tracking them almost one-for-one earlier in the year. They also pointed out that inflation expectations and confidence have moved in opposite directions in recent years, which suggests the two are linked.",
-    "The economic outlook improved but stayed gloomy for the next 12 months. A net 6% of respondents expect bad times for the economy over that period, compared with a net 13% a month earlier. The five-year view rose to a net 16% positive from 8%, close to its long-run average of 19%. Views on household finances were mixed. A net 20% said they were worse off than a year ago, a marginal improvement. A net 22% expect to be better off a year from now, down from 24% but far above April's low of 3%.",
-    "Appetite for spending remains soft. A net 12% still think it is a bad time to buy a major household item, although that is a 6-point improvement on October. House price expectations rose to 2.3% from 2.0%, still well below the survey's 3.5% average.",
-    "The survey's authors described the overall mood as below par, citing broader cost-of-living pressures and a soft labour market. They cautioned that consumers' inflation expectations carry less weight for monetary policy than those of businesses, which actually set prices. Households feel better about the future than about the present, which suggests they are not yet ready to spend freely. The next survey is due on December 18."
-   ]
-  },
-  {
-   "ts": 1795726919.0,
-   "title": "Tokyo CPI preview: core inflation seen jumping to 3% three weeks before BoJ decision",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/tokyo-cpi-preview-core-inflation-seen-jumping-to-3-three-weeks-before-boj-decision/",
-   "t": "27 Nov \u00b7 02:01 AM",
-   "body": [
-    "A firm Tokyo print would add support for the yen, which is still trading near 160 per dollar despite close to $100 billion of intervention. The Fed is also hiking, so the rate gap stays wide, and a BoJ hike on its own may not change the yen's direction much without signs of a quicker pace afterwards. Short-dated Japanese government bond yields are the most exposed if the core-core measure meets or beats forecast. A miss would likely weigh on the yen and could revive talk of the BoJ pausing, especially if Nikkei weakness continues.",
-    "Tokyo inflation is expected to rise to around 3% on both core gauges today, giving markets their last clean read on price pressure before a Bank of Japan meeting widely tipped to deliver a third hike of 2026.",
-    "Main article: Tokyo's November consumer price data, due at 23:30 GMT (18:30 US Eastern) on Thursday, Friday morning in Japan, is expected to show a sharp pickup in inflation in the capital. It arrives three weeks before a Bank of Japan meeting at which a rate hike is widely expected.",
-    "Consensus looks for core Tokyo CPI, which strips out fresh food, to jump to 3.0% from 2.6% in October. The measure that excludes both fresh food and energy is also forecast at 3.0%, up from 2.4%. The BoJ watches that measure more closely as a guide to underlying, demand-driven price pressure. Headline Tokyo inflation ran at 2.8% in October. If the forecasts are met, every key gauge would sit well above the central bank's 2% target.",
-    "The Tokyo figures matter because they come out roughly three weeks before the nationwide numbers. They are an imperfect guide: spending in the capital differs from the rest of the country, and nationwide core inflation was only around 2.2% in October. Still, the direction usually carries over. The timing gives the Tokyo release extra weight this month. The nationwide November data is not due until 23:30 GMT on December 17 (18:30 US Eastern). That is the morning of December 18 in Tokyo, the second and final day of the BoJ's December 17 to 18 meeting, so the national data will land only hours before the policy announcement and too late to shape much of the debate. Today's numbers are effectively the last major inflation reading markets can absorb before the decision.",
-    "Expectations for that meeting are firm. A Reuters poll published last week found 86% of economists expect the BoJ to raise its policy rate by 25 basis points to 1.50% from 1.25%. That would make 2026 Japan's first year with three hikes since the late 1980s. Nearly 60% of respondents expect a further rise to 1.75% by the end of March. Market pricing has been a little more cautious, implying odds of a December move of roughly 75% to 80%.",
-    "The hawkish case has also gained support from inside the bank. Board member Naoki Tamura said this week that the BoJ should respond quickly to signs of an inflation overshoot, including by raising rates faster. In his view, the Middle East war, higher import costs from the weak yen and strong demand for AI-related goods all pose upside risks to prices, and the policy rate is still some way below neutral.",
-    "There are risks to a hike. Japan's economy shrank in the July to September quarter, and a sharp slide in the Nikkei this month has raised questions about whether the bank might pause. Most economists in the Reuters poll said stock market volatility would not stop a December hike, though a prolonged selloff remains the main risk to that view.",
-    "A reading at or above forecast would strengthen the case for a hike. A soft reading, especially in the measure that excludes fresh food and energy, would give the bank's more cautious members something to point to. Even so, one miss is unlikely to overturn a move that policymakers have been preparing markets for."
-   ]
-  },
-  {
-   "ts": 1795702250.0,
-   "title": "CoreWeave bond yields are approaching 19%. Why even stock investors should pay attention",
-   "src": "investingLive",
-   "link": "https://investinglive.com/stocks/coreweave-bond-yields-are-approaching-19-why-even-stock-investors-should-pay-attention/",
-   "t": "26 Nov \u00b7 07:10 PM",
-   "body": [
-    "CoreWeave's falling bond prices offer a warning about the financial risks behind that expansion, even as demand for AI computing continues to grow.",
-    "Investors following CoreWeave (NASDAQ: CRWV) may want to look beyond its stock chart. On November 25, the yield on one of the company's bonds reached 17.91%, while another traded at a record-low price consistent with a yield of approximately 18.6%.",
-    "For shareholders, this is a development worth understanding as the stock is not too far from its all time low, apx 9% above its IPO opening price and still over 77% below its all time high",
-    "When a company issues a bond, it is essentially borrowing money from investors. In return, it promises to pay interest and repay the principal according to agreed terms.",
-    "Let's take CoreWeave's 9.75% bond, due in October 2031, as an example.",
-    "Someone purchasing the bond at that price would pay $742.30 for a security scheduled to repay $1,000 at maturity, while also receiving interest payments along the way.",
-    "Assuming CoreWeave meets all its payment obligations, the discounted purchase price helps explain the considerably higher annualized yield.",
-    "But why would existing investors sell such a bond at a steep discount?",
-    "They may be concerned about the company's ability to repay its debt, require greater compensation for taking that risk, or prefer to reduce their exposure altogether.",
-    "When bond prices fall, their yields rise. An exceptionally high corporate bond yield is often a warning rather than a bargain.",
-    "CoreWeave provides the computing infrastructure that companies use to develop and operate artificial intelligence applications. Building that infrastructure requires expensive chips, data centers, electricity and substantial upfront investment.",
-    "Its third-quarter financial results illustrate the financial challenge:",
-    "Quarterly revenue: $3.66 billion, up approximately 168% year over year.",
-    "Expected 2026 capital expenditure: $37 billion to $39 billion."
    ]
   }
  ],
@@ -569,7 +595,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 5/10 no body",
+  "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
