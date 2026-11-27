@@ -1,14 +1,13 @@
 {
- "updated": "27-11-2026 19:46 PKT",
+ "updated": "27-11-2026 20:01 PKT",
  "gold": {
-  "price": 3636.11,
-  "open": 3581.43,
+  "price": 3635.8,
+  "open": 3577.04,
   "high": 3684.87,
   "low": 3556.04,
-  "chg": 1.53,
+  "chg": 1.64,
   "src": "XAUUSD Spot",
   "spark": [
-   3630.04,
    3627.01,
    3628.86,
    3629.93,
@@ -55,14 +54,15 @@
    3635.14,
    3637.9,
    3636.69,
-   3636.11
+   3638.02,
+   3635.8
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 43.96,
-   "chg": 9.76,
+   "price": 44.105,
+   "chg": 10.12,
    "spark": [
     53.457,
     52.191,
@@ -85,13 +85,13 @@
     43.147,
     40.76,
     40.052,
-    43.96
+    44.105
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.918,
-   "chg": 0.24,
+   "price": 103.906,
+   "chg": 0.23,
    "spark": [
     102.19,
     102.04,
@@ -114,13 +114,13 @@
     104.32,
     103.81,
     103.67,
-    103.918
+    103.906
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 84.08,
-   "chg": 0.48,
+   "price": 83.96,
+   "chg": 0.33,
    "spark": [
     102.78,
     102.0,
@@ -143,13 +143,13 @@
     80.17,
     82.05,
     83.68,
-    84.08
+    83.96
    ]
   },
   {
    "name": "US 10Y Yield",
-   "price": 4.892,
-   "chg": 0.91,
+   "price": 4.888,
+   "chg": 0.83,
    "spark": [
     5.045,
     4.989,
@@ -172,13 +172,13 @@
     4.918,
     4.904,
     4.848,
-    4.892
+    4.888
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0955,
-   "chg": -0.13,
+   "price": 1.0949,
+   "chg": -0.19,
    "spark": [
     1.1156,
     1.1183,
@@ -201,13 +201,13 @@
     1.0908,
     1.0962,
     1.097,
-    1.0955
+    1.0949
    ]
   },
   {
    "name": "GBP/USD",
-   "price": 1.3115,
-   "chg": 0.01,
+   "price": 1.3111,
+   "chg": -0.01,
    "spark": [
     1.3328,
     1.3379,
@@ -230,13 +230,13 @@
     1.3035,
     1.3112,
     1.3113,
-    1.3115
+    1.3111
    ]
   },
   {
    "name": "USD/JPY",
-   "price": 159.47,
-   "chg": 0.16,
+   "price": 159.478,
+   "chg": 0.17,
    "spark": [
     157.833,
     157.804,
@@ -259,15 +259,14 @@
     159.009,
     159.262,
     159.215,
-    159.47
+    159.478
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1674.44,
-   "chg": -0.78,
+   "price": 1640.0,
+   "chg": -2.83,
    "spark": [
-    1646.18,
     1643.63,
     1677.37,
     1678.64,
@@ -314,15 +313,15 @@
     1721.84,
     1722.86,
     1722.44,
-    1674.44
+    1652.55,
+    1640.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59793.5,
-   "chg": -1.16,
+   "price": 58935.8,
+   "chg": -2.58,
    "spark": [
-    58277.2,
     58533.9,
     59523.0,
     59664.5,
@@ -369,7 +368,8 @@
     61577.2,
     61559.1,
     61398.4,
-    59793.3
+    59125.7,
+    58943.0
    ]
   }
  ],
@@ -426,18 +426,25 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795790812.113267,
+   "ts": 1795791706.912276,
+   "title": "Has silver fallen too far? UBS sees buying opportunity after sharp selloff",
+   "src": "Investing.com",
+   "link": "https://www.investing.com/news/commodities-news/has-silver-fallen-too-far-ubs-sees-buying-opportunity-after-sharp-selloff-5053590",
+   "t": "27 Nov \u00b7 08:01 PM"
+  },
+  {
+   "ts": 1795791706.912276,
    "title": "Gold jumps 3% after hitting 15-month low earlier this week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805",
-   "t": "27 Nov \u00b7 07:46 PM"
+   "t": "27 Nov \u00b7 08:01 PM"
   },
   {
-   "ts": 1795790812.113267,
+   "ts": 1795791706.912276,
    "title": "Bernstein outlines bullish roadmap for gold heading into 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/bernstein-outlines-bullish-roadmap-for-gold-heading-into-2027-5053548",
-   "t": "27 Nov \u00b7 07:46 PM"
+   "t": "27 Nov \u00b7 08:01 PM"
   },
   {
    "ts": 1795784003.0,
@@ -556,24 +563,6 @@
     "While the broader risk mood is starting to look more upbeat again with US futures pointing higher, let's not forget the fact that we are potentially also getting caught in between month-end rebalancing flows and thinner liquidity conditions over the Thanksgiving holiday period. As such, I'm not sure I'd put too much stock in today's moves just yet.",
     "Don't get me wrong. The technicals are definitely something one shouldn't ignore. However, I'd much rather see how gold fares when traders return to their desks next week and if there is appetite to hold any key near-term breaks today."
    ]
-  },
-  {
-   "ts": 1795754715.0,
-   "title": "investingLive Asia-Pacific market news: Kosdaq jumps 6.7% as risk appetite returns, gold rebounds",
-   "src": "investingLive",
-   "link": "https://investinglive.com/news/investinglive-asia-pacific-market-news-kosdaq-jumps-6-7-as-risk-appetite-returns-gold-rebounds/",
-   "t": "27 Nov \u00b7 09:45 AM",
-   "body": [
-    "Markets overview Risk appetite improved through the Asian session on Friday after a bruising week for AI-linked assets. US equity index futures led the way, with Nasdaq 100 futures up about 2.4% and S&P 500 futures about 1.7% higher. South Korea's chip-heavy markets were the standout in Asia: the Kosdaq jumped around 6.7% and the Kospi gained close to 4%, as SK Hynix rose about 4.6% and Samsung Electronics about 4.2%. Japan's Nikkei 225 added around 1.9% to near 58,600, and the Topix rose about 1.8%. Gains in China were more modest, with the Hang Seng up around 0.9% and the Shanghai Composite edging up about 0.3%. US 10-year Treasury yields rose about 7 basis points to around 4.91%.",
-    "Japan Tokyo's core inflation rate climbed to 2.9% in November, its fastest pace in 16 months, from 2.6% in October, although it came in just below the 3.0% forecast. The Bank of Japan's preferred trend measure, which excludes fresh food and energy, eased to 2.5% from 2.6%, suggesting energy accounted for much of the rise. The data keep a December rate hike as the base case, with markets expecting the BoJ to lift its policy rate to 1.5% at its December 17-18 meeting. Nationwide CPI arrives only hours before that decision. USD/JPY was little changed near 159.20, while the two-year JGB yield held near 1.76%.",
-    "Australia and New Zealand The US dollar softened against the antipodean currencies, with AUD/USD up about 0.35% to around 0.6660 and NZD/USD up about 0.3% to around 0.5485.",
-    "The IMF urged the Reserve Bank of Australia to stand ready to raise rates further if inflation proves persistent, citing risks from Middle East energy prices and the danger of inflation expectations becoming unanchored. It also pressed the government to deliver on spending restraint. OCBC took a different view, arguing that the RBA is close to the end of its tightening cycle as the labour market softens, and that the Australian dollar's upside will be increasingly capped as Australia's rate advantage narrows.",
-    "In New Zealand, official election results confirmed a hung parliament, with the centre-right coalition needing the centrist Opportunity Party to govern. The currency market took the result in its stride. Earlier, New Zealand consumer confidence rose to 100.2, its highest since January, as falling fuel prices eased inflation expectations.",
-    "China China's cabinet pledged new incremental policies for its capital markets, a stronger role for the state-backed national team in stabilising stocks, tighter defences against imported risks, and more dividends and buybacks from listed companies. It gave no details on the size or timing of the support. Industrial profits rose 20.1% from a year earlier in October, up from 14.4% in September, but the gains were concentrated in electronics, with weak household demand and the property downturn still weighing on consumer-facing industries.",
-    "Gold and commodities Gold rebounded about 1.9% to around $3,630 an ounce, rising even as US yields climbed, while silver jumped nearly 5% to around $43. Views on the metal remain divided. HSBC warned that further equity weakness could push gold through major support at $3,400, while Saxo's Ole Hansen pointed to signs of selling exhaustion. Commonwealth Bank of Australia said the dollar, already near its expected peak, will drive gold in the coming months, and it sees limited downside, with a year-end range of $3,500 to $3,700. Separately, the Reserve Bank of India bought no gold in the six months to September but moved about 60 tonnes home from overseas vaults.",
-    "Oil edged higher, with Brent up about 0.7% to around $92 a barrel and WTI up about 1% to near $86. OCBC expects the rupee to strengthen as oil eases, forecasting USD/INR at 92.10 by the end of 2027.",
-    "Also on our radar SpaceX will issue new Class A stock to every US child with an active Trump Account, and Elon Musk pledged to personally match the gift once his lockup ends in June, doubling last month's pledge as total program deposits passed $9 billion. CNBC later reported that SpaceX shares rose on an alternative trading platform. Bitcoin rose almost 1% to around $61,500, after JPMorgan flagged a record discount at Strategy as a possible capitulation signal. Goldman Sachs research argued that the largest US hyperscalers can still earn returns of 15% or more on their AI spending, though specialist neoclouds face more risk."
-   ]
   }
  ],
  "tweets": [
@@ -620,7 +609,7 @@
  },
  "err": [
   "FXStreet: HTTP Error 403: Forbidden",
-  "article: 2/10 no body",
+  "article: 3/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
   "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
  ]
