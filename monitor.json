@@ -1,14 +1,13 @@
 {
- "updated": "27-11-2026 16:01 PKT",
+ "updated": "27-11-2026 16:16 PKT",
  "gold": {
-  "price": 3678.88,
-  "open": 3565.95,
+  "price": 3675.42,
+  "open": 3566.14,
   "high": 3684.87,
   "low": 3556.04,
-  "chg": 3.17,
+  "chg": 3.06,
   "src": "XAUUSD Spot",
   "spark": [
-   3567.32,
    3566.55,
    3568.26,
    3567.53,
@@ -55,14 +54,15 @@
    3673.06,
    3676.73,
    3679.27,
-   3678.88
+   3677.47,
+   3675.42
   ]
  },
  "markets": [
   {
    "name": "Silver (fut)",
-   "price": 44.595,
-   "chg": 11.34,
+   "price": 44.585,
+   "chg": 11.32,
    "spark": [
     53.457,
     52.191,
@@ -85,13 +85,13 @@
     43.147,
     40.76,
     40.052,
-    44.595
+    44.585
    ]
   },
   {
    "name": "Dollar Index",
-   "price": 103.82,
-   "chg": 0.14,
+   "price": 103.799,
+   "chg": 0.12,
    "spark": [
     102.19,
     102.04,
@@ -114,13 +114,13 @@
     104.32,
     103.81,
     103.67,
-    103.82
+    103.799
    ]
   },
   {
    "name": "Oil WTI",
-   "price": 85.44,
-   "chg": 2.1,
+   "price": 85.26,
+   "chg": 1.89,
    "spark": [
     102.78,
     102.0,
@@ -143,42 +143,13 @@
     80.17,
     82.05,
     83.68,
-    85.44
-   ]
-  },
-  {
-   "name": "US 10Y Yield",
-   "price": 4.848,
-   "chg": -1.14,
-   "spark": [
-    4.993,
-    5.045,
-    4.989,
-    4.929,
-    4.894,
-    4.952,
-    4.894,
-    4.837,
-    4.859,
-    4.864,
-    4.983,
-    4.998,
-    5.103,
-    5.154,
-    5.121,
-    5.103,
-    5.066,
-    5.052,
-    4.912,
-    4.918,
-    4.904,
-    4.848
+    85.26
    ]
   },
   {
    "name": "EUR/USD",
-   "price": 1.0967,
-   "chg": -0.03,
+   "price": 1.0965,
+   "chg": -0.05,
    "spark": [
     1.1156,
     1.1183,
@@ -201,7 +172,7 @@
     1.0908,
     1.0962,
     1.097,
-    1.0967
+    1.0965
    ]
   },
   {
@@ -235,8 +206,8 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.486,
-   "chg": 0.17,
+   "price": 159.461,
+   "chg": 0.15,
    "spark": [
     157.833,
     157.804,
@@ -259,13 +230,13 @@
     159.009,
     159.262,
     159.215,
-    159.486
+    159.461
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1724.72,
-   "chg": 2.19,
+   "price": 1726.0,
+   "chg": 2.27,
    "spark": [
     1645.86,
     1629.74,
@@ -314,13 +285,13 @@
     1729.11,
     1726.37,
     1727.72,
-    1724.72
+    1726.0
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 61507.1,
-   "chg": 1.67,
+   "price": 61625.1,
+   "chg": 1.86,
    "spark": [
     58656.0,
     58012.6,
@@ -369,7 +340,7 @@
     61649.9,
     61563.0,
     61592.1,
-    61507.1
+    61625.1
    ]
   }
  ],
@@ -426,25 +397,62 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795777307.469399,
+   "ts": 1795778208.836063,
    "title": "Gold jumps 3% after hitting 15-month low earlier this week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805",
-   "t": "27 Nov \u00b7 04:01 PM"
+   "t": "27 Nov \u00b7 04:16 PM"
   },
   {
-   "ts": 1795777307.469399,
+   "ts": 1795778208.836063,
    "title": "Iran\u2019s supreme leader urges Guards-linked Basij volunteers to broaden social reach",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/irans-supreme-leader-urges-guardslinked-basij-volunteers-to-broaden-social-reach-5052527",
-   "t": "27 Nov \u00b7 04:01 PM"
+   "t": "27 Nov \u00b7 04:16 PM"
   },
   {
-   "ts": 1795777307.469399,
+   "ts": 1795778208.836063,
    "title": "Gold spot prices slip as dollar firms, while U.S. futures gain",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-   "t": "27 Nov \u00b7 04:01 PM"
+   "t": "27 Nov \u00b7 04:16 PM"
+  },
+  {
+   "ts": 1795775957.0,
+   "title": "Connecting the dots: When does the AI selloff become a Fed problem?",
+   "src": "investingLive",
+   "link": "https://investinglive.com/education/connecting-the-dots-when-does-the-ai-selloff-become-a-fed-problem/",
+   "t": "27 Nov \u00b7 03:39 PM",
+   "body": [
+    "At what point does Nvidia's falling share price become the Fed's headache?",
+    "Now, wait a second. That sounds a little silly, doesn't it? But given how much of the US economic growth story is riding on AI these days, I wouldn't laugh off that question so easily.",
+    "Let's say you have made a decent amount of money from the stock market over the past few years. You're feeling a little richer and perhaps more comfortable about booking that family holiday or even splurging on a new car. But out of nowhere, a good chunk of those gains disappears in just a matter of weeks. Suddenly, that old car doesn't look so bad after all now, does it?",
+    "Economists call this the wealth effect. And you don't necessarily have to sell your stocks to change your spending habits. Just the notion of feeling poorer can be enough. And while stock market wealth is largely concentrated among the richer households, a prolonged selloff could still take some of the shine off US consumer spending as a whole.",
+    "This is where the AI boom also puts food on a lot more tables than we might realise.",
+    "Take for example building a data centre. It isn't just about buying a truckload of Nvidia chips. You need construction workers, electricians, cooling equipment, power supplies and plenty of other things. Just think that there are entire businesses banking on the assumption that the tech giants will keep spending as aggressively as they have been.",
+    "Now, a falling share price alone probably won't persuade Microsoft or Amazon to abandon their AI ambitions. But if those investments aren't making as much money as promised, shareholders might become a little less forgiving. And not everyone in the AI business has deep pockets. It's one thing to build a data centre with money you've already earned, but it's a whole other thing to borrow millions today on the assumption that you'll make enough money from AI tomorrow. So if lenders start questioning those assumptions, they might demand higher interest rates or become less willing to lend altogether.",
+    "All of a sudden, a data centre project that made perfect financial sense six months ago might no longer be worth pursuing. And the Fed wouldn't have needed to raise interest rates by a single basis point for that to happen.",
+    "In continuing to see how all of this is trickling down, fewer projects mean fewer orders. And that means a supplier might hold off hiring more workers, while a contractor might find itself having to let some people go.",
+    "In turn, those workers might spend less at restaurants, shops and other businesses that have absolutely nothing to do with AI. In essence, nobody needs to lose their life savings for an AI bust to hurt the economy.",
+    "Typically, weaker consumer spending and a softer jobs market would strengthen the case for the Fed to lower interest rates. However, we are being caught in a higher for longer backdrop now with inflation pressures looking quite unforgiving. And that is even discounting the fact that the AI productivity miracle that was supposed to help businesses produce more at a lower cost looks to be taking longer to materialise.",
+    "As such, we could end up with weaker economic growth without quite the same relief on inflation. And that would leave policymakers at the Fed in a rather uncomfortable spot.",
+    "The Fed doesn't have a mandate to protect your stock portfolio. It does, however, have one to support employment and maintain price stability. And that's why traders should not only be concerned about how much further tech stocks might fall. They should really be worried about how much of the economy might get dragged down with tech stocks if the selling continues."
+   ]
+  },
+  {
+   "ts": 1795774179.0,
+   "title": "Crude oil extends the rebound as growth concerns ease and US-Iran tensions provide support",
+   "src": "investingLive",
+   "link": "https://investinglive.com/commodities/crude-oil-extends-the-rebound-as-growth-concerns-ease-and-us-iran-tensions-provide-support/",
+   "t": "27 Nov \u00b7 03:09 PM",
+   "body": [
+    "Crude oil has been rallying steadily since Wednesday as growth concerns reached a near-term peak. Keep in mind that growth fears could still push oil prices lower in the future, but we will likely need a bigger selloff in the stock market, an even more hawkish Fed or weak economic data to increase the bearish momentum.",
+    "On the news front, Trump touted the US naval blockade and continued military deployment while saying that Washington is still giving Iran an opportunity to reach an agreement. He also threatened to strike Iran\u2019s Pickaxe Mountain if no deal is reached.",
+    "Overall, there\u2019s been no de-escalation nor improvement in the US-Iran situation as the risk of a direct military confrontation remains high. Oil prices could come under renewed pressure if growth concerns intensify, but an escalation in the war could still push prices higher, while a prolonged stalemate may keep the downside limited.",
+    "On the daily chart, we can see that crude oil (CFD contract) extended the gains as growth concerns eased and stopped putting pressure on the market. If we get another retest of the support zone around the 80.00 level, we can expect the buyers to step in there, with a defined risk below the support, to keep targeting the 110.00 level. The sellers, on the other hand, will need the price to break lower to pile in for a drop into the 68.00 support next, with the 74.00 handle as the first target.",
+    "On the 4 hour chart, we can see that the price broke above the top trendline, opening the door for a rally into the 92.50 level. If the price gets there, we can expect the sellers to step in, with a defined risk above the level, to position for a drop into the 74.00 handle. The buyers, on the other hand, will want to see the price breaking higher to increase the bullish bets into the 110.00 level next.",
+    "On the 1 hour chart, we have a minor upward trendline defining the bullish momentum. The buyers will likely step in around the trendline, with a defined risk below the 85.00 level, to keep targeting new highs. The sellers, on the other hand, will want to see the price breaking lower to target a pullback into the next trendline around the 83.00 handle. The red lines define the average daily range for today."
+   ]
   },
   {
    "ts": 1795767844.0,
@@ -525,42 +533,6 @@
     "Gold and commodities Gold rebounded about 1.9% to around $3,630 an ounce, rising even as US yields climbed, while silver jumped nearly 5% to around $43. Views on the metal remain divided. HSBC warned that further equity weakness could push gold through major support at $3,400, while Saxo's Ole Hansen pointed to signs of selling exhaustion. Commonwealth Bank of Australia said the dollar, already near its expected peak, will drive gold in the coming months, and it sees limited downside, with a year-end range of $3,500 to $3,700. Separately, the Reserve Bank of India bought no gold in the six months to September but moved about 60 tonnes home from overseas vaults.",
     "Oil edged higher, with Brent up about 0.7% to around $92 a barrel and WTI up about 1% to near $86. OCBC expects the rupee to strengthen as oil eases, forecasting USD/INR at 92.10 by the end of 2027.",
     "Also on our radar SpaceX will issue new Class A stock to every US child with an active Trump Account, and Elon Musk pledged to personally match the gift once his lockup ends in June, doubling last month's pledge as total program deposits passed $9 billion. CNBC later reported that SpaceX shares rose on an alternative trading platform. Bitcoin rose almost 1% to around $61,500, after JPMorgan flagged a record discount at Strategy as a possible capitulation signal. Goldman Sachs research argued that the largest US hyperscalers can still earn returns of 15% or more on their AI spending, though specialist neoclouds face more risk."
-   ]
-  },
-  {
-   "ts": 1795753027.0,
-   "title": "Warsh's 2018 dilemma returns as an AI stock rout meets a Fed bent on taming inflation",
-   "src": "investingLive",
-   "link": "https://investinglive.com/central-banks/warsh-s-2018-dilemma-returns-as-an-ai-stock-rout-meets-a-fed-bent-on-taming-inflation/",
-   "t": "27 Nov \u00b7 09:17 AM",
-   "body": [
-    "The message for equity investors is that the bar for Fed support is much higher than in 2018. With core inflation at 3.3%, an orderly decline in AI-linked stocks is more likely to be treated as useful tightening than as a reason to pause. That keeps a December hike firmly priced and supports the dollar and short-dated Treasury yields. The key signal is the Fed's December projections, which are expected to show more hikes ahead. Credit markets are the trigger to watch: stress among heavily indebted AI-related borrowers would be far more likely to shift the Fed's stance than falling share prices alone. For gold, which pays no yield, a Fed still focused on hiking remains a headwind.",
-    "Kevin Warsh once urged the Fed to back off as stocks slid in 2018, but with inflation stuck well above target and AI demand running hot, his Fed looks far more willing to let a market rout do some of its work.",
-    "The rout in AI-linked stocks is testing how much market turmoil the Federal Reserve is willing to tolerate in its fight against inflation, and so far the answer appears to be a lot. If the selloff deepens, Fed Chairman Kevin Warsh may have to choose between delivering on his tough talk on prices and relying on falling markets to do some of the tightening for him.",
-    "As Nick Timiraos reported in The Wall Street Journal (gated), Warsh has faced this dilemma before, from the outside. In December 2018, with stocks about 11% below their peak, he co-wrote a piece urging the Fed to pause its tightening. The Fed hiked anyway, the selloff accelerated into the worst December for stocks since 1931, and officials quickly signalled they were in no rush to move again.",
-    "The parallels with today are striking. Then, as now, a first-year Fed chair was raising rates into falling stocks and a stronger dollar, during a geopolitical shock and after a midterm setback for President Trump, who opposed tighter policy. The crucial difference is inflation. In 2018 it had only just reached the Fed's 2% target. Today it has been above target for more than five years, and Warsh, who took over in May, has said the Fed will not accept inflation that stays even modestly above 2%.",
-    "That leaves little room for a 2019-style retreat. Core PCE inflation, which excludes food and energy, rose to 3.3% in October from 3.1% in September, well up from a low of 2.6% in March 2025, before broad US tariffs took effect. Fed officials are increasingly worried that AI is driving a surge in demand that, unlike an oil or tariff shock, will not fade on its own. New York Fed President John Williams has said his main concern is the strength of AI-related demand rather than past supply shocks.",
-    "Some see the market slide as part of the cure rather than a problem. Lower stock prices are one of the channels through which higher rates slow spending. Former Boston Fed President Eric Rosengren put it bluntly: \"If you want to slow down the economy, you have to slow down AI investment.\" Officials are also wary of reinforcing the \"Fed put\", the belief that the central bank will cushion every selloff.",
-    "That does not mean markets are irrelevant. A sustained decline would weigh on household spending and make it harder for companies to raise money, which could reduce how far the Fed needs to go. Williams has said a material and sustained change in financial conditions would affect his outlook, but he saw recent swings as volatility rather than a fundamental reassessment of AI. A disorderly selloff is the bigger worry, especially in credit. Michelle Bowman, the Fed's Vice Chair for Supervision, has said AI-related debt is on track to top $800 billion this year, with off-balance-sheet commitments estimated at more than three times that.",
-    "Investors overwhelmingly expect another hike at the December 8-9 meeting, after the Fed raised rates in September. The debate is over what comes next. Some officials could favour stopping after one more move if falling commodity prices ease inflation. Others take a more hawkish view. St. Louis Fed President Alberto Musalem has argued that three more hikes next year could be warranted, and Williams has not ruled out consecutive increases.",
-    "Warsh's own record offers mixed signals. He has long argued the Fed should pay more attention to market prices than to lagging data. Yet in October 2018 he said the Fed should not fret over a 10% drop in stocks, only to call for a pause ten weeks later. How he weighs a deeper rout against stubborn inflation may become the defining test of his early tenure."
-   ]
-  },
-  {
-   "ts": 1795746298.0,
-   "title": "RBI buys no gold for six months but brings another 60 tonnes home",
-   "src": "investingLive",
-   "link": "https://investinglive.com/commodities/rbi-buys-no-gold-for-six-months-but-brings-another-60-tonnes-home/",
-   "t": "27 Nov \u00b7 07:24 AM",
-   "body": [
-    "For gold, the RBI's pause matters more than the repatriation. Central bank buying has been one of the pillars of the long rally, and a year without additions from one of the biggest official buyers weakens that support just as prices struggle to find a floor. Moving gold home doesn't affect global supply or demand, though it does underline the trend among central banks of keeping reserves within their own borders. A return to buying by the RBI would be a meaningful positive for sentiment. The rupee is likely to dictate the timing, since the central bank has prioritised currency stability. Future monthly reserve data will show whether buying resumes.",
-    "India's central bank has added virtually no gold in a year, holding steady at 880 tonnes, but it keeps bringing its bullion home, with about 84% now stored in India as falling prices shrink gold's share of reserves.",
-    "The Reserve Bank of India bought no gold in the six months to the end of September, but it kept bringing its existing bullion home, shifting around 60 tonnes from overseas vaults to domestic storage, according to its latest half-yearly report on foreign exchange reserves (dated November 25).",
-    "The RBI held 880.52 tonnes of gold at the end of September, exactly the same as at the end of March and virtually unchanged from a year earlier. Of that total, 740.13 tonnes were held in India, while 140.39 tonnes were in safe custody with the Bank of England and the Bank for International Settlements. Six months earlier, about 680 tonnes were stored domestically and close to 198 tonnes abroad, with a further 2.8 tonnes held as gold deposits.",
-    "Based on calculations from the RBI's data, roughly 84% of India's gold reserves now sit at home, up from about 77% at the end of March. In March 2024, less than half was held domestically. The central bank brought home around 168 tonnes in the 2025/26 fiscal year alone, after moving just over 100 tonnes in each of the two previous years.",
-    "The repatriation changes where the gold is kept, not how much the RBI owns, so it adds nothing to demand for the metal. The more telling signal for gold markets is the absence of fresh buying. India was among the steady central bank buyers that helped drive gold's long rally. A pause by a buyer of its size takes away one source of support at a time when prices are already under pressure.",
-    "The value of the RBI's gold fell to about $106 billion at the end of September from around $115 billion in March, cutting gold's share of India's total foreign exchange reserves to about 14.4% from 16.7%. Prices drove the decline. The RBI said gold averaged about $4,721 an ounce in April and around $4,319 in September, a drop of roughly 9%, as rising US Treasury yields, a stronger dollar and expectations of tighter monetary policy outweighed safe-haven demand.",
-    "The pause also fits the RBI's other priorities. The central bank has intervened heavily to support the rupee through a difficult year marked by an oil price shock and capital outflows. With currency stability at the top of its agenda, adding to gold holdings appears to have taken a back seat, even as it continues to secure the bullion it already owns."
    ]
   }
  ],
