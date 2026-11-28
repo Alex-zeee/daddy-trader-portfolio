@@ -1,14 +1,13 @@
 {
- "updated": "28-11-2026 10:16 PKT",
+ "updated": "28-11-2026 10:31 PKT",
  "gold": {
-  "price": 3654.58,
-  "open": 3650.45,
+  "price": 3654.53,
+  "open": 3653.62,
   "high": 3684.87,
   "low": 3617.16,
-  "chg": 0.11,
+  "chg": 0.03,
   "src": "XAUUSD Spot",
   "spark": [
-   3635.22,
    3647.6,
    3648.62,
    3641.81,
@@ -55,7 +54,8 @@
    3654.58,
    3654.55,
    3654.45,
-   3654.58
+   3654.59,
+   3654.53
   ]
  },
  "markets": [
@@ -235,10 +235,9 @@
   },
   {
    "name": "USD/JPY",
-   "price": 159.281,
-   "chg": 0.04,
+   "price": 159.515,
+   "chg": 0.15,
    "spark": [
-    157.833,
     157.804,
     157.677,
     157.915,
@@ -259,13 +258,14 @@
     159.009,
     159.262,
     159.215,
-    159.281
+    159.281,
+    159.515
    ]
   },
   {
    "name": "Ethereum",
-   "price": 1656.4,
-   "chg": -0.27,
+   "price": 1654.7,
+   "chg": -0.37,
    "spark": [
     1685.38,
     1687.84,
@@ -314,13 +314,13 @@
     1662.64,
     1664.15,
     1661.38,
-    1656.4
+    1654.7
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59743.1,
-   "chg": -0.2,
+   "price": 59691.7,
+   "chg": -0.29,
    "spark": [
     60475.7,
     60454.9,
@@ -369,7 +369,7 @@
     59908.8,
     59965.8,
     59938.3,
-    59743.1
+    59654.0
    ]
   }
  ],
@@ -426,32 +426,32 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795843009.205126,
+   "ts": 1795843910.155977,
    "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-disables-ship-trying-to-leave-iran-as-tehran-vows-to-confront-blockade-5053767",
-   "t": "28 Nov \u00b7 10:16 AM"
+   "t": "28 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795843009.205126,
+   "ts": 1795843910.155977,
    "title": "Gold jumps 3% after hitting 15-month low earlier this week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805",
-   "t": "28 Nov \u00b7 10:16 AM"
+   "t": "28 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795843009.205126,
+   "ts": 1795843910.155977,
    "title": "Has silver fallen too far? UBS sees buying opportunity after sharp selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/has-silver-fallen-too-far-ubs-sees-buying-opportunity-after-sharp-selloff-5053590",
-   "t": "28 Nov \u00b7 10:16 AM"
+   "t": "28 Nov \u00b7 10:31 AM"
   },
   {
-   "ts": 1795843009.205126,
+   "ts": 1795843910.155977,
    "title": "Bernstein outlines bullish roadmap for gold heading into 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/bernstein-outlines-bullish-roadmap-for-gold-heading-into-2027-5053548",
-   "t": "28 Nov \u00b7 10:16 AM"
+   "t": "28 Nov \u00b7 10:31 AM"
   },
   {
    "ts": 1795784003.0,
@@ -600,6 +600,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 4/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 503: Service Unavailable"
  ]
 }
