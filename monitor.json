@@ -1,14 +1,13 @@
 {
- "updated": "28-11-2026 21:46 PKT",
+ "updated": "28-11-2026 22:01 PKT",
  "gold": {
-  "price": 3654.6,
-  "open": 3635.98,
+  "price": 3654.55,
+  "open": 3633.78,
   "high": 3657.13,
   "low": 3629.68,
-  "chg": 0.51,
+  "chg": 0.57,
   "src": "XAUUSD Spot",
   "spark": [
-   3654.45,
    3654.59,
    3654.57,
    3654.57,
@@ -55,7 +54,8 @@
    3654.6,
    3654.55,
    3654.49,
-   3654.6
+   3654.6,
+   3654.55
   ]
  },
  "markets": [
@@ -264,10 +264,9 @@
   },
   {
    "name": "Ethereum",
-   "price": 1650.3,
-   "chg": -0.64,
+   "price": 1654.61,
+   "chg": -0.38,
    "spark": [
-    1692.27,
     1698.13,
     1702.24,
     1702.64,
@@ -314,15 +313,15 @@
     1639.98,
     1646.56,
     1649.64,
-    1650.3
+    1652.22,
+    1654.61
    ]
   },
   {
    "name": "Bitcoin",
-   "price": 59498.4,
-   "chg": -0.61,
+   "price": 59571.4,
+   "chg": -0.49,
    "spark": [
-    60454.9,
     60402.7,
     60638.5,
     60682.4,
@@ -369,7 +368,8 @@
     59051.6,
     59269.3,
     59454.8,
-    59498.4
+    59546.6,
+    59571.4
    ]
   }
  ],
@@ -426,39 +426,39 @@
  "cal_mode": "past",
  "news": [
   {
-   "ts": 1795884408.740408,
+   "ts": 1795885307.289609,
    "title": "From bonds to gold: UBS outlines how to build resilient portfolios for 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/from-bonds-to-gold-ubs-outlines-how-to-build-resilient-portfolios-for-2027-5054313",
-   "t": "28 Nov \u00b7 09:46 PM"
+   "t": "28 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795884408.740408,
+   "ts": 1795885307.289609,
    "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/us-disables-ship-trying-to-leave-iran-as-tehran-vows-to-confront-blockade-5053767",
-   "t": "28 Nov \u00b7 09:46 PM"
+   "t": "28 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795884408.740408,
+   "ts": 1795885307.289609,
    "title": "Gold jumps 3% after hitting 15-month low earlier this week",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805",
-   "t": "28 Nov \u00b7 09:46 PM"
+   "t": "28 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795884408.740408,
+   "ts": 1795885307.289609,
    "title": "Has silver fallen too far? UBS sees buying opportunity after sharp selloff",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/has-silver-fallen-too-far-ubs-sees-buying-opportunity-after-sharp-selloff-5053590",
-   "t": "28 Nov \u00b7 09:46 PM"
+   "t": "28 Nov \u00b7 10:01 PM"
   },
   {
-   "ts": 1795884408.740408,
+   "ts": 1795885307.289609,
    "title": "Bernstein outlines bullish roadmap for gold heading into 2027",
    "src": "Investing.com",
    "link": "https://www.investing.com/news/commodities-news/bernstein-outlines-bullish-roadmap-for-gold-heading-into-2027-5053548",
-   "t": "28 Nov \u00b7 09:46 PM"
+   "t": "28 Nov \u00b7 10:01 PM"
   },
   {
    "ts": 1795784003.0,
@@ -592,6 +592,7 @@
   "FXStreet: HTTP Error 403: Forbidden",
   "article: 5/10 no body",
   "ff-tweets https://www.forexfactory.com/rss: not well-formed (invalid token): line 1, column 2197",
-  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282"
+  "ff-tweets https://www.forexfactory.com/news/rss: not well-formed (invalid token): line 1, column 2282",
+  "ff-tweets google-news: HTTP Error 429: Too Many Requests"
  ]
 }
